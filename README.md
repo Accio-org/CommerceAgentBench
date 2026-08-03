@@ -25,7 +25,23 @@
   <a href="https://realreplicabench.site.accio.ai/">Live leaderboard</a> ·
   <a href="https://realreplicabench-mock-showcase.site.accio.ai/">Mock showcase</a> ·
   <a href="#quick-start">Quick start</a> ·
-  <a href="#reproducibility-contract">Reproducibility</a>
+  <a href="#reproducibility-contract">Reproducibility</a> ·
+  <a href="#get-your-model-evaluated-or-work-with-us">Contact</a>
+</p>
+
+<p align="center">
+  <a href="#get-your-model-evaluated-or-work-with-us">
+    <img alt="Get your model evaluated on RealReplicaBench" src="https://img.shields.io/badge/%E2%9C%89%20Get%20your%20model%20evaluated-047857?style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="#get-your-model-evaluated-or-work-with-us">
+    <img alt="Collaborate with the Accio team on RealReplicaBench" src="https://img.shields.io/badge/%F0%9F%A4%9D%20Collaborate-059669?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center">
+  <sub>We run models on request, including pre-release and internal builds —
+  and we are open to working together on the benchmark.</sub>
 </p>
 
 ---
@@ -104,52 +120,64 @@ time, and tokens are descriptive telemetry: tool granularity, runtime
 scheduling, and provider usage accounting differ, so these values are not
 normalized efficiency scores.
 
+🥇🥈🥉 mark the top three within each harness. The bar in the Pass column is
+drawn on a fixed 0–100% scale, not normalized to the leader, so bar lengths
+are directly comparable between the two tables.
+
 #### OpenClaw
 
 | Model | Pass | Avg. capacity | Avg. steps | Avg. time | Avg. tokens |
-|---|---:|---:|---:|---:|---:|
-| Claude Opus 5 | 60/107 (56.1%) | 0.905 | 47.7 | 12.7 min | 3.47M |
-| Claude Opus 4.8 | 55/107 (51.4%) | 0.860 | 47.6 | 16.4 min | 4.05M |
-| GPT-5.6 Sol | 53/107 (49.5%) | 0.855 | 28.6 | 14.4 min | 2.09M |
-| GPT-5.5 | 51/107 (47.7%) | 0.835 | 37.1 | 12.7 min | 2.85M |
-| Claude Opus 4.7 | 49/107 (45.8%) | 0.871 | 47.4 | 14.3 min | 4.10M |
-| Qwen 3.8 Max Preview | 48/107 (44.9%) | 0.822 | 40.6 | 18.9 min | 2.13M |
-| Gemini 3.6 Flash | 48/107 (44.9%) | 0.867 | 46.3 | 13.5 min | 3.28M |
-| DeepSeek V4 Flash | 46/107 (43.0%) | 0.827 | 137.8 | 19.2 min | 11.04M |
-| GLM 5.2 | 42/107 (39.3%) | 0.814 | 56.9 | 14.8 min | 3.12M |
-| Gemini 3.5 Flash | 39/107 (36.4%) | 0.798 | 63.9 | 17.9 min | 5.54M |
-| GPT-5.6 Luna | 36/107 (33.6%) | 0.797 | 27.5 | 12.2 min | 1.81M |
-| Gemini 3 Flash | 31/107 (29.0%) | 0.744 | 45.1 | 16.1 min | 3.09M |
+|---|:--|---:|---:|---:|---:|
+| 🥇 Claude Opus 5 | `███████████░░░░░░░░░` 60/107 (56.1%) | 0.905 | 47.7 | 12.7 min | 3.47M |
+| 🥈 Claude Opus 4.8 | `██████████░░░░░░░░░░` 55/107 (51.4%) | 0.860 | 47.6 | 16.4 min | 4.05M |
+| 🥉 GPT-5.6 Sol | `██████████░░░░░░░░░░` 53/107 (49.5%) | 0.855 | 28.6 | 14.4 min | 2.09M |
+| GPT-5.5 | `██████████░░░░░░░░░░` 51/107 (47.7%) | 0.835 | 37.1 | 12.7 min | 2.85M |
+| Claude Opus 4.7 | `█████████░░░░░░░░░░░` 49/107 (45.8%) | 0.871 | 47.4 | 14.3 min | 4.10M |
+| Qwen 3.8 Max Preview | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.822 | 40.6 | 18.9 min | 2.13M |
+| Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.867 | 46.3 | 13.5 min | 3.28M |
+| DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 0.827 | 137.8 | 19.2 min | 11.04M |
+| GLM 5.2 | `████████░░░░░░░░░░░░` 42/107 (39.3%) | 0.814 | 56.9 | 14.8 min | 3.12M |
+| Gemini 3.5 Flash | `███████░░░░░░░░░░░░░` 39/107 (36.4%) | 0.798 | 63.9 | 17.9 min | 5.54M |
+| GPT-5.6 Luna | `███████░░░░░░░░░░░░░` 36/107 (33.6%) | 0.797 | 27.5 | 12.2 min | 1.81M |
+| Gemini 3 Flash | `██████░░░░░░░░░░░░░░` 31/107 (29.0%) | 0.744 | 45.1 | 16.1 min | 3.09M |
 
 #### Accio
 
 | Model | Pass | Avg. capacity | Avg. steps | Avg. time | Avg. tokens |
-|---|---:|---:|---:|---:|---:|
-| Claude Opus 5 | 66/107 (61.7%) | 0.861 | 63.2 | 10.1 min | 3.69M |
-| Claude Opus 4.8 | 59/107 (55.1%) | 0.886 | 67.4 | 11.6 min | 4.82M |
-| Claude Opus 4.7 | 56/107 (52.3%) | 0.878 | 61.5 | 6.4 min | 4.32M |
-| GPT-5.6 Sol | 55/107 (51.4%) | 0.873 | 53.0 | 5.5 min | 1.85M |
-| Gemini 3.6 Flash | 50/107 (46.7%) | 0.815 | 47.7 | 4.6 min | 2.62M |
-| GLM 5.2 | 50/107 (46.7%) | 0.787 | 81.0 | 10.8 min | 3.62M |
-| DeepSeek V4 Flash | 50/107 (46.7%) | 0.838 | 84.0 | 10.0 min | 5.35M |
-| Qwen 3.8 Max Preview | 49/107 (45.8%) | 0.856 | 69.8 | 12.7 min | 2.51M |
-| GPT-5.5 | 48/107 (44.9%) | 0.864 | 45.3 | 4.5 min | 1.44M |
-| GPT-5.6 Luna | 48/107 (44.9%) | 0.809 | 66.0 | 5.7 min | 2.49M |
-| Gemini 3.5 Flash | 46/107 (43.0%) | 0.821 | 91.2 | 9.0 min | 4.80M |
-| Kimi K3 | 43/107 (40.2%) | 0.832 | 61.5 | 13.8 min | 2.31M |
-| Gemini 3 Flash | 31/107 (29.0%) | 0.769 | 46.0 | 4.5 min | 2.48M |
+|---|:--|---:|---:|---:|---:|
+| 🥇 Claude Opus 5 | `████████████░░░░░░░░` 66/107 (61.7%) | 0.861 | 63.2 | 10.1 min | 3.69M |
+| 🥈 Claude Opus 4.8 | `███████████░░░░░░░░░` 59/107 (55.1%) | 0.886 | 67.4 | 11.6 min | 4.82M |
+| 🥉 Claude Opus 4.7 | `██████████░░░░░░░░░░` 56/107 (52.3%) | 0.878 | 61.5 | 6.4 min | 4.32M |
+| GPT-5.6 Sol | `██████████░░░░░░░░░░` 55/107 (51.4%) | 0.873 | 53.0 | 5.5 min | 1.85M |
+| Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.815 | 47.7 | 4.6 min | 2.62M |
+| GLM 5.2 | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.787 | 81.0 | 10.8 min | 3.62M |
+| DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.838 | 84.0 | 10.0 min | 5.35M |
+| Qwen 3.8 Max Preview | `█████████░░░░░░░░░░░` 49/107 (45.8%) | 0.856 | 69.8 | 12.7 min | 2.51M |
+| GPT-5.5 | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.864 | 45.3 | 4.5 min | 1.44M |
+| GPT-5.6 Luna | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.809 | 66.0 | 5.7 min | 2.49M |
+| Gemini 3.5 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 0.821 | 91.2 | 9.0 min | 4.80M |
+| Kimi K3 | `████████░░░░░░░░░░░░` 43/107 (40.2%) | 0.832 | 61.5 | 13.8 min | 2.31M |
+| Gemini 3 Flash | `██████░░░░░░░░░░░░░░` 31/107 (29.0%) | 0.769 | 46.0 | 4.5 min | 2.48M |
 
 The raw task-level result bundles are not stored in Git and do not yet have
 public immutable URLs or checksums. Until they do, the published board is an
 audited aggregate keyed by public result IDs, not a standalone reproduction
 package.
 
-### Get your model on the leaderboard
+### Get your model evaluated, or work with us
 
-We run models on request, including **pre-release and internal builds**, and
-can evaluate privately against your own checkpoint before you ship it. Reach
-out: Yukun Lian, <lianyukun.lyk@alibaba-inc.com>; Sicong Xie,
-<sicong.xsc@alibaba-inc.com>.
+> [!TIP]
+> **We run models on request**, including pre-release and internal builds, and
+> can evaluate privately against your own checkpoint before you ship it.
+>
+> **We are also open to collaboration** — new task domains, mock environments,
+> harness work, or joint evaluation. Tell us what you have in mind.
+>
+> [![Email Yukun Lian](https://img.shields.io/badge/Yukun%20Lian-lianyukun.lyk%40alibaba--inc.com-059669?style=for-the-badge)](mailto:lianyukun.lyk@alibaba-inc.com)
+> [![Email Sicong Xie](https://img.shields.io/badge/Sicong%20Xie-sicong.xsc%40alibaba--inc.com-047857?style=for-the-badge)](mailto:sicong.xsc@alibaba-inc.com)
+>
+> Prefer to copy rather than click: `lianyukun.lyk@alibaba-inc.com` ·
+> `sicong.xsc@alibaba-inc.com`
 
 ### Metrics
 
@@ -226,24 +254,34 @@ files under `datasets_domain_v1/`.
 
 ### Provider routes
 
-| Route | Configuration | Wire protocol | Credentials |
-|---|---|---|---|
-| Native Gemini | `configs/realreplicabench_openclaw_native_google_direct.yaml` | Gemini `generateContent` | `GEMINI_API_KEY` |
-| Native Qwen / DashScope | `configs/realreplicabench_openclaw_qwen37plus_native.yaml` | DashScope OpenAI-compatible chat completions | `DASHSCOPE_API_KEY` |
-| OpenRouter | `configs/realreplicabench_openclaw.yaml` | OpenRouter chat completions through the bundled shim | `OPENROUTER_API_KEY` |
-| Qwen through OpenRouter | `configs/realreplicabench_openclaw_qwen37plus_openrouter.yaml` | OpenRouter chat completions through the bundled shim | `OPENROUTER_API_KEY` |
-| Custom native Gemini endpoint | `configs/realreplicabench_openclaw_native_google.yaml` | Gemini `generateContent` | Provider-specific |
-| Your own OpenAI Chat endpoint | `configs/realreplicabench_openclaw_openai_chat.yaml` | OpenAI `/v1/chat/completions` | `OPENAI_API_KEY`, or your endpoint's env var |
-| Your own OpenAI Responses endpoint | `configs/realreplicabench_openclaw_openai_responses.yaml` | OpenAI `/v1/responses` | `OPENAI_API_KEY`, or your endpoint's env var |
-| Your own Anthropic endpoint | `configs/realreplicabench_openclaw_anthropic_messages.yaml` | Anthropic `/v1/messages` | `ANTHROPIC_API_KEY`, or your endpoint's env var |
-| Your own Gemini proxy | `configs/realreplicabench_openclaw_custom_gemini.yaml` | Gemini `generateContent` | `CUSTOM_GEMINI_BASE_URL` + `CUSTOM_GEMINI_API_KEY` |
+Every route is one config file in `configs/`, all named
+`realreplicabench_openclaw<suffix>.yaml`. The tables list the suffix.
 
-The last four rows are **bring-your-own-endpoint** templates: they point
-OpenClaw at any base URL you control that speaks one of the four common LLM
-wire formats, so you can evaluate a self-hosted or pre-release model. Override
-the endpoint with `baseUrl` in the models JSON, `--openclaw-provider-base-url`
-(`--openclaw-base-url` for OpenRouter), or `--openclaw-api` to skip the preset
-entirely — see [`docs/openclaw-byo-endpoint.md`](docs/openclaw-byo-endpoint.md).
+**Managed routes** — a provider's own API, billed to that provider's key.
+
+| Route | Suffix | Wire protocol | Credentials |
+|---|---|---|---|
+| Native Gemini | `_native_google_direct` | Gemini `generateContent` | `GEMINI_API_KEY` |
+| Native Qwen / DashScope | `_qwen37plus_native` | DashScope OpenAI-compatible | `DASHSCOPE_API_KEY` |
+| OpenRouter | *(none)* | OpenRouter chat, bundled shim | `OPENROUTER_API_KEY` |
+| Qwen through OpenRouter | `_qwen37plus_openrouter` | OpenRouter chat, bundled shim | `OPENROUTER_API_KEY` |
+| Custom native Gemini | `_native_google` | Gemini `generateContent` | Provider-specific |
+
+**Bring your own endpoint** — point OpenClaw at any base URL you control that
+speaks one of these four wire formats, and evaluate a self-hosted or
+pre-release model.
+
+| Wire format | Suffix | Credentials |
+|---|---|---|
+| OpenAI `/v1/chat/completions` | `_openai_chat` | `OPENAI_API_KEY`, or your endpoint's var |
+| OpenAI `/v1/responses` | `_openai_responses` | `OPENAI_API_KEY`, or your endpoint's var |
+| Anthropic `/v1/messages` | `_anthropic_messages` | `ANTHROPIC_API_KEY`, or your endpoint's var |
+| Gemini `generateContent` | `_custom_gemini` | `CUSTOM_GEMINI_BASE_URL` + `CUSTOM_GEMINI_API_KEY` |
+
+Override the endpoint with `baseUrl` in the models JSON,
+`--openclaw-provider-base-url` (`--openclaw-base-url` for OpenRouter), or
+`--openclaw-api` to skip the preset entirely — see
+[`docs/openclaw-byo-endpoint.md`](docs/openclaw-byo-endpoint.md).
 
 The judge is configured independently of the agent, on Gemini `generateContent`
 or the OpenAI Responses API. Six tasks include LLM-assisted checks; keep the
@@ -345,9 +383,9 @@ the repository directly:
 
 ```bibtex
 @misc{Lian2026RealReplicaBench,
-    author={Yukun Lian and Lei Wei and Sicong Xie and Kesu Wang and Hongyu Li
-            and Chenhao Jiang and Lanbo Lin and Tianyuan Yang and Xiaoyu Guo
-            and Li Cai and Jialong Zhu},
+    author={Yukun Lian and Lei Wei and Sicong Xie and Guannan Zhang and Kesu
+            Wang and Hongyu Li and Chenhao Jiang and Lanbo Lin and Tianyuan
+            Yang and Xiaoyu Guo and Li Cai and Jialong Zhu},
     title={RealReplicaBench: A Stateful Agent Benchmark for Long-Horizon Commerce and Business Workflows},
     note={GitHub repository, v1.3.1},
     howpublished={\url{https://github.com/Accio-Lab/RealReplicaBench}},

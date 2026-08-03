@@ -14,9 +14,9 @@ the v1 task suite. Every service registered in
 core-team work. Listed in author order, matching
 [`CITATION.cff`](CITATION.cff), which is the source of record for it.
 
-**Yukun Lian** · **Lei Wei** · **Sicong Xie** · **Kesu Wang** ·
-**Hongyu Li** · **Chenhao Jiang** · **Lanbo Lin** · **Tianyuan Yang** ·
-**Xiaoyu Guo** · **Li Cai** · **Jialong Zhu**
+**Yukun Lian** · **Lei Wei** · **Sicong Xie** · **Guannan Zhang** ·
+**Kesu Wang** · **Hongyu Li** · **Chenhao Jiang** · **Lanbo Lin** ·
+**Tianyuan Yang** · **Xiaoyu Guo** · **Li Cai** · **Jialong Zhu**
 
 ## Mock environments
 
