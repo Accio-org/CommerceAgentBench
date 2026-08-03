@@ -1,0 +1,107 @@
+{
+  "task_id": "browser-gmail-returns-escalation",
+  "label": {
+    "name": "ESC-884",
+    "parent_name": "Returns"
+  },
+  "label_required_message_ids": [
+    "ret-002-customer-proof",
+    "ret-003-carrier",
+    "ret-004-finance-cap",
+    "ret-005-support",
+    "ret-006-warehouse-waiting"
+  ],
+  "label_forbidden_message_ids": [
+    "ret-007-fake-courier",
+    "ret-008-old-rma",
+    "ret-009-newsletter"
+  ],
+  "mark_read_message_ids": [
+    "ret-002-customer-proof",
+    "ret-003-carrier",
+    "ret-004-finance-cap",
+    "ret-005-support",
+    "ret-006-warehouse-waiting"
+  ],
+  "star_required_message_ids": [
+    "ret-002-customer-proof",
+    "ret-003-carrier",
+    "ret-004-finance-cap"
+  ],
+  "star_forbidden_message_ids": [
+    "ret-006-warehouse-waiting",
+    "ret-007-fake-courier",
+    "ret-008-old-rma",
+    "ret-009-newsletter"
+  ],
+  "messages_in_spam": [
+    "ret-007-fake-courier"
+  ],
+  "messages_snoozed": [
+    "ret-006-warehouse-waiting"
+  ],
+  "contacts": [
+    {
+      "email": "mira.kwan@rapidcarrier.test",
+      "name_all": [
+        "Mira",
+        "Kwan"
+      ],
+      "phone": "+852 5550 8841",
+      "notes_all": [
+        "ESC-884",
+        "RapidCarrier",
+        "RC-884"
+      ]
+    }
+  ],
+  "scheduled_messages": [
+    {
+      "id": "dana-status",
+      "to": [
+        "dana.park@auroraretail.test"
+      ],
+      "subject_all": [
+        "ESC-884",
+        "status"
+      ],
+      "body_all": [
+        "serial",
+        "AUR-HUM-1198",
+        "AUR-HUM-1189",
+        "RC-884",
+        "129.40"
+      ],
+      "scheduled_all": [
+        "2025-06-20",
+        "08:30"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "pod-followup",
+      "title_all": [
+        "RC-884",
+        "POD"
+      ],
+      "details_all": [
+        "Mira",
+        "lost scan",
+        "HKG-03"
+      ],
+      "due_any": [
+        "今天",
+        "today",
+        "2025-06-19"
+      ]
+    }
+  ],
+  "required_ui_events": {
+    "label_created": 1,
+    "message_action": 5,
+    "contact_created": 1,
+    "message_scheduled": 1,
+    "task_created": 1
+  }
+}

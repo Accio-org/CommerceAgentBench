@@ -1,0 +1,63 @@
+#!/usr/bin/env bun
+import { openDb } from "../lib/db.mjs";
+import { createState } from "../state.mjs";
+import { writeSync as __ccbWriteSyncFd } from "node:fs";
+// Flush-safe stdout: process.exit() discards un-flushed async pipe writes
+// (verifier state JSON >64KB was truncated through the daemon). writeSync
+// to fd 1 is synchronous in both node and bun.
+const __ccbOut = (s) => { try { __ccbWriteSyncFd(1, s); } catch (e) {} };
+
+const VERIFIER_TOKEN = process.env.MOCK_VERIFIER_TOKEN || "bench-verifier";
+
+function argValue(args, name) {
+  const idx = args.indexOf(name);
+  return idx >= 0 ? args[idx + 1] : null;
+}
+
+function requireToken(args) {
+  const token = argValue(args, "--token");
+  const internalToken = process.env.CCB_INTERNAL_BENCH_TOKEN || "";
+  if (internalToken === VERIFIER_TOKEN || token === VERIFIER_TOKEN) return;
+  process.stderr.write("Error: invalid or missing --token\n");
+  process.exit(1);
+}
+
+function writeJson(obj) {
+  __ccbOut(JSON.stringify(obj, null, 2) + "\n");
+}
+
+const args = process.argv.slice(2);
+const command = args[0];
+const db = openDb();
+const state = createState(db);
+
+switch (command) {
+  case "health": {
+    const snapshot = state.getState();
+    writeJson({
+      status: "ok",
+      spreadsheets: Object.keys(snapshot.spreadsheets).length,
+      presentations: Object.keys(snapshot.presentations).length,
+    });
+    break;
+  }
+  case "state": {
+    requireToken(args);
+    writeJson({ db: state.getState() });
+    break;
+  }
+  case "audit": {
+    requireToken(args);
+    writeJson({ audit: state.getAudit() });
+    break;
+  }
+  case "reset": {
+    requireToken(args);
+    state.reset();
+    writeJson({ status: "ok", message: "reset" });
+    break;
+  }
+  default:
+    process.stderr.write(`Unknown command: ${command || "(none)"}\nUsage: gws-bench {health|state|audit|reset} [--token T]\n`);
+    process.exit(1);
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-gmail-launch-triage",
+  "summary": "Gmail mock browser task: stateful inbox triage, nested label creation, message actions, drafts, tasks, and calendar event.",
+  "category": "gmail_browser_ui",
+  "state_kind": "runtime_mock_browser",
+  "difficulty": "hard",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Environment ready: verifier-authenticated Gmail mock state and event log are readable, and the mutation path/UI-evidence diagnostics resolve."
+    },
+    {
+      "id": "nested_label_created",
+      "check_type": "deterministic_exact",
+      "description": "A user label named ALP-26 exists under parent label Launch."
+    },
+    {
+      "id": "action_set_triaged",
+      "check_type": "deterministic_exact",
+      "description": "Every expected current ALP-26 action message carries the new label and is marked read."
+    },
+    {
+      "id": "noise_excluded_from_label",
+      "check_type": "deterministic_exact",
+      "description": "Stale, ALP-25, near-domain, and generic noise messages do not have the ALP-26 label."
+    },
+    {
+      "id": "blockers_starred_exactly",
+      "check_type": "deterministic_exact",
+      "description": "The four true blocker messages are starred and no old-logistics / ALP-25 / near-domain / subscription decoy is starred."
+    },
+    {
+      "id": "no_messages_sent",
+      "check_type": "deterministic_exact",
+      "description": "No message_sent event exists; task requires saved drafts only."
+    },
+    {
+      "id": "required_drafts_saved",
+      "check_type": "deterministic_semantic",
+      "description": "Five drafts exist with expected recipients, subjects, and body facts."
+    },
+    {
+      "id": "required_tasks_created",
+      "check_type": "deterministic_semantic",
+      "description": "Two today-due follow-up tasks exist with expected titles/details."
+    },
+    {
+      "id": "calendar_event_created",
+      "check_type": "deterministic_semantic",
+      "description": "A 2025-06-19 16:00-17:00 ALP-26 blocker review calendar event exists with expected guests and agenda facts."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": []
+  }
+}

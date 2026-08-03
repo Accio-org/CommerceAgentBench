@@ -1,0 +1,13 @@
+filename,type,description,background,applicable_variants
+main_white_solo.jpg,main,ThermoJet Solo stove unit on white background,white,Solo
+main_white_kit.jpg,main,ThermoJet Kit with windscreen and bag on white background,white,Kit
+main_white_pro.jpg,main,ThermoJet Pro complete set on white background,white,Pro
+lifestyle_camping_01.jpg,lifestyle,Stove in use at campsite during sunrise,natural,all
+lifestyle_camping_02.jpg,lifestyle,Close-up of boiling water on ThermoJet stove,natural,all
+lifestyle_hiking_01.jpg,lifestyle,Backpacker on trail with ThermoJet in pack,natural,all
+detail_burner_01.jpg,detail,Close-up of titanium alloy burner head,white,all
+detail_piezo_01.jpg,detail,Piezo electric ignition mechanism detail,white,all
+detail_potset_01.jpg,detail,Titanium pot set components (750ml and 450ml),white,Pro
+detail_windscreen_01.jpg,detail,Integrated windscreen accessory,white,"Kit,Pro"
+detail_carrybag_01.jpg,detail,Carry bag with IPX4 water resistance label,white,"Kit,Pro"
+infographic_specs_01.jpg,infographic,Technical specifications comparison chart for all tiers,white,all

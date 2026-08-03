@@ -1,0 +1,62 @@
+{
+  "expected_fields": {
+    "category": "Home & Garden > Kitchen,Dining & Bar > Cooking Tool Sets",
+    "saleMode": "Domestic Shipping",
+    "productTitle": "Premium 12-Piece Silicone Kitchen Utensil Set Heat Resistant Non-Stick Cooking Tools with Wooden Handle BPA Free Kitchenware",
+    "keyword_1": "silicone kitchen utensils",
+    "keyword_2": "cooking tool set wooden handle",
+    "keyword_3": "non-stick kitchen gadgets",
+    "productGroup": "Kitchen Supplies",
+    "attr_usage": "Kitchen Cooking",
+    "attr_productType": "Kitchenware Set",
+    "attr_instructions": "Heat resistant up to 230°C; not for direct open flame; dishwasher safe",
+    "attr_brand": "HomeCraft",
+    "attr_model": "HC-SK12",
+    "attr_material": "Food-grade silicone + natural beechwood",
+    "attr_diameter": "Storage bucket diameter 110mm",
+    "attr_shape": "Multi-shape mixed set",
+    "saleType": "Per Set",
+    "priceUnit": "Set",
+    "priceMode": "ladder",
+    "fobType": "FOB Ningbo",
+    "fobPriceMin": "8.50",
+    "fobPriceMax": "15.00",
+    "minOrderQuantity": "200",
+    "inventory": "50000",
+    "productVisible": "no",
+    "descType": "custom",
+    "agreement": "true",
+    "selectedCountries": "[{\"code\": \"US\", \"name\": \"United States\"}, {\"code\": \"CA\", \"name\": \"Canada\"}, {\"code\": \"UK\", \"name\": \"United Kingdom\"}, {\"code\": \"DE\", \"name\": \"Germany\"}, {\"code\": \"FR\", \"name\": \"France\"}, {\"code\": \"AU\", \"name\": \"Australia\"}, {\"code\": \"JP\", \"name\": \"Japan\"}]",
+    "ladderPrice": "[{\"quantity\": \"200-499\", \"price\": \"15.00\"}, {\"quantity\": \"500-1999\", \"price\": \"12.00\"}, {\"quantity\": \"2000-9999\", \"price\": \"9.50\"}, {\"quantity\": \"10000+\", \"price\": \"8.50\"}]",
+    "deliveryPeriod": "[{\"quantity\": \"200-500\", \"days\": \"10\"}, {\"quantity\": \"501-2000\", \"days\": \"20\"}, {\"quantity\": \"2001-10000\", \"days\": \"35\"}]"
+  },
+  "required_files": [
+    "image_1",
+    "image_2",
+    "image_3",
+    "image_4",
+    "image_5",
+    "image_6"
+  ],
+  "json_fields": [
+    "deliveryPeriod",
+    "ladderPrice",
+    "selectedCountries"
+  ],
+  "image_selection": {
+    "correct_files": [
+      "IMG_3375.jpg",
+      "IMG_3377.jpg",
+      "IMG_3379.jpg",
+      "IMG_3382.jpg",
+      "IMG_3386.jpg",
+      "IMG_3390.jpg"
+    ],
+    "wrong_files": [
+      "IMG_3373.jpg",
+      "IMG_3384.jpg"
+    ],
+    "note": "IMG_3375/3377/3379/3382/3386/3390 are proper product photos. IMG_3384 is a blurry/unusable test shot, IMG_3373 is an internal QC-PASSED box label not suitable for listing. Filenames are neutral (requires_vision=true) — agent must view images to judge suitability."
+  },
+  "notes": "Each each expected_fields entry as one atomic deterministic_exact check (json_fields use deep-equal), plus structural checks (session_exists, session_state_readable, session_submitted, mock_submit_via_legitimate_path, image uploads). No fake-LLM-judge or hidden-trap mechanics; the expected_fields entries are the only ground truth."
+}

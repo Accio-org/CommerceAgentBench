@@ -1,0 +1,10 @@
+Type: user
+ID: '10001'
+Name: Admin User
+Login: admin@boxmock.example.com
+Created At: '2026-01-10T08:00:00Z'
+Modified At: '2026-01-10T08:00:00Z'
+Status: active
+Space Amount: 10737418240
+Space Used: 524288000
+Job Title: Administrator

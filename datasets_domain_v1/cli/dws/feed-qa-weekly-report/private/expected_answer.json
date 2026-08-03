@@ -1,0 +1,824 @@
+{
+  "checks": [
+    {
+      "id": "summary_doc_exists",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_jp_pet_001",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-JP-PET-001"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_br_pet_002",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-BR-PET-002"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_br_pet_002",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-001"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_mx_pet_003",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-MX-PET-003"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_au_pet_004",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-AU-PET-004"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_sg_bir_005",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-SG-BIR-005"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_sg_bir_005",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-004"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_us_bir_006",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-US-BIR-006"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_uk_bir_007",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-UK-BIR-007"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_jp_bir_009",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-JP-BIR-009"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_br_mir_010",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-BR-MIR-010"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_br_mir_010",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-009"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_has_nb_mx_pre_011",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-MX-PRE-011"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_mx_pre_011",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-010"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_au_cat_012",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-AU-CAT-012"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_sg_cat_013",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-SG-CAT-013"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_us_int_014",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-US-INT-014"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_us_int_014",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-013"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_uk_dog_015",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-UK-DOG-015"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_jp_dog_017",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-JP-DOG-017"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_jp_dog_017",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-016"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_br_dog_018",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-BR-DOG-018"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_mx_non_019",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-MX-NON-019"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_au_pre_020",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-AU-PRE-020"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_sg_dog_021",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-SG-DOG-021"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_us_fis_022",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-US-FIS-022"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_us_fis_022",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-021"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_has_nb_uk_pet_023",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-UK-PET-023"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_uk_pet_023",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-022"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_jp_pet_025",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-JP-PET-025"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_br_bir_026",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-BR-BIR-026"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_br_bir_026",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-025"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_mx_bir_027",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-MX-BIR-027"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_au_bir_028",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-AU-BIR-028"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_sg_com_029",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-SG-COM-029"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_sg_com_029",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-028"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_us_com_030",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-US-COM-030"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_uk_puz_031",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-UK-PUZ-031"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_jp_out_033",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-JP-OUT-033"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_br_cat_034",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-BR-CAT-034"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_br_cat_034",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-033"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_has_nb_mx_stu_035",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-MX-STU-035"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_mx_stu_035",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-034"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_au_dog_036",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-AU-DOG-036"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_sg_dog_037",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-SG-DOG-037"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_us_dog_038",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-US-DOG-038"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_us_dog_038",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-037"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_uk_dog_039",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-UK-DOG-039"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_de_dog_040",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-DE-DOG-040"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_de_dog_040",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-039"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_has_nb_jp_non_041",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-JP-NON-041"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_jp_non_041",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-040"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_excludes_nb_br_dog_042",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-BR-DOG-042"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_mx_dog_043",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-MX-DOG-043"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_au_pet_044",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-AU-PET-044"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_excludes_nb_sg_pet_045",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-SG-PET-045"
+          ]
+        }
+      }
+    },
+    {
+      "id": "summary_has_nb_us_pet_046",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-US-PET-046"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_us_pet_046",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-045"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_has_nb_uk_sma_047",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-UK-SMA-047"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_uk_sma_047",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-046"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "summary_has_nb_de_bir_048",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-DE-BIR-048"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_on_nb_de_bir_048",
+      "entity": "comments",
+      "match": {
+        "nodeId": "qa-047"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "no_archived_in_summary",
+      "entity": "documents",
+      "match": {
+        "name": "Week 23 Feed QA Summary"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "prior cycle"
+          ]
+        }
+      }
+    }
+  ]
+}

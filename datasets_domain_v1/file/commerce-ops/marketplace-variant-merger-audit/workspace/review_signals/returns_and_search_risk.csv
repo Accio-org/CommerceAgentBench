@@ -1,0 +1,4 @@
+candidate_sku,risk_signal,metric,note
+TRAIL-750-2PK,prior bundle confusion,return contact rate 8.4%,Q1 2026 cohort of bundle SKUs sold under the parent
+TRAIL-INFUSER-GRN,function mismatch,tea basket mentioned in 31% of Q&A,query log over last 90 days
+TRAIL-750-BLK-FBA,upc collision,UPC prefix 0123456 matches archived TRAIL-750-BLK-OLD,fulfilment team flagged identical UPC root in stock receipt

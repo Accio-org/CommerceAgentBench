@@ -1,0 +1,145 @@
+{
+  "task_id": "file-commerce-ops-multilang-rfq-contradiction-extract",
+  "_doc": "Verifier ground truth. Per-RFQ: language, normalized fields, and required contradiction signature. Evidence uses list-of-lists semantics: outer list = ALL inner sets must be satisfied; each inner set = ANY one of the listed phrases (case-insensitive substring) is acceptable. Resolution uses any-of: at least one listed phrase must appear in the agent's suggested_resolution.",
+  "rfqs": [
+    {
+      "rfq_id": "RFQ-01",
+      "language": "es",
+      "quantity_units": 10000,
+      "incoterm": "FOB",
+      "contradictions_required_count": 1,
+      "expected_contradictions": [
+        {
+          "category": "physical_impossibility",
+          "evidence_contains_all_of": [
+            ["10 días", "10 dias", "10 days", "ten days", "10-day", "10 day", "10d"],
+            ["Manzanillo", "México", "Mexico", "Pacific", "Pacífico"]
+          ],
+          "resolution_contains_any_of": [
+            "18", "20", "21", "22", "transit", "realistic", "realista",
+            "weeks", "semanas", "air freight", "aéreo", "longer",
+            "más tiempo", "tránsito real", "actual transit", "realistic ETA",
+            "21 days", "20 days", "18 days", "22 days", "consolidated air"
+          ]
+        }
+      ]
+    },
+    {
+      "rfq_id": "RFQ-02",
+      "language": "de",
+      "quantity_units": 5000,
+      "incoterm": "FOB",
+      "contradictions_required_count": 1,
+      "expected_contradictions": [
+        {
+          "category": "incoterm_conflict",
+          "evidence_contains_all_of": [
+            ["FOB"],
+            ["Berlin", "Berliner", "Zentrallager", "Hamburg", "Anlieferung", "delivery", "warehouse", "Lager", "destination"]
+          ],
+          "resolution_contains_any_of": [
+            "DAP", "DDP", "CFR", "CIF", "Incoterm", "split", "two",
+            "separate", "umstellen", "switch", "restate", "wechseln",
+            "buyer arranges", "Käufer organisiert", "Käufer trägt",
+            "seller-arranged", "neu kalkulieren", "single quote", "either", "oder",
+            "instead of FOB", "anstelle FOB", "konsistent"
+          ]
+        }
+      ]
+    },
+    {
+      "rfq_id": "RFQ-03",
+      "language": "pt",
+      "quantity_units": 50000,
+      "incoterm": "FOB",
+      "contradictions_required_count": 1,
+      "expected_contradictions": [
+        {
+          "category": "cost_infeasible",
+          "evidence_contains_all_of": [
+            ["0,12", "0.12", "USD 0,12", "USD 0.12", "12 cent", "twelve cent"],
+            ["INMETRO", "REACH", "RoHS", "100%", "inspeção", "inspection", "certificações", "certifications", "cert"]
+          ],
+          "resolution_contains_any_of": [
+            "raise", "aumentar", "elevar", "increase", "subir",
+            "0,45", "0.45", "0,50", "0.50", "0,55", "0.55", "0,60", "0.60", "0,80", "0.80",
+            "BOM", "minimum", "floor", "piso", "mínimo",
+            "drop INMETRO", "remove INMETRO", "remove cert", "drop cert",
+            "drop 100%", "sample inspection", "AQL", "reduce specification",
+            "reduce spec", "trim cert"
+          ]
+        }
+      ]
+    },
+    {
+      "rfq_id": "RFQ-04",
+      "language": "ar",
+      "quantity_units": 100,
+      "incoterm": "FOB",
+      "contradictions_required_count": 1,
+      "expected_contradictions": [
+        {
+          "category": "logical_conflict",
+          "evidence_contains_all_of": [
+            ["100"],
+            ["40HQ", "40 HQ", "40'HQ", "exclusive", "حاوية", "container"]
+          ],
+          "resolution_contains_any_of": [
+            "LCL", "smaller", "carton", "box", "consolidated",
+            "drop the 40HQ", "drop 40HQ", "without 40HQ", "remove 40HQ",
+            "exclusive use", "uneconomic", "air-only", "air freight only",
+            "air freight", "air cargo", "standard air cargo", "ULD", "ULDs",
+            "pallet", "pallets", "no container booking", "instead of requesting an ocean container",
+            "clarify", "intent", "10,000", "10000", "10K",
+            "small batch", "trial batch", "pilot batch", "smaller booking",
+            "switch to LCL", "single carton", "few cartons", "few cubic"
+          ]
+        },
+        {
+          "category": "logical_conflict",
+          "evidence_contains_all_of": [
+            ["40HQ", "40 HQ", "40'HQ", "حاوية", "container"],
+            ["air freight", "air cargo", "via air", "air shipment", "airfreight", "جوي", "الشحن الجوي"]
+          ],
+          "resolution_contains_any_of": [
+            "LCL", "smaller", "carton", "box", "consolidated",
+            "drop the 40HQ", "drop 40HQ", "without 40HQ", "remove 40HQ",
+            "exclusive use", "uneconomic", "air-only", "air freight only",
+            "air freight", "air cargo", "standard air cargo", "ULD", "ULDs",
+            "pallet", "pallets", "no container booking", "instead of requesting an ocean container",
+            "clarify", "intent", "10,000", "10000", "10K",
+            "small batch", "trial batch", "pilot batch", "smaller booking",
+            "switch to LCL", "single carton", "few cartons", "few cubic"
+          ]
+        }
+      ]
+    },
+    {
+      "rfq_id": "RFQ-05",
+      "language": "en",
+      "quantity_units": 8000,
+      "incoterm": "FOB",
+      "contradictions_required_count": 1,
+      "expected_contradictions": [
+        {
+          "category": "timeline_conflict",
+          "evidence_contains_all_of": [
+            ["15 April", "April 15", "15/04", "Easter"],
+            ["30 days", "30-day", "production", "transit", "lead", "vessel"]
+          ],
+          "resolution_contains_any_of": [
+            "air freight", "air", "switch to air",
+            "earlier PO", "PO earlier", "earlier po", "before March 22", "before 22 March",
+            "before 15 March", "before March 15", "by early March",
+            "issue PO earlier", "reduce quantity", "drop to 5", "drop to 6",
+            "5,000", "5000", "6,000", "6000", "fewer units",
+            "miss the Easter", "miss Easter", "won't make Easter",
+            "skip Easter", "post-Easter restock", "split shipment",
+            "partial air partial sea", "express", "warn the buyer",
+            "deadline at risk", "timeline is tight", "won't reach"
+          ]
+        }
+      ]
+    }
+  ]
+}

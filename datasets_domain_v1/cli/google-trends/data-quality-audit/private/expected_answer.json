@@ -1,0 +1,64 @@
+{
+  "partial_data_datasets": [
+    {
+      "dataset_id": "set_airfryer",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_coffee",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_drill",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_earbuds",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_headset",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_mattress",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_speaker",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_vacuum",
+      "partial_data_week_count": 1
+    }
+  ],
+  "empty_query_datasets": [
+    "edge_empty"
+  ],
+  "sub_floor_brand_presences": [
+    {
+      "slug": "mattress",
+      "brand": "leesa",
+      "twelve_month_avg": 0.48
+    },
+    {
+      "slug": "vacuum",
+      "brand": "shark navigator",
+      "twelve_month_avg": 0.21
+    }
+  ],
+  "monopoly_datasets": [
+    {
+      "slug": "airfryer",
+      "leader": "ninja air fryer",
+      "leader_share": 0.76
+    },
+    {
+      "slug": "coffee",
+      "leader": "breville",
+      "leader_share": 0.68
+    }
+  ],
+  "task_id": "trends-data-quality-audit"
+}

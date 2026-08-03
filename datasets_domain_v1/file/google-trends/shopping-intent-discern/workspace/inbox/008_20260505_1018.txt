@@ -1,0 +1,6 @@
+From: it-help@northstar-dtc.com
+To: wen.li@northstar-dtc.com
+Date: Tue, 05 May 2026 10:18
+Subject: Sprint planning agenda
+
+Agenda for Monday sprint planning: carryover review, capacity, then story pointing. Async pre-reads in the wiki.

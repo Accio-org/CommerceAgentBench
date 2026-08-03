@@ -1,0 +1,10 @@
+sku,expected_current_price,new_price,publication_channel,approval_id,note
+AXL-2614-4PT,24.58,26.19,PATCH,APR-2026-0519-03,pricing approval queue row
+HUB-8580-7PT,32.60,34.49,FEED,APR-2026-0519-04,pricing approval queue row
+NMB-7202-45W,33.65,35.79,PATCH,APR-2026-0519-02,pricing approval queue row
+VTX-1270-MINI,26.71,28.49,FEED,APR-2026-0519-01,pricing approval queue row
+VTX-6212-NVY,18.98,20.29,FEED,APR-2026-0519-06,pricing approval queue row
+ZPH-8176-XL,17.34,18.59,FEED,APR-2026-0519-05,pricing approval queue row
+GRP-2897-V2,25.00,27.19,FEED,APR-2026-0519-07,pricing approval queue row
+KLP-3296-BLK,34.41,36.99,PATCH,APR-2026-0519-08,pricing approval queue row
+RGN-5470-MINI,24.99,26.49,FEED,APR-2026-0519-09,pricing approval queue row

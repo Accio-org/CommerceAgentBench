@@ -1,0 +1,109 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+@keyframes slide-in-from-left { 
+  0% { transform: translate3d(-100%, 0px, 0px); }
+  100% { transform: translate3d(0px, 0px, 0px); }
+}
+@keyframes slide-in-from-right { 
+  0% { transform: translate3d(100%, 0px, 0px); }
+  100% { transform: translate3d(0px, 0px, 0px); }
+}
+@keyframes slide-out-to-left { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(-100%, 0px, 0px); }
+}
+@keyframes slide-out-to-right { 
+  0% { transform: translate3d(0px, 0px, 0px); }
+  100% { transform: translate3d(100%, 0px, 0px); }
+}
+@keyframes fade-in { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fade-out { 
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+:host { --s-date-picker-padding-inline: .75rem; }
+.date-picker { --s-date-picker-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 36'%3E%3Cpath d='M0 0C3.44 0 6.5 2.2 7.59 5.47L10.92 15.47C11.47 17.11 11.47 18.89 10.92 20.53L7.59 30.53C6.5 33.8 3.44 36 0 36Z' fill='black'/%3E%3C/svg%3E"); --s-date-picker-arrow-flip: 0deg; position: relative; inline-size: fit-content; }
+[dir="rtl"] .date-picker { --s-date-picker-arrow-flip: 180deg; }
+:host-context([dir="rtl"]) .date-picker { --s-date-picker-arrow-flip: 180deg; }
+.table-container { position: relative; }
+.table-container:has(.table-content-old) { overflow: hidden; }
+.table-wrapper { display: flex; flex-direction: column; position: relative; padding-inline: var(--s-date-picker-padding-inline); }
+.hidden-icon { visibility: hidden; pointer-events: none; }
+.table, .table-with-headers { table-layout: fixed; border-spacing: 0px; font-size: 0.875rem; font-feature-settings: "tnum"; font-variant-numeric: tabular-nums; text-align: center; }
+@media (min-width: 48rem), (pointer: fine) {
+  .table, .table-with-headers { font-size: 0.8125rem; }
+}
+.table-with-headers-content { block-size: 0px; visibility: hidden; overflow: hidden; pointer-events: none; }
+.table-with-headers-cell-container { block-size: 0px; }
+.table-with-headers-cell { block-size: 0px; border: 0px; padding: 0px; }
+.table-content-old { position: absolute; inset-block-start: 4rem; inset-inline-start: 0px; inline-size: 100%; }
+.table-content, .table-content-old { flex-grow: 1; }
+.slide-in-left:is(.table-content, .table-content-old), .slide-in-right:is(.table-content, .table-content-old), .slide-out-left:is(.table-content, .table-content-old), .slide-out-right:is(.table-content, .table-content-old) { animation-duration: 200ms; animation-timing-function: cubic-bezier(0.19, 0.91, 0.38, 1); animation-fill-mode: forwards; }
+.slide-in-left:is(.table-content, .table-content-old) { animation-name: slide-in-from-left; }
+.slide-in-right:is(.table-content, .table-content-old) { animation-name: slide-in-from-right; }
+.slide-out-left:is(.table-content, .table-content-old) { animation-name: slide-out-to-left; }
+.slide-out-right:is(.table-content, .table-content-old) { animation-name: slide-out-to-right; }
+.day-button { color-scheme: unset; forced-color-adjust: unset; math-depth: unset; position-anchor: unset; text-size-adjust: unset; appearance: unset; color: unset; font: unset; font-palette: unset; font-synthesis: unset; position-area: unset; text-orientation: unset; text-rendering: unset; text-spacing-trim: unset; -webkit-font-smoothing: unset; -webkit-locale: unset; -webkit-text-orientation: unset; -webkit-writing-mode: unset; writing-mode: unset; zoom: unset; accent-color: unset; place-content: unset; place-items: unset; place-self: unset; alignment-baseline: unset; anchor-name: unset; anchor-scope: unset; animation-composition: unset; animation: unset; animation-trigger: unset; app-region: unset; aspect-ratio: unset; backdrop-filter: unset; backface-visibility: unset; background: unset; background-blend-mode: unset; baseline-shift: unset; baseline-source: unset; border-block: unset; border: unset; border-collapse: unset; border-end-end-radius: unset; border-end-start-radius: unset; border-inline: unset; border-shape: unset; border-start-end-radius: unset; border-start-start-radius: unset; inset: unset; box-decoration-break: unset; box-shadow: unset; box-sizing: unset; break-after: unset; break-before: unset; break-inside: unset; buffered-rendering: unset; caption-side: unset; caret-animation: unset; caret-color: unset; caret-shape: unset; clear: unset; clip: unset; clip-path: unset; clip-rule: unset; color-interpolation: unset; color-interpolation-filters: unset; color-rendering: unset; columns: unset; column-fill: unset; gap: unset; column-rule: unset; column-span: unset; contain: unset; contain-intrinsic-block-size: unset; contain-intrinsic-size: unset; contain-intrinsic-inline-size: unset; container: unset; content: unset; content-visibility: unset; corner-shape: unset; corner-block-end-shape: unset; corner-block-start-shape: unset; counter-increment: unset; counter-reset: unset; counter-set: unset; cx: unset; cy: unset; d: unset; display: unset; dominant-baseline: unset; dynamic-range-limit: unset; empty-cells: unset; field-sizing: unset; fill: unset; fill-opacity: unset; fill-rule: unset; filter: unset; flex: unset; flex-flow: unset; float: unset; flood-color: unset; flood-opacity: unset; grid: unset; grid-area: unset; height: unset; hyphenate-character: unset; hyphenate-limit-chars: unset; hyphens: unset; image-orientation: unset; image-rendering: unset; initial-letter: unset; inset-block: unset; inset-inline: unset; interactivity: unset; interest-delay: unset; interpolate-size: unset; isolation: unset; letter-spacing: unset; lighting-color: unset; line-break: unset; list-style: unset; margin-block: unset; margin: unset; margin-inline: unset; marker: unset; mask: unset; mask-type: unset; math-shift: unset; math-style: unset; max-block-size: unset; max-height: unset; max-inline-size: unset; max-width: unset; min-block-size: unset; min-height: unset; min-inline-size: unset; min-width: unset; mix-blend-mode: unset; object-fit: unset; object-position: unset; object-view-box: unset; offset: unset; opacity: unset; order: unset; orphans: unset; outline: unset; outline-offset: unset; overflow-anchor: unset; overflow-block: unset; overflow-clip-margin: unset; overflow-inline: unset; overflow-wrap: unset; overflow: unset; overlay: unset; overscroll-behavior-block: unset; overscroll-behavior-inline: unset; overscroll-behavior: unset; padding-block: unset; padding: unset; padding-inline: unset; page: unset; page-orientation: unset; paint-order: unset; perspective: unset; perspective-origin: unset; pointer-events: unset; position-try: unset; position-visibility: unset; print-color-adjust: unset; quotes: unset; r: unset; reading-flow: unset; reading-order: unset; resize: unset; rotate: unset; ruby-align: unset; ruby-position: unset; rx: unset; ry: unset; scale: unset; scroll-behavior: unset; scroll-initial-target: unset; scroll-margin-block: unset; scroll-margin: unset; scroll-margin-inline: unset; scroll-marker-group: unset; scroll-padding-block: unset; scroll-padding: unset; scroll-padding-inline: unset; scroll-snap-align: unset; scroll-snap-stop: unset; scroll-snap-type: unset; scroll-target-group: unset; scroll-timeline: unset; scrollbar-color: unset; scrollbar-gutter: unset; scrollbar-width: unset; shape-image-threshold: unset; shape-margin: unset; shape-outside: unset; shape-rendering: unset; size: unset; speak: unset; stop-color: unset; stop-opacity: unset; stroke: unset; stroke-dasharray: unset; stroke-dashoffset: unset; stroke-linecap: unset; stroke-linejoin: unset; stroke-miterlimit: unset; stroke-opacity: unset; stroke-width: unset; tab-size: unset; table-layout: unset; text-align: unset; text-align-last: unset; text-anchor: unset; text-autospace: unset; text-box: unset; text-combine-upright: unset; text-decoration: unset; text-decoration-skip-ink: unset; text-emphasis: unset; text-emphasis-position: unset; text-indent: unset; text-justify: unset; text-overflow: unset; text-shadow: unset; text-transform: unset; text-underline-offset: unset; text-underline-position: unset; text-wrap: unset; timeline-scope: unset; timeline-trigger: unset; touch-action: unset; transform: unset; transform-box: unset; transform-origin: unset; transform-style: unset; transition: unset; translate: unset; trigger-scope: unset; user-select: unset; vector-effect: unset; vertical-align: unset; view-timeline: unset; view-transition-class: unset; view-transition-group: unset; view-transition-name: unset; view-transition-scope: unset; visibility: unset; border-spacing: unset; -webkit-box-align: unset; -webkit-box-decoration-break: unset; -webkit-box-direction: unset; -webkit-box-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-orient: unset; -webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-line-break: unset; -webkit-line-clamp: unset; -webkit-mask-box-image: unset; -webkit-rtl-ordering: unset; -webkit-ruby-position: unset; -webkit-tap-highlight-color: unset; -webkit-text-combine: unset; -webkit-text-decorations-in-effect: unset; -webkit-text-fill-color: unset; -webkit-text-security: unset; -webkit-text-stroke: unset; -webkit-user-drag: unset; white-space-collapse: unset; widows: unset; width: unset; will-change: unset; word-break: unset; word-spacing: unset; x: unset; y: unset; z-index: unset; position: relative; block-size: 2.25rem; inline-size: 2.25rem; cursor: pointer; border-radius: 0.5rem; }
+.day-button:focus-visible { outline: .125rem solid var(--t-border-focus,rgba(0,91,211,1)); outline-offset: 0.0625rem; z-index: 1; }
+.day-button .range-before-hover:hover, .day-button:where(:not(.not-allowed, .selected)):hover { background-color: var(--t-surface-hover,rgba(247,247,247,1)); color: var(--t-text,rgba(48,48,48,1)); }
+.day-button:where(:not(.not-allowed, .range-between)):hover { border-radius: 0.5rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .day-button { block-size: 2rem; inline-size: 2rem; }
+}
+.weekday-header { inline-size: 2rem; color: var(--t-text-secondary,rgba(97,97,97,1)); block-size: 2rem; font-weight: 450; font-size: 0.6875rem; line-height: 0.75rem; }
+.monthyear-text, .monthyear-text-old { display: flex; gap: 0.5rem; font-size: 1rem; font-weight: 600; line-height: 1.5rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .monthyear-text, .monthyear-text-old { font-size: 0.8125rem; line-height: 1.25rem; }
+}
+.monthyear-text { position: relative; contain: layout style; }
+.monthyear-text.fade-in { animation: 200ms cubic-bezier(0.19, 0.91, 0.38, 1) 0s 1 normal none running fade-in; }
+.monthyear-text-old { position: absolute; inset-block-start: 0px; inset-inline: 0px; }
+.monthyear-text-old.fade-out { animation: 200ms cubic-bezier(0.19, 0.91, 0.38, 1) 0s 1 normal none running fade-out; }
+.day-cell { position: relative; padding: 0px; }
+.range-in-range:first-child:not(:has(.range-start))::after { content: ""; position: absolute; inline-size: var(--s-date-picker-padding-inline); inset-block: 0px; inset-inline-start: calc(-1*var(--s-date-picker-padding-inline)); background: var(--t-surface-brand-active,rgba(241,241,241,1)); }
+.range-in-range:last-child:not(:has(.range-end, .range-end-is-hover))::after { content: ""; position: absolute; inline-size: var(--s-date-picker-padding-inline); inset-block: 0px; inset-inline-end: calc(-1*var(--s-date-picker-padding-inline)); background: var(--t-surface-brand-active,rgba(241,241,241,1)); }
+.range-in-range.is-enabled { background-color: var(--t-surface-brand-active,rgba(241,241,241,1)); }
+.is-today { box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 0.0625rem inset; }
+.not-allowed { color: var(--t-text-disabled,rgba(181,181,181,1)); cursor: default; }
+.selected { background-color: var(--t-fill-brand,rgba(48,48,48,1)); color: var(--t-text-brand-on-fill,rgba(255,255,255,1)); font-weight: 600; }
+.single-selected { border-radius: 0.5rem; }
+.range-start, .range-start:focus-visible, .range-start:hover { border-radius: 0.5rem; }
+.range-start:not(.range-end)::after { content: ""; position: absolute; inset-inline-end: -4px; inset-block: 0px; z-index: 1; inline-size: 12px; background-color: var(--t-fill-brand,rgba(48,48,48,1)); mask-image: var(--s-date-picker-arrow); mask-size: 100% 100%; transform: rotateY(var(--s-date-picker-arrow-flip)); pointer-events: none; }
+.range-end, .range-end-is-hover:not(.range-before-hover, .range-start):hover, .range-end:focus-visible, .range-end:hover { border-radius: 0.5rem; }
+.range-end:not(.range-start)::before { content: ""; position: absolute; inset-inline-start: -4px; inset-block: 0px; z-index: 1; inline-size: 12px; background-color: var(--t-fill-brand,rgba(48,48,48,1)); mask-image: var(--s-date-picker-arrow); mask-size: 100% 100%; transform: rotateY(calc(180deg - var(--s-date-picker-arrow-flip))); pointer-events: none; }
+.range-after-hover:not(.not-allowed), .range-between { background-color: var(--t-surface-brand-active,rgba(241,241,241,1)); border-radius: 0px; }
+.day-button:is(.range-between, .range-after-hover:not(.not-allowed)):focus-visible { outline-offset: 0px; }
+.range-start.range-end, .range-start.range-end:hover { border-radius: 0.5rem; }
+.month-controls-container { display: flex; justify-content: space-between; align-items: center; font-weight: 550; font-size: 0.8125rem; line-height: 1.25rem; padding-block-end: 0.375rem; --s-button-color: var(--t-icon-secondary,rgba(138,138,138,1)); }
+.month-controls-container.overlay { position: absolute; padding-inline: var(--s-date-picker-padding-inline); z-index: 100; inline-size: 100%; pointer-events: none; }
+.month-controls-container.overlay .month-button-wrapper { pointer-events: auto; }
+.inline-size-fill .month-controls-container { display: grid; grid-template-columns: repeat(7, 1fr); }
+:is(.inline-size-fill .month-controls-container) :first-child { grid-column: 1; }
+:is(.inline-size-fill .month-controls-container) :nth-child(2) { grid-column: 2 / 7; }
+:is(.inline-size-fill .month-controls-container) :last-child { grid-column: 7; }
+:is(.inline-size-fill .month-controls-container) .monthyear-text, :is(.inline-size-fill .month-controls-container) .monthyear-text-old { justify-content: center; }
+.inline-size-fill .table { inline-size: 100%; }
+.inline-size-fill .month-button-wrapper { text-align: center; }
+.inline-size-fill .day-button { inline-size: 100%; }
+.multi-month .table-container { display: flex; flex-flow: wrap; }
+.is-wrapping:is(.multi-month .table-container) { max-inline-size: min-content; }
+:is(.is-not-wrapping:is(.multi-month .table-container) .table-wrapper:not(:first-of-type)) .table-content { position: relative; }
+:is(:is(.is-not-wrapping:is(.multi-month .table-container) .table-wrapper:not(:first-of-type)) .table-content)::before { content: ""; position: absolute; inset-block: 0px; inset-inline-start: -0.75rem; border-inline-start: .0625rem solid var(--t-border,rgba(227,227,227,1)); }
+.multi-month:not(.inline-size-fill) .table { inline-size: unset; }
+.multi-month:not(.inline-size-fill) .day-button { inline-size: 2.25rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .multi-month:not(.inline-size-fill) .day-button { inline-size: 2rem; }
+}
+.multi-month.inline-size-fill .table-container.is-wrapping { max-inline-size: unset; }
+.multi-month.inline-size-fill .table-wrapper { flex: 1 1 0%; min-inline-size: calc(17.25rem); }
+@media (min-width: 48rem), (pointer: fine) {
+  .multi-month.inline-size-fill .table-wrapper { min-inline-size: calc(15.5rem); }
+}
+.visually-hidden { inline-size: 1px; block-size: 1px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); overflow: hidden; position: absolute; white-space: nowrap; }

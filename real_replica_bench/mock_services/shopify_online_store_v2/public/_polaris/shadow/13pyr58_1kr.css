@@ -1,0 +1,20 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+:host { display: var(--s-icon-display,inline); vertical-align: var(--s-icon-vertical-align,baseline); }
+.icon { display: block; color: var(--s-icon-color,var(--t-icon,rgba(74,74,74,1))); block-size: 1.25rem; inline-size: 1.25rem; line-height: 1; }
+.icon:focus-visible { outline: .125rem solid var(--t-border-focus,rgba(0,91,211,1)); outline-offset: 0.0625rem; border-radius: 0.25rem; }
+svg { fill: currentcolor; overflow: visible; }
+@media (min-width: 48rem), (pointer: fine) {
+  svg { margin: 0.125rem; }
+}
+.size-small { block-size: 1rem; inline-size: 1rem; }
+.color-base.tone-info { color: var(--t-icon-info,rgba(0,148,213,1)); }
+.color-base.tone-success { color: var(--t-icon-success,rgba(4,123,93,1)); }
+.color-base.tone-caution { color: var(--t-icon-caution,rgba(153,138,0,1)); }
+.color-base.tone-warning { color: var(--t-icon-warning,rgba(178,132,0,1)); }
+.color-base.tone-critical { color: var(--t-icon-critical,rgba(226,44,56,1)); }
+.color-subdued.tone-auto, .color-subdued.tone-neutral { color: var(--t-icon-secondary,rgba(138,138,138,1)); }

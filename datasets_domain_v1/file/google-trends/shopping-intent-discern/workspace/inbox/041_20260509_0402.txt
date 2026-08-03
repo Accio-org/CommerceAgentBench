@@ -1,0 +1,6 @@
+From: payroll@northstar-dtc.com
+To: wen.li@northstar-dtc.com
+Date: Sat, 09 May 2026 04:02
+Subject: Re: retro action items
+
+Retro action items: (1) tighten PR review SLA, (2) doc the deploy runbook, (3) rotate on-call. Owners in the tracker.

@@ -1,0 +1,370 @@
+{
+  "account": {
+    "name": "李明",
+    "givenName": "明",
+    "email": "liming.demo@example.com",
+    "avatar": "L",
+    "locale": "zh-CN"
+  },
+  "people": [
+    {
+      "id": "me",
+      "displayName": "李明",
+      "email": "liming.demo@example.com",
+      "initial": "L",
+      "color": "#1a73e8"
+    },
+    {
+      "id": "p-cx-lead",
+      "displayName": "Maya Flores",
+      "email": "maya.flores@example.com",
+      "initial": "M",
+      "color": "#188038"
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl-blank",
+      "name": "空白文档",
+      "subtitle": "",
+      "category": "基础",
+      "featured": true,
+      "content": {
+        "title": "未命名文档",
+        "blocks": [
+          {
+            "id": "tpl-blank-b1",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-meeting",
+      "name": "会议记录",
+      "subtitle": "绿色",
+      "category": "工作",
+      "featured": true,
+      "content": {
+        "title": "会议记录",
+        "blocks": [
+          {
+            "id": "tpl-meeting-b1",
+            "type": "heading1",
+            "text": "会议记录",
+            "format": {}
+          }
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "doc-comment-rma-6207",
+      "sourceReturnId": "rma_007",
+      "name": "Returns Comment: RMA-6207",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-25T09:00:00Z",
+      "modifiedAt": "2026-05-25T09:00:00Z",
+      "lastOpenedAt": "2026-05-25T09:00:00Z",
+      "content": {
+        "title": "Returns Comment: RMA-6207",
+        "blocks": [
+          { "id": "b-doc-comment-rma-6207-title", "type": "heading1", "text": "Returns Comment: RMA-6207", "format": {} },
+          { "id": "b-doc-comment-rma-6207-case", "type": "paragraph", "text": "Case ID: RMA-6207", "format": {} },
+          { "id": "b-doc-comment-rma-6207-sku", "type": "paragraph", "text": "SKU: NB-SG-COM-029", "format": {} },
+          { "id": "b-doc-comment-rma-6207-market", "type": "paragraph", "text": "Market: SG", "format": {} },
+          { "id": "b-doc-comment-rma-6207-channel", "type": "paragraph", "text": "Channel: Shopify", "format": {} },
+          { "id": "b-doc-comment-rma-6207-status", "type": "paragraph", "text": "Status: Open", "format": {} },
+          { "id": "b-doc-comment-rma-6207-reason", "type": "paragraph", "text": "Reason: damaged package", "format": {} },
+          { "id": "b-doc-comment-rma-6207-tickets", "type": "paragraph", "text": "Tickets: 8", "format": {} },
+          { "id": "b-doc-comment-rma-6207-owner", "type": "paragraph", "text": "Owner: cx.ops@northbridge.example.com", "format": {} },
+          { "id": "b-doc-comment-rma-6207-facts", "type": "paragraph", "text": "Source Facts: shopify-return-actions, shipping-returns-visibility", "format": {} }
+        ]
+      },
+      "comments": [
+        {
+          "id": "cmt-rma-6207-visibility",
+          "authorId": "p-cx-lead",
+          "authorName": "Maya Flores",
+          "authorColor": "#188038",
+          "text": "Please confirm whether this SG open return is ready to close in the Friday replacement visibility queue.",
+          "quotedText": "Tickets: 8",
+          "blockId": "b-doc-comment-rma-6207-tickets",
+          "anchorTop": 168,
+          "collapsed": false,
+          "createdAt": "2026-05-26T09:07:00Z",
+          "updatedAt": "2026-05-26T09:07:00Z",
+          "type": "comment",
+          "resolved": false,
+          "mentionsMe": true,
+          "replies": []
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "doc-comment-rma-6209",
+      "sourceReturnId": "rma_009",
+      "name": "Returns Comment: RMA-6209",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-25T09:01:00Z",
+      "modifiedAt": "2026-05-25T09:01:00Z",
+      "lastOpenedAt": "2026-05-25T09:01:00Z",
+      "content": {
+        "title": "Returns Comment: RMA-6209",
+        "blocks": [
+          { "id": "b-doc-comment-rma-6209-title", "type": "heading1", "text": "Returns Comment: RMA-6209", "format": {} },
+          { "id": "b-doc-comment-rma-6209-case", "type": "paragraph", "text": "Case ID: RMA-6209", "format": {} },
+          { "id": "b-doc-comment-rma-6209-sku", "type": "paragraph", "text": "SKU: NB-SG-DOG-037", "format": {} },
+          { "id": "b-doc-comment-rma-6209-market", "type": "paragraph", "text": "Market: SG", "format": {} },
+          { "id": "b-doc-comment-rma-6209-channel", "type": "paragraph", "text": "Channel: TikTok Shop", "format": {} },
+          { "id": "b-doc-comment-rma-6209-status", "type": "paragraph", "text": "Status: Open", "format": {} },
+          { "id": "b-doc-comment-rma-6209-reason", "type": "paragraph", "text": "Reason: size mismatch", "format": {} },
+          { "id": "b-doc-comment-rma-6209-tickets", "type": "paragraph", "text": "Tickets: 10", "format": {} },
+          { "id": "b-doc-comment-rma-6209-owner", "type": "paragraph", "text": "Owner: cx.ops@northbridge.example.com", "format": {} },
+          { "id": "b-doc-comment-rma-6209-facts", "type": "paragraph", "text": "Source Facts: shopify-return-actions, shipping-returns-visibility", "format": {} }
+        ]
+      },
+      "comments": [
+        {
+          "id": "cmt-rma-6209-visibility",
+          "authorId": "p-cx-lead",
+          "authorName": "Maya Flores",
+          "authorColor": "#188038",
+          "text": "Please confirm whether this SG open return is ready to close in the Friday replacement visibility queue.",
+          "quotedText": "Tickets: 10",
+          "blockId": "b-doc-comment-rma-6209-tickets",
+          "anchorTop": 168,
+          "collapsed": false,
+          "createdAt": "2026-05-26T09:09:00Z",
+          "updatedAt": "2026-05-26T09:09:00Z",
+          "type": "comment",
+          "resolved": false,
+          "mentionsMe": true,
+          "replies": []
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "doc-comment-rma-6211",
+      "sourceReturnId": "rma_011",
+      "name": "Returns Comment: RMA-6211",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-25T09:02:00Z",
+      "modifiedAt": "2026-05-25T09:02:00Z",
+      "lastOpenedAt": "2026-05-25T09:02:00Z",
+      "content": {
+        "title": "Returns Comment: RMA-6211",
+        "blocks": [
+          { "id": "b-doc-comment-rma-6211-title", "type": "heading1", "text": "Returns Comment: RMA-6211", "format": {} },
+          { "id": "b-doc-comment-rma-6211-case", "type": "paragraph", "text": "Case ID: RMA-6211", "format": {} },
+          { "id": "b-doc-comment-rma-6211-sku", "type": "paragraph", "text": "SKU: NB-SG-PET-045", "format": {} },
+          { "id": "b-doc-comment-rma-6211-market", "type": "paragraph", "text": "Market: SG", "format": {} },
+          { "id": "b-doc-comment-rma-6211-channel", "type": "paragraph", "text": "Channel: Google Merchant", "format": {} },
+          { "id": "b-doc-comment-rma-6211-status", "type": "paragraph", "text": "Status: Open", "format": {} },
+          { "id": "b-doc-comment-rma-6211-reason", "type": "paragraph", "text": "Reason: tracking not visible", "format": {} },
+          { "id": "b-doc-comment-rma-6211-tickets", "type": "paragraph", "text": "Tickets: 12", "format": {} },
+          { "id": "b-doc-comment-rma-6211-owner", "type": "paragraph", "text": "Owner: cx.ops@northbridge.example.com", "format": {} },
+          { "id": "b-doc-comment-rma-6211-facts", "type": "paragraph", "text": "Source Facts: shopify-return-actions, shipping-returns-visibility", "format": {} }
+        ]
+      },
+      "comments": [
+        {
+          "id": "cmt-rma-6211-visibility",
+          "authorId": "p-cx-lead",
+          "authorName": "Maya Flores",
+          "authorColor": "#188038",
+          "text": "Please confirm whether this SG open return is ready to close in the Friday replacement visibility queue.",
+          "quotedText": "Tickets: 12",
+          "blockId": "b-doc-comment-rma-6211-tickets",
+          "anchorTop": 168,
+          "collapsed": false,
+          "createdAt": "2026-05-26T09:11:00Z",
+          "updatedAt": "2026-05-26T09:11:00Z",
+          "type": "comment",
+          "resolved": false,
+          "mentionsMe": true,
+          "replies": []
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "doc-comment-rma-6205",
+      "sourceReturnId": "rma_005",
+      "name": "Returns Comment: RMA-6205",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-25T09:03:00Z",
+      "modifiedAt": "2026-05-25T09:03:00Z",
+      "lastOpenedAt": "2026-05-25T09:03:00Z",
+      "content": {
+        "title": "Returns Comment: RMA-6205",
+        "blocks": [
+          { "id": "b-doc-comment-rma-6205-title", "type": "heading1", "text": "Returns Comment: RMA-6205", "format": {} },
+          { "id": "b-doc-comment-rma-6205-case", "type": "paragraph", "text": "Case ID: RMA-6205", "format": {} },
+          { "id": "b-doc-comment-rma-6205-sku", "type": "paragraph", "text": "SKU: NB-SG-DOG-021", "format": {} },
+          { "id": "b-doc-comment-rma-6205-market", "type": "paragraph", "text": "Market: SG", "format": {} },
+          { "id": "b-doc-comment-rma-6205-channel", "type": "paragraph", "text": "Channel: Amazon", "format": {} },
+          { "id": "b-doc-comment-rma-6205-status", "type": "paragraph", "text": "Status: Open", "format": {} },
+          { "id": "b-doc-comment-rma-6205-reason", "type": "paragraph", "text": "Reason: tracking not visible", "format": {} },
+          { "id": "b-doc-comment-rma-6205-tickets", "type": "paragraph", "text": "Tickets: 6", "format": {} },
+          { "id": "b-doc-comment-rma-6205-owner", "type": "paragraph", "text": "Owner: cx.ops@northbridge.example.com", "format": {} }
+        ]
+      },
+      "comments": [
+        {
+          "id": "cmt-rma-6205-visibility",
+          "authorId": "p-cx-lead",
+          "authorName": "Maya Flores",
+          "authorColor": "#188038",
+          "text": "Leave this lower-ticket open case in the queue until the next review.",
+          "quotedText": "Tickets: 6",
+          "blockId": "b-doc-comment-rma-6205-tickets",
+          "anchorTop": 168,
+          "collapsed": false,
+          "createdAt": "2026-05-26T09:05:00Z",
+          "updatedAt": "2026-05-26T09:05:00Z",
+          "type": "comment",
+          "resolved": false,
+          "mentionsMe": true,
+          "replies": []
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "doc-comment-rma-6208",
+      "sourceReturnId": "rma_008",
+      "name": "Returns Comment: RMA-6208",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-25T09:04:00Z",
+      "modifiedAt": "2026-05-25T09:04:00Z",
+      "lastOpenedAt": "2026-05-25T09:04:00Z",
+      "content": {
+        "title": "Returns Comment: RMA-6208",
+        "blocks": [
+          { "id": "b-doc-comment-rma-6208-title", "type": "heading1", "text": "Returns Comment: RMA-6208", "format": {} },
+          { "id": "b-doc-comment-rma-6208-case", "type": "paragraph", "text": "Case ID: RMA-6208", "format": {} },
+          { "id": "b-doc-comment-rma-6208-sku", "type": "paragraph", "text": "SKU: NB-JP-OUT-033", "format": {} },
+          { "id": "b-doc-comment-rma-6208-market", "type": "paragraph", "text": "Market: JP", "format": {} },
+          { "id": "b-doc-comment-rma-6208-channel", "type": "paragraph", "text": "Channel: Walmart Marketplace", "format": {} },
+          { "id": "b-doc-comment-rma-6208-status", "type": "paragraph", "text": "Status: Exchange Requested", "format": {} },
+          { "id": "b-doc-comment-rma-6208-reason", "type": "paragraph", "text": "Reason: not as described", "format": {} },
+          { "id": "b-doc-comment-rma-6208-tickets", "type": "paragraph", "text": "Tickets: 9", "format": {} },
+          { "id": "b-doc-comment-rma-6208-owner", "type": "paragraph", "text": "Owner: cx.ops@northbridge.example.com", "format": {} }
+        ]
+      },
+      "comments": [
+        {
+          "id": "cmt-rma-6208-visibility",
+          "authorId": "p-cx-lead",
+          "authorName": "Maya Flores",
+          "authorColor": "#188038",
+          "text": "Exchange-requested cases stay open for CX acknowledgement, not comment resolution.",
+          "quotedText": "Status: Exchange Requested",
+          "blockId": "b-doc-comment-rma-6208-status",
+          "anchorTop": 120,
+          "collapsed": false,
+          "createdAt": "2026-05-26T09:08:00Z",
+          "updatedAt": "2026-05-26T09:08:00Z",
+          "type": "comment",
+          "resolved": false,
+          "mentionsMe": true,
+          "replies": []
+        }
+      ],
+      "reactions": []
+    },
+    {
+      "id": "doc-comment-rma-6210",
+      "sourceReturnId": "rma_010",
+      "name": "Returns Comment: RMA-6210",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-25T09:05:00Z",
+      "modifiedAt": "2026-05-25T09:05:00Z",
+      "lastOpenedAt": "2026-05-25T09:05:00Z",
+      "content": {
+        "title": "Returns Comment: RMA-6210",
+        "blocks": [
+          { "id": "b-doc-comment-rma-6210-title", "type": "heading1", "text": "Returns Comment: RMA-6210", "format": {} },
+          { "id": "b-doc-comment-rma-6210-case", "type": "paragraph", "text": "Case ID: RMA-6210", "format": {} },
+          { "id": "b-doc-comment-rma-6210-sku", "type": "paragraph", "text": "SKU: NB-JP-NON-041", "format": {} },
+          { "id": "b-doc-comment-rma-6210-market", "type": "paragraph", "text": "Market: JP", "format": {} },
+          { "id": "b-doc-comment-rma-6210-channel", "type": "paragraph", "text": "Channel: Amazon", "format": {} },
+          { "id": "b-doc-comment-rma-6210-status", "type": "paragraph", "text": "Status: Policy Review", "format": {} },
+          { "id": "b-doc-comment-rma-6210-reason", "type": "paragraph", "text": "Reason: missing manual", "format": {} },
+          { "id": "b-doc-comment-rma-6210-tickets", "type": "paragraph", "text": "Tickets: 11", "format": {} },
+          { "id": "b-doc-comment-rma-6210-owner", "type": "paragraph", "text": "Owner: cx.ops@northbridge.example.com", "format": {} }
+        ]
+      },
+      "comments": [
+        {
+          "id": "cmt-rma-6210-visibility",
+          "authorId": "p-cx-lead",
+          "authorName": "Maya Flores",
+          "authorColor": "#188038",
+          "text": "Policy-review cases must remain unresolved until policy owner signs off.",
+          "quotedText": "Status: Policy Review",
+          "blockId": "b-doc-comment-rma-6210-status",
+          "anchorTop": 120,
+          "collapsed": false,
+          "createdAt": "2026-05-26T09:10:00Z",
+          "updatedAt": "2026-05-26T09:10:00Z",
+          "type": "comment",
+          "resolved": false,
+          "mentionsMe": true,
+          "replies": []
+        }
+      ],
+      "reactions": []
+    }
+  ],
+  "view": {
+    "layout": "grid",
+    "sortBy": "lastOpenedAt",
+    "sortDir": "desc",
+    "currentFolderId": "root"
+  },
+  "versions": {},
+  "events": []
+}

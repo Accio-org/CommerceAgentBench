@@ -1,0 +1,345 @@
+packet_row,report_date,recall_number,recalling_firm,status,classification,product_type,product_description,reason_for_recall,distribution_pattern,code_info
+2001,20250205,F-0457-2025,Clements Foods Co,Terminated,Class III,Food,"Keith Valley mustard, net 1 gal, Distributed by: Ben E Keith Food Ft Worth, TX, UPC 046045062467; Red Boy
+brand mustard, Net 1 GAL., Distributed by Clements Food Company Oklahoma City, OK 73116, UPC 071735128154",Ingredient (mustard seeds) tested positive for Salmonella,"Distributed to customers in KS, TX, OK, AR","4341CF, 4342CF, 4343CF, 4344CF, 4346CF; CF4341, CF4342, CF4344, CF4346"
+2002,20250205,F-0445-2025,"GBC Food Services, LLC dba Yummi Sushi",Terminated,Class I,Food,Vegetable Ranch Tray No Dip Small 	850054894335	19.5 oz (553g),Potential Salmonella,CO,Purchase Date: 11/22 to 11/29/2024
+2003,20250205,F-0441-2025,"GBC Food Services, LLC dba Yummi Sushi",Terminated,Class I,Food,Family Garden Salad 	850054894601	24 oz (679g),Potential Salmonella,CO,Purchase Dates: 11/22 to 11/29/2024
+2004,20250205,F-0439-2025,"GBC Food Services, LLC dba Yummi Sushi",Terminated,Class I,Food,Southwest Salad 	850065403069	Net Wt: 4oz (113g),Potential Salmonella,CO,Purchase Date: 11/22 to 11/29/2024
+2005,20250205,F-0432-2025,Pacific Coast Producers,Ongoing,Class II,Food,"Diced Bartlett Pears In Extra Light Syrup, 105 OZ (6 LB 9 OZ), packed in a metal can, hermetically sealed",Potential contamination with foreign objects.,"KY, MI, OH, PA.",6PDL 05 A2644
+2006,20250205,F-0455-2025,Iovate Health Sciences USA Inc.,Terminated,Class II,Food,"Alpha Test 120 count Black labeled plastic bottle, 12 bottles per case of 120 count capsules each per bottle,
+Store in a cool, dry place (60 F to 80 F), UPC 6-31656-60676-8, SKU0001191, SKU0002075",Presence of cathine in product,"Domestic and foreign distribution:NC, CA, TX, NJ, VA, NV, PA, IN, NY, CA, IL,MS, KY, MI,SC, WA, CT, FL, OH, WI, DE, LA, TN, MO, UT, KH, GA, KS, CO, IA, AZ, OR.  Foreign distribution: ZA, PH, IS, KZ, AE","Expiration Date and Lot Codes:  March 21, 2027 (Lots 24A125, 24B059, 24B060)  March 22, 2027 (Lot 24C112) July 3, 2027 (Lots 24F164, 24G112) July 4, 2027 (Lot 24E288) July 5, 2027 (Lots 24G243, 24H207)"
+2007,20250205,F-0442-2025,"GBC Food Services, LLC dba Yummi Sushi",Terminated,Class I,Food,Individual Greek Salad 	850054894649	12 oz (340g),Potential Salmonella,CO,Purchase Date: 11/22 to 11/29/2024
+2008,20250129,F-0410-2025,Cal Yee Farm LLC,Terminated,Class II,Food,"Cal Yee's Dried Mangos with Chili (8-oz, 1-lb plastic bags)",Undeclared yellow #5,"2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2009,20250129,F-0419-2025,Cal Yee Farm LLC,Terminated,Class II,Food,"Cal Yee's Butter Toffee Almonds (8-oz, 1-lb plastic bags) Boa Vista Butter Toffee Almonds (6-oz plastic bag)",Undeclared milk,"2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2010,20250129,F-0421-2025,The Granola Bar,Terminated,Class II,Food,"The Granola Bar brand The OG Bar; 4 oz; Ingredients: Oats, brown sugar, honey, almonds, butter, olive oil,
+cashews, coconut flakes, chia seeds, vanilla extract, kosher salt; Contains: Tree nuts. Baked in a facility
+that also processes wheat, eggs, dairy, soy and nuts.",Product contains undeclared milk and soy.,"CT, NY",No codes.
+2011,20250129,F-0405-2025,MR BING FOODS INC.,Terminated,Class II,Food,"Mr. Bing brand Sriracha Chili Sauce; 9 oz and 18 oz, in clear PET bottle with green cap; UPC 850044819072 and UPC 850044819058",Product may contain spoilage organisms.,"DE, NH, NY NJ, MD, PA, FL, MI, TX",9 oz Lot/BB:  1. 1307024-01 1/12/2026 2. 1307024-02 1/12/2026 3. 1407024-01 1/13/2026 4. 1407024-02 1/13/2026 5. 1507024-01 1/14/2026 6. 1607024-01 1/16/2026  18 oz Lot/BB: 1. 1607024-01 1/15/2026 2. 1607024-02 1/16/2026 3. 1707024-01 1/16/2026 4. 1707024 02 1/16/2026 5. 1707024 03 1/16/2026
+2012,20250129,F-0406-2025,"Horizon Organic Dairy, LLC",Terminated,Class II,Food,"Horizon Organic Aseptic Plain Whole Milk 8OZ 12 Pack. Refrigerate after opening.  With the following UPC:
+3663207113 (12 pack); 3663207127 (single unit). Distributed by: Danone US, LLC Broomfield, CO 80021.  HOD
+(Horizon Organic Dairy) #: 140236",Potential for premature product spoilage during shelf life.,"The recalled product was distributed in Arizona, California, and Nevada.","Lot Code Expiration: BEST BEFORE/BY 03 MAR 2025, 04 MAR 2025, 06 MAR 2025, 07 MAR 2025  Best By/Before: 03 MAR 2025, 04 MAR 2025, 06 MAR 2025, 07 MAR 2025"
+2013,20250129,F-0416-2025,Cal Yee Farm LLC,Terminated,Class I,Food,"Cal Yee's Yogurt Coated Almonds (8-oz, 1-lb)",Undeclared milk,"2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2014,20250129,F-0418-2025,Cal Yee Farm LLC,Terminated,Class I,Food,Cal Yee's Dark Chocolate Walnuts (8-oz plastic bag),Undeclared milk,"2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2015,20250129,F-0414-2025,Cal Yee Farm LLC,Terminated,Class I,Food,Cal Yee's Dark Chocolate Raisins (8-oz plastic bag),Undeclared milk,"2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2016,20250129,F-0415-2025,Cal Yee Farm LLC,Terminated,Class I,Food,"Cal Yee Farm Dark Chocolate Apricots (8-oz plastic non-flex container) Cal Yee Farms Dark Chocolate Apricots
+(8-oz plastic non-flex container)",Undeclared milk,"2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2017,20250129,F-0422-2025,Lidl US TRADING,Terminated,Class II,Food,"Buttered Vegetables KEEP FROZEN NET WT 10.5 OZ (300g) INGREDIENTS: CARROTS, PEAS, CALIFLOWER, CORN, BUTTER,
+SUGAR, SALT, CORN STARCH, PARSLEY MAY CONTAIN WHEAT. DISTRIBUTED BY LIDL USA, LLC. 3500 S. CLARK STREET,
+ARLINGTON, VA 22202 UPC 4 056489 122876","Undeclared Milk. During an FDA investigation the manufacturer was notified that the label does
+not list the allergen milk in the ingredient statement.","Product was shipped to the following states: DC, DE, GA, MD, NC, NJ, NY, PA, SC & VA.",All lots
+2018,20250129,F-0420-2025,Acme Smoked Fish Corp.,Terminated,Class I,Food,"KIRKLAND Signature Smoked Salmon NET WT 340 g (12 oz) MUST KEEP REFRIGERATED. INGREDIENTS: Atlantic Salmon
+(Salmo Salar), Salt, and Natural Hardwood Smoke. Color Added. Distributed by: Costco Wholesale Corporation
+P.O. Box 34535 Seattle, WA 98124-1535 UPC 0 96619 25697 6",The firm was notified after laboratory analysis that the product test positive for Listeria monocytogenes.,Product was shipped to distribution center and retail stores in FL,LOT 8512801270 Best By 11/13/2024
+2019,20250129,F-0412-2025,Cal Yee Farm LLC,Terminated,Class I,Food,Cal Yee's Cajun Sesame Hot Sticks (1-lb plastic bag),"Undeclared wheat, Undeclared soybean oil","2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2020,20250129,F-0417-2025,Cal Yee Farm LLC,Terminated,Class II,Food,Cal Yee Farms Fruit Basket (50-oz),Undeclared almonds,"2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2021,20250129,F-0411-2025,Cal Yee Farm LLC,Terminated,Class I,Food,"Cal Yee's Tropical Trail Mix - assorted nuts and dried fruits (8-oz, 1-lb, 2-lb, 5-lb plastic bags)",Undeclared milk,"2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2022,20250129,F-0413-2025,Cal Yee Farm LLC,Terminated,Class I,Food,Cal Yee's New Orleans Hot Mix (1-lb plastic bag),"Undeclared wheat, Undeclared soybean oil","2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2023,20250129,F-0408-2025,River Valley Ranch Ltd,Terminated,Class III,Food,"River Valley Ranch & Kitchens Spinach Artichoke Dip Mix.  net wt. 16 oz. (453g).  UPC 6 92016-40021 1.  Keep
+Refrigerated After Opening.  39900 60th Street, Burlington, WI  53105.",Underprocessing,WI,BATCH:  40124113001 BATCH:  40124113002 BATCH:  40124113003
+2024,20250129,F-0409-2025,Cal Yee Farm LLC,Terminated,Class I,Food,Cal Yee's Dark Chocolate Almonds (8-oz plastic bag),Undeclared milk,"2 retail stores (CA) and online/phone orders (CA, PA).",No codes
+2025,20250129,F-0424-2025,Braga Fresh Foods LLC,Ongoing,Class I,Food,"Marketside, BROCCOLI FLORETS, 12oz, BEST IF USED BY DEC 10 2024, PRODUCT OF USA, MEXICO",Potential contamination with Listeria monocytogenes.,"Walmart retail stores: AK, AR, AZ, CA, CO, ID, IL, IN, KY, LA, MI, MT, NV, OH, OK, OR, TX, UT, WA, WY",BFFG327A6 13:56
+2026,20250122,F-0399-2025,HARDIES FRESH FOODS,Terminated,Class I,Food,"14019 Cucumber Select 6 CT, 01034 Cucumber Select 5# packaged in polybags Dairyland Produce, LLC",Cucumbers have the potential to be contaminated with Salmonella,Texas,PRODUCT DESCRIPTION LOT CUCUMBER SELECT                  5# X2377626 CUCUMBER SELECT                  5# X2377665 CUCUMBER SELECT                  5# X2378321 CUCUMBER SELECT                  5# X2378322 CUCUMBER SELECT                  5# X2378323 CUCUMBER SELECT                  5# X2378451 CUCUMBER SELECT                  5# X2378845 CUCUMBER SELECT                  5# X2378846 CUCUMBER SELECT                  5# X2378878 CUCUMBER SELECT                  5# X2378986 CUCUMBER SELECT                  5# X2379632 CUCUMBER SELECT                  5# X2380656 CUCUMBER SELECT                  5# X2381011 CUCUMBER SELECT                  5# X2381079 CUCUMBER SELECT                  5# X2381084 CUCUMBER SELECT                  5# X2381089 CUCUMBER SELECT                  5# X2381311 CUCUMBER SELECT                  5# X2381629 CUCUMBER SELECT                  5# X2381657 CUCUMBER SELECT                  5# X2381669 CUCUMBER SELECT                  5# X2381684 CUCUMBER SELECT                  5# X2382260 CUCUMBER SELECT                  5# X2382301 CUCUMBER SELECT                  5# X2382330 CUCUMBER SELECT                  5# X2382712 CUCUMBER SELECT                  5# X2383350 CUCUMBER SELECT                  5# X2383437 CUCUMBER SELECT                  5# X2384557 CUCUMBER SELECT                  5# X2384586  CUCUMBER SELECT                6 CT X2377074 CUCUMBER SELECT                6 CT X2379602 CUCUMBER SELECT                6 CT X2381000 CUCUMBER SELECT                6 CT X2381080 CUCUMBER SELECT                6 CT X2383400 CUCUMBER SELECT                6 CT X2384557 CUCUMBER SELECT                6 CT X2384587
+2027,20250122,F-0393-2025,First  Quality Produce,Terminated,Class I,Food,"Cucumber Coins (sliced cucumbers); 1.25-oz, 2-oz, 2.16-oz, 2.25-oz, 2.6-oz, 3-oz, 4-oz Brand: Snack Buddies",Potential contamination with Salmonella.,Distributed within CA to 13 consignees. Product was not distributed to retail.,"293/073, 294/072, 303/063, 304/062, 305/061, 313/053, 314/052, 315/051, 321/045, 322/044, 324/042, 325/041, 333/033, 334/032"
+2028,20250122,F-0404-2025,"Las Delicias Distributors, LLC",Terminated,Class II,Food,El Gallo Jalape¿o Queso salsa,Product does not include statement: Contains milk,Texas (Houston and Dallas areas),"LOT Numbers: 104240619-1, 104240619, 104240723"
+2029,20250122,F-0426-2025,Abbey Specialty Foods,Terminated,Class I,Food,"Wicklow Gold Cheddar Tomato & Herb, 5.2 oz., plastic cryo-vac , 8 packages per case",Product may have Listeria Monocytogenes.,"The recalled product was distributed to the following states: MA, CO, OH",Wicklow Gold Cheddar Tomato & Herb/Batch 24175/ Item 28473/Sell by 6/2/25
+2030,20250122,F-0389-2025,The Kroger Co,Terminated,Class I,Food,"BOAR'S HEAD HUMMUS VEG PLATTER SM, 2.5 lb., packaged in a plastic container with a plastic lid, UPC 42421-61545","Platters and trays prepared in-store may contain cut cucumbers that were previously recalled due
+to potential contamination with Salmonella.","AZ, CO, LA, NM, TX, UT, WY",All lot codes
+2031,20250122,F-0402-2025,Pinsarella Food LLC,Terminated,Class I,Food,"Pinsarella Roman Pizza, POL127-24, UPC 6 08539 14655 0 -Oval, 12x7/ 7.0 Oz, Parbaked, 6 units per bag, 24
+units per box., UPC 1 98715 69442 0 - Oval, 14x9/ 10.6 Oz, Parbaked, 6 units per bag, 24 units per box., UPC 6
+08539 33371 4 - Round, 8"" / 5.0 Oz, Parbaked, 6 units per bag, 36 units per box., Good Until: 12 months if
+kept frozen, 10 days if kept refrigerated. Pinsarella Food LLC 760 Sycamore Ave. Suite D, Vista , CA 92083,
+sales@pinsarella.com, www.pinsarella.com;",Undeclared allergens (Wheat and Soy),Product is packaged and sold to distributors who supply restaurant business in California.,USE by date: 12/09/2025
+2032,20250122,F-0386-2025,"Orgain, LLC",Terminated,Class I,Food,"Orgain 30g Plant Protein, Complete Protein Powder, 6g Prebiotic +Fiber, 9g EAAS+BCAAs, 1gSugar, Chocolate
+Flavor; NET WT 32.1 OZ (2.01 LB) 912g; Nutritional Facts: Serving size 2 scoops, UPC: 8 51770 00760 3;
+QUESTIONS ABOUT ORGAIN PRODUCTS? 888-881-GAIN(4246) Lot# 4172-02-P",Potential contamination of undeclared allergen peanuts,"Direct account list is still being compiled by firm. Customers include other than domestic. 6 total direct accounts( 4 distributors, 2 retail)",Expiration date: 06-20-26
+2033,20250122,F-0400-2025,WHOLESALE PRODUCE SUPPLY LLC DBA,Terminated,Class I,Food,"Cucumbers, Wholesale Produce Supply, 752 Kasota Circle, Minneapolis, MN  554145. Product of Mexico.  Cucumbers
+sold in the following pack sizes:   1.  5 lb. pack 2.  6 ct individual items per case.   3.  12 ct individual
+items per case.  4.  24 ct individual items per case.  5.  36 ct individual items per case.",Cucumbers may be contaminated with Salmonella.,"IA, IL, KS, MN, MT, ND, NE, SD, WI and Canada",Pack Date:  79 24353 Lot 542547
+2034,20250122,F-0394-2025,First  Quality Produce,Terminated,Class I,Food,Cucumber Coins (sliced cucumbers); 5-lb plastic trays Brand: First Quality Produce,Potential contamination with Salmonella.,Distributed within CA to 13 consignees. Product was not distributed to retail.,"304/062, 321/045, 333/033, 312/054, 311/055, 313/053, 314/052, 293/073, 294/072"
+2035,20250122,F-0387-2025,The Kroger Co,Terminated,Class I,Food,"DELI FRESH VEGETABLE TRAY MED, 4 lb., packaged in a plastic container with a plastic lid, UPC 11110-99274","Platters and trays prepared in-store may contain cut cucumbers that were previously recalled due
+to potential contamination with Salmonella.","AZ, CO, LA, NM, TX, UT, WY",All lot codes
+2036,20250122,F-0390-2025,The Kroger Co,Terminated,Class I,Food,"BOAR'S HEAD HUMMUS VEG PLATTER MED, 5 lb., packaged in a plastic container with a plastic lid, UPC 42421-61547","Platters and trays prepared in-store may contain cut cucumbers that were previously recalled due
+to potential contamination with Salmonella.","AZ, CO, LA, NM, TX, UT, WY",All lot codes
+2037,20250122,F-0398-2025,"New Age International, Inc.",Terminated,Class I,Food,"Daily Veggies Enoki Mushroom, 200g Product of Korea UPC Codes: 8809159458890",may be contaminated with Listeria monocytogenes,"NY, MD",UPC code 8809159458890 on back label
+2038,20250122,F-0395-2025,First  Quality Produce,Terminated,Class I,Food,Cucumber Spear; 5-lb plastic trays Brand: First Quality Produce,Potential contamination with Salmonella.,Distributed within CA to 13 consignees. Product was not distributed to retail.,313/053
+2039,20250122,F-0388-2025,The Kroger Co,Terminated,Class I,Food,"SMALL VEGGIE PLATTER, 32 oz., packaged in a plastic container with a plastic lid, UPC 41573-26809","Platters and trays prepared in-store may contain cut cucumbers that were previously recalled due
+to potential contamination with Salmonella.","AZ, CO, LA, NM, TX, UT, WY",All lot codes
+2040,20250122,F-0425-2025,Abbey Specialty Foods,Terminated,Class I,Food,"Wicklow Gold Cheddar Nettle & Chive Cheese, 5.2 oz., plastic cryo-vac , 8 packages per case",Product may have Listeria Monocytogenes.,"The recalled product was distributed to the following states: MA, CO, OH",Wicklow Gold Cheddar Nettle & Chive /Batch 24192/ Item # 28472/sell by date 6/2/25.
+2041,20250122,F-0397-2025,Summit Import Corporation,Terminated,Class II,Food,"Yu Yee, Five Spice Powder,1.76oz",Product tested and found high levels of lead.,"The product was distributed to the following states: NY, VA, CT, FL, OH, SC, AK, MA, NJ, GA, MN, MO, IA, PA, MD, Bahamas",06072/WH538
+2042,20250122,F-0401-2025,Eclectic Institute Inc,Terminated,Class III,Food,"Eclectic Herb Vitamin Herb Blend vita biotic dietary supplement, 750mg, 150 capsules per plastic bottle, UPC 0
+23363 52002 2. Eclectic Institute, Inc. 755 NE 6th Street Gresham, OR 97030.  The affected label declared
+""Oregon Grape 190mg ***Oregon Grape 97mg***Cayenne Root (Allium sativum) 195mg ***Ginger Fruit (Capsicum
+annuum) 65mg***"".","Product's ingredients names such as Oregon Grape, Cayenne Root, and Ginger Fruit and their
+quantities were not listed correctly in the Supplement Facts panel.",nationwide,Lot 25183; Exp date 10/2024 Lot 25543; Exp Date 03/2025
+2043,20250122,F-0396-2025,First  Quality Produce,Terminated,Class I,Food,Cucumber Diced; 5-lb plastic trays Brand: First Quality Produce,Potential contamination with Salmonella.,Distributed within CA to 13 consignees. Product was not distributed to retail.,"294/072, 312/054, 314/052"
+2044,20250115,F-0379-2025,Grecian Delight/Kronos,Terminated,Class I,Food,"Nick The Greek Spicy Yogurt Pail, 42lbs pail, UPC 10075365177756, SKU SA000085",potential for salmonella,AR CA CO FL GA ID IL IN KS KY LA MD MI MN MO MS NC NJ NV NY OH PA SC TN TX VA WI,Lot 4305
+2045,20250115,F-0407-2025,TREE HOUSE FOODS INC,Terminated,Class II,Food,"Great Value, Chicken Broth,  48 oz. , Aseptic paper cartons, 6 retail units per case, 120 cases/pallet .","Potential for packaging failures that could compromise the sterility of the product, resulting in spoilage.","The product was distributed to one Direct Consignee, two locations:  AL, AR","a. Best if Used by: MAR 25, 2026 b. Batch (Lot) code: 98F09234 c. Retail Unit UPC: 007874206684 d. Case UPC: 078742066844"
+2046,20250115,F-0381-2025,Better Brands Inc.,Terminated,Class II,Food,Chow Ciao Whole Grain Breaded Broccoli Nuggets - 30 lbs.,Contains foreign object (metal),tbd,Lot number: 24241  Production date: 08/27/2024
+2047,20250115,F-0380-2025,Olympia Foods,Terminated,Class I,Food,"Olympia Foods Grecian Dip Tzatziki sauce, item 100, 4 lb. tubs, UPC 10045059001001, 4 tubs per case; item 104,
+32lbs pail, UPC 00045059001042",potential for salmonella,CO CT FL GA IL IN MO NC NJ NY OH ON PA WA WI,"Item 100, lots 030125, 030525, 030625, 031225 Item 104, lot 030425"
+2048,20250115,F-0378-2025,Grecian Delight/Kronos,Terminated,Class I,Food,"US Foods Chef's Line Greek Yogurt Tzatziki 4lbs tub, UPC 758108679962, SKU SAL519448,  2 tubs per case.  Nick
+The Greek Tzatziki Pail, 42lbs pail, UPC 10075365177787, SKU SA000084",potential for salmonella,AR CA CO FL GA ID IL IN KS KY LA MD MI MN MO MS NC NJ NV NY OH PA SC TN TX VA WI,"US Foods Chef's Line Greek Yogurt Tzatziki, Lot 4303  Nick The Greek Tzatziki Pail, Lot 4305"
+2049,20250115,F-0392-2025,HP Hood (VERNON),Terminated,Class II,Food,WELLSLEY FARM PLAIN NON-FAT GREEK YOGURT; 40 oz; UPC 888670048085,Products may contain foreign objects (plastic).,"MD, CT, KY",Code dates: 12/4/2024  12/11/2024 12/18/2024   12/25/2024   1/1/2025   1/8/2025   1/15/2025
+2050,20250115,F-0382-2025,"Palermo Villa, Inc",Terminated,Class II,Food,"Connie's Classic Thin Crust Cheese Pizza, Chicago's Finest.  Net Wt 20.36 oz.  (1lb 4.36 oz) 577g.  UPC 0
+75706-19104 8.  Keep Refrigerated.  Distributed by:  Palermo Villa, nc. Milwaukee, WI  53208.",Foreign material (plastic),"IL, MN, WI",Lot Number:  MR199856
+2051,20250115,F-0384-2025,"C.H. Guenther & Son, Inc.",Terminated,Class I,Food,"235214 Baker's Source Traditional Cornbread Mix Complete, 5 LB Bags, 30 LB Cases Foodservice Use, Human
+Consumption & mix with water and bake Shelf Stable Dry Mix, 1 Year Shelf Life",Undeclared egg allergen,"Louisiana, Tennessee, Texas, Oklahoma, Arkansas, Missouri, Florida, Virginia",Item:  235214 6/5# Baker s Source Traditional Cornbread Mix MFG Dates Lot Codes 5/22/2024 PF052224 6/24/2024 PF062424 6/25/2024 PF062524 7/25/2024 PF072524 7/26/2024 PF072624 8/21/2024 PF082124 8/22/2024 PF082224 9/16/2024 PF091626 9/18/2024 PF091824 9/20/2024 PF092024 10/4/2024 PF100424 10/5/2024 PF100524 10/23/2024 PF102324 11/1/2024 PF110124
+2052,20250115,F-0391-2025,HP Hood (VERNON),Terminated,Class II,Food,WELLSLEY FARM VANILLA NON-FAT GREEK YOGURT; 40 oz; UPC 888670048078,Products may contain foreign objects (plastic).,"MD, CT, KY",Code dates: 12/4/2024  12/11/2024 12/18/2024   12/25/2024   1/1/2025   1/8/2025   1/15/2025
+2053,20250115,F-0385-2025,"Dairyland Produce, LLC",Terminated,Class I,Food,Texas Harvest Product: 01035 Cucumber Sliced 5# 5-pound trays with sealed film,Cucumbers have the potential to be contaminated with Salmonella.,Texas,X0710777
+2054,20250115,F-0377-2025,Grecian Delight/Kronos,Terminated,Class I,Food,"Grecian Delight Tzatziki sauce, 3.75 lb. tub, UPC 07365000286, SKU SAL028, 4 tubs per case. Sysco Classic
+Tzatziki sauce, 3.75 lb. tub, UPC 074865886277, SKU SAL9669136, 4 tubs per case.",potential for salmonella,AR CA CO FL GA ID IL IN KS KY LA MD MI MN MO MS NC NJ NV NY OH PA SC TN TX VA WI,"Grecian Delight Tzatziki sauce, Lots 4304 and 4303 Sysco Classic Tzatziki sauce, Lot 110124"
+2055,20250108,F-0362-2025,"Reser's Fine Foods, Inc.",Terminated,Class I,Food,"Beef & Lamb Gyro Sandwich Express Meal Kit. Net wt. 31.8oz. UPC 0 13454 38313 1.   Each kit contains 6 Pitas,
+Gyro Meat, Tzatziki Sauce 3oz. cups, Fire Feta Sauce, Feta Cheese Crumbles.  Packaged in clear plastic
+clamshell. Distributed by Fresh Creative Foods, Vista CA.","Salmonella. Beef & Lamb Gyro Sandwich Express Meal Kit contains implicated cucumber in the
+tzatziki sauce 3oz. cup.","Distributed in AZ, CA, CO, FL, GA, IL, IN, KS, LA, MD, MN, MO, NC, NY, OH, OK, TX, UT and WY.",Kit has use by dates:   12/24/2024  12/25/2024 12/28/2024  1/2/2025  1/6/2025
+2056,20250108,F-0359-2025,"Grimmway Enterprises, Inc. dba Grimmway Farms",Terminated,Class I,Food,"--- Organic Baby Carrots --- Organic Baby Carrots 25 Grimmway Farms; Organic Baby Carrots 25 Lbs. Grimmway
+Farms --- Brand --- Grimmway Farms",Potential contamination with E. coli O121:H19,"Distribution Centers located in U.S. States: AL, AR, AZ, CA, CO, CT, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, MI, MN, MO, NC, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, TN, TX, UT, VA, VT, WA, WI U.S. Territories: Puerto Rico Foreign Countries: Canada, United Arab Emirates, Hong Kong, Columbia",127734 127773 127830 127871 127875 127936 127975 127978 128036 128059 128063 128129 128133 128163 128238 128264 128291 128336 128383 128482
+2057,20250108,F-0371-2025,RUSS DAVIS WHOLESALE,Terminated,Class I,Food,"Kowalski's Garden Salad Net Wt. 14oz.  Keep Refrigerated.  UPC  7 95631-89335 9.    Containing Lettuce,
+Cucumber, Tomatoes, Broccoli, Cheddar Cheese, Onion, Hard Cooked Eggs, Carrots, Roasted Sunflower Kernels.",Cucumbers have potential to be contaminated with Salmonella.,"IA, IL, KS, MI, MN, MT, ND, NE, SD, WI, WY","Use/Sell By Dates:  November 6 - November 15, 2024 Lot Codes: X7545630, X7550110, X7554755, X7558921, X7562768."
+2058,20250108,F-0341-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Tropical Fruit Cup; UPC: 85316-10384; 16 oz plastic container b.) King Kullen brand
+Tropical Fruit Cup; UPC: 85316-10403; 12 oz plastic container c.) Gracie's Kitchen brand Tropical Fruit Cup;
+UPC: 85316-10384; 16 oz plastic container d.) Gracie's Kitchen brand Tropical Fruit Cup: UPC: 85316-10403; 12
+oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24 c.) Sell By Dates: 11/11-11/21/24 d.) Sell By Dates: 11/11-11/21/24
+2059,20250108,F-0434-2025,"Heber Valley Artisan Cheese, LLC.",Terminated,Class I,Food,"Cascade Raw Cheddar  GTIN #90854115003059 packed in an approximately 6 lb quarter wheels vacuum sealed.  All
+quarter wheels are variable weight sold by the pound and each vacuum sealed package contains 1 quarter wheel.","The Cascade Raw Cheddar Cheese was recalled due to Shiga toxin-producing E. coli (STEC) and
+elevated generic E.coli in finished product testing results.","Product was distributed to MT, NV, UT, WY.",Any LOT code ending in 177 with a Sell By date of approximately May 2025.  Lot Code: 1106177
+2060,20250108,F-0363-2025,"Reser's Fine Foods, Inc.",Terminated,Class I,Food,"FCF Item 404884, Gyro Kit With Trays. Each tray consists of 2/5.25lbs. packages. UPC 0 13454 38155.
+Distributed by Fresh Creative Foods, Vista CA.   Each kit consists of 8 bags of Traditional Pita Bread,
+2/32oz. bags of Gyro Slices, 2 Sleeves of 4/2oz. cups premium Tzatziki sauce, 2 sleeves of 4/2oz. cups fire
+Feta sauce, 1 full Rib lid & tray Combo for 8 packs, and label #5108 Gyro on Premise.  This product is sold to
+consignees for further assemble/repack and each 5.25lbs. tray is not sold directly to consumers.","Salmonella. Item 404884, Gyro Kit With Trays contains implicated cucumber in the tzatziki sauce 2oz. cup.","Distributed in AZ, CA, CO, FL, GA, IL, IN, KS, LA, MD, MN, MO, NC, NY, OH, OK, TX, UT and WY.",Kit has use by dates: 12/29/2024  12/31/2024  1/1/2025  1/2/2025  1/7/2025
+2061,20250108,F-0356-2025,Sprouts Farmers Market,Terminated,Class I,Food,"Sprout Gyro Family Kit, net wt. 1.750 lb (794 g), food, perishable, plastic tray, 28oz, U UPC 20594800000.",Cucumbers from Baloian Farms in tzatziki sauce have the potential to be contaminated with Salmonella.,"AL, AZ, CA, CO, DE, FL, GA, KS, LA, MD, MO, NC, NJ, NM, NV, OK, PA, SC, TN, TX, UT, VA, WA, and WY",Use By Date range is 12/29/24 - 01/07/25
+2062,20250108,F-0330-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Diced Red Onion; UPC: 85316-10086; 12 oz plastic container b.) Wild By Nature brand
+Diced Red Onion; UPC: 85316-10086; 12 oz plastic container c.) Gracie's Kitchen brand Diced Red Onion; UPC:
+85316-10017; 10 oz plastic container d.) Gracie's Kitchen brand Diced Red Onion; UPC: 85316-10086; 10 oz
+plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24 b.) Sell By Dates: 11/12-11/22/24 c.) Sell By Dates: 11/12-11/22/24 d.) Sell By Dates: 11/12-11/22/24
+2063,20250108,F-0337-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Fiesta Bowl; UPC: 85316-10201; 64 oz plastic container b.) Wild By Nature brand Fiesta
+Bowl; UPC: 85316-10201; 64 oz plastic  c.) Gracie's Kitchen brand Fiesta Bowl; UPC: 85316-10214; 60 oz plastic
+container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/9-11/19/24 b.) Sell By Dates: 11/9-11/19/24 c.) Sell By Dates: 11/11-11/21/24
+2064,20250108,F-0351-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,a.) Gracie's Kitchen brand Broccoli & Cauliflower Florets; UPC: 85316-1009; 12 oz foam tray,Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/14-11/24/24
+2065,20250108,F-0353-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,a.) Gracie's Kitchen brand Cauliflower Florets; UPC: 85316-10012; 12 oz foam tray,Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/14-11/24/24
+2066,20250108,F-0336-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Fiesta Watermelon Bowl; UPC: 85316-10200; 60 oz plastic container b.) Gracie's Kitchen
+brand Fiesta Watermelon Bowl; UPC: 85316-10202; 60 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/9-11/19/24 b.) Sell By Dates: 11/11-11/21/24
+2067,20250108,F-0352-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,a.) Gracie's Kitchen brand Broccoli Florets; UPC: 85316-10011; 12 oz foam tray,Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/14-11/24/24
+2068,20250108,F-0372-2025,Delta Fresh LLC.,Terminated,Class I,Food,"Product is a whole, fresh cucumber with no individual packaging, labeling, PLU, or other identifying
+information. Cucumber weight and size varies.   Type of master packaging: 1.PACKAGED IN BULK IN 1 1/9 BUSHEL
+CARDBOARD BOXES WITH THE  DELTA FRESH  LABEL; OR 2.PACKAGED IN BULK IN 1 1/9 BUSHEL GENERIC WHITE CARDBOARD
+BOXES WITH A STICKER THAT PROVIDES THE IMPLICATED GROWER S NAME,  AGROTATO, S.A. DE C.V.  Net wt: 50 lb UPC:
+N/A  Firm Name & Address listed on label: AGROTATO SA DE CV, BLVD. FRANCISCO EUSEBIO KINO NO. 315, INT. 706,
+COL. LOMAS DEL PITIC, C.P. 83010, HERMOSILLO, SONORA, MEXICO is listed on the master case. There is no
+packaging/label/sticker on the cucumbers",Potential Salmonella contamination of fresh cucumbers.  Associated with an outbreak.,"Recalled product was distributed to the following states: AZ, CA, IL, MD, MI, MN, NY. and TX.",Delta Fresh does NOT assign lot information to the shipping container.
+2069,20250108,F-0344-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Watermelon Halo; UPC: 85316-10392; 26 oz plastic container b.) Gracie's Kitchen brand
+Watermelon Halo; UPC: 85316-10392; 26 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24
+2070,20250108,F-0325-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Cantaloupe Slices; UPC 85316-10008; 20 oz foam tray b) Wild By Nature brand Cantaloupe
+Slices; UPC: 85316-10008; 20 oz foam tray c.) King Kullen brand Cantaloupe Chunks; UPC: 85316-10379; 12 oz
+plastic container d.) King Kullen brand Cantaloupe Chunks; UPC: 85316-10383; 16 oz plastic container e.) King
+Kullen brand Cantaloupe Slices; UPC: 85316-10540; 16 oz plastic container f.) Wild By Nature brand Cantaloupe
+Chunks; UPC: 85316-10379; 12 oz plastic container g.) Wild By Nature brand Cantaloupe Chunks; UPC:
+85316-10383; 16 oz plastic container h.) Gracie's Kitchen brand Cantaloupe Chunks; UPC: 85316-10353; 16 oz
+plastic container i.) Gracie's Kitchen brand Cantaloupe Chunks; UPC: 85316-10379; 12 oz plastic container j.)
+Gracie's Kitchen brand Cantaloupe Slices; UPC: 85316-10450' 16 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/09-11/19/24 b.) Sell By Dates: 11/09-11/19/24 c.) Sell By Dates: 11/11-11/21/24 d.) Sell By Dates: 11/11-11/21/24 e.) Sell By Dates: 11/9-11/19/24 f.) Sell By Dates: 11/11-11/21/24 g.) Sell By Dates: 11/11-11/21/24 h.) Sell By Dates: 11/11-11/21/24 i.) Sell By Dates: 11/11-11/2124 j.) Sell By Dates: 11/9-11/19/24
+2071,20250108,F-0343-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Tropical Delight Bowl; UPC: 85316-10391; 28 oz plastic container b.) Gracie's Kitchen
+brand Tropical Delight Bowl; UPC: 85316-10313; 28 oz plastic container c.) Gracie's Kitchen brand Tropical
+Delight Bowl; UPC: 85316-10391; 28 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24 c.) Sell By Dates: 11/11-11/21/24
+2072,20250108,F-0369-2025,RUSS DAVIS WHOLESALE,Terminated,Class I,Food,"Bacon Avocado Wrap,  Net Wt 9.9oz.  Keep Refrigerated.  UPC   7 95631-81038 7.  Containing Flour
+Tortilla,Carrots, Lettuce, Cheddar Cheese, Cucumber, Guacamole, Bacon Bits, Ranch Dressing, Spinach, Cream
+Cheese.   Sold under the following brands:   1.  Crazy Fresh 2.  quick & easy, Meals",Cucumbers have potential to be contaminated with Salmonella.,"IA, IL, KS, MI, MN, MT, ND, NE, SD, WI, WY","Lot Codes:  X7547814, X7550037, X7554119, X7554784, X7556770, X7558868.   Sell By Dates:  November 5 - November 15, 2024"
+2073,20250108,F-0323-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Watermelon Slices; UPC 85316-10006; 20 oz foam tray b) Wild By Nature brand Watermelon
+Slices; UPC: 85316-10006; 20 oz foam tray c.) King Kullen brand Watermelon Chunks; UPC: 85316-10413; 12 oz
+plastic container d.) King Kullen brand Watermelon Slices; UPC: 85316-10543; 16 oz plastic container e.) Wild
+By Nature brand Watermelon Spears; UPC: 85316-10389; 24 oz plastic container f.) Gracie's Kitchen brand
+Watermelon Spears; UPC: 85316-10302; 24 oz plastic container g.) Gracie's Kitchen brand Watermelon Spears:
+UPC: 85316-10342; 24 oz plastic container h.) Gracie's Kitchen brand Watermelon Chunks: UPC: 85316-10356; 16
+oz plastic containers i.) King Kullen brand Watermelon Spears; UPC: 85316-10389; 24 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/09-11/19/24 b.) Sell By Dates: 11/09-11/19/24 c.) Sell By Dates: 11/11-11/21/24 d.) Sell By Dates: 11/9-11/19/24 e.) Sell By Dates: 11/11-11/21/24 f.) Sell By Dates: 11/11-11/21/24 g.) Sell By Dates: 11/11-11/21/24 h.) Sell By Dates: 11/11-11/21/24 i.) Sell By Dates: 11/11-11/21/24
+2074,20250108,F-0354-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,a.) Gracie's Kitchen brand Diced Carrots; UPC: 85316-10019; 10 oz plastic container,Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24
+2075,20250108,F-0339-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Mango; UPC: 85316-10377; 12 oz plastic container b.) King Kullen brand Mango Spears;
+UPC: 85316-10387; 16 oz plastic container c.) Wild by Nature brand Mango; UPC: 85316-10377; 12 oz plastic
+container d.) Gracie's Kitchen brand Mango Spears; UPC: 85316-10337; 16 oz plastic container e.) Gracie's
+Kitchen brand Mango Cup; UPC: 85316-10323; 12 oz plastic container f.) Gracie's Kitchen brand Mango Chunks;
+UPC: 85316-10352; 16 oz plastic container g.) Gracie's Kitchen brand Magno Cup; UPC: 85316-10377; 12 oz
+plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24 c.) Sell By Dates: 11/11-11/21/24 d.) Sell By Dates: 11/11-11/21/24 e.) Sell By Dates: 11/11-11/21/24 f.) Sell By Dates: 11/11-11/21/24 g.)Sell By Dates: 11/11-11/21/24 e.) Sell By Dates: 11/11-11/21/24 f.) Sell By Dates: 11/11-11/21/24
+2076,20250108,F-0376-2025,"GARDNER'S CANDIES , INC",Terminated,Class I,Food,"Gardner's Candies Cappuccino Meltaway Bar 1.25 oz. (35g), Item Number: 15207/online website item number is
+0015207, sold individually and; also as part of Gardner's Meltaway Treat Box 6 oz, Item Number: 50135 or
+online website item number is 0050135",Product contains Undeclared Allergen Tree Nuts (Cashews),"The recalled product was distributed to the following States: PA, OH, GA, MN, NM, MD, KY, SC, FL, MO, CA",Gardner's Cappuccino Meltaway Bar: dated 082725;  Gardner's Meltaway Treat Box: dated either 101625 or 112525
+2077,20250108,F-0334-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,a.) King Kullen brand Tri Colored Noodles; UPC: 85316-10146; 14 oz plastic container,Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24
+2078,20250108,F-0375-2025,Herr Foods Inc,Terminated,Class II,Food,"Wegmans Jalapeno Baked  Cheese Puffs, Jalapeno flavored, 10oz, (283 g),  SKU #6877","Undeclared monosodium glutamate, sodium diacetate, disodium inosinate and disodium guanylate,
+and spice extract",The recalled product was distributed to the following states: NY,"Expiration dates 12/1/2024, 12/22/2024, 12/29/2024, 1/5/2025, 1/26/2025, 2/23/2025, 3/2/2025, 3/23/2025, 4/20/2025, 5/11/2025, 5/18/2025"
+2079,20250108,F-0365-2025,Sam'S Club,Terminated,Class II,Food,"Member's Mark Hatch Chile Chicken Enchiladas, ready to cook, perishable, packaging type: aluminum/black oven-
+safe tray Net wt. variable - average 1.52 lbs. UPC 00226529000004, UPC 00409802813793",Presence of Listeria monocytogenes,Distributed nationwide,All Best if Used by Dates.
+2080,20250108,F-0327-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Stuffed Artichokes; UPC: 85316-10061; 16 oz foam tray b.) Gracie's Kitchen brand Stuffed
+Artichokes; UPC: 85316-10055; 16 oz foam tray",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/9-11/19/24 b.) Sell By Dates: 11/14-11/24/24
+2081,20250108,F-0349-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) Wild by Nature brand Sliced Mixed Peppers; UPC: 85316-10102; 12 oz plastic container b.) Gracie's Kitchen
+brand Sliced Mixed Peppers; UPC: 85316-10007; 12 oz plastic container c.) Gracie's Kitchen brand Diced Tri
+Color Peppers; UPC: 85316-10023; 10 oz plastic container d.) Gracie's Kitchen brand Sliced Mixed Peppers; UPC:
+85316-10102; 12 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/12-11/22/24 c.) Sell By Dates: 11/12-11/22/24 d.) Sell By Dates: 11/12-11/22/24
+2082,20250108,F-0348-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,a.) WIld by Nature brand Squash Noodles; UPC: 85316-10022; 14 oz plastic container,Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24
+2083,20250108,F-0350-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) Wild by Nature brand Fruit Spears; UPC: 85316-10393; 24 oz plastic container b.) Gracie's Kitchen brand
+Fruit Spears; UPC: 85316-10393; 24 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24
+2084,20250108,F-0364-2025,"Reser's Fine Foods, Inc.",Terminated,Class I,Food,"FCF Item 404885, Gyro Kit No Trays. Each box consists of 2/5.25lbs. packages. UPC 0 13454 38158. Distributed
+by Fresh Creative Foods, Vista CA.   Each kit consists of 8 bags of Traditional Pita Bread, 2/32oz. bags of
+Gyro Slices, 2 Sleeves of 4/2oz. cups premium Tzatziki sauce, 2 sleeves of 4/2oz. cups Fire Feta sauce, and
+label #5108 Gyro on Premise.  This product is sold to consignees for further assemble/repack and each 5.25lbs.
+tray is not sold directly to consumers.","Salmonella. Item 404885, Gyro Kit No Trays contains implicated cucumber in the tzatziki sauce cup.","Distributed in AZ, CA, CO, FL, GA, IL, IN, KS, LA, MD, MN, MO, NC, NY, OH, OK, TX, UT and WY.",Kit has Use By date of  1/2/2025. Batch B1842582
+2085,20250108,F-0332-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Fajita Mix; UPC: 85316-11090; 12 oz plastic container b.) Gracie's Kitchen brand Fajita
+Mix; UPC: 85316-10002; 12 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24 b.) Sell By Dates: 11/12-11/22/24
+2086,20250108,F-0333-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Brussel Sprout Halves; UPC: 85316-10097; 12 oz plastic container b.) King Kullen brand
+Brussel Sprouts Shredded; UPC: 85316-10098; 12 oz plastic container c.) Wild by Nature brand Brussel Sprout
+Halves; UPC: 85316-10097; 12 oz plastic container d.) Gracie's Kitchen brand Brussel Sprout Halves; UPC:
+85316-10097; 12 oz plastic container e.) Gracie's Kitchen brand Brussel Sprouts Shredded; UPC: 85316-10098; 12
+oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24 b.) Sell By Dates: 11/12-11/22/24 c.) Sell By Dates: 11/12-11/22/24 d.) Sell By Dates: 11/12-11/22/24 e.) Sell By Dates: 11/12-11/22/24
+2087,20250108,F-0367-2025,RUSS DAVIS WHOLESALE,Terminated,Class I,Food,"Whole and Cut Cucumbers packaged in the following sizes:   1.  Peak Cucumber Item 08027, 24 count.  Product of
+Mexico.   2.     Peak Cucumber Item 08009, 5 LB. Product of Mexico.   3. Cucumber Super Select Item 22200, 24
+count. Product of Mexico.   4.     Cucumber Item 22201, 5 lb. Product of Mexico.   5.      Cucumber Super
+Select Item 22227, 6 CT. Product of Mexico.   6.  Cucumber 1/4"" Slice/Skin-On    Net Wt 5 LB.  Keep
+Refrigerated.  Mexico 7.  Cucumber Diced  3/8""   Net Wt. 5 LB.  Keep Refrigerated.  Mexico 8.  Cucumber 1/4""
+Peeled Sliced Net Wt. 5 LB.  Keep Refrigerated.  Mexico",Cucumbers have potential to be contaminated with Salmonella.,"IA, IL, KS, MI, MN, MT, ND, NE, SD, WI, WY","Lot Codes:  1.   X7544915, X7544941, X7545223, X7545254, X7545818, X7547379, X7549235, X7549567, X7552171.   2. X7544916, X7544942, X7545255, X7545671, X7545820, X7547380. 3. X7522892, X7525242, X7527841, X7529877, X7538875, X7544860, X7545305, X7546056, X7546374, X7548174, X7549360, X7550452, X7550665, X7550864, X7551649, X7552580, X7554639. 4.  X7523208, X7525604, X7527034, X7527842, X7528437, X7530464, X7532041, X7532810, X7535312, X7536804, X7537516, X7543731, X7544783, X7545096, X7546437, X7546473, X7547169, X7547211, X7547672, X7548066, X7549528, X7550453, X7552059, X7552233, X7556439. 5. X7547984, X7548122, X7548232, X7549231, X7549555.     6.  X7545151, X7549635, X7551987, X7556080, X7558549.  Use By:  11/6/2024 - 11/13/2024.   7.  X7568580, USE BY:  11/17/2024.   8.  X7550999 and X7557325 USE BY:  11/8/2024 - 11/12/2024."
+2088,20250108,F-0340-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Mango Berry; UPC: 85316-10378; 12 oz plastic container b.) Wild By Nature brand Mango
+Berry; UPC: 85316-10378; 12 oz plastic container c.) Gracie's Kitchen brand Mango Berry; UPC: 85316-10325; 12
+oz plastic container d.) Gracie's Kitchen brand Mango Berry Cup; UPC: 85316-10326; 12 oz plastic container e.)
+Gracie's Kitchen brand Mango Berry; UPC: 85316-10378; 12 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24 c.) Sell By Dates: 11/11-11/21/24 d.) Sell By Dates: 11/11-11/21/24 e.) Sell By Dates: 11/11-11/21/24
+2089,20250108,F-0319-2025,"Lithuanian Bakery, Inc.",Terminated,Class I,Food,"Napoleonas Torte packaged under the following sizes:  1.  Small, Net Wt 1.25 lbs. (sub ingredients contain
+wheat, yellow #5 and #6, and sulfites not declared on final product label)  2.  Medium, Net Wt 2.75 lbs. (sub
+ingredients contain yellow #5 and #6 not declared on final product label)  3.  Large, Net Wt 6 lbs (sub
+ingredients contain wheat, milk, yellow #5 and #6, and sulfites not declared on final product label)","Products contain undeclared allergens (milk, soy, and wheat) and undeclared sulfites, yellow 5, yellow 6.","Distributed to store front customers at retail stores in IA, IL, KS, MO, MN, NE, and SD.",Not provided
+2090,20250108,F-0329-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Diced White Onion; UPC: 85316-10083; 12 oz plastic container b.) Wild By Nature brand
+Diced White Onion; UPC: 85316-10085; 12 oz plastic container c.) Gracie's Kitchen brand Diced White Onion;
+UPC: 85316-10018; 10 oz plastic container d.) Gracie's Kitchen brand Diced White Onion; UPC: 85316-10085; 10
+oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24 b.) Sell By Dates: 11/12-11/22/24 c.) Sell By Dates: 11/12-11/22/24 d.) Sell By Dates: 11/12-11/22/24
+2091,20250108,F-0346-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Large Fruit Platter; UPC: 85316-10402; 56 oz plastic container b.) Gracie's Kitchen
+brand Large Fruit Platter; UPC: 85316-10402; 56 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24
+2092,20250108,F-0347-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,a.) King Kullen brand Papaya Chunks; UPC: 85316-10411; 12 oz plastic container,Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24
+2093,20250108,F-0360-2025,"Grimmway Enterprises, Inc. dba Grimmway Farms",Terminated,Class I,Food,"--- Organic Whole Carrots ---  Organic Carrot 125/6 Cal-Organic Farms; Organic Carrot 150/5 Bunny Luv; Organic
+Carrots 10/5 Lb O-Organic; Organic Carrots 10/5 Simple Truth; Organic Carrots 10/5# 365 Organic;  Organic
+Carrots 10/5# 365 Organic RPC; Organic Carrots 10/5# Bunny Luv; Organic Carrots 10/5# Cal-Organic Farms;
+Organic Carrots 10/5# Cal-Organic Farms RPC; Organic Carrots 10/5# Full Circle; Organic Carrots 10/5# Nature's
+Promise; Organic Carrots 10/5# Wholesome Pantry; Organic Carrots 12/2# Wegmans Quick Lock; Organic Carrots 15
+Lbs Cal Organic Farms; Organic Carrots 16/2 Simple Truth RPC; Organic Carrots 20/2# Marketside RPC; Organic
+Carrots 24/1 Lb Good & Gather; Organic Carrots 24/1# Wegmans Quick Lock; Organic Carrots 24/2 Bunny Luv;
+Organic Carrots 24/2 Lb. O-Organic; Organic Carrots 24/2 Simple Truth; Organic Carrots 24/2# Cal-Organic
+Farms; Organic Carrots 24/2# Compliments; Organic Carrots 24/2# Full Circle; Organic Carrots 24/2# President's
+Choice; Organic Carrots 24/2# Wholesome Pantry; Organic Carrots 24/2Lb 365 Organic; Organic Carrots 24/2Lb 365
+RPC; Organic Carrots 25 Lbs Cal-Organic Farms; Organic Carrots 25 Lbs Jumbo Bunny Luv; Organic Carrots 25 Lbs
+Jumbo Cal-Organic Farms; Organic Carrots 25 Lbs Table Bunny Luv; Organic Carrots 25 Lbs Table Cal-Organic
+Farms; Organic Carrots 32/1 Lb Simple Truth RPC; Organic Carrots 48/1 Bunny Luv; Organic Carrots 48/1 Lb.
+O-Organic; Organic Carrots 48/1 Simple Truth; Organic Carrots 48/1# Cal-Organic Farms; Organic Carrots 48/1#
+Cal-Organic Farms RPC; Organic Carrots 48/1# Full Circle; Organic Carrots 48/1# Green Wise; Organic Carrots
+48/1# Nature's Promise; Organic Carrots 48/1# Trader Joe's 038651; Organic Carrots 48/1# Wholesome Pantry;
+Organic Carrots 48/1Lb 365 Organic; Organic Carrots 48/1Lb 365 Organic RPC; Organic Carrots 5/5# Wegmans Quick
+Lock; Organic Carrots 6/5 Simple Truth RPC; Organic Carrots 8/5# Bunny Luv; Organic Juice Carrots 25 Lbs Bunny
+Luv; Organic Juice Carrots 25 Lbs Cal-Organic Farm; Organic Juice Carrots 25Lb GreenWise; Organic Juice
+Carrots 5/10# Bunny Luv; Organic Juice Carrots 5/10# O-Organic; Organic Juice Carrots 50 Lbs Bunny Luv;
+Organic Juice Carrots 50 Lbs Cal-Organic Farm --- Brands --- 365, Bunny Luv, Cal-Organic, Compliments, Full
+Circle, Good & Gather, GreenWise, Marketside, Nature's Promise, O Organics, President's Choice, Simple Truth,
+Trader Joe's, Wegmans, Wholesome Pantry",Potential contamination with E. coli O121:H19,"Distribution Centers located in U.S. States: AL, AR, AZ, CA, CO, CT, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, MI, MN, MO, NC, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, TN, TX, UT, VA, VT, WA, WI U.S. Territories: Puerto Rico Foreign Countries: Canada, United Arab Emirates, Hong Kong, Columbia",1477682 1477721 1478167 1478260 1478364 1478451 1478867 1478940 1479117 1479237 1479923 1479963 1480061 1480645 1480672 1480681 1480932 1481626 1481712 1481750 1482128 1482128 1482258 1482395 1482400 1483242 1483280 1483290 1483308 1483312 1483319 1483715 1483912 1484023 1484024 1484177 1484688 1484823 1484907 1484914 1484916 1484923 1485275 1485438 1485655
+2094,20250108,F-0345-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Fruit Tray; UPC: 85316-10398; 42 oz plastic container b.) King Kullen brand Fruit Tray;
+UPC: 85316-10399; 1.65 plastic container c.) WIld by Nature Fruit Tray; UPC: 85316-10398; 42 oz plastic
+container d.) Wild by Nature Fruit Tray: UPC: 85316-10399; 1.65lb plastic container e.) Gracie's Kitchen brand
+Fruit Tray; UPC: 85316-10398; 42 oz plastic container f.) Gracie's Kitchen brand Fruit Tray: UPC: 85316-10399;
+1.65lb plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24 c.) Sell By Dates: 11/11-11/21/24 d.) Sell By Dates: 11/11-11/21/24 e.) Sell By Dates: 11/11-11/21/24 f.) Sell By Dates: 11/11-11/21/24
+2095,20250108,F-0324-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Pineapple Slices; UPC 85316-10007; 20 oz foam tray b) Wild By Nature brand Pineapple
+Slices; UPC: 85316-10007; 20 oz foam tray c.) King Kullen brand Pineapple Chunks; UPC: 85316-10386; 16 oz
+plastic container d.) King Kullen brand Pineapple Spears; UPC: 85316-10388; 16 oz plastic container e.) King
+Kullen brand Pineapple Slices; UPC: 85316-10542; 16 oz plastic container f.) Wild By Nature brand Pineapple
+Chunks; UPC: 85316-10380; 12 oz plastic container g.) Wild By Nature brand Pineapple Chunks: UPC: 85316-10386;
+16 oz plastic container h.) Gracie's Kitchen brand Pineapple Spears; UPC: 85316-10341; 16 oz plastic container
+i.) Gracie's Kitchen brand Pineapple Chunks; UPC: 85316-10354; 16 oz plastic container j.) Gracie's Kitchen
+brand Pineapple Chunks; UPC: 85316-10380; 12 oz plastic container k.) Gracie's Kitchen brand Pineapple Cup;
+UPC: 85316-10386; 16 oz plastic container l.) King Kullen brand Pineapple Chunks; UPC: 85316-10380; 12 oz
+plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/09-11/19/24 b.) Sell By Dates: 11/09-11/19/24 c.) Sell By Dates: 11/11-11/21/24 d.) Sell By Dates: 11/11-11/21/24 e.) Sell By Dates: 11/9-11/19/24 f.) Sell By Dates: 11/11-11/21/24 g.) Sell By Dates: 11/11-11/21/24 h.) Sell By Dates: 11/11-11/21/24 i.) Sell By Dates: 11/11-11/21/24 j.) Sell By Dates: 11/11-11/21/24 k.) Sell By Dates: 11/11-11/21/24 i.) Sell By Dates: 11/11-11/21/24
+2096,20250108,F-0368-2025,RUSS DAVIS WHOLESALE,Terminated,Class I,Food,"Garden Salad w/Ranch Dressing,  Net Wt 9oz.  Keep Refrigerated.  UPC   7 95831-81023 3.  Containing Lettuce,
+tomatoes, cucumbers, cheddar cheese, carrots and hard cooked egg.  Sold under the following brands:   1.
+Crazy Fresh 2.  quick & easy, Ready to Enjoy",Cucumbers have potential to be contaminated with Salmonella.,"IA, IL, KS, MI, MN, MT, ND, NE, SD, WI, WY","Lot Codes:  X7549263, X7552558, X7554472, X7556762, X7558018, X7560391, X7562507, X7564848.   Sell By Dates:  November 6 - November 16, 2024"
+2097,20250108,F-0331-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Peppers & Onions; UPC: 85316-10087; 12 oz plastic container b.) Wild by Nature brand
+Peppers & Onions; UPC: 85316-10087; 12 oz plastic container c.) Gracie's Kitchen brand Peppers & Onions; UPC:
+85316-10001; 12 oz plastic container d.) Gracie's Kitchen brand Peppers & Onions; UPC: 85316-10087; 12 oz
+plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24 b.) Sell By Dates: 11/12-11/22/24 c.) Sell By Dates: 11/12-11/22/24 d.) Sell By Dates: 11/12-11/22/24
+2098,20250108,F-0321-2025,OYATSUPAN BAKERS,Terminated,Class III,Food,"An Pan bun is a sweet roll filled with sweet red bean paste, stamped with black sesame seeds on top. Product
+is packaged in clear polypropylene bag, heat sealed with white labels on front and back. Net wt. 2.9pz. UPC
+854077007055.   The affected label states ""**INGREDIENTS: Azuki Filling (Sugar, water, red beans, salt),
+Unbleached wheat flour ***Unsalted butter, whole eggs, black sesame seeds, nonfat dry milk***CONTAINS: EGGS,
+MILK, WHEAT ***Made by Oyatsupan Bakers Beaverton, OR.","The contains statement does not declare sesame. Black sesame seeds are visible on product and
+the Ingredients Statement declares black sesame seeds.",distributed in OR and WA.,"Best By: 11/27, 11/28, and 11/29."
+2099,20250108,F-0366-2025,Minnesota Milk Bank for Babies,Terminated,Class II,Food,"MN Milk Bank for Babies Pasteurize Donor Human Milk.  Volume:  4 fl. oz. / 120 ml.  Milk Type:  20 kcal/oz.
+1.0 g/dL Total Protein.  MN Milk Bank for Babies, Roseville, MN  55113",Foreign material. (undetermined),MN,Batch 002237-1 Exp Date:  01/01/2025
+2100,20250108,F-0373-2025,BALOIAN FARMS,Terminated,Class I,Food,"whole fresh American cucumbers packaged in bulk cardboard containers labeled with the ""Pamela"" brand, a
+generic white box with a sticker that provides the implicated grower's name, ""Agrotato, S.A. de C.V.,"" or a
+clear PamPak branded bag of 6 individual cucumbers with the UPC 8 2540107010 6   ""  Pamela (Bulk Pack 24ct,
+36ct, Small, Large, Plain, Select and Super Select) Distributed to Wholesale, Food Service, Retail, and
+Brokers  ""      Stock ""Vegetables"" (Bulk Pack 24ct, 36ct, Small, Large, Plain, Select and Super Select)
+Distributed to Wholesale, Food Service, Retail and Brokers  ""   PamPak (6x6 Bagged Cucumbers) with UPC
+code:825401070106 Distributed to 2 Wholesale distributers (3 locations)  Pamela                  (24 Ct, 36
+Ct, Plain, Large, Select, Super Select, Small) Stock Vegetables              (Plain, Large, Select, Super
+Select, Small) PamPak                      (6x6ct Bag Pack)   Case Label GTIN: 10825401300514",Cucumbers potentially contaminated with Salmonella.,"Distributed to the following states: AK, AZ, CA, CO, IA, ID, KS, MA, MI, MO, MT, NV, NY, NC, OR, TX, WA, and WI.",No codes or PLU labels are applied to individual cucumbers.   Lot Number (Master Case)  Qty (Cases)  Ship Date 3-58614     71 cases    10/25/2024 3-58642     180 cases     10/18/2024 3-28729    16 cases  10/24/2024 3-58857    64 cases  11/01/2024 3-58866    70 cases  11/04/2024 3-58891    162 cases  11/05/2024 3-58919    14 cases  10/07/2024 3-58943    92 cases  11/08/2024 3-58984    34 cases  11/12/2024 3-59020    42 cases   11/12/2024  The consumer bag has a UPC code of: 825401070106
+2101,20250108,F-0338-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Mixed Fruit; UPC: 85316-10376; 12 oz plastic container b.) King Kullen brand Mixed
+Fruit; UPC: 85316-10385; 16 oz plastic container c.) Wild By Nature brand Mixed Fruit; UPC: 85316-10376; 12 oz
+plastic container d.) Wild By Nature brand Mixed Fruit; UPC: 85316-10385; 16 oz plastic container e.) Gracie's
+Kitchen brand Mixed Fruit; UPC: 85316-10351; 16 oz plastic container f.) Gracie's Kitchen brand Mixed Fruit;
+UPC: 85316-10376; 12 oz plastic container g.) Gracie's Kitchen brand Mixed Fruit; UPC: 85316-10385; 16 oz
+plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24 c.) Sell By Dates: 11/11-11/21/24 d.) Sell By Dates: 11/11-11/21/24 e.) Sell By Dates: 11/11-11/21/24 f.) Sell By Dates: 11/11-11/21/24 g.) Sell By Dates: 11/11-11/21/24
+2102,20250108,F-0361-2025,"Grimmway Enterprises, Inc. dba Grimmway Farms",Terminated,Class I,Food,"--- Organic Whole Carrots ---  Organic Clip Carrots 50 Lbs Cal-Organic Farm; Organic Clip Carrots 50 Lbs Cal-
+Organic RPC --- Brand --- Cal-Organic",Potential contamination with E. coli O121:H19,"Distribution Centers located in U.S. States: AL, AR, AZ, CA, CO, CT, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, MI, MN, MO, NC, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, TN, TX, UT, VA, VT, WA, WI U.S. Territories: Puerto Rico Foreign Countries: Canada, United Arab Emirates, Hong Kong, Columbia",1477682 1477721 1478260 1478451 1478867 1478940 1479117 1479237 1479923 1481712 1482258 1482395 1483280 1483290 1483308 1483312 1483715 1483912 1484024 1484688 1484823 1484914 1484923
+2103,20250108,F-0357-2025,"Grimmway Enterprises, Inc. dba Grimmway Farms",Terminated,Class I,Food,"--- Organic Baby Carrots --- Organic Baby Peeled Carrots 12/12oz Steam-to-Serve; Organic Baby Peel
+Carrot12/12oz Steam-to-Serve RPC --- Brand --- Cal-Organic; Marketside",Potential contamination with E. coli O121:H19,"Distribution Centers located in U.S. States: AL, AR, AZ, CA, CO, CT, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, MI, MN, MO, NC, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, TN, TX, UT, VA, VT, WA, WI U.S. Territories: Puerto Rico Foreign Countries: Canada, United Arab Emirates, Hong Kong, Columbia",127773 127829 127871 127936 127975 127986 128032 128036 128059 128133 128238 128247 128264 128291 128336 128383 128449 128482
+2104,20250108,F-0328-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Diced Celery; UPC: 85316-10083; 12 oz plastic container b.) Wild By Nature brand Diced
+Celery; UPC: 85316-10083; 12 oz plastic container c.) Gracie's Kitchen brand Diced Celery: UPC: 85316-10020;
+10 oz plastic container d.) Gracie's Kitchen brand Diced Celery; UPC: 85316-10083; 10 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24 b.) Sell By Dates: 11/12-11/22/24 c.) Sell By Dates: 11/12-11/22/24 d.) Sell By Dates: 11/12-11/22/24
+2105,20250108,F-0342-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Halo Bowl; UPC: 85316-10390; 28 oz plastic container b.) Wild by Nature brand Halo Bowl;
+UPC: 85316-10390; 28 oz plastic container c.) Gracie's Kitchen brand Halo Bowl; UPC: 85316-10312; 28 oz
+plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24 b.) Sell By Dates: 11/11-11/21/24 c.) Sell By Dates: 11/11-11/21/24
+2106,20250108,F-0326-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Honeydew Slices; UPC 85316-10009; 20 oz foam tray b) Wild By Nature brand Honeydew
+Slices; UPC: 85316-10009; 20 oz foam tray c.) King Kullen brand Honeydew Chunks; UPC: 85316-10382; 16 oz
+plastic container d.) King Kullen brand Honeydew Chunks; UPC: 85316-10405; 12 oz plastic container e.) King
+Kullen brand Honeydew Slices; UPC: 85316-10541; 16 oz plastic container f.) Wild By Nature brand Honeydew
+Chunks; UPC: 85316-10382; 16 oz plastic container g.) Wild By Nature brand Honeydew Chunks; UPC: 85316-10405;
+12 oz plastic container h.) Gracie's Kitchen brand Honeydew Chunks; UPC: 85316-10349; 16 oz plastic container
+i.) Gracie's Kitchen brand Honeydew Slices; UPC: 85316-10541; 16 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/09-11/19/24 b.) Sell By Dates: 11/09-11/19/24 c.) Sell By Dates: 11/11-11/21/24 d.) Sell By Dates: 11/11-11/21/24 e.) Sell By Dates: 11/9-11/19/24 f.) Sell By Dates: 11/11-11/21/24 g.) Sell By Dates: 11/11-11/21/24 h.) Sell By Dates: 11/11-11/21/24 i.) Sell By Dates: 11/9-11/19/24
+2107,20250108,F-0355-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,a.) Gracie's Kitchen brand Mango & Blueberry Cup; UPC: 85316-10347; 12 oz plastic container,Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/11-11/21/24
+2108,20250108,F-0322-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Vegetable Platter; UPC 85316-10005; 44oz plastic container b.) Wild by Nature brand
+Vegetable Platter; UPC 85316-10005; 44 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/14-11/24/24 b.) Sell By Dates: 11/14-11/24/24
+2109,20250108,F-0370-2025,RUSS DAVIS WHOLESALE,Terminated,Class I,Food,"Crazy Fresh Turkey Havarti Wrap,  Net Wt 6.8oz.  Keep Refrigerated.  UPC  7 95631-81149 0.    Containing Flour
+Tortilla, Cooked Turkey Breast, Roasted Tomatoes, Havarti cheese, Mayonnaise, Lettuce, Onion, Cucumber.",Cucumbers have potential to be contaminated with Salmonella.,"IA, IL, KS, MI, MN, MT, ND, NE, SD, WI, WY","Lot Codes:  X7554170, X7558001, X7561390, X7565566.   Sell By Dates:  November 9 - November 16, 2024"
+2110,20250108,F-0335-2025,Gracie's Kitchens Inc.,Terminated,Class II,Food,"a.) King Kullen brand Mirepoix; UPC: 85316-10167; 20 oz plastic container b.) Gracie's Kitchen brand Mirepoix;
+UPC: 85316-10167; 20 oz plastic container",Product may be contaminated with Listeria monocytogenes.,CT and NY,a.) Sell By Dates: 11/12-11/22/24 b.) Sell By Dates: 11/12-11/22/24
+2111,20250108,F-0320-2025,"Lithuanian Bakery, Inc.",Terminated,Class II,Food,"Chocolate Raspberry: Three sizes, 1.  Small, Net Wt 1.25 lbs. (sub ingredients contain, yellow #5 and #6, and
+red #40 not declared on final product label)  2.  Medium, Net Wt 2.75 lbs. (sub ingredients contain milk,
+yellow #5 and #6, and red #40 not declared on final product label)  3.  Large, Net Wt 6 lbs (sub ingredients
+contain wheat, milk, yellow #5 and #6, and red #40 not declared on final product label)","Products contain undeclared allergens (milk, soy, peanut, and wheat) and undeclared sulfites,
+yellow 5, yellow 6, and red 40)","Distributed to store front customers at retail stores in IA, IL, KS, MO, MN, NE, and SD.",Not provided
+2112,20250108,F-0358-2025,"Grimmway Enterprises, Inc. dba Grimmway Farms",Terminated,Class I,Food,"--- Organic Baby Carrots --- Orangic Baby Peeled Carrots 13/3 BL; Orangic Baby Peeled Carrots 30/1 BL; Org
+Baby Peeled Carrots 12/2 Wholesome Pantry RPC; Org Baby Peeled Carrots 24/1 Wholesome Pantry RPC; Organic Baby
+Peeled Carrots 10/2/2Lb Cal O Display; Organic Baby Peeled Carrots 10/2/2Lb. Cal Organic; Organic Baby Peeled
+Carrots 12/1 Bunny Luv; Organic Baby Peeled Carrots 12/1 LIDL; Organic Baby Peeled Carrots 12/12oz Good &
+Gather; Organic Baby Peeled Carrots 12/2 Bunny Luv; Organic Baby Peeled Carrots 12/2 COF; Organic Baby Peeled
+Carrots 12/2 Pres Choice RPC; Organic Baby Peeled Carrots 13/3 BL; Organic Baby Peeled Carrots 15/2 365;
+Organic Baby Peeled Carrots 15/2 365 RPC; Organic Baby Peeled Carrots 15/2 BL; Organic Baby Peeled Carrots
+15/2 COF; Organic Baby Peeled Carrots 15/2 Safeway O-Organic; Organic Baby Peeled Carrots 15/2 Sprouts;
+Organic Baby Peeled Carrots 18/2 Kroger RPC; Organic Baby Peeled Carrots 20/2 LB Marketside RPC; Organic Baby
+Peeled Carrots 20/2 Wegmans RPC; Organic Baby Peeled Carrots 24/1 BL; Organic Baby Peeled Carrots 24/1 Cal-
+Organic Farm; Organic Baby Peeled Carrots 24/1 Cal-Organic RPC; Organic Baby Peeled Carrots 24/1 Full Circle;
+Organic Baby Peeled Carrots 24/1 Good & Gather; Organic Baby Peeled Carrots 24/1 Greenwise; Organic Baby
+Peeled Carrots 24/1 Natures Promise; Organic Baby Peeled Carrots 24/1 Pres Choice RPC; Organic Baby Peeled
+Carrots 24/1 Simple Truth RPC; Organic Baby Peeled Carrots 24/12oz Wegman's; Organic Baby Peeled Carrots 30/1
+365; Organic Baby Peeled Carrots 30/1 365 RPC; Organic Baby Peeled Carrots 30/1 BL; Organic Baby Peeled
+Carrots 30/1 Cal-Organic Farm; Organic Baby Peeled Carrots 30/1 Compliments; Organic Baby Peeled Carrots 30/1
+Purely Made RPC; Organic Baby Peeled Carrots 30/1 Safeway O-Organic; Organic Baby Peeled Carrots 30/1 Sprouts;
+Organic Baby Peeled Carrots 30/1 TJ Petites 036679; Organic Baby Peeled Carrots 4/5 BL; Organic Baby Peeled
+Carrots 40/1 Marketside RPC; Organic Baby Peeled Carrots 40/1 Wegman's RPC; Organic Baby Peeled Petite Carrots
+12/12oz 365; Organic Baby Pld Carrots 12/12oz O-Organic Petites --- Brands --- 365, Bunny Luv, Cal-Organic,
+Compliments, Full Circle, Good & Gather, GreenWise, LIDL, Marketside, Nature's Promise, O Organics,
+President's Choice, Purely Made, Simple Truth, Sprouts, Trader Joe's, Wegmans, Wholesome Pantry",Potential contamination with E. coli O121:H19,"Distribution Centers located in U.S. States: AL, AR, AZ, CA, CO, CT, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, MI, MN, MO, NC, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, TN, TX, UT, VA, VT, WA, WI U.S. Territories: Puerto Rico Foreign Countries: Canada, United Arab Emirates, Hong Kong, Columbia",127730 127734 127773 127777 127784 127829 127830 127834 127871 127875 127932 127936 127974 127975 127978 127986 128032 128036 128059 128063 128129 128133 128159 128163 128238 128246 128251 128264 128274 128286 128291 128336 128346 128347 128351 128365 128383 128449 128482 128550 127773 127829 128059 128159 128482
+2113,20250101,F-0317-2025,Borsari Food Company Inc,Terminated,Class II,Food,"BORSARI Food Company Incorporated; BLOODY MARY MIX ; 32 FL. OZ; INGREDIENTS: Tomato juice, corn syrup, non-fat
+milk solids, orange juice, lemon juice, lime juice, cayenne pepper, vinegar, salt, garlic powder,
+Worcestershire sauce, prepared horseradish, maltic acid, sodium and potassium benzoate, yellow 5 & 6; UPC:
+815893000101",Product contains undeclared fish (anchovy) and soy.,"AL, AZ, CA, CT, FL, GA, IL, IN, KS, MA, MD, MI, MN, MT, NM, NY, OH, PA, RI, SC, SD, TN, UT, VA, WA",All products within expiry.
+2114,20250101,F-0314-2025,"Handsome Brook Farms, LLC",Terminated,Class I,Food,"Kirkland Signature ORGANIC EGGS PASTURE-RAISED 24 EGGS, GRADE A LARGE, NET WEIGHT 48OZ (3 LB) 1.36 kg, UPC 0
+96619 10680 6, DISTRIBUTED BY: COSTCO WHOLESALE CORPORATION 730 LAKE DRIVE, ISSAQUAH, WA 98027",Eggs from a positive Salmonella environment were shipped into distribution to retail facilities.,"AL, GA, NC, SC, TN",327 JAN 5 25
+2115,20250101,F-0315-2025,E-Z SPUDS INC,Terminated,Class I,Food,"Cucumber Diced Greek Cut (1/8""x1/8""x1""), 360# Drum with poly liner item C0376, 30# Box with poly liner item
+C0369. Cucumber Diced Regular Cut (1/8""x1/8""x1/4""), 300# Drum with poly liner item C0390, 30# Box with poly
+line C0383",Potential for Salmonella,IL,"Cucumber Diced Greek Cut (1/8""x1/8""x1"") Dates of Mfg - 10/28/2024, 10/29/2024, 10/31/2024 Cucumber Diced Regular Cut (1/8""x1/8""x1/4"") Dates of Mfg - 10/25/2024, 10/30/2024"
+2116,20250101,F-0313-2025,"SunFed Produce, Inc.",Terminated,Class I,Food,"Raw cucumbers packaged in cardboard boxes or plastic boxes (RPC) with ""SunFed"",  ""Vegetables"", or ""Agrotato""
+labeling.  1 1/9 BU CAS Super Slicer Cucumber/10814780010749 1 1/9 BU CAS Select Slicer
+Cucumber/10814780010756 1 1/9 BU  CAS Large Slicer Cucumber/10814780010763 1 1/9 BU CAS Small Slicer
+Cucumber/10814780010770 54'S Case Slicer Cucumber/10814780010787 1 1/9 BU RPC Super Slicer
+Cucumber/10814780010794 24'S Case Slicer Cucumber/10814780010800 36'S Case Slicer Cucumber/10814780010817 1
+1/9 BU CAS Plain Slicer Cucumber/10814780011630 36 Case Slicer Cucumber/10814780011722 42 Case Slicer
+Cucumber/10814780011739 RPC Cucumber super select 62/10814780012682 RPC Cucumber select 62/10814780012699",Cucumbers potentially contaminated with Salmonella.,National and Foreign distribution,No codes
+2117,20250101,F-0316-2025,"Zoe US, Inc.",Terminated,Class II,Food,ZOE brand Daily 30+ Prebiotic blend; Dietary Supplement; 500g resealable pouch,Product may contain foreign objects: small metal pieces and/or stones,"Arizona, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Hawaii, Illinois, Kentucky, Maine, Massachusetts, Michigan, Minnesota, New Jersey, New Mexico, New York, North Carolina, Pennsylvania, South Carolina, Tennessee, Texas, Utah, Virginia, Washington, Wisconsin","Expiration Date: 10/31/25 batch numbers: 24269, 24287, 24288"

@@ -1,0 +1,8 @@
+key	value
+source	openFDA drug_enforcement enforcement API
+window	2025-01-01 through 2026-06-08
+record_count	1073
+min_expected_records	1000
+csv_page_count	4
+case_card_file	drug_enforcement_case_cards.txt
+grouping_warning	CSV pages and case cards are record-level exports; final deliverables must be firm-level aggregates.

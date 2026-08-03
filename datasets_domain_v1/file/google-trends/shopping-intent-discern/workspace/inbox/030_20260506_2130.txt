@@ -1,0 +1,6 @@
+From: security@northstar-dtc.com
+To: wen.li@northstar-dtc.com
+Date: Wed, 06 May 2026 21:30
+Subject: Re: retention dashboard numbers
+
+The week-4 retention number looked off — turned out to be a timezone bug in the rollup. Fixed now, refreshed in the dashboard.

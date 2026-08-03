@@ -1,0 +1,4 @@
+platform,settlement_period,gross_sales,commission_deducted,net_settlement,settlement_date,status
+tmall,2026-06,5444.00,272.20,5171.80,2026-07-05,已到账
+jd,2026-06,4114.00,329.12,3784.88,2026-07-03,已到账
+pdd,2026-06,2365.00,47.30,2317.70,2026-07-08,已到账

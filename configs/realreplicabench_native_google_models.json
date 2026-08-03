@@ -1,0 +1,14 @@
+{
+  "providers": {
+    "google": {
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta",
+      "apiKey": "${GEMINI_API_KEY}",
+      "api": "google-generative-ai",
+      "timeoutSeconds": 600,
+      "models": [
+        {"id": "gemini-3-flash-preview", "name": "Gemini 3 Flash (native generateContent)", "reasoning": true},
+        {"id": "gemini-3.5-flash", "name": "Gemini 3.5 Flash (native generateContent)", "reasoning": true}
+      ]
+    }
+  }
+}

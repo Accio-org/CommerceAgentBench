@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-commerce-skincare-order-reconciliation",
+  "summary": "护肤品多平台月度订单对账 — 数据清洗与交叉核对. 8 capability checks across 4 output files (folded from 20 atoms; pure aggregation).",
+  "category": "ecommerce_data_reconciliation",
+  "state_kind": "file_output",
+  "difficulty": "hard",
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "unified_orders.csv",
+      "exceptions.json",
+      "sku_performance.csv",
+      "monthly_summary.json"
+    ]
+  },
+  "check_strategy": "private/expected_answer.json drives 20 internal atomic predicates; verify_task.py reads OUTPUT_DIR/ files, validates each atom, then emits 8 capability-unit checks (each = AND of its atoms; per-atom detail in reason).",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "All three presence-only deliverables exist and parse: unified_orders.csv, exceptions.json (valid JSON), monthly_summary.json (valid JSON)."
+    },
+    {
+      "id": "unified_orders_schema_normalized",
+      "check_type": "deterministic_exact",
+      "description": "Heterogeneous-export standardization: correct column order, all order_date in yyyy-mm-dd, all status normalized to English labels, and JD/PDD sample rows have correct cross-platform field mapping."
+    },
+    {
+      "id": "unified_orders_dedup_and_remap",
+      "check_type": "deterministic_exact",
+      "description": "Both seeded data-quality traps handled: PDD duplicates (PDD20260601003, PDD20260601010) appear exactly once, legacy code remapped (TM-20260601-016 -> LC-HEM-01), yielding exactly 75 data rows."
+    },
+    {
+      "id": "fulfillment_exceptions_correct",
+      "check_type": "deterministic_exact",
+      "description": "Fulfillment cross-check vs shipment_log: exactly 6 exceptions with correct type mix (3 unshipped, 2 partial, 1 over_shipped)."
+    },
+    {
+      "id": "settlement_discrepancy_correct",
+      "check_type": "deterministic_exact",
+      "description": "Settlement reconciliation with effective commission: JD discrepancy identified with signed difference +234.60."
+    },
+    {
+      "id": "data_quality_issues_correct",
+      "check_type": "deterministic_exact",
+      "description": "Data-quality report includes both the PDD duplicate detection and the legacy-SKU remap entries."
+    },
+    {
+      "id": "sku_performance_correct",
+      "check_type": "deterministic_exact",
+      "description": "Per-SKU x platform profit analysis: full 5x3=15-row matrix present, PDD effective 2% commission applied (not nominal 3%), and net-profit values match expected within tolerance."
+    },
+    {
+      "id": "monthly_summary_correct",
+      "check_type": "deterministic_exact",
+      "description": "Month-level aggregation: total revenue/cogs/commission/net_profit match expected, and best_sku=LC-REC-03 / worst_sku=LC-GCW-05 ranking correct."
+    }
+  ],
+  "notes": "8 capability checks folded from 20 atoms (pure AND aggregation; binary pass unchanged, verified refold+rerun 0 mismatch over 9 archived models). No mock API — pure file-based verification. Key traps: PDD deduplication, legacy SKU remap, PDD 2% effective commission (not 3%), JD settlement signed discrepancy."
+}

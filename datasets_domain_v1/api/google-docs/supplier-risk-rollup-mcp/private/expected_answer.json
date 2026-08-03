@@ -1,0 +1,122 @@
+{
+  "summary_title": "Q2 Supplier Risk Roll-Up",
+  "seed_doc_count": 16,
+  "expected_doc_count_after": 17,
+  "required_header_lines": [
+    "Q2 Supplier Risk Roll-Up",
+    "Prepared: 2026-Q2"
+  ],
+  "qualifying_suppliers": [
+    {
+      "name": "Vantage Metals Ltd.",
+      "doc_id": "doc-audit-vantage-metals",
+      "high_open_count": 2,
+      "top_finding_text": "Third-party laboratory testing of production batch VM-Q2-04 confirmed cadmium content at 118% of the EU RoHS threshold — a regulatory violation requiring immediate batch quarantine and notification to the EU competent authority. The supplier has submitted a regulatory notification but the competent authority has not yet issued a clearance or approved a corrective batch plan.",
+      "required_line": "Vantage Metals Ltd. | High+Open: 2 | Top finding: Third-party laboratory testing of production batch VM-Q2-04 confirmed cadmium content at 118% of the EU RoHS threshold — a regulatory violation requiring immediate batch quarantine and notification to the EU competent authority. The supplier has submitted a regulatory notification but the competent authority has not yet issued a clearance or approved a corrective batch plan."
+    },
+    {
+      "name": "Shunfa Precision Parts",
+      "doc_id": "doc-audit-shunfa",
+      "high_open_count": 3,
+      "top_finding_text": "During the site visit, the CNC machine coolant system was observed to lack overflow containment bunding. An active coolant spill had reached the drainage channel on 2026-05-14, creating an environmental contamination risk and potential permit violation. No containment installation has been scheduled as of the report date.",
+      "required_line": "Shunfa Precision Parts | High+Open: 3 | Top finding: During the site visit, the CNC machine coolant system was observed to lack overflow containment bunding. An active coolant spill had reached the drainage channel on 2026-05-14, creating an environmental contamination risk and potential permit violation. No containment installation has been scheduled as of the report date."
+    },
+    {
+      "name": "EcoPack Solutions",
+      "doc_id": "doc-audit-ecopack",
+      "high_open_count": 1,
+      "top_finding_text": "Buyer-facing marketing materials and product data sheets declare the packaging to be 80% FSC-certified recycled content. A third-party verification audit commissioned in April 2026 showed actual recycled content at 54%, creating material misrepresentation exposure under the EU Green Claims Directive. The discrepancy has not been corrected in any materials supplied to downstream buyers; no remediation plan has been approved.",
+      "required_line": "EcoPack Solutions | High+Open: 1 | Top finding: Buyer-facing marketing materials and product data sheets declare the packaging to be 80% FSC-certified recycled content. A third-party verification audit commissioned in April 2026 showed actual recycled content at 54%, creating material misrepresentation exposure under the EU Green Claims Directive. The discrepancy has not been corrected in any materials supplied to downstream buyers; no remediation plan has been approved."
+    },
+    {
+      "name": "TrueGrain Paper",
+      "doc_id": "doc-audit-truegrain",
+      "high_open_count": 1,
+      "top_finding_text": "Wastewater discharge samples from coating line TG-CL-4 taken on 2026-05-09 showed chemical oxygen demand (COD) at 134% of the permitted limit, exceeding the regulatory threshold and triggering a mandatory notification obligation. The supplier submitted a regulatory notification to the environmental authority on 2026-05-11; however, the authority has not yet approved the supplier's remediation plan, and effluent treatment upgrades remain scheduled rather than completed.",
+      "required_line": "TrueGrain Paper | High+Open: 1 | Top finding: Wastewater discharge samples from coating line TG-CL-4 taken on 2026-05-09 showed chemical oxygen demand (COD) at 134% of the permitted limit, exceeding the regulatory threshold and triggering a mandatory notification obligation. The supplier submitted a regulatory notification to the environmental authority on 2026-05-11; however, the authority has not yet approved the supplier's remediation plan, and effluent treatment upgrades remain scheduled rather than completed."
+    },
+    {
+      "name": "CrestLink Forging",
+      "doc_id": "doc-audit-crestlink",
+      "high_open_count": 1,
+      "top_finding_text": "Dana Kim conducted a follow-up inspection on 2026-06-17. An independent mechanical engineer engaged by the audit team reviewed the pressure-anomaly log for Finding 1 and determined that the documented anomalies exceed the manufacturer's specified tolerance band by up to 23%, creating a credible risk of catastrophic press failure and associated worker-safety exposure. The finding has been escalated: it is now classified as a worker-safety hazard with High severity. The press has not been taken out of service and no verified maintenance has been completed; the finding remains open pending a certified mechanical inspection and sign-off.",
+      "required_line": "CrestLink Forging | High+Open: 1 | Top finding: Dana Kim conducted a follow-up inspection on 2026-06-17. An independent mechanical engineer engaged by the audit team reviewed the pressure-anomaly log for Finding 1 and determined that the documented anomalies exceed the manufacturer's specified tolerance band by up to 23%, creating a credible risk of catastrophic press failure and associated worker-safety exposure. The finding has been escalated: it is now classified as a worker-safety hazard with High severity. The press has not been taken out of service and no verified maintenance has been completed; the finding remains open pending a certified mechanical inspection and sign-off."
+    },
+    {
+      "name": "ArcLight Cables",
+      "doc_id": "doc-audit-arclight",
+      "high_open_count": 1,
+      "top_finding_text": "The automatic fire suppression system in extrusion hall AL-EH-1 was non-operational on the day of the site visit; a maintenance work order had been raised eight days earlier but not acted upon. This hall operates continuously with flammable polymer compounds; an inoperative fire suppression system represents a direct worker-safety hazard. The supplier stated the contractor would attend within the week, but no verified completion record has been provided.",
+      "required_line": "ArcLight Cables | High+Open: 1 | Top finding: The automatic fire suppression system in extrusion hall AL-EH-1 was non-operational on the day of the site visit; a maintenance work order had been raised eight days earlier but not acted upon. This hall operates continuously with flammable polymer compounds; an inoperative fire suppression system represents a direct worker-safety hazard. The supplier stated the contractor would attend within the week, but no verified completion record has been provided."
+    },
+    {
+      "name": "OmniFlux Textiles",
+      "doc_id": "doc-audit-omniflux",
+      "high_open_count": 1,
+      "top_finding_text": "Raj Patel and the buyer's compliance officer conducted a follow-up review on 2026-06-20. During document reconciliation it was discovered that OmniFlux had routed approximately 18% of Q2 embroidery volume through a subcontractor (Hanxi Embroidery Co.) without prior buyer approval, in breach of contract clause 8.2, and had not disclosed this in the original audit response. The estimated value of the unapproved sub-contracted work is USD 115 000, creating a contractual exposure above the USD 50 000 threshold. This is a new finding identified in the re-assessment, classified as a contractual misrepresentation with High severity. No remediation or contractual amendment has been agreed; the finding is open.",
+      "required_line": "OmniFlux Textiles | High+Open: 1 | Top finding: Raj Patel and the buyer's compliance officer conducted a follow-up review on 2026-06-20. During document reconciliation it was discovered that OmniFlux had routed approximately 18% of Q2 embroidery volume through a subcontractor (Hanxi Embroidery Co.) without prior buyer approval, in breach of contract clause 8.2, and had not disclosed this in the original audit response. The estimated value of the unapproved sub-contracted work is USD 115 000, creating a contractual exposure above the USD 50 000 threshold. This is a new finding identified in the re-assessment, classified as a contractual misrepresentation with High severity. No remediation or contractual amendment has been agreed; the finding is open."
+    }
+  ],
+  "excluded_suppliers": [
+    {
+      "name": "BlueRidge Textiles",
+      "doc_id": "doc-audit-blueridge",
+      "reason": "Has two High findings (azo dye violation, overtime cap violation) both fully Resolved+verified — no High+Open finding"
+    },
+    {
+      "name": "NexWave Electronics",
+      "doc_id": "doc-audit-nexwave",
+      "reason": "ESD mat resistance finding confirmed Resolved in re-assessment; remaining findings (PCB traceability, firmware report) are Medium-severity process gaps — no High+Open finding"
+    },
+    {
+      "name": "Goldfield Packaging",
+      "doc_id": "doc-audit-goldfield",
+      "reason": "High finding (unapproved adhesive) fully Resolved; remaining Open findings are Low severity only"
+    },
+    {
+      "name": "Meridian Coatings Corp.",
+      "doc_id": "doc-audit-meridian-coatings",
+      "reason": "VOC emissions violation (High) resolved+verified by independent inspector; no High+Open finding"
+    },
+    {
+      "name": "SinoPure Chemicals",
+      "doc_id": "doc-audit-sinopure",
+      "reason": "All findings are documentation/process gaps (outdated SDS, missing manifest entries) — Medium or Low; no regulatory/safety/contractual violation above threshold"
+    },
+    {
+      "name": "HorizonFit Garments",
+      "doc_id": "doc-audit-horizonfit",
+      "reason": "All Open findings are documentation/process/traceability gaps — Medium or Low severity; no High finding"
+    },
+    {
+      "name": "Clearfield Logistics",
+      "doc_id": "doc-audit-clearfield",
+      "reason": "SLA penalty exposure (USD 38 000) is below the USD 50 000 threshold — Medium severity; other findings are Low; no High+Open finding"
+    },
+    {
+      "name": "Provenance Lab Inc.",
+      "doc_id": "doc-audit-provenance",
+      "reason": "All findings are administrative/housekeeping gaps — Low severity; no High finding"
+    }
+  ],
+  "audit_doc_ids": [
+    "doc-audit-vantage-metals",
+    "doc-audit-shunfa",
+    "doc-audit-ecopack",
+    "doc-audit-truegrain",
+    "doc-audit-crestlink",
+    "doc-audit-arclight",
+    "doc-audit-omniflux",
+    "doc-audit-blueridge",
+    "doc-audit-nexwave",
+    "doc-audit-goldfield",
+    "doc-audit-meridian-coatings",
+    "doc-audit-sinopure",
+    "doc-audit-horizonfit",
+    "doc-audit-clearfield",
+    "doc-audit-provenance"
+  ],
+  "distractor_doc_ids": [
+    "doc-sourcing-overview"
+  ]
+}

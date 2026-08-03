@@ -1,0 +1,10 @@
+Product,SKU,Warehouse,Allocated Units,Notes
+Pulse S2,CVP-S2-2026,US-West,6000,Primary market
+Pulse S2,CVP-S2-2026,EU-NL,5000,European hub
+Pulse S2,CVP-S2-2026,Asia-SZ,4000,APAC fulfillment
+Band Lite,CVB-L1-2026,US-West,10000,High volume low cost
+Band Lite,CVB-L1-2026,EU-NL,8000,
+Band Lite,CVB-L1-2026,Asia-SZ,12000,
+Dock Pro,CVD-P1-2026,US-West,3000,
+Dock Pro,CVD-P1-2026,EU-NL,2000,
+Buds Mini,CVBM-1-2026,Asia-SZ,20000,Clearance stock

@@ -1,0 +1,7 @@
+node_modules/
+data/state.json
+data/mock.db
+data/mock.db-wal
+data/mock.db-shm
+.DS_Store
+*.log

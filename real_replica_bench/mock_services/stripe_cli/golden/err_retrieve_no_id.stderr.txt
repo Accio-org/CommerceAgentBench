@@ -1,0 +1,1 @@
+`stripe customers retrieve` requires exactly 1 positional argument. See `stripe customers retrieve --help` for supported flags and usage

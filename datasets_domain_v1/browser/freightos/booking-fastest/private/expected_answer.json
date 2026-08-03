@@ -1,0 +1,79 @@
+{
+  "optimal_quote": {
+    "id": "QT-2026-0704",
+    "seller": "C.H. Robinson",
+    "base_price": 6200.00,
+    "origin_port": "CNSHA",
+    "dest_port": "USLAX",
+    "transit_days": "19-22",
+    "total_with_services": 6835.00,
+    "reason": "Fastest within-budget option. Transit time of 19-22 days is the shortest among all quotes with a total all-in price under $7,000."
+  },
+  "acceptable_quotes": ["QT-2026-0704"],
+  "partial_credit_quotes": ["QT-2026-0707"],
+  "all_quote_totals": {
+    "QT-2026-0701": { "base": 5178.80, "insurance": 201.60, "customs": 275.00, "bond": 65.00, "platform_fee": 77.68, "total": 5798.08, "transit_days": "22-26", "within_budget": true },
+    "QT-2026-0702": { "base": 5655.90, "total": 6282.19, "transit_days": "24-29", "within_budget": true },
+    "QT-2026-0703": { "base": 6885.96, "total": 7541.85, "transit_days": "18-21", "within_budget": false, "fail_reason": "over_budget" },
+    "QT-2026-0704": { "base": 6200.00, "total": 6835.00, "transit_days": "19-22", "within_budget": true },
+    "QT-2026-0705": { "base": 5450.00, "total": 6072.25, "transit_days": "25-30", "within_budget": true },
+    "QT-2026-0706": { "base": 4980.00, "total": 5596.40, "transit_days": "30-35", "within_budget": true },
+    "QT-2026-0707": { "base": 5890.00, "total": 6520.35, "transit_days": "21-25", "within_budget": true },
+    "QT-2026-0708": { "base": 5350.00, "total": 5972.25, "transit_days": "26-31", "within_budget": true }
+  },
+  "within_budget_quotes_ranked_by_speed": [
+    { "id": "QT-2026-0704", "transit_days": "19-22", "total": 6835.00, "rank": 1 },
+    { "id": "QT-2026-0707", "transit_days": "21-25", "total": 6520.35, "rank": 2 },
+    { "id": "QT-2026-0701", "transit_days": "22-26", "total": 5798.08, "rank": 3 },
+    { "id": "QT-2026-0702", "transit_days": "24-29", "total": 6282.19, "rank": 4 },
+    { "id": "QT-2026-0705", "transit_days": "25-30", "total": 6072.25, "rank": 5 },
+    { "id": "QT-2026-0708", "transit_days": "26-31", "total": 5972.25, "rank": 6 },
+    { "id": "QT-2026-0706", "transit_days": "30-35", "total": 5596.40, "rank": 7 }
+  ],
+  "expected_search_data": {
+    "origin_country": "CN",
+    "origin_city": "hangzhou",
+    "origin_city_label_contains": ["hangzhou", "Hangzhou"],
+    "dest_country": "US",
+    "dest_city": "losangeles",
+    "dest_city_label_contains": ["los angeles", "Los Angeles"],
+    "cargo_type": "fcl",
+    "container_size": "40",
+    "container_qty": 1,
+    "goods_value": 48000,
+    "hazardous": false,
+    "goods_ready": "ready"
+  },
+  "expected_services": {
+    "insurance": true,
+    "customs": true,
+    "bond_type": "single"
+  },
+  "expected_verification": {
+    "pickup": {
+      "company_contains": ["GlobalTrade", "globaltrade"],
+      "contact_contains": ["Wang Li", "wang li"],
+      "email": "wangli@globaltrade-elec.com",
+      "city_contains": ["Hangzhou", "hangzhou"],
+      "country": "CN",
+      "zip": "310052"
+    },
+    "delivery": {
+      "company_contains": ["GlobalTrade", "Distribution"],
+      "contact_contains": ["James Miller", "james miller"],
+      "email": "james.miller@globaltrade-us.com",
+      "city_contains": ["Los Angeles", "los angeles"],
+      "country": "US",
+      "zip": "90015"
+    }
+  },
+  "report_expected_fields": [
+    "shipment_id",
+    "seller_name",
+    "route_ports",
+    "transit_time",
+    "arrival_date",
+    "total_cost",
+    "cost_breakdown"
+  ]
+}

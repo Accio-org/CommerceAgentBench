@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-commerce-camping-stove-listing-config",
+  "summary": "户外炉具多平台上架配置生成 — 产品规格到 Shopify/Amazon JP/抖音 配置文件的结构化转换. 11 capability-unit deterministic checks (folded from 20 atoms) across 3 output files.",
+  "category": "ecommerce_config_generation",
+  "state_kind": "file_output",
+  "difficulty": "hard",
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "shopify_product.json",
+      "amazon_jp_listing.yaml",
+      "douyin_product.json"
+    ]
+  },
+  "check_strategy": "private/expected_answer.json drives 20 atomic predicates; verify_task.py reads OUTPUT_DIR/ files, computes the same atoms, then folds them into 11 capability-unit checks (each = AND of its member atoms; per-atom detail kept in reason).",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "All three deliverable files produced and parse cleanly (shopify_product.json, amazon_jp_listing.yaml, douyin_product.json)."
+    },
+    {
+      "id": "variant_matrix_correct",
+      "check_type": "deterministic_exact",
+      "description": "Final sellable variant matrix is 5 SKUs on every platform (PM Pro→Titanium-only correction applied; not 6). Folds shopify_variant_count + amazon_child_count + douyin_spec_groups."
+    },
+    {
+      "id": "pricing_correct",
+      "check_type": "deterministic_exact",
+      "description": "Per-platform prices computed correctly (USD direct; JPY = MSRP×150 rounded to nearest …90; CNY = MSRP×7.2 rounded to nearest …9; PM Pro price 139.99 applied). Folds shopify_prices_usd + amazon_price_jpy + douyin_price_cny."
+    },
+    {
+      "id": "unit_conversion_correct",
+      "check_type": "deterministic_exact",
+      "description": "Solo weight uses PM-corrected 98g and the metric→imperial conversion (98g = 3.46oz) is present. Folds shopify_pm_weight + shopify_imperial_units."
+    },
+    {
+      "id": "compliance_certs_warnings",
+      "check_type": "deterministic_exact",
+      "description": "Mandated compliance content sourced correctly: Amazon PSE cert number + safety warning text, and Douyin CCC cert number. Folds amazon_pse_warning + douyin_ccc_cert."
+    },
+    {
+      "id": "category_taxonomy_correct",
+      "check_type": "deterministic_exact",
+      "description": "Category taxonomy mapped correctly from category_mapping.csv: Amazon browse node 2529479051 and Douyin category path 运动户外/户外装备/户外炉具. Folds amazon_browse_node + douyin_category_path."
+    },
+    {
+      "id": "shopify_seo_keywords",
+      "check_type": "deterministic_exact",
+      "description": "Shopify SEO description contains all 4 required keywords: camping stove, portable, backpacking, ultralight."
+    },
+    {
+      "id": "shopify_main_image",
+      "check_type": "deterministic_exact",
+      "description": "Shopify first image (position 1) is a white-background main product shot."
+    },
+    {
+      "id": "amazon_title_format",
+      "check_type": "deterministic_exact",
+      "description": "Amazon parent title follows the brand title formula (starts with TrailBlaze, contains ThermoJet)."
+    },
+    {
+      "id": "amazon_bullet_count",
+      "check_type": "deterministic_exact",
+      "description": "Amazon parent listing has exactly 5 bullet points."
+    },
+    {
+      "id": "douyin_banned_words_compliance",
+      "check_type": "deterministic_exact",
+      "description": "Douyin title and description contain no advertising-law banned words (negative/restraint capability)."
+    }
+  ],
+  "notes": "11 capability-unit checks folded from 20 atomic predicates across 3 output files (per docs/check-granularity.md R1-R7; pure aggregation, binary passed unchanged). No mock API — pure file-based verification. Key traps: PM corrections override spec (Solo weight 95→98g, Pro colors→Titanium-only, Pro price 129.99→139.99), variant matrix asymmetry (5 SKUs not 6), platform-specific pricing formulas with exchange rates and rounding, metric→imperial unit conversion, advertising-law compliance."
+}

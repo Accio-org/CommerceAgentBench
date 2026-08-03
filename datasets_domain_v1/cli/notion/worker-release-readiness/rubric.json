@@ -1,0 +1,6 @@
+{
+  "schema_version": "2.0",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "notes": "Host-side verifier checks the final Notion CLI mock state for worker, env, and sync mutations."
+}

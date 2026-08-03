@@ -1,0 +1,88 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+button { color-scheme: unset; forced-color-adjust: unset; math-depth: unset; position: unset; position-anchor: unset; text-size-adjust: unset; appearance: unset; color: unset; font: unset; font-palette: unset; font-synthesis: unset; position-area: unset; text-orientation: unset; text-rendering: unset; text-spacing-trim: unset; -webkit-font-smoothing: unset; -webkit-locale: unset; -webkit-text-orientation: unset; -webkit-writing-mode: unset; writing-mode: unset; zoom: unset; accent-color: unset; place-content: unset; place-items: unset; place-self: unset; alignment-baseline: unset; anchor-name: unset; anchor-scope: unset; animation-composition: unset; animation: unset; animation-trigger: unset; app-region: unset; aspect-ratio: unset; backdrop-filter: unset; backface-visibility: unset; background: unset; background-blend-mode: unset; baseline-shift: unset; baseline-source: unset; block-size: unset; border-block: unset; border: unset; border-radius: unset; border-collapse: unset; border-end-end-radius: unset; border-end-start-radius: unset; border-inline: unset; border-shape: unset; border-start-end-radius: unset; border-start-start-radius: unset; inset: unset; box-decoration-break: unset; box-shadow: unset; box-sizing: unset; break-after: unset; break-before: unset; break-inside: unset; buffered-rendering: unset; caption-side: unset; caret-animation: unset; caret-color: unset; caret-shape: unset; clear: unset; clip: unset; clip-path: unset; clip-rule: unset; color-interpolation: unset; color-interpolation-filters: unset; color-rendering: unset; columns: unset; column-fill: unset; gap: unset; column-rule: unset; column-span: unset; contain: unset; contain-intrinsic-block-size: unset; contain-intrinsic-size: unset; contain-intrinsic-inline-size: unset; container: unset; content: unset; content-visibility: unset; corner-shape: unset; corner-block-end-shape: unset; corner-block-start-shape: unset; counter-increment: unset; counter-reset: unset; counter-set: unset; cursor: unset; cx: unset; cy: unset; d: unset; display: unset; dominant-baseline: unset; dynamic-range-limit: unset; empty-cells: unset; field-sizing: unset; fill: unset; fill-opacity: unset; fill-rule: unset; filter: unset; flex: unset; flex-flow: unset; float: unset; flood-color: unset; flood-opacity: unset; grid: unset; grid-area: unset; height: unset; hyphenate-character: unset; hyphenate-limit-chars: unset; hyphens: unset; image-orientation: unset; image-rendering: unset; initial-letter: unset; inline-size: unset; inset-block: unset; inset-inline: unset; interactivity: unset; interest-delay: unset; interpolate-size: unset; isolation: unset; letter-spacing: unset; lighting-color: unset; line-break: unset; list-style: unset; margin-block: unset; margin: unset; margin-inline: unset; marker: unset; mask: unset; mask-type: unset; math-shift: unset; math-style: unset; max-block-size: unset; max-height: unset; max-inline-size: unset; max-width: unset; min-block-size: unset; min-height: unset; min-inline-size: unset; min-width: unset; mix-blend-mode: unset; object-fit: unset; object-position: unset; object-view-box: unset; offset: unset; opacity: unset; order: unset; orphans: unset; outline: unset; outline-offset: unset; overflow-anchor: unset; overflow-block: unset; overflow-clip-margin: unset; overflow-inline: unset; overflow-wrap: unset; overflow: unset; overlay: unset; overscroll-behavior-block: unset; overscroll-behavior-inline: unset; overscroll-behavior: unset; padding-block: unset; padding: unset; padding-inline: unset; page: unset; page-orientation: unset; paint-order: unset; perspective: unset; perspective-origin: unset; pointer-events: unset; position-try: unset; position-visibility: unset; print-color-adjust: unset; quotes: unset; r: unset; reading-flow: unset; reading-order: unset; resize: unset; rotate: unset; ruby-align: unset; ruby-position: unset; rx: unset; ry: unset; scale: unset; scroll-behavior: unset; scroll-initial-target: unset; scroll-margin-block: unset; scroll-margin: unset; scroll-margin-inline: unset; scroll-marker-group: unset; scroll-padding-block: unset; scroll-padding: unset; scroll-padding-inline: unset; scroll-snap-align: unset; scroll-snap-stop: unset; scroll-snap-type: unset; scroll-target-group: unset; scroll-timeline: unset; scrollbar-color: unset; scrollbar-gutter: unset; scrollbar-width: unset; shape-image-threshold: unset; shape-margin: unset; shape-outside: unset; shape-rendering: unset; size: unset; speak: unset; stop-color: unset; stop-opacity: unset; stroke: unset; stroke-dasharray: unset; stroke-dashoffset: unset; stroke-linecap: unset; stroke-linejoin: unset; stroke-miterlimit: unset; stroke-opacity: unset; stroke-width: unset; tab-size: unset; table-layout: unset; text-align: unset; text-align-last: unset; text-anchor: unset; text-autospace: unset; text-box: unset; text-combine-upright: unset; text-decoration: unset; text-decoration-skip-ink: unset; text-emphasis: unset; text-emphasis-position: unset; text-indent: unset; text-justify: unset; text-overflow: unset; text-shadow: unset; text-transform: unset; text-underline-offset: unset; text-underline-position: unset; text-wrap: unset; timeline-scope: unset; timeline-trigger: unset; touch-action: unset; transform: unset; transform-box: unset; transform-origin: unset; transform-style: unset; transition: unset; translate: unset; trigger-scope: unset; user-select: unset; vector-effect: unset; vertical-align: unset; view-timeline: unset; view-transition-class: unset; view-transition-group: unset; view-transition-name: unset; view-transition-scope: unset; visibility: unset; border-spacing: unset; -webkit-box-align: unset; -webkit-box-decoration-break: unset; -webkit-box-direction: unset; -webkit-box-flex: unset; -webkit-box-ordinal-group: unset; -webkit-box-orient: unset; -webkit-box-pack: unset; -webkit-box-reflect: unset; -webkit-line-break: unset; -webkit-line-clamp: unset; -webkit-mask-box-image: unset; -webkit-rtl-ordering: unset; -webkit-ruby-position: unset; -webkit-text-combine: unset; -webkit-text-decorations-in-effect: unset; -webkit-text-fill-color: unset; -webkit-text-security: unset; -webkit-text-stroke: unset; -webkit-user-drag: unset; white-space-collapse: unset; widows: unset; width: unset; will-change: unset; word-break: unset; word-spacing: unset; x: unset; y: unset; z-index: unset; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+:host { display: block; min-inline-size: 0px; }
+.root { display: flex; flex-direction: column; }
+.root.contained { border: .0625rem solid var(--t-input-border,rgba(138,138,138,1)); border-radius: 0.75rem; overflow: hidden; }
+@media (min-width: 48rem), (pointer: fine) {
+  .root.contained { border: 0px; border-radius: 0px; overflow: visible; }
+}
+.root.with-details { row-gap: 0.125rem; }
+.root.with-error { row-gap: 0.25rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .root.with-error { row-gap: 0.125rem; }
+}
+.field-details { padding: 0px 0.75rem 0.75rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .field-details { padding: 0px; }
+}
+.field-layout { display: flex; flex-direction: column; gap: 0.25rem; }
+.label-row { display: flex; align-items: center; justify-content: space-between; padding-inline: 0.6875rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .label-row { padding-inline: 0px 0.5rem; }
+  .label, .none-label { --s-small-text-font-size: .8125rem; --s-small-text-line-height: 1.25rem; }
+}
+.label { display: flex; color: var(--t-text-secondary,rgba(97,97,97,1)); padding-block: 0.5rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .label { color: var(--t-text,rgba(48,48,48,1)); padding-block: 0px; }
+}
+.none-label { color: var(--t-text-secondary,rgba(97,97,97,1)); }
+.edit-button { margin: 0px; }
+.edit-button.hidden { visibility: hidden; }
+.chip-container { position: relative; z-index: 0; background-color: var(--t-input-surface,rgba(253,253,253,1)); }
+@media (min-width: 48rem), (pointer: fine) {
+  .chip-container { border-radius: 0.5rem; padding: 0.5rem; box-shadow: 0 0 0 .04125rem var(--t-input-border,rgba(138,138,138,1)) inset; }
+}
+.chip-container.has-overflow-button { padding-block-end: 0.5rem; }
+.chip-container.has-overflow-scrollable .chip-wrapper { padding-inline-end: 0px; }
+.chip-container.empty { display: flex; padding: 0px 0.75rem 0.75rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .chip-container.empty { padding: 0.5rem; }
+}
+.chip-container.list { padding: 0px; }
+.chip-container.list.has-overflow-button { padding-block-end: 0.5rem; }
+.chip-container.inline { padding: 0px 0.75rem 0.75rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .chip-container.inline { padding: 0px; }
+}
+.chip-container.disabled, .chip-container.read-only { padding-block-start: 0.75rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .chip-container.disabled, .chip-container.read-only { padding-block-start: 0px; }
+  .empty:is(.chip-container.disabled, .chip-container.read-only) { padding: 0.5rem; }
+}
+.chip-container.disabled, .chip-container.read-only { background-color: var(--t-surface-disabled,rgba(0,0,0,.05)); }
+.chip-container.disabled { color: var(--t-text-disabled,rgba(181,181,181,1)); border-color: rgba(0, 0, 0, 0); }
+.chip-container.read-only { color: var(--t-text-secondary,rgba(97,97,97,1)); }
+.chip-container.read-only.empty { background-color: rgba(0, 0, 0, 0); padding-inline: 1rem; }
+.chip-container-uncontained { padding: 0.25rem 0.5rem 0.5rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .chip-container-uncontained { padding: 0.25rem 0px 0px; }
+}
+.chip-container-uncontained.has-overflow-button { padding-block-end: 0.25rem; }
+.chip-container-uncontained.read-only.empty { border-color: rgba(0, 0, 0, 0); }
+.chip-wrapper ::slotted(*) { max-inline-size: 100%; }
+.chip-wrapper.inline { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+.chip-container .chip-wrapper:not(.inline) { padding-inline: 0.5rem; }
+.chip-container .chip-wrapper.inline { padding: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  .chip-container .chip-wrapper.inline { padding: 0.5rem; }
+}
+@media (forced-colors: active) {
+  .chip-container { border: 0.125rem solid rgba(0, 0, 0, 0); }
+}
+.small-text { display: inline-block; font-size: var(--s-small-text-font-size,.875rem); line-height: var(--s-small-text-line-height,1.25rem); font-weight: var(--s-small-text-font-weight,450); }
+@media (min-width: 48rem), (pointer: fine) {
+  .small-text { font-size: var(--s-small-text-font-size,.75rem); line-height: var(--s-small-text-line-height,1rem); }
+}
+.field-details { --s-global-font-size: .75rem; --s-global-line-height: 1rem; --s-icon-display: inline-flex; --s-icon-vertical-align: middle; --s-link-color: currentColor; --s-link-color-hover: currentColor; --s-link-color-active: currentColor; --s-link-text-decoration: underline; display: flex; gap: 0.25rem; font-size: 0.75rem; line-height: 1rem; color: var(--t-text-secondary,rgba(97,97,97,1)); }
+@media (min-width: 48rem), (pointer: fine) {
+  .field-details { letter-spacing: 0px; }
+}
+.field-details.field-details-error { --s-global-color: var(--t-text-critical,rgba(142,11,33,1)); --s-icon-color: var(--t-text-critical,rgba(142,11,33,1)); --s-link-color: currentColor; color: var(--t-text-critical,rgba(142,11,33,1)); }
+.field-details.field-details-disabled { --s-global-color: var(--t-text-disabled,rgba(181,181,181,1)); --s-icon-color: var(--t-icon-disabled,rgba(204,204,204,1)); color: var(--t-text-disabled,rgba(181,181,181,1)); }
+.field-details-icon { flex-shrink: 0; display: inline-flex; }
+.display-none { display: none; }

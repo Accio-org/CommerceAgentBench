@@ -1,0 +1,62 @@
+{
+  "expected_fields": {
+    "campaignName": "ChronoVibe Summer Flash 2026",
+    "campaignType": "flash_sale",
+    "productSku": "CVP-S2-2026",
+    "productTitle": "ChronoVibe Pulse S2 Smart Watch AMOLED 1.43\" Bluetooth 5.3 Health Monitor GPS Waterproof IP68",
+    "category": "Smart Electronics > Wearables > Smart Watches",
+    "basePrice": "399.00",
+    "currency": "USD",
+    "discountType": "tiered_time",
+    "discountTiers": "[{\"phase\": \"early_access\", \"discount_pct\": \"22\", \"price\": \"311.22\", \"days\": \"2\"}, {\"phase\": \"flash_sale\", \"discount_pct\": \"18\", \"price\": \"327.18\", \"days\": \"5\"}, {\"phase\": \"last_chance\", \"discount_pct\": \"10\", \"price\": \"359.10\", \"days\": \"3\"}]",
+    "targetRegions": "[\"US\", \"CA\", \"DE\", \"FR\", \"IT\", \"ES\", \"UK\", \"JP\", \"AU\", \"BR\", \"KR\"]",
+    "regionSurcharge": "{\"mode\": \"percent\", \"rates\": {\"US\": \"0\", \"CA\": \"0\", \"DE\": \"8\", \"FR\": \"8\", \"IT\": \"8\", \"ES\": \"8\", \"UK\": \"8\", \"JP\": \"5\", \"AU\": \"6\", \"BR\": \"15\", \"KR\": \"5\"}}",
+    "warehouseAllocation": "{\"US-West\": \"6000\", \"EU-NL\": \"4200\", \"Asia-SZ\": \"4800\"}",
+    "totalCampaignStock": "15000",
+    "maxPerCustomer": "3",
+    "campaignStart": "2026-06-15T00:00:00Z",
+    "campaignEnd": "2026-06-25T23:59:59Z",
+    "freeShippingThreshold": "299.00",
+    "dailyAdBudget": "5000.00",
+    "adPlatforms": "[\"google_ads\", \"meta_ads\", \"tiktok_ads\"]",
+    "stockReserveMode": "hard_reserve",
+    "paymentMethods": "[\"credit_card\", \"paypal\", \"apple_pay\", \"klarna\"]",
+    "landingPageSlug": "summer-flash-pulse-s2",
+    "agreement": "true"
+  },
+  "required_files": [
+    "banner_1",
+    "banner_2",
+    "banner_3",
+    "banner_4",
+    "banner_5"
+  ],
+  "json_fields": [
+    "discountTiers",
+    "targetRegions",
+    "regionSurcharge",
+    "warehouseAllocation",
+    "adPlatforms",
+    "paymentMethods"
+  ],
+  "banner_selection": {
+    "correct_files": [
+      "BANNER_001.png",
+      "BANNER_003.png",
+      "BANNER_005.png",
+      "BANNER_008.png",
+      "BANNER_011.png"
+    ],
+    "wrong_files": [
+      "BANNER_002.png",
+      "BANNER_004.png",
+      "BANNER_006.png",
+      "BANNER_007.png",
+      "BANNER_009.png",
+      "BANNER_010.png",
+      "BANNER_012.png"
+    ],
+    "note": "Agent must use banner_index.md to identify smartwatch banners (001,003,005,008,011). Fitness band (002,006,010), charging dock (004,009), and rejects (007,012) are wrong."
+  },
+  "notes": "v2 uses each expected_fields entry as one atomic deterministic_exact check (json_fields use deep-equal), plus structural checks (session_exists, session_state_readable, session_submitted, mock_submit_via_legitimate_path, banner uploads)."
+}

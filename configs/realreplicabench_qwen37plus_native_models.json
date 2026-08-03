@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "qwen": {
+      "baseUrl": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+      "apiKey": "${DASHSCOPE_API_KEY}",
+      "api": "openai-completions",
+      "timeoutSeconds": 600,
+      "models": [
+        {
+          "id": "qwen3.7-plus",
+          "name": "Qwen 3.7 Plus",
+          "reasoning": true,
+          "input": ["text", "image"],
+          "contextWindow": 1048576,
+          "maxTokens": 65536
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "resource": "products",
+    "params": {
+      "name": "Pro Analytics Dashboard",
+      "description": "Legacy analytics product — DO NOT DELETE",
+      "metadata": {"team": "legacy", "sprint": "payment-q2", "note": "migrated from old account"}
+    }
+  },
+  {
+    "resource": "prices",
+    "params": {
+      "product": "$ref:products:0",
+      "unit_amount": "4999",
+      "currency": "usd",
+      "recurring[interval]": "month"
+    }
+  },
+  {
+    "resource": "customers",
+    "params": {
+      "name": "TechCorp Integration Partner",
+      "email": "billing@techcorp.io",
+      "metadata": {"type": "partner", "contract": "TC-2025-042"}
+    }
+  },
+  {
+    "resource": "products",
+    "params": {
+      "name": "Monthly Usage Report",
+      "description": "Deprecated — replaced by Single Report Download",
+      "active": "false"
+    }
+  }
+]

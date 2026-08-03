@@ -1,0 +1,245 @@
+{
+  "qualification_thresholds": {
+    "min_shipments": 50,
+    "min_amount_usd": 500000
+  },
+  "tier_thresholds": {
+    "X_executive": 2500000,
+    "Y_standard": 900000,
+    "description": "Tier 1: amount > $2,500,000; Tier 2: $900,000 < amount <= $2,500,000; Tier 3: amount <= $900,000"
+  },
+  "source_csv_dir": "workspace/customs_data",
+  "source_csv_files": [
+    "medical_ultrasound.csv",
+    "stainless_steel_export.csv"
+  ],
+  "source_min_rows": 5000,
+  "qualified_suppliers": [
+    {
+      "supplier": "MR GLOBAL HK LIMITED",
+      "total_amount_usd": 14278683.61,
+      "shipment_count": 304,
+      "weight_kg": 307.5,
+      "unique_hs_chapters": [
+        "9018"
+      ],
+      "unique_buyers": 7,
+      "tier": 1
+    },
+    {
+      "supplier": "WUXI HAOGUANG SPECIAL STEEL CO LTD",
+      "total_amount_usd": 2986565.07,
+      "shipment_count": 177,
+      "weight_kg": 390674.0,
+      "unique_hs_chapters": [
+        "7219"
+      ],
+      "unique_buyers": 16,
+      "tier": 1
+    },
+    {
+      "supplier": "CHISON MEDICAL TECHNOLOGIES CO LTD",
+      "total_amount_usd": 2945448.96,
+      "shipment_count": 150,
+      "weight_kg": 10301.2,
+      "unique_hs_chapters": [
+        "9018"
+      ],
+      "unique_buyers": 20,
+      "tier": 1
+    },
+    {
+      "supplier": "SONOSCAPE MEDICAL CORP",
+      "total_amount_usd": 2473614.66,
+      "shipment_count": 131,
+      "weight_kg": 944.6,
+      "unique_hs_chapters": [
+        "9018"
+      ],
+      "unique_buyers": 14,
+      "tier": 2
+    },
+    {
+      "supplier": "TEEU INTERNATIONAL CO LIMITED",
+      "total_amount_usd": 1518962.58,
+      "shipment_count": 98,
+      "weight_kg": 0.0,
+      "unique_hs_chapters": [
+        "7219"
+      ],
+      "unique_buyers": 6,
+      "tier": 2
+    },
+    {
+      "supplier": "GLOBAL ASIA MATERIAL CO LIMITED",
+      "total_amount_usd": 1485223.16,
+      "shipment_count": 128,
+      "weight_kg": 4568.0,
+      "unique_hs_chapters": [
+        "7219"
+      ],
+      "unique_buyers": 9,
+      "tier": 2
+    },
+    {
+      "supplier": "BAOLAI STEEL GROUP CO LTD",
+      "total_amount_usd": 1311363.24,
+      "shipment_count": 96,
+      "weight_kg": 0.0,
+      "unique_hs_chapters": [
+        "7219"
+      ],
+      "unique_buyers": 3,
+      "tier": 2
+    },
+    {
+      "supplier": "NINGBO NINGSHING TRADING GROUP INC",
+      "total_amount_usd": 1231234.9,
+      "shipment_count": 67,
+      "weight_kg": 0.0,
+      "unique_hs_chapters": [
+        "7219"
+      ],
+      "unique_buyers": 7,
+      "tier": 2
+    },
+    {
+      "supplier": "JIANGSU SHEYE METAL CO LTD",
+      "total_amount_usd": 991946.74,
+      "shipment_count": 90,
+      "weight_kg": 173104.15,
+      "unique_hs_chapters": [
+        "7219"
+      ],
+      "unique_buyers": 12,
+      "tier": 2
+    },
+    {
+      "supplier": "TAIZHOU DIANSHUO METAL PRODUCTS CO LTD",
+      "total_amount_usd": 889623.96,
+      "shipment_count": 78,
+      "weight_kg": 0.0,
+      "unique_hs_chapters": [
+        "7219"
+      ],
+      "unique_buyers": 2,
+      "tier": 3
+    },
+    {
+      "supplier": "VL HK LIMITED",
+      "total_amount_usd": 838162.58,
+      "shipment_count": 58,
+      "weight_kg": 111449.99,
+      "unique_hs_chapters": [
+        "7219"
+      ],
+      "unique_buyers": 1,
+      "tier": 3
+    },
+    {
+      "supplier": "KASEN STEEL CO LIMITED",
+      "total_amount_usd": 816653.98,
+      "shipment_count": 146,
+      "weight_kg": 938575.0,
+      "unique_hs_chapters": [
+        "7219"
+      ],
+      "unique_buyers": 12,
+      "tier": 3
+    },
+    {
+      "supplier": "EDAN INSTRUMENTS INC",
+      "total_amount_usd": 708032.12,
+      "shipment_count": 57,
+      "weight_kg": 0.0,
+      "unique_hs_chapters": [
+        "9018"
+      ],
+      "unique_buyers": 1,
+      "tier": 3
+    }
+  ],
+  "tier_summary": {
+    "tier_1_count": 3,
+    "tier_2_count": 6,
+    "tier_3_count": 4,
+    "total": 13
+  },
+  "tier_1_suppliers": [
+    "MR GLOBAL HK LIMITED",
+    "WUXI HAOGUANG SPECIAL STEEL CO LTD",
+    "CHISON MEDICAL TECHNOLOGIES CO LTD"
+  ],
+  "tier_2_suppliers": [
+    "SONOSCAPE MEDICAL CORP",
+    "TEEU INTERNATIONAL CO LIMITED",
+    "GLOBAL ASIA MATERIAL CO LIMITED",
+    "BAOLAI STEEL GROUP CO LTD",
+    "NINGBO NINGSHING TRADING GROUP INC",
+    "JIANGSU SHEYE METAL CO LTD"
+  ],
+  "tier_3_suppliers": [
+    "TAIZHOU DIANSHUO METAL PRODUCTS CO LTD",
+    "VL HK LIMITED",
+    "KASEN STEEL CO LIMITED",
+    "EDAN INSTRUMENTS INC"
+  ],
+  "expected_operations": {
+    "tier_1": {
+      "gws": [
+        "sheet_row",
+        "exec_brief_slide"
+      ],
+      "stripe": [
+        "customer",
+        "product_per_hs_chapter",
+        "price_per_product",
+        "deposit_invoice",
+        "payment_intent"
+      ],
+      "box": [
+        "supplier_folder",
+        "contract_upload",
+        "exec_review_task",
+        "collaboration_per_executive"
+      ]
+    },
+    "tier_2": {
+      "gws": [
+        "sheet_row"
+      ],
+      "stripe": [
+        "customer",
+        "invoice"
+      ],
+      "box": [
+        "supplier_folder",
+        "analysis_upload"
+      ]
+    },
+    "tier_3": {
+      "gws": [
+        "sheet_row"
+      ],
+      "stripe": [],
+      "box": []
+    }
+  },
+  "executives": [
+    {
+      "name": "Sarah Chen",
+      "email": "sarah.chen@company.com",
+      "user_id": "exec-001"
+    },
+    {
+      "name": "James Rodriguez",
+      "email": "james.rodriguez@company.com",
+      "user_id": "exec-002"
+    },
+    {
+      "name": "Lisa Wang",
+      "email": "lisa.wang@company.com",
+      "user_id": "exec-003"
+    }
+  ]
+}

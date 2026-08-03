@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.0",
+  "total_checks": 8,
+  "checks": [
+    {
+      "id": "setup_gate",
+      "description": "All three CLIs (DWS, Jira, Todoist) are accessible and initialized",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "source_data_present",
+      "description": "Both CSV source files exist with expected row counts",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "dws_reconciliation_reports",
+      "description": "Per-supplier DWS reconciliation docs exist in the correct folder with source attribution",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "dws_content_correct",
+      "description": "Reconciled values use correct source per field (weight from loading, amount from discharge, etc.)",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "jira_conflict_issues",
+      "description": "Jira issues exist for overlapping suppliers documenting data conflicts",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "jira_fields_correct",
+      "description": "Priority, labels, and assignees are correct per rules",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "todoist_action_queue",
+      "description": "Follow-up tasks in Todoist with correct sections and priorities",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "field_resolution_accuracy",
+      "description": "Spot-check that each field used the correct source per resolution rules, including HS code strictness via tariff schedule",
+      "type": "deterministic_exact",
+      "weight": 1
+    }
+  ]
+}

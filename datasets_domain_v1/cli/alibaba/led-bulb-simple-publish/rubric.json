@@ -1,0 +1,52 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-alibaba-led-bulb-simple-publish",
+  "summary": "LED灯泡基础发品 — alibaba_publish mock. Each expected field is one atomic deterministic_exact check; plus structural checks for session existence/submission/legitimate path/image upload. v2 verifier expands the full checks[] from private/expected_answer.json at runtime.",
+  "category": "ecommerce_publishing",
+  "state_kind": "local_mock_cli",
+  "difficulty": "easy",
+  "check_strategy": "private/expected_answer.json drives per-field validation; the shared verifier real_replica_bench.verifiers.alibaba_publish_v2 folds the atomic results into capability buckets per docs/check-granularity.md (R2: 4 structural checks → setup_gate; R3: image slots and each same-skill field group collapse to one check; R7: one shared verifier covers all 12 alibaba_publish tasks). Each bucket = AND of its present member fields (failures listed in the reason). Binary pass = all buckets, which is identical to all atoms (pure aggregation). Only buckets with >=1 present field are emitted for this product.",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Plumbing folded into one gate: a session exists, its state is readable, status == 'submitted', and the access-log has a legitimate cli_submit_valid (Bearer-token CLI path) event for it."
+    },
+    {
+      "id": "images_correct",
+      "check_type": "deterministic_exact",
+      "description": "All required image slots carry a correct uploaded file (collapsed upload-skill batch; multi-image products validate correct/acceptable files and reject wrong files)."
+    },
+    {
+      "id": "category_classification_correct",
+      "check_type": "deterministic_exact",
+      "description": "category + saleMode + productGroup all correct (catalog placement / sale mode)."
+    },
+    {
+      "id": "title_keywords_correct",
+      "check_type": "deterministic_exact",
+      "description": "productTitle and keyword_1..3 all correct (SEO title + keywords)."
+    },
+    {
+      "id": "attributes_correct",
+      "check_type": "deterministic_exact",
+      "description": "All attr_* product attributes correct (read the spec → map to closed-set attribute values)."
+    },
+    {
+      "id": "pricing_terms_correct",
+      "check_type": "deterministic_exact",
+      "description": "All pricing / trade-term fields correct (saleType, priceUnit, priceMode, fob*, minOrderQuantity, inventory, ladderPrice, countryPriceDiff)."
+    },
+    {
+      "id": "logistics_correct",
+      "check_type": "deterministic_exact",
+      "description": "selectedCountries + deliveryPeriod correct (markets / logistics)."
+    },
+    {
+      "id": "publish_settings_correct",
+      "check_type": "deterministic_exact",
+      "description": "productVisible + descType + agreement correct (publish flags)."
+    }
+  ],
+  "notes": "Total checks = 8 (setup_gate + images_correct + 6 skill buckets). Restructured 2026-06-08 from the previous per-field atomic layout (4 structural + image + N field_* — e.g. led-bulb 33). Pure aggregation: no validation loosened, binary pass unchanged; capacity now reflects distinct capability units. Mode: cli uses cli_submit_valid."
+}

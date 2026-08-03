@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1.0,
+  "task_id": "cli-dws-supplier-compliance-review",
+  "summary": "Audit 24 supplier folders in a DingTalk Docs knowledge base through the dws CLI. The agent must enumerate folders, read each supplier's product spec (for USCC), certificate (for expiry/scope/entity), and prior audit note (for open findings), then determine compliance per policy. Non-compliant suppliers get a comment with exact deficiency codes; a results document lists all 24 suppliers with status. The live DWS mock state is the sole deliverable.",
+  "category": "sourcing_supplier_compliance",
+  "state_kind": "cli_mock_stateful",
+  "difficulty": "hard",
+  "check_strategy": "private/expected_answer.json drives deterministic atomic computation; the verifier reads the live dws_doc_cli state over MOCK_SITE_URL/api/state with MOCK_VERIFIER_TOKEN, evaluates every atom unchanged, then folds them into 7 capability-unit checks (capacity-check refactor; per docs/check-granularity.md). Binary pass requires all 7. Difficulty comes from: (a) reading 72+ document contents to extract USCC, expiry dates, scope text, and finding status; (b) cross-referencing certificate USCC against product spec USCC; (c) judging scope coverage against product line; (d) detecting open vs closed audit findings; (e) producing correct deficiency codes per supplier.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "DWS mock state is reachable over the verifier-only endpoint (R2 plumbing gate)."},
+    {"id": "document_room_organized", "check_type": "deterministic_exact", "description": "The 3 misfiled certificates were relocated by USCC to the correct supplier folder and are no longer in the wrong folder (R3; folds 6 atoms)."},
+    {"id": "review_doc_published", "check_type": "deterministic_exact", "description": "The 'Q2 2026 Compliance Review Results' document exists with the correct compliant (10) and non-compliant (14) headline counts (R1; folds 3 atoms)."},
+    {"id": "compliance_verdicts_correct", "check_type": "deterministic_exact", "description": "Every supplier carries the correct Compliant/Non-Compliant verdict in the results document — the hard core competency (R3a; folds 24 atoms)."},
+    {"id": "deficiency_codes_correct", "check_type": "deterministic_exact", "description": "Each non-compliant supplier has a comment citing exactly the right deficiency code(s) (R3a/R4; folds 17 atoms across 14 suppliers)."},
+    {"id": "no_false_comments", "check_type": "deterministic_exact", "description": "No comment was added to any of the 10 compliant suppliers (R6 restraint; folds 10 atoms)."},
+    {"id": "source_documents_untouched", "check_type": "deterministic_exact", "description": "The read-only template and archive documents were left unmodified (R6 restraint; folds 2 atoms)."}
+  ],
+  "notes": "Total checks = 7 (capacity-check refactor, was 63): setup_gate + document_room_organized + review_doc_published + compliance_verdicts_correct + deficiency_codes_correct + no_false_comments + source_documents_untouched. Each capability check is the AND of its atomic members (validated unchanged from expected_answer.json's 62 specs); failing members are listed in the reason string. Complete partition: every spec maps to exactly one capability."
+}

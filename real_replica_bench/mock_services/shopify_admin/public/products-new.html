@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>添加产品 · Shopify</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="product">
+    <header class="topbar">
+      <div class="topbar-left">
+        <button class="topbar-burger" aria-label="切换菜单">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M2 5h16v2H2zm0 4h16v2H2zm0 4h16v2H2z"/></svg>
+        </button>
+        <div class="shopify-logo">
+          <span class="glyph">S</span>
+          <span>Shopify</span>
+        </div>
+      </div>
+      <div class="topbar-search">
+        <button>
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M9 2a7 7 0 105.7 11l3.6 3.6 1.4-1.4-3.6-3.6A7 7 0 009 2zm0 2a5 5 0 110 10 5 5 0 010-10z"/></svg>
+          <span>搜索</span>
+          <span class="kbd">⌘ K</span>
+        </button>
+      </div>
+      <div class="topbar-right">
+        <button class="topbar-icon-btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a8 8 0 100 16A8 8 0 0010 2z"/></svg></button>
+        <button class="topbar-icon-btn"><svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a5 5 0 00-5 5v3.5L3 13v1h14v-1l-2-2.5V7a5 5 0 00-5-5z"/></svg></button>
+        <button class="topbar-user">
+          <span class="avatar">店</span>
+          <span style="font-size: 13px; font-weight: 500">我的商店</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <nav>
+          <div class="nav-section">
+            <a class="nav-item" href="/"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5L1 9h2v9h5v-6h4v6h5V9h2L10 1.5z"/></svg><span>主页</span></a>
+            <a class="nav-item" href="#"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 3h14v14H3V3zm2 2v10h10V5H5z"/></svg><span>订单</span></a>
+            <a class="nav-item active" href="/products/new"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2L2 6v8l8 4 8-4V6l-8-4z"/></svg><span>产品</span></a>
+            <a class="nav-item" href="#"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 4a3 3 0 100 6 3 3 0 000-6zm0 8c-3 0-6 1.5-6 4v1h12v-1c0-2.5-3-4-6-4z"/></svg><span>客户</span></a>
+            <a class="nav-item" href="#"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><circle cx="10" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="2"/></svg><span>市场营销</span></a>
+            <a class="nav-item" href="#"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 5l3-3h8l3 3v3l-9 11L3 8V5z"/></svg><span>折扣</span></a>
+            <a class="nav-item" href="#"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 3h14v3H3zm0 5h14v3H3zm0 5h14v3H3z"/></svg><span>内容</span></a>
+            <a class="nav-item" href="#"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 17V8h3v9H3zm5 0V3h3v14H8zm5 0v-7h3v7h-3z"/></svg><span>分析</span></a>
+          </div>
+        </nav>
+        <div class="sidebar-footer">
+          <a class="nav-item" href="#"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><circle cx="10" cy="10" r="3"/></svg><span>设置</span></a>
+        </div>
+      </aside>
+
+      <main class="main">
+        <div class="page-header">
+          <h1 class="page-title">
+            <a class="page-title-back" href="/" title="返回">
+              <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M13 4L7 10l6 6V4z"/></svg>
+            </a>
+            <span>添加产品</span>
+          </h1>
+          <div class="flex-row">
+            <button class="btn btn-tertiary" id="reset-session">重置会话</button>
+            <button class="btn btn-secondary" type="button" id="btn-save-draft">保存为草稿</button>
+            <button class="btn btn-primary" type="button" id="btn-submit">保存</button>
+          </div>
+        </div>
+
+        <form id="product-form" autocomplete="off">
+          <div class="product-form-grid">
+            <!-- Left column -->
+            <div>
+              <!-- Title + Description -->
+              <section class="card">
+                <div class="field">
+                  <label class="field-label" for="f-title">产品标题<span class="req">*</span></label>
+                  <input class="input" id="f-title" name="title" placeholder="例如：短袖 T 恤" />
+                </div>
+
+                <div class="field">
+                  <label class="field-label">产品描述</label>
+                  <div class="rte-toolbar" data-target="rte-description">
+                    <select data-cmd="formatBlock" title="段落样式">
+                      <option value="p">段落</option>
+                      <option value="h1">标题 1</option>
+                      <option value="h2">标题 2</option>
+                      <option value="h3">标题 3</option>
+                    </select>
+                    <span class="rte-divider"></span>
+                    <button type="button" data-cmd="bold"><b>B</b></button>
+                    <button type="button" data-cmd="italic"><i>I</i></button>
+                    <button type="button" data-cmd="underline"><u>U</u></button>
+                    <span class="rte-divider"></span>
+                    <button type="button" data-cmd="insertUnorderedList">• 列表</button>
+                    <button type="button" data-cmd="insertOrderedList">1. 列表</button>
+                    <span class="rte-divider"></span>
+                    <button type="button" data-cmd="justifyLeft">左</button>
+                    <button type="button" data-cmd="justifyCenter">中</button>
+                    <button type="button" data-cmd="justifyRight">右</button>
+                    <span class="rte-divider"></span>
+                    <button type="button" data-cmd="createLink">链接</button>
+                    <button type="button" data-cmd="removeFormat">清除格式</button>
+                  </div>
+                  <div
+                    id="rte-description"
+                    class="rte-editor"
+                    contenteditable="true"
+                    data-placeholder="对您的产品进行详细描述…"
+                  ></div>
+                </div>
+              </section>
+
+              <!-- Media -->
+              <section class="card">
+                <div class="card-title">媒体</div>
+                <div class="card-subtitle">添加产品图片或视频，主图为必填项。</div>
+                <div class="media-grid" id="media-grid">
+                  <div class="media-slot" data-name="media_1" tabindex="0" role="button">
+                    <input type="file" accept="image/*" />
+                    <div class="media-slot__placeholder"><div style="font-size: 24px; margin-bottom: 4px">＋</div>主图<span class="req">*</span></div>
+                    <span class="label-pill">主图</span>
+                    <button type="button" class="remove-btn" aria-label="移除">×</button>
+                  </div>
+                  <div class="media-slot" data-name="media_2" tabindex="0" role="button"><input type="file" accept="image/*" /><div class="media-slot__placeholder">图片 2</div><button type="button" class="remove-btn">×</button></div>
+                  <div class="media-slot" data-name="media_3" tabindex="0" role="button"><input type="file" accept="image/*" /><div class="media-slot__placeholder">图片 3</div><button type="button" class="remove-btn">×</button></div>
+                  <div class="media-slot" data-name="media_4" tabindex="0" role="button"><input type="file" accept="image/*" /><div class="media-slot__placeholder">图片 4</div><button type="button" class="remove-btn">×</button></div>
+                  <div class="media-slot" data-name="media_5" tabindex="0" role="button"><input type="file" accept="image/*" /><div class="media-slot__placeholder">图片 5</div><button type="button" class="remove-btn">×</button></div>
+                  <div class="media-slot" data-name="media_video" tabindex="0" role="button"><input type="file" accept="video/*" /><div class="media-slot__placeholder">视频</div><button type="button" class="remove-btn">×</button></div>
+                </div>
+              </section>
+
+              <!-- Pricing -->
+              <section class="card">
+                <div class="card-title">定价</div>
+                <div class="field-row">
+                  <div class="field">
+                    <label class="field-label" for="f-price">价格<span class="req">*</span></label>
+                    <div class="input-prefix-wrap">
+                      <span class="prefix">$</span>
+                      <input id="f-price" name="price" type="number" step="0.01" placeholder="0.00" />
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="field-label" for="f-compareAtPrice">原价</label>
+                    <div class="input-prefix-wrap">
+                      <span class="prefix">$</span>
+                      <input id="f-compareAtPrice" name="compareAtPrice" type="number" step="0.01" placeholder="0.00" />
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="field-label" for="f-costPerItem">商品成本（不展示给买家）</label>
+                  <div class="input-prefix-wrap">
+                    <span class="prefix">$</span>
+                    <input id="f-costPerItem" name="costPerItem" type="number" step="0.01" placeholder="0.00" />
+                  </div>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="f-chargeTax" name="chargeTax" />
+                  <label for="f-chargeTax">对此产品收税</label>
+                </div>
+              </section>
+
+              <!-- Inventory -->
+              <section class="card">
+                <div class="card-title">库存</div>
+                <div class="field-row">
+                  <div class="field">
+                    <label class="field-label" for="f-sku">SKU（库存单元）</label>
+                    <input class="input" id="f-sku" name="sku" />
+                  </div>
+                  <div class="field">
+                    <label class="field-label" for="f-barcode">条形码（ISBN、UPC、GTIN 等）</label>
+                    <input class="input" id="f-barcode" name="barcode" />
+                  </div>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="f-trackQuantity" name="trackQuantity" />
+                  <label for="f-trackQuantity">跟踪数量</label>
+                </div>
+                <div class="field">
+                  <label class="field-label" for="f-quantity">可用数量</label>
+                  <input class="input" id="f-quantity" name="quantity" type="number" placeholder="0" style="max-width: 200px" />
+                </div>
+              </section>
+
+              <!-- Shipping -->
+              <section class="card">
+                <div class="card-title">运输</div>
+                <div class="field-row">
+                  <div class="field">
+                    <label class="field-label" for="f-weight">重量</label>
+                    <input class="input" id="f-weight" name="weight" type="number" step="0.001" placeholder="0.0" />
+                  </div>
+                  <div class="field">
+                    <label class="field-label" for="f-weightUnit">单位</label>
+                    <select class="select" id="f-weightUnit" name="weightUnit">
+                      <option value="">请选择</option>
+                      <option value="kg">kg（千克）</option>
+                      <option value="g">g（克）</option>
+                      <option value="lb">lb（磅）</option>
+                      <option value="oz">oz（盎司）</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="field-label" for="f-countryOfOrigin">原产地（国家/地区）</label>
+                  <select class="select" id="f-countryOfOrigin" name="countryOfOrigin">
+                    <option value="">请选择</option>
+                    <option value="CN">中国</option>
+                    <option value="US">美国</option>
+                    <option value="JP">日本</option>
+                    <option value="KR">韩国</option>
+                    <option value="VN">越南</option>
+                    <option value="IN">印度</option>
+                    <option value="DE">德国</option>
+                    <option value="FR">法国</option>
+                    <option value="IT">意大利</option>
+                    <option value="GB">英国</option>
+                    <option value="MX">墨西哥</option>
+                    <option value="BR">巴西</option>
+                    <option value="OTHER">其他</option>
+                  </select>
+                </div>
+              </section>
+
+              <!-- Variants -->
+              <section class="card">
+                <div class="card-title flex-between" style="display: flex; justify-content: space-between">
+                  <span>变体</span>
+                  <button type="button" class="btn btn-link" id="btn-add-option">＋ 添加选项</button>
+                </div>
+                <div class="card-subtitle">为此产品添加选项（如尺寸、颜色等），系统会自动生成变体表。</div>
+                <div id="options-container"></div>
+                <table class="variants-table" id="variants-table" style="display: none">
+                  <thead>
+                    <tr><th>变体</th><th>价格</th><th>SKU</th><th>库存</th></tr>
+                  </thead>
+                  <tbody id="variants-tbody"></tbody>
+                </table>
+              </section>
+
+              <!-- SEO -->
+              <section class="card">
+                <div class="card-title flex-between" style="display: flex; justify-content: space-between">
+                  <span>搜索引擎优化（SEO）</span>
+                </div>
+                <div class="card-subtitle">添加自定义标题与描述以优化此产品在搜索结果中的展示效果。</div>
+                <div class="field">
+                  <label class="field-label" for="f-seoTitle">页面标题</label>
+                  <input class="input" id="f-seoTitle" name="seoTitle" maxlength="70" />
+                </div>
+                <div class="field">
+                  <label class="field-label" for="f-seoDescription">元描述</label>
+                  <textarea class="textarea" id="f-seoDescription" name="seoDescription" maxlength="160"></textarea>
+                </div>
+                <div class="field">
+                  <label class="field-label" for="f-urlHandle">URL 句柄</label>
+                  <div class="input-prefix-wrap">
+                    <span class="prefix">/products/</span>
+                    <input id="f-urlHandle" name="urlHandle" placeholder="my-product" />
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <!-- Right sidebar -->
+            <aside>
+              <!-- Status -->
+              <section class="card">
+                <div class="card-title">状态<span class="req">*</span></div>
+                <div class="radio-row">
+                  <input type="radio" id="status-active" name="status" value="active" />
+                  <label for="status-active">已发布（active）</label>
+                </div>
+                <div class="radio-row">
+                  <input type="radio" id="status-draft" name="status" value="draft" checked />
+                  <label for="status-draft">草稿（draft）</label>
+                </div>
+                <div class="radio-row">
+                  <input type="radio" id="status-archived" name="status" value="archived" />
+                  <label for="status-archived">已归档（archived）</label>
+                </div>
+              </section>
+
+              <!-- Sales Channels -->
+              <section class="card">
+                <div class="card-title">销售渠道</div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="ch-online" data-channel="online_store" />
+                  <label for="ch-online">在线商店</label>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="ch-pos" data-channel="point_of_sale" />
+                  <label for="ch-pos">Point of Sale (POS)</label>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="ch-shop" data-channel="shop" />
+                  <label for="ch-shop">Shop</label>
+                </div>
+                <div class="checkbox-row">
+                  <input type="checkbox" id="ch-google" data-channel="google_youtube" />
+                  <label for="ch-google">Google &amp; YouTube</label>
+                </div>
+              </section>
+
+              <!-- Product Organization -->
+              <section class="card">
+                <div class="card-title">产品组织</div>
+                <div class="field">
+                  <label class="field-label" for="f-category">产品类目<span class="req">*</span></label>
+                  <input class="input" id="f-category" name="category" placeholder="例如：服装与配饰 > 服装" />
+                  <div class="field-help">使用 Google 产品分类法格式</div>
+                </div>
+                <div class="field">
+                  <label class="field-label" for="f-productType">产品类型</label>
+                  <input class="input" id="f-productType" name="productType" placeholder="例如：T 恤" />
+                </div>
+                <div class="field">
+                  <label class="field-label" for="f-vendor">供应商</label>
+                  <input class="input" id="f-vendor" name="vendor" />
+                </div>
+                <div class="field">
+                  <label class="field-label" for="f-collections">产品系列</label>
+                  <input class="input" id="f-collections-input" placeholder="按 Enter 添加" />
+                  <div class="tag-chips" id="collections-chips"></div>
+                </div>
+                <div class="field">
+                  <label class="field-label" for="f-tags">标签</label>
+                  <input class="input" id="f-tags-input" placeholder="按 Enter 添加" />
+                  <div class="tag-chips" id="tags-chips"></div>
+                </div>
+              </section>
+
+              <p class="session-info">
+                Session: <span id="session-id">…</span>
+              </p>
+            </aside>
+          </div>
+
+          <!-- Save Bar -->
+          <div class="save-bar">
+            <button class="btn btn-secondary" type="button" id="btn-save-draft-2">保存为草稿</button>
+            <button class="btn btn-primary" type="button" id="btn-submit-2">保存</button>
+          </div>
+        </form>
+      </main>
+    </div>
+
+    <div class="toast" id="toast"></div>
+    <script src="/admin.js"></script>
+    <script src="/products-new.js"></script>
+  </body>
+</html>

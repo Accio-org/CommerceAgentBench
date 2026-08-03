@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "task_id": "api-amazon-margin-floor-audit",
+  "summary": "SP-API workflow task: validate an approved price-change queue through Listings Items, apply still-valid immediate rows with patchListingsItem after VALIDATION_PREVIEW, create/poll/download a Reports API settlement report, create/upload/submit/poll/download a JSON_LISTINGS_FEED for still-valid batch rows, and persist evidence artifacts. Difficulty is API fluency and SP-API state-machine correctness, not margin arithmetic.",
+  "category": "ecommerce_marketplace_api_workflow",
+  "state_kind": "http_api_mock_stateful",
+  "difficulty": "hard",
+  "check_strategy": "Verifier reads the final mock state through /__bench/state and /__bench/audit, evaluates the original fine-grained SP-API predicates, then folds them into stable capability checks by pure AND aggregation. Binary reward requires all capability checks to pass.",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "The verifier can read the mock SP-API final state and audit log."
+    },
+    {
+      "id": "patch_channel_completed",
+      "check_type": "deterministic_exact",
+      "description": "Still-valid immediate rows have saved VALID validation-preview responses, final listing prices updated through patchListingsItem to approved target prices, and matching listing patch audit entries."
+    },
+    {
+      "id": "settlement_report_completed",
+      "check_type": "deterministic_exact",
+      "description": "A GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_V2 report was created for ATVPDKIKX0DER, polled to DONE, has a reportDocumentId, and has a matching audit entry."
+    },
+    {
+      "id": "settlement_sample_saved",
+      "check_type": "deterministic_exact",
+      "description": "outputs/settlement_report_sample.tsv contains a readable downloaded settlement report sample."
+    },
+    {
+      "id": "feed_state_machine_completed",
+      "check_type": "deterministic_exact",
+      "description": "A JSON_LISTINGS_FEED was created for ATVPDKIKX0DER, processed to DONE, has a resultFeedDocumentId, and has a matching audit entry."
+    },
+    {
+      "id": "feed_document_uploaded",
+      "check_type": "deterministic_exact",
+      "description": "The feed input document exists, uses application/json, has an upload audit entry, and contains parseable JSON."
+    },
+    {
+      "id": "feed_body_correct",
+      "check_type": "deterministic_exact",
+      "description": "The uploaded JSON feed contains the correct seller header, sequential messages, exactly the still-valid approved FEED-channel rows, correct replacement prices, and no duplicate PATCH-channel rows."
+    },
+    {
+      "id": "invalid_rows_skipped",
+      "check_type": "deterministic_exact",
+      "description": "Stale, non-buyable, and non-US-only approval rows are skipped with the expected reason codes."
+    },
+    {
+      "id": "final_feed_evidence_saved",
+      "check_type": "deterministic_exact",
+      "description": "The downloaded feed processing report is saved, and outputs/feed_submission.json matches the uploaded feed body."
+    }
+  ],
+  "notes": "This replaces the earlier net-margin math version. The agent-visible request now tests SP-API mechanics: endpoint discovery, includedData selection, marketplace scoping, Listings PATCH validation preview and apply semantics, stateful write/retry discipline, report async polling, document download/decompression, feed document upload, createFeed 202 semantics, feed polling, result document retrieval, and exact JSON_LISTINGS_FEED construction. Capacity checks are stable capability groups; per-SKU and per-field details remain inside the verifier's diagnostic atoms."
+}

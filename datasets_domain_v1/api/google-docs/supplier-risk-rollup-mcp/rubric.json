@@ -1,0 +1,68 @@
+{
+  "schema_version": "2.0",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "description": "Q2 supplier risk roll-up via MCP. Agent must read 15 audit docs, apply the prose-described severity/status rubric to determine High+Open findings, correctly handle re-assessments (escalations and resolutions), and produce a summary doc with the exact line format for all 7 qualifying suppliers. Checks are capability units: per-supplier rubric application is graded per-supplier (R3a); plumbing, source integrity, and exclusion restraint each collapse to one check.",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "description": "Environment ready: mock state is readable and a workspace write tool (create_doc / batchUpdate / drive create) was actually used.",
+      "points": 1
+    },
+    {
+      "id": "summary_doc_created",
+      "description": "Exactly one non-trashed doc titled 'Q2 Supplier Risk Roll-Up' exists and contains both required header lines ('Q2 Supplier Risk Roll-Up', 'Prepared: 2026-Q2').",
+      "points": 2
+    },
+    {
+      "id": "supplier_reported::Vantage Metals Ltd.",
+      "description": "Vantage Metals Ltd.: 2 High+Open (RoHS cadmium violation open, calibration gap open). Correct qualify decision, count=2, and semantically-correct top finding.",
+      "points": 3
+    },
+    {
+      "id": "supplier_reported::Shunfa Precision Parts",
+      "description": "Shunfa Precision Parts: 3 High+Open (coolant spill/permit, unapproved subcontract >USD50k, PPE hazard). Correct qualify decision, count=3, and top finding.",
+      "points": 3
+    },
+    {
+      "id": "supplier_reported::EcoPack Solutions",
+      "description": "EcoPack Solutions: 1 High+Open (green-claims misrepresentation, unresolved). Correct qualify decision, count=1, and top finding.",
+      "points": 3
+    },
+    {
+      "id": "supplier_reported::TrueGrain Paper",
+      "description": "TrueGrain Paper: 1 High+Open (COD regulatory exceedance, remediation plan not yet approved). Correct qualify decision, count=1, and top finding.",
+      "points": 3
+    },
+    {
+      "id": "supplier_reported::CrestLink Forging",
+      "description": "CrestLink Forging: 1 High+Open (re-assessment escalation: press pressure anomaly upgraded to worker-safety hazard, still open). Correct qualify decision, count=1, re-assessment top finding.",
+      "points": 3
+    },
+    {
+      "id": "supplier_reported::ArcLight Cables",
+      "description": "ArcLight Cables: 1 High+Open (fire suppression system inoperative in flammable-compound hall, unverified). Correct qualify decision, count=1, and top finding.",
+      "points": 3
+    },
+    {
+      "id": "supplier_reported::OmniFlux Textiles",
+      "description": "OmniFlux Textiles: 1 High+Open (re-assessment reveals undisclosed USD115k subcontract breach, still open). Correct qualify decision, count=1, re-assessment top finding.",
+      "points": 3
+    },
+    {
+      "id": "excluded_suppliers_filtered",
+      "description": "None of the 8 non-qualifying suppliers (resolution / threshold / re-assessment traps: BlueRidge, NexWave, Goldfield, Meridian, SinoPure, HorizonFit, Clearfield, Provenance) appears in the roll-up.",
+      "points": 2
+    },
+    {
+      "id": "source_docs_unchanged",
+      "description": "All 15 source audit docs and the distractor doc are present, not trashed, and byte-identical to the seed (read-only restraint).",
+      "points": 2
+    },
+    {
+      "id": "document_count_correct",
+      "description": "Exactly one new document was created (total non-trashed docs = 17); no workspace pollution.",
+      "points": 1
+    }
+  ]
+}

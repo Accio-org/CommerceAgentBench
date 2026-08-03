@@ -1,0 +1,183 @@
+{
+  "decisions": [
+    {
+      "quarter": "Q2",
+      "slot": "earbuds",
+      "starting_brand": "jbl live",
+      "action": "swap_in:jabra elite",
+      "qoq_growth": -1.0
+    },
+    {
+      "quarter": "Q2",
+      "slot": "drill",
+      "starting_brand": "ryobi",
+      "action": "swap_in:milwaukee",
+      "qoq_growth": -0.2527
+    },
+    {
+      "quarter": "Q2",
+      "slot": "speaker",
+      "starting_brand": "homepod mini",
+      "action": "hold_watch",
+      "qoq_growth": 0.0
+    },
+    {
+      "quarter": "Q3",
+      "slot": "earbuds",
+      "starting_brand": "jabra elite",
+      "action": "swap_in:bose quietcomfort earbuds",
+      "qoq_growth": -1.0
+    },
+    {
+      "quarter": "Q3",
+      "slot": "drill",
+      "starting_brand": "milwaukee",
+      "action": "hold_watch",
+      "qoq_growth": -0.0339
+    },
+    {
+      "quarter": "Q3",
+      "slot": "speaker",
+      "starting_brand": "homepod mini",
+      "action": "hold_watch",
+      "qoq_growth": 0.0
+    },
+    {
+      "quarter": "Q4",
+      "slot": "earbuds",
+      "starting_brand": "bose quietcomfort earbuds",
+      "action": "keep",
+      "qoq_growth": 55.445
+    },
+    {
+      "quarter": "Q4",
+      "slot": "drill",
+      "starting_brand": "milwaukee",
+      "action": "keep",
+      "qoq_growth": 0.8622
+    },
+    {
+      "quarter": "Q4",
+      "slot": "speaker",
+      "starting_brand": "homepod mini",
+      "action": "keep",
+      "qoq_growth": 1353.85
+    }
+  ],
+  "_quarter_start_states_for_task_md": {
+    "Q2": {
+      "earbuds": "jbl live",
+      "drill": "ryobi",
+      "speaker": "homepod mini"
+    },
+    "Q3": {
+      "earbuds": "jabra elite",
+      "drill": "milwaukee",
+      "speaker": "homepod mini"
+    },
+    "Q4": {
+      "earbuds": "bose quietcomfort earbuds",
+      "drill": "milwaukee",
+      "speaker": "homepod mini"
+    }
+  },
+  "_cat_avgs_for_task_md": {
+    "earbuds": {
+      "sony wf-1000xm5": {
+        "Q1": 2.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 25.9231
+      },
+      "bose quietcomfort earbuds": {
+        "Q1": 2.3077,
+        "Q2": 0.0,
+        "Q3": 0.6923,
+        "Q4": 39.0769
+      },
+      "jabra elite": {
+        "Q1": 1.0,
+        "Q2": 0.8462,
+        "Q3": 0.0,
+        "Q4": 13.6923
+      },
+      "jbl live": {
+        "Q1": 0.7692,
+        "Q2": 0.0,
+        "Q3": 0.6154,
+        "Q4": 19.8462
+      },
+      "beats studio buds": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.6154,
+        "Q4": 10.6154
+      }
+    },
+    "drill": {
+      "dewalt": {
+        "Q1": 25.6923,
+        "Q2": 22.1538,
+        "Q3": 21.5385,
+        "Q4": 50.8462
+      },
+      "milwaukee": {
+        "Q1": 32.3846,
+        "Q2": 31.7692,
+        "Q3": 30.6923,
+        "Q4": 57.1538
+      },
+      "makita": {
+        "Q1": 9.0,
+        "Q2": 5.2308,
+        "Q3": 4.5385,
+        "Q4": 12.0769
+      },
+      "ryobi": {
+        "Q1": 14.3077,
+        "Q2": 10.6923,
+        "Q3": 8.8462,
+        "Q4": 26.5385
+      },
+      "bosch": {
+        "Q1": 37.3846,
+        "Q2": 17.5385,
+        "Q3": 10.6154,
+        "Q4": 40.9231
+      }
+    },
+    "speaker": {
+      "echo dot": {
+        "Q1": 5.8462,
+        "Q2": 4.6923,
+        "Q3": 13.4615,
+        "Q4": 42.6923
+      },
+      "google nest mini": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 1.4615,
+        "Q4": 10.5385
+      },
+      "sonos era": {
+        "Q1": 3.5385,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 28.1538
+      },
+      "homepod mini": {
+        "Q1": 0.0,
+        "Q2": 0.0,
+        "Q3": 0.0,
+        "Q4": 13.5385
+      },
+      "bose soundlink": {
+        "Q1": 5.6923,
+        "Q2": 4.6154,
+        "Q3": 3.1538,
+        "Q4": 40.7692
+      }
+    }
+  },
+  "task_id": "trends-counterfactual-rebalance"
+}

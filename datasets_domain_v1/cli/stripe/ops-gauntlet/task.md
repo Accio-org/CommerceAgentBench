@@ -1,0 +1,1 @@
+We're kicking off the payment integration sprint next Monday. The QA setup spec is in `workspace/` — spin everything up in Stripe so the team can start writing test cases first thing. Drop a summary in `outputs/setup_summary.json` when you're done.

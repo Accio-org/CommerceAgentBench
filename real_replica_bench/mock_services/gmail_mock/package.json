@@ -1,0 +1,11 @@
+{
+  "name": "gmail-mock",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gmail-style mock (Web UI + Workspace/MCP tool surface) backed by bun:sqlite. Captured from the 2026-05-28 website mock pipeline workflow; data is authored as JSON under seeds/ and loaded into a per-run SQLite DB at startup.",
+  "scripts": {
+    "start": "bun server.js",
+    "workspace:tools": "node workspace_cli.mjs tools",
+    "workspace:call": "node workspace_cli.mjs call"
+  }
+}

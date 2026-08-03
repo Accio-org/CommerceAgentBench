@@ -1,0 +1,25 @@
+[
+  {"_comment": "=== CUSTOMERS: 5 (4 in-scope via union of anomaly states, 1 healthy out of scope) ==="},
+  {"_comment": "Tier signal lives in description text (Tier A | Tier B | Tier C); owner name follows 'renewal lead'."},
+  {"resource": "customers", "params": {"name": "Acme Solar", "email": "billing@acme-solar.com", "description": "Tier A account; renewal lead Iris Wang"}},
+  {"resource": "customers", "params": {"name": "BluePeak Energy", "email": "ap@bluepeak.com", "description": "Tier A account; renewal lead Mei Chen"}},
+  {"resource": "customers", "params": {"name": "ChargeFast Inc", "email": "billing@chargefast.io", "description": "Tier B account; renewal lead Lina Gomez"}},
+  {"resource": "customers", "params": {"name": "DeltaWatt Logistics", "email": "ops@deltawatt.com", "description": "Tier B account; renewal lead Ana Costa"}},
+  {"resource": "customers", "params": {"name": "EverGreen Mobility", "email": "finance@evergreen-mobility.com", "description": "Tier C account; renewal lead Mei Chen"}},
+
+  {"_comment": "=== SUBSCRIPTIONS: 4 in-scope + 1 healthy out of scope ==="},
+  {"_comment": "S0 Acme: past_due (Tier A -> High)"},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:0", "status": "past_due", "collection_method": "charge_automatically", "description": "Acme Solar - monthly Pro"}},
+
+  {"_comment": "S1 BluePeak: past_due (Tier A -> High)"},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:1", "status": "past_due", "collection_method": "charge_automatically", "description": "BluePeak Energy - monthly Pro"}},
+
+  {"_comment": "S2 ChargeFast: active + cancel_at_period_end (Tier B -> Medium)"},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:2", "status": "active", "cancel_at_period_end": true, "collection_method": "charge_automatically", "description": "ChargeFast Inc - monthly Pro"}},
+
+  {"_comment": "S3 DeltaWatt: trialing + trial_end soon (Tier B -> Medium). trial_end set far in past to guarantee 'within 7 days' window is unambiguous; verifier uses status==trialing alone for inclusion."},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:3", "status": "trialing", "trial_end": 1781000000, "collection_method": "charge_automatically", "description": "DeltaWatt Logistics - monthly Pro trial"}},
+
+  {"_comment": "S4 EverGreen: healthy active (OUT OF SCOPE)"},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:4", "status": "active", "collection_method": "charge_automatically", "description": "EverGreen Mobility - monthly Basic"}}
+]

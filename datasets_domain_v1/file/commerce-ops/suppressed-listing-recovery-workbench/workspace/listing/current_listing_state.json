@@ -1,0 +1,45 @@
+{
+  "asin": "B0HYDRA750",
+  "sku": "TRAIL-750-BLK",
+  "status": "suppressed",
+  "suppression_reasons": [
+    {
+      "field": "title",
+      "code": "PROHIBITED_PROMO"
+    },
+    {
+      "field": "bullet_2",
+      "code": "UNSUPPORTED_PERFORMANCE"
+    },
+    {
+      "field": "bullet_5",
+      "code": "RESTRICTED_SAFETY_CLAIM"
+    },
+    {
+      "field": "images",
+      "code": "IMAGE_TEXT_PROMO"
+    },
+    {
+      "field": "search_terms",
+      "code": "COMPETITOR_BRAND_TERM"
+    },
+    {
+      "field": "bullet_4",
+      "code": "DISHWASHER_SCOPE_CONFLICT"
+    },
+    {
+      "field": "description",
+      "code": "ENVIRONMENTAL_CLAIM_UNSUPPORTED"
+    }
+  ],
+  "editable_fields": {
+    "title": "HydraPeak Trail 750ml Eco-Friendly BPA-Free Bottle - 24H Hot or Cold, Best Seller, Free 2-Day Delivery",
+    "bullet_1": "LFGB certified food-contact 304 stainless steel body.",
+    "bullet_2": "Keeps beverages hot or cold for 24 hours.",
+    "bullet_3": "Leak-proof LoopCap v2 means spills never happen.",
+    "bullet_4": "Dishwasher safe bottle and lid.",
+    "bullet_5": "Non-toxic and safe for kids.",
+    "description": "Eco-friendly zero-waste hydration bottle for school, hiking and premium-brand replacement.",
+    "search_terms": "stanley alternative yeti dupe best seller free shipping kids safe non-toxic bottle"
+  }
+}

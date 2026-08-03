@@ -1,0 +1,8 @@
+{
+  "store": "i415x6-zf.myshopify.com",
+  "development_theme_id": null,
+  "cli_version": "4.1.0",
+  "os": "darwin-arm64",
+  "shell": "/bin/zsh",
+  "node_version": "v22.16.0"
+}

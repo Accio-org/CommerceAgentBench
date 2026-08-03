@@ -1,0 +1,14 @@
+{
+  "name": "stripe-cli-mock",
+  "version": "0.1.0",
+  "description": "Stripe CLI mock — shadows stripe/stripe-cli v1.42.1 for agent benchmarking",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "stripe": "./bin/stripe",
+    "stripe-bench": "./bin/stripe-bench"
+  },
+  "scripts": {
+    "smoke": "bash smoke_test.sh"
+  }
+}

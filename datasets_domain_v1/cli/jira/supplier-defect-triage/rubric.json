@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-jira-supplier-defect-triage",
+  "summary": "Triage a 35-issue supplier-quality Jira backlog through the Jira CLI. The agent must read issue JSON/descriptions, edit priority/component/assignee fields, create exactly one directed Duplicates link for each duplicate pair, transition only duplicate issues to Done through the legal workflow, and place the Cycle 7 label exactly on the committed set. No report file is graded; the live Jira mock state is the sole deliverable.",
+  "category": "sourcing_supplier_quality",
+  "state_kind": "cli_mock_stateful",
+  "difficulty": "hard",
+  "check_strategy": "private/expected_answer.json drives deterministic checks; the verifier reads live jira_cli issues and issue_links over MOCK_SITE_URL/__bench/state. Binary pass requires all checks. Checks follow docs/check-granularity.md: plumbing folds into one setup_gate; same-skill trivia batches (priority/component/assignee/distractors) each collapse to one capability check (validated per-item internally, failures listed in reason); duplicate handling is KEPT per-pair because dedup completeness is the task's core graded competency.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "Jira bench state is reachable and non-empty (plumbing gate)."},
+    {"id": "priority_correct", "check_type": "deterministic_exact", "description": "All scored issues have the correct priority from the policy matrix and regulatory override (collapsed batch)."},
+    {"id": "component_correct", "check_type": "deterministic_exact", "description": "All scored issues have the correct component inferred from the defect narrative (collapsed batch)."},
+    {"id": "assignee_correct", "check_type": "deterministic_exact", "description": "All scored issues are assigned to the component owner (collapsed batch)."},
+    {"id": "duplicate_handled::<duplicate>", "check_type": "deterministic_exact", "description": "Per duplicate pair (8 total): exactly one directed Duplicates link from the duplicate to its canonical AND the duplicate transitioned to Done. Kept per-pair (graded dedup completeness)."},
+    {"id": "duplicate_set_integrity", "check_type": "deterministic_exact", "description": "Precision guard: no reversed/missing/extra Duplicates links; exactly the duplicate issues are closed; canonical issues stay open."},
+    {"id": "distractors_untouched", "check_type": "deterministic_exact", "description": "Near-duplicate distractor issues carry no Duplicates link and remain open (collapsed negative batch)."},
+    {"id": "cycle_label_correct", "check_type": "deterministic_exact", "description": "The Cycle 7 label appears exactly on the capacity/blocker-correct committed set (triage_policy.md §5) and nowhere else among the triage batch."}
+  ],
+  "notes": "Total checks = 15: setup_gate + priority_correct + component_correct + assignee_correct + 8x duplicate_handled::<dup> + duplicate_set_integrity + distractors_untouched + cycle_label_correct. Restructured 2026-06-08 from the previous 72-check per-item layout (pure aggregation, no validation loosened) per docs/check-granularity.md. capacity now reflects distinct capability units; dedup completeness stays per-pair as the graded core."
+}

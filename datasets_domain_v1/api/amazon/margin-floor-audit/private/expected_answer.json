@@ -1,0 +1,40 @@
+{
+  "seller_id": "A2BENCH00001",
+  "marketplace_id": "ATVPDKIKX0DER",
+  "report_type": "GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_V2",
+  "feed_type": "JSON_LISTINGS_FEED",
+  "feed_content_type": "application/json",
+  "patch_updates": [
+    {
+      "sku": "AXL-2614-4PT",
+      "new_price": 26.19
+    },
+    {
+      "sku": "NMB-7202-45W",
+      "new_price": 35.79
+    }
+  ],
+  "feed_updates": [
+    {
+      "sku": "HUB-8580-7PT",
+      "new_price": 34.49
+    },
+    {
+      "sku": "VTX-1270-MINI",
+      "new_price": 28.49
+    },
+    {
+      "sku": "VTX-6212-NVY",
+      "new_price": 20.29
+    },
+    {
+      "sku": "ZPH-8176-XL",
+      "new_price": 18.59
+    }
+  ],
+  "skipped_updates": {
+    "GRP-2897-V2": "stale",
+    "KLP-3296-BLK": "not_buyable",
+    "RGN-5470-MINI": "not_in_us"
+  }
+}

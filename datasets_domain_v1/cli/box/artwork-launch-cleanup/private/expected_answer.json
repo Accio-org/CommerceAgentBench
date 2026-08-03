@@ -1,0 +1,69 @@
+{
+  "legal_reviewer_login": "priya.nair@northbridge.example.com",
+  "task_due_at": "2026-06-12T17:00:00Z",
+  "all_file_ids": [
+    "30001",
+    "30002",
+    "30003",
+    "30004",
+    "30005",
+    "30006",
+    "30007",
+    "30008",
+    "30009",
+    "30010",
+    "30011",
+    "30012"
+  ],
+  "expected_parents": {
+    "30001": "20021",
+    "30002": "20031",
+    "30003": "20021",
+    "30004": "20022",
+    "30005": "20032",
+    "30006": "20032",
+    "30007": "20023",
+    "30008": "20033",
+    "30009": "20023",
+    "30010": "20041",
+    "30011": "20041",
+    "30012": "20010"
+  },
+  "ready_files": {
+    "30001": "NB-CHG-18",
+    "30003": "NB-CHG-18",
+    "30004": "NB-CSE-22",
+    "30007": "NB-DCK-31",
+    "30009": "NB-DCK-31"
+  },
+  "legal_files": {
+    "30002": {
+      "sku": "NB-CHG-18",
+      "codes": ["UNSUPPORTED-SAFETY"]
+    },
+    "30005": {
+      "sku": "NB-CSE-22",
+      "codes": ["MATERIAL-CLAIM-MISSING"]
+    },
+    "30006": {
+      "sku": "NB-CSE-22",
+      "codes": ["LOCALE-UNAPPROVED"]
+    },
+    "30008": {
+      "sku": "NB-DCK-31",
+      "codes": ["PERFORMANCE-CLAIM-MISMATCH"]
+    }
+  },
+  "archive_files": ["30010", "30011"],
+  "reference_files": ["30012"],
+  "launch_folders": {
+    "NB-CHG-18": "20021",
+    "NB-CSE-22": "20022",
+    "NB-DCK-31": "20023"
+  },
+  "review_folders": {
+    "NB-CHG-18": "20031",
+    "NB-CSE-22": "20032",
+    "NB-DCK-31": "20033"
+  }
+}

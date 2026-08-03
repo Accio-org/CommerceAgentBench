@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+set -euo pipefail
+: "${CCB_MOCK_SERVICES_ROOT:=/opt/mock_services}"
+
+WORKDIR=""
+PRIVATE_DIR=""
+PORT="${PORT:-3081}"
+TOKEN="${MOCK_VERIFIER_TOKEN:-bench-verifier}"
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --workdir)
+      WORKDIR="$2"; shift 2 ;;
+    --private-dir)
+      PRIVATE_DIR="$2"; shift 2 ;;
+    --port)
+      PORT="$2"; shift 2 ;;
+    --token)
+      TOKEN="$2"; shift 2 ;;
+    *)
+      echo "unknown option: $1" >&2; exit 2 ;;
+  esac
+done
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SERVICE_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+STATE_DIR="${GWS_MOCK_STATE_DIR:-/var/lib/mocksvc/google_workspace_cli}"
+GWS_CLIENT="$SERVICE_ROOT/bin/gws"
+GWS_BENCH="$SERVICE_ROOT/bin/gws-bench"
+HEALTH_URL="http://127.0.0.1:${PORT}/health"
+
+mkdir -p "$STATE_DIR" "$WORKDIR/tmp"
+chmod 0700 "$STATE_DIR" 2>/dev/null || true
+DAEMON_LOG_FILE="$WORKDIR/tmp/google_workspace_cli_daemon.log"
+PID_FILE="$WORKDIR/tmp/google_workspace_cli_daemon.pid"
+
+[[ -x "$GWS_CLIENT" ]] || { echo "gws client missing at $GWS_CLIENT" >&2; exit 2; }
+[[ -x "$GWS_BENCH" ]] || { echo "gws-bench missing at $GWS_BENCH" >&2; exit 2; }
+[[ -f "$CCB_MOCK_SERVICES_ROOT/cli_daemon/server.mjs" ]] || { echo "cli daemon missing at $CCB_MOCK_SERVICES_ROOT/cli_daemon/server.mjs" >&2; exit 2; }
+command -v bun >/dev/null 2>&1 || { echo "bun not found in container" >&2; exit 2; }
+
+export PORT="$PORT"
+export MOCK_VERIFIER_TOKEN="$TOKEN"
+export CCB_INTERNAL_BENCH_TOKEN="$TOKEN"
+export CCB_CLI_MOCK_NAME="google_workspace_cli"
+export CCB_CLI_TARGET_BIN="$GWS_CLIENT"
+export CCB_CLI_BENCH_BIN="$GWS_BENCH"
+export CCB_CLI_BENCH_TOKEN_MODE="env"
+export CCB_CLI_BENCH_PATHS_JSON='{"/__bench/state":"state","/__bench/audit":"audit","/api/state":"state","/api/audit":"audit"}'
+export CCB_CLI_STATE_ENV_JSON="{\"GWS_MOCK_HOME\":\"$STATE_DIR\"}"
+
+nohup bun "$CCB_MOCK_SERVICES_ROOT/cli_daemon/server.mjs" >"$DAEMON_LOG_FILE" 2>&1 &
+echo "$!" > "$PID_FILE"
+[[ -f "$WORKDIR/tmp/mock_service_pids" ]] || : > "$WORKDIR/tmp/mock_service_pids"
+cat "$PID_FILE" >> "$WORKDIR/tmp/mock_service_pids"
+
+probe() {
+  python3 - "$1" <<'PY' >/dev/null 2>&1
+import sys, urllib.request
+urllib.request.urlopen(sys.argv[1], timeout=2).read()
+PY
+}
+
+ready=0
+for _ in $(seq 1 60); do
+  if probe "$HEALTH_URL"; then ready=1; break; fi
+  sleep 0.5
+done
+if [[ "$ready" != "1" ]]; then
+  echo "google_workspace_cli daemon failed; tail of $DAEMON_LOG_FILE:" >&2
+  tail -n 80 "$DAEMON_LOG_FILE" >&2 || true
+  exit 1
+fi
+
+echo "google_workspace_cli daemon ready on :$PORT"

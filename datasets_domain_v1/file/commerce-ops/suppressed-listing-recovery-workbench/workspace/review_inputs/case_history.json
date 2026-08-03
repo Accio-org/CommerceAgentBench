@@ -1,0 +1,23 @@
+{
+  "asin": "B0HYDRA750",
+  "events": [
+    {
+      "date": "2026-05-18",
+      "actor": "catalog_ops",
+      "event": "title promo terms removed once",
+      "result": "suppression persisted due bullet/image issues"
+    },
+    {
+      "date": "2026-05-20",
+      "actor": "creative",
+      "event": "uploaded launch-discount image",
+      "result": "new image suppression added"
+    },
+    {
+      "date": "2026-05-22",
+      "actor": "search_ops",
+      "event": "backend terms expanded with competitor brands",
+      "result": "search_terms warning"
+    }
+  ]
+}

@@ -1,0 +1,995 @@
+{
+  "_meta": {
+    "engine": "amazon_product",
+    "asin": "B0FMRPKN3G",
+    "fetched_at": 1779458280
+  },
+  "payload": {
+    "search_metadata": {
+      "id": "6a1060de5c26224a75cf8591",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/ISVX14Cyn0gYckJMMeXGsA/6a1060de5c26224a75cf8591.json",
+      "created_at": "2026-05-22 13:57:50 UTC",
+      "processed_at": "2026-05-22 13:57:50 UTC",
+      "amazon_product_url": "https://www.amazon.com/dp/B0FMRPKN3G/?",
+      "raw_html_file": "https://serpapi.com/searches/ISVX14Cyn0gYckJMMeXGsA/6a1060de5c26224a75cf8591.html",
+      "total_time_taken": 6.77
+    },
+    "search_parameters": {
+      "engine": "amazon_product",
+      "asin": "B0FMRPKN3G",
+      "amazon_domain": "amazon.com",
+      "device": "desktop"
+    },
+    "product_results": {
+      "asin": "B0FMRPKN3G",
+      "title": "Baseus Inspire XC1 Open Ear Clip-On Earbuds, Sound by Bose, Dolby Audio, Adaptive Tunning Sound, Hybrid 2-Way Driver, Zero-Sense Air Cushion, 4-Mic Adaptive Clear Calls, IP66 Waterproof, 40H Playtime",
+      "link": "https://www.amazon.com/Baseus-Inspire-XC1-Zero-Sense-Waterproof/dp/B0FMRPKN3G/",
+      "link_clean": "https://www.amazon.com/dp/B0FMRPKN3G/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FMRPKN3G&device=desktop&engine=amazon_product",
+      "variants": [
+        {
+          "title": "Color",
+          "items": [
+            {
+              "position": 1,
+              "asin": "B0FMRPKN3G",
+              "name": "Cosmic Black",
+              "image": "https://m.media-amazon.com/images/I/31rWGQrJ3uL._SS64_.jpg",
+              "selected": true,
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FMRPKN3G&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 2,
+              "asin": "B0FMRP142L",
+              "name": "Starlight Off-White",
+              "image": "https://m.media-amazon.com/images/I/21hlzQ4JHjL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FMRP142L&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 3,
+              "asin": "B0GV3X89P4",
+              "name": "Titanium",
+              "image": "https://m.media-amazon.com/images/I/31uCrsHG-LL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GV3X89P4&device=desktop&engine=amazon_product"
+            }
+          ]
+        }
+      ],
+      "brand": "Visit the Baseus Store",
+      "thumbnail": "https://m.media-amazon.com/images/I/51rf8EwzQhL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "thumbnails": [
+        "https://m.media-amazon.com/images/I/51rf8EwzQhL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71+AkoJ+bzL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61t1WtEImaL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71fVhYU5lwL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71fEn0-lOOL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61cAW4O3vuL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61yQNQRI31L._AC_SL1500_.jpg"
+      ],
+      "rating": 4.3,
+      "reviews": 901,
+      "bought_last_month": "1K+ bought in past month",
+      "discount": "-15%",
+      "price": "$109.99",
+      "extracted_price": 109.99,
+      "old_price": "$129.99",
+      "extracted_old_price": 129.99,
+      "offers": [
+        "Free bonus item"
+      ],
+      "delivery": [
+        "FREE delivery Wednesday, May 27",
+        "Or Prime members get FREE delivery Tomorrow, May 23. Order within 1 hr 17 mins. Join Prime"
+      ],
+      "stock": "In Stock"
+    },
+    "purchase_options": {
+      "single_offer": {
+        "price": "$109.99",
+        "extracted_price": 109.99,
+        "delivery": [
+          "FREE delivery Wednesday, May 27",
+          "Or Prime members get FREE delivery Tomorrow, May 23. Order within 1 hr 17 mins. Join Prime"
+        ],
+        "stock": "In Stock",
+        "features": {
+          "ships_from": {
+            "text": "Amazon",
+            "details": {
+              "heading": "Ships from",
+              "content": "Amazon"
+            }
+          },
+          "sold_by": {
+            "text": "Baseus Brand Store",
+            "details": {
+              "heading": "Sold by",
+              "content": "Baseus Brand Store"
+            },
+            "link": {
+              "text": "Baseus Brand Store",
+              "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1RS007LH1WSHI&asin=B0FMRPKN3G&ref_=dp_merchant_link&isAmazonFulfilled=1"
+            }
+          },
+          "returns": {
+            "text": "FREE 30-day refund/replacement",
+            "details": {
+              "heading": "FREE 30-day refund/replacement"
+            },
+            "link": {
+              "text": "See exceptions",
+              "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+            }
+          },
+          "support": {
+            "text": "Product support included",
+            "details": {
+              "heading": "What's Product Support?",
+              "content": "In the event your product doesn't work as expected or you need help using it, Amazon offers free product support options such as live phone/chat with an Amazon associate, manufacturer contact information, step-by-step troubleshooting guides, and help videos. By solving product issues, we help the planet by extending the life of products. Availability of support options differ by product and country. Learn more"
+            },
+            "link": {
+              "text": "Learn more",
+              "link": "https://www.amazon.com/ps/product-support?ref_=dp_pls_support&ref_=dp_ret_policy"
+            }
+          }
+        }
+      }
+    },
+    "protection_plan": [
+      {
+        "position": 1,
+        "asin": "B0CG6QXLFV",
+        "link": "https://www.amazon.com/dp/B0CG6QXLFV/",
+        "title": "2-Year Protection Plan",
+        "price": "$20.99",
+        "extracted_price": 20.99
+      },
+      {
+        "position": 2,
+        "asin": "B0CG6QXRZG",
+        "link": "https://www.amazon.com/dp/B0CG6QXRZG/",
+        "title": "3-Year Protection Plan",
+        "price": "$28.99",
+        "extracted_price": 28.99
+      },
+      {
+        "position": 3,
+        "asin": "B07RZ3LSHM",
+        "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+        "title": "Complete Protect: One plan covers all eligible past and future purchases (Best Value)",
+        "price": "$16.99/month",
+        "extracted_price": 16.99
+      }
+    ],
+    "item_specifications": {
+      "brand": "Baseus",
+      "color": "Cosmic Black",
+      "ear_placement": "Open Ear",
+      "form_factor": "Open Ear",
+      "noise_control": "None"
+    },
+    "about_item": [
+      "Sound by Bose: Possibly the finest open ear earbuds you’ve experienced—featuring Sound by Bose for signature premium sound. Bose's legendary audio engineers have fine-tuned the sound performance through hundreds of acoustic tests to ensure stunning details, depth, and clarity in every note. Plus, Dolby Spatial Audio for immersive 360° listening. Hi-Res Wireless and LDAC for detail-rich clarity.",
+      "Hybrid 2-Way Sound Engine: Digital processing and active crossovers combine a dynamic woofer for punchy bass and an exclusive Knowles balanced armature tweeter for sparkling highs. Tuned with Baseus's adaptive SuperBass 3.0 and SuperBalance 3.0 technologies, Inspire XC1 open ear clip-on earbuds deliver full-range, high-fidelity sound—just as the artist intended.",
+      "Zero-Sense Air Cushions: Designed for all-day wear, Inspire XC1 open ear clip-on earbuds provide a curved, adaptive fit, with zero-sense air cushions, flexible ring joints (tested to 10,000 bends), and non-irritating, soft liquid silicone. Lightweight and breathable—ideal for running, workouts, or daily use—without ear fatigue or discomfort.",
+      "4-Mic AI Clear Calls: Enjoy seamless, crystal-clear calls on the move. A 4-mic array with AI voice pickup and wind-noise reduction keeps you clearly heard—even through traffic, crowds, or cycling at speeds up to 5m/s.",
+      "Long-Lasting Battery Life: Get up to 8 hours per charge, 40 hours with the case. A quick 10-minute charge gives 2.5 hours of playtime—your Inspire XC1 open ear headphones Bluetooth stay ready from morning to midnight.",
+      "IP66 Waterproof: Built tough for rain, sweat, dust, and splashes. Inspire XC1 clip on wireless ear buds are IP66-rated, making them ideal for workouts, outdoor sports, or everyday use—no matter the weather.",
+      "To ensure you enjoy the complete and optimal performance of the product, please update your earphone firmware to the latest version V1.1.04 or above. Update path: Baseus App > Inspire XC1 > Settings > Version."
+    ],
+    "bought_together": [
+      {
+        "position": 1,
+        "title": "Baseus Inspire XC1 Open Ear Clip-On Earbuds, Sound by Bose, Dolby Audio, Adaptive Tunning Sound, Hybrid 2-Way Driver, Zero-Sense Air Cushion, 4-Mic Adaptive Clear Calls, IP66 Waterproof, 40H Playtime",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51rf8EwzQhL._AC_UL116_SR116,116_.jpg",
+        "price": "$109.99",
+        "extracted_price": 109.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ],
+        "stock": "In Stock"
+      },
+      {
+        "position": 2,
+        "title": "Baseus Bass BC1 Open Ear Earbuds Clip-On Headphones, Open-Ring Comfort with Tri-Curve Snug Clip, Powerful Sound with SuperBass, 4-Mic Clear Calls, IP55 Waterproof, 38H Playtime, Lightweight",
+        "link": "https://www.amazon.com/Baseus-Bass-BC1-Headphones-Lightweight/dp/B0FQP8J43L/ref=pd_bxgy_thbs_d_sccl_1/136-1949898-9974834?pd_rd_w=kTdhf&content-id=amzn1.sym.9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_p=9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73&pd_rd_i=B0FQP8J43L&psc=1",
+        "asin": "B0FQP8J43L",
+        "link_clean": "https://www.amazon.com/Baseus-Bass-BC1-Headphones-Lightweight/dp/B0FQP8J43L/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FQP8J43L&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/41kKN7nKdaL._AC_UL116_SR116,116_.jpg",
+        "price": "$19.99",
+        "extracted_price": 19.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ],
+        "stock": "In Stock"
+      }
+    ],
+    "related_products": [
+      {
+        "position": 1,
+        "title": "Baseus Bass BC1 Open Ear Earbuds Clip-On Headphones, Open-Ring Comfort with Tri-Curve Snug Clip, Powerful Sound with SuperBas",
+        "link": "https://www.amazon.com/Baseus-Bass-BC1-Headphones-Lightweight/dp/B0FQP8J43L/ref=pd_sbs_d_sccl_1_1/136-1949898-9974834?pd_rd_w=2NeUj&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73&pd_rd_i=B0FQP8J43L&psc=1",
+        "asin": "B0FQP8J43L",
+        "link_clean": "https://www.amazon.com/Baseus-Bass-BC1-Headphones-Lightweight/dp/B0FQP8J43L/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FQP8J43L&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/41kKN7nKdaL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.2,
+        "reviews": 586,
+        "price": "$19.99",
+        "extracted_price": 19.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ]
+      },
+      {
+        "position": 2,
+        "title": "Baseus Bowie MC1 Pro Open Ear Clip-On Headphones, Hi-Res LDAC & HiFi4 Acoustic Sound, 5g Ultra-Lightweight Comfort, SuperBass",
+        "link": "https://www.amazon.com/Baseus-Bowie-MC1-Pro-Ultra-Lightweight/dp/B0F8BSD87S/ref=pd_sbs_d_sccl_1_2/136-1949898-9974834?pd_rd_w=2NeUj&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73&pd_rd_i=B0F8BSD87S&psc=1",
+        "asin": "B0F8BSD87S",
+        "link_clean": "https://www.amazon.com/Baseus-Bowie-MC1-Pro-Ultra-Lightweight/dp/B0F8BSD87S/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8BSD87S&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51LDfbYpFcL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.2,
+        "reviews": 541,
+        "price": "$49.99",
+        "extracted_price": 49.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ]
+      },
+      {
+        "position": 3,
+        "title": "Soundcore C50i by Anker Open Ear Earbuds, Clip-On Headphones Over Ear for Running Workout, 12mm Drivers Powerful Bass, IP55 W",
+        "link": "https://www.amazon.com/Soundcore-Headphones-Waterproof-Bluetooth-FlexiClip/dp/B0FKSV2GW2/ref=pd_sbs_d_sccl_1_3/136-1949898-9974834?pd_rd_w=2NeUj&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73&pd_rd_i=B0FKSV2GW2&psc=1",
+        "asin": "B0FKSV2GW2",
+        "link_clean": "https://www.amazon.com/Soundcore-Headphones-Waterproof-Bluetooth-FlexiClip/dp/B0FKSV2GW2/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FKSV2GW2&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61R-NgdII1L._AC_UL165_SR165,165_.jpg",
+        "rating": 4.4,
+        "reviews": 1117,
+        "price": "$39.99",
+        "extracted_price": 39.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ]
+      },
+      {
+        "position": 4,
+        "title": "SHOKZ OpenDots ONE-Open-Ear Headphones, Clip-On Earbuds-Wireless Bluetooth Earbuds with Microphone-Secure, Lightweight, Comfo",
+        "link": "https://www.amazon.com/SHOKZ-Earbuds-Wireless-Microphone-Secure-Comfort-Premium-Resistant-Fast/dp/B0DWF69VGQ/ref=pd_sbs_d_sccl_1_4/136-1949898-9974834?pd_rd_w=2NeUj&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73&pd_rd_i=B0DWF69VGQ&psc=1",
+        "asin": "B0DWF69VGQ",
+        "link_clean": "https://www.amazon.com/SHOKZ-Earbuds-Wireless-Microphone-Secure-Comfort-Premium-Resistant-Fast/dp/B0DWF69VGQ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DWF69VGQ&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61m60osQaAL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.4,
+        "reviews": 2268,
+        "price": "$199.95",
+        "extracted_price": 199.95,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ]
+      },
+      {
+        "position": 5,
+        "title": "Baseus Bowie MC1 Open Ear Clip-On Earbuds, Adaptive Comfort with Anti-Drop Design, Impactful Sound with Adaptive Bass Boost,",
+        "link": "https://www.amazon.com/Baseus-Bowie-MC1-Cancelling-Lightweight/dp/B0DQQ2YJ8N/ref=pd_sbs_d_sccl_1_5/136-1949898-9974834?pd_rd_w=2NeUj&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73&pd_rd_i=B0DQQ2YJ8N&psc=1",
+        "asin": "B0DQQ2YJ8N",
+        "link_clean": "https://www.amazon.com/Baseus-Bowie-MC1-Cancelling-Lightweight/dp/B0DQQ2YJ8N/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DQQ2YJ8N&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61Kw4m9W9AL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.2,
+        "reviews": 1475,
+        "price": "$39.99",
+        "extracted_price": 39.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ]
+      },
+      {
+        "position": 6,
+        "title": "Soundcore AeroClip by Anker, Open-Ear Earbuds, Clip-On Headphones, Adaptive Comfort, Clear Calls with 4 Mics and AI, Stable F",
+        "link": "https://www.amazon.com/Soundcore-AeroClip-Open-Ear-Headphones-Open-Ring/dp/B0DLGCHL8M/ref=pd_sbs_d_sccl_1_6/136-1949898-9974834?pd_rd_w=2NeUj&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73&pd_rd_i=B0DLGCHL8M&psc=1",
+        "asin": "B0DLGCHL8M",
+        "link_clean": "https://www.amazon.com/Soundcore-AeroClip-Open-Ear-Headphones-Open-Ring/dp/B0DLGCHL8M/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DLGCHL8M&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51WLz4dDeOL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.4,
+        "reviews": 2480,
+        "discount": "35% off",
+        "price": "$109.99",
+        "extracted_price": 109.99,
+        "price_unit": "List: $169.99",
+        "extracted_price_unit": 169.99,
+        "old_price": "$169.99",
+        "extracted_old_price": 169.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ]
+      }
+    ],
+    "sustainability_features": {
+      "summary": "This product has sustainability features recognized by trusted certifications.",
+      "climate_pledge_friendly": true,
+      "learn_more_link": "https://www.amazon.com/climatepledgefriendly",
+      "features": [
+        {
+          "position": 1,
+          "title": "Carbon impact",
+          "text": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+          "certified_by": [
+            {
+              "name": "ClimatePartner certified",
+              "logo": "https://m.media-amazon.com/images/I/117Gv10-Q1L._SS144_.png",
+              "description": "The ClimatePartner certified product label confirms that a product meets the requirements for the five steps in climate action including calculating carbon footprints, setting reduction targets, implementing reductions, financing climate projects and communicating transparently to continuously reducing emissions.",
+              "link": "https://www.climatepartner.com/en"
+            }
+          ]
+        }
+      ]
+    },
+    "videos": [
+      {
+        "position": 1,
+        "title": "Earfun Clip Review - Earbuds That Don't Hurt Your Ears",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/97c7749e-a7ff-42eb-94bb-31826d41876a/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/41iD-Y3eizL.jpg",
+        "duration": "1:03",
+        "vendor": "Blue Ivy",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/71EO-KvRLoL._CR0,0,1620,1620_._FMjpg_._SL34_.jpg",
+        "date": "Dec 8, 2025"
+      },
+      {
+        "position": 2,
+        "title": "WOW! Baseus Inspire XC1 (VS The Best Clip On Earbuds)",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/987a998d-dcbc-4ec6-a080-608476c5f568/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/91HHNwKGzjL.png",
+        "duration": "13:50",
+        "vendor": "Picky Audio",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/61UnjWAykML._CR0,0,730,730_._FMjpg_._SL34_.jpg",
+        "date": "Sep 30, 2025"
+      },
+      {
+        "position": 3,
+        "title": "Baseus InspireXH1 Headphones and XC1 Earbuds",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7324b1e3-2b52-4845-8c04-b3d6f0939b4e/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A1cUDsXGTlL.png",
+        "duration": "9:56",
+        "vendor": "Mathew Ignash",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/51GftqtFj7L._CR0,0,600,600_._FMjpg_._SL34_.jpg",
+        "date": "Nov 27, 2025"
+      },
+      {
+        "position": 4,
+        "title": "Baseus XC1 Clip on Earbuds With Sound By Bose!",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bd6e7401-9634-4a09-b16c-75d399f1d9a5/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A1uP4jDy0fL.png",
+        "duration": "1:10",
+        "vendor": "CEONTHEMAKING",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A1NyqgyW1UL._CR0,137,1536,1536_._FMjpg_._SL34_.jpg",
+        "date": "Sep 25, 2025"
+      },
+      {
+        "position": 5,
+        "title": "The details you actually need to know. Quick review on this open ear set.",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/13902931-b09a-4a36-a111-f39dadfc4383/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A1Ug2JG1G6L.jpg",
+        "duration": "1:15",
+        "vendor": "Sonja",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/61aGWP1MphL._CR0,0,630,630_._FMjpg_._SL34_.jpg",
+        "date": "Nov 16, 2025"
+      },
+      {
+        "position": 6,
+        "title": "Baseus Inspire XC1 Open Ear Clip-On Earbuds",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9cd559c0-183c-45ac-9250-9cb8e3a14289/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A1l6WCvRRRL.png",
+        "duration": "1:08",
+        "vendor": "Baseus Brand Store",
+        "date": "Sep 3, 2025"
+      },
+      {
+        "position": 7,
+        "title": "Baseus Inspire XH1 Headphones & XC1 Earbuds Review",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/433ea84a-b6ef-4799-95d0-203bd60ea60b/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51sFB+6TOKL.jpg",
+        "duration": "0:57",
+        "vendor": "Onel",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/71J3EyfwobL._CR0,0,768,768_._FMjpg_._SL34_.jpg",
+        "date": "Jan 18, 2026"
+      },
+      {
+        "position": 8,
+        "title": "Comfort to wear sound with details",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/77552a44-17c5-4528-b6f9-4528e8720046/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A1uC7g8N71L.jpg",
+        "duration": "0:44",
+        "vendor": "🌼Jinna Li🌼",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A1RCT90N4RL._CR0,0,2316,2316_._FMjpg_._SL34_.jpg",
+        "date": "Dec 5, 2025"
+      },
+      {
+        "position": 9,
+        "title": "Baseus XH1 XC1 unboxing and review watch before you buy",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bd3ccfc3-205a-49a4-b5ab-bc4a7097fe78/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/512suIdHQuL.jpg",
+        "duration": "17:48",
+        "vendor": "ETPC Epic Time Pass channel",
+        "vendor_thumbnail": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/etpcepictimepasschannel_1644826675877_original._CR8,100,1623,1624_._FMjpg_._SL34_.jpeg",
+        "date": "Oct 11, 2025"
+      },
+      {
+        "position": 10,
+        "title": "Baseus Inspire Headphones Best",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/86fdacb3-3eb1-4460-8603-1b62d313a7d8/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/61DIsiiyP3L.jpg",
+        "duration": "8:11",
+        "vendor": "Mathew Ignash",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/51GftqtFj7L._CR0,0,600,600_._FMjpg_._SL34_.jpg",
+        "date": "Sep 24, 2025"
+      }
+    ],
+    "product_description": [
+      {
+        "position": 1,
+        "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/968b4067-9c4e-4023-a8f4-93697f0a496e.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "position": 2,
+        "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/400ce10a-107e-4a78-b6a5-8e14e70ec271.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "position": 3,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8fe281af-23b2-4232-bcf1-cd535a1b9a7b.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e5923353-ffa6-44b0-b7e1-afded2610ee5.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b34e2f71-5297-4ae3-ae12-bd10cde3f3b7.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 4,
+            "title": "Text reads &#39;Growing. Sparkling. Always in Type&#39; on orange background with silhouette of a person in dynamic pose with radiating circular patterns.",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/dffc2c1f-1c0d-4c00-a2d8-fc2d6611dfab.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 5,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d8d89fb2-5889-49ee-b2d8-21a25e140c13.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 4,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/71a017f8-6f32-42d6-acdd-580de68b11c1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bf52e9a8-95ac-4942-813e-0ff219e7c287.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e24eaa0e-1181-4a77-9524-b96764f2f472.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 5,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/08cf0ade-227f-49d3-b2fc-dd9bfb365292.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a24bf62e-7e22-4195-82c3-61c3165c21b5.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "Text reads &#39;Fearless Call Clarity&#39;. Marketing banner showing urban evening scene composition.",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9591924d-3eba-4b4d-990d-e05d9619b1b7.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 4,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2bfd0310-1a93-4c44-a66e-337f17b73b24.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 5,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4d6f1f7d-6847-43e9-bf5b-ea92aa39957e.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 6,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0593d255-caae-403f-b090-f1ac9e482600.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bb954b08-abb7-4299-bb29-f004d9b1fd61.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/658db88e-80a6-4dcb-805c-6f3d66dd4c87.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 4,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/41126843-be1e-47e5-9a77-253f140c40a4.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 5,
+            "title": "open ear earbuds open ear headphones wireless ear buds bluetooth clip on earbuds running workout",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/550c797e-af55-4d07-860e-4eb310716e85.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 7
+      }
+    ],
+    "product_details": {
+      "brand_name": "Baseus",
+      "model_number": "Baseus Inspire XC1",
+      "model_name": "Baseus Inspire XC1",
+      "built_in_media": "Baseus Inspire XC1 Open Ear Clip-On Earbuds, USB-C Charging Cable, User Manual",
+      "age_range_description": "Adult",
+      "warranty_description": "2 Year Warranty",
+      "number_of_items": "1",
+      "upc": "810196182554",
+      "manufacturer": "Baseus",
+      "best_sellers_rank": [
+        {
+          "text": "#1,166 in Electronics (See Top 100 in Electronics)",
+          "extracted_rank": 1166,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/ref=pd_zg_ts_electronics",
+          "link_text": "See Top 100 in Electronics"
+        },
+        {
+          "text": "#26 in Open-Ear Headphones",
+          "extracted_rank": 26,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/99530371011/ref=pd_zg_hrsr_electronics",
+          "link_text": "Open-Ear Headphones"
+        }
+      ],
+      "asin": "B0FMRPKN3G",
+      "customer_reviews": "4.3 out of 5 stars",
+      "rating": 4.3,
+      "reviews": 901,
+      "headphone_jack": "No Jack",
+      "connectivity_technology": "Bluetooth 6.1, Wireless",
+      "wireless_technology": "Bluetooth 6.1",
+      "bluetooth_range": "10 Meters",
+      "bluetooth_version": "6.1",
+      "color": "Cosmic Black",
+      "carrying_case_color": "Cosmic Black",
+      "carrying_case_length": "65.7 Millimeters",
+      "carrying_case_width": "30.81 Millimeters",
+      "carrying_case_height": "53.7 Millimeters",
+      "carrying_case_weight": "42.1 Grams",
+      "unit_count": "1.0 Count",
+      "noise_control": "None",
+      "frequency_response": "40 KHz",
+      "sensitivity": "123 dB",
+      "audio_driver_type": "Hybrid Driver",
+      "audio_latency": "60 Milliseconds",
+      "audio_driver_size": "11 Millimeters",
+      "frequency_range": "20 Hz - 40000 Hz",
+      "enclosure_material": "Acrylonitrile Butadiene Styrene (ABS), Polycarbonate (PC)",
+      "specific_uses_for_product": "Entertainment, Fitness, Travel",
+      "antenna_location": "Calling, Cycling, Exercising, Motorcycling, Office Meetings, Running, Skateboarding, Snowboarding",
+      "compatible_devices": "Cellphones, Devices with Bluetooth Audio Capability, including iOS, Android, Windows, Mac OS and Switch., Laptops, Tablets",
+      "cable_features": "Without Cable",
+      "water_resistance_level": "Waterproof",
+      "additional_features": "Adaptive Tunning Sound, Dolby Audio, Hybrid 2-Way Driver, Sound by Bose, Zero-Sense Air Cushion",
+      "headphones_ear_placement": "Open Ear",
+      "headphone_folding_features": "Open Ear",
+      "earpiece_shape": "Open Ear",
+      "control_type": "Button Control",
+      "control_method": "Push Button",
+      "controller_type": "APP, Button",
+      "battery_charge_time": "10 minutes",
+      "battery_average_life": "8 Hours"
+    },
+    "sponsored_brands": [
+      {
+        "position": 1,
+        "asin": "B0GXW2D8ZB",
+        "title": "Hybrid Active Noise Cancelling Wireless Ear Buds 80 Hrs Playtime Hi-Res Stereo Quality Bluetooth Earbuds with Transparency Mode Headphones Bluetooth Earhooks ANC Earphones for Work Sports Travel",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JOMYFaNXb3LNzd_jCGSP_RgAAAGeT_p8HgEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAu9Xgy/clv1c_ek-wBYHXFcbWDn2nI-MgDzrZjBAPnnaZW0cxm1zuFpk0shQMAFI8Mv_VUp8wht_-q4ovyLJ_ZO65SCUb7WqEGykjMlvdu6edSC6C0lL3vkiyNzZN97hBDmXCtpEE8y9nN4EtdmhgufQ5byQuEkRi7dh7oN4m0FXpkZyUD6Y6bFcaqXTChFiAGZv1YeE3P174F-qN4B_TKy-oROi05Swg62aemmimtksRTixqX4u69OiMSvOFScUPVcsc4vFciunAb95yoLg3E2g_TF2icUGB6ue6r1Xg0LpymUnd1itkW1FOEx4gNihfxKqUvqo5EjocN6g2PPznof1pem0FPcpWKpYF_nyCYP0XlwuBNClXCVLatqgQ2c49kHu84YyiNZDVj5iDZkNWNWJIosmdlDNMQjUUhuhexC_SnfG-6cMYDbUmeMwa1_yqCxfJSzmvYdtFU_WPdnG_ux8XoKl0lCcrHsU-DihYOM4bsTL1m4El4AXMv2LZ5Sm3hXosr78uNgcynUZnzCICvZ0HdEXZ2oYTnBoAETccvEORU3iYfPfrXH7TsenpBfb7NKfkAjaW2vpFvol5RBX-ezHYazbaMcP4nmmiBO1Z04I0tdafVx5IIriAetE1gZ5Qtcrm9gsrGtXiVoQuhmKihzpcP9sgjhUS5mhBFqcVBYOzhTB_PQpAAxZylyNMKsFaoCNquJmED-zjaHOjlNFCizzjH5-FSU_LOYP_tndnjwXC0H489A-y3lIfM1iJ0pU3f9co5MWLr3YZRj-kBZUA7WmjGF8NfhnpxC0_jVCARCibcPRCaPTuDntORZnnWsgugzAT82uJPkWLCtk0g_KkiPDYZJmYAckx2BtDKsZrkxHpLU8JFP2pebZx8cPsGRD-hfPq43LSeDUmVXgU-ZCvu9gxmjT6k_oNIG0xVuO6ugfS1EfMkaOkZcyEr3Ij7ZSCJZbouRBEEMS0vmf-v1jgOP51pCfqzHZo9Mq8YWrm_JffWN01bPPdSTXBFycMEeNm6dfNHRXLxZ_wFLAnOUurjfzESsCUY3ZA0Omto2SRs1e78m7-3hKeTBeVjFA7UDFvn42DPDnmN83qYnTcCyBFvGKiOpn1DHTWvIMnEBecngWgEnBezgnIN7oSOqoTa-2gN1aJJYlJORCMQ3gv3yzq2SSdlJK2pdEp0uZ-AUaDDIocrfhYLQs1qWkVi_l4gqNn6lKBxTh9gDgD_LK0uqY5FlN_8xb_A4W34q0I5viHqDInpfa4TZeBGUeaAXr6od9FnQvNP9E17IePZEOkT6MHWRwjNCKtSxIQLZTmGD439__fEFiAuFzVySqEUlNMxVL3bn-CTdw7HAygk9ny5DPpN209oMOJc7PprDiL48ZBzcOhjmCqEyplIxooQfjdPgN_0oZv0lLeaGMgxYk-65vkGL-NcyFxd3K0fckyhKUs0FPf87z3i-kU9ZDdQ4ZBh8DCGMnSwzUqVc2OQWEnfmY9aY7ApC-ts529KNH1LRFEXVK1fXDyW8fXHbtz3Is4HZY1IMHqH7YY8hzP8RtBFV8GRudQb7QQjIei8Sri/https://www.amazon.com/dp/B0GXW2D8ZB/?_encoding=UTF8&pd_rd_i=B0GXW2D8ZB&pd_rd_i=B0GXW2D8ZB&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=MsOIJ&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73",
+        "link_clean": "https://www.amazon.com/dp/B0GXW2D8ZB/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GXW2D8ZB&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41vTltpwHSL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/57f67d5c-7e3f-43a5-bab6-5d5410cdc927.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/57f67d5c-7e3f-43a5-bab6-5d5410cdc927.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.8,
+        "reviews": 44,
+        "price": "$99.99",
+        "extracted_price": 99.99
+      },
+      {
+        "position": 2,
+        "asin": "B0GZVT446B",
+        "title": "Monster Open Ear AC221 Headphones, Bluetooth 6.0 Wireless Earbuds Stereo Sound, Clip on Earbuds With 30H Playback, Clear Calls, Type-C Charging, Touch Control, IPX6 Waterproof Wireless Open Headphones",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JD6M4LsvLsrWZXcSqmaOPqUAAAGeT_p8HgEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAxooIz/clv1c_ek-wBfHXLcTWnuOrk9HI84ba7BoeWDuZU0fIENCyfU-T7YTfwzX6INfEFr2UGHMbK46vTOCjQPPHuXLSP5EW3yMyNglJxvAykcH5deakVlymfNVfMbrtLa165OTaDLk79cs9tP0KUWo3tgtjT5an-NHPwJ1LnrWKkE_89yW4uE5nV0mLWQBfHFOOpjQOoXRRAfSN3tOb36GJ0GuZ_9rica77NWeDzdqbrFtQzYAobiANAkr03TwmDvwLCEEAygTlCwLd43vBXU3IdKW91Jp28BADItr_KTxdLRTfc03j-gxGrGioYYXVryW-77oDfMtN0hZJ9w1aUvf4a65ZLyppxBWrHrhK-TifHcKkvtNZEeczmp7Ke3dMPLfaoMiGE0YnIHfuV4WgqBw8QZgRUlv87xp91XpGOpo0yTcHkod3vyNhCoOx2ClQgHAuiOT-wqFSOkQ19IZSefjfC_1Vh6a6RDN7yQ8Fr6fY4I_QLn3eZ3Dya-KOrLKM6OZWtFQ3Jnd8fu5ZzESfS8Dm_7ImCNR-R2lqhaDtgtOcANczAdZHf16irMFVC4Kl3sQz7x-0Ad2SVPbqqD2gl-ZU3XmiBwgyqUKAKChBTlmdg5PT6Cnjq27obzg8FLLT4ulfR_7qcIoSvTi7vNiFclHPCu4YFE_kB4m0lme5EoSEmlNFCpC-yD5n_C1GWFzoRk9HKN_TQk-TGlWe7fKD55gxirPSfbb4_Hhj1IoQ-Lsbf6uBOHDEKB7zXzm_1elGBlwlTlrVOT09syJFmMfhkrvrEc_bx4odefPLyMcv9a-AeywRw55f0RHVNorHWsgugzAT82uJPkWLUvKOAHLACY56sZwD0wFWWKlyssj8LTvVQNKc2RDvk7I2biSRQSmdvq0CrVJNX-bk_ViM22pmz9o1JZ65NML6rMayvC1XGScH3xzG-s9U0SXdAV4tl9weJv6UEe99HXydtohPdoL4SLYeStv8BxHjSyJHhQLviCh-rUtTA8bOkz7pGk1rt3wBp9mp49ziqeH7B1WUNFmVHnNv_P7N1WOQbkYYpnqd09U3ZxyvvDlg9-PlwLwrFcQ9jUyBzu9BV1tpgov3XUV1NJ877MY4hoF4zUY7AcgZVe33bsqVRTkh-5p7LS7t5fEkdWXvpuIMpWt9EWl7lWKtzUUuvrVcbc9TW2qzFiU1FI9EOQ45MzO4aSTvSqZSUdhWuryJkddqA5o_l-6Jl5fe3qYgTRZrg7lJSxwpPlG0zJceb-MSGlas76BZAsSOqyxqftVOtt5N9wJmS1enUjscBGV9mzo8wDksl2dRPHiQs3fwGt3FMnVT9Gq963UhwMlX6Xi3haC87WGDB_nEXOSBBQ_FRMsQLEjLufEFKl6ESvL5GXqSr3USD5NoVxGvbSYHDp3NuMruSaNAEDaqOOB1suQUljrHA3K1soEKK1qjcLlTP3-5sFtcaX6CCmXIqeK6vTEZww-2s_lujOI9igIF_mluE7G-eLOw_BPppq8pRv6D_cscYWZziN2H9aYazVE_oRVpte3o5XRg62pjCYw7M46HJJgmOJdq/https://www.amazon.com/dp/B0GZVT446B/?_encoding=UTF8&pd_rd_i=B0GZVT446B&pd_rd_i=B0GZVT446B&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=MsOIJ&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73",
+        "link_clean": "https://www.amazon.com/dp/B0GZVT446B/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GZVT446B&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41V5wd0ff2L._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/d8b893a8-b4f2-46c9-a151-1e42d456e303.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/d8b893a8-b4f2-46c9-a151-1e42d456e303.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.5,
+        "reviews": 8,
+        "price": "$31.99",
+        "extracted_price": 31.99,
+        "old_price": "$63.99",
+        "extracted_old_price": 63.99
+      },
+      {
+        "position": 3,
+        "asin": "B0FYCH5HZB",
+        "title": "SHOKZ OpenFit Pro Open-Ear True Wireless Earbuds with Open-Ear Noise Reduction, Optimised for Dolby Atmos, Deep Bass, 50H Playtime, AI-Powered Clear Calls for Work, Sport, Bluetooth 6.1, IP55, Black",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JIGf5Ey9yRswiWoXERosM6IAAAGeT_p8HwEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICDbAVOh/clv1c_ek-wxYHXKsTWDaXhdOfnvou-AxqnsmImoGbxQBKgN-TreOsriTqbX1uxrxzChYCJgRMlA9O6sK-B8MiNu2QfQCAKXoHEfeCAZ-BP8RNs7cQeTTlDgctLCH3-Apk1JTxRwRQ9k0tNuTMqR8JMfMOx85Deuu28llRYEsju6YcCTCS_GewiMh2I24Pu9Rul-kWIsPqE6Uh3U2-oBkX_MioKQMAbmdOT5r4lMeLEznI1gc6-QPJTN1dYgsvV2MFpQNd_86VsGAIDCUXXOg1PnzevTuaIsmRno8UxeDd8DYObNxccjfPLCNLaAIaX97XC29Yft-1lAstQS2SJ7iYMrsZh1AikAWwvqswT7lx1575uPJPRh4nFpQidhauJPwDYZVZcRuPr7njaSDKHEvexCc_DxrakCVODpz65cu3tsI7xdePkg6IfBIUheyHWZ01NFwofF6ez0c0jpOZjsSJ61eBsCCkJVSzo42j_hkeGw3qkoY0TP5wCBweYj4dEkMK_uzmC9fysbb-zJu2zZBbqxiRodSf43cDwoVsGz6brIRFzxh5lNM_O5rWd8-vXEujamy9JPkMB5ISsba1TbnqY-83_quL1nHrDjhu-CoFd4-1Fxu1higm82H-Tslc1_YSu6K6SWy5FT64hB8zPBwFbNJ32uzh_UlG3deECJHcmp1nBWOzLBNGGlNeoHY1pESIENaqfMH1OkcdGZAlWmREKanEONZOGj3bYUdXDv5oN6gjoBw7TjaU6urNu4qG01X66JgJwomjy1HPcb7mCA1gol9c6y1Z4uIoqKNMPlKUSy6V8UalLc9YVoiTgDwnmnJpwdLDsXUT_romnasPRBTTsLwv7cu3-2JwLi0VTBX3k8M3KAwDx8Lsl_oJDH_XZ51Dylaa7Zs7IXs1oz7kBYpGW-7Py_Ks0xQm_46BI-jk793b0z2m26VzfpWVfl7thVbKKYhEgxgCKBJQKXIXHPku--FCGcybEsFXIhXIbYfIHBJeb3DcarsvOuMifIjz73rSWtwadNp8opov-xVik5cv6cU6hyjQmmDHU9WZ2nSsv3bIL4GpXrhuFo2G4qXFWGbZ289YwL5fvjlUHU4PShS3Wf2KH5io-OoXsGQGjCwjSh1i2Y3B5aeyAQSAU14hsCAIe-Paz_iURWGHoFjLirZARjiwdENdPF_H3UOAWADGg8fXI0KtJ76E4InYo4BagyYE1feQgXski9yV_yJZtaPUtxOo6i52wSMqh5rb8NUXW2ExzlD7NeiCokIZXstzMR8UxwL8NcWeRNGJc7-0tfny52CGhDxkbxH3M_FXgbxZCE04Yx3xY96AxDyinz1xDJRhCd6vtTFWp0sapj4efZHWsyFWIAk6jJHCdPidqzaD_DyCx5Tg_0ZQNOqVOumbt56F5FNeiL5DDwuSV7IgBjujc9KepO3IyytpsEVW34Li5C1OV2yGVSvW_1EuXi71_0tucEu-YLY_SNwk1rEPIgGz9IT0rfJdUv-KvPIzmf3HbCNcBBbABekGwNuNS7_UVTyiNQEy9KShnyl6CWbYZgTgJ-a_-nqcacCyQQ1rFJQ/https://www.amazon.com/dp/B0FYCH5HZB/?_encoding=UTF8&pd_rd_i=B0FYCH5HZB&pd_rd_i=B0FYCH5HZB&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=MsOIJ&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73",
+        "link_clean": "https://www.amazon.com/dp/B0FYCH5HZB/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FYCH5HZB&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/31VYiU+cYsL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/8db0a659-1242-4624-9e44-6fcea56d2450.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/8db0a659-1242-4624-9e44-6fcea56d2450.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.5,
+        "reviews": 169,
+        "price": "$249.95",
+        "extracted_price": 249.95
+      },
+      {
+        "position": 4,
+        "asin": "B0FMRFZRY3",
+        "title": "King Lucky Clip-On Earbuds,Comfort Air Cushion Open Ear Earbuds Wireless Bluetooth 5.4 Multipoint, Open Ear Headphones with Mic,Anti-Mistouch,45H Playtime,IP56 Waterproof for Sports,Small Ears&Sleep",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JOqb_RtuG0G5zHG0r-2ej8wAAAGeT_p8IAEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICAAwuHz/clv1c_ek-IBfHXFbbWzjO3YkNvQ2gziJMxf0WrlGuK2VFoXR0wLdtXYCIYB1VdV3X9d83ZpHZNKy9QZeo58_ggr1LGGfdJqf38pGeec9uF0lLXno9-Q2KLsKHwC_yYonp68adU0pl6PMwNQyy17a0Mq0FGeNPZiB0cOHRpF83c_dfihFZ2U83RIL0ohUfPVDkukDas02GK8G1_L66YFMVkJewI0kq5N2eDwd6hCOTNGvUrVAQJAj78zRMRb1hjcICRN9dlV6pF7-mZm7E-2yMDQBhWvJsnsEh3a6tvT2K3f1qj2IB-jy_KrlDm48hx6NX8adBFVAF4WtBuCCQg1khh9ebHKtzsk06vTPdPqNUlwQ7k3aco8rBK5XwIgLts6Nc4Airva_4wldeRHA0yr1Q_bLnN7Rp91XpLP5As2VzMTrI0PfiOqeZU2GSyZDr5h_x9B-EbdJFqOm8WAixP-X-0TN0szByJqAN-bu6zQiEsCFrcmHSLeb3DaKYngx1eR1hGAaN396Fm0sJE6v6f_jnSRnpnS1F-1_HnBbUkzET91NnU-kMexSyZAnS88ee7p_bUEQVG1zTLUaBcSampvVVeOrJxgnMn6FlO1iaWnoW0CfYxvR_zNoh-UuwmJ4RZ7B_rE0jb2BO3_5Pg9EGUhWl734xYd_tWk3zGRukq2WbwRXTZEC0NxMrIRN2omRC43sW-1KoxAhKPB6wLh5GT6q7EvJFxupuodkTi6eTv4xQ0RXIlydz_UnW45gHqojxkYATn4NjGK4Ar55TJa22IUXidhKWayGFVhu5oOMr3LmQnIuMkY610_ah1DPbYsctgEvl0E5MJgHVpdsxAom9IdStNKQBW2N4IQeKnlDTdN5g_fWsBNY2jyUfvuFXN6GS08Z-dpz9F-NPf9hUGsDcOCkoV54JrlF8M8w5GUgmgxP6sco4UMkA4mCfNx1r4O7Nlfr68O8KZuz2DFqZu1IMIAgsZbV4Uz6Sm9JPgs7g-tH-Czcch_CvzmXXxUtG0gJ7cR5_t9wgP8oRGNO8EWUlngb8kV-HRbS82FiQV3BgAqN_FsGjCI97PBAYr73vMktjbHflQCi0QTYYbXzn6fhKDDe8YKOaybkIgx1sMyofcAYtwvs0ic8PjpSH4MqAyfXodMra6JHECeVq5rNfSAPZwHvztHWbRTNsZiW1Uz2WawFT7jZVUp54E3PklnV_gw5POxq-26Gz40UhKkWMBf4PoMMKW_Z5Nx06zmZioKZ3LxAMEYKVNLv5jpx3R_Nw9wsrKkuGtonLsR-1wvg1B-pQRkB2VhMX8gVN9EBgb_hf1WxY8pvmiU1m2C4nUf81Om9jWjv-VgaM2SSb_fGsEDUJENg5dLCyvUp2-JPnzvETPYTay5PcVUnx6lEX9NUGbBjlEhb5V5aUvMERIR79pIRQH1Qly2JoH6GSoLi-8xCJgHv7-WFN-azTm3PlikwjWgr99c-_ojd77YJMd_juY-HHVgkqrCREoaa1SU4dpYnKFXxW6QlSeF_o0Mfwg6U-WJsQBRuRxI34oMRpvRe697EETcHLAyus/https://www.amazon.com/dp/B0FMRFZRY3/?_encoding=UTF8&pd_rd_i=B0FMRFZRY3&pd_rd_i=B0FMRFZRY3&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=MsOIJ&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73",
+        "link_clean": "https://www.amazon.com/dp/B0FMRFZRY3/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FMRFZRY3&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/31vRPXlBAOL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/4ac93610-3545-4e8f-a149-a306d012a350.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/4ac93610-3545-4e8f-a149-a306d012a350.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.2,
+        "reviews": 159,
+        "price": "$30.67",
+        "extracted_price": 30.67,
+        "old_price": "$32.29",
+        "extracted_old_price": 32.29
+      },
+      {
+        "position": 5,
+        "asin": "B0GWH8WQRN",
+        "title": "Jutaruoo Bone Conduction Headphones, Open Ear Wireless Bluetooth Headphones with Mic (Black)",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JNl4ggzQBc2ZHzzvJLWnj0sAAAGeT_p8IAEAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICBZJ5ws/clv1c_ek-wBfHXbcbWXixXZFvu-lwLMH0Cd0b4seEi0m-wi1KFEh7LSIeaNfi-UYlvtUxq4_bcezVHZe45u3xSZZ8V5pJB2-7CZ295MaFfNJ7XmtQfgfvxss6gj2LgCqnVt7m7hlp_QlwLNcQvcjy7stjk_8R7IN6Q0tDijMLAZ7cKbMa0hDJNfTpKQYysKRhL36BOsO2xnlMbftVp1W2ff3qe8_RS2bw3EgUHHWTQvLwSm1wBEv92aTyGAf-JCIFP4yllygLdw-H1dn1VBjPBOu-Fixupq0mewUrbahlNcJR9RjcaLILMidoU_Wh8JQaslPq-qLdIM0W8kLoaRXKW3bqPFPXU3y2Dpdtt4_wB3kzTVAT4Zv7R9V0bjZ31h3ZkmJLPhY89YuXLGMW-2P1AQlRbt9Lps4fz8el_BtYCBkpvZPIXant8VX9vAXCuy_T-8pH8I8mos8zjufhXaqFoZS9UqPf2TD3pOcx2cirqOKwCldbFMeLKrJOCky4NbI5V7dZKCX2TwFz6Z6fnnUxOQFleZCwFTrQRAsyVQtVzsfdkP1Xgd13IOVGcZ0z0fR3ExWXOUUenVeqGRXO9MIHGuZc3Cl1oWm6u426nP5QuAaz8FXzK7s1r3EH_5JGCO8KrZmnzFortkrH1-nX83jp0G0IW97bJIojG3d7rjbUmnVVECYOwJ0JfHHD3c6vz0KsyIfPxCQtm0ykX_wLQYNDIoIlx8ruoUVTiFHlCAX_QbTlNoaRgoM_7B4PqIihj0soJJhjHK4ALuLy0rvUTLMa8pJWaQs8iRTqtxiYT6M6phFMM5W4WfPAqvHeWG5uarmTPsTSPqmA--sdbtch_VhYA8Rzr5n-byAi5o7u3Vqg1Hmt2XwX2TQLrZWpSGFij67htKlkRhdzcPEuENyp9SYzCLG-vqfv_RlxdoZ8Kba7IzRazh31z4g0st6EdC8riY8-2WPYINyLKRa8v6Pv8QaiCFA6wDAbPVH8uuN2owV3dI74or10QfkHbgMU0UzNEkSrYmsg_1fWcMXrG3khGeepfAFv6GAoFoI4aL-VcD2WDyhlLdVGT2gaVPNYircf7iGaKqNE6sFPNPOgcE7OpRDbdGae12ZYrmHrFg7Hd1Uc3AMtDCOtBYmR33pW4yS7WD--TRsS_9r8rnZGVbKlZmcCYT2d4NvS4lliwZT7mv_ioEwVj-viAJC0HyUX1-nE22ziqiw7E6blJs4_P62UPAvzzBZmg7jQUwMHfnhVWk4V9926_7mezkJqUywtm3nUmMFY_kMQNxveCPiwayLruYmlAY63bKCArehztJ1fAlV1uo0qJ3jLm45Z4MY2FxVqvd7i8I11f1sMSA30olUx5JHE7ADmRctqD_LRJMobfGdDDqCbCKvIPZ8UtKkPsTdXMPoBdD4qv1x0KXlw4uaKe25iYRi1clZZIc6BOLE-EIc6MS8Do-FwdF57kbU81yzjGIJKXMg0pT2YfZt0hUOEQI1A6zcd7GspBd5MpfHPl3AJv1Pd4iFz2WVjlCZOZSlVH0u6yM7Q/https://www.amazon.com/dp/B0GWH8WQRN/?_encoding=UTF8&pd_rd_i=B0GWH8WQRN&pd_rd_i=B0GWH8WQRN&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=MsOIJ&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=2M1DVBR63R4SB2HGSPZN&pd_rd_wg=krd9H&pd_rd_r=44054a77-d094-4234-b669-a1dcd400ba73",
+        "link_clean": "https://www.amazon.com/dp/B0GWH8WQRN/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GWH8WQRN&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/31RVs4bI9SL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/5585dfc7-305f-4a69-ae05-cd3514bc1a70.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/5585dfc7-305f-4a69-ae05-cd3514bc1a70.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "price": "$49.99",
+        "extracted_price": 49.99
+      }
+    ],
+    "reviews_information": {
+      "summary": {
+        "text": "Customers find these earbuds offer excellent sound quality, comfort, and value for money, with one customer noting the nice soft rubber grips. The battery life performs as advertised, and they connect easily to devices. While some customers report the earbuds stay securely in place, others mention they don't stay in well. The noise cancellation feature receives mixed feedback - while it helps in noisy environments, some customers experience loud static chirps.",
+        "insights": [
+          {
+            "title": "Sound quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 288,
+              "positive": 240,
+              "negative": 48
+            },
+            "summary": "Customers like the sound quality of these earbuds, with one customer specifically noting the clear call quality.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Excellent buds. Great sound and stay put during my workouts. I use them for every run and have competed in races without issue. Highly recommended!",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1049M40M6A3KM"
+              },
+              {
+                "position": 2,
+                "snippet": "...The sound is great. Am I still hoping for more bass? Yes. But, that’s what I have over the ear head phones for....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1H1PKP5ENNBFZ"
+              },
+              {
+                "position": 3,
+                "snippet": "For them being clip on the music does have a good sound. Honestly in my opinion the louder you force them the worse they sound....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2G1K67VJQDHM"
+              },
+              {
+                "position": 4,
+                "snippet": "...Overall, this is an amazing product. For the build quality, sound quality, style and comfort, it is almost impossible to beat in this price range.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R61K7NCJ6BW29"
+              }
+            ]
+          },
+          {
+            "title": "Comfort",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 141,
+              "positive": 119,
+              "negative": 22
+            },
+            "summary": "Customers find these earbuds comfortable, noting that they sit well on the ear and cause no ear fatigue. One customer specifically mentions the nice soft rubber grips.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "They are comfortable and the sound is good. Everybody can hear me. My only complaint is the beeping that happens when they are not playing something.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1GS47OLI7XECC"
+              },
+              {
+                "position": 2,
+                "snippet": "...They’re very comfortable,, if you want to go hiking with your friends, and you can wear them to play music and you can still converse with your party...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R34SVOHR2VH4UO"
+              },
+              {
+                "position": 3,
+                "snippet": "Amazing sound quality and comfort. I absolutely love these things to the point where I was wondering why they were as affordable as they were....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R13WUR9N6FN8MM"
+              },
+              {
+                "position": 4,
+                "snippet": "...This one, on the other hand, is very comfortable to wear - I was able to wear it for hours without being tired....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2MF1B7UU9KRUN"
+              }
+            ]
+          },
+          {
+            "title": "Quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 131,
+              "positive": 117,
+              "negative": 14
+            },
+            "summary": "Customers find these earbuds to be of premium quality, with one customer noting they are better than other open-ear models.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Good product",
+                "link": "https://www.amazon.com/gp/customer-reviews/R12BQW3LJNYTDN"
+              },
+              {
+                "position": 2,
+                "snippet": "Great product",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3LXLD9LILBD2Y"
+              },
+              {
+                "position": 3,
+                "snippet": "...awesome, yes, you will lose some bass like any other open ear, bud, quality, and craftsmanship is also very good, yes, you can wear them for a very...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1W1PO41CI0YOU"
+              },
+              {
+                "position": 4,
+                "snippet": "Great earbuds wth App that allows customized settings",
+                "link": "https://www.amazon.com/gp/customer-reviews/R28GFSQN3K6675"
+              }
+            ]
+          },
+          {
+            "title": "Value for money",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 88,
+              "positive": 74,
+              "negative": 14
+            },
+            "summary": "Customers find these earbuds offer good value for money, with multiple customers noting they sound great for their price point.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Exceptional sound. Great price and they stay on your ears with the clipon design",
+                "link": "https://www.amazon.com/gp/customer-reviews/R118C584DWEX7D"
+              },
+              {
+                "position": 2,
+                "snippet": "...They feel premium and detailed in a way that punches way above their price point—seriously, the sound quality rivals or even edges out my pricier...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3PBP6U8C4CN6X"
+              },
+              {
+                "position": 3,
+                "snippet": "My daughter loves these , a great sound for a good price. Nice bass.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3KUSDSXODZ1AK"
+              },
+              {
+                "position": 4,
+                "snippet": "...and others for more money, and these feel like they are more than worth the money spent on buying them....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3GT1S3QCPEIYI"
+              }
+            ]
+          },
+          {
+            "title": "Battery life",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 80,
+              "positive": 57,
+              "negative": 23
+            },
+            "summary": "Customers are satisfied with the earbuds' battery life, noting that it matches the advertised duration and doesn't require frequent recharging.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...They are comfortable to wear and have a great battery life. The biggest issue? The awful connection stability....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2M0OEIAOLG8BI"
+              },
+              {
+                "position": 2,
+                "snippet": "...They fit nice, they sound great, battery life is good, the EQ settings app helps you arrange the sound to your liking, bass is not a problem with...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3QKWVVYBPWQZH"
+              },
+              {
+                "position": 3,
+                "snippet": "...My two complaints: First, I wish they had wireless charging....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1QCU0IPBYPYJI"
+              },
+              {
+                "position": 4,
+                "snippet": "They offer good sound fidelity, good bass and long battery life; the only thing that needs improvement is the noise reduction of the speakers, but...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1UED38AE0M3MO"
+              }
+            ]
+          },
+          {
+            "title": "Fit",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 110,
+              "positive": 76,
+              "negative": 34
+            },
+            "summary": "Customers have mixed opinions about the earbuds' fit, with some finding them comfortable and secure, while others report that they don't stay in place or are not snug enough.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Comfortable fit I like loud music so I pushed up the back under my ear lobe and that gave me the best sound....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1RE2WRGAUABWM"
+              },
+              {
+                "position": 2,
+                "snippet": "...Better fit and secure and looks better. It stays hold better * A lot louder and better trebble than the Bose too. *...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R23XKVUJN5YA3M"
+              },
+              {
+                "position": 3,
+                "snippet": "The sound was great but they would not stay in my ears.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3LTHLVGF5RK1T"
+              },
+              {
+                "position": 4,
+                "snippet": "...They don't fall out. The sound is great, always loud enough regardless of the environment....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2AO1QB693L8M"
+              }
+            ]
+          },
+          {
+            "title": "Bluetooth connectivity",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 63,
+              "positive": 37,
+              "negative": 26
+            },
+            "summary": "Customers have mixed experiences with the Bluetooth connectivity of these earbuds, with some reporting easy pairing and excellent performance, while others mention issues with no consistent connection and complete disconnection.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Comfortable as well, don't even know they are there after a while. Easy pairing and love the button controls instead of the hear and there tap...",
+                "link": "https://www.amazon.com/gp/customer-reviews/ROJ9PRTRPJ7WK"
+              },
+              {
+                "position": 2,
+                "snippet": "...Now they won't charge and keep connecting to my phone when I've put them up and closed the case....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R24L14EVOSTSRN"
+              },
+              {
+                "position": 3,
+                "snippet": "...There are also no issues with connectivity while wearing them for hours at a time....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3CZQTAMFDKM6D"
+              },
+              {
+                "position": 4,
+                "snippet": "...fit were fantastic, but in about a week the right earbud stopped connecting to Bluetooth. I returned them.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2SPUTYUDK6E67"
+              }
+            ]
+          },
+          {
+            "title": "Noise cancellation",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 53,
+              "positive": 32,
+              "negative": 21
+            },
+            "summary": "Customers have mixed experiences with the headphones' noise cancellation features, with some appreciating that they can hear their surroundings and help in noisy environments, while others report issues with loud static chirps and brief moments of silence.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...I also love the noise cancellation. Love the battery life and easy to connect with any WIFI, blue-tooth device....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1PLEAUEK7WFZV"
+              },
+              {
+                "position": 2,
+                "snippet": "...The only thing I wish is that it is noise cancelling, but I do not think it is a listed feature for the product....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R28GFSQN3K6675"
+              },
+              {
+                "position": 3,
+                "snippet": "...So good yet still able to hear my surroundings. Haven’t really found the need for the Dolby audio mode....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R330UNWRVD6CMM"
+              },
+              {
+                "position": 4,
+                "snippet": "...Because they are clip-on open ear earbuds, there is no noise cancellation. You can hear your surroundings while still enjoying your music....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3J89DO3STTNGE"
+              }
+            ]
+          }
+        ],
+        "images": [
+          "https://m.media-amazon.com/images/I/51lRpwhdCxL.jpg",
+          "https://m.media-amazon.com/images/I/61E67vdWayL.jpg",
+          "https://m.media-amazon.com/images/I/516T+z6+REL.jpg",
+          "https://m.media-amazon.com/images/I/51Y2cUI+C9L.jpg",
+          "https://m.media-amazon.com/images/I/51sia--UMDL.jpg",
+          "https://m.media-amazon.com/images/I/61VnuajM6dL.jpg",
+          "https://m.media-amazon.com/images/I/71cDn2xC-nL.jpg",
+          "https://m.media-amazon.com/images/I/717vnh8lHiL.jpg",
+          "https://m.media-amazon.com/images/I/71zXgIhHXRL.jpg",
+          "https://m.media-amazon.com/images/I/51+mlGX9-7L.jpg",
+          "https://m.media-amazon.com/images/I/71vq1D2qsGL.jpg",
+          "https://m.media-amazon.com/images/I/61j-N3Kc3XL.jpg"
+        ],
+        "customer_reviews": {
+          "5 star": 71,
+          "4 star": 11,
+          "3 star": 6,
+          "2 star": 5,
+          "1 star": 7
+        }
+      }
+    }
+  }
+}

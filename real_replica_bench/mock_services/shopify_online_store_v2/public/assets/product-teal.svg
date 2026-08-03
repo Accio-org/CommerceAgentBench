@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title">
+  <title id="title">Teal product shirt</title>
+  <rect width="320" height="260" fill="#f3f4f6"/>
+  <path d="M105 48l32-18h46l32 18 45 30-28 52-32-17v98H120v-98l-32 17-28-52 45-30z" fill="#2d8b86"/>
+  <path d="M137 30h46c-4 20-42 20-46 0z" fill="#f7f7f7"/>
+  <path d="M120 154h80v11h-80zm0 24h80v11h-80z" fill="#1f6e6b"/>
+  <rect x="168" y="82" width="30" height="38" rx="3" fill="#5db2ad"/>
+</svg>

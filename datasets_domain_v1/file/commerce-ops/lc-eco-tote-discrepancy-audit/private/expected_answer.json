@@ -1,0 +1,357 @@
+{
+  "schema_version": "1.0",
+  "task_id": "file-commerce-ops-lc-eco-tote-discrepancy-audit",
+  "lc_number": "BOA-DC-2026031045",
+  "expected_material_count": 8,
+  "expected_decision_enum": "discrepant",
+  "material_discrepancies": [
+    {
+      "expected_id": "shipment_after_lc_latest_date",
+      "doc_enum": "bill_of_lading",
+      "field_aliases": [
+        "on_board_date",
+        "on_board",
+        "shipped_on_board",
+        "shipped_on_board_date",
+        "shipment_date",
+        "date_of_shipment"
+      ],
+      "lc_says": "2026-03-10",
+      "doc_says": "2026-03-12",
+      "rule_cite_must_contain_any_of": [
+        "art 19",
+        "art 20",
+        "art 21",
+        "art 22",
+        "art 23",
+        "art 24",
+        "art 25",
+        "article 19",
+        "article 20",
+        "article 21",
+        "article 22",
+        "article 23",
+        "article 24",
+        "article 25",
+        "44c",
+        "latest shipment",
+        "latest date of shipment"
+      ]
+    },
+    {
+      "expected_id": "goods_description_classification_change",
+      "doc_enum": "commercial_invoice",
+      "field_aliases": [
+        "description_of_goods",
+        "goods_description",
+        "description",
+        "goods"
+      ],
+      "lc_says": "cotton canvas tote bags",
+      "doc_says": "polyester non-woven tote bags",
+      "rule_cite_must_contain_any_of": [
+        "art 14",
+        "article 14",
+        "14(e)",
+        "14e",
+        "art 18",
+        "article 18",
+        "18(a)",
+        "isbp c"
+      ]
+    },
+    {
+      "expected_id": "bl_signed_by_agent_without_named_carrier",
+      "doc_enum": "bill_of_lading",
+      "field_aliases": [
+        "signature",
+        "signed",
+        "signed_by",
+        "signed_as_agent",
+        "signing_capacity",
+        "carrier_identification",
+        "carrier"
+      ],
+      "lc_says": "BL must indicate the name of the carrier",
+      "doc_says": "Signed 'as Agent' by Sino Shipping Agency without named carrier",
+      "rule_cite_must_contain_any_of": [
+        "art 20",
+        "article 20",
+        "20(a)",
+        "20a"
+      ]
+    },
+    {
+      "expected_id": "weight_conflict_packing_list_vs_bl",
+      "doc_enum_any_of": [
+        "bill_of_lading",
+        "packing_list",
+        "certificate_of_origin"
+      ],
+      "field_aliases": [
+        "gross_weight",
+        "net_weight",
+        "gross_and_net_weight",
+        "net_and_gross_weight",
+        "weight",
+        "weights"
+      ],
+      "packing_list_says": "net 4,650 kg / gross 5,237.5 kg",
+      "bl_says": "net 4,470 kg / gross 5,020 kg",
+      "rule_cite_must_contain_any_of": [
+        "art 14",
+        "article 14",
+        "14(d)",
+        "14d",
+        "isbp"
+      ]
+    },
+    {
+      "expected_id": "late_presentation_27_days",
+      "doc_enum_any_of": [
+        "bank_presentation_schedule",
+        "cover_letter",
+        "presentation"
+      ],
+      "field_aliases": [
+        "presentation_date",
+        "date_of_presentation",
+        "despatch_date",
+        "date_of_despatch",
+        "date",
+        "presentation_period"
+      ],
+      "lc_says": "within 21 days after the date of shipment",
+      "doc_says": "27 days after shipment (despatch 2026-04-08 vs shipment 2026-03-12)",
+      "rule_cite_must_contain_any_of": [
+        "art 14",
+        "article 14",
+        "14(c)",
+        "14c",
+        "field 48",
+        "period for presentation",
+        "late presentation"
+      ]
+    },
+    {
+      "expected_id": "insurance_missing_institute_strikes_clauses",
+      "doc_enum": "insurance_policy",
+      "field_aliases": [
+        "coverage",
+        "conditions",
+        "clauses",
+        "institute_clauses",
+        "perils",
+        "risks_covered"
+      ],
+      "lc_says": "must cover ICC(A), War, AND Strikes Clauses",
+      "doc_says": "Insurance only lists ICC(A) + War + TPND; Strikes Clauses missing",
+      "rule_cite_must_contain_any_of": [
+        "art 28",
+        "article 28",
+        "28(g)",
+        "28g",
+        "art 14",
+        "article 14",
+        "14(a)",
+        "14a"
+      ]
+    },
+    {
+      "expected_id": "draft_tenor_usance_vs_lc_sight",
+      "doc_enum_any_of": [
+        "bank_presentation_schedule",
+        "cover_letter",
+        "presentation",
+        "draft"
+      ],
+      "field_aliases": [
+        "tenor",
+        "draft_tenor",
+        "draft",
+        "drawn_at",
+        "draft_drawn_at"
+      ],
+      "lc_says": "Drafts at sight (LC field 42C)",
+      "doc_says": "Cover schedule shows tenor 'at 30 days sight' (usance)",
+      "rule_cite_must_contain_any_of": [
+        "art 14",
+        "article 14",
+        "14(d)",
+        "14d",
+        "field 42",
+        "42c",
+        "tenor"
+      ]
+    },
+    {
+      "expected_id": "inspection_certificate_required_but_not_presented",
+      "doc_enum_any_of": [
+        "bank_presentation_schedule",
+        "cover_letter",
+        "presentation",
+        "inspection_certificate"
+      ],
+      "field_aliases": [
+        "inspection_certificate",
+        "missing_document",
+        "documents_required",
+        "required_documents",
+        "documents_enclosed",
+        "presentation_completeness"
+      ],
+      "lc_says": "LC 46A requires Inspection Certificate from SGS or equivalent",
+      "doc_says": "Cover schedule lists 5 documents; Inspection Certificate not enclosed",
+      "rule_cite_must_contain_any_of": [
+        "art 14",
+        "article 14",
+        "14(a)",
+        "14a",
+        "46a",
+        "field 46",
+        "required document",
+        "missing document"
+      ]
+    }
+  ],
+  "non_material_examined": [
+    {
+      "expected_id": "invoice_amount_short_within_art_30c_tolerance",
+      "doc_enum": "commercial_invoice",
+      "field_aliases": [
+        "total_amount",
+        "amount",
+        "invoice_amount",
+        "total",
+        "invoice_total"
+      ],
+      "lc_says": "USD 95,000.00",
+      "doc_says": "USD 92,500.00 (2.63% short)",
+      "rule_cite_must_contain_any_of": [
+        "art 30",
+        "article 30",
+        "30(c)",
+        "30c"
+      ],
+      "must_not_appear_in_material_discrepancies": true
+    },
+    {
+      "expected_id": "insurance_coverage_exactly_at_minimum_110pct",
+      "doc_enum": "insurance_policy",
+      "field_aliases": [
+        "sum_insured",
+        "insured_sum",
+        "insurance_amount",
+        "amount_insured",
+        "coverage_amount",
+        "insured_amount",
+        "amount"
+      ],
+      "lc_says": "minimum 110% of CIF value",
+      "doc_says": "USD 104,500 = exactly 110% of CIF USD 95,000",
+      "rule_cite_must_contain_any_of": [
+        "art 28",
+        "article 28",
+        "28(f)",
+        "28f"
+      ],
+      "must_not_appear_in_material_discrepancies": true
+    },
+    {
+      "expected_id": "exporter_name_case_difference",
+      "doc_enum_any_of": [
+        "certificate_of_origin",
+        "commercial_invoice"
+      ],
+      "field_aliases": [
+        "exporter",
+        "exporter_name",
+        "beneficiary",
+        "beneficiary_name",
+        "name",
+        "seller",
+        "seller_name",
+        "shipper",
+        "shipper_name"
+      ],
+      "invoice_says": "Hangzhou Green Bag Co., Ltd. (title case)",
+      "co_says": "HANGZHOU GREEN BAG CO., LTD. (upper case)",
+      "rule_cite_must_contain_any_of": [
+        "isbp",
+        "a23",
+        "typographical",
+        "case"
+      ],
+      "must_not_appear_in_material_discrepancies": true
+    },
+    {
+      "expected_id": "invoice_title_export_invoice_acceptable",
+      "doc_enum": "commercial_invoice",
+      "field_aliases": [
+        "title",
+        "document_title",
+        "invoice_title",
+        "heading"
+      ],
+      "lc_says": "Commercial Invoice (LC 46A)",
+      "doc_says": "Title shown as 'EXPORT INVOICE' — same function, content satisfies LC requirement",
+      "rule_cite_must_contain_any_of": [
+        "isbp",
+        "a20",
+        "a19",
+        "title",
+        "art 18",
+        "article 18"
+      ],
+      "must_not_appear_in_material_discrepancies": true
+    },
+    {
+      "expected_id": "insurance_extra_tpnd_coverage_acceptable",
+      "doc_enum": "insurance_policy",
+      "field_aliases": [
+        "tpnd",
+        "extra_coverage",
+        "additional_coverage",
+        "extension_clause",
+        "additional_clauses",
+        "extra_perils"
+      ],
+      "lc_says": "ICC(A) + War + Strikes (LC 46A)",
+      "doc_says": "Policy adds Theft, Pilferage and Non-Delivery extension beyond LC requirement",
+      "rule_cite_must_contain_any_of": [
+        "isbp",
+        "k17",
+        "k18",
+        "greater cover",
+        "greater coverage",
+        "more than required",
+        "art 28"
+      ],
+      "must_not_appear_in_material_discrepancies": true
+    },
+    {
+      "expected_id": "country_of_origin_format_variance",
+      "doc_enum_any_of": [
+        "certificate_of_origin",
+        "commercial_invoice"
+      ],
+      "field_aliases": [
+        "country_of_origin",
+        "origin",
+        "country",
+        "country_origin"
+      ],
+      "invoice_says": "CHINA",
+      "co_says": "PEOPLE'S REPUBLIC OF CHINA",
+      "rule_cite_must_contain_any_of": [
+        "isbp",
+        "a23",
+        "b17",
+        "country",
+        "typographical",
+        "variation"
+      ],
+      "must_not_appear_in_material_discrepancies": true
+    }
+  ]
+}

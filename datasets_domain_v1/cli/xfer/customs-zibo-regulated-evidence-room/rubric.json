@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1,
+  "task_id": "cli-xfer-customs-zibo-regulated-evidence-room",
+  "summary": "Four-CLI customs evidence-room task. The agent must aggregate a real Zibo customs CSV by roster supplier, classify regulated evidence severity, and close dynamic IDs across Google Workspace, Jira, Box, and DWS.",
+  "category": "cross_system_customs_evidence_room",
+  "state_kind": "four_cli_mock_stateful_plus_real_csv",
+  "difficulty": "very_hard",
+  "check_strategy": "Verifier reads only final GWS/Jira/Box/DWS states and local source files. It checks exact derived supplier set, sheet rows, slides summary, Jira issue graph, Box folder/file/comment/collaboration/task objects, DWS dossier/block/comment/permission/upload/export objects, and dynamic ID closure. It does not inspect command history.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "All four mock states and target containers are reachable."},
+    {"id": "source_data_present", "check_type": "deterministic_exact", "description": "The expected customs CSV file is present and parseable."},
+    {"id": "gws_control_correct", "check_type": "deterministic_exact", "description": "Google Sheets and Slides contain exact derived rows, category summary, presentation terms, and dynamic IDs."},
+    {"id": "jira_graph_correct", "check_type": "deterministic_exact", "description": "One canonical Epic and one Task per included supplier exist with labels, priority, status, comments, and links."},
+    {"id": "box_evidence_correct", "check_type": "deterministic_exact", "description": "Box root/subfolders, uploaded evidence summaries, comments, collaborations, and tasks match the supplier set."},
+    {"id": "dws_dossiers_correct", "check_type": "deterministic_exact", "description": "DWS folder, dossiers, trace blocks, comments, permissions, upload, and export evidence match the supplier set."},
+    {"id": "cross_system_trace_correct", "check_type": "deterministic_exact", "description": "Trace Matrix closes supplier, Jira key, Box folder/file ids, DWS dossier id, severity, and owner."}
+  ],
+  "notes": "Ground truth is held in private/expected_answer.json."
+}

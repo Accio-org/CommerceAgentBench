@@ -1,0 +1,78 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-search-ad-bid-optimization",
+  "summary": "店铺搜索广告诊断与出价优化：对 20 个关键词逐一核算真实 ROI（含 LTV 调整）、识别异常流量与品牌词，按预算上限输出缩放后的出价方案与广告组级表现汇总。",
+  "category": "ecommerce_marketing_analytics",
+  "state_kind": "offline_only_local_files",
+  "difficulty": "hard",
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "keyword_diagnosis.csv",
+      "bid_plan.csv",
+      "optimization_summary.json"
+    ]
+  },
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Setup/plumbing: all three deliverables exist and parse; keyword_diagnosis.csv has 20 rows and the required columns (keyword_id, action, final_bid, adjusted_roi, diagnosis, projected_daily_cost, ltv_multiplier)."
+    },
+    {
+      "id": "anomaly_detection",
+      "check_type": "deterministic_exact",
+      "description": "Invalid-traffic detection: KW05/KW10/KW20 all have CTR>10% and are correctly excluded with final_bid=0 (KW05 is a distractor with 3 conversions but invalid traffic)."
+    },
+    {
+      "id": "insufficient_data_gate",
+      "check_type": "deterministic_exact",
+      "description": "Data-sufficiency gate: KW14 (impressions=350 < 500) is marked action=insufficient and keeps its current bid."
+    },
+    {
+      "id": "ltv_revenue_adjustment",
+      "check_type": "deterministic_exact",
+      "description": "LTV rescue computation: KW07 (×2.5 → adj_revenue=225) and KW18 (×3.0 → adj_revenue=525) apply the LTV multiplier so raw-ROI losers survive."
+    },
+    {
+      "id": "brand_protection",
+      "check_type": "deterministic_exact",
+      "description": "Brand-term protection: KW19 (brand, ROI<1.0) is action=brand_protect with final_bid=0.50, never paused."
+    },
+    {
+      "id": "negative_roi_pause",
+      "check_type": "deterministic_exact",
+      "description": "Negative-ROI pause without false LTV rescue: KW12 (ROI=0.333, LTV multiplier=1.0 so no effect) is correctly paused with final_bid=0."
+    },
+    {
+      "id": "roi_action_classification",
+      "check_type": "deterministic_exact",
+      "description": "ROI-tier → action mapping across keywords: KW01/KW03/KW08=increase (ROI≥3.0), KW02=keep (2.0≤ROI<3.0), KW04/KW17=decrease (1.0≤ROI<2.0)."
+    },
+    {
+      "id": "bid_budget_scaling",
+      "check_type": "deterministic_exact",
+      "description": "Budget-constrained bid scaling: per-keyword scaled final_bids (KW01≈1.56, KW08≈2.07, KW15≈1.56) and the summary budget math (exceeded=true, scale_factor≈0.8287, projected_after_scale≈599.54)."
+    },
+    {
+      "id": "competitor_warning",
+      "check_type": "deterministic_exact",
+      "description": "Competitor over-bid warning: KW15 (final_bid 1.56 > competitor_avg 0.70 × 2) flagged competitor_warning=true in the diagnosis row and recorded in summary competitor_warnings."
+    },
+    {
+      "id": "bid_plan_deliverable",
+      "check_type": "deterministic_exact",
+      "description": "bid_plan.csv deliverable: exactly 16 active rows, contains no excluded/paused keywords (KW05/KW10/KW12/KW20), sorted by final_bid descending."
+    },
+    {
+      "id": "summary_classification_tallies",
+      "check_type": "deterministic_exact",
+      "description": "Summary tallies: total=20, anomaly_excluded=3, insufficient_data=1, paused=1, brand_protected=1, ltv_adjusted=2, active_keywords=16, and action_distribution (increase=6, keep=4, decrease=4, pause=1, brand_protect=1, excluded=3, insufficient=1)."
+    },
+    {
+      "id": "top3_roi_ranking",
+      "check_type": "deterministic_exact",
+      "description": "Top-ROI ranking: top3_roi_keywords = [KW15, KW01, KW08] (adjusted ROI 4.167, 4.000, 3.750)."
+    }
+  ]
+}

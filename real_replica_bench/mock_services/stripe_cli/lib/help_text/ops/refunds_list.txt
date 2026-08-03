@@ -1,0 +1,57 @@
+Usage:
+  stripe refunds list [--param=value] [-d "nested[param]=value"]
+
+[Agent guidance]
+  Use --api-key to pass your key non-interactively (or set STRIPE_API_KEY).
+  Use -d to set nested params, e.g. -d "metadata[key]=value".
+  Run stripe --map to quickly see all available commands.
+  Run stripe resources to discover all available API resources.
+  Run stripe [resource] --help to see operations and required/common parameters for a resource.
+  Run stripe help [resource] [operation] to see the full parameter list for a specific operation.
+  Use --stripe-account to make requests on behalf of connected accounts.
+
+Request Parameters:
+      --charge <string>
+          Only return refunds for the charge specified by this charge ID
+      --created <integer>
+          Only return refunds that were created during the given date interval
+      --ending-before <string>
+          A cursor for use in pagination
+      --limit <integer>
+          A limit on the number of objects to be returned
+      --payment-intent <string>
+          Only return refunds for the PaymentIntent specified by this ID
+      --starting-after <string>
+          A cursor for use in pagination
+
+Flags:
+  -c, --confirm                 Skip the warning prompt and automatically
+                                confirm the command being entered
+      --dark-style              Use a darker color scheme better suited
+                                for lighter command-lines
+  -d, --data stringArray        Data for the API request
+      --dry-run                 Preview the request without sending it
+  -e, --expand stringArray      Response attributes to expand inline
+  -h, --help                    help for list
+  -i, --idempotency string      Set the idempotency key for the request,
+                                prevents replaying the same requests
+                                within 24 hours
+      --live                    Make a live request (default: test)
+  -s, --show-headers            Show response headers
+      --stripe-account string   Set a header identifying the connected account
+      --stripe-context string   Set a header identifying the compartment
+                                context
+  -v, --stripe-version string   Set the Stripe API version to use for your
+                                request
+
+Global Flags:
+      --api-key string        Your API key to use for the command
+      --color string          turn on/off color output (on, off, auto)
+      --config string         config file (default is
+                              $HOME/.config/stripe/config.toml)
+      --device-name string    device name
+      --log-level string      log level (debug, info, trace, warn, error)
+                              (default "info")
+      --map string[="tree"]   Print a command tree [tree|compact|paths|json]
+  -p, --project-name string   the project name to read from for config
+                              (default "default")

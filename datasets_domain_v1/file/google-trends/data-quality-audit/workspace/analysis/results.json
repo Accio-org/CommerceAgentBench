@@ -1,0 +1,187 @@
+{
+  "partial_data_datasets": [
+    {
+      "dataset_id": "set_airfryer",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_earbuds",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_speaker",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_vacuum",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_coffee",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_drill",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_mattress",
+      "partial_data_week_count": 1
+    },
+    {
+      "dataset_id": "set_headset",
+      "partial_data_week_count": 1
+    }
+  ],
+  "empty_query_datasets": [
+    "set_airfryer_2024",
+    "set_earbuds_2024",
+    "set_speaker_2024",
+    "set_headset_2024",
+    "edge_empty"
+  ],
+  "sub_floor_brand_presences": [
+    {
+      "slug": "vacuum",
+      "brand": "shark navigator",
+      "twelve_month_avg": 0.21
+    },
+    {
+      "slug": "mattress",
+      "brand": "leesa",
+      "twelve_month_avg": 0.48
+    },
+    {
+      "slug": "airfryer",
+      "brand": "cosori",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "airfryer",
+      "brand": "gourmia",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "airfryer",
+      "brand": "instant vortex",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "airfryer",
+      "brand": "dash air fryer",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "earbuds",
+      "brand": "bose quietcomfort earbuds",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "earbuds",
+      "brand": "jabra elite",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "earbuds",
+      "brand": "beats studio buds",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "speaker",
+      "brand": "echo dot",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "speaker",
+      "brand": "google nest mini",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "speaker",
+      "brand": "homepod mini",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "speaker",
+      "brand": "bose soundlink",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "vacuum",
+      "brand": "shark navigator",
+      "twelve_month_avg": 0.09
+    },
+    {
+      "slug": "coffee",
+      "brand": "cuisinart coffee",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "coffee",
+      "brand": "ninja coffee",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "drill",
+      "brand": "ryobi",
+      "twelve_month_avg": 0.02
+    },
+    {
+      "slug": "mattress",
+      "brand": "purple mattress",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "mattress",
+      "brand": "leesa",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "headset",
+      "brand": "razer kraken",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "headset",
+      "brand": "logitech g",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "headset",
+      "brand": "hyperx cloud",
+      "twelve_month_avg": 0.0
+    },
+    {
+      "slug": "headset",
+      "brand": "steelseries arctis",
+      "twelve_month_avg": 0.0
+    }
+  ],
+  "monopoly_datasets": [
+    {
+      "slug": "airfryer",
+      "leader": "ninja air fryer",
+      "leader_share": 0.76
+    },
+    {
+      "slug": "coffee",
+      "leader": "breville",
+      "leader_share": 0.68
+    },
+    {
+      "slug": "airfryer",
+      "leader": "ninja air fryer",
+      "leader_share": 1.0
+    },
+    {
+      "slug": "speaker",
+      "leader": "sonos era",
+      "leader_share": 1.0
+    },
+    {
+      "slug": "headset",
+      "leader": "astro a40",
+      "leader_share": 1.0
+    }
+  ]
+}

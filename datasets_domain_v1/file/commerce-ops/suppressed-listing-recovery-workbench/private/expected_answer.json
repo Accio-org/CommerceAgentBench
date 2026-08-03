@@ -1,0 +1,467 @@
+{
+  "task_id": "file-commerce-ops-suppressed-listing-recovery-workbench",
+  "schema_notes": "Ground truth for the suppressed-listing recovery task. Each *_required_tokens_lowercase / *_allowed lists are evaluated case-insensitively against the agent's submitted JSON.",
+  "required_fields": [
+    "title",
+    "bullet_1",
+    "bullet_2",
+    "bullet_3",
+    "bullet_4",
+    "bullet_5",
+    "description",
+    "search_terms",
+    "image_recommendation",
+    "suppression_reason_resolutions",
+    "fields_needing_more_evidence"
+  ],
+  "title": {
+    "required_tokens_all": [
+      "750",
+      "stainless",
+      "bottle"
+    ],
+    "max_chars": 200
+  },
+  "title_banned_terms": [
+    "best seller",
+    "free 2-day",
+    "free 2 day",
+    "free delivery",
+    "discount",
+    "20% off",
+    "eco-friendly",
+    "zero-waste",
+    "carbon neutral",
+    "stanley",
+    "yeti",
+    "non-toxic",
+    "safe for kids"
+  ],
+  "bullet_specs": {
+    "bullet_1": {
+      "required_any_of_groups": [
+        [
+          "lfgb"
+        ],
+        [
+          "304",
+          "stainless"
+        ]
+      ],
+      "banned": []
+    },
+    "bullet_2": {
+      "required_any_of_groups": [
+        [
+          "cold",
+          "10"
+        ],
+        [
+          "cold",
+          "9.8"
+        ],
+        [
+          "cold",
+          "lab"
+        ],
+        [
+          "cold",
+          "tested"
+        ]
+      ],
+      "banned": [
+        "24h hot",
+        "hot for 24",
+        "24 hour hot",
+        "hot or cold for 24",
+        "all day"
+      ]
+    },
+    "bullet_3": {
+      "required_any_of_groups": [
+        [
+          "leak-resistant"
+        ],
+        [
+          "leak resistant"
+        ],
+        [
+          "no visible leak"
+        ],
+        [
+          "static"
+        ],
+        [
+          "bag-shake"
+        ],
+        [
+          "inverted"
+        ]
+      ],
+      "banned": [
+        "leak-proof",
+        "leakproof",
+        "spills never happen",
+        "no spills"
+      ]
+    },
+    "bullet_4": {
+      "required_any_of_groups": [
+        [
+          "top-rack",
+          "loopcap"
+        ],
+        [
+          "top rack",
+          "loopcap"
+        ],
+        [
+          "top-rack",
+          "lid"
+        ],
+        [
+          "top rack",
+          "lid"
+        ],
+        [
+          "top-rack",
+          "hand-wash"
+        ],
+        [
+          "top rack",
+          "hand wash"
+        ]
+      ],
+      "banned": [
+        "fully dishwasher safe",
+        "all parts dishwasher",
+        "dishwasher safe bottle and lid"
+      ]
+    },
+    "bullet_5": {
+      "required_any_of_groups": [
+        [
+          "bpa",
+          "loopcap"
+        ],
+        [
+          "bpa not detected"
+        ],
+        [
+          "bpa-free",
+          "loopcap"
+        ],
+        [
+          "bpa free",
+          "loopcap"
+        ],
+        [
+          "cert-bpa"
+        ]
+      ],
+      "banned": [
+        "non-toxic",
+        "safe for kids",
+        "safe for children",
+        "child-safe"
+      ]
+    }
+  },
+  "description": {
+    "required_tokens_min": 3,
+    "required_tokens_any": [
+      "750",
+      "stainless",
+      "loopcap",
+      "loop cap",
+      "hiking",
+      "hydration",
+      "commute",
+      "matte",
+      "304"
+    ],
+    "banned": [
+      "eco-friendly",
+      "eco friendly",
+      "zero-waste",
+      "zero waste",
+      "carbon neutral",
+      "carbon-neutral",
+      "best seller"
+    ]
+  },
+  "search_terms": {
+    "min_distinct_allowed_tokens": 4,
+    "allowed_tokens_lowercase": [
+      "750ml",
+      "750",
+      "insulated",
+      "stainless",
+      "steel",
+      "water",
+      "bottle",
+      "loop",
+      "cap",
+      "loopcap",
+      "matte",
+      "black",
+      "hiking",
+      "commute",
+      "commuter",
+      "lfgb",
+      "bpa",
+      "free",
+      "bpa-free",
+      "304",
+      "outdoor",
+      "outdoors",
+      "reusable",
+      "gym",
+      "sport",
+      "sports",
+      "travel",
+      "school",
+      "workout",
+      "thermos",
+      "vacuum",
+      "hydration",
+      "drinkware",
+      "tumbler",
+      "fitness",
+      "trail",
+      "and",
+      "with",
+      "for",
+      "the"
+    ],
+    "banned": [
+      "stanley",
+      "yeti",
+      "best",
+      "seller",
+      "free shipping",
+      "non-toxic",
+      "safe for kids",
+      "discount",
+      "eco-friendly",
+      "carbon"
+    ]
+  },
+  "image_recommendation": {
+    "selected_image_required_substrs": [
+      "product_image_a"
+    ],
+    "rejected_image_required_substrs": [
+      "product_image_b"
+    ],
+    "reason_required_any": [
+      "20%",
+      "discount",
+      "overlay",
+      "promo",
+      "best seller",
+      "ocr",
+      "image_text_promo"
+    ]
+  },
+  "suppression_resolutions": {
+    "required_codes": [
+      "PROHIBITED_PROMO",
+      "UNSUPPORTED_PERFORMANCE",
+      "RESTRICTED_SAFETY_CLAIM",
+      "IMAGE_TEXT_PROMO",
+      "COMPETITOR_BRAND_TERM",
+      "DISHWASHER_SCOPE_CONFLICT",
+      "ENVIRONMENTAL_CLAIM_UNSUPPORTED"
+    ],
+    "per_code": {
+      "PROHIBITED_PROMO": {
+        "evidence_files_allowed": [
+          "workspace/review_inputs/field_level_suppression_export.csv",
+          "workspace/policies/listing_quality_and_restricted_claims.pdf",
+          "workspace/workbench/suppression_workbench_snapshot.html",
+          "workspace/listing/current_listing_state.json"
+        ],
+        "resolution_action_required_any": [
+          "rewrote_title",
+          "removed_promo",
+          "removed promo",
+          "stripped_promo",
+          "neutral_specs",
+          "removed best seller",
+          "removed free 2-day",
+          "removed free delivery",
+          "rewrote title to neutral"
+        ]
+      },
+      "UNSUPPORTED_PERFORMANCE": {
+        "evidence_files_allowed": [
+          "workspace/source_evidence/supplier_certificates.md",
+          "workspace/review_inputs/field_level_suppression_export.csv"
+        ],
+        "resolution_action_required_any": [
+          "narrowed_to_lab_evidence",
+          "narrowed to lab",
+          "lab-temp-750-apr",
+          "lab-temp",
+          "removed 24h hot",
+          "removed_24h_hot",
+          "narrowed to cold",
+          "cold-only",
+          "cold only",
+          "replaced with cold",
+          "narrowed to evidence"
+        ]
+      },
+      "RESTRICTED_SAFETY_CLAIM": {
+        "evidence_files_allowed": [
+          "workspace/policies/listing_quality_and_restricted_claims.pdf",
+          "workspace/source_evidence/supplier_certificates.md",
+          "workspace/review_inputs/field_level_suppression_export.csv"
+        ],
+        "resolution_action_required_any": [
+          "removed_safety_claim",
+          "removed safety",
+          "removed non-toxic",
+          "removed safe for kids",
+          "replaced with bpa",
+          "replaced_with_bpa",
+          "cert-bpa",
+          "narrowed to bpa"
+        ]
+      },
+      "IMAGE_TEXT_PROMO": {
+        "evidence_files_allowed": [
+          "workspace/review_inputs/image_ocr_results.json",
+          "workspace/source_evidence/product_photos/product_image_a.jpg",
+          "workspace/source_evidence/product_photos/",
+          "workspace/workbench/suppression_workbench_snapshot.html",
+          "workspace/review_inputs/field_level_suppression_export.csv"
+        ],
+        "resolution_action_required_any": [
+          "replaced_image",
+          "replaced image",
+          "swapped_image",
+          "swapped image",
+          "removed_overlay",
+          "removed overlay",
+          "product_image_a",
+          "use clean image"
+        ]
+      },
+      "COMPETITOR_BRAND_TERM": {
+        "evidence_files_allowed": [
+          "workspace/review_inputs/field_level_suppression_export.csv",
+          "workspace/review_inputs/candidate_copy_options.csv",
+          "workspace/policies/listing_quality_and_restricted_claims.pdf",
+          "workspace/messages/catalog_team_thread.md"
+        ],
+        "resolution_action_required_any": [
+          "removed_competitor",
+          "removed competitor",
+          "removed stanley",
+          "removed yeti",
+          "stripped_competitor",
+          "replaced search terms",
+          "replaced_search_terms",
+          "replaced backend",
+          "rewrote search"
+        ]
+      },
+      "DISHWASHER_SCOPE_CONFLICT": {
+        "evidence_files_allowed": [
+          "workspace/source_evidence/supplier_certificates.md",
+          "workspace/review_inputs/field_level_suppression_export.csv",
+          "workspace/review_inputs/candidate_copy_options.csv"
+        ],
+        "resolution_action_required_any": [
+          "narrowed_to_top_rack",
+          "narrowed to top-rack",
+          "narrowed to top rack",
+          "top-rack loopcap",
+          "top rack loopcap",
+          "lab-dish",
+          "lab-dish-750-mar",
+          "hand-wash body",
+          "hand wash body",
+          "qualified scope"
+        ]
+      },
+      "ENVIRONMENTAL_CLAIM_UNSUPPORTED": {
+        "evidence_files_allowed": [
+          "workspace/source_evidence/supplier_certificates.md",
+          "workspace/messages/catalog_team_thread.md",
+          "workspace/review_inputs/field_level_suppression_export.csv"
+        ],
+        "resolution_action_required_any": [
+          "removed_eco",
+          "removed eco",
+          "removed_zero_waste",
+          "removed zero-waste",
+          "removed_carbon",
+          "removed carbon",
+          "stripped_environmental",
+          "narrowed to recycled paperboard",
+          "pack-bom",
+          "pack-bom-750-may",
+          "removed environmental"
+        ]
+      }
+    }
+  },
+  "evidence_manifest": {
+    "min_real_files_referenced": 3,
+    "real_file_path_roots": [
+      "source_evidence",
+      "review_inputs",
+      "policies",
+      "listing",
+      "workbench",
+      "messages"
+    ]
+  },
+  "fields_needing_more_evidence": {
+    "min_items": 1,
+    "topic_required_any": [
+      "hot retention",
+      "24h hot",
+      "24 hour hot",
+      "12h hot",
+      "hot beyond",
+      "long hot",
+      "carbon",
+      "zero-waste",
+      "zero waste",
+      "competitor price",
+      "price-comp",
+      "price comp"
+    ]
+  },
+  "recovery_note_topics": {
+    "min_topics_covered": 4,
+    "topics": {
+      "title_change": "title",
+      "bullet_compliance": "bullet",
+      "evidence_attached": "evidence|certificate|cert-|lab-|lfgb|bpa not detected|cert-bpa|cert-lfgb",
+      "image_handling": "image|photo|overlay|discount",
+      "search_terms_cleanup": "search.?term|backend|competitor"
+    }
+  },
+  "all_banned_terms": [
+    "best seller",
+    "free 2-day",
+    "free delivery",
+    "20% off",
+    "discount",
+    "eco-friendly",
+    "zero-waste",
+    "carbon neutral",
+    "stanley",
+    "yeti",
+    "non-toxic",
+    "safe for kids",
+    "24h hot",
+    "leak-proof",
+    "spills never happen"
+  ]
+}

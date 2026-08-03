@@ -1,0 +1,33 @@
+Interactive Jira command line.
+
+[1mUSAGE[0m
+  jira <command> <subcommand> [flags]
+
+[1mMAIN COMMANDS[0m
+  board       Board manages Jira boards in a project
+  epic        Epic manage epics in a project
+  issue       Issue manage issues in a project
+  open        Open issue in a browser
+  project     Project manages Jira projects
+  release     Release manages Jira Project versions
+  sprint      Sprint manage sprints in a project board
+
+[1mOTHER COMMANDS[0m
+  completion  Output shell completion code for the specified shell (bash or zsh)
+  help        Help about any command
+  init        Init initializes jira config
+  man         Help generate man(7) pages for Jira CLI
+  me          Displays configured jira user
+  serverinfo  Displays information about the Jira instance
+  version     Print the app version information
+
+[1mFLAGS[0m
+  -c, --config string    Config file (default is /CONFIG/.jira/.config.yml, can be overridden with JIRA_CONFIG_FILE env var)
+      --debug            Turn on debug output
+  -h, --help             help for jira
+  -p, --project string   Jira project to look into (defaults to /CONFIG/.jira/.config.yml)
+
+[1mLEARN MORE[0m
+  Use 'jira <command> <subcommand> --help' for more information about a command.
+  Read the doc or get help at https://github.com/ankitpokhrel/jira-cli
+

@@ -1,0 +1,6 @@
+From: no-reply@calendly.example
+To: wen.li@northstar-dtc.com
+Date: Wed, 06 May 2026 02:58
+Subject: Payroll: May cycle confirmation
+
+Your May payroll has been processed. View your statement in the portal. This is an automated message.

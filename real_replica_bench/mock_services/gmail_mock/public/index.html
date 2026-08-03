@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>收件箱 (72) - kylekk0215@gmail.com - Gmail Mock</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="gmail-shell" aria-label="Gmail">
+      <header class="topbar">
+        <button class="icon-button" id="menu-button" data-command="toggle_main_menu" type="button" aria-label="主菜单">
+          <svg class="g-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z" /></svg>
+        </button>
+        <a class="brand" href="/" aria-label="Gmail">
+          <svg class="gmail-logo" viewBox="0 0 256 193" aria-hidden="true" focusable="false">
+            <path class="gmail-blue" d="M58.181 192.05V93.14L27.507 65.077 0 49.504v125.091c0 9.658 7.825 17.455 17.455 17.455h40.727z" />
+            <path class="gmail-green" d="M197.819 192.05h40.727c9.659 0 17.455-7.826 17.455-17.455V49.505l-31.156 17.837-27.026 25.798v98.91z" />
+            <path class="gmail-red-main" d="m58.181 93.14-4.174-38.647 4.174-36.989L128 69.868l69.819-52.364 4.669 34.992-4.669 40.644L128 145.504z" />
+            <path class="gmail-yellow" d="M197.819 17.504V93.14L256 49.504V26.232c0-21.585-24.64-33.89-41.891-20.945z" />
+            <path class="gmail-red-left" d="M0 49.504 26.759 69.573 58.181 93.14V17.504L41.89 5.287C24.61-7.658 0 4.648 0 26.232z" />
+          </svg>
+          <span>Gmail</span>
+        </a>
+        <form class="search" role="search" aria-label="搜索">
+          <svg class="search-glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M9.7 4.5a5.2 5.2 0 1 1 0 10.4 5.2 5.2 0 0 1 0-10.4m0-2a7.2 7.2 0 1 0 4.5 12.8l4.2 4.2 1.4-1.4-4.2-4.2A7.2 7.2 0 0 0 9.7 2.5z" />
+          </svg>
+          <label class="sr-only" for="search-input">搜索邮件</label>
+          <input id="search-input" type="search" aria-label="搜索邮件" placeholder="搜索邮件" autocomplete="off" />
+          <button id="advanced-search-button" class="icon-button" type="button" aria-label="高级搜索选项">
+            <svg class="tune-glyph" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M4 7h8.2a2.7 2.7 0 0 0 5.1 0H20V5h-2.7a2.7 2.7 0 0 0-5.1 0H4zm10.7-.9a.9.9 0 1 1 1.8 0 .9.9 0 0 1-1.8 0zM4 13h2.7a2.7 2.7 0 0 0 5.1 0H20v-2h-8.2a2.7 2.7 0 0 0-5.1 0H4zm4.2-.9a.9.9 0 1 1 1.8 0 .9.9 0 0 1-1.8 0zM4 19h11.2a2.7 2.7 0 0 0 5.1 0H20v-2h.3a2.7 2.7 0 0 0-5.1 0H4zm13.7-.9a.9.9 0 1 1 1.8 0 .9.9 0 0 1-1.8 0z" />
+            </svg>
+          </button>
+          <button id="search-button" class="icon-button" type="submit" aria-label="搜索邮件" disabled>
+            <svg class="search-glyph small" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M9.7 4.5a5.2 5.2 0 1 1 0 10.4 5.2 5.2 0 0 1 0-10.4m0-2a7.2 7.2 0 1 0 4.5 12.8l4.2 4.2 1.4-1.4-4.2-4.2A7.2 7.2 0 0 0 9.7 2.5z" />
+            </svg>
+          </button>
+        </form>
+        <nav class="top-actions" aria-label="Google 工具">
+          <button class="icon-button" type="button" data-command="support_menu" aria-label="支持">
+            <svg class="g-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11 18h2v-2h-2zm1-16a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm0-14a3 3 0 0 0-3 3h2a1 1 0 1 1 1 1c-1.7 0-3 1.3-3 3v1h2v-1c0-.6.4-1 1-1a3 3 0 0 0 0-6z" /></svg>
+          </button>
+          <button class="icon-button" id="settings-button" type="button" aria-label="设置">
+            <svg class="g-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19.4 13.5a7.8 7.8 0 0 0 .1-1.5 7.8 7.8 0 0 0-.1-1.5l2-1.5-2-3.5-2.4 1a7.2 7.2 0 0 0-2.6-1.5L14 2h-4l-.4 2.5A7.2 7.2 0 0 0 7 6L4.6 5 2.6 8.5l2 1.5A7.8 7.8 0 0 0 4.5 12c0 .5 0 1 .1 1.5l-2 1.5 2 3.5 2.4-1a7.2 7.2 0 0 0 2.6 1.5L10 22h4l.4-2.5A7.2 7.2 0 0 0 17 18l2.4 1 2-3.5zm-7.4 2A3.5 3.5 0 1 1 12 8a3.5 3.5 0 0 1 0 7.5z" /></svg>
+          </button>
+          <button class="icon-button gemini" type="button" data-command="gemini_panel" aria-label="问问 Gemini">
+            <svg class="g-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2c1 5 4.5 8.5 10 10-5.5 1.5-9 5-10 10-1-5-4.5-8.5-10-10 5.5-1.5 9-5 10-10z" /></svg>
+          </button>
+          <button class="icon-button" type="button" data-command="google_apps_menu" aria-label="Google 应用">
+            <svg class="g-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 10h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 16h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4z" /></svg>
+          </button>
+          <button class="avatar" type="button" data-command="account_menu" aria-label="Google 账号：Yukun Lian (kylekk0215@gmail.com)">Y</button>
+        </nav>
+      </header>
+
+      <section class="notice" role="status" aria-live="polite">
+        <span>为 Gmail 启用桌面通知。</span>
+        <button type="button" id="notice-enable">确定</button>
+        <button type="button" id="notice-dismiss">不用了</button>
+        <button class="icon-button" id="notice-close" type="button" aria-label="关闭通知提示">×</button>
+      </section>
+
+      <div class="workspace">
+        <aside class="sidebar" aria-label="标签">
+          <button class="compose-button" id="compose-button" type="button" aria-label="写邮件">
+            <svg class="g-icon compose-pencil" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 17.25V21h3.75L17.8 9.95l-3.75-3.75L3 17.25zm17.7-10.2a1 1 0 0 0 0-1.4l-2.35-2.35a1 1 0 0 0-1.4 0l-1.85 1.85 3.75 3.75z" /></svg>
+            <span>写邮件</span>
+          </button>
+          <nav id="label-list" class="labels" aria-label="标签"></nav>
+          <section class="label-heading">
+            <h2>标签</h2>
+            <button class="icon-button" id="create-label-button" type="button" aria-label="创建新标签">＋</button>
+          </section>
+          <nav id="user-label-list" class="labels user-labels" aria-label="用户标签"></nav>
+        </aside>
+
+        <section class="mail-panel" aria-label="会话">
+          <div class="toolbar" id="toolbar" aria-label="邮件工具栏"></div>
+          <div class="tabs" role="tablist" aria-label="收件箱分类" id="category-tabs"></div>
+          <div class="message-region" id="message-region">
+            <table class="message-table" aria-label="会话">
+              <tbody id="message-list"></tbody>
+            </table>
+            <article class="detail-view" id="detail-view" aria-label="邮件详情" hidden></article>
+          </div>
+          <footer class="footer">
+            <a href="#" aria-label="访问链接以管理存储空间">已使用 5,120 GB 中的 0%</a>
+            <span>条款 · 隐私权 · Gmail 相关政策</span>
+            <span>上次账号活动时间：7分钟前</span>
+          </footer>
+        </section>
+
+        <aside class="companion-panel" id="companion-panel" aria-label="Google Workspace 侧边栏" hidden></aside>
+
+        <aside class="right-rail" aria-label="侧边栏">
+          <button type="button" data-panel="calendar" aria-label="Google 日历">
+            <span class="calendar-glyph" aria-hidden="true">31</span>
+          </button>
+          <button type="button" data-panel="keep" aria-label="Keep">
+            <svg class="rail-icon keep-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 21h6v-1H9zm3-19a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2zm2.7 11.2-.7.5V15h-4v-1.3l-.7-.5A5 5 0 1 1 14.7 13.2z" /></svg>
+          </button>
+          <button type="button" data-panel="tasks" aria-label="Tasks">
+            <svg class="rail-icon tasks-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a10 10 0 1 0 .01 0zM10 15.5 6.5 12l1.4-1.4 2.1 2.1 5.6-5.6L17 8.5z" /></svg>
+          </button>
+          <button type="button" data-panel="contacts" aria-label="通讯录">
+            <svg class="rail-icon contacts-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-4.4 0-8 2.2-8 5v1h16v-1c0-2.8-3.6-5-8-5z" /></svg>
+          </button>
+          <button type="button" data-panel="addons" aria-label="获取插件">
+            <svg class="rail-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z" /></svg>
+          </button>
+          <span class="rail-divider" aria-hidden="true"></span>
+          <button type="button" id="hide-side-panel" aria-label="隐藏侧边栏">
+            <svg class="rail-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m10 6 6 6-6 6-1.4-1.4 4.6-4.6-4.6-4.6z" /></svg>
+          </button>
+        </aside>
+      </div>
+    </main>
+
+    <section class="compose" id="compose" aria-label="撰写：新邮件" hidden>
+      <header class="compose-header">
+        <h2>新邮件</h2>
+        <div>
+          <button type="button" id="minimize-compose" aria-label="最小化">−</button>
+          <button type="button" id="fullscreen-compose" data-command="compose_fullscreen" aria-label="全屏模式（按 Shift 可弹出窗口）">↗</button>
+          <button type="button" id="close-compose" aria-label="保存并关闭">×</button>
+        </div>
+      </header>
+      <div class="compose-fields">
+        <label>
+          <span>收件人</span>
+          <input id="to-field" aria-label="发送至收件人" autocomplete="off" />
+        </label>
+        <div class="cc-row">
+          <button type="button" id="cc-button">抄送</button>
+          <button type="button" id="bcc-button">密送</button>
+        </div>
+        <label id="cc-wrap" hidden>
+          <span>抄送</span>
+          <input id="cc-field" aria-label="添加抄送收件人" autocomplete="off" />
+        </label>
+        <label id="bcc-wrap" hidden>
+          <span>密送</span>
+          <input id="bcc-field" aria-label="添加密送收件人" autocomplete="off" />
+        </label>
+        <label>
+          <span class="sr-only">主题</span>
+          <input id="subject-field" aria-label="主题" placeholder="主题" />
+        </label>
+        <label class="body-label">
+          <span class="sr-only">邮件正文</span>
+          <textarea id="body-field" aria-label="邮件正文"></textarea>
+        </label>
+      </div>
+      <footer class="compose-actions">
+        <button class="send-button" id="send-button" type="button">发送</button>
+        <button class="icon-button" id="send-options-button" type="button" aria-label="更多发送选项">▾</button>
+        <button class="icon-button" type="button" data-command="compose_formatting" aria-label="格式化选项">A</button>
+        <button class="icon-button" type="button" data-command="compose_attach" aria-label="添加附件">📎</button>
+        <button class="icon-button" type="button" data-command="compose_link" aria-label="插入链接">🔗</button>
+        <button class="icon-button" type="button" data-command="compose_emoji" aria-label="插入表情符号">☺</button>
+        <button class="icon-button" type="button" data-command="compose_drive" aria-label="使用云端硬盘插入文件">△</button>
+        <button class="icon-button" type="button" data-command="compose_photo" aria-label="插入照片">▣</button>
+        <button class="icon-button" id="discard-draft" type="button" aria-label="舍弃草稿">🗑</button>
+      </footer>
+    </section>
+
+    <section class="advanced-search" id="advanced-search" role="dialog" aria-modal="true" aria-labelledby="advanced-search-title" hidden>
+      <div class="dialog-card">
+        <header>
+          <h2 id="advanced-search-title">高级搜索选项</h2>
+          <button type="button" id="close-advanced" aria-label="关闭高级搜索">×</button>
+        </header>
+        <label>
+          <span>发件人</span>
+          <input id="adv-from" aria-label="发件人" />
+        </label>
+        <label>
+          <span>收件人</span>
+          <input id="adv-to" aria-label="收件人" />
+        </label>
+        <label>
+          <span>主题</span>
+          <input id="adv-subject" aria-label="主题包含" />
+        </label>
+        <label>
+          <span>包含字词</span>
+          <input id="adv-has" aria-label="包含字词" />
+        </label>
+        <label>
+          <span>不包含</span>
+          <input id="adv-not" aria-label="不包含字词" />
+        </label>
+        <label>
+          <span>标签</span>
+          <select id="adv-label" aria-label="搜索标签">
+            <option value="">所有邮件</option>
+          </select>
+        </label>
+        <label class="checkline">
+          <input id="adv-attachment" type="checkbox" />
+          <span>含附件</span>
+        </label>
+        <footer>
+          <button type="button" id="advanced-clear">清除</button>
+          <button type="button" id="advanced-apply">搜索</button>
+        </footer>
+      </div>
+    </section>
+
+    <section class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+      <div class="modal-card">
+        <header>
+          <h2 id="modal-title"></h2>
+          <button type="button" id="modal-close" aria-label="关闭">×</button>
+        </header>
+        <div id="modal-body"></div>
+        <footer id="modal-footer"></footer>
+      </div>
+    </section>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <script src="/app.js"></script>
+  </body>
+</html>

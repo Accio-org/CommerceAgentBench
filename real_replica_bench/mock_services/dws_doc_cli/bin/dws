@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+set -eu
+
+DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+
+if command -v bun >/dev/null 2>&1; then
+  exec bun "$DIR/dws.js" "$@"
+fi
+
+exec node "$DIR/dws.js" "$@"

@@ -1,0 +1,4 @@
+
+Setting up fixture for: customer
+Running fixture for: customer
+Trigger succeeded! Check dashboard for event details.

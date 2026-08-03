@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "file-commerce-ops-lc-eco-tote-discrepancy-audit answer.json",
+  "type": "object",
+  "required": [
+    "material_discrepancies",
+    "non_material_examined",
+    "decision_enum"
+  ],
+  "properties": {
+    "material_discrepancies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["doc", "field", "rule_cite"],
+        "properties": {
+          "id": {"type": "string"},
+          "doc": {
+            "type": "string",
+            "enum": [
+              "commercial_invoice",
+              "packing_list",
+              "bill_of_lading",
+              "certificate_of_origin",
+              "insurance_policy",
+              "bank_presentation_schedule",
+              "cover_letter"
+            ]
+          },
+          "field": {"type": "string"},
+          "lc_says": {"type": "string"},
+          "doc_says": {"type": "string"},
+          "rule_cite": {"type": "string"},
+          "reason": {"type": "string"}
+        }
+      }
+    },
+    "non_material_examined": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["doc", "field", "rule_cite"],
+        "properties": {
+          "id": {"type": "string"},
+          "doc": {"type": "string"},
+          "field": {"type": "string"},
+          "lc_says": {"type": "string"},
+          "doc_says": {"type": "string"},
+          "rule_cite": {"type": "string"},
+          "reason": {"type": "string"}
+        }
+      }
+    },
+    "decision_enum": {
+      "type": "string",
+      "enum": ["compliant", "discrepant"]
+    },
+    "decision_reason": {"type": "string"}
+  }
+}

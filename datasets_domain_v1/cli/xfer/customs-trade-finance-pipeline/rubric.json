@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1,
+  "task_id": "cli-xfer-customs-trade-finance-pipeline",
+  "summary": "Three-CLI transfer task using 8,277 real US export customs records across Dongying, Zibo, and Guangzhou regions. The agent must aggregate by supplier, apply tiered qualification thresholds (Priority A/B/C), and build a cross-system trade finance pipeline across DWS (structured report with blocks, folder, sub-reports, collaboration), Stripe (customers, products per HS chapter, invoices with line items, tax rates, coupons), and Todoist (priority sections, supplier tasks with lifecycle management). Cross-system traceability requires Stripe customer IDs in Todoist task content.",
+  "category": "cross_system_trade_finance_pipeline",
+  "state_kind": "triple_cli_mock_stateful_plus_real_file",
+  "difficulty": "very_hard",
+  "check_strategy": "Verifier reads only final dws/stripe/todoist states over verifier-only endpoints. It checks supplier qualification against real CSV aggregation, DWS document/folder/block structure, Stripe customer/invoice/product state, Todoist project/section/task placement and lifecycle, and cross-system Stripe ID references in Todoist tasks. It does not inspect command history.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "All three mock states are reachable and contain the expected project/document containers."},
+    {"id": "dws_report_structure", "check_type": "deterministic_exact", "description": "DWS has analysis folder, main report document, three regional sub-reports moved to folder, comments, permissions for team, uploaded CSV files, and exported document."},
+    {"id": "dws_content_correct", "check_type": "deterministic_exact", "description": "DWS main report blocks contain correct supplier aggregation data (supplier name, priority, amounts, shipments) for each of the 12 qualified suppliers."},
+    {"id": "stripe_customers_correct", "check_type": "deterministic_exact", "description": "Stripe has exactly 12 customer records matching qualified supplier names with correct priority/region metadata."},
+    {"id": "stripe_products_and_pricing", "check_type": "deterministic_exact", "description": "Stripe has products per HS chapter, prices at correct unit amount, tax rates per region, and the volume discount coupon."},
+    {"id": "stripe_invoices_correct", "check_type": "deterministic_exact", "description": "Stripe has one draft invoice per qualified supplier with correct line items and description."},
+    {"id": "todoist_queue_correct", "check_type": "deterministic_exact", "description": "Todoist project has exactly 4 sections with correct names, supplier tasks placed in correct priority sections with right content/priority/labels, completed setup task, and demonstrated reopen flow."},
+    {"id": "cross_system_trace", "check_type": "deterministic_exact", "description": "Todoist supplier task content includes Stripe customer ID references."},
+    {"id": "source_data_present", "check_type": "deterministic_exact", "description": "Original CSV files remain present and parseable with correct row counts."}
+  ],
+  "notes": "Ground truth is held in private/expected_answer.json. 12 qualified suppliers across 3 priority tiers, derived from real customs data aggregation."
+}

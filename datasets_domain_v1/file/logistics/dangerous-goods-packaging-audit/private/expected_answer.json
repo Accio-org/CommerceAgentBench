@@ -1,0 +1,115 @@
+{
+  "task_id": "file-logistics-dangerous-goods-packaging-audit",
+  "ship_status_by_sku": {
+    "CERAMIC-MUG": ["air_ok"],
+    "TRAIL-750-BLK": ["air_ok"],
+    "AROMA-SPRAY-100": ["ground_only", "block_pending_docs"],
+    "PERFUME-ROLLER-30": ["ground_only", "block_pending_docs"],
+    "POWERBANK-20K": ["ground_only", "block_pending_docs"],
+    "CLEAN-TAB-OXI": ["block_pending_docs", "block_not_allowed"],
+    "LED-LANTERN-BATT": ["block_pending_docs", "ground_only"]
+  },
+  "hazard_profile_by_sku": {
+    "CERAMIC-MUG": {
+      "is_dangerous_goods": false,
+      "hazard_class": "None",
+      "un_number": null,
+      "packaging_group": "N/A",
+      "required_evidence": {
+        "source_file": "files/sds/ceramic-mug_sds.pdf",
+        "sections": []
+      }
+    },
+    "TRAIL-750-BLK": {
+      "is_dangerous_goods": false,
+      "hazard_class": "None",
+      "un_number": null,
+      "packaging_group": "N/A",
+      "required_evidence": {
+        "source_file": "files/sds/trail-750-blk_sds.pdf",
+        "sections": []
+      }
+    },
+    "AROMA-SPRAY-100": {
+      "is_dangerous_goods": true,
+      "hazard_class": "Class 2.1",
+      "un_number": "UN1950",
+      "packaging_group": "N/A",
+      "required_evidence": {
+        "source_file": "files/sds/aroma-spray-100_sds.pdf",
+        "sections": ["section 2", "section 4", "section 14"]
+      }
+    },
+    "PERFUME-ROLLER-30": {
+      "is_dangerous_goods": true,
+      "hazard_class": "Class 3",
+      "un_number": "UN1170",
+      "packaging_group": "II",
+      "required_evidence": {
+        "source_file": "files/sds/perfume-roller-30_sds.pdf",
+        "sections": ["section 2", "section 4", "section 14"]
+      }
+    },
+    "POWERBANK-20K": {
+      "is_dangerous_goods": true,
+      "hazard_class": "Class 9",
+      "un_number": "UN3480",
+      "packaging_group": "N/A",
+      "required_evidence": {
+        "source_file": "files/sds/powerbank-20k_sds.pdf",
+        "sections": ["section 2", "section 4", "section 14"]
+      }
+    },
+    "LED-LANTERN-BATT": {
+      "is_dangerous_goods": true,
+      "hazard_class": "Class 9",
+      "un_number": "UN3481",
+      "packaging_group": "N/A",
+      "required_evidence": {
+        "source_file": "files/sds/led-lantern-batt_sds.pdf",
+        "sections": ["section 2", "section 4", "section 14"]
+      }
+    },
+    "CLEAN-TAB-OXI": {
+      "is_dangerous_goods": true,
+      "hazard_class": "Class 5.1",
+      "un_number": "UN1479",
+      "packaging_group": "II",
+      "required_evidence": {
+        "source_file": "files/sds/clean-tab-oxi_sds.pdf",
+        "sections": ["section 2", "section 4", "section 14"]
+      }
+    }
+  },
+  "blocked_sku_ids": [
+    "CLEAN-TAB-OXI",
+    "AROMA-SPRAY-100",
+    "POWERBANK-20K",
+    "PERFUME-ROLLER-30",
+    "LED-LANTERN-BATT"
+  ],
+  "valid_documentation_gap_codes": [
+    "missing_lithium_battery_mark",
+    "missing_section_14",
+    "missing_un_label",
+    "missing_packaging_group_evidence",
+    "missing_oxidizer_label",
+    "missing_limited_quantity_mark",
+    "missing_wh_rating",
+    "missing_aerosol_lq_program",
+    "missing_air_carrier_approval",
+    "missing_inner_packaging_confirmation",
+    "missing_outer_battery_mark",
+    "missing_orientation_arrows",
+    "missing_short_circuit_protection",
+    "missing_state_of_charge_evidence",
+    "missing_equipment_packing_method",
+    "missing_carrier_lq_approval"
+  ],
+  "valid_channel_promise_actions": [
+    "keep_air",
+    "disable_air",
+    "keep_ground_only",
+    "block_until_docs"
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "audit_date": "2026-05-30",
+  "qa_reviewer_login": "qa-review@northbridge.example.com",
+  "qa_reviewer_user_id": "10009",
+  "task_due_at": "2026-06-06T17:00:00Z",
+  "suppliers_root_id": "20000",
+  "suppliers": [
+    {
+      "folder_id": "21001",
+      "folder_name": "Shenzhen ClipStand",
+      "token": "ShenzhenClipStand",
+      "uscc": "91440300RHHU7BYW16",
+      "product_line": "aluminium phone stands and tablet mounts",
+      "group": "scope",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21002",
+      "folder_name": "Dongguan SoftShell",
+      "token": "DongguanSoftShell",
+      "uscc": "91441900W5L95KCQYD",
+      "product_line": "silicone phone cases and earbud grips",
+      "group": "scope",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21003",
+      "folder_name": "Huizhou GlassGuard",
+      "token": "HuizhouGlassGuard",
+      "uscc": "91441300KURXCB685F",
+      "product_line": "tempered-glass screen protectors",
+      "group": "scope",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21004",
+      "folder_name": "Xiamen BrightFin",
+      "token": "XiamenBrightFin",
+      "uscc": "91350200DAEHXNYFXW",
+      "product_line": "anodized aluminium phone stands",
+      "group": "scope",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21005",
+      "folder_name": "Ningbo DeskNest",
+      "token": "NingboDeskNest",
+      "uscc": "91330200H7ABFAE4E8",
+      "product_line": "aluminium laptop risers and monitor stands",
+      "group": "scope",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21006",
+      "folder_name": "Foshan HoldFast",
+      "token": "FoshanHoldFast",
+      "uscc": "91440600FCK65MPQFH",
+      "product_line": "magnetic phone car holders and dashboard cradles",
+      "group": "scope",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21007",
+      "folder_name": "Quanzhou WireWeave",
+      "token": "QuanzhouWireWeave",
+      "uscc": "913505000MWBWUWK3X",
+      "product_line": "USB-C charging leads and desk cable tidies",
+      "group": "scope",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21008",
+      "folder_name": "Zhongshan PodCharge",
+      "token": "ZhongshanPodCharge",
+      "uscc": "9144200059N0XHJGMN",
+      "product_line": "wireless earbud charging cases",
+      "group": "scope",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21009",
+      "folder_name": "Shantou AnoTech",
+      "token": "ShantouAnoTech",
+      "uscc": "9144050057454QTUFM",
+      "product_line": "anodized aluminium laptop risers",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21010",
+      "folder_name": "Jiangmen SealRite",
+      "token": "JiangmenSealRite",
+      "uscc": "9144070047ETP84AJX",
+      "product_line": "silicone phone grips and earbud sleeves",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21011",
+      "folder_name": "Zhuhai CastWell",
+      "token": "ZhuhaiCastWell",
+      "uscc": "91440400BNHQW5TCXU",
+      "product_line": "die-cast zinc alloy phone stands",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21012",
+      "folder_name": "Guangzhou MouldPro",
+      "token": "GuangzhouMouldPro",
+      "uscc": "914401001PWWD5F0KD",
+      "product_line": "injection-moulded ABS charging docks",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21013",
+      "folder_name": "Shaoguan LumaFix",
+      "token": "ShaoguanLumaFix",
+      "uscc": "91440200NXMU4XH8BA",
+      "product_line": "LED ring lights and clip-on phone fill lights",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21014",
+      "folder_name": "Zhangzhou FormAlu",
+      "token": "ZhangzhouFormAlu",
+      "uscc": "91350600A4YDX3917Y",
+      "product_line": "die-cast aluminium phone stands with integral hinge",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21015",
+      "folder_name": "Chaozhou CoolEdge",
+      "token": "ChaozhouCoolEdge",
+      "uscc": "91445100PKER8CGMHX",
+      "product_line": "extruded aluminium laptop cooling stands with finned profiles",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21016",
+      "folder_name": "Heyuan StampLine",
+      "token": "HeyuanStampLine",
+      "uscc": "91441600UN80C3D75X",
+      "product_line": "injection-moulded TPU phone bumper cases",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21017",
+      "folder_name": "Qingyuan HarnessCo",
+      "token": "QingyuanHarnessCo",
+      "uscc": "91441800FDK1K75MGB",
+      "product_line": "USB-C charging cables and adapters",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21018",
+      "folder_name": "Yangjiang AluCast",
+      "token": "YangjiangAluCast",
+      "uscc": "91441700EC3C66F8K9",
+      "product_line": "aluminium phone stands",
+      "group": "scope",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21019",
+      "folder_name": "Putian NorthArc",
+      "token": "PutianNorthArc",
+      "uscc": "91350300Q56JA1E03G",
+      "product_line": "aluminium phone stands and tablet mounts",
+      "group": "entity",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21020",
+      "folder_name": "Shenzhen TruGrip",
+      "token": "ShenzhenTruGrip",
+      "uscc": "914403002UCH7GMBAC",
+      "product_line": "silicone phone grips and stands",
+      "group": "entity",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21021",
+      "folder_name": "Dongguan ClearWave",
+      "token": "DongguanClearWave",
+      "uscc": "914419007QQYBJGDED",
+      "product_line": "USB-C charging cables and adapters",
+      "group": "entity",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21022",
+      "folder_name": "Ningbo EchoCell",
+      "token": "NingboEchoCell",
+      "uscc": "91330200HAJ20NMR2G",
+      "product_line": "wireless earbud charging cases",
+      "group": "entity",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21023",
+      "folder_name": "Foshan PackRight",
+      "token": "FoshanPackRight",
+      "uscc": "914406008Q31DPB7QF",
+      "product_line": "tempered-glass screen protectors and camera films",
+      "group": "mech",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21024",
+      "folder_name": "Ningbo PowerCell",
+      "token": "NingboPowerCell",
+      "uscc": "913302002X9M6L7RPQ",
+      "product_line": "aluminium laptop risers",
+      "group": "mech",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21025",
+      "folder_name": "Quanzhou ToolWorks",
+      "token": "QuanzhouToolWorks",
+      "uscc": "91350500U0FMPU8P2N",
+      "product_line": "power banks and charging cables",
+      "group": "mech",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21026",
+      "folder_name": "Quanzhou CoreCell",
+      "token": "QuanzhouCoreCell",
+      "uscc": "91350500UF6HNPJ01R",
+      "product_line": "phone stands and grips",
+      "group": "mech",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21027",
+      "folder_name": "Zhongshan LumaWare",
+      "token": "ZhongshanLumaWare",
+      "uscc": "914420002WUEEA48TT",
+      "product_line": "LED ring lights",
+      "group": "mech",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21028",
+      "folder_name": "Meizhou CableTek",
+      "token": "MeizhouCableTek",
+      "uscc": "91441400UYW3J27JDU",
+      "product_line": "cable organizers and ties",
+      "group": "mech",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21029",
+      "folder_name": "Ningbo PureWave",
+      "token": "NingboPureWave",
+      "uscc": "913302004FQGRA10E1",
+      "product_line": "wireless earbud charging cases",
+      "group": "mech",
+      "status": "compliant"
+    },
+    {
+      "folder_id": "21030",
+      "folder_name": "Dongguan PrintEdge",
+      "token": "DongguanPrintEdge",
+      "uscc": "91441900DBGKL28DAL",
+      "product_line": "moulded packaging trays and inserts",
+      "group": "mech",
+      "status": "non_compliant"
+    },
+    {
+      "folder_id": "21031",
+      "folder_name": "Dongguan HavenPack",
+      "token": "DongguanHavenPack",
+      "uscc": "914419004313D08CLJ",
+      "product_line": "cable organizers and ties",
+      "group": "mech",
+      "status": "compliant"
+    }
+  ],
+  "compliant_folders": [
+    "21001",
+    "21002",
+    "21003",
+    "21004",
+    "21005",
+    "21006",
+    "21007",
+    "21008",
+    "21019",
+    "21020",
+    "21023",
+    "21025",
+    "21026",
+    "21029",
+    "21031"
+  ],
+  "noncompliant_folders": [
+    "21009",
+    "21010",
+    "21011",
+    "21012",
+    "21013",
+    "21014",
+    "21015",
+    "21016",
+    "21017",
+    "21018",
+    "21021",
+    "21022",
+    "21024",
+    "21027",
+    "21028",
+    "21030"
+  ],
+  "deficiency_codes_by_folder": {
+    "21009": [
+      "ISO-SCOPE"
+    ],
+    "21010": [
+      "ISO-SCOPE"
+    ],
+    "21011": [
+      "ISO-SCOPE"
+    ],
+    "21012": [
+      "ISO-SCOPE"
+    ],
+    "21013": [
+      "ISO-SCOPE"
+    ],
+    "21014": [
+      "ISO-SCOPE"
+    ],
+    "21015": [
+      "ISO-SCOPE"
+    ],
+    "21016": [
+      "ISO-SCOPE"
+    ],
+    "21017": [
+      "ISO-SCOPE"
+    ],
+    "21018": [
+      "ISO-SCOPE"
+    ],
+    "21021": [
+      "ISO-WRONG-ENTITY"
+    ],
+    "21022": [
+      "ISO-EXPIRED",
+      "ISO-WRONG-ENTITY"
+    ],
+    "21024": [
+      "ISO-EXPIRED"
+    ],
+    "21027": [
+      "ISO-MISSING"
+    ],
+    "21028": [
+      "BL-MISSING"
+    ],
+    "21030": [
+      "AUDIT-MISSING"
+    ]
+  },
+  "supplier_folder_ids": [
+    "21001",
+    "21002",
+    "21003",
+    "21004",
+    "21005",
+    "21006",
+    "21007",
+    "21008",
+    "21009",
+    "21010",
+    "21011",
+    "21012",
+    "21013",
+    "21014",
+    "21015",
+    "21016",
+    "21017",
+    "21018",
+    "21019",
+    "21020",
+    "21021",
+    "21022",
+    "21023",
+    "21024",
+    "21025",
+    "21026",
+    "21027",
+    "21028",
+    "21029",
+    "21030",
+    "21031"
+  ],
+  "misfiled_files": [
+    {
+      "name": "ISO9001_QuanzhouToolWorks_exp2028-06-06.pdf",
+      "file_id": "40252",
+      "from_folder_id": "21026",
+      "to_folder_id": "21025"
+    },
+    {
+      "name": "ISO9001_QuanzhouCoreCell_exp2027-11-17.pdf",
+      "file_id": "40262",
+      "from_folder_id": "21025",
+      "to_folder_id": "21026"
+    },
+    {
+      "name": "FactoryAudit_DongguanHavenPack_2026.pdf",
+      "file_id": "40305",
+      "from_folder_id": "21030",
+      "to_folder_id": "21031"
+    }
+  ],
+  "blanket_files": [
+    {
+      "name": "ISO9001_HuananGroup_exp2028-10-13.pdf",
+      "file_id": "40296",
+      "home_folder_id": "21029"
+    }
+  ],
+  "scope_judgment_cases": [
+    {
+      "folder_name": "Shenzhen ClipStand",
+      "status": "compliant",
+      "covers": true,
+      "confounder": "plain covered",
+      "product_line": "aluminium phone stands and tablet mounts",
+      "certified_scope": "Design and manufacture of aluminium mobile-phone stands, tablet mounts and laptop risers",
+      "reasoning": "The certified scope explicitly names mobile-phone stands and tablet mounts \u2014 exactly the supplier's product line. The scope plainly covers the products. COVERED."
+    },
+    {
+      "folder_name": "Dongguan SoftShell",
+      "status": "compliant",
+      "covers": true,
+      "confounder": "plain covered",
+      "product_line": "silicone phone cases and earbud grips",
+      "certified_scope": "Manufacture of silicone protective cases, grips and sleeves for smartphones and wireless earbuds",
+      "reasoning": "The scope names silicone protective cases and grips for smartphones and earbuds \u2014 the supplier's exact products. COVERED."
+    },
+    {
+      "folder_name": "Huizhou GlassGuard",
+      "status": "compliant",
+      "covers": true,
+      "confounder": "plain covered",
+      "product_line": "tempered-glass screen protectors",
+      "certified_scope": "Manufacture of tempered-glass screen protectors and camera-lens films for smartphones",
+      "reasoning": "The scope names tempered-glass screen protectors for smartphones \u2014 the supplier's exact product. COVERED."
+    },
+    {
+      "folder_name": "Xiamen BrightFin",
+      "status": "compliant",
+      "covers": true,
+      "confounder": "plain covered (finish control)",
+      "product_line": "anodized aluminium phone stands",
+      "certified_scope": "Design and manufacture of anodized aluminium stands and holders for smartphones and tablets",
+      "reasoning": "The scope is the manufacture of anodized aluminium stands FOR SMARTPHONES \u2014 the finished consumer product the supplier makes. COVERED. (Deliberate control paired with the 'architectural anodizing' false-friend below: same material+finish words, but here the certified product class is consumer phone stands, so it covers.)"
+    },
+    {
+      "folder_name": "Ningbo DeskNest",
+      "status": "compliant",
+      "covers": true,
+      "confounder": "broader category",
+      "product_line": "aluminium laptop risers and monitor stands",
+      "certified_scope": "Design and manufacture of consumer-electronics accessories and desktop peripherals",
+      "reasoning": "Laptop risers and monitor stands are consumer-electronics desktop accessories/peripherals; the certified scope's category explicitly includes consumer-electronics accessories and desktop peripherals, so the product line is a clear member of it. COVERED \u2014 even though the scope shares no distinctive words with 'laptop risers' / 'monitor stands'."
+    },
+    {
+      "folder_name": "Foshan HoldFast",
+      "status": "compliant",
+      "covers": true,
+      "confounder": "broader category",
+      "product_line": "magnetic phone car holders and dashboard cradles",
+      "certified_scope": "Manufacture of mobile-device mounting hardware and supports",
+      "reasoning": "Phone car holders and dashboard cradles ARE mobile-device mounting hardware/supports \u2014 a direct member of the certified category. COVERED, with no shared distinctive words."
+    },
+    {
+      "folder_name": "Quanzhou WireWeave",
+      "status": "compliant",
+      "covers": true,
+      "confounder": "broader category",
+      "product_line": "USB-C charging leads and desk cable tidies",
+      "certified_scope": "Manufacture of consumer-electronics connectivity products and wire-management accessories",
+      "reasoning": "USB-C charging leads are consumer-electronics connectivity products; desk cable tidies are wire-management accessories. Both product lines are members of the certified categories. COVERED, with no shared distinctive words."
+    },
+    {
+      "folder_name": "Zhongshan PodCharge",
+      "status": "compliant",
+      "covers": true,
+      "confounder": "broader category",
+      "product_line": "wireless earbud charging cases",
+      "certified_scope": "Manufacture of consumer-electronics accessories and portable power products",
+      "reasoning": "A wireless earbud charging case is both a consumer-electronics accessory and a portable power product \u2014 a clear member of the certified categories. COVERED, no shared distinctive words."
+    },
+    {
+      "folder_name": "Shantou AnoTech",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "sounds-related (architectural)",
+      "product_line": "anodized aluminium laptop risers",
+      "certified_scope": "Anodizing and surface finishing of architectural aluminium extrusion profiles and curtain-wall sections",
+      "reasoning": "The certificate certifies an anodizing / surface-finishing activity applied to ARCHITECTURAL aluminium profiles and curtain-wall sections \u2014 a building-materials product class and a finishing service, not the manufacture of finished consumer-electronics accessories. Despite the shared words 'anodized'/'aluminium', the certified product class (architectural profiles) and value-chain position (surface-finishing service) differ from finished laptop risers. NOT COVERED."
+    },
+    {
+      "folder_name": "Jiangmen SealRite",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "sounds-related (automotive)",
+      "product_line": "silicone phone grips and earbud sleeves",
+      "certified_scope": "Manufacture of silicone gaskets, seals and vibration-damping components for automotive powertrain assemblies",
+      "reasoning": "The certificate certifies silicone AUTOMOTIVE sealing and damping COMPONENTS (gaskets, seals) for powertrain assemblies \u2014 an automotive-parts product class, not consumer-electronics accessories. Shared word 'silicone' only. NOT COVERED."
+    },
+    {
+      "folder_name": "Zhuhai CastWell",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "sounds-related (furniture hardware)",
+      "product_line": "die-cast zinc alloy phone stands",
+      "certified_scope": "Die-casting of zinc alloy fittings and components for furniture and cabinet hardware",
+      "reasoning": "The certificate certifies zinc-alloy die-casting for FURNITURE and cabinet hardware \u2014 a furniture-hardware product class, not consumer-electronics accessories. Shared words 'die-cast','zinc','alloy'. Different product class. NOT COVERED."
+    },
+    {
+      "folder_name": "Guangzhou MouldPro",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "sounds-related (appliances)",
+      "product_line": "injection-moulded ABS charging docks",
+      "certified_scope": "Manufacture of injection-moulded ABS enclosures for kitchen and bathroom electrical appliances",
+      "reasoning": "The certificate certifies injection-moulded enclosures for KITCHEN and BATHROOM electrical appliances (a domestic-appliance product class) \u2014 not consumer-electronics accessories such as charging docks. Shared words 'injection-moulded','ABS'. Different product class. NOT COVERED."
+    },
+    {
+      "folder_name": "Shaoguan LumaFix",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "sounds-related (architectural lighting)",
+      "product_line": "LED ring lights and clip-on phone fill lights",
+      "certified_scope": "Design and manufacture of LED luminaires and fixtures for commercial architectural lighting",
+      "reasoning": "The certificate certifies commercial ARCHITECTURAL lighting luminaires and fixtures (a building-lighting product class) \u2014 not portable consumer ring-lights / clip-on phone fill lights. Shared word 'LED'. Different product class. NOT COVERED."
+    },
+    {
+      "folder_name": "Zhangzhou FormAlu",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "near-miss process",
+      "product_line": "die-cast aluminium phone stands with integral hinge",
+      "certified_scope": "Manufacture of aluminium components by extrusion and profile drawing",
+      "reasoning": "The product is DIE-CAST (a net-shape casting process producing the hinged 3-D body); the certificate's scope is explicitly limited to EXTRUSION and profile drawing, which produces constant-cross-section profiles and cannot make a die-cast hinged part. An ISO 9001 scope bounds the certified processes; die-casting is outside it. NOT COVERED."
+    },
+    {
+      "folder_name": "Chaozhou CoolEdge",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "near-miss process",
+      "product_line": "extruded aluminium laptop cooling stands with finned profiles",
+      "certified_scope": "Manufacture of aluminium parts by high-pressure die-casting and CNC machining",
+      "reasoning": "The product is an EXTRUDED finned profile (finned heat-sink cooling stands are an extrusion product); the certificate's scope is limited to high-pressure DIE-CASTING and machining, which does not include extrusion. The certified process does not cover the manufacture of the product. NOT COVERED."
+    },
+    {
+      "folder_name": "Heyuan StampLine",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "process not product",
+      "product_line": "injection-moulded TPU phone bumper cases",
+      "certified_scope": "Precision metal stamping and progressive-die fabrication of sheet-metal components",
+      "reasoning": "The product is injection-moulded TPU (a plastics process); the certificate covers METAL STAMPING of sheet-metal components \u2014 a different material and process that does not cover plastic injection moulding of phone cases. NOT COVERED."
+    },
+    {
+      "folder_name": "Qingyuan HarnessCo",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "different class (industrial)",
+      "product_line": "USB-C charging cables and adapters",
+      "certified_scope": "Manufacture of industrial wiring harnesses and terminal blocks for machinery control panels",
+      "reasoning": "The certificate covers INDUSTRIAL wiring harnesses and terminal blocks for machinery control panels \u2014 an industrial-electrical product class, not consumer USB-C charging cables and adapters. NOT COVERED."
+    },
+    {
+      "folder_name": "Yangjiang AluCast",
+      "status": "non_compliant",
+      "covers": false,
+      "confounder": "value-chain (raw feedstock)",
+      "product_line": "aluminium phone stands",
+      "certified_scope": "Manufacture of aluminium ingots, billets and extrusion feedstock",
+      "reasoning": "The certificate covers raw aluminium FEEDSTOCK (ingots, billets, extrusion feedstock) \u2014 an upstream raw-material product, not the manufacture of finished phone stands. Shared word 'aluminium'. Different value-chain position. NOT COVERED."
+    }
+  ],
+  "entity_judgment_cases": [
+    {
+      "folder_name": "Putian NorthArc",
+      "status": "compliant",
+      "kind": "renamed entity (positive \u2014 the cert IS the supplier's own)",
+      "reasoning": "ISO 9001 printed under the former registered name 'Putian Jinhai Electronics Co., Ltd.' differs from the current legal name 'Putian NorthArc Electronics Co., Ltd.', BUT its USCC is IDENTICAL to the Business License and the body carries a rename remark. A USCC persists across a rename -> the cert was issued to this very entity, the scope covers, and it is current -> COMPLIANT."
+    },
+    {
+      "folder_name": "Shenzhen TruGrip",
+      "status": "compliant",
+      "kind": "transposed/typo legal name (positive)",
+      "reasoning": "ISO 9001 printed name 'Shenzhen TruGrpi Accessories Co., Ltd.' is a one-character clerical transposition of 'Shenzhen TruGrip Accessories Co., Ltd.', BUT its USCC AND registered address are IDENTICAL to the Business License; the scope covers and it is current. Same entity -> COMPLIANT."
+    },
+    {
+      "folder_name": "Dongguan ClearWave",
+      "status": "non_compliant",
+      "kind": "sister company (negative)",
+      "reasoning": "The only ISO 9001 is printed to 'ClearWave Electronics (Huizhou) Co., Ltd.' and is current with a covering scope, so a name/filename reading marks Dongguan ClearWave Electronics Co., Ltd. compliant. BUT that cert's USCC is a Huizhou entity, which does NOT match this supplier's Business License USCC (a Dongguan entity) -> issued to a same-brand sister company -> NON_COMPLIANT."
+    },
+    {
+      "folder_name": "Ningbo EchoCell",
+      "status": "non_compliant",
+      "kind": "expired-own + current-sister (negative \u2014 date AND entity both matter)",
+      "reasoning": "Two ISO 9001 certs are on file. The one carrying the supplier's OWN USCC expired 2025-07-20 (before the audit date). The current one was issued to a sister entity in Foshan (USCC mismatch). Neither is BOTH current AND this supplier's own entity -> NON_COMPLIANT."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "expected_fields": {
+    "category": "Consumer Electronics > Projectors & Accessories > Portable Projectors",
+    "saleMode": "Cross-border Direct",
+    "productTitle": "NovaCast P5 Pro Portable Projector 4K Decoding 1080P Native WiFi 6 Bluetooth 5.2 Auto Focus Keystone 500 ANSI Lumens",
+    "productGroup": "Consumer Electronics",
+    "attr_brand": "NovaCast",
+    "attr_model": "P5 Pro",
+    "attr_resolution": "1920x1080",
+    "attr_brightness": "500 ANSI Lumens",
+    "attr_connectivity": "WiFi 6 + Bluetooth 5.2",
+    "saleType": "Per Unit",
+    "priceUnit": "Set",
+    "priceMode": "ladder",
+    "fobType": "FOB Ningbo",
+    "fobPriceMin": "75.38",
+    "fobPriceMax": "106.63",
+    "minOrderQuantity": "50",
+    "inventory": "80000",
+    "productVisible": "yes",
+    "descType": "custom",
+    "agreement": "true",
+    "selectedCountries": "[{\"code\": \"US\", \"name\": \"United States\"}, {\"code\": \"UK\", \"name\": \"United Kingdom\"}, {\"code\": \"DE\", \"name\": \"Germany\"}, {\"code\": \"FR\", \"name\": \"France\"}, {\"code\": \"CA\", \"name\": \"Canada\"}, {\"code\": \"AU\", \"name\": \"Australia\"}, {\"code\": \"JP\", \"name\": \"Japan\"}, {\"code\": \"IN\", \"name\": \"India\"}]",
+    "ladderPrice": "[{\"quantity\": \"50-199\", \"price\": \"106.63\"}, {\"quantity\": \"200-499\", \"price\": \"95.60\"}, {\"quantity\": \"500-999\", \"price\": \"86.41\"}, {\"quantity\": \"1000+\", \"price\": \"75.38\"}]",
+    "deliveryPeriod": "[{\"quantity\": \"50-199\", \"days\": \"12\"}, {\"quantity\": \"200-500\", \"days\": \"20\"}, {\"quantity\": \"501-1000\", \"days\": \"28\"}, {\"quantity\": \"1000+\", \"days\": \"38\"}]",
+    "countryPriceDiff": "{\"mode\": \"percent\", \"prices\": {\"US\": [\"0\"], \"UK\": [\"0\"], \"DE\": [\"0\"], \"FR\": [\"0\"], \"CA\": [\"0\"], \"AU\": [\"0\"], \"JP\": [\"8\"], \"IN\": [\"15\"]}}"
+  },
+  "required_files": [
+    "image_1",
+    "image_2",
+    "image_3",
+    "image_4",
+    "image_5"
+  ],
+  "json_fields": [
+    "countryPriceDiff",
+    "deliveryPeriod",
+    "ladderPrice",
+    "selectedCountries"
+  ],
+  "image_selection": {
+    "correct_files": [
+      "IMG_20260610_001.jpg",
+      "IMG_20260610_003.jpg",
+      "IMG_20260610_005.jpg",
+      "IMG_20260610_008.jpg",
+      "IMG_20260610_011.jpg"
+    ],
+    "wrong_files": [
+      "IMG_20260610_002.jpg",
+      "IMG_20260610_004.jpg",
+      "IMG_20260610_006.jpg",
+      "IMG_20260610_007.jpg",
+      "IMG_20260610_009.jpg",
+      "IMG_20260610_010.jpg",
+      "IMG_20260610_012.jpg"
+    ],
+    "note": "Agent must use image_index.md to identify projector images (001,003,005,008,011). Tripod Stand (002,007), Carrying Case (004,009), Screen (006,010), and reject (012) are wrong."
+  },
+  "notes": "Pricing: v2 baseline with WeChat override on T4 (430→410). FOB=EXW*1.32/7.18. T1:580→106.63, T2:520→95.60, T3:470→86.41, T4:410→75.38. Min=75.38, Max=106.63. Delivery tiers have different boundaries than pricing tiers (200-500 vs 200-499, 501-1000 vs 500-999)."
+}

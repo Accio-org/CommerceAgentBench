@@ -1,0 +1,57 @@
+{
+  "products": [
+    {"name": "NimbusOps Starter", "updated_description": "Basic infrastructure monitoring for small teams. Up to 5 hosts, 30-day data retention, email alerts. LIMITED TIME: Free 14-day trial available.", "metadata": {"tier": "starter", "max_hosts": "5", "data_retention_days": "30"}, "prices": [{"unit_amount": 4900, "interval": "month"}, {"unit_amount": 47000, "interval": "year"}]},
+    {"name": "NimbusOps Professional", "metadata": {"tier": "professional", "max_hosts": "50", "data_retention_days": "90"}, "prices": [{"unit_amount": 14900, "interval": "month"}, {"unit_amount": 143000, "interval": "year"}]},
+    {"name": "NimbusOps Enterprise", "metadata": {"tier": "enterprise", "max_hosts": "unlimited", "data_retention_days": "365"}, "prices": [{"unit_amount": 49900, "interval": "month"}, {"unit_amount": 479000, "interval": "year"}]},
+    {"name": "Extra Seat Pack", "metadata": {"addon": "true", "seats": "10"}, "prices": [{"unit_amount": 2900, "interval": "month"}]},
+    {"name": "Premium Support", "metadata": {"addon": "true", "support_level": "premium"}, "prices": [{"unit_amount": 19900, "interval": "month"}]},
+    {"name": "Data Export API", "metadata": {"addon": "true", "api_rate_limit": "1000"}, "prices": [{"unit_amount": 7900, "interval": "month"}]}
+  ],
+  "coupons_active": [
+    {"name": "ANNUAL20", "percent_off": 20, "duration": "repeating"},
+    {"name": "PARTNER30", "percent_off": 30, "duration": "forever"}
+  ],
+  "coupon_deleted": "LAUNCH50",
+  "webhooks": [
+    {"url": "https://hooks.nimbusops.dev/stripe/v1/production", "events": ["payment_intent.succeeded", "payment_intent.payment_failed", "invoice.paid", "charge.refunded"]},
+    {"url": "https://hooks.nimbusops.dev/stripe/v1/subscriptions", "events": ["customer.subscription.created", "customer.subscription.deleted", "invoice.payment_failed"]}
+  ],
+  "tax_rate": {"display_name": "US Sales Tax", "percentage": 8.875, "inclusive": false},
+  "shipping_rate": {"display_name": "Standard US Shipping", "type": "fixed_amount"},
+  "subscriptions": [
+    {"customer_name": "Acme Inc", "product_name": "NimbusOps Professional", "interval": "year"},
+    {"customer_name": "Acme Inc", "product_name": "Extra Seat Pack", "interval": "month"},
+    {"customer_name": "Acme Inc", "product_name": "Data Export API", "interval": "month"},
+    {"customer_name": "Globex Corp", "product_name": "NimbusOps Enterprise", "interval": "month"},
+    {"customer_name": "Globex Corp", "product_name": "Premium Support", "interval": "month"},
+    {"customer_name": "Globex Corp", "product_name": "Extra Seat Pack", "interval": "month"}
+  ],
+  "charges": [
+    {"customer_name": "Acme Inc", "amount": 25000, "description": "NimbusOps onboarding setup fee — Acme Inc"},
+    {"customer_name": "Globex Corp", "amount": 50000, "description": "NimbusOps enterprise onboarding — Globex Corp"}
+  ],
+  "invoice_items": [
+    {"customer_name": "Acme Inc", "amount": 7500},
+    {"customer_name": "Globex Corp", "amount": 15000}
+  ],
+  "invoices_count": 2,
+  "customer_updates": {
+    "Acme Inc": {"description": "Pilot — Professional annual + Extra Seat Pack + Data Export API", "metadata_keys": ["pilot", "onboard_date", "account_manager"]},
+    "Globex Corp": {"description": "Pilot — Enterprise monthly + Premium Support + Extra Seat Pack", "metadata_keys": ["pilot", "onboard_date", "account_manager", "partner_tier"]}
+  },
+  "triggers": ["payment_intent.succeeded", "invoice.paid", "checkout.session.completed"],
+  "audit_customer": {
+    "name": "Setup Audit 2026-06-03",
+    "email": "audit@nimbusops.dev",
+    "metadata": {
+      "products_created": "7",
+      "prices_created": "10",
+      "coupons_active": "2",
+      "webhooks_created": "2",
+      "subscriptions_created": "6",
+      "charges_created": "2",
+      "invoices_created": "2",
+      "triggers_fired": "3"
+    }
+  }
+}

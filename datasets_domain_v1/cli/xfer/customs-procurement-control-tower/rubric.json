@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1,
+  "task_id": "cli-xfer-customs-procurement-control-tower",
+  "summary": "Three-CLI transfer task using real customs export CSVs (5383 rows across three product categories). The agent must aggregate by supplier within each category, apply qualification thresholds from a sourcing policy, select top-3 per category, and build a cross-system procurement control tower across Google Workspace (spreadsheet dashboard + slides briefing), Box (document repository with per-supplier folders, uploads, sharing, review tasks), and Jira (epic + per-supplier sourcing tasks with cross-system traceability).",
+  "category": "cross_system_procurement_control_tower",
+  "state_kind": "triple_cli_mock_stateful_plus_real_file",
+  "difficulty": "very_hard",
+  "check_strategy": "Verifier reads only final gws/box/jira states over verifier-only endpoints. It checks exact derived supplier rows in the sourcing dashboard, category comparison aggregates, folder hierarchy in Box, Jira epic/task graph with cross-system trace comments, slides briefing content, and source CSV integrity. It does not inspect command history.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "All three mock states are reachable and target GWS spreadsheet, GWS presentation, Jira project, and Box root folder exist."},
+    {"id": "sheet_rows_correct", "check_type": "deterministic_exact", "description": "GWS Sourcing Dashboard sheet exists with exact headers, one exact row per qualified supplier sorted by amount descending, with correct tier/amount/shipments/HS codes/owner and dynamically resolved Jira Task Key and Box Folder ID."},
+    {"id": "slides_briefing_correct", "check_type": "deterministic_exact", "description": "GWS presentation renamed correctly, contains sourcing strategy slides with epic summary, category counts, and key metrics."},
+    {"id": "box_folder_structure", "check_type": "deterministic_exact", "description": "Box root folder 'Procurement Control Tower' contains exactly one subfolder per qualified supplier, no extras or missing."},
+    {"id": "box_operations_correct", "check_type": "deterministic_exact", "description": "Box has files uploaded in supplier folders, collaborations shared with team members, review tasks created, and comments added."},
+    {"id": "jira_epic_correct", "check_type": "deterministic_exact", "description": "Exactly one canonical Jira epic exists in PROJ with the expected summary."},
+    {"id": "jira_fields_correct", "check_type": "deterministic_exact", "description": "Jira tasks have correct summaries containing tier and supplier, matching priority/labels/status/assignee, epic links, and cross-system trace comments referencing GWS row and Box folder ID."},
+    {"id": "source_data_present", "check_type": "deterministic_exact", "description": "The three source CSV files remain present and parseable with the expected row counts."}
+  ],
+  "notes": "Ground truth is held in private/expected_answer.json."
+}

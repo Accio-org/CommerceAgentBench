@@ -1,0 +1,88 @@
+{
+  "messages": [
+    {
+      "message_id": "msg_3101",
+      "sender": "@buyer-nova",
+      "channel": "#customer-escalations",
+      "content": "Invoice discrepancy on PO-8842. Nova Retail was quoted USD 45,000 for the annual insulated bottle program, but invoice INV-2026-0394 shows USD 52,500. Procurement says they will hold payment if we cannot explain the USD 7,500 delta by tomorrow.",
+      "timestamp": "2026-04-20T09:00:00+08:00",
+      "is_read": false,
+      "tags": [
+        "customer",
+        "invoice"
+      ]
+    },
+    {
+      "message_id": "msg_3102",
+      "sender": "@buyer-helio",
+      "channel": "#customer-escalations",
+      "content": "Helio Kids says sample batch S-778 failed CPSIA lead screening at their incoming QC. They want a written containment plan today before they release the 80k-unit PO.",
+      "timestamp": "2026-04-20T09:12:00+08:00",
+      "is_read": false,
+      "tags": [
+        "customer",
+        "quality",
+        "compliance"
+      ]
+    },
+    {
+      "message_id": "msg_3103",
+      "sender": "@buyer-kappa",
+      "channel": "#customer-escalations",
+      "content": "Kappa Home is threatening to switch supplier because Jake never sent the revised MOQ and tier-price proposal for bamboo organizers. They say they asked twice last week.",
+      "timestamp": "2026-04-20T09:18:00+08:00",
+      "is_read": false,
+      "tags": [
+        "customer",
+        "sales"
+      ]
+    },
+    {
+      "message_id": "msg_3104",
+      "sender": "@ops-ship",
+      "channel": "#fulfillment",
+      "content": "Factory Fuzhou-17 missed the vessel cutoff for PO-9015 after typhoon closure. Buyer still needs goods in LA by May 20. There may be an air-sea recovery option but surcharge ownership is unclear.",
+      "timestamp": "2026-04-20T09:25:00+08:00",
+      "is_read": false,
+      "tags": [
+        "logistics"
+      ]
+    },
+    {
+      "message_id": "msg_3105",
+      "sender": "@vendor-spam",
+      "channel": "#customer-escalations",
+      "content": "Unrelated: buy cheap followers for your store. No customer action required.",
+      "timestamp": "2026-04-20T09:28:00+08:00",
+      "is_read": false,
+      "tags": [
+        "noise"
+      ]
+    },
+    {
+      "message_id": "msg_3106",
+      "sender": "@csm-amy",
+      "channel": "#customer-escalations",
+      "content": "Please do not reply directly to Helio until Compliance signs off. Their legal team is copied on the thread and any CPSIA language must be precise.",
+      "timestamp": "2026-04-20T09:31:00+08:00",
+      "is_read": false,
+      "tags": [
+        "customer",
+        "legal"
+      ]
+    },
+    {
+      "message_id": "msg_3107",
+      "sender": "@buyer-orion",
+      "channel": "#customer-escalations",
+      "content": "Orion Market says supplier Fuzhou-17 sent them a new bank account for PO-9015 surcharge prepayment and asked for wire confirmation by 16:00 today. Orion wants to know whether they should pay the new account or hold.",
+      "timestamp": "2026-04-20T09:36:00+08:00",
+      "is_read": false,
+      "tags": [
+        "customer",
+        "payment",
+        "risk"
+      ]
+    }
+  ]
+}

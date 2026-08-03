@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-commerce-portable-projector-listing",
+  "summary": "便携投影仪多SKU混合发品 — 信息甄别与价格换算 — alibaba_publish mock. v3: 8 capability checks (capacity-folded from 29 atoms; binary unchanged).",
+  "category": "ecommerce_publishing",
+  "state_kind": "local_mock_cli",
+  "difficulty": "hard",
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": []
+  },
+  "check_strategy": "private/expected_answer.json drives per-atom validation; verify_task.py folds atoms into capability buckets (setup_gate + images + canonical alibaba_publish FIELD_GROUPS). rubric.json declares the schema, not the per-field list.",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Plumbing + submit completion (R2): a session exists, its state is readable via the verifier endpoint, status is 'submitted', and the access-log carries a legitimate 'cli_submit_valid' event for it. AND of all four; failures listed in reason."
+    },
+    {
+      "id": "images_correct",
+      "check_type": "deterministic_exact",
+      "description": "Image-selection capability (R3): every required image slot is filled with an allowed projector asset and no wrong-file distractor. AND across all required slots."
+    },
+    {
+      "id": "category_classification_correct",
+      "check_type": "deterministic_exact",
+      "description": "Catalog placement / sale mode (category, saleMode, productGroup) all equal the verifier expected values. AND of present members."
+    },
+    {
+      "id": "title_keywords_correct",
+      "check_type": "deterministic_exact",
+      "description": "SEO title + keywords (productTitle) equal the verifier expected values. AND of present members."
+    },
+    {
+      "id": "attributes_correct",
+      "check_type": "deterministic_exact",
+      "description": "Product attributes read from the spec (attr_brand, attr_model, attr_resolution, attr_brightness, attr_connectivity) all equal the verifier expected values. AND of present members."
+    },
+    {
+      "id": "pricing_terms_correct",
+      "check_type": "deterministic_exact",
+      "description": "Pricing & trade terms (saleType, priceUnit, priceMode, fobType, fobPriceMin, fobPriceMax, minOrderQuantity, inventory, ladderPrice, countryPriceDiff) — incl. the FOB conversion + WeChat override — all equal the verifier expected values. AND of present members."
+    },
+    {
+      "id": "logistics_correct",
+      "check_type": "deterministic_exact",
+      "description": "Markets / logistics (selectedCountries, deliveryPeriod) equal the verifier expected values, including the delivery-tier boundary distinctions. AND of present members."
+    },
+    {
+      "id": "publish_settings_correct",
+      "check_type": "deterministic_exact",
+      "description": "Publish flags (productVisible, descType, agreement) equal the verifier expected values. AND of present members."
+    }
+  ],
+  "notes": "v3 capacity migration: 29 atomic field/plumbing checks folded into 8 capability buckets (setup_gate + images_correct + 6 canonical alibaba_publish FIELD_GROUPS buckets). Pure aggregation — every per-atom predicate is unchanged, binary pass (score==1.0) is identical; only capacity (checks_passed/checks_total) de-inflates. Expected field values remain verifier-only in private/expected_answer.json."
+}

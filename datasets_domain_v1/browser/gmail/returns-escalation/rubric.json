@@ -1,0 +1,136 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-gmail-returns-escalation",
+  "summary": "Returns Gmail browser task: escalation labeling, spam/snooze, contact creation, scheduled status update, and task.",
+  "category": "gmail_browser_ui",
+  "state_kind": "runtime_mock_browser",
+  "difficulty": "hard",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Environment ready: mock state/event log reachable and anti-cheat path diagnostics recorded (plumbing, folded)."
+    },
+    {
+      "id": "labeling_correct",
+      "check_type": "deterministic_exact",
+      "description": "Correct case label created and applied to the right threads while restraining from decoys."
+    },
+    {
+      "id": "marked_read_correct",
+      "check_type": "deterministic_exact",
+      "description": "Case threads were processed (marked read)."
+    },
+    {
+      "id": "starring_correct",
+      "check_type": "deterministic_exact",
+      "description": "True blockers were starred and decoys were not."
+    },
+    {
+      "id": "message_routing_correct",
+      "check_type": "deterministic_exact",
+      "description": "Messages were routed to the right destination (archive / spam / snooze)."
+    },
+    {
+      "id": "scheduled_send_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Status-update message composed and scheduled for the required time."
+    },
+    {
+      "id": "tasks_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Required follow-up task(s) created."
+    },
+    {
+      "id": "contacts_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Required contact(s) created with phone and case notes."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": []
+  },
+  "atomic_checks": [
+    {
+      "id": "mock_state_readable",
+      "check_type": "deterministic_exact",
+      "description": "Gmail mock state is readable."
+    },
+    {
+      "id": "mock_events_readable",
+      "check_type": "deterministic_exact",
+      "description": "Gmail mock event log is readable."
+    },
+    {
+      "id": "no_workspace_or_mcp_tool_calls",
+      "check_type": "deterministic_exact",
+      "description": "Workspace/MCP tool-call events are reported as diagnostics only and do not determine reward."
+    },
+    {
+      "id": "no_direct_api_mutation_events",
+      "check_type": "deterministic_exact",
+      "description": "Raw internal API mutation events are reported as diagnostics only and do not determine reward."
+    },
+    {
+      "id": "ui_action_evidence_present",
+      "check_type": "deterministic_exact",
+      "description": "UI-sourced action events are reported as diagnostics only and do not determine reward."
+    },
+    {
+      "id": "nested_label_created",
+      "check_type": "deterministic_exact",
+      "description": "Returns/ESC-884 label was created."
+    },
+    {
+      "id": "required_messages_labeled",
+      "check_type": "deterministic_exact",
+      "description": "Live escalation threads were labeled."
+    },
+    {
+      "id": "forbidden_messages_not_labeled",
+      "check_type": "deterministic_exact",
+      "description": "Fake, old, and newsletter decoys were not labeled."
+    },
+    {
+      "id": "required_messages_marked_read",
+      "check_type": "deterministic_exact",
+      "description": "Live escalation threads were marked read."
+    },
+    {
+      "id": "blockers_starred",
+      "check_type": "deterministic_exact",
+      "description": "Three real blockers were starred."
+    },
+    {
+      "id": "decoys_not_starred",
+      "check_type": "deterministic_exact",
+      "description": "Waiting and decoy messages were not starred."
+    },
+    {
+      "id": "messages_in_spam",
+      "check_type": "deterministic_exact",
+      "description": "Fake courier message was moved to spam."
+    },
+    {
+      "id": "messages_snoozed",
+      "check_type": "deterministic_exact",
+      "description": "Warehouse waiting thread was snoozed."
+    },
+    {
+      "id": "required_contacts_created",
+      "check_type": "deterministic_semantic",
+      "description": "Mira Kwan contact contains phone and case notes."
+    },
+    {
+      "id": "scheduled_messages_created",
+      "check_type": "deterministic_semantic",
+      "description": "Dana status update was scheduled for the requested time with required facts."
+    },
+    {
+      "id": "required_tasks_created",
+      "check_type": "deterministic_semantic",
+      "description": "RapidCarrier POD follow-up task was created."
+    }
+  ]
+}

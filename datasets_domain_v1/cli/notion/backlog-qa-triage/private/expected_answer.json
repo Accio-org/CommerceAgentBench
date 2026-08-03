@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "id": "login_blocker_page_updated",
+      "entity": "pages",
+      "match": {"title": "Fix login bug"},
+      "expect": {
+        "equals": {"archived": false},
+        "contains": {
+          "content": [
+            "# Fix login bug",
+            "Hold for overseas checkout QA",
+            "Owner: Mei Chen",
+            "SSO login outage affects B2B buyers before vendor launch"
+          ]
+        }
+      }
+    },
+    {
+      "id": "release_notes_page_created",
+      "entity": "pages",
+      "match": {"title": "Vendor QA Release Notes"},
+      "expect": {
+        "equals": {"parentId": "page_root", "parentType": "page", "archived": false},
+        "contains": {
+          "content": [
+            "# Vendor QA Release Notes",
+            "Ready items: Add dark mode is closed.",
+            "Blocked items: Fix login bug remains open pending SSO evidence.",
+            "Next checkpoint: 2026-06-05."
+          ]
+        }
+      }
+    },
+    {
+      "id": "stale_root_api_reference_trashed",
+      "entity": "pages",
+      "match": {"id": "page_004"},
+      "expect": {
+        "equals": {"title": "API Reference", "archived": true}
+      }
+    },
+    {
+      "id": "checkout_api_reference_preserved",
+      "entity": "pages",
+      "match": {"title": "API Reference - checkout v2"},
+      "expect": {
+        "equals": {"archived": false, "parentId": "db_001", "parentType": "database"}
+      }
+    },
+    {
+      "id": "closed_dark_mode_unchanged",
+      "entity": "pages",
+      "match": {"title": "Add dark mode"},
+      "expect": {
+        "equals": {"archived": false},
+        "contains": {"content": ["Implement dark mode toggle in settings."]}
+      }
+    },
+    {
+      "id": "no_extra_pages_created",
+      "entity": "pages",
+      "match": {},
+      "expect": {"count": 899}
+    }
+  ]
+}

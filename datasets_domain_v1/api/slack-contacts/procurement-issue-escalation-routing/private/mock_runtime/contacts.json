@@ -1,0 +1,95 @@
+{
+  "contacts": [
+    {
+      "contact_id": "CT-501",
+      "name": "Linda Chen",
+      "department": "Finance",
+      "title": "Finance Controller",
+      "slack_handle": "@linda-finance",
+      "email": "linda.chen@company.com",
+      "aliases": [
+        "finance-controller",
+        "invoice"
+      ]
+    },
+    {
+      "contact_id": "CT-502",
+      "name": "Maria Gomez",
+      "department": "Compliance & QA",
+      "title": "Product Compliance Lead",
+      "slack_handle": "@maria-compliance",
+      "email": "maria.gomez@company.com",
+      "aliases": [
+        "CPSIA",
+        "QA",
+        "quality"
+      ]
+    },
+    {
+      "contact_id": "CT-503",
+      "name": "Jake Sun",
+      "department": "Sales",
+      "title": "Key Account Manager",
+      "slack_handle": "@jake-sun",
+      "email": "jake.sun@company.com",
+      "aliases": [
+        "Kappa",
+        "tier price"
+      ]
+    },
+    {
+      "contact_id": "CT-504",
+      "name": "Nina Huang",
+      "department": "Logistics",
+      "title": "Logistics Recovery Lead",
+      "slack_handle": "@nina-logistics",
+      "email": "nina.huang@company.com",
+      "aliases": [
+        "air-sea",
+        "vessel",
+        "PO-9015"
+      ]
+    },
+    {
+      "contact_id": "CT-505",
+      "name": "Ethan Legal",
+      "department": "Legal",
+      "title": "Commercial Counsel",
+      "slack_handle": "@legal-ethan",
+      "email": "ethan.legal@company.com",
+      "aliases": [
+        "customer letter",
+        "compliance wording"
+      ]
+    },
+    {
+      "contact_id": "CT-506",
+      "name": "Owen Risk",
+      "department": "Treasury Risk",
+      "title": "Payment Safety Review Lead",
+      "slack_handle": "@risk-owen",
+      "email": "owen.risk@company.com",
+      "aliases": [
+        "bank account change",
+        "payment safety",
+        "payment risk",
+        "wire hold",
+        "supplier bank"
+      ]
+    },
+    {
+      "contact_id": "CT-507",
+      "name": "Ivy AP",
+      "department": "Accounts Payable",
+      "title": "Supplier Beneficiary Control Owner",
+      "slack_handle": "@ap-ivy",
+      "email": "ivy.ap@company.com",
+      "aliases": [
+        "last verified beneficiary",
+        "AP control",
+        "bank callback",
+        "Fuzhou-17 beneficiary"
+      ]
+    }
+  ]
+}

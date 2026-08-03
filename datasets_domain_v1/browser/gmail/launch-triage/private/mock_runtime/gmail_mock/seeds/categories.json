@@ -1,0 +1,20 @@
+[
+  {
+    "id": "primary",
+    "name": "主要",
+    "selected": true,
+    "teaser": "Aurora launch traffic"
+  },
+  {
+    "id": "promotions",
+    "name": "促销",
+    "selected": false,
+    "teaser": "Campaign digests"
+  },
+  {
+    "id": "social",
+    "name": "社交",
+    "selected": false,
+    "teaser": "Community updates"
+  }
+]

@@ -1,0 +1,6 @@
+category,theme,status,requires_parent_rebuild,notes
+Water Bottles,ColorName,currently_enabled,no,active parent theme
+Water Bottles,SizeName-ColorName,conditionally_allowed,yes,"only if same material, cap family, pack count"
+Water Bottles,PackCount,not_enabled_for_parent,yes,cannot submit as color child
+Water Bottles,Material,not_available,n/a,glass and steel cannot be mixed under current template
+Water Bottles,CapType,not_available,n/a,"straw, infuser, bamboo lid are not approved dimensions for this parent"

@@ -1,0 +1,4 @@
+
+Setting up fixture for: product
+Running fixture for: product
+Trigger succeeded! Check dashboard for event details.

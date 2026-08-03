@@ -1,0 +1,15 @@
+[
+  {
+    "id": "cal-existing",
+    "title": "Ops standup",
+    "date": "2025-07-08",
+    "start": "09:00",
+    "end": "09:30",
+    "guests": "ops-launch@auroraretail.test",
+    "location": "Ops room",
+    "description": "Existing event.",
+    "meet": false,
+    "allDay": false,
+    "color": "#188038"
+  }
+]

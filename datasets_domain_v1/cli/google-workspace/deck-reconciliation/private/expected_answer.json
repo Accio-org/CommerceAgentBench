@@ -1,0 +1,68 @@
+{
+  "send_recommendation": "revise_before_send",
+  "must_fix_claim_ids": ["active_suppliers_countries", "inventory_total_value", "inventory_coverage", "pruning_shears_savings"],
+  "claim_id_aliases": {
+    "active_suppliers_countries": ["active_supplier_count", "active_suppliers_count", "active_country_count", "active_countries_count", "supplier_country_count", "supplier_country_counts"],
+    "inventory_total_value": ["total_inventory_value", "inventory_value_total"],
+    "inventory_coverage": ["inventory_positions_coverage", "stock_coverage", "safety_stock_coverage"],
+    "pruning_shears_savings": ["pruning_shears_cost_savings", "cost_optimization_wins", "pruning_shears_win"]
+  },
+  "_claim_id_match_tokens_note": "Identification fix (2026-06-15): the task INVITES free-text claim ids, so a fixed alias allowlist cannot be exhaustive. Map an agent's must-fix id to a canonical claim when the id contains that claim's distinguishing metric token. NOTE: tokens are claim-distinguishing but NOT strictly mutually exclusive at the substring level (an unusual id like 'country_coverage' could map to two canonicals). Because must_fix_claim_ids is graded recall-only (set issubset), an extra canonical is harmless to a correct answer and at worst slightly widens recall; it never flips a binary. Over-flagging a SUPPORTED claim is penalized only when the agent also marks that claim's claims[] item with a wrong status (claim_status_group_*), which this fix does not change.",
+  "claim_id_match_tokens": {
+    "active_suppliers_countries": ["supplier", "country", "countries"],
+    "quote_spread": ["quote", "spread"],
+    "inventory_total_value": ["value"],
+    "inventory_coverage": ["coverage"],
+    "high_risk_stockouts": ["risk", "stockout"],
+    "pruning_shears_savings": ["pruning", "shears"]
+  },
+  "_slide_object_id_accept_note": "Slide-locator fix (2026-06-15): every claim's metric text lives in the slide's single body element (el_sr_NNN_body), so both the page id (g_sr_NNN) and that body element id are valid locators for the claim. Accept either.",
+  "expected_claims": {
+    "active_suppliers_countries": {
+      "status": "incorrect",
+      "slide_object_id": "g_sr_002",
+      "slide_object_id_accept": ["g_sr_002", "el_sr_002_body"],
+      "required_fragments": ["33", "18"]
+    },
+    "quote_spread": {
+      "status": "supported",
+      "slide_object_id": "g_sr_002",
+      "slide_object_id_accept": ["g_sr_002", "el_sr_002_body"],
+      "required_fragments": ["9.1", "30.5"]
+    },
+    "inventory_total_value": {
+      "status": "incorrect",
+      "slide_object_id": "g_sr_002",
+      "slide_object_id_accept": ["g_sr_002", "el_sr_002_body"],
+      "correct_fragments": ["49610.55", "49,610.55", "49,611"]
+    },
+    "inventory_coverage": {
+      "status": "incorrect",
+      "slide_object_id": "g_sr_002",
+      "slide_object_id_accept": ["g_sr_002", "el_sr_002_body"],
+      "required_fragments": ["74.4", "29/39"]
+    },
+    "high_risk_stockouts": {
+      "status": "supported",
+      "slide_object_id": "g_sr_004",
+      "slide_object_id_accept": ["g_sr_004", "el_sr_004_body"],
+      "required_fragments": ["CAMP-TENT-2P", "12", "DECOR-VASE-CER", "18"]
+    },
+    "pruning_shears_savings": {
+      "status": "incorrect",
+      "slide_object_id": "g_sr_005",
+      "slide_object_id_accept": ["g_sr_005", "el_sr_005_body"],
+      "required_fragments": ["0.20", "3.15", "2.95", "2400", "480"]
+    }
+  },
+  "required_cli_tools": ["slides.getMetadata", "slides.getText", "sheets.getMetadata", "sheets.getRange"],
+  "minimum_cli_range_calls": 8,
+  "forbid_bulk_sheet_text_spreadsheet_ids": ["sheet-supplier-eval-003", "sheet-inventory-004"],
+  "required_range_fragments": [
+    "Supplier Overview",
+    "Quote Comparison",
+    "Warehouse Stock",
+    "Cost Summary",
+    "Audit Trail"
+  ]
+}

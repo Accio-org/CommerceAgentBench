@@ -1,0 +1,83 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-marketplace-variant-merger-audit",
+  "status": "ready_for_review",
+  "difficulty": "very-hard",
+  "summary": "Audit candidate variant additions to a parent listing: decide merge vs separate vs duplicate vs reject, citing the exact local signal-row and policy-clause evidence that drove each call.",
+  "category": "ecommerce_catalog_governance",
+  "state_kind": "offline_only_local_files",
+  "artifact_policy": {
+    "expected_artifacts": [
+      "outputs/variant_audit.json",
+      "outputs/revised_variation_matrix.csv",
+      "outputs/evidence_notes.md"
+    ]
+  },
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "variant_audit.json exists and parses, and every proposed child SKU appears exactly once with a valid decision enum (accept|reject|needs_fix); no missing, extra, duplicate, or invalid decisions."
+    },
+    {
+      "id": "trail_750_blk_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-750-BLK decision is accept (same product, color variation)."
+    },
+    {
+      "id": "trail_750_blu_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-750-BLU decision is accept (same product, color variation)."
+    },
+    {
+      "id": "trail_750_red_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-750-RED decision is accept (same product, color variation)."
+    },
+    {
+      "id": "trail_750_2pk_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-750-2PK decision is reject or needs_fix (pack-count theme not enabled for parent)."
+    },
+    {
+      "id": "trail_750_glass_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-750-GLASS decision is reject (material mismatch with parent canonical 304 stainless steel)."
+    },
+    {
+      "id": "trail_infuser_grn_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-INFUSER-GRN decision is reject (functional accessory difference)."
+    },
+    {
+      "id": "trail_750_kids_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-750-KIDS decision is reject (capacity/use case difference)."
+    },
+    {
+      "id": "trail_750_bamboo_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-750-BAMBOO decision is reject (cap material/cap-style not an approved dimension on this parent)."
+    },
+    {
+      "id": "trail_1000_sil_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-1000-SIL decision is reject or needs_fix (capacity differs from parent canonical 750ml)."
+    },
+    {
+      "id": "trail_750_blk_fba_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "TRAIL-750-BLK-FBA decision is reject or needs_fix (duplicate fulfilment workflow record of an archived black child)."
+    },
+    {
+      "id": "evidence_grounding_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Every candidate decision is grounded in BOTH a matching signal/source/catalog file row (with a row-specific token in the same evidence item's cite) AND a matching policy clause (with a clause-specific phrase). The verifier checks each SKU's signal and policy evidence individually; failing (sku, signal|policy) pairs are listed in the reason."
+    },
+    {
+      "id": "variation_matrix_consistent_with_decisions",
+      "check_type": "deterministic_exact",
+      "description": "revised_variation_matrix.csv contains exactly the accepted+needs_fix children (no rejected, no missing, no extras) and includes the core accepted SKUs."
+    }
+  ]
+}

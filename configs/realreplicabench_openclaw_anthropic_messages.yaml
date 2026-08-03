@@ -1,0 +1,75 @@
+# RealReplicaBench — OpenClaw harness, Anthropic /v1/messages (native).
+#
+# Bring-your-own-key: runs the agent against Anthropic's Messages API using
+# OpenClaw's native anthropic-messages client. Works with the public Anthropic
+# API and with any proxy that speaks the same /v1/messages wire format
+# (private Bedrock/Vertex reverse-proxies, corporate gateways, ...).
+#
+# BYO steps:
+#   1. Edit configs/realreplicabench_anthropic_messages_models.json —
+#      models[].id, baseUrl if not the public Anthropic URL, apiKey
+#      placeholder if not ANTHROPIC_API_KEY, and headers.anthropic-version
+#      if your endpoint requires a different pinned version.
+#   2. Export the referenced env var.
+#   3. Run:
+#        ANTHROPIC_API_KEY=sk-ant-... real-replica-bench run <task> \
+#          --config configs/realreplicabench_openclaw_anthropic_messages.yaml
+#
+# HOW IT WORKS — the models_config JSON is the single source of truth:
+#   configs/realreplicabench_anthropic_messages_models.json declares provider
+#   "anthropic" with:
+#     - api: anthropic-messages         -> OpenClaw uses its native
+#                                          /v1/messages client (NOT
+#                                          anthropic/messages — that string
+#                                          is rejected by config validate)
+#     - baseUrl                          -> Anthropic public API by default
+#     - apiKey                           -> sent as x-api-key header
+#     - headers.anthropic-version        -> sent as anthropic-version header
+#                                          (Anthropic requires it)
+#     - models[]                         -> {id, name?, reasoning, input?}
+#   Then `model: anthropic/claude-sonnet-4.6` selects it. Non-openrouter/
+#   prefix -> native, no sidecar.
+#
+# Notes:
+#   * `--openclaw-base-url` and `--openclaw-api-key` are OpenRouter-scoped;
+#     they are silently ignored on this native path. Edit the JSON to
+#     retarget a private Anthropic-compatible gateway.
+#   * baseUrl must be reachable from INSIDE the container. Docker Desktop ->
+#     host.docker.internal; Linux -> host IP / --add-host / HTTPS_PROXY.
+#   * The default image_model matches "claude" in the release fork's vision
+#     precheck whitelist (harnesses/openclaw/runner.py:70-88), so image tools
+#     work out of the box for Sonnet/Opus.
+#   * Judge stays on Gemini (independent) unless you flip --llm-judge-*.
+#
+# The benchmark image is public on Docker Hub:
+#   docker pull acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+
+run_id: realreplicabench-domain-v1-openclaw-anthropic-messages
+datasets_dir: datasets_domain_v1
+collection: datasets_domain_v1/realreplicabench_domain_v1_all.collection.json
+parallelism: 2
+
+runtime:
+  os: linux
+  image: acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+  platform: linux/amd64
+
+harness: openclaw
+
+openclaw:
+  models_config: configs/realreplicabench_anthropic_messages_models.json
+  # anthropic/ prefix (!= openrouter/) -> native /v1/messages, no sidecar.
+  model: anthropic/claude-sonnet-4.6
+  image_model: anthropic/claude-sonnet-4.6
+  gateway_port: 18789
+  gateway_ready_delay: 6
+  # With "reasoning": true on the model entry, OpenClaw's Anthropic path emits
+  # extended-thinking directives natively (thinking_budget etc.).
+  thinking: medium
+
+judge:
+  provider: gemini
+  model: gemini-3.1-pro-preview
+  timeout: 240
+
+start_index: 1

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title">
+  <title id="title">Charcoal product shirt</title>
+  <rect width="320" height="260" fill="#f3f4f6"/>
+  <path d="M105 48l32-18h46l32 18 45 30-28 52-32-17v98H120v-98l-32 17-28-52 45-30z" fill="#4b5563"/>
+  <path d="M137 30h46c-4 20-42 20-46 0z" fill="#f7f7f7"/>
+  <circle cx="160" cy="137" r="36" fill="#e4776f"/>
+  <path d="M130 132h60v10h-60zm8 20h44v8h-44z" fill="#4b5563"/>
+</svg>

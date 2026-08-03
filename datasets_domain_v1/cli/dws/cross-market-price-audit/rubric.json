@@ -1,0 +1,13 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-dws-cross-market-price-audit",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "notes": "Verifier reads the final dws_doc_cli state and scores the cross-market pricing update: 8% increase rounded to 2dp across 8 market catalogs, SKU-market exemptions left unchanged, and a Pricing Audit Change Log. Capacity checks are folded capability units (per docs/check-granularity.md); each folds the underlying per-SKU atomic comparisons by AND.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "DWS mock state reachable and readable (GET /api/state). The lone plumbing gate; a failure short-circuits to this single check."},
+    {"id": "prices_updated", "check_type": "deterministic_exact", "description": "Every non-exempt SKU across all 8 market catalogs (AU/BR/DE/JP/MX/SG/UK/US, 94 SKUs) carries the updated price = current * 1.08 rounded to 2 decimals. Internally validates each SKU's expected price string is present in that market's catalog document; reason lists any failing SKUs."},
+    {"id": "exemptions_respected", "check_type": "deterministic_exact", "description": "The two exempt SKU-market combinations (NB-JP-PET-001, NB-BR-PET-002) keep their original price unchanged; the 8% increase was NOT applied to them."},
+    {"id": "changelog_correct", "check_type": "deterministic_exact", "description": "A document named 'Pricing Audit Change Log' exists under the root folder AND it documents the exemptions (contains 'exempt')."}
+  ]
+}

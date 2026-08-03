@@ -1,0 +1,71 @@
+From: Marketing Director Sarah Chen <sarah.chen@chronovibe.com>
+To: Campaign Operations <campaign-ops@chronovibe.com>
+Date: 2026-06-09
+Subject: Summer Flash Sale — Pulse S2 Campaign Configuration (FINAL)
+
+Team,
+
+The Pulse S2 summer flash sale goes live on June 15th. Below is the complete campaign configuration strategy. Please follow EXACTLY as specified.
+
+[Campaign Basics]
+Campaign Name: ChronoVibe Summer Flash 2026
+Campaign Type: flash_sale
+Product: Pulse S2 (SKU: CVP-S2-2026)
+Category: Smart Electronics > Wearables > Smart Watches
+
+[Product Title for Campaign]
+ChronoVibe Pulse S2 Smart Watch AMOLED 1.43" Bluetooth 5.3 Health Monitor GPS Waterproof IP68
+
+[Pricing]
+Base Price: $399.00 USD
+Currency: USD
+Discount Type: tiered_time (time-based phases)
+
+Use the v2 campaign plan for discount tiers. If there are any subsequent corrections from Finance, follow them.
+
+Formula: Discounted Price = Base Price × (1 - discount_pct / 100), round to 2 decimal places.
+
+[Target Regions]
+United States (US), Canada (CA), Germany (DE), France (FR), Italy (IT), Spain (ES), United Kingdom (UK), Japan (JP), Australia (AU), Brazil (BR)
+
+[Regional Surcharge]
+Mode: percent (applied at checkout on top of discounted price)
+- US, CA: 0% (base markets, no surcharge)
+- DE, FR, IT, ES, UK: +8% (EU VAT-inclusive display pricing)
+- JP: +5% (logistics & import surcharge)
+- AU: +6% (GST + remote shipping)
+- BR: +15% (high tariff + ICMS tax)
+
+[Campaign Duration]
+Start: 2026-06-15T00:00:00Z
+End: 2026-06-25T23:59:59Z
+
+[Inventory]
+Total Campaign Stock: 15,000 units (sum of all warehouse allocations)
+Use the v2 warehouse allocation plan. If Ops has adjustments, follow their numbers.
+Stock Reserve Mode: (confirm with Ops team)
+
+[Customer Limits]
+Max Per Customer: 3 units
+
+[Shipping]
+Free Shipping Threshold: $299.00
+
+[Advertising]
+Daily Ad Budget: $5,000.00
+Platforms: Google Ads, Meta Ads, TikTok Ads
+
+[Payment Methods]
+Accept: Credit Card, PayPal, Apple Pay, Klarna
+
+[Landing Page]
+Slug: summer-flash-pulse-s2
+
+[Agreement]
+Please accept the campaign terms and conditions on submission.
+
+Note: The Band Lite seasonal sale and Buds Mini clearance are separate campaigns to be configured later. Do NOT mix them into this submission.
+
+Best,
+Sarah Chen
+Marketing Director, ChronoVibe

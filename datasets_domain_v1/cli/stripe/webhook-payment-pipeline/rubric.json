@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "minimum_pass_score": 1.0,
+  "criteria": [
+    {
+      "id": "setup_gate",
+      "weight": 0.05,
+      "description": "Stripe mock reachable and state loaded (plumbing gate)."
+    },
+    {
+      "id": "webhooks_configured",
+      "weight": 0.2,
+      "description": "3 webhook endpoints with exact URLs and event lists, including the buried v2.1 charge.failed on the finance endpoint."
+    },
+    {
+      "id": "test_customer_created",
+      "weight": 0.12,
+      "description": "Integration test customer with exact name, email, and metadata (env, pipeline_version)."
+    },
+    {
+      "id": "charge_refund_executed",
+      "weight": 0.13,
+      "description": "Scenario A direct charge ($75) and partial refund ($25) executed."
+    },
+    {
+      "id": "triggers_fired",
+      "weight": 0.15,
+      "description": "Pipeline triggers fired: payment_intent.succeeded, checkout.session.completed, invoice.paid."
+    },
+    {
+      "id": "tax_rate_configured",
+      "weight": 0.1,
+      "description": "US sales tax rate created at the correct percentage."
+    },
+    {
+      "id": "shipping_rate_configured",
+      "weight": 0.1,
+      "description": "Standard US shipping rate created at the correct fixed amount."
+    },
+    {
+      "id": "pipeline_report_written",
+      "weight": 0.15,
+      "description": "outputs/pipeline_report.json deliverable parses and contains the key pipeline figures."
+    }
+  ]
+}

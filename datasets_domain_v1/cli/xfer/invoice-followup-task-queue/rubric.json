@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1,
+  "task_id": "cli-xfer-invoice-followup-task-queue",
+  "summary": "Cross-system collections control center: from Stripe's open-invoice set, select those at or above the AR threshold, derive Todoist priority from the customer tier in free-text description, and file the final Todoist project as a sectioned handoff graph with active follow-up tasks, Tier A completed acknowledgements, labels, live Stripe trace IDs, and a completed team handoff summary. Stripe is read-only.",
+  "category": "cross_system_collections_queue",
+  "state_kind": "dual_cli_mock_stateful",
+  "difficulty": "hard",
+  "check_strategy": "private/expected_answer.json drives 12 capability checks per docs/check-granularity.md. Verifier reads only final stripe and todoist /api/state with MOCK_VERIFIER_TOKEN; it never inspects CLI command history or audit logs. It joins invoices to customers, validates project structure, active/closed task partitioning, live Stripe trace markers, labels, priorities, handoff summary, source integrity, and project scoping. Difficulty: (a) compound inclusion gate (status=open AND amount>=30000); (b) boundary case at 29,000; (c) draft-vs-open status filter; (d) tier-from-description priority derivation; (e) brand-new project with semantically separated queues; (f) active tasks and completed Tier A acknowledgements are different final-state objects; (g) labels derived from active rules and ledger industry; (h) integer amount trace; (i) cross-system ID closure to live Stripe IDs.",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Both mock states reachable, the Invoice Collections Q3 project exists, and the project has distinguishable sections for immediate calls, standard follow-up, and completed acknowledgements."
+    },
+    {
+      "id": "inclusion_set_correct",
+      "check_type": "deterministic_exact",
+      "description": "Exactly one task per in-scope customer; no out-of-scope; no duplicates."
+    },
+    {
+      "id": "section_graph_correct",
+      "check_type": "deterministic_exact",
+      "description": "Active follow-up tasks are routed to the correct Tier A or Tier B/C section."
+    },
+    {
+      "id": "priority_correct",
+      "check_type": "deterministic_exact",
+      "description": "Each task's priority is the tier-derived integer (1/2/3)."
+    },
+    {
+      "id": "content_trace_correct",
+      "check_type": "deterministic_exact",
+      "description": "Each active task carries the correct tier, customer, plain integer amount_due, owner, live Stripe invoice/customer IDs, and the Todoist due_date matches the live invoice due date rule."
+    },
+    {
+      "id": "labels_correct",
+      "check_type": "deterministic_exact",
+      "description": "Each active task has labels that make it searchable by invoice/collections work, the active tier label from the rules sheet, and the customer's ledger industry."
+    },
+    {
+      "id": "acknowledgements_correct",
+      "check_type": "deterministic_exact",
+      "description": "Each Tier A invoice has exactly one completed acknowledgement in the acknowledgement section, with trace IDs and appropriate acknowledgement/tier context; Tier B/C has none."
+    },
+    {
+      "id": "project_scope_correct",
+      "check_type": "deterministic_exact",
+      "description": "No in-scope customer leaked into other projects (Inbox/Work/Shopping)."
+    },
+    {
+      "id": "handoff_summary_correct",
+      "check_type": "deterministic_exact",
+      "description": "A completed team handoff task exists and contains the active customer roster, live Stripe balance context, webhook endpoint, reviewer identity, and source brief reference."
+    },
+    {
+      "id": "content_cross_system_markers_correct",
+      "check_type": "deterministic_exact",
+      "description": "Each active and acknowledgement task contains a valid customer-bound sub_xxx token and a source-consistent price_xxx/plan_xxx token, and no out-of-scope invoice task exists."
+    },
+    {
+      "id": "industry_labels_correct",
+      "check_type": "deterministic_exact",
+      "description": "Each active task has a single industry-oriented label whose slug matches the customer's ledger industry."
+    },
+    {
+      "id": "source_integrity",
+      "check_type": "deterministic_exact",
+      "description": "Stripe customer, invoice, subscription, price, and webhook endpoint counts remain unchanged."
+    }
+  ],
+  "notes": "Total checks = 12 capability units. Final-state only; no audit or command history inspection."
+}

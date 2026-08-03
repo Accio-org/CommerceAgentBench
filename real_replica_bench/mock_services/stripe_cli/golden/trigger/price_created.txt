@@ -1,0 +1,6 @@
+
+Setting up fixture for: product
+Running fixture for: product
+Setting up fixture for: price
+Running fixture for: price
+Trigger succeeded! Check dashboard for event details.

@@ -1,0 +1,6 @@
+From: tom.hardy@northstar-dtc.com
+To: wen.li@northstar-dtc.com
+Date: Tue, 05 May 2026 23:37
+Subject: Re: jabra firmware for conference rooms
+
+The conference-room jabra speakerphones need a firmware bump. Facilities is handling it; not a marketing item.

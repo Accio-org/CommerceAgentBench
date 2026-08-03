@@ -1,0 +1,84 @@
+{
+  "schema_version": "2.0",
+  "task_id": "api-slack-contacts-sourcing-project-status-brief",
+  "summary": "Consolidate Project Atlas status across teams, route around stale COO handle, save COO draft (no board contact). Checks are capability units (capacity-folded); each fails iff any of its internally-validated atoms fails (pure AND aggregation).",
+  "category": "communication_workflow",
+  "state_kind": "local_mock_api",
+  "difficulty": "medium",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Environment + deliverables present: outputs/mock_audit/{slack,contacts}_audit.json exist and parse, outputs/atlas_status_report.md is non-empty, and outputs/answer.json parses + conforms to private/answer.schema.json."
+    },
+    {
+      "id": "api_investigation",
+      "check_type": "deterministic_exact",
+      "description": "Drove the mock surface to investigate: listed slack messages (>=1 /slack/messages call), deep-read every message (>=10 /slack/messages/get calls), and searched the contacts directory (>=1 /contacts/search call)."
+    },
+    {
+      "id": "internal_owners_contacted",
+      "check_type": "deterministic_exact",
+      "description": "Proactively DM'd all three internal owners to fill gaps/conflicts: @finance-martin, @legal-ethan, @hr-lily (each >=1 sent DM, case-insensitive)."
+    },
+    {
+      "id": "coo_draft_routed_correctly",
+      "check_type": "deterministic_exact",
+      "description": "Saved the executive-summary draft to the CURRENT COO handle (@coo-susan, >=1 draft) and never to the stale handle (@coo-old, zero drafts)."
+    },
+    {
+      "id": "no_board_contact",
+      "check_type": "deterministic_exact",
+      "description": "Restraint: no sent message or draft 'to' field includes 'board' or '董事' (case-insensitive)."
+    },
+    {
+      "id": "coo_identity_resolved",
+      "check_type": "deterministic_exact",
+      "description": "answer.json identifies the current vs stale COO: coo_current_slack_handle == '@coo-susan' and coo_stale_slack_handle == '@coo-old' (case-insensitive)."
+    },
+    {
+      "id": "overall_health_assessment",
+      "check_type": "deterministic_exact",
+      "description": "answer.overall_health_status synthesizes a non-green/non-red verdict in {'yellow','amber'} (case-insensitive), given red-line margin/compliance/capacity risks."
+    },
+    {
+      "id": "sample_status_resolved",
+      "check_type": "deterministic_exact",
+      "description": "Resolved the sample correction across conflicting QA messages: valid_sample_id == 'B' and invalid_sample_id == 'A' (case-insensitive)."
+    },
+    {
+      "id": "supplier_quote_terms",
+      "check_type": "deterministic_exact",
+      "description": "Extracted the updated supplier quote terms: new_supplier_unit_price_usd ≈ 2.05 (±0.02) and new_supplier_moq_units == 50000."
+    },
+    {
+      "id": "margin_economics",
+      "check_type": "deterministic_exact",
+      "description": "Finance margin economics from the current (non-stale) figures: margin_normal_pct ≈ 20.6 (±0.2), margin_with_airfreight_pct ≈ 16.1 (±0.2), margin_red_line_pct ≈ 18 (±0.5), airfreight_surcharge_usd ≈ 12600 (±50)."
+    },
+    {
+      "id": "logistics_capacity_etd",
+      "check_type": "deterministic_exact",
+      "description": "Logistics first-batch facts, avoiding the supplier-ready-by trap: supplier_first_batch_capacity_units == 35000 and supplier_first_batch_etd_iso == the Ningbo logistics ETD (strict YYYY-MM-DD, NOT the factory ready-by date)."
+    },
+    {
+      "id": "compliance_status",
+      "check_type": "deterministic_exact",
+      "description": "Legal/compliance reconciliation: compliance_rohs_status == 'ok', compliance_reach_status == 'pending', reach_2026_report_deadline_iso == '2026-04-24' (strict YYYY-MM-DD)."
+    },
+    {
+      "id": "qa_staffing_plan",
+      "check_type": "deterministic_exact",
+      "description": "HR/QA staffing reconciliation: qa_replacement_name contains 'Alice Q' (case-insensitive), qa_replacement_arrive_iso == '2026-04-25', qa_replacement_travel_decision_deadline_time == '18:00' (strict HH:MM)."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "answer.json",
+      "atlas_status_report.md",
+      "mock_audit/slack_audit.json",
+      "mock_audit/contacts_audit.json"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+Manage workers (Beta)
+
+Usage: ntn workers [OPTIONS] <COMMAND>
+
+Commands:
+  capabilities  Inspect worker capabilities
+  create        Create a worker without deploying
+  delete        Delete a worker [aliases: rm]
+  deploy        Deploy a worker (create or update)
+  new           Initialize a new worker project
+  env           Manage worker environment variables
+  exec          Execute a worker capability
+  get           Get a worker by ID
+  oauth         Manage OAuth connections for a worker
+  list          List all workers in the current workspace [aliases: ls]
+  runs          Manage worker runs
+  sync          Manage worker syncs
+  usage         Show current-period AI credit usage for a worker
+  webhooks      Manage webhook capabilities
+  tui           Interactive terminal UI
+  help          Print this message or the help of the given subcommand(s)
+
+Options:
+  -v, --verbose
+          Show full error details including source chains
+      --workers-config-file <WORKERS_CONFIG_FILE>
+          Path to workers.json config file (overrides default CWD lookup) [env: NOTION_WORKERS_CONFIG_FILE=]
+  -h, --help
+          Print help
+  -V, --version
+          Print version

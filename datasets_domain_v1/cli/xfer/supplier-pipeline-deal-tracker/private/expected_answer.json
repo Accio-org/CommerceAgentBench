@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-xfer-supplier-pipeline-deal-tracker",
+  "description": "Hidden validation contract for the Q3 supplier deal-pipeline migration. The verifier derives the in-scope supplier set from live Notion supplier due-diligence pages and purchase-order pages, then derives Deal Size, priority, owner, and category labels from the local Q3 workbook.",
+  "jira_project": "PROJ",
+  "epic_summary": "Supplier Deal Pipeline - Q3 Onboarding",
+  "jira_link_type": "relates to",
+  "target_state": "In Review",
+  "source": {
+    "supplier_database_id": "db_commerce_suppliers",
+    "po_database_id": "db_commerce_purchase_orders",
+    "supplier_page_count": 90,
+    "po_page_count": 140,
+    "fingerprint_sha256": "f540664199745129e3d8efb68e47d0505774e9c95bc60ea838a9c5ddb0bd96f3"
+  },
+  "rules": {
+    "material_volume_min_usd": 600000,
+    "normal_po_statuses": [
+      "Booked",
+      "In Transit",
+      "At Port"
+    ],
+    "excluded_po_status": "Exception",
+    "executive_intro_deal_size": "Large"
+  },
+  "check_ids": [
+    "setup_gate",
+    "source_integrity",
+    "epic_correct",
+    "inclusion_set_correct",
+    "pipeline_issue_structure_correct",
+    "priority_correct",
+    "summary_content_correct",
+    "labels_correct",
+    "category_labels_correct",
+    "trace_comments_correct",
+    "escalation_comments_correct",
+    "transition_state_correct",
+    "deal_size_links_correct",
+    "epic_description_context_correct",
+    "issue_description_traceability_correct"
+  ]
+}

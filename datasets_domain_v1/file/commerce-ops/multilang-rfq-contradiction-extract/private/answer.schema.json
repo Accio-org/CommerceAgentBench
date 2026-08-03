@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "rfq_analysis.json",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["rfqs", "summary"],
+  "properties": {
+    "rfqs": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["rfq_id", "language", "normalized", "contradictions"],
+        "properties": {
+          "rfq_id": {"type": "string", "pattern": "^RFQ-0[1-5]$"},
+          "language": {"type": "string", "enum": ["en", "es", "de", "pt", "ar"]},
+          "normalized": {
+            "type": "object",
+            "required": ["quantity_units", "incoterm"],
+            "properties": {
+              "quantity_units": {"type": "integer", "minimum": 1},
+              "incoterm": {"type": "string"}
+            }
+          },
+          "contradictions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["category", "evidence", "suggested_resolution"],
+              "properties": {
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "physical_impossibility",
+                    "incoterm_conflict",
+                    "cost_infeasible",
+                    "logical_conflict",
+                    "timeline_conflict"
+                  ]
+                },
+                "evidence": {"type": "string", "minLength": 1},
+                "suggested_resolution": {"type": "string", "minLength": 1}
+              }
+            }
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["total_rfqs", "total_contradictions"],
+      "properties": {
+        "total_rfqs": {"type": "integer"},
+        "total_contradictions": {"type": "integer"}
+      }
+    }
+  }
+}

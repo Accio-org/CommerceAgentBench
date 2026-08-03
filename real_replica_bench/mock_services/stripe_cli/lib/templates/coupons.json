@@ -1,0 +1,17 @@
+{
+  "id": "GTuiTRTY",
+  "object": "coupon",
+  "amount_off": null,
+  "created": 1780064831,
+  "currency": null,
+  "duration": "once",
+  "duration_in_months": null,
+  "livemode": false,
+  "max_redemptions": null,
+  "metadata": {},
+  "name": null,
+  "percent_off": 25.0,
+  "redeem_by": null,
+  "times_redeemed": 0,
+  "valid": true
+}

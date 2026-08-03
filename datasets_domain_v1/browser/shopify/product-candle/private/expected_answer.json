@@ -1,0 +1,36 @@
+{
+  "page": "product",
+  "expected_fields": {
+    "title": "LunaGlow Hand-Poured Soy Wax Scented Candle",
+    "category": "Home & Garden > Decor > Candles & Holders",
+    "productType": "Scented Candle",
+    "vendor": "LunaGlow Candles",
+    "collections": "[\"Home Fragrance\",\"Gift Ideas\"]",
+    "tags": "[\"soy-candle\",\"handmade\",\"essential-oil\",\"eco-friendly\",\"gift\",\"aromatherapy\"]",
+    "price": "34.00",
+    "costPerItem": "9.20",
+    "chargeTax": "true",
+    "sku": "LG-SOY-LAV",
+    "trackQuantity": "true",
+    "quantity": "240",
+    "weight": "0.45",
+    "weightUnit": "kg",
+    "countryOfOrigin": "US",
+    "variants": "[{\"options\":[{\"name\":\"Scent\",\"value\":\"Lavender Dream\"}]},{\"options\":[{\"name\":\"Scent\",\"value\":\"Vanilla Bourbon\"}]},{\"options\":[{\"name\":\"Scent\",\"value\":\"Eucalyptus Mint\"}]}]",
+    "seoTitle": "Hand-Poured Soy Candle | LunaGlow Candles",
+    "seoDescription": "Natural soy wax scented candle, hand-poured with pure essential oils. 45-50 hour burn time. Choose from Lavender, Vanilla, or Eucalyptus. Eco-friendly & vegan.",
+    "urlHandle": "lunaglow-soy-scented-candle",
+    "status": "active",
+    "salesChannels": "[\"online_store\"]"
+  },
+  "required_files": [
+    "media_1"
+  ],
+  "json_fields": [
+    "collections",
+    "salesChannels",
+    "tags",
+    "variants"
+  ],
+  "notes": "page=product. Each expected_fields entry is one atomic deterministic_exact check, plus structural checks (session_exists / session_state_readable / session_submitted / mock_submit_via_legitimate_path / image uploads). No fake-LLM-judge or hidden-trap mechanics."
+}

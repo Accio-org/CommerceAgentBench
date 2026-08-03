@@ -1,0 +1,88 @@
+{
+  "task_id": "browser-gmail-rfq-filter",
+  "label": {
+    "name": "RFQ-Q4",
+    "parent_name": "Procurement"
+  },
+  "label_required_message_ids": [
+    "rfq-001-brief",
+    "rfq-002-thermalpack",
+    "rfq-003-bamboocore",
+    "rfq-004-skycarton",
+    "rfq-005-oceanwrap",
+    "rfq-006-alert"
+  ],
+  "label_forbidden_message_ids": [
+    "rfq-007-q3-old",
+    "rfq-008-old-digest",
+    "rfq-009-booth-news",
+    "rfq-010-near-domain"
+  ],
+  "mark_read_message_ids": [
+    "rfq-001-brief",
+    "rfq-002-thermalpack",
+    "rfq-003-bamboocore",
+    "rfq-004-skycarton",
+    "rfq-005-oceanwrap",
+    "rfq-006-alert"
+  ],
+  "star_required_message_ids": [
+    "rfq-002-thermalpack",
+    "rfq-003-bamboocore"
+  ],
+  "star_forbidden_message_ids": [
+    "rfq-001-brief",
+    "rfq-004-skycarton",
+    "rfq-005-oceanwrap",
+    "rfq-006-alert",
+    "rfq-007-q3-old",
+    "rfq-009-booth-news",
+    "rfq-010-near-domain"
+  ],
+  "messages_archived": [
+    "rfq-008-old-digest",
+    "rfq-009-booth-news"
+  ],
+  "filters": [
+    {
+      "id": "sourcinghub-rfq-q4",
+      "from": "quote-alerts@sourcinghub.test",
+      "subject": "RFQ-Q4",
+      "has_words": "compostable mailer",
+      "actions": {
+        "archive": true,
+        "markRead": true,
+        "alwaysImportant": true
+      }
+    }
+  ],
+  "subscriptions_unsubscribed": [
+    "promo@sourcinghub.test",
+    "weekly@packagingtoday.test"
+  ],
+  "subscriptions_preserved": [
+    "quality-alerts@auroraretail.test"
+  ],
+  "notes": [
+    {
+      "id": "shortlist",
+      "text_all": [
+        "RFQ-Q4",
+        "ThermalPack",
+        "4.82",
+        "18 days",
+        "BambooCore",
+        "5.05",
+        "plant-fiber",
+        "humidity"
+      ]
+    }
+  ],
+  "required_ui_events": {
+    "label_created": 1,
+    "message_action": 4,
+    "filter_saved": 1,
+    "subscription_unsubscribed": 2,
+    "note_created": 1
+  }
+}

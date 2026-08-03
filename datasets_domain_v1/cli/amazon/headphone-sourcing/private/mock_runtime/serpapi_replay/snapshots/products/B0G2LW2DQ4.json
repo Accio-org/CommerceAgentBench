@@ -1,0 +1,1115 @@
+{
+  "_meta": {
+    "engine": "amazon_product",
+    "asin": "B0G2LW2DQ4",
+    "fetched_at": 1779458302
+  },
+  "payload": {
+    "search_metadata": {
+      "id": "6a1060f54fa3ba1d302748fd",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/CJgLLGaGJ6tIfGqZj8QTyQ/6a1060f54fa3ba1d302748fd.json",
+      "created_at": "2026-05-22 13:58:13 UTC",
+      "processed_at": "2026-05-22 13:58:13 UTC",
+      "amazon_product_url": "https://www.amazon.com/dp/B0G2LW2DQ4/?",
+      "raw_html_file": "https://serpapi.com/searches/CJgLLGaGJ6tIfGqZj8QTyQ/6a1060f54fa3ba1d302748fd.html",
+      "total_time_taken": 3.36
+    },
+    "search_parameters": {
+      "engine": "amazon_product",
+      "asin": "B0G2LW2DQ4",
+      "amazon_domain": "amazon.com",
+      "device": "desktop"
+    },
+    "product_results": {
+      "asin": "B0G2LW2DQ4",
+      "title": "OHAYO A7 Open Ear Clip-On Headphones for Glasses Wearers - Safe for Running & Streets, 4.7g Weightless Fit, 40H Battery, Bluetooth 5.4, Black",
+      "link": "https://www.amazon.com/OHAYO-A7-Headphones-Glasses-Wearers/dp/B0G2LW2DQ4/",
+      "link_clean": "https://www.amazon.com/dp/B0G2LW2DQ4/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G2LW2DQ4&device=desktop&engine=amazon_product",
+      "badges": [
+        "Amazon's Choice"
+      ],
+      "variants": [
+        {
+          "title": "Color",
+          "items": [
+            {
+              "position": 1,
+              "asin": "B0G2LW2DQ4",
+              "name": "Black",
+              "image": "https://m.media-amazon.com/images/I/318-8R-TLvL._SS64_.jpg",
+              "selected": true,
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G2LW2DQ4&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 2,
+              "asin": "B0FF8ZT386",
+              "name": "Light Gray",
+              "image": "https://m.media-amazon.com/images/I/31ztyQNmiSL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FF8ZT386&device=desktop&engine=amazon_product"
+            }
+          ]
+        }
+      ],
+      "brand": "Visit the OHAYO Store",
+      "thumbnail": "https://m.media-amazon.com/images/I/61LBZ412GuL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "thumbnails": [
+        "https://m.media-amazon.com/images/I/61LBZ412GuL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71yPzCEV8WL._AC_SL1464_.jpg",
+        "https://m.media-amazon.com/images/I/71gu4hvo+9L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61GMgYjRLpL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71lBoAXJ8lL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/710fTe20jQL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61-9HXZIfPL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61wIAxRc9GL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71B8ATZ9XDL._AC_SL1500_.jpg"
+      ],
+      "rating": 4.6,
+      "reviews": 428,
+      "bought_last_month": "2K+ bought in past month",
+      "discount": "-5%",
+      "price": "$14.39",
+      "extracted_price": 14.39,
+      "old_price": "$15.19",
+      "extracted_old_price": 15.19,
+      "prime": true,
+      "delivery": [
+        "FREE delivery Wednesday, May 27 on orders shipped by Amazon over $35",
+        "Or Prime members get FREE delivery Tomorrow, May 23. Join Prime"
+      ],
+      "stock": "In Stock"
+    },
+    "purchase_options": {
+      "single_offer": {
+        "price": "$14.39",
+        "extracted_price": 14.39,
+        "delivery": [
+          "FREE delivery Wednesday, May 27 on orders shipped by Amazon over $35",
+          "Or Prime members get FREE delivery Tomorrow, May 23. Join Prime"
+        ],
+        "stock": "In Stock",
+        "features": {
+          "ships_from": {
+            "text": "Amazon",
+            "details": {
+              "heading": "Ships from",
+              "content": "Amazon"
+            }
+          },
+          "sold_by": {
+            "text": "OHAYO-AUDIO Direct",
+            "details": {
+              "heading": "Sold by",
+              "content": "OHAYO-AUDIO Direct"
+            },
+            "link": {
+              "text": "OHAYO-AUDIO Direct",
+              "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A107QVSRMOFSL0&asin=B0G2LW2DQ4&ref_=dp_merchant_link&isAmazonFulfilled=1"
+            }
+          },
+          "returns": {
+            "text": "FREE 30-day refund/replacement",
+            "details": {
+              "heading": "FREE 30-day refund/replacement"
+            },
+            "link": {
+              "text": "See exceptions",
+              "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+            }
+          },
+          "gift_options": {
+            "text": "Available at checkout Available at checkout This item is a gift. Change",
+            "details": {
+              "content": "Add gift options at checkout"
+            }
+          }
+        }
+      }
+    },
+    "item_specifications": {
+      "brand": "OHAYO",
+      "color": "Black",
+      "ear_placement": "Open Ear",
+      "form_factor": "Clip-On",
+      "impedance": "32 Ohms"
+    },
+    "about_item": [
+      "👓 FINALLY, HEADPHONES THAT LOVE YOUR GLASSES (4.7g Weightless Clip) Designed for ears that wear glasses first. The 4.7g feather-light clip rests around your ear with ZERO pressure on temples or ear canal. Ergonomic spring fits all ear shapes — from 8-hour workdays to long flights, forget you're wearing them.",
+      "🚴 YOUR MUSIC WITH 360° SAFETY (Open Ear Design) Run city streets, bike trails, or walk through crowds with full awareness. Open-ear design beams music in while keeping traffic, conversations, and alerts crystal clear. It's not just audio — it's your personal safety gear.",
+      "💪 SWEATPROOF GRIP FOR YOUR TOUGHEST WORKOUT (IPX6 & Secure Clip) The clip is engineered with 4-point support to lock securely during HIIT, sprints, and heavy lifts. IPX6 sweatproof + physical buttons work reliably with sweaty hands. Built for the grind.",
+      "🎮 STUDIO SOUND MEETS ZERO LAG (12mm Dual Drivers & Bluetooth 5.4) 12mm titanium drivers deliver rich bass without sacrificing awareness. Bluetooth 5.4 + 35ms low-latency mode ensures perfect sync for movies and competitive gaming. ENC keeps calls crystal clear in noisy gyms or windy outdoors.",
+      "🔋 40-HOUR FREEDOM & 5M+ COMMUNITY TRUST 6.5h continuous playtime extends to 40h with charging case. Quick-charge 10 min = 2h use. Backed by 1-year warranty and trusted by a global community of active users. Your adventure, powered up."
+    ],
+    "bought_together": [
+      {
+        "position": 1,
+        "title": "OHAYO A7 Open Ear Clip-On Headphones for Glasses Wearers - Safe for Running & Streets, 4.7g Weightless Fit, 40H Battery, Bluetooth 5.4, Black",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61LBZ412GuL._AC_UL116_SR116,116_.jpg",
+        "price": "$14.39",
+        "extracted_price": 14.39,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ],
+        "stock": "In Stock"
+      },
+      {
+        "position": 2,
+        "title": "Open Ear Earbuds, 50H Open Ear Headphones Bluetooth 5.4, IPX6 Open Ear buds Wireless with Adjustable Ear hook, Hi-res Stereo, AI Clear Call, Lightweight, Wireless Over Earbud for Workout, Gym, Running",
+        "link": "https://www.amazon.com/Headphones-Bluetooth-Wireless-Adjustable-Lightweight/dp/B0GTNX4JQV/ref=pd_bxgy_thbs_d_sccl_1/135-8957441-5900569?pd_rd_w=wefyq&content-id=amzn1.sym.9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_p=9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_r=KD2VF001EMK7SPFC8EM9&pd_rd_wg=q1S9g&pd_rd_r=7435bb27-3531-4c9c-8b15-f65bfa24ec0d&pd_rd_i=B0GTNX4JQV&psc=1",
+        "asin": "B0GTNX4JQV",
+        "link_clean": "https://www.amazon.com/Headphones-Bluetooth-Wireless-Adjustable-Lightweight/dp/B0GTNX4JQV/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTNX4JQV&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61tRUeYTR4L._AC_UL116_SR116,116_.jpg",
+        "price": "$29.99",
+        "extracted_price": 29.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ],
+        "stock": "In Stock"
+      },
+      {
+        "position": 3,
+        "title": "Open Ear Bluetooth Headphones Stereo Sound Clear Call Air-Conduction Wireless Charging Case LED Digital Display EarHook Earbuds Headset with Microphone Waterproof Earphone for Sport Work Running Black",
+        "link": "https://www.amazon.com/Bluetooth-Headphones-Air-Conduction-Microphone-Waterproof/dp/B0G6YBBWXF/ref=pd_bxgy_thbs_d_sccl_2/135-8957441-5900569?pd_rd_w=wefyq&content-id=amzn1.sym.9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_p=9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_r=KD2VF001EMK7SPFC8EM9&pd_rd_wg=q1S9g&pd_rd_r=7435bb27-3531-4c9c-8b15-f65bfa24ec0d&pd_rd_i=B0G6YBBWXF&psc=1",
+        "asin": "B0G6YBBWXF",
+        "link_clean": "https://www.amazon.com/Bluetooth-Headphones-Air-Conduction-Microphone-Waterproof/dp/B0G6YBBWXF/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G6YBBWXF&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61m4CqWkXHL._AC_UL116_SR116,116_.jpg",
+        "price": "$19.99",
+        "extracted_price": 19.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ],
+        "stock": "In Stock"
+      }
+    ],
+    "related_products": [
+      {
+        "position": 1,
+        "asin": "B0DBN31S41",
+        "title": "Raycon Fitness Open Ear Earbuds – Open Ear Headphones, Earbuds Wireless Bluetooth, Running Headphones, Sweat & Water-Resistant Earphones, 40 Hours Battery Life (Black)",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3NjE4ODExMzA4MDI2MDQ2OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTA1OTg3ODIzNjYwMjo6Ojo&url=%2Fdp%2FB0DBN31S41%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0DBN31S41%26pd_rd_w%3DzmKrf%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0DBN31S41/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DBN31S41&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/717B6iP7twL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.2,
+        "reviews": 1719,
+        "discount": "-15%",
+        "price": "$84.99",
+        "extracted_price": 84.99,
+        "old_price": "$99.99",
+        "extracted_old_price": 99.99,
+        "prime": true
+      },
+      {
+        "position": 2,
+        "asin": "B0GL2252ZZ",
+        "title": "Monster AC225 Open Ear Earbuds, Stereo Sound, Bluetooth 6.0 Open Ear Headphones, Lightweight Comfort Clip-On Earbuds with ENC Mic for Clear Calls, 36H Playtime, Touch Control, IPX6 Waterproof, White",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3NjE4ODExMzA4MDI2MDQ2OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsX3RoZW1hdGljOjMwMDk5MDE3NjAzMzIwMjo6Ojo&url=%2Fdp%2FB0GL2252ZZ%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0GL2252ZZ%26pd_rd_w%3DzmKrf%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0GL2252ZZ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GL2252ZZ&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/61R-lscd6dL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.3,
+        "reviews": 8897,
+        "discount": "-40%",
+        "price": "$29.97",
+        "extracted_price": 29.97,
+        "old_price": "$49.96",
+        "extracted_old_price": 49.96,
+        "prime": true
+      },
+      {
+        "position": 3,
+        "asin": "B0DPFNMWRG",
+        "title": "mojawa StarClip Open-Ear Wireless Bluetooth Headphones, Clip-On Earbuds, 4D Panoramic Sound, Clear Calls, Lightweight, Secure Fit, IP54 Water-Resistant Ear Grips for Workout and Daily Use, Silver",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3NjE4ODExMzA4MDI2MDQ2OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTEyODA3MzIxNzYwMjo6Ojo&url=%2Fdp%2FB0DPFNMWRG%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0DPFNMWRG%26pd_rd_w%3DzmKrf%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0DPFNMWRG/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DPFNMWRG&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/51bwjJGOiQL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.2,
+        "reviews": 113,
+        "discount": "-38%",
+        "price": "$49.99",
+        "extracted_price": 49.99,
+        "old_price": "$79.99",
+        "extracted_old_price": 79.99,
+        "prime": true
+      },
+      {
+        "position": 4,
+        "asin": "B0G4D5P1S1",
+        "title": "Monster Wireless Earbuds, Bluetooth 6.0 in-Ear Headphones with Charging Case, Stereo Earphones Deep Bass Sound, Built-in Mic, Clear Call, Water Resistant Design for Sports Black",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3NjE4ODExMzA4MDI2MDQ2OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI4NTAzNjIxMzUwMjo6Ojo&url=%2Fdp%2FB0G4D5P1S1%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0G4D5P1S1%26pd_rd_w%3DzmKrf%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0G4D5P1S1/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G4D5P1S1&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/71uOIycOSCL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.3,
+        "reviews": 34,
+        "discount": "-40%",
+        "price": "$29.99",
+        "extracted_price": 29.99,
+        "old_price": "$49.99",
+        "extracted_old_price": 49.99,
+        "prime": true
+      },
+      {
+        "position": 5,
+        "asin": "B0GGQCWHLN",
+        "title": "Monster AC228 Open Ear Headphones, 24-Hour Battery Life, IPX5 Water Resistant, Bluetooth 6.0, All-Day Comfort Fit, Wireless Clip on Earbuds Running & Cycling",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3NjE4ODExMzA4MDI2MDQ2OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI1MDQ4ODg4MDMwMjo6Ojo&url=%2Fdp%2FB0GGQCWHLN%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0GGQCWHLN%26pd_rd_w%3DzmKrf%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0GGQCWHLN/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GGQCWHLN&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/61Mn-blmeXL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.0,
+        "reviews": 8,
+        "discount": "-39%",
+        "price": "$39.98",
+        "extracted_price": 39.98,
+        "old_price": "$65.99",
+        "extracted_old_price": 65.99,
+        "prime": true
+      },
+      {
+        "position": 6,
+        "asin": "B0GTLLX934",
+        "title": "Haowolf Open Ear Earbuds, Bluetooth 5.4 Bone Conduction Headphones with 4 Mics Clear Calls, AI Music Generator Wireless Clip On Earbuds, 5.7g Ultra-Light, 30H Hi-Fi Stereo Playtime for Running, Black",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3NjE4ODExMzA4MDI2MDQ2OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI5MTA5MjIyNjAwMjo6Ojo&url=%2Fdp%2FB0GTLLX934%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0GTLLX934%26pd_rd_w%3DzmKrf%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0GTLLX934/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTLLX934&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/61Qq1ZQSTYL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.3,
+        "reviews": 27,
+        "discount": "-69%",
+        "price": "$27.99",
+        "extracted_price": 27.99,
+        "old_price": "$89.99",
+        "extracted_old_price": 89.99,
+        "prime": true
+      },
+      {
+        "position": 7,
+        "asin": "B0GTLJGDRQ",
+        "title": "EarFun Clip 2 Open Ear Earbuds, Clip On Headphones, LDAC, Hi-Res Audio, 12mm Titanium Driver, 4 Mics AI Clear Call, AI Translation Earbuds, Secure Fit, 40H Playtime, Bluetooth 6.0 for Running, Workout",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3NjE4ODExMzA4MDI2MDQ2OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI2Mjk3MTExNDQwMjo6Ojo&url=%2Fdp%2FB0GTLJGDRQ%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0GTLJGDRQ%26pd_rd_w%3DzmKrf%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0GTLJGDRQ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GTLJGDRQ&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/71k16MIMkhL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.7,
+        "reviews": 67,
+        "discount": "-36%",
+        "price": "$63.98",
+        "extracted_price": 63.98,
+        "old_price": "$99.99",
+        "extracted_old_price": 99.99,
+        "prime": true
+      },
+      {
+        "position": 8,
+        "asin": "B0GWLH8Z7D",
+        "title": "Soundcore Liberty 5 Pro,Guinness World Records-Certified Call Quality,Anker Thus™ AI Chip,Active Noise Cancelling Wireless Earbuds,Crystal-Clear Calls for Commute,Noisy Environments",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNjA2NzUwMDY3MzQ0MzU5OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsMjozMDEyOTQxODYzMzYzMDI6Ojo6&url=%2Fdp%2FB0GWLH8Z7D%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0GWLH8Z7D%26pd_rd_w%3DdEdKO%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0GWLH8Z7D/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GWLH8Z7D&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/61hSEKglkUL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.9,
+        "reviews": 22,
+        "price": "$169.99",
+        "extracted_price": 169.99,
+        "prime": true
+      },
+      {
+        "position": 9,
+        "asin": "B0F62TV3ZW",
+        "title": "OHAYO Open Ear Headphones,Over Ear Earbuds with Ergonomic Earhook,Bluetooth Headphones 5.4 with Smart Digital Display,40H Playtime,IPX6 Waterproof,Touch Control Operate Fit Cycling,Running,Workout",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNjA2NzUwMDY3MzQ0MzU5OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsMjozMDExNjYyODIxNzI2MDI6Ojo6&url=%2Fdp%2FB0F62TV3ZW%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0F62TV3ZW%26pd_rd_w%3DdEdKO%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0F62TV3ZW/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F62TV3ZW&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Amazon's Choice"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/61jC7oIl5IL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.4,
+        "reviews": 2131,
+        "discount": "-40%",
+        "price": "$29.99",
+        "extracted_price": 29.99,
+        "old_price": "$49.99",
+        "extracted_old_price": 49.99,
+        "prime": true
+      },
+      {
+        "position": 10,
+        "asin": "B0GF7J3K8S",
+        "title": "Clip On Earbuds Bluetooth 6.0 Open Ear Headphones, Wireless Earbuds for Small Ears ...",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNjA2NzUwMDY3MzQ0MzU5OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsMjozMDEyNjk3NTU5OTcxMDI6Ojo6&url=%2Fdp%2FB0GF7J3K8S%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0GF7J3K8S%26pd_rd_w%3DdEdKO%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0GF7J3K8S/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GF7J3K8S&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/41yMBKk07uL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.7,
+        "reviews": 20,
+        "discount": "-12%",
+        "price": "$20.48",
+        "extracted_price": 20.48,
+        "old_price": "$23.30",
+        "extracted_old_price": 23.3,
+        "save_with_coupon": "Save 6%",
+        "prime": true
+      },
+      {
+        "position": 11,
+        "asin": "B0F4RH178P",
+        "title": "THINKAR SoraClips Open Ear Earbuds, 4.6G Ultra Lightweight Clip On Headphones, 31H ...",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNjA2NzUwMDY3MzQ0MzU5OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsMjozMDExMDc3MzM0ODYzMDI6Ojo6&url=%2Fdp%2FB0F4RH178P%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0F4RH178P%26pd_rd_w%3DdEdKO%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0F4RH178P/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F4RH178P&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/51cbudW52hL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 3.9,
+        "reviews": 67,
+        "discount": "-20%",
+        "price": "$17.82",
+        "extracted_price": 17.82,
+        "old_price": "$22.28",
+        "extracted_old_price": 22.28,
+        "prime": true
+      },
+      {
+        "position": 12,
+        "asin": "B0DHVH5KCB",
+        "title": "TOZO OpenEarRing True Open Ear Earbuds, Lightweight Comfort Open Ear Clip Wireless Earbuds, 40H Play Bluetooth 5.4 Headphones with Smart Digital Display Design Fit Sports Running, Workout Black",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNjA2NzUwMDY3MzQ0MzU5OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsMjozMDEyMjAxNDE5Nzk0MDI6Ojo6&url=%2Fdp%2FB0DHVH5KCB%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0DHVH5KCB%26pd_rd_w%3DdEdKO%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0DHVH5KCB/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DHVH5KCB&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/61gDMS2fowL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.2,
+        "reviews": 7300,
+        "discount": "-33%",
+        "price": "$26.99",
+        "extracted_price": 26.99,
+        "old_price": "$39.99",
+        "extracted_old_price": 39.99,
+        "prime": true,
+        "climate_pledge_friendly": true
+      },
+      {
+        "position": 13,
+        "asin": "B0DWF5S6K3",
+        "title": "SHOKZ OpenDots ONE-Open-Ear Headphones, Clip-On Earbuds-Wireless Bluetooth Earbuds with Microphone-Secure, Lightweight, Comfort-Premium Dolby Audio-Water Resistant-Fast Charging-Up to 40 hrs Playtime",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNjA2NzUwMDY3MzQ0MzU5OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsMjozMDA4ODc5NTg2MzQwMDI6Ojo6&url=%2Fdp%2FB0DWF5S6K3%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0DWF5S6K3%26pd_rd_w%3DdEdKO%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0DWF5S6K3/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DWF5S6K3&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/61oJUpMRJ7L._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.4,
+        "reviews": 2268,
+        "price": "$199.95",
+        "extracted_price": 199.95,
+        "prime": true,
+        "climate_pledge_friendly": true
+      },
+      {
+        "position": 14,
+        "asin": "B0G693DKVS",
+        "title": "Clip On Earbuds,Open Ear Headphones Mini Bone Conduction Headphones IPX6 Waterproof...",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNjA2NzUwMDY3MzQ0MzU5OjE3Nzk0NTgyOTQ6c3BfZGV0YWlsMjozMDExMzcwNjEyNjIwMDI6Ojo6&url=%2Fdp%2FB0G693DKVS%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0G693DKVS%26pd_rd_w%3DdEdKO%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3DKD2VF001EMK7SPFC8EM9%26pd_rd_wg%3Dq1S9g%26pd_rd_r%3D7435bb27-3531-4c9c-8b15-f65bfa24ec0d%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0G693DKVS/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G693DKVS&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/612Hko8RcJL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.4,
+        "reviews": 110,
+        "discount": "-33%",
+        "price": "$26.99",
+        "extracted_price": 26.99,
+        "old_price": "$39.99",
+        "extracted_old_price": 39.99,
+        "prime": true
+      }
+    ],
+    "videos": [
+      {
+        "position": 1,
+        "title": "Listen to music and the world around you",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/6587a07b-f40d-4bbd-a1b5-477330b2d173/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A1UfRRtZA+L.jpg",
+        "duration": "1:15",
+        "vendor": "Chris",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/91a8s1KDvkL._CR0,0,1619,1619_._FMjpg_._SL34_.jpg",
+        "date": "Jan 21, 2026"
+      },
+      {
+        "position": 2,
+        "title": "Clip-on Open Ear Headphones Bluetooth",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/0b6ae9f0-5ce5-4c93-af94-cdea635c087b/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51RtIbVzKyL.jpg",
+        "duration": "0:40",
+        "vendor": "DivaDog Carla",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A1l3H2jn8EL._CR0,0,1241,1241_._FMjpg_._SL34_.jpg",
+        "date": "Oct 8, 2025"
+      },
+      {
+        "position": 3,
+        "title": "A open ear headphones for walking running working",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/db428aec-24d2-432c-b393-7b96d21bf0a3/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A1xAdKg0E1L.jpg",
+        "duration": "2:58",
+        "vendor": "Amber McLaughlin",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A1z0nNF8DZL._CR0,130,1290,1290_._FMjpg_._SL34_.jpg",
+        "date": "Oct 9, 2025"
+      },
+      {
+        "position": 4,
+        "title": "These Clip On Earbuds Dont Go In Your Ears",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9cb31a06-049c-4ab3-bbe2-27ea2b410b9a/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/41xVgR0CZGL.jpg",
+        "duration": "0:49",
+        "vendor": "Dadlearnsmoney",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/91dIiOE4UYL._CR0,542,1080,1080_._FMjpg_._SL34_.jpg",
+        "date": "Feb 18, 2026"
+      },
+      {
+        "position": 5,
+        "title": "Review - Clip On Open Ear Earbuds",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/c75e2aac-ae8d-4299-9151-101d82927e05/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A10nebS-zqL.png",
+        "duration": "1:41",
+        "vendor": "Molly B",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A1-YFa9JaUL._CR0,0,2530,2530_._FMjpg_._SL34_.jpg",
+        "date": "Oct 9, 2025"
+      },
+      {
+        "position": 6,
+        "title": "OHAYO Ear Buds, Fit, Feel and Movement Test",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bf1ca5c3-548d-47cf-9b79-527c3dbb394a/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/81c5ukdxvSL.png",
+        "duration": "2:59",
+        "vendor": "✅ John Reviews",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A12SY1ODQuL._CR555,745,408,407_._FMjpg_._SL34_.jpg",
+        "date": "Nov 24, 2025"
+      },
+      {
+        "position": 7,
+        "title": "OHAYO A7 ClipOn Open Ear Headphones 4.7g UltraLight Bluetooth 5.4 6.5H Playtime 12mm Dual Dri",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9ab530b9-bfb7-48d5-9eef-2a17efd76f4d/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/61rx8iTGDuL.jpg",
+        "duration": "0:49",
+        "vendor": "Merobin Stephon",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/914OktFERKL._CR384,177,438,438_._FMjpg_._SL34_.jpg",
+        "date": "Oct 24, 2025"
+      },
+      {
+        "position": 8,
+        "title": "OHAYO A7 Open Ear Headphones",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/91faca4f-a1a3-4388-8784-5b185fd8ad40/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/41VdylWK0iL.jpg",
+        "duration": "0:44",
+        "vendor": "OHAYO-AUDIO Direct",
+        "date": "Nov 18, 2025"
+      },
+      {
+        "position": 9,
+        "title": "Great sound quality",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b6c76cfa-c168-4b92-9339-960560e37ca6/embedded.cc.default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/31MD70KEQVL.jpg",
+        "duration": "0:21",
+        "vendor": "Kyra",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SL34_.png",
+        "date": "May 17, 2026"
+      },
+      {
+        "position": 10,
+        "title": "VERY Unexpected find",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4ddecc14-03f7-4933-986c-6a39dc738cba/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51zPSyfvCXL.jpg",
+        "duration": "1:55",
+        "vendor": "✨🛍️ BigDealBabe 🛍️✨",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/61rIyNFNwuL._CR0,0,720,720_._FMjpg_._SL34_.jpg",
+        "date": "Dec 26, 2025"
+      }
+    ],
+    "product_description": [
+      {
+        "position": 1,
+        "title": "open ear headphones",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2bbfce87-1030-4440-9675-bed7dfadd92f.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "position": 2,
+        "title": "open ear headphones",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ab398889-028b-4245-ad54-8c7eb7052b35.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "position": 3,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7ac1efbd-8ef0-44ff-ae27-ce327ae0609f.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b07f6585-cc3f-46a7-b28e-1622424bfd32.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0677df4f-642f-4740-87b0-79f148f292cf.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 4,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5d54bd51-bb3b-4d6b-8d6f-a59b84e02537.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 4,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d44af6f3-7bd7-41fa-86a1-0ab146550345.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7f3d9967-9875-4c15-a2b0-3f523e05031d.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/47805cd9-ea5f-4f03-9ba1-babc514a4873.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 4,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d322016f-e2d9-48d5-88bd-ba8977fa3f3a.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 5,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/731cd6c7-93d1-4fd4-936a-2f2bf2325722.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4d04d549-fe4e-4567-b020-467e1ff61694.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/899c53b5-e8fa-426a-9018-9611a233ad43.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 4,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1a821be8-ec62-4369-a2ed-668370f7822f.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 6,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e2d6ef65-e577-4a9b-bff0-bdb3643d4836.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1338eba2-d50b-4ac2-b5de-d60ed694ad1a.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "open ear headphones",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ca1bbffa-fde7-4bb5-a761-3c42ba5f9238.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      }
+    ],
+    "product_details": {
+      "brand_name": "OHAYO",
+      "model_number": "A7",
+      "model_name": "A7",
+      "built_in_media": "Cable, Clip on earbuds, User Manual, Wireless Charging Case",
+      "age_range_description": "For All Ages",
+      "warranty_description": "1 year",
+      "number_of_items": "1",
+      "manufacturer": "OHAYO",
+      "best_sellers_rank": [
+        {
+          "text": "#1,021 in Electronics (See Top 100 in Electronics)",
+          "extracted_rank": 1021,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/ref=pd_zg_ts_electronics",
+          "link_text": "See Top 100 in Electronics"
+        },
+        {
+          "text": "#21 in Open-Ear Headphones",
+          "extracted_rank": 21,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/99530371011/ref=pd_zg_hrsr_electronics",
+          "link_text": "Open-Ear Headphones"
+        }
+      ],
+      "asin": "B0G2LW2DQ4",
+      "customer_reviews": "4.6 out of 5 stars",
+      "rating": 4.6,
+      "reviews": 428,
+      "headphone_jack": "No Jack",
+      "connectivity_technology": "Wireless",
+      "wireless_technology": "Bluetooth",
+      "bluetooth_range": "22 Meters",
+      "bluetooth_version": "5.4",
+      "color": "Black",
+      "style_name": "Modern",
+      "carrying_case_color": "Black",
+      "item_weight": "55 Grams",
+      "carrying_case_length": "6.1 Millimeters",
+      "carrying_case_width": "5 Millimeters",
+      "carrying_case_height": "3 Millimeters",
+      "carrying_case_weight": "400 Grams",
+      "unit_count": "1.0 Count",
+      "impedance": "32 Ohms",
+      "noise_control": "Environmental Noise Cancellation",
+      "frequency_response": "20 KHz",
+      "sensitivity": "85 dB",
+      "audio_driver_type": "Dynamic Driver",
+      "audio_latency": "6 Milliseconds",
+      "audio_driver_size": "12 Millimeters",
+      "frequency_range": "20 Hz - 20 KHz",
+      "enclosure_material": "Acrylonitrile Butadiene Styrene (ABS), Plastic",
+      "specific_uses_for_product": "Business / Fitness / Entertainment / Gaming / Professional / School / Sleeping / Travel / TV Series / Video Game / Sport / Music / Gaming / Motorcycling / Office Meetings",
+      "antenna_location": "Business / Fitness / Entertainment / Gaming / Professional / School / Sleeping / Travel / TV Series / Video Game / Sport / Music / Gaming / Motorcycling / Office Meetings",
+      "compatible_devices": "Compatible with IOS/Android mainstream mobile phones, tablets, laptops and other Bluetooth devices",
+      "water_resistance_level": "Waterproof",
+      "carrying_case_material": "Plastic",
+      "additional_features": "Bluetooth 5.4, 40 hour battery, 8 hour playtime, sports earbuds, running headphones, gym earbuds, cycling headphones, 12mm drivers, IPX6 waterproof, lightweight earbuds, secure fit, ENC microphone, touch control, voice assistant, stereo sound, hearing awareness, long battery life, charging case, sweatproof, workout earbuds, commute headphones, outdoor headphones, ergonomic design, clear calls, stable connection, fast charging, music earbuds",
+      "headphones_ear_placement": "Open Ear",
+      "headphone_folding_features": "Clip-On",
+      "earpiece_shape": "Hook",
+      "control_type": "Button Control",
+      "control_method": "Push Button",
+      "controller_type": "Button",
+      "battery_charge_time": "1.5 Hours",
+      "battery_average_life": "40 Hours"
+    },
+    "sponsored_brands": [
+      {
+        "position": 1,
+        "asin": "B0GYJ7FL4J",
+        "title": "Qecnato Wireless Earbuds Bluetooth 5.4 Headphones 75H Stereo Deep Bass Sports Over Ear Buds with Earhooks, LED Display Bluetooth Earbuds with 4 ENC Mic, IP7 Waterproof Earphone for Running",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JPoHtYVtrK-6bcWtnRBLOvoAAAGeT_rDrwEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDDcu98/clv1c_ek-wxYHXKsTWDaXhdOfmvou-AxqnsmI6sAgX-0_rPjWlnGkrlmqVyFl5FuPeeHaJAWa-2qMrcxCBA9t-iAkFXVIZXdmCeCatQ7sw8Fw3_Gxu6rFkrIXnSYR4Y_xh_GQzkGkE0fwjhAgpTNBOnPTz-vqLYN-SnkXGWiSRzbSk5IoHibPtSKFzkgsLt2yvaEAkviznnqOrfkXNTuX4_1Bm3nmPjQ9uDTbU091gKlP0yVreB5B-vYG1tkYNQJYB42UT1tmWLO0wsRhxJTyxcnO2rMyVjEV8jlg7syz_IAKgmD1ktZN41bwwkVCo5oS9i7lsraExSRcqDMBeI4ug-f_-PnKzoZow7c16NAJba5h5V1sRy6DIg0roIuvqea7ckvpRsa9Sq4PzBYlQeCr2J1rQdnGNG0JGdSFlVLnoIQ_Tp9Ff3zP1zW9PFM0YPESZDI0K2R5wHgmw5jtGmIvymjVF2ggRjVdm7SvpWeGgtJT05m-cY6-T4VcS7kBv2HPY01qoTounE5zg_ohSKiWYaNGItPV6CMZK9jendkMIOXUXt048xHqLUjCdlGX_GNkxMZ2piDUgRGaj9wqhpzsX-FsZDA6T0mWYXwVHvnNQEQvGmNIvEKvalpFgY0T2luz_4lLGbjXY3ST4yVa3RGOIDxuG6G0LMEhUeFTZonhHaBBiZlieB0b9pHtf-bw0qp7xXkUQNLU0n-ueBPix2c7pGuVO0Qo8-NUnSLsre-b_fSAtzx3VGKoWmOToMAbheLTIH-NaHF4oDP8_wxUuzpYOjrC6nheu2FRN5C47TfSdnD_our_8zsdHM0aNDmzjpjssB0FlZO1lxNj7D78KNYUW1CES7-DEORMWYj2_uV-skVMAkv11vN8tXAocxnAZorVCW3Lqgrm8RiRLIJs2VgDFZBEPCcd5q0nzV2LWjS6Xc7-IysPkFQgcUhY7N_Vo5btyTTR8sRCH_IC3mfI2VNpLUS3tnIhdu3Qoa7AjF9WYcEpknwsMoJFzWfYNxkBX-LU5_CgmflQSJz93AABY3Anue0ryjkxq0umeW79_14o4bEQ4kgQMRD2PX_vA5a1vBJDEYj-PF2044tfySAQMxHKmSa8LsksCc2zkEszsscYVNfN0sKW5USLDFFis3v2TZEowDAkRc5UarFKUi5c_z45ibYWXwLYCtz1MLsAcBhOyCyLjoVy94S1VQUfkQotOI6OhCVk_oZaCPrQhTnQ2bFs9zEAsyNKM-8zH8Rp25xyw63jLwm0DeuPdwPakgq7nDO2UoaKo_qc11SsUQcsVvAr4SmDEV17DoUW_XGQUW9y1xa0daC-cPzYHJp_WoW-IBI-6jzQNrSo07bixO_S4O7pfVDT2v0WU-TYk1rBA_iWsHSoHJe4rtCH9qgH7t1eLnfkkaaBYB4bdg4YoyIkurz6Bt00NWE0hVLxpeTtJJL2V2gbTv3QSoeDYNB49B6_jIBBTeBy6NWEDBxmBKyTZBmaiseKzHHBFSG5quQbjrCZmZVzUp14UfwRLtgfex4-pzCee1ETqGmWDoNYEU8DdP8vmj1st6E5dDNs/https://www.amazon.com/dp/B0GYJ7FL4J/?_encoding=UTF8&pd_rd_i=B0GYJ7FL4J&pd_rd_i=B0GYJ7FL4J&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=CDGHk&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=KD2VF001EMK7SPFC8EM9&pd_rd_wg=q1S9g&pd_rd_r=7435bb27-3531-4c9c-8b15-f65bfa24ec0d",
+        "link_clean": "https://www.amazon.com/dp/B0GYJ7FL4J/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GYJ7FL4J&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/51a3c9rVn8L._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/f03d620d-0857-40dd-beea-4fc26f135893.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/f03d620d-0857-40dd-beea-4fc26f135893.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.9,
+        "reviews": 282,
+        "price": "$21.99",
+        "extracted_price": 21.99,
+        "old_price": "$99.99",
+        "extracted_old_price": 99.99
+      },
+      {
+        "position": 2,
+        "asin": "B0FYCH5HZB",
+        "title": "SHOKZ OpenFit Pro Open-Ear True Wireless Earbuds with Open-Ear Noise Reduction, Optimised for Dolby Atmos, Deep Bass, 50H Playtime, AI-Powered Clear Calls for Work, Sport, Bluetooth 6.1, IP55, Black",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JD1LPcBx30a8gbI19mJUmJQAAAGeT_rDsAEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICD_IIib/clv1c_ek-wxfHXLcTWDaXjaCcSiFwLMKlTuYr7v8SCc13w3TKIw8wekfRto-1KZvJxuszPjefdSfwJ-9z5LX15kGAtmUxT39X3dm95M3-c2YBqnYwHzVB2J_-thbz44fJ-cv4zy82Wp3OoOQHlftJMefTr9vqLYN-SnkW22iRRzLSg5IwVDRNa-wiZ1FZnNlDU2MhtKDdTNosImAX-ztZtn85i4j8LZWMdhXomQYvh8YsVsU2N9hsZ4COKcJWatNaIGtM3_Oce7rhpmkavbfnC-raZcia7JLpwMmFptG8owgdNSCv-nHKraccMwTt1ZNESx6lrzOOqhawlNk9txZGSSWOpDsOEUyUPLssdnQxL94dIboBXl1wB5YU_ltubHn_AgRqyy4VeLgQ9kO3juji30NJDHbNR71KzRU7oQ0jKKkW4P81r6clo3LfmPj1kFo15MDLYl6cWua5F6Zws6otXt92sC1Oq_Mqz_eSTituF4zptHbyusxAGtRZQKt7LtGhHnzASvvMUQ7NZBYJUrb3EUa5-JxPPtahY8_N4q6DmEtVBeFt_XkPMNVAszwXmskQiLb_bF1QcqmXFJVDHy6upGxqp3IO72c-CnuWeuUX9qQYBTdxAsgQAsVNSYI4VizOHQX6qC0Gxlt5YbfzajU3BVjW_XQcTu0l60t3rTjUJZrskAYXxUh9PTRZCbFTVQ7_2OPQT8E10ZTikvS17uj1Kjz2N-4uq9_T-5-H_4_c6ZfIkQJK1JeS_-Tz_FDvwJCCuirJvRS_C9qExhHRw6hr6gk9swbQwvesXvZEhhidJaMVn3pB4iG7FPjthBf7y3GhHdj44T0f849PDyVzPD3FU70_sj_hxmpA0IzqXGb9FhiobVk1j2lpnWvXBC7R27UX2y86w4k5vqjeBaWXgOvJERyCDscUVWBYr3pRUyk1uaRm0ws505CmJeT09eU0lz2NDK5RR6fjAdLqg8YxeRM_XWG6r2hdHF-MZLC9cnwKoDEz70sySwrbCsIVd7khZ-VfxVzn6rs5H7BXrivxnBeSLAUomeENTymCkQFc3Wlj9te2WQRPAds9lSDnCJV785pYkTqqywcpdbzCYx9q9a_6UQzGiea-6XuKmRZXOynh7PrtN36zewXHDHXne1QYAhiqJ0F9qOOO_8H4_9TWaS0USRTF-4bSlzRL9vnChMtP1zrqHvZu5jDK4Wgh5-9VQgdSVa5voh6tBolpPjiinF7iZZqcnu-Y_LNutSpyehwyZvni24N2I5P7cIC9Hjbv1ep2GkuNWHz-wt9MjwK9lf-3sXtFDIC29uWqk4puGqP3_kL_PEmeGXYsAfiuPQUxSrTAuXPNUTaQz4VsxG_TNXekncmHt6yDXoC37uTQLJWAEY_YUaZ_Q8Gn0UDf_7_9GL64u0VD3gNxatjYFfO39MZEKDjHVvJWCf0EhGZJoG-4zVm5M_jN_3ZmJd8OrDb4m38gPboKfdaY6WJwmfNYUbjCKbVQGYXTTn5u_N5KIDOpG9SRlfirAZPogj742KsfPT3pwbMQY6SX9M3fMUJTGnkB9QO1NlNiyeJvS/https://www.amazon.com/dp/B0FYCH5HZB/?_encoding=UTF8&pd_rd_i=B0FYCH5HZB&pd_rd_i=B0FYCH5HZB&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=CDGHk&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=KD2VF001EMK7SPFC8EM9&pd_rd_wg=q1S9g&pd_rd_r=7435bb27-3531-4c9c-8b15-f65bfa24ec0d",
+        "link_clean": "https://www.amazon.com/dp/B0FYCH5HZB/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FYCH5HZB&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/31VYiU+cYsL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/8db0a659-1242-4624-9e44-6fcea56d2450.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/8db0a659-1242-4624-9e44-6fcea56d2450.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.5,
+        "reviews": 169,
+        "price": "$249.95",
+        "extracted_price": 249.95
+      },
+      {
+        "position": 3,
+        "asin": "B0GZVT446B",
+        "title": "Monster Open Ear AC221 Headphones, Bluetooth 6.0 Wireless Earbuds Stereo Sound, Clip on Earbuds With 30H Playback, Clear Calls, Type-C Charging, Touch Control, IPX6 Waterproof Wireless Open Headphones",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JHYqj-810F3uTd8YboRwsdkAAAGeT_rDsQEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDo7FK4/clv1c_ek-wBfHXLcTWXmxht_VwyXszORMnsrfnMY2zoBWgt_p_FxJhruHl_v2vOKfdV5MtK44_U__N44ETOyzZorSmDK_T3tXNXvrH0n0QeuekxO1z4_lIyQPgBFbogrrx8CIR9-CUl7ITETe0aVUAsYQDe9bvUJ2ekAHji9j8L-eri8WcP3AN_lHd9RB-V0K_gqM2LRSoDqsrX4IBVebxLWGJeGapF9V9IJceJo3hEpuT8P2P7zKlhGZQSs_gU3rfeQCXp7Zht5BtBo8svuNZ6TnIeWdpv1lBnVuD1qFsNH7GSUKljFy8FNd031Ii005DK1n5-hGLDsAhXddvU_AfC5OLvIFyoJNDeOAkT-2g9BgXFNd-O9_2qjOxPiC2JZI-A4kZfb6y7eCHonNTSONBuAnOT-PVqZxNU7516NamlJODlryfkaG3ZVR2diDeYcwfhP9NtbYQfoaOLKCMwR7y-CSoSwnC0T_CC6WbkWzy-HyiGlHJazg07wIIt7YTL_Md35Hp4nAMh4U1yLHe27H7udRoPAgJrmCn9ZnVdJyVjNeMLlJscaSs3JxSZP8Xv5ELNpNLdld6TAYj9_qmpzN1uE-yqWvT3hSWnQok0h07S2bN-64vFJPSd9hxzL6WjAe6bXKqVriVPGKEXUZWnOL1Ucm_sDG9gtJ3cV7Or7SqPT_yzPRxR1dAguprOS7T3YGFFHs_zJcOyAmV50EAG8DSlwuNO5uuxvAf5RSgGtG5BI1zsNeabvvZ6oXrYog8YxTPh2lCuF8qJ1SpEbKKKEctg6WayFBJRXa33RfZLoRSO6MSCRA0an1xTsggueTV9JbaUY14YhEvtirPAY7GYu3t8w2mnN4YRvK7kP7SlcBe4XX1-OyjBkKOtJXBKGS31OczI547ydNaaNDfpau4_Tk_pNJvrVzJbDyoklEnCP2cIcrnWMufK_7Ydkr4f0COLhqXFqTBP2wDLh-HDCDbaRMQ0zQnbr74QhTo4hOPt4XU_Y7JXx4_SQQtHUGHB_z4l-Bhogttfh1aVplX4TaCj-XefFyRaCKgmZ6oeu289NFDRhUkDYfPE9GTb5JB9scihiYubXCtEvXwYVeVOSh6Og3DxFWeq0pENwhSsy5pcVXhA0zQ4brmWlhRGG6ElWHJ-rD9IHxkM68rWjOVffN7XKy-NA89a8dH9yrS8OPYda4SFpfGZsfyYu7Ol2_oCKYwiucGHD2_ArYRqXH9XsD7Zw1n6-s0L1cu_It7QktdPtaVr35hGpjAdUNo1YhV6ghBGqQyCbV39kPjMZSb0amBmV-4Rkb6JPrLUuDKBy489uNSO0A1KZbiKgUyfRETVUHQfmL93IVv4jr_RICX8ThrLulIhmxFyvlX2YRW7Y8U_ZAC2ehNvmHTyqfunacG9-_hOwFlaU7eaCIhvcJJtAPCx4Re2wP4qTGJuzUgilFMefaJQQRJ7NVAP4a4is7o834z9DOzNr58irOfgt2rJ55OnmdrgDVwi5UCIK4MHXaf_dsY8IaDMc0H1abZylA3gYGptGTB5RdqyISozHr185Db1UuSUkKP/https://www.amazon.com/dp/B0GZVT446B/?_encoding=UTF8&pd_rd_i=B0GZVT446B&pd_rd_i=B0GZVT446B&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=CDGHk&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=KD2VF001EMK7SPFC8EM9&pd_rd_wg=q1S9g&pd_rd_r=7435bb27-3531-4c9c-8b15-f65bfa24ec0d",
+        "link_clean": "https://www.amazon.com/dp/B0GZVT446B/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GZVT446B&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41V5wd0ff2L._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/d8b893a8-b4f2-46c9-a151-1e42d456e303.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/d8b893a8-b4f2-46c9-a151-1e42d456e303.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.5,
+        "reviews": 8,
+        "price": "$31.99",
+        "extracted_price": 31.99,
+        "old_price": "$63.99",
+        "extracted_old_price": 63.99
+      },
+      {
+        "position": 4,
+        "asin": "B0GY41NGWR",
+        "title": "Yorlu Bone Conduction Headphones, 2026 Upgrade Open Ear Bluetooth 5.4 Headphones with Mic, 10Hrs Playtime Wireless Earbuds, Sports Earphones Comfort, IP56 Waterproof Headset",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JFAgiVDMakacMKm9bxaNT3AAAAGeT_rDsgEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICAzycrr/clv1c_ek-YBYHXFcbWDn2nI-MgDzrZjBAPnkYZjh21l0Tmja5PxMkSDtf-Pv_V0p5QOAloR9VMq2w6uv6SoFhtef44EooLVgGUnILb8SJ1kqpq7Q4-urJL5CmIKwhgonl5uzSkl1wRzVxHMvIwGRi7zjdNdtrBkB2fn026nuwQrjYtxr4VU2eiMpOSX-pW855fHDYYVNMDdUFYIysgZU0tNw5xQjLOHMb2UD_OEyv-oKOYaJLTUAOzlsqu6Ws6BY8HXonA-8ap0TOF-Dzc1YyGBNoPNJPIiANEL5DO1byN44oCON7Fpp-FxdZ0MyVqsgea37xSCrVjQN9UVXeCDDVHv-0z2l9h3iOQ4DVebiHZVhsRL25a-Wb24S3KSKo7RbIar-6i1uklV6Pgj76F9iqh0-1nbHf7_wgpI2WwtfUKBll2YNVJ2T6L8uaiqIwIH2fEsnjAWAUxEmTi4ydhzz_VnUnxQYmRhpR7PKvDex7pMg2O_AIWH6z1rFGvcMnhPIlkZ_UqM9EDPeOGQLSrBLCmIUeYZGthpCADciOAXyVEP6qdybw7Epo9kgSXMGuwrUJJx5UsaVTgebFe8b-K5tU6mWmGNtKf2u8prGAes70CZRiTS24jYxFR5b4JQMI0pWW6T5geKPbjggSNmP_oEm9bBMtIfwQN8uG5W9QS-fvKdkDZFpQYp7opaK_fx5sR41QBxAwZRe-KmuvxicNQ2cg4RBNnBM6-nk6u3-iToENkBa4nsTgKjqb74jyZrH-Q4GnECh7YSxyqkd4rI1QXyxhLgOgvlSoj15i3atv5wUYjpL9YbNmVipdm4xvDKu9W7gu60fXaUdFfM5yEAlXKMkuM0FOOMT2T1M2KQ8cjWbmAwX7B8LKfPVemu7JaplA6NcQgM7ca72nn-M26C1hHVdVJqq7xGtett7bSxWWjnm1Ak74rdiuyif-4TBb9Aw17R9zGFPD0FfNiNtlsrJGellTZ5bQOe8-YE87DL2hpI4GNn_UGKbXlAzAyBA7GRAL2QUMh3XE6G3SF_zfepjmcUL_l3O9T_6eoqFeoRcNPBYN6c74UoR_gYyr5B8I0wT1cDnTVFS1jVVjMaw1vdUikXJNeQX50hOA6r4ewAyijBxBsjo_LYebXuDSTWEB9A0Lv-KwNNpyWqK3yxk_xx6P4Xwn3AqxxUl6hTzp9fOTxYy_nmlXlY_zDENQuimYCaZAzfNtXjAeAlA0JQbinmfMtHA2C_CxbIVRlwGrhlmRN0qK2NvZPP-XAg5I54U0B9PtnKHLEgD_2kHX8jlqxz-IKnEFeu5LC3AqEXwnV5Usiw3Pgmc7aq_jx-wL7cyxMVHNOS3qGKfBKBdVOxSJNjy-ZSCFvuGxZO75yg8T34xVq4Rm_gj-sJ7EDgJiAkH-Jmdq2xalg2jqAV8giG1VZdKi_C-RVQRKHHl2InkzlmM-8kY04bS0DhogdcpVB1VbAQcii0QM6CbLT2HUN0JLLNrwtD2uvt2lU3CxEMj-p7P-mdSHnQxbx-fKs7R-Na5UkkxT9pQP1KD0IIpGIjl72/https://www.amazon.com/dp/B0GY41NGWR/?_encoding=UTF8&pd_rd_i=B0GY41NGWR&pd_rd_i=B0GY41NGWR&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=CDGHk&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=KD2VF001EMK7SPFC8EM9&pd_rd_wg=q1S9g&pd_rd_r=7435bb27-3531-4c9c-8b15-f65bfa24ec0d",
+        "link_clean": "https://www.amazon.com/dp/B0GY41NGWR/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GY41NGWR&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/31KLnWcWrKL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/e9359f00-e197-43f8-97fe-ae90cbb6a8e4.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/e9359f00-e197-43f8-97fe-ae90cbb6a8e4.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.5,
+        "reviews": 85,
+        "price": "$25.99",
+        "extracted_price": 25.99,
+        "old_price": "$59.99",
+        "extracted_old_price": 59.99
+      },
+      {
+        "position": 5,
+        "asin": "B0FNW92K1F",
+        "title": "POLVCDG Swimming Headphones,IPX8 Waterproof Bone Conduction Headphones,32GB Memory Open Ear Headphones with Mic,Wireless Bluetooth Earphones Underwater Sport Earbuds for Running Workout Cycling",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JE6n3inoDaYn253FnB856XgAAAGeT_rDswEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDJQmdU/clv1c_ek-wBXf2VcbW3jI2m_XuA8GUija5bo-H2gMXFH-3ik2RrW7WQphWhg-dMIkg0l8vGsOp90b5QagGgi4aVJqD1UqOvB5cJ_7yT1oR4JT-vQh-Q3ai6SntFjwogzuerPq1_9-FoEXnBSa_IqtoZesuu9DYuB0cRfVrFcfE_RfihDY90RMWtMWEmf32d8ZF4nXtOfK9nnN7_rH4VaDP0hGVcs1ISHPxYma4yv0D7ViVTebrDHWck4H4Xg25WTeG3yIJnh6pFm_f8P11wEB58CWFk9qpO1hbt-47-uFzWPV-FPz1dD5MtPg4OwcOUE2obyB17Rci2F17-Hz7LEbJFTJW53GOrQNzaoN8zez7puapgWPMu8eAsXEIDzHchHL1BK2IUWqTj0TSn6VWnGVMQr1MRbUY7xdzJRi_nf-zXBSZo0C0Agc8S67pSAIH1LynbpN6UxG_1pkDSUQFCyEQziOi6Fe_lg3i5F4PcBzvXcXHyb3-jMKqLJB6YCFXTOk1TlCjrXTrK6gE0HjYA7PulPiUjN7AOZGvsya2BtredifoIH4RyPcNOWniU1RkIpjodeXmSzotu6AUzMfABxHhupbtxXnqw1gNV6xwbxOou1WY-XQXXbqnp0cqBsz2n4mEACKIYtJVOwCAWbpMhkj3RJd0T161lMhFYdqaacAKZbfPniEMqj1-CP73r_tC2rOvzZAC0Cl4TwnOh-1KOysUIxAjVK7AG9c2mjXM1qsgzom-dNtdk6QOuBOeoHd5TvAsE-qieqQXWSmziVB1CSamXSLlFFUW2GkX2b-FFfvVOhBcjjs8eUW7BaUra2pRoeyQi5DoW_LwWoOIC1F7UWwNkwdKPVqF_WoK4V7KZxhzQEG2e8kxCYfpG3teylWSjR9UHVg-Z5tWK5j70RVyI4TACTOvtUsxRapNM_EJeBWC5-7tUaG_7NOAogU62guX_MTyUP3V9kWTfO4rXUbuMkADOMYpKc5MjiTg1JAulGEawBPUTIIxBHPBNey0y4GBVHibfmqekB_vaDlgp3JRrr4rATWMz42Ug2Y3nuw43POIyrm3Pzn05HkqFOaNI7h8xdHbHe20h8vK0k6rpjJCpCypFwaR23C7sY0yxuJHlyXl4vhVRtWQICV2rtXynn4ZD4mrB6FgRcBb3XuNTRaU5-_f-8dw7kOkj661jKPVNo7iIhyOiV9lLiLO-UVz4bMt1p_gOkKn2DfhqW2u2lPoXix4o7bN2OxPNxwOiPAjB39X7F2AYSpD4vSA0ilp9_WLyxabv0NePlKPGH0WJlAhpoGfYNO1320bxznwce0GJqVgLum3_ZhUSgYL0-SgdOeAvLopL8YwX4xqttqzMsUMbX8ywa2Ci0jFlE2ds5GyZBSCnzPEVr1KYZb2QVyUqngsSPPTADmtF6XrJMinzQjHbdXTCN4fiA6MaiOIZmcr0HHT3KnsabSz9aiuDWCwxgVQwFgI2o3gyJtGuZob3qyNTrRplZOp3cJCVq_ppAMgUtuLZq4lFCiER_DSJURFMk-0zW_Jxg/https://www.amazon.com/dp/B0FNW92K1F/?_encoding=UTF8&pd_rd_i=B0FNW92K1F&pd_rd_i=B0FNW92K1F&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=CDGHk&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=KD2VF001EMK7SPFC8EM9&pd_rd_wg=q1S9g&pd_rd_r=7435bb27-3531-4c9c-8b15-f65bfa24ec0d",
+        "link_clean": "https://www.amazon.com/dp/B0FNW92K1F/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FNW92K1F&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41aA3ng-4zL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/843a729b-6341-4a39-ac12-db0d75eb714e.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/843a729b-6341-4a39-ac12-db0d75eb714e.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.0,
+        "reviews": 39,
+        "price": "$39.99",
+        "extracted_price": 39.99,
+        "old_price": "$49.99",
+        "extracted_old_price": 49.99
+      }
+    ],
+    "reviews_information": {
+      "summary": {
+        "text": "Customers find these headphones crystal clear in sound quality and comfortable, with one noting they can wear them without any irritation. The headphones fit well, staying securely in place, and one customer mentions they work great for 30-mile bike rides. Customers appreciate their lightweight design, good battery life, and consider them good value for money, comparing them favorably to more expensive alternatives.",
+        "insights": [
+          {
+            "title": "Sound quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 84,
+              "positive": 74,
+              "negative": 10
+            },
+            "summary": "Customers appreciate the headphones' sound quality, describing it as crystal clear and noting that they make it easier to hear their books and music. One customer mentions that phone calls are nice and clear.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Great sound and so lite i almost forget i am wearing them. Ez to connect long battery life. We'll worth the money. I purchased 3.",
+                "link": "https://www.amazon.com/gp/customer-reviews/RKR9BR51NLMM8"
+              },
+              {
+                "position": 2,
+                "snippet": "Great sound quality but completely useless in a loud environment like a factory, the sounds of machines/compressed air blare over the sound of the...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1JD5MKVRCG2YY"
+              },
+              {
+                "position": 3,
+                "snippet": "...you can adjust them up or down the ear for preferred comfort and sound quality. They also stay in place surprisingly well while jogging....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3E72X2V1P0H89"
+              },
+              {
+                "position": 4,
+                "snippet": "...They don't make my ear canals itch The sound is great, though I had to clip them on the area over my earlobes, so earrings are probably out....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2GD6FJXVQCDTT"
+              }
+            ]
+          },
+          {
+            "title": "Comfort",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 63,
+              "positive": 58,
+              "negative": 5
+            },
+            "summary": "Customers find these headphones comfortable, with one mentioning they feel like they're not even wearing anything, and another noting they don't cause ear fatigue.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...I wear glasses and exercise so I was looking for something that was comfortable and secure, these are perfect. The audio is nice too....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R87Z95TA8F1S5"
+              },
+              {
+                "position": 2,
+                "snippet": "These are very comfortable and I have small ears, and comfortable when wearing my glasses, very easy to put on, for the value excellent, and so far...",
+                "link": "https://www.amazon.com/gp/customer-reviews/RCW6PKVEBP8LN"
+              },
+              {
+                "position": 3,
+                "snippet": "...Love them! Super comfortable and affordable! Definitely gonna buy more in the future.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R9DKJ7TFW00SM"
+              },
+              {
+                "position": 4,
+                "snippet": "These are so comfortable and sound awesome when listening to music! Using them for calls, not so much....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2K9VPE1SDYJQH"
+              }
+            ]
+          },
+          {
+            "title": "Fit",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 40,
+              "positive": 37,
+              "negative": 3
+            },
+            "summary": "Customers like how the headphones stay in place, with multiple reviews mentioning they hold well on the ears and don't fall out.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Had these for about a week. I'm very happy with them. These stay in my ears, no matter what I am doing....",
+                "link": "https://www.amazon.com/gp/customer-reviews/RNOL8OMA7DGWF"
+              },
+              {
+                "position": 2,
+                "snippet": "The best thing about these is that they stay in your ears without really touching very much surface area....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1BFS9P45ORFBO"
+              },
+              {
+                "position": 3,
+                "snippet": "Fit my ears better than normal ear buds",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2M2TGT2WY19S2"
+              },
+              {
+                "position": 4,
+                "snippet": "The headphones fit great and are easy to set up and figure out....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R87Z95TA8F1S5"
+              }
+            ]
+          },
+          {
+            "title": "Quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 39,
+              "positive": 37,
+              "negative": 2
+            },
+            "summary": "Customers find these headphones to be of excellent quality.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Great headphones, comfortable, and great sound!",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3DBZSU2BB12IR"
+              },
+              {
+                "position": 2,
+                "snippet": "Great product, lightweight, clarity is amazing and it beat the ones that goes inside your ear, not irritable at all.",
+                "link": "https://www.amazon.com/gp/customer-reviews/RCMUXIWBRSOZA"
+              },
+              {
+                "position": 3,
+                "snippet": "So far these are surprisingly good quality! They fit rather comfortably on the ear, with the speakers resting at the opening of the ear canal....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R18P7VUL1R4SNC"
+              },
+              {
+                "position": 4,
+                "snippet": "Great Quality",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3I33F2YP1VFXG"
+              }
+            ]
+          },
+          {
+            "title": "Value for money",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 37,
+              "positive": 35,
+              "negative": 2
+            },
+            "summary": "Customers find these headphones offer good value for money, with one customer noting they provide great sound quality for the price.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Great price, long battery life, decent sound, and they stay in place really well....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R225YFRFEAAIBP"
+              },
+              {
+                "position": 2,
+                "snippet": "...Value wise? I think it’s a great value, I would still buy it again despite the connection issues",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1Q00DZ6MS7RK9"
+              },
+              {
+                "position": 3,
+                "snippet": "...Love them! Super comfortable and affordable! Definitely gonna buy more in the future.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R9DKJ7TFW00SM"
+              },
+              {
+                "position": 4,
+                "snippet": "These are great for the price. I use them to listen to audio books but I have listened to music . The audio isn't bad for either one....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3NUFOLPODS25V"
+              }
+            ]
+          },
+          {
+            "title": "Functionality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 31,
+              "positive": 24,
+              "negative": 7
+            },
+            "summary": "Customers find that the headphones work well, with one mentioning they perform excellently during long 30-mile bike rides.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...For hours of 'listening' these work great. Incidentally, I am not an Audiophile!...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3UR4CE5QI35EE"
+              },
+              {
+                "position": 2,
+                "snippet": "Works great. Love the quality and comfort....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R4YSVEIBSCRUF"
+              },
+              {
+                "position": 3,
+                "snippet": "I have only used them a couple times but they work well.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R11OGMWKJBEL38"
+              },
+              {
+                "position": 4,
+                "snippet": "...May 2nd, 2 days after the return elidgibility, the left earbud has completely stopped working....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3I5VTDCALXBKE"
+              }
+            ]
+          },
+          {
+            "title": "Battery life",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 23,
+              "positive": 17,
+              "negative": 6
+            },
+            "summary": "Customers are satisfied with the headphones' battery life, with one customer noting it's easy to connect and another mentioning it charges without issues.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...They have a long battery life, good quality sound, and they are comfortable for her.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1QOU7NST5PJOA"
+              },
+              {
+                "position": 2,
+                "snippet": "...I wear 1 at time and the charge lasts all day. I wear them for around 16 hours total. I charge the box every other day....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1XNYDSTNQGIV3"
+              },
+              {
+                "position": 3,
+                "snippet": "Short battery life Signal breaks up intermittently",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2G9SOQ20001X1"
+              },
+              {
+                "position": 4,
+                "snippet": "...Battery life is excellent. It's stays charged for a very long time. Mine took three weeks for the battery to go low....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2IRWVCJ3WXHR6"
+              }
+            ]
+          },
+          {
+            "title": "Lightweight",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 20,
+              "positive": 18,
+              "negative": 2
+            },
+            "summary": "Customers appreciate that the headphones are very light.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Hands down, these have become my go to favorites. Lightweight, good contruction, fantastic sound & quick BT connetions....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1Y4R9LW78A7B8"
+              },
+              {
+                "position": 2,
+                "snippet": "...I'm wearing them when I don't have something playing, they're that light and comfortable....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3KT27IO570913"
+              },
+              {
+                "position": 3,
+                "snippet": "These are great. They are light weight and feel like you don’t have them on very comfortable...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2A11AOD3QHFZA"
+              },
+              {
+                "position": 4,
+                "snippet": "They are good for sound. Very light weight. They do well in the plane. I just miss having a digital display of battery life on the charging case.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3E1CP9IOZBT0R"
+              }
+            ]
+          }
+        ],
+        "images": [
+          "https://m.media-amazon.com/images/I/61LY5U0qdhL.jpg",
+          "https://m.media-amazon.com/images/I/61iN-R6tDzL.jpg",
+          "https://m.media-amazon.com/images/I/7178FepTj9L.jpg",
+          "https://m.media-amazon.com/images/I/71JJUFWUFTL.jpg",
+          "https://m.media-amazon.com/images/I/71Jd6EEeGLL.jpg",
+          "https://m.media-amazon.com/images/I/61f+bnte5QL.jpg",
+          "https://m.media-amazon.com/images/I/61PrK6DFp4L.jpg",
+          "https://m.media-amazon.com/images/I/61QCEm5mkUL.jpg",
+          "https://m.media-amazon.com/images/I/61zhIAYV+uL.jpg",
+          "https://m.media-amazon.com/images/I/61jVcGapmzL.jpg",
+          "https://m.media-amazon.com/images/I/61vy9-13gKL.jpg",
+          "https://m.media-amazon.com/images/I/61xDKM1E8kL.jpg"
+        ],
+        "customer_reviews": {
+          "5 star": 79,
+          "4 star": 12,
+          "3 star": 4,
+          "2 star": 2,
+          "1 star": 3
+        }
+      }
+    }
+  }
+}

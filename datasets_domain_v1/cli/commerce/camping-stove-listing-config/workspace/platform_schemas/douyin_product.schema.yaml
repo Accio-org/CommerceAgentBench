@@ -1,0 +1,35 @@
+# 抖音电商 (Douyin E-commerce) Product JSON Schema
+# Output file: outputs/douyin_product.json
+# All fields marked (required) must be present.
+
+product:
+  title: string (required, Chinese product title, max 60 characters, must comply with advertising law restrictions)
+  category_path: string (required, slash-separated category from category_mapping.csv for douyin)
+  brand: string (required, Chinese brand name)
+  description: string (required, Chinese product description, must comply with advertising law restrictions)
+
+  spec_groups: # (required) specification groups defining variant axes
+    - group_name: string (required, e.g. "型号")
+      specs:
+        - name: string (required, spec dimension name e.g. "型号")
+          values: list of strings (required, all possible values for this dimension in Chinese)
+
+  skus: # (required) one entry per purchasable combination
+    - sku_id: string (required, internal SKU code)
+      spec_values: object (required, maps spec dimension name to selected value in Chinese)
+      price: integer (required, CNY price, calculated per brand guidelines pricing rules)
+      stock: integer (required, initial stock, use 200)
+
+  images: # (required) product images
+    # - Maximum 5 images
+    # - First image MUST be white-background product shot
+    - string (image filename from manifest)
+
+  certifications: # (required for regulated product categories)
+    - type: string (required, certification standard e.g. "CCC")
+      cert_number: string (required, certificate number from certifications.json)
+      product_category: string (required, certified product category in Chinese)
+
+  shipping:
+    weight_kg: number (required, heaviest variant weight in kg, 2 decimal places)
+    free_shipping: boolean (required, true)

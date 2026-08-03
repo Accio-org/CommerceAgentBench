@@ -1,0 +1,191 @@
+{
+  "task_id": "cli-xfer-customs-procurement-control-tower",
+  "spreadsheet_id": "sheet-supplier-eval-003",
+  "spreadsheet_title": "Multi-Category Procurement Control Tower",
+  "sheet_title": "Sourcing Dashboard",
+  "sheet_headers": [
+    "Supplier",
+    "Category",
+    "Tier",
+    "Total Amount USD",
+    "Shipment Count",
+    "HS Codes",
+    "Owner",
+    "Jira Task Key",
+    "Box Folder ID"
+  ],
+  "comparison_sheet_title": "Category Comparison",
+  "comparison_headers": [
+    "Category",
+    "Qualified Suppliers",
+    "Total Amount USD",
+    "Total Shipments",
+    "Top Supplier"
+  ],
+  "presentation_id": "pres-launch-101",
+  "presentation_title": "Procurement Sourcing Strategy Brief Q1 2026",
+  "jira_project": "PROJ",
+  "jira_epic_summary": "Multi-Category Sourcing Q1 2026",
+  "jira_link_type": "relates to",
+  "jira_target_state": "In Progress",
+  "fixed_label": "sourcing-control",
+  "box_root_folder_name": "Procurement Control Tower",
+  "source_csv_files": {
+    "auto_bearings.csv": 2000,
+    "zibo_us_exports.csv": 3000,
+    "battery_export_002.csv": 383
+  },
+  "category_comparison": [
+    {
+      "category": "auto_bearings",
+      "qualified_count": 3,
+      "total_amount": 614192.29,
+      "total_shipments": 279,
+      "top_supplier": "CHUN LOUNG CO LTD"
+    },
+    {
+      "category": "batteries",
+      "qualified_count": 3,
+      "total_amount": 5321830.0,
+      "total_shipments": 59,
+      "top_supplier": "DONGGUAN LANFANG LITHIUM TECHNOLOGY CO LTD"
+    },
+    {
+      "category": "industrial_chemicals",
+      "qualified_count": 3,
+      "total_amount": 11876068.0,
+      "total_shipments": 487,
+      "top_supplier": "ZIBO ZHAOHAI LIGHT INDUSTRIAL PRODUCTS CO LTD"
+    }
+  ],
+  "team": {
+    "auto_bearings": {
+      "name": "Li Wei",
+      "jira_username": "liwei",
+      "box_user_id": "user-liwei"
+    },
+    "industrial_chemicals": {
+      "name": "Zhang Min",
+      "jira_username": "zhangmin",
+      "box_user_id": "user-zhangmin"
+    },
+    "batteries": {
+      "name": "Chen Yue",
+      "jira_username": "chenyue",
+      "box_user_id": "user-chenyue"
+    }
+  },
+  "in_scope": [
+    {
+      "supplier": "ZIBO ZHAOHAI LIGHT INDUSTRIAL PRODUCTS CO LTD",
+      "category": "industrial_chemicals",
+      "tier": "Approved",
+      "amount_usd": 5655599.0,
+      "shipment_count": 7,
+      "hs_codes": "3907, 7013, 8475, 9001",
+      "owner": "Zhang Min",
+      "jira_priority": "Medium",
+      "jira_label": "tier-approved",
+      "jira_username": "zhangmin"
+    },
+    {
+      "supplier": "ZIBO COMM MOUNTAIN GLASSWARE CO LT",
+      "category": "industrial_chemicals",
+      "tier": "Preferred",
+      "amount_usd": 3441989.0,
+      "shipment_count": 19,
+      "hs_codes": "1209, 2106, 2922, 3302, 7004, 7005, 8204, 8514, 8516, 8536",
+      "owner": "Zhang Min",
+      "jira_priority": "High",
+      "jira_label": "tier-preferred",
+      "jira_username": "zhangmin"
+    },
+    {
+      "supplier": "SUIFENHE BAILIDA ECONOMIC AND TRADE CO LTD",
+      "category": "industrial_chemicals",
+      "tier": "Strategic",
+      "amount_usd": 2778480.0,
+      "shipment_count": 461,
+      "hs_codes": "6912, 7013, 7323, 8211, 8215",
+      "owner": "Zhang Min",
+      "jira_priority": "Highest",
+      "jira_label": "tier-strategic",
+      "jira_username": "zhangmin"
+    },
+    {
+      "supplier": "DONGGUAN LANFANG LITHIUM TECHNOLOGY CO LTD",
+      "category": "batteries",
+      "tier": "Approved",
+      "amount_usd": 1831210.0,
+      "shipment_count": 10,
+      "hs_codes": "8507",
+      "owner": "Chen Yue",
+      "jira_priority": "Medium",
+      "jira_label": "tier-approved",
+      "jira_username": "chenyue"
+    },
+    {
+      "supplier": "SHENZHEN POWERINN CO LTD",
+      "category": "batteries",
+      "tier": "Strategic",
+      "amount_usd": 1778090.0,
+      "shipment_count": 30,
+      "hs_codes": "8507",
+      "owner": "Chen Yue",
+      "jira_priority": "Highest",
+      "jira_label": "tier-strategic",
+      "jira_username": "chenyue"
+    },
+    {
+      "supplier": "DONGGUAN LITHIUM VALLEY ENERGY CO LTD",
+      "category": "batteries",
+      "tier": "Preferred",
+      "amount_usd": 1712530.0,
+      "shipment_count": 19,
+      "hs_codes": "8507",
+      "owner": "Chen Yue",
+      "jira_priority": "High",
+      "jira_label": "tier-preferred",
+      "jira_username": "chenyue"
+    },
+    {
+      "supplier": "CHUN LOUNG CO LTD",
+      "category": "auto_bearings",
+      "tier": "Preferred",
+      "amount_usd": 313378.2,
+      "shipment_count": 86,
+      "hs_codes": "8482",
+      "owner": "Li Wei",
+      "jira_priority": "High",
+      "jira_label": "tier-preferred",
+      "jira_username": "liwei"
+    },
+    {
+      "supplier": "HK TOMUU ACTUATOR TECHNOLOGY CO LIMITED",
+      "category": "auto_bearings",
+      "tier": "Approved",
+      "amount_usd": 177533.49,
+      "shipment_count": 84,
+      "hs_codes": "8482",
+      "owner": "Li Wei",
+      "jira_priority": "Medium",
+      "jira_label": "tier-approved",
+      "jira_username": "liwei"
+    },
+    {
+      "supplier": "ZHEJIANG SIQIANG BEARING MANUFACTUR",
+      "category": "auto_bearings",
+      "tier": "Approved",
+      "amount_usd": 123280.6,
+      "shipment_count": 109,
+      "hs_codes": "8482",
+      "owner": "Li Wei",
+      "jira_priority": "Medium",
+      "jira_label": "tier-approved",
+      "jira_username": "liwei"
+    }
+  ],
+  "allowed_existing_epic_summaries": [
+    "Q3 Platform Migration"
+  ]
+}

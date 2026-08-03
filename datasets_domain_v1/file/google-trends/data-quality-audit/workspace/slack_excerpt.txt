@@ -1,0 +1,12 @@
+#data-quality (Tue morning)
+
+[09:02]  priya:  running the catalog audit now. partial-data, empties, sub-floor brands, monopolies
+[09:03]  priya:  all 8 shopping categories have the one trailing in-progress week, as usual
+[09:05]  pm:     quick note — we're sunsetting the gaming-headset line this quarter
+[09:05]  pm:     so on the weekly ops triage digest, don't list headset as a partial-data item — it's getting retired, nobody's going to action a fix on it
+[09:06]  priya:  ah you mean the ops digest that drives the alerting? sure, i'll filter headset out of that one
+[09:06]  priya:  to be clear though — the data-quality audit JSON itself still lists every set with a partial week. we don't drop rows from it just because a category's being retired — it's the objective record analysts train models on, it has to reflect what's actually in the data
+[09:07]  pm:     yep, exactly. the audit JSON should be complete and reflect reality — that's not about what we're going to action. the digest is just the action queue, that's where we drop headset
+[09:08]  priya:  got it. audit = full record (all 8), ops digest = action list (minus headset)
+[09:31]  priya:  draft's up. airfryer + coffee are the clear monopolies on the current window
+[09:31]  pm:     👍 ship it once you've done the JSON

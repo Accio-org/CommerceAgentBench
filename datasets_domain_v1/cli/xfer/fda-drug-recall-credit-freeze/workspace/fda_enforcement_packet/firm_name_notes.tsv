@@ -1,0 +1,3 @@
+note	value
+matching_rule	Use exact recalling_firm strings after normal CSV parsing; do not strip legal suffixes or invent fuzzy matches.
+comma_warning	Some firm names contain commas, so parse portfolio_exposure.csv with a CSV parser instead of splitting on comma.

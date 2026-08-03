@@ -1,0 +1,70 @@
+{
+  "shipments": {
+    "1ZRET77821": [
+      {
+        "ts": "2026-05-04T09:44:00Z",
+        "event": "origin_scan",
+        "weight_kg": 1.4
+      },
+      {
+        "ts": "2026-05-05T22:15:00Z",
+        "event": "hub_sort",
+        "exception": null
+      },
+      {
+        "ts": "2026-05-06T18:12:00Z",
+        "event": "delivered",
+        "exception": null
+      },
+      {
+        "ts": "2026-05-12T11:03:00Z",
+        "event": "return_acceptance",
+        "weight_kg": 0.76
+      },
+      {
+        "ts": "2026-05-13T14:55:00Z",
+        "event": "return_delivery",
+        "exception": "box side flap torn at receipt"
+      }
+    ],
+    "1ZMUG88104": [
+      {
+        "ts": "2026-05-12T16:10:00Z",
+        "event": "origin_scan",
+        "weight_kg": 1.07
+      },
+      {
+        "ts": "2026-05-13T04:08:00Z",
+        "event": "hub_exception",
+        "exception": "carton compression observed"
+      },
+      {
+        "ts": "2026-05-14T18:52:00Z",
+        "event": "delivered",
+        "exception": "outer carton crushed at delivery photo"
+      },
+      {
+        "ts": "2026-05-16T10:10:00Z",
+        "event": "return_acceptance",
+        "weight_kg": 1.06
+      }
+    ],
+    "1ZTAB99017": [
+      {
+        "ts": "2026-05-18T12:30:00Z",
+        "event": "origin_scan",
+        "weight_kg": 0.18
+      },
+      {
+        "ts": "2026-05-19T15:10:00Z",
+        "event": "delivered",
+        "exception": null
+      },
+      {
+        "ts": "2026-05-23T09:40:00Z",
+        "event": "return_acceptance",
+        "weight_kg": 0.18
+      }
+    ]
+  }
+}

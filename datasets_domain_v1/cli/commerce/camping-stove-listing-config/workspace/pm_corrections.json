@@ -1,0 +1,41 @@
+{
+  "correction_date": "2026-07-08",
+  "author": "张薇 (Product Manager)",
+  "notes": "Final corrections after prototype review and pricing committee meeting. These override corresponding values in product_spec.json.",
+  "corrections": [
+    {
+      "path": "variants[tier=Solo].weight_g",
+      "old_value": 95,
+      "new_value": 98,
+      "reason": "Final prototype weighs 98g due to reinforced pot support hinge"
+    },
+    {
+      "path": "variants[tier=Pro].msrp_usd",
+      "old_value": 129.99,
+      "new_value": 139.99,
+      "reason": "Pricing committee approved premium repositioning for Pro tier"
+    },
+    {
+      "path": "variants[tier=Pro].colors",
+      "old_value": ["Black", "Olive Green", "Titanium"],
+      "new_value": ["Titanium"],
+      "reason": "Pro tier is exclusive to Titanium color only. Remove Black and Olive Green options for Pro. Solo and Kit retain both colors."
+    },
+    {
+      "path": "common_specs.fuel_type",
+      "old_value": "Standard 230g isobutane/propane canisters",
+      "new_value": "Standard EN417 threaded canisters (230g recommended, compatible with 110g/450g)",
+      "reason": "Updated to include valve standard and canister size compatibility per legal review"
+    },
+    {
+      "path": "variants[tier=Kit].description_en",
+      "append": " Carry bag features IPX4 water resistance.",
+      "reason": "Lab test confirmed IPX4 rating for carry bag material"
+    },
+    {
+      "path": "variants[tier=Pro].description_en",
+      "append": " Premium carry bag features IPX4 water resistance.",
+      "reason": "Lab test confirmed IPX4 rating for carry bag material"
+    }
+  ]
+}

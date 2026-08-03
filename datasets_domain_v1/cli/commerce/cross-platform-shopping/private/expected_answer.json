@@ -1,0 +1,130 @@
+{
+  "item_count": 12,
+  "platforms": {
+    "JD": {
+      "free_shipping_threshold": 99,
+      "shipping_fee": 8,
+      "delivery_days": 1,
+      "coupon": {
+        "threshold": 199,
+        "discount": 20
+      }
+    },
+    "TM": {
+      "free_shipping_threshold": 88,
+      "shipping_fee": 10,
+      "delivery_days": 2,
+      "coupon": {
+        "threshold": 149,
+        "discount": 15
+      }
+    },
+    "PDD": {
+      "free_shipping_threshold": 49,
+      "shipping_fee": 5,
+      "delivery_days": 4,
+      "coupon": {
+        "threshold": 79,
+        "discount": 10
+      }
+    }
+  },
+  "items": {
+    "item_01": {"name": "洗衣液(大瓶装)", "urgent": false},
+    "item_02": {"name": "厨房纸巾(6卷)", "urgent": false},
+    "item_03": {"name": "垃圾袋(3卷装)", "urgent": false},
+    "item_04": {"name": "充电数据线Type-C", "urgent": true},
+    "item_05": {"name": "洗碗海绵(5个装)", "urgent": false},
+    "item_06": {"name": "衣架(10只装)", "urgent": false},
+    "item_07": {"name": "LED护眼台灯", "urgent": true},
+    "item_08": {"name": "居家拖鞋(2双装)", "urgent": true},
+    "item_09": {"name": "纯棉毛巾(4条)", "urgent": false},
+    "item_10": {"name": "收纳箱(3个装)", "urgent": false},
+    "item_11": {"name": "五孔插排(带USB)", "urgent": true},
+    "item_12": {"name": "落地晾衣架", "urgent": false}
+  },
+  "prices": {
+    "JD": {
+      "item_01": 45,
+      "item_02": 28,
+      "item_03": 15,
+      "item_04": 29,
+      "item_05": 12,
+      "item_06": 25,
+      "item_07": 89,
+      "item_08": 35,
+      "item_09": 48,
+      "item_10": 65,
+      "item_11": 39,
+      "item_12": 128
+    },
+    "TM": {
+      "item_01": 42,
+      "item_02": 25,
+      "item_03": 12,
+      "item_04": 35,
+      "item_05": 10,
+      "item_06": 22,
+      "item_07": 85,
+      "item_08": 30,
+      "item_09": 45,
+      "item_10": 59,
+      "item_11": null,
+      "item_12": 119
+    },
+    "PDD": {
+      "item_01": 38,
+      "item_02": 22,
+      "item_03": 9,
+      "item_04": 19,
+      "item_05": 8,
+      "item_06": 18,
+      "item_07": 79,
+      "item_08": 25,
+      "item_09": 39,
+      "item_10": 52,
+      "item_11": 32,
+      "item_12": null
+    }
+  },
+  "optimal_assignments": {
+    "item_01": {"platform": "JD", "price": 45},
+    "item_02": {"platform": "PDD", "price": 22},
+    "item_03": {"platform": "PDD", "price": 9},
+    "item_04": {"platform": "JD", "price": 29},
+    "item_05": {"platform": "PDD", "price": 8},
+    "item_06": {"platform": "PDD", "price": 18},
+    "item_07": {"platform": "JD", "price": 89},
+    "item_08": {"platform": "TM", "price": 30},
+    "item_09": {"platform": "PDD", "price": 39},
+    "item_10": {"platform": "PDD", "price": 52},
+    "item_11": {"platform": "JD", "price": 39},
+    "item_12": {"platform": "TM", "price": 119}
+  },
+  "platform_summary": {
+    "JD": {
+      "items": ["item_01", "item_04", "item_07", "item_11"],
+      "subtotal": 202,
+      "shipping": 0,
+      "coupon_discount": 20,
+      "platform_total": 182
+    },
+    "TM": {
+      "items": ["item_08", "item_12"],
+      "subtotal": 149,
+      "shipping": 0,
+      "coupon_discount": 15,
+      "platform_total": 134
+    },
+    "PDD": {
+      "items": ["item_02", "item_03", "item_05", "item_06", "item_09", "item_10"],
+      "subtotal": 148,
+      "shipping": 0,
+      "coupon_discount": 10,
+      "platform_total": 138
+    }
+  },
+  "optimal_total_cost": 454,
+  "total_cost": 454,
+  "total_savings": 45
+}

@@ -1,0 +1,59 @@
+{
+    "type": "folder",
+    "id": "20001",
+    "name": "Project Alpha",
+    "description": "Main project workspace",
+    "size": 0,
+    "etag": "1",
+    "parent": {
+        "type": "folder",
+        "id": "0",
+        "name": "All Files"
+    },
+    "created_at": "2026-03-01T09:00:00Z",
+    "modified_at": "2026-05-18T16:30:00Z",
+    "created_by": {
+        "type": "user",
+        "id": "10001",
+        "name": "Admin User",
+        "login": "admin@boxmock.example.com"
+    },
+    "owned_by": {
+        "type": "user",
+        "id": "10001",
+        "name": "Admin User",
+        "login": "admin@boxmock.example.com"
+    },
+    "item_status": "active",
+    "path_collection": {
+        "total_count": 1,
+        "entries": [
+            {
+                "type": "folder",
+                "id": "0",
+                "name": "All Files"
+            }
+        ]
+    },
+    "item_collection": {
+        "total_count": 3,
+        "entries": [
+            {
+                "type": "file",
+                "id": "30005",
+                "name": "Meeting-Notes-May.txt"
+            },
+            {
+                "type": "file",
+                "id": "30002",
+                "name": "Product-Roadmap.pdf"
+            },
+            {
+                "type": "file",
+                "id": "30001",
+                "name": "Q2-Budget-Report.xlsx"
+            }
+        ]
+    },
+    "tags": []
+}

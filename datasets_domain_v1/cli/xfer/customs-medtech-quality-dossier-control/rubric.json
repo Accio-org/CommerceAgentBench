@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1,
+  "task_id": "cli-xfer-customs-medtech-quality-dossier-control",
+  "summary": "Three-CLI customs transfer task. The agent must aggregate three real medical-device customs CSVs by supplier, apply a threshold policy, then close a dynamic cross-system graph across Google Sheets, Jira, and DWS documents.",
+  "category": "cross_system_customs_quality_control",
+  "state_kind": "triple_cli_mock_stateful_plus_real_csv",
+  "difficulty": "very_hard",
+  "check_strategy": "Verifier reads only final GWS/Jira/DWS states and local source files. It checks exact derived supplier set, exact sheet rows, Jira issue graph, DWS document contents, comments, permissions, and dynamic ID closure. It does not inspect command history.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "All mock states and target containers are reachable."},
+    {"id": "source_data_present", "check_type": "deterministic_exact", "description": "The expected customs CSV files are present and parseable."},
+    {"id": "sheet_rows_correct", "check_type": "deterministic_exact", "description": "Google Sheets main control sheet has exact headers and derived rows, including actual Jira and DWS ids."},
+    {"id": "gws_presentation_correct", "check_type": "deterministic_exact", "description": "Google Slides briefing deck is renamed and contains count/priority summary terms."},
+    {"id": "jira_graph_correct", "check_type": "deterministic_exact", "description": "One canonical epic and one task per included supplier exist, with labels, priority, status, comments, and links."},
+    {"id": "dws_dossiers_correct", "check_type": "deterministic_exact", "description": "One DWS dossier per included supplier exists with expected content, trace blocks, comments, editor permission, CSV uploads, and export evidence."},
+    {"id": "trace_map_correct", "check_type": "deterministic_exact", "description": "The cross-system trace sheet closes supplier, Jira key, DWS id, severity, owner, and USD exposure."}
+  ],
+  "notes": "Ground truth is held in private/expected_answer.json."
+}

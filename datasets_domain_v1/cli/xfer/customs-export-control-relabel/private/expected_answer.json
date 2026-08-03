@@ -1,0 +1,514 @@
+{
+  "qualification_threshold_shipments": 30,
+  "total_qualified_suppliers": 27,
+  "restricted_count": 24,
+  "exempt_count": 3,
+  "restricted_suppliers": [
+    "BYD AUTO INDUSTRY COMPANY LIMITED",
+    "BYD H K CO LIMITED",
+    "BYD LITHIUM BATTERY CO LTD",
+    "CHENZHOU PENGGUAN INTERNATIONAL TRADE CO LTD",
+    "DONGGUAN LANFANG LITHIUM TECHNOLOGY CO LTD",
+    "DONGGUAN LITHIUM VALLEY ENERGY CO LTD",
+    "FUJIAN BETTENERGY TECHNOLOGY CO LTD",
+    "FUJIAN SCUD POWER TECHNOLOGY CO LTD",
+    "LCFC HEFEI ELECTRONICS TECHNOLOGY CO LTD",
+    "LUXSHARE PRECISION LIMITED",
+    "NANJING CHERVON INDUSTRY CO LTD",
+    "QUANTA COMPUTER INC",
+    "SHANGHAI PYTES INTERNATIONAL TRADING CO LTD",
+    "SHENZHEN LIUSHI SOLAR LIFEPO4 ENERGY CO LTD",
+    "SHENZHEN POWERINN CO LTD",
+    "SONY DIGITAL PRODUCTS WUXI CO LTD",
+    "SUGA TECHNOLOGY HONG KONG LIMITED",
+    "SUNWODA ELECTRONIC CO LTD",
+    "SUZHOU SKYBLUE CLEAN TECHNOLOGY CO LTD",
+    "SVOLT ENERGY TECHNOLOGY CO LTD",
+    "TECHTRONIC CORDLESS GP",
+    "TEN PAO INTERNATIONAL LIMITED",
+    "TREND POWER TECHNOLOGY PRIVATE LIMITED",
+    "TTI PARTNERS SPC ACTING FOR THE ACCOUNT OF MPV SP"
+  ],
+  "exempt_suppliers": [
+    "HUI ZHOU DESAY BATTERY CO LTD",
+    "NINGBO ZHUOJIE IMPORT AND EXPORT CO LTD",
+    "SUZHOU CH'IN HOO CLEANING EQUIPMENT CO LTD"
+  ],
+  "source_csv_dir": "workspace/customs_data",
+  "source_min_rows": 4000,
+  "source_csv_count": 5,
+  "suppliers": [
+    {
+      "supplier": "BYD AUTO INDUSTRY COMPANY LIMITED",
+      "classification": "RESTRICTED",
+      "classification_path": "direct_hs_code",
+      "reason": "HS codes ['85076033'] are directly restricted (dedicated lithium-ion battery packs under 8507.60.31/32/33)",
+      "hs8_codes": [
+        "85076000",
+        "85076010",
+        "85076033",
+        "85076039"
+      ],
+      "has_restricted_hs": true,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 47,
+      "total_usd": 540610.56,
+      "priority": "Medium",
+      "assigned_analyst": "Zhang Wei"
+    },
+    {
+      "supplier": "BYD H K CO LIMITED",
+      "classification": "RESTRICTED",
+      "classification_path": "direct_hs_code",
+      "reason": "HS codes ['85076031'] are directly restricted (dedicated lithium-ion battery packs under 8507.60.31/32/33)",
+      "hs8_codes": [
+        "85076031",
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": true,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 86,
+      "total_usd": 25945359.59,
+      "priority": "High",
+      "assigned_analyst": "Li Na"
+    },
+    {
+      "supplier": "BYD LITHIUM BATTERY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "direct_hs_code",
+      "reason": "HS codes ['85076031'] are directly restricted (dedicated lithium-ion battery packs under 8507.60.31/32/33)",
+      "hs8_codes": [
+        "85076031",
+        "85076090"
+      ],
+      "has_restricted_hs": true,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 63,
+      "total_usd": 9077627.84,
+      "priority": "High",
+      "assigned_analyst": "Wang Jun"
+    },
+    {
+      "supplier": "CHENZHOU PENGGUAN INTERNATIONAL TRADE CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 33,
+      "total_usd": 823912.66,
+      "priority": "Medium",
+      "assigned_analyst": "Chen Fang"
+    },
+    {
+      "supplier": "DONGGUAN LANFANG LITHIUM TECHNOLOGY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039', '85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 37,
+      "total_usd": 4963590.0,
+      "priority": "Medium",
+      "assigned_analyst": "Liu Yang"
+    },
+    {
+      "supplier": "DONGGUAN LITHIUM VALLEY ENERGY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039', '85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 57,
+      "total_usd": 4218590.0,
+      "priority": "High",
+      "assigned_analyst": "Zhao Min"
+    },
+    {
+      "supplier": "FUJIAN BETTENERGY TECHNOLOGY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039', '85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 38,
+      "total_usd": 1426990.0,
+      "priority": "Medium",
+      "assigned_analyst": "Zhang Wei"
+    },
+    {
+      "supplier": "FUJIAN SCUD POWER TECHNOLOGY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076000', '85076039', '85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076000",
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 32,
+      "total_usd": 1401009.55,
+      "priority": "Medium",
+      "assigned_analyst": "Li Na"
+    },
+    {
+      "supplier": "HUI ZHOU DESAY BATTERY CO LTD",
+      "classification": "EXEMPT",
+      "classification_path": "conditional_no_lithium",
+      "reason": "HS codes ['85076039'] are conditional; product descriptions do NOT confirm lithium-ion content — classified as generic battery components",
+      "hs8_codes": [
+        "85076039"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": false,
+      "shipment_count": 57,
+      "total_usd": 5112353.26,
+      "priority": "High",
+      "assigned_analyst": "Wang Jun"
+    },
+    {
+      "supplier": "LCFC HEFEI ELECTRONICS TECHNOLOGY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "direct_hs_code",
+      "reason": "HS codes ['85076031'] are directly restricted (dedicated lithium-ion battery packs under 8507.60.31/32/33)",
+      "hs8_codes": [
+        "85076031"
+      ],
+      "has_restricted_hs": true,
+      "has_conditional_hs": false,
+      "lithium_in_description": true,
+      "shipment_count": 45,
+      "total_usd": 56032.59,
+      "priority": "Medium",
+      "assigned_analyst": "Chen Fang"
+    },
+    {
+      "supplier": "LUXSHARE PRECISION LIMITED",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039', '85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 52,
+      "total_usd": 1898361.89,
+      "priority": "High",
+      "assigned_analyst": "Liu Yang"
+    },
+    {
+      "supplier": "NANJING CHERVON INDUSTRY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039', '85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 164,
+      "total_usd": 20147600.81,
+      "priority": "Highest",
+      "assigned_analyst": "Zhao Min"
+    },
+    {
+      "supplier": "NINGBO ZHUOJIE IMPORT AND EXPORT CO LTD",
+      "classification": "EXEMPT",
+      "classification_path": "conditional_no_lithium",
+      "reason": "HS codes ['85076090'] are conditional; product descriptions do NOT confirm lithium-ion content — classified as generic battery components",
+      "hs8_codes": [
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": false,
+      "shipment_count": 206,
+      "total_usd": 5683305.61,
+      "priority": "Highest",
+      "assigned_analyst": "Zhang Wei"
+    },
+    {
+      "supplier": "QUANTA COMPUTER INC",
+      "classification": "RESTRICTED",
+      "classification_path": "direct_hs_code",
+      "reason": "HS codes ['85076031'] are directly restricted (dedicated lithium-ion battery packs under 8507.60.31/32/33)",
+      "hs8_codes": [
+        "85076031"
+      ],
+      "has_restricted_hs": true,
+      "has_conditional_hs": false,
+      "lithium_in_description": true,
+      "shipment_count": 58,
+      "total_usd": 20361510.94,
+      "priority": "High",
+      "assigned_analyst": "Li Na"
+    },
+    {
+      "supplier": "SHANGHAI PYTES INTERNATIONAL TRADING CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "direct_hs_code",
+      "reason": "HS codes ['85076033'] are directly restricted (dedicated lithium-ion battery packs under 8507.60.31/32/33)",
+      "hs8_codes": [
+        "85076033",
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": true,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 116,
+      "total_usd": 29148106.42,
+      "priority": "Highest",
+      "assigned_analyst": "Wang Jun"
+    },
+    {
+      "supplier": "SHENZHEN LIUSHI SOLAR LIFEPO4 ENERGY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 41,
+      "total_usd": 3138136.0,
+      "priority": "Medium",
+      "assigned_analyst": "Chen Fang"
+    },
+    {
+      "supplier": "SHENZHEN POWERINN CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 30,
+      "total_usd": 1778090.0,
+      "priority": "Medium",
+      "assigned_analyst": "Liu Yang"
+    },
+    {
+      "supplier": "SONY DIGITAL PRODUCTS WUXI CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 38,
+      "total_usd": 323279.32,
+      "priority": "Medium",
+      "assigned_analyst": "Zhao Min"
+    },
+    {
+      "supplier": "SUGA TECHNOLOGY HONG KONG LIMITED",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039', '85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 35,
+      "total_usd": 172219.79,
+      "priority": "Medium",
+      "assigned_analyst": "Zhang Wei"
+    },
+    {
+      "supplier": "SUNWODA ELECTRONIC CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039', '85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 46,
+      "total_usd": 6351286.21,
+      "priority": "Medium",
+      "assigned_analyst": "Li Na"
+    },
+    {
+      "supplier": "SUZHOU CH'IN HOO CLEANING EQUIPMENT CO LTD",
+      "classification": "EXEMPT",
+      "classification_path": "conditional_no_lithium",
+      "reason": "HS codes ['85076039'] are conditional; product descriptions do NOT confirm lithium-ion content — classified as generic battery components",
+      "hs8_codes": [
+        "85076039"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": false,
+      "shipment_count": 104,
+      "total_usd": 12280337.35,
+      "priority": "Highest",
+      "assigned_analyst": "Wang Jun"
+    },
+    {
+      "supplier": "SUZHOU SKYBLUE CLEAN TECHNOLOGY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 33,
+      "total_usd": 2403564.19,
+      "priority": "Medium",
+      "assigned_analyst": "Chen Fang"
+    },
+    {
+      "supplier": "SVOLT ENERGY TECHNOLOGY CO LTD",
+      "classification": "RESTRICTED",
+      "classification_path": "direct_hs_code",
+      "reason": "HS codes ['85076033'] are directly restricted (dedicated lithium-ion battery packs under 8507.60.31/32/33)",
+      "hs8_codes": [
+        "85076033"
+      ],
+      "has_restricted_hs": true,
+      "has_conditional_hs": false,
+      "lithium_in_description": true,
+      "shipment_count": 437,
+      "total_usd": 69399816.9,
+      "priority": "Highest",
+      "assigned_analyst": "Liu Yang"
+    },
+    {
+      "supplier": "TECHTRONIC CORDLESS GP",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 61,
+      "total_usd": 1276281.76,
+      "priority": "High",
+      "assigned_analyst": "Zhao Min"
+    },
+    {
+      "supplier": "TEN PAO INTERNATIONAL LIMITED",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 37,
+      "total_usd": 758814.5,
+      "priority": "Medium",
+      "assigned_analyst": "Zhang Wei"
+    },
+    {
+      "supplier": "TREND POWER TECHNOLOGY PRIVATE LIMITED",
+      "classification": "RESTRICTED",
+      "classification_path": "direct_hs_code",
+      "reason": "HS codes ['85076033'] are directly restricted (dedicated lithium-ion battery packs under 8507.60.31/32/33)",
+      "hs8_codes": [
+        "85076033",
+        "85076090"
+      ],
+      "has_restricted_hs": true,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 36,
+      "total_usd": 11948471.78,
+      "priority": "Medium",
+      "assigned_analyst": "Li Na"
+    },
+    {
+      "supplier": "TTI PARTNERS SPC ACTING FOR THE ACCOUNT OF MPV SP",
+      "classification": "RESTRICTED",
+      "classification_path": "conditional_lithium",
+      "reason": "HS codes ['85076039', '85076090'] are conditional; product descriptions confirm lithium-ion content",
+      "hs8_codes": [
+        "85076039",
+        "85076090"
+      ],
+      "has_restricted_hs": false,
+      "has_conditional_hs": true,
+      "lithium_in_description": true,
+      "shipment_count": 692,
+      "total_usd": 18894304.91,
+      "priority": "Highest",
+      "assigned_analyst": "Wang Jun"
+    }
+  ],
+  "policy_categories": {
+    "RESTRICTED_direct": "HS 8507.60.31, 8507.60.32, 8507.60.33 — dedicated lithium-ion battery packs (laptop/drone/EV)",
+    "CONDITIONAL": "HS 8507.60.39, 8507.60.90, 8507.60.00 — general/other battery categories, must verify product_description for lithium-ion keywords",
+    "EXEMPT_cells": "HS 8507.60.10 — battery cells for industrial assembly/re-export",
+    "supplier_level_rule": "A supplier is RESTRICTED if ANY of their shipments triggers RESTRICTED. EXEMPT only if ALL shipments resolve to EXEMPT."
+  },
+  "lithium_keywords": [
+    "lithium",
+    "li-ion",
+    "liti",
+    "锂",
+    "鋰",
+    "lifepo4"
+  ],
+  "jira_project": "ECR",
+  "jira_labels": {
+    "direct_hs_code": "lithium-ion-direct",
+    "conditional_lithium": "lithium-ion-conditional"
+  },
+  "todoist_project": "Export Control Follow-up",
+  "notion_database_title": "Battery Export Supplier Classification"
+}

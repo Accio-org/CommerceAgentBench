@@ -1,0 +1,100 @@
+{
+  "description": "Ground truth for cli-xfer-invoice-followup-task-queue. 5 invoices in-scope (status=open AND amount_due>=30000). Priority from customer Tier in description (A->1, B->2, C->3). Boundary: DeltaWatt at 29,000 excluded; EverGreen draft 60,000 excluded; FastFreight C 45,000 included. The final Todoist state is a control-center graph: one active follow-up task per in-scope invoice with live Stripe trace IDs, a completed acknowledgement task for each Tier A invoice, and a completed team handoff summary.",
+  "in_scope": [
+    {
+      "customer": "Acme Solar",
+      "tier": "Tier A",
+      "tier_label": "tier-a",
+      "priority": 1,
+      "amount_due": 85000,
+      "owner": "Iris Wang"
+    },
+    {
+      "customer": "BluePeak Energy",
+      "tier": "Tier A",
+      "tier_label": "tier-a",
+      "priority": 1,
+      "amount_due": 120000,
+      "owner": "Mei Chen"
+    },
+    {
+      "customer": "ChargeFast Inc",
+      "tier": "Tier B",
+      "tier_label": "tier-b",
+      "priority": 2,
+      "amount_due": 35000,
+      "owner": "Lina Gomez"
+    },
+    {
+      "customer": "EverGreen Mobility",
+      "tier": "Tier C",
+      "tier_label": "tier-c",
+      "priority": 3,
+      "amount_due": 50000,
+      "owner": "Mei Chen"
+    },
+    {
+      "customer": "FastFreight Co",
+      "tier": "Tier C",
+      "tier_label": "tier-c",
+      "priority": 3,
+      "amount_due": 45000,
+      "owner": "Ana Costa"
+    }
+  ],
+  "out_of_scope_customers_examples": [
+    "DeltaWatt Logistics (amount below threshold)",
+    "EverGreen Mobility draft (not open)"
+  ],
+  "project_name": "Invoice Collections Q3",
+  "sections": {
+    "tier_a": "Tier A immediate calls",
+    "standard": "Tier B/C standard follow-up",
+    "ack": "Completed acknowledgements"
+  },
+  "ack_tiers": [
+    "Tier A"
+  ],
+  "fixed_label": "invoice",
+  "stripe_source": {
+    "customer_count": 6,
+    "invoice_count": 7,
+    "subscription_count": 5,
+    "price_count": 2,
+    "webhook_endpoint_count": 1
+  },
+  "handoff_summary": {
+    "keywords": [
+      "standup",
+      "handoff",
+      "brief",
+      "summary"
+    ],
+    "source_reference_terms": [
+      "weekly_collections_brief",
+      "AR Lead",
+      "source"
+    ],
+    "label_terms": [
+      "meta",
+      "handoff",
+      "summary"
+    ]
+  },
+  "content_required_markers": {
+    "sub_prefix": "sub ",
+    "plan_prefix": "plan "
+  },
+  "invoice_label_terms": [
+    "invoice",
+    "collection"
+  ],
+  "industry_labels": {
+    "Acme Solar": "from-solar-energy",
+    "BluePeak Energy": "from-renewables",
+    "ChargeFast Inc": "from-ev-charging",
+    "EverGreen Mobility": "from-electric-vehicles",
+    "FastFreight Co": "from-maritime-shipping"
+  },
+  "due_date_required": true
+}

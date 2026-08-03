@@ -1,0 +1,24 @@
+{
+  "id": "re_3TcRNSCLKuX79GC20dcNfzhF",
+  "object": "refund",
+  "amount": 2000,
+  "balance_transaction": "txn_3TcRNSCLKuX79GC20cYw0VrS",
+  "charge": "ch_3TcRNSCLKuX79GC20oarQCGP",
+  "created": 1780064835,
+  "currency": "usd",
+  "destination_details": {
+    "card": {
+      "reference_status": "pending",
+      "reference_type": "acquirer_reference_number",
+      "type": "refund"
+    },
+    "type": "card"
+  },
+  "metadata": {},
+  "payment_intent": null,
+  "reason": null,
+  "receipt_number": null,
+  "source_transfer_reversal": null,
+  "status": "succeeded",
+  "transfer_reversal": null
+}

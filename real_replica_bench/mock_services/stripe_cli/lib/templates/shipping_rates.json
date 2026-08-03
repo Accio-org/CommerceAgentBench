@@ -1,0 +1,17 @@
+{
+  "id": "shr_1Tcge0CLKuX79GC2Wr92pUfy",
+  "object": "shipping_rate",
+  "active": true,
+  "created": 1780123516,
+  "delivery_estimate": null,
+  "display_name": "Standard",
+  "fixed_amount": {
+    "amount": 500,
+    "currency": "usd"
+  },
+  "livemode": false,
+  "metadata": {},
+  "tax_behavior": "unspecified",
+  "tax_code": null,
+  "type": "fixed_amount"
+}

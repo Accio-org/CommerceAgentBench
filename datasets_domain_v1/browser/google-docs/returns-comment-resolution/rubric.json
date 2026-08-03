@@ -1,0 +1,6 @@
+{
+  "schema_version": "2.0",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "notes": "Host-side verifier checks the Google Docs mock state for resolved anchored comments with required replies on qualifying returns documents, excluded comments left open, an accurate summary document, and unchanged source bodies. Comment reply/resolve events are reported as diagnostics only."
+}

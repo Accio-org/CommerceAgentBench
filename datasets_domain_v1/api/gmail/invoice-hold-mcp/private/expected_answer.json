@@ -1,0 +1,108 @@
+{
+  "task_id": "api-gmail-invoice-hold-mcp",
+  "label": {
+    "name": "INV-440"
+  },
+  "label_required_message_ids": [
+    "inv-001-brief",
+    "inv-002-overcharge",
+    "inv-003-po-correction",
+    "inv-004-tax",
+    "inv-007-review",
+    "inv-008-vendor-correction"
+  ],
+  "label_forbidden_message_ids": [
+    "inv-005-old",
+    "inv-006-vendor-news"
+  ],
+  "mark_read_message_ids": [
+    "inv-001-brief",
+    "inv-002-overcharge",
+    "inv-003-po-correction",
+    "inv-004-tax",
+    "inv-007-review",
+    "inv-008-vendor-correction"
+  ],
+  "star_required_message_ids": [
+    "inv-002-overcharge",
+    "inv-003-po-correction",
+    "inv-004-tax",
+    "inv-008-vendor-correction"
+  ],
+  "star_forbidden_message_ids": [
+    "inv-001-brief",
+    "inv-007-review",
+    "inv-005-old",
+    "inv-006-vendor-news"
+  ],
+  "drafts": [
+    {
+      "id": "ap-hold",
+      "to": [
+        "ap-hold@auroraretail.test"
+      ],
+      "cc_any": [
+        "nora.patel@auroraretail.test"
+      ],
+      "subject_all": [
+        "INV-440",
+        "hold"
+      ],
+      "body_all": [
+        "USD 9,840",
+        "line 6",
+        "PO-4407",
+        "VAT"
+      ]
+    },
+    {
+      "id": "vendor-correction",
+      "to": [
+        "billing@northstar-supplies.test"
+      ],
+      "cc_any": [
+        "nora.patel@auroraretail.test"
+      ],
+      "subject_all": [
+        "INV-440",
+        "correction"
+      ],
+      "body_all": [
+        "line 6",
+        "USD 9,840",
+        "PO-4407",
+        "VAT",
+        "resubmit"
+      ]
+    }
+  ],
+  "calendar_events": [
+    {
+      "id": "ap-review",
+      "title_all": [
+        "INV-440",
+        "AP review"
+      ],
+      "date": "2025-06-21",
+      "start": "16:00",
+      "end": "16:30",
+      "guests_all": [
+        "nora.patel@auroraretail.test",
+        "ap-audit@auroraretail.test",
+        "tax@auroraretail.test"
+      ],
+      "description_all": [
+        "line 6",
+        "PO-4407",
+        "VAT",
+        "vendor correction"
+      ]
+    }
+  ],
+  "required_workspace_tools": {
+    "gmail.search": 1,
+    "gmail.createLabel": 1,
+    "gmail.createDraft": 2,
+    "calendar.createEvent": 1
+  }
+}

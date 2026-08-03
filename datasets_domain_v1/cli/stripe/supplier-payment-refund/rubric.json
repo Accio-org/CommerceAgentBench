@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "minimum_pass_score": 1.0,
+  "criteria": [
+    {
+      "id": "setup_gate",
+      "weight": 0.05,
+      "description": "Environment ready: stripe mock reachable and state loaded."
+    },
+    {
+      "id": "defect_rate_trap_handled",
+      "weight": 0.20,
+      "description": "B-4412 proportional credit computed from the actual defect count (115/500 = 23%, $1,955), not the report's stated 25% ($2,125)."
+    },
+    {
+      "id": "refunds_issued_correct",
+      "weight": 0.30,
+      "description": "Every required refund issued at the correct per-policy amount: partials (Bluetooth, corrugated mailers, freight SLA, warehousing overcharge), full refunds (retail box print, duplicate gift-box insert, fabric sample set)."
+    },
+    {
+      "id": "no_false_refunds",
+      "weight": 0.15,
+      "description": "No refund issued on QA-passed / within-tolerance / out-of-scope charges (USB-C cable, organic cotton bolt, LED driver board within 1% tolerance, platform access fee)."
+    },
+    {
+      "id": "summary_record_correct",
+      "weight": 0.12,
+      "description": "Batch tracking customer 'Refund Batch 2026-06' created with correct total_refunded_cents, refund_count, customers_affected, and batch_date metadata."
+    },
+    {
+      "id": "liability_pi_correct",
+      "weight": 0.10,
+      "description": "Net refund-liability payment intent created with the correct amount and batch/type metadata."
+    },
+    {
+      "id": "customer_descriptions_updated",
+      "weight": 0.08,
+      "description": "Each credited supplier's account description rolled up with refunded amount, transaction count, and the 2026-06 batch tag."
+    }
+  ]
+}

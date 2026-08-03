@@ -1,0 +1,20 @@
+{
+  "id": "txr_1TcgdzCLKuX79GC2L4WOe1j1",
+  "object": "tax_rate",
+  "active": true,
+  "country": null,
+  "created": 1780123515,
+  "description": null,
+  "display_name": "VAT",
+  "effective_percentage": 20.0,
+  "flat_amount": null,
+  "inclusive": false,
+  "jurisdiction": null,
+  "jurisdiction_level": null,
+  "livemode": false,
+  "metadata": {},
+  "percentage": 20.0,
+  "rate_type": "percentage",
+  "state": null,
+  "tax_type": null
+}

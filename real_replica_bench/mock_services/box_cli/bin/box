@@ -1,0 +1,243 @@
+#!/usr/bin/env bun
+// Box CLI mock — stateful CLI mock using bun:sqlite
+// Mirrors github.com/box/boxcli output formats and behavior
+
+import { initDb } from '../lib/db.js';
+import { resolveAuth, getDefaultUserId } from '../lib/auth.js';
+import { dispatch } from '../lib/commands/_dispatch.js';
+import { formatObject, formatCollection } from '../lib/output/text.js';
+import { renderJson } from '../lib/output/json.js';
+import { renderCsv } from '../lib/output/csv.js';
+
+// ────────────────────────────────────────────
+// Argument parsing
+// ────────────────────────────────────────────
+
+const rawArgs = process.argv.slice(2);
+
+// Separate command, positional args, and flags
+let command = null;
+const positionalArgs = [];
+const flags = {};
+
+let i = 0;
+// First non-flag arg is the command
+while (i < rawArgs.length) {
+  const arg = rawArgs[i];
+  if (arg === '--help' || arg === '-h') {
+    printHelp();
+    process.exit(0);
+  }
+  if (arg.startsWith('-')) {
+    break;
+  }
+  if (!command) {
+    command = arg;
+  } else {
+    positionalArgs.push(arg);
+  }
+  i++;
+}
+
+// Parse flags
+while (i < rawArgs.length) {
+  const arg = rawArgs[i];
+  if (arg.startsWith('--')) {
+    const eqIdx = arg.indexOf('=');
+    if (eqIdx !== -1) {
+      flags[arg.slice(2, eqIdx)] = arg.slice(eqIdx + 1);
+    } else if (arg.startsWith('--no-')) {
+      flags[arg.slice(5)] = false;
+    } else {
+      // Check if next arg is a value or another flag
+      const next = rawArgs[i + 1];
+      if (next !== undefined && !next.startsWith('-')) {
+        flags[arg.slice(2)] = next;
+        i++;
+      } else {
+        flags[arg.slice(2)] = true;
+      }
+    }
+  } else if (arg.startsWith('-') && arg.length === 2) {
+    // Short flag
+    const shortMap = {
+      t: 'token', s: 'save', v: 'verbose', y: 'yes', q: 'quiet',
+      h: 'help', r: 'recursive', f: 'force',
+    };
+    const longName = shortMap[arg[1]] || arg[1];
+    const next = rawArgs[i + 1];
+    if (longName === 'token' && next !== undefined && !next.startsWith('-')) {
+      flags[longName] = next;
+      i++;
+    } else if (next !== undefined && !next.startsWith('-') && !['recursive', 'force', 'save', 'verbose', 'yes', 'quiet', 'help'].includes(longName)) {
+      flags[longName] = next;
+      i++;
+    } else {
+      flags[longName] = true;
+    }
+  } else {
+    // Positional arg after flags (some commands mix them)
+    positionalArgs.push(arg);
+  }
+  i++;
+}
+
+// Handle color the way upstream's chalk does: enabled only when stdout is a
+// TTY (chalk auto-disables on pipes/redirects), and never with --no-color or
+// the NO_COLOR env var. This keeps captured/piped output plain, byte-for-byte
+// with the real CLI in non-interactive contexts.
+const useColor = Boolean(process.stdout.isTTY) && flags.color !== false && !process.env.NO_COLOR;
+
+if (!command) {
+  printHelp();
+  process.exit(0);
+}
+
+// ────────────────────────────────────────────
+// Database init
+// ────────────────────────────────────────────
+
+const db = initDb();
+
+// ────────────────────────────────────────────
+// Auth check (skip for login/logout/help)
+// ────────────────────────────────────────────
+
+const noAuthCommands = ['login', 'logout'];
+let userId;
+
+if (!noAuthCommands.includes(command)) {
+  const die = (msg) => {
+    process.stderr.write(msg + '\n');
+    process.exitCode = 2;
+    process.exit(2);
+  };
+  const auth = resolveAuth(db, flags, die);
+  userId = auth.userId;
+} else {
+  userId = getDefaultUserId(db);
+}
+
+// ────────────────────────────────────────────
+// Dispatch
+// ────────────────────────────────────────────
+
+const output = {
+  write: (msg) => process.stdout.write(msg),
+  writeErr: (msg) => process.stderr.write(msg),
+};
+
+const result = dispatch(command, db, positionalArgs, flags, userId, output);
+
+// ────────────────────────────────────────────
+// Output
+// ────────────────────────────────────────────
+
+if (result) {
+  if (result._handled) {
+    // Already handled by the command (e.g. login/logout wrote directly)
+  } else if (result.error) {
+    process.stderr.write(result.error + '\n');
+    process.exitCode = 2;
+  } else if (result._info !== undefined) {
+    // Informational message — real CLI writes these to stderr via this.info()
+    // (e.g. "Deleted file <id>", "Downloaded file <name>"). No stdout output.
+    process.stderr.write(result._info + '\n');
+  } else if (result._empty) {
+    // Successful op with no output at all (real CLI behavior)
+  } else if (result._raw !== undefined) {
+    // --id-only: just print the raw value
+    process.stdout.write(String(result._raw) + '\n');
+  } else {
+    // Normal output
+    const outputStr = renderOutput(result, flags, useColor);
+    process.stdout.write(outputStr + '\n');
+  }
+}
+
+db.close();
+
+// ────────────────────────────────────────────
+// Helpers
+// ────────────────────────────────────────────
+
+function renderOutput(data, flags, useColor) {
+  if (flags.json) {
+    return renderJson(data);
+  }
+  if (flags.csv) {
+    return renderCsv(data);
+  }
+  // Default: human-readable text
+  if (Array.isArray(data)) {
+    if (data.length === 0) return '';
+    return formatCollection(data, useColor);
+  }
+  // Download success message
+  if (data.message && !data.type) {
+    return data.message;
+  }
+  return formatObject(data, useColor);
+}
+
+function printHelp() {
+  process.stdout.write(`Box CLI Mock — RealReplicaBench
+
+USAGE
+  $ box COMMAND [OPTIONS]
+
+COMMANDS
+  login                        Log in to Box
+  logout                       Log out of Box
+
+  files:get <id>               Get file info
+  files:download <id>          Download a file
+  files:upload <path>          Upload a file
+  files:delete <id>            Delete a file
+  files:copy <id> <parentID>   Copy a file
+  files:move <id> <parentID>   Move a file
+  files:update <id>            Update file metadata
+  files:comments <id>          List comments on a file
+  files:tasks <id>             List tasks on a file
+
+  folders:get <id>             Get folder info (0 = root)
+  folders:items <id>           List items in a folder
+  folders:create <parent> <n>  Create a folder
+  folders:delete <id>          Delete a folder
+  folders:copy <id> <parent>   Copy a folder
+  folders:move <id> <parent>   Move a folder
+  folders:update <id>          Update folder metadata
+
+  search [QUERY]               Search files and folders
+  comments:create <fileID>     Add a comment
+  comments:get <id>            Get a comment
+  comments:delete <id>         Delete a comment
+
+  collaborations:create <id> <type>   Add a collaborator
+  collaborations:get <id>             Get a collaboration
+  collaborations:delete <id>          Remove a collaboration
+
+  shared-links:create <id> <type>     Create shared link
+  shared-links:delete <id> <type>     Remove shared link
+
+  users:list                   List users
+  users:get [id]               Get user info (default: me)
+
+  tasks:create <fileID>        Create a task
+  tasks:get <id>               Get a task
+  tasks:update <id>            Update a task
+  tasks:delete <id>            Delete a task
+
+  trash                        List trashed items
+  trash:delete <type> <id>     Permanently delete from trash
+  trash:restore <type> <id>    Restore from trash
+
+GLOBAL FLAGS
+  -t, --token      Provide a token directly
+  --json           Output as JSON
+  --csv            Output as CSV
+  --fields         Comma-separated fields to include
+  --no-color       Disable colored output
+  -h, --help       Show help
+`);
+}

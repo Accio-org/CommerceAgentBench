@@ -1,0 +1,224 @@
+{
+  "messages": [
+    {
+      "message_id": "msg_5101",
+      "sender": "@buyer-mia",
+      "channel": "#rfq-stainless-bottle",
+      "content": "RFQ target: 750ml stainless insulated bottle, 20,000 pcs, matte black + logo, DDP Los Angeles, warehouse arrival before June 15. Customer requires LFGB food contact certificate and no more than 2% AQL major defects.",
+      "timestamp": "2026-04-18T08:30:00+08:00",
+      "is_read": false,
+      "tags": [
+        "rfq"
+      ]
+    },
+    {
+      "message_id": "msg_5102",
+      "sender": "@supplier-a",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Supplier A / Ningbo SteelPro initial quote: USD 3.18 EXW, MOQ 20k, production 28 days, says LFGB certificate available. Freight to LA not included.",
+      "timestamp": "2026-04-18T09:00:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-a"
+      ]
+    },
+    {
+      "message_id": "msg_5103",
+      "sender": "@supplier-b",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Supplier B / EverTherm quote: USD 3.42 DDP Los Angeles, MOQ 18k, production 30 days, LFGB certificate valid through 2027, can ship May 20 vessel ETA LA June 10.",
+      "timestamp": "2026-04-18T09:08:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-b"
+      ]
+    },
+    {
+      "message_id": "msg_5104",
+      "sender": "@supplier-c",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Supplier C / CupWell quote: USD 3.05 FOB Ningbo, MOQ 20k, production 35 days, LFGB in progress, sample lead time 7 days.",
+      "timestamp": "2026-04-18T09:12:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-c"
+      ]
+    },
+    {
+      "message_id": "msg_5105",
+      "sender": "@supplier-d",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Supplier D / MetroMug quote: USD 3.25 DDP LA, MOQ 20k, production 25 days, LFGB valid, claims existing tooling.",
+      "timestamp": "2026-04-18T09:20:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-d"
+      ]
+    },
+    {
+      "message_id": "msg_5106",
+      "sender": "@qa-leo",
+      "channel": "#rfq-stainless-bottle",
+      "content": "QA note: MetroMug had a 5.8% leak failure on our 2025 travel mug order. They improved gasket material but no post-fix mass-production audit yet.",
+      "timestamp": "2026-04-18T10:00:00+08:00",
+      "is_read": false,
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "message_id": "msg_5107",
+      "sender": "@supplier-a",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Correction from SteelPro: USD 3.18 was for MOQ 50k. For 20k pcs price is USD 3.36 EXW. Also their LFGB report covers 500ml model only, not the 750ml bottle.",
+      "timestamp": "2026-04-18T10:20:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-a",
+        "update"
+      ]
+    },
+    {
+      "message_id": "msg_5108",
+      "sender": "@logistics-nina",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Freight estimate for EXW/FOB suppliers to DDP LA: SteelPro add about USD 0.38/pc; CupWell add about USD 0.41/pc if booking this week.",
+      "timestamp": "2026-04-18T10:35:00+08:00",
+      "is_read": false,
+      "tags": [
+        "logistics"
+      ]
+    },
+    {
+      "message_id": "msg_5109",
+      "sender": "@supplier-c",
+      "channel": "#rfq-stainless-bottle",
+      "content": "CupWell update: LFGB test slot slipped; certificate earliest May 25. Because of Dragon Boat holiday, production completion moves to June 8, ETA LA around June 24. Price unchanged.",
+      "timestamp": "2026-04-18T11:00:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-c",
+        "update"
+      ]
+    },
+    {
+      "message_id": "msg_5110",
+      "sender": "@supplier-b",
+      "channel": "#rfq-stainless-bottle",
+      "content": "EverTherm revised if we confirm by Apr 22: USD 3.36 DDP LA, MOQ 20k accepted, free logo setup, vessel ETA LA June 10. Payment term 30% deposit / 70% before shipment.",
+      "timestamp": "2026-04-18T11:20:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-b",
+        "update"
+      ]
+    },
+    {
+      "message_id": "msg_5111",
+      "sender": "@finance-zoe",
+      "channel": "#rfq-stainless-bottle",
+      "content": "For customer target margin, landed DDP cost must stay at or below USD 3.40. Payment terms with 70% before shipment are acceptable if inspection passed before balance.",
+      "timestamp": "2026-04-18T11:40:00+08:00",
+      "is_read": false,
+      "tags": [
+        "finance"
+      ]
+    },
+    {
+      "message_id": "msg_5112",
+      "sender": "@buyer-mia",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Please produce a final shortlist. Prioritize meeting LFGB and June 15 arrival over saving a few cents. Do not recommend suppliers with unresolved certification or known quality risk as primary.",
+      "timestamp": "2026-04-18T12:00:00+08:00",
+      "is_read": false,
+      "tags": [
+        "rfq",
+        "important"
+      ]
+    },
+    {
+      "message_id": "msg_5113",
+      "sender": "@supplier-e",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Supplier E / NorthPeak late quote: USD 3.28 DDP LA, MOQ 20k, LFGB valid, can arrive LA warehouse June 12. They say matte black logo setup is included.",
+      "timestamp": "2026-04-18T12:08:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-e"
+      ]
+    },
+    {
+      "message_id": "msg_5114",
+      "sender": "@logistics-nina",
+      "channel": "#rfq-stainless-bottle",
+      "content": "NorthPeak clarification after checking their DDP sheet: USD 3.28 covers port-to-LA but excludes warehouse appointment and tailgate delivery, about USD 0.16/pc. Also their free logo setup applies only to one-color logo; our matte black + logo pack needs a USD 0.08/pc setup amortization.",
+      "timestamp": "2026-04-18T12:22:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-e",
+        "logistics",
+        "update"
+      ]
+    },
+    {
+      "message_id": "msg_5115",
+      "sender": "@supplier-f",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Supplier F / AtlasWare late quote: RMB 23.60/pc, DDP Los Angeles to port-side carrier handoff, MOQ 20k, production complete May 22, ETA LA warehouse June 14. LFGB certificate is under AtlasWare Ningbo Homeware, not the short trading name on the quote.",
+      "timestamp": "2026-04-18T12:35:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-f"
+      ]
+    },
+    {
+      "message_id": "msg_5116",
+      "sender": "@finance-zoe",
+      "channel": "#rfq-stainless-bottle",
+      "content": "For RMB supplier quotes, use FX 7.18 RMB/USD for this shortlist and add a 1.2% bank/FX handling load to the converted unit cost before comparing with the USD 3.40 landed-cost target.",
+      "timestamp": "2026-04-18T12:42:00+08:00",
+      "is_read": false,
+      "tags": [
+        "finance",
+        "fx"
+      ]
+    },
+    {
+      "message_id": "msg_5117",
+      "sender": "@logistics-nina",
+      "channel": "#rfq-stainless-bottle",
+      "content": "AtlasWare route clarification: add USD 0.05/pc for LA warehouse appointment and tailgate delivery. Their June 14 warehouse arrival holds only if PO is confirmed by Apr 22; after Apr 23 it risks slipping past June 15.",
+      "timestamp": "2026-04-18T12:50:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-f",
+        "logistics"
+      ]
+    },
+    {
+      "message_id": "msg_5118",
+      "sender": "@qa-leo",
+      "channel": "#rfq-stainless-bottle",
+      "content": "AtlasWare LFGB name mismatch is acceptable only if they provide an authorization letter tying AtlasWare Ningbo Homeware to the trading entity on the quote before award. If they cannot provide it, treat certification as unresolved.",
+      "timestamp": "2026-04-18T12:56:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier-f",
+        "quality",
+        "compliance"
+      ]
+    },
+    {
+      "message_id": "msg_5119",
+      "sender": "@buyer-mia",
+      "channel": "#rfq-stainless-bottle",
+      "content": "Decision rule for the final shortlist: among suppliers that can document LFGB coverage, stay at or below USD 3.40 landed DDP, and arrive by June 15, choose the lowest landed-cost option as primary. A June 14 warehouse arrival is acceptable if the PO is locked by Apr 22; list any authorization letter as a pre-award condition rather than rejecting the supplier outright.",
+      "timestamp": "2026-04-18T13:02:00+08:00",
+      "is_read": false,
+      "tags": [
+        "rfq",
+        "decision"
+      ]
+    }
+  ]
+}

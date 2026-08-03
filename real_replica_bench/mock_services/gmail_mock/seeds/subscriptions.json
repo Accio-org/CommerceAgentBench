@@ -1,0 +1,93 @@
+[
+  {
+    "id": "subscription-1",
+    "name": "Claude Team",
+    "email": "no-reply@email.claude.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-2",
+    "name": "Google",
+    "email": "no-reply@google.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-3",
+    "name": "Google AI Studio",
+    "email": "googleaistudio-noreply@google.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-4",
+    "name": "Google Antigravity",
+    "email": "antigravity-noreply@google.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-5",
+    "name": "Google One",
+    "email": "googleone-updates-noreply@google.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-6",
+    "name": "Google One",
+    "email": "googleone-noreply@google.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-7",
+    "name": "Jakki Jakaj (Tavily)",
+    "email": "jakki.jakaj@tavily.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-8",
+    "name": "Jia Yao",
+    "email": "jia@brightdata.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-9",
+    "name": "Jules",
+    "email": "jules-noreply@google.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-10",
+    "name": "Ngrok Team",
+    "email": "team@m.ngrok.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-11",
+    "name": "Openai Noreply",
+    "email": "noreply@email.openai.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-12",
+    "name": "Rotem Weiss",
+    "email": "rotem@tavily.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  },
+  {
+    "id": "subscription-13",
+    "name": "stitch-team",
+    "email": "stitch-noreply@google.com",
+    "recent": "最近的电子邮件不超过 10 封",
+    "unsubscribed": false
+  }
+]

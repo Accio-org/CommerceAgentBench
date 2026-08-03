@@ -1,0 +1,14 @@
+
+Setting up fixture for: product
+Running fixture for: product
+Setting up fixture for: price
+Running fixture for: price
+Setting up fixture for: checkout_session
+Running fixture for: checkout_session
+Setting up fixture for: payment_page
+Running fixture for: payment_page
+Setting up fixture for: payment_method
+Running fixture for: payment_method
+Setting up fixture for: payment_page_confirm
+Running fixture for: payment_page_confirm
+Trigger succeeded! Check dashboard for event details.

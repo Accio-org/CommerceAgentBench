@@ -1,0 +1,512 @@
+{
+  "schema_version": "2.0",
+  "task_id": "trends-csv-flatten",
+  "structure": {
+    "header_line": "week_iso,slug,brand,value,partial_data",
+    "total_data_rows": 2120,
+    "csv_sha256": "1cd81bcba1d8182fb445837e3eb98479116f4430e029c30d3bbab0b60630cb5e"
+  },
+  "sample_rows": [
+    {
+      "row_index": 26,
+      "expected": [
+        "2025-11-16",
+        "airfryer",
+        "cosori",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 102,
+      "expected": [
+        "2026-04-26",
+        "airfryer",
+        "dash air fryer",
+        3,
+        0
+      ]
+    },
+    {
+      "row_index": 108,
+      "expected": [
+        "2025-06-01",
+        "airfryer",
+        "gourmia",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 122,
+      "expected": [
+        "2025-09-07",
+        "airfryer",
+        "gourmia",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 130,
+      "expected": [
+        "2025-11-02",
+        "airfryer",
+        "gourmia",
+        3,
+        0
+      ]
+    },
+    {
+      "row_index": 177,
+      "expected": [
+        "2025-09-21",
+        "airfryer",
+        "instant vortex",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 187,
+      "expected": [
+        "2025-11-30",
+        "airfryer",
+        "instant vortex",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 284,
+      "expected": [
+        "2025-09-28",
+        "coffee",
+        "breville",
+        1,
+        0
+      ]
+    },
+    {
+      "row_index": 322,
+      "expected": [
+        "2025-06-15",
+        "coffee",
+        "cuisinart coffee",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 326,
+      "expected": [
+        "2025-07-13",
+        "coffee",
+        "cuisinart coffee",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 356,
+      "expected": [
+        "2026-02-08",
+        "coffee",
+        "cuisinart coffee",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 379,
+      "expected": [
+        "2025-07-13",
+        "coffee",
+        "keurig",
+        1,
+        0
+      ]
+    },
+    {
+      "row_index": 383,
+      "expected": [
+        "2025-08-10",
+        "coffee",
+        "keurig",
+        2,
+        0
+      ]
+    },
+    {
+      "row_index": 396,
+      "expected": [
+        "2025-11-09",
+        "coffee",
+        "keurig",
+        2,
+        0
+      ]
+    },
+    {
+      "row_index": 418,
+      "expected": [
+        "2026-04-12",
+        "coffee",
+        "keurig",
+        5,
+        0
+      ]
+    },
+    {
+      "row_index": 419,
+      "expected": [
+        "2026-04-19",
+        "coffee",
+        "keurig",
+        4,
+        0
+      ]
+    },
+    {
+      "row_index": 456,
+      "expected": [
+        "2025-12-28",
+        "coffee",
+        "nespresso",
+        2,
+        0
+      ]
+    },
+    {
+      "row_index": 511,
+      "expected": [
+        "2026-01-11",
+        "coffee",
+        "ninja coffee",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 571,
+      "expected": [
+        "2026-03-01",
+        "drill",
+        "bosch",
+        10,
+        0
+      ]
+    },
+    {
+      "row_index": 636,
+      "expected": [
+        "2025-05-18",
+        "drill",
+        "makita",
+        14,
+        0
+      ]
+    },
+    {
+      "row_index": 653,
+      "expected": [
+        "2025-09-14",
+        "drill",
+        "makita",
+        7,
+        0
+      ]
+    },
+    {
+      "row_index": 787,
+      "expected": [
+        "2026-03-29",
+        "drill",
+        "ryobi",
+        36,
+        0
+      ]
+    },
+    {
+      "row_index": 814,
+      "expected": [
+        "2025-09-28",
+        "earbuds",
+        "beats studio buds",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 881,
+      "expected": [
+        "2026-01-04",
+        "earbuds",
+        "bose quietcomfort earbuds",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 895,
+      "expected": [
+        "2026-04-12",
+        "earbuds",
+        "bose quietcomfort earbuds",
+        100,
+        0
+      ]
+    },
+    {
+      "row_index": 902,
+      "expected": [
+        "2025-05-25",
+        "earbuds",
+        "jabra elite",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 914,
+      "expected": [
+        "2025-08-17",
+        "earbuds",
+        "jabra elite",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 933,
+      "expected": [
+        "2025-12-28",
+        "earbuds",
+        "jabra elite",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 952,
+      "expected": [
+        "2026-05-10",
+        "earbuds",
+        "jabra elite",
+        21,
+        0
+      ]
+    },
+    {
+      "row_index": 953,
+      "expected": [
+        "2026-05-17",
+        "earbuds",
+        "jabra elite",
+        30,
+        1
+      ]
+    },
+    {
+      "row_index": 1003,
+      "expected": [
+        "2026-04-26",
+        "earbuds",
+        "jbl live",
+        30,
+        0
+      ]
+    },
+    {
+      "row_index": 1083,
+      "expected": [
+        "2025-10-26",
+        "headset",
+        "astro a40",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1126,
+      "expected": [
+        "2025-08-17",
+        "headset",
+        "hyperx cloud",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1138,
+      "expected": [
+        "2025-11-09",
+        "headset",
+        "hyperx cloud",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1139,
+      "expected": [
+        "2025-11-16",
+        "headset",
+        "hyperx cloud",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1185,
+      "expected": [
+        "2025-09-28",
+        "headset",
+        "logitech g",
+        10,
+        0
+      ]
+    },
+    {
+      "row_index": 1200,
+      "expected": [
+        "2026-01-11",
+        "headset",
+        "logitech g",
+        15,
+        0
+      ]
+    },
+    {
+      "row_index": 1378,
+      "expected": [
+        "2025-05-18",
+        "mattress",
+        "leesa",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1393,
+      "expected": [
+        "2025-08-31",
+        "mattress",
+        "leesa",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1408,
+      "expected": [
+        "2025-12-14",
+        "mattress",
+        "leesa",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1470,
+      "expected": [
+        "2026-02-15",
+        "mattress",
+        "nectar mattress",
+        2,
+        0
+      ]
+    },
+    {
+      "row_index": 1481,
+      "expected": [
+        "2026-05-03",
+        "mattress",
+        "nectar mattress",
+        9,
+        0
+      ]
+    },
+    {
+      "row_index": 1550,
+      "expected": [
+        "2025-08-17",
+        "mattress",
+        "saatva",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1556,
+      "expected": [
+        "2025-09-28",
+        "mattress",
+        "saatva",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1718,
+      "expected": [
+        "2025-10-19",
+        "speaker",
+        "google nest mini",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1728,
+      "expected": [
+        "2025-12-28",
+        "speaker",
+        "google nest mini",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1731,
+      "expected": [
+        "2026-01-18",
+        "speaker",
+        "google nest mini",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1839,
+      "expected": [
+        "2026-02-01",
+        "speaker",
+        "sonos era",
+        0,
+        0
+      ]
+    },
+    {
+      "row_index": 1881,
+      "expected": [
+        "2025-11-16",
+        "vacuum",
+        "bissell",
+        1,
+        0
+      ]
+    },
+    {
+      "row_index": 2069,
+      "expected": [
+        "2025-06-01",
+        "vacuum",
+        "shark navigator",
+        0,
+        0
+      ]
+    }
+  ],
+  "_generation_notes": "Rows sorted by (slug, brand, week_iso). Brand strings preserved verbatim from snapshot.values[].query."
+}

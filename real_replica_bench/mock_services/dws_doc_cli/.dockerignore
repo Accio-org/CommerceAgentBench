@@ -1,0 +1,8 @@
+node_modules
+data
+uploads
+private
+.DS_Store
+.git
+.gitignore
+*.log

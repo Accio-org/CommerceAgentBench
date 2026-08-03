@@ -1,0 +1,1 @@
+Engineering needs the webhook and payment pipeline wired up before integration testing starts Monday. The spec is in `workspace/` — set it all up in Stripe and verify events flow end-to-end. Drop a pipeline report in `outputs/` when done so the team can review.

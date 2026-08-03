@@ -1,0 +1,533 @@
+{
+  "checks": [
+    {
+      "id": "q3_content_nb_jp_pet_025",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-JP-PET-025"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_br_bir_026",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-BR-BIR-026"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_mx_bir_027",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-MX-BIR-027"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_au_bir_028",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-AU-BIR-028"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_sg_com_029",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-SG-COM-029"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_us_com_030",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-US-COM-030"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_uk_puz_031",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-UK-PUZ-031"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_de_cat_032",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-DE-CAT-032"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_jp_out_033",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-JP-OUT-033"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_br_cat_034",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-BR-CAT-034"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_mx_stu_035",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-MX-STU-035"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_content_nb_au_dog_036",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-AU-DOG-036"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q1_removed_nb_jp_dog_017",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-JP-DOG-017"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q1_removed_nb_br_dog_018",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-BR-DOG-018"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q1_removed_nb_mx_non_019",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-MX-NON-019"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q1_removed_nb_au_pre_020",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-AU-PRE-020"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q1_removed_nb_sg_dog_021",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-SG-DOG-021"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q1_removed_nb_us_fis_022",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-US-FIS-022"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q1_removed_nb_uk_pet_023",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-UK-PET-023"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q1_removed_nb_de_pet_024",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "NB-DE-PET-024"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q2_preserved_nb_jp_pet_001",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-JP-PET-001"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q2_preserved_nb_br_pet_002",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-BR-PET-002"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q2_preserved_nb_au_pet_004",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-AU-PET-004"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q2_preserved_nb_de_bir_008",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-DE-BIR-008"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q2_preserved_nb_us_int_014",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-US-INT-014"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q2_preserved_nb_de_dog_016",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-DE-DOG-016"
+          ]
+        }
+      }
+    },
+    {
+      "id": "q3_before_footer",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "before": {
+          "content": [
+            "NB-AU-DOG-036",
+            "Procurement Contacts"
+          ]
+        }
+      }
+    },
+    {
+      "id": "callout_before_q3",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "before": {
+          "content": [
+            "provisional",
+            "NB-JP-PET-025"
+          ]
+        }
+      }
+    },
+    {
+      "id": "new_title",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Procurement Calendar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "old_title_gone",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "not_contains": {
+          "content": [
+            "Q2 Procurement Calendar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "footer_preserved",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-catalog"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "sarah.chen@northbridge.co"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_03",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-inline-03"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "comment_07",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-inline-07"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "comment_11",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-inline-11"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "comment_footer_28",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-footer-28"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "comment_footer_31",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-footer-31"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "jp_comment_is_inline",
+      "entity": "comments",
+      "match": {
+        "content": "JP market: confirm pricing with Tokyo office",
+        "type": "inline"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "archive_exists",
+      "entity": "documents",
+      "match": {
+        "name": "Q1 Archive"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "perm_a",
+      "entity": "permissions",
+      "match": {
+        "userId": "uid-archive-a",
+        "role": "READER"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "perm_b",
+      "entity": "permissions",
+      "match": {
+        "userId": "uid-archive-b",
+        "role": "READER"
+      },
+      "expect": {
+        "count": 1
+      }
+    }
+  ]
+}

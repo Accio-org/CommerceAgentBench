@@ -1,0 +1,2394 @@
+{
+  "search_metadata": {
+    "id": "6a12827dff7aa2ec3a66cc02",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/N2F1dPRkjOu4fGp3KZ7nmg/6a12827dff7aa2ec3a66cc02.json",
+    "created_at": "2026-05-24T04:45:49.658Z",
+    "processed_at": "2026-05-24T04:45:49.659Z",
+    "google_hotels_url": "https://www.google.com/travel/search?q=Yiwu+International+Trade+Market+hotels&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/N2F1dPRkjOu4fGp3KZ7nmg/6a12827dff7aa2ec3a66cc02.html",
+    "prettify_html_file": "https://serpapi.com/searches/N2F1dPRkjOu4fGp3KZ7nmg/6a12827dff7aa2ec3a66cc02.prettify",
+    "total_time_taken": {
+      "float": 1.3390321731567383
+    }
+  },
+  "search_parameters": {
+    "engine": "google_hotels",
+    "q": "Yiwu International Trade Market hotels",
+    "gl": "us",
+    "hl": "en",
+    "currency": "USD",
+    "check_in_date": "2026-09-16",
+    "check_out_date": "2026-09-19",
+    "adults": 5,
+    "children": 0
+  },
+  "search_information": {
+    "total_results": 905
+  },
+  "brands": [
+    {
+      "id": 33,
+      "name": "Accor Live Limitless",
+      "children": [
+        {
+          "id": 91,
+          "name": "Mercure"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Hanting"
+    },
+    {
+      "id": 28,
+      "name": "Hilton Honors",
+      "children": [
+        {
+          "id": 115,
+          "name": "Hampton by Hilton"
+        },
+        {
+          "id": 36,
+          "name": "Home2 Suites"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "IHG Hotels & Resorts"
+    },
+    {
+      "id": 46,
+      "name": "Marriott Bonvoy",
+      "children": [
+        {
+          "id": 58,
+          "name": "Fairfield Inn by Marriott"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Wyndham Hotels & Resorts",
+      "children": [
+        {
+          "id": 50,
+          "name": "Ramada"
+        },
+        {
+          "id": 141,
+          "name": "Wyndham Garden"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Yiwu International Mansion",
+      "description": "Casual rooms & suites in a modern hotel offering 2 restaurants, an indoor pool & meeting space.",
+      "property_token": "ChcIssPZk5bGhLtlGgsvZy8xdGQxYjNuahAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcIssPZk5bGhLtlGgsvZy8xdGQxYjNuahAB&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.314774,
+        "longitude": 120.09277999999999
+      },
+      "nearby_places": [
+        {
+          "name": "Jimingshan Park",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/6k2xGNuqmFSr4BY5ZeiRWwkWFPZIy5_0WMdf-cRmDMOK6dnmhLi-oWX4ghawNqaIgkgZxnSwhoUzjFh2R-QRXh-hNL6YEhOZP2-UpXpsrWc71V7NRIjNXO80bm5O3Zge98-H0pODncQzUfchabZA9UG_FvxgYw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/dd/4b/dd4bb42d9ae93079263d925128bf8e1a9244c415.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/S6Xw92giF-9UT_llEmN8uDxCB7cfGPojWua8TDQr9WOM5Jk_48jLIW1yGj6BmegoH3nGqn65P-7NLLQVX-_4yvAfXT6vrjb1hSIUMWdA-MB4PKtJJy0AphU9N9sjhwpRSXxc_DVFX6is-dvAhPX9JB0jmFaKHkM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/35/356914/356914a_hb_l_002.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/DwDsN2n8K7hDtZCZvSQ_7EsmNL-lOwvuAeNXHdmX6p9b6AuN2DWWtnA8mNiOXSaWwj5VFdS90_1TRMv9fF3uiQ2rAqZw9QR95YOQkCBfIVabrTzaOoWsNdC12k9EymCc5rLOA7G7an6VjZdvHHbIz3rzoF5oWlc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/35/356914/356914a_hb_a_005.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/rMypBnaqvEEKTpf2uYSrr9qbwRxWYC5pCJB_yqIaAvwIPaK824TO7CvkB3HyfWRRfqNy14beKSNIbAA345PhtgtuAb83RwgAWgnwz6tzdcR4ggAyWKiIB6JenOfTFkj0gUsQLTBu45OxBLaGcfq6S42cIJlTUg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/df/77/df7766c68365f8c2c705a746df2789277d97987c.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/OAHABoz4y7zbxbiK0m-wqT4SmbPrG0ldijWaMhgx6kPSROBvXaYWStCKeIQJTaNx09W0y6fFETR9C67WIop56iLS-RtXlBOyM12LD2kKs1wZiRJdG-cvmTEEA-LxDqGDqwnABr6JweoH_ZWPHIGejzK-EMhQV2M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/35/356914/356914a_hb_l_005.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/_-pQKUEHRqC55QmdNhKf4TkG8fmPPb33DhBvRaSeHQbHtt5BzOjlreKLadGmwz4AhnF1YrDchsYSj1ZPaM0Ch3knvqXDv9m3OO5-nee36cczXYvuBdJCo3g7b7XkqPGGDKZSd8skB416nzlFxw2nZQoPjuj54wA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/35/356914/356914a_hb_a_006.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/WSOMfY5O7jQMTRaWWh8Q2uQOJO09BKoe_YtobZ5goyXqKaTneFcM-iNElVCmO-VSx4PcBeFILvsIzG0DdDXAjOg0eXOIM7WE_kjsK1M39d7D0C01PhGvmeBTRwXWxSUgeEhgsmPr9NiPz3yQXRHGg2Id2cIMGak=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/35/356914/356914a_hb_l_006.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/KQ89WaDF5PW43csCXL5qJvkw37ejFCNPc3FUhAKxE0hAR8dEZEn4Mu1QaG5gjLNGdODVLvwKl2aQucPMy3r-xtLOBM1hCAdvJLsE7MXK80xUoUh0IfgeQJS-wJtNAnNVxLdeEPliHLjFJXCnDfgsFfr0bR7W3Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/29/f9/29f98f1eb9731d3337fc9c8d3dca218fc898051e.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/HUGfEpTg154GzGKk1ImmBN_6dckwxRKt7FWQ5WJg8v__9LBWZPXhOlHlMqsMu8nb_5teizgH6ckQ-WujWY4cNL1qyWBhTjS9lji3rgHFPHb4TbNrvuZ0p_uau-ILWkh2RdrQpG9wNRY7xNtuVLKGB1psezB5og=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/0a/85/0a85e34d6426560987b6570b2d7115e09375adc9.JPEG"
+        }
+      ],
+      "overall_rating": 4,
+      "reviews": 70,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 33
+        },
+        {
+          "stars": 4,
+          "count": 23
+        },
+        {
+          "stars": 3,
+          "count": 5
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 8
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 5,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU&engine=google_hotels_reviews&hl=en&property_token=ChcIssPZk5bGhLtlGgsvZy8xdGQxYjNuahAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Indoor pool",
+        "Hot tub",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcIssPZk5bGhLtlGgsvZy8xdGQxYjNuahAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcIssPZk5bGhLtlGgsvZy8xdGQxYjNuahAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Hampton by Hilton Yiwu International Trade Market",
+      "property_token": "ChkI3v39i7bsgb9kGg0vZy8xMXJnZ25yMHRnEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkI3v39i7bsgb9kGg0vZy8xMXJnZ25yMHRnEAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.311322999999998,
+        "longitude": 120.08427999999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Xiuhu Park",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "13 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/caAA69AnxB9zgEVbvRkpDz8qAceWWoVAnoQ7RRv3b53J-l9pYbfnLTozb30dJEEzpT-ebWA0C9ro-6lMZk960gKsu-Yrh61m5HA8elPctEwh3io6T0qubvdlhJ6ZiqUYAFyH7rxLWkXKytSdpo2kG3Rzgbuqyw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/0/0/199/959/444/jcOQ8zyUdkijjWp6eOsu2w_YIWYIHX_Exterior.jpg_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHahRgg3rS7Bhdb85KUMfpDhKna-Lhaweuy3gK1DjV8dfS4jqFqqgSSiaXFaEjjED4tSBImt57t-_iJ8BF4D_A2bbd1N8fgDt2zA2RXExbwgdffg5Ato7iLgKrx6w1CbeysExmQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHahRgg3rS7Bhdb85KUMfpDhKna-Lhaweuy3gK1DjV8dfS4jqFqqgSSiaXFaEjjED4tSBImt57t-_iJ8BF4D_A2bbd1N8fgDt2zA2RXExbwgdffg5Ato7iLgKrx6w1CbeysExmQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/X12m_f2vjs_a7v4SXR6-rmE-Ni4ZcZtr6k-V54qIMAzOjEpUTgI43v6gCTbMArWJEH4XHn4klaRKiFw2VnxcVKoe0CRiLLUnNo4z4oZTkb74EbEu7AFZAYA3_pe48sqKdp3kxavc_GHl-6he1ar20FG5tZY7jw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/0/0/199/959/383/DLOb9v8wEUy3tETkbxoYw_YIWYIHX_Restaurant.jpg_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFD50U56tICueFG6FrlIy34s7JhwprpZMKmWtqQjOniIqBQeS_IcKjgaZ_8DDTEtJp3xcQCm0aN86mbUx5i58IR0VKR5bceX1Wx9tukQiB0VeGgvu1Y53yWZf2XkX758X0_dmUdG7lYrbVF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFD50U56tICueFG6FrlIy34s7JhwprpZMKmWtqQjOniIqBQeS_IcKjgaZ_8DDTEtJp3xcQCm0aN86mbUx5i58IR0VKR5bceX1Wx9tukQiB0VeGgvu1Y53yWZf2XkX758X0_dmUdG7lYrbVF=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/342p4AbJfSSbQaqjIKbmkRJX3wVeIch71x-EehAVwJ81x80CCR70otgEe7tmN068GAwuXvtYLzExKwn4SQWbsv9HTEiXnv78QjXAGGJKQ-YBPDs-sBXI-GPe6L49ZXvePVm1JLqsC3vPjkUMYgCBHNAzprmJTJA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/0/0/199/959/525/zMXQZsyn2ki7eBIMaM24Zg_YIWYIHX_Meeting_Space.jpg_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/_RT5MEtcpYcoQpDPSBNEfEJvsQTwKDL26W3l3oKVbLM6CunBpso-Uvlb-fDFijSPnMjQXyfff1G5XIBoxVRsrGgrFQlZ9ykXoEdvA5qYgcBUf-qHpQw0sp4JBNXjz7YWDMSx3PRTBPwoAISsrWgXoIJxWW9ssi4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/0/0/199/959/425/ikwt2ZD6Uqxotb3DOqU9Q_YIWYIHX_Business_Center.jpg_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/rlf7osls-RIlHh9G1BgaEvCN-RRGHS-dPw4IjIFjjt8vwGUCgrEdtGk57d294dxtf3LAGrh07Ed4_5I-nYOCTznX-X0p-9eO_rMJdfG-Zq4C6ZNiRxPlHj05xjjzZMWLdodt6hXKrhHLgisur7EdM6gXsLe6-w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/0/0/199/959/314/NK9AfHS50QJplwlNJ6dQ_YIWYIHX_2_Twin_Beds_Guest_Room_SVR.j_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/lSGQ4hDkhc2tcowOlW34B1JAsh6lUfQUbpY_oEL5tKSTaK-cbPTbOdhJsvnPYXmeHrSUjTOjh-sliDXU6U3b5jr0yG_wXID-nlPCabaMk07nAjMpMPV6LJrvySN8rvkhwVebLFBL3D1fayZC2F4wep-oK9cD2BI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/0/0/199/959/495/ZIFYa1hhEVLm3dCBJzBA_YIWYIHX_Lobby.jpg_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/az3Ga2A7acGpdltyURW8TK-QY9N37533Co0W7hQLJuO-rYhUGRn7JlvIJTxPbtRKVPmE1ERV6jCmswwVh9NZ0zmlHW4jlGUBF5A43cxQFsLo7Um3P3n1BXJCfkMWdy-HOtnIa2_DGnruH8Rr6-di_AvNUq14Iw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/0/0/199/959/463/00CJY4e1OEuCHXGH3PLEaQ_YIWYIHX_King_Guest_Room_SKR.jpg_O.jpg"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 159,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 108
+        },
+        {
+          "stars": 4,
+          "count": 34
+        },
+        {
+          "stars": 3,
+          "count": 12
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 3
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 7,
+          "positive": 6,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "nHbA-nica1yRnFiSmp5fVDl5eXBqUVlmcioDjAEAtXYMCw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=nHbA-nica1yRnFiSmp5fVDl5eXBqUVlmcioDjAEAtXYMCw&engine=google_hotels_reviews&hl=en&property_token=ChkI3v39i7bsgb9kGg0vZy8xMXJnZ25yMHRnEAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 7,
+          "positive": 5,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU&engine=google_hotels_reviews&hl=en&property_token=ChkI3v39i7bsgb9kGg0vZy8xMXJnZ25yMHRnEAE"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Fitness center",
+        "Restaurant",
+        "Full-service laundry",
+        "Business center"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI3v39i7bsgb9kGg0vZy8xMXJnZ25yMHRnEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI3v39i7bsgb9kGg0vZy8xMXJnZ25yMHRnEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Atour Hotel International Trade City Yiwu",
+      "property_token": "ChkI5-WBhqL5_fMRGg0vZy8xMWg1Nm42bWhwEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkI5-WBhqL5_fMRGg0vZy8xMWg1Nm42bWhwEAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.315707999999997,
+        "longitude": 120.09273499999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "2:00 PM",
+      "nearby_places": [
+        {
+          "name": "International Business & Trade City",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "19 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/XPjIdNIRWRRITOoz1bCJh4Dq2u7FUsOMS2HBST07dRexXcyqZbbo4FVF0kB2FTWU-S6V4i5NzFykGXIehMJFYS860ODno7qp_Njx2dCsHCifGxUuKlySBVXKX0pIEsqEhb6Veg94E6gttmXhjT1ZW7qCwhvVcA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/fb/8f/fb8fe85942c71918eb1c1e497331f5f13255321e.JPEG"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/vBy5hKS3goF_mtMt-dOoq-npE01ylLKPbq75r5nNGCMbTPWciuOOeTYxWgd5zB08T0aMX15w3Inj6Tz4scDmAP8B1j8NwKuweOwbBfa5_ibA8jo2u_YDoTxarg04ifd89F2MlXf53tNzBKdmPtZO0vUCUciZLrk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/37/78/3778e2d25d7b6632687c6a3f15b8e74eb367a1ec.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/PCiLwlrgoOyOsO9LHbmeO3F2EMw85ui65xXnR9YlMiXVEfRg-hECyeiIqgwY_eTKIyZSrT-Yo-BGTOtbAHG7E7ywIeKVm8zSvq8q1fqtoRflm4N-ltYGSBuHysIOu9xE_wLtSju0K7Sy-48R3B-aUx3bj2DjeBA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/c1/2e/c12e9e2cb67cee38b3edf2485fb5a895da0fc05a.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEE6GFCUvympv4VyFiPqbG0qlTBQSdivdjtkuzDmdkQQHKkM5mUBukXmX_CvcCdx-m--uuDgYqGvDII9K_PX48hRZeA4kHTVgt5nUcQf8BTL8vZkHQaiDNbA9ZMB6w7blODhTBstw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEE6GFCUvympv4VyFiPqbG0qlTBQSdivdjtkuzDmdkQQHKkM5mUBukXmX_CvcCdx-m--uuDgYqGvDII9K_PX48hRZeA4kHTVgt5nUcQf8BTL8vZkHQaiDNbA9ZMB6w7blODhTBstw=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/nWCdj7gMAnpeF-y75a51yCkBsx8PvfIBMFxef12Oc42SjttqLeCreCIzeflLSXx5tX1PlBz4PL2uHio2YMcmZGb0hGqWUmjX5i1s8H214BQp8JX0MASi8-UCOeOlOHK4h5ApBMWT0I-RQkTiRxB3dhY67t8MKX8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/04/d9/04d94a7cd918b62cd78b2ade6f13f70df739f01d.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/xt2VaX8Xk7B-gSf7neV7drGA0EQzT9z7-WbRWp2-4sODLWlGPmzTAqlAJhxjk7dKScf9ZJZYUZwCx9Ewk8X0oSz8-uzY3lCt-tLYPdBMfYWeU-dRBmih7kJVJqLrU7u7McCDpahM4OgCeXxpNv3OmGMbHv3njbE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/c5/3d/c53d4a327d796593eb8a65f31d74ac1c19f5d9a7.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/1Ia1_YL4YQ554MJjKeNp3o_N7Tu0IEXGUljZCoOnrA50XU2DQ0A2_85l41cypmOEjB7Z5bIqekaD-zDHz13lOaOa2h8IH2dXfA8lToSeRCKTDgvJiyukQfTVqbVEPz0wJ39ufXsl7A2SWL8ek2LzLIcd37O-8A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/63/4a/634a9635e11957e983702c381de82735d130d319.JPEG"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/f7wDyjyfT9_B73EAcmp8WxXRSMhUDBIn3igycRQX_l30m8nYB6VuKx-B9mEq4NhGDTUgdIze3reZevah9SpzlC5vVEwdu9Iul2Hyr7ebNlHrM9HdM9f-30ahEBPE8fXoOdsj3poaCSmxL_FimcqENSbkOJaS6A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/c2/05/c205c82aed8e6e70cfb8d9504f9f3fff3f2e0841.JPEG"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/x10xY1WUFkgRREa5X7QQxxkrdQBaXAxbPfjoaH-jigg_-lnyK7Vu3HsOan3K23VEOO7cID0ATbcg0jPSLIEdst0bjza8R8dRFF1Y4nF1a4XXRvuE-c2-cwf8-9PbnkfWUwNS5yPzR8DQuda0lprizcxVT-INqA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/03/21/0321807b26bccbf0ac807424232e02f1caffec96.JPEG"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 12,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 9
+        },
+        {
+          "stars": 4,
+          "count": 2
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 4.4,
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI5-WBhqL5_fMRGg0vZy8xMWg1Nm42bWhwEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI5-WBhqL5_fMRGg0vZy8xMWg1Nm42bWhwEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Kasion International Hotel Yiwu",
+      "property_token": "ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.319616299999996,
+        "longitude": 120.1023309
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "2:00 PM",
+      "nearby_places": [
+        {
+          "name": "International Business & Trade City",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/D2qh-A9CaKgOkV7zSdGaWK2zdedzSmeWezbcE8ZWNjVS1cYsJ_8ieQVOwTFcdd23a3Havmo2_3DjUK8dSboqqTggb898cZIU2jLKd2JX38PMRbtnqrteNw7TOT4PPlhLhAhlHCAXXc7c9ntii3MmCR7Lmuz5E1Y=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/46/461861/461861a_hb_w_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEsk7jrLldWh4TVKTxk_1-FCAx1zDWuKCGMgnf6TvfUmXklIhp7xhfQBTXApy_ny9FxzHFsxK8PRblH97UGOdBNUofPWJ1IXC1Z2fwEcJWlPR9jBb0T27X4-hiWdONKCc9zbDATRw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEsk7jrLldWh4TVKTxk_1-FCAx1zDWuKCGMgnf6TvfUmXklIhp7xhfQBTXApy_ny9FxzHFsxK8PRblH97UGOdBNUofPWJ1IXC1Z2fwEcJWlPR9jBb0T27X4-hiWdONKCc9zbDATRw=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/iS4v2TXMFP2N_tqVyJn56qrMtOZtRf_1dWjGFg1cw88m0XqTCX_r0OU4tHCZ22tNi4kKQJK6cXUtAKhlKUwPVx4T4FDIMWNtyMCNW604T-it-cjTgwNXeQvZJhwV_s-5xRFh7C6dIEPVVrUQZsB3q2APGyVFCw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/46/461861/461861a_hb_k_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/JKRTgoEPmah5_XEXu-vWsAJsiiYS2N-qWWBjNjLTbUvAnjfYrDqoCKLLK0O8TiBP012_BPbSmebS1DZA8Q8O9BxUmMWEM7LzKDolAEmZfdNy05_ohBm-L_WkMzNcVd6OXGjOLTcEa6xrIx_-j0ZClQ5GIWU7kA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/46/461861/461861a_hb_a_003.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/QW95tzdTBYLg4Qc7B9Pn-G4phwkNjbzBkx5lF_W18B_TTLcCpBHVbTFvfE8PlTIoRVTnQ-NlP6unKQdHDT-Ffy2AufhGtEZ8Jym86kFcFYqyU2sbWlNO9LB0eTFzqegGj8aQxxFlrv0JHyW-LsjcgOwP6STExg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/46/461861/461861a_hb_r_014.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/-Q5GCJHpxYonIcu6qcLepCrmz7cdtehds1h6TCVBB6q4UYo64IZLTneyn8HaMGDmxkPPhU-oxOr1fezS7t_vZvm6oaOJlmXTz4g4YGcqY2SH2x_I8mJN8ZtKXb5l0UlgBpDPZNv6JCPDCCSVFApdyMvg4nBXtdk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/46/461861/461861a_hb_r_005.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ccwLMibtXXMPdrr6y8KfNt3eFOcUwAEtHbEvWVSoVWNinx3Hqt5k3P-4kl_sqQxfuuudGFxqNFHu66fPj08RIJIDB3oL9BE1Hv90Qlm2i2P3ivOYsTJCuzhtDCe9HYnXMZsOQqXkpyTUQK1EsPZz0sbGJzypBag=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/46/461861/461861a_hb_r_003.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Zs6pVH0ei6H-fJVDLMNtwTz5ewTAcp0wNPF2VuO4TimUYz6mc1LY6udL17iieK8mO4XGQ2hO9wgfI3ju-GrwkWhtYU5oBCsZwihOqqiZdGuRFFBGlnNJNL8zhrDRsazeN0FwSNZ47CC4DacnfVgeWMWBBetaO7A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/46/461861/461861a_hb_r_011.jpg"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 76,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 48
+        },
+        {
+          "stars": 4,
+          "count": 18
+        },
+        {
+          "stars": 3,
+          "count": 6
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 4
+        }
+      ],
+      "location_rating": 4.0,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 10,
+          "positive": 9,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 10,
+          "positive": 9,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 10,
+          "positive": 9,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 8,
+          "positive": 7,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M&engine=google_hotels_reviews&hl=en&property_token=ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE"
+        },
+        {
+          "name": "Dining",
+          "description": "Food and Beverage",
+          "total_mentioned": 7,
+          "positive": 6,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "DgnoGHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoqwzKXzLzMvHQAKAQO5w",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DgnoGHica1yRnFiSmp5fVDl5o1t-fopCYl6KglNqWWpRYnoqwzKXzLzMvHQAKAQO5w&engine=google_hotels_reviews&hl=en&property_token=ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 6,
+          "positive": 4,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q&engine=google_hotels_reviews&hl=en&property_token=ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIt5uzvfyC_s-4ARoML2cvMTJ2dG12cHh5EAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Yiwu International Conference Center",
+      "description": "Polished rooms in a sprawling conference hotel featuring 4 restaurants, 2 bars & an indoor pool.",
+      "property_token": "ChkI6cyZ_qP38o_PARoML2cvMTEzZnF4Z2pqEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkI6cyZ_qP38o_PARoML2cvMTEzZnF4Z2pqEAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.363926000000003,
+        "longitude": 120.081772
+      },
+      "nearby_places": [
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "11 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "5-star hotel",
+      "extracted_hotel_class": 5,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/wTyclLOCISTNIe-a5MXYni-l8s3i2yNM0xlLPvNoxdq0kM7XNT-QvL3irGX2YsmINbHWi0peojOjIK7tgjwfb-WwMQoGJnVdTiKkqMD9Vvzfm3p-NpbddWd_rHIxCA-3HIbu9y01cxDw3sYUMyNk90A8uVTmRjg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/18/184414/184414a_hb_p_005.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/IgTayf5k5bmp6ggptjg9wFd6typuE4dDU_37EvHqn6n86ORXzsDZor1Vzxttw82PEmRxtrHnG6k9bsAV0Yug3yR0-DMyrgnCCHwqMHzNF2vCyFalvxos0ftnzFDz96H3v3N9m1zTPgoeaLbVGkrOAPzqKuwYww=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/18/184414/184414a_hb_w_003.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ZuNl9yoFULYWaBRIiUwvdXjC6T5tvIAMgi38yDDhMhecKnjjTyqD3tlDeMZ3IaYlnL52seuM-B0Ibks54Cp60NLMU0bhV0Pl6iO89euso_x4PbN2KUN6Oio3WiC4kP47A-TKk9Vn9c9luwdEe0nyMTud6z7OF1g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/18/184414/184414a_hb_w_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/E01o6iDFioFSQVXI36yt8eTJyLNiOVo6Zp2zIB2GlyxY1C6uB-j8teDB8fkdFnFHHM-wmf77H59NH1Thg9ESKoDgjmARl_Tdf0bEhfHUmE8MT8e-usmRAM3oFp-0G1yMRFlXpNtgo531GjZiDJjXdR_3O4ZiCA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/18/184414/184414a_hb_a_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Z7uDd0OYel2rekgBDbozfNS3octb-pu7lrINU9cGRJmy2cE3zz2BQiV2KOP-cZsNYbFV3Nvvh3piATaiSztuf3b442ZzJ5n28mSG1kdML4y4LxQ7nM1QS8MXerfCCq8uUVLs_gX70xlk-dzeBmx27aRsNq6hhKM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/18/184414/184414a_hb_w_007.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/4qDLMKYZdKl1X2U5H8ZOfgYXTYsB0elvsCeUBuaCBIO7UAdJHYBmCYfnOVnr-TUgZhw_jO5t9F6hQNqIxGNQYGh3EiLinp3Wbz6jv2GadU9Z4kdXFM2ULZu1BxzD2rUZNwPdlz5IuCtH2G7VKsrgaKmBB_GKmA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/18/184414/184414a_hb_w_005.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/q_NxFW1bX7zqwrrH7qXPCtAgc5IIZPpIVktMXC5I_FR2Y4MQyuYH9nRHUGobVz5M1PqncbWR_OQEKsriKutykb31UWEIXqNMMpUIaExPU_yGWl3T0L74Ba1d4T8nVYFb-M8dxFICzZxlBU5aHh5v0ZZ1UvErPA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/18/184414/184414a_hb_f_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/iWf4cFqrpcH8ZbaAWF4IoXP8RY5nfNXGG41iSD4KWlzK76BgnZVM8GXC7Vaeb_UWOVk3ssdrkFabnYaLBZcYGEfo-dcjsmkbblOBPzkIZsgMs6TvQD6PJnUVLJQnZsKmxA1p4T9Ty3OSEmYLWI8hyPL4I3PvwYE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/18/184414/184414a_hb_w_008.jpg"
+        }
+      ],
+      "overall_rating": 4.9,
+      "reviews": 20,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 18
+        },
+        {
+          "stars": 4,
+          "count": 2
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.3,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Indoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI6cyZ_qP38o_PARoML2cvMTEzZnF4Z2pqEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI6cyZ_qP38o_PARoML2cvMTEzZnF4Z2pqEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Byland Star Hotel",
+      "description": "Genteel rooms & suites in a sophisticated hotel offering a bar, a cafe & breakfast.",
+      "property_token": "ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.325162999999996,
+        "longitude": 120.09436
+      },
+      "check_in_time": "2:00 PM",
+      "nearby_places": [
+        {
+          "name": "义乌金福源精品商业街",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/d-4Tu1QYBN28HQ9ezfm7MoinnWlVyUZMtoHukf38AXEsZ9SHR-UZXEicez7JBajuOLuKC8NmQTX4Z6fT-J4AnozBD7oMRREXRG15Q1vZZdM7WmSngQtMKfCroOJGg_Qwdo1nMr4qEkjUneD8qidyh3s-Y44oe5s=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/12/84/128441abd08c58905cd7b61def2b0a6cd8027c44.JPEG"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/QFmIpHXT4eDoJ3lYfRsy0h_pMoN77UKIoBIUJX2tv8FRZitKJmrlac-ggjXCVonIczd9JaV0kalVPEmqowQEP5kzTeMnJ4ohUSYwoAYnwHO7_96bxUJ_zNiOz9YZ__hROLvGNoCCOJsWzj-6vhLCYeqVz9tHJg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/19/193289/193289a_hb_a_505.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/zcOVbFORrjsZy3yr2m4C5_vtyQVcwlX4dnRVkU21k76ti36qLruZki3wu79ZjNrNgdVdq-IKRG-PbKyJvXeYITZA6uUlP01zz8EupZPK4WXXtDcn6dokBN8LcIQyvpEy5Qt-WHb0paUJkYDMEMD7yrM9ev0VhAA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/19/193289/193289a_hb_a_973.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/J--hPUL-IY9nbIhzURIjdVQmW7Zuhe8SSF_DXoJebkPeOHuG59mrge6v-KGXtve41xiApkz2vUcIkuGzhiiUow_JnhK9ZyLjoaZ16-DjD570YMjJgb5ewm0L5u5dvRgoof6P0jJ8AvhmufJYT5iVS_sjnbsiXPg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/19/193289/193289a_hb_w_008.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Nf0w0NdOxxRjFqGkPyzbwemSZF_rCX4eJzdl6bqsnMI-SmG-LBCOD5v5uP4zH5uiLTKO7gMZHCJpd2emrXdOhxvR-hlfbADw1w9jxZJ18bWQz1hhk-_x1F2rmqPaYGX_oRDO4ai871PVn7tqc6wqGg7SzLjXkw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/19/193289/193289a_hb_ro_002.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/4Vm0uqT9EZQGeUjRffjX5qLbfSxNr-VdqIzcXZ2vER1kVKHF8fjxoeKGny1-wfG1VLAYGray_HGShq-Cci-gONTwzDy5SnwhUn-i7HwOZRA88wczBkoihJ-MObJNQLDif3YQizyKNMIWNAUGgJ_UMZ0LHDNjXQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/19/193289/193289a_hb_l_003.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/hNpNFfWmIC3_Db7Ev9Tr9jX9sewg4jj1dopp1lw7KdLoTOa1XZ0vp-regzJPZBIb_qs9tMBTKg0Ew9uNk_R3DDn7a7mxQGV5N4mQrYc8TGs_K2VJvLaT7JnjKjMPs73PzgkhJ7B6f6NlrIQnbpITmZpMg71xp4o=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/36000000/35150000/35145500/35145469/7bed7d77_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/-ymTKHh0wwn1LzqiYmESgqjG_iB-fglmmJrzUwK-yStx2BGoXiEx3DEkFNnq7cf5FkkkTPrw8m34zFb1nSaiI9bc8p-QWFlvG2kk4gN38n0-slOQY8UNr-tEmDScBQJpnALX2A3P4kQltugm5AAbVosKiUCvS4I=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/62/b6/62b69df846cd414983681715c875b1f0369fe1af.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHitxrDY-h62A9KPBH4YZ9RoRevtEDPtm-7dAgReEJ7DwB6duKlKQ692AkGg2pjBi-jral9QUd1635-lJAdsLcBmlkB1hTQkXz_QwrEwHDEVkB74in5WdEuRdVnVacVpItCpuISv-umuWXv=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHitxrDY-h62A9KPBH4YZ9RoRevtEDPtm-7dAgReEJ7DwB6duKlKQ692AkGg2pjBi-jral9QUd1635-lJAdsLcBmlkB1hTQkXz_QwrEwHDEVkB74in5WdEuRdVnVacVpItCpuISv-umuWXv=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 198,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 125
+        },
+        {
+          "stars": 4,
+          "count": 40
+        },
+        {
+          "stars": 3,
+          "count": 22
+        },
+        {
+          "stars": 2,
+          "count": 4
+        },
+        {
+          "stars": 1,
+          "count": 7
+        }
+      ],
+      "location_rating": 4.3,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 34,
+          "positive": 27,
+          "negative": 6,
+          "neutral": 1,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 22,
+          "positive": 14,
+          "negative": 6,
+          "neutral": 2,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 19,
+          "positive": 16,
+          "negative": 1,
+          "neutral": 2,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 10,
+          "positive": 4,
+          "negative": 6,
+          "neutral": 0,
+          "category_token": "3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M&engine=google_hotels_reviews&hl=en&property_token=ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 9,
+          "positive": 6,
+          "negative": 2,
+          "neutral": 1,
+          "category_token": "g2mTLnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCQOCCQDn-g2T",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=g2mTLnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCQOCCQDn-g2T&engine=google_hotels_reviews&hl=en&property_token=ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB"
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "i_dZKHica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSoDEhsACA8Onw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=i_dZKHica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSoDEhsACA8Onw&engine=google_hotels_reviews&hl=en&property_token=ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcImOjh-YeGych-GgsvZy8xdGR3MTU5NxAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Yiwu European Cultural Theme Hotel",
+      "property_token": "ChkI5Ianu-fJmPSnARoML2cvMXBwMnRfNW5qEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkI5Ianu-fJmPSnARoML2cvMXBwMnRfNW5qEAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.33702,
+        "longitude": 120.10448099999999
+      },
+      "nearby_places": [
+        {
+          "name": "Futian Wetland Park",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNSfcNGa8xBgcLJhxIxeno9wD1pCEf9yuqhTV8aFpC1P9uSxSsOmShyXM6cShzZyoXwbMGIksWTC5SylUoygGgav3lqTIawi8-NoEbcepCd_J1CLykeSXH13nP0pngpLIRzj_8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNSfcNGa8xBgcLJhxIxeno9wD1pCEf9yuqhTV8aFpC1P9uSxSsOmShyXM6cShzZyoXwbMGIksWTC5SylUoygGgav3lqTIawi8-NoEbcepCd_J1CLykeSXH13nP0pngpLIRzj_8=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/4w_-nXiM680VrcSB-XkYU3WsfWsurYM31ymX-1nfhlMDUdwNyjIfiiYf771OqBk9UBGKbCTJdkJZ9CliLS7CsF6diqQGTEfbbW5TILbnMKm42WEV56zRYBp95gSNgdDZp4EENvTcWdWf4gPOAnGVvsgBmXCIFMw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/d9/36/f5/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/YrzDNR--st4un-b6f-aC6KufhBRi14wmHrKBNJkIxaZ6-agipsZLcWqmrsqEZYSq95VUeFhDmKbenFdPWrqmK9xqVnPrYkRdstdKJ6DL0PNn421S-VDk2NO7WWFAvLdlKPFmRFBIWW80r2zhYx-IVyDFk7jUoqQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/d9/37/00/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/gk2RXvt7qYxBck9FO_fplq2mrZZ0kzhGZoe1bRQVG2DxmShawr7vPj2PtyZed151TDBo10ojeF6_sJ7UKxzadCDTvgpGzp86ebIQQTAsIdT6zNLPA7SAtFDb9QRGAWhUtsKg3OfAgoQhvwYyPwp3jMPkK8y3Nts=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/d9/36/cd/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/H1ADZuQ9WsUO7OpNe7bIb3XG0CZYPiIKezWh9GPsNmzUT3Iywp2CmAh4yWRJ9jRanHDUmi7CTij0vwK3YxPQ7SbA9gKlSaoWm4Mb1K0EMar6AWqWKixVpwK0iwrjwflFRpKWcuqHrqXhTIrFMjzJbVirwuJkgQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/90/a1/c9/sechuan-style-food-down.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/EwrfCJxxZKPPsocCMHio7MmaCGs5rf0BiMdFPPzKSwoC-d4LSdkKdJRgCsMagKXyWpiki6obQMZlKFFCSWPtHi2PCP_mlmDzG7cIrpzbvWFHxaOKfxgcoMaP_XylNDV9_ENRsFjiIGNNOkq-B2yF2vR5kJHMqA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/90/a2/0d/waiting-area-and-meeting.jpg?w=1500&h=1100&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/CaRdYW0jv2bBs5uAdPRgSxDD-YNa--IziQB4IpVkmP-3d3fJcqWInYPjUNseLctFmH1GulUTmu5f5C5ak0GXAtBe1sRUUEUdTAbdt35YCnM8zXAmWHkVVecufqcJlBtD8L04b_Wv8VmJzRdej31C5AuawlRlXP4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/d9/36/e2/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5JJTzOAnuYfLaLUXazc7hY1XltRXqNxVMA6WJ8rKViMuu-8qcEB2UHs4hgWsAUq7ensfzTondXd-Prem3Jm3i83PAIJsbPF-KSIqa-f6FoBQYhxPRAr1QB3C4bBf7FuL0r9_b=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5JJTzOAnuYfLaLUXazc7hY1XltRXqNxVMA6WJ8rKViMuu-8qcEB2UHs4hgWsAUq7ensfzTondXd-Prem3Jm3i83PAIJsbPF-KSIqa-f6FoBQYhxPRAr1QB3C4bBf7FuL0r9_b=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGAM7YkImd-_3aQVPkoBbrbv5Fj-qHDvXr9koMMDGDxaCKxwKrF9shCiOiLzUG-_fj4kOjoK5Nk_995PEh4m2a3w1bGB6QfVYCrFjj5WiiNdnIx0YDktrm0B1SL3P5N0o_VXJav=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGAM7YkImd-_3aQVPkoBbrbv5Fj-qHDvXr9koMMDGDxaCKxwKrF9shCiOiLzUG-_fj4kOjoK5Nk_995PEh4m2a3w1bGB6QfVYCrFjj5WiiNdnIx0YDktrm0B1SL3P5N0o_VXJav=s10000"
+        }
+      ],
+      "overall_rating": 4,
+      "reviews": 68,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 35
+        },
+        {
+          "stars": 4,
+          "count": 14
+        },
+        {
+          "stars": 3,
+          "count": 10
+        },
+        {
+          "stars": 2,
+          "count": 3
+        },
+        {
+          "stars": 1,
+          "count": 6
+        }
+      ],
+      "location_rating": 3.9,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 5,
+          "positive": 1,
+          "negative": 2,
+          "neutral": 2,
+          "category_token": "g2mTLnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCQOCCQDn-g2T",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=g2mTLnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCQOCCQDn-g2T&engine=google_hotels_reviews&hl=en&property_token=ChkI5Ianu-fJmPSnARoML2cvMXBwMnRfNW5qEAE"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Restaurant",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI5Ianu-fJmPSnARoML2cvMXBwMnRfNW5qEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI5Ianu-fJmPSnARoML2cvMXBwMnRfNW5qEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Mercure Yiwu International Trade City",
+      "property_token": "ChkIwKPeuo7RvoADGg0vZy8xMXhfbnN6Y3dxEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkIwKPeuo7RvoADGg0vZy8xMXhfbnN6Y3dxEAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.314021999999998,
+        "longitude": 120.08082999999999
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Yiwu Museum",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "13 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/LPH8CNpv5p_Or8Tg2xWRhvnfN_s44yRn3l7FFno7sq7V8heEYKYdpMWCC6J0tUSmKtOnKAJTRwREny3IObgC70UBUZw1Ob8O3lng-FstoJaZj0uUMm7UmMYZ5gxfyaFQL4cfEg-pJnZjPe3E9RoG6wL0pRjR32I=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/122000000/121060000/121059000/121058948/09a97c20_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErwAjWr1ChYJnSIgrw8UV2PLCKe9wt6EJo7r4WJ7_P0auz6O2O_AvJdw6qO7S9Q55D6oOd40ToS2yIo_Xh3eUX4DknlN435Azhd3b9AjEesww6k_1ZxJt1v6L0LdkLV7UgCx9D3sTnwgA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErwAjWr1ChYJnSIgrw8UV2PLCKe9wt6EJo7r4WJ7_P0auz6O2O_AvJdw6qO7S9Q55D6oOd40ToS2yIo_Xh3eUX4DknlN435Azhd3b9AjEesww6k_1ZxJt1v6L0LdkLV7UgCx9D3sTnwgA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQL5EzJI4b7rU4ew1Vg4HI0aPq_BaeDNy0w9R_KfjYtdWb9tYoN-o9WFf5ULB4dDKiFRpsMNKZ2j63HfZKjkXt9wobJRQnqHoWJVX76LSWPK0JiedItrI1bnqLwgOnvUa7xusKTQKSN8LX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGQL5EzJI4b7rU4ew1Vg4HI0aPq_BaeDNy0w9R_KfjYtdWb9tYoN-o9WFf5ULB4dDKiFRpsMNKZ2j63HfZKjkXt9wobJRQnqHoWJVX76LSWPK0JiedItrI1bnqLwgOnvUa7xusKTQKSN8LX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/fITtquaeNsw7mZ_vaSruTVi-otTAEFomTs9emKn5poZ6QHUSter8_IkrN5rUnADSszewpRpLObkUErDKPkUOxL1wrQkxk-RhCl-sjdSo7Fo0_Jeb4rZsr578GdFHTawSpGK6mDjgjtpmteY1qOJpbAAY5IUaCA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1098325/1098325a_hb_ro_007_20260112_095221.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/UG-MBUqCl7MfR563Xkt1npThTPnJ2W13T2hLedaSaDXiw6CO6G8BZfa2S1L8wMaEkjerhUHmHyZxwcCf3OMNtSSkBRjyqtkKW-jHdw8YbSiJv_TwroPUgYY5SQfzKz0hCdc9kdY1ODgd_rQRRX_5pjFTv1N8-g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1098325/1098325a_hb_ro_001_20260112_095251.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/tTWE3kGEjlm5y4sQ2DUqO3PSXEdPHpAT8JnXos4JfWttrN1d2SRMqoV9afIbnFk_-7tf_WXWp3Km_V7-DXQVNATFlHn76DoPAS5HLZql-jtvLXUHW5hpAfMlRfahJskkcd9lnmoP1r3sLXSh_zhsEpPNS05VaA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1098325/1098325a_hb_l_001_20260420_100526.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/EhafgtiE5IPpqyf_iXxx1tz6o6mTSfynwRLvJjUdekaXKroLu_vVwBz2CtO32tu_EFDqUyW-TwIgHlA9lj5q-7fR7vER8tvsLoVImY0t3yEy3Eq6uQGaQpU12IPLJ8E00O9J91fdLPyHtIyg55HUdJjD600a5Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1098325/1098325a_hb_ro_001_20260112_095200.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/AdD_geeTbkzo3jEcdX-V8YRpNp5so-Vdx3TU6YjveO1KRIgwMwFWkcSLorqpY0eHOtODwfZKLzOJ6d4MNvy9_kOQ9A-htBkJl951oyFvqojCMs3KiDSV_A7PUYUPN_2qibqlAhMJe7mMA5gDUMu-etVVijlGjA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1098325/1098325a_hb_ro_112_20260420_101230.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/rzVO_zdbllolhHXAjY-w_bRWpGGGXwxXwMBbmWsnMRwuf_xsDBcxC1u8VboBkUAAuWsLa5aIB7392jPztGGDwNuipiUcJ92dMjEaXOJW3wGlbDL9omecuNIu9aAsKSrJOdpVXfS40ps1wCVDjCzt3UGCE5HPjYE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1098325/1098325a_hb_ro_009_20260112_095224.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 3,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 3
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 4.3,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Restaurant",
+        "Full-service laundry",
+        "Business center",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIwKPeuo7RvoADGg0vZy8xMXhfbnN6Y3dxEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIwKPeuo7RvoADGg0vZy8xMXhfbnN6Y3dxEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Crowne Plaza Yiwu Expo",
+      "description": "Relaxed rooms in a sleek hotel offering 3 trendy bars, an indoor pool & 3 restaurants.",
+      "link": "https://www.ihg.com/crowneplaza/hotels/cn/zh/yiwu/yiwcp/hoteldetail",
+      "property_token": "ChkIkMnM3r3F5bf4ARoML2cvMXBwMnZnZ2hyEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkIkMnM3r3F5bf4ARoML2cvMXBwMnZnZ2hyEAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.310921999999998,
+        "longitude": 120.11245
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Jimingshan Park",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "22 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/3s5xzcbY7N3-AbjtMiR70WHf6Y2okX6vZR7A27mGxq7-7f6poFIGqe0GKG54CpxF3i0LsCMWNDK8J2RmniPzd0tHOOeZm93CeLyCIanuSqCtI-967IelFe8dOCYJS8MxmNO0Or9nLmAZism0nVoUVt6RkVIWKY0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c7/83/4b/hotel-lobby.jpg?w=1300&h=900&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/UV4cJEOFNHtCTlvqJ2GN7u_FCXa7OlNCABKqMK6pL0Tt08YDXFSUlYZlxxsqs7-pnj0S9xgpjN2HGXYnHNOISwL65P8PHH1LJTW1c_j49nS72u88ixQiIr88fFoJRv9eYHNuZzyj14nwNRIa4xmgmNjT2f4bqlw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c7/83/bc/room.jpg?w=1300&h=900&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGylPBQO20Sw6YPMfyWgHWfqyOkgHrarUMY9YrvLDewW5B3z2hFZeE6SNKu0y54R_qxxdr42Bqwx0e3n5Oy81t6WNSbW6UkIiY5ZCXoq-bKFDHoHBWdEfkXW5jmTU7qizW1T99M=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGylPBQO20Sw6YPMfyWgHWfqyOkgHrarUMY9YrvLDewW5B3z2hFZeE6SNKu0y54R_qxxdr42Bqwx0e3n5Oy81t6WNSbW6UkIiY5ZCXoq-bKFDHoHBWdEfkXW5jmTU7qizW1T99M=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/2QU7OmyqU2_PP1T_rFe_gWGxBmHLY6372jr0fWMC1qCQL7VLx0gG4VGu4bpp7y5NbaQrqekHKhsnIFsG5PG_oTZZsvVazBg4LVI4xAzT7Hmx3AH4RLWE_HKMRfX6wVJvj5cznna3Yoobt13XF8NUf861oSHIQGk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/c7/84/46/ballroom.jpg?w=1300&h=900&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFP5z-q1pDmwbWeiRJv9z9TFhBN7ScHx-Ohk6eMX4TIaCcTHTX09SMsE7mwxCsdt5bCk8sUtjrFeSVnqVyCAbJV7YiQlNDK3HlMjNZRwMgOcswZRV7M5sBdjMF2__LlnH1iQkY5=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFP5z-q1pDmwbWeiRJv9z9TFhBN7ScHx-Ohk6eMX4TIaCcTHTX09SMsE7mwxCsdt5bCk8sUtjrFeSVnqVyCAbJV7YiQlNDK3HlMjNZRwMgOcswZRV7M5sBdjMF2__LlnH1iQkY5=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8cdxHUl7arz2s26GoB_WZLZUQqyls-dlMil2VG0IP1cMuCC6dLPesMd9kjb4BN2EOboahQ5F5qFMWSTCbj07r3fAROJthPv1dpdfdiBa9NCi-0FewdjKcQxwIE1yhwcvgAXW21Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8cdxHUl7arz2s26GoB_WZLZUQqyls-dlMil2VG0IP1cMuCC6dLPesMd9kjb4BN2EOboahQ5F5qFMWSTCbj07r3fAROJthPv1dpdfdiBa9NCi-0FewdjKcQxwIE1yhwcvgAXW21Q=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhi8aALZdUDsjhe3KufaCZ5_v8ytUDVIg1pu_SpLqIqWKYnEinxvs3GigBQyHrGn2jrMkXynwZgiXnsVdtgyzJkBQ5O8m4-SUVaL6dtRUe8ZOZhXh6LXt2qiLXQ1ZmDQXDz7rm=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhi8aALZdUDsjhe3KufaCZ5_v8ytUDVIg1pu_SpLqIqWKYnEinxvs3GigBQyHrGn2jrMkXynwZgiXnsVdtgyzJkBQ5O8m4-SUVaL6dtRUe8ZOZhXh6LXt2qiLXQ1ZmDQXDz7rm=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH_fJUoDz8pTy4iWT7u1vdFLBCl6Uy1_W__ZO4nAsMFGGGCI6n4iDF9GdZG4Hbifk2jW0BPMdwkbLC4u93XGUKtfn9VmatIclU1lqvBK8o9I16DjXR-9rNNSRNMVacNKh8IPotP=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH_fJUoDz8pTy4iWT7u1vdFLBCl6Uy1_W__ZO4nAsMFGGGCI6n4iDF9GdZG4Hbifk2jW0BPMdwkbLC4u93XGUKtfn9VmatIclU1lqvBK8o9I16DjXR-9rNNSRNMVacNKh8IPotP=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGijEvgWo7Bg_2_OEFTBl6QEtxW0uQFhZlMpiXpWMFT3x-s1Ro2GRjc9BJXmG3haKZAK9BwxyV7AIax957X-N4PLjLQ4Pl53gwUgFfRfY4BwkiPOBJHRmy5Vyu4h2cgEOxukoUXAg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGijEvgWo7Bg_2_OEFTBl6QEtxW0uQFhZlMpiXpWMFT3x-s1Ro2GRjc9BJXmG3haKZAK9BwxyV7AIax957X-N4PLjLQ4Pl53gwUgFfRfY4BwkiPOBJHRmy5Vyu4h2cgEOxukoUXAg=s10000"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 29,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 19
+        },
+        {
+          "stars": 4,
+          "count": 6
+        },
+        {
+          "stars": 3,
+          "count": 2
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 2
+        }
+      ],
+      "location_rating": 3.3,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 6,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q&engine=google_hotels_reviews&hl=en&property_token=ChkIkMnM3r3F5bf4ARoML2cvMXBwMnZnZ2hyEAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 7,
+          "positive": 5,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU&engine=google_hotels_reviews&hl=en&property_token=ChkIkMnM3r3F5bf4ARoML2cvMXBwMnZnZ2hyEAE"
+        }
+      ],
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Free parking",
+        "Indoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIkMnM3r3F5bf4ARoML2cvMXBwMnZnZ2hyEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIkMnM3r3F5bf4ARoML2cvMXBwMnZnZ2hyEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Yiwu Orange Hotel",
+      "property_token": "ChkI-J7_hPS85fQ4Gg0vZy8xMWJ3Zjc5X2p2EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkI-J7_hPS85fQ4Gg0vZy8xMWJ3Zjc5X2p2EAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.30325,
+        "longitude": 120.10120599999999
+      },
+      "check_out_time": "2:00 PM",
+      "nearby_places": [
+        {
+          "name": "义乌金福源精品商业街",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/3YnP1th-wCi0Ui1kStPq7i8FKX9AbznljEgOd4yG9mtkHXj-eQSK_mBjqoGShKIpIa-DPFxv_Jls8r1yar6qGATg58_8zU4_ZDeDlPavDstjFO8wpRdVpGdO8Qw0Ph-TH0jNvr7pr2coiXqbHQODpO4_n_6HUQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/80/ee/80ee20203790cd0d48325a12c9413194920ba678.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Rd7upzuCuG54e2KKExB_IYO4-vHFMqxsl2Vy5dAC4U-g76FAOhzvJmrxcAnaHgkfQC3mfYr8pvT75U6gxcdcZOFD5qOxWOcZnab-VLA3tMyWpnxx7JVQd4b4xBBDJ1mNshKiWJN5lje2nlcDUoM3h5C5NYZfZw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/f1/9b/f19b0cb0bc983b411e78ab49b49265ee2de949af.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/w3PcGemVSkZp7VrHjKNhJDLyw0c-IZmIDtB2Nk6IV0Ct7zugBuspLNHr4T-Xju-QuGMjWSPLLvalcPwQS7qdv-fExqLhE00qACWn_P9mneptIPOVqB8hPWMOBslw6cktv0hEsfeOouHmlajgtr-inKhAsTQ1cw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/ce/fc/cefc3f85c37470c40b03a7c56ddb00ab3289b4ab.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHWPnDz7nj-vUgEnBpllga8CTTVPXlUU4yb8ipT-gjCafTrgiZ85hbo9Gs1Fh9yBgMnphHRRTJb-OGYmxp4ZhKdORrqjG3C8fY3ljmmUMF3GE86iAaWmbbLbUjKtWeJru5hM2VlBg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHWPnDz7nj-vUgEnBpllga8CTTVPXlUU4yb8ipT-gjCafTrgiZ85hbo9Gs1Fh9yBgMnphHRRTJb-OGYmxp4ZhKdORrqjG3C8fY3ljmmUMF3GE86iAaWmbbLbUjKtWeJru5hM2VlBg=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/kAPSWhxNmVaZAnQq9hpcI50HSOvLTY-YTPpgcdAoWUYQBO_9AE_WmQKp1L4cEUmdXkShkSV4Z56UwqNKl6-Y-LkE0Jh36UeetmvdZcKj_Hkrv6UM361BOqu--geGoDPuRAa_jmoQRuwdVn5GMxiJiWbw28HK2A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/97/33/9733849e9912b1e91b65a661451c892dda3ad9f7.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/fenZkKAcuCrz-gS67fUyScv7o4silNfsOIhu7TsOzjZtEnb_HDA9t0pS1mbiCLl_mwDd36zhG6-lYrDMGs7FLo8W01f-3twOuZL5BXJ4SooxZLf8EiQTmHCXwFD6tcD0e2P64LJw7ck8LRH9-XC8q9_76s0ZLQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/11/c9/11c9b8afe093eba0a653cb7aab297f1ed62b2bbe.jpeg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/EXy_wP-mdo4KnAF91bgpYcdaLx1RVnazWbl1K9L7lwhrv1SmhW5NKiCzgudV9IhTPQoB0TvQN5koudvW9k7q0zbAC6lfcWFStW1Xye07eCEkJAY8eORq_g5SmzcB4LmcGk2a2SHm58BauPMi_Z5sS0jtZQ8ERQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/cc/32/cc32363cf02739696a2543381cfdd154e5f76f98.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/mfWO-qsNczkyxx5IeTjFSCns_znUylO-T4J8LS_bUpwwiWoN21mqRYwdQZeHxmvBCatHSij2Dl9DMRKMAgRBrfg1iFckxMivM-U7lPdvfgW1m1fI6kWmdHinHn-lEdG6AGEaDYovuEXBAALljtQzY8TMJJq5q2Y=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/9e/08/9e08fb8b4d9fab843134fd94864a7e25bb60a41e.jpeg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/sJhpaME8OHoYdIqQS_sZmK01A2aQv7OCt2Tlue0D7ju2zwXnzxZ0MA9LMeGCgsRBnBhpRwZjfGUVBI8W78SXyPqIK0ekPnvBYI3jQ-FWVICSGH4BmSB_9xyxr8VBQuBK8H46095gywtgobGfhBu35z0pzvl5yQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/8b/a9/8ba94178337e8382e0fe08a83ddb36e43be5ef2c.jpeg"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 14,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 8
+        },
+        {
+          "stars": 4,
+          "count": 6
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.9,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI-J7_hPS85fQ4Gg0vZy8xMWJ3Zjc5X2p2EAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI-J7_hPS85fQ4Gg0vZy8xMWJ3Zjc5X2p2EAE"
+    },
+    {
+      "type": "hotel",
+      "name": "YiWU Best Hotel",
+      "property_token": "ChoIgMCHxZ2p_faJARoNL2cvMTFoMWoyZG16XxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIgMCHxZ2p_faJARoNL2cvMTFoMWoyZG16XxAB&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.336703999999997,
+        "longitude": 120.10266999999999
+      },
+      "nearby_places": [
+        {
+          "name": "Futian Wetland Park",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/MGnngTH7XNN2Ch35Km2dZOm3ogRJb2RjX0LadcUeeLQQ9rPO9LSAWysu47vJHTOOrcq-NKfW2j90AWcaaPX2ILJHF3rkPaQ420UgRY7pwLKxWDQnxNdxKCIINPpFLi_QR0duZOgBTDmZIbE0bw-dWnOOn62BCw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/93/c5/93c510a32c436f42dd33fff432089ad47f730541.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/_pFhhwaOzco3URXP5UtHGdAFmKpLdzEQ0EqvbjFLXvA9tKaVdK5YDPU501-OOssgU6duKzu5myB1wijJyGDRgVU-fYq4qTJoQStvd-P6V0pAPNMBeFWxoqOe8wxR_8JL6FcDKtyWRwK5I-7dPZIP6Tct6wjnlQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/37000000/36480000/36478600/36478599/c25b5456_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/FEvCwMhnyeb6hYMsQ8ugM7wbZdHqgf5i2LNUOyPbtVVAtl_mICF_Otcj7YSTMq2SkQG550q_lQAA0iRQI1rDWDLNrMyR6hlRrwejYyy5e9dIBO4H5GMhjYzTOySsOD8xdiKM_ekoaGEL8MDbEWLCMmhY10rTF64=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/37000000/36480000/36478600/36478599/78b48902_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/PLy6088wfX_3GqIrujkkLIUFOrfR8gfWE8xGZ7eI1vjaafn4DPmSoD17DCAR4BTm3JH4jP4RoTwaXwNgaYKu1Zl3LVPsnO3_s_GRR_3SrxcXY6zJa6g96AQD90WWjrXet-yx8NES919hL6qDT-BiX8FFkGu2Hg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/37000000/36480000/36478600/36478599/acb752fb_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF94f7AbAPcb2DXFnSE-0XXJOBCJ7IEwJMM1XD7E4gC5wqhupCSHxDd1r7h3Q-KalouhWFpahDTQWP-11CmC7qRTRe2kF4zcuAbP0dGTuVhzk_scaW0gb12RzNDx0EWzXVyHvDN=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF94f7AbAPcb2DXFnSE-0XXJOBCJ7IEwJMM1XD7E4gC5wqhupCSHxDd1r7h3Q-KalouhWFpahDTQWP-11CmC7qRTRe2kF4zcuAbP0dGTuVhzk_scaW0gb12RzNDx0EWzXVyHvDN=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTSTz8hQ1vQTyMs1mi-I16wsWqMIYS6IFlsEO6jOG97daehhOQ6Fj2AkHJLsu5kyniak-Tn_N0VEI5Sdb43pCkS--igVhhVTEOGtqBVWKR_ohhLeT4ryr2iDkERqLQotNsysQu-w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTSTz8hQ1vQTyMs1mi-I16wsWqMIYS6IFlsEO6jOG97daehhOQ6Fj2AkHJLsu5kyniak-Tn_N0VEI5Sdb43pCkS--igVhhVTEOGtqBVWKR_ohhLeT4ryr2iDkERqLQotNsysQu-w=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/2fPviNJo_owo6GySOSnBTGV4PshAWuTQz5JbTfu9Ndsg9N8bgtNEjBvev83KB-OAcy7PgF8Ao5e8eE2H2JUJvcuXMtN0n-uboZeBMTSUq8Mqi6cmniKLNdNGEi--Zbw3VkKPvbki1J_P0JC1PfNg64iFCEpkr4U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/37000000/36480000/36478600/36478599/ec6300ad_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/56L8Kj7_XfsEXGYiANf7cTP4kdTR-COCFrGmSyR3_h7GmK1jAoMq9IflEkaUTEA5JGPM8j0omqqD5N67m2wgVwGjfYkY0Q3mpm3Mj7v_dgesumS-stAkUyftkYilPuHB1pKZry1IR_lI85KEaVVQwHvr8q4_nA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/b2/b0/b2b00980aead095d971e0e90e620fd0da265f9d0.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/mIQaQYcIG2z6jwfaj-P0lL311xnS3mFx0U7Yn2AcpKr-VmOAl57R4oIyChWZr7BbB4ry-4tF4-krSFM-gf88iZEnN0DqXUXEKnGK4rGkkKyrmD27LUCSGCMU9ikHXX254HDkgemcFxGnz8LJb3PPSt0HlXZo9Hw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/37000000/36480000/36478600/36478599/4b1ba703_z.jpg"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 110,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 80
+        },
+        {
+          "stars": 4,
+          "count": 17
+        },
+        {
+          "stars": 3,
+          "count": 9
+        },
+        {
+          "stars": 2,
+          "count": 3
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 4.0,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 10,
+          "positive": 9,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChoIgMCHxZ2p_faJARoNL2cvMTFoMWoyZG16XxAB"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 6,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "nHbA-nica1yRnFiSmp5fVDl5eXBqUVlmcioDjAEAtXYMCw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=nHbA-nica1yRnFiSmp5fVDl5eXBqUVlmcioDjAEAtXYMCw&engine=google_hotels_reviews&hl=en&property_token=ChoIgMCHxZ2p_faJARoNL2cvMTFoMWoyZG16XxAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Airport shuttle",
+        "Full-service laundry"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIgMCHxZ2p_faJARoNL2cvMTFoMWoyZG16XxAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIgMCHxZ2p_faJARoNL2cvMTFoMWoyZG16XxAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Yiwu Manxin Hotel International Trade City",
+      "property_token": "ChoI2JiNm-fLx6jtARoNL2cvMTFydGNyY2h6YhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoI2JiNm-fLx6jtARoNL2cvMTFydGNyY2h6YhAB&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.305710999999995,
+        "longitude": 120.07610319999999
+      },
+      "nearby_places": [
+        {
+          "name": "Xiuhu Park",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "6 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "14 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuy1JA8TuBZ0RgEWGXsJ9KbCFXwTNRbSsfsHZ-HcoHEmS18Ybo2ZuKhR-UnTrnLCLpQoj15d0QZUIC1hE3qhOgauFTUGyid7Z5C14SzeUiPsRDyzBQIzb6SsxqPmPJKpCNLr0U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGuy1JA8TuBZ0RgEWGXsJ9KbCFXwTNRbSsfsHZ-HcoHEmS18Ybo2ZuKhR-UnTrnLCLpQoj15d0QZUIC1hE3qhOgauFTUGyid7Z5C14SzeUiPsRDyzBQIzb6SsxqPmPJKpCNLr0U=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIVDnZ0dGnD0VQJB0wUIhIc30hShLdshRyUETfIuVSYn69RQbcghGFmqRQqFz8VCtJdR7lJP9DdU7pp234zagpCkQzFF2oWNbN7Z5GG91cKa3y7Jo0G10y8n-v1ta5ATi_jsaLPg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIVDnZ0dGnD0VQJB0wUIhIc30hShLdshRyUETfIuVSYn69RQbcghGFmqRQqFz8VCtJdR7lJP9DdU7pp234zagpCkQzFF2oWNbN7Z5GG91cKa3y7Jo0G10y8n-v1ta5ATi_jsaLPg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaI4kpWnrAkcg7Odzlyc61iE41s6BRgbbV6_qlG0Q7DNeHRJIexbAzyz4VsPZ6v-9vSfmV332LwM2thVC9MlRWsUcI7CVEOrXKpxv-ka1GUglrE4X78Rxo5pQWMN_b5gmlQ8o=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaI4kpWnrAkcg7Odzlyc61iE41s6BRgbbV6_qlG0Q7DNeHRJIexbAzyz4VsPZ6v-9vSfmV332LwM2thVC9MlRWsUcI7CVEOrXKpxv-ka1GUglrE4X78Rxo5pQWMN_b5gmlQ8o=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGg_CvVbZg4eraCs3ZndYbfBvFFRpIyQIIxpN_m24677vzS_BhHnOpEn7geviJD6MzX8yQV9jZfNnvh2cMkbl3W_t0TzECFwZsSg-B-N74pk5737vQ0QcVxP4YpIh3SqhN42BUk0w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGg_CvVbZg4eraCs3ZndYbfBvFFRpIyQIIxpN_m24677vzS_BhHnOpEn7geviJD6MzX8yQV9jZfNnvh2cMkbl3W_t0TzECFwZsSg-B-N74pk5737vQ0QcVxP4YpIh3SqhN42BUk0w=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/TFJOqeTLc2w5FZgSdJiqVuwetbGzjGqAo1QE5ruz4aLf1UgH0qIOkLsUQcj6lME-gb59dfKM6dpkQ-BUUgY3HevTZCGt326lRbKIkkoUc4H4Lp0FL1XM4DWGX5txxMSiEFsDqFqmfip2XmvHnN-kcqbxl9ASZQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/24/91/76/caption.jpg?w=2100&h=1200&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHVbjqRWKjArKHLn6kWj_a5Lmb7y0_m8bPKN0oQ3DBmuO6v2LCw2x_O7F4ZYp4i7HPou6bivLOVC3bwPzMNZkRCIkCOx_QU4vOE6qvD9vqgJTY98I9dHMM1AQK0RwuSHquczKos4w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHVbjqRWKjArKHLn6kWj_a5Lmb7y0_m8bPKN0oQ3DBmuO6v2LCw2x_O7F4ZYp4i7HPou6bivLOVC3bwPzMNZkRCIkCOx_QU4vOE6qvD9vqgJTY98I9dHMM1AQK0RwuSHquczKos4w=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcaYi-CtyDxjy-zt-rtB_8X8mdg1_xZYpkElVMq6_qoYUA1Dg24EVbvUFIqpYTAx-nWGL2djmk8wVruGG76aJj8my1iOEn6TzUnh-2sq24M8nFQmIQ522gOCn5gWtAIOWlHe4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcaYi-CtyDxjy-zt-rtB_8X8mdg1_xZYpkElVMq6_qoYUA1Dg24EVbvUFIqpYTAx-nWGL2djmk8wVruGG76aJj8my1iOEn6TzUnh-2sq24M8nFQmIQ522gOCn5gWtAIOWlHe4=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErQHDgeF6GlYXgTEU4NHtI6Ox90sb-kXzbw_Z8hrV33E-EbyIjQQOUYOUeroTHMQ1aiLXwk_BdJGh13LIag81r6DivOzQiSiq5D7Bnnk5ZJjTGX4Xn3G7nbwJ9t9MeGf2D72YX=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAErQHDgeF6GlYXgTEU4NHtI6Ox90sb-kXzbw_Z8hrV33E-EbyIjQQOUYOUeroTHMQ1aiLXwk_BdJGh13LIag81r6DivOzQiSiq5D7Bnnk5ZJjTGX4Xn3G7nbwJ9t9MeGf2D72YX=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPPTRMVwcUYlLHwF5ODqUiUhRyyS8Lae2ms4uQRBKOZngSOMbnuprvpoZPfZaavqNq7Cca5oZBreV9u36P6rnnnKCy4qoxnU_Pe2E6Uyy5b1Bc7wKL5Laz8MOM2v-xy_wZcyEn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPPTRMVwcUYlLHwF5ODqUiUhRyyS8Lae2ms4uQRBKOZngSOMbnuprvpoZPfZaavqNq7Cca5oZBreV9u36P6rnnnKCy4qoxnU_Pe2E6Uyy5b1Bc7wKL5Laz8MOM2v-xy_wZcyEn=s10000"
+        }
+      ],
+      "overall_rating": 4.5,
+      "reviews": 22,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 17
+        },
+        {
+          "stars": 4,
+          "count": 2
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 3.7,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 5,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU&engine=google_hotels_reviews&hl=en&property_token=ChoI2JiNm-fLx6jtARoNL2cvMTFydGNyY2h6YhAB"
+        }
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI2JiNm-fLx6jtARoNL2cvMTFydGNyY2h6YhAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoI2JiNm-fLx6jtARoNL2cvMTFydGNyY2h6YhAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Yuejia Business Hotel",
+      "property_token": "ChcIgrjhgo7m_OIEGgsvZy8xdGdqaF9rahAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcIgrjhgo7m_OIEGgsvZy8xdGdqaF9rahAB&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.340573199999998,
+        "longitude": 120.10689300000001
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "International Business & Trade City",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "20 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "2-star hotel",
+      "extracted_hotel_class": 2,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/DCUOQKV1XmnabMMx2QpRWVwkHFgIsc6fTSlca8tbfn2tA7dBEpt5icVrRKMM37IyDORuFu_7vb8j9zXlNFrPBcNEXKFJ1EaB2cPhfm7Qp3LSJBeHX_Kjb0FD27PTxOk2kk24UYK9TGqXLYE5IEX12uMVNocLsg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/68/682856/682856a_hb_a_005.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/NNxbrMf5TCG0II2zIQZQq8_8wtRh_stHt3--c9iIuuQMJa7OrkxKWmjB7Me_qZA7bw34C0amCqQP4SjPv4SN2x4n9uecvzAdAW4hO_djzRmhrgH_86k2RWhdLrDV4SxMLSUku9Dv4jMM-SlANLKMkXtAYVqA1g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/68/682856/682856a_hb_a_011_20260303_174714.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/-3BIn7CgDImcwnxqBtcLc8Z2ZIwHHsS7d2klB85Abeftesj2mRqerp8Xwd-lL9dx0Bh4ZIIpTBl65Eml8JiqcJMQgM8c4Dt-DqT66lvFoXGrI9U9FEbLTYREzo_qaGXPHvptFsgsH4sRUAcoQ7H4vS1b6ZPbe2k=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/bc/db/bcdbb3bf042590196cae534e4aa60038a262e84e.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Ub9YRlCK3J6EBN2ooL_P1POoLhAdeGEjTW9Bkjr-yGRbrt9Oo663VwY9L-ME_E3CHMX7Hi2OYS6t5mWJSUrEsOYBNCRrUUyorXWTMYhi_ykhwVGhzU5ExS7g7Ty0FSpjeoFG8xLYdL0stj1Iis9ZhgpApkSqdzM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/68/682856/682856a_hb_a_003.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBusJcyegImmQTj5I76qo-5_H1uT4ZrK0Xm6XUV-ohRIwxdTcDkF7KEJsQ7idLdPJ2UAn4-z7IWrYCqLKyHpkb9cjRqwgMd4a2a6voTi65KNrMT4tQYfV3vdXehDFxVAE-XZ8U=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBusJcyegImmQTj5I76qo-5_H1uT4ZrK0Xm6XUV-ohRIwxdTcDkF7KEJsQ7idLdPJ2UAn4-z7IWrYCqLKyHpkb9cjRqwgMd4a2a6voTi65KNrMT4tQYfV3vdXehDFxVAE-XZ8U=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/_nWdQzOQ7ZPsA03J3OVNcjTB9URXcdMyYAfN9tLqgHr8QOaZnEb-V1y0AoD3h5t-EYlyAnIFkcNe_kmEl4-LX240mUEOco_k0A0uTbICJzB0O6ZbHvLCWAKvaryMJcKO6BA-RpWHWlthzkA3xNZat4V1QgBVyGU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/68/682856/682856a_hb_a_013_20260303_174715.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ry4TJ-bC7gW3gh3UK1pr9ncUTTU4YJIYdYHjIh938yHqBYt-dQAJS1u32jkgrttJIVI76-3LdhnyK1DnQTLuA7lUpmgcRoIlXLDrQSggSIijT4LPT68xKLSNStL2NpMLiDEbXTKMsBbfGKPnQ3orNMGfvMIm5A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/68/682856/682856a_hb_a_019_20260303_174718.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/SQ4goaln_axxZhP1Fj0Fp05G2IHT4dqwP2hHh3_a9A62DqY8NsbZtI8GWzIqxM9btTKm918wqmD17n9TgcC6VTrmCcGescvBYjh0MvC-JK6NHpm8KsltevVBXY9OySyZZEaiQ4F3JPpyXxZStyIPHeLn9-eVFLs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/68/682856/682856a_hb_a_015_20260303_174716.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/k5aadMxqJVSTHe_SuQgHYxp7fGKESRR4Mx-nwrSUc772eE_1qexEIgoiJfEogMiPsW1BeV8l_-Iplpau0_EJn3HgaGXmYzsorRxoHppAJdQ8lsySEkG-b1Aj5_e6mnY_jHgtjBn4rgAMDFf9ZoQuNyXhwJkqbQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/68/682856/682856a_hb_a_014_20260303_174716.jpg"
+        }
+      ],
+      "overall_rating": 4.2,
+      "reviews": 35,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 18
+        },
+        {
+          "stars": 4,
+          "count": 9
+        },
+        {
+          "stars": 3,
+          "count": 5
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 3.7,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q&engine=google_hotels_reviews&hl=en&property_token=ChcIgrjhgo7m_OIEGgsvZy8xdGdqaF9rahAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcIgrjhgo7m_OIEGgsvZy8xdGdqaF9rahAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcIgrjhgo7m_OIEGgsvZy8xdGdqaF9rahAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Best Western Premier Yiwu Ocean Hotel",
+      "description": "Polished quarters in an upmarket business hotel offering 2 restaurants, 6 meeting rooms & a gym.",
+      "property_token": "ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.334129999999995,
+        "longitude": 120.107874
+      },
+      "nearby_places": [
+        {
+          "name": "义乌金福源精品商业街",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "21 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/AlWMG2vfDfvtGNXxwMC9hkohXa5Yw7R_Q1IOf5g7iAeedsnRdWga0utndOGVGn84FHUl7GJexhszvFnnDLlfdpAooTwpbGnenon2xR4HA1wtP0LpTdYQhFpQfsr14ScpO8gzOR1XM74z0gkCVFmxD9nBjzLn1w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/12/121886/121886a_hb_a_036.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqjS6j_sM08Qz3DuUtI9RTk3NYN6HuLB3YfJkLF5Y3DNzNTFA6nvsX6-CN51sOoU1tQ7hNDFMXgOYVfFXYfyN95KxPE91udNjUubzZBNEMUQ84RDHmwvnsdq-zlXu2l4kUDx4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqjS6j_sM08Qz3DuUtI9RTk3NYN6HuLB3YfJkLF5Y3DNzNTFA6nvsX6-CN51sOoU1tQ7hNDFMXgOYVfFXYfyN95KxPE91udNjUubzZBNEMUQ84RDHmwvnsdq-zlXu2l4kUDx4=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/E5oma47XktkoIHp5PPK5eQPFciZAm9Xk5jDuxvM8BEtrSPg-pcieS1g3awH4SBnPq4rwtA5XA1r5qH-t6BtwOPHAPeKnkmRMM4WgkBeGN9NjWPtNjA9buLTm-iyqQrnjbBgGy4Q-ni-P5r1LX263v6mx4wwcqw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/12/121886/121886a_hb_ro_032.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/g1a8dJMhUSl3yoEJQ0-cf0PKm6MRBtQd_dzS8_VqqLA4uen5hKBBDBmmRi7n_uomFs8vD1IjG_ZWEyM98Oz5_c6_5l_GhWoE9PKK0rPtUeXZece_tlBmL5RJrl_XZChoS4Si-jMlac1D-D43d4ZlLquEcukzFw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/20/77/cb/best-western-premier.jpg?w=2100&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/M5jbPFZXiz97kdjOaTedD_SU-OLmfUZkPKgkjBNGPAm91giKjPDEQRwlEVSqNMnI4sPABAV5JbuaigewYzwqj0lmWyg4zrF1wlipLKBdPEWiE-GgxXcuyYJ6sVFReHxyKT2aPOD1zDfQQwbo0G-gchqFxlWKxRw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/12/121886/121886a_hb_k_004.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/ORC0Rd7LhhoxWZAnY2Ro6QNKBpP7l7p2i7HZ6ebJvKMYR4t5IoPogaAlDKnbvEVTviNE6oTphTfbuT1z9fCpXY3TTzk6oS3LMFkjiOZpZ-1vuphXTuI2HhLpTpmfklV4A6DVF0PiAnN1Q9gNNVULEOwi3VAfKA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/12/121886/121886a_hb_k_003.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/aHyjeylCsmg6uauerY7YKWzIYY2Vo9EkjhD8eFoU-1bNOaoa41ZGLhA_bgeYaYg6cTRV_gYfu8sbnj6nApSVdFeqChzihiYHZWenZnyhxuLsXNd0q9MWs4oeTLQwH0Lhqz3-ZozfsX01xiEJ_JOs3AiwP4YEZw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/12/121886/121886a_hb_r_004.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Tn9gCRUwmpLkAbshNEmXBWiQE4wByZknUhke27mZbPEk6Snfx_jx86ARGhCf96qnkCzkBsrz2FDg6L-D2JmRhLsT7gyI0uXqRXKWK5c-CvjKWz15bwdwlylouZHxP9sd3_g3lqZggJKg72XOcKDmHUQhGN-HaA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/12/121886/121886a_hb_l_005.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/5gdrWq6zzGUnofhMUG_jbX7MWAmaZlUF9_LBP2UKK-Sr2f1HV-wbjD_CAAIQdsjCYz7jxnJ_YtJCng1TT-1I1UNBvVGQ4zJ8xHTJuK8NM6wntsRVnHHwJpoasUlOmy-GGEgEWrpUS2rzGVN-CbcxAHpOU1EjwuY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/12/121886/121886a_hb_a_035.jpg"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 106,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 54
+        },
+        {
+          "stars": 4,
+          "count": 37
+        },
+        {
+          "stars": 3,
+          "count": 13
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 2
+        }
+      ],
+      "location_rating": 3.7,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 14,
+          "positive": 13,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 14,
+          "positive": 13,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=JXKy3Xica1yRnFiSmp5fVDl5tXNOamJeTmZeanExIzIHACQKD1Q&engine=google_hotels_reviews&hl=en&property_token=ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 11,
+          "positive": 9,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 10,
+          "positive": 8,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 13,
+          "positive": 12,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE"
+        },
+        {
+          "name": "Bathroom",
+          "description": "Bathroom and toiletries",
+          "total_mentioned": 5,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "CStECHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxwwqYBAC6uRKp",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=CStECHica1yRnFiSmp5fVDl5u1NiSUZRfn6uQmJeikJJfmZOaklRZmoxwwqYBAC6uRKp&engine=google_hotels_reviews&hl=en&property_token=ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIvZWxlpT7sJqKARoML2cvMTE5dzU3OTFnEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Fairfield By Marriott Yiwu",
+      "property_token": "ChoI6KCnmu_Z_sbIARoNL2cvMTF3dGw0Y3FjdBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoI6KCnmu_Z_sbIARoNL2cvMTF3dGw0Y3FjdBAB&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.302363000000003,
+        "longitude": 120.08068199999998
+      },
+      "check_in_time": "3:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Jimingshan Park",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "17 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/3AklLCplpu6rWBVjvTAwpVEU0AJvLP6Fg6J-WUdT4tAu4og8yevj9kTH56FBAO0bkX5YQs0LJj-pl7OaqlU-qYoU1GGtmGON7nhqp4rxPojrnPwQ6rERkDYy2n4bcB1ljr-UnC3BtYLZPY9YBlXbZmrZ_kOlwA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111250000/111247500/111247455/a2b7ed06_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/M1YdTsMrggTgQs_rVc3GTvm7brODT7fbY-OFKJNQQ-7S95uGcDD4-gMKT5-tGRtzwzlq4ZaxxxS_XEgnGORHGUkX5vSZXsLppPxejih-j7KToccSVrtXkrar_l57cYRxj67JeWLAN_hW3GAxWr-I5amlEsgzOw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111250000/111247500/111247455/48e05bab_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQdmWiV767VOF9ow3-nzDC9hzRv5qkklAcR8SYYoIAyP8mzGxP8va8vbt_1hZFHqtmo7YK5LUjY8HFxeef2r0VZGSXl6gDg7lXxS1i-WDaP4GhX1jMmQFNstUNSdTIlpqoUSaFs4Iedaly=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQdmWiV767VOF9ow3-nzDC9hzRv5qkklAcR8SYYoIAyP8mzGxP8va8vbt_1hZFHqtmo7YK5LUjY8HFxeef2r0VZGSXl6gDg7lXxS1i-WDaP4GhX1jMmQFNstUNSdTIlpqoUSaFs4Iedaly=s10000"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/NBRgPKTlDI0rYypClRvosU0kBwgVAydn6RTzpsmzwsHee1zFCgCsjQnNTF5m52lf89ea2K5-HsRheHiCbHVFhPOA5WztBHPGOpIJDfRhw-AYvD7sHKCmNoc5uG_aM6GIoWSV6TJ8Xo0ipjmrhF5jCJ7fiAyLBM4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111250000/111247500/111247455/8f0089c0_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/pylAnpHWbK__l7m7d6yJO0rgMEdTLfAPBkUZJ9CNu9DtGK-gMXSSkWLphGbamYf19k3FZ8M7OB3x-cfapq4ZPOIxeNth7eG4EEoCOdea9IfGPJeS_kN1h8wgrHvOUtMjAi-d-PJPtr3gD1sgmyBkLxTmICt149s=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/2/0/189/310/167/ZxaPwM1c90aFRaKSvPe72A_Self-service_Laundry18199_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/HVJZExAWMhHSACBk8CfXRKH-Yli15Pxyes3viXX3pmNQ0JVxl-xdlmvCpHcAVQpTMRB29Og6BdroffNAk0WfADxo_pZiRUjgl5MwdUTkfW6rMDy-wsV47U0fjF2yJix4jfXnJzWNroF9QOqGAgyfoODQAuZm8Q=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/2/0/189/309/986/lvkJdEXHQUmdvqWNXTJeAQ_Guest_Room_12197_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/FB2tTZ25A38hcaM_Vil-Y6bhgaTeAqu8Pi__8fNADs1N7iZzw6uskYl9LbFc5BLZl25VuWXFEDsOah-EEXCr5lk7q1n82EWjNJqTwnOCO2B5CNiGWpL5w_jTPsBDROy-rwUXkR-QLwHvyDKuaFGewXQRasA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/2/0/189/310/205/KQ1ldyOSSE2jCcAbHJ56Pw_Restaurant_15032_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ncBGAmEf9kE1og8ET-lVOD6AMDWwPj_XcmpRTTE7Z6KPDnthnTWk2MdMX-Qt-HtgNuk03dZdE4L__SRPvkglf1kRKUfyHZXPOMbmpkVlkTqAbrLmc3UH2UmgG0NZDEvLbjDgMsQmWZvoDIGjaeM1qOmGgWGxkw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/2/0/189/309/830/VgivU3AQA0K0r5pFG0QQtA_Lobby_38643_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/5duah61yOo5gGoutqjfMAzKI8fV421W1Hl0tE6hI5qM4cZERgZN3lcJYb2ql0L4FsoW3y5qxP6tlG-IXHgholIWjoVux2pGj41gqNrlEXpfcAmebxPRKRxjKn0X0bgtpJSGFDVx5u7wyww5tYYb7CZtGmwqsmA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/112000000/111250000/111247500/111247455/w7008h4675x0y0-129949f7_z.jpg"
+        }
+      ],
+      "overall_rating": 4.9,
+      "reviews": 23,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 20
+        },
+        {
+          "stars": 4,
+          "count": 3
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.6,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Air conditioning",
+        "Restaurant"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI6KCnmu_Z_sbIARoNL2cvMTF3dGw0Y3FjdBAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoI6KCnmu_Z_sbIARoNL2cvMTF3dGw0Y3FjdBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Yindu Hotel",
+      "description": "Upscale high-rise property offering elegant rooms & informal dining, plus free shuttles & a pool.",
+      "property_token": "ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.316092,
+        "longitude": 120.089889
+      },
+      "nearby_places": [
+        {
+          "name": "International Business & Trade City",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "19 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/ItGrE7XDO5sEjffPy2ROjC5US1__qPFEHJ1AL_gRn3pGS-yiKySyVy_lTRXLCogS_UmAoxndUFs3qFWNfO6MJjk-wWm2PzetzoAfBnICKurBqHONSkgFjmfbJ8M5lE0LXu23E6KqWrV82VgfT_dqYwlTOVrkBw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/11/114422/114422a_hb_w_029_20260306_103059.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHywy0556La1PeRWsLylkqq2ToRJhvxQ0w7uJP1glzVTU5_oXKNtyLwjcJzl1p1_2GEIxPsU7VHRTp5q5LfUSSjYsmWdtA6HJWVymwSeZmSPHd3gASqClGpIAn064LcKAyr32HBVA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHywy0556La1PeRWsLylkqq2ToRJhvxQ0w7uJP1glzVTU5_oXKNtyLwjcJzl1p1_2GEIxPsU7VHRTp5q5LfUSSjYsmWdtA6HJWVymwSeZmSPHd3gASqClGpIAn064LcKAyr32HBVA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/_TAK5HCygerIGN5YGc_LTNQz1qq0bIBsLMcogRGfgwVbnYVc59cttGnuX1FvTExpPXOIJbsvJnvyaciFTVZI-Amf_cmHjc0LkdAUUsIWeKr6UIQzSYW2PQckCBc70JfKkqvzIhkEAcAEqJLy5Gk_3XVuJBUl6DM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/11/114422/114422a_hb_p_002.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/svHeBqKJavpNCgRvlQG3FCuqCaVVOlGqW9W78Ujvf5U3XjUNj05O4V1wlhR2oKU8aQhtjipX3Ts_h9lilX9IZAjIj4Bn-_OtH385jlojP_epAeyZagGY5Qexy41X3Z33tm1hXem1e0K5R5zBp3KZ4yNyUad2Ads=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/11/114422/114422a_hb_a_007.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/anp7zcOAafcwt25Q9n97B9OfGFdgb3DgVRsLbOm3pz_GlR14KgOT8a-4cFWCFxHV9e6XS0N75sIEKJDQ7f9f7BsnSsyw8lqFZ_qiC7q2Uq0ESiGNE_12gnlFxFqHXMSe6H4rroSpxUXL-d3E3kEP_qAJc390N1c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/11/114422/114422a_hb_f_001.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/gzWAXzD5gBmTWiwMGzxzChkPB2bUyFweHzIt1tIu5VV36NG9aBpq-FyIyPz7R41CQuvPfIQuyVFyVgQMLRsfXv_dJzWMSBURbrFxKVqDE4tXMgiu4t77f07kkhJqHejjhiCdXCdoaZz4-mHMRF8iNLhCWaowiyU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/11/114422/114422a_hb_l_007.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/-YGfO5jTCSInX_m7ShE0WBRv5chvy5JHbZa1IopkMb1gDEEPo3DEW0g1FMPVT83Qa78kQoPUToIa1ANzTzEl3djL-2ZltqC83CacPX9M8mDKtIDSDXB3wTErOnR9h8ciUb-x_FuefSLrYga7L3c3huVnR2hcYIc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/11/114422/114422a_hb_f_002.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/e_PTAL4DCDGYWgPJJNs3UN2jCX3XLCXqeIXUIxBn9jg_EXUW5SSCuKOv-oLKdkZRMzZyKtCvwvIgkHbBHyVBG9GJXrT0Dwc2HYT-qJ_QrjSTli4BBaMPziHLcLACTAyZLExIeS9_0HIylRP6QsfHgB-EPY2eLQk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/11/114422/114422a_hb_w_024_20260306_103053.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/cXkEXkvO-CeUMHtReGM-fsXdM4eb9abhaSXsNEXCucM09CwUku9biX3uRoDdIpCkPUhSUCSpJSAONCCOePvgSvRoD1b7qqSL0uJgKT1VrnpLpVDCXIUyQu2JJ1xjx6LtM1XLIkSz13RmZnHbS2Wqb_xLXwM6AuM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/11/114422/114422a_hb_w_023_20260306_103053.jpg"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 294,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 173
+        },
+        {
+          "stars": 4,
+          "count": 79
+        },
+        {
+          "stars": 3,
+          "count": 25
+        },
+        {
+          "stars": 2,
+          "count": 4
+        },
+        {
+          "stars": 1,
+          "count": 13
+        }
+      ],
+      "location_rating": 4.4,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 28,
+          "positive": 21,
+          "negative": 1,
+          "neutral": 6,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 13,
+          "positive": 9,
+          "negative": 2,
+          "neutral": 2,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ"
+        },
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 8,
+          "positive": 7,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "g2mTLnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCQOCCQDn-g2T",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=g2mTLnica1yRnFiSmp5fVDl5pVNRamJ2WmJxCQOCCQDn-g2T&engine=google_hotels_reviews&hl=en&property_token=ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 9,
+          "positive": 8,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=xyUYpHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cAZwEAzlYM3Q&engine=google_hotels_reviews&hl=en&property_token=ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 7,
+          "positive": 6,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M&engine=google_hotels_reviews&hl=en&property_token=ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ"
+        },
+        {
+          "name": "Restaurant",
+          "description": "Restaurant",
+          "total_mentioned": 5,
+          "positive": 4,
+          "negative": 0,
+          "neutral": 1,
+          "category_token": "WfYe73ica1yRnFiSmp5fVDl5VVBqcUliaVFiXgkDEhsACWcOwQ",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=WfYe73ica1yRnFiSmp5fVDl5VVBqcUliaVFiXgkDEhsACWcOwQ&engine=google_hotels_reviews&hl=en&property_token=ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Indoor pool",
+        "Air conditioning",
+        "Fitness center",
+        "Spa",
+        "Restaurant",
+        "Room service",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgIvtKQpezh--3aARoLL2cvMXRoeGhzZnkQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "Holiday Inn Yiwu Center by IHG",
+      "property_token": "ChkInMWx9r2258ExGg0vZy8xMXlydHg1NWt0EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkInMWx9r2258ExGg0vZy8xMXlydHg1NWt0EAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.302162000000003,
+        "longitude": 120.07323500000001
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Xiuhu Park",
+          "transportations": [
+            {
+              "type": "Walking",
+              "duration": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "15 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/vqApJc61TB5aQkOu-qpj2L0nn7TNwH2LL_HTbCcALnBOjZZ5pNiEYCtj_mpRT_0831F-pma9avmuIugy-NFEYbol5a74Otk_LAzat9IyRxuPLB7UoL3AEfDWZ00bfp4GfHxWnEQIMCqFn5-w8cWemoJGLp6paxc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/1/0/201/735/181/HGHJI_10666544115_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/KqvjwUwGcbIPET_9ZvGb4yzHxIaSf1lyLQrHrmIVzyxkmtQ9lfODl01DuZ96SE1Lwc7At3kgdvQpvC-e4ja6PCs8vyotQLN2oQzUQrawT3JO0uW8ij77XwwAa5PaUzm_FuqBw90fAgjTb0wU28DOX5mii0g_Hm0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/1/0/201/735/174/HGHJI_10666544221_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/4ZN4--hTxfWKE3kc0E6HQupkxpp5uQOopLt38Vf5iLx8gKC3C6XELnc5EqQ8POy5FixPfryG7detpJmcxZ50mui1_KT-pSF51gi1k8PXvGBFp3K4yTkqvi9aNtCNOINFgpgivRrCa3ff9bS6MxhKi6adfytDZ24=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/1/0/205/954/319/HGHJI_10833969305_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/BymfhCwruSY1zZpERc90_7pKtVqckgR9GhcmFVKAFH5IR_qLF_lBeKmTBDwhPL0AAFmGIj7pXTV5Cy-mgmAM6_w01Suo6sh0Q_1SFLzWr0ia9FgG-MzH-UARRyUa0ALOERXof3xp10Z0YykvSn6IhOuHzKEAG64=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1098284/1098284a_hb_r_012_20260109_123213.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/VDtJa5guJfHWAk4pz0UOzhhDes7lvBTkv4ZtGZGu2vidyqf0d6UJHBrf3n7LoUQcAuTv7WuQR2GKOMMirovUERcuLNTsJjY842oITv_v6NOrb3f9ZUHBtRzOgYf4a_MbbPOkNnGwRiABzE2aHt5mBCvl0ekuuA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/1/0/206/10/606/HGHJI_10849297310_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/yqQV816FZxEwkLAO7-4eSLcLKqe7KrQ-XaWmO0P3yW7EBjIyKTt8dsF55UIzMrcdfkklVed2o3XDYxLX2O3NKtbGXeWgcwZvFWeXYAAd9yhAyMy0BXnLCNIz7d9vb0_CuKbZZDfiFGAfT-DcqZS44T6zX8COSbc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1098284/1098284a_hb_ba_001_20260109_123209.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/-LQpvrIv_ObxAMjp692E9BKEmKW1ONNKcFurWAdRxoFKmBgN_ETC6_EtagP8HwbIjR0UZ90EpV5KdZoCt2Y9yJl_c_7A1CAfCnEzlPRAIIvDi6LZoL4CBm8K_vxEYs11D3NOPpgYb7L7bYEq7DSlZ2xQwquW1V0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/1/0/201/735/204/HGHJI_10666544067_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/aFBcUl6NAmJCj6KX115BgdTyYMg-EUuNRm1Hfzr2f5qdQid6_XsgytxldCCCUT25NhIPIaCDa6PNZkyP_91BuKwZVLXFTLFCdYxnOx7N0-aKUzuThnQ-FNOUzBO8nOAiluJdJpllty6Du4GvqE7YG8ZmIRON6g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/1098284/1098284a_hb_a_004_20260109_123159.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/ZJxC1oinEmQNod5AcqSAKrFRc6lSakyuaJ5TbxReFdiQG6Eim2OoprdNVaz68WDvrJ8jGhI-S85HGkSNHd6Abw-VwCql8oe012CxizWOedTHCOAfBaV51TrkarjWtO5GTNmM2e7K_N1gvmjtl3lLs2ccgqcd9w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/1/0/201/735/243/HGHJI_10666544108_O.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 2,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.5,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Pool",
+        "Restaurant",
+        "Full-service laundry",
+        "Accessible",
+        "Business center"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkInMWx9r2258ExGg0vZy8xMXlydHg1NWt0EAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkInMWx9r2258ExGg0vZy8xMXlydHg1NWt0EAE"
+    },
+    {
+      "type": "hotel",
+      "name": "YiWu Defeng Hotel",
+      "property_token": "ChkI-Yzg3ZKgi7prGg0vZy8xMWd4dzBrd3B3EAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkI-Yzg3ZKgi7prGg0vZy8xMWd4dzBrd3B3EAE&q=Yiwu+International+Trade+Market+hotels",
+      "gps_coordinates": {
+        "latitude": 29.335362999999997,
+        "longitude": 120.10209
+      },
+      "check_in_time": "6:00 AM",
+      "check_out_time": "2:00 PM",
+      "nearby_places": [
+        {
+          "name": "Futian Wetland Park",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "5 min"
+            }
+          ]
+        },
+        {
+          "name": "Yiwu Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "19 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/EdXkO5O7bMR0Qwcs7SYc71ADd64-_eMwLMkRLBBEbge0DXUIzqDJnFsQVbY8Za_XJTglHZl3y-ljkzCwlEAIFUDUBDeOv85-_DLOdrwS0wQAStzpMmScTEek-Rl_P4w1iPENsXayMmeL8FEpL2K88RlMw5sHx7s=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/82/824801/824801a_hb_w_004.jpg?20250323111541?20250607000054"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcJzbe8PZ8NAxpKlRDAUcWv91TQcS3mheF-B1fAbhBuXQLCCSxOANQJqVScVBGr6CF0kZkw5eSZ2XVITB48Qj1GBJJpPwG11za2zfyJGRHM-JaMsEf_vR06X9XvWH0rMXOoM0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcJzbe8PZ8NAxpKlRDAUcWv91TQcS3mheF-B1fAbhBuXQLCCSxOANQJqVScVBGr6CF0kZkw5eSZ2XVITB48Qj1GBJJpPwG11za2zfyJGRHM-JaMsEf_vR06X9XvWH0rMXOoM0=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Sb2H6hsF8j173t7fPrBdrEvnU4ZOB8NrdRmOJGJjAXgok7z6Q3YG2UcwaWrm8oyrUgvaoq5rmg_oKzAQIYQZQcCNprIf3ESJ01BlgYybfCBU01-QlW_7yAJtnRAUlGDpqbStCNvIKRMKtl6coEjvAovUS8jO8EQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/82/824801/824801a_hb_w_017.jpg?20250125020119?20250607000054"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Hc3a3HTMd2IpHHYyON9E336OmIZ3Ok1RsNJx9DPjNbQmdf1k8SQTR6V6tYYld34hj42ZzD6MSWQ-nXi6eoZE9lPgag96eHQ8N-__Br6IiePE2fHAirGmar-w88DKxHwwhhVXmecxalaK8A46FmlFsV9-SG529g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/82/824801/824801a_hb_w_011.jpg?20250122110114?20250607000055"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/PJV4rd20MXa1hyia0UjFoAr_cfhsrU6SgGyDsNtTZ0j3G2z7LpzLoikzIOJWzk_IXCzKfbmJjnJ-llYh77KwKNpJZt6acxuBW02pyc9W0VUSklHf0ZCIxeOOsUhP8yA9Jp72Us7KWbc2xAi0s-VcQhgvGtcJBCk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/82/824801/824801a_hb_w_031.jpg?20240805041911?20250607000055"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/3xkCXNk08USg1WQ8ZRISQjc6yYq65u3BzVoXjFhEFCHkmqhDvfd7ZyseNEIeJTOmjTk9UWS_Ii6Wt_h3rQkK9Wxyfse4SKesCM34JvwCcY54FWKp3PD6Tn5ZujqKSWQF0cZuXC4bOgU6mHGfIANHQagHbkDmgkw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/82/824801/824801a_hb_l_001.jpg?20250323111541?20250607000055"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/UnV-Wbi04gwiFWXyFjDcH10UMLvZ-oa855kOnFTgeQb8F6sV1l450bR4ncOV08yQUzBxD-rsNkIOnCX1abHy9sxRK8bcr9XyO2u-US5ePrKL0H44Vwv_tb-Gg8PXcQk5ABV81x3CP32S3hJ2UOkSbJENF5k5lA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/82/824801/824801a_hb_w_002.jpg?20250323111541?20250607000055"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/87Ymd3metXkI7I2_L3I3e_ccZnnHfCsBO8ttXdgjge5J49HKyCqqNvmOse8GT2l9bNKj9AigF9is8S2eWAYEKAf2Y3gR7hfyzw2xjzgos_tGLgItVzFfF2tr4opU_VN77dynpUBMhj1wlJ7x-OcHu-REz8Cxjg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/82/824801/824801a_hb_w_052_20250323_101556.jpg?20250323111556?20250607000055"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/1HuhKN3x1CQAxP7S3WsplEbmnZykFTjumj1cjxmybE1UXOrrTbY0YgT-O9Ni-ka2LFCeJF7Tm4g34bUz2nFOoFiUXtM_mUBboaOZ1WLHAA0mjtkWPctjXeQstmcSCcpJtc9JDgHCJJocFCyWWKI1SCtccKSTIQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/82/824801/824801a_hb_w_022.jpg?20250323111540?20250607000055"
+        }
+      ],
+      "overall_rating": 4.4,
+      "reviews": 74,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 49
+        },
+        {
+          "stars": 4,
+          "count": 12
+        },
+        {
+          "stars": 3,
+          "count": 11
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 4.1,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Restaurant",
+        "Full-service laundry"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkI-Yzg3ZKgi7prGg0vZy8xMWd4dzBrd3B3EAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkI-Yzg3ZKgi7prGg0vZy8xMWd4dzBrd3B3EAE"
+    }
+  ],
+  "serpapi_pagination": {
+    "current_from": 1,
+    "current_to": 18,
+    "next_page_token": "CBI=",
+    "next": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-16&check_out_date=2026-09-19&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&next_page_token=CBI%3D&q=Yiwu+International+Trade+Market+hotels"
+  }
+}

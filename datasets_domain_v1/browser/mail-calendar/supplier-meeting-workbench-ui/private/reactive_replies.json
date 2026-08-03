@@ -1,0 +1,36 @@
+{
+  "farah.hussein@nilepumps.eg": [
+    {
+      "message_id": "react_farah_r1",
+      "from": "farah.hussein@nilepumps.eg",
+      "to": "me@company.com",
+      "subject": "Re: Solar Pump RFQ availability",
+      "body": "Thanks. I am in Cairo (UTC+2). Thursday 10:00-13:00 Cairo time is mostly open, but I may still have a port inspection from 10:00-11:00 Cairo time. Please double-check before you lock the RFQ alignment meeting."
+    },
+    {
+      "message_id": "react_farah_r2",
+      "from": "farah.hussein@nilepumps.eg",
+      "to": "me@company.com",
+      "subject": "Re: port inspection clarification",
+      "body": "Clarification: the port inspection moved to Thursday afternoon. I can join Thursday 10:00-11:30 Cairo time, but I need to leave exactly at 11:30 for a production readiness call."
+    }
+  ],
+  "diego.ramos@company.com": [
+    {
+      "message_id": "react_diego_r1",
+      "from": "diego.ramos@company.com",
+      "to": "me@company.com",
+      "subject": "Re: Solar Pump RFQ availability",
+      "body": "QA can join Thursday 15:30-18:00 Beijing time. Wednesday is blocked by sample teardown. Please avoid Room C2 this week."
+    }
+  ],
+  "mina.chen@company.com": [
+    {
+      "message_id": "react_mina_r1",
+      "from": "mina.chen@company.com",
+      "to": "me@company.com",
+      "subject": "Re: Solar Pump RFQ availability",
+      "body": "Logistics is available Thursday 16:00-18:00 Beijing time. We need 90 minutes to cover Ningbo ETD, export documents, and inspection handoff."
+    }
+  ]
+}

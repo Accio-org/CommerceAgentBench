@@ -1,0 +1,11 @@
+{
+  "error": {
+    "code": "parameter_unknown",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-unknown",
+    "message": "Received unknown parameter: foozle",
+    "param": "foozle",
+    "request_log_url": "https://dashboard.stripe.com/acct_1TcPzGCLKuX79GC2/test/workbench/logs?object=req_fRd8Dz0n6v9fWD",
+    "type": "invalid_request_error"
+  }
+}
+

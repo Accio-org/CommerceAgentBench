@@ -1,0 +1,96 @@
+{
+  "summary_title": "Returns Comment Resolution Log 2026-W22",
+  "required_reply": "Acknowledged for Returns Comment Resolution Log 2026-W22 — CX owner will update replacement visibility before Friday close.",
+  "required_lines": [
+    "# Returns Comment Resolution Log 2026-W22",
+    "Resolved SG open return comments: 3",
+    "Reply used: Acknowledged for Returns Comment Resolution Log 2026-W22 — CX owner will update replacement visibility before Friday close.",
+    "Next step: review the resolved comment queue in Friday closeout."
+  ],
+  "qualifying": [
+    {
+      "id": "rma_007",
+      "case_id": "RMA-6207",
+      "sku": "NB-SG-COM-029",
+      "market": "SG",
+      "channel": "Shopify",
+      "reason": "damaged package",
+      "status": "Open",
+      "ticket_count": 8,
+      "owner": "cx.ops@northbridge.example.com",
+      "source_doc": "Returns Comment: RMA-6207",
+      "comment_id": "cmt-rma-6207-visibility",
+      "comment_block_id": "b-doc-comment-rma-6207-tickets",
+      "source_fact_ids": ["shopify-return-actions", "shipping-returns-visibility"]
+    },
+    {
+      "id": "rma_009",
+      "case_id": "RMA-6209",
+      "sku": "NB-SG-DOG-037",
+      "market": "SG",
+      "channel": "TikTok Shop",
+      "reason": "size mismatch",
+      "status": "Open",
+      "ticket_count": 10,
+      "owner": "cx.ops@northbridge.example.com",
+      "source_doc": "Returns Comment: RMA-6209",
+      "comment_id": "cmt-rma-6209-visibility",
+      "comment_block_id": "b-doc-comment-rma-6209-tickets",
+      "source_fact_ids": ["shopify-return-actions", "shipping-returns-visibility"]
+    },
+    {
+      "id": "rma_011",
+      "case_id": "RMA-6211",
+      "sku": "NB-SG-PET-045",
+      "market": "SG",
+      "channel": "Google Merchant",
+      "reason": "tracking not visible",
+      "status": "Open",
+      "ticket_count": 12,
+      "owner": "cx.ops@northbridge.example.com",
+      "source_doc": "Returns Comment: RMA-6211",
+      "comment_id": "cmt-rma-6211-visibility",
+      "comment_block_id": "b-doc-comment-rma-6211-tickets",
+      "source_fact_ids": ["shopify-return-actions", "shipping-returns-visibility"]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "rma_005",
+      "case_id": "RMA-6205",
+      "sku": "NB-SG-DOG-021",
+      "market": "SG",
+      "channel": "Amazon",
+      "reason": "tracking not visible",
+      "status": "Open",
+      "ticket_count": 6,
+      "source_doc": "Returns Comment: RMA-6205",
+      "comment_id": "cmt-rma-6205-visibility"
+    },
+    {
+      "id": "rma_008",
+      "case_id": "RMA-6208",
+      "sku": "NB-JP-OUT-033",
+      "market": "JP",
+      "channel": "Walmart Marketplace",
+      "reason": "not as described",
+      "status": "Exchange Requested",
+      "ticket_count": 9,
+      "source_doc": "Returns Comment: RMA-6208",
+      "comment_id": "cmt-rma-6208-visibility"
+    },
+    {
+      "id": "rma_010",
+      "case_id": "RMA-6210",
+      "sku": "NB-JP-NON-041",
+      "market": "JP",
+      "channel": "Amazon",
+      "reason": "missing manual",
+      "status": "Policy Review",
+      "ticket_count": 11,
+      "source_doc": "Returns Comment: RMA-6210",
+      "comment_id": "cmt-rma-6210-visibility"
+    }
+  ],
+  "expected_file_count_after_completion": 7
+}

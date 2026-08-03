@@ -1,0 +1,88 @@
+#!/usr/bin/env bash
+set -euo pipefail
+: "${CCB_MOCK_SERVICES_ROOT:=/opt/mock_services}"
+
+WORKDIR=""
+PRIVATE_DIR=""
+PORT="${PORT:-3000}"
+TOKEN="${MOCK_VERIFIER_TOKEN:-bench-verifier}"
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --workdir)
+      WORKDIR="$2"; shift 2 ;;
+    --private-dir)
+      PRIVATE_DIR="$2"; shift 2 ;;
+    --port)
+      PORT="$2"; shift 2 ;;
+    --token)
+      TOKEN="$2"; shift 2 ;;
+    *)
+      echo "unknown option: $1" >&2; exit 2 ;;
+  esac
+done
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SERVICE_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+STATE_DIR="${TODOIST_MOCK_STATE_DIR:-/var/lib/mocksvc/todoist_cli}"
+TODOIST_BENCH="$SERVICE_ROOT/bin/todoist-bench"
+HEALTH_URL="http://127.0.0.1:${PORT}/health"
+TASK_SEED_FILE="${PRIVATE_DIR%/}/mock_runtime/todoist_seed.sql"
+DEFAULT_SEED_FILE="$SERVICE_ROOT/seeds/default.sql"
+
+export TODOIST_MOCK_HOME="$STATE_DIR"
+export TODOIST_TOKEN="${TODOIST_TOKEN:-mock-todoist-token-bench}"
+export MOCK_VERIFIER_TOKEN="$TOKEN"
+export CCB_INTERNAL_BENCH_TOKEN="$TOKEN"
+export PORT="$PORT"
+
+mkdir -p "$STATE_DIR/.cache/todoist" "$WORKDIR/tmp"
+chmod 0700 "$STATE_DIR" "$WORKDIR" 2>/dev/null || true
+LOG_FILE="$WORKDIR/tmp/todoist_cli_daemon.log"
+PID_FILE="$WORKDIR/tmp/todoist_cli_daemon.pid"
+
+[[ -x "$TODOIST_BENCH" ]] || { echo "todoist-bench missing at $TODOIST_BENCH" >&2; exit 2; }
+[[ -f "$CCB_MOCK_SERVICES_ROOT/cli_daemon/server.mjs" ]] || { echo "cli daemon missing at $CCB_MOCK_SERVICES_ROOT/cli_daemon/server.mjs" >&2; exit 2; }
+command -v bun >/dev/null 2>&1 || { echo "bun not found in container" >&2; exit 2; }
+
+rm -f "$TODOIST_MOCK_HOME/.cache/todoist/mock.db" \
+      "$TODOIST_MOCK_HOME/.cache/todoist/mock.db-wal" \
+      "$TODOIST_MOCK_HOME/.cache/todoist/mock.db-shm"
+if [[ -n "$PRIVATE_DIR" && -f "$TASK_SEED_FILE" ]]; then
+  "$TODOIST_BENCH" seed --file "$TASK_SEED_FILE" >/dev/null
+  echo "todoist_cli seeded from $TASK_SEED_FILE"
+elif [[ -f "$DEFAULT_SEED_FILE" ]]; then
+  "$TODOIST_BENCH" seed --file "$DEFAULT_SEED_FILE" >/dev/null
+  echo "todoist_cli seeded from default fixture"
+else
+  "$TODOIST_BENCH" health >/dev/null
+fi
+
+probe() {
+  python3 - "$1" <<'PY' >/dev/null 2>&1
+import sys, urllib.request
+urllib.request.urlopen(sys.argv[1], timeout=2).read()
+PY
+}
+
+export CCB_CLI_MOCK_NAME="todoist_cli"
+export CCB_CLI_TARGET_BIN="$SERVICE_ROOT/bin/todoist"
+export CCB_CLI_BENCH_BIN="$TODOIST_BENCH"
+export CCB_CLI_BENCH_TOKEN_MODE="env"
+export CCB_CLI_STATE_ENV_JSON="{\"TODOIST_MOCK_HOME\":\"$TODOIST_MOCK_HOME\",\"TODOIST_TOKEN\":\"$TODOIST_TOKEN\"}"
+
+nohup bun $CCB_MOCK_SERVICES_ROOT/cli_daemon/server.mjs >"$LOG_FILE" 2>&1 &
+echo "$!" > "$PID_FILE"
+
+ready=0
+for _ in $(seq 1 60); do
+  if probe "$HEALTH_URL"; then ready=1; break; fi
+  sleep 0.5
+done
+if [[ "$ready" != "1" ]]; then
+  echo "todoist_cli daemon failed; tail of $LOG_FILE:" >&2
+  tail -n 80 "$LOG_FILE" >&2 || true
+  exit 1
+fi
+
+echo "todoist_cli daemon ready on :$PORT"

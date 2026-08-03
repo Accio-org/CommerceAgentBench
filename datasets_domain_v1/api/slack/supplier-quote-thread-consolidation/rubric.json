@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "task_id": "api-slack-supplier-quote-thread-consolidation",
+  "summary": "Consolidate supplier quotes in the #rfq-stainless-bottle Slack thread and submit a structured answer.json. Capacity checks are capability units: plumbing + protocol-compliance fold into setup_gate (R2), and each real sourcing competence is one check that AND-aggregates its atomic field predicates (R4). Per-atom detail is preserved in each check's reason/atoms.",
+  "category": "sourcing_analysis",
+  "state_kind": "local_mock_api",
+  "difficulty": "medium",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Environment + protocol ready: outputs/mock_audit/slack_audit.json present/parseable, outputs/quote_consolidation.md non-empty, outputs/answer.json parseable and schema-conforming, the thread was deep-read via the API (>=1 /slack/messages list call AND >=19 /slack/messages/get calls), and no /slack/send or /slack/drafts/save calls were made (analysis-only restraint). Folds 7 plumbing/protocol atoms (R2)."
+    },
+    {
+      "id": "primary_supplier_decision",
+      "check_type": "deterministic_exact",
+      "description": "Pick EverTherm as primary under the buyer's lowest-landed-cost rule: name == 'EverTherm', revised landed DDP LA ≈ 3.36 (±0.02), RMB-specific primary FX fields are null, extra primary logistics == 0.0, and no AtlasWare authorization-letter condition is required for the primary. AND of 6 atoms (R4)."
+    },
+    {
+      "id": "backup_supplier_decision",
+      "check_type": "deterministic_exact",
+      "description": "Pick AtlasWare as backup with landed DDP LA ≈ 3.376 (±0.02) after RMB conversion, 1.2% FX handling load, and the USD 0.05 LA appointment/tailgate cost. AND of 2 atoms (R4)."
+    },
+    {
+      "id": "rejections_correct",
+      "check_type": "deterministic_exact",
+      "description": "Eliminate the disqualified suppliers for the right reason: CupWell rejected for late arrival (June 24 ETA misses June 15) and MetroMug rejected for QA quality risk (5.8% leak failure). AND of 2 atoms (R4)."
+    },
+    {
+      "id": "false_lead_cost_adjustment",
+      "check_type": "deterministic_exact",
+      "description": "Identify NorthPeak as the false lead whose low headline quote becomes unattractive after accessorial charges, and compute its adjusted landed cost ≈ 3.52 (±0.02) (= 3.28 + 0.16 tailgate + 0.08 logo setup). AND of 2 atoms (R4)."
+    },
+    {
+      "id": "steelpro_disqualification",
+      "check_type": "deterministic_exact",
+      "description": "Apply the SteelPro MOQ price correction (EXW == 3.36 (±0.01) for 20k pcs, not the 50k 3.18) and recognize its LFGB report covers the 500ml model only, not the target 750ml (covers_target_750ml == false). AND of 2 atoms (R4)."
+    },
+    {
+      "id": "budget_ceiling",
+      "check_type": "deterministic_exact",
+      "description": "Read Finance Zoe's hard landed-cost ceiling: answer.landed_cost_budget_usd == 3.40 (±0.001)."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "answer.json",
+      "quote_consolidation.md",
+      "mock_audit/slack_audit.json"
+    ]
+  }
+}

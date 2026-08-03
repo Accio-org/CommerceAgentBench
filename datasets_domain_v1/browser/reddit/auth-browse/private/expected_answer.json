@@ -1,0 +1,27 @@
+{
+  "primary_session_cookie_acceptable_values": [
+    "reddit_session=k4m8x2pq9v.2.1778917909.Z0FBQUFBQnB5bEpmX0NhWVR3",
+    "token_v2=eyJhbGciOiJIUzI1NiJ9.dDJfN3g5a2YycW0zZHc.session_v2_abc123def456"
+  ],
+  "target_username": "QualityFirst_QC",
+  "target_subreddit": "CrossBorderCommerce",
+  "ppwr_effective_date": "2026-07-01",
+  "ppwr_recycled_content_min_pct": 35,
+  "ppwr_empty_space_max_pct": 40,
+  "ppwr_dpp_required": true,
+  "ppwr_epr_per_country_required": true,
+  "ppwr_penalty_max_eur": 100000,
+  "ppwr_penalty_max_revenue_pct": 4,
+  "inspection_total_cost_usd": 8247,
+  "inspection_orders_count": 47,
+  "inspection_savings_usd": 127000,
+  "inspection_roi_multiplier": 15.4,
+  "aql_critical": 0,
+  "aql_major": 2.5,
+  "aql_minor": 4.0,
+  "inspection_stages_required": ["pre-production", "during-production", "pre-shipment"],
+  "inspection_stages_enum": ["pre-production", "during-production", "pre-shipment"],
+  "third_party_threshold_usd": 5000,
+  "freelance_inspector_min_day_rate_usd": 180,
+  "freelance_inspector_max_day_rate_usd": 250
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "contact-self",
+    "name": "Yukun Lian",
+    "email": "kylekk0215@gmail.com",
+    "source": "account",
+    "color": "#d93025"
+  },
+  {
+    "id": "contact-chatgpt",
+    "name": "ChatGPT",
+    "email": "noreply@email.openai.com",
+    "source": "conversation",
+    "color": "#10a37f"
+  },
+  {
+    "id": "contact-openai",
+    "name": "OpenAI",
+    "email": "noreply@email.openai.com",
+    "source": "subscription",
+    "color": "#5f6368"
+  },
+  {
+    "id": "contact-google",
+    "name": "Google",
+    "email": "no-reply@google.com",
+    "source": "subscription",
+    "color": "#4285f4"
+  },
+  {
+    "id": "contact-paypal",
+    "name": "PayPal China",
+    "email": "noreply@paypal.cn",
+    "source": "recent",
+    "color": "#003087"
+  },
+  {
+    "id": "contact-openreview",
+    "name": "OpenReview",
+    "email": "noreply@openreview.net",
+    "source": "recent",
+    "color": "#5f6368"
+  },
+  {
+    "id": "contact-ngrok",
+    "name": "ngrok team",
+    "email": "team@m.ngrok.com",
+    "source": "recent",
+    "color": "#111827"
+  },
+  {
+    "id": "contact-apple",
+    "name": "Apple",
+    "email": "no-reply@apple.com",
+    "source": "recent",
+    "color": "#5f6368"
+  }
+]

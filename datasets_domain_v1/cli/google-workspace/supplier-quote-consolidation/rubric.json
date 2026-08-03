@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.0",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "checks": [
+    {
+      "name": "supplier_spreadsheet_exists",
+      "description": "Supplier evaluation spreadsheet sheet-supplier-eval-003 exists in mock state",
+      "weight": 1
+    },
+    {
+      "name": "award_decisions_sheet_exists",
+      "description": "'Award Decisions' sheet created in the supplier evaluation spreadsheet",
+      "weight": 1
+    },
+    {
+      "name": "award_headers_correct",
+      "description": "Award Decisions has 8 correct column headers (SKU, Product, Award Supplier, Award Price, Runner-Up Supplier, Runner-Up Price, Savings, Decision Rationale)",
+      "weight": 1
+    },
+    {
+      "name": "award_has_data_rows",
+      "description": "Award Decisions has the expected number of data rows matching the SKU count from expected_answer.json",
+      "weight": 1
+    },
+    {
+      "name": "award_decisions_correct",
+      "description": "Per-SKU award decisions verified against expected answers. Each SKU emits a separate check (award_correct::<SKU>) validating the award supplier, award price (within $0.01 tolerance), and decision rationale match the ground truth derived from business rules.",
+      "weight": 1
+    },
+    {
+      "name": "award_suppliers_from_overview",
+      "description": "All award suppliers in every row come from the Supplier Overview sheet (not fabricated names)",
+      "weight": 1
+    },
+    {
+      "name": "no_disqualified_supplier_awarded",
+      "description": "No supplier with rating below 3.5 in Supplier Overview appears as an award winner",
+      "weight": 1
+    },
+    {
+      "name": "presentation_has_7_slides",
+      "description": "Sourcing review presentation has at least 7 slides after adding award summary",
+      "weight": 1
+    },
+    {
+      "name": "award_summary_slide_exists",
+      "description": "A slide titled 'Q2 Award Summary' exists in the presentation",
+      "weight": 1
+    },
+    {
+      "name": "award_slide_has_sku_lines",
+      "description": "Award summary slide body contains SKU-level bullet entries",
+      "weight": 1
+    },
+    {
+      "name": "audit_trail_entry",
+      "description": "Audit Trail has entry from sourcing-bot@ about award finalization",
+      "weight": 1
+    },
+    {
+      "name": "audit_has_savings_total",
+      "description": "Audit entry's new value includes aggregate savings dollar amount",
+      "weight": 1
+    }
+  ]
+}

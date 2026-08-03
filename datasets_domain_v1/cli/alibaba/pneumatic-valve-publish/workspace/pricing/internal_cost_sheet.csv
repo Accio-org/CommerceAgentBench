@@ -1,0 +1,25 @@
+Item,Value
+Product,DN50 Pneumatic Stainless Steel Ball Valve
+Model,ZD-PBV-DN50
+Target Margin,35%
+Exchange Rate (USD/CNY),7.20
+Pricing Formula,"FOB USD = (EXW * discount + per-unit freight) * (1 + margin) / exchange_rate"
+Discount Note,Factory rebate 5%; effective cost = EXW * 0.95
+Per-Unit Freight,"Per logistics quote: large batch (100+) 11.4 RMB/unit; mid batch (50-99) 13.0 RMB/unit; small batch (<50) 15.4 RMB/unit (port fee amortized)"
+FOB Type,FOB Shanghai
+Target Markets,"Brazil, Mexico, Colombia, UAE, Saudi Arabia, United States, Germany"
+South America Markup,8% (high logistics cost)
+Middle East Markup,5% (tariffs and clearance cost)
+US/Europe Markup,0% (standard price)
+Price Unit,Unit
+Sale Type,Per Piece
+Minimum Order Quantity,10
+Stock Quantity,5000
+Lead Time 10-49,15 days
+Lead Time 50-99,20 days
+Lead Time 100-500,30 days
+Product Group,Industrial Valves
+Private Label,no
+Listing Agreement,Accept
+Description Type,custom
+Category,"Mechanical Parts & Fabrication Services > Valves > Ball Valves"

@@ -1,0 +1,97 @@
+#!/usr/bin/env bash
+set -euo pipefail
+: "${CCB_MOCK_SERVICES_ROOT:=/opt/mock_services}"
+
+WORKDIR=""
+PRIVATE_DIR=""
+PORT="${PORT:-3000}"
+TOKEN="${MOCK_VERIFIER_TOKEN:-bench-verifier}"
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --workdir)
+      WORKDIR="$2"; shift 2 ;;
+    --private-dir)
+      PRIVATE_DIR="$2"; shift 2 ;;
+    --port)
+      PORT="$2"; shift 2 ;;
+    --token)
+      TOKEN="$2"; shift 2 ;;
+    *)
+      echo "unknown option: $1" >&2; exit 2 ;;
+  esac
+done
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SERVICE_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+STATE_DIR="${JIRA_MOCK_STATE_DIR:-/var/lib/mocksvc/jira_cli}"
+JIRA_CLIENT="$SERVICE_ROOT/bin/jira"
+JIRA_BENCH="$SERVICE_ROOT/bin/jira-bench"
+HEALTH_URL="http://127.0.0.1:${PORT}/health"
+TASK_SEED_FILE="${PRIVATE_DIR%/}/mock_runtime/jira_seed.sql"
+DEFAULT_SEED_FILE="$SERVICE_ROOT/seeds/default.sql"
+
+export JIRA_MOCK_HOME="$STATE_DIR"
+export JIRA_API_TOKEN="${JIRA_API_TOKEN:-mock-jira-token-bench}"
+export JIRA_SERVER="${JIRA_SERVER:-https://northbridge.atlassian.net}"
+export JIRA_LOGIN="${JIRA_LOGIN:-pm@northbridge.example.com}"
+export JIRA_PROJECT="${JIRA_PROJECT:-PROJ}"
+export JIRA_BOARD="${JIRA_BOARD:-100}"
+export MOCK_VERIFIER_TOKEN="$TOKEN"
+export CCB_INTERNAL_BENCH_TOKEN="$TOKEN"
+export PORT="$PORT"
+
+mkdir -p "$STATE_DIR" "$WORKDIR/tmp"
+chmod 0700 "$STATE_DIR" "$WORKDIR" 2>/dev/null || true
+LOG_FILE="$WORKDIR/tmp/jira_cli_daemon.log"
+PID_FILE="$WORKDIR/tmp/jira_cli_daemon.pid"
+
+[[ -x "$JIRA_CLIENT" ]] || { echo "jira client missing at $JIRA_CLIENT" >&2; exit 2; }
+[[ -x "$JIRA_BENCH" ]] || { echo "jira-bench missing at $JIRA_BENCH" >&2; exit 2; }
+[[ -f "$CCB_MOCK_SERVICES_ROOT/cli_daemon/server.mjs" ]] || { echo "cli daemon missing at $CCB_MOCK_SERVICES_ROOT/cli_daemon/server.mjs" >&2; exit 2; }
+command -v bun >/dev/null 2>&1 || { echo "bun not found in container" >&2; exit 2; }
+
+rm -f "$JIRA_MOCK_HOME/jira_mock.db" "$JIRA_MOCK_HOME/jira_mock.db-wal" "$JIRA_MOCK_HOME/jira_mock.db-shm"
+rm -f "$JIRA_MOCK_HOME/.jira/.config.yml"
+if [[ -n "$PRIVATE_DIR" && -f "$TASK_SEED_FILE" ]]; then
+  "$JIRA_BENCH" seed --file "$TASK_SEED_FILE" >/dev/null
+  echo "jira_cli seeded from $TASK_SEED_FILE"
+elif [[ -f "$DEFAULT_SEED_FILE" ]]; then
+  "$JIRA_BENCH" seed --file "$DEFAULT_SEED_FILE" >/dev/null
+  echo "jira_cli seeded from default fixture"
+else
+  "$JIRA_BENCH" health >/dev/null
+fi
+
+"$JIRA_CLIENT" init --server "$JIRA_SERVER" --login "$JIRA_LOGIN" \
+  --project "$JIRA_PROJECT" --board "$JIRA_BOARD" --force >/dev/null
+echo "jira client configured (project=$JIRA_PROJECT board=$JIRA_BOARD login=$JIRA_LOGIN)"
+
+probe() {
+  python3 - "$1" <<'PY' >/dev/null 2>&1
+import sys, urllib.request
+urllib.request.urlopen(sys.argv[1], timeout=2).read()
+PY
+}
+
+export CCB_CLI_MOCK_NAME="jira_cli"
+export CCB_CLI_TARGET_BIN="$SERVICE_ROOT/bin/jira"
+export CCB_CLI_BENCH_BIN="$JIRA_BENCH"
+export CCB_CLI_BENCH_TOKEN_MODE="env"
+export CCB_CLI_STATE_ENV_JSON="{\"JIRA_MOCK_HOME\":\"$JIRA_MOCK_HOME\",\"JIRA_API_TOKEN\":\"$JIRA_API_TOKEN\",\"JIRA_SERVER\":\"$JIRA_SERVER\",\"JIRA_LOGIN\":\"$JIRA_LOGIN\",\"JIRA_PROJECT\":\"$JIRA_PROJECT\",\"JIRA_BOARD\":\"$JIRA_BOARD\"}"
+
+nohup bun $CCB_MOCK_SERVICES_ROOT/cli_daemon/server.mjs >"$LOG_FILE" 2>&1 &
+echo "$!" > "$PID_FILE"
+
+ready=0
+for _ in $(seq 1 60); do
+  if probe "$HEALTH_URL"; then ready=1; break; fi
+  sleep 0.5
+done
+if [[ "$ready" != "1" ]]; then
+  echo "jira_cli daemon failed; tail of $LOG_FILE:" >&2
+  tail -n 80 "$LOG_FILE" >&2 || true
+  exit 1
+fi
+
+echo "jira_cli daemon ready on :$PORT"

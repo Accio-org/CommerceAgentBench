@@ -1,0 +1,59 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-returns-dispute-evidence-pack",
+  "summary": "为一批电商退货纠纷生成可辩护的处置建议：基于订单事件、物流扫描、质检记录、客服会话、本地照片与书面政策，逐单判定 accept/partial_refund/dispute/request_more_evidence，并整理证据包与对客中性话术。",
+  "category": "ecommerce_returns_adjudication",
+  "state_kind": "offline_only_local_files",
+  "difficulty": "very-hard",
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "return_decision.json",
+      "evidence_pack.md",
+      "customer_safe_response.md"
+    ]
+  },
+  "status": "ready_for_review",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "setup_gate",
+      "description": "Plumbing gate (R2): outputs/return_decision.json exists and parses as a JSON object."
+    },
+    {
+      "id": "all_return_cases_decided",
+      "check_type": "deterministic_exact",
+      "description": "Coverage/restraint (R6): case_decisions[] return_id set exactly equals {RET-55812, RET-66104, RET-77017} (no missing, no extras)."
+    },
+    {
+      "id": "ret_55812_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "Per-case judgement (R3a): RET-55812 decision is one of {partial_refund, dispute_claim} — one bottle of a two-pack returned, no LoopCap, carrier 0.76 kg vs 1.42 kg outbound."
+    },
+    {
+      "id": "ret_66104_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "Per-case judgement (R3a): RET-66104 decision is one of {accept_return, partial_refund, full_refund, dispute_claim} — carrier-caused damage with scan exception / carton compression."
+    },
+    {
+      "id": "ret_77017_decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "Per-case judgement (R3a): RET-77017 decision is one of {request_more_evidence, dispute_claim} — wrong-item claim but factory seal intact and weight matches outbound."
+    },
+    {
+      "id": "evidence_grounding_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Evidence grounding across all returns (R3 collapse): for every return the evidence_items[] anchors a canonical source file with an unguessable per-case fact, the decision_reason cites a per-case unique fact, and evidence_pack.md narrates at least one per-case unique fact — all grounded in inspection/carrier/orders/messages, not the agent-visible return_center_export.csv. Per-return failures are listed in reason."
+    },
+    {
+      "id": "sla_references_correct",
+      "check_type": "deterministic_exact",
+      "description": "SLA referencing across all returns (R3 collapse): every return's sla_or_followup_notes references its per-case marketplace_case_id (CASE-901/902/903) or sla_hours_remaining (18/12/33) from sla/marketplace_case_deadlines.csv. Per-return failures listed in reason."
+    },
+    {
+      "id": "customer_response_safe_complete",
+      "check_type": "deterministic_semantic",
+      "description": "Customer-facing communication: outputs/customer_safe_response.md exists, contains every return_id, and contains zero forbidden unsafe terms (fraud, scam, liar, dishonest, abuse, deceptive, false claim, lying, bad faith)."
+    }
+  ]
+}

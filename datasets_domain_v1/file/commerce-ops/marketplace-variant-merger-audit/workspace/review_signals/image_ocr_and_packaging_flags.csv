@@ -1,0 +1,11 @@
+candidate_sku,image_flag,ocr_text,review_note
+TRAIL-750-BLK,none,,plain bottle on white background
+TRAIL-750-BLU,none,,plain bottle on white background
+TRAIL-750-2PK,bundle_packaging,2 PACK VALUE SET,front-face label reads '2 PACK VALUE SET'; carton imagery shows two bottles
+TRAIL-750-GLASS,material_callout,BOROSILICATE GLASS,sticker reads 'BOROSILICATE GLASS'; current parent canonical material is 304 stainless steel
+TRAIL-1000-SIL,size_callout,1000 ML,front-face label reads '1000 ML'
+TRAIL-INFUSER-GRN,accessory_callout,TEA INFUSER INCLUDED,sticker reads 'TEA INFUSER INCLUDED'; secondary image shows infuser basket
+TRAIL-750-RED,none,,plain bottle on white background
+TRAIL-750-BAMBOO,cap_material_callout,BAMBOO LID,cap close-up shows bamboo wood texture
+TRAIL-750-KIDS,age_use_callout,KIDS STRAW 500ML,sticker reads 'KIDS STRAW 500ML'; capacity listed as 500ml
+TRAIL-750-BLK-FBA,duplicate_workflow,FBA PREP BARCODE,UPC root 0123456 matches archived child TRAIL-750-BLK-OLD

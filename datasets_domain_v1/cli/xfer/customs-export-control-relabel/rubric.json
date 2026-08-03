@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "description": "All 3 CLIs (Jira, Todoist, Notion) are accessible and responding",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "source_data_present",
+      "description": "All 5 battery export CSV files are present with expected row counts",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "jira_restricted_set_correct",
+      "description": "Jira issues exist for EXACTLY the 24 restricted suppliers — no misses",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "jira_fields_correct",
+      "description": "Each restricted supplier's Jira issue has correct priority, label, and assignee",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "jira_exempt_absent",
+      "description": "NO Jira issues exist for exempt suppliers (over-application trap)",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "notion_knowledge_base",
+      "description": "Notion database contains classification records for ALL 27 qualified suppliers with rationale",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "todoist_restricted_queue",
+      "description": "Todoist tasks exist ONLY for restricted suppliers, with correct priorities",
+      "type": "deterministic_exact",
+      "weight": 1
+    },
+    {
+      "id": "scope_boundary_precision",
+      "description": "The 3 conditional-category exempt suppliers are correctly classified as EXEMPT (not RESTRICTED) — requires HS sub-code + description analysis",
+      "type": "deterministic_exact",
+      "weight": 1
+    }
+  ]
+}

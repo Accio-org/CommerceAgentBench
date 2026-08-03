@@ -1,0 +1,362 @@
+{
+  "project_key": "PROJ",
+  "server": "https://northbridge.atlassian.net",
+  "pm_login": "pm@northbridge.example.com",
+  "board_id": "100",
+  "cycle_label": "cycle-7",
+  "cycle_capacity": 32,
+  "closed_state": "Done",
+  "duplicate_link_type": "Duplicates",
+  "triage": [
+    {
+      "key": "PROJ-1",
+      "priority": "Highest",
+      "component": "Compliance",
+      "assignee": "priya.nair@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-2",
+      "priority": "Highest",
+      "component": "Compliance",
+      "assignee": "priya.nair@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-3",
+      "priority": "High",
+      "component": "Compliance",
+      "assignee": "priya.nair@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-4",
+      "priority": "Medium",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-5",
+      "priority": "Medium",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-6",
+      "priority": "Low",
+      "component": "Packaging",
+      "assignee": "mara.okafor@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-7",
+      "priority": "Low",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-8",
+      "priority": "Lowest",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-9",
+      "priority": "Low",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-10",
+      "priority": "Highest",
+      "component": "Compliance",
+      "assignee": "priya.nair@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-11",
+      "priority": "Low",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-12",
+      "priority": "Lowest",
+      "component": "Packaging",
+      "assignee": "mara.okafor@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-13",
+      "priority": "High",
+      "component": "Packaging",
+      "assignee": "mara.okafor@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-14",
+      "priority": "Medium",
+      "component": "Compliance",
+      "assignee": "priya.nair@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-15",
+      "priority": "Highest",
+      "component": "Compliance",
+      "assignee": "priya.nair@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-16",
+      "priority": "High",
+      "component": "Compliance",
+      "assignee": "priya.nair@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-17",
+      "priority": "High",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-18",
+      "priority": "Medium",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-19",
+      "priority": "Low",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-20",
+      "priority": "Low",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-21",
+      "priority": "Low",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-22",
+      "priority": "Low",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-23",
+      "priority": "Lowest",
+      "component": "Packaging",
+      "assignee": "mara.okafor@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-24",
+      "priority": "Medium",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-25",
+      "priority": "High",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-26",
+      "priority": "High",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    },
+    {
+      "key": "PROJ-27",
+      "priority": "High",
+      "component": "Engineering",
+      "assignee": "derek.tan@northbridge.example.com"
+    }
+  ],
+  "duplicates": [
+    {
+      "duplicate": "PROJ-28",
+      "canonical": "PROJ-1"
+    },
+    {
+      "duplicate": "PROJ-29",
+      "canonical": "PROJ-2"
+    },
+    {
+      "duplicate": "PROJ-30",
+      "canonical": "PROJ-3"
+    },
+    {
+      "duplicate": "PROJ-31",
+      "canonical": "PROJ-4"
+    },
+    {
+      "duplicate": "PROJ-32",
+      "canonical": "PROJ-5"
+    },
+    {
+      "duplicate": "PROJ-33",
+      "canonical": "PROJ-6"
+    },
+    {
+      "duplicate": "PROJ-34",
+      "canonical": "PROJ-7"
+    },
+    {
+      "duplicate": "PROJ-35",
+      "canonical": "PROJ-8"
+    }
+  ],
+  "canonical_keys": [
+    "PROJ-1",
+    "PROJ-2",
+    "PROJ-3",
+    "PROJ-4",
+    "PROJ-5",
+    "PROJ-6",
+    "PROJ-7",
+    "PROJ-8"
+  ],
+  "distractor_pairs": [
+    [
+      "PROJ-9",
+      "PROJ-3"
+    ],
+    [
+      "PROJ-9",
+      "PROJ-19"
+    ],
+    [
+      "PROJ-10",
+      "PROJ-9"
+    ],
+    [
+      "PROJ-11",
+      "PROJ-4"
+    ],
+    [
+      "PROJ-12",
+      "PROJ-4"
+    ],
+    [
+      "PROJ-12",
+      "PROJ-14"
+    ],
+    [
+      "PROJ-13",
+      "PROJ-6"
+    ],
+    [
+      "PROJ-14",
+      "PROJ-6"
+    ],
+    [
+      "PROJ-14",
+      "PROJ-12"
+    ],
+    [
+      "PROJ-19",
+      "PROJ-9"
+    ],
+    [
+      "PROJ-20",
+      "PROJ-2"
+    ],
+    [
+      "PROJ-21",
+      "PROJ-7"
+    ],
+    [
+      "PROJ-22",
+      "PROJ-5"
+    ]
+  ],
+  "committed_keys": [
+    "PROJ-1",
+    "PROJ-2",
+    "PROJ-3",
+    "PROJ-10",
+    "PROJ-13",
+    "PROJ-15",
+    "PROJ-18",
+    "PROJ-27"
+  ],
+  "committed_points": 30,
+  "overflow_keys": [
+    "PROJ-4",
+    "PROJ-5",
+    "PROJ-6",
+    "PROJ-7",
+    "PROJ-8",
+    "PROJ-9",
+    "PROJ-11",
+    "PROJ-12",
+    "PROJ-14",
+    "PROJ-16",
+    "PROJ-17",
+    "PROJ-19",
+    "PROJ-20",
+    "PROJ-21",
+    "PROJ-22",
+    "PROJ-23",
+    "PROJ-24",
+    "PROJ-25",
+    "PROJ-26"
+  ],
+  "blocked_by": {
+    "PROJ-25": "PROJ-24"
+  },
+  "scored": {
+    "priority_keys": [
+      "PROJ-1",
+      "PROJ-7",
+      "PROJ-8",
+      "PROJ-10",
+      "PROJ-13",
+      "PROJ-15",
+      "PROJ-16",
+      "PROJ-17",
+      "PROJ-18"
+    ],
+    "component_keys": [
+      "PROJ-1",
+      "PROJ-3",
+      "PROJ-6",
+      "PROJ-9",
+      "PROJ-11",
+      "PROJ-12",
+      "PROJ-13",
+      "PROJ-14"
+    ],
+    "assignee_keys": [
+      "PROJ-1",
+      "PROJ-11",
+      "PROJ-13"
+    ],
+    "committed_keys": [
+      "PROJ-10",
+      "PROJ-13",
+      "PROJ-15",
+      "PROJ-18",
+      "PROJ-27"
+    ],
+    "not_committed_keys": [
+      "PROJ-7",
+      "PROJ-16",
+      "PROJ-24",
+      "PROJ-25",
+      "PROJ-26",
+      "PROJ-28"
+    ],
+    "distractor_keys": [
+      "PROJ-9",
+      "PROJ-10",
+      "PROJ-11",
+      "PROJ-12",
+      "PROJ-13",
+      "PROJ-14",
+      "PROJ-19",
+      "PROJ-20",
+      "PROJ-21",
+      "PROJ-22"
+    ]
+  }
+}

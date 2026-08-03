@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-gmail-vendor-brief",
+  "summary": "browser task for vendor-brief mailbox synthesis.",
+  "category": "gmail_browser_ui",
+  "state_kind": "runtime_mock_browser",
+  "difficulty": "hard",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Environment ready: mock state/event log reachable and anti-cheat path diagnostics recorded (plumbing, folded)."
+    },
+    {
+      "id": "labeling_correct",
+      "check_type": "deterministic_exact",
+      "description": "Correct case label created and applied to the right threads while restraining from decoys."
+    },
+    {
+      "id": "marked_read_correct",
+      "check_type": "deterministic_exact",
+      "description": "Case threads were processed (marked read)."
+    },
+    {
+      "id": "starring_correct",
+      "check_type": "deterministic_exact",
+      "description": "True blockers were starred and decoys were not."
+    },
+    {
+      "id": "drafts_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Required draft(s) composed with the expected facts."
+    },
+    {
+      "id": "calendar_event_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Required calendar event(s) constructed with the expected facts."
+    },
+    {
+      "id": "no_messages_sent",
+      "check_type": "deterministic_exact",
+      "description": "Negative restraint: no email was actually sent."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": []
+  },
+  "atomic_checks": [
+    {
+      "id": "mock_state_readable",
+      "check_type": "deterministic_exact",
+      "description": "Gmail mock state is readable."
+    },
+    {
+      "id": "mock_events_readable",
+      "check_type": "deterministic_exact",
+      "description": "Gmail mock event log is readable."
+    },
+    {
+      "id": "no_workspace_or_mcp_tool_calls",
+      "check_type": "deterministic_exact",
+      "description": "Workspace/MCP tool-call events are reported as diagnostics only and do not determine reward."
+    },
+    {
+      "id": "no_direct_api_mutation_events",
+      "check_type": "deterministic_exact",
+      "description": "Raw internal API mutation events are reported as diagnostics only and do not determine reward."
+    },
+    {
+      "id": "ui_action_evidence_present",
+      "check_type": "deterministic_exact",
+      "description": "UI-sourced action events are reported as diagnostics only and do not determine reward."
+    },
+    {
+      "id": "nested_label_created",
+      "check_type": "deterministic_exact",
+      "description": "VBR-52 label was created."
+    },
+    {
+      "id": "required_messages_labeled",
+      "check_type": "deterministic_exact",
+      "description": "Current vendor-brief evidence was labeled."
+    },
+    {
+      "id": "forbidden_messages_not_labeled",
+      "check_type": "deterministic_exact",
+      "description": "Old-price and other-vendor decoys were not labeled."
+    },
+    {
+      "id": "required_messages_marked_read",
+      "check_type": "deterministic_exact",
+      "description": "Vendor-brief evidence was marked read."
+    },
+    {
+      "id": "blockers_starred",
+      "check_type": "deterministic_exact",
+      "description": "Quality and price blockers were starred."
+    },
+    {
+      "id": "decoys_not_starred",
+      "check_type": "deterministic_exact",
+      "description": "Decoys were not starred."
+    },
+    {
+      "id": "required_drafts_saved",
+      "check_type": "deterministic_semantic",
+      "description": "Buyer brief draft contains required facts."
+    },
+    {
+      "id": "calendar_event_created",
+      "check_type": "deterministic_semantic",
+      "description": "Supplier call event was created."
+    },
+    {
+      "id": "no_messages_sent",
+      "check_type": "deterministic_exact",
+      "description": "No email was sent."
+    }
+  ]
+}

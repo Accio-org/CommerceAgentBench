@@ -1,0 +1,6 @@
+From: events@northstar-dtc.com
+To: wen.li@northstar-dtc.com
+Date: Mon, 04 May 2026 07:40
+Subject: VPN maintenance window Sat night
+
+IT: VPN gateway maintenance Saturday 11pm–1am. Expect brief disconnects. No action needed.

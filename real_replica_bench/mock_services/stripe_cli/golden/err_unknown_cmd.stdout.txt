@@ -1,0 +1,2 @@
+Unknown command "frobnicate" for "stripe".
+See "stripe --help" for a list of available commands.

@@ -1,0 +1,65 @@
+{
+  "task_id": "cli-xfer-subscription-anomaly-jira-followup",
+  "description": "Hidden validation contract for the Stripe subscription anomaly to Jira renewal-risk handoff. The verifier derives the in-scope subscription set, customer tier, renewal lead, live Stripe pointers, latest invoice context, and same-tier pairs from the final Stripe state. Jira final state is checked semantically and structurally. The source fingerprint detects Stripe tampering or seed drift.",
+  "jira_project": "PROJ",
+  "epic_summary": "Subscription Renewal Risk - Weekly Triage",
+  "target_state": "In Progress",
+  "fixed_label": "renewal-risk",
+  "issue_type": "Task",
+  "epic_type": "Epic",
+  "default_assignee": "admin@example.com",
+  "tier_rules": {
+    "Tier A": {
+      "tier_code": "A",
+      "tier_label": "tier-a",
+      "jira_priority": "High",
+      "sla_terms": ["reach", "24", "hour"]
+    },
+    "Tier B": {
+      "tier_code": "B",
+      "tier_label": "tier-b",
+      "jira_priority": "Medium",
+      "sla_terms": ["3", "business", "day"]
+    },
+    "Tier C": {
+      "tier_code": "C",
+      "tier_label": "tier-c",
+      "jira_priority": "Low",
+      "sla_terms": ["week"]
+    }
+  },
+  "risk_rules": {
+    "past_due": {
+      "reason": "past_due",
+      "risk_source_label": "from-collections"
+    },
+    "pending_cancel": {
+      "reason": "pending cancellation",
+      "risk_source_label": "from-pending-cancel"
+    },
+    "trialing": {
+      "reason": "trial ending",
+      "risk_source_label": "from-trial"
+    }
+  },
+  "account_health_terms": ["account", "health"],
+  "epic_context_terms": {
+    "balance": ["balance"],
+    "webhook": ["webhook"],
+    "sprint": ["sprint"],
+    "board": ["board"],
+    "project_lead": ["lead"],
+    "reviewer": ["review", "admin@example.com"]
+  },
+  "source_fingerprint": {
+    "customer_count": 5,
+    "subscription_count": 5,
+    "in_scope": [
+      {"customer": "Acme Solar", "tier": "Tier A", "risk_reason": "past_due", "renewal_lead": "Iris Wang"},
+      {"customer": "BluePeak Energy", "tier": "Tier A", "risk_reason": "past_due", "renewal_lead": "Mei Chen"},
+      {"customer": "ChargeFast Inc", "tier": "Tier B", "risk_reason": "pending cancellation", "renewal_lead": "Lina Gomez"},
+      {"customer": "DeltaWatt Logistics", "tier": "Tier B", "risk_reason": "trial ending", "renewal_lead": "Ana Costa"}
+    ],
+    "out_of_scope_customers": ["EverGreen Mobility"]
+  }
+}

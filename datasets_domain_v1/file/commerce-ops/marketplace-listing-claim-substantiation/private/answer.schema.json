@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "claim_decisions",
+    "listing_compliance_summary"
+  ],
+  "properties": {
+    "claim_decisions": {
+      "type": "array",
+      "minItems": 12,
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_id",
+          "decision",
+          "reason_code",
+          "supporting_evidence_ids",
+          "replacement_text",
+          "rationale"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "decision": {
+            "type": "string"
+          },
+          "reason_code": {
+            "type": "string"
+          },
+          "supporting_evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "replacement_text": {
+            "type": "string"
+          },
+          "rationale": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "listing_compliance_summary": {
+      "type": "object",
+      "required": [
+        "approved_claims",
+        "revised_claims",
+        "removed_claims",
+        "needs_more_evidence_claims"
+      ]
+    }
+  }
+}

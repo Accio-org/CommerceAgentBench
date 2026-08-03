@@ -1,0 +1,216 @@
+{
+  "task_id": "cli-xfer-customs-trade-finance-pipeline",
+  "source_csv_dir": "workspace/customs_data",
+  "source_csv_files": [
+    "workspace/customs_data/dongying_us_exports.csv",
+    "workspace/customs_data/zibo_us_exports.csv",
+    "workspace/customs_data/guangzhou_us_exports.csv"
+  ],
+  "source_min_rows": 8000,
+  "total_rows": 8277,
+  "total_unique_suppliers": 1432,
+
+  "qualification_thresholds": {
+    "A": {"min_amount_usd": 2500000, "min_shipments": 40},
+    "B": {"min_amount_usd": 1200000, "min_shipments": 20},
+    "C": {"min_amount_usd": 600000, "min_shipments": 30}
+  },
+
+  "dws_folder_name": "Trade Finance Analysis - 2026-06",
+  "dws_main_doc_name": "US Export Supplier Risk Assessment",
+  "dws_regional_sub_reports": [
+    "Regional Report - dongying",
+    "Regional Report - zibo",
+    "Regional Report - guangzhou"
+  ],
+  "dws_comment_content": "Trade finance pipeline initialized. Review required before invoice finalization.",
+  "dws_permission_users": [
+    "zhang.wei@tradeops.example.com",
+    "li.na@tradeops.example.com",
+    "wang.jun@tradeops.example.com",
+    "chen.mei@tradeops.example.com",
+    "zhao.lin@tradeops.example.com"
+  ],
+
+  "todoist_project_name": "Trade Finance Pipeline - 2026-06",
+  "todoist_sections": {
+    "A": "Priority A Follow-up",
+    "B": "Priority B Follow-up",
+    "C": "Priority C Follow-up",
+    "setup": "Completed Setup"
+  },
+  "todoist_section_rename_pattern": "Priority <X> Follow-up (<N> suppliers)",
+  "todoist_setup_task_content_prefix": "Pipeline setup complete",
+  "todoist_fixed_label": "trade-finance",
+
+  "stripe_tax_rates": [
+    {"display_name": "Dongying Import Tariff", "percentage": 6.5, "region": "dongying"},
+    {"display_name": "Zibo Import Tariff", "percentage": 5.0, "region": "zibo"},
+    {"display_name": "Guangzhou Import Tariff", "percentage": 7.5, "region": "guangzhou"}
+  ],
+  "stripe_coupon_id": "PRIORITY_A_VOLUME",
+  "stripe_coupon_percent_off": 5,
+  "stripe_product_unit_amount": 10000,
+  "stripe_product_currency": "usd",
+
+  "all_hs_chapters": ["28","29","32","38","39","40","48","49","52","61","62","68","69","70","73","82","83","84","87"],
+
+  "qualified_suppliers": [
+    {
+      "supplier": "DONGYING BAOFENG AUTO PARTS CO LTD",
+      "priority": "A",
+      "total_shipments": 633,
+      "total_weight_kg": 21726876.0,
+      "total_amount_usd": 2923724.04,
+      "unique_buyers": 6,
+      "unique_hs_chapters": ["28","32","38","39","48","49","68","87"],
+      "unique_ports": 4,
+      "regions": ["dongying"],
+      "todoist_priority": 1,
+      "todoist_label": "priority-a"
+    },
+    {
+      "supplier": "SUIFENHE BAILIDA ECONOMIC AND TRADE CO LTD",
+      "priority": "A",
+      "total_shipments": 461,
+      "total_weight_kg": 2213502.0,
+      "total_amount_usd": 2778480.0,
+      "unique_buyers": 1,
+      "unique_hs_chapters": ["69","70","73","82"],
+      "unique_ports": 0,
+      "regions": ["zibo"],
+      "todoist_priority": 1,
+      "todoist_label": "priority-a"
+    },
+    {
+      "supplier": "DONGYING PENGJIE YARN DYED FABRIC CO LTD",
+      "priority": "A",
+      "total_shipments": 49,
+      "total_weight_kg": 365417480.0,
+      "total_amount_usd": 2640785.56,
+      "unique_buyers": 17,
+      "unique_hs_chapters": ["52"],
+      "unique_ports": 1,
+      "regions": ["dongying"],
+      "todoist_priority": 1,
+      "todoist_label": "priority-a"
+    },
+    {
+      "supplier": "DONGYING WIN WIN INTERNATIONAL TRADE CO LTD",
+      "priority": "B",
+      "total_shipments": 749,
+      "total_weight_kg": 82247.54,
+      "total_amount_usd": 2004863.91,
+      "unique_buyers": 2,
+      "unique_hs_chapters": ["48","61","62"],
+      "unique_ports": 0,
+      "regions": ["dongying"],
+      "todoist_priority": 2,
+      "todoist_label": "priority-b"
+    },
+    {
+      "supplier": "RUGAO FEILILE CASING CO LTD",
+      "priority": "B",
+      "total_shipments": 206,
+      "total_weight_kg": 697739.0,
+      "total_amount_usd": 1405160.0,
+      "unique_buyers": 1,
+      "unique_hs_chapters": ["70"],
+      "unique_ports": 0,
+      "regions": ["zibo"],
+      "todoist_priority": 2,
+      "todoist_label": "priority-b"
+    },
+    {
+      "supplier": "ZIBO FEIYUAN CHEMICAL CO LTD",
+      "priority": "B",
+      "total_shipments": 21,
+      "total_weight_kg": 294482.2,
+      "total_amount_usd": 1397901.1,
+      "unique_buyers": 8,
+      "unique_hs_chapters": ["29","38","73"],
+      "unique_ports": 3,
+      "regions": ["zibo"],
+      "todoist_priority": 2,
+      "todoist_label": "priority-b"
+    },
+    {
+      "supplier": "DONGYING ZHANGAO RUBBER CO LTD",
+      "priority": "B",
+      "total_shipments": 406,
+      "total_weight_kg": 297393712.0,
+      "total_amount_usd": 1368976.06,
+      "unique_buyers": 7,
+      "unique_hs_chapters": ["40"],
+      "unique_ports": 5,
+      "regions": ["dongying"],
+      "todoist_priority": 2,
+      "todoist_label": "priority-b"
+    },
+    {
+      "supplier": "ZIBO OU MU SPECIAL PAPER CO LTD",
+      "priority": "B",
+      "total_shipments": 38,
+      "total_weight_kg": 447540.0,
+      "total_amount_usd": 1227727.3,
+      "unique_buyers": 6,
+      "unique_hs_chapters": ["48"],
+      "unique_ports": 1,
+      "regions": ["zibo"],
+      "todoist_priority": 2,
+      "todoist_label": "priority-b"
+    },
+    {
+      "supplier": "NONGKEN XINJIANG INTERNATIONAL FREIGHT FORWARDING CO LTD",
+      "priority": "C",
+      "total_shipments": 185,
+      "total_weight_kg": 575454.0,
+      "total_amount_usd": 1152712.0,
+      "unique_buyers": 1,
+      "unique_hs_chapters": ["70"],
+      "unique_ports": 0,
+      "regions": ["zibo"],
+      "todoist_priority": 3,
+      "todoist_label": "priority-c"
+    },
+    {
+      "supplier": "DONGYING HI TECH SPRING CHEMICAL INDUSTRY CO LTD",
+      "priority": "C",
+      "total_shipments": 36,
+      "total_weight_kg": 199413170.0,
+      "total_amount_usd": 859095.78,
+      "unique_buyers": 25,
+      "unique_hs_chapters": ["29"],
+      "unique_ports": 2,
+      "regions": ["dongying"],
+      "todoist_priority": 3,
+      "todoist_label": "priority-c"
+    },
+    {
+      "supplier": "DONGYING SUNFULL MATECH CO LTD",
+      "priority": "C",
+      "total_shipments": 182,
+      "total_weight_kg": 0.0,
+      "total_amount_usd": 705671.0,
+      "unique_buyers": 1,
+      "unique_hs_chapters": ["48","70","73","83","84","87"],
+      "unique_ports": 0,
+      "regions": ["dongying"],
+      "todoist_priority": 3,
+      "todoist_label": "priority-c"
+    },
+    {
+      "supplier": "ZIBO BIG SHOPKEEPER AUTOMOBILE SALES CO LTD",
+      "priority": "C",
+      "total_shipments": 46,
+      "total_weight_kg": 79315.0,
+      "total_amount_usd": 654820.0,
+      "unique_buyers": 46,
+      "unique_hs_chapters": ["87"],
+      "unique_ports": 0,
+      "regions": ["zibo"],
+      "todoist_priority": 3,
+      "todoist_label": "priority-c"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-todoist-sourcing-schedule",
+  "summary": "Triage a 36-card sourcing backlog through the Todoist CLI. The agent must discover the project/sections, list cards with IDs, run todoist show for each card to read the hidden note, then move every original card to either Ready to PO or Re-source with the exact replacement label set. No report file is graded; the live Todoist mock state is the sole deliverable.",
+  "category": "sourcing_procurement_triage",
+  "state_kind": "cli_mock_stateful",
+  "difficulty": "hard",
+  "check_strategy": "private/expected_answer.json drives deterministic checks; the verifier reads the live todoist_cli project state over MOCK_SITE_URL/__bench/state. Binary pass requires all checks. The task is meant to stress correct Todoist CLI operation: ID-based edits, section-name routing, replacement semantics of --label-names, preserving the active card set, and leaving Backlog empty.",
+  "checks": [
+    {"id": "mock_reachable", "check_type": "deterministic_exact", "description": "Todoist bench state is reachable and the sourcing project exists."},
+    {"id": "section::<card>", "check_type": "deterministic_exact", "description": "Each of the 36 original cards is active and in the correct target section: Ready to PO when covered, Re-source when not covered."},
+    {"id": "labels::<card>", "check_type": "deterministic_exact", "description": "Each of the 36 original cards has exactly the expected label set: no labels for covered cards; capability-gap plus every applicable reason label for not-covered cards."},
+    {"id": "exact_active_card_set", "check_type": "deterministic_exact", "description": "The project contains exactly the original 36 active cards, preventing create/delete/duplicate-card shortcuts."},
+    {"id": "backlog_empty", "check_type": "deterministic_exact", "description": "No active card remains in Backlog (to triage)."}
+  ],
+  "notes": "Total checks = 75: 1 mock reachability + 36 section checks + 36 exact-label checks + exact active-card-set + backlog-empty. Capability interpretation remains necessary to choose the state change, but the difficulty is centered on using Todoist CLI mechanics correctly, especially hidden notes and replacement-style label updates."
+}

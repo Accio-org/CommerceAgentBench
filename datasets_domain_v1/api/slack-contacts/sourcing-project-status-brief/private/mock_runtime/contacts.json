@@ -1,0 +1,65 @@
+{
+  "contacts": [
+    {
+      "contact_id": "CT-601",
+      "name": "Susan Ma",
+      "department": "Executive",
+      "title": "COO",
+      "slack_handle": "@coo-susan",
+      "email": "susan.ma@company.com",
+      "aliases": [
+        "COO",
+        "Project Atlas"
+      ]
+    },
+    {
+      "contact_id": "CT-602",
+      "name": "Susan Ma Old",
+      "department": "Executive",
+      "title": "Former COO alias",
+      "slack_handle": "@coo-old",
+      "email": "old-susan@company.com",
+      "aliases": [
+        "stale",
+        "old cache"
+      ]
+    },
+    {
+      "contact_id": "CT-603",
+      "name": "Martin Zhou",
+      "department": "Finance",
+      "title": "Sourcing Finance BP",
+      "slack_handle": "@finance-martin",
+      "email": "martin.zhou@company.com",
+      "aliases": [
+        "margin",
+        "finance"
+      ]
+    },
+    {
+      "contact_id": "CT-604",
+      "name": "Ethan Legal",
+      "department": "Legal",
+      "title": "Commercial Counsel",
+      "slack_handle": "@legal-ethan",
+      "email": "ethan.legal@company.com",
+      "aliases": [
+        "REACH",
+        "RoHS",
+        "compliance"
+      ]
+    },
+    {
+      "contact_id": "CT-605",
+      "name": "Lily HR",
+      "department": "People Ops",
+      "title": "QA Staffing Coordinator",
+      "slack_handle": "@hr-lily",
+      "email": "lily.hr@company.com",
+      "aliases": [
+        "驻厂",
+        "QA staffing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,890 @@
+{
+  "_meta": {
+    "engine": "amazon_product",
+    "asin": "B0DTRW94T7",
+    "fetched_at": 1779458248
+  },
+  "payload": {
+    "search_metadata": {
+      "id": "6a1060c00676dc1dcc76a473",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/Vc5RorShsNsxfD4--mtQWw/6a1060c00676dc1dcc76a473.json",
+      "created_at": "2026-05-22 13:57:20 UTC",
+      "processed_at": "2026-05-22 13:57:20 UTC",
+      "amazon_product_url": "https://www.amazon.com/dp/B0DTRW94T7/?",
+      "raw_html_file": "https://serpapi.com/searches/Vc5RorShsNsxfD4--mtQWw/6a1060c00676dc1dcc76a473.html",
+      "total_time_taken": 3.47
+    },
+    "search_parameters": {
+      "engine": "amazon_product",
+      "asin": "B0DTRW94T7",
+      "amazon_domain": "amazon.com",
+      "device": "desktop"
+    },
+    "product_results": {
+      "asin": "B0DTRW94T7",
+      "title": "Raycon Bone Conduction Headphones Bluetooth - Open Ear Running Headphones, Sweat & Water-Resistant Earbuds with Mic for Sports & Workouts, 13hr Playtime (Gray)",
+      "link": "https://www.amazon.com/Raycon-Conduction-Headphones-Bluetooth-Resistant/dp/B0DTRW94T7/",
+      "link_clean": "https://www.amazon.com/dp/B0DTRW94T7/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DTRW94T7&device=desktop&engine=amazon_product",
+      "badges": [
+        "Limited time deal"
+      ],
+      "variants": [
+        {
+          "title": "Color",
+          "items": [
+            {
+              "position": 1,
+              "asin": "B0DTRW94T7",
+              "name": "Gray",
+              "image": "https://m.media-amazon.com/images/I/31laRO74b6L._SS64_.jpg",
+              "selected": true,
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DTRW94T7&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 2,
+              "asin": "B0DTRLCM4Q",
+              "name": "Blue",
+              "image": "https://m.media-amazon.com/images/I/31YtJuwxnCL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DTRLCM4Q&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 3,
+              "asin": "B0FK5YS5PN",
+              "name": "Mint",
+              "image": "https://m.media-amazon.com/images/I/31zLXwAt2gL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FK5YS5PN&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 4,
+              "asin": "B0DTRSX4PM",
+              "name": "Purple",
+              "image": "https://m.media-amazon.com/images/I/31Ov4fYqPUL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DTRSX4PM&device=desktop&engine=amazon_product"
+            }
+          ]
+        }
+      ],
+      "brand": "Visit the Raycon Store",
+      "thumbnail": "https://m.media-amazon.com/images/I/61oLfMSxEyL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "thumbnails": [
+        "https://m.media-amazon.com/images/I/61oLfMSxEyL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/514FLsYwpOL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61pBrawGydL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71r4Hxucr3L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71z7geiD-6L._AC_SL1500_.jpg"
+      ],
+      "rating": 4.4,
+      "reviews": 998,
+      "bought_last_month": "3K+ bought in past month",
+      "discount": "-15%",
+      "price": "$84.99",
+      "extracted_price": 84.99,
+      "old_price": "$99.99",
+      "extracted_old_price": 99.99,
+      "prime": true,
+      "delivery": [
+        "FREE delivery Wednesday, May 27",
+        "Or Prime members get FREE delivery Tomorrow, May 23. Join Prime"
+      ],
+      "stock": "In Stock"
+    },
+    "purchase_options": {
+      "single_offer": {
+        "price": "$84.99",
+        "extracted_price": 84.99,
+        "delivery": [
+          "FREE delivery Wednesday, May 27",
+          "Or Prime members get FREE delivery Tomorrow, May 23. Join Prime"
+        ],
+        "stock": "In Stock",
+        "features": {
+          "ships_from": {
+            "text": "Amazon",
+            "details": {
+              "heading": "Ships from",
+              "content": "Amazon"
+            }
+          },
+          "sold_by": {
+            "text": "Raycon Inc.",
+            "details": {
+              "heading": "Sold by",
+              "content": "Raycon Inc."
+            },
+            "link": {
+              "text": "Raycon Inc.",
+              "link": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1EIFQX5RJTGSD&asin=B0DTRW94T7&ref_=dp_merchant_link&isAmazonFulfilled=1"
+            }
+          },
+          "returns": {
+            "text": "FREE 30-day refund/replacement",
+            "details": {
+              "heading": "FREE 30-day refund/replacement"
+            },
+            "link": {
+              "text": "See exceptions",
+              "link": "https://www.amazon.com/gp/help/customer/display.html/?nodeId=GKQNFKFK5CF3C54B"
+            }
+          },
+          "support": {
+            "text": "Product support included",
+            "details": {
+              "heading": "What's Product Support?",
+              "content": "In the event your product doesn't work as expected or you need help using it, Amazon offers free product support options such as live phone/chat with an Amazon associate, manufacturer contact information, step-by-step troubleshooting guides, and help videos. By solving product issues, we help the planet by extending the life of products. Availability of support options differ by product and country. Learn more"
+            },
+            "link": {
+              "text": "Learn more",
+              "link": "https://www.amazon.com/ps/product-support?ref_=dp_pls_support&ref_=dp_ret_policy"
+            }
+          }
+        }
+      }
+    },
+    "protection_plan": [
+      {
+        "position": 1,
+        "asin": "B0CG6R18ZR",
+        "link": "https://www.amazon.com/dp/B0CG6R18ZR/",
+        "title": "2-Year Protection Plan",
+        "price": "$11.99",
+        "extracted_price": 11.99
+      },
+      {
+        "position": 2,
+        "asin": "B0CG6SXHCJ",
+        "link": "https://www.amazon.com/dp/B0CG6SXHCJ/",
+        "title": "3-Year Protection Plan",
+        "price": "$15.99",
+        "extracted_price": 15.99
+      },
+      {
+        "position": 3,
+        "asin": "B07RZ3LSHM",
+        "link": "https://www.amazon.com/dp/B07RZ3LSHM/",
+        "title": "Complete Protect: One plan covers all eligible past and future purchases (Best Value)",
+        "price": "$16.99/month",
+        "extracted_price": 16.99
+      }
+    ],
+    "item_specifications": {
+      "brand": "Raycon",
+      "color": "Gray",
+      "ear_placement": "Open Ear",
+      "form_factor": "Open Ear",
+      "impedance": "8 Ohms"
+    },
+    "about_item": [
+      "🎵 BALANCED TUNES WITH BONE CONDUCTION | Powerful audio that doesn’t trap you in. These bone conduction headphones use advanced technology to deliver clear, balanced sound through vibration instead of in-ear pressure. Enjoy music comfortably with headphones that reduce ear fatigue and irritation.",
+      "👂 OPEN-EAR DESIGN FOR SAFER LISTENING | Traditional headphones block your awareness, but these conduction headphones keep your ears completely open. Designed as open ear headphones wireless bluetooth, they help you stay alert and connected to your surroundings—ideal for commuting, workout headphones, and everyday use.",
+      "🏃 BUILT FOR RUNNING & ACTIVE LIFESTYLES | Designed as reliable running headphones, these bone conduction headphones bluetooth stay secure while you move. Whether you’re training outdoors, walking the city, or hitting the gym, these bone headphones deliver consistent sound without slowing you down. With an IP68 rating rain, sweat, storms, and spills won’t stop your music, built to play in all conditions.",
+      "🪶 LIGHTWEIGHT & ERGONOMIC BUILD | Easy on your ears and designed for extended wear, these bone conduction head phones feature a featherlight frame with an ergonomic fit. Move freely all day while enjoying the comfort and stability of modern conduction headphones.",
+      "🎚️ ADJUSTABLE BONE CONDUCTION EARBUDS | Slide the ear buds closer for louder sound or pull them back to increase environmental awareness, letting you control the way you listen—your sound, your way."
+    ],
+    "bought_together": [
+      {
+        "position": 1,
+        "title": "Raycon Bone Conduction Headphones Bluetooth - Open Ear Running Headphones, Sweat & Water-Resistant Earbuds with Mic for Sports & Workouts, 13hr Playtime (Gray)",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61oLfMSxEyL._AC_UL116_SR116,116_.jpg",
+        "price": "$84.99",
+        "extracted_price": 84.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ],
+        "stock": "In Stock"
+      },
+      {
+        "position": 2,
+        "title": "NOUKAJU Charger for Raycon Bone Conduction Headphones, Magnetic USB Charging Cable 3.28ft/100cm,Charger Cable Replacement for Raycon Bone Conduction Headphones(Black)",
+        "link": "https://www.amazon.com/NOUKAJU-Conduction-Headphones-Magnetic-Replacement/dp/B0F2SYP1GD/ref=pd_bxgy_thbs_d_sccl_1/146-9930341-9279544?pd_rd_w=Q9t00&content-id=amzn1.sym.9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_p=9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_r=FZXDP1JBAR560G9HXSEX&pd_rd_wg=UPWQj&pd_rd_r=0c79ee02-4cb4-4b56-9272-1627484e1a4d&pd_rd_i=B0F2SYP1GD&psc=1",
+        "asin": "B0F2SYP1GD",
+        "link_clean": "https://www.amazon.com/NOUKAJU-Conduction-Headphones-Magnetic-Replacement/dp/B0F2SYP1GD/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F2SYP1GD&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51eaHiKbmoL._AC_UL116_SR116,116_.jpg",
+        "price": "$7.98",
+        "extracted_price": 7.98,
+        "price_unit": "$2.43/feet",
+        "extracted_price_unit": 2.43,
+        "delivery": [
+          "Get it as soon as Friday, May 29"
+        ]
+      },
+      {
+        "position": 3,
+        "title": "Ginsco Universal Bone Conduction Headphone Case Compatible with SHOKZ New OpenRun Pro 2/Pro 2 Mini/OpenRun/OpenSwim Open-Ear Sport Headphones, Compatible with MRYTKY/BAICLUD/CXK/Ogogrs etc (Black)",
+        "link": "https://www.amazon.com/Ginsco-Universal-Compatible-Conduction-Headphones/dp/B0DLGLFK89/ref=pd_bxgy_thbs_d_sccl_2/146-9930341-9279544?pd_rd_w=Q9t00&content-id=amzn1.sym.9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_p=9bef5913-5870-4504-8883-3ba89d7f8e39&pf_rd_r=FZXDP1JBAR560G9HXSEX&pd_rd_wg=UPWQj&pd_rd_r=0c79ee02-4cb4-4b56-9272-1627484e1a4d&pd_rd_i=B0DLGLFK89&psc=1",
+        "asin": "B0DLGLFK89",
+        "link_clean": "https://www.amazon.com/Ginsco-Universal-Compatible-Conduction-Headphones/dp/B0DLGLFK89/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DLGLFK89&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/81DdgrDBlcL._AC_UL116_SR116,116_.jpg",
+        "price": "$8.99",
+        "extracted_price": 8.99,
+        "delivery": [
+          "Get it as soon as Wednesday, May 27"
+        ],
+        "stock": "In Stock"
+      }
+    ],
+    "related_products": [
+      {
+        "position": 1,
+        "asin": "B0D2HKQWHX",
+        "title": "SHOKZ New OpenRun Pro 2- Bone Conduction Headphones, Open-Ear Bluetooth Wireless Sport Earphones for Running, Workouts - Sweat Resistant, Secure Comfortable Fit -Deep Bass, Smart Mic, Reflective Strip",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JNhuIhI_rrm8hJCshnrnZ-YAAAGeT_n5_wEAAAH2AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDEgICD-dGPo/clv1c_ek-wBfHXUsbWHn2mJlZegEGXtFX3EhnD3UV20hNoPfUdrTZssTRujkU3a-iMVILRMoAs-sqkT9v3m4GOcX4_cDAihA218b1RmWNA5P2kxK2yzKE6bWu0Dl60YrjzqPFihH4GhcbHkWeiR3CSPXKgmVLfmP0clFHyld3y05d7TQYaQi2ErLvDvjvQj-xElnnUdYk-ps9CHgm8baiV94nyl_MzHdC1Tmom-LojipAx57DURDCKiBIPULZ1UllzsptSFzxnuWa4QtTb2YjveVWpu3ZGrli_obIXSdcbfXra-Sosy9RUVAV6-tg4WBodgz_gFKklFjMdCBxUPU3HJa8C5TOl5FOU7ebY5zu5mGXFANWdoQwruSt7ZibEVEwHGXyGbkZS_vM8VULJRRfn222pgQejFcgpJQfFt_PDdQgz4BAF1tRvYO8TxYY3I4--37RHU2pNpmIpxN0-ps7fXFS-kWdkzVkAdU43wPE1Dv3PHFpibpQRrFGufLUpojc9Aej0wm-KjMD0-cPkfhZKALmN6R4E2RZ4-bz-EkinDlGm8DeSKBB-wupnPlSe53ib79dFDt1fGv8XDpetgVM0wjLU07L0PNLldjIinC1tQT397LMJbfVYuGgBPEXEBG1vucarUK70gNTADVW8WO38LUMh5kaLmObhzQO_VaQLvTWXLUE1XhpvotWaCMv2Xqum12HlKjxq74Zskd_JFfPlfXHnCpQLMJHgA5KT3P1Lav2aO8bZTLM6cAJo0tvRvPYRARjBmePRXepgUQXk0sCX6ofeiNRi5UJ07Y8QN4k641F8fIbzw2vDNUMSeaDDV1HY30mbBKYtbKtHrMHCFPWJxO18h7v3yWPOK0EyX6LozLiwxQO5KFVQxKgLeliF7_9BZVlbhCDApcGeVU2xtVtkXERVEqd5R00by7VsTlhL0_MVrq0dCssQuUHB9xpDYevb5tD3b_ZVOoJ-mGxCxc7Xwk3rgD7TJaSkCgE9sa48Vz0PIN1LaENuagzpLw79wSvWbch7UY4tWq6OfWlW5j6iIROexDm4zM45yI_wWxpq7Ey8m_nh-cJaxCSnwrT75YspAUzTULTaXUsz614nUQzgxl8JgV2Tui1hsgtrjN5oSBfXzNEP6dzUk08ulj_1IJ3iAsq20IMCrhk4tPvIv9dAhdd08asmuWFq3ZQbHOy2FXs-G2KsZ_ucAPrcSUfLzYo_uOOSrtH29FsB9LiSs7vjxoBVc0DlohdUgRGyWJuYToXawFR7HgsMseHhljuubIfUFKneD6rx08iwW1vDckSvVatsLR44kc36eDiE8A2eJSZ0889Uukpf23hvqPuGOiVsExmT7iqdBtxlsi9jlFJ8gdGDNzlfjrYofHdP-hjki4twNl78HMolo76d7En9lOrL5BXtZ_JBTf-Dn1DVmOgsmIPEGtde_XS2EJ0Ts1hEJKeY1WkBK-WEkbPgeUuyUHd6ca4fRs63HXvUDHo_XrZEmLqqwe0BNcKqdHmoY4MxcGyGeZymheLNScpgzLggrgeSG-tlNK72aKvq9MwzQiU3snZYaAnfm2HbN89OHigOXvPshxIi8jYmp3KbfBvxyvqV2VGIJcVOacj6MZ6wIwtGIIE5ZTPc/https://www.amazon.com/gp/aw/d/B0D2HKQWHX/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=80389a851ab41a4ee24d20e1780f50f8&hsa_cr_id=0&sr=1-1-undefined&ref_=sbx_be_dp_arbies_lsi4d_asin_0_bkgd&pd_rd_w=cqe6I&content-id=amzn1.sym.51a4b894-3140-4188-8a98-982f0a412a48&pf_rd_p=51a4b894-3140-4188-8a98-982f0a412a48&pf_rd_r=FZXDP1JBAR560G9HXSEX&pd_rd_wg=UPWQj&pd_rd_r=0c79ee02-4cb4-4b56-9272-1627484e1a4d",
+        "link_clean": "https://www.amazon.com/dp/B0D2HKQWHX/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D2HKQWHX&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41zy4MvQNiL._AC_SR160,134_CB1169409_QL70_.jpg",
+        "rating": 4.5,
+        "reviews": 9878,
+        "prime": true
+      },
+      {
+        "position": 2,
+        "asin": "B0CS3JBP67",
+        "title": "SHOKZ OpenSwim Pro - Open-Ear Bluetooth & MP3 Bone Conduction Sport Headphones, Swimming Headphones, IP68 Waterproof, Grey",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JNhuIhI_rrm8hJCshnrnZ-YAAAGeT_n5_wEAAAH2AQBvbm9fdHhuX2JpZDQgICBvbm9fdHhuX2ltcDEgICD-dGPo/clv1c_ek-wBfHXUsbWHn2mJlZegEGXtFX3EhnD3UV20hNoPfUdrTZssTRujkU3a-iMVILRMoAs-sqkT9v3m4GOcX4_cDAihA218b1RmWNA5P2kxK2yzKE6bWu0Dl60YrjzqPFihH4GhcbHkWeiR3CSPXKgmVLfmP0clFHyld3y05d7TQYaQi2ErLvDvjvQj-xElnnUdYk-ps9CHgm8baiV94nyl_MzHdC1Tmom-LojipAx57DURDCKiBIPULZ1UllzsptSFzxnuWa4QtTb2YjveVWpu3ZGrli_obIXSdcbfXra-Sosy9RUVAV6-tg4WBodgz_gFKklFjMdCBxUPU3HJa8C5TOl5FOU7ebY5zu5mGXFANWdoQwruSt7ZibEVEwHGXyGbkZS_vM8VULJRRfn222pgQejFcgpJQfFt_PDdQgz4BAF1tRvYO8TxYY3I4--37RHU2pNpmIpxN0-ps7fXFS-kWdkzVkAdU43wPE1Dv3PHFpibpQRrFGufLUpojc9Aej0wm-KjMD0-cPkfhZKALmN6R4E2RZ4-bz-EkinDlGm8DeSKBB-wupnPlSe53ib79dFDt1fGv8XDpetgVM0wjLU07L0PNLldjIinC1tQT397LMJbfVYuGgBPEXEBG1vucarUK70gNTADVW8WO38LUMh5kaLmObhzQO_VaQLvTWXLUE1XhpvotWaCMv2Xqum12HlKjxq74Zskd_JFfPlfXHnCpQLMJHgA5KT3P1Lav2aO8bZTLM6cAJo0tvRvPYRARjBmePRXepgUQXk0sCX6ofeiNRi5UJ07Y8QN4k641F8fIbzw2vDNUMSeaDDV1HY30mbBKYtbKtHrMHCFPWJxO18h7v3yWPOK0EyX6LozLiwxQO5KFVQxKgLeliF7_9BZVlbhCDApcGeVU2xtVtkXERVEqd5R00by7VsTlhL0_MVrq0dCssQuUHB9xpDYevb5tD3b_ZVOoJ-mGxCxc7Xwk3rgD7TJaSkCgE9sa48Vz0PIN1LaENuagzpLw79wSvWbch7UY4tWq6OfWlW5j6iIROexDm4zM45yI_wWxpq7Ey8m_nh-cJaxCSnwrT75YspAUzTULTaXUsz614nUQzgxl8JgV2Tui1hsgtrjN5oSBfXzNEP6dzUk08ulj_1IJ3iAsq20IMCrhk4tPvIv9dAhdd08asmuWFq3ZQbHOy2FXs-G2KsZ_ucAPrcSUfLzYo_uOOSrtH29FsB9LiSs7vjxoBVc0DlohdUgRGyWJuYToXawFR7HgsMseHhljuubIfUFKneD6rx08iwW1vDckSvVatsLR44kc36eDiE8A2eJSZ0889Uukpf23hvqPuGOiVsExmT7iqdBtxlsi9jlFJ8gdGDNzlfjrYofHdP-hjki4twNl78HMolo76d7En9lOrL5BXtZ_JBTf-Dn1DVmOgsmIPEGtde_XS2EJ0Ts1hEJKeY1WkBK-WEkbPgeUuyUHd6ca4fRs63HXvUDHo_XrZEmLqqwe0BNcKqdHmoY4MxcGyGeZymheLNScpgzLggrgeSG-tlNK72aKvq9MwzQiU3snZYaAnfm2HbN89OHigOXvPshxIi8jYmp3KbfBvxyvqV2VGIJcVOacj6MZ6wIwtGIIE5ZTPc/https://www.amazon.com/gp/aw/d/B0CS3JBP67/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=80389a851ab41a4ee24d20e1780f50f8&hsa_cr_id=0&sr=1-2-undefined&ref_=sbx_be_dp_arbies_lsi4d_asin_1_bkgd&pd_rd_w=cqe6I&content-id=amzn1.sym.51a4b894-3140-4188-8a98-982f0a412a48&pf_rd_p=51a4b894-3140-4188-8a98-982f0a412a48&pf_rd_r=FZXDP1JBAR560G9HXSEX&pd_rd_wg=UPWQj&pd_rd_r=0c79ee02-4cb4-4b56-9272-1627484e1a4d",
+        "link_clean": "https://www.amazon.com/dp/B0CS3JBP67/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CS3JBP67&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41hEh0T-r5L._AC_SR160,134_CB1169409_QL70_.jpg",
+        "rating": 4.3,
+        "reviews": 2973,
+        "prime": true
+      }
+    ],
+    "videos": [
+      {
+        "position": 1,
+        "title": "I was excited to get them, even overnighted them… BUT",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/fa4d4e4a-c5bd-4cda-b708-671dd4a2a6ba/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/31AzVWBJAXL.jpg",
+        "duration": "0:05",
+        "vendor": "Kyle Bradley",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SL34_.png",
+        "date": "Apr 23, 2026"
+      },
+      {
+        "position": 2,
+        "title": "Raycon Bone Conduction Headphones: Great for Exercise!",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/42c6ffb1-6b07-4b59-8fd5-5221f5f75507/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A1v+u-C+p7L.jpg",
+        "duration": "4:38",
+        "vendor": "Tech Moe",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/41fwefwXQZL._CR0,0,288,288_._FMjpg_._SL34_.jpg",
+        "date": "Feb 28, 2026"
+      },
+      {
+        "position": 3,
+        "title": "Raycon Bone Conduction Headphones - Listen Free, All-day.",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f3b67d45-1552-4c97-9dae-1fa1ef8a9b42/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/41Fle4I7r9L.jpg",
+        "duration": "0:06",
+        "vendor": "Raycon Inc.",
+        "date": "Sep 22, 2025"
+      },
+      {
+        "position": 4,
+        "title": "Open Ear Sport Headphones",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/e136cf75-1fe7-4c08-9fff-90f4d0c18e45/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/61xEA-KuN2L.jpg",
+        "duration": "4:27",
+        "vendor": "Pastorskinner",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/91gI9zSICeL._CR0,0,1536,1536_._FMjpg_._SL34_.jpg",
+        "date": "Jan 24, 2024"
+      },
+      {
+        "position": 5,
+        "title": "Great especially if you don’t like ear buds",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/45c23d03-5134-4c81-b565-e584410826b3/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/31ROIWKKcgL.jpg",
+        "duration": "0:41",
+        "vendor": "Scarlett",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/S/amazon-avatars-global/8a8c6ace-bc02-491b-af7e-6d60b027b500._CR0%2C0%2C500%2C500_SX460_._SL34_.jpeg",
+        "date": "Feb 17, 2026"
+      },
+      {
+        "position": 6,
+        "title": "Honest Review of Raycon Bone Conduction Headphones",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/fd857b17-9cc4-4e98-954e-270a75f36d9d/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/B1z2wPRi8gL.png",
+        "duration": "2:14",
+        "vendor": "🟢 Nate and Lu 🟢",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A1QsboyqkdL._CR0,0,2268,2268_._FMjpg_._SL34_.jpg",
+        "date": "Jan 15, 2026"
+      },
+      {
+        "position": 7,
+        "title": "Using these bone conduction headphones",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/bc934bf9-2955-4c53-a566-25c332e3e343/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/A1HX1VLDZIL.jpg",
+        "duration": "1:03",
+        "vendor": "Nicole",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/61E0Y70efCL._CR2,142,327,327_._FMjpg_._SL34_.jpg",
+        "date": "Dec 29, 2025"
+      },
+      {
+        "position": 8,
+        "title": "2 things you NEED to know BEFORE buying! Honest review!",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/77d40207-2aa1-4a09-b5dd-2264bafab6d6/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/91tUOgkT5NL.jpg",
+        "duration": "7:52",
+        "vendor": "❇️ Chad Brown ❇️",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/B1LS9IZlhjL._CR419,270,1197,1198_._FMjpg_._SL34_.jpg",
+        "date": "Apr 2, 2026"
+      },
+      {
+        "position": 9,
+        "title": "Safety First with these Bone Conduction Headphones",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/dae79c25-1161-4adc-84e0-12e9e3003a5e/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51fUrdfhp-L.jpg",
+        "duration": "1:30",
+        "vendor": "Kara from Karaslivingspace",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/71tOPWzshHL._CR0,0,1280,1280_._FMjpg_._SL34_.jpg",
+        "date": "Apr 27, 2026"
+      },
+      {
+        "position": 10,
+        "title": "Why I think these are the safest headphones",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/ca4f27dc-16b7-4698-bc3c-15fb11b0943f/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/91t4YLZ0PgL.jpg",
+        "duration": "0:30",
+        "vendor": "Claire",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A1DzKccoyTL._CR0,0,2316,2316_._FMjpg_._SL34_.jpg",
+        "date": "Jan 6, 2026"
+      }
+    ],
+    "product_description": [
+      {
+        "position": 1,
+        "title": "bone conduction headphones, sport gym earbuds",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/493bc990-3378-4448-aa98-ee13614cc1d7.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "position": 2
+      },
+      {
+        "position": 3,
+        "title": "bone conduction, open ear headphones, sport running earbuds",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bfbe4fb2-8aa7-47cf-a6dd-582bbca3d7fb.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "position": 4
+      },
+      {
+        "position": 5
+      },
+      {
+        "position": 6,
+        "compare_with_similar": [
+          {
+            "position": 1,
+            "asin": "B095T14D4S",
+            "title": "Raycon Everyday Earbuds",
+            "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d92da8e9-a797-4345-93a9-15d6412f5551.__CR0,0,200,225_PT0_SX200_V1___.png",
+            "link": "https://www.amazon.com/dp/B095T14D4S?ref=emc_p_m_5_i_atc",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B095T14D4S&device=desktop&engine=amazon_product",
+            "rating": 4.3,
+            "reviews": 29980,
+            "price": "$67.00",
+            "extracted_price": 67.0,
+            "playtime_single_charge": "8 Hours",
+            "total_battery_life": "32 Hours",
+            "microphone": "✔",
+            "active_noise_cancelling": "✘",
+            "awareness_mode": "✔",
+            "water_resistance_level": "IPX6",
+            "wireless_charging_compatible": "✔"
+          },
+          {
+            "position": 2,
+            "asin": "B0C1LCYRJ9",
+            "title": "Raycon Fitness Earbuds",
+            "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cf19e0dc-1db5-4dcc-b9be-14456c085beb.__CR0,0,200,225_PT0_SX200_V1___.png",
+            "link": "https://www.amazon.com/dp/B0C1LCYRJ9?ref=emc_p_m_5_i_atc",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C1LCYRJ9&device=desktop&engine=amazon_product",
+            "rating": 4.2,
+            "reviews": 9590,
+            "price": "$101.99",
+            "extracted_price": 101.99,
+            "playtime_single_charge": "12 Hours",
+            "total_battery_life": "56 Hours",
+            "microphone": "✔",
+            "active_noise_cancelling": "✘",
+            "awareness_mode": "✔",
+            "water_resistance_level": "IPX7",
+            "wireless_charging_compatible": "✔"
+          },
+          {
+            "position": 3,
+            "asin": "B0C7XM1P66",
+            "title": "Raycon Impact Earbuds",
+            "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/64839c9f-2e44-4916-b9fe-d41c5e08bdfe.__CR0,0,200,225_PT0_SX200_V1___.png",
+            "link": "https://www.amazon.com/dp/B0C7XM1P66?ref=emc_p_m_5_i_atc",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C7XM1P66&device=desktop&engine=amazon_product",
+            "rating": 4.1,
+            "reviews": 1117,
+            "price": "$127.49",
+            "extracted_price": 127.49,
+            "playtime_single_charge": "12 Hours",
+            "total_battery_life": "90 Hours",
+            "microphone": "✔",
+            "active_noise_cancelling": "✔",
+            "awareness_mode": "✔",
+            "water_resistance_level": "IP67",
+            "wireless_charging_compatible": "✔"
+          },
+          {
+            "position": 4,
+            "asin": "B09HFCY5MP",
+            "title": "Raycon Gaming Earbuds",
+            "thumbnail": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f44d9a32-e302-4662-a6de-c2fb614483cc.__CR444,375,1111,1250_PT0_SX200_V1___.png",
+            "link": "https://www.amazon.com/dp/B09HFCY5MP?ref=emc_p_m_5_i_atc",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09HFCY5MP&device=desktop&engine=amazon_product",
+            "rating": 4.1,
+            "reviews": 936,
+            "playtime_single_charge": "7 Hours",
+            "total_battery_life": "31 Hours",
+            "microphone": "✔",
+            "active_noise_cancelling": "✔",
+            "awareness_mode": "✔",
+            "water_resistance_level": "IPX5",
+            "wireless_charging_compatible": "✔"
+          }
+        ]
+      }
+    ],
+    "product_details": {
+      "brand_name": "Raycon",
+      "model_number": "RBB842-24E",
+      "model_name": "Bone Conduction Headphones",
+      "built_in_media": "Cable",
+      "age_range_description": "Adult",
+      "warranty_description": "1 Year Warranty",
+      "customer_package_type": "Paper Box with Hook",
+      "number_of_items": "1",
+      "upc": "811162032552",
+      "manufacturer": "Raycon Global",
+      "best_sellers_rank": [
+        {
+          "text": "#787 in Electronics (See Top 100 in Electronics)",
+          "extracted_rank": 787,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/ref=pd_zg_ts_electronics",
+          "link_text": "See Top 100 in Electronics"
+        },
+        {
+          "text": "#15 in Open-Ear Headphones",
+          "extracted_rank": 15,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/99530371011/ref=pd_zg_hrsr_electronics",
+          "link_text": "Open-Ear Headphones"
+        }
+      ],
+      "asin": "B0DTRW94T7",
+      "customer_reviews": "4.1 out of 5 stars",
+      "rating": 4.1,
+      "reviews": 998,
+      "headphone_jack": "6.35 mm Jack",
+      "connectivity_technology": "Wireless",
+      "wireless_technology": "Bluetooth",
+      "bluetooth_range": "33 Feet",
+      "bluetooth_version": "5.3",
+      "control_type": "Button Control",
+      "control_method": "Touch",
+      "controller_type": "Button, Touch",
+      "battery_charge_time": "2 Hours",
+      "battery_average_life": "13 Hours",
+      "impedance": "8 Ohms",
+      "noise_control": "None",
+      "frequency_response": "20 KHz",
+      "sensitivity": "91 dB",
+      "audio_driver_type": "Bone Conduction Driver",
+      "audio_driver_size": "16 Millimeters",
+      "frequency_range": "20 Hz - 20,000 Hz",
+      "enclosure_material": "Acrylonitrile Butadiene Styrene (ABS), Silicone",
+      "specific_uses_for_product": "Running, Sports, Travel",
+      "antenna_location": "Cycling, Exercising, Running",
+      "compatible_devices": "Bluetooth-enabled devices, Cellphones, Desktops, Laptops, Tablets",
+      "cable_features": "Magnetic Ping Charging Cable",
+      "water_resistance_level": "Water Resistant",
+      "additional_features": "Bone Conduction Technology",
+      "headphones_ear_placement": "Open Ear",
+      "headphone_folding_features": "Open Ear",
+      "earpiece_shape": "Hook",
+      "color": "Gray",
+      "style_name": "Modern",
+      "unit_count": "1.0 Count"
+    },
+    "sponsored_brands": [
+      {
+        "position": 1,
+        "asin": "B0C5X3YT8D",
+        "title": "CXK Bone Conduction Headphones Bluetooth 6.0 Open Ear Headphones with Mic, Premium Loud Sound 10Hrs Playtime Bluetooth Headphones, IPX6 Waterproof Sports Headset for Running, Cycling, Walking",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JKHMG-qU0aLx65hcgrpeB5MAAAGeT_n6EwEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBi-p2m/clv1c_ek-wxYHXLbbWDdHQVp8JHgIJ7TpWipMXp9uWL7fi3utGAnID3sknHtqGdgFGss31NnA36QAN2qBsrK_A2wEFTy8bfwRzelCjOpmgDy3z5NLwqyFnOzmHXsbx4-MUxjCwTSQ-O7MF1XGLjQlVP8k3HlVrAN2RrkVqkg11yLCm4JS_0eNNF5Pz4nY3tBx0aMOcmT-z8ulHEhv6wQzxfwjhqMARyh97RI5VnA3hhQFi0q0Fjj9HhJRjFiySRXjOeIrEC1aUrnXjQlfrjPK8FBrQ6IH2uANDb4DY3h6haB6mywV_sffrP36Li86TXAqaS17-pDs2PLSQefOWM1qs1gDP2Qe8JgPDA3MYVFxnADbwOeB3bst8SYnKwT2eD-s0IPZxOqiWbRXhvmDAi4MFxUJhr4Bv05rmnbpICwbX2LI1ArW_pJm1dGVGxx8o5yqzhSobKrmzZACYneq-Rgssse45OigJg5cv2Nq_m8KL7QHDlYJCEG9wE6sWdnr-p7uuBVxtr4Rz67O3IGjPbu0hk4T6a0mD_YVlUO49LRswv0CNWhGth9azt3YkkiJG-okqc7r3M6XYthI2wPXBFW0VwIK7L3etq0jHf8WXhiUnf9ZBJLuiuod-Z95HlP9U6IJnY4INS1lDbBrgJBPWP7klVkQXmOHEWLmpBwEj5QP1jmxJiqLKggoqyftebBe7wADvWAkUG6dbtSvjZ-bir9AQdD0VO1O5Apn9MLKuvncrZQ5MOhqDKTPopSlOEASQZQy4jjvr1RsY5TWOsAnJ9P-tE5k-36K_L8kPlorbpm5d4N_Sbd1kxIZ8kuq24egycAh74-Se0O6Z3kejot2UCCBXT3kdvieL0sHtnKNpjScPpUIAv3rs5GRzM8RPN4jLN0R3AhSzOKkJV7tGf3xlSz-tKK4vgNzGnh3NQaGsEbpooUbA46z09QkUlwWCyDAHZLTZYPlDCdqnoLGxzHiUka-pwslnwjLRoDyL_v6fbvH2CxemT5VMRtzEM3Tzlb6QP4k4GjIf5MRZb77O7omJS23j134IMCzm01czaMmqxLi5g7X6zGWOqoWycg1zKt6NHedWlrA447ADMN2DJ5iISYWQhDQMt9Lvjoo8I4e0By2_Q71hcIJ1uTtcP_kGDBJ0o1bIV6tLaVWWwdVFIbfaUD3IsP7-t8wNlJUOidXzJPYGlncBex6dKYjwa7IC50YwGGdp3VAPj-R9qdDuLI2X2MZ_P-16G6vnnR8fiAiYdpAi9sxhayCXPMJBYBwIa1s1XSFKMfK1_hbRRU4h9R5pWaNFpT01-J9K86qRXOnqiup099s-IOAvFQtIMay-8LfGMswO6-dHkWTWMgz93iVXPWWIsaFaT2mRpR9pcbS5CuCex1iTBpowamaCTgsnFv1zIiducH7HZaq3isBXTcRVcidy5DhT8NutOZnyPtxNuZQSg_ZeMJUSaqz1wuO3vjueSQS3-sjFY1NRbbsR8v9FdKVKpbmE3yB1oMT91MKxvYUZccImkg-xHDKxhcdHI8zlWTZ4ndRUnueXSPM6D5lAqwPTBYH1bQB3UAZzpDg/https://www.amazon.com/dp/B0C5X3YT8D/?_encoding=UTF8&pd_rd_i=B0C5X3YT8D&pd_rd_i=B0C5X3YT8D&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=vVq9J&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FZXDP1JBAR560G9HXSEX&pd_rd_wg=UPWQj&pd_rd_r=0c79ee02-4cb4-4b56-9272-1627484e1a4d",
+        "link_clean": "https://www.amazon.com/dp/B0C5X3YT8D/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C5X3YT8D&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/31i-c-iPj-L._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/275991ec-fb57-4e05-8463-8d5b6962748b.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/275991ec-fb57-4e05-8463-8d5b6962748b.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.0,
+        "reviews": 4743,
+        "price": "$45.99",
+        "extracted_price": 45.99
+      },
+      {
+        "position": 2,
+        "asin": "B0D2HKCMBP",
+        "title": "SHOKZ New OpenRun Pro 2- Bone Conduction Headphones, Open-Ear Bluetooth Wireless Sport Earphones for Running, Workouts - Sweat Resistant, Secure Comfortable Fit -Deep Bass, Smart Mic, Reflective Strip",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JLPLhW9vq7krClIeC5HgFT4AAAGeT_n6FAEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICCyJKc0/clv1c_ek-wxYHXLbbWDfHOAIfj8e5gSokx4vL4sbZx5pPjHUsqyvtz1E69MRYxtxsfVhUVaeUIJuMSFoHZUXeIkwAUiyEJ-wBoPjzSa0UUDmjlUh0WO3D__vlQyOz478lEBjK8yC6L_M7QpdoH8i18QZQe-swT4N6SknWq4FQwjjC82dYLTcM3DC5iUkXvXyI6cX-YB8hNo8vIGQnywdTkJ8mCw38evd3_4VxGUEAVj4XZiDJCdjWDyXyHMCQZMkJnVpnAC1Yc1XXjQtTrjBW8FBI0QT1BwriQUA-ad8JmYqwYUYvW3zcebBWdkqZXskeCr11-5Tu3LFTTZ5CeUlqilCDHGxekD725XTXW4OEnGIYgA7fj6mz1XegDH4LPw0xNozdZxnPlowPfnu1FJoxSynfgXgzfe8nn5JqSg-SYOeHdTaSBsbeKRWGxWDiSTTIjnzElnXXIfD3PoyLoobJaWGBpnRrKq4acp6R0yUPVIVexBQZRuU1szdsCJim_rY4ru2rgxpDOPQmzRm6tbC9v2h_jOVDfmxf8luQs9loSDCnVX-K7ZT3D44i61d3YHeCmtntqp-G1dluens7_puCygzsubIXZYMaKxtUmz1F4VeL3qZ5WoLxQgLANG3D0btulSbVo67xtrp2GwSg-pZoD2moPftdce_6vMyeXG0kjYmSPOqrMq3BDS8gTxEIhDZ94p7gJ6y1VlVqmBLqbmCC5GDGL-sBNwMLW4Bk7nxS-pZnUZkJbbFQ2BufCgIPQJQyEjvtKMngGJQUBcTlN0HPE7WhqgNo_wCR9mic2E6BZj7rTZZZJW1NMt1poGqrPm7hR9v2t3ANCavNOQq7KpMlswWF8koYtgzJMy_rKj_wq8n3DYk3inHYUO3fr39lFe9dxldnvbOJXrboBUbmVKADUXDn_Y020i45vuxSsEbpoRXZAozx71Ik0k4Rl23IACW2oa2f5ayOofS80LUUHMReD-Nam96bb4xJYB7rYcPcHRCeXwDY8ZPPeqK2Qpjzq1rSWtEad1pAqDMDu1bCl5Ud7cF7QlBGfdRxucm66vS8s37L_4CqXoSOFonC6r3HQAj8RO1iOBmIeBuggMoeu2e6Ad0zJg8vDR5En6ComQi-kN3Ic5lVpSKEv_XSU3Uk7iGActRpxFpkfDc5-zvYxDJdEBlHoi_FKlX1k8A2qgbwrpaBXLT0gdLDO2MYbpO7SetP2m7Xwb2ZU79R_WzcGsUnIB7JLRaNZlRL7U_zJQFlL7B2y146CkMRi8DAknSLFnmtGjOUzzq50Q7Ig-57A4RiRkG7iyDPWGkbAOfx8QfgbZXPwTzHs0oG7JXxybO2oBp5d2f0JB1xRjGsmXAIcnTVsBHaaBuiuQsIIQbR5M2Tf59YLcw7rlsIC707ywoA5SkOyT3o3AIeGYfyfb2BhMS9vJozVwAa9O9cByx1e9BeJDthzIWG5oMrDWe1Nc_OjKJzG-l6rSemylJ-Icpi7-quboY1_AI8s2yhQqO1OCmfqskAGGky9HDaw0dMKFs5qQRTgWKy1mOCXfSA4gqLmgcHCFGrcpugnNwNk54M/https://www.amazon.com/dp/B0D2HKCMBP/?_encoding=UTF8&pd_rd_i=B0D2HKCMBP&pd_rd_i=B0D2HKCMBP&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=vVq9J&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FZXDP1JBAR560G9HXSEX&pd_rd_wg=UPWQj&pd_rd_r=0c79ee02-4cb4-4b56-9272-1627484e1a4d",
+        "link_clean": "https://www.amazon.com/dp/B0D2HKCMBP/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D2HKCMBP&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/219Zog3I5TL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/229877fa-68fa-494e-9d28-4888698ebc7a.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/229877fa-68fa-494e-9d28-4888698ebc7a.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.5,
+        "reviews": 9882,
+        "price": "$179.95",
+        "extracted_price": 179.95
+      },
+      {
+        "position": 3,
+        "asin": "B0DWSX6FZJ",
+        "title": "PSIER Bone Conduction Headphones IPX8 Waterproof Swimming Headphones Open Ear Headphones with MP3 Mode 32GB Memory Up to 8 Hours Playtime Bluetooth 6.0 Ear Buds Secure Fit for Running and Fitness",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JETXa55hjvGrNjf9QyyEKY4AAAGeT_n6FQEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICAcNebo/clv1c_ek-wBfXWLbTWnevbk7Lok6bZ7Rk-2AoTPsncznBmZaCEJNZ9DY3rZKuIy9Sl6X7Rohp3SY8NHYYfXHAOtE3naAAqMelNfaqVNJuJQfbu_cRXqx0_e9kkjWTl6onU5PkvOVISFB_mbl_x-Ux7nP9x9aS7IdmWpvUz2iSRzbig9IoHiYWuFlozXFs0Qzcw53721lFKp0xEDC1w2cw9d3ilqz_bXB5uDQo9N1a2MhqWSc85wCl-blA2Bkk6An3vOs1AQffxIRLDDx8aP_fquCZ0uPVHu8sMDhnqx6MsKVf8kGqSOJ5xESgs5ex5Dw3wzVOA_BQ4wzhCDJdc5MRR9dw8iDaKEDBjHXM421Ujh42sbKmfXJErd8eKSGd71CGBIYu6OP1tY_h25tqhO_ErC2DSQZBLUN1NKLDYChGbnxKB0TifOdiM9kxUaQqu-lTeNrxc-GSSVQCczfUSXCoaMlE-tY6izfHYLDhyq3Ea8zwgJQbVUk0OpKMUfnh-t3_JD5g8maUPE82ZHDfVFwJLruQyA4Hb-upMQ0tqlubW5NSfED-1O_hMHFegzNcYWNFAyLTyoDiLdCueHf7_5vueAGdPXwS8lN5bZUcQVVNTyjfEHqdnuuEt7awsnz6XMRzOlKrHC5nZLbKUR3Sp-8ON_LOYdRaXApWvmVpR8nqfdGpl4YWiYMd7ocSv5a358mno144wU644lwaouhySiavcEBNpBMjmhg1u1Ti4fGxmBGJFdl1TOsY6ZLmfsuvclAN_BNlv_q3pZHFXT1nXFtCGYeES1t-yzPKZO0-dJRDAlaRKVY9v8N9HDQFqB814BpFkQFz5BIHI0_FYWMxA07mbNOiZIF8mZsAGILND8iIt0B8oJ_OvDjMafWnXos0nHhZvwzAL4LBDECpk_5FK84EbUZBnZ2kAu04gKYO2xh0cwnmz_QiZeHrWMVdvNIFIrxXXz9fst1FkkKSUgsnsE7_o4p1XG7IeSD4n8KmyAOA88T7VdgzXB1j-4yOCc7icJvqb6idj6NYpFjEjrlLoavpF9vLqdu89BrVR7hwTmVTXBF1ZQSLitQJ8LYicp8T7ishRyhq2HdjfD_LqsXNVc0kTebGq8LXPGaJCO_qZIYUz0kj3zYdt6jjIuDpj2Q_ufbghnt_GAG8JXH53K5Rcwceh1j1WX1JZ-l0yxzPK93CzYSloaWcQOxJLK-aKBT9gJ_Y5bOQU5kl5IdoxTeR3Ff0hY4P-PwT4L4m8WXl2bbxLdSCHo41u6jMcpSGV4YUXIVNL0ApLUMu-s_q34y0fDKEaZy9xOgPsKXcgvrJuFi_9lA_lZDzpifzysZKaqgkbQKEGkCGuuAt8xwwrQvg57ZAWfURyP4QS3GyuFRQjui86MA8VA50ANgIugvTUpVc9bSYlj-JZlootwfWzQ8DiX3aqsiM_TjySKivMmaRxGzpS-TsZRu2E2omeQTkYKGsAOvcBWSwL51t3v_-keEp_C6UHh9xiQ-eRAUshEUiN1ykcD9R8jPFGx7JMxdOUotHDkz7IbcYQN0nyx1SYQoM3SpGy0cz-bGzaNvP2Ew/https://www.amazon.com/dp/B0DWSX6FZJ/?_encoding=UTF8&pd_rd_i=B0DWSX6FZJ&pd_rd_i=B0DWSX6FZJ&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=vVq9J&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FZXDP1JBAR560G9HXSEX&pd_rd_wg=UPWQj&pd_rd_r=0c79ee02-4cb4-4b56-9272-1627484e1a4d",
+        "link_clean": "https://www.amazon.com/dp/B0DWSX6FZJ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DWSX6FZJ&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41wmnHdx4uL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/bf0145b5-c599-4fc9-ac4e-3a841a6d2703.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/bf0145b5-c599-4fc9-ac4e-3a841a6d2703.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.4,
+        "reviews": 2272,
+        "price": "$85.99",
+        "extracted_price": 85.99
+      },
+      {
+        "position": 4,
+        "asin": "B0DHXBCL9P",
+        "title": "TOUGH ON Open Ear Bluetooth Headphones, OpenPro Wireless Earbuds with Earhooks, Bluetooth 5.4, Lightweight & Comfortable, 32H Playtime, Dual-Mic Clear Calls, IPX5 Sweat-Resistant for Running, Workout",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JCaAz-JZRa4y8WNNzk9aDWgAAAGeT_n6FgEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBpRJH5/clv1c_ek-wxYfXLbbSTBHUVp4p3gLJ7TlWSpMXp9oWcA_ll4nGsuKUUPXF9F9_gFllGdPOytvF2IEJvd2LLFewi1nBa-gIWwFqXCMnNTk5P6lZ3gJVjRMtpirbFtpi8ll2oFRV_9HYKfKtzIHlaFQLUABX757Tq9dMFlbrmlSci0d6TMMaTW4YVIqBLltyXXDtioKLrxKgBDijT8aJVuhguUHo5iHKFXW3zIayqP82fDwYeioiU8f63dbCO6URtVwaMUoG1uzdmejaQtRPh6rHKWBpwvGD0WT4aM_-fHmZeeJrxq-vNdaxcJLXN39wBITNFhm8yZKknDx7d_F5e8oCZaetY_pqydqvjRcer7zTFxBixGXwEL6Ji6WTSuF1e664NXRIkMIsvNpqH74wVfsyD42EM30sizxZEnvYr1ue1rNCvJNEAQR-hGmILgIXPZHGXDds_OKav2CBdzTyRgstse45OigJg5Eb8VfpIwFMaZRxZK4BToQkiq8Rol3GZzTIS11sr4RzkrO3QGjLby0i3mB3mVI6T0a-yEJFdDsH91yV0KMQ-wzQKovbX965d5MxBqOcZx31g54brnX9WfM3gKFa_yRpum9tv4XWJU9eCWmevUnV5L2uIdw3b18j8CnZpalHSYPzcWHgeQr0h4QoAmE2jQRNywKJSzBkvsGiTROMGJQYR2lWX1PCXIvBXZ7wTKmphfz4rb5uq4sQFpEaqBqO7XYtEwiTHyIujJnxJmw6s0DlcUsnnXy1SmzLr1Ycrkhk_Gt2esIbjxrqqySNxIs3HVyxqf3s3QsHeT830wUnDhqjRQv7-kfYCTL5EiWfqA-5NdF1Hoc51dl4Bai370AoKy4MOfLcUdqc562mKBRqXWATNuAMWX2jRaSfo2R9s7uKQaVs9ygmHPAE5rGRiKM2AoAyDHQE6tmxTwBZ-BfbSsP2dF5kdBt0u3G-PFH5rcJBE2o-FEHwN-DGhyUuL6vjxisuxBKu7i---a6eVPcwgPn7ONaT1ZIIS2DNi_x2KknA3gi9Uf2DaYfLRYBaOyC1Q-yRqh_EDZ6u9QIfuhHHlrFooIKqycbw3byNqVP3WeFbRp5o9y5WgVb7Lrng7Gadj15uVgyC4mAMc70KmuWpljNsK7byrn7CGMJN7awP3y1fSBtoWwoJBJO4dAwbO4VwAO0LOF90qvmXlqhVSPLPypHPJu-czhItd-EuqydSXNz60Zdl29z1ZTaIbnJkPW0xXfKcS33F-fyRKkGO7n0sxds7XWPSa9fwau7D5CUNxFSL41-6BDptcHRgtwRBD613hlnHL_GK_i4KvR44ZnjxkmeGXYkgdiuxQe1RqJEWZtihC4Zx2qYxX_at2cyVK7cFDmQJAH9jVjK_HfuajEwfhceMfskfJTVuwneP_bDAaas2JxLnQzw2MRiPW50y5D6aU4weaBmhDtDUDE2FNPtFcqO4x04oFrKVEUFUb0n4a8YQSPdwcF_HWQVZKnG6pn8TStemZG-F9DTxXDILRuGncFr4fkCfntAGD61pDKueNjCV5m30NGsUHQzjeFmcRMu4V_MKbzwA/https://www.amazon.com/dp/B0DHXBCL9P/?_encoding=UTF8&pd_rd_i=B0DHXBCL9P&pd_rd_i=B0DHXBCL9P&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=vVq9J&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FZXDP1JBAR560G9HXSEX&pd_rd_wg=UPWQj&pd_rd_r=0c79ee02-4cb4-4b56-9272-1627484e1a4d",
+        "link_clean": "https://www.amazon.com/dp/B0DHXBCL9P/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DHXBCL9P&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41HydonuA8L._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/cbc1ae98-1262-4c89-800b-1e945cb5cbb1.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/cbc1ae98-1262-4c89-800b-1e945cb5cbb1.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 3.9,
+        "reviews": 113,
+        "price": "$13.99",
+        "extracted_price": 13.99,
+        "old_price": "$18.99",
+        "extracted_old_price": 18.99
+      },
+      {
+        "position": 5,
+        "asin": "B0D7CDPGR6",
+        "title": "TREBLAB X-Open - True Open Ear Wireless Earbuds, Lightweight Comfort, Behind-Ear Fit, Immersive Sound, Dual Mic for Calls, 40H Playtime, Bluetooth Headphones Open Ear for Sports, Workout, Running",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JIt3kw8u2RjsxhzKOEnKxqUAAAGeT_n6FwEAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICAgFdBq/clv1c_ek-wxfHXUsbWDXWEK8ob8hPASX0CAxjvp39xR4dzPQO7CTEOKP5ewJ4G-EPqqFPG2vTEymAZTtvTO0p7-ktEcQBZ--Xr_8WJsKL3HtXjLNQyu0ezgttp0Oj08alEBrFJgFSfLer1b56CMTxUTFEO8vRLId-Q5tVrMuaxTzqm5qavOaott7bpKmoG5I5YRiSwrXrTZNmJmwfT73zIg2ihq_g_1X-fpGbuCM3V9T1qUPwRD6n3LPFCnPFigmwx-tyGHKZJn-yfH6Ni5KKgMmWR4skPkHwYaMP1RNY2WlLyHRMiT9dcLg192L5zWLpACR-BABtoBCimAF6cLCRhA7oP1OlsGoJu2uLaD5slQ4r1E7wB3u_pVyqRQt2-XrPAGsd-GU2ePA9rh16gcbp07YVg8C5lVBggeRPYlz7H8sZG3oF3bTwGX2UqNQAJ58CxlbhM5DqW4UuQQgf7_qNKGQadFSIPlzl2OZtiUMOXLx0NYcnWMKGXte0R4rEsRA3YK57rrxz2_F3EGGYNbyoY6-IT71lN82BFACR9_Fi8D-HWK6qV1K0jQ9z-0N-BPSd8UxUhOGSwFv-789Y5UCz9xYL9L38QknTBvsNKAxVSS6OX7oFp03Kn3LFtxvcRhaOCSbFMcezUrZ45CZx9UqQFr62eIgiThCCr1j7zvuiAk86OUyi-uiw_tSUv6SRvMB2oXnV_nBDuBP9Occf-V4ZjY5eRqhYMct2kphB6n-c4hw_jNEwplS3E1BSZlbDtNWzNAzkRQs-JJKli5UWMjCgTLeY0oaBad3rmPeENGVoB557hRuCIqXIW6EYFyrNM1Zq6N2IsAluHvXobjr6P4XMx69Ow9Eni0rGMcAe12AK2Drq7K5_ra8BfV0gd3zJojDPo3PRfeRGh56SKEIPg9T0VXR-4pmUWa0UYUpBJ42j-6umPMd0DZTZvz2TEGXrweF5CDX4o_IpP_4JcgKgecIaCaE0S1bT_FVng1kB77eRjqed2yJqlVLKnQQvqay5TCfwXb4pT-oAj5GS6mfYe40lcuCb0YppLaVRrGwgFiaP0TuEetTGA2CO-1IE4HBgreP_Or4RKKPOlTysk6oD5Y1leK4X2XOaQegj0pHeX8yiu8LsNhJWZYxdHm47l41e1t2hQUAsH-_Sz9WBhNSL0gaL8KhifcAgq2m3RGVP8P8fGML5xuV5w8osSc6P96DA5hdonAQF4bbNKZAR65DjwQgIKqFNz9j8xMRqHYsGOCdJrId9Itq5E8qBV4_S0kJF8HCBtIRpiQLdevTbevKGEFfp0CGaaCqsGbjzLhIap2ZkoRwxQu2b2BhekO4ijd2b_FfDYI5thlXtTbKVuysky_iZMwBevkZODBOoNGJ-l5lLfsFFvLjyuprDv678rvp8CSVGLq5ORz7sSCyCVMzJnX2p6c5E4lDgftG3Vc-dBPdezqi-f_YUOaL2UYjZLOnTbHygYS4iU4sh8Y8MnS2WPM4B0kLZi0d68Yior7gfxgas-WpbPbBGq4SwjQb8ew2AyeW5AkjJnbA/https://www.amazon.com/dp/B0D7CDPGR6/?_encoding=UTF8&pd_rd_i=B0D7CDPGR6&pd_rd_i=B0D7CDPGR6&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=vVq9J&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FZXDP1JBAR560G9HXSEX&pd_rd_wg=UPWQj&pd_rd_r=0c79ee02-4cb4-4b56-9272-1627484e1a4d",
+        "link_clean": "https://www.amazon.com/dp/B0D7CDPGR6/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D7CDPGR6&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41Shh4YOh1L._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/756a807d-9d18-44be-b0c7-bc64ff5217d8.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/756a807d-9d18-44be-b0c7-bc64ff5217d8.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.2,
+        "reviews": 144,
+        "price": "$49.97",
+        "extracted_price": 49.97
+      }
+    ],
+    "reviews_information": {
+      "summary": {
+        "text": "Customers find the bone conduction headphones have good sound quality, allowing them to hear their surroundings, and appreciate their functionality for work calls. The comfort and fit receive mixed feedback - while some find them extremely comfortable for all-day wear and stay nicely in place, others report pain from ill-fitting earpieces. The battery life and value for money also get mixed reviews, with some praising the amazing battery life while others find it horrible, and while some consider them worth the price, others say they're not worth it. The proprietary charging cable is a significant drawback for many customers.",
+        "insights": [
+          {
+            "title": "Sound quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 224,
+              "positive": 169,
+              "negative": 55
+            },
+            "summary": "Customers like the sound quality of these headphones, noting they are clear and allow them to hear their surroundings, with one customer mentioning they can hear their toddler's activities.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Fit great. Great sound! Do wish it had a bit more battery life. And need a charger that is normal magnet based as a alternative. It bumps off easy",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1AQJ2JDJJPQSJ"
+              },
+              {
+                "position": 2,
+                "snippet": "The sound is great. I lo ve it in that aspect but I think a need a little smaller size if there is such a thing. Too much space in back....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2YUII0B8XDM9K"
+              },
+              {
+                "position": 3,
+                "snippet": "Comfortable and good sound!",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1YLRBM7QGK22S"
+              },
+              {
+                "position": 4,
+                "snippet": "...Sound quality and comfort were pretty abysmal, but manageable for the price. They stopped charging about a week after the return window closed....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2D17PKR2YIUE6"
+              }
+            ]
+          },
+          {
+            "title": "Quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 125,
+              "positive": 113,
+              "negative": 12
+            },
+            "summary": "Customers find these bone conduction headphones to be of good quality.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Great product. Exactly what I was looking for. Ear canal is open and clear yet sound is great.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1001CE9ODHFRA"
+              },
+              {
+                "position": 2,
+                "snippet": "...The price point was very affordable for such great quality. I highly recommend.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2TCHA6QPEDIZR"
+              },
+              {
+                "position": 3,
+                "snippet": "It is a good product, but the voice connection to Google or Siri doesn’t work well....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1LZS0RLPSTGA2"
+              },
+              {
+                "position": 4,
+                "snippet": "Great headphones. I previously had two other brands that I use daily for cycling....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2NZ32IKDHLWRY"
+              }
+            ]
+          },
+          {
+            "title": "Functionality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 66,
+              "positive": 58,
+              "negative": 8
+            },
+            "summary": "Customers find that the headphones work well, particularly for work calls, and one customer mentions they are effective even with background noise.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "They work great. Good with my glasses too. Not recommended for super loud environments but for listening to music or whatever in those it works great",
+                "link": "https://www.amazon.com/gp/customer-reviews/R38HX3IGHUMYVC"
+              },
+              {
+                "position": 2,
+                "snippet": "Works great exactly what I was looking for for Excercise and activities.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2RXFFANASZ4S"
+              },
+              {
+                "position": 3,
+                "snippet": "These headphones work well. Great sound, are comfortable with Great charger life.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R33WQEAFNWA6YA"
+              },
+              {
+                "position": 4,
+                "snippet": "...The vibration increase with increased volume. But works well.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1EMKGOTPDVGO0"
+              }
+            ]
+          },
+          {
+            "title": "Comfort",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 111,
+              "positive": 65,
+              "negative": 46
+            },
+            "summary": "Customers have mixed experiences with the headphones' comfort: while some find them extremely comfortable for all-day wear, others report that they hurt over the ears and cause discomfort with prolonged use.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...They connect fast, they are comfortable, and can connect to 2 devices simultaneously, easily switching between the 2. I do not regret this purchase....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2UTVA0H674D2A"
+              },
+              {
+                "position": 2,
+                "snippet": "I found them to be very uncomfortable, maybe I have a small head and ears, but there's a lot of torque on my ears, while also turning my ears out....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R274HOSM14Q6W1"
+              },
+              {
+                "position": 3,
+                "snippet": "Great sound and very comfortable. The price was great too. These headphones fit well over the ear. The sound is clear and crisp....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1MQVWF05UO64Y"
+              },
+              {
+                "position": 4,
+                "snippet": "...like they may be good but could not get good contact and they were uncomfortable. May end up gifting them instead.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1CFTGJ9A1U3WD"
+              }
+            ]
+          },
+          {
+            "title": "Fit",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 95,
+              "positive": 53,
+              "negative": 42
+            },
+            "summary": "Customers have mixed opinions about the headphones' fit, with some finding them comfortable on their ears while others report they don't sit snugly against the head and have limited adjustability.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Good sound quality Comfortable fit Vibrations tickle but dont cause headaches Fairly intuitive controls...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2J1TXQACJDYSJ"
+              },
+              {
+                "position": 2,
+                "snippet": "The sound quality is good, but it doesn't fit well, and there is no adjustment to make it fit well on the head....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2ZYM8ECNO31GG"
+              },
+              {
+                "position": 3,
+                "snippet": "Fit great. Great sound! Do wish it had a bit more battery life. And need a charger that is normal magnet based as a alternative. It bumps off easy",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1AQJ2JDJJPQSJ"
+              },
+              {
+                "position": 4,
+                "snippet": "...Mine is layered shoulder length. Kept slipping out of place while doing inside house chores or outside gardening.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R23YOFJYRPTTQC"
+              }
+            ]
+          },
+          {
+            "title": "Battery life",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 71,
+              "positive": 42,
+              "negative": 29
+            },
+            "summary": "Customers have mixed experiences with the headphones' battery life, with some praising its amazing performance while others report it being horrible and needing daily recharging.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Light weight, nice clarity, great battery life, easy volume control. Overall a great investment.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1PD70YMYH5H69"
+              },
+              {
+                "position": 2,
+                "snippet": "They stopped charging after a month....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1DV9MGN077W3K"
+              },
+              {
+                "position": 3,
+                "snippet": "Battery life and sound quality are about what you expect. The connection strength and distance are horrible....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R39A73HMHE1IIQ"
+              },
+              {
+                "position": 4,
+                "snippet": "...Overall, between the missing parts, short battery life, and inconvenient charging setup, I wouldn’t recommend these headphones.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R322N08P0MRVZ7"
+              }
+            ]
+          },
+          {
+            "title": "Value for money",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 44,
+              "positive": 30,
+              "negative": 14
+            },
+            "summary": "Customers have mixed opinions about the headphones' value for money, with some finding them worth the price while others consider them not worth the investment.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Your pink girl is waiting Raycon! Great value. Fit is interesting but good.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2US4IISYP286N"
+              },
+              {
+                "position": 2,
+                "snippet": "...Definitely worth the money.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R39GHG1213TQ7B"
+              },
+              {
+                "position": 3,
+                "snippet": "...Half of the time other people can't hear me. Not worth the money...disappointed",
+                "link": "https://www.amazon.com/gp/customer-reviews/R7T0JABSJT9AU"
+              },
+              {
+                "position": 4,
+                "snippet": "...I purchased them on sale so I got a great deal with was a good value....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2N9KL1BK2EZT1"
+              }
+            ]
+          },
+          {
+            "title": "Charging",
+            "sentiment": "negative",
+            "mentions": {
+              "total": 38,
+              "positive": 7,
+              "negative": 31
+            },
+            "summary": "Customers have mixed feelings about the headphones' charging system, with several mentioning the proprietary charger as a drawback.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Much easier. Not crazy about the proprietary charging cable, one more cable to remember to pack compared to the universal USB-C of the...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3LGA5MWA6SCE6"
+              },
+              {
+                "position": 2,
+                "snippet": "...Only complaint is the magnetic charger. Would be better if it was just USBC.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R4RBO6ET70EXR"
+              },
+              {
+                "position": 3,
+                "snippet": "...Sounds good also. The complaint I have is the charging port....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R21JYK5DGZBAX8"
+              },
+              {
+                "position": 4,
+                "snippet": "Sound quality was good. Didn't like the magnetic charging cable.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2CIYA9RIENYT5"
+              }
+            ]
+          }
+        ],
+        "images": [
+          "https://m.media-amazon.com/images/I/616a8z6BiAL.jpg",
+          "https://m.media-amazon.com/images/I/717RhEjkL+L.jpg",
+          "https://m.media-amazon.com/images/I/71fP5DythQL.jpg",
+          "https://m.media-amazon.com/images/I/61lPeTHFoTL.jpg",
+          "https://m.media-amazon.com/images/I/713ztulaKzL.jpg",
+          "https://m.media-amazon.com/images/I/71xph7ESLhL.jpg",
+          "https://m.media-amazon.com/images/I/71-O5W3K11L.jpg",
+          "https://m.media-amazon.com/images/I/61hq5yayVOL.jpg",
+          "https://m.media-amazon.com/images/I/71z0gjUzdHL.jpg",
+          "https://m.media-amazon.com/images/I/71OEMZcC0xL.jpg",
+          "https://m.media-amazon.com/images/I/61M3sZAiPaL.jpg",
+          "https://m.media-amazon.com/images/I/61SYw97xm1L.jpg"
+        ],
+        "customer_reviews": {
+          "5 star": 63,
+          "4 star": 13,
+          "3 star": 8,
+          "2 star": 6,
+          "1 star": 10
+        }
+      }
+    }
+  }
+}

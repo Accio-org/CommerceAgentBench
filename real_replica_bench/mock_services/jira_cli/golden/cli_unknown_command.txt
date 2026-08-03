@@ -1,0 +1,3 @@
+Error: unknown command "frobnicate" for "jira"
+Run 'jira --help' for usage.
+unknown command "frobnicate" for "jira"

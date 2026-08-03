@@ -1,0 +1,81 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+MOCK_NAME=""
+WORKDIR=""
+PRIVATE_DIR=""
+PORT=""
+TOKEN="${MOCK_VERIFIER_TOKEN:-bench-verifier}"
+SERVICE_ROOT=""
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --mock)
+      MOCK_NAME="$2"; shift 2 ;;
+    --workdir)
+      WORKDIR="$2"; shift 2 ;;
+    --private-dir)
+      PRIVATE_DIR="$2"; shift 2 ;;
+    --port)
+      PORT="$2"; shift 2 ;;
+    --token)
+      TOKEN="$2"; shift 2 ;;
+    --service-root)
+      SERVICE_ROOT="$2"; shift 2 ;;
+    *)
+      echo "unknown option: $1" >&2; exit 2 ;;
+  esac
+done
+
+[[ -n "$MOCK_NAME" ]] || { echo "--mock is required" >&2; exit 2; }
+
+SAFE_NAME="$(printf '%s' "$MOCK_NAME" | tr '[:lower:]' '[:upper:]' | sed 's/[^A-Z0-9]/_/g')"
+DIR_VAR="BENCH_RUNTIME_MOCK_${SAFE_NAME}_DIR"
+PORT_VAR="BENCH_RUNTIME_MOCK_${SAFE_NAME}_PORT"
+
+if [[ -z "$SERVICE_ROOT" ]]; then
+  SERVICE_ROOT="${!DIR_VAR:-/opt/mock_services/$MOCK_NAME}"
+fi
+
+if [[ -z "$PORT" ]]; then
+  PORT="${!PORT_VAR:-}"
+fi
+
+case "$MOCK_NAME" in
+  stripe_cli)
+    START="$SERVICE_ROOT/bin/stripe-daemon-start"
+    PORT="${PORT:-3000}"
+    ;;
+  box_cli)
+    START="$SERVICE_ROOT/bin/box-daemon-start"
+    PORT="${PORT:-3000}"
+    ;;
+  jira_cli)
+    START="$SERVICE_ROOT/bin/jira-daemon-start"
+    PORT="${PORT:-3000}"
+    ;;
+  todoist_cli)
+    START="$SERVICE_ROOT/bin/todoist-daemon-start"
+    PORT="${PORT:-3000}"
+    ;;
+  dws_doc_cli)
+    START="$SERVICE_ROOT/bin/dws-daemon-start"
+    PORT="${PORT:-3020}"
+    ;;
+  notion_cli)
+    START="$SERVICE_ROOT/bin/ntn-daemon-start"
+    PORT="${PORT:-3456}"
+    ;;
+  google_workspace_cli)
+    START="$SERVICE_ROOT/bin/gws-daemon-start"
+    PORT="${PORT:-3081}"
+    ;;
+  *)
+    echo "unsupported daemon_cli mock: $MOCK_NAME" >&2
+    exit 2
+    ;;
+esac
+
+[[ -x "$START" ]] || { echo "daemon starter missing at $START" >&2; exit 2; }
+
+exec "$START" --workdir "$WORKDIR" --private-dir "$PRIVATE_DIR" --port "$PORT" --token "$TOKEN"

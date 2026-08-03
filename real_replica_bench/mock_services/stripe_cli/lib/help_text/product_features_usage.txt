@@ -1,0 +1,33 @@
+Usage:
+  stripe product_features <operation> [parameters...]
+
+Available Operations:
+  create      
+  delete      
+  list        
+  retrieve    
+
+[Agent guidance]
+  Use --api-key to pass your key non-interactively (or set STRIPE_API_KEY).
+  Run stripe --map to quickly see all available commands.
+  Run stripe resources to discover all available API resources.
+  Run stripe [resource] --help to see operations and required/common parameters for a resource.
+  Run stripe help [resource] [operation] to see the full parameter list for a specific operation.
+
+
+Flags:
+  -h, --help   help for product_features
+
+Global Flags:
+      --api-key string        Your API key to use for the command
+      --color string          turn on/off color output (on, off, auto)
+      --config string         config file (default is
+                              $HOME/.config/stripe/config.toml)
+      --device-name string    device name
+      --log-level string      log level (debug, info, trace, warn, error)
+                              (default "info")
+      --map string[="tree"]   Print a command tree [tree|compact|paths|json]
+  -p, --project-name string   the project name to read from for config
+                              (default "default")
+
+Use "stripe product_features [command] --help" for more information about a command.

@@ -1,0 +1,158 @@
+{
+  "task_id": "browser-gmail-compliance-evidence",
+  "label": {
+    "name": "BATT-312",
+    "parent_name": "Compliance"
+  },
+  "label_required_message_ids": [
+    "cmp-001-brief",
+    "cmp-002-un38",
+    "cmp-003-msds",
+    "cmp-004-declaration",
+    "cmp-005-invoice",
+    "cmp-006-forwarder"
+  ],
+  "label_forbidden_message_ids": [
+    "cmp-007-old-un38",
+    "cmp-008-blog",
+    "cmp-009-other-sku"
+  ],
+  "mark_read_message_ids": [
+    "cmp-001-brief",
+    "cmp-002-un38",
+    "cmp-003-msds",
+    "cmp-004-declaration",
+    "cmp-005-invoice",
+    "cmp-006-forwarder"
+  ],
+  "star_required_message_ids": [
+    "cmp-002-un38",
+    "cmp-003-msds",
+    "cmp-006-forwarder"
+  ],
+  "star_forbidden_message_ids": [
+    "cmp-004-declaration",
+    "cmp-007-old-un38",
+    "cmp-008-blog",
+    "cmp-009-other-sku"
+  ],
+  "drafts": [
+    {
+      "id": "supplier-invoice",
+      "to": [
+        "supplier.qa@cellwise.test"
+      ],
+      "cc_any": [
+        "owen.reed@auroraretail.test"
+      ],
+      "subject_all": [
+        "BATT-312",
+        "invoice"
+      ],
+      "body_all": [
+        "lithium-ion accessory kit",
+        "lithium metal",
+        "CW-77",
+        "BATT-312"
+      ]
+    },
+    {
+      "id": "forwarder-hold",
+      "to": [
+        "dgdesk@pacific-forwarder.test"
+      ],
+      "cc_any": [
+        "owen.reed@auroraretail.test"
+      ],
+      "subject_all": [
+        "BATT-312",
+        "DG hold"
+      ],
+      "body_all": [
+        "PF-312-SEA",
+        "DGN",
+        "corrected MSDS",
+        "UN38-B312-C"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "un38-review",
+      "title_all": [
+        "UN38.3",
+        "rev C"
+      ],
+      "details_all": [
+        "UN38-B312-C",
+        "rev B",
+        "BATT-312"
+      ],
+      "due_any": [
+        "今天",
+        "today",
+        "2025-07-08"
+      ]
+    },
+    {
+      "id": "dgn-pack",
+      "title_all": [
+        "DGN",
+        "MSDS"
+      ],
+      "details_all": [
+        "PF-312-SEA",
+        "lithium-ion",
+        "evidence pack"
+      ],
+      "due_any": [
+        "今天",
+        "today",
+        "2025-07-08"
+      ]
+    }
+  ],
+  "calendar_event": {
+    "id": "review",
+    "title_all": [
+      "BATT-312",
+      "evidence",
+      "review"
+    ],
+    "date": "2025-07-08",
+    "start": "15:00",
+    "end": "16:00",
+    "guests_all": [
+      "owen.reed@auroraretail.test",
+      "chen.qa@cellwise.test",
+      "dgdesk@pacific-forwarder.test"
+    ],
+    "description_all": [
+      "UN38-B312-C",
+      "MSDS",
+      "CW-77",
+      "PF-312-SEA"
+    ]
+  },
+  "notes": [
+    {
+      "id": "evidence-note",
+      "text_all": [
+        "BATT-312",
+        "UN38-B312-C",
+        "MSDS",
+        "CW-77",
+        "PF-312-SEA",
+        "lithium-ion"
+      ]
+    }
+  ],
+  "required_ui_events": {
+    "label_created": 1,
+    "message_action": 3,
+    "draft_saved": 2,
+    "task_created": 2,
+    "calendar_event_created": 1,
+    "note_created": 1
+  }
+}

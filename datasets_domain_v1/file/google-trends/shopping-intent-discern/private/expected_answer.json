@@ -1,0 +1,20 @@
+{
+  "comparison": {
+    "sony wf-1000xm5": 43,
+    "bose quietcomfort earbuds (2026)": 34,
+    "bose quietcomfort earbuds (2025)": 24,
+    "jbl live": 18,
+    "beats studio buds": 13,
+    "samsung galaxy buds": 9
+  },
+  "ranking": [
+    "sony wf-1000xm5",
+    "bose quietcomfort earbuds (2026)",
+    "bose quietcomfort earbuds (2025)",
+    "jbl live",
+    "beats studio buds",
+    "samsung galaxy buds"
+  ],
+  "task_id": "trends-shopping-intent-discern",
+  "_note": "index = round(100 * 12mo-mean / global-max-weekly across the 6 final items)"
+}

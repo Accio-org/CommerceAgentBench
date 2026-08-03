@@ -1,0 +1,14 @@
+{
+  "name": "shopify-admin-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-container Shopify Admin mock site (Add Product + Theme Editor) for RealReplicaBench shopify_admin tasks. Runs under Bun + bun:sqlite inside the *-auth-office-shopify-admin derived workstation image.",
+  "scripts": {
+    "start": "bun server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  }
+}

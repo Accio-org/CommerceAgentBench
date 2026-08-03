@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="皮革卡包">
+  <defs>
+    <radialGradient id="hbg" cx="50%" cy="42%" r="72%">
+      <stop offset="0%" stop-color="#f4f1ec"/><stop offset="100%" stop-color="#e4ddd2"/>
+    </radialGradient>
+    <linearGradient id="hleather" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a4326"/><stop offset="100%" stop-color="#5a2f17"/>
+    </linearGradient>
+    <linearGradient id="hpocket" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a4f2d"/><stop offset="100%" stop-color="#6b3a1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#hbg)"/>
+  <ellipse cx="200" cy="300" rx="116" ry="18" fill="#000" opacity="0.12"/>
+  <rect x="150" y="96" width="108" height="70" rx="8" fill="#e8e2d6"/>
+  <rect x="150" y="96" width="108" height="70" rx="8" fill="none" stroke="#c9bfa9" stroke-width="2"/>
+  <rect x="120" y="140" width="160" height="150" rx="16" fill="url(#hleather)"/>
+  <path d="M120 200 q80 26 160 0 v74 q0 16 -16 16 h-128 q-16 0 -16 -16 z" fill="url(#hpocket)"/>
+  <path d="M120 200 q80 26 160 0" fill="none" stroke="#3f2110" stroke-width="3" opacity="0.7"/>
+  <g stroke="#c79a6a" stroke-width="2.5" stroke-dasharray="6 5" opacity="0.8" fill="none">
+    <rect x="132" y="152" width="136" height="126" rx="12"/>
+  </g>
+  <rect x="176" y="246" width="48" height="8" rx="4" fill="#3f2110" opacity="0.5"/>
+</svg>

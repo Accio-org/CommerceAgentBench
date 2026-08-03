@@ -1,0 +1,165 @@
+#!/usr/bin/env bun
+// shopify-bench — verifier-only control binary for the v2 mock backend.
+//
+// NOT on the agent PATH. Wired in via registry.py:
+//   bench_bin="shopify-bench" → installed at
+//   $BENCH_RUNTIME_MOCKS_DIR/shopify_online_store_v2/bin/shopify-bench
+// The host-side verifier (or smoke_test.sh) invokes it via absolute path.
+//
+// Commands:
+//   shopify-bench state   --token <T>        Dump bench-canonical state JSON
+//   shopify-bench seed    --token <T> --file <p>   Replace draft with file contents + save
+//   shopify-bench reset   [--token <T>]      Wipe to seed + clear events (uses /api/reset; no-auth path)
+//   shopify-bench health                     Liveness check
+//
+// State endpoint: GET /__bench/state with Authorization: Bearer <T>
+// Reset endpoint: POST /api/reset (no auth; documented in fact sheet)
+// Seed endpoint:  POST /api/draft then POST /api/save
+
+import { readFileSync } from 'node:fs';
+
+const DEFAULT_URL =
+  process.env.SHOPIFY_MOCK_URL ||
+  process.env.MOCK_SITE_URL ||
+  process.env.BENCH_RUNTIME_MOCK_SHOPIFY_ONLINE_STORE_V2_URL ||
+  'http://127.0.0.1:3098';
+
+function usage(out = process.stdout) {
+  out.write(`Usage: shopify-bench <command> [options]
+
+Commands:
+  state   --token <T>            Dump full bench state JSON
+  seed    --token <T> --file <f> Replace draft with JSON file + save
+  reset   [--token <T>]          Wipe to seed + clear events
+  health                         Check server is running
+
+Env:
+  MOCK_VERIFIER_TOKEN  Default token (overridden by --token)
+  SHOPIFY_MOCK_URL     Backend URL (default ${DEFAULT_URL})
+`);
+}
+
+function parseFlags(argv) {
+  const out = {};
+  for (let i = 0; i < argv.length; i += 1) {
+    const arg = argv[i];
+    if (arg === '--token' || arg === '-t') out.token = argv[++i];
+    else if (arg === '--file' || arg === '-f') out.file = argv[++i];
+    else if (arg === '--url') out.url = argv[++i];
+    else if (arg === '--help' || arg === '-h') out.help = true;
+    else (out._ = out._ || []).push(arg);
+  }
+  if (!out.token) out.token = process.env.MOCK_VERIFIER_TOKEN || '';
+  if (!out.url) out.url = DEFAULT_URL.replace(/\/+$/, '');
+  return out;
+}
+
+async function fetchJson(url, options = {}) {
+  let res;
+  try {
+    res = await fetch(url, options);
+  } catch (err) {
+    throw new Error(`Backend unreachable at ${url}: ${err.message || err}`);
+  }
+  const text = await res.text();
+  let data;
+  try {
+    data = text ? JSON.parse(text) : {};
+  } catch {
+    throw new Error(`Expected JSON from ${url}, got: ${text.slice(0, 200)}`);
+  }
+  if (!res.ok) {
+    const detail = (data && (data.error || data.message)) || res.statusText;
+    throw new Error(`${res.status} ${detail}`);
+  }
+  return data;
+}
+
+async function cmdState(opts) {
+  if (!opts.token) throw new Error('state requires --token (or MOCK_VERIFIER_TOKEN env)');
+  const data = await fetchJson(`${opts.url}/__bench/state`, {
+    method: 'GET',
+    headers: { authorization: `Bearer ${opts.token}` },
+  });
+  process.stdout.write(`${JSON.stringify(data, null, 2)}\n`);
+}
+
+async function cmdSeed(opts) {
+  if (!opts.token) throw new Error('seed requires --token (or MOCK_VERIFIER_TOKEN env)');
+  if (!opts.file) throw new Error('seed requires --file <path-to-json>');
+  let body;
+  try {
+    const raw = readFileSync(opts.file, 'utf8');
+    body = JSON.parse(raw);
+  } catch (err) {
+    throw new Error(`Could not read seed file ${opts.file}: ${err.message || err}`);
+  }
+  // Accept either { draft: {...} } (canonical) or a raw draft object.
+  const draft = body.draft || body;
+  if (!Array.isArray(draft.sections)) {
+    throw new Error('seed payload must contain { sections: [...] } (real or under .draft)');
+  }
+  await fetchJson(`${opts.url}/api/draft`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ draft, reason: 'cli_bench_seed' }),
+  });
+  await fetchJson(`${opts.url}/api/save`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({}),
+  });
+  process.stdout.write(JSON.stringify({ ok: true, sections: draft.sections.length }) + '\n');
+}
+
+async function cmdReset(opts) {
+  // /api/reset has no token gate today (server.js:2772). Keeping that here
+  // matches existing v2 mock behavior; see scratch/docs/cli_alignment/
+  // shopify_cli.md "Open question 2" for the rationale and follow-up.
+  await fetchJson(`${opts.url}/api/reset`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({}),
+  });
+  process.stdout.write(JSON.stringify({ ok: true }) + '\n');
+}
+
+async function cmdHealth(opts) {
+  const data = await fetchJson(`${opts.url}/health`);
+  process.stdout.write(JSON.stringify(data) + '\n');
+}
+
+async function main(argv) {
+  if (argv.length === 0) {
+    usage(process.stderr);
+    return 2;
+  }
+  const [command, ...rest] = argv;
+  const opts = parseFlags(rest);
+  if (opts.help) {
+    usage();
+    return 0;
+  }
+  try {
+    if (command === 'state') return cmdState(opts).then(() => 0);
+    if (command === 'seed') return cmdSeed(opts).then(() => 0);
+    if (command === 'reset') return cmdReset(opts).then(() => 0);
+    if (command === 'health') return cmdHealth(opts).then(() => 0);
+    if (command === 'help' || command === '--help' || command === '-h') {
+      usage();
+      return 0;
+    }
+    process.stderr.write(`shopify-bench: unknown command ${command}\n`);
+    usage(process.stderr);
+    return 2;
+  } catch (err) {
+    process.stderr.write(`shopify-bench: ${err.message || err}\n`);
+    return 1;
+  }
+}
+
+const code = await main(process.argv.slice(2)).catch((err) => {
+  process.stderr.write(`shopify-bench: ${err.message || err}\n`);
+  return 1;
+});
+process.exit(code);

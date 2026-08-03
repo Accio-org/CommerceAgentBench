@@ -1,0 +1,31 @@
+{
+  "parent_sku": "TRAIL-750-PARENT",
+  "marketplace": "Amazon US",
+  "variation_theme": "ColorName",
+  "title": "HydraPeak Trail 750ml Stainless Steel Insulated Bottle",
+  "canonical_attributes": {
+    "capacity": "750ml",
+    "material": "304 stainless steel",
+    "pack_count": 1,
+    "cap_type": "LoopCap v2",
+    "category": "Water Bottles"
+  },
+  "existing_children": [
+    {
+      "child_sku": "TRAIL-750-WHT",
+      "color": "White",
+      "asin": "B0HP750WHT"
+    },
+    {
+      "child_sku": "TRAIL-750-PNK",
+      "color": "Pink",
+      "asin": "B0HP750PNK"
+    },
+    {
+      "child_sku": "TRAIL-750-BLK-OLD",
+      "color": "Black",
+      "asin": "B0HP750BLK",
+      "note": "legacy black child already exists in archived contribution"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Discovered MCP Services:
+
+  doc          钉钉文档（搜索 / 浏览 / 读写 / 上传下载 / 文件 / 文件夹 / 块级编辑 / 评论）
+  schema       查看 MCP 工具 Schema (产品列表 / 工具参数)
+
+Usage:
+  dws <service> [command] [flags]
+  dws <command> [flags]
+
+Utility Commands:
+
+  auth        认证管理
+  help        Help about any command
+  schema      查看 MCP 工具 Schema (产品列表 / 工具参数)
+  version     显示版本信息
+
+Use "dws <service> --help" for more information about a discovered MCP service or "dws <command> --help" for utility commands.
+
+提示: 如果遇到能力缺失、命令报错、新功能未注册、或无法完成任务, 请先用 'dws upgrade' 升级到最新版本后再试. 钉钉 OpenAPI 和 dws CLI 持续迭代, 新能力和 bugfix 会先在新版本上线.

@@ -1,0 +1,58 @@
+{
+  "_note": "APAC is ON HOLD per legal — no products, prices, subscriptions, charges, or coupon for APAC. Customer still created.",
+  "products": [
+    {"name": "TerraCharge Standard (US West Coast)", "region": "US-W", "monthly_cents": 5175, "annual_cents": 51750},
+    {"name": "TerraCharge Standard (US East Coast)", "region": "US-E", "monthly_cents": 4860, "annual_cents": 48600},
+    {"name": "TerraCharge Standard (US Central)", "region": "US-C", "monthly_cents": 4500, "annual_cents": 45000},
+    {"name": "TerraCharge Standard (Europe West)", "region": "EU-W", "monthly_cents": 5940, "annual_cents": 59400},
+    {"name": "TerraCharge Standard (Europe North)", "region": "EU-N", "monthly_cents": 5760, "annual_cents": 57600},
+    {"name": "TerraCharge Pro (US West Coast)", "region": "US-W", "monthly_cents": 14375, "annual_cents": 143750},
+    {"name": "TerraCharge Pro (US East Coast)", "region": "US-E", "monthly_cents": 13500, "annual_cents": 135000},
+    {"name": "TerraCharge Pro (US Central)", "region": "US-C", "monthly_cents": 12500, "annual_cents": 125000},
+    {"name": "TerraCharge Pro (Europe West)", "region": "EU-W", "monthly_cents": 16500, "annual_cents": 165000},
+    {"name": "TerraCharge Pro (Europe North)", "region": "EU-N", "monthly_cents": 16000, "annual_cents": 160000},
+    {"name": "TerraCharge Fleet (US West Coast)", "region": "US-W", "monthly_cents": 45425, "annual_cents": 454250},
+    {"name": "TerraCharge Fleet (US East Coast)", "region": "US-E", "monthly_cents": 42660, "annual_cents": 426600},
+    {"name": "TerraCharge Fleet (US Central)", "region": "US-C", "monthly_cents": 39500, "annual_cents": 395000},
+    {"name": "TerraCharge Fleet (Europe West)", "region": "EU-W", "monthly_cents": 52140, "annual_cents": 521400},
+    {"name": "TerraCharge Fleet (Europe North)", "region": "EU-N", "monthly_cents": 50560, "annual_cents": 505600},
+    {"name": "Maintenance Plan", "region": null, "monthly_cents": 5500, "annual_cents": null},
+    {"name": "Developer API", "region": null, "monthly_cents": 8900, "annual_cents": null}
+  ],
+  "apac_hold": {
+    "no_products_for": "APAC",
+    "customer_created": "AsiaFleet Pte Ltd",
+    "no_subscriptions": true,
+    "no_charges": true,
+    "no_coupon": true
+  },
+  "customers": [
+    {"region": "US-W", "name": "Pacific Coast Energy Co", "email": "procurement@pacificcoast.energy"},
+    {"region": "US-E", "name": "Atlantic Grid Partners", "email": "billing@atlanticgrid.com"},
+    {"region": "US-C", "name": "Heartland EV Alliance", "email": "accounts@heartlandev.org"},
+    {"region": "EU-W", "name": "EuroVolt GmbH", "email": "einkauf@eurovolt.de"},
+    {"region": "EU-N", "name": "NordCharge AS", "email": "faktura@nordcharge.no"},
+    {"region": "APAC", "name": "AsiaFleet Pte Ltd", "email": "finance@asiafleet.sg"}
+  ],
+  "coupons": [
+    {"name": "REGION_US-W", "percent_off": 11},
+    {"name": "REGION_US-E", "percent_off": 10},
+    {"name": "REGION_US-C", "percent_off": 10},
+    {"name": "REGION_EU-W", "percent_off": 13},
+    {"name": "REGION_EU-N", "percent_off": 12}
+  ],
+  "charges": [
+    {"customer_name": "Pacific Coast Energy Co", "amount": 45425},
+    {"customer_name": "Atlantic Grid Partners", "amount": 42660},
+    {"customer_name": "Heartland EV Alliance", "amount": 39500},
+    {"customer_name": "EuroVolt GmbH", "amount": 52140},
+    {"customer_name": "NordCharge AS", "amount": 50560}
+  ],
+  "overrides": [
+    {"customer_name": "EuroVolt GmbH", "adjusted_monthly_cents": 42000},
+    {"customer_name": "AsiaFleet Pte Ltd", "adjusted_monthly_cents": 28000, "_note": "APAC hold means this override is NOT applied"}
+  ],
+  "subscriptions_count": 11,
+  "total_products": 17,
+  "total_prices": 33
+}

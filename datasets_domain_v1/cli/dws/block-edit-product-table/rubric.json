@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-dws-block-edit-product-table",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "notes": "Verifier reads the final dws_doc_cli state and scores the block-level edits to the procurement-calendar document. Capacity checks are folded capability units (per docs/check-granularity.md); each folds the underlying per-spec atomic comparisons by AND.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "DWS mock state reachable and readable (GET /api/state). The lone plumbing gate; a failure short-circuits to this single check."},
+    {"id": "q3_table_built", "check_type": "deterministic_exact", "description": "The Q3 product table was inserted from the 'Q3 2026 New Products' KB doc with all 12 SKUs (NB-JP-PET-025 … NB-AU-DOG-036) and positioned after Q2, before the Procurement Contacts section. Internally validates each of the 12 SKU strings is present in the catalog content AND the last Q3 SKU appears before 'Procurement Contacts'; reason lists any failing atoms."},
+    {"id": "provisional_callout_added", "check_type": "deterministic_exact", "description": "A provisional-pricing callout ('provisional') was added above the Q3 table (appears before the first Q3 SKU NB-JP-PET-025)."},
+    {"id": "q1_entries_removed", "check_type": "deterministic_exact", "description": "All 8 Q1-archive product entries (NB-JP-DOG-017 … NB-DE-PET-024) were removed from the catalog document."},
+    {"id": "existing_body_preserved", "check_type": "deterministic_exact", "description": "Pre-existing body content survives the restructure: all 6 sampled Q2 SKUs remain in the catalog AND the Procurement Contacts footer (sarah.chen@northbridge.co) is preserved."},
+    {"id": "title_renamed", "check_type": "deterministic_exact", "description": "The document title was renamed to the new H2 ('Procurement Calendar') AND the old 'Q2 Procurement Calendar' title is gone."},
+    {"id": "review_comments_preserved", "check_type": "deterministic_exact", "description": "All 5 pre-existing review comments (cmk-inline-03/07/11, cmk-footer-28/31) survive the block edit (each still present exactly once)."},
+    {"id": "jp_inline_comment_added", "check_type": "deterministic_exact", "description": "A new inline comment 'JP market: confirm pricing with Tokyo office' was created (exactly one inline comment with that content)."},
+    {"id": "archive_doc_created", "check_type": "deterministic_exact", "description": "Exactly one document named 'Q1 Archive' was created."},
+    {"id": "archive_permissions_granted", "check_type": "deterministic_exact", "description": "READER permission was granted to both archive reviewers (uid-archive-a and uid-archive-b)."}
+  ]
+}

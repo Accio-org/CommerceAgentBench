@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "api-slack-supplier-quote-thread-consolidation answer",
+  "type": "object",
+  "required": [
+    "primary_supplier_name",
+    "primary_supplier_landed_cost_usd",
+    "primary_supplier_fx_rate_rmb_per_usd",
+    "primary_supplier_fx_handling_load_pct",
+    "primary_supplier_extra_logistics_usd_per_pc",
+    "primary_supplier_cert_authorization_letter_required",
+    "backup_supplier_name",
+    "backup_supplier_landed_cost_usd",
+    "rejected_late_arrival_supplier_name",
+    "rejected_quality_risk_supplier_name",
+    "cost_adjustment_note",
+    "cost_adjusted_landed_cost_usd",
+    "steelpro_latest_unit_price_usd",
+    "steelpro_lfgb_certificate_covers_target_750ml",
+    "landed_cost_budget_usd"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "primary_supplier_name": { "type": "string", "minLength": 1 },
+    "primary_supplier_landed_cost_usd": { "type": "number" },
+    "primary_supplier_fx_rate_rmb_per_usd": { "type": ["number", "null"] },
+    "primary_supplier_fx_handling_load_pct": { "type": ["number", "null"] },
+    "primary_supplier_extra_logistics_usd_per_pc": { "type": "number" },
+    "primary_supplier_cert_authorization_letter_required": { "type": "boolean" },
+    "backup_supplier_name": { "type": "string", "minLength": 1 },
+    "backup_supplier_landed_cost_usd": { "type": "number" },
+    "rejected_late_arrival_supplier_name": { "type": "string", "minLength": 1 },
+    "rejected_quality_risk_supplier_name": { "type": "string", "minLength": 1 },
+    "cost_adjustment_note": { "type": "string", "minLength": 1 },
+    "cost_adjusted_landed_cost_usd": { "type": ["number", "null"] },
+    "steelpro_latest_unit_price_usd": { "type": "number" },
+    "steelpro_lfgb_certificate_covers_target_750ml": { "type": "boolean" },
+    "landed_cost_budget_usd": { "type": "number" }
+  }
+}

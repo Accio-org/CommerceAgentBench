@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "minimum_pass_score": 1.0,
+  "criteria": [
+    {
+      "id": "file_routing",
+      "weight": 0.35,
+      "description": "Original artwork files are moved to the exact launch, legal-review, archive, or intake folders required by the policy."
+    },
+    {
+      "id": "launch_records",
+      "weight": 0.2,
+      "description": "Launch-ready files receive the required comments and each launch SKU folder has exactly one company shared link."
+    },
+    {
+      "id": "legal_review_records",
+      "weight": 0.25,
+      "description": "Legal-review files receive one task with exact review codes and due date, and each legal SKU folder has one viewer collaboration for the legal reviewer."
+    },
+    {
+      "id": "state_hygiene",
+      "weight": 0.2,
+      "description": "No duplicate tasks, comments, collaborations, links, copied files, deleted files, or side-report artifacts are created."
+    }
+  ]
+}

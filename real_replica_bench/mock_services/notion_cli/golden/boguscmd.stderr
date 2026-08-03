@@ -1,0 +1,5 @@
+error: unrecognized subcommand 'boguscmd'
+
+Usage: ntn [OPTIONS] <COMMAND>
+
+For more information, try '--help'.

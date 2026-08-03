@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-reddit-auth-browse",
+  "summary": "Reuse browser session to access local Reddit-like forum, locate target user's posts, and fill outputs/answer.json with structured facts.",
+  "category": "web_auth_and_extraction",
+  "state_kind": "local_mock_browser",
+  "difficulty": "medium",
+  "checks": [
+    {
+      "id": "answer_json_valid_schema",
+      "check_type": "deterministic_exact",
+      "description": "Deliverable produced in the exact required shape: outputs/answer.json exists, is parseable, and conforms to private/answer.schema.json (all required keys, no extras). Unconditional anchor — the only check evaluated when the schema is broken."
+    },
+    {
+      "id": "session_cookie_recognized",
+      "check_type": "deterministic_exact",
+      "description": "Authenticated-browse competency: primary_session_cookie is one of the accepted session cookie name=value pairs from /session/source (string equality after trimming). The rotating decoy cookie reddit_browser_ready is NOT accepted."
+    },
+    {
+      "id": "target_located",
+      "check_type": "deterministic_exact",
+      "description": "Navigated to the correct target: target_username == expected (case-insensitive, no u/ prefix) AND target_subreddit == expected (case-insensitive, no r/ prefix). Internally validates both; per-field failures listed in reason."
+    },
+    {
+      "id": "ppwr_facts_correct",
+      "check_type": "deterministic_exact",
+      "description": "Extracted all 7 EU PPWR regulation facts correctly: effective_date (strict YYYY-MM-DD), recycled_content_min_pct, empty_space_max_pct, dpp_required, epr_per_country_required, penalty_max_eur, penalty_max_revenue_pct. AND of all 7 atoms; per-field failures listed in reason."
+    },
+    {
+      "id": "inspection_economics_correct",
+      "check_type": "deterministic_exact",
+      "description": "Extracted the inspection cost/ROI figures correctly: total_cost_usd, orders_count, savings_usd (±200 tolerance), roi_multiplier (±0.1 tolerance). AND of all 4 atoms; per-field failures listed in reason."
+    },
+    {
+      "id": "inspection_qc_spec_correct",
+      "check_type": "deterministic_exact",
+      "description": "Extracted the QC specification correctly: aql_critical, aql_major, aql_minor, and inspection_stages contains all 3 required stages (case-insensitive; extra non-enum items ignored). AND of all 4 atoms; per-field failures listed in reason."
+    },
+    {
+      "id": "third_party_sourcing_correct",
+      "check_type": "deterministic_exact",
+      "description": "Extracted the third-party / freelance sourcing facts correctly: third_party_threshold_usd, freelance_inspector_min_day_rate_usd, freelance_inspector_max_day_rate_usd. AND of all 3 atoms; per-field failures listed in reason."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "answer.json"
+    ]
+  }
+}

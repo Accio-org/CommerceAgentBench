@@ -1,0 +1,5 @@
+sku,requested_exception,merchant_evidence,review_note
+AROMA-SPRAY-100,keep two-day air promise,supplier states the consumer aerosol is small,supplier provided unilateral attestation; verify against SDS and carrier rules
+LED-LANTERN-BATT,allow air as battery packed with equipment,inner box has lithium mark; no Wh photo attached,submission packet does not include outer marking or watt-hour evidence
+PERFUME-ROLLER-30,limited quantity ground and maybe air,30ml per bottle and four per order,merchant cites fill volume and units per order; verify against carrier limited-quantity tables
+TRAIL-750-BLK,no DG review needed,non-regulated SDS,merchant claims non-regulated; verify SDS transport classification before clearing

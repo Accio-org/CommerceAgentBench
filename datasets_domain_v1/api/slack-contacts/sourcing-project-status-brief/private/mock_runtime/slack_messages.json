@@ -1,0 +1,115 @@
+{
+  "messages": [
+    {
+      "message_id": "msg_4101",
+      "sender": "@coo-old",
+      "channel": "DM",
+      "content": "我需要 Project Atlas 的综合状态报告，用于明天的大客户采购评审会。请覆盖样品、报价、合规、物流、财务和供应商产能。不要直接联系客户董事会。",
+      "timestamp": "2026-04-22T08:00:00+08:00",
+      "is_read": false,
+      "tags": [
+        "important"
+      ]
+    },
+    {
+      "message_id": "msg_4102",
+      "sender": "@sourcing-iris",
+      "channel": "#project-atlas",
+      "content": "供应商 SunWeave 报价已从 USD 2.18/pc 更新到 USD 2.05/pc，但条件是 MOQ 从 30k 提到 50k。样品 A 昨天看起来通过了外观检查。",
+      "timestamp": "2026-04-22T08:30:00+08:00",
+      "is_read": false,
+      "tags": [
+        "sourcing"
+      ]
+    },
+    {
+      "message_id": "msg_4103",
+      "sender": "@qa-leo",
+      "channel": "#project-atlas",
+      "content": "更正：样品 A 不是完全通过。第一版色牢度失败；今天 10:00 收到的修正版样品 B 已通过色牢度和拉力测试，但仍缺第三方检测报告编号。",
+      "timestamp": "2026-04-22T10:05:00+08:00",
+      "is_read": false,
+      "tags": [
+        "qa"
+      ]
+    },
+    {
+      "message_id": "msg_4104",
+      "sender": "@logistics-nina",
+      "channel": "#project-atlas",
+      "content": "物流计划更新：若 4/26 前确认 PO，宁波 5/8 ETD 仍可赶上；如果 4/29 后才确认，只能走 30% 空运补货，预计增加 USD 12,600。",
+      "timestamp": "2026-04-22T10:20:00+08:00",
+      "is_read": false,
+      "tags": [
+        "logistics"
+      ]
+    },
+    {
+      "message_id": "msg_4105",
+      "sender": "@finance-temp",
+      "channel": "#project-atlas",
+      "content": "旧口径：按 USD 2.18 成本和 8% 平台服务费，毛利率约 18%。这个数字还没考虑新 MOQ 和空运风险。",
+      "timestamp": "2026-04-21T17:00:00+08:00",
+      "is_read": false,
+      "tags": [
+        "finance",
+        "stale"
+      ]
+    },
+    {
+      "message_id": "msg_4106",
+      "sender": "@legal-ethan",
+      "channel": "#project-atlas",
+      "content": "客户合同要求 REACH + RoHS + recycled content declaration。RoHS 有现成报告；REACH 报告过期，需要供应商补 2026 版。声明可以由供应商先出，但法务需要复核措辞。",
+      "timestamp": "2026-04-22T10:45:00+08:00",
+      "is_read": false,
+      "tags": [
+        "legal"
+      ]
+    },
+    {
+      "message_id": "msg_4107",
+      "sender": "@sales-mia",
+      "channel": "#project-atlas",
+      "content": "客户最关心 6/5 上架。销售想承诺全量 50k 走海运到 LA；但如果 PO 晚于 4/26，我不确定物流还能保证。",
+      "timestamp": "2026-04-22T11:00:00+08:00",
+      "is_read": false,
+      "tags": [
+        "sales"
+      ]
+    },
+    {
+      "message_id": "msg_4108",
+      "sender": "@supplier-note",
+      "channel": "#project-atlas",
+      "content": "SunWeave 产线 2 下周保养 2 天。销售说不影响，但供应商运营私下说如果 50k 全量订单，首批只能保证 35k 在 5/2 前出厂。",
+      "timestamp": "2026-04-22T11:20:00+08:00",
+      "is_read": false,
+      "tags": [
+        "supplier"
+      ]
+    },
+    {
+      "message_id": "msg_4109",
+      "sender": "@ops-chen",
+      "channel": "#project-atlas",
+      "content": "包装刀模确认完成；但是彩盒英文警示语还等法务确认。不要把 packaging 标成 green。",
+      "timestamp": "2026-04-22T11:35:00+08:00",
+      "is_read": false,
+      "tags": [
+        "ops"
+      ]
+    },
+    {
+      "message_id": "msg_4110",
+      "sender": "@hr-lily",
+      "channel": "#project-atlas",
+      "content": "驻厂 QA 排班有缺口：王工 4/25-4/27 请假。如果要盯样品 B 的 500pc 小批，需要从杭州临时调 Alice Q。",
+      "timestamp": "2026-04-22T11:50:00+08:00",
+      "is_read": false,
+      "tags": [
+        "hr"
+      ]
+    }
+  ]
+}

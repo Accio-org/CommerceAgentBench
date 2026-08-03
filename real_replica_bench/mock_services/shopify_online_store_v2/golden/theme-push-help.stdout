@@ -1,0 +1,91 @@
+Uploads your local theme files to the connected store, overwriting the remote version if specified.
+
+USAGE
+  $ shopify theme push
+  $ shopify theme push --unpublished --json
+
+FLAGS
+  -a, --allow-live                   Allow push to a live theme.
+  -c, --development-context=<value>  Unique identifier for a development theme
+                                     context (e.g., PR number, branch name).
+                                     Reuses an existing development theme with
+                                     this context name, or creates one if none
+                                     exists.
+  -d, --development                  Push theme files from your remote
+                                     development theme.
+  -e, --environment=<value>...       The environment to apply to the current
+                                     command.
+  -j, --json                         Output the result as JSON. Automatically
+                                     disables color output.
+  -l, --live                         Push theme files from your remote live
+                                     theme.
+  -n, --nodelete                     Prevent deleting remote files that don't
+                                     exist locally.
+  -o, --only=<value>...              Upload only the specified files (Multiple
+                                     flags allowed). Wrap the value in double
+                                     quotes if you're using wildcards.
+  -p, --publish                      Publish as the live theme after uploading.
+  -s, --store=<value>                Store URL. It can be the store prefix
+                                     (example) or the full myshopify.com URL
+                                     (example.myshopify.com,
+                                     https://example.myshopify.com).
+  -t, --theme=<value>                Theme ID or name of the remote theme.
+  -u, --unpublished                  Create a new unpublished theme and push to
+                                     it.
+  -x, --ignore=<value>...            Skip uploading the specified files
+                                     (Multiple flags allowed). Wrap the value in
+                                     double quotes if you're using wildcards.
+      --listing=<value>              The listing preset to use for multi-preset
+                                     themes. Applies preset files from
+                                     listings/[preset-name] directory.
+      --no-color                     Disable color output.
+      --password=<value>             Password generated from the Theme Access
+                                     app or an Admin API token.
+      --path=<value>                 The path where you want to run the command.
+                                     Defaults to the current working directory.
+      --strict                       Require theme check to pass without errors
+                                     before pushing. Warnings are allowed.
+      --verbose                      Increase the verbosity of the output.
+
+DESCRIPTION
+  Uploads your local theme files to the connected store, overwriting the remote
+  version if specified.
+
+  Uploads your local theme files to Shopify, overwriting the remote version if
+  specified.
+
+  If no theme is specified, then you're prompted to select the theme to
+  overwrite from the list of the themes in your store.
+
+  You can run this command only in a directory that matches the "default Shopify
+  theme folder structure"
+  (https://shopify.dev/docs/themes/tools/cli#directory-structure).
+
+  This command returns the following information:
+
+  - A link to the "editor" (https://shopify.dev/docs/themes/tools/online-editor)
+  for the theme in the Shopify admin.
+  - A "preview link" (https://help.shopify.com/manual/online-store/themes/adding
+  -themes#share-a-theme-preview-with-others) that you can share with others.
+
+  If you use the `--json` flag, then theme information is returned in JSON
+  format, which can be used as a machine-readable input for scripts or
+  continuous integration.
+
+  Sample output:
+
+  ```json
+  {
+  "theme": {
+  "id": 108267175958,
+  "name": "MyTheme",
+  "role": "unpublished",
+  "shop": "mystore.myshopify.com",
+  "editor_url":
+  "https://mystore.myshopify.com/admin/themes/108267175958/editor",
+  "preview_url": "https://mystore.myshopify.com/?preview_theme_id=108267175958"
+  }
+  }
+  ```
+
+

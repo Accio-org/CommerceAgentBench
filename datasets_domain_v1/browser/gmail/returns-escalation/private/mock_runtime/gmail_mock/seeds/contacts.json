@@ -1,0 +1,20 @@
+[
+  {
+    "id": "contact-dana",
+    "name": "Dana Park",
+    "email": "dana.park@auroraretail.test",
+    "phone": "",
+    "notes": "Returns escalation lead",
+    "source": "directory",
+    "color": "#1a73e8"
+  },
+  {
+    "id": "contact-vip",
+    "name": "VIP Support",
+    "email": "vip-support@auroraretail.test",
+    "phone": "",
+    "notes": "Support queue",
+    "source": "directory",
+    "color": "#188038"
+  }
+]

@@ -1,0 +1,8 @@
+label_type,available,quantity,applies_to
+limited_quantity_diamond,yes,120,ground limited quantity packages
+lithium_battery_mark,yes,40,outer package for lithium battery shipments
+class_5_1_oxidizer,yes,50,oxidizer packages
+class_3_flammable_liquid,yes,60,non-LQ flammable liquid packages
+overpack_label,yes,30,multi-unit overpack consolidation
+orientation_arrows,yes,200,orientation marking on aerosol/liquid cartons
+fragile_label,yes,300,general fragile handling

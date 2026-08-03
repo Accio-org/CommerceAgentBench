@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-web-research-electric-cargo-tricycle-market-report",
+  "summary": "北美 Electric Cargo Tricycle 多渠道归一化机会报告. xlsx + csv + json + md + 4 截图. 8 checks: deliverables_schema_valid (折叠 8 schema 原子) + outputs_dir 负向 + 6 LLM 能力 (推荐/排除一致性/归一化数学/渠道风险/未见处理/防造假).",
+  "category": "documents_reports",
+  "state_kind": "synthesize",
+  "difficulty": "hard",
+  "checks": [
+    {
+      "id": "deliverables_schema_valid",
+      "check_type": "deterministic_exact",
+      "description": "All required deliverables are produced in the mandated schema (folded capability unit; per-sub failures surface in reason). Internally validates: xlsx exists+parseable; workbook has all 6 sheets ('Alibaba.com','Amazon','Walmart','Brand Sites','Normalized Comparison','Opportunity Matrix'); per-sheet min rows (>=2 channel sheets, Normalized Comparison>=10, Opportunity Matrix>=3); market_report_notes.md >=500 chars with terms 'Alibaba.com','Amazon','Walmart','Brand Sites','未见'; evidence_manifest.json parseable with channels of length 4 in fixed order, each sources>=1/records>=1/non-empty screenshot and 'record_id' substring; normalized_comparison.csv has required columns (record_id, channel, product_name, exclusion_reason, payload_lb, motor_w, evidence_confidence, opportunity_score) and terms 'ALI-EEC-BOX-60V','BR-LECTRIC-XP-TRIKE2','not_electric_cargo_tricycle','moq_exceeds_pilot_limit'; channel_decision_matrix.json has fields recommended_record_id/top_alternatives/excluded_records/channel_risks and terms 'BR-LECTRIC-XP-TRIKE2','Alibaba','未见'; all 4 evidence screenshots are valid images."
+    },
+    {
+      "id": "outputs_dir_has_only_declared_files",
+      "check_type": "deterministic_exact",
+      "description": "outputs/ contains only the 5 root files + evidence/ subdir; evidence/ contains only the 4 declared screenshots."
+    },
+    {
+      "id": "recommendation_grounded_in_normalized_comparison",
+      "check_type": "llm_judge_boolean",
+      "description": "Is channel_decision_matrix.recommended_record_id present in normalized_comparison.csv as a non-excluded record (exclusion_reason empty), AND does it have a high opportunity_score consistent with the 'Opportunity Matrix' sheet's top entry?"
+    },
+    {
+      "id": "exclusions_consistent_across_csv_and_decision_matrix",
+      "check_type": "llm_judge_boolean",
+      "description": "Are records that have non-empty exclusion_reason in normalized_comparison.csv reflected in channel_decision_matrix.excluded_records with the same reason_code? Reject if the CSV excludes records that are recommended in the matrix, or vice versa."
+    },
+    {
+      "id": "normalization_math_consistent_with_policy",
+      "check_type": "llm_judge_boolean",
+      "description": "Does normalized_comparison.csv apply the normalization_policy.json correctly? Specifically: CNY records converted to USD using 0.138; kg payloads converted to lb using 2.20462; opportunity_score in [0,100]; price band fit / payload fit / motor fit interpreted reasonably. Spot-check at least 2 rows; reject if math is clearly wrong."
+    },
+    {
+      "id": "channel_risks_4_risks_documented",
+      "check_type": "llm_judge_boolean",
+      "description": "Does channel_decision_matrix.channel_risks have entries for at least 3 of the 4 channels (Alibaba.com / Amazon / Walmart / Brand Sites), each with a substantive risk description (>10 chars, not generic 'inventory risk')?"
+    },
+    {
+      "id": "blocked_or_partial_pages_handled_via_未见",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the report consistently use '未见' or 'blocked' (instead of fabricated values) for fields/pages marked as inaccessible in market_research_dump.json or in real browsing? Spot-check evidence_manifest.invisible_fields and notes."
+    },
+    {
+      "id": "no_fabricated_sales_or_price_signals",
+      "check_type": "llm_judge_boolean",
+      "description": "Yes/no: every specific sales-rank, units-sold, review-count, or price-tier number in the workbook + notes can be traced to either market_research_dump.json or a manifest source URL. Answer 'no' if you find ANY invented number."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "Electric_Cargo_Tricycle_Market_Report.xlsx",
+      "market_report_notes.md",
+      "evidence_manifest.json",
+      "normalized_comparison.csv",
+      "channel_decision_matrix.json",
+      "evidence/alibaba.png",
+      "evidence/amazon.png",
+      "evidence/walmart.png",
+      "evidence/brand_site.png"
+    ]
+  }
+}

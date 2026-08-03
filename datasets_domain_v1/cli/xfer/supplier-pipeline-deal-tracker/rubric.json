@@ -1,0 +1,88 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1,
+  "task_id": "cli-xfer-supplier-pipeline-deal-tracker",
+  "summary": "Cross-system migration from a read-only Notion supplier/PO source into a Jira Q3 supplier deal room. A correct run derives the qualifying suppliers at company level, computes normal-PO volume, Deal Size, priority, owner, and category labels from source data and the workbook, then creates an auditable Jira epic plus per-supplier Tasks in PROJ.",
+  "category": "cross_system_pipeline_migration",
+  "state_kind": "dual_cli_mock_stateful",
+  "difficulty": "hard",
+  "check_strategy": "The verifier reads final Notion and Jira mock states through verifier-token endpoints. It derives the expected supplier set from live Notion plus the Q3 workbook, checks source integrity, and scores only final Jira state. It uses semantic/structural checks for descriptions, summaries, comments, and links, avoiding exact text templates except for explicit stable identifiers such as project key, database IDs, labels, Jira status, priority names, and the standard epic title. Final reward is binary; raw_score is diagnostic.",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_semantic",
+      "description": "Both mock states are reachable, the workbook is readable, PROJ exists, and required Notion datasources are present."
+    },
+    {
+      "id": "source_integrity",
+      "check_type": "deterministic_semantic",
+      "description": "The Notion supplier and purchase-order source pages remain unchanged from the seed fingerprint."
+    },
+    {
+      "id": "epic_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Exactly one Q3 supplier deal-pipeline Epic exists in PROJ."
+    },
+    {
+      "id": "inclusion_set_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Exactly one pipeline issue exists for each source-derived in-scope supplier, with no missing, duplicate, or out-of-scope supplier issues."
+    },
+    {
+      "id": "pipeline_issue_structure_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Each supplier pipeline issue is a Task in PROJ and is visibly associated with the Q3 pipeline Epic through an epic/parent field, an issue link, or an explicit epic reference."
+    },
+    {
+      "id": "priority_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Each supplier Task priority matches the workbook Deal Size mapping."
+    },
+    {
+      "id": "summary_content_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Each supplier Task summary contains the supplier name, Deal Size, normal-PO total, and procurement owner."
+    },
+    {
+      "id": "labels_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Each supplier Task has the deal-pipeline label and the correct size label, without conflicting size labels."
+    },
+    {
+      "id": "category_labels_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Each supplier Task has the workbook-derived category label and no conflicting category label."
+    },
+    {
+      "id": "trace_comments_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Each supplier Task has a source trace comment containing supplier, normal PO total, Deal Size, and owner."
+    },
+    {
+      "id": "escalation_comments_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Large deals carry an executive-introduction reminder comment; Medium and Standard deals do not."
+    },
+    {
+      "id": "transition_state_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Every supplier Task is in the In Review workflow state."
+    },
+    {
+      "id": "deal_size_links_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Tasks in each same Deal Size cohort form a connected relates-to issue-link graph."
+    },
+    {
+      "id": "epic_description_context_correct",
+      "check_type": "deterministic_semantic",
+      "description": "The Epic description contains the source-derived supplier roster, reviewer/reporter, project lead, board/sprint context, and distinct supplier/PO Notion datasource context."
+    },
+    {
+      "id": "issue_description_traceability_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Each supplier Task description contains its own Jira key, a live supplier Notion page id, Deal Size cohort, and supplier datasource id."
+    }
+  ],
+  "notes": "No command history or audit-log attempts affect reward. Rejected or exploratory attempts should be diagnostic only; final Jira and Notion state determine pass/fail."
+}

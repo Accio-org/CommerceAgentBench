@@ -1,0 +1,46 @@
+Type: folder
+ID: '20001'
+Name: Project Alpha
+Description: Main project workspace
+Size: 0
+ETag: '1'
+Parent:
+    Type: folder
+    ID: '0'
+    Name: All Files
+Created At: '2026-03-01T09:00:00Z'
+Modified At: '2026-05-18T16:30:00Z'
+Created By:
+    Type: user
+    ID: '10001'
+    Name: Admin User
+    Login: admin@boxmock.example.com
+Owned By:
+    Type: user
+    ID: '10001'
+    Name: Admin User
+    Login: admin@boxmock.example.com
+Item Status: active
+Path Collection:
+    Total Count: 1
+    Entries:
+        -
+            Type: folder
+            ID: '0'
+            Name: All Files
+Item Collection:
+    Total Count: 3
+    Entries:
+        -
+            Type: file
+            ID: '30005'
+            Name: Meeting-Notes-May.txt
+        -
+            Type: file
+            ID: '30002'
+            Name: Product-Roadmap.pdf
+        -
+            Type: file
+            ID: '30001'
+            Name: Q2-Budget-Report.xlsx
+Tags: []

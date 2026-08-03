@@ -1,0 +1,84 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+WORKDIR=""
+PRIVATE_DIR=""
+PORT="${PORT:-3000}"
+TOKEN="${MOCK_VERIFIER_TOKEN:-bench-verifier}"
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --workdir)
+      WORKDIR="$2"; shift 2 ;;
+    --private-dir)
+      PRIVATE_DIR="$2"; shift 2 ;;
+    --port)
+      PORT="$2"; shift 2 ;;
+    --token)
+      TOKEN="$2"; shift 2 ;;
+    *)
+      echo "unknown option: $1" >&2; exit 2 ;;
+  esac
+done
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SERVICE_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+STATE_DIR="${BOX_MOCK_STATE_DIR:-/var/lib/mocksvc/box_cli}"
+BOX_BENCH="$SERVICE_ROOT/bin/box-bench"
+HEALTH_URL="http://127.0.0.1:${PORT}/health"
+TASK_SEED_FILE="${PRIVATE_DIR%/}/mock_runtime/box_seed.sql"
+DEFAULT_SEED_FILE="$SERVICE_ROOT/seeds/default.sql"
+
+export BOX_MOCK_HOME="$STATE_DIR"
+export MOCK_VERIFIER_TOKEN="$TOKEN"
+export CCB_INTERNAL_BENCH_TOKEN="$TOKEN"
+export PORT="$PORT"
+
+mkdir -p "$STATE_DIR/.box" "$WORKDIR/tmp"
+chmod 0700 "$STATE_DIR" "$WORKDIR" 2>/dev/null || true
+LOG_FILE="$WORKDIR/tmp/box_cli_daemon.log"
+PID_FILE="$WORKDIR/tmp/box_cli_daemon.pid"
+
+[[ -x "$BOX_BENCH" ]] || { echo "box-bench missing at $BOX_BENCH" >&2; exit 2; }
+[[ -f "/opt/mock_services/cli_daemon/server.mjs" ]] || { echo "cli daemon missing at /opt/mock_services/cli_daemon/server.mjs" >&2; exit 2; }
+command -v bun >/dev/null 2>&1 || { echo "bun not found in container" >&2; exit 2; }
+
+rm -f "$BOX_MOCK_HOME/.box/box_mock.db" "$BOX_MOCK_HOME/.box/box_mock.db-wal" "$BOX_MOCK_HOME/.box/box_mock.db-shm"
+if [[ -n "$PRIVATE_DIR" && -f "$TASK_SEED_FILE" ]]; then
+  "$BOX_BENCH" seed --file "$TASK_SEED_FILE" >/dev/null
+  echo "box_cli seeded from $TASK_SEED_FILE"
+elif [[ -f "$DEFAULT_SEED_FILE" ]]; then
+  "$BOX_BENCH" seed --file "$DEFAULT_SEED_FILE" >/dev/null
+  echo "box_cli seeded from default fixture"
+else
+  "$BOX_BENCH" health >/dev/null
+fi
+
+probe() {
+  python3 - "$1" <<'PY' >/dev/null 2>&1
+import sys, urllib.request
+urllib.request.urlopen(sys.argv[1], timeout=2).read()
+PY
+}
+
+export CCB_CLI_MOCK_NAME="box_cli"
+export CCB_CLI_TARGET_BIN="$SERVICE_ROOT/bin/box"
+export CCB_CLI_BENCH_BIN="$BOX_BENCH"
+export CCB_CLI_BENCH_TOKEN_MODE="env"
+export CCB_CLI_STATE_ENV_JSON="{\"BOX_MOCK_HOME\":\"$BOX_MOCK_HOME\"}"
+
+nohup bun /opt/mock_services/cli_daemon/server.mjs >"$LOG_FILE" 2>&1 &
+echo "$!" > "$PID_FILE"
+
+ready=0
+for _ in $(seq 1 60); do
+  if probe "$HEALTH_URL"; then ready=1; break; fi
+  sleep 0.5
+done
+if [[ "$ready" != "1" ]]; then
+  echo "box_cli daemon failed; tail of $LOG_FILE:" >&2
+  tail -n 80 "$LOG_FILE" >&2 || true
+  exit 1
+fi
+
+echo "box_cli daemon ready on :$PORT"

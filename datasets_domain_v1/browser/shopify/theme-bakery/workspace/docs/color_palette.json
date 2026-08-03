@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "primary": "#8B5E3C",
+    "secondary": "#D4A574",
+    "accent": "#F5E6D3",
+    "dark": "#2C1810",
+    "light": "#FFF8F0"
+  },
+  "ui": {
+    "background": "#FFFBF5",
+    "text": "#2C1810",
+    "muted": "#A08060",
+    "border": "#E8D5C0"
+  },
+  "recommended_scheme": "Warm & Earthy",
+  "rationale": "The warm browns and cream tones align with our artisan bread aesthetic — natural, earthy, inviting.",
+  "alternatives_considered": [
+    {"scheme": "Light & Bright", "rejected_reason": "Too clinical for a bakery brand"},
+    {"scheme": "Bold & Vibrant", "rejected_reason": "Overrides the natural warmth of bread imagery"}
+  ]
+}

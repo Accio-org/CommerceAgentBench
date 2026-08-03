@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-hengyan-english-site-build",
+  "summary": "恒燕英文官网静态前端: HTML+CSS+JS+SVG + 2 traceability JSON.",
+  "category": "browser_web_ecommerce",
+  "state_kind": "synthesize",
+  "difficulty": "hard",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Setup/plumbing gate (R2): outputs/ contains all 6 deliverable files (index.html, css/style.css, js/script.js, assets/hero-lifting.svg, implementation_manifest.json, content_traceability.json). File-presence precondition only; per-artifact capabilities are graded by the checks below."
+    },
+    {
+      "id": "index_html_correct",
+      "check_type": "deterministic_exact",
+      "description": "index.html is a correct offline content-complete homepage (AND of: references local 'css/style.css', 'js/script.js', 'assets/hero-lifting.svg' with NO 'http://'/'https://' URLs; AND contains all product terms 'HENGYAN', 'Overhead Crane', 'Gantry Crane', 'Electric Hoist', 'Winch', 'Jib Crane', 'Crab Trolley')."
+    },
+    {
+      "id": "html_no_forbidden_certification_phrases",
+      "check_type": "deterministic_exact",
+      "description": "index.html does NOT contain any of: 'CE Certified', 'ISO Certified', 'passed EU safety certifications'."
+    },
+    {
+      "id": "css_min_size_and_required_features",
+      "check_type": "deterministic_exact",
+      "description": "css/style.css exists and contains '@media'; contains 'display: grid' OR 'display: flex' (with optional spaces); contains ':focus' OR 'focus-visible'."
+    },
+    {
+      "id": "js_min_size_and_required_features",
+      "check_type": "deterministic_exact",
+      "description": "js/script.js exists and contains 'mousemove'; contains 'submit' AND 'preventDefault'; contains 'filter'; contains 'keydown' OR 'aria-expanded' OR 'keyup'."
+    },
+    {
+      "id": "svg_min_size_and_crane_elements",
+      "check_type": "deterministic_exact",
+      "description": "assets/hero-lifting.svg exists and contains '<svg'; contains at least one of: 'crane', 'hook', 'hoist', 'beam'."
+    },
+    {
+      "id": "implementation_manifest_schema_correct",
+      "check_type": "deterministic_exact",
+      "description": "implementation_manifest.json parseable; sections array length >= 6; backend_required == false (boolean); JSON text contains 'css/style.css', 'js/script.js', 'hero-lifting.svg', 'mock', 'responsive'."
+    },
+    {
+      "id": "content_traceability_required_product_and_case_ids",
+      "check_type": "deterministic_exact",
+      "description": "content_traceability.json text contains all 9 IDs/files: 'HY-OHC-20', 'HY-GANTRY-32', 'HY-EHOIST-5', 'HY-WINCH-10', 'HY-JIB-3', 'HY-CRAB-16', 'CASE-SEA-YARD', 'NEWS-INQUIRY-CHECKLIST', 'site_content_brief.json'."
+    },
+    {
+      "id": "outputs_dir_clean_no_extras",
+      "check_type": "deterministic_exact",
+      "description": "outputs/ contains only: index.html, css/, js/, assets/, implementation_manifest.json, content_traceability.json. No temp scripts, caches, or extra dirs."
+    },
+    {
+      "id": "site_covers_6_navigation_sections",
+      "check_type": "llm_judge_boolean",
+      "description": "Does index.html have visible nav links / section headings / anchors for all 6 sections: Home / About / Products / Cases / News / Contact? Reject if any section is missing or only mentioned in passing."
+    },
+    {
+      "id": "products_section_lists_all_6_products_from_brief",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the Products section render all 6 products (HY-OHC-20 / HY-GANTRY-32 / HY-EHOIST-5 / HY-WINCH-10 / HY-JIB-3 / HY-CRAB-16) with name + capacity + buyer_use + key_points OR equivalent fields from site_content_brief.json?"
+    },
+    {
+      "id": "interactions_implemented_per_manifest",
+      "check_type": "llm_judge_boolean",
+      "description": "Does js/script.js implement the interactions described in implementation_manifest.interactions (e.g., custom cursor, expandable cards, filter, anchor scroll, mock inquiry submit)? Spot check: can each named interaction be traced to a code section in script.js?"
+    },
+    {
+      "id": "no_unsupported_high_risk_claims_anywhere",
+      "check_type": "llm_judge_boolean",
+      "description": "Across the website (index.html + content_traceability.json), are there NO unsupported high-risk claims (specific certifications, exact annual output, named famous customers, patent counts, exact founding year)? Reject if any specific cert / customer / number appears without source backing."
+    },
+    {
+      "id": "responsive_and_accessibility_features_substantive",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the CSS include responsive breakpoints (>=2 @media rules) + accessibility affordances (focus styles, aria attributes)? Reject if responsive is just one viewport rule with no real breakpoints, or if focus styles are absent."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "index.html",
+      "css/style.css",
+      "js/script.js",
+      "assets/hero-lifting.svg",
+      "implementation_manifest.json",
+      "content_traceability.json"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+From: newsletter@gadgetwire.example
+To: wen.li@northstar-dtc.com
+Date: Sun, 10 May 2026 02:16
+Subject: [Survey] How was your onboarding?
+
+Two-minute pulse survey on your onboarding experience. Your feedback shapes next quarter's program.

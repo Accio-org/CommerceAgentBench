@@ -1,0 +1,48 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "txcd_99999999",
+      "object": "tax_code",
+      "description": "A physical good that can be moved or touched. Also known as tangible personal property.",
+      "name": "General - Tangible Goods",
+      "requirements": {
+        "performance_location": "optional"
+      }
+    },
+    {
+      "id": "txcd_20030000",
+      "object": "tax_code",
+      "description": "General category for services. Only use this if you don't have a more specific category. You should set specific tax codes on each product or service you sell. EU only: Business-to-consumer sales are taxable at origin; business-to-business are taxable at destination.",
+      "name": "General - Services",
+      "requirements": {
+        "performance_location": "optional"
+      }
+    },
+    {
+      "id": "txcd_10000000",
+      "object": "tax_code",
+      "description": "A digital service provided mainly through the internet with minimal human involvement, relying on information technology. Consider more specific categories like software, digital goods, cloud services, or website services for your product (especially if you sell in the US). If you stay with this category, taxes will be similar to those for a generic digital item like downloaded music.",
+      "name": "General - Electronically Supplied Services",
+      "requirements": null
+    },
+    {
+      "id": "txcd_00000000",
+      "object": "tax_code",
+      "description": "Any nontaxable good or service which can be used to ensure no tax is applied, even for jurisdictions that impose a tax.",
+      "name": "Nontaxable",
+      "requirements": {
+        "performance_location": "optional"
+      }
+    },
+    {
+      "id": "txcd_10010001",
+      "object": "tax_code",
+      "description": "Cloud service offering infrastructure resources (specifically server storage, RAM, and CPU usage) over the internet. This offering is intended for personal use, rather than for use by a commercial enterprise. Note: The distinction between business use and personal use for this product tax category is relevant only if you have sales in the US.",
+      "name": "Infrastructure as a service (IaaS) - personal use",
+      "requirements": null
+    }
+  ],
+  "has_more": true,
+  "url": "/v1/tax_codes"
+}

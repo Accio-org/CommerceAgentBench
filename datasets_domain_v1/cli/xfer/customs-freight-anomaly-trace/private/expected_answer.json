@@ -1,0 +1,130 @@
+{
+  "source_csv_dir": "workspace/customs_data",
+  "source_min_rows": 3800,
+  "suppliers": [
+    {
+      "alert_id": "FRT-001",
+      "supplier": "NEUSOFT MEDICAL SYSTEMS CO LTD",
+      "route": "Beijing -> Bangalore",
+      "root_cause": "VOLUME_GROWTH",
+      "csv_weight_2024": 18345.42,
+      "csv_weight_2025": 27555.10,
+      "manifest_weight_2025": 27555.10,
+      "rate_2024": 8.50,
+      "rate_2025": 8.50,
+      "freight_2024": 155936.07,
+      "freight_2025": 234218.35,
+      "shipment_count_2024": 14,
+      "shipment_count_2025": 24,
+      "weight_matches_manifest": true,
+      "rate_changed": false,
+      "stripe_adjustment_required": false,
+      "explanation": "Shipment volume increased from 14 to 24 (71% more shipments). Weight increased proportionally. Rate unchanged at $8.50/kg. Legitimate business growth."
+    },
+    {
+      "alert_id": "FRT-002",
+      "supplier": "SINOVISION HEALTHCARE YANGZHOU CO LTD",
+      "route": "Shanghai -> Colombo",
+      "root_cause": "VOLUME_GROWTH",
+      "csv_weight_2024": 10020.00,
+      "csv_weight_2025": 17600.00,
+      "manifest_weight_2025": 17600.00,
+      "rate_2024": 2.40,
+      "rate_2025": 2.40,
+      "freight_2024": 24048.00,
+      "freight_2025": 42240.00,
+      "shipment_count_2024": 2,
+      "shipment_count_2025": 4,
+      "weight_matches_manifest": true,
+      "rate_changed": false,
+      "stripe_adjustment_required": false,
+      "explanation": "Shipment volume doubled from 2 to 4. Weight increased from 10,020 to 17,600 kg. Rate unchanged at $2.40/kg. Legitimate business growth."
+    },
+    {
+      "alert_id": "FRT-003",
+      "supplier": "SHENZHEN BROWINER TECH CO LTD",
+      "route": "Shekou -> Busan",
+      "root_cause": "WEIGHT_TYPO",
+      "csv_weight_2024": 55047.98,
+      "csv_weight_2025": 45705.62,
+      "manifest_weight_2025": 4570.56,
+      "rate_2024": 1.50,
+      "rate_2025": 1.50,
+      "freight_2024": 82571.97,
+      "freight_2025_billed": 6855.84,
+      "freight_2025_correct": 68558.43,
+      "shipment_count_2024": 70,
+      "shipment_count_2025": 50,
+      "weight_matches_manifest": false,
+      "weight_error_type": "Manifest shows 4,570.56 kg; CSV shows 45,705.62 kg. Decimal point shifted — manifest is 1/10th of actual weight.",
+      "rate_changed": false,
+      "stripe_adjustment_required": true,
+      "stripe_adjustment_amount": 61702.59,
+      "stripe_adjustment_direction": "charge",
+      "stripe_adjustment_explanation": "Freight was billed based on manifest weight 4,570.56 kg ($6,855.84). Correct freight based on CSV weight 45,705.62 kg is $68,558.43. Additional charge of $61,702.59 required."
+    },
+    {
+      "alert_id": "FRT-004",
+      "supplier": "NANJING PERLOVE MEDICAL EQUIPMENT CO LTD",
+      "route": "Shanghai -> Mumbai",
+      "root_cause": "WEIGHT_TYPO",
+      "csv_weight_2024": 28753.40,
+      "csv_weight_2025": 21558.00,
+      "manifest_weight_2025": 215580.00,
+      "rate_2024": 2.80,
+      "rate_2025": 2.80,
+      "freight_2024": 80509.52,
+      "freight_2025_billed": 603624.00,
+      "freight_2025_correct": 60362.40,
+      "shipment_count_2024": 31,
+      "shipment_count_2025": 27,
+      "weight_matches_manifest": false,
+      "weight_error_type": "Manifest shows 215,580.00 kg; CSV shows 21,558.00 kg. Extra zero added — manifest is 10x actual weight.",
+      "rate_changed": false,
+      "stripe_adjustment_required": true,
+      "stripe_adjustment_amount": 543261.60,
+      "stripe_adjustment_direction": "credit",
+      "stripe_adjustment_explanation": "Freight was billed based on manifest weight 215,580.00 kg ($603,624.00). Correct freight based on CSV weight 21,558.00 kg is $60,362.40. Credit/refund of $543,261.60 required."
+    },
+    {
+      "alert_id": "FRT-005",
+      "supplier": "SIEMENS SHANGHAI MEDICAL EQUI LTD",
+      "route": "Shanghai -> Delhi",
+      "root_cause": "RATE_CHANGE",
+      "csv_weight_2024": 395.00,
+      "csv_weight_2025": 415.00,
+      "manifest_weight_2025": 415.00,
+      "rate_2024": 9.20,
+      "rate_2025": 15.50,
+      "freight_2024": 3634.00,
+      "freight_2025": 6432.50,
+      "shipment_count_2024": 1,
+      "shipment_count_2025": 1,
+      "weight_matches_manifest": true,
+      "rate_changed": true,
+      "rate_change_reason": "Shanghai -> Delhi air freight rate increased from $9.20/kg to $15.50/kg (+68.5%) due to new fuel surcharge agreement.",
+      "stripe_adjustment_required": false,
+      "explanation": "Manifest weight matches CSV. Rate increased from $9.20 to $15.50 per kg per the rate schedule. Freight increase is due to the rate change, not a billing error."
+    }
+  ],
+  "weight_typo_suppliers": [
+    "SHENZHEN BROWINER TECH CO LTD",
+    "NANJING PERLOVE MEDICAL EQUIPMENT CO LTD"
+  ],
+  "volume_growth_suppliers": [
+    "NEUSOFT MEDICAL SYSTEMS CO LTD",
+    "SINOVISION HEALTHCARE YANGZHOU CO LTD"
+  ],
+  "rate_change_suppliers": [
+    "SIEMENS SHANGHAI MEDICAL EQUI LTD"
+  ],
+  "stripe_adjustment_suppliers": [
+    "SHENZHEN BROWINER TECH CO LTD",
+    "NANJING PERLOVE MEDICAL EQUIPMENT CO LTD"
+  ],
+  "stripe_no_adjustment_suppliers": [
+    "NEUSOFT MEDICAL SYSTEMS CO LTD",
+    "SINOVISION HEALTHCARE YANGZHOU CO LTD",
+    "SIEMENS SHANGHAI MEDICAL EQUI LTD"
+  ]
+}

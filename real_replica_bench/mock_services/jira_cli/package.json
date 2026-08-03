@@ -1,0 +1,14 @@
+{
+  "name": "jira-cli-mock",
+  "version": "0.1.0",
+  "description": "Jira CLI mock for RealReplicaBench — shadows github.com/ankitpokhrel/jira-cli",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "jira": "./bin/jira",
+    "jira-bench": "./bin/jira-bench"
+  },
+  "scripts": {
+    "smoke": "bash smoke_test.sh"
+  }
+}

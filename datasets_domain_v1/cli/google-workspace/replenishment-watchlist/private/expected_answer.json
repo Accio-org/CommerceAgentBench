@@ -1,0 +1,58 @@
+{
+  "priority_actions": [
+    {
+      "rank": 1,
+      "sku": "DECOR-VASE-CER",
+      "warehouse": "EU-DE",
+      "supplier": "Ho Chi Minh Ceramics",
+      "recommended_action": "expedite_quality_recovery",
+      "po_number": "PO-2026-0418",
+      "eta": "2026-06-20",
+      "stockout_days": 18,
+      "current_shortfall_units": 40,
+      "net_after_in_transit_units": -40,
+      "deck_risk_level": "HIGH"
+    },
+    {
+      "rank": 2,
+      "sku": "CAMP-TENT-2P",
+      "warehouse": "US-West",
+      "supplier": "Xiamen Bluewave",
+      "recommended_action": "expedite_po_and_second_source",
+      "po_number": "PO-2026-0412",
+      "eta": "2026-06-15",
+      "stockout_days": 12,
+      "current_shortfall_units": 50,
+      "net_after_in_transit_units": 250,
+      "deck_risk_level": "HIGH"
+    },
+    {
+      "rank": 3,
+      "sku": "PET-BED-LG",
+      "warehouse": "US-East",
+      "supplier": "Dongguan Nova Pet",
+      "recommended_action": "protect_air_split",
+      "po_number": "PO-2026-0415",
+      "eta": "2026-06-10",
+      "stockout_days": 5,
+      "current_shortfall_units": 58,
+      "net_after_in_transit_units": -58,
+      "deck_risk_level": "MEDIUM"
+    }
+  ],
+  "minimum_monitor_only_count": 3,
+  "monitor_only_allowed_keys": [
+    "LED-PANEL-60W|EU-DE",
+    "PET-BED-LG|US-West",
+    "CAMP-TENT-2P|APAC-SG",
+    "STEEL-SHELF-3T|US-West",
+    "SPICE-TURM-ORG|US-West",
+    "OUTDOOR-LANTERN|EU-DE",
+    "LED-DRIVER-40W|APAC-SG",
+    "AUTO-WIPER-22|EU-DE",
+    "DECOR-GLASS-VASE|APAC-SG"
+  ],
+  "required_cli_tools": ["sheets.getMetadata", "sheets.getRange", "slides.getText"],
+  "forbid_bulk_sheet_text_spreadsheet_ids": ["sheet-inventory-004"],
+  "required_range_fragments": ["Warehouse Stock", "Reorder Queue", "PO Ledger"]
+}

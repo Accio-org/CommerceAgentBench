@@ -1,0 +1,9 @@
+{
+  "base_currency": "USD",
+  "rates": {
+    "JPY": 150,
+    "CNY": 7.2
+  },
+  "effective_date": "2026-07-01",
+  "source": "Internal finance team fixed rates for Q3 2026 product launches"
+}

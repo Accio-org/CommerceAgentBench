@@ -1,0 +1,4 @@
+
+Setting up fixture for: payment_intent
+Running fixture for: payment_intent
+Trigger succeeded! Check dashboard for event details.

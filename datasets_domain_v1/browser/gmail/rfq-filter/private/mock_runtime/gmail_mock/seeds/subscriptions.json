@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sub-sourcinghub",
+    "name": "SourcingHub Promo",
+    "email": "promo@sourcinghub.test",
+    "recent": "RFQ lead generation tips",
+    "unsubscribed": false,
+    "status": "活跃"
+  },
+  {
+    "id": "sub-packaging",
+    "name": "Packaging Today Weekly",
+    "email": "weekly@packagingtoday.test",
+    "recent": "Trade booth recap",
+    "unsubscribed": false,
+    "status": "活跃"
+  },
+  {
+    "id": "sub-quality",
+    "name": "Quality Alerts",
+    "email": "quality-alerts@auroraretail.test",
+    "recent": "ASTM report watchlist",
+    "unsubscribed": false,
+    "status": "活跃"
+  }
+]

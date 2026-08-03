@@ -1,0 +1,68 @@
+{
+  "task_id": "file-commerce-ops-returns-dispute-evidence-pack",
+  "all_return_ids": ["RET-55812", "RET-66104", "RET-77017"],
+  "return_decisions": {
+    "RET-55812": ["partial_refund", "dispute_claim"],
+    "RET-66104": ["accept_return", "full_refund"],
+    "RET-77017": ["request_more_evidence", "dispute_claim"]
+  },
+  "min_distinct_evidence_sources_per_case": 2,
+  "evidence_anchor_options_by_return": {
+    "RET-55812": [
+      {
+        "source_file": "workspace/inspection/rma_inspection_worksheet.csv",
+        "fact_phrases_any": ["torn flap", "two units, 1.42 kg", "1.42 kg", "evidence_strength", "one bottle and no LoopCap", "one unit of the two-pack", "one unit is returned from a two-pack"]
+      },
+      {
+        "source_file": "workspace/carrier/carrier_scan_history.json",
+        "fact_phrases_any": ["0.76", "side flap torn", "1zret77821", "return_acceptance", "about 1.4 kg", "carrier return scan"]
+      },
+      {
+        "source_file": "workspace/orders/order_event_log.jsonl",
+        "fact_phrases_any": ["1zret77821", "outbound_pack_01", "return_contents_01", "warehouse_photo_captured"]
+      },
+      {
+        "source_file": "workspace/messages/customer_thread.md",
+        "fact_phrases_any": ["torn flap", "loopcap missing", "received one bottle only"]
+      }
+    ],
+    "RET-66104": [
+      {
+        "source_file": "workspace/inspection/rma_inspection_worksheet.csv",
+        "fact_phrases_any": ["crushed corners", "scan exception", "two mugs intact", "1.08 kg", "both mugs arrived broken", "two mugs arrived broken"]
+      },
+      {
+        "source_file": "workspace/carrier/carrier_scan_history.json",
+        "fact_phrases_any": ["carton compression", "compression observed", "1.06", "1.07", "outer carton crushed at delivery", "hub_exception", "1zmug88104", "hub sort scan", "delivery exception", "outer carton was crushed", "crushed in transit", "carrier scans show carton compression", "outer-carton-crushed"]
+      },
+      {
+        "source_file": "workspace/orders/order_event_log.jsonl",
+        "fact_phrases_any": ["1.07", "outer carton crushed", "1zmug88104", "mug_outbound_pack", "warehouse_photo_captured"]
+      }
+    ],
+    "RET-77017": [
+      {
+        "source_file": "workspace/inspection/rma_inspection_worksheet.csv",
+        "fact_phrases_any": ["factory seal intact", "seal intact", "evidence_strength=medium", "factory seal completely intact", "sealed clean-tab-12", "correct sku", "sealed, correct sku", "factory-sealed clean-tab-12"]
+      },
+      {
+        "source_file": "workspace/messages/customer_thread.md",
+        "fact_phrases_any": ["weight matches outbound", "matches outbound scan", "no alternate item", "weight matching the outbound scan", "weight matching outbound", "matching the outbound weight", "same 0.18 kg", "0.18 kg", "scan/return weight"]
+      },
+      {
+        "source_file": "workspace/carrier/carrier_scan_history.json",
+        "fact_phrases_any": ["1ztab99017", "return_acceptance"]
+      },
+      {
+        "source_file": "workspace/orders/order_event_log.jsonl",
+        "fact_phrases_any": ["tabs_outbound_pack", "1ztab99017", "warehouse_photo_captured"]
+      }
+    ]
+  },
+  "sla_anchors_by_return": {
+    "RET-55812": ["case-901", "2026-05-25t18:00", "sla_hours_remaining=18", "18 hours remaining", "18h remaining"],
+    "RET-66104": ["case-902", "2026-05-25t12:00", "sla_hours_remaining=12", "12 hours remaining", "12h remaining"],
+    "RET-77017": ["case-903", "2026-05-26t09:00", "sla_hours_remaining=33", "33 hours remaining", "33h remaining"]
+  },
+  "forbidden_unsafe_terms": ["fraud", "scam", "liar", "dishonest", "abuse", "deceptive", "false claim", "lying", "bad faith"]
+}

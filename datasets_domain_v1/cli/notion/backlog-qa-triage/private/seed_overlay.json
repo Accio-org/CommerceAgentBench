@@ -1,0 +1,142 @@
+{
+  "entities": {
+    "pages": {
+      "page_002": {
+        "id": "page_002",
+        "parentType": "database",
+        "parentId": "db_001",
+        "title": "Fix login bug",
+        "content": "# Fix login bug\n\nSSO login intermittently fails for B2B buyers during overseas checkout.",
+        "properties": {"Status": "Open", "Priority": 1, "Area": "Overseas Checkout", "Owner": "Unassigned"},
+        "archived": false,
+        "createdAt": "2026-05-28T09:00:00.000Z",
+        "updatedAt": "2026-05-31T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_003": {
+        "id": "page_003",
+        "parentType": "database",
+        "parentId": "db_001",
+        "title": "Add dark mode",
+        "content": "# Add dark mode\n\nImplement dark mode toggle in settings.",
+        "properties": {"Status": "Closed", "Priority": 3, "Area": "Account Settings", "Owner": "Rita Lee"},
+        "archived": false,
+        "createdAt": "2026-05-20T09:00:00.000Z",
+        "updatedAt": "2026-05-29T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_005": {
+        "id": "page_005",
+        "parentType": "database",
+        "parentId": "db_001",
+        "title": "Fix login bug - mobile app",
+        "content": "# Fix login bug - mobile app\n\nConsumer mobile login sometimes drops the remember-me flag.",
+        "properties": {"Status": "Open", "Priority": 2, "Area": "Mobile App", "Owner": "Kai Sun"},
+        "archived": false,
+        "createdAt": "2026-05-25T09:00:00.000Z",
+        "updatedAt": "2026-05-30T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_006": {
+        "id": "page_006",
+        "parentType": "database",
+        "parentId": "db_001",
+        "title": "SSO evidence checklist",
+        "content": "# SSO evidence checklist\n\nCollect screenshots from staging and production before launch.",
+        "properties": {"Status": "Open", "Priority": 3, "Area": "Overseas Checkout", "Owner": "Mei Chen"},
+        "archived": false,
+        "createdAt": "2026-05-26T09:00:00.000Z",
+        "updatedAt": "2026-05-30T10:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_007": {
+        "id": "page_007",
+        "parentType": "database",
+        "parentId": "db_001",
+        "title": "API Reference - checkout v2",
+        "content": "# API Reference - checkout v2\n\nCheckout v2 API examples remain useful for overseas QA.",
+        "properties": {"Status": "Open", "Priority": 4, "Area": "Overseas Checkout", "Owner": "Docs Team"},
+        "archived": false,
+        "createdAt": "2026-05-24T09:00:00.000Z",
+        "updatedAt": "2026-05-30T11:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_008": {
+        "id": "page_008",
+        "parentType": "page",
+        "parentId": "page_root",
+        "title": "Vendor QA Release Notes draft",
+        "content": "# Vendor QA Release Notes draft\n\nOld draft from the May pilot; do not reuse for the June checkpoint.",
+        "properties": {},
+        "archived": false,
+        "createdAt": "2026-05-15T09:00:00.000Z",
+        "updatedAt": "2026-05-20T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_009": {
+        "id": "page_009",
+        "parentType": "database",
+        "parentId": "db_001",
+        "title": "Payment method labels",
+        "content": "# Payment method labels\n\nLocalized labels are ready for review.",
+        "properties": {"Status": "Closed", "Priority": 2, "Area": "Overseas Checkout", "Owner": "Ana Costa"},
+        "archived": false,
+        "createdAt": "2026-05-21T09:00:00.000Z",
+        "updatedAt": "2026-05-28T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_010": {
+        "id": "page_010",
+        "parentType": "database",
+        "parentId": "db_001",
+        "title": "Checkout tax copy",
+        "content": "# Checkout tax copy\n\nTax copy has legal approval.",
+        "properties": {"Status": "Closed", "Priority": 2, "Area": "Overseas Checkout", "Owner": "Legal Ops"},
+        "archived": false,
+        "createdAt": "2026-05-22T09:00:00.000Z",
+        "updatedAt": "2026-05-29T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_011": {
+        "id": "page_011",
+        "parentType": "page",
+        "parentId": "page_001",
+        "title": "API Reference Archive",
+        "content": "# API Reference Archive\n\nDo not trash this archive; it links to internal migration notes.",
+        "properties": {},
+        "archived": false,
+        "createdAt": "2026-05-16T09:00:00.000Z",
+        "updatedAt": "2026-05-20T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_012": {
+        "id": "page_012",
+        "parentType": "database",
+        "parentId": "db_001",
+        "title": "Vendor catalog smoke",
+        "content": "# Vendor catalog smoke\n\nCatalog smoke test is unrelated to overseas checkout QA.",
+        "properties": {"Status": "Open", "Priority": 1, "Area": "Catalog", "Owner": "Ravi Patel"},
+        "archived": false,
+        "createdAt": "2026-05-23T09:00:00.000Z",
+        "updatedAt": "2026-05-31T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      }
+    },
+    "datasources": {
+      "ds_001": {
+        "id": "ds_001",
+        "databaseId": "db_001",
+        "title": "Vendor Launch Tasks",
+        "properties": {
+          "Name": {"type": "title"},
+          "Status": {"type": "select", "options": [{"name": "Open", "color": "red"}, {"name": "In Progress", "color": "yellow"}, {"name": "Closed", "color": "green"}]},
+          "Priority": {"type": "number", "format": "number"},
+          "Area": {"type": "select", "options": [{"name": "Overseas Checkout", "color": "blue"}, {"name": "Mobile App", "color": "purple"}, {"name": "Catalog", "color": "orange"}]},
+          "Owner": {"type": "rich_text"}
+        },
+        "pages": ["page_002", "page_003", "page_005", "page_006", "page_007", "page_009", "page_010", "page_012"],
+        "createdAt": "2026-05-20T09:00:00.000Z"
+      }
+    }
+  }
+}

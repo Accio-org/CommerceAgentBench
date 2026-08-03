@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-gpon-olt-topology-diagram",
+  "summary": "GPON OLT 1 PON × 4 × 32 = 128 拓扑效果图. HTML+SVG / JSON / CSV / md.",
+  "category": "product_creative_assets",
+  "state_kind": "offline_visual_diagram",
+  "difficulty": "hard",
+  "checks": [
+    {
+      "id": "html_offline_svg_no_remote",
+      "check_type": "deterministic_exact",
+      "description": "Anti-cheat: outputs/topology_diagram.html exists, contains an inline '<svg' tag, and references no remote 'http://' / 'https://' URL (the SVG namespace URLs are allowed)."
+    },
+    {
+      "id": "html_required_visible_labels",
+      "check_type": "deterministic_exact",
+      "description": "topology_diagram.html text contains all required visible labels: 'GPON OLT 连接效果图', '机房', 'mini GPON OLT', 'PON-1', '红色指示灯', '一级分光器 1:4' (or '一级' + '1:4'), '二级分光器 1:32' (or '二级' + '1:32'), '4×1:32' (or '4x1:32'), '高速光纤', '馈线光纤', '配线光纤', '×128' (or 'x128'), '住宅区', 'ONU' or '光猫', '上网/WiFi' or 'WiFi', '电视/TV' or 'TV', '电话'."
+    },
+    {
+      "id": "topology_spec_correct",
+      "check_type": "deterministic_exact",
+      "description": "topology_spec.json is a complete, correct structured spec (all facets validated, failures listed in reason): top-level schema (layout_direction == 'left_to_right'; reference_used == 'workspace/gpon_reference.jpg'; split_architecture contains '1:4' AND '32' AND '128'; pon_ports_used == 1; split_ratio == '1:128') AND splitter_stages is a list with both 'primary_1_4' and 'secondary_1_32_x4' AND components is a list including all 10 required component ids AND links is a list of >=3 dicts (non-empty from/to/kind) covering the OLT→primary, primary→secondary, secondary→ONU/residential segments."
+    },
+    {
+      "id": "topology_plan_csv_correct",
+      "check_type": "deterministic_exact",
+      "description": "topology_plan.csv is a correct device + link plan table (both facets validated, failures listed in reason): parseable with all 8 columns (layer, component, count, ratio_or_capacity, upstream, downstream, visual_label, note) and >= 7 data rows AND its data text covers OLT, PON-1, 1:4, 1:32, 128, WiFi, TV, and 电话/phone."
+    },
+    {
+      "id": "design_notes_acknowledges_schematic",
+      "check_type": "deterministic_exact",
+      "description": "design_notes.md exists, non-empty, contains 'gpon_reference.jpg' AND ('示意' or 'schematic')."
+    },
+    {
+      "id": "outputs_dir_clean",
+      "check_type": "deterministic_exact",
+      "description": "outputs/ contains exactly: topology_diagram.html + topology_spec.json + topology_plan.csv + design_notes.md (no extra files)."
+    },
+    {
+      "id": "html_visually_uses_left_to_right_layout",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the embedded SVG/HTML topology_diagram.html visually arrange components left-to-right (equipment room on left, splitters in middle, residential area on right)? Reject if order is mixed up or vertical."
+    },
+    {
+      "id": "html_uses_distinct_visual_styles_for_fiber_types",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the topology_diagram.html visually distinguish at least 3 of: high-speed fiber / feeder fiber / distribution fiber, using different colors, line styles (solid/dashed), or labels?"
+    },
+    {
+      "id": "split_architecture_correctly_two_stage",
+      "check_type": "llm_judge_boolean",
+      "description": "Do topology_spec.json + the diagram represent a TWO-STAGE split (one 1:4 primary feeding four 1:32 secondaries), NOT a single 1:128 splitter? Reject if there's only one splitter shown or the secondary stage is missing."
+    },
+    {
+      "id": "capacity_math_explains_1_x_4_x_32_eq_128",
+      "check_type": "llm_judge_boolean",
+      "description": "Does topology_spec.capacity_math explicitly say '1 × 4 × 32 = 128' (or 1x4x32=128, or with words equivalent)? Reject if it just says '128 ONU' without showing the multiplication."
+    },
+    {
+      "id": "diagram_visually_shows_3plus_residential_buildings_with_3_services",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the residential side of the diagram visually show >=3 building/home silhouettes AND clearly label all 3 service types (上网/WiFi + 电视/TV + 电话)? Reject if only 1-2 buildings or services are shown."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "topology_diagram.html",
+      "topology_spec.json",
+      "topology_plan.csv",
+      "design_notes.md"
+    ]
+  }
+}

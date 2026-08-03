@@ -1,0 +1,64 @@
+============================================================
+EXPORT INVOICE
+============================================================
+
+Seller / Beneficiary:
+  Hangzhou Green Bag Co., Ltd.
+  No. 188 Binjiang Road, Hangzhou, Zhejiang 310053, China
+  Tel: +86-571-8888-1234    Fax: +86-571-8888-5678
+  Email: trade@hzgreenbag.com.cn
+
+Buyer / Applicant:
+  Acme Distribution LLC
+  2200 Wacker Drive, Suite 800
+  Chicago, IL 60606, USA
+
+------------------------------------------------------------
+Invoice No.:        HGB-2026-0312-001
+Invoice Date:       2026-03-12
+LC Reference:       BOA-DC-2026031045
+Buyer Order Ref.:   ACME-PO-2026-EC-0042
+Country of Origin:  CHINA
+Terms of Sale:      CIF LONG BEACH, USA
+Vessel / Voyage:    MV Pacific Pioneer / V.1234E
+Port of Loading:    Shanghai, China
+Port of Discharge:  Long Beach, USA
+Place of Delivery:  Chicago, IL, USA (via inland rail)
+------------------------------------------------------------
+
+DESCRIPTION OF GOODS:
+
+  50,000 PCS ECO-FRIENDLY POLYESTER NON-WOVEN TOTE BAGS, 12OZ
+  SIZE: 38 X 42 X 10 CM
+  CUSTOMER PRINTED LOGO PER BUYER ARTWORK SPEC HGB-2026-01
+  HS CODE: 4202.92
+
+------------------------------------------------------------
+Quantity, Unit Price and Amount
+------------------------------------------------------------
+
+  Total Quantity:    50,000 pcs
+  Unit Price:        USD 1.85 per pc (CIF Long Beach)
+  Total Amount:      USD 92,500.00
+
+  Amount in Words:   US DOLLARS NINETY TWO THOUSAND FIVE
+                     HUNDRED ONLY
+
+------------------------------------------------------------
+Beneficiary's Declarations
+------------------------------------------------------------
+
+  We hereby certify that the goods described above conform to
+  the terms of LC BOA-DC-2026031045 and have been shipped on
+  board the named vessel.
+
+For and on behalf of
+HANGZHOU GREEN BAG CO., LTD.
+
+  [signature]
+  ___________________________
+  Wang Jianhua
+  Director of Sales
+
+  Date: 2026-03-12
+  Place: Hangzhou, China

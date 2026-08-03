@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-amazon-headphone-sourcing",
+  "summary": "Sourcing buyer picks 3 differentiated headphone ASINs from Amazon US data: hard constraints + subcategory diversity + opportunity-score optimization + distractor identification + derived portfolio aggregates. 10 capability checks (folded from 26 atoms), score = passed / total.",
+  "category": "research_local",
+  "state_kind": "offline_local_only",
+  "difficulty": "L2",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Output deliverable anchor: outputs/sourcing_decision.json exists, is non-empty, and parses as a top-level JSON object. (Folds: sourcing_decision_json_exists, sourcing_decision_json_parseable.)"
+    },
+    {
+      "id": "output_schema_valid",
+      "check_type": "deterministic_exact",
+      "description": "Deliverable conforms to the required contract: selected_asins is 3 distinct non-empty strings; rationale is length-3 and aligned (rationale[i].asin == selected_asins[i]); all subcategories are in the enum; excluded_candidates is ≥3 well-formed objects with valid reason_codes; each selection_reason is ≥50 chars of substantive prose. (Folds: selected_asins_shape_correct, selected_asins_no_duplicates, rationale_aligned_with_asins, subcategories_in_enum, excluded_candidates_shape, excluded_candidates_reason_codes_valid, selection_reasons_substantive.)"
+    },
+    {
+      "id": "eligibility_filter_correct",
+      "check_type": "deterministic_exact",
+      "description": "All 3 selected ASINs satisfy the hard constraints (price ∈ [30,80], rating ≥ 4.0, reviews ≥ 1000) and have a known subcategory — i.e. each is in the GT valid set. (Folds: asin_0/1/2_in_valid_set.)"
+    },
+    {
+      "id": "subcategory_derivation_correct",
+      "check_type": "deterministic_exact",
+      "description": "Each selected ASIN's subcategory is correctly derived from the product detail spec sheet and matches ground truth, and the 3 subcategories are pairwise distinct (portfolio diversity). (Folds: asin_0/1/2_subcategory_matches_ground_truth, subcategories_all_distinct.)"
+    },
+    {
+      "id": "field_values_match_snapshot",
+      "check_type": "deterministic_exact",
+      "description": "For each rationale entry, brand / price / rating / reviews match the snapshot ground truth (price tolerance 0.01, rating tolerance 0.1, brand case-insensitive, reviews exact integer)."
+    },
+    {
+      "id": "opportunity_computation_correct",
+      "check_type": "deterministic_exact",
+      "description": "Each rationale[i].opportunity_score is present, numeric, and equals log10(max(reviews,1)) * rating * (80 - price) / 50 within 5% relative tolerance; top-level portfolio_score is present, numeric, and equals the sum of the 3 per-ASIN opportunity_scores within 5% relative tolerance. (Folds: opportunity_scores_present, opportunity_scores_correct, portfolio_score_present, portfolio_score_correct.)"
+    },
+    {
+      "id": "portfolio_is_optimal",
+      "check_type": "deterministic_exact",
+      "description": "The selected portfolio's true score is within 5% of the GT optimal portfolio score (argmax over 3-ASIN combinations from distinct subcategories)."
+    },
+    {
+      "id": "distractor_traps_identified",
+      "check_type": "deterministic_exact",
+      "description": "At least 2 of the agent's excluded_candidates ASINs are in the GT obvious_traps set (high-visibility ASINs that fail the hard constraints)."
+    },
+    {
+      "id": "portfolio_aggregates_correct",
+      "check_type": "deterministic_exact",
+      "description": "Top-level portfolio_avg_rating matches mean(selected ratings) within 0.05, and portfolio_total_reviews matches sum(selected reviews) exactly. (Folds: portfolio_avg_rating_correct, portfolio_total_reviews_correct.)"
+    },
+    {
+      "id": "output_hygiene",
+      "check_type": "deterministic_exact",
+      "description": "outputs/ contains only sourcing_decision.json (no scratch notes, .bak, .tmp files)."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "sourcing_decision.json"
+    ]
+  }
+}

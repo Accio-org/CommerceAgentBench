@@ -1,0 +1,2575 @@
+{
+  "_meta": {
+    "engine": "amazon",
+    "query": "open ear bluetooth earbuds",
+    "sort": "exact-aware-popularity-rank",
+    "fetched_at": 1779444369
+  },
+  "payload": {
+    "search_metadata": {
+      "id": "6a102a8dfbbebb082daf3efe",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/8pM69upnjhGGjdwzmNQ5vw/6a102a8dfbbebb082daf3efe.json",
+      "created_at": "2026-05-22 10:06:05 UTC",
+      "processed_at": "2026-05-22 10:06:05 UTC",
+      "amazon_url": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&s=exact-aware-popularity-rank",
+      "raw_html_file": "https://serpapi.com/searches/8pM69upnjhGGjdwzmNQ5vw/6a102a8dfbbebb082daf3efe.html",
+      "total_time_taken": 0.93
+    },
+    "search_parameters": {
+      "engine": "amazon",
+      "k": "open ear bluetooth earbuds",
+      "amazon_domain": "amazon.com",
+      "s": "exact-aware-popularity-rank",
+      "device": "desktop"
+    },
+    "search_information": {
+      "total_results": 3356,
+      "query_displayed": "open ear bluetooth earbuds",
+      "store": "gateway",
+      "page": 1
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "asin": "B09FT58QQP",
+        "options": "See options",
+        "options_link": "https://www.amazon.com/A1/dp/B09FT58QQP/ref=sr_1_1_so_HEADPHONES?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-1",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B09FT58QQP",
+              "title": "Black",
+              "link": "https://www.amazon.com/A1/dp/B09FT58QQP/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-1"
+            },
+            {
+              "position": 2,
+              "asin": "B09ZYCFDBL",
+              "title": "Blue",
+              "link": "https://www.amazon.com/A1/dp/B09ZYCFDBL/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-1"
+            },
+            {
+              "position": 3,
+              "asin": "B0D4DZF3SB",
+              "title": "Dark Gray",
+              "link": "https://www.amazon.com/A1/dp/B0D4DZF3SB/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-1"
+            },
+            {
+              "position": 4,
+              "asin": "B09ZYDRRK2",
+              "title": "Green",
+              "link": "https://www.amazon.com/A1/dp/B09ZYDRRK2/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-1"
+            },
+            {
+              "position": 5,
+              "asin": "B0D4DXPPN8",
+              "title": "Light Khaki",
+              "link": "https://www.amazon.com/A1/dp/B0D4DXPPN8/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-1"
+            },
+            {
+              "position": 6,
+              "asin": "B0G8HCFDCB",
+              "title": "Light Purple",
+              "link": "https://www.amazon.com/A1/dp/B0G8HCFDCB/ref=cs_sr_dp_loc_6?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-1"
+            }
+          ],
+          "more_variants": "+3",
+          "more_variants_link": "https://www.amazon.com/A1/dp/B09FT58QQP/ref=cs_sr_dp_loc_n?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-1"
+        },
+        "title": "TOZO A1 Wireless Earbuds Bluetooth 5.3 Light Weight in Ear IPX5 Waterproof Headphones 2 Mic for AI Calls, Immersive Premium Sound Bass Headset with Charging Case, 32 Presets EQ Customization via App",
+        "link": "https://www.amazon.com/A1/dp/B09FT58QQP/ref=sr_1_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-1",
+        "link_clean": "https://www.amazon.com/A1/dp/B09FT58QQP/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09FT58QQP&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/81+4jNKVFgL._AC_UY218_.jpg",
+        "rating": 4.3,
+        "reviews": 113800,
+        "bought_last_month": "10K+ bought in past month",
+        "price": "$13.99",
+        "extracted_price": 13.99,
+        "old_price": "$22.99",
+        "extracted_old_price": 22.99,
+        "offers": [
+          "Exclusive Prime price"
+        ],
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Recycled materials",
+            "snippet": "Contains at least 50% recycled material.",
+            "thumbnail": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS200_.png",
+            "certified_by": "Global Recycled Standard",
+            "certified_info": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly."
+          },
+          {
+            "position": 2,
+            "name": "Safer chemicals",
+            "snippet": "Made with chemicals safer for human health and the environment.",
+            "thumbnail": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS200_.png",
+            "certified_by": "Global Recycled Standard",
+            "certified_info": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly."
+          },
+          {
+            "position": 3,
+            "name": "Worker well-being",
+            "snippet": "Manufactured on farms or in facilities that protect the rights and/or health of workers.",
+            "thumbnail": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS200_.png",
+            "certified_by": "Global Recycled Standard",
+            "certified_info": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly."
+          }
+        ]
+      },
+      {
+        "position": 2,
+        "asin": "B0CRTYZG5C",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0CRTYZG5C",
+              "title": "Black",
+              "link": "https://www.amazon.com/Soundcore-Cancelling-Powerful-Playtime-Bluetooth/dp/B0CRTYZG5C/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-2"
+            },
+            {
+              "position": 2,
+              "asin": "B0CRTPF7CZ",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Soundcore-Cancelling-Powerful-Playtime-Bluetooth/dp/B0CRTPF7CZ/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-2"
+            },
+            {
+              "position": 3,
+              "asin": "B0CRTR3PMF",
+              "title": "Green",
+              "link": "https://www.amazon.com/Soundcore-Cancelling-Powerful-Playtime-Bluetooth/dp/B0CRTR3PMF/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-2"
+            },
+            {
+              "position": 4,
+              "asin": "B0CRTF579W",
+              "title": "Pink",
+              "link": "https://www.amazon.com/Soundcore-Cancelling-Powerful-Playtime-Bluetooth/dp/B0CRTF579W/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-2"
+            },
+            {
+              "position": 5,
+              "asin": "B0CRTN7C8C",
+              "title": "White",
+              "link": "https://www.amazon.com/Soundcore-Cancelling-Powerful-Playtime-Bluetooth/dp/B0CRTN7C8C/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-2"
+            }
+          ]
+        },
+        "title": "Soundcore P30i by Anker Noise Cancelling Earbuds, Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Wireless Earbuds, Bluetooth 5.4 (Black)",
+        "link": "https://www.amazon.com/Soundcore-Cancelling-Powerful-Playtime-Bluetooth/dp/B0CRTYZG5C/ref=sr_1_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-2",
+        "link_clean": "https://www.amazon.com/Soundcore-Cancelling-Powerful-Playtime-Bluetooth/dp/B0CRTYZG5C/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CRTYZG5C&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/51HbL1WS+KL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 33400,
+        "bought_last_month": "10K+ bought in past month",
+        "price": "$27.99",
+        "extracted_price": 27.99,
+        "old_price": "$39.99",
+        "extracted_old_price": 39.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Carbon impact",
+            "snippet": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+            "thumbnail": "https://m.media-amazon.com/images/I/117Gv10-Q1L._SS200_.png",
+            "certified_by": "ClimatePartner certified",
+            "certified_info": "The ClimatePartner certified product label confirms that a product meets the requirements for the five steps in climate action including calculating carbon footprints, setting reduction targets, implementing reductions, financing climate projects and communicating transparently to continuously reducing emissions."
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "asin": "B09FLNSYDZ",
+        "title": "bmani Ear Buds Wireless Earbuds Bluetooth Headphones with 80H Playtime LED Display Case, Over-Ear Hook with Mic, Stereo Sound, Easy Button Controls, Sports Earphones for Running Workout Gym Black",
+        "link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphones-BMANI-VEAT00L/dp/B09FLNSYDZ/ref=sr_1_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-3",
+        "link_clean": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphones-BMANI-VEAT00L/dp/B09FLNSYDZ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09FLNSYDZ&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/71GPFE2yHGL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 53900,
+        "bought_last_month": "10K+ bought in past month",
+        "price": "$39.99",
+        "extracted_price": 39.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ]
+      },
+      {
+        "position": 4,
+        "asin": "B0BTYCRJSS",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0BTYCRJSS",
+              "title": "Black",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYCRJSS/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-4"
+            },
+            {
+              "position": 2,
+              "asin": "B0BTYDLTM3",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYDLTM3/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-4"
+            },
+            {
+              "position": 3,
+              "asin": "B0D5HSP346",
+              "title": "Light Blue",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0D5HSP346/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-4"
+            },
+            {
+              "position": 4,
+              "asin": "B0D5HN8B1F",
+              "title": "Pink",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0D5HN8B1F/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-4"
+            },
+            {
+              "position": 5,
+              "asin": "B0BTYCJXBK",
+              "title": "White",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYCJXBK/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-4"
+            }
+          ]
+        },
+        "title": "Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization via App",
+        "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYCRJSS/ref=sr_1_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-4",
+        "link_clean": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYCRJSS/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BTYCRJSS&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/51Gnr7xpbhL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 105900,
+        "bought_last_month": "10K+ bought in past month",
+        "price": "$19.99",
+        "extracted_price": 19.99,
+        "old_price": "$39.99",
+        "extracted_old_price": 39.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 5,
+        "asin": "B0CSXV3GK4",
+        "options": "See options",
+        "options_link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0CSXV3GK4/ref=sr_1_5_so_HEADPHONES?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-5",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0CSXV3GK4",
+              "title": "Black",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0CSXV3GK4/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-5"
+            },
+            {
+              "position": 2,
+              "asin": "B0DDBK9K68",
+              "title": "Camel",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0DDBK9K68/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-5"
+            },
+            {
+              "position": 3,
+              "asin": "B0F18S2ND4",
+              "title": "Dark Green",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0F18S2ND4/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-5"
+            },
+            {
+              "position": 4,
+              "asin": "B0D7VJ4RS7",
+              "title": "Green",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0D7VJ4RS7/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-5"
+            },
+            {
+              "position": 5,
+              "asin": "B0FMDNQMLG",
+              "title": "Iron Gray",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0FMDNQMLG/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-5"
+            },
+            {
+              "position": 6,
+              "asin": "B0D7VJ24F4",
+              "title": "Purple",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0D7VJ24F4/ref=cs_sr_dp_loc_6?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-5"
+            }
+          ],
+          "more_variants": "+7",
+          "more_variants_link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0CSXV3GK4/ref=cs_sr_dp_loc_n?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-5"
+        },
+        "title": "Wireless Earbuds 75hrs Bluetooth 5.4 Headphone Sport, 2026 Bluetooth Earbuds Stereo Deep Bass Over Ear Bud with Earhooks, ENC Noise Cancelling Mic, IPX7 Waterproof Earphone for Gym/Running/Workout",
+        "link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0CSXV3GK4/ref=sr_1_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-5",
+        "link_clean": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0CSXV3GK4/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CSXV3GK4&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/71NMUHszF4L._AC_UY218_.jpg",
+        "rating": 4.3,
+        "reviews": 27600,
+        "bought_last_month": "10K+ bought in past month",
+        "price": "$25.99",
+        "extracted_price": 25.99,
+        "old_price": "$39.99",
+        "extracted_old_price": 39.99,
+        "offers": [
+          "Exclusive Prime price"
+        ],
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Recycled materials",
+            "snippet": "Contains at least 50% recycled material.",
+            "thumbnail": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS200_.png",
+            "certified_by": "Global Recycled Standard",
+            "certified_info": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly."
+          },
+          {
+            "position": 2,
+            "name": "Safer chemicals",
+            "snippet": "Made with chemicals safer for human health and the environment.",
+            "thumbnail": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS200_.png",
+            "certified_by": "Global Recycled Standard",
+            "certified_info": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly."
+          },
+          {
+            "position": 3,
+            "name": "Carbon impact",
+            "snippet": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+            "thumbnail": "https://m.media-amazon.com/images/I/61sxI+4PZlL._SS200_.png",
+            "certified_by": "ClimeCo Certified",
+            "certified_info": "ClimeCo certifies products whose carbon emissions have been assessed, verified, decarbonized, and are on a committed path towards continual emissions reductions. Companies may pursue emissions reductions for products through various means such as sustainable manufacturing practices, supply chain sustainability, raw materials innovation, renewable energy use, insetting, sustainable transportation and packaging."
+          },
+          {
+            "position": 4,
+            "name": "Worker well-being",
+            "snippet": "Manufactured on farms or in facilities that protect the rights and/or health of workers.",
+            "thumbnail": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS200_.png",
+            "certified_by": "Global Recycled Standard",
+            "certified_info": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly."
+          }
+        ]
+      },
+      {
+        "position": 6,
+        "asin": "B0D2XRXNGY",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0D2XRXNGY",
+              "title": "Black",
+              "link": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D2XRXNGY/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-6"
+            },
+            {
+              "position": 2,
+              "asin": "B0D31C567W",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D31C567W/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-6"
+            },
+            {
+              "position": 3,
+              "asin": "B0D319J6T2",
+              "title": "White",
+              "link": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D319J6T2/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-6"
+            }
+          ]
+        },
+        "title": "Soundcore V20i by Anker Open-Ear Headphones, Adjustable Ear Hooks, Ultra-Comfort, Snug Fit, Powerful Sound, Clear Calls, IP55, 36H Playtime, Bluetooth 5.4 Wireless Earbuds, Multipoint Connection",
+        "link": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D2XRXNGY/ref=sr_1_6?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-6",
+        "link_clean": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D2XRXNGY/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D2XRXNGY&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/517WiAmP8qL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 14900,
+        "bought_last_month": "10K+ bought in past month",
+        "price": "$29.99",
+        "extracted_price": 29.99,
+        "old_price": "$49.99",
+        "extracted_old_price": 49.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "more_buying_choices": "$28.49 (3 used & new offers)",
+        "more_buying_choices_link": "https://www.amazon.com/gp/offer-listing/B0D2XRXNGY/ref=sr_1_6_olp?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-6"
+      },
+      {
+        "position": 7,
+        "asin": "B0D635YLCT",
+        "badges": [
+          "Limited time deal"
+        ],
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0D635YLCT",
+              "title": "Black",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B0D635YLCT/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-7"
+            },
+            {
+              "position": 2,
+              "asin": "B0DTDSQF99",
+              "title": "Blue",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B0DTDSQF99/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-7"
+            },
+            {
+              "position": 3,
+              "asin": "B085VX9JY7",
+              "title": "Glossy Black",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B085VX9JY7/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-7"
+            },
+            {
+              "position": 4,
+              "asin": "B0G5WVJ9PT",
+              "title": "Hot Pink",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B0G5WVJ9PT/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-7"
+            },
+            {
+              "position": 5,
+              "asin": "B0G5WZ2M7F",
+              "title": "Light Blue",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B0G5WZ2M7F/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-7"
+            },
+            {
+              "position": 6,
+              "asin": "B0DTDX8RC3",
+              "title": "Orange",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B0DTDX8RC3/ref=cs_sr_dp_loc_6?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-7"
+            }
+          ],
+          "more_variants": "+2",
+          "more_variants_link": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B0D635YLCT/ref=cs_sr_dp_loc_n?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-7"
+        },
+        "title": "kurdene Wireless Earbuds Bluetooth 5.3 in Ear Buds Light Weight Headphones,Deep Bass Sound,Built in Mics Headset,Clear Calls Earphones for Sports Workout",
+        "link": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B0D635YLCT/ref=sr_1_7?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-7",
+        "link_clean": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B0D635YLCT/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D635YLCT&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/715fNrGN+ML._AC_UY218_.jpg",
+        "rating": 4.3,
+        "reviews": 59100,
+        "bought_last_month": "2K+ bought in past month",
+        "price": "$8.48",
+        "extracted_price": 8.48,
+        "old_price": "$9.99",
+        "extracted_old_price": 9.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 8,
+        "asin": "B0D2HKCMBP",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0D2HKCMBP",
+              "title": "Black",
+              "link": "https://www.amazon.com/SHOKZ-New-OpenRun-Pro-Comfortable/dp/B0D2HKCMBP/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-8"
+            },
+            {
+              "position": 2,
+              "asin": "B0FH4QX7TH",
+              "title": "Blue",
+              "link": "https://www.amazon.com/SHOKZ-New-OpenRun-Pro-Comfortable/dp/B0FH4QX7TH/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-8"
+            },
+            {
+              "position": 3,
+              "asin": "B0D2HKQWHX",
+              "title": "Orange",
+              "link": "https://www.amazon.com/SHOKZ-New-OpenRun-Pro-Comfortable/dp/B0D2HKQWHX/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-8"
+            },
+            {
+              "position": 4,
+              "asin": "B0GGBQPG9C",
+              "title": "Rose Gold",
+              "link": "https://www.amazon.com/SHOKZ-New-OpenRun-Pro-Comfortable/dp/B0GGBQPG9C/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-8"
+            },
+            {
+              "position": 5,
+              "asin": "B0D7HD7N23",
+              "title": "Silver",
+              "link": "https://www.amazon.com/SHOKZ-New-OpenRun-Pro-Comfortable/dp/B0D7HD7N23/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-8"
+            }
+          ]
+        },
+        "title": "SHOKZ New OpenRun Pro 2- Bone Conduction Headphones, Open-Ear Bluetooth Wireless Sport Earphones for Running, Workouts - Sweat Resistant, Secure Comfortable Fit -Deep Bass, Smart Mic, Reflective Strip",
+        "link": "https://www.amazon.com/SHOKZ-New-OpenRun-Pro-Comfortable/dp/B0D2HKCMBP/ref=sr_1_8?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-8",
+        "link_clean": "https://www.amazon.com/SHOKZ-New-OpenRun-Pro-Comfortable/dp/B0D2HKCMBP/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D2HKCMBP&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/417fmeqXikL._AC_UY218_.jpg",
+        "rating": 4.5,
+        "reviews": 9800,
+        "bought_last_month": "10K+ bought in past month",
+        "price": "$179.95",
+        "extracted_price": 179.95,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Carbon impact",
+            "snippet": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+            "thumbnail": "https://m.media-amazon.com/images/I/61sxI+4PZlL._SS200_.png",
+            "certified_by": "ClimeCo Certified",
+            "certified_info": "ClimeCo certifies products whose carbon emissions have been assessed, verified, decarbonized, and are on a committed path towards continual emissions reductions. Companies may pursue emissions reductions for products through various means such as sustainable manufacturing practices, supply chain sustainability, raw materials innovation, renewable energy use, insetting, sustainable transportation and packaging."
+          }
+        ]
+      },
+      {
+        "position": 9,
+        "asin": "B0C3W4MNN1",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0C3W4MNN1",
+              "title": "Black",
+              "link": "https://www.amazon.com/PocBuds-Bluetooth-Headphones-Waterproof-Earphones/dp/B0C3W4MNN1/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-9"
+            },
+            {
+              "position": 2,
+              "asin": "B0CHP1WLW4",
+              "title": "Blue",
+              "link": "https://www.amazon.com/PocBuds-Bluetooth-Headphones-Waterproof-Earphones/dp/B0CHP1WLW4/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-9"
+            },
+            {
+              "position": 3,
+              "asin": "B0CHP177FN",
+              "title": "Olive",
+              "link": "https://www.amazon.com/PocBuds-Bluetooth-Headphones-Waterproof-Earphones/dp/B0CHP177FN/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-9"
+            },
+            {
+              "position": 4,
+              "asin": "B0GXFFC5QJ",
+              "title": "Purple",
+              "link": "https://www.amazon.com/PocBuds-Bluetooth-Headphones-Waterproof-Earphones/dp/B0GXFFC5QJ/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-9"
+            },
+            {
+              "position": 5,
+              "asin": "B0GXFKD7YS",
+              "title": "Rose Gold",
+              "link": "https://www.amazon.com/PocBuds-Bluetooth-Headphones-Waterproof-Earphones/dp/B0GXFKD7YS/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-9"
+            },
+            {
+              "position": 6,
+              "asin": "B0C863HXJW",
+              "title": "Mint Green",
+              "link": "https://www.amazon.com/PocBuds-Bluetooth-Headphones-Waterproof-Earphones/dp/B0C863HXJW/ref=cs_sr_dp_loc_6?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-9"
+            }
+          ],
+          "more_variants": "+2",
+          "more_variants_link": "https://www.amazon.com/PocBuds-Bluetooth-Headphones-Waterproof-Earphones/dp/B0C3W4MNN1/ref=cs_sr_dp_loc_n?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-9"
+        },
+        "title": "PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime Wireless Charging Case Digital Display Sports Ear Buds with Earhook Deep Bass IPX7 Waterproof Over-Ear Earphones for TV Phone Laptop Black",
+        "link": "https://www.amazon.com/PocBuds-Bluetooth-Headphones-Waterproof-Earphones/dp/B0C3W4MNN1/ref=sr_1_9?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-9",
+        "link_clean": "https://www.amazon.com/PocBuds-Bluetooth-Headphones-Waterproof-Earphones/dp/B0C3W4MNN1/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C3W4MNN1&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/71G9a1iSpHL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 21100,
+        "bought_last_month": "10K+ bought in past month",
+        "price": "$25.99",
+        "extracted_price": 25.99,
+        "old_price": "$39.99",
+        "extracted_old_price": 39.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 10,
+        "asin": "B09BW29FJS",
+        "badges": [
+          "Limited time deal"
+        ],
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B09BW29FJS",
+              "title": "Grey",
+              "link": "https://www.amazon.com/Shokz-OpenMove-Headphones-Conduction-Sweatproof/dp/B09BW29FJS/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-10"
+            },
+            {
+              "position": 2,
+              "asin": "B09BVX8ZXF",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Shokz-OpenMove-Headphones-Conduction-Sweatproof/dp/B09BVX8ZXF/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-10"
+            }
+          ]
+        },
+        "title": "SHOKZ OpenMove - Open-Ear Bluetooth Sport Headphones, Bone Conduction Wireless Earphones, Sweatproof for Running and Workouts, with Sticker Pack, Grey",
+        "link": "https://www.amazon.com/Shokz-OpenMove-Headphones-Conduction-Sweatproof/dp/B09BW29FJS/ref=sr_1_10?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-10",
+        "link_clean": "https://www.amazon.com/Shokz-OpenMove-Headphones-Conduction-Sweatproof/dp/B09BW29FJS/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09BW29FJS&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/514DHeZb-UL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 23300,
+        "bought_last_month": "1K+ bought in past month",
+        "price": "$54.95",
+        "extracted_price": 54.95,
+        "old_price": "$79.95",
+        "extracted_old_price": 79.95,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Carbon impact",
+            "snippet": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+            "thumbnail": "https://m.media-amazon.com/images/I/61sxI+4PZlL._SS200_.png",
+            "certified_by": "ClimeCo Certified",
+            "certified_info": "ClimeCo certifies products whose carbon emissions have been assessed, verified, decarbonized, and are on a committed path towards continual emissions reductions. Companies may pursue emissions reductions for products through various means such as sustainable manufacturing practices, supply chain sustainability, raw materials innovation, renewable energy use, insetting, sustainable transportation and packaging."
+          }
+        ]
+      },
+      {
+        "position": 11,
+        "asin": "B0F8J38VRR",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0F8J38VRR",
+              "title": "Rose Gold",
+              "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0F8J38VRR/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-11"
+            },
+            {
+              "position": 2,
+              "asin": "B0FK2B6WXR",
+              "title": "Black",
+              "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0FK2B6WXR/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-11"
+            },
+            {
+              "position": 3,
+              "asin": "B0FD2FP8ZX",
+              "title": "Purple",
+              "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0FD2FP8ZX/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-11"
+            },
+            {
+              "position": 4,
+              "asin": "B0FX21MGWY",
+              "title": "White",
+              "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0FX21MGWY/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-11"
+            }
+          ]
+        },
+        "title": "Kinglucky Upgraded Clip-On Earbuds Bluetooth 6.0 Wireless Headphones Open Ear Buds Comfortable Fit & Crystal-Clear Sound, 50H Playtime for Women & Kids Ideal for Small Ears, Sports, Glasses Rose Gold",
+        "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0F8J38VRR/ref=sr_1_11?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-11",
+        "link_clean": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0F8J38VRR/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8J38VRR&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/71KxrwBkQWL._AC_UY218_.jpg",
+        "rating": 4.5,
+        "reviews": 1200,
+        "bought_last_month": "4K+ bought in past month",
+        "price": "$27.99",
+        "extracted_price": 27.99,
+        "old_price": "$35.99",
+        "extracted_old_price": 35.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Carbon impact",
+            "snippet": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+            "thumbnail": "https://m.media-amazon.com/images/I/61sxI+4PZlL._SS200_.png",
+            "certified_by": "ClimeCo Certified",
+            "certified_info": "ClimeCo certifies products whose carbon emissions have been assessed, verified, decarbonized, and are on a committed path towards continual emissions reductions. Companies may pursue emissions reductions for products through various means such as sustainable manufacturing practices, supply chain sustainability, raw materials innovation, renewable energy use, insetting, sustainable transportation and packaging."
+          }
+        ]
+      },
+      {
+        "position": 12,
+        "asin": "B09BW1QVVT",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B09BW1QVVT",
+              "title": "Black",
+              "link": "https://www.amazon.com/Shokz-OpenRun-Conduction-Headphones-Built/dp/B09BW1QVVT/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-12"
+            },
+            {
+              "position": 2,
+              "asin": "B09BW1T7X2",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Shokz-OpenRun-Conduction-Headphones-Built/dp/B09BW1T7X2/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-12"
+            }
+          ]
+        },
+        "title": "SHOKZ OpenRun Bone Conduction Open-Ear Bluetooth Sport Headphones, Running Workout Bundle with Waterproof Carrying Case & Sweat Headband, IP67 Sweat Resistant, 8H Playtime, Mic, Black",
+        "link": "https://www.amazon.com/Shokz-OpenRun-Conduction-Headphones-Built/dp/B09BW1QVVT/ref=sr_1_12?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-12",
+        "link_clean": "https://www.amazon.com/Shokz-OpenRun-Conduction-Headphones-Built/dp/B09BW1QVVT/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09BW1QVVT&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41BJP39NtLL._AC_UY218_.jpg",
+        "rating": 4.5,
+        "reviews": 26400,
+        "bought_last_month": "6K+ bought in past month",
+        "price": "$129.95",
+        "extracted_price": 129.95,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ]
+      },
+      {
+        "position": 13,
+        "asin": "B0D9M7VQ47",
+        "badges": [
+          "Ends in 20:53:53"
+        ],
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0D9M7VQ47",
+              "title": "Purple",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0D9M7VQ47/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-13"
+            },
+            {
+              "position": 2,
+              "asin": "B0D9VD6ZL2",
+              "title": "Black",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0D9VD6ZL2/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-13"
+            },
+            {
+              "position": 3,
+              "asin": "B0DYD15SPF",
+              "title": "Light White",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0DYD15SPF/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-13"
+            },
+            {
+              "position": 4,
+              "asin": "B0F93CBR98",
+              "title": "Pink",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0F93CBR98/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-13"
+            },
+            {
+              "position": 5,
+              "asin": "B0FXWPT4RZ",
+              "title": "White",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0FXWPT4RZ/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-13"
+            }
+          ]
+        },
+        "title": "King Lucky Clip-On Earbuds Gen 3, Open-Ear Wireless Bluetooth 6.0 Headphones with Mic, Secure Fit for Small Ears & Glasses Wearers, 50H Playtime, ENC, IPX5 Waterproof Sport Ear Buds (Purple)",
+        "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0D9M7VQ47/ref=sr_1_13?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-13",
+        "link_clean": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0D9M7VQ47/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D9M7VQ47&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/71KwnFBYryL._AC_UY218_.jpg",
+        "rating": 4.2,
+        "reviews": 6300,
+        "bought_last_month": "3K+ bought in past month",
+        "price": "$21.72",
+        "extracted_price": 21.72,
+        "old_price": "$26.98",
+        "extracted_old_price": 26.98,
+        "delivery": [
+          "Join Prime to get FREE delivery Sun, May 24",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Carbon impact",
+            "snippet": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+            "thumbnail": "https://m.media-amazon.com/images/I/61sxI+4PZlL._SS200_.png",
+            "certified_by": "ClimeCo Certified",
+            "certified_info": "ClimeCo certifies products whose carbon emissions have been assessed, verified, decarbonized, and are on a committed path towards continual emissions reductions. Companies may pursue emissions reductions for products through various means such as sustainable manufacturing practices, supply chain sustainability, raw materials innovation, renewable energy use, insetting, sustainable transportation and packaging."
+          }
+        ]
+      },
+      {
+        "position": 14,
+        "asin": "B0DRBPMYJQ",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0DRBPMYJQ",
+              "title": "Black",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Headphones-Redesigned-Workout-Black/dp/B0DRBPMYJQ/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-14"
+            },
+            {
+              "position": 2,
+              "asin": "B0DRNB3F2M",
+              "title": "Blue",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Headphones-Redesigned-Workout-Black/dp/B0DRNB3F2M/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-14"
+            },
+            {
+              "position": 3,
+              "asin": "B0F93BTM85",
+              "title": "Hot Pink",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Headphones-Redesigned-Workout-Black/dp/B0F93BTM85/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-14"
+            },
+            {
+              "position": 4,
+              "asin": "B0DRBSPHTB",
+              "title": "Mint Green",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Headphones-Redesigned-Workout-Black/dp/B0DRBSPHTB/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-14"
+            },
+            {
+              "position": 5,
+              "asin": "B08HYST66T",
+              "title": "Orange",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Headphones-Redesigned-Workout-Black/dp/B08HYST66T/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-14"
+            },
+            {
+              "position": 6,
+              "asin": "B0DRBRCTMP",
+              "title": "Pink",
+              "link": "https://www.amazon.com/kurdene-Bluetooth-Headphones-Redesigned-Workout-Black/dp/B0DRBRCTMP/ref=cs_sr_dp_loc_6?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-14"
+            }
+          ],
+          "more_variants": "+1",
+          "more_variants_link": "https://www.amazon.com/kurdene-Bluetooth-Headphones-Redesigned-Workout-Black/dp/B0DRBPMYJQ/ref=cs_sr_dp_loc_n?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-14"
+        },
+        "title": "kurdene Wireless Earbuds Bluetooth Headphones Sport,Over Ear Buds with Deep Bass Sound,60Hrs Playtime Earphones Redesigned Comfort Fit with Earhooks for Running,Meeting,Workout-Black",
+        "link": "https://www.amazon.com/kurdene-Bluetooth-Headphones-Redesigned-Workout-Black/dp/B0DRBPMYJQ/ref=sr_1_14?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-14",
+        "link_clean": "https://www.amazon.com/kurdene-Bluetooth-Headphones-Redesigned-Workout-Black/dp/B0DRBPMYJQ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DRBPMYJQ&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/715BmHltS+L._AC_UY218_.jpg",
+        "rating": 4.3,
+        "reviews": 6000,
+        "bought_last_month": "6K+ bought in past month",
+        "price": "$14.99",
+        "extracted_price": 14.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 15,
+        "asin": "B0F62TV3ZW",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0F62TV3ZW",
+              "title": "Black",
+              "link": "https://www.amazon.com/Headphones-Ergonomic-Bluetooth-Playtime-Waterproof/dp/B0F62TV3ZW/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-15"
+            },
+            {
+              "position": 2,
+              "asin": "B0F9K6YQ3K",
+              "title": "Beige",
+              "link": "https://www.amazon.com/Headphones-Ergonomic-Bluetooth-Playtime-Waterproof/dp/B0F9K6YQ3K/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-15"
+            }
+          ]
+        },
+        "title": "OHAYO Open Ear Headphones,Over Ear Earbuds with Ergonomic Earhook,Bluetooth Headphones 5.4 with Smart Digital Display,40H Playtime,IPX6 Waterproof,Touch Control Operate Fit Cycling,Running,Workout",
+        "link": "https://www.amazon.com/Headphones-Ergonomic-Bluetooth-Playtime-Waterproof/dp/B0F62TV3ZW/ref=sr_1_15?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-15",
+        "link_clean": "https://www.amazon.com/Headphones-Ergonomic-Bluetooth-Playtime-Waterproof/dp/B0F62TV3ZW/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F62TV3ZW&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/61jC7oIl5IL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 2100,
+        "bought_last_month": "5K+ bought in past month",
+        "price": "$29.99",
+        "extracted_price": 29.99,
+        "old_price": "$49.99",
+        "extracted_old_price": 49.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 16,
+        "asin": "B0B1LVC5VZ",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0B1LVC5VZ",
+              "title": "Black",
+              "link": "https://www.amazon.com/Soundcore-Auto-Adjustable-Cancelling-Wireless-Headphone/dp/B0B1LVC5VZ/ref=cs_sr_dp_loc_1?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-16"
+            },
+            {
+              "position": 2,
+              "asin": "B0B1LPNDGF",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Soundcore-Auto-Adjustable-Cancelling-Wireless-Headphone/dp/B0B1LPNDGF/ref=cs_sr_dp_loc_2?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-16"
+            },
+            {
+              "position": 3,
+              "asin": "B0D6V69JT2",
+              "title": "Green",
+              "link": "https://www.amazon.com/Soundcore-Auto-Adjustable-Cancelling-Wireless-Headphone/dp/B0D6V69JT2/ref=cs_sr_dp_loc_3?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-16"
+            },
+            {
+              "position": 4,
+              "asin": "B0D6VJJP9F",
+              "title": "Purple",
+              "link": "https://www.amazon.com/Soundcore-Auto-Adjustable-Cancelling-Wireless-Headphone/dp/B0D6VJJP9F/ref=cs_sr_dp_loc_4?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-16"
+            },
+            {
+              "position": 5,
+              "asin": "B0B1LJFBPY",
+              "title": "White",
+              "link": "https://www.amazon.com/Soundcore-Auto-Adjustable-Cancelling-Wireless-Headphone/dp/B0B1LJFBPY/ref=cs_sr_dp_loc_5?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-16"
+            }
+          ]
+        },
+        "title": "Soundcore by Anker Space A40 Adaptive Active Noise Cancelling Wireless Earbuds, Reduce Noise by Up to 98%, Ultra Long 50H Playtime, 10H Single Playtime, Hi-Res Sound, Comfortable Fit, Wireless Charge",
+        "link": "https://www.amazon.com/Soundcore-Auto-Adjustable-Cancelling-Wireless-Headphone/dp/B0B1LVC5VZ/ref=sr_1_16?keywords=open+ear+bluetooth+earbuds&qid=1779444365&sr=8-16",
+        "link_clean": "https://www.amazon.com/Soundcore-Auto-Adjustable-Cancelling-Wireless-Headphone/dp/B0B1LVC5VZ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0B1LVC5VZ&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/51EwBP9U2YL._AC_UY218_.jpg",
+        "rating": 4.2,
+        "reviews": 23600,
+        "bought_last_month": "3K+ bought in past month",
+        "price": "$54.99",
+        "extracted_price": 54.99,
+        "old_price": "$79.99",
+        "extracted_old_price": 79.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "position": 1,
+        "name": "Books",
+        "link": "https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books",
+        "node": "283155",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=283155"
+      },
+      {
+        "position": 2,
+        "name": "Gift Cards",
+        "link": "https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc",
+        "node": "2238192011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=2238192011"
+      },
+      {
+        "position": 3,
+        "name": "Sell",
+        "link": "https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell",
+        "node": "12766669011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=12766669011"
+      },
+      {
+        "position": 4,
+        "name": "Smart Home",
+        "link": "https://www.amazon.com/Smart-Home/b/?ie=UTF8&node=6563140011&ref_=nav_cs_smart_home",
+        "node": "6563140011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=6563140011"
+      },
+      {
+        "position": 5,
+        "name": "Fashion",
+        "link": "https://www.amazon.com/amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion",
+        "node": "7141123011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=7141123011"
+      },
+      {
+        "position": 6,
+        "name": "Amazon Home",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/?ie=UTF8&node=1055398&ref_=nav_cs_home",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 7,
+        "name": "Automotive",
+        "link": "https://www.amazon.com/automotive-auto-truck-replacements-parts/b/?ie=UTF8&node=15684181&ref_=nav_cs_automotive",
+        "node": "15684181",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15684181"
+      },
+      {
+        "position": 8,
+        "name": "Toys & Games",
+        "link": "https://www.amazon.com/toys/b/?ie=UTF8&node=165793011&ref_=nav_cs_toys",
+        "node": "165793011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=165793011"
+      },
+      {
+        "position": 9,
+        "name": "Sports & Outdoors",
+        "link": "https://www.amazon.com/sports-outdoors/b/?ie=UTF8&node=3375251&ref_=nav_cs_sports",
+        "node": "3375251",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3375251"
+      },
+      {
+        "position": 10,
+        "name": "Home Improvement",
+        "link": "https://www.amazon.com/Tools-and-Home-Improvement/b/?ie=UTF8&node=228013&ref_=nav_cs_hi",
+        "node": "228013",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=228013"
+      },
+      {
+        "position": 11,
+        "name": "Baby",
+        "link": "https://www.amazon.com/baby-car-seats-strollers-bedding/b/?ie=UTF8&node=165796011&ref_=nav_cs_baby",
+        "node": "165796011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=165796011"
+      },
+      {
+        "position": 12,
+        "name": "Kindle Books",
+        "link": "https://www.amazon.com/Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books",
+        "node": "154606011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=154606011"
+      },
+      {
+        "position": 13,
+        "name": "Beauty & Personal Care",
+        "link": "https://www.amazon.com/Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty",
+        "node": "3760911",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3760911"
+      }
+    ],
+    "filters": {
+      "popular_shopping_ideas": [
+        {
+          "position": 1,
+          "name": "With Mic",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds+with+microphone&ref=sr_nr_p_rag_integrated_qb_0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds+with+microphone&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Shokz",
+          "link": "https://www.amazon.com/s?k=shokz+open+ear+bluetooth+earbuds&ref=sr_nr_p_rag_integrated_qb_1",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=shokz+open+ear+bluetooth+earbuds&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Running",
+          "link": "https://www.amazon.com/s?k=running+open+ear+bluetooth+earbuds&ref=sr_nr_p_rag_integrated_qb_2",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=running+open+ear+bluetooth+earbuds&s=exact-aware-popularity-rank"
+        }
+      ],
+      "eligible_for_free_shipping": [
+        {
+          "position": 1,
+          "name": "Free Shipping by Amazon",
+          "description": "Get FREE Shipping on eligible orders shipped by Amazon",
+          "rh": "p_76:1249137011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_76%3A1249137011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=1249135011&ref=sr_nr_p_76_1&ds=v1%3A6QiI9Fq8N1ADjIJPrbaaelIGBRTvZx3H2ygEgZu7xvs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_76%3A1249137011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "delivery_day": [
+        {
+          "position": 1,
+          "name": "Get It Today",
+          "rh": "p_90:8308920011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_90%3A8308920011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=8308919011&ref=sr_nr_p_90_1&ds=v1%3AoPMIbF5l3O5e8ZcQUllmdk7mZoSZao9oBBeEZL4kMZU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_90%3A8308920011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Get It by Tomorrow",
+          "rh": "p_90:8308921011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_90%3A8308921011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=8308919011&ref=sr_nr_p_90_2&ds=v1%3AL7OxG0qbPTjGy%2B1nLbe55Sdbb2PCiq0DzRGxv8hfGoc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_90%3A8308921011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "price": [
+        {
+          "position": 1,
+          "name": "All Discounts",
+          "rh": "p_n_deal_type:23566065011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_deal_type%3A23566065011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23566063011&ref=sr_nr_p_n_deal_type_1&ds=v1%3A6f%2FBgeTKWF59xCzCtzEmr%2FDSpIfTJSzPoCpgyRz%2Fca4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_deal_type%3A23566065011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Buy More, Save More",
+          "rh": "p_n_deal_type:210906365011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_deal_type%3A210906365011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23566063011&ref=sr_nr_p_n_deal_type_2&ds=v1%3Aulvb9agovets%2F2tLn0uZqwJetlKax3l3qKoO59U7GAg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_deal_type%3A210906365011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Coupons",
+          "rh": "p_n_deal_type:210906366011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_deal_type%3A210906366011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23566063011&ref=sr_nr_p_n_deal_type_3&ds=v1%3Aj7%2F5%2FFPCtHXVMkJt82SD0uO3K0FeKMnJaKXYrTvRUZk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_deal_type%3A210906366011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Today's Deals",
+          "rh": "p_n_deal_type:23566064011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_deal_type%3A23566064011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23566063011&ref=sr_nr_p_n_deal_type_4&ds=v1%3AS07MMPCl5ozYA4EZA38ITvObXE3ScTHUo5WxS%2Fuyw%2BI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_deal_type%3A23566064011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Up to $20",
+          "rh": "p_36:dynamic-picker-0",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_36%3A-2000&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=386442011&ref=sr_nr_p_36_1&ds=v1%3A6XhgpsNntciWcTbfsy8WNhpwCvqRBR8iMBzy1q6ybuA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_36%3A-2000&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "$20 to $25",
+          "rh": "p_36:dynamic-picker-1",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_36%3A2000-2500&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=386442011&ref=sr_nr_p_36_2&ds=v1%3Aq8pLdLuxxLwMhrqwMpk5ySvw3qkbbzDpQpBLnLsW2WY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_36%3A2000-2500&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "$25 to $30",
+          "rh": "p_36:dynamic-picker-2",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_36%3A2500-3000&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=386442011&ref=sr_nr_p_36_3&ds=v1%3AhSPadLOp5qAMC4sLWGfQNmxF9fGamXwhk4Y%2BeOS%2BlpA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_36%3A2500-3000&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "$30 to $40",
+          "rh": "p_36:dynamic-picker-3",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_36%3A3000-4000&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=386442011&ref=sr_nr_p_36_4&ds=v1%3AMNwlIEh1PVNdG1ZVx4G%2Bs8%2BWAHfo%2Bh%2BnFYxYXlJurEo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_36%3A3000-4000&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "$40 & above",
+          "rh": "p_36:dynamic-picker-4",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_36%3A4000-&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=386442011&ref=sr_nr_p_36_5&ds=v1%3AzB2Q4%2FXqdOOo4QiRqyd0KH4%2FXVdaJAaIq4jP5Z6umAA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_36%3A4000-&s=exact-aware-popularity-rank"
+        }
+      ],
+      "brands": [
+        {
+          "position": 1,
+          "name": "Bose",
+          "rh": "p_123:264616",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A264616&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_1&ds=v1%3A6YceJyF3Q8cfKBw5zKnaszEFssqb82I0Fnyp3u6y%2Bp0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A264616&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Soundcore",
+          "rh": "p_123:324795",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A324795&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_2&ds=v1%3AJ3bZvCIB7bGh%2Bc8Ky4g4c7M%2BMtbBjbr3wwhN0Zw7nsM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A324795&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Sony",
+          "rh": "p_123:237204",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A237204&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_3&ds=v1%3A73YssNNJ58%2Fxflopiy5z%2B2hns6TrCW2wVL2YE3wI%2F64",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A237204&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "SHOKZ",
+          "rh": "p_123:1074925",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A1074925&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_4&ds=v1%3A6IDvFLDbUip2o6TWuHeILHBhIxE2%2BJlFsk70A8wnqcY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A1074925&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "JBL",
+          "rh": "p_123:233043",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A233043&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_5&ds=v1%3AJIUDtyUrzo9ldkMiN7jJaPsVxOS0%2BEMKx40XMkC919A",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A233043&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Sennheiser",
+          "rh": "p_123:213748",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A213748&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_6&ds=v1%3ALEPDWZbRpcsqwqZAXzdisERRGlupyTSlrGPzaY30WK0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A213748&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "TOZO",
+          "rh": "p_123:137850",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A137850&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_7&ds=v1%3Au8PDjRr7Rv6%2BrG7C6FwKlEUAIYZEuUCipe9yeiquMfM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A137850&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Jabra",
+          "rh": "p_123:106633",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A106633&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_8&ds=v1%3AqsCFJiAB1j7KTKjO3fYy2GxHGCRfKOgFzEo2Pb196Ag",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A106633&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Monster",
+          "rh": "p_123:392247",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A392247&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_9&ds=v1%3AG834yVbw%2BbSRmApYcQz4p6UaXyMAkgxsCMoWb20qg5Y",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A392247&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 10,
+          "name": "EarFun",
+          "rh": "p_123:541275",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A541275&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_10&ds=v1%3Ah0IY0g%2BiYAPrMs4jOb9XT4r%2BFku0mFnXWhtG3wwzX0g",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A541275&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 11,
+          "name": "MINISO",
+          "rh": "p_123:545518",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A545518&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_11&ds=v1%3A1yiZTxLRUstigQtCCoGw%2BP9F904LoYdfheB%2BWYt5vzs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A545518&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 12,
+          "name": "JLab",
+          "rh": "p_123:170780",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A170780&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_12&ds=v1%3AfKue0PuV%2FyYQwD2aVH5PEgI%2BYHQ5BRlifu99XaRRTow",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A170780&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 13,
+          "name": "SoundPEATS",
+          "rh": "p_123:84029",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A84029&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_13&ds=v1%3A7woYqZMilrZq%2BIHRru99kQBNZQb7LhAtONOZWMZo%2BvM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A84029&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 14,
+          "name": "JVC",
+          "rh": "p_123:262022",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A262022&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_14&ds=v1%3A5oJScyLZ0chdHpByFvGX5fYv%2FFxBNGBjATf9d6zMRBY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A262022&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 15,
+          "name": "Cleer",
+          "rh": "p_123:552175",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A552175&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_15&ds=v1%3AFutsOikI6Z2ZViKpDnUIJ3CD2D6oIv8NwCNlKDEWau4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A552175&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 16,
+          "name": "Sanag",
+          "rh": "p_123:384393",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A384393&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_16&ds=v1%3AbBde5SwEUstaxk3gcuPIlFdBeQj7%2FQs%2BL95f6In5GfE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A384393&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 17,
+          "name": "Philips",
+          "rh": "p_123:195698",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A195698&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_17&ds=v1%3AdB7k0jHJT6DrlhS1lYhqBHu645hepfsrlqajOOwhejs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A195698&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 18,
+          "name": "Avantree",
+          "rh": "p_123:38839",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A38839&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_18&ds=v1%3A%2FPSFAAIL8fkzwLsXa%2BLs1ds9zSZ3MiUpiUsaoUvjrXM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A38839&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 19,
+          "name": "TREBLAB",
+          "rh": "p_123:142132",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A142132&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_19&ds=v1%3Av%2FwrIIIiCLsh5yT8nPa5DXq7LifHc2n%2FcCh%2FW36c4P4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A142132&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 20,
+          "name": "Creative",
+          "rh": "p_123:2064",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A2064&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_20&ds=v1%3AeniBDbK9ionIQjrVlSKc5L%2BiHVQGyFP9ro%2FFyl%2Fd41Q",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A2064&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 21,
+          "name": "Audio-Technica",
+          "rh": "p_123:233917",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A233917&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_21&ds=v1%3A3TkalyR2k2MZOJ7MDrhwxYqb2nL7JTP7fetVTYnSb28",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A233917&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 22,
+          "name": "OnePlus",
+          "rh": "p_123:253649",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_123%3A253649&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=85457740011&ref=sr_nr_p_123_22&ds=v1%3A7Qzbhd%2BwDh%2BOfQGo0aIBrRw0YJDIShbE%2BkNwj2nagGc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_123%3A253649&s=exact-aware-popularity-rank"
+        }
+      ],
+      "customer_reviews": [
+        {
+          "position": 1,
+          "name": "& Up",
+          "rh": "p_72:1248879011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_72%3A1248879011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=1248877011&ref=sr_nr_p_72_1&ds=v1%3A56njHFLJmQX518koWdOuaSjmsso35FXwtwD7dkajWCA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_72%3A1248879011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "condition": [
+        {
+          "position": 1,
+          "name": "New",
+          "rh": "p_n_condition-type:2224371011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_condition-type%3A2224371011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=2224369011&ref=sr_nr_p_n_condition-type_1&ds=v1%3ASYLVxpoDgILMuuFPn%2BAJB%2B6WJTcCyVYXn7SSIQHycA8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_condition-type%3A2224371011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Renewed",
+          "rh": "p_n_condition-type:16907720011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_condition-type%3A16907720011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=2224369011&ref=sr_nr_p_n_condition-type_2&ds=v1%3AWC5guXxgZqpTlBkZO%2FH8vPIpUH353hCgDVr0DByYBZc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_condition-type%3A16907720011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Used",
+          "rh": "p_n_condition-type:2224373011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_condition-type%3A2224373011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=2224369011&ref=sr_nr_p_n_condition-type_3&ds=v1%3AQ%2BVD0%2FgBiHpd9IxNskK8ezluULzG%2Fl%2Fr6sw2gL%2BEOWQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_condition-type%3A2224373011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "top_brands": [
+        {
+          "position": 1,
+          "name": "Top Brands",
+          "rh": "p_n_g-101014971069111:119653281011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101014971069111%3A119653281011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=119653280011&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3AMrRGT%2FxwGcs9q2cPH8c03rJQu7hOcVthcIGbcq7ijQ0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101014971069111%3A119653281011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "frequency_response": [
+        {
+          "position": 1,
+          "name": "Up to 99,999 Hz",
+          "rh": "p_n_g-101015501853111:122268329011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015501853111%3A122268329011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268189011&ref=sr_nr_p_n_g-101015501853111_1&ds=v1%3AlOVbC8ECOHoRsF%2BtfpxmbjrGaxy2U4COJmKA05q7uIA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015501853111%3A122268329011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "purpose": [
+        {
+          "position": 1,
+          "name": "Exercising",
+          "rh": "p_n_g-101016755135111:207882058011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882058011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_1&ds=v1%3AfGkycCC7KcroKwD2w%2B%2BU4s7ucCP36z7GEUGPQx4%2FZmE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882058011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Music Listening",
+          "rh": "p_n_g-101016755135111:207882059011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882059011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_2&ds=v1%3APUxNlrGaoM7EgfgmszUbj2vBiCs5BjjY0n2Qxzs2foM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882059011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Phone Calling",
+          "rh": "p_n_g-101016755135111:207882067011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882067011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_3&ds=v1%3AmnoZ4vn24nVIEoBgIWrGnmVzQ95FuijgH%2FFzgsjazrM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882067011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Commuting",
+          "rh": "p_n_g-101016755135111:207882074011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882074011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_4&ds=v1%3AzZDwXlsGlqyvI6hELJk8smlSpY5J1o6XJ5GvDzQ8x3U",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882074011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Cycling",
+          "rh": "p_n_g-101016755135111:207882073011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882073011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_5&ds=v1%3Ac6uscoJo2p%2FdFEUsuqrhA%2FyjmIRTpbzzj%2B4qPT6McYU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882073011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Gaming",
+          "rh": "p_n_g-101016755135111:207882062011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882062011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_6&ds=v1%3AknDRygtEk1WThZkakDmnHRuE4bOHIM0lQ%2B5%2F5ljjxhs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882062011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Podcasting",
+          "rh": "p_n_g-101016755135111:207882068011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882068011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_7&ds=v1%3ArjBIDNzHXkdgNt26EZ7Ra%2BRVmDvXjI9%2BT1WNdqghqf4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882068011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Running",
+          "rh": "p_n_g-101016755135111:207882064011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882064011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_8&ds=v1%3AZnbFBoyMlrLbhJ1qre5OcdfoaEeqR2G1NKdVpguEcjA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882064011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Sleeping",
+          "rh": "p_n_g-101016755135111:207882060011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882060011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_9&ds=v1%3AFpwSbtkr7tTkpYaQzEn32I0XI6wqAo0PQgSPPRaPCjM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882060011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 10,
+          "name": "Swimming",
+          "rh": "p_n_g-101016755135111:207882070011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882070011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_10&ds=v1%3Ano7b9ppUGAYZa3z6kplXk70MPMRp3CS6T3hMbHS1uyg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882070011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 11,
+          "name": "Traveling",
+          "rh": "p_n_g-101016755135111:207882065011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882065011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_11&ds=v1%3A7yO%2B8q50pvtcxllJEUlPuUjcuP0rKST0RejIeo7NriI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882065011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 12,
+          "name": "Video Conferencing",
+          "rh": "p_n_g-101016755135111:207882061011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882061011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_12&ds=v1%3Am7p1sj%2FyRWJ2M3t1xqgJbe5YJxckWHacZyMdK565V14",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882061011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 13,
+          "name": "Walking",
+          "rh": "p_n_g-101016755135111:207882071011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882071011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_13&ds=v1%3AtRRpYp9EJVfsicym6SB8cDcI2Z9rRlwkMnKnA24mPTc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882071011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 14,
+          "name": "Watching TV",
+          "rh": "p_n_g-101016755135111:207882069011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882069011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_14&ds=v1%3A1ai0mp6U02H7bcT4ji%2BXHYg2NEqS6VPygXrq20SC0X8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882069011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "earpiece_shape": [
+        {
+          "position": 1,
+          "name": "Hook",
+          "rh": "p_n_g-101014793102111:118149306011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149306011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_1&ds=v1%3ASxb0XGjqmbbKViQMeknjizMXGM2fSJpeBxzxA9sRpu8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149306011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Bud",
+          "rh": "p_n_g-101014793102111:118149309011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149309011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_2&ds=v1%3A35A0OpCSbaIL8TdpcXobxKMyUyYSgPtJ9X4agXWYnxE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149309011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Circle",
+          "rh": "p_n_g-101014793102111:118149311011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149311011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_3&ds=v1%3A2rweOSF6SmkQV1%2FfVW5rOYdl4QiTEpSTUZueDmEh94k",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149311011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Oval",
+          "rh": "p_n_g-101014793102111:118149307011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149307011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_4&ds=v1%3A7CJ%2BuHoLDGcx9qFQssEXwbBS818N5kxFADkiMN7144o",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149307011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Rectangle",
+          "rh": "p_n_g-101014793102111:118149312011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149312011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_5&ds=v1%3ASS2AZOXCApHbootVaR54nIpI2OjN48%2FadtBo%2B5h1qHg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149312011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Stick",
+          "rh": "p_n_g-101014793102111:118149310011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149310011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_6&ds=v1%3ASWvm8dGKIGpbqbpejZA69VxCtq1H%2BSZwSk3q3RZdE6Q",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149310011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "battery_charge_time": [
+        {
+          "position": 1,
+          "name": "1 to 1.9 h",
+          "rh": "p_n_g-101015490467111:122265086011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265086011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122265083011&ref=sr_nr_p_n_g-101015490467111_1&ds=v1%3AeLmfUzYGsYUMo56r9ocwh1meLUsWiDaUgEWGAJ%2FPCmI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265086011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "2 to 2.9 h",
+          "rh": "p_n_g-101015490467111:122265088011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265088011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122265083011&ref=sr_nr_p_n_g-101015490467111_2&ds=v1%3AH1CZJFTjVYgA6psoeBxc83E1R1J2hwKooJnvJ0Mf76Q",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265088011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "3 h & above",
+          "rh": "p_n_g-101015490467111:122265087011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265087011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122265083011&ref=sr_nr_p_n_g-101015490467111_3&ds=v1%3Al55uvINGCrV9pU8ZzlvJFkiNkMCH%2B6wUUAjWu5JQejM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265087011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "battery_life": [
+        {
+          "position": 1,
+          "name": "Up to 9 h",
+          "rh": "p_n_g-101015499813111:122268319011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268319011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_1&ds=v1%3AYFWK%2FwPTNi%2BblaqipoN56yO7tPZDw5rxXpsTkIprQdA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268319011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "10 to 14 h",
+          "rh": "p_n_g-101015499813111:122268321011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268321011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_2&ds=v1%3Aspi9Ahj05tmtHtoWUY%2BeeCDpdTt%2BIUMTdwSGBqkp1XQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268321011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "15 to 19 h",
+          "rh": "p_n_g-101015499813111:122268318011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268318011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_3&ds=v1%3Ai2%2BoFU7ORiNd8pqWYwJ6Nk7QRfhDu4IzQe5gY9DICfg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268318011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "20 to 24 h",
+          "rh": "p_n_g-101015499813111:122268320011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268320011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_4&ds=v1%3AoEoQPjTplKvMzPhP0duAoM6QHrFVX63wc5d0mq8zuNE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268320011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "25 h & above",
+          "rh": "p_n_g-101015499813111:122268317011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268317011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_5&ds=v1%3AEW0w%2F6D97B2jJS3%2FdT6QlwwMjH5DeV6jErshOqH6bp0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268317011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "noise_control": [
+        {
+          "position": 1,
+          "name": "None",
+          "rh": "p_n_g-1003195531111:23746031011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746031011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_1&ds=v1%3At3k02wEQjjPHoBZCYZ8lCWGL%2FKTQPQ6HrgUbGCpMBu8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746031011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Active Noise Cancellation",
+          "rh": "p_n_g-1003195531111:23746030011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746030011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_2&ds=v1%3AMzOH5oYRKruXPXJviF5IzRRYT8bva4l1ujTJ6f7no8I",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746030011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Sound Isolation",
+          "rh": "p_n_g-1003195531111:23746032011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746032011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_3&ds=v1%3ACQ%2BY4M1QqqvLqxSncPLJZp13paDZz0yHsHLmc4o5TWc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746032011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Passive Noise Cancellation",
+          "rh": "p_n_g-1003195531111:110686947011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686947011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_4&ds=v1%3A4FTAzFabk3IlBx7Wpwt5li5y6LQMtkXWsbKjyEUarek",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686947011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Adaptive Noise Cancellation",
+          "rh": "p_n_g-1003195531111:110686945011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686945011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_5&ds=v1%3ALPWgEjNtY%2FzSImIfIw%2Fosvra6ak9vjkDltSyUTXV97c",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686945011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Hybrid Noise Cancellation",
+          "rh": "p_n_g-1003195531111:110686943011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686943011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_6&ds=v1%3A1Q1mxjBP2gKZr5a6MAe0sjarGUcdzkYdtXM8%2BOMBX14",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686943011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Environmental Noise Cancellation",
+          "rh": "p_n_g-1003195531111:210912314011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A210912314011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_7&ds=v1%3AjNrV7VrJFbKmn5DHC%2BfYq5TQ0rC6d6yCmKCJM1u5vS0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003195531111%3A210912314011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "impedance": [
+        {
+          "position": 1,
+          "name": "Up to 1",
+          "rh": "p_n_g-101015490468111:122265093011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265093011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122265084011&ref=sr_nr_p_n_g-101015490468111_1&ds=v1%3AgJOMeTNBV%2FSruOtkTM3DRldsYcl5iFFR8PJzbGHg3ME",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265093011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "1 to 1.9",
+          "rh": "p_n_g-101015490468111:122265090011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265090011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122265084011&ref=sr_nr_p_n_g-101015490468111_2&ds=v1%3AqsTWCAjZKeAjGgQvvbL8cKeiDuk4a0ccS73w0A7TT8M",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265090011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "3 & above",
+          "rh": "p_n_g-101015490468111:122265091011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265091011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122265084011&ref=sr_nr_p_n_g-101015490468111_3&ds=v1%3ADLYv0ryqnXs%2FocopI1YPi4auGvqqNyaixRa7fz0Wub0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265091011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "control": [
+        {
+          "position": 1,
+          "name": "Media Control",
+          "rh": "p_n_g-1002989016111:23641591011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641591011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_1&ds=v1%3AYjVxmUCWCOFl%2B30ahnxTO7cE6gekKiA0fWfEZ7qytac",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641591011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Touch Control",
+          "rh": "p_n_g-1002989016111:122131394011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131394011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_2&ds=v1%3AX2n10BPF5x0fwCb9UcEGQ%2FXUOOFp3DDwEhtucoJ%2F%2BlI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131394011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Volume Control",
+          "rh": "p_n_g-1002989016111:23641592011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641592011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_3&ds=v1%3As233uWqa0orBHM%2F%2F%2F7Kg0vs%2Bliigyra7eUMh1ascnVs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641592011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Alexa",
+          "rh": "p_n_g-1002989016111:24086506011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A24086506011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_4&ds=v1%3Ao5eoH0%2F56oOKGIEcGxiVh%2FK0ZUta%2BN3El6PTSElJnzs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A24086506011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "App Control",
+          "rh": "p_n_g-1002989016111:122131396011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131396011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_5&ds=v1%3AvQlkj6MR0jRW%2BidseXeGk3CupnElG3rrJn4sEI7E28o",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131396011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Button Control",
+          "rh": "p_n_g-1002989016111:122131395011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131395011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_6&ds=v1%3AqeiHFVQVselX07Bmdphgm6Yi5IJxXwjrePzdoteg2z4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131395011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Call Control",
+          "rh": "p_n_g-1002989016111:23641589011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641589011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_7&ds=v1%3AaZiDb1gmvktwZOjiykGKm08l%2B9ivsr8WKsAaYiYYWEI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641589011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Noise Control",
+          "rh": "p_n_g-1002989016111:23641590011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641590011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_8&ds=v1%3AKtNkUK%2BKHICqHz2Jpr9cYBgo1sWEas7HFnkHThTcQlQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641590011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Voice Control",
+          "rh": "p_n_g-1002989016111:23641593011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641593011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_9&ds=v1%3A9ZLiwJoDjhsesjDmyfRK%2BTZ4BNtcGF3cHhLLrNNWxD0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641593011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "sustainability_features": [
+        {
+          "position": 1,
+          "name": "Any Feature",
+          "rh": "p_n_cpf_labels:121136630011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A121136630011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_1&ds=v1%3ACBo06JquRHsgVjXXBtHzBc3GdJ0TE8abrD3GAB4EHr0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A121136630011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Carbon Impact",
+          "rh": "p_n_cpf_labels:116845688011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845688011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_2&ds=v1%3A0Dw4twxhps25uolArAfuzx42N7WdkY3Wn7uxbVkGjPQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845688011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Energy Efficiency",
+          "rh": "p_n_cpf_labels:116845685011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845685011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_3&ds=v1%3AjV9UJd760DxPPuIEhIttoJjHviQvIzi2cYgD24bnvZc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845685011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Manufacturing Practices",
+          "rh": "p_n_cpf_labels:116845690011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845690011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_4&ds=v1%3A8xbuqL5arazxcsf1gy5E5N8OI8%2FdZjs%2BgyFKIHBtZ3c",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845690011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Recycled Materials",
+          "rh": "p_n_cpf_labels:116845689011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845689011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_5&ds=v1%3AvS0v4Q1RhbGLdpXlrYxwelRTqJOFRx6UfuxgwfJQPnI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845689011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Safer Chemicals",
+          "rh": "p_n_cpf_labels:116845683011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845683011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_6&ds=v1%3A3KYMZBiMVVXszsHxmePhlgbasDwd43m%2BbXCrTlCRYfg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845683011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Worker Wellbeing",
+          "rh": "p_n_cpf_labels:116845686011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845686011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_7&ds=v1%3AUJxQr%2Fcn%2BT7rXyGrpjwgDkGelpups%2BzXVEk28P72M6w",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845686011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "premium_brands": [
+        {
+          "position": 1,
+          "name": "Premium Brands",
+          "rh": "p_n_g-101015887018111:204376014011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015887018111%3A204376014011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376013011&ref=sr_nr_p_n_g-101015887018111_1&ds=v1%3Aq7p7OwBwzoysLs9970%2FWICGh8R00%2B%2BdxhJIfZUGl30Q",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015887018111%3A204376014011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "water_resistance_level": [
+        {
+          "position": 1,
+          "name": "Moisture Resistant",
+          "rh": "p_n_g-101016670375111:207192565011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192565011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207192560011&ref=sr_nr_p_n_g-101016670375111_1&ds=v1%3AiOxW1IiLGUYVOto%2BvT4jfqraSVbsi%2BjkmcStu5wdFO4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192565011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Not Water Resistant",
+          "rh": "p_n_g-101016670375111:207192564011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192564011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207192560011&ref=sr_nr_p_n_g-101016670375111_2&ds=v1%3AqmabnIHY0L%2BhTjT%2Fol3rVY1vB%2FhHlmRQ6dN6BIkmREw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192564011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Water Repellent",
+          "rh": "p_n_g-101016670375111:207192561011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192561011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207192560011&ref=sr_nr_p_n_g-101016670375111_3&ds=v1%3AG79qkvgg8dMTbMFlsJqUzZI74%2FZxoIdY6l0fV5Gh8cY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192561011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Water Resistant",
+          "rh": "p_n_g-101016670375111:207192562011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192562011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207192560011&ref=sr_nr_p_n_g-101016670375111_4&ds=v1%3AuP7vg2SqYaKzhmk%2FI7PnRi66Qw%2FrsrYe6fzMSPpWHZs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192562011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Waterproof",
+          "rh": "p_n_g-101016670375111:207192563011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192563011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=207192560011&ref=sr_nr_p_n_g-101016670375111_5&ds=v1%3AIRr2X3bTDHAsgiEyKnyI%2B8TNp%2Buu5XXyHMX0aRTITIE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192563011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "smart_home_compatibility": [
+        {
+          "position": 1,
+          "name": "Not Smart Home Compatible",
+          "rh": "p_n_g-101017505917111:216905797011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101017505917111%3A216905797011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=216905792011&ref=sr_nr_p_n_g-101017505917111_1&ds=v1%3AYqhAQLgPn%2FLabV0%2FaLOypqc84M%2BRYYUDLXST4ms7REQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101017505917111%3A216905797011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Smart Home Compatible",
+          "rh": "p_n_g-101017505917111:216905798011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101017505917111%3A216905798011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=216905792011&ref=sr_nr_p_n_g-101017505917111_2&ds=v1%3AOK70rYJYi823rW3y5yFGwAVVqS9u3QAhaUUqNco9hCw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101017505917111%3A216905798011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "headphones_form_factor": [
+        {
+          "position": 1,
+          "name": "In Ear",
+          "rh": "p_n_feature_seventeen_browse-bin:23508656011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508656011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23508613011&ref=sr_nr_p_n_feature_seventeen_browse-bin_1&ds=v1%3AMP0Nsfe5NVx3Y7llQPd17tFari2eXmXRURCu3WgILus",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508656011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "On Ear",
+          "rh": "p_n_feature_seventeen_browse-bin:23508657011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508657011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23508613011&ref=sr_nr_p_n_feature_seventeen_browse-bin_2&ds=v1%3AQwL3TqTNH3%2BhYqsAIj6DTOCHx8kkF8K1ATXNVs5pTyA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508657011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Over Ear",
+          "rh": "p_n_feature_seventeen_browse-bin:23508658011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508658011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23508613011&ref=sr_nr_p_n_feature_seventeen_browse-bin_3&ds=v1%3AKbZ%2Bs9%2F06sBOqyErQSnSeJQIYn1OF9G58%2FIQp60k9gw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508658011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "True Wireless",
+          "rh": "p_n_feature_seventeen_browse-bin:117806101011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A117806101011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23508613011&ref=sr_nr_p_n_feature_seventeen_browse-bin_4&ds=v1%3A6ANL7XqQvbc%2FidBDsTRlIfG9%2Fuam3o2WZyil32eTYic",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A117806101011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "cable_feature": [
+        {
+          "position": 1,
+          "name": "Detachable",
+          "rh": "p_n_g-1003285868111:23942863011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003285868111%3A23942863011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23942843011&ref=sr_nr_p_n_g-1003285868111_1&ds=v1%3AmqWdTns9HIV01VYMxumLuqWEzCgMljCjv1UpUzSS6qk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003285868111%3A23942863011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Retractable",
+          "rh": "p_n_g-1003285868111:23942865011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003285868111%3A23942865011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23942843011&ref=sr_nr_p_n_g-1003285868111_2&ds=v1%3AOcF%2FHLE3u2ZGPsWYiHtzwR0Dp1r5B1D6OwniXgv2rOA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003285868111%3A23942865011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Tangle Free",
+          "rh": "p_n_g-1003285868111:23942864011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003285868111%3A23942864011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23942843011&ref=sr_nr_p_n_g-1003285868111_3&ds=v1%3Al6fDKHFFHmyEm6o0h1QxLEdw61%2BJIiFRK5F%2BVwlv6S4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003285868111%3A23942864011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Without Cable",
+          "rh": "p_n_g-1003285868111:23942866011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003285868111%3A23942866011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23942843011&ref=sr_nr_p_n_g-1003285868111_4&ds=v1%3AHjTFlFb91l9PLURP%2F3kdP%2BpmNJIcR%2Fak6gEdL7in9vQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003285868111%3A23942866011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "included_components": [
+        {
+          "position": 1,
+          "name": "User Manual",
+          "rh": "p_n_g-1002989062111:76076001011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A76076001011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_1&ds=v1%3A84DWM0E7AnnKW8XR5NcpP1DKkQTNURH%2FhQ7w2vGXw0w",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A76076001011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Cable",
+          "rh": "p_n_g-1002989062111:23657292011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657292011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_2&ds=v1%3AVvNeh%2FJ%2FPNR2wrQeDiwQNIlC48mP75DlpobPKB8SLdk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657292011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Wireless Charging Case",
+          "rh": "p_n_g-1002989062111:23657295011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657295011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_3&ds=v1%3ALAAPc7rDxg4WrFM5XEhdly3PDnEGKH89dnyTSlUJPtg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657295011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Adapter",
+          "rh": "p_n_g-1002989062111:207314836011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A207314836011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_4&ds=v1%3Aohv8ruN47q2MsOXHeWAvs79x%2B8FR0qhR5N9LQMj6BBg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A207314836011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Charging Station",
+          "rh": "p_n_g-1002989062111:23657293011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657293011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_5&ds=v1%3A%2B0SqLLVnIrLuY8pEDlCv6B3p4G%2FOLJTFDP%2BEN72EYTU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657293011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Ear Cushions",
+          "rh": "p_n_g-1002989062111:23657294011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657294011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_6&ds=v1%3Ad0WFivJsmkiLdY83hXJsGoTJRB8ZwFCCdAeqtKeIN9w",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657294011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Eartip",
+          "rh": "p_n_g-1002989062111:101369949011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A101369949011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_7&ds=v1%3APSyCMi30Ntquulp7DE4WQCrSamtzGQhJkAbXThUkXmQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A101369949011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Headband",
+          "rh": "p_n_g-1002989062111:23657296011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657296011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_8&ds=v1%3AQL5KXu6xuso%2BLNqs%2FAv4zjRpw6su%2FabE6lePpatw%2Bpk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657296011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Protective Case",
+          "rh": "p_n_g-1002989062111:23657291011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657291011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_9&ds=v1%3AO1065NoinrfCG5ZooclkOjVLRwTH30kDdFf56mBnUn4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657291011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "compatible_devices": [
+        {
+          "position": 1,
+          "name": "Cellphones",
+          "rh": "p_n_g-1003341941111:24003431011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003431011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_1&ds=v1%3AlPCWY1mnU6dgxJTDQDZyYMZ8wBfgxJbN%2BsY7VYyPY5w",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003431011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Laptops",
+          "rh": "p_n_g-1003341941111:24003427011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003427011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_2&ds=v1%3AQzVC1GyzBz8Pnv%2B0DQgfv26sCXDJDkCX%2Fa52jSmwLKY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003427011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Tablets",
+          "rh": "p_n_g-1003341941111:24003432011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003432011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_3&ds=v1%3AsWo1ldygVegEvMWNydjym%2BYhRA4SYPZ%2BspQUvlYzwps",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003432011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Car Audio Systems",
+          "rh": "p_n_g-1003341941111:24003429011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003429011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_4&ds=v1%3A0AOynUPByxTSBdGqn5VLA8B2hNG9ctsiH7lQM%2BPdJwI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003429011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Desktops",
+          "rh": "p_n_g-1003341941111:24003434011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003434011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_5&ds=v1%3AXljUpOMRcsR2Bapu3ajBgc1Avj9fxd7nF7M2ie8YRUM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003434011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Gaming Consoles",
+          "rh": "p_n_g-1003341941111:24003430011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003430011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_6&ds=v1%3AAda%2FWBDlWX16J%2BR1LBGFvxM4z0iPAR4mUJEsBI%2B8z60",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003430011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Music Production Equipment",
+          "rh": "p_n_g-1003341941111:24003433011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003433011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_7&ds=v1%3ASYxFs8MoXkMTzdfeON0YpgIdVf6xqmn0LQOclA24pyo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003433011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Television",
+          "rh": "p_n_g-1003341941111:69690507011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A69690507011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_8&ds=v1%3AaqklZBuNRQWSl5ZlU6QF1iRrbpeyoYGMNJfkVqNzuFA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A69690507011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Motorcycles",
+          "rh": "p_n_g-1003341941111:24003428011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003428011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_9&ds=v1%3Ab70ROyoGYBcTGIKaZDfE8GwcKz3oSNIE%2BGGQc0NgAs4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003428011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 10,
+          "name": "Portable Media Player",
+          "rh": "p_n_g-1003341941111:216753764011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A216753764011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_10&ds=v1%3AOXVaLmj73OKDlH3%2B8WtPTgIRfBb31y441kOLcEJZbPY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A216753764011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 11,
+          "name": "Smart Speaker",
+          "rh": "p_n_g-1003341941111:108614567011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A108614567011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_11&ds=v1%3AjoAdp0CVvDOvmUVtbVwuIK0wQzkUxS5yT7ZwutD%2BcTk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A108614567011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 12,
+          "name": "Smart Watch",
+          "rh": "p_n_g-1003341941111:122127202011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A122127202011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_12&ds=v1%3ACHg94HSWIHbblP%2FeV8%2FaTtT2maarvwhvm0EFi0sEd3A",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A122127202011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 13,
+          "name": "Telephones",
+          "rh": "p_n_g-1003341941111:24003426011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003426011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_13&ds=v1%3AeaJ1yL5A7MKzgMJCtY2oD8GrvUy5snNFEwfKWqWXjJA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003426011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "audio_driver_type": [
+        {
+          "position": 1,
+          "name": "Dynamic Driver",
+          "rh": "p_n_g-101015499549111:122268314011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268314011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_1&ds=v1%3Am0E8OeJVaOUR1in2Nzv7HSEA%2BLnqKmdYihCo59L3nsQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268314011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Bone Conduction Driver",
+          "rh": "p_n_g-101015499549111:122268315011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268315011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_2&ds=v1%3A0hiQNLuqTsscPk%2F5l0oNlAZ2%2BtkWNDd759fMFda6W0I",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268315011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Balanced Armature Driver",
+          "rh": "p_n_g-101015499549111:122268312011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268312011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_3&ds=v1%3AfgZZ7Gg1go%2FhnN6q6Hi%2Bhch9nU36EmXBJnuCMuIvnoo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268312011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Bass Driver",
+          "rh": "p_n_g-101015499549111:211954496011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954496011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_4&ds=v1%3AE%2BNf989Q%2F6Zz%2FxQ66vTlFoXJW%2Bu6jeY6ACk1XydSMJU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954496011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Custom Driver",
+          "rh": "p_n_g-101015499549111:211954499011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954499011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_5&ds=v1%3Ay%2FUOcoHFKnJJ8GlXZbe3V7CE3NcQNOr1rGbtVx7OvvA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954499011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "DLC Driver",
+          "rh": "p_n_g-101015499549111:211954500011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954500011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_6&ds=v1%3Ar0Ht96ijeMB81WPPQu2v410MsapsL1byzbpj1eFpgQg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954500011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Hybrid Driver",
+          "rh": "p_n_g-101015499549111:122268313011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268313011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_7&ds=v1%3AKhjLU9EXmxLM6tmdGF5Hs%2B%2FgV2w%2BSHh7WLy4lqElXrg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268313011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Mid Range Driver",
+          "rh": "p_n_g-101015499549111:211954495011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954495011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_8&ds=v1%3ArfssMeI%2F2aMlfA5lsupc34vqWj2Bx0%2B0%2BOKpr%2B6bRqM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954495011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Planar Magnetic Driver",
+          "rh": "p_n_g-101015499549111:122268310011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268310011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_9&ds=v1%3A3bcmij%2FyZU3QCBHf8YsyOos9PJGwt7ofpEfxFd0gzyM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268310011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "features": [
+        {
+          "position": 1,
+          "name": "Wireless",
+          "rh": "p_n_feature_thirteen_browse-bin:509316",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A509316&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_1&ds=v1%3AyJLzQfF7xE20pmaHbRvcNkV5Le4TVGHmSbGWxLPMfpE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A509316&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Sports & Exercise",
+          "rh": "p_n_feature_thirteen_browse-bin:2266980011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A2266980011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_2&ds=v1%3A8R8FfVVUEuVmP9TwLLrhy2KbCVcQNWpKbqb5uLxjU8Q",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A2266980011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Lightweight",
+          "rh": "p_n_feature_thirteen_browse-bin:12097488011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097488011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_3&ds=v1%3ApbE96VTSbKomk5PoivNqwRSy8RNAtF7HHQZr6VNyJy0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097488011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Foldable",
+          "rh": "p_n_feature_thirteen_browse-bin:12097487011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097487011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_4&ds=v1%3AChOwawjrlxWvC6QZLC82VW3vbFDLgsXWoJPCd%2B5eAh8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097487011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Microphone",
+          "rh": "p_n_feature_thirteen_browse-bin:2266981011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A2266981011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_5&ds=v1%3AQGH3hsi%2FHAjS30Px6TEiShe0xPy34ZZ3L73QYkUqjno",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A2266981011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Phone Control",
+          "rh": "p_n_feature_thirteen_browse-bin:12097489011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097489011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_6&ds=v1%3AvEZmaG8PNwdeMQcMJIgY0701%2FrlJcT%2F%2FG6l8g29trxo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097489011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "color": [
+        {
+          "position": 1,
+          "name": "Black",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376047011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376047011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_1&ds=v1%3A7MPO538xY5sSjZh9ATPJbj%2FDlGC09z7mVoDOBAWCuCI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376047011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Grey",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376042011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376042011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_2&ds=v1%3AkbvrzaCAbyKx%2FCg3ICONpaD%2B2UQKrm68AYrqZ8sInLY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376042011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "White",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376052011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376052011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_3&ds=v1%3A82CMheQZ7GOk3mKcKKZOde68GIFwHW4AU41JYqJpGgM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376052011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Brown",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376049011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376049011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_4&ds=v1%3ADwyNmYyLa37hCoMAOjHUpgA37ess0G0cEMttA%2BbrG2c",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376049011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Beige",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376050011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376050011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_5&ds=v1%3ACUYusVlK2KLYbmJ3j4NxOsJtRK5W6et1SyWT%2BZZKyiQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376050011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Red",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376043011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376043011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_6&ds=v1%3AQU4zmOsga4hUoY7RWYPnLoNzApujZtm6qcAc%2F4WBaYg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376043011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Pink",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376057011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376057011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_7&ds=v1%3AHaEQAqzdEGmLC1fDZ%2BxqVgkQXcGfxr1WcV%2Bq4N82Ku8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376057011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Orange",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376044011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376044011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_8&ds=v1%3Axclqjr%2Fg0Hgqz%2BajatTjfwqTq8sLA7FmfZ%2BxAg0OO%2F8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376044011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Yellow",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376055011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376055011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_9&ds=v1%3AOl6O5DRB0HrYkHMUFT4FPh70%2BGWOpFBYlmG9IDcvqj0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376055011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 10,
+          "name": "Ivory",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376056011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376056011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_10&ds=v1%3AEcXyJYQ%2BJ1RYbmZq8JY5rG9ekGjd4PhsYJDkkENQ9sg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376056011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 11,
+          "name": "Green",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376051011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376051011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_11&ds=v1%3A5BrqBX5kRocDM9E3AaEDNkGgN0sQpmdhT9HvgEjNRkA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376051011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 12,
+          "name": "Blue",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376048011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376048011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_12&ds=v1%3A2UUn%2FOq%2F1kIwdv6Wu4KOYuOpWy4Be8KvrNerKrQQsMc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376048011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 13,
+          "name": "Purple",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376054011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376054011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_13&ds=v1%3AeKUjUazSoTcq6GYLMn5mj%2Fpz8Lsd54RPj1Xh4vxPiDo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376054011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 14,
+          "name": "Gold",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376041011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376041011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_14&ds=v1%3AP%2BON1%2F8yY06wFKaC148MurGH95cQBLqQghTJeZT2EAY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376041011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 15,
+          "name": "Silver",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376053011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376053011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_15&ds=v1%3AfeEyV%2FKg%2BJwzp9ujnLC7TWbtiIogTrS0K3flPaUe8co",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376053011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 16,
+          "name": "Multi",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376045011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376045011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_16&ds=v1%3A4oePy0YJKh9TYq%2F7dSdHtg4HePCOsc2kbeVloordxpo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376045011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 17,
+          "name": "Clear",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376046011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376046011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_17&ds=v1%3ANa6oPajz4xrOvoVtk2CtXGhuDKPMqttBEoByNKkxRmo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376046011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "carrying_case_color": [
+        {
+          "position": 1,
+          "name": "Black",
+          "rh": "p_n_g-101015500219111:122269856011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269856011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_1&ds=v1%3A%2BXjI8U281LoFBREFhxZE7q7ALjgB6RF19d4TuCUyGlw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269856011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "White",
+          "rh": "p_n_g-101015500219111:122269858011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269858011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_2&ds=v1%3AZiwYfdZsLYixPjx4%2FgFS1aixBRBg9K2pAYw46Rtipiw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269858011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Blue",
+          "rh": "p_n_g-101015500219111:122269855011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269855011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_3&ds=v1%3AhCXge%2BOC7AoqRsTWy7Yuurij7XkkeVcXVnTP8LgYzSs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269855011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Clear",
+          "rh": "p_n_g-101015500219111:122269862011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269862011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_4&ds=v1%3AyASUL5TYin5dOVHWClD%2BZBJpBLRUrF3gIDoMpnimVbw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269862011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Green",
+          "rh": "p_n_g-101015500219111:122269860011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269860011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_5&ds=v1%3A9%2Fo3PAjKIe2A%2Frj7AFl%2FZ47fJtQlD%2BGmKao3A4yKRck",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269860011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Grey",
+          "rh": "p_n_g-101015500219111:122269864011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269864011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_6&ds=v1%3AqOVAcEIb3ZttJ%2BKFlMg1urymhxlGXbr3jDBtrOYA7F8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269864011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Off White",
+          "rh": "p_n_g-101015500219111:122269854011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269854011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_7&ds=v1%3AjjDo%2FXrnRxQFN%2FZH6%2F2QbeU5puGa8OlDpU9Sb4zVujY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269854011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Pink",
+          "rh": "p_n_g-101015500219111:122269850011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269850011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_8&ds=v1%3ABzEraYIT%2FgcIer7hQ962R1zA4%2BLNYvKb0itPVCBo0fE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269850011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Purple",
+          "rh": "p_n_g-101015500219111:122269849011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269849011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_9&ds=v1%3AUxbMb4qZ1iPXLN9d%2BA6FruD6zki%2B56nPeMI8Zo5H9Mo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269849011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 10,
+          "name": "Red",
+          "rh": "p_n_g-101015500219111:122269846011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269846011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_10&ds=v1%3A9w4Zb4L53MJKKcDjT4lZkg6VIjVsmQp5LiCkkZf%2BmUw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269846011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 11,
+          "name": "Silver",
+          "rh": "p_n_g-101015500219111:122269847011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269847011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_11&ds=v1%3AswxIXr1PTSykfoz2oe2ri95nL8QDV2FEngVGugBeqH8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269847011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 12,
+          "name": "Yellow",
+          "rh": "p_n_g-101015500219111:122269865011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269865011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_12&ds=v1%3AHCVvL4qKAad7UDb2Lq811kP0DfEA8Twhj73pIF%2FRViw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269865011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "noise_control_features": [
+        {
+          "position": 1,
+          "name": "Adjustable Levels",
+          "rh": "p_n_g-101017149505111:215591643011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591643011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=215591641011&ref=sr_nr_p_n_g-101017149505111_1&ds=v1%3AgBYhgsSMAhJHHbRktu6PIgEenGtlCyHJSKsolOQIGWA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591643011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Transparency Mode",
+          "rh": "p_n_g-101017149505111:215591642011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591642011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=215591641011&ref=sr_nr_p_n_g-101017149505111_2&ds=v1%3AlTOgE9Fq5bnOdbEaAg3AHxTxrfPij%2F%2FXBTuRT9ITKhw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591642011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Wind Noise Reduction",
+          "rh": "p_n_g-101017149505111:215591644011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591644011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=215591641011&ref=sr_nr_p_n_g-101017149505111_3&ds=v1%3A0zmIzT015yszLW5ojPQb4m7skx4vGOjeYr0fHvtMHac",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591644011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "carrying_case_material": [
+        {
+          "position": 1,
+          "name": "Plastic",
+          "rh": "p_n_g-101015500290111:122269835011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269835011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269792011&ref=sr_nr_p_n_g-101015500290111_1&ds=v1%3AFV%2Fr%2FfqCdVY57mMQnPbGgTpT23bSPYLJrF7ELXWdQdE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269835011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Silicone",
+          "rh": "p_n_g-101015500290111:122269844011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269844011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269792011&ref=sr_nr_p_n_g-101015500290111_2&ds=v1%3AqsZmAVXzAVzgqblS3gn%2Bd7n23NacR%2F%2BowNsYThlvW9w",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269844011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Fabric",
+          "rh": "p_n_g-101015500290111:122269842011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269842011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269792011&ref=sr_nr_p_n_g-101015500290111_3&ds=v1%3A97pGebP%2BhXGoHQAPh1R7O6KOH17CQwd2natJOTNbjhQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269842011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "High-Density Polyethylene (HDPE)",
+          "rh": "p_n_g-101015500290111:122269841011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269841011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269792011&ref=sr_nr_p_n_g-101015500290111_4&ds=v1%3AaqyUUDJxowM9joPTioxGY6MGWkliI%2FrULDKywYs65AI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269841011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Rubber",
+          "rh": "p_n_g-101015500290111:122269837011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269837011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122269792011&ref=sr_nr_p_n_g-101015500290111_5&ds=v1%3AzPkAVrD3kWqvVdapKloF5%2FS3zk8FUPhHX7qYO2XQbj0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269837011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "audio_latency": [
+        {
+          "position": 1,
+          "name": "Up to 19 ms",
+          "rh": "p_n_g-101015506076111:122272124011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272124011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122272099011&ref=sr_nr_p_n_g-101015506076111_1&ds=v1%3AysCa7dEsI84nSUSJskZip0ALVZAlivl2vaz4BUfWGrM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272124011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "20 to 34 ms",
+          "rh": "p_n_g-101015506076111:122272125011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272125011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122272099011&ref=sr_nr_p_n_g-101015506076111_2&ds=v1%3A7Ylh6H0AQNq9CkocwHUfuP4CNcn99jsMwfErcPsbM%2B0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272125011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "35 to 49 ms",
+          "rh": "p_n_g-101015506076111:122272123011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272123011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122272099011&ref=sr_nr_p_n_g-101015506076111_3&ds=v1%3AVu9oiVaFW%2FVM8AEULbk8lV83nUpb%2BuHNViD9tOXn%2FJU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272123011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "50 ms & above",
+          "rh": "p_n_g-101015506076111:122272122011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272122011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122272099011&ref=sr_nr_p_n_g-101015506076111_4&ds=v1%3ANhXxe5pKlV2pPm9g1w1nRsVVEbl0pWoufUwUaM43yRM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272122011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "connectivity": [
+        {
+          "position": 1,
+          "name": "Hybrid",
+          "rh": "p_n_feature_ten_browse-bin:216310548011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A216310548011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=3150266011&ref=sr_nr_p_n_feature_ten_browse-bin_1&ds=v1%3Ap%2FvgnqzXGdE9C4Koz%2FAzMoTpMJWq9Q6v%2BqD9T5YAhdU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A216310548011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Wired",
+          "rh": "p_n_feature_ten_browse-bin:3150267011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A3150267011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=3150266011&ref=sr_nr_p_n_feature_ten_browse-bin_2&ds=v1%3AakBt9dGWA4aFO6Bbp9YJ3UH2WXB%2BWMt7XS5clkkwKg8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A3150267011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Wireless",
+          "rh": "p_n_feature_ten_browse-bin:3150268011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A3150268011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=3150266011&ref=sr_nr_p_n_feature_ten_browse-bin_3&ds=v1%3Ag3GdZMlxTPBAL4e1Fk5Ny9NzP6BVdEYxFXLIb%2F6iQVc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A3150268011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "seller": [
+        {
+          "position": 1,
+          "name": "Quidnuran",
+          "rh": "p_6:ABUQKLRBFFXQW",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_6%3AABUQKLRBFFXQW&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=303116011&ref=sr_nr_p_6_1&ds=v1%3Aejy4nc%2Fah%2FdwAopqBz9fQ6FdIyB6tmX2zgfJFdvLu%2BY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_6%3AABUQKLRBFFXQW&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Amazon Resale",
+          "rh": "p_6:A2L77EE7U53NWQ",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_6%3AA2L77EE7U53NWQ&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=303116011&ref=sr_nr_p_6_2&ds=v1%3ABLfOnQ1dlXyAxAJ3mDK6xsz3%2BB8kTQASzzclJ2fk9eU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_6%3AA2L77EE7U53NWQ&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "QYNIQIAN",
+          "rh": "p_6:A3DFJ9ZHDG35M7",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_6%3AA3DFJ9ZHDG35M7&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=303116011&ref=sr_nr_p_6_3&ds=v1%3AX2BDE69rmvnrIgQ3at3ACkWtEwnm5fg4LPjyFzVy9XM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_6%3AA3DFJ9ZHDG35M7&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "JNXIKOU",
+          "rh": "p_6:AEFXEKDNBJOT9",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_6%3AAEFXEKDNBJOT9&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=303116011&ref=sr_nr_p_6_4&ds=v1%3AUYjGRMq0tHzIzVhZUQohF0AuoJ00hwhCtwT2F1jytPE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_6%3AAEFXEKDNBJOT9&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "ITUKDEES",
+          "rh": "p_6:AASO512J3YL8K",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_6%3AAASO512J3YL8K&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=303116011&ref=sr_nr_p_6_5&ds=v1%3Aj1dPiyeQRtvPK4ZT9ftJMSTg8bjdCOKqqzFArkwgaKA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_6%3AAASO512J3YL8K&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Xmenha",
+          "rh": "p_6:AWQZHOZ0UXMBP",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_6%3AAWQZHOZ0UXMBP&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=303116011&ref=sr_nr_p_6_6&ds=v1%3A8Tfv8oW3%2Bk1kWgVmtp0d5aTg3Wfd3JAi67i00q%2F9V0E",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_6%3AAWQZHOZ0UXMBP&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Ming Zhi Na",
+          "rh": "p_6:A28AHULK2Y2TJA",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_6%3AA28AHULK2Y2TJA&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=303116011&ref=sr_nr_p_6_7&ds=v1%3AM6mQ2hn4yditu8d%2B6bpsGPxXZgjDCngWO64Ts1cik74",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_6%3AA28AHULK2Y2TJA&s=exact-aware-popularity-rank"
+        }
+      ],
+      "audio_driver_size": [
+        {
+          "position": 1,
+          "name": "3 in & above",
+          "rh": "p_n_g-101015506109111:122272120011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506109111%3A122272120011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=122272098011&ref=sr_nr_p_n_g-101015506109111_1&ds=v1%3AX35jG%2B76Dlp2nyvof9ANPV135q1B25NpNiX2f%2Bqc3nk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_g-101015506109111%3A122272120011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "wireless_technology": [
+        {
+          "position": 1,
+          "name": "Bluetooth",
+          "rh": "p_n_feature_two_browse-bin:212335655011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_two_browse-bin%3A212335655011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=212335649011&ref=sr_nr_p_n_feature_two_browse-bin_1&ds=v1%3AdjH0w7NQo1upkBL2IJbw8vZ0eST%2FcbxeT8SSPpd1e%2Bc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_two_browse-bin%3A212335655011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Wi-Fi",
+          "rh": "p_n_feature_two_browse-bin:212335654011",
+          "link": "https://www.amazon.com/s?k=open+ear+bluetooth+earbuds&rh=p_n_feature_two_browse-bin%3A212335654011&s=exact-aware-popularity-rank&dc&qid=1779444365&rnid=212335649011&ref=sr_nr_p_n_feature_two_browse-bin_2&ds=v1%3An0VVNUGNz7IQIgfuj5GM1MLhMX9PL5lO1SsLw6PM%2BpM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&rh=p_n_feature_two_browse-bin%3A212335654011&s=exact-aware-popularity-rank"
+        }
+      ]
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=open+ear+bluetooth+earbuds&page=2&s=exact-aware-popularity-rank"
+    }
+  }
+}

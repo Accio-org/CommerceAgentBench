@@ -1,0 +1,63 @@
+packet_row,report_date,recall_number,recalling_firm,status,classification,product_type,product_description,reason_for_recall,distribution_pattern,code_info
+1051,20250115,D-0189-2025,"Rising Pharma Holding, Inc.",Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules USP 20 mg, 60 count bottles, Rx only, Distributed by: Rising Pharm
+Holdings, Inc., East Brunswick, NJ NDC 57237-017-60",CGMP Deviations; Presence of N-nitroso-duloxetine impurity above recommended interim limit.,Nationwide,"Lot # DT2023003A, DT2023007A, DT2023008A, exp. date Jan-25"
+1052,20250108,D-0175-2025,AvKARE,Ongoing,Class III,Drugs,"Carboxymethylcellulose Sodium Ophthalmic Solution 0.5% Moisturizing Lubricant Eye Drops, 0.5 FL OZ (15 mL)
+bottles, Distributed by: AvKARE, Pulaski, TN, 38478, NDC 50268-068-15.",LABELING: LABEL MIX-UP,Nationwide within the United States,"Lot #: 0160, Exp. Date April 26 2026"
+1053,20250108,D-0172-2025,VIONA PHARMACEUTICALS INC,Ongoing,Class II,Drugs,"Dapsone Gel 7.5%, 90 g, Rx Only, Manufactured by: Zydus Lifesciences Ltd., Ahmedabad, India, Distributed by:
+Viona Pharmaceuticals Inc., Cranford, NJ 07016, NDC 72578-094-03.  packaged in an Airless pump pack",Crystallization,US Nationwide,"Lots T400514, Exp Date 02/2026 & T400808, Exp Date 03/2026"
+1054,20250108,D-0168-2025,AvKARE,Ongoing,Class II,Drugs,"Nitrofurantoin Capsules, USP, 100 mg, 50 Capsules (5 x 10) Unit Dose per carton, Rx Only, Manufactured for:
+AvKARE, Inc., Pulaski, TN 38478.  NDC#: 50268-625-15.",Failed Dissolution Specifications,Nationwide USA,Lot # 47101; Exp. 02/2026
+1055,20250108,D-0167-2025,Lupin Pharmaceuticals Inc.,Terminated,Class II,Drugs,"Levothyroxine Sodium Tablets, Lupin, 75 mcg (0.075mg), 1000 Tablets, Rx Only, Manufactured for: Lupin
+Pharmaceuticals, Inc. Baltimore, Maryland 21202 United States, Manufactured by: Lupin Limited, Pithampur
+(M.P)- 454 775 INDIA, NDC# 68180-967-03","Failed Impurities/Degradation Specifications: Out of specifications result observed in the drug
+substance for impurity test during 3-month long term stability study.",One US distributor in Ohio.,"Lot# LA01276, Exp Date: 07/2026"
+1056,20250108,D-0173-2025,Hikma Injectables USA Inc,Terminated,Class II,Drugs,"ketamine inj 50 mg per 1 mL, Rx Only, 1 mL fill in a 3mL pre-filled syringe, For IV or IM Use, Hikma
+Injectables USA Inc., 36 Stults Road, Dayton, NJ 08810, This is a Compounded Drug. Hospital/Office Use Only.
+NDC 63037-137-25","Lack of Assurance of Sterility: The tamper-evident seal on several of the syringes are not
+attached upon receipt of shipment.",Nationwide in the USA,"Lot number: 242560008D, Use by Date 01/15/2025; 242970002D, Use by Date 02/25/2025"
+1057,20250108,D-0170-2025,GNMart LLC,Ongoing,Class I,Drugs,"FORCE FOREVER 400mg Tablets, Huesos y articulaciones sin dolor, SUPLEMENTO ALIMENTICIO, 60-count bottles","Marketed without an approved NDA/ANDA. FDA analysis found the product to be tainted with
+Diclofenac and Dexamethasone.",Nationwide within the United States,"All lots, Exp. Date: 03/27/2030"
+1058,20250108,D-0174-2025,Hikma Injectables USA Inc,Terminated,Class II,Drugs,"phenylephrine in 0.9% Sodium Chloride Inj, 1mg per 10 mL (100 mcg/mL), Rx only, Hikma Injectables USA Inc., 36
+Stults Road, Dayton, NJ 08810, NDC 63037-173-25","Lack of Assurance of Sterility: The tamper-evident seal on several of the syringes are not
+attached upon receipt of shipment.",Nationwide in the USA,"Lot number: 243120003D, Use by Date: 03/11/2025"
+1059,20250108,D-0169-2025,SOMERSET THERAPEUTICS LLC,Terminated,Class III,Drugs,"Atropine Sulfate Ophthalmic Solution, USP 1%, 5 mL bottles, Rx only, Manufactured for: Somerset Therapeutics,
+LLC. Somerset, NJ 08873, NDC 70069-716-01",Failed Impurities/Degradation Specifications,Nationwide within the United States,"Lot #: A240211, Exp. Date April 2026"
+1060,20250108,D-0171-2025,VIONA PHARMACEUTICALS INC,Ongoing,Class II,Drugs,"Dapsone Gel 7.5%, 60 g, Rx Only, Manufactured by: Zydus Lifesciences Ltd., Ahemedabad, India, Distributed by:
+Viona Pharmaceuticals Inc., Cranford, NJ 07016, NDC 72578-094-02.  packaged in an Airless pump pack",Crystallization,US Nationwide,"Lots T400513, Exp Date 02/2026; T400807, Exp Date 03/2026; T401152, Exp Date 06/2026; T401303, Exp Date 07/2026; T401304, Exp Date 07/2026; T401399, Exp Date 07/2026 & T401696 Exp Date 08/2026."
+1061,20250108,D-0176-2025,AvKARE,Ongoing,Class III,Drugs,"Polyvinyl Alcohol Ophthalmic Solution 1.4%, Moisturizing Lubricant Eye Drops, 0.5 FL OZ (15 mL) bottles,
+Distributed by AvKARE, Pulaski, TN 38478, www.avkare.com, NDC 50268-678-15",LABELING: LABEL MIX-UP,Nationwide within the United States,"Lot #: 0160, Exp. Date April 26 2026"
+1062,20250101,D-0161-2025,"Breckenridge Pharmaceutical, Inc",Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules, USP, 30mg, Rx Only, 90-count bottles (NDC 51991-747-90) Mfr. by: Towa
+Pharmaceutical Europe, S.L. Martorelles, (Barcelona), Spain, Dist. by: Breckenridge Pharmaceuticals, Inc.,
+Berkeley Heights, NJ 07922.",CGMP Deviations: presence of N-nitroso-duloxetine impurity above FDA recommended interim limit.,Nationwide in the US,"Lot #  222205C, exp. date 11/2025"
+1063,20250101,D-0159-2025,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 10mg, 100-count bottle, RX only, Manufactured for: Glenmark
+Pharmaceuticals Inc., NJ; Product of India, NDC 68462-861-01","CGMP Deviations: N-Nitroso-Desmethyl Chlorpromazine impurity (NNDCI) were found to be failing
+per current FDA recommended limit.",USA Nationwide,"Lot#: 17230132, Exp 12/2024; 17230449, Exp 01/2025"
+1064,20250101,D-0164-2025,"Curium US, LLC",Terminated,Class II,Drugs,"Kit for the Preparation of Technetium Tc 99m Sestamibi Injection, Each Kit contains: 30 sterile and non-
+pyrogenic reaction vials each containing Tetrakis (2-methoxy isobutyl isonitrile) Copper (I) tetratluoroborate
+- 1 mg; Stannous Chloride Dihydrate -  0.D75 mg; L-Cysteine Hydrochloride Monohydrate - 1 mg; Sodium Citrate
+Dihydrate - 2.6 mg; Mannitol - 20 mg.  The pH is adjusted to 5.6 to 5.7 with HCI or NaOH prior to
+lyophilization. Sealed under nitrogen. 30 Radioassay Information Labels with radiation warning symbol. 1
+package insert, Rx only,  Manufacture by: Curium US LLC, Maryland Heights, MO 63043, 69945-092-40",Lack of Assurance of Sterility; Improper crimps on vials impacting the integrity of the product,Nationwide USA and Canada.,"Lot 092-24006, Catalog # N092D0, Exp 06/15/2026"
+1065,20250101,D-0156-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules, USP, 30 mg, Rx only, 90 count bottles, Manufactured by: Aurobindo Pharma
+Limited, Hyderabad-500 090, India, For BluePoint Laboratories NDC 68001-414-05",CGMP Deviations: Presence of N-nitroso-duloxetine impurity above the recommended interim limit.,Nationwide in the USA,Lot DT3023030A Exp 2/28/2025
+1066,20250101,D-0155-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules USP, 30 mg, Rx only, 30 count bottles, Manufactured by: Aurobindo Pharma
+Limited, Hyderabad-500 090, India, For BluePoint Laboratories NDC 68001-414-04",CGMP Deviations: Presence of N-nitroso-duloxetine impurity above the recommended interim limit.,Nationwide in the USA,Lot DT3023029A Exp 02/28/2025
+1067,20250101,D-0165-2025,RemedyRepack Inc.,Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules, 60 mg, a) 30 count blister cards (NDC 70518-0937-04), b) 30 count bottles
+(NDC 70518-0937-03), Rx only, Source NDC 57237-0019-99, MFG: Rising Pharma, Inc., Allendale, NJ, Repackaged
+by: RemedyRepack Inc., Indiana, PA",CGMP Deviations; presence of N-nitroso-duloxetine impurity above recommended interim limit.,Nationwide in the US,"a) NDC 70518-0937-04, Lot # J0786744-061724, Exp. 06/30/2025 b) NDC 70518-0937-03, Lot # B3002625-060524, Exp. 10/31/2025"
+1068,20250101,D-0157-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules USP, 60 mg, Rx only, 30 count bottles, Manufactured by: Aurobindo Pharma
+Limited, Hyderabad-500 090, India, For BluePoint Laboratories NDC 68001-415-04",CGMP Deviations: Presence of N-nitroso-duloxetine impurity above the recommended interim limit.,Nationwide in the USA,Lot DT6023061B Exp 01/31/2025
+1069,20250101,D-0160-2025,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 25 mg, 100-count bottle, RX only, Manufactured for: Glenmark
+Pharmaceuticals Inc., NJ; Product of India, NDC 68462-862-01","CGMP Deviations: N-Nitroso-Desmethyl Chlorpromazine impurity (NNDCI) were found to be failing
+per current FDA recommended limit.",USA Nationwide,"Lot#: 17230133, Exp 12/31/2024"
+1070,20250101,D-0163-2025,"PD-Rx Pharmaceuticals, Inc.",Terminated,Class II,Drugs,"DULoxetine DR USP, 30 mg, 90-count bottle, Rx Only, Packaged by: PD Rx Pharmaceuticals Inc, Oklahoma City, OK
+73127, NDC: 43063-877-90","CGMP Deviations: the presence of a Nitrosamine Drug Substance Related Impurity (NDSRI),
+N-Nitroso-Duloxetine above the interim acceptable intake limit","Distributed within US: FL, MS, WI","Lot # I24E77, A24E49, Exp Date: 04/30/25;  J23C50, J23C97, L23B39, L23E98, Exp Date: 01/31/2025"
+1071,20250101,D-0166-2025,MXBBB,Ongoing,Class II,Drugs,"UMARY ACID HYALURONIC, 850 MG CAPLETS, 30-count bottle, UPC7502265120323","cGMP Deviations: the firm initiated a recall after notification from the distributor that
+product may be tainted with undeclared diclofenac and omeprazole, however there is no analytical
+data confirming that product distributed by the firm is tainted.",Product was sold via Amazon Marketplace.,"Lot#: 24183, Exp 07/01/28"
+1072,20250101,D-0162-2025,"Breckenridge Pharmaceutical, Inc",Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules, USP, 60 mg, Rx Only, 90-count bottles (NDC 51991-748-90) Mfr. by: Towa
+Pharmaceutical Europe, S.L. Martorelles, (Barcelona), Spain, Dist. by: Breckenridge Pharmaceuticals, Inc.,
+Berkeley Heights, NJ 07922.",CGMP Deviations: presence of N-nitroso-duloxetine impurity above FDA recommended interim limit.,Nationwide in the US,"Lot #  230077C, exp. date 11/2025"
+1073,20250101,D-0158-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules, USP, 60 mg, Rx only, 1,000 count bottles, Manufactured by: Aurobindo
+Pharma Limited, Hyderabad-500 090, India, For BluePoint Laboratories NDC 68001-415-08",CGMP Deviations: Presence of N-nitroso-duloxetine impurity above the recommended interim limit.,Nationwide in the USA,"Lots, expiry: Lot DT6022166A, exp 11/30/2024; Lot DT6023071A, exp 2/28/2025"

@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "description": "All three CLIs (jira, notion, box) are accessible and a Jira project exists",
+      "points": 1
+    },
+    {
+      "id": "source_data_present",
+      "description": "Both customs CSV files exist with expected row counts",
+      "points": 1
+    },
+    {
+      "id": "jira_overlap_correct",
+      "description": "Overlapping suppliers have UPDATED volumes from CSV + PRESERVED contract info from roster",
+      "points": 1
+    },
+    {
+      "id": "jira_new_suppliers_correct",
+      "description": "New-only suppliers created with CSV data + correct default fields",
+      "points": 1
+    },
+    {
+      "id": "jira_legacy_correct",
+      "description": "Old-only suppliers migrated with original roster data + legacy-active label",
+      "points": 1
+    },
+    {
+      "id": "notion_database_correct",
+      "description": "Notion database has all suppliers with correct merge category and field values",
+      "points": 1
+    },
+    {
+      "id": "box_folder_structure",
+      "description": "Box folders organized by merge category (Updated/New/Legacy) with per-supplier content",
+      "points": 1
+    },
+    {
+      "id": "merge_field_accuracy",
+      "description": "Spot-check specific fields to verify correct source (CSV vs roster vs default)",
+      "points": 1
+    }
+  ]
+}

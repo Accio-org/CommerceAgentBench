@@ -1,0 +1,88 @@
+{
+  "checks": [
+    {
+      "id": "legal_hold_evidence_file_uploaded",
+      "entity": "files",
+      "match": {
+        "filename": "supplier-certificate-audit-shenzhen-lumen-co.txt"
+      },
+      "expect": {
+        "equals": {
+          "status": "uploaded",
+          "contentType": "text/plain",
+          "externalUrl": null
+        },
+        "content_contains": [
+          "Supplier: Shenzhen Lumen Co.",
+          "Certificate reviewed: ISO9001-2026",
+          "Purchase order: PO-8812",
+          "Decision: HOLD_FOR_LEGAL_REVIEW",
+          "Owner: procurement-ops",
+          "certificate number"
+        ]
+      }
+    },
+    {
+      "id": "legal_hold_handoff_page_created",
+      "entity": "pages",
+      "match": {
+        "title": "Supplier certificate audit handoff - Shenzhen Lumen Co."
+      },
+      "expect": {
+        "equals": {
+          "parentId": "page_root",
+          "parentType": "page",
+          "archived": false
+        },
+        "contains": {
+          "content": [
+            "# Supplier certificate audit handoff - Shenzhen Lumen Co.",
+            "supplier-certificate-audit-shenzhen-lumen-co.txt",
+            "HOLD_FOR_LEGAL_REVIEW",
+            "procurement-ops",
+            "PO-8812",
+            "certificate number"
+          ]
+        }
+      }
+    },
+    {
+      "id": "passing_supplier_files_not_uploaded",
+      "entity": "files",
+      "match": {
+        "filename": "supplier-certificate-audit-ningbo-harbor-plastics.txt"
+      },
+      "expect": {
+        "absent": true
+      }
+    },
+    {
+      "id": "greenfield_file_not_uploaded",
+      "entity": "files",
+      "match": {
+        "filename": "supplier-certificate-audit-qingdao-greenfield-tools.txt"
+      },
+      "expect": {
+        "absent": true
+      }
+    },
+    {
+      "id": "no_extra_files_created",
+      "entity": "files",
+      "match": {},
+      "expect": {
+        "count": 95
+      }
+    },
+    {
+      "id": "no_extra_pages_created",
+      "entity": "pages",
+      "match": {
+        "archived": false
+      },
+      "expect": {
+        "count": 894
+      }
+    }
+  ]
+}

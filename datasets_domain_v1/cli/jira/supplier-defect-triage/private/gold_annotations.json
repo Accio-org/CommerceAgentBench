@@ -1,0 +1,465 @@
+{
+  "duplicate_pairs": [
+    [
+      "PROJ-28",
+      "PROJ-1"
+    ],
+    [
+      "PROJ-29",
+      "PROJ-2"
+    ],
+    [
+      "PROJ-30",
+      "PROJ-3"
+    ],
+    [
+      "PROJ-31",
+      "PROJ-4"
+    ],
+    [
+      "PROJ-32",
+      "PROJ-5"
+    ],
+    [
+      "PROJ-33",
+      "PROJ-6"
+    ],
+    [
+      "PROJ-34",
+      "PROJ-7"
+    ],
+    [
+      "PROJ-35",
+      "PROJ-8"
+    ]
+  ],
+  "distractor_lures": {
+    "PROJ-9": [
+      "PROJ-3",
+      "PROJ-19"
+    ],
+    "PROJ-10": [
+      "PROJ-9"
+    ],
+    "PROJ-11": [
+      "PROJ-4"
+    ],
+    "PROJ-12": [
+      "PROJ-4",
+      "PROJ-14"
+    ],
+    "PROJ-13": [
+      "PROJ-6"
+    ],
+    "PROJ-14": [
+      "PROJ-6",
+      "PROJ-12"
+    ],
+    "PROJ-19": [
+      "PROJ-9"
+    ],
+    "PROJ-20": [
+      "PROJ-2"
+    ],
+    "PROJ-21": [
+      "PROJ-7"
+    ],
+    "PROJ-22": [
+      "PROJ-5"
+    ]
+  },
+  "hard_component_keys": [
+    "PROJ-3",
+    "PROJ-9",
+    "PROJ-12",
+    "PROJ-13",
+    "PROJ-14"
+  ],
+  "issues": {
+    "PROJ-1": {
+      "defect": "safety",
+      "rc": "cell_gas",
+      "severity": "Critical",
+      "units": 1500,
+      "reg": 0,
+      "points": 5,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": true
+    },
+    "PROJ-2": {
+      "defect": "safety",
+      "rc": "insul_crack",
+      "severity": "Critical",
+      "units": 900,
+      "reg": 0,
+      "points": 5,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": true
+    },
+    "PROJ-3": {
+      "defect": "safety",
+      "rc": "charge_overheat",
+      "severity": "Major",
+      "units": 600,
+      "reg": 0,
+      "points": 3,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": true
+    },
+    "PROJ-4": {
+      "defect": "functional",
+      "rc": "bt_range",
+      "severity": "Minor",
+      "units": 800,
+      "reg": 0,
+      "points": 4,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": true
+    },
+    "PROJ-5": {
+      "defect": "functional",
+      "rc": "ribbon_seat",
+      "severity": "Major",
+      "units": 300,
+      "reg": 0,
+      "points": 3,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": true
+    },
+    "PROJ-6": {
+      "defect": "cosmetic",
+      "rc": "finish_flake",
+      "severity": "Minor",
+      "units": 250,
+      "reg": 0,
+      "points": 3,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": true
+    },
+    "PROJ-7": {
+      "defect": "functional",
+      "rc": "cold_solder",
+      "severity": "Minor",
+      "units": 100,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": true
+    },
+    "PROJ-8": {
+      "defect": "functional",
+      "rc": "bearing_stall",
+      "severity": "Minor",
+      "units": 99,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": true
+    },
+    "PROJ-9": {
+      "defect": "functional",
+      "rc": "adapter_warm",
+      "severity": "Minor",
+      "units": 150,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-10": {
+      "defect": "safety",
+      "rc": "surge_arc",
+      "severity": "Major",
+      "units": 250,
+      "reg": 1,
+      "points": 4,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-11": {
+      "defect": "functional",
+      "rc": "earbud_charge",
+      "severity": "Minor",
+      "units": 120,
+      "reg": 0,
+      "points": 3,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-12": {
+      "defect": "cosmetic",
+      "rc": "earbud_crack",
+      "severity": "Minor",
+      "units": 90,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-13": {
+      "defect": "cosmetic",
+      "rc": "miss_mark",
+      "severity": "Minor",
+      "units": 800,
+      "reg": 1,
+      "points": 3,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-14": {
+      "defect": "safety",
+      "rc": "case_crack",
+      "severity": "Major",
+      "units": 200,
+      "reg": 0,
+      "points": 4,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-15": {
+      "defect": "safety",
+      "rc": "dashcam_heatsoak",
+      "severity": "Critical",
+      "units": 60,
+      "reg": 0,
+      "points": 5,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-16": {
+      "defect": "safety",
+      "rc": "gimbal_shock",
+      "severity": "Critical",
+      "units": 300,
+      "reg": 0,
+      "points": 4,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-17": {
+      "defect": "functional",
+      "rc": "scroll_double",
+      "severity": "Major",
+      "units": 500,
+      "reg": 0,
+      "points": 6,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-18": {
+      "defect": "functional",
+      "rc": "key_chatter",
+      "severity": "Major",
+      "units": 499,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-19": {
+      "defect": "functional",
+      "rc": "strip_warm",
+      "severity": "Minor",
+      "units": 300,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-20": {
+      "defect": "functional",
+      "rc": "plug_loose",
+      "severity": "Minor",
+      "units": 200,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-21": {
+      "defect": "functional",
+      "rc": "hub_nopower",
+      "severity": "Minor",
+      "units": 150,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-22": {
+      "defect": "functional",
+      "rc": "band_flicker",
+      "severity": "Minor",
+      "units": 200,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-23": {
+      "defect": "cosmetic",
+      "rc": "grille_shade",
+      "severity": "Minor",
+      "units": 80,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-24": {
+      "defect": "functional",
+      "rc": "doorbell_leak",
+      "severity": "Major",
+      "units": 480,
+      "reg": 0,
+      "points": 8,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-25": {
+      "defect": "functional",
+      "rc": "chime_pair",
+      "severity": "Major",
+      "units": 520,
+      "reg": 0,
+      "points": 2,
+      "blk": "PROJ-24",
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-26": {
+      "defect": "functional",
+      "rc": "side_double",
+      "severity": "Major",
+      "units": 510,
+      "reg": 0,
+      "points": 4,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-27": {
+      "defect": "functional",
+      "rc": "af_hunt",
+      "severity": "Major",
+      "units": 700,
+      "reg": 0,
+      "points": 3,
+      "blk": null,
+      "is_duplicate": false,
+      "is_canonical": false
+    },
+    "PROJ-28": {
+      "defect": "safety",
+      "rc": "cell_gas",
+      "severity": "Critical",
+      "units": 700,
+      "reg": 0,
+      "points": 5,
+      "blk": null,
+      "is_duplicate": true,
+      "is_canonical": false
+    },
+    "PROJ-29": {
+      "defect": "safety",
+      "rc": "insul_crack",
+      "severity": "Critical",
+      "units": 400,
+      "reg": 0,
+      "points": 5,
+      "blk": null,
+      "is_duplicate": true,
+      "is_canonical": false
+    },
+    "PROJ-30": {
+      "defect": "safety",
+      "rc": "charge_overheat",
+      "severity": "Major",
+      "units": 350,
+      "reg": 0,
+      "points": 3,
+      "blk": null,
+      "is_duplicate": true,
+      "is_canonical": false
+    },
+    "PROJ-31": {
+      "defect": "functional",
+      "rc": "bt_range",
+      "severity": "Minor",
+      "units": 600,
+      "reg": 0,
+      "points": 4,
+      "blk": null,
+      "is_duplicate": true,
+      "is_canonical": false
+    },
+    "PROJ-32": {
+      "defect": "functional",
+      "rc": "ribbon_seat",
+      "severity": "Major",
+      "units": 250,
+      "reg": 0,
+      "points": 3,
+      "blk": null,
+      "is_duplicate": true,
+      "is_canonical": false
+    },
+    "PROJ-33": {
+      "defect": "cosmetic",
+      "rc": "finish_flake",
+      "severity": "Minor",
+      "units": 300,
+      "reg": 0,
+      "points": 3,
+      "blk": null,
+      "is_duplicate": true,
+      "is_canonical": false
+    },
+    "PROJ-34": {
+      "defect": "functional",
+      "rc": "cold_solder",
+      "severity": "Minor",
+      "units": 200,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": true,
+      "is_canonical": false
+    },
+    "PROJ-35": {
+      "defect": "functional",
+      "rc": "bearing_stall",
+      "severity": "Minor",
+      "units": 150,
+      "reg": 0,
+      "points": 2,
+      "blk": null,
+      "is_duplicate": true,
+      "is_canonical": false
+    }
+  }
+}

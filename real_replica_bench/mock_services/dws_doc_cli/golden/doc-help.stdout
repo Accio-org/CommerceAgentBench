@@ -1,0 +1,44 @@
+钉钉文档（搜索 / 浏览 / 读写 / 上传下载 / 文件 / 文件夹 / 块级编辑 / 评论）
+
+Usage:
+  dws doc [flags]
+  dws doc [command]
+
+Available Commands:
+  block       块级编辑
+  comment     文档评论
+  copy        copy 文档节点
+  create      创建文档
+  delete      删除整篇文档/文件到回收站
+  download    获取文档下载地址
+  export      文档导出（异步任务）
+  file        文件管理
+  folder      文件夹管理
+  info        获取文档元信息
+  list        列出文档节点
+  media       文档媒体 / 附件管理
+  move        move 文档节点
+  permission  文档权限协作管理
+  read        读取文档内容
+  rename      重命名文档节点
+  search      搜索文档
+  update      更新文档内容
+  upload      上传文件到钉钉文档或知识库
+
+Flags:
+  -h, --help   help for doc
+
+Global Flags:
+      --client-id string       Override OAuth client ID (DingTalk AppKey)
+      --client-secret string   Override OAuth client secret (DingTalk AppSecret)
+      --debug                  显示调试日志
+      --dry-run                预览操作内容，不实际执行
+      --fields string          筛选输出字段 (逗号分隔, 如: name,id,status)
+  -f, --format string          输出格式: json|table|raw|pretty|ndjson|csv (default "json")
+      --jq string              jq 表达式过滤输出 (如: '.items[] | .name')
+      --mock                   使用 Mock 数据 (开发调试用)
+      --timeout int            HTTP 请求超时时间 (秒) (default 30)
+  -v, --verbose                显示详细日志
+  -y, --yes                    跳过确认提示 (AI Agent 模式)
+
+Use "dws doc [command] --help" for more information about a command.

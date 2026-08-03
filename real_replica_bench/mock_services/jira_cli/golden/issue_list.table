@@ -1,0 +1,8 @@
+TYPE		KEY	SUMMARY					STATUS
+Bug		PROJ-6	Memory leak in background job worker	To Do
+Sub-task	PROJ-7	Update OAuth2 client library to v3.2	In Progress
+Story		PROJ-5	Add rate limiting to public API		In Review
+Bug		PROJ-3	Login page crashes on Safari 18		To Do
+Task		PROJ-4	Write migration runbook			Done
+Story		PROJ-2	Migrate user authentication to OAuth2	In Progress
+Epic		PROJ-1	Q3 Platform Migration			In Progress

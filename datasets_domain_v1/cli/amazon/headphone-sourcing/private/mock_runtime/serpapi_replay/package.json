@@ -1,0 +1,8 @@
+{
+  "name": "serpapi_replay",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun server.js"
+  }
+}

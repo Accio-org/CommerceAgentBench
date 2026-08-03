@@ -1,0 +1,128 @@
+[
+  {"_comment": "=== CUSTOMERS: 4 relevant suppliers + 12 noise ==="},
+
+  {"resource": "customers", "params": {"name": "Shenzhen HuaXin Electronics", "email": "ap@huaxin-electronics.cn", "description": "Tier 1 supplier — consumer electronics components"}},
+  {"resource": "customers", "params": {"name": "Dongguan MeiDa Packaging", "email": "finance@meida-pack.com", "description": "Packaging & print services"}},
+  {"resource": "customers", "params": {"name": "Ningbo SailWind Logistics", "email": "billing@sailwind-logistics.com", "description": "Freight & warehousing"}},
+  {"resource": "customers", "params": {"name": "Guangzhou YiHe Textiles", "email": "accounts@yihe-textiles.cn", "description": "Organic cotton & synthetic fabrics"}},
+
+  {"resource": "customers", "params": {"name": "Foshan JinTai Hardware", "email": "pay@jintai-hw.com", "description": "Metal stamping & CNC parts"}},
+  {"resource": "customers", "params": {"name": "Zhuhai OptiLens Corp", "email": "ar@optilens.com.cn", "description": "Optical components"}},
+  {"resource": "customers", "params": {"name": "Xiamen BrightPath Trading", "email": "procurement@brightpath.cn", "description": "General trading intermediary"}},
+  {"resource": "customers", "params": {"name": "GreenLeaf Internal — Test Account", "email": "dev@greenleaf-trading.internal", "description": "Internal test account — DO NOT USE FOR PAYMENTS"}},
+  {"resource": "customers", "params": {"name": "Changsha RiverStone Ceramics", "email": "finance@riverstone-ceramics.cn", "description": "Ceramic housewares & tableware"}},
+  {"resource": "customers", "params": {"name": "Wuxi PrecisionCast Ltd", "email": "billing@precisioncast.cn", "description": "Investment casting"}},
+  {"resource": "customers", "params": {"name": "Shanghai FreightHub Co", "email": "ops@freighthub-sh.com", "description": "Consolidated shipping & customs brokerage"}},
+  {"resource": "customers", "params": {"name": "Hangzhou SilkWay Apparel", "email": "ap@silkway-apparel.com", "description": "Woven garments & embroidery"}},
+  {"resource": "customers", "params": {"name": "GreenLeaf Trading HQ", "email": "finance@greenleaf-trading.com", "description": "Head office corporate account"}},
+  {"resource": "customers", "params": {"name": "Qingdao HaiYun Container Services", "email": "invoices@haiyun-cs.cn", "description": "Container leasing & depot services"}},
+  {"resource": "customers", "params": {"name": "Zhongshan LightPro Electric", "email": "accounts@lightpro-zs.cn", "description": "LED lighting & power supplies"}},
+  {"resource": "customers", "params": {"name": "Tianjin NorthStar Chemicals", "email": "finance@northstar-chem.cn", "description": "Industrial adhesives & coatings"}},
+
+  {"_comment": "=== PRODUCTS (noise — internal SaaS/tools) ==="},
+
+  {"resource": "products", "params": {"name": "GreenLeaf Supplier Portal — Monthly", "description": "SaaS access fee for supplier self-service portal"}},
+  {"resource": "products", "params": {"name": "QC Inspection Service", "description": "Third-party quality control inspection booking"}},
+  {"resource": "products", "params": {"name": "Express Customs Filing", "description": "Priority customs documentation processing"}},
+  {"resource": "products", "params": {"name": "Container Tracking Pro", "description": "Real-time GPS tracking subscription"}},
+  {"resource": "products", "params": {"name": "Sample Shipping — Domestic", "description": "Domestic courier for product samples"}},
+
+  {"_comment": "=== PRICES (noise — tied to products above) ==="},
+
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "29900", "product": "$ref:products:0", "recurring.interval": "month"}},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "45000", "product": "$ref:products:1"}},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "8500", "product": "$ref:products:2"}},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "5900", "product": "$ref:products:3", "recurring.interval": "month"}},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "1500", "product": "$ref:products:4"}},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "349900", "product": "$ref:products:0", "recurring.interval": "year"}},
+
+  {"_comment": "=== CHARGES: 10 task-relevant (match QA report) ==="},
+
+  {"resource": "charges", "params": {"amount": 850000, "currency": "usd", "customer": "$ref:customers:0", "description": "Bluetooth Module Batch B-4412", "metadata": {"po": "PO-2026-0891", "category": "electronics"}}},
+  {"resource": "charges", "params": {"amount": 320000, "currency": "usd", "customer": "$ref:customers:1", "description": "Retail Box Print Run RB-7790", "metadata": {"po": "PO-2026-0742", "category": "packaging"}}},
+  {"resource": "charges", "params": {"amount": 1240000, "currency": "usd", "customer": "$ref:customers:2", "description": "Freight Deposit FD-2026-038", "metadata": {"po": "FD-2026-038", "category": "logistics"}}},
+  {"resource": "charges", "params": {"amount": 95000, "currency": "usd", "customer": "$ref:customers:3", "description": "Fabric Sample Set SS-A10", "metadata": {"po": "SS-A10", "category": "textiles"}}},
+  {"resource": "charges", "params": {"amount": 475000, "currency": "usd", "customer": "$ref:customers:0", "description": "USB-C Cable Lot C-5523", "metadata": {"po": "PO-2026-1104", "category": "electronics"}}},
+  {"resource": "charges", "params": {"amount": 680000, "currency": "usd", "customer": "$ref:customers:1", "description": "Corrugated Mailer Batch CM-3301", "metadata": {"po": "PO-2026-0955", "category": "packaging"}}},
+  {"resource": "charges", "params": {"amount": 560000, "currency": "usd", "customer": "$ref:customers:2", "description": "Warehousing Fee WH-2026-Q2", "metadata": {"po": "WH-2026-Q2", "category": "logistics"}}},
+  {"resource": "charges", "params": {"amount": 1530000, "currency": "usd", "customer": "$ref:customers:3", "description": "Organic Cotton Bolt OC-889", "metadata": {"po": "PO-2026-0889", "category": "textiles"}}},
+  {"resource": "charges", "params": {"amount": 2200000, "currency": "usd", "customer": "$ref:customers:0", "description": "LED Driver Board LD-7710", "metadata": {"po": "PO-2026-1201", "category": "electronics"}}},
+  {"resource": "charges", "params": {"amount": 185000, "currency": "usd", "customer": "$ref:customers:1", "description": "Gift Box Insert Set GBI-4420", "metadata": {"po": "PO-2026-1033", "category": "packaging"}}},
+
+  {"_comment": "=== TRAP: platform fee for HuaXin — NOT in QA report, should NOT be refunded ==="},
+  {"resource": "charges", "params": {"amount": 350000, "currency": "usd", "customer": "$ref:customers:0", "description": "Quarterly Platform Access Fee Q2-2026", "metadata": {"period": "2026-Q2", "type": "platform_fee"}}},
+
+  {"_comment": "=== CHARGES: noise — settled historical charges from various suppliers ==="},
+
+  {"resource": "charges", "params": {"amount": 125000, "currency": "usd", "customer": "$ref:customers:4", "description": "CNC Prototype Batch PT-2201", "metadata": {"po": "PO-2026-0501", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 3400000, "currency": "usd", "customer": "$ref:customers:4", "description": "Stamping Die Set SD-114", "metadata": {"po": "PO-2026-0388", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 780000, "currency": "usd", "customer": "$ref:customers:5", "description": "AR Coating Lot AC-5501", "metadata": {"po": "PO-2026-0612", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 220000, "currency": "usd", "customer": "$ref:customers:5", "description": "Lens Polish Kit LP-33", "metadata": {"po": "PO-2026-0710", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 1560000, "currency": "usd", "customer": "$ref:customers:6", "description": "Trading Commission May 2026", "metadata": {"period": "2026-05", "type": "commission"}}},
+  {"resource": "charges", "params": {"amount": 890000, "currency": "usd", "customer": "$ref:customers:6", "description": "Trading Commission Apr 2026", "metadata": {"period": "2026-04", "type": "commission"}}},
+  {"resource": "charges", "params": {"amount": 45000, "currency": "usd", "customer": "$ref:customers:8", "description": "Ceramic Glaze Sample CG-09", "metadata": {"po": "SAMPLE-2026-09", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 2850000, "currency": "usd", "customer": "$ref:customers:8", "description": "Dinnerware Set Production DS-400", "metadata": {"po": "PO-2026-0400", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 670000, "currency": "usd", "customer": "$ref:customers:8", "description": "Mug Collection MC-2026-Spring", "metadata": {"po": "PO-2026-0455", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 4200000, "currency": "usd", "customer": "$ref:customers:9", "description": "Investment Casting Batch IC-7720", "metadata": {"po": "PO-2026-0772", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 1100000, "currency": "usd", "customer": "$ref:customers:9", "description": "Machining Service MS-Q2", "metadata": {"po": "MS-Q2-2026", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 3800000, "currency": "usd", "customer": "$ref:customers:10", "description": "FCL Shipping SH-2026-May-01", "metadata": {"po": "SH-2026-051", "route": "SH→LAX"}}},
+  {"resource": "charges", "params": {"amount": 2900000, "currency": "usd", "customer": "$ref:customers:10", "description": "FCL Shipping SH-2026-May-02", "metadata": {"po": "SH-2026-052", "route": "NB→NYC"}}},
+  {"resource": "charges", "params": {"amount": 1650000, "currency": "usd", "customer": "$ref:customers:10", "description": "Customs Brokerage Fee CB-May", "metadata": {"period": "2026-05", "type": "brokerage"}}},
+  {"resource": "charges", "params": {"amount": 950000, "currency": "usd", "customer": "$ref:customers:11", "description": "Silk Scarf Lot SK-220", "metadata": {"po": "PO-2026-0660", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 1870000, "currency": "usd", "customer": "$ref:customers:11", "description": "Embroidered Jacket Sample EJ-8", "metadata": {"po": "SAMPLE-2026-08", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 520000, "currency": "usd", "customer": "$ref:customers:13", "description": "Container Lease CL-2026-Q2-A", "metadata": {"period": "2026-Q2", "container": "MSCU-4401928"}}},
+  {"resource": "charges", "params": {"amount": 520000, "currency": "usd", "customer": "$ref:customers:13", "description": "Container Lease CL-2026-Q2-B", "metadata": {"period": "2026-Q2", "container": "MSCU-4401935"}}},
+  {"resource": "charges", "params": {"amount": 310000, "currency": "usd", "customer": "$ref:customers:13", "description": "Depot Handling Fee DH-May", "metadata": {"period": "2026-05"}}},
+  {"resource": "charges", "params": {"amount": 4500000, "currency": "usd", "customer": "$ref:customers:14", "description": "LED Panel Production LP-6600", "metadata": {"po": "PO-2026-0660", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 1200000, "currency": "usd", "customer": "$ref:customers:14", "description": "Driver Board Assembly DB-330", "metadata": {"po": "PO-2026-0330", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 780000, "currency": "usd", "customer": "$ref:customers:14", "description": "Heatsink Batch HS-2026-04", "metadata": {"po": "PO-2026-0421", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 2100000, "currency": "usd", "customer": "$ref:customers:15", "description": "Adhesive Compound AC-900kg", "metadata": {"po": "PO-2026-0811", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 640000, "currency": "usd", "customer": "$ref:customers:15", "description": "UV Coating Batch UC-50L", "metadata": {"po": "PO-2026-0912", "settled": "true"}}},
+
+  {"_comment": "=== More noise: charges from relevant suppliers but different months/items (already settled) ==="},
+
+  {"resource": "charges", "params": {"amount": 720000, "currency": "usd", "customer": "$ref:customers:0", "description": "Resistor Reel Batch RR-2200 (Apr)", "metadata": {"po": "PO-2026-0550", "settled": "true", "period": "2026-04"}}},
+  {"resource": "charges", "params": {"amount": 1350000, "currency": "usd", "customer": "$ref:customers:0", "description": "MOSFET Lot MF-100 (Apr)", "metadata": {"po": "PO-2026-0622", "settled": "true", "period": "2026-04"}}},
+  {"resource": "charges", "params": {"amount": 440000, "currency": "usd", "customer": "$ref:customers:1", "description": "Label Print Run LB-5500 (Apr)", "metadata": {"po": "PO-2026-0480", "settled": "true", "period": "2026-04"}}},
+  {"resource": "charges", "params": {"amount": 290000, "currency": "usd", "customer": "$ref:customers:1", "description": "Bubble Wrap Roll BW-1000 (Mar)", "metadata": {"po": "PO-2026-0310", "settled": "true", "period": "2026-03"}}},
+  {"resource": "charges", "params": {"amount": 980000, "currency": "usd", "customer": "$ref:customers:2", "description": "Freight Deposit FD-2026-029 (Apr)", "metadata": {"po": "FD-2026-029", "settled": "true", "period": "2026-04"}}},
+  {"resource": "charges", "params": {"amount": 340000, "currency": "usd", "customer": "$ref:customers:2", "description": "Palletizing Service PS-May", "metadata": {"po": "PS-2026-05", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 2800000, "currency": "usd", "customer": "$ref:customers:3", "description": "Cotton Fabric Bolt CF-750 (Apr)", "metadata": {"po": "PO-2026-0750", "settled": "true", "period": "2026-04"}}},
+  {"resource": "charges", "params": {"amount": 460000, "currency": "usd", "customer": "$ref:customers:3", "description": "Dye Sample Set DY-12 (Mar)", "metadata": {"po": "SAMPLE-2026-03", "settled": "true", "period": "2026-03"}}},
+
+  {"_comment": "=== Noise: internal/corporate charges ==="},
+
+  {"resource": "charges", "params": {"amount": 29900, "currency": "usd", "customer": "$ref:customers:12", "description": "Supplier Portal SaaS — May 2026", "metadata": {"type": "subscription", "period": "2026-05"}}},
+  {"resource": "charges", "params": {"amount": 29900, "currency": "usd", "customer": "$ref:customers:12", "description": "Supplier Portal SaaS — Apr 2026", "metadata": {"type": "subscription", "period": "2026-04"}}},
+  {"resource": "charges", "params": {"amount": 29900, "currency": "usd", "customer": "$ref:customers:12", "description": "Supplier Portal SaaS — Mar 2026", "metadata": {"type": "subscription", "period": "2026-03"}}},
+  {"resource": "charges", "params": {"amount": 45000, "currency": "usd", "customer": "$ref:customers:12", "description": "QC Inspection — Shenzhen Factory Visit", "metadata": {"type": "inspection", "factory": "HuaXin"}}},
+  {"resource": "charges", "params": {"amount": 45000, "currency": "usd", "customer": "$ref:customers:12", "description": "QC Inspection — Dongguan Factory Visit", "metadata": {"type": "inspection", "factory": "MeiDa"}}},
+  {"resource": "charges", "params": {"amount": 8500, "currency": "usd", "customer": "$ref:customers:12", "description": "Express Customs Filing — June Rush", "metadata": {"type": "service"}}},
+  {"resource": "charges", "params": {"amount": 1500, "currency": "usd", "customer": "$ref:customers:7", "description": "Test charge — ignore", "metadata": {"test": "true"}}},
+
+  {"_comment": "=== More noise: misc supplier charges from May ==="},
+
+  {"resource": "charges", "params": {"amount": 1680000, "currency": "usd", "customer": "$ref:customers:4", "description": "Zinc Alloy Casting ZA-880", "metadata": {"po": "PO-2026-0880", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 550000, "currency": "usd", "customer": "$ref:customers:5", "description": "Prism Array PA-2026-02", "metadata": {"po": "PO-2026-0902", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 920000, "currency": "usd", "customer": "$ref:customers:9", "description": "Stainless Steel Blank SS-500", "metadata": {"po": "PO-2026-0500", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 380000, "currency": "usd", "customer": "$ref:customers:11", "description": "Cotton Thread Spool CT-50kg", "metadata": {"po": "PO-2026-0723", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 2350000, "currency": "usd", "customer": "$ref:customers:10", "description": "LCL Shipping NB-2026-Apr-03", "metadata": {"po": "SH-2026-043", "route": "NB→HOU", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 410000, "currency": "usd", "customer": "$ref:customers:13", "description": "Reefer Container Surcharge RC-May", "metadata": {"period": "2026-05", "type": "surcharge"}}},
+  {"resource": "charges", "params": {"amount": 1950000, "currency": "usd", "customer": "$ref:customers:15", "description": "Epoxy Resin Batch EP-200L", "metadata": {"po": "PO-2026-0845", "settled": "true"}}},
+  {"resource": "charges", "params": {"amount": 860000, "currency": "usd", "customer": "$ref:customers:0", "description": "Capacitor Pack CP-10K (May)", "metadata": {"po": "PO-2026-1050", "settled": "true", "period": "2026-05"}}},
+  {"resource": "charges", "params": {"amount": 1450000, "currency": "usd", "customer": "$ref:customers:1", "description": "Custom Foam Insert FI-2026-06", "metadata": {"po": "PO-2026-1100", "period": "2026-06"}}},
+  {"resource": "charges", "params": {"amount": 3100000, "currency": "usd", "customer": "$ref:customers:3", "description": "Linen Blend Roll LB-200m (May)", "metadata": {"po": "PO-2026-0960", "settled": "true", "period": "2026-05"}}},
+  {"resource": "charges", "params": {"amount": 175000, "currency": "usd", "customer": "$ref:customers:2", "description": "Packing Materials PM-2026-May", "metadata": {"po": "PM-2026-05", "type": "consumable", "settled": "true"}}},
+
+  {"_comment": "=== Noise: subscriptions ==="},
+
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:12", "items": [{"price": "$ref:prices:0"}], "status": "active"}},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:12", "items": [{"price": "$ref:prices:3"}], "status": "active"}},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:6", "items": [{"price": "$ref:prices:0"}], "status": "active"}},
+
+  {"_comment": "=== Noise: payment_intents (pending/processing) ==="},
+
+  {"resource": "payment_intents", "params": {"amount": 5600000, "currency": "usd", "customer": "$ref:customers:4", "description": "Pending — New tooling order T-800", "status": "requires_payment_method"}},
+  {"resource": "payment_intents", "params": {"amount": 1890000, "currency": "usd", "customer": "$ref:customers:8", "description": "Pending — Tableware reorder TW-2026-Jul", "status": "requires_confirmation"}},
+  {"resource": "payment_intents", "params": {"amount": 750000, "currency": "usd", "customer": "$ref:customers:11", "description": "Processing — Linen samples LS-Q3", "status": "processing"}}
+]

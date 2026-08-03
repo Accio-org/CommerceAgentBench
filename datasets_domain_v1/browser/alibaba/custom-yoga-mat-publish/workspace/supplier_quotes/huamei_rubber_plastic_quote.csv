@@ -1,0 +1,23 @@
+Item,Value
+Company Name,Dongguan Huamei Rubber & Plastic Products Co. Ltd.
+Product Name,TPE Yoga Mat 6mm
+Brand,Huamei
+Model,HM-TPE-6
+Material,TPE
+Dimensions,183cm x 61cm x 6mm
+Weight,1.1kg
+Colors,Purple/Blue/Green/Gray
+Tier 1 Quantity,200-499
+Tier 1 Unit Price (RMB),38.00
+Tier 2 Quantity,500-1999
+Tier 2 Unit Price (RMB),35.00
+Tier 3 Quantity,2000-9999
+Tier 3 Unit Price (RMB),32.00
+Tier 4 Quantity,10000+
+Tier 4 Unit Price (RMB),29.00
+Minimum Order Quantity,200
+Lead Time 200-500,45 days
+Lead Time 501-2000,55 days
+Lead Time 2001-10000,70 days
+Notes,Price excludes shipping; shipping approx 2 RMB/piece
+Custom Logo,Supported; minimum 500 pieces

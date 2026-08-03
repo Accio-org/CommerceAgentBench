@@ -1,0 +1,4 @@
+return_id,order_id,sku,reason_code,requested_resolution,return_weight_kg,received_units,condition_grade,missing_components
+RET-55812,ORD-77821,TRAIL-750-2PK,missing_or_damaged_component,full_refund,0.74,1,used_open_box,one bottle and one LoopCap v2
+RET-66104,ORD-88104,CERAMIC-MUG,carrier_damage,replacement_or_full_refund,1.05,2,broken_in_transit,
+RET-77017,ORD-99017,CLEAN-TAB-12,wrong_item_received,full_refund,0.18,1,sealed_unopened,none

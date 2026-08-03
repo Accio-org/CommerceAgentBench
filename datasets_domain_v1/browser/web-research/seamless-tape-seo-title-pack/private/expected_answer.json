@@ -1,0 +1,32 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-web-research-seamless-tape-seo-title-pack",
+  "core_terms": ["acne patch", "pimple patch", "hydrocolloid"],
+  "high_risk_forbidden_terms": [
+    "healing",
+    "treatment",
+    "therapy",
+    "scar prevention",
+    "inflammation reduction",
+    "redness relief",
+    "skin repair",
+    "skin removal"
+  ],
+  "title_max_chars": 128,
+  "title_count_required": 20,
+  "evidence_image_filenames": [
+    "source_product",
+    "search_results",
+    "competitor_01",
+    "competitor_02",
+    "competitor_03",
+    "competitor_04",
+    "competitor_05"
+  ],
+  "evidence_image_extensions": [".png", ".jpg", ".jpeg", ".webp"],
+  "manifest_competitors_required_count": 5,
+  "manifest_competitor_required_keys": ["url", "screenshot", "status", "keywords"],
+  "listing_pack_required_bullet_count": 5,
+  "listing_pack_required_search_term_count": 10,
+  "ab_grouping_regex_groups": ["A/B", "Group A", "Group B", "Variant A", "Variant B"]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "user",
+    "id": "10001",
+    "name": "Admin User",
+    "login": "admin@boxmock.example.com",
+    "created_at": "2026-01-10T08:00:00Z",
+    "modified_at": "2026-01-10T08:00:00Z",
+    "status": "active",
+    "space_amount": 10737418240,
+    "space_used": 524288000,
+    "job_title": "Administrator"
+}

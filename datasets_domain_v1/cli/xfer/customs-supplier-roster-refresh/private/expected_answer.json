@@ -1,0 +1,566 @@
+{
+  "source_csv_dir": "workspace/customs_data",
+  "source_csv_files": [
+    "dongying_us_exports.csv",
+    "guangzhou_us_exports.csv"
+  ],
+  "source_min_rows": 1000,
+  "qualification_thresholds": {
+    "min_shipments": 8,
+    "min_amount_usd": 100000
+  },
+  "overlap_suppliers": [
+    {
+      "supplier": "DONGYING FODEN WHEELS CO LTD",
+      "merge_category": "updated",
+      "csv_fields": {
+        "total_amount_usd": 110443.55,
+        "shipment_count": 12,
+        "weight_kg": 0.0,
+        "hs_codes": [
+          "87169090"
+        ],
+        "destinations": [
+          "Kolkata",
+          "NHAVA SHEVA SEA (INNSA1)",
+          "SONEPAT ICD (INBDM6)"
+        ]
+      },
+      "roster_fields": {
+        "contract_id": "CTR-Q4-2281",
+        "payment_terms_days": 45,
+        "quality_rating": "A",
+        "last_audit_date": "2025-10-15",
+        "internal_notes": "Reliable wheel parts supplier, consistent quality across batches",
+        "primary_contact_name": "Zhang Wei",
+        "primary_contact_email": "zhangwei@fodenparts.com"
+      }
+    },
+    {
+      "supplier": "DONGYING GREAT PETROLEUM EQUIPMENT CO LTD",
+      "merge_category": "updated",
+      "csv_fields": {
+        "total_amount_usd": 129662.89,
+        "shipment_count": 12,
+        "weight_kg": 0.0,
+        "hs_codes": [
+          "69141000"
+        ],
+        "destinations": []
+      },
+      "roster_fields": {
+        "contract_id": "CTR-Q4-2302",
+        "payment_terms_days": 60,
+        "quality_rating": "B",
+        "last_audit_date": "2025-11-02",
+        "internal_notes": "Ceramic equipment, requires temperature-controlled shipping",
+        "primary_contact_name": "Li Jianhua",
+        "primary_contact_email": "lijh@greatpetro.cn"
+      }
+    },
+    {
+      "supplier": "DONGYING TIANCHEN INTERNATIONAL TRADE CO LTD",
+      "merge_category": "updated",
+      "csv_fields": {
+        "total_amount_usd": 185518.26,
+        "shipment_count": 8,
+        "weight_kg": 5156300.0,
+        "hs_codes": [
+          "29171900",
+          "38249999",
+          "39089000",
+          "9802001100"
+        ],
+        "destinations": [
+          "KAPS",
+          "KAPW",
+          "MANZANILLO MANZANILLO COLIMA."
+        ]
+      },
+      "roster_fields": {
+        "contract_id": "CTR-Q4-2287",
+        "payment_terms_days": 90,
+        "quality_rating": "B",
+        "last_audit_date": "2025-11-10",
+        "internal_notes": "Chemical trade, hazmat compliance documentation up to date",
+        "primary_contact_name": "Chen Guoqiang",
+        "primary_contact_email": "chenguoqiang@tianchen-trade.com"
+      }
+    },
+    {
+      "supplier": "DONGYING XINBANG ASIA CO LTD",
+      "merge_category": "updated",
+      "csv_fields": {
+        "total_amount_usd": 161041.59,
+        "shipment_count": 20,
+        "weight_kg": 0.0,
+        "hs_codes": [
+          "39209990"
+        ],
+        "destinations": []
+      },
+      "roster_fields": {
+        "contract_id": "CTR-Q4-2315",
+        "payment_terms_days": 30,
+        "quality_rating": "A",
+        "last_audit_date": "2025-10-28",
+        "internal_notes": "Plastic film specialist, exclusive pricing agreement through Q2 2026",
+        "primary_contact_name": "Wang Xiaoming",
+        "primary_contact_email": "wxm@xinbangasia.com"
+      }
+    },
+    {
+      "supplier": "GUANGZHOU JISU TONG INTERNATIONAL SUPPLY CHAIN MANAGEMENT CO LTD",
+      "merge_category": "updated",
+      "csv_fields": {
+        "total_amount_usd": 915640.0,
+        "shipment_count": 9,
+        "weight_kg": 74520.0,
+        "hs_codes": [
+          "842860",
+          "940140"
+        ],
+        "destinations": [
+          "HOUSTON,TX",
+          "NEW YORK,NY",
+          "PORT EVERGLADES",
+          "Savannah"
+        ]
+      },
+      "roster_fields": {
+        "contract_id": "CTR-Q4-2271",
+        "payment_terms_days": 60,
+        "quality_rating": "A",
+        "last_audit_date": "2025-11-05",
+        "internal_notes": "Large-volume furniture and machinery supplier, tier-1 priority account",
+        "primary_contact_name": "Liu Zhenhao",
+        "primary_contact_email": "liuzh@jisutong-scm.com"
+      }
+    },
+    {
+      "supplier": "GUANGZHOU NEW STORY TRADE CO LTD",
+      "merge_category": "updated",
+      "csv_fields": {
+        "total_amount_usd": 324960.0,
+        "shipment_count": 12,
+        "weight_kg": 194247.0,
+        "hs_codes": [
+          "481960",
+          "851621",
+          "901910"
+        ],
+        "destinations": [
+          "LONG BEACH"
+        ]
+      },
+      "roster_fields": {
+        "contract_id": "CTR-Q4-2294",
+        "payment_terms_days": 45,
+        "quality_rating": "A",
+        "last_audit_date": "2025-10-20",
+        "internal_notes": "Paper products and electronics, good packaging standards",
+        "primary_contact_name": "Huang Meiling",
+        "primary_contact_email": "huangml@newstorytrade.com"
+      }
+    }
+  ],
+  "new_only_suppliers": [
+    {
+      "supplier": "DONGYING BAOFENG AUTO PARTS CO LTD",
+      "merge_category": "new",
+      "csv_fields": {
+        "total_amount_usd": 2923724.04,
+        "shipment_count": 633,
+        "weight_kg": 21726876.0,
+        "hs_codes": [
+          "2841909999",
+          "3204179999",
+          "3824999999",
+          "391740",
+          "4819100100",
+          "4823909901",
+          "4901100100",
+          "681310",
+          "6813819900",
+          "8708300400",
+          "8708301000",
+          "8708309901",
+          "8708309999"
+        ],
+        "destinations": [
+          "AEROPUERTO INTERNACIONAL DE LA CIUDAD DE MEXICO",
+          "Guayaquil",
+          "LONG BEACH",
+          "LOS ANGELES",
+          "MANZANILLO MANZANILLO COLIMA.",
+          "NUEVO LAREDO NUEVO LAREDO TAMAULIPAS."
+        ]
+      },
+      "default_fields": {
+        "contract_id": "TBD-DONGYING BAOFENG AUTO PARTS CO LTD",
+        "payment_terms_days": 30,
+        "quality_rating": "Pending",
+        "last_audit_date": "N/A",
+        "internal_notes": "New supplier, pending initial review",
+        "primary_contact_name": "TBD",
+        "primary_contact_email": "TBD"
+      }
+    },
+    {
+      "supplier": "DONGYING DIGO INTERNATIONAL TRADE C",
+      "merge_category": "new",
+      "csv_fields": {
+        "total_amount_usd": 581360.73,
+        "shipment_count": 13,
+        "weight_kg": 0.0,
+        "hs_codes": [
+          "40118000"
+        ],
+        "destinations": [
+          "ANKALESHWAR ICD (INAKV6)",
+          "NHAVA SHEVA SEA (INNSA1)"
+        ]
+      },
+      "default_fields": {
+        "contract_id": "TBD-DONGYING DIGO INTERNATIONAL TRADE C",
+        "payment_terms_days": 30,
+        "quality_rating": "Pending",
+        "last_audit_date": "N/A",
+        "internal_notes": "New supplier, pending initial review",
+        "primary_contact_name": "TBD",
+        "primary_contact_email": "TBD"
+      }
+    },
+    {
+      "supplier": "DONGYING HI TECH SPRING CHEMICAL INDUSTRY CO LTD",
+      "merge_category": "new",
+      "csv_fields": {
+        "total_amount_usd": 859095.78,
+        "shipment_count": 36,
+        "weight_kg": 199413170.0,
+        "hs_codes": [
+          "29053200",
+          "2905320000",
+          "29053200000",
+          "2905320100",
+          "29053900",
+          "29053990",
+          "29094900"
+        ],
+        "destinations": [
+          "Chennai",
+          "KAPE",
+          "KAPS",
+          "KAPW",
+          "MANZANILLO MANZANILLO COLIMA."
+        ]
+      },
+      "default_fields": {
+        "contract_id": "TBD-DONGYING HI TECH SPRING CHEMICAL INDUSTRY CO LTD",
+        "payment_terms_days": 30,
+        "quality_rating": "Pending",
+        "last_audit_date": "N/A",
+        "internal_notes": "New supplier, pending initial review",
+        "primary_contact_name": "TBD",
+        "primary_contact_email": "TBD"
+      }
+    },
+    {
+      "supplier": "DONGYING SUNFULL MATECH CO LTD",
+      "merge_category": "new",
+      "csv_fields": {
+        "total_amount_usd": 705671.0,
+        "shipment_count": 182,
+        "weight_kg": 0.0,
+        "hs_codes": [
+          "48211090",
+          "70182000",
+          "73269099",
+          "83099092",
+          "84209190",
+          "84778010",
+          "84778039",
+          "84779010",
+          "84807990",
+          "87168010"
+        ],
+        "destinations": []
+      },
+      "default_fields": {
+        "contract_id": "TBD-DONGYING SUNFULL MATECH CO LTD",
+        "payment_terms_days": 30,
+        "quality_rating": "Pending",
+        "last_audit_date": "N/A",
+        "internal_notes": "New supplier, pending initial review",
+        "primary_contact_name": "TBD",
+        "primary_contact_email": "TBD"
+      }
+    },
+    {
+      "supplier": "DONGYING TIANDONG PHARMACEUTICAL CO LTD",
+      "merge_category": "new",
+      "csv_fields": {
+        "total_amount_usd": 1151163.31,
+        "shipment_count": 22,
+        "weight_kg": 0.0,
+        "hs_codes": [
+          "29420090",
+          "30019000",
+          "30019010",
+          "30019091"
+        ],
+        "destinations": [
+          "AHEMDABAD AIR ACC (INAMD4)",
+          "Arshiya International Ltd (INPNV6)",
+          "Chinggiskhaan airport",
+          "DELHI AIR CARGO ACC (INDEL4)",
+          "HYDERABAD ACC (INHYD4)",
+          "SAHAR AIR CARGO ACC (INBOM4)",
+          "Visakhapatnam Special Economic Zone (INVTZ6)"
+        ]
+      },
+      "default_fields": {
+        "contract_id": "TBD-DONGYING TIANDONG PHARMACEUTICAL CO LTD",
+        "payment_terms_days": 30,
+        "quality_rating": "Pending",
+        "last_audit_date": "N/A",
+        "internal_notes": "New supplier, pending initial review",
+        "primary_contact_name": "TBD",
+        "primary_contact_email": "TBD"
+      }
+    },
+    {
+      "supplier": "GUANGZHOU SHENDIANWEI TRADE CO LT",
+      "merge_category": "new",
+      "csv_fields": {
+        "total_amount_usd": 216280.0,
+        "shipment_count": 35,
+        "weight_kg": 417639.0,
+        "hs_codes": [
+          "230910",
+          "270300",
+          "481960",
+          "482020",
+          "851830",
+          "901060"
+        ],
+        "destinations": [
+          "HOUSTON,TX",
+          "LONG BEACH",
+          "LOS ANGELES",
+          "NEW YORK,NY",
+          "Savannah"
+        ]
+      },
+      "default_fields": {
+        "contract_id": "TBD-GUANGZHOU SHENDIANWEI TRADE CO LT",
+        "payment_terms_days": 30,
+        "quality_rating": "Pending",
+        "last_audit_date": "N/A",
+        "internal_notes": "New supplier, pending initial review",
+        "primary_contact_name": "TBD",
+        "primary_contact_email": "TBD"
+      }
+    },
+    {
+      "supplier": "SHINGHWA AMPEREX TECHNOLOGY DONGYING CO LTD",
+      "merge_category": "new",
+      "csv_fields": {
+        "total_amount_usd": 421355.55,
+        "shipment_count": 21,
+        "weight_kg": 103241650.0,
+        "hs_codes": [
+          "283650",
+          "29053200",
+          "2905320000",
+          "29202990",
+          "29209090",
+          "29329990"
+        ],
+        "destinations": [
+          "KAPS",
+          "NHAVA SHEVA SEA (INNSA1)",
+          "NORFOLK,VA"
+        ]
+      },
+      "default_fields": {
+        "contract_id": "TBD-SHINGHWA AMPEREX TECHNOLOGY DONGYING CO LTD",
+        "payment_terms_days": 30,
+        "quality_rating": "Pending",
+        "last_audit_date": "N/A",
+        "internal_notes": "New supplier, pending initial review",
+        "primary_contact_name": "TBD",
+        "primary_contact_email": "TBD"
+      }
+    }
+  ],
+  "old_only_suppliers": [
+    {
+      "supplier": "DONGYING HUATAI PRECISION INSTRUMENTS CO LTD",
+      "merge_category": "legacy",
+      "roster_fields": {
+        "total_amount_usd": 67800.0,
+        "shipment_count": 5,
+        "weight_kg": 3200.0,
+        "hs_codes": [
+          "903180",
+          "903289"
+        ],
+        "destinations": [
+          "LONG BEACH",
+          "SEATTLE"
+        ],
+        "contract_id": "CTR-Q4-2256",
+        "payment_terms_days": 30,
+        "quality_rating": "B",
+        "last_audit_date": "2025-10-08",
+        "internal_notes": "Precision instruments, ISO 9001 certified, small batch orders",
+        "primary_contact_name": "Sun Yifan",
+        "primary_contact_email": "sunyf@huataiprecision.com"
+      },
+      "required_label": "legacy-active"
+    },
+    {
+      "supplier": "GUANGZHOU LONGSHENG CHEMICAL MATERIALS CO LTD",
+      "merge_category": "legacy",
+      "roster_fields": {
+        "total_amount_usd": 145600.0,
+        "shipment_count": 11,
+        "weight_kg": 89500.0,
+        "hs_codes": [
+          "290511",
+          "381519"
+        ],
+        "destinations": [
+          "NEW YORK,NY",
+          "HOUSTON,TX"
+        ],
+        "contract_id": "CTR-Q4-2263",
+        "payment_terms_days": 45,
+        "quality_rating": "C",
+        "last_audit_date": "2025-11-18",
+        "internal_notes": "Chemical materials, recent quality incident under review, probation status",
+        "primary_contact_name": "Zhao Lingling",
+        "primary_contact_email": "zhaoll@longshengchem.com"
+      },
+      "required_label": "legacy-active"
+    }
+  ],
+  "all_suppliers_count": 15,
+  "merge_field_spot_checks": [
+    {
+      "supplier": "DONGYING FODEN WHEELS CO LTD",
+      "field": "total_amount_usd",
+      "expected_source": "csv",
+      "expected_value": 110443.55,
+      "wrong_value_from_roster": 95200.0
+    },
+    {
+      "supplier": "DONGYING FODEN WHEELS CO LTD",
+      "field": "contract_id",
+      "expected_source": "roster",
+      "expected_value": "CTR-Q4-2281"
+    },
+    {
+      "supplier": "DONGYING GREAT PETROLEUM EQUIPMENT CO LTD",
+      "field": "total_amount_usd",
+      "expected_source": "csv",
+      "expected_value": 129662.89,
+      "wrong_value_from_roster": 112500.0
+    },
+    {
+      "supplier": "DONGYING GREAT PETROLEUM EQUIPMENT CO LTD",
+      "field": "contract_id",
+      "expected_source": "roster",
+      "expected_value": "CTR-Q4-2302"
+    },
+    {
+      "supplier": "DONGYING TIANCHEN INTERNATIONAL TRADE CO LTD",
+      "field": "total_amount_usd",
+      "expected_source": "csv",
+      "expected_value": 185518.26,
+      "wrong_value_from_roster": 170200.0
+    },
+    {
+      "supplier": "DONGYING TIANCHEN INTERNATIONAL TRADE CO LTD",
+      "field": "contract_id",
+      "expected_source": "roster",
+      "expected_value": "CTR-Q4-2287"
+    },
+    {
+      "supplier": "DONGYING XINBANG ASIA CO LTD",
+      "field": "total_amount_usd",
+      "expected_source": "csv",
+      "expected_value": 161041.59,
+      "wrong_value_from_roster": 138000.0
+    },
+    {
+      "supplier": "DONGYING XINBANG ASIA CO LTD",
+      "field": "contract_id",
+      "expected_source": "roster",
+      "expected_value": "CTR-Q4-2315"
+    },
+    {
+      "supplier": "GUANGZHOU JISU TONG INTERNATIONAL SUPPLY CHAIN MANAGEMENT CO LTD",
+      "field": "total_amount_usd",
+      "expected_source": "csv",
+      "expected_value": 915640.0,
+      "wrong_value_from_roster": 820000.0
+    },
+    {
+      "supplier": "GUANGZHOU JISU TONG INTERNATIONAL SUPPLY CHAIN MANAGEMENT CO LTD",
+      "field": "contract_id",
+      "expected_source": "roster",
+      "expected_value": "CTR-Q4-2271"
+    },
+    {
+      "supplier": "GUANGZHOU NEW STORY TRADE CO LTD",
+      "field": "total_amount_usd",
+      "expected_source": "csv",
+      "expected_value": 324960.0,
+      "wrong_value_from_roster": 290000.0
+    },
+    {
+      "supplier": "GUANGZHOU NEW STORY TRADE CO LTD",
+      "field": "contract_id",
+      "expected_source": "roster",
+      "expected_value": "CTR-Q4-2294"
+    },
+    {
+      "supplier": "DONGYING BAOFENG AUTO PARTS CO LTD",
+      "field": "quality_rating",
+      "expected_source": "default",
+      "expected_value": "Pending"
+    },
+    {
+      "supplier": "DONGYING DIGO INTERNATIONAL TRADE C",
+      "field": "quality_rating",
+      "expected_source": "default",
+      "expected_value": "Pending"
+    },
+    {
+      "supplier": "DONGYING HI TECH SPRING CHEMICAL INDUSTRY CO LTD",
+      "field": "quality_rating",
+      "expected_source": "default",
+      "expected_value": "Pending"
+    },
+    {
+      "supplier": "DONGYING SUNFULL MATECH CO LTD",
+      "field": "quality_rating",
+      "expected_source": "default",
+      "expected_value": "Pending"
+    },
+    {
+      "supplier": "DONGYING HUATAI PRECISION INSTRUMENTS CO LTD",
+      "field": "contract_id",
+      "expected_source": "roster",
+      "expected_value": "CTR-Q4-2256"
+    },
+    {
+      "supplier": "GUANGZHOU LONGSHENG CHEMICAL MATERIALS CO LTD",
+      "field": "contract_id",
+      "expected_source": "roster",
+      "expected_value": "CTR-Q4-2263"
+    }
+  ]
+}

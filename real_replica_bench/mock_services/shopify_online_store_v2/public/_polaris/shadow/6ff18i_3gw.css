@@ -1,0 +1,46 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+.scroll { --s-scrollbox-thumb-color-default: var(--t-scroll-thumb,rgba(181,181,181,1)); --s-scrollbox-thumb-color-hidden: #0000; --s-scrollbox-thumb-color-hover: var(--t-scroll-area-hover-thumb,rgba(138,138,138,1)); --s-scrollbox-thumb-color-thumb-hover: var(--t-scroll-thumb-hover,rgba(97,97,97,1)); --s-scrollbox-thumb-color-thumb-active: var(--t-scroll-thumb-active,rgba(74,74,74,1)); --s-scrollbox-thumb-color: var(--s-scrollbox-thumb-color-default); transition: --s-scrollbox-thumb-color 0.15s cubic-bezier(0.42, 0, 0.58, 1); scrollbar-color: initial; }
+@media (pointer: fine) {
+  .scroll::-webkit-scrollbar { width: 10px; height: 10px; }
+  .scroll::-webkit-scrollbar-thumb { background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-origin: ; background-color: ; border-radius: 624.938rem; border: 3px solid rgba(0, 0, 0, 0); background-clip: content-box; }
+  @media (forced-colors: active) {
+  .scroll::-webkit-scrollbar-thumb { border-width: 5px; }
+}
+  .scroll:is(:hover, :focus-within, :focus-visible) { --s-scrollbox-thumb-color: var(--s-scrollbox-thumb-color-hover); }
+  .scroll::-webkit-scrollbar-thumb:hover { --s-scrollbox-thumb-color: var(--s-scrollbox-thumb-color-thumb-hover); }
+  .scroll::-webkit-scrollbar-thumb:active { --s-scrollbox-thumb-color: var(--s-scrollbox-thumb-color-thumb-active); }
+  .scroll::-webkit-scrollbar-corner { background: rgba(0, 0, 0, 0); }
+  .scroll::-webkit-resizer { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='8' viewBox='0 0 10 10' fill='none'%3E%3Cpath d='M5.5 1.5C5.5 4 4 6 1.5 6' stroke='%23b5b5b5' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat; }
+  textarea.scroll::-webkit-scrollbar-track { margin-block: 0.125rem; }
+  @supports (-moz-appearance:none) {
+  .scroll { scrollbar-width: thin; scrollbar-color: rgb(181, 181, 181) rgba(0, 0, 0, 0); }
+  @media (hover) {
+  .scroll:is(:hover, :focus-within, :focus-visible) { scrollbar-color: rgb(138, 138, 138) rgba(0, 0, 0, 0); }
+  .scroll.scrollbar-hover:not(:hover, :focus-within) { scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); }
+}
+}
+}
+.overflow-auto-auto { overflow: auto; }
+.overflow-auto-hidden { overflow: auto hidden; overflow-inline: auto; overflow-block: hidden; overscroll-behavior-inline: contain; }
+.overflow-hidden-auto { overflow: hidden auto; overflow-block: auto; overflow-inline: hidden; overscroll-behavior-block: contain; }
+.overflow-hidden-hidden { overflow: hidden; }
+.scroll { block-size: 100%; inline-size: 100%; scrollbar-gutter: var(--s-scrollbox-gutter,revert); container-type: scroll-state; }
+@media (prefers-reduced-motion: no-preference) {
+  .scroll { scroll-behavior: smooth; }
+}
+@media not (forced-colors: active) {
+  .spacious::-webkit-scrollbar { width: 16px; height: 16px; }
+  .spacious::-webkit-scrollbar-thumb { border-width: 6px; }
+}
+.scrollbar-none { scrollbar-width: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-hover { --s-scrollbox-thumb-color: var(--s-scrollbox-thumb-color-hidden); }
+.scrollbar-hover:focus-within, .scrollbar-hover:hover { --s-scrollbox-thumb-color: var(--s-scrollbox-thumb-color-hover); }
+.scrollbar-hover::-webkit-scrollbar-thumb:hover { --s-scrollbox-thumb-color: inherit; }
+.scrollbar-hover::-webkit-scrollbar-thumb:active { --s-scrollbox-thumb-color: var(--s-scrollbox-thumb-color-thumb-active); }
+.gutter-stable { --s-scrollbox-gutter: stable; }

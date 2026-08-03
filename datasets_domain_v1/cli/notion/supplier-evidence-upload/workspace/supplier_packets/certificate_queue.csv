@@ -1,0 +1,4 @@
+supplier,packet_file,purchase_order,declared_launch_date,supplier_site
+Shenzhen Lumen Co.,shenzhen_lumen_packet.txt,PO-8812,2026-06-15,"12 Bao'an Ave, Shenzhen"
+Ningbo Harbor Plastics,ningbo_harbor_packet.txt,PO-7731,2026-06-15,"88 Yongjiang Road, Ningbo"
+Qingdao Greenfield Tools,qingdao_greenfield_packet.txt,PO-9044,2026-06-15,"19 Laoshan Road, Qingdao"

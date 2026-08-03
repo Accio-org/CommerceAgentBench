@@ -1,0 +1,48 @@
+{
+  "warehouses": {
+    "cn_warehouse": {
+      "location": "Shenzhen, China",
+      "type": "cross_border_origin",
+      "max_allocation_pct": 0.70,
+      "inventory": {
+        "A01": 3000,
+        "A02": 6000,
+        "A03": 1200,
+        "A04": 2500,
+        "A05": 10000,
+        "A06": 1800
+      }
+    },
+    "th_warehouse": {
+      "location": "Bangkok, Thailand",
+      "type": "bonded_local",
+      "max_allocation_pct": 0.70,
+      "warehousing_surcharge_rate": 0.08,
+      "import_duty_rates": {
+        "electronics": 0.20,
+        "accessories": 0.10,
+        "home": 0.15
+      },
+      "vat_rate": 0.07,
+      "local_handling_thb": 25,
+      "inventory": {
+        "A01": 500,
+        "A02": 1500,
+        "A03": 400,
+        "A04": 350,
+        "A05": 2500,
+        "A06": 800
+      }
+    }
+  },
+  "cost_formula_th_warehouse": "landed_cost_thb = (cost_cny × exchange_rate) × (1 + import_duty_rate) × (1 + vat_rate) × (1 + warehousing_surcharge_rate) + local_handling_thb",
+  "cost_formula_cn_warehouse": "landed_cost_thb = (cost_cny + shipping_cny) × exchange_rate",
+  "allocation_rules": [
+    "For each platform-SKU, allocate from the warehouse with LOWER landed cost first (optimal source).",
+    "Required stock per platform-SKU = ceil(daily_velocity × promo_days × safety_buffer).",
+    "If optimal warehouse has insufficient allocatable stock, supplement from the other warehouse.",
+    "Never allocate more than max_allocation_pct of any single warehouse's current stock for a single SKU across all platforms.",
+    "Minimum allocation per platform-SKU is 50 units; if required < 50, skip allocation for that combo.",
+    "The per-SKU cap (max_allocation_pct) is applied to each warehouse independently. Sum of all platform allocations from one warehouse for one SKU must not exceed warehouse_stock × max_allocation_pct."
+  ]
+}

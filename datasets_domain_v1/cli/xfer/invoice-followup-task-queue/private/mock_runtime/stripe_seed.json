@@ -1,0 +1,45 @@
+[
+  {"_comment": "=== CUSTOMERS: 6 (Tier signal in description; owner = collections lead) ==="},
+  {"resource": "customers", "params": {"name": "Acme Solar", "email": "billing@acme-solar.com", "description": "Tier A account; collections lead Iris Wang"}},
+  {"resource": "customers", "params": {"name": "BluePeak Energy", "email": "ap@bluepeak.com", "description": "Tier A account; collections lead Mei Chen"}},
+  {"resource": "customers", "params": {"name": "ChargeFast Inc", "email": "billing@chargefast.io", "description": "Tier B account; collections lead Lina Gomez"}},
+  {"resource": "customers", "params": {"name": "DeltaWatt Logistics", "email": "ops@deltawatt.com", "description": "Tier B account; collections lead Ana Costa"}},
+  {"resource": "customers", "params": {"name": "EverGreen Mobility", "email": "finance@evergreen-mobility.com", "description": "Tier C account; collections lead Mei Chen"}},
+  {"resource": "customers", "params": {"name": "FastFreight Co", "email": "ar@fastfreight.com", "description": "Tier C account; collections lead Ana Costa"}},
+
+  {"_comment": "=== PRICES: 2 plans (Pro + Basic) ==="},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": 8500, "nickname": "Pro plan monthly"}},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": 4500, "nickname": "Basic plan monthly"}},
+
+  {"_comment": "=== SUBSCRIPTIONS: 5 in-scope customers ==="},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:0", "status": "past_due", "items[0][price]": "$ref:prices:0"}},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:1", "status": "past_due", "items[0][price]": "$ref:prices:0"}},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:2", "status": "active", "cancel_at_period_end": true, "items[0][price]": "$ref:prices:0"}},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:4", "status": "active", "items[0][price]": "$ref:prices:1"}},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:5", "status": "active", "items[0][price]": "$ref:prices:1"}},
+
+  {"_comment": "=== WEBHOOK ENDPOINT ==="},
+  {"resource": "webhook_endpoints", "params": {"url": "https://hooks.collections.internal/stripe/events", "enabled_events": ["invoice.payment_failed", "invoice.payment_succeeded"]}},
+
+  {"_comment": "=== INVOICES: 4 in-scope (status=open AND amount_due>=30000) + 2 out-of-scope ==="},
+  {"_comment": "I0 Acme Solar (A) open 85000 -> P1 (Urgent)"},
+  {"resource": "invoices", "params": {"customer": "$ref:customers:0", "status": "open", "amount_due": 85000, "description": "Pro plan March"}},
+
+  {"_comment": "I1 BluePeak Energy (A) open 120000 -> P1 (Urgent)"},
+  {"resource": "invoices", "params": {"customer": "$ref:customers:1", "status": "open", "amount_due": 120000, "description": "Pro plan February + add-ons"}},
+
+  {"_comment": "I2 ChargeFast Inc (B) open 35000 -> P2 (Medium)"},
+  {"resource": "invoices", "params": {"customer": "$ref:customers:2", "status": "open", "amount_due": 35000, "description": "Pro plan March"}},
+
+  {"_comment": "I3 DeltaWatt Logistics (B) open 29000 -> BOUNDARY EXCLUDED (just below 30000)"},
+  {"resource": "invoices", "params": {"customer": "$ref:customers:3", "status": "open", "amount_due": 29000, "description": "Pro plan partial March"}},
+
+  {"_comment": "I4 EverGreen Mobility (C) open 50000 -> P3 (Low)"},
+  {"resource": "invoices", "params": {"customer": "$ref:customers:4", "status": "open", "amount_due": 50000, "description": "Basic plan Q1"}},
+
+  {"_comment": "I5 FastFreight Co (C) open 45000 -> P3 (Low)"},
+  {"resource": "invoices", "params": {"customer": "$ref:customers:5", "status": "open", "amount_due": 45000, "description": "Basic plan Q1"}},
+
+  {"_comment": "I6 EverGreen Mobility (C) draft 60000 -> OUT OF SCOPE (draft, not yet finalized)"},
+  {"resource": "invoices", "params": {"customer": "$ref:customers:4", "status": "draft", "amount_due": 60000, "description": "Basic plan Q2 draft"}}
+]

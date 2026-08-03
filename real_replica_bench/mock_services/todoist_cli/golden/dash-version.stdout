@@ -1,0 +1,38 @@
+Incorrect Usage: flag provided but not defined: -version
+
+NAME:
+   todoist - Todoist CLI Client
+
+USAGE:
+   todoist [global options] command [command options] [arguments...]
+
+COMMANDS:
+   list, l                  Show all tasks
+   show                     Show task detail
+   completed-list, c-l, cl  Show all completed tasks (only premium user)
+   today, tod               Show tasks due today
+   add, a                   Add task
+   modify, m                Modify task
+   close, c                 Close task
+   reopen                   Reopen (uncomplete) a closed task
+   delete, d                Delete task
+   labels                   Show all labels
+   filters                  Show all filters
+   projects                 Show all projects
+   add-project, ap          Add new project
+   sections                 Manage sections
+   karma                    Show karma
+   sync, s                  Sync cache
+   quick, q                 Quick add a task
+   version                  Show version information
+   help, h                  Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --header             output with header (default: false)
+   --color              colorize output (default: false)
+   --csv                output in CSV format (default: false)
+   --debug              output logs (default: false)
+   --namespace          display parent task like namespace (default: false)
+   --indent             display children task with indent (default: false)
+   --project-namespace  display parent project like namespace (default: false)
+   --help, -h           show help

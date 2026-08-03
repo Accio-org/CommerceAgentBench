@@ -1,0 +1,6 @@
+internal_sku,product_name,tmall_sku,jd_sku,pdd_sku,cost_price,weight_g
+LC-HEM-01,水润精华乳 Hydrating Essence Milk 50ml,tmall_lc_hem01,JD-LUM-001,10086001,28.00,120
+LC-BRC-02,焕颜亮肤霜 Brightening Renewal Cream 30g,tmall_lc_brc02,JD-LUM-002,10086002,35.00,95
+LC-REC-03,修护眼霜 Repair Eye Cream 15ml,tmall_lc_rec03,JD-LUM-003,10086003,42.00,65
+LC-UVS-04,清透防晒乳 UV Shield Lotion SPF50+ 40ml,tmall_lc_uvs04,JD-LUM-004,10086004,18.00,105
+LC-GCW-05,温和卸妆水 Gentle Cleansing Water 200ml,tmall_lc_gcw05,JD-LUM-005,10086005,12.00,230

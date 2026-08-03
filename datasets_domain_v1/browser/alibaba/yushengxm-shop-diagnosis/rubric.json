@@ -1,0 +1,96 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-alibaba-yushengxm-shop-diagnosis",
+  "summary": "yushengxm 阿里国际站诊断 + 10 阿里同行 + 5 独立站对标 + 市场机会。结构靠 deterministic, 内容靠 LLM judge boolean。",
+  "category": "browser_web_ecommerce",
+  "state_kind": "public_web_research",
+  "difficulty": "hard",
+  "checks": [
+    {
+      "id": "deliverables_produced",
+      "check_type": "deterministic_exact",
+      "description": "Both required deliverables produced: outputs/shop_diagnosis_report.md exists and is non-empty (>0 bytes) AND outputs/evidence_manifest.json exists, is parseable, with top-level dict having 'target' (object), 'alibaba_peers' (array length 10), 'independent_peers' (array length 5). Internally validates both file-presence atoms; passes iff both hold."
+    },
+    {
+      "id": "evidence_screenshots_complete",
+      "check_type": "deterministic_exact",
+      "description": "Real visual evidence captured for every target/peer (R3, same browse+screenshot skill across 18 targets): target_home/products/company_profile all valid images (or target inaccessible with valid blocker); each of 10 alibaba_peers and 5 independent_peers has a valid screenshot (or inaccessible with valid blocker). Internally validates all 18; reason lists per-set failures."
+    },
+    {
+      "id": "manifest_structured_correctly",
+      "check_type": "deterministic_exact",
+      "description": "Manifest is well-formed and enum-valid: every alibaba/independent peer object has non-empty string id/url/access_status/screenshot/positioning/reference_value AND all access_status fields (target + 15 peers) are in {'visited','inaccessible','search_result_only'} (no 'local_seed_only'/'seed_only'/'本地池'/'本地种子'). Internally validates both atoms."
+    },
+    {
+      "id": "workspace_clean",
+      "check_type": "deterministic_exact",
+      "description": "Restraint (R6 negative): outputs/ contains only shop_diagnosis_report.md + evidence_manifest.json + evidence/ subdir; evidence/ contains only the 18 declared screenshots and (optionally) a blockers/ subdir with image files. No stray drafts/temp files/extra dirs."
+    },
+    {
+      "id": "report_has_all_8_required_sections",
+      "check_type": "llm_judge_boolean",
+      "description": "Does outputs/shop_diagnosis_report.md contain all 8 sections (目标店铺访问情况与主营判断 + 目标店铺诊断 + 10 家阿里同行对标表 + 5 个独立站同行对标表 + 国内市场机会 + 国外市场机会 + 7/30/90 天行动清单 + 证据索引和访问限制说明), each with substantive content?"
+    },
+    {
+      "id": "target_diagnosis_covers_5_required_areas",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the 目标店铺诊断 section cover all 5 areas with concrete observations: 产品、页面、信任背书、询盘路径、痛点? Penalize generic advice not tied to evidence_manifest.json.target.key_observations."
+    },
+    {
+      "id": "peer_comparison_tables",
+      "check_type": "llm_judge_boolean",
+      "description": "Both peer comparison tables correct (R3, same table-rendering skill across two peer sets): the 10 家阿里国际站同行对标表 has 10 rows with all 5 columns id/URL/positioning/reference_value/差异 (IDs alibaba_peer_01..10) AND the 5 个独立站同行对标表 has 5 rows with the same 5 columns (IDs independent_peer_01..05). Internally judges both table atoms; passes iff both."
+    },
+    {
+      "id": "market_opportunity_analysis",
+      "check_type": "llm_judge_boolean",
+      "description": "Both market opportunity sections are evidence-tied and specific (R3, same analysis skill across two markets): 国内市场机会 has >=2 concrete opportunities tied to the target category (manifest.target.main_category) AND 国外市场机会 has >=2 concrete opportunities tied to peers' positioning — neither generic boilerplate. Internally judges both atoms; passes iff both."
+    },
+    {
+      "id": "action_plan_7_30_90_days_concrete",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the 7/30/90 天行动清单 section have items grouped or labeled for all three timeframes (7-day, 30-day, 90-day), each with at least 2 actionable items? Vague items like '继续优化页面' do not count; needs concrete action targeting a specific element."
+    },
+    {
+      "id": "no_local_seed_pool_terms_in_report_or_manifest",
+      "check_type": "llm_judge_boolean",
+      "description": "Yes/no: NEITHER report.md NOR evidence_manifest.json contains any of these forbidden terms: 'local_seed_only', 'seed_only', '本地池', '本地种子', 'local seed pool', 'local pool'. Answer 'no' if any of these appear."
+    },
+    {
+      "id": "no_login_or_inquiry_action",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the report avoid mentioning any login, inquiry submission, RFQ submission, contact-merchant, or messaging action? Pure read-only browsing only."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "shop_diagnosis_report.md",
+      "evidence_manifest.json",
+      "evidence/target_home.png",
+      "evidence/target_products.png",
+      "evidence/target_company_profile.png",
+      "evidence/alibaba_peer_01.png",
+      "evidence/alibaba_peer_02.png",
+      "evidence/alibaba_peer_03.png",
+      "evidence/alibaba_peer_04.png",
+      "evidence/alibaba_peer_05.png",
+      "evidence/alibaba_peer_06.png",
+      "evidence/alibaba_peer_07.png",
+      "evidence/alibaba_peer_08.png",
+      "evidence/alibaba_peer_09.png",
+      "evidence/alibaba_peer_10.png",
+      "evidence/independent_peer_01.png",
+      "evidence/independent_peer_02.png",
+      "evidence/independent_peer_03.png",
+      "evidence/independent_peer_04.png",
+      "evidence/independent_peer_05.png"
+    ],
+    "allowed_extra_globs": [
+      "evidence/blockers/*.png",
+      "evidence/blockers/*.jpg",
+      "evidence/blockers/*.jpeg",
+      "evidence/blockers/*.webp"
+    ]
+  }
+}

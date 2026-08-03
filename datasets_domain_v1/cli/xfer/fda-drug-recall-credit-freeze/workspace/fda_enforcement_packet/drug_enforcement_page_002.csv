@@ -1,0 +1,927 @@
+packet_row,report_date,recall_number,recalling_firm,status,classification,product_type,product_description,reason_for_recall,distribution_pattern,code_info
+351,20251210,D-0208-2026,Blossom Pharmaceuticals,Ongoing,Class II,Drugs,"Nivagen, Zinc Oxide Ointment, Net Wt. 1 oz. (28.4g), Nivagen Pharmaceuticals, Inc., Sacramento, CA 95827, USA
+Made in India, NDC 75834-170-01.",cGMP deviations,USA Nationwide,Lot #: A352405
+352,20251210,D-0211-2026,Blossom Pharmaceuticals,Ongoing,Class II,Drugs,"Globe Clotrimazole Cream USP, 1 % Antifungal Cream, Net Wt., 5 oz. (142 g, Distributed by: Trifecta
+Pharmaceuticals USA, 101 NE Third Avenue, Suite 1500, Ft. Lauderdale, FL 33301, USA, NDC 69396-087-55.",cGMP deviations,USA Nationwide,Lot #: A472418
+353,20251210,D-0204-2026,Blossom Pharmaceuticals,Ongoing,Class II,Drugs,"Dynagel, Moisturizing Wound Hydrogel, Net Wt. 3oz (84.7 g), Manufactured for: Dynarex Corporation, 16 Glenshaw
+Street, Orangeburg, NY 10962, UPC 61784128016.",cGMP deviations,USA Nationwide,"Lot #: A322301, Exp. Date 7/26 & A322302, Exp. Date 8/26"
+354,20251210,D-0205-2026,Blossom Pharmaceuticals,Ongoing,Class II,Drugs,"WeCare, Zinc Oxide Ointment, Net Wt. 15 oz/425 g, Manuactured for: Dynarex Corporation, 11 Dynarex Drive,
+Middletown, NY 10941, Made in India, NDC 67777-223-05.",cGMP deviations,USA Nationwide,"Lot #: A062434, Exp. Date 6/27 & A062449, Exp. Date 7/27"
+355,20251203,D-0191-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Karina Daily Moisturizer SPF 25, Octinoxate 7.5% and Zinc Oxide 7.0%, Net WT. 5 oz/ 141.7 g per tube, Dist.
+By: Beauty4Pros LLC, Palm Desert, CA 92211.  NDC: 35192-033-16, UPC 8 18204 02572 5",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D54098, exp 3/31/2027"
+356,20251203,D-0194-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Elixir by Coco March Tinted Mineral Sunscreen SPF 50, Zinc Oxide 21%, 2.1 oz (62g) per bottle, Distributed by:
+VitaTienda Co U.S.A., San Juan, PR 00646.  NDC: 35192-050-17, UPC 6 7229 99913 8",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D53681, exp 03/31/2027"
+357,20251203,D-0192-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Sugared+Bronzed Tinted Mineral Sunscreen SPF 50, Zinc Oxide 21%, Net WT 3.3 OZ (93 G) per tube, Dist. By:
+Sugared+Bronzed, 929 Montana Ave, Santa Monica, CA 90403.  NDC: 35192-055-18, UPC 8 50047 92223 6",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D53797, exp 04/30/27"
+358,20251203,D-0186-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Doctor D. Schwab Controlling Cream, Benzoyl Peroxide 2.7%, 1 FL OZ/ 30 ML per tube, Doctor D. Schwab, A
+division of CA BOTANA, San Diego, CA 92123.  NDC:  35192-017-05",CGMP Deviations,"CA, CO, FL, PR, WA","Lot Code D54066, exp 5/31/2027"
+359,20251203,D-0182-2026,"Fresenius Kabi USA, LLC",Ongoing,Class I,Drugs,"Famotidine Injection, USP, 20 mg per 2 mL (10 mg per mL), 2 mL vials, Rx only, Fresenius Kabi USA, LLC, NDC
+63323-739-11 (unit of use), 63323-739-12 (unit of sale).",Microbial Contamination of Sterile Products; out of limit results obtained for endotoxin testing.,"Nationwide within the United States as well as AK, HI, and PR.","Lot #: 6133156, 6133194, Exp Date: 08/2026; 6133388, Exp Date: 10/2026."
+360,20251203,D-0185-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Doctor D. Schwab Controlling Balm with Tea Tree Oil, Salicyclic Acid 0.8%, 1 FL OZ/ 30 ML per tube, Doctor D.
+Schwab, A division of CA BOTANA, San Diego, CA 92123. NDC: 35192-016-05",CGMP Deviations,"CA, CO, FL, PR, WA","Lot Code D54361, exp 8/31/2027"
+361,20251203,D-0189-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Doctor D. Schwab Shimmery Sun Lotion Sunscreen SPF 30, Titanium Dioxide 5% and Octinoxate 4%, 4 oz./113.4 g
+per tube, Doctor D. Schwab, A division of CA BOTANA, San Diego, CA 92121.  NDC: 35192-012-02",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D54597, exp 1/31/2028"
+362,20251203,D-0183-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Doctor. D. Schwab Mineral Sunscreen SPF 50, Zinc Oxide 21%, 4 oz./ 113.4 g per tube, Manufactured by CA
+Botana, San Diego, CA 92123.  NDC:  35192-042-02",CGMP Deviations,"CA, CO, FL, PR, WA","Lot Code D54596, exp 1/31/2028"
+363,20251203,D-0195-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"CLEARSTEM YOU ARE SUNSHINE SPF 50, Zinc Oxide 21%, 2.1 oz/61g per bottle, Distributed by: CLEARSTEM Skincare,
+clearstemskincare.com.  NDC: 35192-046-17",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D54447, exp 11/30/2027"
+364,20251203,D-0188-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Doctor D. Schwab Clinical Weh Weh Natural Pain Relief Gel with Menthol and Arnica, Menthol 5%, 4.2 oz./120 g
+per tube, Doctor D. Schwab, A division of CA BOTANA, San Diego, CA 92121.  NDC: 35192-020-02",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D53081, exp 7/31/2026"
+365,20251203,D-0187-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Sea Enzyme Ultra Umbrella Sunscreen SPF 30, Titanium Dioxide 4%, Octinoxate 4%,  4 oz./113.4 g per tube,
+Manufactured by CA BOTANA, San Diego, CA 92121.  NDC: 35192-011-02",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D53950, exp 5/31/2027"
+366,20251203,D-0193-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Elixir by Coco March Mineral Sunscreen SPF 50, Zinc Oxide 21%, 2.1 oz (62g) per bottle, Distributed by:
+VitaTienda Co U.S.A., San Juan, PR 00646.  NDC: 35192-048-17, UPC 8 10145 82007 0",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D53682, exp 3/31/2027"
+367,20251203,D-0184-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Doctor D. Schwab Flawless Skin Fluid Tinted Moisturizer SPF 50, Zinc Oxide 21%, 2.1 oz/61 g per tube,
+Manufactured by CA BOTANA, San Diego, CA 92121.  NDC:  35192-043-17",CGMP Deviations,"CA, CO, FL, PR, WA","Lot Code D54757, exp 3/31/2028"
+368,20251203,D-0190-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Gabriel Mineral Sunscreen SPF 50, Zinc Oxide 21%, 2.1 oz, Net 61 g per tube, Dist. By: Gabriel Cosmetics,
+Inc., Redmond, WA USA 98052, NDC: 35192-044-01, UPC 7 07060 9592 1",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D53371, exp 10/31/2026"
+369,20251203,D-0179-2026,"Medical Products Laboratories, Inc.",Ongoing,Class II,Drugs,"Walgreens Saline Nasal Spray WITH XYLITOL, 1.5 oz (45mL) bottle, DISTRIBUTED BY: WALGREEN CO., 200 WILMOT RD.,
+DEERFIELD, IL 60015, NDC 0363-3114-01",Microbial contamination of a non-sterile product - microorganism found to be pseudomonas lactis,Nationwide USA,"Lot#: 71409, Expires: 02/28/2027; 71861, Expires: 08/31/2027."
+370,20251203,D-0196-2026,"CA BOTANA International, Inc.",Ongoing,Class II,Drugs,"Dr. Bump Natural Pain Relief Gel, Menthol 5%, NET WT 4 FL OZ/118 ML per bottle, Distr. by 1Beauty US LLC, Palm
+Desert, CA 92211.  NDC: 35192-052-18, UPC 8 18204 02513 8",CGMP Deviations,"CA, CO, FL, PR, WA","Lot D54947, exp 4/30/2028"
+371,20251126,D-0170-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"Lantiseptic, Skin Protectant, Lanolin USP 30%, packaged in a) 5g (0.17 oz) (NDC 61924-304-05), b)14.2g (0.5
+oz)( NDC 61924-304-14), c) 4oz (NDC 61924-304-04), d) 4.5oz (NDC 61924-304-45), and e) 12oz (NDC 61924-304-12)
+tubes, DermaRite Industries LLC, 7777 West Side Avenue, North Bergen, NJ 07047.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+372,20251126,D-0168-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"KleenFoam Antimicrobial Foam Soap, Chloroxylenol 0.5%, 34 FL OZ (1000 mL) per cartridge, DermaRite Industries
+LLC, 7777 West Side Avenue, North Bergen, NJ 07047. NDC 61924-093-34",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+373,20251126,D-0162-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"DermaFungal, Antifungal Cream with 2% Miconazole Nitrate, packaged in a) 5 g (0.18 oz) per packet (NDC
+61924-234-05), and b)106 g (3.75 oz.) per tube (NDC 61924-234-04) DermaRite Industries LLC, 7777 West Side
+Avenue, North Bergen, NJ 07047.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+374,20251126,D-0165-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"DermaSarra, Camphor 0.5%, External Analgesic, 222 mL (7.5 fl. oz.) per bottle, DermaRite Industries LLC, 7777
+West Side Avenue, North Bergen, NJ 07047. NDC 61924-189-08",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+375,20251126,D-0172-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"PeriGiene, Health Care Antiseptic, Chloroxylenol 0.5%, 222mL (7.5 fl. oz.) bottle, DermaRite Industries LLC,
+7777 West Side Avenue, North Bergen, NJ 07047. NDC 61924-198-08",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+376,20251126,D-0164-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"DermaMed Ointment, Skin Protectant, Aluminum Hydroxide Gel 2%,  Net Wt. 106 g (3.75 oz.) per tube, DermaRite
+Industries LLC, 7777 West Side Avenue, North Bergen, NJ 07047. NDC  61924-214-04",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+377,20251126,D-0173-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"PeriGuard Ointment, Petrolatum 49.9%, packaged in a) 5g (NDC 61924-205-05), b) 3.5oz (NDC 61924-205-04), and
+c) 7oz (NDC 61924-205-07) tubes, DermaRite Industries LLC, 7777 West Side Avenue, North Bergen, NJ 07047.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+378,20251126,D-0174-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"Renew PeriProtect, Zinc Oxide 12%, Dimethicone 1%, 113g (4 oz.) per tube, DermaRite Industries LLC, 7777 West
+Side Avenue, North Bergen, NJ 07047. NDC 61924-435-04",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+379,20251126,D-0158-2026,Golden State Medical Supply Inc.,Ongoing,Class II,Drugs,"NIACIN Extended-Release Tablets, USP, 1,000 mg, 90 tablets per bottle, Rx only, Manufactured by: Kremers Urban
+Pharmaceuticals, Inc., a subsidiary of Lannett Company, Inc., Seymour, IN 47274.  Packaged by GSMS,
+Incorporated, Carmarillo, CA 93012.  NDC:  51407-268-90",Failed Dissolution Specifications,Nationwide in the USA,"Lot, expiry: GS044385, exp 10/2025  ; GS044979, exp 10/2025  ; GS045797, exp 12/2025  ; GS046415, exp 12/2025  ; GS047197, exp 02/2026  ; GS047786, exp 02/2026  ; GS048477, exp 02/2026  ; GS049480, exp 03/2026  ; GS048873, exp 03/2026  ; GS049733, exp 03/2026  ; GS050224, exp 03/2026  ; GS050721, exp 03/2026  ; GS050722, exp 03/2026  ; GS051145, exp 03/2026  ; GS051726, exp 03/2026  ; GS052484, exp 03/2026  ; GS053612, exp 04/2026  ; GS054987, exp 05/2026  ; GS054409, exp 05/2026  ; GS055697, exp 05/2026  ; GS056192, exp 05/2026  ; GS056886, exp 05/2026  ; GS058077, exp 05/2026  ; GS057330, exp 05/2026"
+380,20251126,D-0163-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"DermaKleen, Health Care Antiseptic Lotion Soap with Vitamin E, Chloroxylenol 0.2%, packaged in a) 222 mL (7.5
+fl. oz.) per tube (NDC 61924-092-08), b) 800 mL (27 fl. oz.) per bag (NDC 61924-092-27), and c 1000 mL (34 fl.
+oz.) per bag (NDC 61924-092-34), DermaRite Industries LLC, 7777 West Side Avenue, North Bergen, NJ 07047.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+381,20251126,D-0176-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"San-E-Foam, Alcohol 67%, 1000 mL (34 fl. oz.) per cartridge, DermaRite Industries LLC, 7777 West Side Avenue,
+North Bergen, NJ 07047. NDC 61924-107-34",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+382,20251126,D-0181-2026,Otsuka ICU Medical LLC,Ongoing,Class I,Drugs,"POTASSIUM CHLORIDE Inj., 10 mEq total in 100 mL Flexible Container, Highly concentrated 100 mEq/L, Rx Only,
+ICU Medical, Inc., Lake Forest, Illinois, 60045, USA, NDC# 0990-7074-26","Labeling: Label Error on Declared Strength-The overwrap label may incorrectly identify the
+product as POTASSIUM CHLORIDE Inj. 10 mEq instead of POTASSIUM CHLORIDE Inj. 20 mEq",US Nationwide.,"Lot # 1030613, Exp Date: 09/30/2026"
+383,20251126,D-0177-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"UltraSure Anti-Perspirant & Deodorant, Aluminum Sesquichlorohydrate 15%, 118 mL (4 fl. oz.), DermaRite
+Industries LLC, 7777 West Side Avenue, North Bergen, NJ 07047. NDC 61924-266-04",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+384,20251126,D-0166-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"GelRite Instant Hand Sanitizer, Alcohol 65%, packaged in a) 118 mL (NDC 61924-106-04), b) 473 mL (NDC
+61924-106-16) and c) 800 mL (NDC 61924-106-27), and d) 1000 mL (NDC 61924-106-34) per container, DermaRite
+Industries LLC, 7777 West Side Avenue, North Bergen, NJ 07047.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+385,20251126,D-0167-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"Hand-E-Foam, Benzethonium Chloride 0.20%, packaged in a) 236mL (NDC 61924-102-08) and b) 1000 mL (NDC
+61924-102-34) per container, DermaRite Industries LLC, 7777 West Side Avenue, North Bergen, NJ 07047.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+386,20251126,D-0180-2026,Otsuka ICU Medical LLC,Ongoing,Class I,Drugs,"POTASSIUM CHLORIDE Inj., 20 mEq total in 50 mL Flexible Container, Highly concentrated 400 mEq/L, Rx Only, ICU
+Medical, Inc., Lake Forest, Illinois, 60045, USA, NDC# 0990-7077-14","Labeling: Label Error on Declared Strength-The overwrap label may incorrectly identify the
+product as POTASSIUM CHLORIDE Inj. 10 mEq instead of POTASSIUM CHLORIDE Inj. 20 mEq",US Nationwide.,"Lot # 1030613, Exp Date: 09/30/2026"
+387,20251126,D-0178-2026,Park Avenue Compounding,Ongoing,Class II,Drugs,"Fentanyl citrate, 2 mcg / ml / Ropivacaine, 0.2% in NS 150 mL, CII,  150 mL bag, Rx Only, Park Avenue
+Compounding, 3662 Park Ave, Saint Louis, MO, 63110, NDC 83863-4272-1.",CGMP Deviations: Revised interpretation of Acceptable Quality Level (AQL) results.,Distributed in Missouri,"Lot # 20250507-01D93C, Exp Date: 11-04-2025"
+388,20251126,D-0175-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"Renew Skin Repair Cream, Dimethicone 1.5%, packaged in a) 5g tube (NDC 61924-405-05), b) 4 oz tube (NDC
+61924-405-04), and c) 800 mL (NDC 61924-405-27), DermaRite Industries LLC, 7777 West Side Avenue, North
+Bergen, NJ 07047.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+389,20251126,D-0169-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"Lantiseptic, Dry Skin Therapy, Lanolin USP 30%, packaged in a) 5 g (0.17 oz) (NDC 61924-504-05), b) 4 oz (NDC
+61924-504-04), and c)14 oz (NDC 61924-710-14) tubes, DermaRite Industries LLC, 7777 West Side Avenue, North
+Bergen, NJ 07047.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+390,20251126,D-0159-2026,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Bromocriptine Mesylate Capsules, USP, 5 mg, 30 Capsules per bottle, Rx Only. Manufactured by: Zydus
+Lifesciences Ltd., Ahmedabad, India. Distributed by: Zydus Pharmaceuticals, Pennington, NJ 08534. NDC
+68382-110-06","Failed Impurities/Degradation Specifications: Out of Specification (OOS) result reported for 2-
+Bromoergine impurity of Bromocriptine Mesylate Capsules.",Nationwide in the USA,"Lot #: M313934, M313935, M315615, Exp. Date Nov 2025; M316809 , Exp. Date Dec-25; M405765, M405763, M405764, Exp. Date Apr-26; M414999, M414241, M414307, M414305, Exp. Date Oct-26"
+391,20251126,D-0171-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"McKesson Skin Protectant, Lanolin USP,  packaged in a) 5g (NDC 68599-6202-1), and b) 4oz NDC 68599-6203-4
+tube, Distributed by McKesson Medical-Surgical Inc., Richmond, VA 23233.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+392,20251126,D-0157-2026,"Imprimis NJOF, LLC",Ongoing,Class III,Drugs,"Klarity-C Drops (Cyclosporine) 0.1%, Preservative-Free Sterile Ophthalmic Emulsion, This is a compounded drug,
+Office Use Only, 5.5 mL bottle, Rx only, Mfg by: Imprimis NJOF, LLC, 1705 Route 46 West, Ledgewood, NJ 07852,
+NDC 71384-514-05",Subpotent Drug,USA nationwide,"Lot #:25JAN029, exp. date 07Nov2025; 25JAN042, exp. date 14Nov2025; 25JAN054, exp. date 21Nov2025; 25MAR021, exp. date 07Dec2025; 25APR017, exp. date 04Jan2026, 25APR025, exp. date 05Jan2026; 25MAY032, exp. date 31Jan2026; 25MAY055, exp. date 12Mar2026; 25MAY057, exp. date 14Mar2026; 25MAY073, exp. date 21Mar2026"
+393,20251126,D-0160-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"4-N-1 Skin Protectant, No Rinse Wash Cream with Dimethicone 1%, 113g, (4 oz) per bottle, DermaRite Industries
+LLC, 7777 West Side Avenue, North Bergen, NJ 07047. NDC 61924-208-04",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027.
+394,20251126,D-0156-2026,Alembic Pharmaceuticals Limited,Ongoing,Class III,Drugs,"Fesoterodine Fumarate, Extended-release Tablets, 4 mg, 30-count bottle, Rx only, Manufactured by: Alembic
+Pharmaceuticals Limited, Panelav 389350, Gujarat, India, Manufactured for: Alembic Pharmaceuticals, Inc.,
+Bedminster, NJ 07921, USA, NDC 62332-175-30","Failed Impurities/Degradation Specifications: Due to levels of 'Diester Impurity' exceeding the
+specification limit.",Nationwide in the USA.,"Lot # 2405006633, Exp Date: 03/31/2026"
+395,20251126,D-0161-2026,"DermaRite Industries, LLC",Ongoing,Class II,Drugs,"DermaCerin, Skin Protectant Moisturizing Cream (petrolatum 33%), packaged in a) 106 g (3.75 oz.) per tube (NDC
+61924-174-04) and b) 454 g (16 oz.) per jar (NDC 61924-174-16), DermaRite Industries LLC, 7777 West Side
+Avenue, North Bergen, NJ 07047.",CGMP Deviation; manufactured at the same facility where other products and lots were found to be contaminated.,Nationwide in the USA,All lots on or before expiry date 08/2027
+396,20251112,D-0151-2026,"Teva Pharmaceuticals USA, Inc",Ongoing,Class II,Drugs,"Amoxicillin and Clavulanate Potassium for Oral Suspension USP, 200 mg/28.5 mg per 5mL, 100 mL (when
+reconstituted), Rx only, manufactured in Canada by: Teva Canada Limited, Toronto, Canada M1B 2K9; Manufactured
+For: Teva Pharmaceuticals USA, Inc., Parsippany, NJ 07054 NDC 0093-2277-7.",Subpotent drug; Clavulanate Potassium component,"Distributed in three (3) States: MS, OH, CA.","Lot # 100062316, Exp Date: 01/2026"
+397,20251112,D-0155-2026,Aero Healthcare,Ongoing,Class II,Drugs,"Acetaminophen 500mg Caffeine 65mg caplets, packaged as 2 caplets per packet further packaged in a 50-count
+box, AERO TAB, Manufactured for AERO HEALTHCARE US, Valley-Cottage, NY, 10989, NDC 55305-135-01","Labeling: Label Mix-up. This issue affects the outer box labeling only. The box incorrectly
+states the ingredients Acetaminophen 500mg and Caffeine 65mg. The inner pouch correctly states
+the ingredients are Aspirin (NSAID)*500mg and Caffeine 32.5mg.",US Nationwide.,"Lot # 9282, Exp Date: 2026-09-01; Lot # 9310, Exp Date: 2026-11-01"
+398,20251112,D-0152-2026,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"clomiPRAMINE Hydrochloride, Capsules, USP, 25 mg, packaged in a) 30-count bottles (NDC 16714-849-01), b)
+90-count bottles (NDC 16714-849-02), c) 100-count bottles (NDC 16714-849-03), Rx only, Manufactured for:
+Northstar Rx LLC, Memphis, TN 38141, Manufactured by: Zydus Lifesciences Ltd., Ahmedabad, India","cGMP deviations: an observed Out of Specification of Nitrosamine Drug Substance-Related
+Impurities (NDSRIs), N-Nitroso Desmethyl-Clomipramine, above the FDA acceptable intake limit.",Nationwide in the US,"a) Lot # E408871, Exp Date: 10/2026; Lot # E405282, Exp Date: 06/2026; Lot # E400386, Exp Date: 12/2025 b) Lot # E408872, Exp Date: 10/2026; Lot # E405280, Exp Date: 06/2026 c) Lot # E408873, Exp Date: 10/2026; Lot # E405281, Exp Date: 06/2026; Lot # E400387, Exp Date: 12/2025"
+399,20251112,D-0153-2026,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"clomiPRAMINE Hydrochloride, Capsules, USP, 50 mg, packaged in a) 30-count bottles (NDC 16714-850-01), b)
+90-count bottles (NDC 16714-850-02), c) 100-count bottles (NDC 16714-850-03), Rx only, Manufactured for:
+Northstar Rx LLC, Memphis, TN 38141, Manufactured by: Zydus Lifesciences Ltd., Ahmedabad, India","cGMP deviations: an observed Out of Specification of Nitrosamine Drug Substance-Related
+Impurities (NDSRIs), N-Nitroso Desmethyl-Clomipramine, above the FDA acceptable intake limit.",Nationwide in the US,"a)  Lot # E410157, Exp Date: 12/2026; Lot # E407176, Exp Date: 08/2026; Lot # E405845, Exp Date: 06/2026; Lot # E400943, Exp Date: 01/2026 b)Lot # E410156, Exp Date: 12/2026; Lot # E400942, Exp Date: 01/2026 c) Lot # E410158, Exp Date: 12/2026; Lot # E407128, Exp Date: 08/2026; Lot # E405846, Exp Date: 06/2026; Lot # E400944, Exp Date: 01/2026"
+400,20251112,D-0154-2026,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"clomiPRAMINE Hydrochloride, Capsules, USP, 75 mg, packaged in a) 30-count bottles (NDC 16714-851-01), b)
+90-count bottles (NDC 16714-851-02), c) 100 capsules, NDC 16714-851-03 Rx only, Manufactured for: Northstar Rx
+LLC, Memphis, TN 38141, Manufactured by: Zydus Lifesciences Ltd., Ahmedabad, India.","cGMP deviations: an observed Out of Specification of Nitrosamine Drug Substance-Related
+Impurities (NDSRIs), N-Nitroso Desmethyl-Clomipramine, above the FDA acceptable intake limit.",Nationwide in the US,"a) Lot # E403069, Exp Date: 04/2026; Lot # E406504, Exp Date: 07/2026; Lot # E309177, Exp Date: 11/2025; Lot # E400262, Exp Date: 12/2025; Lot # E404200, Exp Date: 05/2026 b) Lot # E403070, Exp Date: 04/2026; Lot # E406505, Exp Date: 07/2026; Lot # E407631, Exp Date: 08/2026; Lot # E400263, Exp Date: 12/2025; Lot # E404202, Exp Date: 05/2026 c) Lot # E403071, Exp Date: 04/2026; Lot # E407632, Exp Date: 08/2026; Lot # E405848, E405284, Exp Date: 07/2026; Lot # E400264, Exp Date: 12/2025; Lot # E404201, Exp Date: 05/2026"
+401,20251105,D-0115-2026,ProRx LLC,Ongoing,Class II,Drugs,"Semaglutide Injection, 10 mg/4 mL (2.5 mg/mL), 4mL Multidose Vial, For Subcutaneous Use, Rx Only, Mfd by:
+ProRx, 619 Jeffers Cir, Exton, PA 19341.  NDC:  84139-225-04",Lack of Assurance of Sterility,TX and UT,"Lot, Best Use Date (BUD):  Lot PRORX050925-1, BUD November 4, 2025;  Lot ProRx051425-5, BUD November 10, 2025; Lot ProRx051425-6, BUD November 10, 2025"
+402,20251105,D-0116-2026,ProRx LLC,Ongoing,Class II,Drugs,"Semaglutide Injection, 6mg/2.4mL (2.5 mg/mL), 2.4mL Multidose Vial, For Subcutaneous Use, Rx Only, Mfd by:
+ProRx, 619 Jeffers Cir, Exton, PA 19341.  NDC:  84139-225-08",Lack of Assurance of Sterility,TX and UT,"Lot Prorx051425-2, Lot Prorx051425-3 and Lot Prorx051425-4"
+403,20251105,D-0131-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone / Triamcinolone Acetonide 25MG/5MCG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY,
+FarmaKeio Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0379-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot: 3148, 3154, 3155, Exp 2/5/2026; 3162, Exp 2/11/2026; 3167, Exp 2/12/2026"
+404,20251105,D-0105-2026,"Teva Pharmaceuticals USA, Inc",Ongoing,Class II,Drugs,"Prazosin Hydrochloride, Capsules, USP, 2 mg, Rx only, Distributed by TEVA PHARMACEUTICALS USA, INC., North
+Wales, PA 19454, a) 100 Capsules, NDC 0093-4068-01, b) 1000 Capsules, NDC 0093-4068-10","CGMP Deviations-Test results for N-nitroso Prazosin impurity C that are above the Carcinogenic
+Potency Categorization Approach (CPCA) acceptable intake limit for the above specified lots.",U.S. Nationwide,"a) NDC 0093-4068-01: Lot # 3010398A, 3010399A, 3010400A, 3010401A, 3010353A, Exp Date: 12/2025; Lot # 3010439A, 3010388A, Exp Date: 01/2026; Lot # 3010526A, 3010527A, Exp Date: 03/2026; Lot # 3010591A, 07/2026; Lot # 3010343A, Exp Date: 10/2025; Lot # 3010352A, Exp Date: 11/2025; Lot # 3010468A, 3010469A, 3010461A, Exp Date: 02/2026; Lot # 3010629A, Exp Date:  09/2026; Lot # 3010653A, Exp Date: 01/2027; Lot # 3010654A, 3010679A, 3010702A, Exp Date: 02/2027; Lot # 3010547A, Exp Date: 04/2026  b) NDC 0093-4068-10: Lot # 3010402A Exp Date: 02/2028; Lot # 3010593A, Exp Date: 07/2026, Lot # 3010610A, Exp Date: 09/2026"
+405,20251105,D-0118-2026,ProRx LLC,Ongoing,Class II,Drugs,"Semaglutide Injection, 2.5mg/1mL (2.5 mg/mL), 1mL Multidose Vial, For Subcutaneous Use, Rx Only, Mfd by:
+ProRx, 619 Jeffers Cir, Exton, PA 19341.  NDC:  84139-225-06",Lack of Assurance of Sterility,TX and UT,Lot Prorx051525-5
+406,20251105,D-0149-2026,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Lisdexamfetamine Dimesylate Capsules, 60 mg, CII, 100-count bottle, Rx only, Manufactured by: OHM
+Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ
+08512, NDC 57664-051-88.","Failed Dissolution Specifications: An out of specification results observed in dissolution test
+during analysis at 12-month long term stability station (25¿C, 60%RH) for Lisdexamfetamine
+dimesylate capsules.",U.S Nationwide.,"Lot #: AD48711, Expiry: 4/30/2026; AD50896, Expiry: 5/31/2026."
+407,20251105,D-0104-2026,"Teva Pharmaceuticals USA, Inc",Ongoing,Class II,Drugs,"Prazosin Hydrochloride, Capsules, USP, 1 mg, Rx only, Distributed by TEVA PHARMACEUTICALS USA, INC., North
+Wales, PA 19454, a) 100 Capsules, NDC 0093-4067-01, b) 1000 Capsules, NDC 0093-4067-10","CGMP Deviations-Test results for N-nitroso Prazosin impurity C that are above the Carcinogenic
+Potency Categorization Approach (CPCA) acceptable intake limit for the above specified lots.",U.S. Nationwide,"a) NDC 0093-4067-01: Lot # 3010544A and 3010545A, Exp Date: 10/2025; Lot # 3010567A, Exp Date: 12/2025; Lot # 3010590A, Exp Date: 02/2026; Lot # 3010601A, 3010602A, 3010603A, Exp Date: 03/2026; Lot # 3010652A, 3010670A, 3010671A, Exp Date: 07/2026; Lot # 3010678A, 3010700A, 3010701A, Exp Date: 08/2026  b) NDC 0093-4067-10: Lot # 3010440A, Exp Date: 12/2025; Lot # 3010672A, Exp Date: 07/2026"
+408,20251105,D-0124-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone 50MG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY, FarmaKeio Outsourcing, 920 S
+Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0387-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot 3179, EXP 02/17/2026"
+409,20251105,D-0108-2026,Heritage Pharmaceuticals Inc,Ongoing,Class II,Drugs,"Desipramine Hydrochloride Tablets, USP, 25 mg, 100 count bottle (NDC 23155-579-01), Rx only, Manufactured by:
+USV Private Limited, Daman, India, Manufactured for: Avet Pharmaceuticals Inc., East Brunswick, NJ 08816.",CGMP Deviations: N-Nitroso Desipramine impurity exceeding the permissible acceptable daily intake level.,U.S. Nationwide.,"Lot#: 18035876, Exp Date: 12/31/2025  Lot#: 18036909, Exp Date: 09/30/2026"
+410,20251105,D-0125-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone 62.5 MG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY, FarmaKeio Outsourcing, 920 S
+Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0383-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot 3180, EXP 2/17/2026"
+411,20251105,D-0138-2026,Letco Medical LLC,Ongoing,Class III,Drugs,"Espumil, Lipophilic foam base, 500 ml, 24G15-T02-115604",Labeling: Not Elsewhere Classified,"Product was distributed to:  Letco Medical, LLC 1316 Commerce Drive Decatur, AL 35601 Product was further distributed to 44 compounding pharmacies and 2 distributors.","Batch # 24G15-T02-115604, exp. 11/30/2026"
+412,20251105,D-0140-2026,"Endo USA, Inc.",Ongoing,Class III,Drugs,"Everolimus tablets 7.5mg, 28 tablets (each carton contains 4 blister strips with 7 tablets each), Rx only,
+Manufactured by: Par Pharmaceutical Chestnut Ridge, NY 10977 NDC# 49884-127-91",Failed Impurities/Degradation Specifications: Out of specification for impurity IP-C.,Nationwide within the United States,"Lot #: 550167301, 550167401, Exp. Date NOV-25; 550185101, Exp. Date MAR-26;  550205701, Exp. Date JUL-26"
+413,20251105,D-0117-2026,ProRx LLC,Ongoing,Class II,Drugs,"Semaglutide Injection, 8mg/3.2mL (2.5 mg/mL), 3.2mL Multidose Vial, For Subcutaneous Use, Rx Only, Mfd by:
+ProRx, 619 Jeffers Cir, Exton, PA 19341.  NDC:  84139-225-09",Lack of Assurance of Sterility,TX and UT,"Lot Prorx051525-1, Prorx051525-2, Prorx051525-3 and Prorx051525-4"
+414,20251105,D-0099-2026,"Samsung Bioepis Co., Ltd.",Ongoing,Class II,Drugs,"HADLIMA (adalimumab-bwwd) injection, 40mg/0.8 mL, 2 Single-dose Prefilled Syringes per carton, Rx only,
+Manufactured for: Organon LLC, a subsidiary of ORGANON & Co, Jersey City, NJ 07302, Manufactured by: SAMSUN
+BIOEPIS Co., Ltd, Incheon, Republic of Korea, NDC 78206-183-01.",Lack of Assurance of Sterility.,Distributed only to one warehouse in NJ. with no further distribution,"Lot: F2505017, Expiry: 24-Jan-2027"
+415,20251105,D-0120-2026,ProRx LLC,Ongoing,Class II,Drugs,"Tirzepatide Injection, 27 mg/3 mL (9 mg/mL), 3mL Multidose Vial, For Subcutaneous Use, Rx Only, Mfd by: ProRx,
+619 Jeffers Cir, Exton, PA 19341.  NDC:  84139-209-03",Lack of Assurance of Sterility,TX and UT,Lot PRORX08062025-3
+416,20251105,D-0136-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone / Triamcinolone Acetonide Pellet (100MG/20MCG), 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX
+ONLY, FarmaKeio Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0367-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot, expiry: 3098, 3101, Exp 1/8/2026; 3107, Exp 1/13/2026; 3108, Exp 1/14/2026; 3109, Exp 1/15/2026; 3230, Exp 3/10/2026; 3231, Exp 3/11/2026; 3235, Exp 3/13/2026; 3236, Exp 3/17/2026; 3241, Exp 3/17/2026; 3242, Exp 3/18/2026."
+417,20251105,D-0112-2026,Heritage Pharmaceuticals Inc,Ongoing,Class II,Drugs,"Desipramine Hydrochloride Tablets, USP, 150 mg, 50 count bottle (NDC 23155-583-25), Rx only, Manufactured by:
+USV Private Limited, Daman, India, Manufactured for: Avet Pharmaceuticals Inc., East Brunswick, NJ 08816.",CGMP Deviations: N-Nitroso Desipramine impurity exceeding the permissible acceptable daily intake level.,U.S. Nationwide.,"Lot#: 18035739, Exp. Date: 11/30/2025"
+418,20251105,D-0121-2026,Kenvue Brands LLC,Ongoing,Class II,Drugs,"TYLENOL, Acetaminophen, Extra Strength, 24 Caplets, 500mg each, distributed by: Johnson & Johnson Consumer
+Inc., McNeil Consumer Healthcare Division, Fort Washington, PA 19034, NDC: 50580-378-04.",Defective Container,"U.S. Nationwide - CO, IL, OH and IN.","Lot: EJA022, expiry: 04/30/2028"
+419,20251105,D-0148-2026,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Lisdexamfetamine Dimesylate Capsules, 50 mg, CII, 100-count bottle, Rx only, Manufactured by: OHM
+Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ
+08512, NDC 57664-050-88.","Failed Dissolution Specifications: An out of specification results observed in dissolution test
+during analysis at 12-month long term stability station (25¿C, 60%RH) for Lisdexamfetamine
+dimesylate capsules.",U.S Nationwide.,"Lot #:AD48710, Expiry: 4/30/2026; AD50895, Expiry: 5/31/2026."
+420,20251105,D-0103-2026,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Prazosin Hydrochloride, Capsules, USP, 5 mg, 20 capsules (5x4) cartons, Rx only, Distributed by American
+Health Packaging, Columbus, Ohio 43217, carton NDC 60687-572-32,  Individual unit dose: NDC 60687-572-33","Failed Impurities/Degradation Specification: presence of N-nitroso Prazosin impurity C above the
+Carcinogenic Potency Categorization Approach (CPCA) acceptable intake limit",Nationwide within the United States,"Lot #: 1016996, 1018336, 1021220, Exp. Date 11/30/2025; 1022421, 1025017, Exp. Date 08/31/2026."
+421,20251105,D-0114-2026,ProRx LLC,Ongoing,Class II,Drugs,"Semaglutide Injection, 12.5/5mL (2.5 mg/mL), 5mL Multidose Vial, For Subcutaneous Use, Rx Only, Mfd by: ProRx,
+619 Jeffers Cir, Exton, PA 19341.  NDC:  84139-225-09",Lack of Assurance of Sterility,TX and UT,Lot# Prorx04282025-3
+422,20251105,D-0130-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone / Triamcinolone Acetonide, 12.5MG/2.5MCG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY,
+FarmaKeio Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0363-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot# 3171, 3172, Exp 2/11/2026"
+423,20251105,D-0142-2026,"Endo USA, Inc.",Ongoing,Class III,Drugs,"Everolimus tablets 2.5 mg, 28 tablets (each carton contains 4 blister strips with 7 tablets each), Rx only,
+Manufactured by: Par Pharmaceutical Chestnut Ridge, NY 10977 NDC# 49884-119-91",Failed Impurities/Degradation Specifications: Out of specification for impurity IP-C.,Nationwide within the United States,"Lot #: 550172201, Exp. Date JAN-26; 550184801, Exp. Date MAR-26; 550204001, Exp. Date JUL-26"
+424,20251105,D-0132-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone / Triamcinolone Acetonide Pellet (37.5MG/7.5MCG), 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION,
+RX ONLY, FarmaKeio Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0380-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot, expiry: 3143, Exp 2/5/2026; 3160, 3161, Exp 2/11/2026; 3165, 3166, Exp 2/12/2026."
+425,20251105,D-0119-2026,ProRx LLC,Ongoing,Class II,Drugs,"Semaglutide Injection, 5 mg/2 mL (2.5 mg/mL), 2mL Multidose Vial, For Subcutaneous Use, Rx Only, Mfd by:
+ProRx, 619 Jeffers Cir, Exton, PA 19341.  NDC:  84139-225-02",Lack of Assurance of Sterility,TX and UT,Lot PRORX052125-4
+426,20251105,D-0143-2026,Otsuka ICU Medical LLC,Ongoing,Class II,Drugs,"0.9% SODIUM CHLORIDE Injection, USP, 100 mL, Rx only, ICU Medical, Inc., Lake Forest, Illinois, 60045, USA, NDC 0990-7984-37",Lack of Assurance of Sterility: Potential for flexible container leaks.,Distributed Nationwide in the USA.,"Lot # 1029921, Exp Date: 28 February 2027"
+427,20251105,D-0123-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone 25MG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY, FarmaKeio Outsourcing, 920 S
+Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0389-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot 3294, EXP 4/8/2026"
+428,20251105,D-0102-2026,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Prazosin Hydrochloride, Capsules, USP, 2 mg, 100 capsules (10x10) cartons, Rx only, Distributed by American
+Health Packaging, Columbus, Ohio 43217, Carton NDC 68084-997-01, Individual unit dose: NDC 68084-997-11","Failed Impurities/Degradation Specification: presence of N-nitroso Prazosin impurity C above the
+Carcinogenic Potency Categorization Approach (CPCA) acceptable intake limit",Nationwide within the United States,"Lot #: 1020109, Exp. Date 02/28/2026; 1024343, 1025355, Exp. Date 09/30/2026."
+429,20251105,D-0137-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone / Triamcinolone Acetonide Pellet (200MG/40MCG), 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX
+ONLY, FarmaKeio Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0364-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot, expiry: 3075, Exp 1/2/2026; 3084, Exp 1/6/2026; 3110, Exp 1/15/2026; 3115, Exp 1/16/2026; 3116, Exp 1/20/2026; 3119, Exp 1/21/2026; 3121, Exp 1/22/2026; 3124, Exp 1/23/2026; 3125, Exp 1/28/2026; 3131, Exp 1/29/2026; 3134, Exp 2/3/2026; 3135, Exp 2/4/2026; 3139, Exp 2/6/2026; 3204, Exp 2/13/2026; 3205, Exp 2/18/2026; 3207, Exp 2/19/2026; 3208, Exp 2/24/2026; 3211, Exp 2/25/2026; 3213, Exp 2/26/2026; 3216, Exp 2/27/2026; 3223, Exp 3/4/2026; 3225, Exp 3/5/2026; 3228, Exp 3/6/2026; 3248, Exp 3/19/2026; 3254, Exp 3/25/2026; 3258, Exp 3/31/2026; 3269, Exp 4/1/2026; 3270, Exp 4/10/2026."
+430,20251105,D-0135-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone / Triamcinolone Acetonide 87.5MG/17.5MCG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY,
+FarmaKeio Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0382-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot, expiry: 3194,  3195, Exp 2/17/2026; 3196, 3197, Exp 2/18/2026."
+431,20251105,D-0128-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone Regular Release 50 MG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY, FarmaKeio
+Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0401-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot: 3178, Exp 02/7/2026"
+432,20251105,D-0133-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone / Triamcinolone Acetonide 50MG/10MCG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY,
+FarmaKeio Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0365-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot: 3091, 3096, Exp 1/7/2026; 3097, Exp 1/7/2026; 3182, 3186, 3187, 3188, Exp 2/10/2026"
+433,20251105,D-0107-2026,Heritage Pharmaceuticals Inc,Ongoing,Class II,Drugs,"Desipramine Hydrochloride Tablets, USP, 10 mg, 100 - count bottle (NDC 23155-578-01), Rx only, Manufactured
+by: USV Private Limited, Daman, India, Manufactured for: Avet Pharmaceuticals Inc., East Brunswick, NJ 08816.",CGMP Deviations: N-Nitroso Desipramine impurity exceeding the permissible acceptable daily intake level.,U.S. Nationwide.,"Lot#: 18036908, Exp. Date: 09/30/2026"
+434,20251105,D-0150-2026,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Lisdexamfetamine Dimesylate Capsules, 70 mg, CII, 100-count bottle, Rx only, Manufactured by: OHM
+Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ
+08512, NDC 57664-052-88.","Failed Dissolution Specifications: An out of specification results observed in dissolution test
+during analysis at 12-month long term stability station (25¿C, 60%RH) for Lisdexamfetamine
+dimesylate capsules.",U.S Nationwide.,"Lot #: AD48712, Expiry: 4/30/2026; AD50898, Expiry: 5/31/2026."
+435,20251105,D-0122-2026,ACME UNITED CORPORATION,Ongoing,Class II,Drugs,"Sting Relief Swabs, First Aid Only, 10 Swabs per box, part number 19-001, Manufactured for: Acme United
+Corporation, 1 Waterview Dr. Shelton, CT, Made in the USA UPC 738743190015",Product Mix-up,USA Nationwide,"Lot #: 2251994, Exp 9/30/2029"
+436,20251105,D-0101-2026,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Prazosin Hydrochloride, Capsules, USP, 1 mg, 100 capsules (10x10) cartons, Rx only, Distributed by American
+Health Packaging, Columbus, Ohio 43217, Carton NDC 68084-996-01.  Individual unit dose: NDC 68084-996-11","Failed Impurities/Degradation Specification: presence of N-nitroso Prazosin impurity C above the
+Carcinogenic Potency Categorization Approach (CPCA) acceptable intake limit",Nationwide within the United States,"Lot #: 1023526, 1023555, Expiry: 07/31/2026"
+437,20251105,D-0127-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone 200 MG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY, FarmaKeio Outsourcing, 920 S
+Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0381-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot, expiry: Lot 3203, exp 2/17/2026; Lot 3284, exp 4/8/2026"
+438,20251105,D-0109-2026,Heritage Pharmaceuticals Inc,Ongoing,Class II,Drugs,"Desipramine Hydrochloride Tablets, USP, 50 mg, 100 count bottle (NDC 23155-580-01), Rx only, Manufactured by:
+USV Private Limited, Daman, India, Manufactured for: Avet Pharmaceuticals Inc., East Brunswick, NJ 08816.",CGMP Deviations: N-Nitroso Desipramine impurity exceeding the permissible acceptable daily intake level.,U.S. Nationwide.,"Lot#:18036713, Exp Date: 08/31/2026"
+439,20251105,D-0111-2026,Heritage Pharmaceuticals Inc,Ongoing,Class II,Drugs,"Desipramine Hydrochloride Tablets, USP, 100 mg, 100 count bottle (NDC 23155-582-01), Rx only, Manufactured by:
+USV Private Limited, Daman, India, Manufactured for: Avet Pharmaceuticals Inc., East Brunswick, NJ 08816.",CGMP Deviations: N-Nitroso Desipramine impurity exceeding the permissible acceptable daily intake level.,U.S. Nationwide.,"Lot#: 18035574, Exp. Date 10/31/2025 Lot#: 18036758, Exp. Date 08/31/2026"
+440,20251105,D-0134-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone / Triamcinolone Acetonide, 62.5MG/12.5MCG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX
+ONLY, FarmaKeio Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0366-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot: 3090, Exp 1/7/2026; 3181, Exp 2/11/2026; 3189, 3190, Exp 2/12/2026"
+441,20251105,D-0113-2026,"QuVa Pharma, Inc.",Ongoing,Class II,Drugs,"R.E.C.K. (Ropivacaine HCl, EPINEPHrine, CloNIDine HCl, and Ketorolac Tromethamine) in Sodium Chloride
+Solution, Total Volume: 50 mL syringe. INJECTION FOR PERIARTICULAR USE; Not for IV Use.  THIS IS A COMPOUNDED
+DRUG.  QuVA Pharma, 1075 West Park One Drive, Suite 100, Sugar Land, TX 77478.   NDC 70092-1433-50",Presence of Particulate Matter,U.S. Nationwide,"Lot, expiry: 10149179 , exp 10/15/2025 ;  10149503 , exp 10/13/2025 ;  10149504 , exp 10/13/2025 ;  10149657 , exp 10/16/2025 ;  10149658 , exp 10/16/2025 ;  10149659 , exp 10/15/2025 ;  10150137 , exp 10/23/2025 ;  10150138 , exp 10/23/2025 ;  10150139 , exp 10/23/2025 ;  10150140 , exp 10/23/2025 ;  10149729 , exp 10/16/2025 ;  10149730 , exp 10/16/2025 ;  10149732 , exp 10/16/2025 ;  10149733 , exp 10/16/2025 ;  10149737 , exp 10/16/2025 ;  10149738 , exp 10/16/2025 ;  10149790 , exp 10/17/2025 ;  10149787 , exp 10/16/2025 ;  10149788 , exp 10/16/2025 ;  10149791 , exp 10/17/2025 ;  10149792 , exp 10/16/2025 ;  10149800 , exp 10/16/2025 ;  10149841 , exp 10/19/2025 ;  10149833 , exp 10/19/2025 ;  10149840 , exp 10/19/2025 ;  10149842 , exp 10/20/2025 ;  10149838 , exp 10/19/2025 ;  10149839 , exp 10/19/2025 ;  10149843 , exp 10/20/2025 ;  10149968 , exp 10/20/2025 ;  10149969 , exp 10/21/2025 ;  10150007 , exp 10/22/2025 ;  10150134 , exp 10/23/2025 ;  10150253 , exp 10/26/2025 ;  10150254 , exp 10/26/2025 ;  10150135 , exp 10/23/2025 ;  10150302 , exp 10/27/2025 ;  10150303 , exp 10/28/2025 ;  10150182 , exp 10/31/2025 ;  10150183 , exp 10/23/2025 ;  10150185 , exp 10/24/2025 ;  10150184 , exp 10/23/2025 ;  10150186 , exp 10/23/2025 ;  10150187 , exp 10/23/2025 ;  10150204 , exp 10/27/2025 ;  10150357 , exp 10/29/2025 ;  10150358 , exp 10/29/2025 ;  10150361 , exp 10/29/2025 ;  10150362 , exp 10/29/2025 ;  10150525 , exp 10/30/2025 ;  10150526 , exp 10/30/2025 ;  10150527 , exp 10/30/2025 ;  10150528 , exp 10/30/2025 ;  10150532 , exp 10/30/2025 ;  10150533 , exp 10/30/2025 ;  10150534 , exp 10/30/2025 ;  10150535 , exp 10/30/2025 ;  10150537 , exp 10/30/2025 ;  10150538 , exp 10/30/2025 ;  10150550 , exp 10/31/2025 ;  10150551 , exp 10/31/2025 ;  10150596 , exp 11/3/2025 ;  10150597 , exp 11/3/2025 ;  10150598 , exp 11/3/2025 ;  10150599 , exp 11/3/2025 ;  10150616 , exp 11/3/2025 ;  10150617 , exp 11/3/2025 ;  10150619 , exp 11/3/2025 ;  10150620 , exp 11/3/2025 ;  10150631 , exp 11/3/2025 ;  10150632 , exp 11/3/2025 ;  10150633 , exp 11/3/2025 ;  10150634 , exp 11/3/2025 ;  10150613 , exp 11/3/2025 ;  10150614 , exp 11/3/2025 ;  10150677 , exp 11/3/2025 ;  10150720 , exp 11/4/2025 ;  10150650 , exp 11/5/2025 ;  10150778 , exp 11/5/2025 ;  10150779 , exp 11/5/2025 ;  10150883 , exp 11/5/2025 ;  10151024 , exp 11/5/2025 ;  10151025 , exp 11/5/2025 ;  10150884 , exp 11/6/2025 ;  10151061 , exp 11/11/2025 ;  10151069 , exp 11/11/2025 ;  10150944 , exp 11/9/2025 ;  10150945 , exp 11/9/2025 ;  10151121 , exp 11/12/2025 ;  10151129 , exp 11/13/2025 ;  10150948 , exp 11/9/2025 ;  10150949 , exp 11/9/2025 ;  10151184 , exp 11/13/2025 ;  10151195 , exp 11/13/2025 ;  10150961 , exp 11/9/2025 ;  10150980 , exp 11/10/2025 ;  10150981 , exp 11/10/2025 ;  10150984 , exp 11/10/2025 ;  10150985 , exp 11/10/2025 ;  10151013 , exp 11/10/2025 ;  10151051 , exp 11/11/2025 ;  10151052 , exp 11/11/2025 ;  10151055 , exp 11/11/2025 ;  10151056 , exp 11/11/2025 ;  10151070 , exp 11/12/2025 ;  10151071 , exp 11/11/2025 ;  10151014 , exp 11/11/2025 ;  10151072 , exp 11/12/2025 ;  10151074 , exp 11/12/2025 ;  10151075 , exp 11/12/2025 ;  10151078 , exp 11/12/2025 ;  10151079 , exp 11/12/2025 ;  10151111 , exp 11/12/2025 ;  10151112 , exp 11/12/2025 ;  10151115 , exp 11/12/2025 ;  10151116 , exp 11/12/2025 ;  10151130 , exp 11/12/2025 ;  10151131 , exp 11/13/2025 ;  10151132 , exp 11/13/2025 ;  10151134 , exp 11/13/2025 ;  10151135 , exp 11/13/2025 ;  10151138 , exp 11/13/2025 ;  10151139 , exp 11/13/2025 ;  10151173 , exp 11/17/2025 ;  10151174 , exp 11/17/2025 ;  10151177 , exp 11/13/2025 ;  10151178 , exp 11/13/2025 ;  10151196 , exp 11/14/2025 ;  10151197 , exp 11/13/2025 ;  10151199 , exp 11/14/2025 ;  10151200 , exp 11/14/2025 ;  10151203 , exp 11/14/2025 ;  10151204 , exp 11/14/2025 ;  10151418 , exp 11/19/2025 ;  10151419 , exp 11/19/2025 ;  10151423 , exp 11/19/2025 ;  10151424 , exp 11/19/2025 ;  10151442 , exp 11/19/2025 ;  10151443 , exp 11/19/2025 ;  10151447 , exp 11/19/2025 ;  10151448 , exp 11/19/2025 ;  10151462 , exp 11/19/2025 ;  10151463 , exp 11/19/2025 ;  10151464 , exp 11/19/2025 ;  10151466 , exp 11/20/2025 ;  10151468 , exp 11/19/2025 ;  10151467 , exp 11/20/2025 ;  10151470 , exp 11/24/2025 ;  10151471 , exp 11/24/2025 ;  10151475 , exp 11/24/2025 ;  10151476 , exp 11/24/2025 ;  10151505 , exp 11/23/2025 ;  10151506 , exp 11/23/2025 ;  10151509 , exp 11/23/2025 ;  10151510 , exp 11/23/2025 ;  10151523 , exp 11/24/2025 ;  10151524 , exp 11/24/2025 ;  10151525 , exp 11/23/2025 ;  10151527 , exp 11/24/2025 ;  10151528 , exp 11/24/2025 ;  10151531 , exp 11/24/2025 ;  10151532 , exp 11/24/2025 ;  10151546 , exp 11/24/2025 ;  10151547 , exp 11/24/2025 ;  10151550 , exp 11/24/2025 ;  10151551 , exp 11/24/2025 ;  10151563 , exp 11/24/2025 ;  10151564 , exp 11/24/2025 ;  10151567 , exp 11/24/2025 ;  10151568 , exp 11/24/2025 ;  10151580 , exp 11/24/2025 ;  10151581 , exp 11/24/2025 ;  10151582 , exp 11/24/2025 ;  10151584 , exp 11/25/2025 ;  10151585 , exp 11/25/2025 ;  10151588 , exp 11/25/2025 ;  10151589 , exp 11/25/2025 ;  10151600 , exp 11/25/2025 ;  10151601 , exp 11/25/2025 ;  10151604 , exp 11/25/2025 ;  10151605 , exp 11/25/2025 ;  10151705 , exp 11/25/2025 ;  10151706 , exp 11/25/2025 ;  10151707 , exp 11/25/2025 ;  10151711 , exp 11/26/2025 ;  10151727 , exp 11/26/2025 ;  10151728 , exp 11/25/2025 ;  10151729 , exp 11/25/2025 ;  10151770 , exp 11/26/2025 ;  10151771 , exp 11/27/2025 ;  10151788 , exp 11/26/2025 ;  10151789 , exp 11/26/2025 ;  10151969 , exp 12/2/2025 ;  10151979 , exp 12/1/2025 ;  10151980 , exp 12/1/2025 ;  10151970 , exp 12/2/2025 ;  10151981 , exp 12/2/2025 ;  10151982 , exp 12/1/2025 ;  10151971 , exp 12/2/2025 ;  10152008 , exp 12/2/2025 ;  10152009 , exp 12/2/2025 ;  10152010 , exp 12/3/2025 ;  10152060 , exp 12/3/2025 ;  10152061 , exp 12/9/2025 ;  10152011 , exp 12/2/2025 ;  10152121 , exp 12/4/2025 ;  10152122 , exp 12/4/2025 ;  10152012 , exp 12/3/2025 ;  10152064 , exp 12/4/2025 ;  10152123 , exp 12/4/2025 ;  10152124 , exp 12/5/2025 ;  10152178 , exp 12/7/2025 ;  10152062 , exp 12/4/2025 ;  10152175 , exp 12/7/2025 ;  10152179 , exp 12/8/2025 ;  10152180 , exp 12/8/2025 ;  10152063 , exp 12/4/2025 ;  10152176 , exp 12/7/2025 ;  10152177 , exp 12/7/2025 ;  10152323 , exp 12/9/2025 ;  10152339 , exp 12/9/2025 ;  10152374 , exp 12/11/2025 ;  10152340 , exp 12/10/2025 ;  10152341 , exp 12/10/2025 ;  10152375 , exp 12/11/2025 ;  10152371 , exp 12/10/2025 ;  10152372 , exp 12/10/2025 ;  10152376 , exp 12/11/2025 ;  10152373 , exp 12/10/2025 ;  10152393 , exp 12/11/2025 ;  10152428 , exp 12/11/2025 ;  10152394 , exp 12/11/2025 ;  10152395 , exp 12/10/2025 ;  10152429 , exp 12/12/2025 ;  10152774 , exp 12/16/2025 ;  10152775 , exp 12/16/2025 ;  10152834 , exp 12/21/2025 ;  10152835 , exp 12/21/2025 ;  10152861 , exp 12/22/2025 ;"
+442,20251105,D-0145-2026,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Lisdexamfetamine Dimesylate Capsules, 20 mg, CII, 100-count bottle, Rx only, Manufactured by: OHM
+Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ
+08512, NDC 57664-047-88.","Failed Dissolution Specifications: An out of specification results observed in dissolution test
+during analysis at 12-month long term stability station (25¿C, 60%RH) for Lisdexamfetamine
+dimesylate capsules.",U.S Nationwide.,"Lot #: AD42469, Expiry: 2/28/2026; AD48707, Expiry:4/30/2026."
+443,20251105,D-0129-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone Regular Release 200 MG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY, FarmaKeio
+Outsourcing, 920 S Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0402-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot, expiry:  3201, Exp 2/7/2026; 3202, Exp 2/21/2026; 3280, Exp 4/8/2026; 3283, Exp /9/2026."
+444,20251105,D-0106-2026,"Teva Pharmaceuticals USA, Inc",Ongoing,Class II,Drugs,"Prazosin Hydrochloride, Capsules, USP, 5 mg, Rx only, Distributed by TEVA PHARMACEUTICALS USA, INC., North
+Wales, PA 19454, a) 100 Capsules, NDC 0093-4069-01, b) 250 Capsules, NDC 0093-4069-52, c) 500 Capsules, NDC
+0093-4069-05","CGMP Deviations-Test results for N-nitroso Prazosin impurity C that are above the Carcinogenic
+Potency Categorization Approach (CPCA) acceptable intake limit for the above specified lots.",U.S. Nationwide,"a) NDC 0093-4069-01: Lot # 3010403A, 3010385A, 3010404A, Exp Date: 02/2026; Lot # 3010405A, 3010510A, 3010528A, 3010354A, Exp Date: 03/2026; Lot # 3010592A, 3010605A, 3010611A, 3010612A, Exp Date: 08/2026; Lot # 3010655A, 3010703A, Exp Date: 02/2027  b) NDC 0093-4069-52: Lot # 3010430A, Exp Date: 11/2025, Lot # 3010613A, Exp Date: 08/2026  c) NDC 0093-4069-05: Lot # 3010406A, Exp Date: 02/2026"
+445,20251105,D-0144-2026,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Lisdexamfetamine Dimesylate Capsules, 10 mg, CII, 100-count bottle, Rx only, Manufactured by: OHM
+Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ
+08512, NDC 57664-046-88.","Failed Dissolution Specifications: An out of specification results observed in dissolution test
+during analysis at 12-month long term stability station (25¿C, 60%RH) for Lisdexamfetamine
+dimesylate capsules.",U.S Nationwide.,"Lot #: AD42468, Expiry: 2/28/2026; AD48705, Expiry: 4/30/2026."
+446,20251105,D-0100-2026,"Breckenridge Pharmaceutical, Inc.",Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules, USP, 60 mg, a.) 90-count bottle (NDC: 51991-748-90), b.)1000-count bottle
+(NDC  51991-748-10),Rx Only, Mfr. by: Towa Pharmaceutical Europe, S.L. Martorelles, (Barcelona), Spain; Dist.
+by: Breckenridge Pharmaceutical, Inc., Berkeley Heights, NJ 07922.",CGMP Deviations: N-nitroso-duloxetine impurity above the safety assessment limit of 12.5ppm.,U.S. Nationwide,90-count- Lot # 240721C; Exp. 02/28/2027   1000-count- Lot #230286C; Exp.02/28/2026
+447,20251105,D-0141-2026,"Endo USA, Inc.",Ongoing,Class III,Drugs,"Everolimus tablets 10 mg, 28 tablets (each carton contains 4 blister strips with 7 tablets each), Rx only,
+Manufactured by: Par Pharmaceutical Chestnut Ridge, NY 10977 NDC# 49884-128-91",Failed Impurities/Degradation Specifications: Out of specification for impurity IP-C.,Nationwide within the United States,"Lot #: 550162801, Exp. Date NOV-25; 550169801, Exp. Date JAN-26"
+448,20251105,D-0147-2026,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Lisdexamfetamine Dimesylate Capsules, 40 mg, CII, 100-count bottle, Rx only, Manufactured by: OHM
+Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ
+08512, NDC 57664-049-88.","Failed Dissolution Specifications: An out of specification results observed in dissolution test
+during analysis at 12-month long term stability station (25¿C, 60%RH) for Lisdexamfetamine
+dimesylate capsules.",U.S Nationwide.,"Lot #: AD48709, Expiry: 4/30/2026; AD50894, Expiry: 5/31/2026."
+449,20251105,D-0126-2026,FARMAKEIO OUTSOURCING LLC,Ongoing,Class II,Drugs,"Testosterone 87.5 MG, 1 PELLET (STERILE) FOR SUBCUTANEOUS INSERTION, RX ONLY, FarmaKeio Outsourcing, 920 S
+Kimball Ave, Ste 100, Southlake, TX 76092. NDC 73693-0386-01",CGMP Deviations: Potential presence of metal particulate matter,Nationwide in the USA and Antigua,"Lot 3193, Exp 2/17/2026"
+450,20251105,D-0139-2026,"Endo USA, Inc.",Ongoing,Class III,Drugs,"Everolimus tablets 5mg, 28 tablets (each carton contains 4 blister strips with 7 tablets each), Rx only,
+Manufactured by: Par Pharmaceutical Chestnut Ridge, NY 10977 NDC# 49884-125-91",Failed Impurities/Degradation Specifications: Out of specification for impurity IP-C.,Nationwide within the United States,"Lot #: 550184901, 550185001, Exp. Date MAR-26; 550189901, 550190001, Exp. Date APR-26 550203901, 550205601, Exp. Date Jul-26"
+451,20251105,D-0146-2026,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Lisdexamfetamine Dimesylate Capsules, 30 mg, CII, 100-count bottle, Rx only, Manufactured by: OHM
+Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ
+08512, NDC 57664-048-88.","Failed Dissolution Specifications: An out of specification results observed in dissolution test
+during analysis at 12-month long term stability station (25¿C, 60%RH) for Lisdexamfetamine
+dimesylate capsules.",U.S Nationwide.,"Lot #: AD42470, Expiry: 2/28/2026; AD48708, Expiry:4/30/2026."
+452,20251105,D-0110-2026,Heritage Pharmaceuticals Inc,Ongoing,Class II,Drugs,"Desipramine Hydrochloride Tablets, USP, 75 mg, 100 count bottle (NDC 23155-581-01), Rx only, Manufactured by:
+USV Private Limited, Daman, India, Manufactured for: Avet Pharmaceuticals Inc., East Brunswick, NJ 08816.",CGMP Deviations: N-Nitroso Desipramine impurity exceeding the permissible acceptable daily intake level.,U.S. Nationwide.,"Lot#: 18036662, Exp. Date: 07/31/2026  Lot#: 18037649, Exp. Date: 03/31/2027"
+453,20251029,D-0037-2026,Graviti Pharmaceuticals Private Limited,Ongoing,Class II,Drugs,"Bupropion Hydrochloride Extended-Release Tablets USP (XL), 300 mg, 30-count bottles, Rx Only, Mfd. by: Graviti
+Pharmaceuticals Private Limited, Sangareddy, Telangana, India, Dist. by: Rising Phar, NDC 16571-863-03.",Failed Tablet/Capsule Specifications,Product was distributed to 1 distributor and 16 wholesalers/pharmacy retailers nationwide.,"Batch # BPB124341A, Exp date: 10/2026"
+454,20251029,D-0096-2026,Lannett Company Inc.,Ongoing,Class II,Drugs,"Niacin Extended-release Tablets, USP, 1,000 mg, Rx Only, 90 Tablets per bottle, Distributed by: Lannett
+Company, Inc., Philadelphia, PA 19136.  NDC:  62175-322-46",Failed Dissolution Specifications,Nationwide in the USA,"Lot, expiry: 21264027A, Exp 10/30/2025; 22266446A, Exp 12/31/2025; 22266901A, Exp 02/28/2026; 22267553A, 22267554A,  Exp 03/31/2026; 22267555A, Exp 02/28/2026; 22267992A, Exp 04/30/2026; 22267993A, 22267994A, Exp 05/31/2026"
+455,20251029,D-0031-2026,The Harvard Drug Group LLC,Ongoing,Class II,Drugs,"Gabapentin Capsules, USP, 100 mg, 10 Capsules (10 x 1 blister pack), Rx only, Packaged and Distributed by:
+Major Pharmaceuticals, Indianapolis, IN 46268, USA, NDC 0904-6665-61 (Blister pack), NDC 55154-3363-0 (Outer
+Bag).","Failed Impurities/Degradation Specifications: an out of specification result obtained during
+routine stability testing for Highest Unknown Impurity .",US Nationwide.,"Lot # M04989A [Bag], M04989 [Blister Pack], Exp Date: 02/2026; Lot # M05056A [Bag], M05056 [Blister Pack], Exp Date: 04/2026; Lot # M05150A [Bag], M05150 [Blister Pack], Exp Date: 07/2026; Lot # M05312A [Bag], M05312 [Blister Pack], and M05342A [Bag], M05342 [Blister Pack], Exp Date: 01/2027."
+456,20251029,D-0032-2026,JB Chemicals and Pharmaceuticals Ltd,Ongoing,Class III,Drugs,"Cetirizine Hydrochloride Tablets USP 10 mg, 100 Tablets bottles, Manufactured by: Unique Pharmaceuticals Labs,
+(A Div. of J.B. Chemicals & Pharmaceuticals, Ltd.), Mumbai 400 030, India. Distributed by: Rising Pharma
+Holdings, Inc., East Brunswick, NJ 08816, NDC 16571-402-10.",Tablet/Capsules Imprinted with Wrong ID,U.S. Nationwide,Lot # PY925014A; Exp. 1/31/2028
+457,20251029,D-0098-2026,ibspot,Ongoing,Class II,Drugs,"Taoscare Motion Sickness Patches 36-count box, Henan Xinyongtal Medical Technology., Ltd., Address: he nan
+sheng zhou kou shi huai yang xian gong ye yuan qu, X003SR097N",Marketed Without an Approved NDA/ANDA,WY and VA,none
+458,20251029,D-0034-2026,USV Private Limited,Ongoing,Class II,Drugs,"Olopatadine Hydrochloride Ophthalmic Solution USP 0.1 %, 5 mL (0.17 FL OZ) bottles, Manufactured for: SOLA
+PHARMACEUTICALS LLC, Baton Rouge, LA 70810, NDC 70512-0520-05","Failed Impurities/Degradation Specifications: The result for 'Any individual unspecified
+impurity' exceeds the specification limit.",Nationwide within the United States,"Lot #:  35000409, Exp. Date 01/2026"
+459,20251029,D-0035-2026,"Medline Industries, LP",Ongoing,Class II,Drugs,"Medline, Alcohol Prep Pads (2-Ply Pad, 70% Isopropyl Alcohol), 100 eaches per box, 10 boxes per case (1,000
+eaches per case), Single Use Only, Manufactured for Medline Industries, LP, Three Lakes Drive, Northfield, IL,
+60093 USA, NDC 55329-811-30.",Subpotent Drug,Nationwide within the United States,Lot #: 61224040057
+460,20251029,D-0030-2026,The Harvard Drug Group LLC,Ongoing,Class II,Drugs,"Gabapentin Capsules, USP, 100 mg, 100 Capsules (10 x 10 blister packs), Rx only, Packaged and Distributed by:
+Major Pharmaceuticals, Indianapolis, IN 46268, USA, NDC 0904-6665-61","Failed Impurities/Degradation Specifications: an out of specification result obtained during
+routine stability testing for Highest Unknown Impurity .",US Nationwide.,"Lot # M04950, Exp Date: 01/2026; Lot # M04989, M04990, Exp Date: 02/2026; Lot # M05056, Exp Date: 04/2026; Lot # M05150, Exp Date: 07/2026; Lot # M05290, Exp Date: 11/2026; Lot # M05312, M05342, Exp Date: 01/2027; Lot # M05369, M05386, Exp Date: 02/2027."
+461,20251029,D-0033-2026,JB Chemicals and Pharmaceuticals Ltd,Ongoing,Class III,Drugs,"Cetirizine Hydrochloride Tablets USP 10 mg, 500 Tablets bottles, Manufactured by: Unique Pharmaceuticals Labs,
+(A Div. of J.B. Chemicals & Pharmaceuticals, Ltd.), Mumbai 400 030, India. Distributed by: Rising Pharma
+Holdings, Inc., East Brunswick, NJ 08816, NDC 16571-402-50",Tablet/Capsules Imprinted with Wrong ID,U.S. Nationwide,"Lot # PY925014, PY925013, Exp. 1/31/2028"
+462,20251029,D-0095-2026,"Church & Dwight Co., Inc.",Ongoing,Class II,Drugs,"ZICAM"" MEDICATED FRUIT DROPS ELDERBERRY FLAVOR, 25-drops per bottle, Distributed by: Church & Dwight Co., Inc.
+Ewing, NJ 08628, NDC 10237-469-25","Labeling: Label Mix-up: The product in the bottle contains elderberry and the label failed to
+indicate the inclusion of elderberry as an ingredient.",Product was distributed nationwide within the United States,"Lot#: BE51396303, Exp. Date 2027/05"
+463,20251029,D-0036-2026,Aspiro Pharma Limited,Ongoing,Class II,Drugs,"Ketorolac Tromethamine Injection, USP, 60 mg/2 mL (30 mg/mL), 2 mL Single-Dose Vial, For Intramuscular Use
+Only, Rx only, Mfd. for: Camber Pharmaceuticals, Inc., Piscataway, NJ 08854, Mfd. by: ASPIRO PHARMA LIMITED,
+Telangana - 502281, INDIA., U.S. Contact Number: 1-866-495-1995, NDC 31722-307-25 (Carton), 31722-307-02 (Vial
+label).",Presence of Particulate Matter: Particulate matter identified as glass,Nationwide within the United States,"Lot #: AS1240347A, Exp Date 09/2026; AS1240144A, Exp Date 05/2026; AS1240145A, AS1240146A, Exp Date 06/2026; AS1250295A, Exp Date 05/2027."
+464,20251029,D-0097-2026,Bristol-Myers Squibb Company,Ongoing,Class II,Drugs,"Opdualag (nivolumab and relatlimab-rmbw) injection, 240 mg and 80 mg/20 mL (12mg and 4mg/mL),Single Dose Vial,
+RX Only, Bristol-Myers Squibb Company, Princeton, NJ 08543, NDC 0003-7125-11",Lack of Assurance of Sterility.,Nationwide in the USA,"Lot: 033A23B, Expiry: 4/30/2026"
+465,20251022,D-0020-2026,"Ascend Laboratories, LLC",Ongoing,Class II,Drugs,"Atorvastatin Calcium Tablets USP, 80 mg, Rx Only, a). 90-count(NDC 67877-514-90), b). 500-count(NDC
+67877-514-05), Manufactured by: Alkem Laboratories, Ltd. India, Distributed by: Ascend Laboratories, LLC,
+Parsippany, NJ 07054",Failed Dissolution Specifications,U.S. Nationwide,"Lot#: 25140249, Exp. Dec. 2026 Lot#: 25140247, Exp. Dec. 2026 Lot#: 24144999, Exp. Nov. 2026 Lot#: 24144942, Exp. Nov. 2026 Lot#: 24144845, Exp. Nov. 2026 Lot#: 24144713, Exp. Nov. 2026 Lot#: 24144652, Exp. Oct. 2026 Lot#: 24143898, Exp. Aug. 2026 Lot#: 24143412, Exp. Aug. 2026 Lot#: 24143582, Exp. Aug. 2026"
+466,20251022,D-0029-2026,"Rising Pharma Holding, Inc.",Ongoing,Class II,Drugs,"Carbidopa, Levodopa, Entacapone Tablets, 25 mg/100 mg/200 mg, 100-count bottle, Rx Only, Manufactured for:
+Rising Pharma Holdings, Inc. East Brunswick, NJ, 08816, Manufactured by Suven Pharmaceuticals Limited,
+Pashamylaram, Telangana, 205307, India. NDC# 16571-691-01","Product mix up:  complaint received that sealed medication bottle contained Carbidopa, Levodopa,
+and Entacapone film-coated tablets (37.5 mg/150 mg/200 mg) instead of labelled lower strength
+Carbidopa, Levodopa, and Entacapone film-coated tablets (25 mg/100 mg/200 mg).",Distributed Nationwide in the USA,"Lot # CS25070, exp. date 03/31/2027"
+467,20251022,D-0016-2026,VIONA PHARMACEUTICALS INC,Ongoing,Class II,Drugs,"Tavaborole Topical solution 5%, 10 mL bottle, Rx only, Manufactured by: Zydus Lifesciences Ltd., Changodar,
+Ahmedabad, India, Distributed by: Viona Pharmaceuticals Inc., Cranford, NJ 07016, NDC 72578-102-04.",Discoloration,USA Nationwide,"Lot#: T400819, T400820, Exp 4/30/26; T401969, Exp 9/30/26"
+468,20251022,D-0024-2026,"STAQ Pharma, Inc.",Ongoing,Class III,Drugs,"Ketamine Hydrochloride, 50mg/5 mL (10mg/mL), Injection for IV use, 50 mL syringe, STAQ Pharma Inc., 14135 E
+42nd Ave, Denver, Colorado, NDC 73177-0156-02.",Labeling: Incorrect or Missing Lot and/or Exp Date,Nationwide in the U.S.,"Lot #: 25156673A, Expiry: 02FEB2026."
+469,20251022,D-0019-2026,"Ascend Laboratories, LLC",Ongoing,Class II,Drugs,"Atorvastatin Calcium Tablets USP, 20 mg, Rx Only, a). 90-count(NDC 67877-512-90),  b). 500-count (NDC
+67877-512-05), c). 1000-count(NDC 67877-512-10),Manufactured by: Alkem Laboratories, Ltd. India, Distributed
+by: Ascend Laboratories, LLC, Parsippany, NJ 07054.",Failed Dissolution Specifications,U.S. Nationwide,"Lot #: 25140150, Exp.  Dec. 2026 Lot #: 25140173, Exp. Dec. 2026 Lot #: 25140172, Exp. Dec. 2026 Lot #: 24144720, Exp. Nov. 2026 Lot #: 24144798, Exp.  Nov. 2026 Lot #: 24144692, Exp. Oct. 2026 Lot #: 24143755, Exp.  Aug. 2026 Lot #: 24143913, Exp. Aug. 2026 Lot #: 24143754, Exp.  Aug. 2026 Lot #: 24143047, Exp. June 2026 Lot #: 24142936, Exp. July 2026"
+470,20251022,D-0027-2026,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Sucralfate Tablets, USP 1 gram, 100 Tablets, (10x10), Rx Only, Distributed by: American Health Packaging,
+Columbus, Ohio 43217, NDC 60687-695-01 - Carton NDC [60687-695-11- Unit Dose]","CGMP Deviations: The recalling firm filed for Chapter 11 on September 30, 2024. As a result, it
+cannot monitor the quality program and hence cannot assure that products meet the identity,
+strength, quality, and purity characteristics that they are purported or represented to possess,
+rendering the products adulterated.",Nationwide within the United States,"Lot #: 1017392, Exp. Date 01/31/2026; 1017415, Exp. Date 12/31/2025."
+471,20251022,D-0028-2026,ASTRAZENECA PHARMACEUTICALS,Ongoing,Class II,Drugs,"Fasenra (benralizumab) Injection, 30 mg/mL, one single-dose pre-filled syringe, Rx only, Manufactured by:
+AstraZeneca AB, Sweden, Distributed by: AstraZeneca Pharmaceuticals LP, Wilmington, DE 19850. NDC 0310-1730-30",Lack of Assurance of Sterility:,Nationwide in the U.S,"Lot YJ0152, Expiry: 01/31/2028."
+472,20251022,D-0015-2026,IntegraDose Compounding Services LLC,Ongoing,Class I,Drugs,"Oxytocin 30 Units/500 mL in 0.9% Sodium Chloride for intravenous use, Rx only, IntegraDose Compounding
+Services LLC, 719 Kasota Ave Se, Minneapolis, MN 55414-2842  NDC 71139-0012-1",Subpotent Drug: Testing revealed there was no oxytocin in the IV bag.,Nationwide in the USA,"Lot #: 20250620OXY-1, Expiration date 10/18/2025"
+473,20251022,D-0017-2026,"Ascend Laboratories, LLC",Ongoing,Class II,Drugs,"Atorvastatin Calcium Tablets USP, 10 mg, Rx Only a) 90-count bottle (NDC 67877-511-90), b). 500-count bottle
+(NDC 67877-511-05), c). 1000-count bottle (NDC 67877-511-10) Manufactured by: Alkem Laboratories, Ltd. India,
+Distributed by: Ascend Laboratories, LLC, Parsippany, NJ 07054.",Failed Dissolution Specifications,U.S. Nationwide,"Lot#: 25141249, Exp. Feb. 2027 Lot#: 24144938, Exp. Nov. 2026 Lot#: 24144868, Exp. Nov. 2026 Lot#: 24144867, Exp. Nov. 2026 Lot#: 24144458, Exp. Sep. 2026 Lot#: 24143994, Exp. Sep. 2026 Lot#: 24142987, Exp. July 2026 Lot#: 24143316, Exp. July 2026"
+474,20251022,D-0018-2026,"Ascend Laboratories, LLC",Ongoing,Class II,Drugs,"Atorvastatin Calcium Tablets USP, 40 mg, Rx Only,  a). 90-count (NDC 67877-513-90), b).  500-count (NDC
+67877-513-05), c). 1000-count (NDC 67877-513-10),  Manufactured by: Alkem Laboratories, Ltd. India,
+Distributed by: Ascend Laboratories, LLC, Parsippany, NJ 07054.",Failed Dissolution Specifications,U.S. Nationwide,"Lot#: 25140933, Exp. Feb. 2027 Lot#: 25140477, Exp.  Dec. 2026 Lot#: 24144254, Exp. Oct. 2026 Lot#: 24144163, Exp.  Sep. 2026 Lot#: 24143995, Exp.  Sep. 2026"
+475,20251022,D-0023-2026,"STAQ Pharma, Inc.",Ongoing,Class III,Drugs,"Hydromorphone HCL PF, 10mg/50 mL (0.2mg/mL) in NACL, Injection for IV use, 50 mL Syringe, STAQ Pharma Inc.,
+14135 E 42nd Ave, Denver, Colorado, NDC 73177-0104-05.",Labeling: Incorrect or Missing Lot and/or Exp Date,Nationwide in the U.S.,"Lot #: 25104595A, Expiry: 27DEC2025."
+476,20251022,D-0025-2026,"STAQ Pharma, Inc.",Ongoing,Class III,Drugs,"FentaNYL Citrate PF, 500mcg/50 mL (10mcg/mL) in NACL, Injection for IV use, 50 mL syringe, STAQ Pharma Inc.,
+14135 E 42nd Ave, Denver, Colorado, NDC 73177-0102-05.",Labeling: Incorrect or Missing Lot and/or Exp Date,Nationwide in the U.S.,"Lot: 25102464B, Expiry: 26NOV2025; 25102370A, Expiry: 20OCT2025; 25102369A, Expiry: 19OCT2025."
+477,20251022,D-0021-2026,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"Viorele, Desogestrel and Ethinyl Estradiol, USP, 0.15 mg/ 0.02 mg and Ethinyl Estradiol Tablets, USP, 0.01 mg,
+3 Blisters each containing 28 Tablets, Rx only, 28 day Regimen, Manufactured by: Glenmark Pharmaceuticals
+Limited, Colvale-Bardez, Goa 403513, India, Manufactured for: Glenmark Pharmaceuticals Inc., USA., Mahwah, NJ,
+07430, NDC 68462-318-29.",Failed Impurities/Degradation Specifications,US Nationwide.,"Batch number 20230733, Exp Date: October 2025"
+478,20251022,D-0026-2026,"Endo USA, Inc.",Ongoing,Class III,Drugs,"Everolimus tablets 5mg, 28 tablets (each carton contains 4 blister strips with 7 tablets each), Rx only,
+Manufactured by: Par Pharmaceutical Chestnut Ridge, NY 10977, NDC 49884-125-91",Failed Impurities/Degradation Specifications: Out of specification for impurity IP-C.,Nationwide within the United States,"Lot #: 550172301, Exp. Date January 2026"
+479,20251022,D-0022-2026,SV Labs Prescott Corporation,Ongoing,Class II,Drugs,"Aloe Up Sport Performance Sunscreen Lotion SPF 30, 1 FL OZ (30 mL) per tube, Mfd. for: ALOE UP, 9700 W. 76th
+St., Ste 112, Eden Prairie, Minnesota 55344",cGMP deviations: the firm released and distributed product which failed total aerobic microbial count testing.,USA Nationwide,"Lot#: 25196, Exp 2/16/2026"
+480,20251015,D-0081-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Reconstitution XO Solution for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste
+204 Boca Raton, FL 33431-6692. Also labeled as manufactured for CELIA Health a) 5% Exosomes, 10 mL vial and b)
+10% Exosomes, 5 mL vial, Extension Health a) 20% Exosomes, 10 mL vial, b) 10% Exosomes, 10 mL vial and Medical
+Health Institute (MHI), a) 10 % Exosomes, 2mL vial, 5mL vial, 10mL vial, b) 5% Exosomes, 2mL vial, 5mL vial,
+10mL vial.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+481,20251015,D-0054-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Glycine for Injection, all strengths and presentations, GenoGenix LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+482,20251015,D-0051-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"GHK-Cu (Copper Peptide) for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste
+204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+483,20251015,D-0062-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Magnesium Chloride for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+484,20251015,D-0071-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Cerebrolysin for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+485,20251015,D-0057-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"L-Carnitine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+486,20251015,D-0064-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"N-Acetyl-L-Cysteine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+487,20251015,D-0065-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"NAD+ (Nicotinamide adenine dinucleotide), a) 50 mg/mL, b) 100 mg/mL, 10 mL multi-dose vials, all strengths and
+presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692. Also labeled as manufactured
+for CELIA Health",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+488,20251015,D-0063-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Methylene Blue for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+489,20251015,D-0007-2026,AvKARE,Ongoing,Class II,Drugs,"Norgestimate and Ethinyl Estradiol Tablets, USP, 0.18 mg/0.025 mg, 0.215 mg/0.025 mg, and 0.25 mg/0.025 mg, 3
+Units, 3x28 tablets blister cards per carton, Rx only,  Manufactured for AvKARE, Pulaski, TN 38478.  Carton
+NDC:  42291-565-84; Blister NDC:  42291-565-28",Failed Content Uniformity Specifications,U.S. Nationwide,Lot # LF41138A; Exp 06/30/2027
+490,20251015,D-0061-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Lysine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+491,20251015,D-0048-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Biotin for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+492,20251015,D-0049-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Calcium Chloride for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca
+Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+493,20251015,D-0039-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Amino Blend for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+494,20251015,D-0088-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Tesamorelin for Injection, 15mg, 10 mL Multi-Dose Vial, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,Lot#: GG020425-004 within expiry.
+495,20251015,D-0092-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Tirzepatide, 60mg/10 mL for Injection, 10mL vial lyophilized, all presentations, GenoGenix, LLC, 2840 NW 2nd
+Ave Ste 204 Boca Raton, FL 33431-6692. Also labeled as manufactured for Extension Health and Synergy Wellness
+60mg, 10mL vial lyophilized.",Lack of Assurance of Sterility,US Nationwide.,"Lots GG012925-005, GG021125-003, within expiry."
+496,20251015,D-0046-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Bacteriostatic Water for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692. Also labeled as manufactured for CELIA Health, Extension Health and Medical Health
+Institute",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+497,20251015,D-0066-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Taurine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+498,20251015,D-0055-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"L-Arginine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+499,20251015,D-0067-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Tri-Immune for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+500,20251015,D-0013-2026,The Harvard Drug Group LLC dba Major Pharmaceuticals and Rugby Laboratories,Ongoing,Class II,Drugs,"Major ChlorproMAZINE Hydrochloride Tablets, USP, 200 mg, 100 Tablets (10x10) blister package, Rx Only,
+Packaged and Distributed by Major Pharmaceuticals, Indianapolis, IN 46268, USA, NDC 0904-7133-61, UPC
+(01)00309047133611  NDC 0904-7133-61",CGMP Deviations: Presence of N-Nitroso Desmethyl Chlorpromazine above the recommended intake limit,Nationwide,"Lots N01928, Exp. Date, 09/30/2025, N02008, Exp. Date, 03/21/2026 & N02071, Exp. Date 02/28/2026"
+501,20251015,D-0069-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Vitamin D3 for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+502,20251015,D-0085-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"BPC-157 for Injection, 15mg/10mL vial, all presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton,
+FL 33431-6692.  Also labeled as manufactured for Medical Health Institute (MHI), 15mg, 10mL vial lyophilized.",Lack of Assurance of Sterility,US Nationwide.,Lot#: GG012825-002 within expiry.
+503,20251015,D-0093-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Retatrutide for Injection, 60mg / 10mL vial, all presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692",Lack of Assurance of Sterility,US Nationwide.,"Lot#: GG021125-019, within expiry."
+504,20251015,D-0011-2026,The Harvard Drug Group LLC dba Major Pharmaceuticals and Rugby Laboratories,Ongoing,Class II,Drugs,"Major ChlorproMAZINE Hydrochloride Tablets, USP, 50 mg, 100 Tablets, (10x10) blister package, Rx Only,
+Packaged and Distributed by Major Pharmaceuticals, Indianapolis, IN 46268, USA, NDC 0904-7131-61, UPC
+(01)00309047131617",CGMP Deviations: Presence of N-Nitroso Desmethyl Chlorpromazine above the recommended intake limit,Nationwide,"Lots N02009 & N02026, exp. date 02/28/2026"
+505,20251015,D-0010-2026,The Harvard Drug Group LLC dba Major Pharmaceuticals and Rugby Laboratories,Ongoing,Class II,Drugs,"Major ChlorproMAZINE Hydrochloride Tablets, USP, 25 mg, 100 Tablets (10x10) blister package, Rx Only, Packaged
+and Distributed by Major Pharmaceuticals, Indianapolis, IN 46268, USA, NDC 0904-7130-61, UPC
+(01)00309047130610",CGMP Deviations: Presence of N-Nitroso Desmethyl Chlorpromazine above the recommended intake limit,Nationwide,"Lots N01954, Exp. Date, 11/30/2025 & N02024, Exp. Date, 02/28/2026"
+506,20251015,D-0014-2026,"Acella Pharmaceuticals, LLC",Ongoing,Class II,Drugs,"Doxycycline Hyclate Tablets, USP 100 mg*, 500-count bottle, Rx Only, Distributed by: Acella Pharmaceuticals,
+LLC, Alpharetta, GA 30005, NDC 42192-501-05.","Failed dissolution specifications: Stability testing found that the lot did not meet dissolution
+specifications.",Nationwide in the USA,"Lot #: P24ZLK1, Exp 5/31/2027"
+507,20251015,D-0052-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Glutathione Magnesium for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692. Also labeled as manufactured for CELIA Health.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+508,20251015,D-0053-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Glutathione Preserved for Injection, all strengths and presentations, GenoGenix LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+509,20251015,D-0077-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Oxytocin for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+510,20251015,D-0005-2026,"Acuity Specialty Products, Inc.",Ongoing,Class II,Drugs,"AFCO, Hand Sanitizer (Isopropyl Alcohol-Based, Product 5515), Manufactured by: AFCO, 550 Development Avenue,
+Chambersburg, PA 17201, Toll Free: 800-345-1329, Package Configuration: a) 4x1 Gallon Case, 5 Gallon Pail, 55
+Gallon Drum.","cGMP deviations: The recall was initiated because required receipt testing of incoming alcohol
+components used to manufacture the listed hand sanitizers was not performed, so methanol risk
+could not be excluded.",US Nationwide.,"Lot # C2432725, Exp 11/22/2025; Lot # C2508304, Exp 3/24/2026; Lot # C2509304, Exp 4/3/2026."
+511,20251015,D-0042-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"B12 Hydroxocobalamin for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+512,20251015,D-0073-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"EDTA for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+513,20251015,D-0009-2026,The Harvard Drug Group LLC dba Major Pharmaceuticals and Rugby Laboratories,Ongoing,Class II,Drugs,"Major ChlorproMAZINE Hydrochloride Tablets, USP, 25 mg, 50 Tablets (5x10) blister package, Rx Only, Packaged
+and Distributed by Major Pharmaceuticals, Indianapolis, IN 46268, USA, NDC 0904-7130-06, UPC
+(01)00309047130061",CGMP Deviations: Presence of N-Nitroso Desmethyl Chlorpromazine above the recommended intake limit,Nationwide,"Lots N01943 and Lot N02025, exp. date 02/28/2026"
+514,20251015,D-0059-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Lipo MIC + L-Carnitine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+515,20251015,D-0038-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Alpha Lipoic Acid for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca
+Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+516,20251015,D-0044-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"B5 Dexpanthenol for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+517,20251015,D-0079-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Proline for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+518,20251015,D-0091-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Semaglutide for Injection, a) 20 mg b) 20 mg/mL, 10 mL Multi-Dose Vials, GenoGenix, LLC, 2840 NW 2nd Ave Ste
+204 Boca Raton, FL 33431-6692. Also labeled as manufactured for Synergy Wellness, 20 mg, 10mL vial
+lyophilized.",Lack of Assurance of Sterility,US Nationwide.,"Lot#: GG021125-001, GG031125-017, within expiry."
+519,20251015,D-0080-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"pH Buffered Reconstitution Solution for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW
+2nd Ave Ste 204 Boca Raton, FL 33431-6692. Also labeled as manufactured for Medical Health Institute (MHI),
+10mL.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+520,20251015,D-0074-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Elite Stack MSC Exosome Reconstitution Solution for Injection, all strengths and presentations, GenoGenix,
+LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692. Also labeled as manufactured for Extension Health, a)
+22 billion per vial, 8mL of solution in 10mL vial, b) 44 billion per vial, 8mL of solution in 10mL vial.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+521,20251015,D-0075-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Elite Stack Reconstitution Solution for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW
+2nd Ave Ste 204 Boca Raton, FL 33431-6692. Also labeled as manufactured for Extension Health and Medical
+Health Institute (MHI).",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+522,20251015,D-0040-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Ascorbic Acid (Vitamin C) for Injection, Preservative Free, all strengths and presentations, GenoGenix, LLC,
+2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+523,20251015,D-0043-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"B12 Methylcobalamin for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692. Also labeled as, manufactured for Synergy Wellness.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+524,20251015,D-0012-2026,The Harvard Drug Group LLC dba Major Pharmaceuticals and Rugby Laboratories,Ongoing,Class II,Drugs,"Major ChlorproMAZINE Hydrochloride Tablets, USP, 100 mg, 100 Tablets (10x10) blister package, Rx Only,
+Packaged and Distributed by Major Pharmaceuticals, Indianapolis, IN 46268, USA, NDC 0904-7132-61, UPC
+(01)00309047132614",CGMP Deviations: Presence of N-Nitroso Desmethyl Chlorpromazine above the recommended intake limit,Nationwide,"Lots N01920, Exp. Date, 12/31/2025, N02023, Exp. Date, 02/28/2026 & N02202, Exp. Date, 06/30/2026"
+525,20251015,D-0050-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"GAC for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+526,20251015,D-0004-2026,"Acuity Specialty Products, Inc.",Ongoing,Class II,Drugs,"Wyandotte, Sanifect E3, Hand Sanitizer (Ethanol-Based, Product 5511), Ethyl Alcohol 60.1%, Manufacture By:
+AFCO, 550 Development Avenue, Chambersburg, PA 17210, Toll Free: 800-345-1329, Package Configurations: a)
+6x1000mL Case, b) 4x1 Gallon Case, c) 5 Gallon Pail, d) 55 Gallon Drum.","cGMP deviations: The recall was initiated because required receipt testing of incoming alcohol
+components used to manufacture the listed hand sanitizers was not performed, so methanol risk
+could not be excluded.",US Nationwide.,"Lot # C2427010, Exp 9/26/2025; Lot # C2432621, Exp 11/21/2025; Lot # C2501514, Exp 1/15/2026; Lot # C2508606, Exp 3/27/2026."
+527,20251015,D-0047-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"B-Complex for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton,
+FL 33431-6692. B-Complex with B12 also labeled as manufactured for Synergy Wellness.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+528,20251015,D-0078-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Pentosan for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+529,20251015,D-0089-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Epithalon for Injection, 20mg, all presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL
+33431-6692 manufactured for Extension Health.",Lack of Assurance of Sterility,US Nationwide.,Lot#: GG053025-002 within expiry
+530,20251015,D-0070-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Zinc Sulfate for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+531,20251015,D-0094-2026,GenoGenix  LLC,Ongoing,Class I,Drugs,"NAD+ (Nicotinamide adenine dinucleotide) for Injection, a) 100 mg/mL b) 200 mg/mL, 10 mL multi-dose amber
+vials, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Microbial Contamination of Sterile Products: elevated endotoxin levels,US Nationwide.,"Lot#: GG121624-023, within expiry"
+532,20251015,D-0072-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"CoQ10 for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+533,20251015,D-0060-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Lipo MIC +B12 Methylcobalamin for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave
+Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+534,20251015,D-0058-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"L-Glutamine for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+535,20251015,D-0003-2026,"RC Outsourcing, LLC",Terminated,Class II,Drugs,"Bevacizumab 1.75 mg/0.07 mL - 0.25 mL syringe, Intravitreal, 0.07 mL Total Volume, Rx Only, Hospital/Office
+Use Only, Refrigerate, RC Outsourcing LLC, Lowellville, OH 44436.",Lack of assurance of sterility.,Nationwide in the US,"Lot #  20250708-768A26, BUD: Oct 06, 2025 20250715-944DF2 BUD: Oct 13, 2025 20250722-55C603 BUD: Oct 20, 2025 20250722-5DC113 BUD: Oct 20, 2025"
+536,20251015,D-0084-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Zinc Chloride for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+537,20251015,D-0041-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Ascorbic Acid (Vitamin C) for Injection, Preserved, all strengths and presentations, GenoGenix, LLC, 2840 NW
+2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+538,20251015,D-0087-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Thymosin Beta-4 (TB4) for Injection, 15mg, all presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,Lot#: GG060525-001 within expiry.
+539,20251015,D-0006-2026,"ACCORD HEALTHCARE, INC.",Ongoing,Class II,Drugs,"Levothyroxine Sodium Tablets, USP, 88 mcg (0.088 mg), 90 Tablets per bottle, Rx Only, Manufactured for Accord
+Healthcare, Inc., Raleigh, NC 27617, Manufactured by: Intas Pharmaceuticals Limited, Camp Road, Selaqui,
+Dehradun-248 197, India, NDC 16729-450-15.","Subpotent: During long term stability testing of Levothyroxine Sodium Tablets USP for 88 mcg,
+the assay content was observed below the approved specification range.",Nationwide in the US,"Lot # D2300045, Exp 12/31/2025."
+540,20251015,D-0008-2026,"Dr. Reddy's Laboratories, Inc.",Ongoing,Class II,Drugs,"Succinylcholine Chloride Injection, USP, 200 mg/10 mL (20 mg/mL), 25 x 10 mL Multiple-Dose Vials, For
+Intravenous or Intramuscular use, Rx Only, Distributor: Dr. Reddy's Laboratories Inc., Princeton, NJ 08540.
+NDC: 43598-666-25",Out-of-Specification (OOS) result during the 6-month stability testing; decreased preservative concentration.,Nationwide within the USA.,Lot # K250048
+541,20251015,D-0056-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"L-Arginine HCl for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+542,20251015,D-0076-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Low Solubility Peptide Reconstitution Solution for Injection, all strengths and presentations, GenoGenix, LLC,
+2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.Also labeled as manufactured for CELIA Health.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+543,20251015,D-0086-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"BPC-157/Thymosin Beta-4 for Injection, a) 10/10mg, b) 15/15mg, c) 15mg/15mg, all presentations, GenoGenix,
+LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692. Also labeled as manufactured for CELIA Health,
+Extension Health and Medical Health Institute (MHI).",Lack of Assurance of Sterility,US Nationwide.,"Lot#: GG020525-001, GG060525-001, GG062625-004, within expiry."
+544,20251015,D-0090-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Sermorelin Lyophilized powder for reconstitution, 10mg, Vial capacity 10 mL Multi-Dose, GenoGenix, LLC, 2840
+NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,Lot#: GG062425-002 within expiry.
+545,20251015,D-0045-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"B6 (Pyridoxine HCl) for Injections, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692. Also labeled as manufactured for Synergy Wellness",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+546,20251015,D-0082-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Sterile Saline Reconstitution Solution for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW
+2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+547,20251015,D-0083-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Semaglutide with B12 for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204
+Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+548,20251015,D-0068-2026,GenoGenix  LLC,Ongoing,Class II,Drugs,"Ultra Burn for Injection, all strengths and presentations, GenoGenix, LLC, 2840 NW 2nd Ave Ste 204 Boca Raton, FL 33431-6692.",Lack of Assurance of Sterility,US Nationwide.,All lots within expiry.
+549,20251008,D-0001-2026,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Entecavir Tablets, USP, 0.5 mg, 30-count bottle, Rx Only, Manufactured by: Zydus Lifesciences Ltd., Ahmedabad,
+India, Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534, NDC 68382-920-06.",Failed impurity/degradation specifications:Out of Specification result for an individual organic impurity,Distributed Nationwide in the USA,"Lot#: E409308, Exp 12/31/2026"
+550,20251008,D-0676-2025,Apotex Corp.,Ongoing,Class II,Drugs,"Brimonidine Tartrate/Timolol Maleate Ophthalmic Solution, 0.2%/0.5%, a) 5 mL and b) 10 mL, Rx Only, Sterile,
+Manufactured by: Apotex Inc., Richmond Hill, Ontario, Canada, L4C 5H2, Manufactured for: Apotex Corp., Weston,
+FL 33326, NDC 60505-0589-1 (5 mL), NDC 60505-0589-2 (10 mL).","Lack of Assurance of Sterility; atypical weight loss due to improper bottle sealing leading to
+potential sterility concerns",Nationwide in the US,a) lot # VE0614 exp. date 12/2025 UPC:(01)00360505058914 (5 mL)  b) lot # VE0616 exp. date 12/2025 UPC:(01)0(03)60505058921 (10 mL)
+551,20251008,D-0002-2026,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Entecavir Tablets, USP, 1 mg, 30-count bottle, Rx Only, Manufactured by: Zydus Lifesciences Ltd., Ahmedabad,
+India, Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534, NDC 68382-921-06.",Failed impurity/degradation specifications:Out of Specification result for an individual organic impurity,Distributed Nationwide in the USA,"Lot#: E409309, Exp 12/31/2026"
+552,20251008,D-0677-2025,Apotex Corp.,Ongoing,Class II,Drugs,"Ketorolac Tromethamine Ophthalmic Solution, 0.5%, 5 mL, Rx Only, Sterile, Manufactured by: Apotex Inc.,
+Richmond Hill, Ontario, Canada, L4C 5H2, Manufactured for: Apotex Corp., Weston, FL 33326, NDC 60505-1003-1.","Lack of Assurance of Sterility; atypical weight loss due to improper bottle sealing leading to
+potential sterility concerns",Nationwide in the US,"Batch # VA0444, exp. date 01/2026 Batch # VA4608, exp. date 01/2026 Batch # TZ7016, exp. date 12/2025  UPC on Bottles: (01)0(03)60505100316 UPC on Cartons: 360505100316"
+553,20251008,D-0675-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Carbamazepine Extended-Release Tablets, USP 400 mg, 30 Tablets per carton (3x10 unit dose cards), Rx Only,
+American Health Packaging, Columbus, OH 43217.  Carton NDC 60687-594-21; (Individual Dose NDC: 60687-594-11)",Failed Dissolution Specifications.,Nationwide in the USA.,"Lot #: 1024078, Exp. Date 08/31/2026"
+554,20251001,D-0662-2025,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"Azelaic Acid Gel, 15%, 50 grams, For Topical Use Only, Rx only, Manufactured by: Glenmark Pharmaceuticals
+Limited Colvale-Bardez, Goa 403513, India, Manufactured for: Glenmark Pharmaceuticals Inc., USA, Mahwah, NJ
+07430, NDC 68462-626-52",CGMP Deviations: Market complaints received for gritty texture (grainy),Nationwide within the United States,"Batch # 19252524, Exp Date: May 2027"
+555,20251001,D-0668-2025,Private Label Skin Care Inc.,Ongoing,Class II,Drugs,"edunn clarity, BP Treatment Cleanser 10% (Benzoyl Peroxide 10%), 7 oz (201g) Uptown Medi Spa, Phoenix, AZ.","Chemical Contamination: This recall has been initiated due to elevated levels of benzene that
+was discovered during post consume awareness with benzoyl peroxide products.","CA, GA only","Lot # 58170A and 58172A, Exp Date: 09/2025"
+556,20251001,D-0661-2025,"Consumer Product Partners, LLC",Ongoing,Class III,Drugs,"TopCare Health 70% Isopropyl Alcohol, NET WT 5.5 OZ (156 g) per can, Distributed By The KROGER CO.,
+Cincinnati, Ohio 45202.  NDC:  36800-589-14",Cross Contamination with Other Products.,US Nationwide.,Lot 0662036; Exp Date 06/19/2027
+557,20251001,D-0660-2025,"Consumer Product Partners, LLC",Ongoing,Class III,Drugs,"Kroger 70% Isopropyl Alcohol, NET WT 5.5 OZ (156 g) per can, Distributed By The KROGER CO., Cincinnati, Ohio
+45202.  NDC:  30142-810-14",Cross Contamination with Other Products.,US Nationwide.,Lot 0662036; Exp. Date  06/19/2027
+558,20251001,D-0663-2025,Private Label Skin Care Inc.,Ongoing,Class II,Drugs,"ARTISAN OF SKIN (Benzoyl Peroxide 10%) , 7 oz (201 g), Artisan of Skin Beverly Hills, CA 90210","Chemical Contamination: This recall has been initiated due to elevated levels of benzene that
+was discovered during post consume awareness with benzoyl peroxide products.","CA, GA only","Lot # 58170A and 58172A, Exp Date: 09/2025"
+559,20251001,D-0672-2025,Granules Pharmaceuticals Inc.,Ongoing,Class III,Drugs,"Dextroamphetamine Saccharate, Amphetamine Aspartate Monohydrate, Dextroamphetamine Sulfate and Amphetamine
+Sulfate, Extended-Release Capsules, (Mixed Salts of a Single Entity Amphetamine Product), 20 mg, 100 Capsules,
+Rx only, Manufactured by: Granules Pharmaceuticals Inc., Chantilly, VA 20151, NDC 70010-032-01",Failed Impurities/Degradation Specifications:,Distributed Nationwide in the USA,"Lot#: GPC250179A, Exp Date:  06-22-2027"
+560,20251001,D-0670-2025,Granules Pharmaceuticals Inc.,Ongoing,Class III,Drugs,"Dextroamphetamine Saccharate, Amphetamine Aspartate Monohydrate, Dextroamphetamine Sulfate and Amphetamine
+Sulfate, Extended-Release Capsules, (Mixed Salts of a Single Entity Amphetamine Product), 10 mg, 100 Capsules,
+Rx only, Manufactured by: Granules Pharmaceuticals Inc., Chantilly, VA 20151, NDC 70010-030-01",Failed Impurities/Degradation Specifications:,Distributed Nationwide in the USA,"lot#: GPC250159A, Exp Date: 06-22-2027"
+561,20251001,D-0666-2025,Private Label Skin Care Inc.,Ongoing,Class II,Drugs,"mel rx Skin, NO DRAMA Benzoyl Peroxide 10% Acne Treatment, 7 oz, 201 g Mel Skin Rx Beverly Hills, CA 90210","Chemical Contamination: This recall has been initiated due to elevated levels of benzene that
+was discovered during post consume awareness with benzoyl peroxide products.","CA, GA only","Lot # 58170A and 58172A, Exp Date: 09/2025"
+562,20251001,D-0669-2025,Granules Pharmaceuticals Inc.,Ongoing,Class III,Drugs,"Dextroamphetamine Saccharate, Amphetamine Aspartate Monohydrate, Dextroamphetamine Sulfate and Amphetamine
+Sulfate, Extended-Release Capsules, (Mixed Salts of a Single Entity Amphetamine Product), 5 mg, 100 Capsules,
+Rx only, Manufactured by: Granules Pharmaceuticals Inc., Chantilly, VA 20151, NDC 70010-029-01",Failed Impurities/Degradation Specifications:,Distributed Nationwide in the USA,"Lot#: GPC250158A, Exp Date: 06-22-2027"
+563,20251001,D-0671-2025,Granules Pharmaceuticals Inc.,Ongoing,Class III,Drugs,"Dextroamphetamine Saccharate, Amphetamine Aspartate Monohydrate, Dextroamphetamine Sulfate and Amphetamine
+Sulfate, Extended-Release Capsules, (Mixed Salts of a Single Entity Amphetamine Product), 15 mg, 100 Capsules,
+Rx only, Manufactured by: Granules Pharmaceuticals Inc., Chantilly, VA 20151, NDC 70010-031-01",Failed Impurities/Degradation Specifications:,Distributed Nationwide in the USA,"Lot#: GPC250178A, Exp Date: 06-22-2027"
+564,20251001,D-0667-2025,Private Label Skin Care Inc.,Ongoing,Class II,Drugs,"Micronized BPO Gel Cleanser 10% (Benzoyl Peroxide 10%) Pantea MD , 7 oz (201 g), University Skin Institute,
+650 University Ave, Ste 200, Sacramento, CA 95825.","Chemical Contamination: This recall has been initiated due to elevated levels of benzene that
+was discovered during post consume awareness with benzoyl peroxide products.","CA, GA only","Lot # 58170A and 58172A, Exp Date: 09/2025"
+565,20251001,D-0674-2025,"Medline Industries, LP",Ongoing,Class III,Drugs,"READYPREP PVP, Povidone-Iodine 10% Solution, Topical Antiseptic, Not Sterile, 1 Gallon (3.78 L) per bottle,
+Manufactured in USA by Medline Industries, LP., Three Lakes Drive, Northfield, IL 60093, NDC 53329-939-25",Subpotent drug,Nationwide in the USA,"Lot # 24EJA180, Exp 06/01/2027"
+566,20251001,D-0664-2025,Private Label Skin Care Inc.,Ongoing,Class II,Drugs,"Skin MD by Dr Monika Kiripolsky, Body Acne Cleanser (Benzoyl Peroxide 10%), 7 oz (201 g),  Monika Kiripolsky,
+MD Beverly Hills, CA, 90211","Chemical Contamination: This recall has been initiated due to elevated levels of benzene that
+was discovered during post consume awareness with benzoyl peroxide products.","CA, GA only","Lot # 58170A and 58172A, Exp Date: 09/2025"
+567,20251001,D-0665-2025,Private Label Skin Care Inc.,Ongoing,Class II,Drugs,"Torrey Pines Dermatology & Laser Center Benzaderm BPO Cleanser 10% (Benzoyl Peroxide 10%) 7oz (201 g), Torreypines.com","Chemical Contamination: This recall has been initiated due to elevated levels of benzene that
+was discovered during post consume awareness with benzoyl peroxide products.","CA, GA only","Lot # 58170A and 58172A, Exp Date: 09/2025"
+568,20251001,D-0673-2025,Granules Pharmaceuticals Inc.,Ongoing,Class III,Drugs,"Dextroamphetamine Saccharate, Amphetamine Aspartate Monohydrate, Dextroamphetamine Sulfate and Amphetamine
+Sulfate, Extended-Release Capsules, (Mixed Salts of a Single Entity Amphetamine Product), 30 mg, 100 Capsules,
+Rx only, Manufactured by: Granules Pharmaceuticals Inc., Chantilly, VA 20151, NDC 70010-034-01",Failed Impurities/Degradation Specifications:,Distributed Nationwide in the USA,"Lot#: GPC250181A, Exp Date: 06-19-2027"
+569,20251001,D-0659-2025,"YANGZHOU YULOU PAPER PRODUCTS CO., LTD",Ongoing,Class II,Drugs,"Quick Touch Alcohol Prep Pads(Isopropyl Alcohol 70%), 100 Sterile Pads per carton, AUM Pharmaceuticals, 320
+Oser Ave., Hauppauge, NY 11788.",cGMP Deviations,N/A,"Lot #: 20240610, Exp. Date 06/2029"
+570,20250924,D-0646-2025,Fagron Compounding Services,Ongoing,Class II,Drugs,"bevacizumab (Avastin) Injection, 1.25mg/0.05mL (0.12 mL Fill), Sterile Single-Dose Syringe, Fagron Sterile
+Services, 8710 E 34th St N. Wichita, KS 67226",Lack of Assurance of Sterility,USA nationwide.,"Lot #: C274-000044756, C274-000044757, Exp 8-30-2025; C274-000044832, C274-000044833, Exp 9-4-2025; C274-000044882, C274-000044883, Exp 9-6-2025, C274-000044972, Exp 9-8-2025; C274-000045004, C274-000045005, Exp 9-18-2025 C274-000045108, exp. date 9-13-2025 C274-000045109, exp. date 9-13-2025 C274-000045136, exp. date 9-14-2025 C274-000045137, exp. date 9-14-2025 C274-000045289, exp. date 9-20-2025 C274-000045290, exp. date 9-20-2025 C274-000045350, exp. date 9-22-2025 C274-000045351, exp. date 9-22-2025 C274-000045387, exp. date 9-25-2025 C274-000045388, exp. date 9-25-2025 C274-000045516, exp. date 9-27-2025 C274-000045517, exp. date 9-27-2025 C274-000045586, exp. date 10-2-2025 C274-000045587, exp. date 10-2-2025 C274-000045676, exp. date 10-4-2025 C274-000045677, exp. date 10-4-2025 C274-000045707, exp. date 10-5-2025 C274-000045708, exp. date 10-5-2025 C274-000045754, exp. date 10-9-2025 C274-000045755, exp. date 10-9-2025 C274-000045840, exp. date 10-11-2025 C274-000045841, exp. date 10-11-2025 C274-000046048, exp. date 10-24-2025 C274-000046049, exp. date 10-24-2025 C274-000046095, exp. date 10-25-2025 C274-000046096, exp. date 10-25-2025 C274-000046122, exp. date 10-26-2025 C274-000046123, exp. date 10-26-2025 C274-000046164, exp. date 10-30-2025 C274-000046165, exp. date 10-30-2025 C274-000046191, exp. date 10-31-2025 C274-000046192, exp. date 10-31-2025 C274-000046240, exp. date 11-1-2025 C274-000046241, exp. date 11-1-2025 C274-000046315, exp. date 11-6-2025 C274-000046316, exp. date 11-6-2025 C274-000046345, exp. date 11-7-2025 C274-000046346, exp. date 11-7-2025 C274-000046515, exp. date 11-14-2025 C274-000046516, exp. date 11-14-2025 C274-000046603, exp. date 11-16-2025 C274-000046657, exp. date 11-20-2025 C274-000047136, exp. date 12-12-2025"
+571,20250924,D-0657-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Entecavir Tablets, USP, 1 mg, 30 Tablets, Rx Only, Manufactured by: Zydus Lifesciences Ltd., Ahmedabad, India,
+Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534, NDC 68382-921-06.",Failed Impurity/Degradation Specifications,U.S. Nationwide,"Lot E309377, Exp 11/30/2025"
+572,20250924,D-0650-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 200 mg, 100 (10x10) blisterpack per carton, Rx Only, Distributed
+by: American Health Packaging, Columbus, Ohio 43217. NDC#: 60687-463-01 (Individual Dose NDC: 60687-463-11)","Presence of a foreign substance.A specific lot of auxiliary polyester coil, used in product
+packaging at the manufacturing site, was detected with presence of a micro-organism. No micro-
+organism was detected on any tablets.",Nationwide in the USA,"Lot: 1021640, Exp 10/31/2026; 1022639, Exp 01/31/2027"
+573,20250924,D-0648-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 50 mg, 100 (10x10) blisterpacks, Rx Only, Distributed by: American
+Health Packaging, Columbus, Ohio 43217. 50 Tablet Carton NDC#: 60687-441-01 (Individual Dose NDC:
+60687-441-11)","Presence of a foreign substance.A specific lot of auxiliary polyester coil, used in product
+packaging at the manufacturing site, was detected with presence of a micro-organism. No micro-
+organism was detected on any tablets.",Nationwide in the USA,"Lot: 1022159, exp 12/31/2026; 1023299, exp 03/31/2027; 1024057, Exp 04/30/2027"
+574,20250924,D-0653-2025,B BRAUN MEDICAL INC,Ongoing,Class II,Drugs,"0.9% SODIUM CHLORIDE IRRIGATION USP. ISOTONIC SOLUTION FOR IRRIGATION, 3000mL, Rx only, B. Braun Medical Inc.,
+Bethlehem, PA, 18018, USA, NDC 0264-7388-60.",Lack of Assurance of Sterility- Potential for fluid leakage from the port due to port misalignment.,U.S. Nationwide,"Lot#: : J4C521, J4C516, J4C524, Exp. : 28FEB2027."
+575,20250924,D-0652-2025,B BRAUN MEDICAL INC,Ongoing,Class II,Drugs,"STERILE WATER FOR INJECTION USP, 3000mL, Rx only, B. Braun Medical Inc., Bethlehem. PA 18018, NDC 0264-7385-60.",Lack of Assurance of Sterility- Potential for fluid leakage from the port due to port misalignment.,U.S. Nationwide,"Lot #:  J3L519, J3L528, Exp.: 31AUG2026 Lot #:  J4C522, J4C523, Exp.:28FEB2027"
+576,20250924,D-0649-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 100 mg, 100 (10x10) blisterpack per carton, Rx Only, Distributed
+by: American Health Packaging, Columbus, Ohio 43217.  Carton NDC#: 60687-452-01 (Individual unit dose blister
+pack NDC: 60687-452-11)","Presence of a foreign substance.A specific lot of auxiliary polyester coil, used in product
+packaging at the manufacturing site, was detected with presence of a micro-organism. No micro-
+organism was detected on any tablets.",Nationwide in the USA,"Lot: 1021652, Exp 10/31/2026; 1022539, Exp 01/31/2027; 1023666, Exp 03/31/2027"
+577,20250924,D-0645-2025,"Ascend Laboratories, LLC",Ongoing,Class II,Drugs,"Aripiprazole Tablets, USP, 10 mg, 30-count bottles, Rx only, Manufactured by: Alken Laboratories Ltd., INDIA;
+Distributed by: Ascend Laboratories, LLC, Parsippany, NJ 07054.  NDC: 67877-432-03",Superpotent drug,Nationwide in the USA.,"Lot #: 24144162, Exp. Date 09/2027"
+578,20250924,D-0658-2025,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Kit for the Preparation of Technetium Tc 99m Mertiatide, Rx Only, Manufactured by: Sun Pharmaceutical
+Industries, Inc. Billerica, MA 01821, NDC 45567-0655-1","Failed Dissolution Specifications-Out of Specification (OOS) observation for sulphate in Sodium
+Tartrate Dihydrate used for the production of Mertiatide.",US Nationwide.,Lot# AD70995; Exp 10/31/2025
+579,20250924,D-0647-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 25 mg, packaged as a) 50 (5x10) blisterpacks, NDC: 60687-430-65;
+(Individual Dose NDC: 60687-430-11); b) 100 (10x10) blisterpacks, NDC: 60687-430-01, (Individual Dose NDC:
+60687-430-11), Rx Only,  Distributed by: American Health Packaging, Columbus, Ohio 43217.","Presence of a foreign substance.A specific lot of auxiliary polyester coil, used in product
+packaging at the manufacturing site, was detected with presence of a micro-organism. No micro-
+organism was detected on any tablets.",Nationwide in the USA,"Lot:  a)1020919, 1021133, Exp 09/30/2026; 1021447, Exp 10/31/2026; 1021741, 1022202, Exp 11/30/2026; 1022474, Exp 12/31/2026  Lot: b) 1020460, exp 08/31/2026; 1022417, exp 12/31/2026"
+580,20250924,D-0655-2025,Unichem Pharmaceuticals USA Inc.,Ongoing,Class I,Drugs,"Cyclobenzaprine Hydrochloride Tablets, USP, 10 mg, 90-count bottle, RX only,    Manufactured by: Unichem
+Laboratories, Ltd, Pilerne Ind. Estate, Pilerne, Bardez, Goa, India; Manufactured for: Unichem Pharmaceuticals
+(USA), Inc. East Brunswick, NJ. NDC 29300-415-19.","Labeling: Label Mix Up; Bottles of Meloxicam USP, 7.5mg, 90-count tablets (yellow in color),
+were labeled as Cyclobenzaprine Hydrochloride Tablets USP, 10 mg 90-count tablets (blue in
+color).",Nationwide within the U.S.A,"Lot No: GMML24026A, Expires: 09/30/2027"
+581,20250924,D-0656-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Entecavir Tablets, USP, 0.5 mg, 30 Tablets, Rx Only, Manufactured by: Zydus Lifesciences Ltd., Ahmedabad,
+India, Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534, NDC 68382-920-06.",Failed Impurity/Degradation Specifications,U.S. Nationwide,Lot E309376; Exp 11/30/2025
+582,20250924,D-0651-2025,Sandoz Inc,Ongoing,Class II,Drugs,"Cyclophosphamide Injection 500 mg/5 mL (100 mg/mL), Hazardous Drug, Rx Only, Sterile, 5mL Multiple Dose Vial,
+Manufactured in Austria by Fareva Unterach GmbH for Sandoz Inc., Princeton, NJ 08540, Product of India, Vial
+NDC# 0781-3528-75, Carton NDC# 0781-3528-10.",cGMP deviations: Temperature excursion during transportation.,Nationwide in the USA,Only the following 6 GTN Numbers for Lot # 110459 exp. date 02/28/2027:           (01)00307813528104(21)10686040629319 (01)00307813528104(21)10687281435306 (01)00307813528104(21)10687409963168 (01)00307813528104(21)10701200331212 (01)00307813528104(21)10687325644911 (01)00307813528104(21)10687661160169
+583,20250924,D-0654-2025,Northwind Pharmaceuticals LLC,Ongoing,Class II,Drugs,"Sulfamethoxazole and Trimethoprim Tablets, USP 800mg / 160mg Double Strength packaged in a) 6-count bottles
+(NDC 51655-307-87), b) 10-count bottles (NDC 51655-307-53), c) 14-count bottles (NDC 51655-307-84), d)
+20-count bottles (NDC 51655-307-20) Rx Only, Repackaged from Amneal Pharmaceuticals LLC. Repackaged by:
+Northwind Pharmaceuticals, Indianapolis, IN 46203.","Presence of a Foreign Substance: A specific lot of auxiliary polyester coil, used in product
+packaging by manufacturer (Amneal Pharmaceuticals LLC) was detected with presence of a micro-
+organism. No micro-organism was detected on any tablets.",Nationwide within the United States,"Lot #: a) F118062503, Exp Date 05/31/2027, F118062507, Exp Date. 07/31/2027. b) F118062504, F118062505, Exp. Date 05/31/2027; F118062509, Exp. Date. 08/31/2027; F118062512, Exp. Date 04/30/2027. c) F118062506, Exp. Date 06/30/2027. d) F118062423, Exp. Date 01/31/2027; F118062501, Exp. Date 06/30/2027; F118062502, Exp. Date 04/30/2027; F118062508, Exp. Date 08/31/2027."
+584,20250917,D-0634-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 50 mg, 100-count bottle, Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534. NDC:
+70710-1131-1",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot #: Z306327, Exp Date 30-11-25; Z306748, Exp Date 30-11-25; Z401154, Exp Date 28-02-26; Z403738, Exp Date 31-05-26; Z405645, Exp Date 30-09-26"
+585,20250917,D-0630-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 10 mg, 100-count bottle, Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534.  NDC:
+70710-1129-1",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot #: Z403012, Exp Date 30-04-26; Z406657, Exp Date 30-11-26"
+586,20250917,D-0637-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 100 mg, 100-count bottle, Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Manufactured for: Northstar Rx LLC Memphis, TN 38141.  NDC: 16714-050-01",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot #: Z305456, Exp Date 31-10-25; Z401156, Exp Date 28-02-26; Z407306, Exp Date 30-11-26"
+587,20250917,D-0622-2025,World Perfumes Inc.,Ongoing,Class II,Drugs,"Iodo Blanco Iodides, First Aid Antiseptic, Mercury Free, Iodine 2%, First Aid Antiseptic, Contains 1 fl. oz
+(30 ml) per bottle, Distributed by: Essential Products, www.essentialproductsusa.com, NDC: 70242-109-01",Defective Container: broken or leaking bottles.,FL,"Lot 230619, Exp 06/30/2026"
+588,20250917,D-0626-2025,Sandoz Inc,Ongoing,Class II,Drugs,"Ciprofloxacin 0.3% and Dexamethasone 0.1% Otic Suspension Rx Only, For Use in Ears Only, Manufactured By:
+Novartis Manufacturing NV, Belgium, Distributed by: Sandoz, Inc., Princeton, NJ,  NDC# 0781-6186-67, Carton
+NDC# 0781-6186-67",Temperature Abuse,Product was distributed to one consignee in CA.,"Lot # VNF35A, Exp.08/31/2026"
+589,20250917,D-0633-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 25 mg, 100-count bottle, Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Manufactured for: Northstar Rx LLC Memphis, TN 38141.  NDC: 16714-048-01",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot #: Z305062, exp 31-08-25; Z306324, Exp Date 30-11-25; Z401151, Z401152, Exp Date 28-02-26"
+590,20250917,D-0632-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 25 mg, 100-count bottle,  Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534.  NDC:
+70710-1130-1",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot #: Z305060, Z305061, Exp Date 31-08-25; Z306323, Exp Date 30-11-25; Z401153, Exp Date 28-02-26; Z403015, Z403016, Exp Date 30-04-26; Z405591, Exp Date 30-09-26"
+591,20250917,D-0643-2025,AvKARE,Ongoing,Class II,Drugs,"chloroproMAZINE Hydrochloride Tablets, USP, 50 mg, 50 Tablets (5x10) unit dose carton, Rx only, Manufactured
+for: AvKare, Pulaski, TN, 38478, NDC 50268-164-15",Presence of a foreign substance.,USA Nationwide,"Lot # 46824, Exp 9/30/25; 47171, Exp 12/31/25"
+592,20250917,D-0639-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 200 mg, 100-count bottle, Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Manufactured for: Northstar Rx LLC Memphis, TN 38141.  NDC: 16714-051-01",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot #: Z305085, Exp Date 30-09-25; Z401166, Z401167, Exp Date 28-02-26"
+593,20250917,D-0635-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 50 mg, 100-count bottle, Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Manufactured for: Northstar Rx LLC Memphis, TN 38141.  NDC: 16714-049-01",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot #: Z306326, Exp Date 30-11-25; Z401155, Exp Date 28-02-26"
+594,20250917,D-0644-2025,AvKARE,Ongoing,Class II,Drugs,"chloroproMAZINE Hydrochloride Tablets, USP, 100 mg, 50 Tablets (5x10) unit dose carton, Rx only, Manufactured
+for: AvKare, Pulaski, TN, 38478, NDC 50268-165-15",Presence of a foreign substance.,USA Nationwide,"Lot # 47089, Exp 12/31/25; 47604, Exp 03/31/26"
+595,20250917,D-0629-2025,Atlantic Management Resources Ltd.,Ongoing,Class II,Drugs,"Neuroquell & Neuroquell Plus, .22 fl. Oz (6.6mL),Mfg. For/Dist. By Claire Ellen Products, P.O. Box 901
+Westboro, MA 01581 USA, NDC 66233712-01",cGMP violations,Product was distributed via the internet.,"Lot # B-02 Batch #: 1087920520 Product # R937 BBE#31-05-21( May 31, 2021)  Batch # 1087920920  Product # R937 BBE# 31-05-21 (May 31, 2021)"
+596,20250917,D-0641-2025,GRACE & FIRE PTY LTD,Ongoing,Class II,Drugs,"Ultra Violette Mini SPF Mates kit includes: Velvet Screen SPF 50 Blurring Mineral SkinScreen, Zinc Oxide
+22.75%, 15 mL, 0.5 fl. oz. per tube, Supreme Sunscreen SPF 50,  15 mL 0.5 fl. oz. per tube, Distributed by:
+Grace & Fire USA Inc., 251 Little Falls Drive, New Castle Wilmington, Delaware 19808, NDC 84803-110-01 (15 mL
+Velvet Screen), UPC 9355909005757.","Subpotent/Super-potent Product: Testing of the SPF 50 sunscreen revealed inconsistency in SPF
+results ranging from SPF 4, 10, 21, 26, 33, 60, 61, and 64.",Nationwide in the USA,"Lot #s: A2453, exp 11/30/2026; A2454, exp 12/31/2026"
+597,20250917,D-0623-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Succinylcholine Chloride Injection, USP 200 mg/10 mL (20 mg/mL), Rx only, 10 mL Multiple-dose Vial, Sterile,
+Manufactured by Zydus Lifesciences Ltd, Vadodara, India; Distributed by: Zydus Pharmaceuticals (USA) Inc.,
+Pennington, NJ 08534, NDC 70710-1377-1 (vial), NDC 70710-1377-2 (carton).","Failed Impurities/Degradation Specifications: Out-of-Specification test results obtained for any
+individual unknown degradation impurity.","MS, OH, LA, and Puerto Rico","Lot #s: L400077, exp: 8/31/2025; L400113, exp.: 9/30/2025; L400372, L400373, exp.: 3/31/2026; L400374, exp.: 4/30/2026."
+598,20250917,D-0636-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 100 mg, 100-count bottle, Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534.  NDC:
+70710-1132-1",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot #: Z305079, Z305080, Exp Date 30-09-25; Z305454, Z305455, Z305457, Z400492,  Z400493, Z400494, Exp Date 31-12-25; Z401158, Z401725, Z401726, Exp. Date 28-02-26; Z404118, Z404119, Z404120, Exp Date 30-06-26; Z405648, Exp Date 30-09-26"
+599,20250917,D-0640-2025,GRACE & FIRE PTY LTD,Ongoing,Class II,Drugs,"Ultra Violette, Velvet Screen SPF 50, Blurring Mineral Skinscreen, Zinc Oxide 22.75%, a) 15 mL, 0.5 fl. oz.
+per tube, NDC 84803-106-01, UPC 9355909006068, b) 50 mL, 1.7 fl. oz. per tube, NDC 84803-106-02, UPC
+9355909005924, Distributed by: Grace & Fire USA Inc., 251 Little Falls Drive, New Castle Wilmington, Delaware
+19808.","Subpotent/Super-potent Product: Testing of the SPF 50 sunscreen revealed inconsistency in SPF
+results ranging from SPF 4, 10, 21, 26, 33, 60, 61, and 64.",Nationwide in the USA,"Lot #s:  a) 15 mL tubes: A2455, exp 12/31/2026; b) 50 mL tubes: A2453A, A2453B, exp 11/30/2026; A2454A, exp 12/31/2026; A2550, exp 02/28/2027"
+600,20250917,D-0638-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 200 mg, 100-count bottle, Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Distributed by: Zydus Pharmaceuticals (USA) Inc., Pennington, NJ 08534.  NDC:
+70710-1133-1",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot #: Z305083, Z305084, Z305468, Z305469, Z305470, Exp Date  30-09-25; Z401163, Z401165, Exp Date 28-02-26; Z402217, Z402218, Exp Date 31-03-26; Z405518, Z405520, Exp Date 31-08-26; Z406235, Exp Date 31-10-26"
+601,20250917,D-0620-2025,Exela Pharma Sciences LLC,Ongoing,Class II,Drugs,"4.2% Sodium Bicarbonate Injection, USP, 5 mEq/10 mL (0.5 mEq/mL), For Intravenous Use Only, 10 mL Single Dose
+Vial, Rx Only, Manufactured and Distributed by: Exela Pharma Sciences, LLC, Lenoir, NC 28645 USA, NDC
+51754-5012-1 (vial); 51754-5012-4 (carton)","Failed Impurities/Degradation Specifications: out of specification results for arsenic in the
+impurities tested.",Nationwide in the USA,"Lot # 10004077, Exp. 02/28/2026"
+602,20250917,D-0621-2025,"Breckenridge Pharmaceutical, Inc.",Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules, USP, 30 mg, 1,000 Capsules per bottle, Rx Only, Manufactured by: Towa
+Pharmaceutical Europe, S.L., Martorelles, (Barcelona), Spain.  Manufactured for: Quallent Pharmaceuticals
+Health LLC, Grand Cayman, Cayman Islands.  NDC: 82009-030-10",CGMP deviations: N-nitroso-duloxetine impurity above the proposed interim limit.,"AZ, IN, NJ","Lot 240927C, Exp 04/30/2027"
+603,20250917,D-0625-2025,The Harvard Drug Group LLC dba Major Pharmaceuticals and Rugby Laboratories,Ongoing,Class II,Drugs,"Sulfamethoxazole and Trimethoprim, USP, 800 mg/160 mg, Double Strength, 10 Tablets unit dose blister pack
+(10x1) per bag, Rx only, Distributed by Cardinal Health, Dublin, OH 43017, NDC 55154-7895-0 (Outer Bag)
+containing NDC 0904-2725-61 (Inner blisters).","Presence of a Foreign Substance: A specific lot of auxiliary polyester coil, used in product
+packaging by manufacturer (Amneal Pharmaceuticals LLC) was detected with presence of a micro-
+organism. No micro-organism was detected on any tablets.",USA Nationwide.,"Bag: N02309A and N02309B, Exp Date: 03/31/2027; Inner blister: Lot # N02309, Exp Date: 03/31/2027"
+604,20250917,D-0631-2025,Zydus Pharmaceuticals (USA) Inc,Ongoing,Class II,Drugs,"Chlorpromazine Hydrochloride Tablets, USP, 10 mg, 100-count bottle, Rx only, Manufactured By: Zydus
+Lifesciences Ltd., Baddi, India; Manufactured for: Northstar Rx LLC Memphis, TN 38141.  NDC:  16714-047-01",CGMP Deviations: presence of N-Nitroso Desmethyl Chlorpromazine above the recommended acceptable intake limit,Nationwide in the USA,"Lot#: Z403011, Exp Date 30-04-26; Z407335, Exp Date 30-11-26"
+605,20250917,D-0642-2025,Lannett Company Inc.,Completed,Class II,Drugs,"Dextroamphetamine Saccharate, Amphetamine Aspartate, Dextroamphetamine Sulfate and Amphetamine Sulfate
+Tablets, 10mg, 100 Tablets per bottle, Rx only, Distributed by: Lannett Company, Inc., Philadelphia, PA 19136,
+NDC 0527-0762-37.","Presence of Foreign Tablet/Capsule: Two (2) bottles labeled as Dextroamphetamine Saccharate,
+Amphetamine Aspartate, Dextroamphetamine Sulfate and Amphetamine Sulfate Tablets, 10mg, 100ct,
+contained one (1) tablet of Dextroamphetamine Saccharate, Amphetamine Aspartate,
+Dextroamphetamine Sulfate and Amphetamine Sulfate Tablets, 5 mg.",OH,Lot#: 25283185A. Expiry: 02/28/2027
+606,20250917,D-0624-2025,The Harvard Drug Group LLC dba Major Pharmaceuticals and Rugby Laboratories,Ongoing,Class II,Drugs,"Sulfamethoxazole and Trimethoprim, USP, 800 mg/160 mg, Double Strength, 100 Tablets  unit dose blister packs
+(10x10) per carton, Rx only, Packaged and Distributed by: Major Pharmaceuticals, Indianapolis, IN 46268 USA,
+NDC 0904-2725-61","Presence of a Foreign Substance: A specific lot of auxiliary polyester coil, used in product
+packaging by manufacturer (Amneal Pharmaceuticals LLC) was detected with presence of a micro-
+organism. No micro-organism was detected on any tablets.",USA Nationwide.,"Lot # N02309, Exp 03/31/2027"
+607,20250910,D-0608-2025,Boothwyn Pharmacy LLC,Ongoing,Class II,Drugs,"Semaglutide, 2.5 mg/mL injection, 0.8 mL, Boothwyn Pharmacy",Subpotent Drug,U.S. Nationwide,03202025@9 BUD 07/18/2025
+608,20250910,D-0613-2025,"DermaRite Industries, LLC",Ongoing,Class I,Drugs,"PeriGiene, Health Care Antiseptic, (Chloroxylenol 0.5%) 222 mL (7.5 fl. oz.) per bottle, DermaRite Industries
+LLC, 7777 West Side Avenue, North Bergen, NJ 07047. NDC 61924-198-08","Microbial Contamination of Non-Sterile Drug Product: The products were found to be contaminated
+with the bacteria Burkholderia cepecia.",Nationwide within the USA,"Lot #: 31013A, Exp. Date 11/2025; 40345A, 40355A, Exp. Date 4/2026; 40571A, 40580A, Exp. Date 6/2026; 40587A, 40591A, Exp. Date 7/2026; 40870.1, 40877.1, Exp. Date 10/2026; 41093A, Exp. Date 12/2026; 50072A, 50079A, Exp. Date 1/2027"
+609,20250910,D-0628-2025,B BRAUN MEDICAL INC,Ongoing,Class I,Drugs,"0.9% Sodium Chloride Injection USP, 1000 mL container, Rx only, B. Braun Medical, Inc., Bethlehem, PA
+18018-3524 USA, NDC 0264-7800-09",Presence of Particulate Matter.,U.S.A. Nationwide,"Lot #: V3K770, Exp 1/31/2026"
+610,20250910,D-0611-2025,"DermaRite Industries, LLC",Ongoing,Class I,Drugs,"DermaSarra, External Analgesic, (Camphor 0.5%)  222 mL (7.5 fl. oz.) per bottle, DermaRite Industries LLC,
+7777 West Side Avenue, North Bergen, NJ 07047. NDC 61924-189-08","Microbial Contamination of Non-Sterile Drug Product: The products were found to be contaminated
+with the bacteria Burkholderia cepecia.",Nationwide within the USA,"Lot #: 40187.2, Exp. Date 2/2026"
+611,20250910,D-0607-2025,Boothwyn Pharmacy LLC,Ongoing,Class III,Drugs,"Fluorescein 2% Ophth, 3 ML, Boothwyn Pharmacy, 800-476-7496",Subpotent Drug,U.S. Nationwide,06092025@23 BUD 09/09/2025
+612,20250910,D-0619-2025,"Amneal Pharmaceuticals, LLC",Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 200 mg, 100-count bottles Rx only, Manufactured by: Amneal
+Pharmaceuticals Pvt. Ltd., Oral Solid Dosage Unit, Ahmedabad 382213, INDIA; Distributed by: Amneal
+Pharmaceuticals LLC, Bridgewater, NJ 08807, NDC 69238-1062-1.","Presence of a foreign substance.A specific lot of auxiliary polyester coil, used in product
+packaging was   detected with presence of a micro-organism. No micro-organism was detected on
+any tablets.",Distributed Nationwide in the USA,"Lot: AM240336, AM240337, Exp Date 02/28/2027."
+613,20250910,D-0618-2025,"Amneal Pharmaceuticals, LLC",Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 100 mg, 100-count  bottle, Rx Only, Manufactured by: Amneal
+Pharmaceuticals Pvt. Ltd., Oral Solid Dosage Unit, Ahmedabad 382213, INDIA; Distributed by: Amneal
+Pharmaceuticals LLC, Bridgewater, NJ 08807, NDC 69238-1060-1.","Presence of a foreign substance.A specific lot of auxiliary polyester coil, used in product
+packaging was   detected with presence of a micro-organism. No micro-organism was detected on
+any tablets.",Distributed Nationwide in the USA,"Lot: AM240334, AM240335, Exp Date 02/28/2027, AM241031, Exp Date 06/30/2027."
+614,20250910,D-0616-2025,"Amneal Pharmaceuticals, LLC",Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 25 mg, 100-count bottles, Rx Only, Manufactured by: Amneal
+Pharmaceuticals Pvt. Ltd., Oral Solid Dosage Unit, Ahmedabad 382213, INDIA, Distributed by: Amneal
+Pharmaceuticals LLC, Bridgewater, NJ 08807, NDC 69238-1056-1.","Presence of a foreign substance.A specific lot of auxiliary polyester coil, used in product
+packaging was   detected with presence of a micro-organism. No micro-organism was detected on
+any tablets.",Distributed Nationwide in the USA,"Lot AM240617, AM240618, Exp Date 04/30/2027"
+615,20250910,D-0610-2025,"DermaRite Industries, LLC",Ongoing,Class I,Drugs,"DermaKleen, Health Care Antiseptic Lotion Soap with Vitamin E (Chloroxylenol 0.2%), packaged in a) 800 ml (27
+fl. oz.) bag-n-box (NDC 61924-092-27)  and b) 1000ml (34 fl. oz.) bag-n-box (NDC 61924-092-34) , DermaRite
+Industries LLC, 7777 West Side Avenue, North Bergen, NJ 07047.","Microbial Contamination of Non-Sterile Drug Product: The products were found to be contaminated
+with the bacteria Burkholderia cepecia.",Nationwide within the USA,"Lot # and Expiration Date: a) 30550A, Exp. Date 7/2025; 30670A, 30682A, Exp. Date 8/2025; 40025A, Exp. Date 1/2026; 40375A, Exp. Date 4/2026; 40427A, 40436A, Exp. Date 5/2026; 50068A, Exp. Date 1/2027.  b)30586A, 30586B, 30626A, Exp. Date 7/2025; 30628A, 30657A, Exp. Date 8/2025;   30741A, Exp. Date 7/2025; 30871A, Exp. Date 10/2025; 40002A, Exp. Date 12/2025; 40012A, Exp. Date 1/2026; 40301A, Exp. Date 3/2026; 40789 A, Exp. Date 9/2026; 50068B, Exp. Date 1/2027; 50144A, 50149A, Exp. Date 2/2027."
+616,20250910,D-0615-2025,"Amneal Pharmaceuticals, LLC",Ongoing,Class II,Drugs,"Sulfamethoxazole and Trimethoprim Tablets, USP 800mg/160mg, Double Strength, Rx Only, Packaged as a) 100-count
+bottle, NDC 65162-272-10; b) 500-count bottle, NDC  65162-272-50; Manufactured by: Amneal Pharmaceuticals,
+Pvt. Ltd, Oral Solid Dosage Unit, Ahmedabad, 382213, INDIA, Distributed by: Amneal Pharmaceuticals LLC,
+Bridgewater, NJ 08807.","Presence of a foreign substance.A specific lot of auxiliary polyester coil, used in product
+packaging was   detected with presence of a micro-organism. No micro-organism was detected on
+any tablets.",Distributed Nationwide in the USA,"Lot a) AM240173, Exp Date 01/31/2027, AM240680, Exp Date 05/31/2027, AM 240921, Exp Date 06/30/2027, AM241191, Exp Date 08/31/2027.  Lot b) AM240176, AM240177, Exp Date 01/31/2027, AM240301, AM240300, Exp Date 02/28/2027, AM240676, AM240677, Exp Date 04/30/2027, AM240678, AM240679, Exp Date 05/30/2027. AM240922, AM240923, AM240924, AM240925, Exp Date 6/30/27, AM241086, Exp Date 7/31/27, AM241087, AM241088, Exp Date 8/31/27."
+617,20250910,D-0612-2025,"DermaRite Industries, LLC",Ongoing,Class I,Drugs,"KleenFoam, Antimicrobial Foam Soap with Aloe Vera, (Chloroxylenol 0.5%) 34 FL OZ (1000 mL) per cartridge,
+DermaRite Industries LLC, 7777 West Side Avenue, North Bergen, NJ 07047.  NDC 61924-093-34","Microbial Contamination of Non-Sterile Drug Product: The products were found to be contaminated
+with the bacteria Burkholderia cepecia.",Nationwide within the USA,"Lot #: 30705A, Exp. Date 8/2025; 30771A, Exp. Date 9/2025; 30920A, Exp. Date 10/2025; 40016A, Exp. Date 1/2026; 40303A, Exp. Date 4/2026; 40428A, Exp. Date 5/2026; 40505A, Exp. Date 6/2026; 41053C, 41053A, 41053B, Exp. Date 12/2026, 50017A, Exp. Date 1/2027."
+618,20250910,D-0617-2025,"Amneal Pharmaceuticals, LLC",Ongoing,Class II,Drugs,"chlorproMAZINE Hydrochloride Tablets, USP, 50 mg, 100-count bottle, Rx Only, Manufactured by: Amneal
+Pharmaceuticals Pvt. Ltd., Oral Solid Dosage Unit, Ahmedabad 382213, INDIA; Distributed by: Amneal
+Pharmaceuticals LLC, Bridgewater, NJ 08807, NDC 69238-1058-1.","Presence of a foreign substance.A specific lot of auxiliary polyester coil, used in product
+packaging was   detected with presence of a micro-organism. No micro-organism was detected on
+any tablets.",Distributed Nationwide in the USA,"Lot: AM240147, AM240148, Exp Date 01/31/2027; Lot AM240664,  AM240665, Exp Date 04/30/2027."
+619,20250910,D-0606-2025,Boothwyn Pharmacy LLC,Ongoing,Class II,Drugs,"Semaglutide, 2.5 mg/mL injection, 2 mL., Boothwyn Pharmacy",Subpotent Drug,U.S. Nationwide,"03202025@5, 03202025@6, 03202025@7, 03202025@8 BUD 07/18/2025"
+620,20250910,D-0627-2025,B BRAUN MEDICAL INC,Ongoing,Class I,Drugs,"Lactated Ringers's Injection USP, 1000 mL container, Rx only, B. Braun Medical, Inc., Bethlehem, PA 18018-3524
+USA, NDC 0264-7750-07",Presence of Particulate Matter,U.S.A. Nationwide,"Lot #: J4S807, Exp 5/31/2027"
+621,20250910,D-0614-2025,"IMMUNOCORE, LLC",Ongoing,Class II,Drugs,"KIMMTRAK (tebentafusp-tebn) Injection, 100 mcg/0.5 mL, For intravenous Infusion After Dilution, Single-Does
+vial. Mfd by: Immunocore Limited, 92 Park Drive, Abingdon, Oxfordshire, OX14 4RY, United Kingdom, For:
+Immunocore Commercial LLC, 181 Washington St, Conshohocken, PA, 19428, Product of Denmark   NDC 80446-0401-01
+Lot #: 3D009AA09, 3D009AA10, 3D009AA25, Exp Date: 31 MAR 2026   NDC 80446-0401-99 (Non-Commercial FG) Lot #:
+3D009AA02, Exp Date 31 MAR 2026",Subpotent Drug,US Nationwide,"NDC 80446-0401-01 Lot #: 3D009AA09, 3D009AA10, 3D009AA25, Exp Date: 31 MAR 2026   NDC 80446-0401-99 (Non-Commercial FG) Lot #: 3D009AA02, Exp Date 31 MAR 2026"
+622,20250910,D-0609-2025,Boothwyn Pharmacy LLC,Ongoing,Class II,Drugs,"Semaglutide, 2.5 mg/mL injection, 4 mL, Boothwyn Pharmacy",Subpotent Drug,U.S. Nationwide,"03202025@2, 03202025@3 and 03202025@4 BUD 07/18/2025"
+623,20250903,D-0604-2025,"MEDLINE INDUSTRIES, LP - Northfield",Ongoing,Class II,Drugs,"Good Neighbor Pharmacy, Alcohol Prep Pads, Distributed By AmeriSource Bergen, 1 West First Avenue,
+Conshohocken, PA 19428, Made in China: 100 eaches per box, 30 boxes per case, (3,000 eaches per case), NDC
+46122-043-78.",Subpotent Drug- isopropyl alcohol levels fall below the labeled concentration.,Nationwide,61224070074
+624,20250903,D-0601-2025,"MEDLINE INDUSTRIES, LP - Northfield",Ongoing,Class II,Drugs,"CURAD Alcohol Prep Pads, Sterile, Medium, 2-Ply, Contents: 5 boxes per Carton, 30 Boxes per Case, Single Use
+Only, Manufactured for Medline Industries, LP, Three Lakes Drive, Northfield, IL 60093, USA, Made in India,
+www.curad.com, 1-800-633-5463, NDC 53329-827-30",Subpotent Drug- isopropyl alcohol levels fall below the labeled concentration.,Nationwide,61224050002
+625,20250903,D-0597-2025,Cardinal Health Inc.,Ongoing,Class II,Drugs,"Enoxaparin Sodium Injection, USP, 30 mg/0.3 mL, packaged in 0.3 mL prefilled syringes further packaged in bags
+of 5 prefilled syringes, Rx Only, Dist. by: Sandoz Inc., Princeton, NJ 08540, Outer package - NDC
+55154-3543-5, Inner label - NDC 0781-3238-01","Correct Labeled Product Mispack: Bags labeled for Enoxaparin Sodium Injection, 80 mg/0.8 mL,
+contained Enoxaparin Sodium Injection, 30 mg/0.3 mL",KS,"Outer package - NDC 55154-3543-5, Lot SAD08033AA   Inner label - NDC 0781-3238-01, Lot SAF13211A"
+626,20250903,D-0602-2025,"MEDLINE INDUSTRIES, LP - Northfield",Ongoing,Class II,Drugs,"ReliOn, Sterile Alcohol Swabs, Skin Cleanser, 200 Swabs, Distributed by, Walmart, Inc., Bentonville, AR 72716
+Walmart: 200 eaches per box, 24 boxes per case (4,800 eaches per case), NDC 49035-814-60.",Subpotent Drug- isopropyl alcohol levels fall below the labeled concentration.,Nationwide,61224070073
+627,20250903,D-0596-2025,Baxter Healthcare Corporation,Ongoing,Class II,Drugs,"Acetaminophen Injection 1000 mg/100 mL (10 mg/mL), packaged in 100 mL Viaflo container, Rx only, Baxter
+Healthcare Corporation, Deerfield, IL 60015, Made in Ireland, NDC 36000-306-60.",Discoloration,U.S.A. Nationwide,"Lot #: 24A27G66, Exp 12/31/2025"
+628,20250903,D-0600-2025,"MEDLINE INDUSTRIES, LP - Northfield",Ongoing,Class II,Drugs,"Medline Alcohol Prep Pads, 70% Isopropyl Alcohol, 100 Sterile 2-Ply Pads, Single Use Only, Large,
+www.medline.com, Manufactured for Medline Industries, LP, Three Lakes Drive, Northfield, IL 60093 USA,
+1-800-MEDLINE, NDC 53329-811-30.",Subpotent Drug- isopropyl alcohol levels fall below the labeled concentration.,Nationwide,61224040057
+629,20250903,D-0599-2025,Lannett Company Inc.,Completed,Class II,Drugs,"Lisdexamfetamine Dimesylate Capsules, 40 mg, 100-count bottles, Rx Only, Distributed by: Lannett Company,
+Inc., Philadelphia, PA 19136. NDC 0527-4664-37","Labeling: Label Mix-up. A bottle labeled as Lisdexamphetamine Dimesylate Capsules 40mg,
+contained Lisdexamphetamine Dimesylate Capsules 30mg.",Nationwide within the USA,"Lot #: 25280726A, Exp. Date 03/2027"
+630,20250903,D-0598-2025,Amerisource Health Services LLC,Ongoing,Class II,Drugs,"Sucralfate Tablets, USP 1 gram, 100 Tablets, (10x10), Rx Only, Distributed by: American Health Packaging,
+Columbus, Ohio 43217 NDC 60687-695-01 - Carton NDC [60687-695-11- Unit Dose]","CGMP Deviations: The recalling firm filed for Chapter 11 in September 2024. As a result, it
+cannot monitor the quality program and hence cannot assure that products meet the identity,
+strength, quality, and purity characteristics that they are purported or represented to possess,
+rendering the products adulterated.",Nationwide,"Lot 1015038, Exp Date 07/31/2025, Lot 1015898, Exp Date 09/30/2025; Lot 1016873, Exp Date 10/31/2025 and Lot 1023398, Exp Date 07/31/2026."
+631,20250903,D-0605-2025,"MEDLINE INDUSTRIES, LP - Northfield",Ongoing,Class II,Drugs,"RITE AID PHARMACY, first aid alcohol prep pads, DISTRIBUTED BY: RITE AID. 200 NEWBERRY COMMONS, ETTERS, PA
+17319, NDC 11822-5156-2.",Subpotent Drug- isopropyl alcohol levels fall below the labeled concentration.,Nationwide,61224070083
+632,20250903,D-0603-2025,"MEDLINE INDUSTRIES, LP - Northfield",Ongoing,Class II,Drugs,"H-E-B, inControl, Sterile* Alcohol Pads, CONT. 100 PADS, Packaged in China with components from Taiwan,
+Elaborado Con Orgullo Y Cuidado PARA H-E-B, San Antonio, TX 78204, NDC 37808-809-09.",Subpotent Drug- isopropyl alcohol levels fall below the labeled concentration.,Nationwide,61224080041
+633,20250827,D-0592-2025,Haleon US Holdings LLC,Ongoing,Class III,Drugs,"Sensodyne PRONAMEL (Potassium nitrate 5%, Sodium fluoride 0.25%) Active SHIELD Toothpaste for Sensitive Teeth,
+Fresh Mint, Net WT 3.4OZ (96.4g) Tube, 6 tubes x 2 inners, per case, Distributed by GSK Consumer Healthcare,
+Warren, NJ 07059. UPC 3 10158 35691 2","Labeling: Label Mix-up: The outer carton is labelled Fresh Mint. The tube is labelled Cool
+Mint/Whitening. The toothpaste inside the tube is Fresh Mint as indicated on the outer carton",Nationwide in the USA.,"Lot # for Case: 5058RB, Exp. date: 08/31/2027 Lot # for Carton and Tube: NJ2A, Exp 08/31/2027"
+634,20250827,D-0593-2025,"Cipla USA, Inc.",Ongoing,Class III,Drugs,"Albuterol Sulfate, Inhalation Aerosol, 90 mcg, 200 metered Inhalations, NET CONTENT 6.7 g, Manufactured by:
+Cipla Ltd, Indore, SEZ, Pithampur, India; Manufactured for: Cipla USA, Inc. 10 Independence Boulevard, Suite
+300, Warren, NJ 07059, NDC 69097-142-60.","Failed Stability Specifications: Out of specification results was observed in Induction Port
+during the analysis of Particle size distribution at the 12-month time point.",U.S. Nationwide.,"Lot#: 4IB0519, Exp. 04/30/2026"
+635,20250827,D-0590-2025,PFIZER INC,Ongoing,Class II,Drugs,"Vial Label: Epinephrine Injection, USP, 1mg/10mL (0.1 mg/mL), Rx only, Distributed by Hospira, Inc., Lake
+Forest, IL 60045, USA. NDC 0409-4933-05.  Case: NDC 0409-4933-10.",Lack of Assurance of Sterility.,U.S. Nationwide,"Lot #: LY3681, LY4360, LY4416, Exp. 02/28/2026"
+636,20250827,D-0591-2025,PFIZER INC,Ongoing,Class II,Drugs,"Vial Label: 8.4% Sodium Bicarbonate Injection, USP, 50mEq/50 mL (1 mEq/mL), Rx only, Hospira, Inc., Lake
+Forest, IL 60045, USA, NDC 0409-6637-24.  Case NDC: 00409-6637-14.",Lack of Assurance of Sterility.,U.S. Nationwide,"Lot #: LH2671, Exp. 11/30/2026"
+637,20250827,D-0595-2025,VIONA PHARMACEUTICALS INC,Ongoing,Class II,Drugs,"Tavaborole Topical Solution 5%, 10 mL per glass bottle, Rx Only, For Topical Use Only, Manufactured by: Zydus
+Lifesciences Ltd., Changodar Ahmedabad, India.  Distributed by: Viona Pharmaceuticals Inc., Cranford, NJ
+07016.  NDC:  72578-102-04",Discoloration,Nationwide in the USA,Lot #: T401968
+638,20250827,D-0594-2025,The Harvard Drug Group LLC dba Major Pharmaceuticals and Rugby Laboratories,Ongoing,Class II,Drugs,"Carvedilol Tablets USP, 12.5 mg, 100- Tablets, (10x10) cartons, Rx Only, Packaged and distributed by Major
+Pharmaceuticals, Indianapolis, IN, 46268, USA, NDC 0904-7307-61","CGMP Deviations: Results for N-Nitroso Carvedilol Impurity-1 (NNCI) impurity observed to be
+above the FDA-recommended limit of NMT 4.0 ppm",Product was distributed nationwide within the United States.,"Lot #: T05693, Exp. Date 03/2026"
+639,20250827,D-0589-2025,"Taizhou Kangping Medical Science And Technology Co., Ltd.",Ongoing,Class II,Drugs,"BZK Antiseptic Towelette, Sterile, For External Use Only, benzalkonium chloride 0.13%, Antiseptic, 100
+towelettes per carton , For Professional use, Mfg by: Taizhou Kangping Medical, Taizhou, JiangSu, China, NDC:
+71310-111-01",Lack of Assurance of Sterility.,NY,"Lot Numbers: 220583459, 230553459, 232743459, 110523, 031524, 052224, 247793459"
+640,20250820,D-0586-2025,B BRAUN MEDICAL INC,Ongoing,Class II,Drugs,"0.9% Sodium Chloride Injection USP, L 8000, 1000mL Excel Container, Rx Only, Sterile, nonpyrogenic, single
+dose container, B. Braun Medical Inc., Bethlehem, PA 18018, NDC 0264-7800-00.",Lack of Assurance of Sterility; potential for fluid leakage at one of the weld sites.,Nationwide in the US,"Lot #: J5C919, Exp. 08/31/2027"
+641,20250820,D-0578-2025,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"Carvedilol Tablets, USP, 12.5 mg, 500-count bottle, Rx only, Manufactured by: Glenmark Pharmaceuticals Ltd,
+Colvale-Bardez, Goa, 403513, India. Manufactured for Glenmark Pharmaceuticals, Inc., USA, Mahwah, NJ 07430.
+NDC 68462-164-05","CGMP Deviations: Presence of a nitrosamine,  N-Nitroso Carvedilol I  Impurity above the current
+Acceptable Intake Level.",Nationwide in the USA,"Lot#:19243202, Exp: 7/31/2026."
+642,20250820,D-0580-2025,"Breckenridge Pharmaceutical, Inc.",Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules, USP, 60 mg, 1,000 Capsules per bottle, Rx Only, Manufactured by: Towa
+Pharmaceutical Europe, S.L., Martorelles, (Barcelona), Spain.  Manufactured for: Quallent Pharmaceuticals
+Health LLC, Grand Cayman, Cayman Islands. NDC  82009-032-10",CGMP Deviations: Presence of N-nitroso-duloxetine impurity above FDA recommended interim limit.,"NJ, AZ, IN","Lot 240539C, Exp 1/31/2027"
+643,20250820,D-0588-2025,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"Carvedilol Tablets, USP, 25 mg, 500 Tablets per carton, Rx Only, Manufactured by: Glenmark Pharmaceuticals
+Ltd., Plot No. 2, Phase-2, Pharma Zone SEZ, Pithampur, Dist.-Dhar, Madhya Pradesh 454 775, India.
+Manufactured for: Glenmark Pharmaceuticals Inc., USA, Mahwah, NJ 47430 NDC: 68462-165-05","CGMP Deviations: Results for N-Nitroso Carvedilol Impurity-1 (NNCI) impurity observed to be
+above the FDA-recommended limit of NMT 4.0 ppm",Nationwide within the USA,"Lot #: 17241213, 17241215, 17241224, Exp. Date 06/2026"
+644,20250820,D-0585-2025,B BRAUN MEDICAL INC,Ongoing,Class II,Drugs,"Lactated Ringer's Injection USP, L 7500, 1000mL Excel Container, Rx Only, Sterile, nonpyrogenic, single dose
+container, B. Braun Medical Inc., Bethlehem, PA 18018, NDC 0264-7750-00.",Lack of Assurance of Sterility; potential for fluid leakage at one of the weld sites.,Nationwide in the US,"Lot #: J5C802, J5C917, J5C918, Exp. 08/31/2027"
+645,20250820,D-0587-2025,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"Carvedilol Tablets, USP, 12.5 mg, 500 Tablets per carton, Rx Only, Manufactured by: Glenmark Pharmaceuticals
+Ltd., Plot No. 2, Phase-2, Pharma Zone SEZ, Pithampur, Dist.-Dhar, Madhya Pradesh 454 775, India.
+Manufactured for: Glenmark Pharmaceuticals Inc., USA, Mahwah, NJ 47430, NDC 68462-164-05","CGMP Deviations: Results for N-Nitroso Carvedilol Impurity-1 (NNCI) impurity observed to be
+above the FDA-recommended limit of NMT 4.0 ppm",Nationwide within the USA,"Lot #: 17241257, 17241258, 17241279, Exp. Date 06/2026"
+646,20250820,D-0576-2025,"Ascend Laboratories, LLC",Ongoing,Class II,Drugs,"Amlodipine and Olmesartan Medoxomil Tablets, 5 mg/ 40 mg, 30-count bottle, Rx Only, Manufactured by: Alkem
+Laboratories Ltd., INDIA; Distributed by: Ascend Laboratories, LLC, Parsippany, NJ 07054, NDC 67877-501-30",Failed Dissolution Specifications: low dissolution results,Nationwide in the USA,"Lot 23121560, Exp 4/30/2026"
+647,20250820,D-0583-2025,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"Theophylline extended-release tablets 400mg, 100-count bottle, Rx only, Manufactured by: Glenmark
+Pharmaceuticals Limited, Colvale-Bardez, Goa- 403513 India, Manufactured for: Glenmark Pharmaceuticals Inc.
+USA, Mahwah, NJ, NDC 68462-380-01","Failed Dissolution Specifications: Failure results (above) were reported for the Dissolution (by
+UV) test for commercial annual stability at the long-term shelf life stability interval, wherein
+the dissolution results do not comply with L3 stage dissolution criteria.",USA nationwide.,"Batch # 19243193, 19243215, 19243231,19243248, 19243283, Exp 7/31/2026; 19244530, 19244561, Exp 10/31/2026; 19250178, Exp 12/31/2026"
+648,20250820,D-0577-2025,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"Carvedilol Tablets, USP, 3.125 mg, Packaged as: a)500-count bottle, NDC 68462-162-05; b) 100-count bottle, NDC
+68462-162-01; Rx only, Manufactured by: Glenmark Pharmaceuticals Ltd, Colvale-Bardez, Goa, 403513, India.
+Manufactured for Glenmark Pharmaceuticals, Inc., Mahwah, NJ, USA, NJ 07430.","CGMP Deviations: Presence of a nitrosamine,  N-Nitroso Carvedilol I  Impurity above the current
+Acceptable Intake Level.",Nationwide in the USA,"Lot#: a)19242274, 19242275, 19242272, Exp: 5/31/20; b) 19242272, Exp: 5/31/2026"
+649,20250820,D-0575-2025,Pfizer,Ongoing,Class II,Drugs,"Levoxyl (levothyroxine sodium tablets, USP), 50 mcg, 100-count bottle, Rx only, Distributed by: Pfizer Inc.,
+New York, NY 10017, Made in Austria, NDC 60793-851-01.",Subpotent drug,Within U.S,"Lot #: 24C11, Exp 2/28/2026."
+650,20250820,D-0582-2025,Westminster Pharmaceuticals LLC,Ongoing,Class II,Drugs,"Metoprolol Tartrate Tablets, USP, 100 mg, 1000 Tablets, Rx Only, Manufactured by: Renata PLC (General Plant
+-2), Noyapara, Bhawal Mirzapur, Rajendrapur, Gazipur, 1700 Bangladesh, Distributed by: Westminster
+Pharmaceuticals, LLC, Nashville, TN 37217, NDC 69367-355-10","CGMP Deviations: Presence of a nitrosamine, N-nitroso-metoprolol above the established
+Acceptable Daily Intake (ADI) level.",Nationwide in the USA.,"Batch # R56240011, Exp Date: 2/28/26; Batch # R56240021, R56240031, Exp Date: 3/31/26; Batch # R56240041, R56240051, R56240061, Exp Date: 4/30/26; Batch # R56240071, Exp Date: 7/31/26"
+651,20250820,D-0581-2025,Westminster Pharmaceuticals LLC,Ongoing,Class II,Drugs,"Metoprolol Tartrate Tablets, USP, 50 mg, 1000 Tablets, Rx Only, Manufactured by: Renata PLC (General Plant
+-2), Noyapara, Bhawal Mirzapur, Rajendrapur, Gazipur, 1700 Bangladesh, Distributed by: Westminster
+Pharmaceuticals, LLC, Nashville, TN 37217, NDC 69367-354-10","CGMP Deviations: Presence of a nitrosamine, N-nitroso-metoprolol above the established
+Acceptable Daily Intake (ADI) level.",Nationwide in the USA.,"Batch # R55230021, R55230031, R55230041, Exp Date: 9/30/25; Batch # R55230051, R55230061, R55230071, R55230081, R55230091, R55230101, R55230111, R55230121, R55230131, R55230141, Exp Date: 10/31/2025; Batch # R55230151, Exp Date: 11/30/25; Batch # R55240011, Exp Date: 12/31/25; Batch # R55240021, R55240031, R55240041, R55240051, R55240061, Exp Date: 6/30/26; Batch # R55240071, R55240081, R55240091, R55240101, R55240111, R55240121, Exp Date: 7/31/26"
+652,20250820,D-0579-2025,"Glenmark Pharmaceuticals Inc., USA",Ongoing,Class II,Drugs,"Carvedilol Tablets, USP, 25 mg, 500-count bottle, Rx only, Manufactured by: Glenmark Pharmaceuticals Ltd,
+Colvale-Bardez, Goa, 403513, India. Manufactured for Glenmark Pharmaceuticals, Inc., USA, Mahwah, NJ 07430.
+NDC 68462-165-05","CGMP Deviations: Presence of a nitrosamine,  N-Nitroso Carvedilol I  Impurity above the current
+Acceptable Intake Level.",Nationwide in the USA,"Lot#:19243104, Expires: 7/31/2026."
+653,20250820,D-0584-2025,Merck & Co. Inc,Ongoing,Class II,Drugs,"Belsomra (suvorexant) tablets, 10mg, 30 Tablets in 3 Blister Cards per Carton, Each Blister Card contains 10
+Tablets, Rx only, Merck Sharp & Dohme LLC, Rahway, NJ 07065, USA, NDC 0006-0033-10 (Shellpack and Print Mat
+Labels), 0006-0033-30 (Carton Label)","Failed Dissolution Specifications: potential for delayed dissolution of the dose after
+administration which may result in delayed release of the drug, delaying onset of sleep.",Nationwide in the USA and PR.,"Lots 2090019 and 2123744, Exp. 4/30/2027"
+654,20250813,D-0552-2025,"Breckenridge Pharmaceutical, Inc.",Ongoing,Class II,Drugs,"Duloxetine Delayed-Release Capsules, USP, 60mg, 1,000-count bottles, Rx Only, Mfr. by: Towa Pharmaceutical
+Europe, S.L. Martorelles, (Barcelona), Spain, Distributed by: Breckenridge Pharmaceuticals, Inc., Berkeley
+Heights, NJ 07922. NDC 51991-748-10.",CGMP Deviations: Presence of N-nitroso-duloxetine impurity above safety assessment limit,U.S Nationwide,"Lot: 230836C, Exp.: 02/28/2026"
+655,20250813,D-0563-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Semaglutide +Cyanocobalamin 1.5 mg + 0.25mg/0.5 mL Inj Sol, Inject 0.5 mL (50 units on syringe)
+subcutaneously, Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA
+98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+656,20250813,D-0564-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Semaglutide + Cyanocobalamin injection solution, 2.21 mg + 0.25mg/0.5 mL Inj Sol, Inject 0.5 mL (50 units on
+syringe) subcutaneously, Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC,
+Kirkland, WA 98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+657,20250813,D-0567-2025,Direct Rx,Ongoing,Class II,Drugs,"Duloxetine D/R, 20 mg, 30 Caps, 30-count bottle, RX Only, Packaged & Distributed by: Direct Rx, Dist. By
+Breckenridge Pharm., Inc., Berlin, CT 06037, NDC 61919-422-30",CGMP Deviations: Presence of Nitrosamine Drug Substance Related Impurity above the proposed interim limit.,Nationwide,"Lot #: 02AU2406, Exp 01/31/2027"
+658,20250813,D-0562-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Semaglutide + Cyanocobalamin 0.88 mg + 0.25mg/0.5 mL Inj Sol, Inject 0.5 mL (50 units on syringe)
+subcutaneously, Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA
+98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+659,20250813,D-0555-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Tirzepatide + Niacinamide 4.4 mg + 1.0mg/0.5 mL Inj Sol, Inject 0.5 mL (50 units on syringe) subcutaneously,
+Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA 98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+660,20250813,D-0553-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Semaglutide + Cyanocobalamin 0.22 mg + 0.25mg/0.5 ml Inj Sol, Inject 0.5 mL (50 units on syringe)
+subcutaneously, Sterile, Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA
+98034.",Lack of Processing Controls.,MA,All Lots within expiry
+661,20250813,D-0574-2025,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Spironolactone Tablets, USP, 25 mg, 100-count bottle, Rx only, Mfg. by: Frontida BioPharm, Inc., 1100 Orthodox
+St, Philadelphia, PA 19124, Dist. by: Sun Pharmaceutical Industries, Inc., Cranbury, NJ 08512, NDC
+53489-143-01",Presence of foreign substance: identified as aluminum.,USA Nationwide,"Lot # P3314, Exp 11/30/2026"
+662,20250813,D-0554-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Tirzepatide + Niacinamide 2.2 mg + 1.0mg/0.5 mL Inj Sol, Inject 0.5 mL (50 units on syringe) subcutaneously,
+Sterile, 2mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA 98034.",Lack of Processing Controls.,MA,All Lots within expiry
+663,20250813,D-0573-2025,Cardinal Health Inc.,Ongoing,Class II,Drugs,"RECOMBINATE, [Antihemophilic Factor (Recombinant)], 5 mL vials, Rx Only, Takeda Pharmaceuticals USA,
+Cambridge, MA 02142, NDC: 00944-2843-01",CGMP Deviations - Product was exposed to temperatures outside the product's labeled storage requirements.,Nationwide Within the U.S.,"Lot: TRB23802AC, Expires: 03/18/2026; TRA22804AA, Expires: 10/18/2025"
+664,20250813,D-0558-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Tirzepatide + Niacinamide 11.24 mg + 1.0mg/0.5 mL Inj Sol,  Inject 0.5 mL (50 units on syringe)
+subcutaneously, Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA
+98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+665,20250813,D-0566-2025,Alembic Pharmaceuticals Limited,Ongoing,Class II,Drugs,"Doxepin Hydrochloride Capsules, USP, 10 mg, 100 Capsules, Rx only, Manufactured by: Alembic Pharmaceuticals
+Limited, Panela v 389350, Gujarat, India, Manufactured for: Alembic Pharmaceuticals, Inc., Bedminster, NJ
+07921, USA, NDC 62332-637-31",CGMP Deviations: Presence of Nitrosamine Drug Substance Related Impurity above the proposed interim limit.,Nationwide in the USA.,"Lot: 2305015142, Exp. Date: 9/30/2025"
+666,20250813,D-0561-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Semaglutide + Cyanocobalamin 0.44 mg + 0.25mg/0.5 mL Inj Sol,  Inject 0.5 mL (50 units on syringe)
+subcutaneously, Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA
+98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+667,20250813,D-0572-2025,Cardinal Health Inc.,Ongoing,Class II,Drugs,"Xolair (omalizumab injection), 75 mg/0.5 ml, Rx only, Genentech, Inc., South San Francisco, CA 94080, NDC 50242-214-55",CGMP Deviations - Product was exposed to temperatures outside the product's labeled storage requirements.,Nationwide Within the U.S.,"Lot: 3630004, Expires: 10/31/2025."
+668,20250813,D-0560-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Tirzepatide + Niacinamide 16.6 mg + 1.0mg/0.5 mL Inj Sol,  Inject 0.5 mL (50 units on syringe) subcutaneously,
+Sterile, 3 x 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA 98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+669,20250813,D-0556-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Tirzepatide + Niacinamide  6.6 mg + 1.0mg/0.5 mL Inj Sol, Inject 0.5 mL (50 units on syringe) subcutaneously,
+Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA 98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+670,20250813,D-0565-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Semaglutide + Cyanocobalamin 2.67 mg + 0.25mg/0.5 mL Inj Sol, Inject 0.5 mL (50 units on syringe)
+subcutaneously, Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA
+98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+671,20250813,D-0557-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Tirzepatide + Niacinamide 8.8 mg + 1.0mg/0.5 ml Inj Sol,  Inject 0.5 mL (50 units on syringe) subcutaneously,
+Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA 98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+672,20250813,D-0571-2025,Cardinal Health Inc.,Ongoing,Class II,Drugs,"Xolair (omalizumab injection), 150 mg/ml, 1 auto-injector, Rx only, Genentech, Inc, South San Francisco, CA
+9408, NDC: 50242-215-55.",CGMP Deviations - Product was exposed to temperatures outside the product's labeled storage requirements.,Nationwide Within the U.S.,"Lot: 3617756, Expires: 12/31/2025."
+673,20250813,D-0559-2025,AEQUITA PHARMACY,Ongoing,Class II,Drugs,"Tirzepatide + Niacinamide 13.2 mg + 1.0mg/0.5 mL Inj Sol, Inject 0.5 mL (50 units on syringe) subcutaneously,
+Sterile, 2 mL Multi Dose Vial, Refrigerate, Do not freeze, Aequita Pharmacy LLC, Kirkland, WA 98034.",Lack of Processing Controls.,MA,All Lots within expiry.
+674,20250813,D-0568-2025,Direct Rx,Ongoing,Class II,Drugs,"Duloxetine D/R, 30 mg, 30 Caps, RX Only, Packaged as a) 30-count bottle NDC 61919-0482-30, b) 60-count bottle,
+NDC 61919-0482-60, c) 90-count bottle, NDC 61919-0482-90;   Packaged & Distributed by: Direct Rx, Dist. By
+Breckenridge Pharm., Inc., Berlin, CT 06037,",CGMP Deviations: Presence of Nitrosamine Drug Substance Related Impurity above the proposed interim limit.,Nationwide,"Lot #:  a) 15AU2420, 01JY2407, 04OC2411, Exp 01/31/2027; 12SE2418, 24OC2424, 20NO2416, Exp 03/31/2027; 21AU2313, 21JY2311, 05JY2313, Exp Date 01/31/2026 b) 13OC2310, 05SE2304, 04AU2306, 21JY2317, 12JY2306, Exp 01/31/2026; 11JY2416, 28JU2414, 19AU2412, 02AU2409, Exp 01/31/2027; 11SE2416, 24OC2425, Exp 03/31/2027;  c) 23AU2317, 21AU2314, Exp 01/31/2026."
+675,20250806,D-0542-2025,Lupin Pharmaceuticals Inc.,Ongoing,Class II,Drugs,"Amlodipine and Benazepril HCl Capsules USP 2.5 mg/10 mg, 100 Capsules bottle, Rx Only, Manufactured for: Lupin
+Pharmaceuticals, Inc., Naples, FL, 34108, United States, Manufactured by: Lupin Limited, Goa 103 722, INDIA,
+NDC 68180-755-01.","Labeling: Incorrect or Missing Lot and/or Exp Date: released with wrong expiry date as Feb.2027
+instead of Jan.2027",Nationwide in the US,"Lot GB01616, expiration 2/28/2027"
+676,20250806,D-0543-2025,FDC Limited,Ongoing,Class II,Drugs,"Timolol Maleate Ophthalmic Solution USP, 0.5%, Sterile, 5mL bottles, Rx only, Manufactured by: FDC Limited,
+Waluj, Aurangabad, Maharashtra, India, Distributed by: Rising Pharmaceuticals Inc, New Jersey, NDC
+64980-514-05.",Defective Container: spike of the cap becomes lodged in the nozzle of the product bottle.,U.S Nationwide.,"Lot#: 083L061, Exp.: 11/2025."
+677,20250806,D-0547-2025,"Nostrum Laboratories, Inc.",Ongoing,Class II,Drugs,"Sucralfate Tablets, USP 1 gram, packaged in a) 100-count bottles NDC 29033-0003-01, and b) 500-count bottles,
+NDC 29033-0003-05), Rx Only, Manufactured by: Nostrum Laboratories, Inc., Kansas City, MO 64120.","CGMP Deviations: The recalling firm filed for Chapter 11 in September 2024. As a result, it
+cannot monitor the quality program and hence cannot assure that products meet the identity,
+strength, quality, and purity characteristics that they are purported or represented to possess,
+rendering the products adulterated.",nationwide within the United States,All Lots within expiry dates.
+678,20250806,D-0544-2025,Pfizer Inc.,Ongoing,Class II,Drugs,"Bicillin L-A (penicllin G benzathine injectable suspension), 1,200,000 units per 2 mL, 2 mL-vial, Rx Only,
+Distributed by Pfizer Inc., New York, NY 10001. Made in Austria, Carton NDC -  60793-701-10, Syringe NDC -
+60793-701-02",CGMP Deviations; particulates identified during visual inspection,Nationwide in the USA,"Lots: HJ3235, Exp 09/30/26;  GL2954, HP6222,  Exp, 01/31/27; HR9967, Exp 05/31/27; HP6232, LT5190,Exp 09/30/27; HP6228, Exp 10/31/27;"
+679,20250806,D-0551-2025,Hikma Pharmaceuticals USA Inc.,Ongoing,Class II,Drugs,"Lorazepam Injection, USP, 2 mg/mL, 25 x 1mL vials/carton, Rx Only, Manufactured by:  Hikma Berkeley Heights,
+NJ 07922, NDC# 0641-6044-25",Failed Impurities/Degradation Specifications: An out-of-Specification for total related compounds,Distributed Nationwide in the USA,"Lot # K24118, exp. date 10/31/2026"
+680,20250806,D-0545-2025,Pfizer Inc.,Ongoing,Class II,Drugs,"Bicillin L-A (penicillin G benzathine injectable suspension), 2,400,000 units per 4 mL, 4ml-vial, Rx Only,
+Distributed by Pfizer Inc., New York, NY 10001, Made in Austria, Carton NDC- 60793-702-10 , Syringe
+NDC-60793-702-04",CGMP Deviations; particulates identified during visual inspection,Nationwide in the USA,"Lots GT2598, GT2599, Exp 09/30/26; HK2909, Exp 02/28/27; HR9969, Exp 04/30/27;  HR9984, Exp 08/31/27."
+681,20250806,D-0546-2025,"Strides Pharma, Inc.",Ongoing,Class II,Drugs,"Cinacalcet Tablets 90 mg, 30-count bottles, Rx only, Manufactured by: Strides Pharma Science Ltd. Puducherry,
+India; Distributed by: Strides Pharma Inc. East Brunswick, NJ 08816, NDC 64380-885-04",Failed Dissolution Specifications.,Product was distributed nationwide within the United States,"Lot #: 7715893A, Exp. Date 12/31/2027"
+682,20250730,D-0536-2025,"Imprimis NJOF, LLC",Completed,Class III,Drugs,"Tropicamide-Proparacaine-Phenylephrine-Ketorolac, Sterile Ophthalmic Solution, 1% 0.5% 2.5% 0.5%, 5mL, 2x5ML
+vial per carton, Rx Only, Imprimis NJOF, LLC, 1705 Route 46 West, Unit 6B, Ledgewood, NJ 07852, NDC
+71384-733-05.",Sub-Potent Drug: Subpotent assay results during stability testing.,Nationwide in the USA,"Lot: 25MAR032, Exp. 07/16/2025."
+683,20250730,D-0539-2025,Mckesson Medical-Surgical Inc. Corporate Office,Ongoing,Class II,Drugs,"EVENITY, (romosozumab -aqqg) injection, 105mg/1.17 mL, For Subcutaneous Use Only, Rx Only, Manufactured by:
+Amgen Inc., Thousand Oaks, CA 91320, NDC 55513-880-02.",CGMP Deviations; potential temperature excursions due to transit delays,"Within the U.S - OH, VA, FL.","Lot: 1178382, Expiration date: 3/31/2027"
+684,20250730,D-0541-2025,"Cipla USA, Inc.",Ongoing,Class II,Drugs,"Budesonide Inhalation Suspension, 0.5mg/2ml, 30 single-dose ampules per carton, five per pouch, RX Only,
+Manufactured by: Cipla Ltd. Indore SEZ, Pithampur, India. Manufactured for: Ciple USA, Inc. 10 Independence
+Boulevard, Suite 300, Warren, NJ 07059. NDC# 69097-319-86 (pouch), 69097-319-87 (carton)",Lack of Assurance of Sterility: A market complaint was received for leakage and empty ampoule.,Distributed Nationwide in the USA,"Batch # 4IA0505, Exp 09/31/2026"
+685,20250730,D-0535-2025,"Imprimis NJOF, LLC",Completed,Class II,Drugs,"Epinephrine Lidocaine HCL, 0.25mg/mL and 7.5 mg/mL, 20x1 mL Vials per carton, Rx Only, Imprimis NJOF, 1705
+Route 46 West, Unit 6B Ledgewood, NJ, 07852 NDC: 71384-641-01",Sub-Potent Drug: Subpotent assay results during stability testing.,Nationwide in the USA,"Lot: 24DEC017, Exp. 07/12/2025."
+686,20250730,D-0537-2025,Lupin Pharmaceuticals Inc.,Terminated,Class II,Drugs,"clomiPRAMINE Hydrochloride Capsules USP 25 mg, 100 count bottles, 5801 Pelican Bay Boulevard, Suite 500,
+Naples, Florida 34108, NDC# 68180-492-01","Failed Impurities/Degradation Specifications: an out of specification result observed in
+degradation product test (any unspecified degradation product) during retention sample testing
+at expiry.",Nationwide.,"Lot # M300464, exp. date June, 2025"
+687,20250730,D-0540-2025,Mckesson Medical-Surgical Inc. Corporate Office,Ongoing,Class II,Drugs,"BENLYSTA  (belimumab) for injection, 400 mg/20 mL vial, Rx only, NDC 49401-102-01, GSK.",CGMP Deviations; potential temperature excursions due to transit delays,"Within the U.S - OH, VA, FL.","Lot: YK4W, Expiration date: 4/30/2029"
+688,20250730,D-0538-2025,Mckesson Medical-Surgical Inc. Corporate Office,Ongoing,Class II,Drugs,"PROLIA (denosumab), injection, 60mg/mL, For Subcutaneous Use Only, Rx Only, Manufactured by: Amgen Inc.,
+Thousand Oaks, CA 91320, NDC 55513-710-21",CGMP Deviations; potential temperature excursions due to transit delays,"Within the U.S - OH, VA, FL.","Lot: 1180924, Expiration date: 6/30/2027."
+689,20250723,D-0532-2025,Lupin Pharmaceuticals Inc.,Ongoing,Class II,Drugs,"Lisinopril and Hydrochlorothiazide Tablets USP 20mg/12.5mg, 100-count bottles, Rx only,  Mfg for: Lupin
+Pharmaceuticals, Inc. Baltimore, MD 21202, Manufactured by: Lupin Limited Nagpur-441 108, INDIA, NDC
+68180-519-01","Product Mix Up: This product is being recalled because of a complaint received that a sealed
+bottle of lisinopril and hydrochlorothiazide tablets 20mg/12.5 mg had a foreign tablet
+identified as atazanavir and ritonavir tablet 300mg/100mg.",Product was distributed nationwide within the United States.,"Lot #: QA01081, Exp. Date April 2027"
+690,20250723,D-0523-2025,"ACCORD HEALTHCARE, INC.",Ongoing,Class II,Drugs,"Levothyroxine Sodium Tablets, USP, 150 mcg (0.15 mg), 1000-count bottle, Rx Only, Manufactured for: Accord
+Healthcare, Inc., Raleigh, NC 27617, Manufactured by: Intas Pharmaceuticals Limited, Camp Road, Selaqui,
+Dehradun-248 197, India, NDC 16729-455-17",Subpotent Drug:  Assay below the approved specification,Nationwide in the USA,"Lot #D2300076, Exp Date: 12/31/2025"
+691,20250723,D-0530-2025,"Central Admixture Pharmacy Services, Inc (CAPS)  Los Angeles",Ongoing,Class II,Drugs,"PERIPHERAL PARENTERAL NUTRITION, Compounded Sterile Preparation, Refrigerated Injection, Rx Only, Single Dose
+Injection, a) 1440 mL bag, b) 1700 mL bag, Central Admixture Pharmacy Services, Inc, Los Angeles, 13128
+Imperial Hwy, Santa Fe Spr., CA 90870.","Lack of Processing Controls; prescriptions were compounded in an ISO-5 area where it was
+identified that a daily cleaning step was not sufficiently documented.",CA,"Lot: a) 11-4785290-0-1, BUD: 6/19/2025 @ 11:32 pm; b) 11-4785217-0-1, BUD: 6/19/2025 @ 10:25 pm."
+692,20250723,D-0534-2025,"Ascend Laboratories, LLC",Ongoing,Class II,Drugs,"Rizatriptan Benzoate Tablets, USP, 10 mg, 18 (3x6) Unit Dose Tablets, Rx Only, Manufactured by: Alkem
+Laboratories Ltd., INDIA, Distributed by: Ascend Laboratories LLC, Parsippany, NJ 07054, NDC 67877-262-18","CGMP Deviations: detection of N-nitroso-dimethyl-rizatriptan impurity, above the FDA recommended
+acceptable intake limit.",US Nationwide.,"Lot 22143653, 22143675, Exp Date: July 2025; Lot 22144528, Exp Date: September 2025; Lot 22144977, Exp Date: November 2025; Lot 23140257, Exp Date: December 2025; Lot 23140999, Exp Date: Feb. 2026; Lot 23141900, 23142118, 23142120, 23142123, Exp Date: May 2026; Lot 23144563, 23144565, Exp Date: November 2026; Lot 24142623, Exp Date: May 2027;  Lot 24142624, 24142626, 24143469, Exp Date: Jun. 2027."
+693,20250723,D-0518-2025,"ACCORD HEALTHCARE, INC.",Ongoing,Class II,Drugs,"Levothyroxine Sodium Tablets, USP, 25 mcg (0.025 mg), 90-count bottle, Rx Only, Manufactured for: Accord
+Healthcare, Inc., Raleigh, NC 27617, Manufactured by: Intas Pharmaceuticals Limited, Camp Road, Selaqui,
+Dehradun-248 197, India, NDC 16729-447-15",Subpotent Drug:  Assay below the approved specification,Nationwide in the USA,"Lot #D2300325, Exp Date: 01/31/2026; Lot #D2400536, Exp Date: 02/28/2026"
+694,20250723,D-0517-2025,"Qualgen, LLC",Ongoing,Class III,Drugs,"Testosterone 200 mg Pellet packaged in 1mL amber vials, Rx only, Compounded product. Qualgen 14844 Bristol
+Park Blvd Edmond OK 73013, NDC 69761-202-01","Labeling: Incorrect or Missing Lot and/or Exp. Date: A printing issue resulted in incorrect lot
+numbers on the label.",Nationwide within the United States.,"Lot number: 1043, Exp. Date 2/10/2026"
+695,20250723,D-0525-2025,"Dr. Reddy's Laboratories, Inc.",Ongoing,Class II,Drugs,"Omeprazole Delayed-release Capsules, USP, 20mg, 1000-count bottle, Rx Only, Manufactured by: Dr. Reddy's
+Laboratories Limited, Bachupally - 500 090 INDIA, Manufactured for: Qualient Pharmaceuticals Health LLC, Grand
+Cayman, Cayman Islands, NDC 82009-022-10.  NDC 82009-022-10","Presence of foreign tablets/capsules: presence of foreign Divalproex Sodium Extended-Release
+250mg tablet in a bottle of omeprazole capsules.",USA Nationwide,"Lot: C2403017, Exp 12/31/2026"
+696,20250723,D-0548-2025,"A.P. Deauville, LLC",Ongoing,Class II,Drugs,"Power Stick for her PH Balanced Roll-On Antiperspirant Deodorant with Powder Fresh Scent, 1.8 oz./53 mL, A.P
+Deauville, LLC, PA 18040, NDC# 42913-038-00, UPC Code 815195019313",CGMP Deviations,U.S. Nationwide,"Lot #  032026B011, 032226B031, 051626C241, 061526C882, 071226D371, 071226D381, 082526E341, 082826E402"
+697,20250723,D-0516-2025,SUN PHARMACEUTICAL INDUSTRIES INC,Ongoing,Class II,Drugs,"Lisdexamfetamine Dimesylate Capsules, 60 mg,    CII, 100-count bottles, Rx only, Manufactured by: OHM
+Laboratories, New Brunswick, NJ 08901, Distributed by: Sun Pharmaceuticals, Inc., Cranbury, NJ 08512, NDC
+57664-051-88","Failed Dissolution Specifications: An out of specification results observed in dissolution test
+during analysis at 9 month long term stability station (25¿C, 60%RH).",Recalled units were distributed to 17 distributors who may have further distributed the product nationwide.,"Lot # AD42648, Exp 02/28/2026"
+698,20250723,D-0520-2025,"ACCORD HEALTHCARE, INC.",Ongoing,Class II,Drugs,"Levothyroxine Sodium Tablets, USP, 50 mcg (0.05 mg), 90-count bottle, Rx Only, Manufactured for: Accord
+Healthcare, Inc., Raleigh, NC 27617, Manufactured by: Intas Pharmaceuticals Limited, Camp Road, Selaqui,
+Dehradun-248 197, India, NDC 16729-448-15",Subpotent Drug:  Assay below the approved specification,Nationwide in the USA,"Lot #D2300087, Exp Date: 12/31/2025"
+699,20250723,D-0524-2025,"ACCORD HEALTHCARE, INC.",Ongoing,Class II,Drugs,"Levothyroxine Sodium Tablets, USP, 175 mcg (0.175 mg), 1000-count bottle, Rx Only, Manufactured for: Accord
+Healthcare, Inc., Raleigh, NC 27617, Manufactured by: Intas Pharmaceuticals Limited, Camp Road, Selaqui,
+Dehradun-248 197, India, NDC 16729-456-17",Subpotent Drug:  Assay below the approved specification,Nationwide in the USA,"Lot #D2300042, Exp Date: 12/31/2025"
+700,20250723,D-0522-2025,"ACCORD HEALTHCARE, INC.",Ongoing,Class II,Drugs,"Levothyroxine Sodium Tablets, USP, 112 mcg (0.112 mg), 1000-count bottle, Rx Only, Manufactured for: Accord
+Healthcare, Inc., Raleigh, NC 27617, Manufactured by: Intas Pharmaceuticals Limited, Camp Road, Selaqui,
+Dehradun-248 197, India, NDC 16729-452-17",Subpotent Drug:  Assay below the approved specification,Nationwide in the USA,"Lot #D2300104, Exp Date: 12/31/2025"

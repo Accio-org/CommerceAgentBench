@@ -1,0 +1,13 @@
+{
+  "name": "box-cli-mock",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Stateful Box CLI mock for RealReplicaBench",
+  "scripts": {
+    "smoke": "bash smoke_test.sh"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  }
+}

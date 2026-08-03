@@ -1,0 +1,33 @@
+{
+  "certifications": [
+    {
+      "standard": "CE",
+      "region": "EU",
+      "cert_number": "CE-TB-2026-0142",
+      "valid_from": "2026-04-01",
+      "valid_until": "2029-03-31",
+      "scope": "Portable gas-burning camping appliances",
+      "applicable_platforms": ["shopify"]
+    },
+    {
+      "standard": "PSE",
+      "region": "Japan",
+      "cert_number": "PSE-JP-2026-GAS-0089",
+      "valid_from": "2026-05-15",
+      "valid_until": "2029-05-14",
+      "scope": "Portable gas cooking appliances (携帯用ガス調理器具)",
+      "applicable_platforms": ["amazon_jp"],
+      "required_warning_text": "本製品はカセットガスを使用します。換気の良い場所でご使用ください。密閉空間での使用は一酸化炭素中毒の危険があります。",
+      "warning_label_required": true
+    },
+    {
+      "standard": "CCC",
+      "region": "China",
+      "cert_number": "CCC-2026-OUTDOOR-1158",
+      "valid_from": "2026-03-20",
+      "valid_until": "2029-03-19",
+      "scope": "便携式燃气炉具",
+      "applicable_platforms": ["douyin"]
+    }
+  ]
+}

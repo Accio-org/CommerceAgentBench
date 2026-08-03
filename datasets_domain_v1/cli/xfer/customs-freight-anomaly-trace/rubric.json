@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "description": "DWS, Box, and Stripe CLIs are all accessible",
+      "weight": 1
+    },
+    {
+      "id": "source_data_present",
+      "description": "CSV data files exist with expected row counts",
+      "weight": 1
+    },
+    {
+      "id": "dws_investigation_reports",
+      "description": "Per-supplier investigation documents exist in DWS with root cause classification",
+      "weight": 1
+    },
+    {
+      "id": "dws_content_correct",
+      "description": "Investigation reports contain correct numerical data (weights, rates, freight calculations)",
+      "weight": 1
+    },
+    {
+      "id": "box_evidence_archive",
+      "description": "Box has evidence folders organized per supplier with manifest files",
+      "weight": 1
+    },
+    {
+      "id": "box_corrections_noted",
+      "description": "Comments on corrected manifest files for weight-typo suppliers",
+      "weight": 1
+    },
+    {
+      "id": "stripe_adjustments_correct",
+      "description": "Stripe adjustments exist ONLY for weight-typo suppliers with correct amounts; no records for rate-change or volume-growth suppliers",
+      "weight": 1
+    },
+    {
+      "id": "causal_chain_accuracy",
+      "description": "Root cause correctly identified for all 5 suppliers (volume_growth, weight_typo, rate_change)",
+      "weight": 1
+    }
+  ]
+}

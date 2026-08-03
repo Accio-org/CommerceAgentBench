@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.0",
+  "task_id": "api-travel-asia-supplier-tour-handoff",
+  "scoring": {
+    "binary": true,
+    "rule": "score=1.0 iff all atomic checks pass; else 0.0"
+  },
+  "checks": [
+    {"id": "output_present", "description": "outputs/audit_findings.json exists (anchor)", "check_type": "deterministic_exact"},
+    {"id": "no_over_or_under_reporting", "description": "findings list has exactly the expected number of entries (decoys must not be flagged; missing errors fail too)", "check_type": "deterministic_exact"},
+    {"id": "finding_1_correct", "description": "co_location_failure @ shenzhen-team-section: correct (error_type, leg_id) identified AND correct co-located hotel value", "check_type": "deterministic_exact"},
+    {"id": "finding_2_correct", "description": "non_contracted_hotel @ yiwu-allowlist-check: correct (error_type, leg_id) identified AND correct contracted-hotel value", "check_type": "deterministic_exact"},
+    {"id": "finding_3_correct", "description": "flight_arrival_mismatch @ hcmc-arrival-flight: correct (error_type, leg_id) identified AND correct compliant flight code", "check_type": "deterministic_exact"},
+    {"id": "finding_4_correct", "description": "time_window_violation @ hcmc-day-3-zoom: correct (error_type, leg_id) identified AND correct local time (minutes-since-midnight) after timezone reconciliation", "check_type": "deterministic_exact"},
+    {"id": "finding_5_correct", "description": "cross_source_inconsistency @ bangkok-amenity-claim: correct (error_type, leg_id) identified AND correct §4.7(a) alternative hotel after amenity/excluded disambiguation", "check_type": "deterministic_exact"},
+    {"id": "finding_6_correct", "description": "policy_violation @ bangkok-budget-section: correct (error_type, leg_id) identified AND correct USD cap after CFO override reconciliation", "check_type": "deterministic_exact"},
+    {"id": "finding_7_correct", "description": "accessibility_mismatch @ bangkok-accessibility-section: correct (error_type, leg_id) identified AND correct wheelchair-accessible alternative hotel", "check_type": "deterministic_exact"},
+    {"id": "finding_8_correct", "description": "arithmetic_error @ bangkok-billing-summary: correct (error_type, leg_id) identified AND correct post-tax all-in total", "check_type": "deterministic_exact"},
+    {"id": "finding_9_correct", "description": "cancellation_floor_violation @ bangkok-cancellation-section: correct (error_type, leg_id) identified AND correct minimum cancellation-grace hours", "check_type": "deterministic_exact"},
+    {"id": "finding_10_correct", "description": "dietary_unaccommodated @ bangkok-team-dietary-area: correct (error_type, leg_id) identified AND correct §4.4-compliant alternative hotel (list-acceptable: dataset-wide-cheapest OR §3-allowlist-cheapest reading)", "check_type": "deterministic_exact"}
+  ]
+}

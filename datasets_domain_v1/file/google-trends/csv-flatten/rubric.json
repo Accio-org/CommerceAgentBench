@@ -1,0 +1,12 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-google-trends-csv-flatten",
+  "scoring_formula": "score = passed_checks / total_checks",
+  "checks": [
+    {"id": "setup_gate", "description": "outputs/trends_flat.csv exists and is non-empty", "check_type": "deterministic_exact"},
+    {"id": "header_correct", "description": "Header row equals 'week_iso,slug,brand,value,partial_data' (exact columns and order)", "check_type": "deterministic_exact"},
+    {"id": "all_rows_complete", "description": "Data row count equals 2120 (8 categories * 5 brands * 53 weeks) — no rows dropped, including the partial-data week the BI sample lure tempts omitting", "check_type": "deterministic_exact"},
+    {"id": "serialization_valid", "description": "Every non-header line parses as 5 comma-separated fields with integer value/partial_data", "check_type": "deterministic_exact"},
+    {"id": "row_values_correct", "description": "Every sampled (slug, brand, week_iso) tuple has the correct value and partial_data flag — the flatten transform (epoch->ISO week, slug minus set_, lowercased verbatim brand, value, 0/1 partial). Internally validates 50 sampled rows; reason lists failures.", "check_type": "deterministic_exact"}
+  ]
+}

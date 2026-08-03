@@ -1,0 +1,4 @@
+return_id,marketplace_case_id,response_due,sla_hours_remaining,allowed_internal_action
+RET-55812,CASE-901,2026-05-25T18:00:00Z,18,partial refund evidence review
+RET-66104,CASE-902,2026-05-25T12:00:00Z,12,customer refund/replacement plus carrier claim
+RET-77017,CASE-903,2026-05-26T09:00:00Z,33,request more evidence or platform review

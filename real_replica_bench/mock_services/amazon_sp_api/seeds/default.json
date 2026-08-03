@@ -1,0 +1,1898 @@
+{
+  "_comment": "Default seed for Amazon SP-API mock Wave 0. All field names match fact-sheet schemas exactly. See scratch/docs/api_alignment/amazon_spapi.md.",
+  "marketplaces": [
+    {
+      "id": "ATVPDKIKX0DER",
+      "name": "Amazon.com",
+      "countryCode": "US",
+      "defaultCurrencyCode": "USD",
+      "defaultLanguageCode": "en_US",
+      "domainName": "www.amazon.com"
+    },
+    {
+      "id": "A1PA6795UKMFR9",
+      "name": "Amazon.de",
+      "countryCode": "DE",
+      "defaultCurrencyCode": "EUR",
+      "defaultLanguageCode": "de_DE",
+      "domainName": "www.amazon.de"
+    },
+    {
+      "id": "A1F83G8C2ARO7P",
+      "name": "Amazon.co.uk",
+      "countryCode": "GB",
+      "defaultCurrencyCode": "GBP",
+      "defaultLanguageCode": "en_GB",
+      "domainName": "www.amazon.co.uk"
+    }
+  ],
+  "sellers": [
+    {
+      "sellerId": "A2BENCH00001",
+      "businessType": "PRIVATE_LIMITED",
+      "sellingPlan": "PROFESSIONAL",
+      "marketplaceParticipationList": [
+        {
+          "marketplace": {
+            "id": "ATVPDKIKX0DER",
+            "name": "Amazon.com",
+            "countryCode": "US",
+            "defaultCurrencyCode": "USD",
+            "defaultLanguageCode": "en_US",
+            "domainName": "www.amazon.com"
+          },
+          "participation": {
+            "isParticipating": true,
+            "hasSuspendedListings": false
+          },
+          "storeName": "Bench Test Store"
+        },
+        {
+          "marketplace": {
+            "id": "A1PA6795UKMFR9",
+            "name": "Amazon.de",
+            "countryCode": "DE",
+            "defaultCurrencyCode": "EUR",
+            "defaultLanguageCode": "de_DE",
+            "domainName": "www.amazon.de"
+          },
+          "participation": {
+            "isParticipating": true,
+            "hasSuspendedListings": false
+          },
+          "storeName": "Bench Test Store DE"
+        },
+        {
+          "marketplace": {
+            "id": "A1F83G8C2ARO7P",
+            "name": "Amazon.co.uk",
+            "countryCode": "GB",
+            "defaultCurrencyCode": "GBP",
+            "defaultLanguageCode": "en_GB",
+            "domainName": "www.amazon.co.uk"
+          },
+          "participation": {
+            "isParticipating": true,
+            "hasSuspendedListings": false
+          },
+          "storeName": "Bench Test Store UK"
+        }
+      ],
+      "business": {
+        "name": "Bench Test Seller LLC",
+        "registeredBusinessAddress": {
+          "addressLine1": "123 Commerce Way",
+          "addressLine2": "Suite 400",
+          "city": "Seattle",
+          "stateOrProvinceCode": "WA",
+          "postalCode": "98101",
+          "countryCode": "US"
+        },
+        "companyRegistrationNumber": "WA-12345678",
+        "companyTaxIdentificationNumber": "98-7654321"
+      },
+      "primaryContact": {
+        "name": "Jane Bench",
+        "address": {
+          "addressLine1": "456 Test Ave",
+          "city": "Seattle",
+          "stateOrProvinceCode": "WA",
+          "postalCode": "98102",
+          "countryCode": "US"
+        }
+      }
+    }
+  ],
+  "catalog": [
+    {
+      "asin": "B0BENCH001",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "BenchPro Wireless Ergonomic Keyboard",
+          "brand": "BenchPro",
+          "color": "Space Gray",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Electronics",
+          "modelNumber": "BP-KB-2026",
+          "partNumber": "BP-KB-2026-SG",
+          "releaseDate": "2026-01-15",
+          "websiteDisplayGroup": "229189",
+          "websiteDisplayGroupName": "Keyboards",
+          "browseClassification": {
+            "displayName": "Computer Keyboards",
+            "classificationId": "172635"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": true,
+          "packageQuantity": 1,
+          "contributors": []
+        },
+        {
+          "marketplaceId": "A1PA6795UKMFR9",
+          "itemName": "BenchPro Kabellose Ergonomische Tastatur",
+          "brand": "BenchPro",
+          "color": "Space Grau",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Electronics",
+          "modelNumber": "BP-KB-2026",
+          "releaseDate": "2026-01-15",
+          "websiteDisplayGroup": "229189",
+          "websiteDisplayGroupName": "Tastaturen",
+          "browseClassification": {
+            "displayName": "Computer-Tastaturen",
+            "classificationId": "172635"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": true,
+          "packageQuantity": 1,
+          "contributors": []
+        }
+      ],
+      "identifiers": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "identifiers": [
+            { "identifierType": "UPC", "identifier": "012345678901" },
+            { "identifierType": "EAN", "identifier": "0012345678901" }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "images": [
+            {
+              "variant": "MAIN",
+              "link": "https://m.media-amazon.com/images/I/bench-kb-main.jpg",
+              "height": 1500,
+              "width": 1500
+            }
+          ]
+        }
+      ],
+      "salesRanks": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "classificationRanks": [
+            {
+              "classificationId": "172635",
+              "title": "#12 in Computer Keyboards",
+              "link": "https://www.amazon.com/Best-Sellers-Keyboards/zgbs/electronics/172635",
+              "rank": 12
+            }
+          ],
+          "displayGroupRanks": [
+            {
+              "websiteDisplayGroup": "229189",
+              "title": "#450 in Electronics",
+              "rank": 450
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asin": "B0BENCH002",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "BenchPro USB-C Hub 7-in-1",
+          "brand": "BenchPro",
+          "color": "Silver",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Electronics",
+          "modelNumber": "BP-HUB-7C",
+          "releaseDate": "2025-09-01",
+          "websiteDisplayGroup": "172628",
+          "websiteDisplayGroupName": "Computer Accessories",
+          "browseClassification": {
+            "displayName": "USB Hubs",
+            "classificationId": "493390"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        }
+      ],
+      "identifiers": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "identifiers": [
+            { "identifierType": "UPC", "identifier": "012345678902" }
+          ]
+        }
+      ]
+    },
+    {
+      "asin": "B0BENCH003",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "BenchPro Adjustable Monitor Stand",
+          "brand": "BenchPro",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Office",
+          "modelNumber": "BP-STAND-ADJ",
+          "releaseDate": "2025-06-01",
+          "websiteDisplayGroup": "172628",
+          "websiteDisplayGroupName": "Computer Accessories",
+          "browseClassification": {
+            "displayName": "Monitor Stands & Risers",
+            "classificationId": "3012468011"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        },
+        {
+          "marketplaceId": "A1F83G8C2ARO7P",
+          "itemName": "BenchPro Adjustable Monitor Stand",
+          "brand": "BenchPro",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Office",
+          "modelNumber": "BP-STAND-ADJ",
+          "releaseDate": "2025-06-01",
+          "websiteDisplayGroup": "172628",
+          "websiteDisplayGroupName": "Computer Accessories",
+          "browseClassification": {
+            "displayName": "Monitor Stands & Risers",
+            "classificationId": "3012468011"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BENCH004",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "BenchPro Noise-Cancelling Headphones Pro",
+          "brand": "BenchPro",
+          "color": "Midnight Black",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Audio",
+          "modelNumber": "BP-HP-NC-PRO",
+          "partNumber": "BP-HP-NC-PRO-BK",
+          "releaseDate": "2026-02-01",
+          "size": "Over-Ear",
+          "websiteDisplayGroup": "172621",
+          "websiteDisplayGroupName": "Headphones",
+          "browseClassification": {
+            "displayName": "Over-Ear Headphones",
+            "classificationId": "172622"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": true,
+          "packageQuantity": 1,
+          "contributors": []
+        }
+      ],
+      "identifiers": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "identifiers": [
+            { "identifierType": "UPC", "identifier": "012345678904" },
+            { "identifierType": "EAN", "identifier": "0012345678904" }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "images": [
+            {
+              "variant": "MAIN",
+              "link": "https://m.media-amazon.com/images/I/bench-hp-main.jpg",
+              "height": 1500,
+              "width": 1500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asin": "B0BENCH005",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "BenchPro Mechanical Keyboard Switch Tester",
+          "brand": "BenchPro",
+          "color": "Clear",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Electronics",
+          "modelNumber": "BP-SWITCH-TEST",
+          "releaseDate": "2025-11-01",
+          "websiteDisplayGroup": "229189",
+          "websiteDisplayGroupName": "Keyboards",
+          "browseClassification": {
+            "displayName": "Computer Keyboards",
+            "classificationId": "172635"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BENCH006",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "BenchPro 4K Webcam with Ring Light",
+          "brand": "BenchPro",
+          "color": "Black",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Vision",
+          "modelNumber": "BP-CAM-4K-RL",
+          "releaseDate": "2025-10-15",
+          "websiteDisplayGroup": "172628",
+          "websiteDisplayGroupName": "Computer Accessories",
+          "browseClassification": {
+            "displayName": "Webcams",
+            "classificationId": "172609"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        },
+        {
+          "marketplaceId": "A1PA6795UKMFR9",
+          "itemName": "BenchPro 4K Webcam mit Ringlicht",
+          "brand": "BenchPro",
+          "color": "Schwarz",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Vision",
+          "modelNumber": "BP-CAM-4K-RL",
+          "releaseDate": "2025-10-15",
+          "websiteDisplayGroup": "172628",
+          "websiteDisplayGroupName": "Computerzubehör",
+          "browseClassification": {
+            "displayName": "Webcams",
+            "classificationId": "172609"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BENCH007",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "BenchPro Desk Mat XL Gaming Mouse Pad",
+          "brand": "BenchPro",
+          "color": "Black",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Gaming",
+          "modelNumber": "BP-MAT-XL",
+          "releaseDate": "2025-08-01",
+          "size": "XL (36x18 inches)",
+          "websiteDisplayGroup": "172628",
+          "websiteDisplayGroupName": "Computer Accessories",
+          "browseClassification": {
+            "displayName": "Mouse Pads",
+            "classificationId": "1069242"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BENCH008",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "The Complete Guide to Benchmark Testing",
+          "brand": null,
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": null,
+          "releaseDate": "2024-03-01",
+          "websiteDisplayGroup": "book_display_on_website",
+          "websiteDisplayGroupName": "Books",
+          "browseClassification": {
+            "displayName": "Computer Science",
+            "classificationId": "3839"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": true,
+          "packageQuantity": 1,
+          "contributors": [
+            {
+              "value": "Jane Bench",
+              "role": {
+                "value": "author",
+                "displayName": "Author"
+              }
+            }
+          ]
+        }
+      ],
+      "identifiers": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "identifiers": [
+            { "identifierType": "ISBN", "identifier": "9781234567890" }
+          ]
+        }
+      ]
+    },
+    {
+      "asin": "B0BENCH009",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "BenchPro Laptop Stand Foldable Aluminum",
+          "brand": "BenchPro",
+          "color": "Silver",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Office",
+          "modelNumber": "BP-LSTND-ALU",
+          "releaseDate": "2025-05-01",
+          "websiteDisplayGroup": "172628",
+          "websiteDisplayGroupName": "Computer Accessories",
+          "browseClassification": {
+            "displayName": "Laptop Stands",
+            "classificationId": "1232597011"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        },
+        {
+          "marketplaceId": "A1F83G8C2ARO7P",
+          "itemName": "BenchPro Foldable Aluminium Laptop Stand",
+          "brand": "BenchPro",
+          "color": "Silver",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Office",
+          "modelNumber": "BP-LSTND-ALU",
+          "releaseDate": "2025-05-01",
+          "websiteDisplayGroup": "172628",
+          "websiteDisplayGroupName": "Computer Accessories",
+          "browseClassification": {
+            "displayName": "Laptop Stands",
+            "classificationId": "1232597011"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        }
+      ]
+    },
+    {
+      "asin": "B0BENCH010",
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "itemName": "BenchPro RGB LED Strip Lights Smart Home",
+          "brand": "BenchPro",
+          "color": "Multicolor",
+          "itemClassification": "BASE_PRODUCT",
+          "manufacturer": "BenchPro Smart",
+          "modelNumber": "BP-LED-SMART",
+          "releaseDate": "2026-03-01",
+          "websiteDisplayGroup": "172638",
+          "websiteDisplayGroupName": "Smart Home",
+          "browseClassification": {
+            "displayName": "Smart LED Strip Lights",
+            "classificationId": "17931929011"
+          },
+          "adultProduct": false,
+          "autographed": false,
+          "memorabilia": false,
+          "tradeInEligible": false,
+          "packageQuantity": 1,
+          "contributors": []
+        }
+      ]
+    }
+  ],
+  "_comment_wave1": "Wave 1 seed data: listings + pricingOffers for seller A2BENCH00001",
+  "listings": [
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "sku": "BP-KB-2026-SG",
+      "asin": "B0BENCH001",
+      "productType": "COMPUTER_PERIPHERAL",
+      "requirements": "LISTING",
+      "conditionType": "new_new",
+      "itemName": "BenchPro Wireless Ergonomic Keyboard",
+      "attributes": {
+        "item_name": [{"value": "BenchPro Wireless Ergonomic Keyboard", "marketplace_id": "ATVPDKIKX0DER"}],
+        "brand": [{"value": "BenchPro", "marketplace_id": "ATVPDKIKX0DER"}],
+        "list_price": [{"value": 89.99, "currency": "USD", "marketplace_id": "ATVPDKIKX0DER"}],
+        "condition_type": [{"value": "new_new", "marketplace_id": "ATVPDKIKX0DER"}]
+      },
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "asin": "B0BENCH001",
+          "productType": "COMPUTER_PERIPHERAL",
+          "conditionType": "new_new",
+          "status": ["BUYABLE", "DISCOVERABLE"],
+          "itemName": "BenchPro Wireless Ergonomic Keyboard",
+          "createdDate": "2026-01-15T10:00:00Z",
+          "lastUpdatedDate": "2026-05-01T08:30:00Z"
+        }
+      ],
+      "offers": [
+        {"marketplaceId": "ATVPDKIKX0DER", "offerType": "B2C", "price": {"currencyCode": "USD", "amount": "89.99"}}
+      ],
+      "fulfillmentAvailability": [
+        {"fulfillmentChannelCode": "AMAZON", "quantity": 150}
+      ],
+      "issues": []
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "sku": "BP-HUB-7C",
+      "asin": "B0BENCH002",
+      "productType": "COMPUTER_PERIPHERAL",
+      "requirements": "LISTING",
+      "conditionType": "new_new",
+      "itemName": "BenchPro USB-C Hub 7-in-1",
+      "attributes": {
+        "item_name": [{"value": "BenchPro USB-C Hub 7-in-1", "marketplace_id": "ATVPDKIKX0DER"}],
+        "brand": [{"value": "BenchPro", "marketplace_id": "ATVPDKIKX0DER"}],
+        "list_price": [{"value": 49.99, "currency": "USD", "marketplace_id": "ATVPDKIKX0DER"}],
+        "condition_type": [{"value": "new_new", "marketplace_id": "ATVPDKIKX0DER"}]
+      },
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "asin": "B0BENCH002",
+          "productType": "COMPUTER_PERIPHERAL",
+          "conditionType": "new_new",
+          "status": ["BUYABLE", "DISCOVERABLE"],
+          "itemName": "BenchPro USB-C Hub 7-in-1",
+          "createdDate": "2025-09-01T10:00:00Z",
+          "lastUpdatedDate": "2026-04-15T12:00:00Z"
+        }
+      ],
+      "offers": [
+        {"marketplaceId": "ATVPDKIKX0DER", "offerType": "B2C", "price": {"currencyCode": "USD", "amount": "49.99"}}
+      ],
+      "fulfillmentAvailability": [
+        {"fulfillmentChannelCode": "AMAZON", "quantity": 75}
+      ],
+      "issues": []
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "sku": "BP-HP-NC-PRO-BK",
+      "asin": "B0BENCH004",
+      "productType": "HEADPHONES",
+      "requirements": "LISTING",
+      "conditionType": "new_new",
+      "itemName": "BenchPro Noise-Cancelling Headphones Pro",
+      "attributes": {
+        "item_name": [{"value": "BenchPro Noise-Cancelling Headphones Pro", "marketplace_id": "ATVPDKIKX0DER"}],
+        "brand": [{"value": "BenchPro", "marketplace_id": "ATVPDKIKX0DER"}],
+        "list_price": [{"value": 199.99, "currency": "USD", "marketplace_id": "ATVPDKIKX0DER"}],
+        "condition_type": [{"value": "new_new", "marketplace_id": "ATVPDKIKX0DER"}],
+        "color": [{"value": "Midnight Black", "marketplace_id": "ATVPDKIKX0DER"}]
+      },
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "asin": "B0BENCH004",
+          "productType": "HEADPHONES",
+          "conditionType": "new_new",
+          "status": ["BUYABLE", "DISCOVERABLE"],
+          "itemName": "BenchPro Noise-Cancelling Headphones Pro",
+          "createdDate": "2026-02-01T10:00:00Z",
+          "lastUpdatedDate": "2026-05-10T09:00:00Z"
+        }
+      ],
+      "offers": [
+        {"marketplaceId": "ATVPDKIKX0DER", "offerType": "B2C", "price": {"currencyCode": "USD", "amount": "199.99"}}
+      ],
+      "fulfillmentAvailability": [
+        {"fulfillmentChannelCode": "AMAZON", "quantity": 30}
+      ],
+      "issues": []
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "sku": "BP-CAM-4K-RL",
+      "asin": "B0BENCH006",
+      "productType": "DIGITAL_CAMERA",
+      "requirements": "LISTING",
+      "conditionType": "new_new",
+      "itemName": "BenchPro 4K Webcam with Ring Light",
+      "attributes": {
+        "item_name": [{"value": "BenchPro 4K Webcam with Ring Light", "marketplace_id": "ATVPDKIKX0DER"}],
+        "brand": [{"value": "BenchPro", "marketplace_id": "ATVPDKIKX0DER"}],
+        "list_price": [{"value": 79.99, "currency": "USD", "marketplace_id": "ATVPDKIKX0DER"}],
+        "condition_type": [{"value": "new_new", "marketplace_id": "ATVPDKIKX0DER"}]
+      },
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "asin": "B0BENCH006",
+          "productType": "DIGITAL_CAMERA",
+          "conditionType": "new_new",
+          "status": ["BUYABLE", "DISCOVERABLE"],
+          "itemName": "BenchPro 4K Webcam with Ring Light",
+          "createdDate": "2025-10-15T10:00:00Z",
+          "lastUpdatedDate": "2026-03-20T14:00:00Z"
+        }
+      ],
+      "offers": [
+        {"marketplaceId": "ATVPDKIKX0DER", "offerType": "B2C", "price": {"currencyCode": "USD", "amount": "79.99"}}
+      ],
+      "fulfillmentAvailability": [
+        {"fulfillmentChannelCode": "DEFAULT", "quantity": 200}
+      ],
+      "issues": [
+        {
+          "code": "90220",
+          "message": "The main image does not meet the required minimum resolution of 500 pixels on the longest side.",
+          "severity": "WARNING",
+          "attributeNames": ["main_product_image_locator"],
+          "categories": ["INVALID_ATTRIBUTE"]
+        }
+      ]
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "sku": "BP-MAT-XL",
+      "asin": "B0BENCH007",
+      "productType": "MOUSE_PAD",
+      "requirements": "LISTING",
+      "conditionType": "used_like_new",
+      "itemName": "BenchPro Desk Mat XL Gaming Mouse Pad (Used - Like New)",
+      "attributes": {
+        "item_name": [{"value": "BenchPro Desk Mat XL Gaming Mouse Pad", "marketplace_id": "ATVPDKIKX0DER"}],
+        "brand": [{"value": "BenchPro", "marketplace_id": "ATVPDKIKX0DER"}],
+        "list_price": [{"value": 24.99, "currency": "USD", "marketplace_id": "ATVPDKIKX0DER"}],
+        "condition_type": [{"value": "used_like_new", "marketplace_id": "ATVPDKIKX0DER"}]
+      },
+      "summaries": [
+        {
+          "marketplaceId": "ATVPDKIKX0DER",
+          "asin": "B0BENCH007",
+          "productType": "MOUSE_PAD",
+          "conditionType": "used_like_new",
+          "status": ["DISCOVERABLE"],
+          "itemName": "BenchPro Desk Mat XL Gaming Mouse Pad (Used - Like New)",
+          "createdDate": "2026-04-01T10:00:00Z",
+          "lastUpdatedDate": "2026-04-01T10:00:00Z"
+        }
+      ],
+      "offers": [
+        {"marketplaceId": "ATVPDKIKX0DER", "offerType": "B2C", "price": {"currencyCode": "USD", "amount": "24.99"}}
+      ],
+      "fulfillmentAvailability": [
+        {"fulfillmentChannelCode": "DEFAULT", "quantity": 5}
+      ],
+      "issues": []
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "A1PA6795UKMFR9",
+      "sku": "BP-KB-2026-DE",
+      "asin": "B0BENCH001",
+      "productType": "COMPUTER_PERIPHERAL",
+      "requirements": "LISTING",
+      "conditionType": "new_new",
+      "itemName": "BenchPro Kabellose Ergonomische Tastatur",
+      "attributes": {
+        "item_name": [{"value": "BenchPro Kabellose Ergonomische Tastatur", "marketplace_id": "A1PA6795UKMFR9"}],
+        "brand": [{"value": "BenchPro", "marketplace_id": "A1PA6795UKMFR9"}],
+        "list_price": [{"value": 84.99, "currency": "EUR", "marketplace_id": "A1PA6795UKMFR9"}],
+        "condition_type": [{"value": "new_new", "marketplace_id": "A1PA6795UKMFR9"}]
+      },
+      "summaries": [
+        {
+          "marketplaceId": "A1PA6795UKMFR9",
+          "asin": "B0BENCH001",
+          "productType": "COMPUTER_PERIPHERAL",
+          "conditionType": "new_new",
+          "status": ["BUYABLE", "DISCOVERABLE"],
+          "itemName": "BenchPro Kabellose Ergonomische Tastatur",
+          "createdDate": "2026-01-20T10:00:00Z",
+          "lastUpdatedDate": "2026-05-01T10:00:00Z"
+        }
+      ],
+      "offers": [
+        {"marketplaceId": "A1PA6795UKMFR9", "offerType": "B2C", "price": {"currencyCode": "EUR", "amount": "84.99"}}
+      ],
+      "fulfillmentAvailability": [
+        {"fulfillmentChannelCode": "AMAZON", "quantity": 60}
+      ],
+      "issues": []
+    }
+  ],
+  "pricingOffers": [
+    {
+      "asin": "B0BENCH001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "listingPrice": 89.99,
+      "competitorPrice": 87.50,
+      "currencyCode": "USD",
+      "offers": [
+        {"sellerId": "A2BENCH00001", "price": 89.99, "isFBA": true, "isBuyBox": true},
+        {"sellerId": "A3COMPETITOR1", "price": 87.50, "isFBA": true, "isBuyBox": false},
+        {"sellerId": "A3COMPETITOR2", "price": 91.00, "isFBA": false, "isBuyBox": false}
+      ]
+    },
+    {
+      "asin": "B0BENCH002",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "listingPrice": 49.99,
+      "competitorPrice": 48.75,
+      "currencyCode": "USD",
+      "offers": [
+        {"sellerId": "A2BENCH00001", "price": 49.99, "isFBA": true, "isBuyBox": true},
+        {"sellerId": "A3COMPETITOR1", "price": 48.75, "isFBA": false, "isBuyBox": false}
+      ]
+    },
+    {
+      "asin": "B0BENCH004",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "listingPrice": 199.99,
+      "competitorPrice": 189.99,
+      "currencyCode": "USD",
+      "offers": [
+        {"sellerId": "A2BENCH00001", "price": 199.99, "isFBA": true, "isBuyBox": false},
+        {"sellerId": "A3COMPETITOR1", "price": 189.99, "isFBA": true, "isBuyBox": true}
+      ]
+    },
+    {
+      "asin": "B0BENCH001",
+      "marketplaceId": "A1PA6795UKMFR9",
+      "listingPrice": 84.99,
+      "competitorPrice": 82.00,
+      "currencyCode": "EUR",
+      "offers": [
+        {"sellerId": "A2BENCH00001", "price": 84.99, "isFBA": true, "isBuyBox": true}
+      ]
+    },
+    {
+      "asin": "B0BENCH006",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "listingPrice": 79.99,
+      "competitorPrice": 75.00,
+      "currencyCode": "USD",
+      "offers": [
+        {"sellerId": "A2BENCH00001", "price": 79.99, "isFBA": false, "isBuyBox": false},
+        {"sellerId": "A3COMPETITOR1", "price": 75.00, "isFBA": true, "isBuyBox": true}
+      ]
+    }
+  ],
+
+  "_comment_wave2": "Wave 2: Orders v0, FBA Inventory v1, Feeds v2021-06-30. All field names match fact-sheet schemas.",
+
+  "orders": [
+    {
+      "AmazonOrderId": "112-4567890-1234567",
+      "_sellerId": "A2BENCH00001",
+      "SellerOrderId": "BENCH-ORDER-001",
+      "PurchaseDate": "2026-05-20T09:30:00Z",
+      "LastUpdateDate": "2026-05-20T09:30:00Z",
+      "OrderStatus": "Unshipped",
+      "FulfillmentChannel": "AFN",
+      "SalesChannel": "Amazon.com",
+      "OrderChannel": "Website",
+      "ShipServiceLevel": "Standard",
+      "OrderTotal": { "CurrencyCode": "USD", "Amount": "49.98" },
+      "NumberOfItemsShipped": 0,
+      "NumberOfItemsUnshipped": 2,
+      "PaymentMethod": "Other",
+      "PaymentMethodDetails": ["Standard"],
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "ShipmentServiceLevelCategory": "Standard",
+      "OrderType": "StandardOrder",
+      "EarliestShipDate": "2026-05-21T10:00:00Z",
+      "LatestShipDate": "2026-05-23T22:00:00Z",
+      "EarliestDeliveryDate": "2026-05-25T10:00:00Z",
+      "LatestDeliveryDate": "2026-05-28T22:00:00Z",
+      "IsBusinessOrder": false,
+      "IsPrime": true,
+      "IsPremiumOrder": false,
+      "IsGlobalExpressEnabled": false,
+      "IsReplacementOrder": false,
+      "IsSoldByAB": false,
+      "IsIBA": false,
+      "IsISPU": false,
+      "IsAccessPointOrder": false,
+      "HasRegulatedItems": false,
+      "SellerDisplayName": "Bench Test Store",
+      "ShippingAddress": {
+        "Name": "Alice Buyer",
+        "AddressLine1": "100 First St",
+        "City": "Seattle",
+        "StateOrRegion": "WA",
+        "PostalCode": "98101",
+        "CountryCode": "US",
+        "AddressType": "Residential"
+      },
+      "BuyerInfo": {
+        "BuyerEmail": "alice@marketplace.amazon.com",
+        "BuyerName": "Alice Buyer"
+      },
+      "AutomatedShippingSettings": { "HasAutomatedShippingSettings": false },
+      "_orderItems": [
+        {
+          "ASIN": "B0BENCH001",
+          "SellerSKU": "BP-KB-2026-SG",
+          "OrderItemId": "12345678901234",
+          "Title": "BenchPro Wireless Ergonomic Keyboard",
+          "QuantityOrdered": 1,
+          "QuantityShipped": 0,
+          "ItemPrice": { "CurrencyCode": "USD", "Amount": "29.99" },
+          "ShippingPrice": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ItemTax": { "CurrencyCode": "USD", "Amount": "2.40" },
+          "ShippingTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ShippingDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ShippingDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionIds": [],
+          "IsGift": false,
+          "ConditionId": "New",
+          "ConditionSubtypeId": "New",
+          "IsTransparency": false,
+          "TaxCollection": {
+            "Model": "MarketplaceFacilitator",
+            "ResponsibleParty": "Amazon Services, Inc."
+          }
+        },
+        {
+          "ASIN": "B0BENCH002",
+          "SellerSKU": "BP-MS-2026-BK",
+          "OrderItemId": "12345678901235",
+          "Title": "BenchPro Vertical Ergonomic Mouse",
+          "QuantityOrdered": 1,
+          "QuantityShipped": 0,
+          "ItemPrice": { "CurrencyCode": "USD", "Amount": "19.99" },
+          "ShippingPrice": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ItemTax": { "CurrencyCode": "USD", "Amount": "1.60" },
+          "ShippingTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ShippingDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ShippingDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionIds": [],
+          "IsGift": false,
+          "ConditionId": "New",
+          "ConditionSubtypeId": "New",
+          "IsTransparency": false,
+          "TaxCollection": {
+            "Model": "MarketplaceFacilitator",
+            "ResponsibleParty": "Amazon Services, Inc."
+          }
+        }
+      ]
+    },
+    {
+      "AmazonOrderId": "112-7654321-7654321",
+      "_sellerId": "A2BENCH00001",
+      "SellerOrderId": "BENCH-ORDER-002",
+      "PurchaseDate": "2026-05-18T14:00:00Z",
+      "LastUpdateDate": "2026-05-19T10:00:00Z",
+      "OrderStatus": "Shipped",
+      "FulfillmentChannel": "AFN",
+      "SalesChannel": "Amazon.com",
+      "ShipServiceLevel": "Expedited",
+      "OrderTotal": { "CurrencyCode": "USD", "Amount": "99.99" },
+      "NumberOfItemsShipped": 1,
+      "NumberOfItemsUnshipped": 0,
+      "PaymentMethod": "Other",
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "ShipmentServiceLevelCategory": "Expedited",
+      "OrderType": "StandardOrder",
+      "EarliestShipDate": "2026-05-19T09:00:00Z",
+      "LatestShipDate": "2026-05-20T22:00:00Z",
+      "IsBusinessOrder": false,
+      "IsPrime": true,
+      "IsPremiumOrder": false,
+      "IsGlobalExpressEnabled": false,
+      "IsReplacementOrder": false,
+      "IsSoldByAB": false,
+      "IsIBA": false,
+      "IsISPU": false,
+      "IsAccessPointOrder": false,
+      "HasRegulatedItems": false,
+      "SellerDisplayName": "Bench Test Store",
+      "ShippingAddress": {
+        "Name": "Bob Shopper",
+        "AddressLine1": "200 Commerce Ave",
+        "City": "Portland",
+        "StateOrRegion": "OR",
+        "PostalCode": "97201",
+        "CountryCode": "US",
+        "AddressType": "Residential"
+      },
+      "BuyerInfo": {
+        "BuyerEmail": "bob@marketplace.amazon.com",
+        "BuyerName": "Bob Shopper"
+      },
+      "AutomatedShippingSettings": { "HasAutomatedShippingSettings": false },
+      "_orderItems": [
+        {
+          "ASIN": "B0BENCH003",
+          "SellerSKU": "BP-WH-2026-WT",
+          "OrderItemId": "23456789012345",
+          "Title": "BenchPro Noise-Canceling Wireless Headphones",
+          "QuantityOrdered": 1,
+          "QuantityShipped": 1,
+          "ItemPrice": { "CurrencyCode": "USD", "Amount": "99.99" },
+          "ShippingPrice": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ItemTax": { "CurrencyCode": "USD", "Amount": "8.00" },
+          "ShippingTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ShippingDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ShippingDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionIds": [],
+          "IsGift": false,
+          "ConditionId": "New",
+          "ConditionSubtypeId": "New",
+          "IsTransparency": false,
+          "TaxCollection": {
+            "Model": "MarketplaceFacilitator",
+            "ResponsibleParty": "Amazon Services, Inc."
+          }
+        }
+      ]
+    },
+    {
+      "AmazonOrderId": "114-1111111-2222222",
+      "_sellerId": "A2BENCH00001",
+      "SellerOrderId": "BENCH-ORDER-003",
+      "PurchaseDate": "2026-05-15T11:00:00Z",
+      "LastUpdateDate": "2026-05-15T11:00:00Z",
+      "OrderStatus": "Pending",
+      "FulfillmentChannel": "MFN",
+      "SalesChannel": "Amazon.com",
+      "ShipServiceLevel": "Standard",
+      "OrderTotal": { "CurrencyCode": "USD", "Amount": "14.99" },
+      "NumberOfItemsShipped": 0,
+      "NumberOfItemsUnshipped": 1,
+      "PaymentMethod": "Other",
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "ShipmentServiceLevelCategory": "Standard",
+      "OrderType": "StandardOrder",
+      "IsBusinessOrder": true,
+      "IsPrime": false,
+      "IsPremiumOrder": false,
+      "IsGlobalExpressEnabled": false,
+      "IsReplacementOrder": false,
+      "IsSoldByAB": false,
+      "IsIBA": false,
+      "IsISPU": false,
+      "IsAccessPointOrder": false,
+      "HasRegulatedItems": false,
+      "SellerDisplayName": "Bench Test Store",
+      "ShippingAddress": {
+        "Name": "Corp Purchasing Dept",
+        "AddressLine1": "300 Business Park Blvd",
+        "City": "San Francisco",
+        "StateOrRegion": "CA",
+        "PostalCode": "94105",
+        "CountryCode": "US",
+        "AddressType": "Commercial"
+      },
+      "BuyerInfo": {
+        "BuyerEmail": "corp@marketplace.amazon.com",
+        "BuyerName": "Corp Purchasing"
+      },
+      "AutomatedShippingSettings": { "HasAutomatedShippingSettings": false },
+      "_orderItems": [
+        {
+          "ASIN": "B0BENCH004",
+          "SellerSKU": "BP-CB-2026-GR",
+          "OrderItemId": "34567890123456",
+          "Title": "BenchPro USB-C Hub 7-in-1",
+          "QuantityOrdered": 1,
+          "QuantityShipped": 0,
+          "ItemPrice": { "CurrencyCode": "USD", "Amount": "14.99" },
+          "ShippingPrice": { "CurrencyCode": "USD", "Amount": "4.99" },
+          "ItemTax": { "CurrencyCode": "USD", "Amount": "1.20" },
+          "ShippingTax": { "CurrencyCode": "USD", "Amount": "0.40" },
+          "ShippingDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ShippingDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionIds": [],
+          "IsGift": false,
+          "ConditionId": "New",
+          "ConditionSubtypeId": "New",
+          "IsTransparency": false,
+          "TaxCollection": {
+            "Model": "MarketplaceFacilitator",
+            "ResponsibleParty": "Amazon Services, Inc."
+          }
+        }
+      ]
+    },
+    {
+      "AmazonOrderId": "114-3333333-4444444",
+      "_sellerId": "A2BENCH00001",
+      "SellerOrderId": "BENCH-ORDER-004",
+      "PurchaseDate": "2026-05-10T08:00:00Z",
+      "LastUpdateDate": "2026-05-11T15:00:00Z",
+      "OrderStatus": "Canceled",
+      "FulfillmentChannel": "AFN",
+      "SalesChannel": "Amazon.com",
+      "ShipServiceLevel": "Standard",
+      "OrderTotal": { "CurrencyCode": "USD", "Amount": "29.99" },
+      "NumberOfItemsShipped": 0,
+      "NumberOfItemsUnshipped": 0,
+      "PaymentMethod": "Other",
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "ShipmentServiceLevelCategory": "Standard",
+      "OrderType": "StandardOrder",
+      "IsBusinessOrder": false,
+      "IsPrime": false,
+      "IsPremiumOrder": false,
+      "IsGlobalExpressEnabled": false,
+      "IsReplacementOrder": false,
+      "IsSoldByAB": false,
+      "IsIBA": false,
+      "IsISPU": false,
+      "IsAccessPointOrder": false,
+      "HasRegulatedItems": false,
+      "SellerDisplayName": "Bench Test Store",
+      "ShippingAddress": {
+        "Name": "Carol Refunder",
+        "AddressLine1": "400 Cancel Lane",
+        "City": "Chicago",
+        "StateOrRegion": "IL",
+        "PostalCode": "60601",
+        "CountryCode": "US",
+        "AddressType": "Residential"
+      },
+      "BuyerInfo": {
+        "BuyerEmail": "carol@marketplace.amazon.com",
+        "BuyerName": "Carol Refunder"
+      },
+      "AutomatedShippingSettings": { "HasAutomatedShippingSettings": false },
+      "_orderItems": [
+        {
+          "ASIN": "B0BENCH001",
+          "SellerSKU": "BP-KB-2026-SG",
+          "OrderItemId": "45678901234567",
+          "Title": "BenchPro Wireless Ergonomic Keyboard",
+          "QuantityOrdered": 1,
+          "QuantityShipped": 0,
+          "ItemPrice": { "CurrencyCode": "USD", "Amount": "29.99" },
+          "ShippingPrice": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ItemTax": { "CurrencyCode": "USD", "Amount": "2.40" },
+          "ShippingTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ShippingDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "ShippingDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscount": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionDiscountTax": { "CurrencyCode": "USD", "Amount": "0.00" },
+          "PromotionIds": [],
+          "IsGift": false,
+          "ConditionId": "New",
+          "ConditionSubtypeId": "New",
+          "IsTransparency": false,
+          "TaxCollection": {
+            "Model": "MarketplaceFacilitator",
+            "ResponsibleParty": "Amazon Services, Inc."
+          }
+        }
+      ]
+    },
+    {
+      "AmazonOrderId": "116-5555555-6666666",
+      "_sellerId": "A2BENCH00001",
+      "SellerOrderId": "BENCH-ORDER-005-DE",
+      "PurchaseDate": "2026-05-22T12:00:00Z",
+      "LastUpdateDate": "2026-05-22T12:00:00Z",
+      "OrderStatus": "Unshipped",
+      "FulfillmentChannel": "AFN",
+      "SalesChannel": "Amazon.de",
+      "ShipServiceLevel": "Standard",
+      "OrderTotal": { "CurrencyCode": "EUR", "Amount": "27.99" },
+      "NumberOfItemsShipped": 0,
+      "NumberOfItemsUnshipped": 1,
+      "PaymentMethod": "Other",
+      "MarketplaceId": "A1PA6795UKMFR9",
+      "ShipmentServiceLevelCategory": "Standard",
+      "OrderType": "StandardOrder",
+      "IsBusinessOrder": false,
+      "IsPrime": true,
+      "IsPremiumOrder": false,
+      "IsGlobalExpressEnabled": false,
+      "IsReplacementOrder": false,
+      "IsSoldByAB": false,
+      "IsIBA": false,
+      "IsISPU": false,
+      "IsAccessPointOrder": false,
+      "HasRegulatedItems": false,
+      "SellerDisplayName": "Bench Test Store DE",
+      "ShippingAddress": {
+        "Name": "Dieter Käufer",
+        "AddressLine1": "Hauptstraße 42",
+        "City": "Berlin",
+        "StateOrRegion": "BE",
+        "PostalCode": "10115",
+        "CountryCode": "DE",
+        "AddressType": "Residential"
+      },
+      "BuyerInfo": {
+        "BuyerEmail": "dieter@marketplace.amazon.de",
+        "BuyerName": "Dieter Käufer"
+      },
+      "AutomatedShippingSettings": { "HasAutomatedShippingSettings": false },
+      "_orderItems": [
+        {
+          "ASIN": "B0BENCH001",
+          "SellerSKU": "BP-KB-2026-SG",
+          "OrderItemId": "56789012345678",
+          "Title": "BenchPro Kabellose Ergonomische Tastatur",
+          "QuantityOrdered": 1,
+          "QuantityShipped": 0,
+          "ItemPrice": { "CurrencyCode": "EUR", "Amount": "27.99" },
+          "ShippingPrice": { "CurrencyCode": "EUR", "Amount": "0.00" },
+          "ItemTax": { "CurrencyCode": "EUR", "Amount": "4.48" },
+          "ShippingTax": { "CurrencyCode": "EUR", "Amount": "0.00" },
+          "ShippingDiscount": { "CurrencyCode": "EUR", "Amount": "0.00" },
+          "ShippingDiscountTax": { "CurrencyCode": "EUR", "Amount": "0.00" },
+          "PromotionDiscount": { "CurrencyCode": "EUR", "Amount": "0.00" },
+          "PromotionDiscountTax": { "CurrencyCode": "EUR", "Amount": "0.00" },
+          "PromotionIds": [],
+          "IsGift": false,
+          "ConditionId": "New",
+          "ConditionSubtypeId": "New",
+          "IsTransparency": false,
+          "TaxCollection": {
+            "Model": "MarketplaceFacilitator",
+            "ResponsibleParty": "Amazon Services EU S.A.R.L."
+          }
+        }
+      ]
+    }
+  ],
+
+  "inventorySummaries": [
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "asin": "B0BENCH001",
+      "fnSku": "X001BENCH01",
+      "sellerSku": "BP-KB-2026-SG",
+      "condition": "NewItem",
+      "productName": "BenchPro Wireless Ergonomic Keyboard",
+      "totalQuantity": 145,
+      "lastUpdatedTime": "2026-05-28T08:00:00Z",
+      "stores": ["ATVPDKIKX0DER"],
+      "inventoryDetails": {
+        "fulfillableQuantity": 100,
+        "inboundWorkingQuantity": 20,
+        "inboundShippedQuantity": 15,
+        "inboundReceivingQuantity": 5,
+        "reservedQuantity": {
+          "totalReservedQuantity": 5,
+          "pendingCustomerOrderQuantity": 3,
+          "pendingTransshipmentQuantity": 2,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        }
+      }
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "asin": "B0BENCH002",
+      "fnSku": "X001BENCH02",
+      "sellerSku": "BP-MS-2026-BK",
+      "condition": "NewItem",
+      "productName": "BenchPro Vertical Ergonomic Mouse",
+      "totalQuantity": 88,
+      "lastUpdatedTime": "2026-05-27T14:00:00Z",
+      "stores": ["ATVPDKIKX0DER"],
+      "inventoryDetails": {
+        "fulfillableQuantity": 80,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 8,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        }
+      }
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "asin": "B0BENCH003",
+      "fnSku": "X001BENCH03",
+      "sellerSku": "BP-WH-2026-WT",
+      "condition": "NewItem",
+      "productName": "BenchPro Noise-Canceling Wireless Headphones",
+      "totalQuantity": 53,
+      "lastUpdatedTime": "2026-05-26T10:00:00Z",
+      "stores": ["ATVPDKIKX0DER"],
+      "inventoryDetails": {
+        "fulfillableQuantity": 50,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 3,
+          "pendingCustomerOrderQuantity": 3,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        }
+      }
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "asin": "B0BENCH004",
+      "fnSku": "X001BENCH04",
+      "sellerSku": "BP-CB-2026-GR",
+      "condition": "NewItem",
+      "productName": "BenchPro USB-C Hub 7-in-1",
+      "totalQuantity": 62,
+      "lastUpdatedTime": "2026-05-25T09:00:00Z",
+      "stores": ["ATVPDKIKX0DER"],
+      "inventoryDetails": {
+        "fulfillableQuantity": 60,
+        "inboundWorkingQuantity": 2,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        }
+      }
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "asin": "B0BENCH005",
+      "fnSku": "X001BENCH05",
+      "sellerSku": "BP-WC-2026-WT",
+      "condition": "NewItem",
+      "productName": "BenchPro 65W GaN USB-C Charger",
+      "totalQuantity": 25,
+      "lastUpdatedTime": "2026-05-24T07:00:00Z",
+      "stores": ["ATVPDKIKX0DER"],
+      "inventoryDetails": {
+        "fulfillableQuantity": 20,
+        "inboundWorkingQuantity": 5,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 2,
+          "researchingQuantityBreakdown": [
+            { "name": "researchingQuantityInShortTerm", "quantity": 2 }
+          ]
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        }
+      }
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "ATVPDKIKX0DER",
+      "asin": "B0BENCH006",
+      "fnSku": "X001BENCH06",
+      "sellerSku": "BP-SC-2026-CL",
+      "condition": "NewItem",
+      "productName": "BenchPro Monitor Stand with USB Hub",
+      "totalQuantity": 38,
+      "lastUpdatedTime": "2026-05-23T11:00:00Z",
+      "stores": ["ATVPDKIKX0DER"],
+      "inventoryDetails": {
+        "fulfillableQuantity": 35,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 3,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        }
+      }
+    },
+    {
+      "sellerId": "A2BENCH00001",
+      "marketplaceId": "A1PA6795UKMFR9",
+      "asin": "B0BENCH001",
+      "fnSku": "X001BENCH01DE",
+      "sellerSku": "BP-KB-2026-SG",
+      "condition": "NewItem",
+      "productName": "BenchPro Kabellose Ergonomische Tastatur",
+      "totalQuantity": 30,
+      "lastUpdatedTime": "2026-05-28T08:00:00Z",
+      "stores": ["A1PA6795UKMFR9"],
+      "inventoryDetails": {
+        "fulfillableQuantity": 30,
+        "inboundWorkingQuantity": 0,
+        "inboundShippedQuantity": 0,
+        "inboundReceivingQuantity": 0,
+        "reservedQuantity": {
+          "totalReservedQuantity": 0,
+          "pendingCustomerOrderQuantity": 0,
+          "pendingTransshipmentQuantity": 0,
+          "fcProcessingQuantity": 0
+        },
+        "researchingQuantity": {
+          "totalResearchingQuantity": 0,
+          "researchingQuantityBreakdown": []
+        },
+        "unfulfillableQuantity": {
+          "totalUnfulfillableQuantity": 0,
+          "customerDamagedQuantity": 0,
+          "warehouseDamagedQuantity": 0,
+          "distributorDamagedQuantity": 0,
+          "carrierDamagedQuantity": 0,
+          "defectiveQuantity": 0,
+          "expiredQuantity": 0
+        }
+      }
+    }
+  ],
+
+  "feeds": [
+    {
+      "feedId": "100000000000001",
+      "feedType": "POST_PRODUCT_DATA",
+      "marketplaceIds": ["ATVPDKIKX0DER"],
+      "createdTime": "2026-05-26T10:00:00Z",
+      "processingStatus": "DONE",
+      "processingStartTime": "2026-05-26T10:00:05Z",
+      "processingEndTime": "2026-05-26T10:00:42Z",
+      "resultFeedDocumentId": "seed-result-doc-001"
+    },
+    {
+      "feedId": "100000000000002",
+      "feedType": "POST_PRODUCT_PRICING_DATA",
+      "marketplaceIds": ["ATVPDKIKX0DER"],
+      "createdTime": "2026-05-27T09:00:00Z",
+      "processingStatus": "FATAL",
+      "processingStartTime": "2026-05-27T09:00:03Z",
+      "processingEndTime": "2026-05-27T09:01:00Z",
+      "resultFeedDocumentId": null
+    },
+    {
+      "feedId": "100000000000003",
+      "feedType": "POST_INVENTORY_AVAILABILITY_DATA",
+      "marketplaceIds": ["ATVPDKIKX0DER"],
+      "createdTime": "2026-05-28T07:00:00Z",
+      "processingStatus": "IN_QUEUE",
+      "processingStartTime": null,
+      "processingEndTime": null,
+      "resultFeedDocumentId": null
+    }
+  ],
+
+  "feedDocuments": [
+    {
+      "feedDocumentId": "seed-result-doc-001",
+      "_docType": "result",
+      "url": "http://127.0.0.1:4000/__bench/feed_documents/seed-result-doc-001/download",
+      "_content": "<?xml version=\"1.0\"?><ProcessingReport><StatusCode>Complete</StatusCode><MessagesProcessed>5</MessagesProcessed><MessagesSuccessful>5</MessagesSuccessful></ProcessingReport>"
+    },
+    {
+      "feedDocumentId": "seed-upload-doc-001",
+      "_docType": "upload",
+      "url": "http://127.0.0.1:4000/__bench/feed_documents/seed-upload-doc-001/upload",
+      "contentType": "text/xml; charset=UTF-8",
+      "_uploadedContent": null
+    }
+  ],
+
+  "_comment_wave3": "Wave 3a — Finances API v0 seed data. CurrencyAmount is a NUMBER (not a string). Negative = outflow from seller to Amazon. Events linked to existing seeded orders: 112-4567890-1234567, 112-7654321-7654321, 114-1111111-2222222.",
+
+  "financialEventGroups": [
+    {
+      "FinancialEventGroupId": "fg-settle-2026-05-01",
+      "ProcessingStatus": "Closed",
+      "FundTransferStatus": "Successful",
+      "OriginalTotal":   { "CurrencyCode": "USD", "CurrencyAmount": 312.47 },
+      "ConvertedTotal":  { "CurrencyCode": "USD", "CurrencyAmount": 312.47 },
+      "FundTransferDate": "2026-05-20T00:00:00Z",
+      "TraceId": "TRC-2026-05-01-001",
+      "AccountTail": "7890",
+      "BeginningBalance": { "CurrencyCode": "USD", "CurrencyAmount": 0.00 },
+      "FinancialEventGroupStart": "2026-05-01T00:00:00Z",
+      "FinancialEventGroupEnd":   "2026-05-15T23:59:59Z"
+    },
+    {
+      "FinancialEventGroupId": "fg-settle-2026-05-16",
+      "ProcessingStatus": "Open",
+      "FundTransferStatus": "InProgress",
+      "OriginalTotal":   { "CurrencyCode": "USD", "CurrencyAmount": 88.14 },
+      "ConvertedTotal":  { "CurrencyCode": "USD", "CurrencyAmount": 88.14 },
+      "FundTransferDate": null,
+      "TraceId": "TRC-2026-05-16-001",
+      "AccountTail": "7890",
+      "BeginningBalance": { "CurrencyCode": "USD", "CurrencyAmount": 312.47 },
+      "FinancialEventGroupStart": "2026-05-16T00:00:00Z",
+      "FinancialEventGroupEnd": null
+    }
+  ],
+
+  "financialEvents": [
+    {
+      "_eventId": "fe-shipment-order1-001",
+      "_orderId": "112-4567890-1234567",
+      "_groupId": "fg-settle-2026-05-01",
+      "_postedDate": "2026-05-10T14:22:00Z",
+      "ShipmentEventList": [
+        {
+          "AmazonOrderId": "112-4567890-1234567",
+          "SellerOrderId": "seller-custom-id-001",
+          "MarketplaceName": "Amazon.com",
+          "OrderChargeList": [
+            { "ChargeType": "Principal", "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 89.99 } },
+            { "ChargeType": "Tax",       "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 7.20 } }
+          ],
+          "OrderChargeAdjustmentList": [],
+          "ShipmentFeeList": [
+            { "FeeType": "ShippingChargeback", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -1.50 } }
+          ],
+          "ShipmentFeeAdjustmentList": [],
+          "OrderFeeList": [
+            { "FeeType": "Commission", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -13.50 } }
+          ],
+          "OrderFeeAdjustmentList": [],
+          "DirectPaymentList": [],
+          "PostedDate": "2026-05-10T14:22:00Z",
+          "ShipmentItemList": [
+            {
+              "SellerSKU": "BP-KB-2026-SG",
+              "OrderItemId": "11111111111111",
+              "OrderAdjustmentItemId": null,
+              "QuantityShipped": 1,
+              "ItemChargeList": [
+                { "ChargeType": "Principal", "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 89.99 } }
+              ],
+              "ItemChargeAdjustmentList": [],
+              "ItemFeeList": [
+                { "FeeType": "FBAPerUnitFulfillmentFee", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -4.25 } }
+              ],
+              "ItemFeeAdjustmentList": [],
+              "ItemTaxWithheldList": [],
+              "PromotionList": [],
+              "PromotionAdjustmentList": [],
+              "CostOfPointsGranted":   { "CurrencyCode": "USD", "CurrencyAmount": 0 },
+              "CostOfPointsReturned":  { "CurrencyCode": "USD", "CurrencyAmount": 0 }
+            }
+          ],
+          "ShipmentItemAdjustmentList": []
+        }
+      ],
+      "RefundEventList": [],
+      "ServiceFeeEventList": [],
+      "AdjustmentEventList": []
+    },
+    {
+      "_eventId": "fe-shipment-order2-001",
+      "_orderId": "112-7654321-7654321",
+      "_groupId": "fg-settle-2026-05-01",
+      "_postedDate": "2026-05-12T09:47:00Z",
+      "ShipmentEventList": [
+        {
+          "AmazonOrderId": "112-7654321-7654321",
+          "SellerOrderId": "seller-custom-id-002",
+          "MarketplaceName": "Amazon.com",
+          "OrderChargeList": [
+            { "ChargeType": "Principal", "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 29.99 } },
+            { "ChargeType": "Tax",       "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 2.40 } }
+          ],
+          "OrderChargeAdjustmentList": [],
+          "ShipmentFeeList": [
+            { "FeeType": "ShippingChargeback", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -0.50 } }
+          ],
+          "ShipmentFeeAdjustmentList": [],
+          "OrderFeeList": [
+            { "FeeType": "Commission", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -4.50 } }
+          ],
+          "OrderFeeAdjustmentList": [],
+          "DirectPaymentList": [],
+          "PostedDate": "2026-05-12T09:47:00Z",
+          "ShipmentItemList": [
+            {
+              "SellerSKU": "BP-HUB-7C",
+              "OrderItemId": "22222222222222",
+              "OrderAdjustmentItemId": null,
+              "QuantityShipped": 1,
+              "ItemChargeList": [
+                { "ChargeType": "Principal", "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 29.99 } }
+              ],
+              "ItemChargeAdjustmentList": [],
+              "ItemFeeList": [
+                { "FeeType": "FBAPerUnitFulfillmentFee", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -3.31 } }
+              ],
+              "ItemFeeAdjustmentList": [],
+              "ItemTaxWithheldList": [],
+              "PromotionList": [],
+              "PromotionAdjustmentList": [],
+              "CostOfPointsGranted":  { "CurrencyCode": "USD", "CurrencyAmount": 0 },
+              "CostOfPointsReturned": { "CurrencyCode": "USD", "CurrencyAmount": 0 }
+            }
+          ],
+          "ShipmentItemAdjustmentList": []
+        }
+      ],
+      "RefundEventList": [],
+      "ServiceFeeEventList": [],
+      "AdjustmentEventList": []
+    },
+    {
+      "_eventId": "fe-refund-order1-001",
+      "_orderId": "112-4567890-1234567",
+      "_groupId": "fg-settle-2026-05-01",
+      "_postedDate": "2026-05-14T11:05:00Z",
+      "ShipmentEventList": [],
+      "RefundEventList": [
+        {
+          "AmazonOrderId": "112-4567890-1234567",
+          "SellerOrderId": "seller-custom-id-001",
+          "MarketplaceName": "Amazon.com",
+          "OrderChargeList": [
+            { "ChargeType": "Principal", "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -89.99 } },
+            { "ChargeType": "Tax",       "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -7.20 } }
+          ],
+          "OrderChargeAdjustmentList": [],
+          "ShipmentFeeList": [],
+          "ShipmentFeeAdjustmentList": [],
+          "OrderFeeList": [
+            { "FeeType": "RefundCommission", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 2.70 } }
+          ],
+          "OrderFeeAdjustmentList": [],
+          "DirectPaymentList": [],
+          "PostedDate": "2026-05-14T11:05:00Z",
+          "ShipmentItemList": [
+            {
+              "SellerSKU": "BP-KB-2026-SG",
+              "OrderItemId": "11111111111111",
+              "OrderAdjustmentItemId": null,
+              "QuantityShipped": 1,
+              "ItemChargeList": [
+                { "ChargeType": "Principal", "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -89.99 } }
+              ],
+              "ItemChargeAdjustmentList": [],
+              "ItemFeeList": [
+                { "FeeType": "FBAReturnsProcessingFee", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -5.00 } }
+              ],
+              "ItemFeeAdjustmentList": [],
+              "ItemTaxWithheldList": [],
+              "PromotionList": [],
+              "PromotionAdjustmentList": [],
+              "CostOfPointsGranted":  { "CurrencyCode": "USD", "CurrencyAmount": 0 },
+              "CostOfPointsReturned": { "CurrencyCode": "USD", "CurrencyAmount": 0 }
+            }
+          ],
+          "ShipmentItemAdjustmentList": []
+        }
+      ],
+      "ServiceFeeEventList": [],
+      "AdjustmentEventList": []
+    },
+    {
+      "_eventId": "fe-servicefee-monthly-001",
+      "_orderId": null,
+      "_groupId": "fg-settle-2026-05-01",
+      "_postedDate": "2026-05-01T00:00:00Z",
+      "ShipmentEventList": [],
+      "RefundEventList": [],
+      "ServiceFeeEventList": [
+        {
+          "AmazonOrderId": "",
+          "FeeReason": "Subscription",
+          "FeeList": [
+            { "FeeType": "Subscription", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -39.99 } }
+          ],
+          "SellerSKU": "",
+          "FnSKU": "",
+          "FeeDescription": "Professional Selling Plan monthly subscription",
+          "ASIN": ""
+        }
+      ],
+      "AdjustmentEventList": []
+    },
+    {
+      "_eventId": "fe-adjustment-postage-001",
+      "_orderId": null,
+      "_groupId": "fg-settle-2026-05-01",
+      "_postedDate": "2026-05-15T12:00:00Z",
+      "ShipmentEventList": [],
+      "RefundEventList": [],
+      "ServiceFeeEventList": [],
+      "AdjustmentEventList": [
+        {
+          "AdjustmentType": "PostageBilling",
+          "PostedDate": "2026-05-15T12:00:00Z",
+          "AdjustmentAmount": { "CurrencyCode": "USD", "CurrencyAmount": -12.34 },
+          "AdjustmentItemList": [
+            {
+              "Quantity": "1",
+              "PerUnitAmount":  { "CurrencyCode": "USD", "CurrencyAmount": -12.34 },
+              "TotalAmount":    { "CurrencyCode": "USD", "CurrencyAmount": -12.34 },
+              "SellerSKU": "BP-KB-2026-SG",
+              "FnSKU": "X001BPKB001",
+              "ProductDescription": "BenchPro Wireless Ergonomic Keyboard",
+              "ASIN": "B0BENCH001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_eventId": "fe-shipment-order3-001",
+      "_orderId": "114-1111111-2222222",
+      "_groupId": "fg-settle-2026-05-16",
+      "_postedDate": "2026-05-18T16:33:00Z",
+      "ShipmentEventList": [
+        {
+          "AmazonOrderId": "114-1111111-2222222",
+          "SellerOrderId": "seller-custom-id-003",
+          "MarketplaceName": "Amazon.com",
+          "OrderChargeList": [
+            { "ChargeType": "Principal", "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 149.99 } },
+            { "ChargeType": "Tax",       "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 12.00 } }
+          ],
+          "OrderChargeAdjustmentList": [],
+          "ShipmentFeeList": [],
+          "ShipmentFeeAdjustmentList": [],
+          "OrderFeeList": [
+            { "FeeType": "Commission", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -22.50 } }
+          ],
+          "OrderFeeAdjustmentList": [],
+          "DirectPaymentList": [],
+          "PostedDate": "2026-05-18T16:33:00Z",
+          "ShipmentItemList": [
+            {
+              "SellerSKU": "BP-HP-NC-PRO-BK",
+              "OrderItemId": "33333333333333",
+              "OrderAdjustmentItemId": null,
+              "QuantityShipped": 1,
+              "ItemChargeList": [
+                { "ChargeType": "Principal", "ChargeAmount": { "CurrencyCode": "USD", "CurrencyAmount": 149.99 } }
+              ],
+              "ItemChargeAdjustmentList": [],
+              "ItemFeeList": [
+                { "FeeType": "FBAPerUnitFulfillmentFee", "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -6.80 } },
+                { "FeeType": "FBAWeightBasedFee",        "FeeAmount": { "CurrencyCode": "USD", "CurrencyAmount": -1.15 } }
+              ],
+              "ItemFeeAdjustmentList": [],
+              "ItemTaxWithheldList": [],
+              "PromotionList": [],
+              "PromotionAdjustmentList": [],
+              "CostOfPointsGranted":  { "CurrencyCode": "USD", "CurrencyAmount": 0 },
+              "CostOfPointsReturned": { "CurrencyCode": "USD", "CurrencyAmount": 0 }
+            }
+          ],
+          "ShipmentItemAdjustmentList": []
+        }
+      ],
+      "RefundEventList": [],
+      "ServiceFeeEventList": [],
+      "AdjustmentEventList": []
+    }
+  ],
+
+  "_comment_wave3b": "Wave 3b seed data: Reports API v2021-06-30 — two pre-DONE reports (one per type) + their reportDocuments + one IN_QUEUE report + one report schedule. TSV _content embedded directly.",
+
+  "reports": [
+    {
+      "reportId": "50001234567890",
+      "reportType": "GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_V2",
+      "marketplaceIds": ["ATVPDKIKX0DER"],
+      "dataStartTime": "2026-05-01T00:00:00Z",
+      "dataEndTime": "2026-05-14T23:59:59Z",
+      "createdTime": "2026-05-16T08:00:00Z",
+      "processingStatus": "DONE",
+      "processingStartTime": "2026-05-16T08:00:05Z",
+      "processingEndTime": "2026-05-16T08:00:42Z",
+      "reportDocumentId": "amzn1.spdoc.1.4.na.seed001.settlement01",
+      "reportScheduleId": null,
+      "_pollCount": 2
+    },
+    {
+      "reportId": "50001234567891",
+      "reportType": "GET_FBA_REIMBURSEMENTS_DATA",
+      "marketplaceIds": ["ATVPDKIKX0DER"],
+      "dataStartTime": "2026-05-01T00:00:00Z",
+      "dataEndTime": "2026-05-15T23:59:59Z",
+      "createdTime": "2026-05-17T10:00:00Z",
+      "processingStatus": "DONE",
+      "processingStartTime": "2026-05-17T10:00:03Z",
+      "processingEndTime": "2026-05-17T10:00:21Z",
+      "reportDocumentId": "amzn1.spdoc.1.4.na.seed002.reimburse01",
+      "reportScheduleId": null,
+      "_pollCount": 2
+    },
+    {
+      "reportId": "50001234567892",
+      "reportType": "GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_V2",
+      "marketplaceIds": ["ATVPDKIKX0DER"],
+      "createdTime": "2026-05-29T09:00:00Z",
+      "processingStatus": "IN_QUEUE",
+      "processingStartTime": null,
+      "processingEndTime": null,
+      "reportDocumentId": null,
+      "reportScheduleId": null,
+      "_pollCount": 0
+    }
+  ],
+
+  "reportDocuments": [
+    {
+      "reportDocumentId": "amzn1.spdoc.1.4.na.seed001.settlement01",
+      "reportType": "GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_V2",
+      "compressionAlgorithm": "GZIP",
+      "_content": "settlement-id\tsettlement-start-date\tsettlement-end-date\tdeposit-date\ttotal-amount\tcurrency\ttransaction-type\torder-id\tmerchant-order-id\tadjustment-id\tshipment-id\tmarketplace-name\tamount-type\tamount-description\tamount\tfulfillment-id\tposted-date\tposted-date-time\torder-item-code\tmerchant-order-item-id\tmerchant-adjustment-item-id\tsku\tquantity-purchased\tpromotion-id\n58901234567\t05/01/2026 00:00:00\t05/14/2026 23:59:59\t05/16/2026 12:00:00\t1523.87\tUSD\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n58901234567\t05/01/2026 00:00:00\t05/14/2026 23:59:59\t05/16/2026 12:00:00\t\tUSD\tOrder\t112-3456789-1234567\t\t\tTBC-SHIP-001\tamazon.com\tItemPrice\tPrincipal\t89.99\tAFN\t05/03/2026\t2026-05-03 14:22:11 UTC\t58901234000001\t\t\tBP-KB-2026-SG\t1\t\n58901234567\t05/01/2026 00:00:00\t05/14/2026 23:59:59\t05/16/2026 12:00:00\t\tUSD\tOrder\t112-3456789-1234567\t\t\tTBC-SHIP-001\tamazon.com\tItemFees\tCommission\t-13.50\tAFN\t05/03/2026\t2026-05-03 14:22:11 UTC\t58901234000001\t\t\tBP-KB-2026-SG\t1\t"
+    },
+    {
+      "reportDocumentId": "amzn1.spdoc.1.4.na.seed002.reimburse01",
+      "reportType": "GET_FBA_REIMBURSEMENTS_DATA",
+      "compressionAlgorithm": "GZIP",
+      "_content": "approval-date\treimbursement-id\tcase-id\tamazon-order-id\treason\tsku\tfnsku\tasin\tproduct-name\tcondition\tcurrency-unit\tamount-per-unit\tamount-total\tquantity-reimbursed-cash\tquantity-reimbursed-inventory\tquantity-reimbursed-total\toriginal-reimbursement-id\toriginal-reimbursement-type\n2026-05-03T10:15:00+00:00\t9876543210\t\t\tDamaged_Warehouse\tBP-KB-2026-SG\tX001BPKB001\tB0BENCH001\tBenchPro Wireless Ergonomic Keyboard\tNew\tUSD\t89.99\t89.99\t1\t0\t1\t\t\n2026-05-07T14:30:00+00:00\t9876543211\t\t\tLost_Warehouse\tBP-HUB-7C\tX001BPHUB001\tB0BENCH002\tBenchPro USB-C Hub 7-in-1\tNew\tUSD\t49.99\t49.99\t1\t0\t1\t\t"
+    }
+  ],
+
+  "reportSchedules": [
+    {
+      "reportScheduleId": "52100000000001",
+      "reportType": "GET_V2_SETTLEMENT_REPORT_DATA_FLAT_FILE_V2",
+      "marketplaceIds": ["ATVPDKIKX0DER"],
+      "period": "P14D",
+      "createdTime": "2026-01-01T00:00:00Z",
+      "nextReportCreationTime": "2026-06-01T00:00:00Z",
+      "reportOptions": null
+    }
+  ]
+}

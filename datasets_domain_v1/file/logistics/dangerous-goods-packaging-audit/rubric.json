@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-logistics-dangerous-goods-packaging-audit",
+  "status": "ready_for_review",
+  "difficulty": "very-hard",
+  "summary": "Audit a batch of consumer SKUs for dangerous-goods packaging compliance using SDS PDFs, carrier and marketplace rules, packaging photos, packaging specs, and merchant exception requests, then decide air/ground/blocked routing for each SKU. Each per-SKU decision must cite the matching SDS PDF (by file path) and the correct UN number.",
+  "category": "compliance_dangerous_goods",
+  "state_kind": "offline_only_local_files",
+  "artifact_policy": {
+    "expected_artifacts": [
+      "outputs/dg_audit.json",
+      "outputs/shipping_matrix.csv",
+      "outputs/operations_brief.md"
+    ]
+  },
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Deliverables present and structurally valid: dg_audit.json parses as JSON, and every sku_decision carries a documentation_gaps list plus a channel_promise_action from the closed enum {keep_air, disable_air, keep_ground_only, block_until_docs}. (Folds: dg_audit_json_exists_parseable, documentation_gaps_and_channel_actions_present.)"
+    },
+    {
+      "id": "all_skus_classified",
+      "check_type": "deterministic_exact",
+      "description": "Complete SKU coverage: every packaging-spec SKU appears exactly once in sku_decisions (no missing/extra) and shipping_matrix.csv contains a row for each expected SKU. (Folds: all_skus_classified_once, shipping_matrix_complete.)"
+    },
+    {
+      "id": "ship_status_correct",
+      "check_type": "deterministic_exact",
+      "description": "Per-SKU routing: every SKU's ship_status is in its allowed set (CERAMIC-MUG/TRAIL-750-BLK air_ok; CLEAN-TAB-OXI blocked; AROMA-SPRAY-100/PERFUME-ROLLER-30/POWERBANK-20K ground_only or blocked; LED-LANTERN-BATT blocked or ground_only) AND each dangerous-goods SKU passes the SDS-evidence gate (cites its matching SDS PDF). Internally validates all 7 SKUs; reason lists failing ones."
+    },
+    {
+      "id": "un_number_grounding",
+      "check_type": "deterministic_semantic",
+      "description": "Per-DG-SKU UN grounding: each audited DG SKU cites its matching SDS PDF basename and the correct UN number in section_or_un_number - CLEAN-TAB-OXI UN1479, AROMA-SPRAY-100 UN1950, POWERBANK-20K UN3480 (UN3480 is lithium-ion alone vs UN3481 with equipment - not interchangeable). Internally validates all three; reason lists failing ones."
+    },
+    {
+      "id": "sds_section_grounding",
+      "check_type": "deterministic_semantic",
+      "description": "Multi-section grounding: for each dangerous-goods SKU, evidence_items[] contains at least two entries whose section_or_un_number match distinct expected SDS section labels (e.g. section 2 hazard identification + section 4 transport information)."
+    },
+    {
+      "id": "documentation_gaps_correct",
+      "check_type": "deterministic_exact",
+      "description": "Documentation-gap competency: for every blocked/ground-only SKU, documentation_gaps contains at least one entry from the closed enum of valid gap codes (missing_lithium_battery_mark, missing_oxidizer_label, missing_wh_rating, ...)."
+    },
+    {
+      "id": "operations_brief_actionable",
+      "check_type": "deterministic_semantic",
+      "description": "operations_brief.md mentions at least three of the five blocked/ground-only SKU IDs by name, includes at least one action verb (disable, block, hold, ground-only, pending docs, ...), and avoids overclaiming regulatory certainty."
+    }
+  ]
+}

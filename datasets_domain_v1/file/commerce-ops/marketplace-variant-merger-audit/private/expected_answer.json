@@ -1,0 +1,252 @@
+{
+  "task_id": "file-commerce-ops-marketplace-variant-merger-audit",
+  "candidate_decision_checks": [
+    {
+      "check_id": "trail_750_blk_decision_correct",
+      "sku": "TRAIL-750-BLK",
+      "allowed_decisions": ["accept"]
+    },
+    {
+      "check_id": "trail_750_blu_decision_correct",
+      "sku": "TRAIL-750-BLU",
+      "allowed_decisions": ["accept"]
+    },
+    {
+      "check_id": "trail_750_red_decision_correct",
+      "sku": "TRAIL-750-RED",
+      "allowed_decisions": ["accept"]
+    },
+    {
+      "check_id": "trail_750_2pk_decision_correct",
+      "sku": "TRAIL-750-2PK",
+      "allowed_decisions": ["reject", "needs_fix"]
+    },
+    {
+      "check_id": "trail_750_glass_decision_correct",
+      "sku": "TRAIL-750-GLASS",
+      "allowed_decisions": ["reject"]
+    },
+    {
+      "check_id": "trail_infuser_grn_decision_correct",
+      "sku": "TRAIL-INFUSER-GRN",
+      "allowed_decisions": ["reject"]
+    },
+    {
+      "check_id": "trail_750_kids_decision_correct",
+      "sku": "TRAIL-750-KIDS",
+      "allowed_decisions": ["reject"]
+    },
+    {
+      "check_id": "trail_750_bamboo_decision_correct",
+      "sku": "TRAIL-750-BAMBOO",
+      "allowed_decisions": ["reject"]
+    },
+    {
+      "check_id": "trail_1000_sil_decision_correct",
+      "sku": "TRAIL-1000-SIL",
+      "allowed_decisions": ["reject", "needs_fix"]
+    },
+    {
+      "check_id": "trail_750_blk_fba_decision_correct",
+      "sku": "TRAIL-750-BLK-FBA",
+      "allowed_decisions": ["reject", "needs_fix"]
+    }
+  ],
+  "core_accepted_skus": [
+    "TRAIL-750-BLK",
+    "TRAIL-750-BLU",
+    "TRAIL-750-RED"
+  ],
+  "required_policy_files": [
+    "platform_policy/marketplace_variation_policy.pdf"
+  ],
+  "evidence_per_sku": {
+    "TRAIL-750-BLK": {
+      "signal_evidence_check_id": "trail_750_blk_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_750_blk_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv"
+      ],
+      "required_signal_keywords_any": [
+        "plain bottle",
+        "white background"
+      ],
+      "required_policy_keywords_any": [
+        "same product, material, capacity, function",
+        "color also changes material"
+      ]
+    },
+    "TRAIL-750-BLU": {
+      "signal_evidence_check_id": "trail_750_blu_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_750_blu_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv"
+      ],
+      "required_signal_keywords_any": [
+        "plain bottle",
+        "white background"
+      ],
+      "required_policy_keywords_any": [
+        "same product, material, capacity, function",
+        "color also changes material"
+      ]
+    },
+    "TRAIL-750-RED": {
+      "signal_evidence_check_id": "trail_750_red_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_750_red_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv"
+      ],
+      "required_signal_keywords_any": [
+        "plain bottle",
+        "white background"
+      ],
+      "required_policy_keywords_any": [
+        "same product, material, capacity, function",
+        "color also changes material"
+      ]
+    },
+    "TRAIL-750-2PK": {
+      "signal_evidence_check_id": "trail_750_2pk_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_750_2pk_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv",
+        "review_signals/returns_and_search_risk.csv",
+        "review_signals/category_variation_template.csv"
+      ],
+      "required_signal_keywords_any": [
+        "2 pack value set",
+        "8.4%",
+        "8.4",
+        "packcount",
+        "not_enabled_for_parent",
+        "bundle_packaging"
+      ],
+      "required_policy_keywords_any": [
+        "cannot hide bundle/price promotion",
+        "multi-pack must not be submitted",
+        "pack count affects value",
+        "pack-count theme"
+      ]
+    },
+    "TRAIL-750-GLASS": {
+      "signal_evidence_check_id": "trail_750_glass_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_750_glass_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv",
+        "review_signals/category_variation_template.csv"
+      ],
+      "required_signal_keywords_any": [
+        "borosilicate",
+        "borosilicate glass",
+        "material_callout",
+        "glass and steel cannot be mixed"
+      ],
+      "required_policy_keywords_any": [
+        "different primary materials must not be merged",
+        "material system",
+        "primary materials must not be merged"
+      ]
+    },
+    "TRAIL-INFUSER-GRN": {
+      "signal_evidence_check_id": "trail_infuser_grn_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_infuser_grn_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv",
+        "review_signals/returns_and_search_risk.csv",
+        "review_signals/category_variation_template.csv"
+      ],
+      "required_signal_keywords_any": [
+        "tea infuser included",
+        "tea infuser",
+        "accessory_callout",
+        "31%"
+      ],
+      "required_policy_keywords_any": [
+        "added infuser, filter, electronics",
+        "added infuser, straw, or bamboo lid",
+        "accessory cap family"
+      ]
+    },
+    "TRAIL-750-KIDS": {
+      "signal_evidence_check_id": "trail_750_kids_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_750_kids_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv"
+      ],
+      "required_signal_keywords_any": [
+        "kids straw 500ml",
+        "age_use_callout",
+        "capacity listed as 500ml"
+      ],
+      "required_policy_keywords_any": [
+        "core function",
+        "included accessory set",
+        "shopper expectation",
+        "same product line and function",
+        "size clearly encoded",
+        "size changes material grade",
+        "size + color rebuild",
+        "rebuild requires a new parent strategy"
+      ]
+    },
+    "TRAIL-750-BAMBOO": {
+      "signal_evidence_check_id": "trail_750_bamboo_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_750_bamboo_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv",
+        "review_signals/category_variation_template.csv"
+      ],
+      "required_signal_keywords_any": [
+        "cap_material_callout",
+        "bamboo wood texture",
+        "cap close-up"
+      ],
+      "required_policy_keywords_any": [
+        "added infuser, straw, or bamboo lid",
+        "accessory cap family",
+        "approved variation dimension"
+      ]
+    },
+    "TRAIL-1000-SIL": {
+      "signal_evidence_check_id": "trail_1000_sil_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_1000_sil_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv",
+        "review_signals/category_variation_template.csv"
+      ],
+      "required_signal_keywords_any": [
+        "size_callout",
+        "front-face label",
+        "1000 ml"
+      ],
+      "required_policy_keywords_any": [
+        "size clearly encoded",
+        "size + color rebuild",
+        "rebuild requires a new parent strategy"
+      ]
+    },
+    "TRAIL-750-BLK-FBA": {
+      "signal_evidence_check_id": "trail_750_blk_fba_signal_evidence_grounded",
+      "policy_evidence_check_id": "trail_750_blk_fba_policy_evidence_grounded",
+      "required_signal_files": [
+        "review_signals/image_ocr_and_packaging_flags.csv",
+        "review_signals/returns_and_search_risk.csv",
+        "catalog/parent_edit_history.json"
+      ],
+      "required_signal_keywords_any": [
+        "0123456",
+        "trail-750-blk-old",
+        "duplicate_workflow",
+        "upc prefix",
+        "fba prep barcode"
+      ],
+      "required_policy_keywords_any": [
+        "duplicate fulfilment prep sku",
+        "fulfilment or barcode workflow",
+        "map it to the existing child",
+        "do not add duplicate child rows"
+      ]
+    }
+  }
+}

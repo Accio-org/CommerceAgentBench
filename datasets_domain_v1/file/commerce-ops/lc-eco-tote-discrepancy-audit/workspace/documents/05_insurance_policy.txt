@@ -1,0 +1,84 @@
+============================================================
+MARINE CARGO INSURANCE POLICY
+============================================================
+
+Insurer:
+  PING AN INSURANCE (GROUP) COMPANY OF CHINA, LTD.
+  Hangzhou Branch
+  No. 1366 Qianjiang Road, Hangzhou, Zhejiang 310016, China
+  Underwriter Code: PA-HZ-MAR-2026
+
+Policy Number:    PA-MAR-2026031245
+Date of Issue:    2026-03-11
+
+------------------------------------------------------------
+
+Assured (Original):
+  Hangzhou Green Bag Co., Ltd.
+  No. 188 Binjiang Road, Hangzhou, Zhejiang 310053, China
+
+Assignment:
+  To the order of Bank of America, Chicago Branch
+  (per LC BOA-DC-2026031045 endorsement)
+
+------------------------------------------------------------
+SUBJECT MATTER INSURED
+------------------------------------------------------------
+
+  50,000 pcs Tote bags
+  per Commercial Invoice HGB-2026-0312-001 dated 2026-03-12
+  per Bill of Lading PAC-2026-031245
+  Marks: ACME-EC-0042 / 1-1250
+
+------------------------------------------------------------
+SUM INSURED
+------------------------------------------------------------
+
+  USD 104,500.00
+  (One Hundred Four Thousand Five Hundred US Dollars)
+
+  Basis: 110% of CIF invoice value USD 95,000.00
+
+------------------------------------------------------------
+COVERAGE
+------------------------------------------------------------
+
+  Conditions:
+    Institute Cargo Clauses (A) — CL.382 (1/1/2009)
+    Institute War Clauses (Cargo) — CL.385 (1/1/2009)
+    Theft, Pilferage and Non-Delivery Extension Clause (TPND)
+      — extends ICC(A) coverage for petty pilferage and short-
+        landing claims
+
+  Currency:           USD (matches LC currency)
+  Claims Payable At:  Destination (Long Beach / Chicago) in USD
+  Survey Agent:       Toplis Inspection Services, Long Beach
+
+------------------------------------------------------------
+CONVEYANCE
+------------------------------------------------------------
+
+  Vessel:             MV PACIFIC PIONEER V.1234E
+  From:               Shanghai, China
+  Via:                — (transhipment allowed per LC)
+  To:                 Long Beach, CA, USA
+  Final destination:  Chicago, IL, USA
+
+  Cover effective from: 2026-03-11
+  (date no later than date of shipment 2026-03-12)
+
+------------------------------------------------------------
+
+For and on behalf of
+PING AN INSURANCE (GROUP) COMPANY OF CHINA, LTD.
+
+  [authorized seal]
+  [signature]
+  ___________________________
+  Chen Xiaomin
+  Senior Underwriter, Marine Cargo Division
+
+  Date: 2026-03-11
+  Place: Hangzhou, China
+
+============================================================

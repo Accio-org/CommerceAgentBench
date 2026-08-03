@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-multilang-rfq-contradiction-extract",
+  "summary": "Multilingual RFQ intake — normalisation and per-RFQ internal-inconsistency review. Capacity units: setup_gate + 3 field-extraction skills (language/quantity/incoterm, each across all 5 RFQs) + 5 per-RFQ contradiction-detection competencies (each RFQ carries a structurally different inconsistency: transit physics / Incoterm semantics / BOM cost / container logic / date math).",
+  "category": "sourcing_inquiry_intake",
+  "state_kind": "offline_local_only",
+  "difficulty": "L4",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "Plumbing/format gate: outputs/rfq_analysis.json exists, is non-empty, parses as a JSON object with top-level 'rfqs' (array) and 'summary' (object), rfqs[] has exactly 5 entries, and summary.total_contradictions is an integer >= 5."},
+
+    {"id": "language_detection", "check_type": "deterministic_exact", "description": "Language identification across all 5 RFQs: each entry's language is the correct lowercase ISO 639-1 code (RFQ-01 es, RFQ-02 de, RFQ-03 pt, RFQ-04 ar, RFQ-05 en). Failing RFQs listed in reason."},
+    {"id": "quantity_normalization", "check_type": "deterministic_exact", "description": "Headline quantity normalisation across all 5 RFQs: normalized.quantity_units matches the buyer's stated headline total (RFQ-01 10000, RFQ-02 5000, RFQ-03 50000, RFQ-04 100, RFQ-05 8000; do not 'correct' RFQ-04 to a larger batch). Failing RFQs listed in reason."},
+    {"id": "incoterm_extraction", "check_type": "deterministic_exact", "description": "Incoterm extraction across all 5 RFQs: normalized.incoterm is the uppercase Incoterm the buyer wrote (all 5 are FOB; report what was written, not what is 'correct'). Failing RFQs listed in reason."},
+
+    {"id": "contradiction_rfq_01", "check_type": "deterministic_exact", "description": "RFQ-01 physical-impossibility detection: a contradiction is present with category physical_impossibility, evidence citing the 10-day transit AND the Manzanillo/Pacific Mexico lane, and a resolution proposing a realistic transit / air freight / longer ETA. (Folds present+category+evidence+resolution via AND.)"},
+    {"id": "contradiction_rfq_02", "check_type": "deterministic_exact", "description": "RFQ-02 incoterm-conflict detection: a contradiction with category incoterm_conflict, evidence citing FOB AND the Berlin/destination delivery obligation, and a resolution proposing DAP/DDP/CFR/CIF/split-quote/buyer-arranges-freight. (Folds present+category+evidence+resolution via AND.)"},
+    {"id": "contradiction_rfq_03", "check_type": "deterministic_exact", "description": "RFQ-03 cost-infeasibility detection: a contradiction with category cost_infeasible, evidence citing the USD 0.12 target price AND the certification/100%-inspection cost drivers, and a resolution proposing a price raise toward BOM floor / dropping a cost-driving cert / AQL sampling. (Folds present+category+evidence+resolution via AND.)"},
+    {"id": "contradiction_rfq_04", "check_type": "deterministic_exact", "description": "RFQ-04 logical-conflict detection: a contradiction with category logical_conflict, evidence citing either the 100-unit quantity versus exclusive-use 40HQ booking OR the 40HQ ocean-container booking via air freight, and a resolution proposing a workable shipping spec (LCL / smaller carton / standard air cargo / drop the 40HQ exclusive / clarify intended quantity). (Folds present+category+evidence+resolution via AND.)"},
+    {"id": "contradiction_rfq_05", "check_type": "deterministic_exact", "description": "RFQ-05 timeline-conflict detection: a contradiction with category timeline_conflict, evidence citing the 15 April / Easter arrival deadline AND the 30-day production-or-transit lead time, and a resolution proposing a workable plan (air freight / earlier PO / reduce quantity / split shipment / warn the buyer). (Folds present+category+evidence+resolution via AND.)"}
+  ]
+}

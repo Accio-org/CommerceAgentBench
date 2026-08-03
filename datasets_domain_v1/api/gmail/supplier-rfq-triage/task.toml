@@ -1,0 +1,45 @@
+schema_version = "2.0"
+
+[task]
+id = "api-gmail-supplier-rfq-triage"
+name = "Gmail 采购 RFQ 收件箱三级研判与供应商决策"
+language = "en"
+entrypoint = "task.md"
+files_dir = "workspace"
+test = "grader/run.sh"
+rubric = "rubric.json"
+keywords = ["ecommerce", "sourcing", "rfq", "gmail", "mock", "incoterms", "fraud-detection", "triage"]
+difficulty = "hard"
+
+[agent]
+# Read-heavy: ~300-message inbox, ~52 signal (incl. ~35 quote messages spanning variant/supersede/
+# re-send/forwarded identities). The agent must use the Gmail Workspace-style tool surface
+# (gmail.search/get/modify/createDraft/calendar.createEvent), not verifier/internal state dumps.
+# The GATE is MESSY multi-signal identity REASONING over the bodies (cross-referencing works
+# address / phone / bank beneficiary / export licence across non-adjacent quotes), not action count.
+# Budget is generous so a competent agent can search/get enough messages, resolve identities, act,
+# and write the summary without budget contamination.
+timeout_sec = 5400
+max_actions = 500
+
+[verifier]
+type = "script"
+timeout_sec = 180
+
+[environment]
+requires_vision = false
+requires_browser = false
+requires_network = false
+runtime_boundary = "closed_source_black_box"
+state_policy = "offline_or_mock_only"
+mock_services = true
+host_published_port = 3071
+base_images = ["acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859"]
+
+[environment.runtime_mocks.gmail_mock]
+kind = "http"
+port = 3071
+health_path = "/health"
+
+[environment.runtime_mocks.gmail_mock.env]
+GMAIL_MOCK_MODE = "mcp"

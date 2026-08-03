@@ -1,0 +1,195 @@
+#!/usr/bin/env bun
+/**
+ * bin/jira-bench — Bench control binary for verifier integration.
+ *
+ * Commands:
+ *   jira-bench health                   Health check
+ *   jira-bench state   --token <T>      Dump full DB state as JSON
+ *   jira-bench seed    --token <T> --file <sql>   Seed additional data
+ *   jira-bench reset   --token <T>      Wipe DB and re-seed defaults
+ *   jira-bench audit   --token <T>      Dump audit log
+ */
+
+import { getDb, resetDb, seedFromFile } from "../lib/db.js";
+import { writeSync as __ccbWriteSyncFd } from "node:fs";
+// Flush-safe stdout: process.exit() discards un-flushed async pipe writes
+// (verifier state JSON >64KB was truncated through the daemon). writeSync
+// to fd 1 is synchronous in both node and bun.
+const __ccbOut = (s) => { try { __ccbWriteSyncFd(1, s); } catch (e) {} };
+
+const VERIFIER_TOKEN = process.env.MOCK_VERIFIER_TOKEN || "bench-verifier";
+
+function main() {
+  const args = process.argv.slice(2);
+  const command = args[0];
+
+  if (command === "health") {
+    return health();
+  }
+
+  // All other commands require token
+  const tokenIdx = args.indexOf("--token");
+  const token = tokenIdx >= 0 ? args[tokenIdx + 1] : null;
+
+  if (token !== VERIFIER_TOKEN && process.env.CCB_INTERNAL_BENCH_TOKEN !== VERIFIER_TOKEN) {
+    process.stderr.write("Error: invalid or missing verifier token\n");
+    process.exit(1);
+  }
+
+  switch (command) {
+    case "state":
+      return dumpState();
+    case "seed":
+      return seed(args);
+    case "reset":
+      return reset();
+    case "audit":
+      return dumpAudit();
+    default:
+      process.stderr.write(`Unknown command: ${command || "(none)"}\n`);
+      process.stderr.write("Usage: jira-bench {health|state|seed|reset|audit} [--token T]\n");
+      process.exit(1);
+  }
+}
+
+function health() {
+  try {
+    const db = getDb();
+    const row = db.prepare("SELECT COUNT(*) as n FROM projects").get();
+    __ccbOut(JSON.stringify({
+      status: "ok",
+      projects: row.n,
+    }, null, 2) + "\n");
+  } catch (err) {
+    __ccbOut(JSON.stringify({
+      status: "error",
+      error: err.message,
+    }, null, 2) + "\n");
+    process.exit(1);
+  }
+}
+
+function dumpState() {
+  const db = getDb();
+  const state = {};
+
+  // Projects
+  state.projects = db.prepare("SELECT * FROM projects").all();
+
+  // Issues (non-deleted)
+  state.issues = db.prepare(`
+    SELECT i.*, t.name as type_name, s.name as status_name,
+           COALESCE(p.name, '') as priority_name
+    FROM issues i
+    JOIN issue_types t ON i.type_id = t.id
+    JOIN issue_statuses s ON i.status_id = s.id
+    LEFT JOIN issue_priorities p ON i.priority_id = p.id
+    WHERE i.is_deleted = 0
+    ORDER BY i.key
+  `).all();
+
+  // Parse JSON fields for cleaner output
+  for (const issue of state.issues) {
+    issue.labels = safeJsonParse(issue.labels_json);
+    issue.components = safeJsonParse(issue.components_json);
+    issue.fix_versions = safeJsonParse(issue.fix_versions_json);
+    delete issue.labels_json;
+    delete issue.components_json;
+    delete issue.fix_versions_json;
+  }
+
+  // Deleted issues
+  state.deleted_issues = db.prepare(
+    "SELECT key, summary FROM issues WHERE is_deleted = 1"
+  ).all();
+
+  // Comments
+  state.comments = db.prepare(
+    "SELECT * FROM comments ORDER BY issue_key, created_at"
+  ).all();
+
+  // Issue links
+  state.issue_links = db.prepare("SELECT * FROM issue_links").all();
+
+  // Sprints
+  state.sprints = db.prepare("SELECT * FROM sprints ORDER BY id").all();
+
+  // Sprint assignments
+  state.sprint_issues = db.prepare(
+    "SELECT * FROM sprint_issues ORDER BY sprint_id, issue_key"
+  ).all();
+
+  // Boards
+  state.boards = db.prepare("SELECT * FROM boards ORDER BY id").all();
+
+  // Statuses
+  state.statuses = db.prepare("SELECT * FROM issue_statuses").all();
+
+  // Issue types
+  state.issue_types = db.prepare("SELECT * FROM issue_types").all();
+
+  // Priorities
+  state.priorities = db.prepare("SELECT * FROM issue_priorities ORDER BY sort_order").all();
+
+  // Transitions
+  state.transitions = db.prepare("SELECT * FROM transitions").all();
+
+  // Config
+  state.config = db.prepare("SELECT * FROM config").all();
+
+  __ccbOut(JSON.stringify(state, null, 2) + "\n");
+}
+
+function seed(args) {
+  const fileIdx = args.indexOf("--file");
+  if (fileIdx < 0 || !args[fileIdx + 1]) {
+    process.stderr.write("Error: --file <path> is required for seed command\n");
+    process.exit(1);
+  }
+  const filePath = args[fileIdx + 1];
+  try {
+    const db = getDb();
+    seedFromFile(db, filePath);
+    __ccbOut(JSON.stringify({ status: "ok", file: filePath }) + "\n");
+  } catch (err) {
+    process.stderr.write(`Error seeding: ${err.message}\n`);
+    process.exit(1);
+  }
+}
+
+function reset() {
+  try {
+    resetDb();
+    __ccbOut(JSON.stringify({ status: "ok", message: "Database reset to defaults" }, null, 2) + "\n");
+  } catch (err) {
+    process.stderr.write(`Error resetting: ${err.message}\n`);
+    process.exit(1);
+  }
+}
+
+function dumpAudit() {
+  const db = getDb();
+  const rows = db.prepare(
+    "SELECT * FROM audit_log ORDER BY id"
+  ).all();
+
+  // Parse JSON details
+  for (const row of rows) {
+    if (row.details_json) {
+      try {
+        row.details = JSON.parse(row.details_json);
+      } catch {
+        row.details = row.details_json;
+      }
+      delete row.details_json;
+    }
+  }
+
+  __ccbOut(JSON.stringify(rows, null, 2) + "\n");
+}
+
+function safeJsonParse(s) {
+  try { return JSON.parse(s || "[]"); } catch { return []; }
+}
+
+main();

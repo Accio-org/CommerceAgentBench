@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="不锈钢保温瓶">
+  <defs>
+    <radialGradient id="bbg" cx="50%" cy="40%" r="72%">
+      <stop offset="0%" stop-color="#eef3f4"/><stop offset="100%" stop-color="#dbe4e6"/>
+    </radialGradient>
+    <linearGradient id="bbody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3f6f73"/><stop offset="22%" stop-color="#6fa3a6"/><stop offset="55%" stop-color="#9ec7c9"/><stop offset="78%" stop-color="#5d8d90"/><stop offset="100%" stop-color="#345c5f"/>
+    </linearGradient>
+    <linearGradient id="bcap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b3a3c"/><stop offset="100%" stop-color="#1c2627"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bbg)"/>
+  <ellipse cx="200" cy="346" rx="74" ry="14" fill="#000" opacity="0.12"/>
+  <rect x="176" y="44" width="48" height="40" rx="10" fill="url(#bcap)"/>
+  <rect x="170" y="80" width="60" height="16" rx="6" fill="#243032"/>
+  <path d="M158 96 h84 v210 q0 30 -42 30 q-42 0 -42 -30 z" fill="url(#bbody)"/>
+  <rect x="158" y="150" width="84" height="14" fill="#000" opacity="0.10"/>
+  <rect x="172" y="110" width="10" height="210" rx="5" fill="#ffffff" opacity="0.35"/>
+</svg>

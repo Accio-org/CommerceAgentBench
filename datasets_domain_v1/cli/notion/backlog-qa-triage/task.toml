@@ -1,0 +1,40 @@
+schema_version = "2.0"
+
+[task]
+id = "cli-notion-backlog-qa-triage"
+name = "Notion backlog QA triage"
+language = "en"
+entrypoint = "task.md"
+files_dir = "workspace"
+test = "grader/run.sh"
+rubric = "rubric.json"
+keywords = ["notion", "cli", "mock", "backlog", "qa", "supplier"]
+difficulty = "hard"
+
+[agent]
+timeout_sec = 1800
+max_actions = 120
+
+[verifier]
+type = "script"
+timeout_sec = 180
+
+[environment]
+requires_vision = false
+requires_browser = false
+requires_network = false
+runtime_boundary = "closed_source_black_box"
+state_policy = "offline_or_mock_only"
+mock_services = true
+host_published_port = 3456
+base_images = ["acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859"]
+
+[environment.runtime_mocks.notion_cli]
+kind = "cli"
+port = 3456
+health_path = "/health"
+
+[environment.runtime_mocks.notion_cli.env]
+NTN_MOCK_PORT = "3456"
+NTN_MOCK_NO_AUTO_SERVER = "1"
+NTN_MOCK_SEED_PROFILE = "commerce"

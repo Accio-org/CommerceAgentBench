@@ -1,0 +1,1022 @@
+{
+  "account": {
+    "name": "Alex Torres",
+    "givenName": "Alex",
+    "email": "alex.torres@meridian-sourcing.test",
+    "avatar": "A",
+    "locale": "en-US"
+  },
+  "people": [
+    {
+      "id": "me",
+      "displayName": "Alex Torres",
+      "email": "alex.torres@meridian-sourcing.test",
+      "initial": "A",
+      "color": "#1a73e8"
+    },
+    {
+      "id": "p-dana",
+      "displayName": "Dana Kim",
+      "email": "dana.kim@meridian-sourcing.test",
+      "initial": "D",
+      "color": "#e8710a"
+    },
+    {
+      "id": "p-raj",
+      "displayName": "Raj Patel",
+      "email": "raj.patel@meridian-sourcing.test",
+      "initial": "R",
+      "color": "#188038"
+    }
+  ],
+  "files": [
+    {
+      "id": "folder-supplier-audits-q2",
+      "name": "Supplier Audits Q2",
+      "type": "folder",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "trashed": false,
+      "createdAt": "2026-04-01T09:00:00Z",
+      "modifiedAt": "2026-05-30T17:00:00Z"
+    },
+    {
+      "id": "doc-audit-vantage-metals",
+      "name": "Vantage Metals Ltd. — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-dana",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-10T10:00:00Z",
+      "modifiedAt": "2026-05-29T14:00:00Z",
+      "lastOpenedAt": "2026-05-31T09:00:00Z",
+      "content": {
+        "title": "Vantage Metals Ltd. — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-vml-h1",
+            "type": "heading1",
+            "text": "Vantage Metals Ltd. — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-vml-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Dana Kim. Site visit: 2026-05-12.",
+            "format": {}
+          },
+          {
+            "id": "b-vml-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-vml-f1",
+            "type": "paragraph",
+            "text": "Finding 1. Third-party laboratory testing of production batch VM-Q2-04 confirmed cadmium content at 118% of the EU RoHS threshold — a regulatory violation requiring immediate batch quarantine and notification to the EU competent authority. The supplier has submitted a regulatory notification but the competent authority has not yet issued a clearance or approved a corrective batch plan.",
+            "format": {}
+          },
+          {
+            "id": "b-vml-f2",
+            "type": "paragraph",
+            "text": "Finding 2. Calibration records for the tensile-testing equipment (required under ISO 6892-1 §8.3) were absent for the past two inspection cycles. The equipment continues to be used in production qualification for load-bearing components, creating direct product-safety risk because uncertified tensile results are being used for release decisions. The auditor classified the issue as High. The supplier has been asked to schedule re-calibration but no verified record has been provided to the audit team.",
+            "format": {}
+          },
+          {
+            "id": "b-vml-f3",
+            "type": "paragraph",
+            "text": "Finding 3. On-time delivery rate fell to 71% against the contracted 90% SLA over Q2, representing a financial shortfall estimated at USD 28 000 in penalty exposure. The supplier attributed the delay to a logistics contractor and has proposed a recovery schedule.",
+            "format": {}
+          },
+          {
+            "id": "b-vml-f4",
+            "type": "paragraph",
+            "text": "Finding 4. Minor labelling error on pallet tags for two March shipments — incorrect lot suffix. Supplier corrected the label template and confirmed the correction on 2026-05-15; auditor verified the updated process during the follow-up call.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-shunfa",
+      "name": "Shunfa Precision Parts — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-raj",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-14T09:30:00Z",
+      "modifiedAt": "2026-05-30T10:00:00Z",
+      "lastOpenedAt": "2026-05-31T07:30:00Z",
+      "content": {
+        "title": "Shunfa Precision Parts — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-spp-h1",
+            "type": "heading1",
+            "text": "Shunfa Precision Parts — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-spp-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Raj Patel. Site visit: 2026-05-14.",
+            "format": {}
+          },
+          {
+            "id": "b-spp-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-spp-f1",
+            "type": "paragraph",
+            "text": "Finding 1. During the site visit, the CNC machine coolant system was observed to lack overflow containment bunding. An active coolant spill had reached the drainage channel on 2026-05-14, creating an environmental contamination risk and potential permit violation. No containment installation has been scheduled as of the report date.",
+            "format": {}
+          },
+          {
+            "id": "b-spp-f2",
+            "type": "paragraph",
+            "text": "Finding 2. Subcontractor SP-SUB-03 was used for approximately 12% of Q2 production volume without prior buyer approval, in breach of contract clause 7.4. The unauthorised outsourcing was not disclosed to the buyer; discovery was made through a document review. Estimated contract exposure exceeds USD 90 000. The supplier has acknowledged the breach; no remediation of the disclosure gap has been verified.",
+            "format": {}
+          },
+          {
+            "id": "b-spp-f3",
+            "type": "paragraph",
+            "text": "Finding 3. Three workers in the grinding area were observed without the required respiratory PPE on two separate inspection walks. The supervisor acknowledged the gap and issued a verbal reminder on the day; no formal corrective action plan has been submitted to the audit team.",
+            "format": {}
+          },
+          {
+            "id": "b-spp-f4",
+            "type": "paragraph",
+            "text": "Finding 4. Incoming material inspection records for batch SPP-2026-Q2-07 are incomplete — four of twelve required fields are unpopulated. The supplier promises to complete records by 2026-06-15; no verified correction has been received.",
+            "format": {}
+          },
+          {
+            "id": "b-spp-f5",
+            "type": "paragraph",
+            "text": "Finding 5. A fire extinguisher in storage room B was found past its service date. The supplier replaced it on 2026-05-20 and the auditor confirmed the replacement during a follow-up walkthrough.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-ecopack",
+      "name": "EcoPack Solutions — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-12T11:00:00Z",
+      "modifiedAt": "2026-05-28T16:30:00Z",
+      "lastOpenedAt": "2026-05-30T08:00:00Z",
+      "content": {
+        "title": "EcoPack Solutions — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-eps-h1",
+            "type": "heading1",
+            "text": "EcoPack Solutions — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-eps-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Alex Torres. Site visit: 2026-05-16.",
+            "format": {}
+          },
+          {
+            "id": "b-eps-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-eps-f1",
+            "type": "paragraph",
+            "text": "Finding 1. An ink batch substitution (EP-INK-220) was carried out during Q2 without logging the change in the change-control register. The supplier retroactively documented the substitution after the audit; the auditor reviewed the backdated entry and confirmed it was captured.",
+            "format": {}
+          },
+          {
+            "id": "b-eps-f2",
+            "type": "paragraph",
+            "text": "Finding 2. Buyer-facing marketing materials and product data sheets declare the packaging to be 80% FSC-certified recycled content. A third-party verification audit commissioned in April 2026 showed actual recycled content at 54%, creating material misrepresentation exposure under the EU Green Claims Directive. The discrepancy has not been corrected in any materials supplied to downstream buyers; no remediation plan has been approved.",
+            "format": {}
+          },
+          {
+            "id": "b-eps-f3",
+            "type": "paragraph",
+            "text": "Finding 3. The revised safety data sheet for solvent EP-S7 was not distributed to production-floor workers within the contractually required 30-day window. The supplier corrected distribution and provided training records; the auditor confirmed both were complete.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-truegrain",
+      "name": "TrueGrain Paper — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-raj",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-13T10:30:00Z",
+      "modifiedAt": "2026-05-30T14:00:00Z",
+      "lastOpenedAt": "2026-05-31T08:30:00Z",
+      "content": {
+        "title": "TrueGrain Paper — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-tgp-h1",
+            "type": "heading1",
+            "text": "TrueGrain Paper — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-tgp-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Raj Patel. Site visit: 2026-05-07.",
+            "format": {}
+          },
+          {
+            "id": "b-tgp-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-tgp-f1",
+            "type": "paragraph",
+            "text": "Finding 1. Secondary containment bunding around the bleaching chemical storage area was absent, a condition identified in the Q1 audit. The supplier completed installation of bunding to the required spec and the auditor verified the installation on 2026-05-02; no residual issue remains.",
+            "format": {}
+          },
+          {
+            "id": "b-tgp-f2",
+            "type": "paragraph",
+            "text": "Finding 2. Wastewater discharge samples from coating line TG-CL-4 taken on 2026-05-09 showed chemical oxygen demand (COD) at 134% of the permitted limit, exceeding the regulatory threshold and triggering a mandatory notification obligation. The supplier submitted a regulatory notification to the environmental authority on 2026-05-11; however, the authority has not yet approved the supplier's remediation plan, and effluent treatment upgrades remain scheduled rather than completed.",
+            "format": {}
+          },
+          {
+            "id": "b-tgp-f3",
+            "type": "paragraph",
+            "text": "Finding 3. Chain-of-custody certificates for three FSC-certified pulp batches were not on file at the time of the audit. The supplier has 30 days to provide the certificates; none had been received as of the report date.",
+            "format": {}
+          },
+          {
+            "id": "b-tgp-f4",
+            "type": "paragraph",
+            "text": "Finding 4. Visitor PPE (safety glasses) enforcement at the production floor entrance was inconsistent. A procedure reminder has been posted; no formal re-inspection has been conducted.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-crestlink",
+      "name": "CrestLink Forging — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-dana",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-09T13:00:00Z",
+      "modifiedAt": "2026-06-19T11:30:00Z",
+      "lastOpenedAt": "2026-06-19T11:30:00Z",
+      "content": {
+        "title": "CrestLink Forging — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-clf-h1",
+            "type": "heading1",
+            "text": "CrestLink Forging — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-clf-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Dana Kim. Site visit: 2026-05-09.",
+            "format": {}
+          },
+          {
+            "id": "b-clf-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-clf-f1",
+            "type": "paragraph",
+            "text": "Finding 1. The hydraulic press operator log for production line CL-P2 showed a recurring pressure anomaly on twelve occasions in April and May 2026. No maintenance action was recorded against these events; the supplier stated this was within 'normal operating variance'. The auditor classified this as a documentation process gap at initial review.",
+            "format": {}
+          },
+          {
+            "id": "b-clf-f2",
+            "type": "paragraph",
+            "text": "Finding 2. Traceability records for raw steel ingot batch CL-RM-2026-04 are incomplete; heat treatment certificates are missing for two of five coils. Supplier to provide within 30 days.",
+            "format": {}
+          },
+          {
+            "id": "b-clf-f3",
+            "type": "paragraph",
+            "text": "Finding 3. The access-control log for the tool store showed four unrecorded entries in May 2026, which is a housekeeping gap in the audit trail.",
+            "format": {}
+          },
+          {
+            "id": "b-clf-rh",
+            "type": "heading2",
+            "text": "Re-assessment — 2026-06-19",
+            "format": {}
+          },
+          {
+            "id": "b-clf-r1",
+            "type": "paragraph",
+            "text": "Dana Kim conducted a follow-up inspection on 2026-06-17. An independent mechanical engineer engaged by the audit team reviewed the pressure-anomaly log for Finding 1 and determined that the documented anomalies exceed the manufacturer's specified tolerance band by up to 23%, creating a credible risk of catastrophic press failure and associated worker-safety exposure. The finding has been escalated: it is now classified as a worker-safety hazard with High severity. The press has not been taken out of service and no verified maintenance has been completed; the finding remains open pending a certified mechanical inspection and sign-off.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-arclight",
+      "name": "ArcLight Cables — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-11T09:00:00Z",
+      "modifiedAt": "2026-05-27T16:00:00Z",
+      "lastOpenedAt": "2026-05-29T10:00:00Z",
+      "content": {
+        "title": "ArcLight Cables — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-alc-h1",
+            "type": "heading1",
+            "text": "ArcLight Cables — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-alc-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Alex Torres. Site visit: 2026-05-11.",
+            "format": {}
+          },
+          {
+            "id": "b-alc-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-alc-f1",
+            "type": "paragraph",
+            "text": "Finding 1. The automatic fire suppression system in extrusion hall AL-EH-1 was non-operational on the day of the site visit; a maintenance work order had been raised eight days earlier but not acted upon. This hall operates continuously with flammable polymer compounds; an inoperative fire suppression system represents a direct worker-safety hazard. The supplier stated the contractor would attend within the week, but no verified completion record has been provided.",
+            "format": {}
+          },
+          {
+            "id": "b-alc-f2",
+            "type": "paragraph",
+            "text": "Finding 2. Conductor resistance test reports for product family AL-CX series were submitted five days outside the agreed contractual window for three consecutive batches. The supplier cited internal lab scheduling and has updated the testing calendar.",
+            "format": {}
+          },
+          {
+            "id": "b-alc-f3",
+            "type": "paragraph",
+            "text": "Finding 3. The emergency exit in warehouse section W-3 had a damaged push-bar mechanism. The supplier repaired it on 2026-05-13 and the auditor confirmed the repair during a follow-up site walk on 2026-05-18.",
+            "format": {}
+          },
+          {
+            "id": "b-alc-f4",
+            "type": "paragraph",
+            "text": "Finding 4. Shipping mark font size on four outer carton designs is below the minimum required by the destination country's import labelling standard. Design updates are scheduled for the next print run.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-omniflux",
+      "name": "OmniFlux Textiles — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-raj",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-15T10:00:00Z",
+      "modifiedAt": "2026-06-22T14:00:00Z",
+      "lastOpenedAt": "2026-06-22T14:00:00Z",
+      "content": {
+        "title": "OmniFlux Textiles — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-oft-h1",
+            "type": "heading1",
+            "text": "OmniFlux Textiles — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-oft-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Raj Patel. Site visit: 2026-05-15.",
+            "format": {}
+          },
+          {
+            "id": "b-oft-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-oft-f1",
+            "type": "paragraph",
+            "text": "Finding 1. Yarn tension calibration logs for weaving machines OF-WM-11 through OF-WM-14 were last updated in January 2026; the required quarterly calibration cycle was missed. The supplier has booked an external calibration service for 2026-07-02.",
+            "format": {}
+          },
+          {
+            "id": "b-oft-f2",
+            "type": "paragraph",
+            "text": "Finding 2. The fabric pilling test results for product line OF-KN-200 were not submitted to the buyer within the agreed 14-day window after batch completion, for three batches in Q2. The supplier has updated the submission process and no further delays were observed in May.",
+            "format": {}
+          },
+          {
+            "id": "b-oft-rh",
+            "type": "heading2",
+            "text": "Re-assessment — 2026-06-22",
+            "format": {}
+          },
+          {
+            "id": "b-oft-r1",
+            "type": "paragraph",
+            "text": "Raj Patel and the buyer's compliance officer conducted a follow-up review on 2026-06-20. During document reconciliation it was discovered that OmniFlux had routed approximately 18% of Q2 embroidery volume through a subcontractor (Hanxi Embroidery Co.) without prior buyer approval, in breach of contract clause 8.2, and had not disclosed this in the original audit response. The estimated value of the unapproved sub-contracted work is USD 115 000, creating a contractual exposure above the USD 50 000 threshold. This is a new finding identified in the re-assessment, classified as a contractual misrepresentation with High severity. No remediation or contractual amendment has been agreed; the finding is open.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-blueridge",
+      "name": "BlueRidge Textiles — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-dana",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-08T10:00:00Z",
+      "modifiedAt": "2026-05-26T15:00:00Z",
+      "lastOpenedAt": "2026-05-28T10:00:00Z",
+      "content": {
+        "title": "BlueRidge Textiles — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-brt-h1",
+            "type": "heading1",
+            "text": "BlueRidge Textiles — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-brt-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Dana Kim. Site visit: 2026-05-07.",
+            "format": {}
+          },
+          {
+            "id": "b-brt-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-brt-f1",
+            "type": "paragraph",
+            "text": "Finding 1. Azo dye compound BR-DYE-14 was detected in two colour batches at concentrations above the EU REACH SVHC threshold. Production on the affected line was halted immediately; all implicated batches were quarantined and destroyed. An alternative approved dye was validated and placed on the approved list on 2026-04-22; the auditor confirmed the production restart used only approved dye.",
+            "format": {}
+          },
+          {
+            "id": "b-brt-f2",
+            "type": "paragraph",
+            "text": "Finding 2. Worker overtime in March exceeded the statutory 36-hour monthly cap across the main weaving floor. The supplier submitted a remediation plan; the local labour authority accepted the plan and issued a formal acknowledgement on 2026-04-30. The overtime cap has been enforced in April and May with no recurrence observed.",
+            "format": {}
+          },
+          {
+            "id": "b-brt-f3",
+            "type": "paragraph",
+            "text": "Finding 3. Chemical storage room ventilation measured below the OSHA-aligned minimum air-change rate. The supplier upgraded the ventilation system; the upgrade was completed and verified by an independent third-party inspector on 2026-05-10.",
+            "format": {}
+          },
+          {
+            "id": "b-brt-f4",
+            "type": "paragraph",
+            "text": "Finding 4. Two shipments showed finished-goods weight variance exceeding 2% against spec. Process calibration has been corrected; no further variance was observed in the subsequent three production runs audited.",
+            "format": {}
+          },
+          {
+            "id": "b-brt-f5",
+            "type": "paragraph",
+            "text": "Finding 5. The visitor logbook at the front gate was not maintained consistently. A procedure update was issued; auditor spot-checked entries on 2026-05-26 and found them complete.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-nexwave",
+      "name": "NexWave Electronics — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-dana",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-09T13:00:00Z",
+      "modifiedAt": "2026-06-25T10:00:00Z",
+      "lastOpenedAt": "2026-06-25T10:00:00Z",
+      "content": {
+        "title": "NexWave Electronics — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-nwe-h1",
+            "type": "heading1",
+            "text": "NexWave Electronics — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-nwe-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Dana Kim. Site visit: 2026-05-08.",
+            "format": {}
+          },
+          {
+            "id": "b-nwe-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-nwe-f1",
+            "type": "paragraph",
+            "text": "Finding 1. ESD floor mat resistance readings in assembly bay 3 were outside the acceptable band on three of five test points. Replacement mats were ordered the same day.",
+            "format": {}
+          },
+          {
+            "id": "b-nwe-f2",
+            "type": "paragraph",
+            "text": "Finding 2. PCB traceability stickers were applied inconsistently across two production runs, affecting the audit trail but not the product itself. A process reminder was issued to the line supervisors.",
+            "format": {}
+          },
+          {
+            "id": "b-nwe-f3",
+            "type": "paragraph",
+            "text": "Finding 3. The firmware test-coverage report for NW-MOD-88 version 3.1.2 was not submitted to the buyer within the agreed 5-day contractual window.",
+            "format": {}
+          },
+          {
+            "id": "b-nwe-rh",
+            "type": "heading2",
+            "text": "Re-assessment — 2026-06-25",
+            "format": {}
+          },
+          {
+            "id": "b-nwe-r1",
+            "type": "paragraph",
+            "text": "Dana Kim conducted a follow-up inspection on 2026-06-23. The replacement ESD mats for Finding 1 had been installed and all five test points now read within spec; the auditor witnessed the re-test and documented passing readings. The finding is confirmed resolved. No other findings were re-graded.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-goldfield",
+      "name": "Goldfield Packaging — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-raj",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-11T09:00:00Z",
+      "modifiedAt": "2026-05-25T14:00:00Z",
+      "lastOpenedAt": "2026-05-27T11:00:00Z",
+      "content": {
+        "title": "Goldfield Packaging — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-gfp-h1",
+            "type": "heading1",
+            "text": "Goldfield Packaging — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-gfp-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Raj Patel. Site visit: 2026-05-10.",
+            "format": {}
+          },
+          {
+            "id": "b-gfp-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-gfp-f1",
+            "type": "paragraph",
+            "text": "Finding 1. Solvent-based adhesive GF-ADH-7 was used in production without customer pre-approval. The batch was recalled by the supplier on 2026-04-29; all implicated units were re-bonded with the customer-approved adhesive by 2026-05-03. The customer reviewed and accepted the corrective batch, and the supplier updated the approved-materials list to prevent recurrence.",
+            "format": {}
+          },
+          {
+            "id": "b-gfp-f2",
+            "type": "paragraph",
+            "text": "Finding 2. The packing line speed log is not updated at the required daily frequency; entries are sometimes batched at week end. A corrective procedure is under internal review.",
+            "format": {}
+          },
+          {
+            "id": "b-gfp-f3",
+            "type": "paragraph",
+            "text": "Finding 3. Two dock doors in the shipping bay lack weather-strip seals, allowing humidity ingress that could affect packaging integrity in adverse weather. Maintenance has been scheduled for 2026-06-10.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-meridian-coatings",
+      "name": "Meridian Coatings Corp. — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-dana",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-06T10:00:00Z",
+      "modifiedAt": "2026-05-23T09:00:00Z",
+      "lastOpenedAt": "2026-05-25T08:00:00Z",
+      "content": {
+        "title": "Meridian Coatings Corp. — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-mcc-h1",
+            "type": "heading1",
+            "text": "Meridian Coatings Corp. — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-mcc-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Dana Kim. Site visit: 2026-05-06.",
+            "format": {}
+          },
+          {
+            "id": "b-mcc-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-mcc-f1",
+            "type": "paragraph",
+            "text": "Finding 1. Volatile organic compound (VOC) emissions from spray booth MC-SB-2 were measured at 142% of the permitted limit during the site visit, a regulatory permit violation. The supplier engaged a licensed environmental contractor who fitted low-emission nozzles and upgraded the extraction system. An independent environmental inspection firm conducted a post-installation test on 2026-05-20 and issued a written clearance confirming emissions are now within the permitted band.",
+            "format": {}
+          },
+          {
+            "id": "b-mcc-f2",
+            "type": "paragraph",
+            "text": "Finding 2. Three batch mixing logs for April production lacked the supervisor sign-off field. The supplier issued a process reminder and completed the missing sign-offs retroactively; auditor reviewed the updated records.",
+            "format": {}
+          },
+          {
+            "id": "b-mcc-f3",
+            "type": "paragraph",
+            "text": "Finding 3. Colour-matching acceptance criteria documentation has not been updated since 2024. An update is planned for Q3 2026.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-sinopure",
+      "name": "SinoPure Chemicals — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-raj",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-16T11:00:00Z",
+      "modifiedAt": "2026-05-29T12:00:00Z",
+      "lastOpenedAt": "2026-05-30T10:00:00Z",
+      "content": {
+        "title": "SinoPure Chemicals — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-spc-h1",
+            "type": "heading1",
+            "text": "SinoPure Chemicals — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-spc-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Raj Patel. Site visit: 2026-05-16.",
+            "format": {}
+          },
+          {
+            "id": "b-spc-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-spc-f1",
+            "type": "paragraph",
+            "text": "Finding 1. Safety data sheets (SDS) for three reagent products (SP-R14, SP-R19, SP-R22) have not been updated to the current GHS revision 8 format; the existing SDS documents are from 2022. The supplier has been formally notified to update them; updates are pending.",
+            "format": {}
+          },
+          {
+            "id": "b-spc-f2",
+            "type": "paragraph",
+            "text": "Finding 2. The waste-disposal manifest log for March 2026 is missing records for two solvent-waste shipments. These are documentation gaps in the audit trail; the waste contractor confirmed in writing that both shipments were handled at a licensed facility.",
+            "format": {}
+          },
+          {
+            "id": "b-spc-f3",
+            "type": "paragraph",
+            "text": "Finding 3. Visitor induction forms in the lab area are not consistently signed before entry. A reminder was posted; no recurrence observed in May.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-horizonfit",
+      "name": "HorizonFit Garments — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-13T09:00:00Z",
+      "modifiedAt": "2026-05-27T13:00:00Z",
+      "lastOpenedAt": "2026-05-28T09:00:00Z",
+      "content": {
+        "title": "HorizonFit Garments — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-hfg-h1",
+            "type": "heading1",
+            "text": "HorizonFit Garments — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-hfg-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Alex Torres. Site visit: 2026-05-13.",
+            "format": {}
+          },
+          {
+            "id": "b-hfg-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-hfg-f1",
+            "type": "paragraph",
+            "text": "Finding 1. Internal audit records for Q1 were not shared with the buyer within the agreed 45-day window. The supplier cited a staffing gap in the QA team; records were provided 18 days late. No recurrence in Q2.",
+            "format": {}
+          },
+          {
+            "id": "b-hfg-f2",
+            "type": "paragraph",
+            "text": "Finding 2. The approved supplier list for trim components (buttons, zippers) has not been reviewed or re-approved since Q3 2024; a review was due in Q4 2024. The supplier has scheduled the review for Q3 2026.",
+            "format": {}
+          },
+          {
+            "id": "b-hfg-f3",
+            "type": "paragraph",
+            "text": "Finding 3. Batch packing inspection records for two shipments in May lacked the second-check signature required by the quality plan. The QA manager acknowledged the gap and instructed supervisors to enforce dual sign-off; no corrected records have been submitted.",
+            "format": {}
+          },
+          {
+            "id": "b-hfg-f4",
+            "type": "paragraph",
+            "text": "Finding 4. The factory canteen area's food-safety self-inspection log had a two-week gap in March. The records gap has been closed and a new log-completion reminder is posted.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-clearfield",
+      "name": "Clearfield Logistics — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "p-raj",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-14T14:00:00Z",
+      "modifiedAt": "2026-05-28T11:00:00Z",
+      "lastOpenedAt": "2026-05-29T09:00:00Z",
+      "content": {
+        "title": "Clearfield Logistics — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-cfl-h1",
+            "type": "heading1",
+            "text": "Clearfield Logistics — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-cfl-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Raj Patel. Desk review: 2026-05-14.",
+            "format": {}
+          },
+          {
+            "id": "b-cfl-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-cfl-f1",
+            "type": "paragraph",
+            "text": "Finding 1. On-time delivery performance over Q2 dropped to 82% against the contracted 95% SLA across the assigned lanes. The financial penalty exposure under the SLA is estimated at USD 38 000 for the quarter. The supplier has provided a root-cause analysis attributing the delay to port congestion and has committed to a recovery plan.",
+            "format": {}
+          },
+          {
+            "id": "b-cfl-f2",
+            "type": "paragraph",
+            "text": "Finding 2. Temperature-monitoring data for three refrigerated shipments (CFL-RF-2026-04 through -06) was not uploaded to the shared portal within the required 24 hours of arrival. The supplier updated the upload procedure and two subsequent refrigerated shipments showed compliant upload times.",
+            "format": {}
+          },
+          {
+            "id": "b-cfl-f3",
+            "type": "paragraph",
+            "text": "Finding 3. The driver vehicle inspection checklist for April is missing entries for six vehicle-days. The fleet manager provided a back-filled log; the gap is attributed to a system migration.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-audit-provenance",
+      "name": "Provenance Lab Inc. — Q2 Audit",
+      "type": "document",
+      "parentId": "folder-supplier-audits-q2",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-17T10:00:00Z",
+      "modifiedAt": "2026-05-26T14:00:00Z",
+      "lastOpenedAt": "2026-05-27T09:00:00Z",
+      "content": {
+        "title": "Provenance Lab Inc. — Q2 Audit",
+        "blocks": [
+          {
+            "id": "b-pli-h1",
+            "type": "heading1",
+            "text": "Provenance Lab Inc. — Q2 Audit",
+            "format": {}
+          },
+          {
+            "id": "b-pli-meta",
+            "type": "paragraph",
+            "text": "Audit period: 2026-Q2. Auditor: Alex Torres. Site visit: 2026-05-17.",
+            "format": {}
+          },
+          {
+            "id": "b-pli-fh",
+            "type": "heading2",
+            "text": "Findings",
+            "format": {}
+          },
+          {
+            "id": "b-pli-f1",
+            "type": "paragraph",
+            "text": "Finding 1. Two out of twelve reference standard certificates in the laboratory were found to be beyond their validity date by less than 60 days. The lab manager ordered renewals on the day of audit; renewals have not yet been received.",
+            "format": {}
+          },
+          {
+            "id": "b-pli-f2",
+            "type": "paragraph",
+            "text": "Finding 2. The instrument maintenance log for the HPLC unit PL-HPLC-2 had a gap of six weeks in March–April. The gap was explained by a scheduled extended service by the OEM; the service record was provided to the auditor.",
+            "format": {}
+          },
+          {
+            "id": "b-pli-f3",
+            "type": "paragraph",
+            "text": "Finding 3. Document version control for three standard operating procedures (SOPs) was found to be behind by one revision cycle each. Revisions are in draft and planned for sign-off in Q3.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-sourcing-overview",
+      "name": "Q2 2026 Sourcing Overview",
+      "type": "document",
+      "parentId": "root",
+      "starred": true,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-04-05T09:00:00Z",
+      "modifiedAt": "2026-05-01T10:00:00Z",
+      "lastOpenedAt": "2026-05-20T08:00:00Z",
+      "content": {
+        "title": "Q2 2026 Sourcing Overview",
+        "blocks": [
+          {
+            "id": "b-so-h1",
+            "type": "heading1",
+            "text": "Q2 2026 Sourcing Overview",
+            "format": {}
+          },
+          {
+            "id": "b-so-body",
+            "type": "paragraph",
+            "text": "This document summarises the active supplier panel and sourcing priorities for Q2 2026.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    }
+  ],
+  "templates": [],
+  "versions": {},
+  "view": {
+    "currentFolderId": "root",
+    "sortBy": "lastOpenedAt",
+    "sortDir": "desc"
+  },
+  "events": [],
+  "config": {
+    "mcpEnabled": true
+  }
+}

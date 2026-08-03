@@ -1,0 +1,45 @@
+{
+  "platforms": {
+    "shopee_th": {
+      "display_name": "Shopee Thailand",
+      "commission_rates": {
+        "electronics": 0.06,
+        "accessories": 0.04,
+        "home": 0.05
+      },
+      "transaction_fee": 0.02,
+      "shipping_subsidy_thb_per_order": 15,
+      "flash_sale_extra_fee": 0.01,
+      "min_flash_sale_velocity": 20
+    },
+    "lazada_th": {
+      "display_name": "Lazada Thailand",
+      "commission_rates": {
+        "electronics": 0.07,
+        "accessories": 0.05,
+        "home": 0.06
+      },
+      "transaction_fee": 0.02,
+      "shipping_subsidy_thb_per_order": 0,
+      "flash_sale_extra_fee": 0.015,
+      "min_flash_sale_velocity": 20
+    },
+    "tiktok_th": {
+      "display_name": "TikTok Shop Thailand",
+      "commission_rates": {
+        "electronics": 0.04,
+        "accessories": 0.03,
+        "home": 0.04
+      },
+      "transaction_fee": 0.02,
+      "shipping_subsidy_thb_per_order": 20,
+      "flash_sale_extra_fee": 0.02,
+      "min_flash_sale_velocity": 20
+    }
+  },
+  "notes": [
+    "Total platform fee = commission + transaction_fee (flash_sale_extra_fee is additional during flash sale only)",
+    "Shipping subsidy is listed for context only in this task; do not deduct it in regular pricing, promo floor checks, budget, or allocation cost calculations",
+    "Platform fee is deducted from selling price: net_revenue = price × (1 - total_fee_rate)"
+  ]
+}

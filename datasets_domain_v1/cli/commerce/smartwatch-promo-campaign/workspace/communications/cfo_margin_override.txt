@@ -1,0 +1,24 @@
+From: CFO David Park <david.park@chronovibe.com>
+To: Campaign Operations <campaign-ops@chronovibe.com>
+CC: Marketing Director Sarah Chen <sarah.chen@chronovibe.com>
+Date: 2026-06-09 (sent 2 hours after Sarah's email)
+Subject: RE: Summer Flash Sale — MARGIN CORRECTION for Phase 3
+
+Team,
+
+I've reviewed the v2 campaign plan and the Phase 3 (last_chance) discount of 12% is too aggressive for our margin targets this quarter.
+
+OVERRIDE: Change Phase 3 discount from 12% to 10%.
+
+Phase 1 (early_access) at 22% — APPROVED, no change.
+Phase 2 (flash_sale) at 18% — APPROVED, no change.
+Phase 3 (last_chance) — CHANGE from 12% to 10%.
+
+This is a hard requirement from Finance. Do not use the 12% figure from the v2 plan.
+
+Recalculate the Phase 3 discounted price accordingly.
+
+— David Park
+CFO, ChronoVibe
+
+P.S. The Band Lite seasonal discounts are fine as-is; this override only applies to the Pulse S2 campaign.

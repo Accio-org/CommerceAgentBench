@@ -1,0 +1,506 @@
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google 文档 — Mock</title>
+    <link rel="stylesheet" href="/styles.css?v=58-toolbar-operation-parity">
+  </head>
+  <body dir="ltr" data-view="home" class="docs-gm docsCommonWiz docs-material docs-grille-gm3 docs-homescreen-snackbar-enabled docs-homescreen-material-bar-enabled docs-homescreen-templates-enabled">
+
+    <!-- ============================ HOME VIEW ============================ -->
+    <section class="home-view" id="home-view">
+      <header class="home-topbar">
+        <div class="topbar-left">
+          <button class="icon-btn" id="menu-button" type="button" aria-label="主菜单" data-tooltip="主菜单">
+            <svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+          </button>
+          <a class="brand" id="home-brand" href="/" aria-label="Google 文档">
+            <svg class="docs-logo" viewBox="0 0 64 88">
+              <path d="M40 0H8C3.6 0 0 3.6 0 8v72c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V24L40 0z" fill="#4285f4"></path>
+              <path d="M40 0v16c0 4.4 3.6 8 8 8h16L40 0z" fill="#a1c2fa"></path>
+              <path d="M16 36h32v3H16zm0 8h32v3H16zm0 8h32v3H16zm0 8h22v3H16z" fill="#fff"></path>
+            </svg>
+            <span class="brand-name">文档</span>
+          </a>
+        </div>
+        <form class="search" role="search" id="search-form">
+          <button type="button" class="icon-btn search-icon" aria-label="搜索">
+            <svg viewBox="0 0 24 24"><path d="M9.7 4.5a5.2 5.2 0 1 1 0 10.4 5.2 5.2 0 0 1 0-10.4m0-2a7.2 7.2 0 1 0 4.5 12.8l4.2 4.2 1.4-1.4-4.2-4.2A7.2 7.2 0 0 0 9.7 2.5z"></path></svg>
+          </button>
+          <input id="search-input" type="search" placeholder="搜索" aria-label="搜索栏" autocomplete="off">
+          <button class="icon-btn" id="search-clear" type="button" aria-label="清除搜索内容" hidden="">
+            <svg viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+          </button>
+        </form>
+        <div class="home-top-actions">
+          <button class="upgrade-btn" id="upgrade-button" type="button" aria-label="升级" data-tooltip="升级即可获享高级功能">升级</button>
+          <button class="icon-btn" id="apps-button" type="button" aria-label="Google 应用" data-tooltip="Google 应用">
+            <svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2"></circle><circle cx="12" cy="6" r="2"></circle><circle cx="18" cy="6" r="2"></circle><circle cx="6" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="18" cy="12" r="2"></circle><circle cx="6" cy="18" r="2"></circle><circle cx="12" cy="18" r="2"></circle><circle cx="18" cy="18" r="2"></circle></svg>
+          </button>
+          <button class="avatar" id="account-button" type="button" aria-label="Google 账号" data-tooltip="Google 账号">L</button>
+        </div>
+      </header>
+
+      <!-- Template strip -->
+      <section class="template-section docs-homescreen-templates-region" id="template-section">
+        <div class="container">
+          <header class="docs-hs-tmp-contractedheader ts-header">
+            <h2 class="docs-hs-tmp-contractedheader-text" role="heading">创建新文档</h2>
+            <div class="docs-hs-tmp-contractedheader-actions ts-actions">
+              <button type="button" id="open-templates" class="docs-hs-tmp-contractedheader-more link-btn" aria-label="模板库">
+                模板库
+                <svg viewBox="0 0 24 24" class="ts-chevron"><path d="M12 6l-5 5h10z M12 18l-5-5h10z"></path></svg>
+              </button>
+              <button class="docs-homescreen-editorbar-actionbutton" id="toggle-strip" type="button" aria-label="隐藏所有模板">
+                <svg viewBox="0 0 24 24" id="toggle-strip-icon"><circle cx="5" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle></svg>
+              </button>
+            </div>
+          </header>
+          <div class="docs-homescreen-templates-list template-row" id="template-row" role="list"><div class="template-card docs-homescreen-templates-list-item blank" role="button" aria-label="选择模板" data-tooltip="空白文档"><div class="thumb docs-homescreen-templates-list-item-thumbnail"><div class="blank-plus">+</div></div><div class="name docs-homescreen-templates-list-item-title">空白文档</div></div><div class="template-card docs-homescreen-templates-list-item" role="button" aria-label="选择模板" data-tooltip="信件 薄荷绿"><div class="thumb docs-homescreen-templates-list-item-thumbnail"><div class="tpl-skin letter-mint">
+        <div class="frame">
+          <div class="h"></div>
+          <div class="sub"></div>
+          <div class="gap"></div>
+          <div class="l f"></div><div class="l m"></div><div class="l s"></div><div class="l f"></div><div class="l m"></div>
+          <div class="gap"></div>
+          <div class="l m"></div><div class="l s"></div>
+        </div></div></div><div class="name docs-homescreen-templates-list-item-title">信件</div><div class="subname docs-homescreen-templates-list-item-subtitle">薄荷绿</div></div><div class="template-card docs-homescreen-templates-list-item" role="button" aria-label="选择模板" data-tooltip="简历 Serif"><div class="thumb docs-homescreen-templates-list-item-thumbnail"><div class="tpl-skin resume-serif">
+        <div class="side">
+          <div class="seg"><div class="lbl"></div></div>
+          <div class="seg"><div class="lbl short"></div></div>
+          <div class="seg"><div class="lbl"></div></div>
+          <div class="seg"><div class="lbl short"></div></div>
+        </div>
+        <div class="main">
+          <div class="h"></div>
+          <div class="sub"></div>
+          <div class="l f"></div><div class="l m"></div>
+          <div class="gap"></div>
+          <div class="l f"></div><div class="l s"></div>
+          <div class="gap"></div>
+          <div class="l f"></div><div class="l m"></div><div class="l s"></div>
+        </div></div></div><div class="name docs-homescreen-templates-list-item-title">简历</div><div class="subname docs-homescreen-templates-list-item-subtitle">Serif</div></div><div class="template-card docs-homescreen-templates-list-item" role="button" aria-label="选择模板" data-tooltip="简历 珊瑚"><div class="thumb docs-homescreen-templates-list-item-thumbnail"><div class="tpl-skin resume-coral">
+        <div class="top">
+          <div class="h"></div>
+          <div class="sub"></div>
+        </div>
+        <div class="body">
+          <div class="sec-h"></div>
+          <div class="l f"></div><div class="l m"></div>
+          <div class="sec-h"></div>
+          <div class="l f"></div><div class="l m"></div><div class="l s"></div>
+          <div class="sec-h"></div>
+          <div class="l m"></div><div class="l s"></div>
+        </div></div></div><div class="name docs-homescreen-templates-list-item-title">简历</div><div class="subname docs-homescreen-templates-list-item-subtitle">珊瑚</div></div><div class="template-card docs-homescreen-templates-list-item" role="button" aria-label="选择模板" data-tooltip="项目计划书 热带"><div class="thumb docs-homescreen-templates-list-item-thumbnail"><div class="tpl-skin project-tropical">
+        <div class="hero"></div>
+        <div class="body">
+          <div class="h"></div>
+          <div class="sub"></div>
+          <div class="sec-h"></div>
+          <div class="l f"></div><div class="l m"></div><div class="l s"></div>
+        </div></div></div><div class="name docs-homescreen-templates-list-item-title">项目计划书</div><div class="subname docs-homescreen-templates-list-item-subtitle">热带</div></div><div class="template-card docs-homescreen-templates-list-item" role="button" aria-label="选择模板" data-tooltip="手册 几何图案"><div class="thumb docs-homescreen-templates-list-item-thumbnail"><div class="tpl-skin brochure-geo">
+        <div class="hero"></div>
+        <div class="body">
+          <div class="h"></div>
+          <div class="sub"></div>
+          <div class="l f"></div><div class="l m"></div><div class="l s"></div>
+        </div></div></div><div class="name docs-homescreen-templates-list-item-title">手册</div><div class="subname docs-homescreen-templates-list-item-subtitle">几何图案</div></div></div>
+        </div>
+      </section>
+
+      <!-- Recent docs -->
+      <section class="recent-section">
+        <div class="container">
+          <header class="docs-homescreen-grid-header recent-header">
+            <h2 class="docs-homescreen-grid-header-title" id="recent-title">近期的文档</h2>
+            <div class="docs-homescreen-grid-header-owner recent-controls">
+              <button type="button" class="docs-homescreen-owner-filter-button owner-btn" id="owner-filter-btn" aria-label="所有者过滤选项" aria-haspopup="true" aria-expanded="false" role="button">
+                <span id="owner-filter-label">不限归属</span>
+                <svg viewBox="0 0 24 24" class="caret"><path d="M7 10l5 5 5-5z"></path></svg>
+              </button>
+              <button type="button" class="docs-homescreen-editorbar-actionbutton" id="layout-toggle" aria-label="列表视图" data-tooltip="列表视图" data-mode="grid">
+                <svg viewBox="0 0 24 24" id="layout-toggle-icon"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+              </button>
+              <button type="button" class="docs-homescreen-editorbar-actionbutton" id="sort-btn" aria-label="排序选项" data-tooltip="排序选项" aria-haspopup="true" aria-expanded="false">
+                <span id="sort-label">我上次打开的时间</span>
+                <svg viewBox="0 0 24 24"><path d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"></path></svg>
+              </button>
+              <button type="button" class="docs-homescreen-editorbar-actionbutton" id="file-picker-btn" aria-label="打开文件选择器" data-tooltip="打开文件选择器">
+                <svg viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"></path></svg>
+              </button>
+            </div>
+          </header>
+          <nav class="breadcrumb" id="breadcrumb" aria-label="路径"></nav>
+          <div class="docs-homescreen-grid-container file-grid" id="file-grid" role="list"><div class="file-card docs-homescreen-grid-item" role="listitem" aria-label="图片选择态临时文档 Google 文档" data-file-id="doc-mpwvvepb-r9hvu"><div class="thumb" style="position: relative;"><div class="fake-doc"><div class="h"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div></div><button class="star " type="button" data-action="star" aria-label="加星" style="position: absolute; top: 8px; right: 8px; z-index: 1; border: 0px; background: transparent; cursor: pointer; font-size: 14px; color: transparent;">★</button></div><div class="meta">
+    <div class="name docs-homescreen-list-item-title">图片选择态临时文档</div>
+    <svg class="doc-icon" viewBox="0 0 24 24"><path fill="#1a73e8" d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zM6 20V4h8v5h5v11z"></path><path fill="#fff" d="M8 12h8v1.5H8zm0 3h8v1.5H8zm0 3h5v1.5H8z"></path></svg>
+    <div class="sub docs-homescreen-list-item-time" aria-label="上次打开时间 今天 01:00">上次打开时间 今天 01:00</div>
+    <button class="row-action" type="button" data-action="menu" aria-label="更多操作。" aria-haspopup="true">⋮</button>
+  </div></div><div class="file-card docs-homescreen-grid-item" role="listitem" aria-label="会议记录 Google 文档" data-file-id="doc-mpwia3ep-yu1c9"><div class="thumb" style="position: relative;"><div class="fake-doc"><div class="h"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div></div><button class="star " type="button" data-action="star" aria-label="加星" style="position: absolute; top: 8px; right: 8px; z-index: 1; border: 0px; background: transparent; cursor: pointer; font-size: 14px; color: transparent;">★</button></div><div class="meta">
+    <div class="name docs-homescreen-list-item-title">会议记录</div>
+    <svg class="doc-icon" viewBox="0 0 24 24"><path fill="#1a73e8" d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zM6 20V4h8v5h5v11z"></path><path fill="#fff" d="M8 12h8v1.5H8zm0 3h8v1.5H8zm0 3h5v1.5H8z"></path></svg>
+    <div class="sub docs-homescreen-list-item-time" aria-label="上次打开时间 今天 00:57">上次打开时间 今天 00:57</div>
+    <button class="row-action" type="button" data-action="menu" aria-label="更多操作。" aria-haspopup="true">⋮</button>
+  </div></div><div class="file-card docs-homescreen-grid-item" role="listitem" aria-label="会议记录 Google 文档" data-file-id="doc-mpwi99wz-bemiu"><div class="thumb" style="position: relative;"><div class="fake-doc"><div class="h"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div></div><button class="star " type="button" data-action="star" aria-label="加星" style="position: absolute; top: 8px; right: 8px; z-index: 1; border: 0px; background: transparent; cursor: pointer; font-size: 14px; color: transparent;">★</button></div><div class="meta">
+    <div class="name docs-homescreen-list-item-title">会议记录</div>
+    <svg class="doc-icon" viewBox="0 0 24 24"><path fill="#1a73e8" d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zM6 20V4h8v5h5v11z"></path><path fill="#fff" d="M8 12h8v1.5H8zm0 3h8v1.5H8zm0 3h5v1.5H8z"></path></svg>
+    <div class="sub docs-homescreen-list-item-time" aria-label="上次打开时间 2026/6/2">上次打开时间 2026/6/2</div>
+    <button class="row-action" type="button" data-action="menu" aria-label="更多操作。" aria-haspopup="true">⋮</button>
+  </div></div><div class="file-card docs-homescreen-grid-item" role="listitem" aria-label="简历 副本 Google 文档" data-file-id="doc-mpwh8jg5-xgwwm"><div class="thumb" style="position: relative;"><div class="fake-doc"><div class="h"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div></div><button class="star " type="button" data-action="star" aria-label="加星" style="position: absolute; top: 8px; right: 8px; z-index: 1; border: 0px; background: transparent; cursor: pointer; font-size: 14px; color: transparent;">★</button></div><div class="meta">
+    <div class="name docs-homescreen-list-item-title">简历 副本</div>
+    <svg class="doc-icon" viewBox="0 0 24 24"><path fill="#1a73e8" d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zM6 20V4h8v5h5v11z"></path><path fill="#fff" d="M8 12h8v1.5H8zm0 3h8v1.5H8zm0 3h5v1.5H8z"></path></svg>
+    <div class="sub docs-homescreen-list-item-time" aria-label="上次打开时间 2026/6/2">上次打开时间 2026/6/2</div>
+    <button class="row-action" type="button" data-action="menu" aria-label="更多操作。" aria-haspopup="true">⋮</button>
+  </div></div><div class="file-card docs-homescreen-grid-item" role="listitem" aria-label="信件 副本 Google 文档" data-file-id="doc-mpwh8a2z-4p7a7"><div class="thumb" style="position: relative;"><div class="fake-doc"><div class="h"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div></div><button class="star " type="button" data-action="star" aria-label="加星" style="position: absolute; top: 8px; right: 8px; z-index: 1; border: 0px; background: transparent; cursor: pointer; font-size: 14px; color: transparent;">★</button></div><div class="meta">
+    <div class="name docs-homescreen-list-item-title">信件 副本</div>
+    <svg class="doc-icon" viewBox="0 0 24 24"><path fill="#1a73e8" d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zM6 20V4h8v5h5v11z"></path><path fill="#fff" d="M8 12h8v1.5H8zm0 3h8v1.5H8zm0 3h5v1.5H8z"></path></svg>
+    <div class="sub docs-homescreen-list-item-time" aria-label="上次打开时间 2026/6/2">上次打开时间 2026/6/2</div>
+    <button class="row-action" type="button" data-action="menu" aria-label="更多操作。" aria-haspopup="true">⋮</button>
+  </div></div><div class="file-card docs-homescreen-grid-item" role="listitem" aria-label="信件 副本 Google 文档" data-file-id="doc-mpwh7vub-8dehw"><div class="thumb" style="position: relative;"><div class="fake-doc"><div class="h"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div></div><button class="star " type="button" data-action="star" aria-label="加星" style="position: absolute; top: 8px; right: 8px; z-index: 1; border: 0px; background: transparent; cursor: pointer; font-size: 14px; color: transparent;">★</button></div><div class="meta">
+    <div class="name docs-homescreen-list-item-title">信件 副本</div>
+    <svg class="doc-icon" viewBox="0 0 24 24"><path fill="#1a73e8" d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zM6 20V4h8v5h5v11z"></path><path fill="#fff" d="M8 12h8v1.5H8zm0 3h8v1.5H8zm0 3h5v1.5H8z"></path></svg>
+    <div class="sub docs-homescreen-list-item-time" aria-label="上次打开时间 2026/6/2">上次打开时间 2026/6/2</div>
+    <button class="row-action" type="button" data-action="menu" aria-label="更多操作。" aria-haspopup="true">⋮</button>
+  </div></div><div class="file-card docs-homescreen-grid-item" role="listitem" aria-label="未命名文档 Google 文档" data-file-id="doc-untitled"><div class="thumb" style="position: relative;"><div class="fake-doc"><div class="h"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div></div><button class="star " type="button" data-action="star" aria-label="加星" style="position: absolute; top: 8px; right: 8px; z-index: 1; border: 0px; background: transparent; cursor: pointer; font-size: 14px; color: transparent;">★</button></div><div class="meta">
+    <div class="name docs-homescreen-list-item-title">未命名文档</div>
+    <svg class="doc-icon" viewBox="0 0 24 24"><path fill="#1a73e8" d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zM6 20V4h8v5h5v11z"></path><path fill="#fff" d="M8 12h8v1.5H8zm0 3h8v1.5H8zm0 3h5v1.5H8z"></path></svg>
+    <div class="sub docs-homescreen-list-item-time" aria-label="上次打开时间 2026/5/31">上次打开时间 2026/5/31</div>
+    <button class="row-action" type="button" data-action="menu" aria-label="更多操作。" aria-haspopup="true">⋮</button>
+  </div></div><div class="file-card docs-homescreen-grid-item" role="listitem" aria-label="感谢信草稿 Google 文档" data-file-id="doc-letter"><div class="thumb" style="position: relative;"><div class="fake-doc"><div class="h"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div><div class="l med"></div><div class="l short"></div><div class="l"></div></div><button class="star " type="button" data-action="star" aria-label="加星" style="position: absolute; top: 8px; right: 8px; z-index: 1; border: 0px; background: transparent; cursor: pointer; font-size: 14px; color: transparent;">★</button></div><div class="meta">
+    <div class="name docs-homescreen-list-item-title">感谢信草稿</div>
+    <svg class="doc-icon" viewBox="0 0 24 24"><path fill="#1a73e8" d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7zM6 20V4h8v5h5v11z"></path><path fill="#fff" d="M8 12h8v1.5H8zm0 3h8v1.5H8zm0 3h5v1.5H8z"></path></svg>
+    <div class="sub docs-homescreen-list-item-time" aria-label="上次打开时间 2026/5/12">上次打开时间 2026/5/12</div>
+    <button class="row-action" type="button" data-action="menu" aria-label="更多操作。" aria-haspopup="true">⋮</button>
+  </div></div></div>
+          <table class="docs-homescreen-list-container file-list" id="file-list-table" hidden="">
+            <thead>
+              <tr>
+                <th class="col-name">名称</th>
+                <th class="col-owner">所有者</th>
+                <th class="col-modified">最后修改</th>
+                <th class="col-actions"></th>
+              </tr>
+            </thead>
+            <tbody id="file-list-body"></tbody>
+          </table>
+          <div class="empty-state" id="empty-state" hidden="">
+            <p>找不到与此所有者过滤条件相符的文件。</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ============================ TEMPLATES GALLERY ============================ -->
+    <section class="templates-view docs-homescreen-templates-bar" id="templates-view" hidden="">
+      <header class="docs-homescreen-templates-bar-header gallery-topbar">
+        <button class="icon-btn" id="templates-back" type="button" aria-label="返回" data-tooltip="返回">
+          <svg viewBox="0 0 24 24"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"></path></svg>
+        </button>
+        <h1 class="gallery-title">模板库</h1>
+      </header>
+      <div class="gallery-body" id="gallery-body"></div>
+    </section>
+
+    <!-- ============================ EDITOR ============================ -->
+    <section class="editor-view" id="editor-view" hidden>
+      <header class="editor-topbar">
+        <a class="editor-brand" id="editor-brand" href="#" aria-label="返回首页">
+          <svg class="docs-logo" viewBox="0 0 64 88">
+            <path d="M40 0H8C3.6 0 0 3.6 0 8v72c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V24L40 0z" fill="#4285f4"></path>
+            <path d="M40 0v16c0 4.4 3.6 8 8 8h16L40 0z" fill="#a1c2fa"></path>
+          </svg>
+        </a>
+        <div class="editor-title-block">
+          <div class="title-row">
+            <input type="text" id="editor-title" class="editor-title" aria-label="文档标题">
+            <button type="button" class="icon-btn tiny" id="editor-star" aria-label="加注星标" data-tooltip="加注星标" aria-pressed="false">
+              <svg viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+            </button>
+            <button type="button" class="icon-btn tiny" id="editor-folder" aria-label="将文件移至" data-tooltip="将文件移至">
+              <svg viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"></path></svg>
+            </button>
+            <button type="button" class="icon-btn tiny" id="editor-cloud" aria-label="所有更改已保存到云端硬盘" data-tooltip="文档状态">
+              <svg viewBox="0 0 24 24"><path d="M19.35 10.04A7.49 7.49 0 0 0 12 4 7.5 7.5 0 0 0 4.61 9.05 6 6 0 0 0 6 21h13a5 5 0 0 0 .35-10.96z"></path></svg>
+            </button>
+            <span class="save-text" id="save-text">所有更改已保存到云端硬盘</span>
+          </div>
+          <div class="editor-menu" id="editor-menu">
+            <button type="button" data-menu="file">文件</button>
+            <button type="button" data-menu="edit">编辑</button>
+            <button type="button" data-menu="view">查看</button>
+            <button type="button" data-menu="insert">插入</button>
+            <button type="button" data-menu="format">格式</button>
+            <button type="button" data-menu="tools">工具</button>
+            <button type="button" data-menu="extensions">扩展程序</button>
+            <button type="button" data-menu="help">帮助</button>
+          </div>
+        </div>
+        <div class="editor-actions">
+          <button class="icon-btn" type="button" id="editor-history" aria-label="上次修改是几秒前进行的" data-tooltip="上次修改是几秒前进行的">
+            <svg viewBox="0 0 24 24"><path d="M13 3a9 9 0 0 0-9 9H1l3.9 3.9.1.14L9 12H6a7 7 0 1 1 7 7c-1.9 0-3.62-.78-4.88-2.03l-1.42 1.42A8.96 8.96 0 0 0 13 21a9 9 0 0 0 0-18zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8z"></path></svg>
+          </button>
+          <button class="icon-btn" type="button" id="editor-meet" aria-label="发起视频通话">
+            <svg viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11z"></path></svg>
+          </button>
+          <button class="icon-btn" type="button" id="editor-comment" aria-label="显示所有评论" data-tooltip="显示所有评论" aria-expanded="false">
+            <svg viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4zM18 14H6v-2h12zm0-3H6V9h12zm0-3H6V6h12z"></path></svg>
+          </button>
+          <button type="button" class="share-btn" id="editor-share">
+            <svg viewBox="0 0 24 24"><path d="M18 8a3 3 0 0 0-2.39 1.2L8.84 6.36A3 3 0 1 0 8.84 9.64l6.77-2.84-.01.05L18 8a3 3 0 1 0 0-6 3 3 0 0 0-3 3l.04.39L8.27 8.23a3 3 0 1 0 0 7.54l6.77 2.84L15 19a3 3 0 1 0 3-3z"></path></svg>
+            <span>共享</span>
+          </button>
+          <button class="avatar small" id="editor-avatar" type="button" aria-label="Google 账号">L</button>
+        </div>
+      </header>
+
+      <div class="formatting-toolbar" id="formatting-toolbar">
+        <button type="button" class="tb-btn" id="tb-search" aria-label="搜索菜单 (⌥/)" data-tooltip="搜索菜单 (Option + /)"><svg viewBox="0 0 24 24"><path d="M9.7 4.5a5.2 5.2 0 1 1 0 10.4 5.2 5.2 0 0 1 0-10.4m0-2a7.2 7.2 0 1 0 4.5 12.8l4.2 4.2 1.4-1.4-4.2-4.2A7.2 7.2 0 0 0 9.7 2.5z"></path></svg></button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn" id="tb-undo" aria-label="撤销 (⌘Z)" data-tooltip="撤销 (⌘Z)"><svg viewBox="0 0 24 24"><path d="M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62a8 8 0 0 1 5.12-1.88c3.54 0 6.55 2.31 7.6 5.5l2.37-.78A10.5 10.5 0 0 0 12.5 8z"></path></svg></button>
+        <button type="button" class="tb-btn" id="tb-redo" aria-label="重做 (⌘Y)" data-tooltip="重做 ⌘Y"><svg viewBox="0 0 24 24"><path d="M18.4 10.6A10.5 10.5 0 0 0 1.5 16.5l2.37.78c1.05-3.19 4.06-5.5 7.6-5.5a8 8 0 0 1 5.12 1.88L13 17h9V8z"></path></svg></button>
+        <button type="button" class="tb-btn" id="tb-print" aria-label="打印 (⌘P)" data-tooltip="打印 ⌘P"><svg viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8zm3-7a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM18 3H6v4h12z"></path></svg></button>
+        <button type="button" class="tb-btn" id="tb-spell" aria-label="拼写检查" data-tooltip="拼写检查"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.41 14.59L6.41 12 7.83 10.59l2.76 2.76 5.18-5.18L17.17 9.59z"></path></svg></button>
+        <button type="button" class="tb-btn" id="tb-paint" aria-label="格式刷" data-tooltip="格式刷"><svg viewBox="0 0 24 24"><path d="M18 4V3c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V6h1v4H9v11c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-9h8V4z"></path></svg></button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn wide" id="tb-zoom" aria-label="缩放" data-tooltip="缩放"><span>100%</span><svg viewBox="0 0 24 24" class="caret"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn wide" id="tb-style" aria-label="样式" data-tooltip="样式"><span id="tb-style-label">普通文本</span><svg viewBox="0 0 24 24" class="caret"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn wide" id="tb-font" aria-label="字体" data-tooltip="字体"><span>Arial</span><svg viewBox="0 0 24 24" class="caret"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn" id="tb-size-dec" aria-label="减小字号" data-tooltip="减小字号">−</button>
+        <span class="tb-size">11</span>
+        <button type="button" class="tb-btn" id="tb-size-inc" aria-label="增大字号" data-tooltip="增大字号">+</button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn" data-format="bold" aria-label="加粗 (⌘B)" data-tooltip="加粗 (⌘B)"><b>B</b></button>
+        <button type="button" class="tb-btn" data-format="italic" aria-label="斜体 (⌘I)" data-tooltip="斜体 (⌘I)"><i>I</i></button>
+        <button type="button" class="tb-btn" data-format="underline" aria-label="下划线 (⌘U)" data-tooltip="下划线 (⌘U)"><u>U</u></button>
+        <button type="button" class="tb-btn" id="tb-color" aria-label="文本颜色" data-tooltip="文本颜色"><span class="A-color">A</span></button>
+        <button type="button" class="tb-btn" id="tb-highlight" aria-label="突出显示颜色" data-tooltip="突出显示颜色"><span class="highlight-color">A</span></button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn" id="tb-link" aria-label="插入链接 (⌘K)" data-tooltip="插入链接 (⌘K)"><svg viewBox="0 0 24 24"><path d="M3.9 12a3.1 3.1 0 0 1 3.1-3.1h4V7H7a5 5 0 0 0 0 10h4v-1.9H7A3.1 3.1 0 0 1 3.9 12zM8 13h8v-2H8zm9-6h-4v1.9h4a3.1 3.1 0 1 1 0 6.2h-4V17h4a5 5 0 0 0 0-10z"></path></svg></button>
+        <button type="button" class="tb-btn" id="tb-comment-add" aria-label="添加评论 (⌘+⌥+M)" data-tooltip="添加评论 (⌘+⌥+M)"><svg viewBox="0 0 24 24"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4zM18 14H6v-2h12zm0-3H6V9h12zm0-3H6V6h12z"></path></svg></button>
+        <button type="button" class="tb-btn" id="tb-image" aria-label="插入图片" data-tooltip="插入图片"><svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3 3.5-4.5 4.5 6H5z"></path></svg></button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn dropdown" id="tb-align" aria-label="对齐和缩进" aria-haspopup="true" data-tooltip="对齐和缩进"><svg viewBox="0 0 24 24"><path d="M3 21h18v-2H3zM3 17h12v-2H3zM3 13h18v-2H3zM3 9h12V7H3zM3 3v2h18V3z"></path></svg><svg viewBox="0 0 24 24" class="caret-mini"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        <button type="button" class="tb-btn dropdown" id="tb-linespace" aria-label="行距和段落间距" aria-haspopup="true" data-tooltip="行距和段落间距"><svg viewBox="0 0 24 24"><path d="M6 7h2.5L5 3.5 1.5 7H4v10H1.5L5 20.5 8.5 17H6V7zm4-2v2h12V5zm0 14h12v-2H10zm0-6h12v-2H10z"></path></svg><svg viewBox="0 0 24 24" class="caret-mini"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        <span class="tb-sep"></span>
+        <span class="tb-split-group" aria-label="核对清单">
+          <button type="button" class="tb-btn split-main tb-list-main" data-block="todo" aria-label="核对清单 (⌘+Shift+9)" data-tooltip="核对清单 (⌘+Shift+9)"><svg viewBox="0 0 24 24"><path d="M11 17H7v-2h4zm0-4H7v-2h4zm0-4H7V7h4zm10 8h-8v-2h8zm0-4h-8v-2h8zm0-4h-8V7h8z"></path></svg></button>
+          <button type="button" class="tb-btn split-menu" data-list-menu="todo" aria-label="核对清单菜单" aria-haspopup="true" data-tooltip="核对清单菜单"><svg viewBox="0 0 24 24" class="caret-mini"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        </span>
+        <span class="tb-split-group" aria-label="项目符号列表">
+          <button type="button" class="tb-btn split-main tb-list-main" data-block="bullet" aria-label="项目符号列表 (⌘+Shift+8)" data-tooltip="项目符号列表 (⌘+Shift+8)"><svg viewBox="0 0 24 24"><path d="M4 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm3 5h14v-2H7zm0-6h14v-2H7zm0-8v2h14V7z"></path></svg></button>
+          <button type="button" class="tb-btn split-menu" data-list-menu="bullet" aria-label="项目符号列表菜单" aria-haspopup="true" data-tooltip="项目符号列表菜单"><svg viewBox="0 0 24 24" class="caret-mini"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        </span>
+        <span class="tb-split-group" aria-label="编号列表">
+          <button type="button" class="tb-btn split-main tb-list-main" data-block="numbered" aria-label="编号列表 (⌘+Shift+7)" data-tooltip="编号列表 (⌘+Shift+7)"><svg viewBox="0 0 24 24"><path d="M2 17h2v.5H3v1h1v.5H2v1h3v-4H2zm1-9h1V4H2v1h1zm-1 3h1.8L2 13.1v.9h3v-1H3.2L5 10.9V10H2zm5-6v2h14V5zm0 14h14v-2H7zm0-6h14v-2H7z"></path></svg></button>
+          <button type="button" class="tb-btn split-menu" data-list-menu="numbered" aria-label="编号列表菜单" aria-haspopup="true" data-tooltip="编号列表菜单"><svg viewBox="0 0 24 24" class="caret-mini"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        </span>
+        <button type="button" class="tb-btn" id="tb-indent-dec" aria-label="减少缩进" data-tooltip="减少缩进"><svg viewBox="0 0 24 24"><path d="M11 17h10v-2H11zM3 12l4 4V8zm0 9h18v-2H3zM3 3v2h18V3zm8 6h10V7H11zm0 4h10v-2H11z"></path></svg></button>
+        <button type="button" class="tb-btn" id="tb-indent-inc" aria-label="增加缩进" data-tooltip="增加缩进"><svg viewBox="0 0 24 24"><path d="M3 21h18v-2H3zM3 8v8l4-4zm8 9h10v-2H11zM3 3v2h18V3zm8 6h10V7H11zm0 4h10v-2H11z"></path></svg></button>
+        <button type="button" class="tb-btn" id="tb-clearformat" aria-label="清除格式 (⌘反斜杠)" data-tooltip="清除格式 (⌘反斜杠)"><svg viewBox="0 0 24 24"><path d="M3.27 5 2 6.27l6.97 6.97L6.5 19h3l1.42-3.32 5.62 5.62L17.73 20zM6 5l.49.49L13.41 12l1.94-4.51L13.7 6H20V3H6z"></path></svg></button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn dropdown wide" id="tb-input" aria-label="输入工具" aria-haspopup="true" data-tooltip="输入工具"><span class="cn">拼</span><svg viewBox="0 0 24 24" class="caret-mini"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        <span class="tb-sep"></span>
+        <button type="button" class="tb-btn dropdown mode-btn" id="tb-modes" aria-label="编辑模式" aria-haspopup="true" data-tooltip="编辑模式"><svg viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75z"></path></svg><span id="tb-mode-label">编辑</span><svg viewBox="0 0 24 24" class="caret-mini"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        <button type="button" class="tb-btn" id="tb-collapse-toolbar" aria-label="收起菜单" data-tooltip="收起菜单"><svg viewBox="0 0 24 24"><path d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg></button>
+      </div>
+
+      <aside class="comments-panel" id="comments-panel" aria-label="评论" hidden="">
+        <header class="cp-header">
+          <h2 class="cp-title">评论</h2>
+          <button type="button" class="icon-btn" id="cp-bell" aria-label="评论通知设置" data-tooltip="评论通知设置">
+            <svg viewBox="0 0 24 24"><path d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6V11c0-3.07-1.64-5.64-4.5-6.32V4a1.5 1.5 0 1 0-3 0v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"></path></svg>
+          </button>
+          <button type="button" class="icon-btn" id="cp-close" aria-label="关闭评论侧栏" data-tooltip="关闭">
+            <svg viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+          </button>
+        </header>
+        <nav class="cp-tabs" role="tablist">
+          <button type="button" role="tab" data-cp-tab="all" class="active">所有评论</button>
+          <button type="button" role="tab" data-cp-tab="me">与您相关</button>
+          <button type="button" class="icon-btn small cp-search" aria-label="搜索评论" data-tooltip="搜索评论">
+            <svg viewBox="0 0 24 24"><path d="M9.7 4.5a5.2 5.2 0 1 1 0 10.4 5.2 5.2 0 0 1 0-10.4m0-2a7.2 7.2 0 1 0 4.5 12.8l4.2 4.2 1.4-1.4-4.2-4.2A7.2 7.2 0 0 0 9.7 2.5z"></path></svg>
+          </button>
+        </nav>
+        <div class="cp-filters">
+          <button type="button" class="cp-filter" id="cp-filter-type" aria-haspopup="true">所有类型 <svg viewBox="0 0 24 24" class="caret"><path d="M7 10l5 5 5-5z"></path></svg></button>
+          <button type="button" class="cp-filter" id="cp-filter-tab" aria-haspopup="true">所有标签页 <svg viewBox="0 0 24 24" class="caret"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        </div>
+        <div class="cp-body" id="cp-body"></div>
+        <footer class="cp-footer">
+          <p class="cp-footer-title">谁可以看到评论？</p>
+          <p class="cp-footer-text">凡是可以评论或编辑此文档的人，都能看到您的评论。<a href="#" id="cp-learn-more">了解详情</a></p>
+        </footer>
+      </aside>
+
+      <div class="editor-body">
+        <aside class="outline-panel" id="outline-panel" aria-label="文档分页">
+          <header class="outline-header">
+            <button type="button" class="icon-btn small" id="outline-collapse" aria-label="返回" data-tooltip="返回">
+              <svg viewBox="0 0 24 24"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"></path></svg>
+            </button>
+          </header>
+          <header class="tabs-header">
+            <span class="tabs-title">文档分页</span>
+            <button type="button" class="icon-btn small" id="outline-add" aria-label="添加分页" data-tooltip="添加分页">＋</button>
+          </header>
+          <ul class="tabs-list" id="outline-list"></ul>
+          <p class="outline-hint">您添加到文档的标题会显示在此处。</p>
+        </aside>
+        <button type="button" class="outline-rail" id="outline-rail" aria-label="显示文档目录" hidden="">
+          <svg viewBox="0 0 24 24"><path d="M3 5h13v2H3zm0 6h13v2H3zm0 6h13v2H3zm17-3.41V8.41l-3.59 3.59z" fill="currentColor"></path></svg>
+        </button>
+        <div class="paper-wrap" id="paper-wrap">
+          <div class="ruler" id="ruler"></div>
+          <article class="paper" id="paper">
+            <div class="paper-content" id="paper-content" contenteditable="true" spellcheck="false"></div>
+            <div class="paper-suggestions" id="paper-suggestions" hidden="">
+              <button type="button" data-suggest="tpl-meeting-notes">
+                <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16a2 2 0 0 0 2 2h12c1.1 0 2-.9 2-2V8z"></path></svg>
+                <span>会议记录</span>
+              </button>
+              <button type="button" data-suggest="tpl-email-draft">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5z"></path></svg>
+                <span>邮件草稿</span>
+              </button>
+              <button type="button" data-suggest="more">
+                <svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle></svg>
+                <span>更多</span>
+              </button>
+            </div>
+          </article>
+          <div class="doc-reactions-layer" id="doc-reactions-layer" aria-label="文档回应"></div>
+          <div class="doc-comments-layer" id="doc-comments-layer" aria-label="文档旁评论"></div>
+          <div class="paper-quick-actions" id="paper-quick-actions" aria-label="文档快捷操作" hidden>
+            <button type="button" id="quick-add-comment" aria-label="添加评论" data-tooltip="添加评论">
+              <svg viewBox="0 0 24 24"><path d="M4 4h12a2 2 0 0 1 2 2v5h-2V6H4v10h10v2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2zm13 8h2v3h3v2h-3v3h-2v-3h-3v-2h3z"></path></svg>
+            </button>
+            <button type="button" id="quick-add-reaction" aria-label="添加表情符号回应" data-tooltip="添加表情符号回应">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-3 7.2a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6zm6 0a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6zm-6.2 5.1h8.4c-.62 2-2.34 3.3-4.2 3.3s-3.58-1.3-4.2-3.3z"></path></svg>
+            </button>
+            <button type="button" id="quick-suggest-edit" aria-label="提出修改建议" data-tooltip="提出修改建议" aria-pressed="false">
+              <svg viewBox="0 0 24 24"><path d="M4 4h10v2H6v12h12v-8h2v10H4zm13.78.22 2 2L12.06 14H10v-2.06z"></path></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ VERSION HISTORY VIEW ============================ -->
+    <section class="history-view" id="history-view" hidden="">
+      <header class="hv-topbar">
+        <button class="icon-btn" id="hv-back" type="button" aria-label="退出版本记录" data-tooltip="退出版本记录">
+          <svg viewBox="0 0 24 24"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"></path></svg>
+        </button>
+        <span class="hv-version-label" id="hv-version-label">今天 15:45</span>
+        <button type="button" class="hv-restore-version" id="hv-restore-version" hidden>还原此版本</button>
+        <div class="hv-center">
+          <button class="icon-btn small" id="hv-print" type="button" aria-label="打印" data-tooltip="打印"><svg viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8zm3-7a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM18 3H6v4h12z"></path></svg></button>
+          <button class="hv-pill" id="hv-zoom" type="button" aria-haspopup="true">100% <svg viewBox="0 0 24 24" class="caret"><path d="M7 10l5 5 5-5z"></path></svg></button>
+          <button class="hv-pill" id="hv-pinyin" type="button" aria-haspopup="true">拼 <svg viewBox="0 0 24 24" class="caret"><path d="M7 10l5 5 5-5z"></path></svg></button>
+        </div>
+        <div class="hv-summary">
+          <span class="hv-count">总计：<span id="hv-count">1</span> 项修改</span>
+          <button class="icon-btn small" id="hv-prev" type="button" aria-label="上一个修改" data-tooltip="上一个修改"><svg viewBox="0 0 24 24"><path d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg></button>
+          <button class="icon-btn small" id="hv-next" type="button" aria-label="下一个修改" data-tooltip="下一个修改"><svg viewBox="0 0 24 24"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"></path></svg></button>
+        </div>
+      </header>
+      <div class="hv-body">
+        <aside class="hv-side">
+          <button class="icon-btn" id="hv-side-back" type="button" aria-label="返回" data-tooltip="返回"><svg viewBox="0 0 24 24"><path d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20z"></path></svg></button>
+          <h3 class="hv-side-title">文档分页</h3>
+          <ul class="hv-tabs"><li class="active"><span class="tab-icon">📄</span>标签页 1</li></ul>
+        </aside>
+        <div class="hv-paper-wrap">
+          <article class="paper hv-paper" id="hv-paper">
+            <div class="paper-content" id="hv-paper-content"></div>
+          </article>
+        </div>
+        <aside class="hv-rail">
+          <header class="hv-rail-header">
+            <h2>版本记录</h2>
+          </header>
+          <div class="hv-rail-filter">
+            <button type="button" class="hv-pill wide" id="hv-rail-filter" aria-haspopup="true">所有版本 <svg viewBox="0 0 24 24" class="caret"><path d="M7 10l5 5 5-5z"></path></svg></button>
+          </div>
+          <div class="hv-rail-list" id="hv-rail-list"></div>
+          <footer class="hv-rail-footer">
+            <label class="hv-checkbox">
+              <input type="checkbox" id="hv-show-diff" checked="">
+              <span>突出显示更改</span>
+            </label>
+          </footer>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============================ POPUP MENUS ============================ -->
+    <div class="popup-menu" id="row-menu" role="menu" hidden="">
+      <button type="button" data-action="open">打开</button>
+      <button type="button" data-action="download">下载</button>
+      <button type="button" data-action="rename"><span class="menu-label">重命名</span><span class="menu-shortcut">⌥⌘E</span></button>
+      <button type="button" data-action="move">移动到…</button>
+      <button type="button" data-action="share">共享</button>
+      <button type="button" data-action="organize">整理</button>
+      <button type="button" data-action="duplicate">创建副本</button>
+      <button type="button" data-action="star">加星 / 取消加星</button>
+      <button type="button" data-action="info">文件夹信息</button>
+      <button type="button" data-action="trash" class="danger"><span class="menu-label">移至回收站</span><span class="menu-shortcut">Delete</span></button>
+      <button type="button" data-action="restore">还原</button>
+      <button type="button" data-action="delete" class="danger">永久删除</button>
+    </div>
+
+    <!-- file picker dialog -->
+    <div class="picker-backdrop" id="picker-backdrop" hidden="">
+      <div class="picker-dialog" role="dialog" aria-modal="true" aria-labelledby="picker-title">
+        <header class="picker-header">
+          <span class="picker-icon"><svg viewBox="0 0 64 88"><path d="M40 0H8C3.6 0 0 3.6 0 8v72c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V24L40 0z" fill="#4285f4"></path><path d="M40 0v16c0 4.4 3.6 8 8 8h16L40 0z" fill="#a1c2fa"></path></svg></span>
+          <h2 id="picker-title">打开文件</h2>
+          <form class="picker-search">
+            <svg viewBox="0 0 24 24" class="picker-search-icon"><path d="M9.7 4.5a5.2 5.2 0 1 1 0 10.4 5.2 5.2 0 0 1 0-10.4m0-2a7.2 7.2 0 1 0 4.5 12.8l4.2 4.2 1.4-1.4-4.2-4.2A7.2 7.2 0 0 0 9.7 2.5z"></path></svg>
+            <input type="search" id="picker-search-input" placeholder="在云端硬盘中搜索或粘贴网址" aria-label="搜索文件">
+            <button class="icon-btn small" id="picker-filter" type="button" aria-label="筛选" data-tooltip="筛选">
+              <svg viewBox="0 0 24 24"><path d="M4 7h8.2a2.7 2.7 0 0 0 5.1 0H20V5h-2.7a2.7 2.7 0 0 0-5.1 0H4zm0 6h2.7a2.7 2.7 0 0 0 5.1 0H20v-2h-8.2a2.7 2.7 0 0 0-5.1 0H4zm0 6h11.2a2.7 2.7 0 0 0 5.1 0H20v-2h-.3a2.7 2.7 0 0 0-5.1 0H4z"></path></svg>
+            </button>
+          </form>
+          <button class="icon-btn" id="picker-close" type="button" aria-label="关闭">
+            <svg viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+          </button>
+        </header>
+        <nav class="picker-tabs" id="picker-tabs">
+          <button type="button" data-tab="recent" class="active">我最近用过</button>
+          <button type="button" data-tab="drive">我的云端硬盘</button>
+          <button type="button" data-tab="shared">与我共享</button>
+          <button type="button" data-tab="starred">已加星标</button>
+          <button type="button" data-tab="computer">计算机</button>
+          <button type="button" data-tab="upload">上传</button>
+        </nav>
+        <header class="picker-subheader">
+          <h3 id="picker-subtitle">最近用过</h3>
+          <button class="icon-btn small" id="picker-layout" type="button" aria-label="切换布局" data-tooltip="切换布局">
+            <svg viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+          </button>
+        </header>
+        <div class="picker-body" id="picker-body"></div>
+      </div>
+    </div>
+
+    <!-- generic prompt dialog -->
+    <div class="dialog-backdrop" id="dialog-backdrop" hidden="">
+      <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+        <header><h3 id="dialog-title">操作</h3></header>
+        <div class="dialog-body" id="dialog-body"></div>
+        <footer>
+          <button type="button" id="dialog-cancel">取消</button>
+          <button type="button" id="dialog-confirm" class="primary">确定</button>
+        </footer>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="/app.js?v=58-toolbar-operation-parity"></script>
+  
+
+</body></html>

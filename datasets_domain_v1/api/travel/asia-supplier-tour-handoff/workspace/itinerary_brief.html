@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Asia Supplier Tour 2026-09-15 → 09-23 — Itinerary Brief</title>
+<style>
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; max-width: 880px; margin: 2em auto; color: #232b36; line-height: 1.55; padding: 0 1em; }
+  h1 { color: #1d3557; border-bottom: 2px solid #1d3557; padding-bottom: 6px; }
+  h2 { color: #1d3557; margin-top: 1.6em; }
+  h3 { color: #2a4f78; margin-top: 1em; font-size: 1.05em; }
+  section { margin: 1.4em 0; padding: 0.6em 1em; border-left: 3px solid #cdd5e0; background: #f9fafc; border-radius: 4px; }
+  details { margin-top: 0.6em; }
+  details > summary { cursor: pointer; color: #2a4f78; font-weight: 600; }
+  table { border-collapse: collapse; margin: 0.5em 0; font-size: 0.95em; }
+  th, td { padding: 5px 9px; border: 1px solid #cdd5e0; text-align: left; }
+  th { background: #1d3557; color: white; }
+  code { background: #eef1f4; padding: 1px 4px; border-radius: 3px; font-size: 0.9em; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 0.85em; background: #2a9d8f; color: white; }
+  .author { color: #777; font-size: 0.95em; font-style: italic; }
+  figure { margin: 1em 0; text-align: center; }
+  figure img { max-width: 100%; height: auto; }
+  figcaption { font-size: 0.88em; color: #666; margin-top: 4px; }
+  aside { margin-top: 2em; padding: 1em; background: #fdf3e7; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Asia Supplier Tour 2026-09-15 → 09-23 — Itinerary Brief</h1>
+<p class="author">By Priyanka Mehta · Travel Coordinator · drafted 2026-09-08 · DRAFT for audit review</p>
+
+<section id="trip-overview">
+<h2>Trip overview</h2>
+<p>5-person delegation (Alex Chen, Sarah Goldberg, Bob Tanaka, Priya Iyer, Tom Reilly) on a 12-day Asia supplier tour:
+<strong>Shenzhen → Yiwu → Ho Chi Minh City → Bangkok</strong>, 2026-09-15 → 09-23.</p>
+<p>Selections below are based on SerpAPI google_hotels searches (mocked at <code>http://127.0.0.1:4501/api</code>). Each leg's section embeds a <code>&lt;script type="application/json"&gt;</code> block referencing the dataset id and the chosen property's <code>property_token</code>.</p>
+<figure>
+  <img src="charts/leg_schedule_overview.png" alt="Schedule overview" />
+  <figcaption>Schedule overview — generated 2026-09-08 from <code>client_meetings.ics</code>. (pixel labels reflect the latest update from Priyanka)</figcaption>
+</figure>
+</section>
+
+<section id="shenzhen-team-section">
+<h2>Shenzhen night accommodation — team placement</h2>
+
+<p>We are placing 3 colleagues at Hampton by Hilton Shenzhen Futian Huaqiangbei and the remaining 2 (Sarah and Tom) at Hotel Novotel Shenzhen Watergate, 600m apart. Both are 4-star, allowlisted, and the cost split is favorable for the budget.</p>
+<p>Per-night cost: $260 (Hampton) and $245 (Novotel). Both hotels are 4-star, both in Huaqiangbei.</p>
+<figure>
+  <img src="charts/team_seat_assignment.png" alt="Team seat assignment" />
+  <figcaption>Team seat-assignment matrix per leg.</figcaption>
+</figure>
+
+<details><summary>section data (shenzhen-team-section)</summary><script type="application/json" id="shenzhen-team-section-data">{
+  "dataset": "shenzhen_huaqiang",
+  "primary_choice": "Hampton by Hilton Shenzhen Futian Huaqiangbei",
+  "secondary_choice": "Hotel Novotel Shenzhen Watergate",
+  "split": "3+2 (Sarah and Tom at Novotel)"
+}</script></details>
+</section>
+<section id="shenzhen-budget-cap">
+<h2>Shenzhen — per-night budget check</h2>
+<p>Shenzhen night cost $260/night standard tier — within Greater China Tier 1 standard cap of $280.</p>
+</section>
+<section id="yiwu-allowlist-check">
+<h2>Yiwu accommodation — selection</h2>
+<p>Selected Kasion International Hotel Yiwu — 5-star, walking distance to International Trade Market, rated 4.4 with strong Service breakdown (416 positive vs 69 negative).</p>
+<details><summary>section data (yiwu-allowlist-check)</summary><script type="application/json" id="yiwu-allowlist-check-data">{
+  "dataset": "yiwu_market",
+  "selected_hotel": "Kasion International Hotel Yiwu",
+  "rationale": "highest hotel_class (5-star), strong Service breakdown"
+}</script></details>
+</section>
+<section id="yiwu-conference-center-mismatch">
+<h2>Yiwu — comparator notes</h2>
+<p>Yiwu hotel rated 4.4 with 6 reviews_breakdown categories — slightly lower than the Yiwu International Conference Center which is rated 4.9 but is on a 5-star tier we are not booking.</p>
+</section>
+<section id="yiwu-no-business-center">
+<h2>Yiwu — workspace arrangement</h2>
+<p>Selected Yiwu hotel does not have an in-property business center; team will use the Yiwu International Trade Market's coworking facilities.</p>
+</section>
+<section id="hcmc-arrival-flight">
+<h2>HCMC arrival — selected flight</h2>
+<p>Selected Flight VN-321 (Vietnam Airlines, arrives 23:50 ICT) — direct connection from Yiwu via Shanghai, lowest fare among inbound options.</p><p>See <code>flight_options.pdf</code> p3 for full options.</p>
+<details><summary>section data (hcmc-arrival-flight)</summary><script type="application/json" id="hcmc-arrival-flight-data">{
+  "selected_flight": "VN-321",
+  "scheduled_arrival_local": "2026-09-19 23:50",
+  "tz": "Asia/Ho_Chi_Minh"
+}</script></details>
+</section>
+<section id="hcmc-flight-stopover">
+<h2>HCMC arrival — connection note</h2>
+<p>Selected hcmc-inbound flight has a 90-minute stopover in Shanghai (PVG).</p>
+</section>
+<section id="hcmc-day-3-zoom">
+<h2>HCMC Day 3 — Zoom with NYC team</h2>
+<p>On Sept 21 at 19:00 ICT we will join the Helios NYC quarterly review by Zoom from the HCMC hotel — convenient evening slot before the next-day client roundtable.</p><p>Per <code>client_meetings.ics</code> the NYC participants will dial in from their morning slot.</p>
+<details><summary>section data (hcmc-day-3-zoom)</summary><script type="application/json" id="hcmc-day-3-zoom-data">{
+  "claimed_local_time_ict": "19:00",
+  "ics_uid": "hcmc-nyc-zoom",
+  "ics_dt_start": "2026-09-21T09:00:00",
+  "ics_tzid": "America/New_York"
+}</script></details>
+</section>
+<section id="bangkok-budget-section">
+<h2>Bangkok night accommodation — primary choice</h2>
+<p>Selected Mercure Bangkok Sukhumvit 11 (contracted-tier 4-star, on §3 allowlist) at USD 243/night ($486 total for 2 nights all-in). Confirmed amenities include outdoor pool, spa, free Wi-Fi.</p>
+<details><summary>section data (bangkok-budget-section)</summary><script type="application/json" id="bangkok-budget-section-data">{
+  "dataset": "bangkok_sukhumvit_revised",
+  "selected_hotel": "Mercure Bangkok Sukhumvit 11",
+  "rate_per_night_usd": 243,
+  "nights": 2
+}</script></details>
+</section>
+<section id="bangkok-accessibility-section">
+<h2>Bangkok night accommodation — backup pick (cost-cut option)</h2>
+<p>Backup pick if budget cuts further: Vintage Gallery Sukhumvit 3-Bedroom Family House — $114/night, 5.0 rating, sleeps 6, character property near BTS.</p>
+<details><summary>section data (bangkok-accessibility-section)</summary><script type="application/json" id="bangkok-accessibility-section-data">{
+  "dataset": "bangkok_sukhumvit",
+  "selected_property": "Vintage Gallery Sukhumvit 3-Bedroom Family House w/ Pool & 5-min walk to BTS On Nut",
+  "rate_per_night_usd": 114
+}</script></details>
+</section>
+<section id="bangkok-amenity-claim">
+<h2>Bangkok — Sept 23 weekend extension option</h2>
+
+<p>Decided to add Platinum Premium Deluxe Apartments as a weekend extension option for Sept 23 evening — the rooftop outdoor pool will be perfect for end-of-trip team relaxation, and the Free Wi-Fi covers any last-minute client follow-ups.</p>
+<p>This is a soft-add: only relevant if Bob and Priya extend their stay one extra day for personal time. Property has 'Free Wi-Fi' confirmed in mock amenities.</p>
+
+<details><summary>section data (bangkok-amenity-claim)</summary><script type="application/json" id="bangkok-amenity-claim-data">{
+  "dataset": "bangkok_sukhumvit",
+  "selected_property": "Platinum Premium Deluxe Apartments",
+  "claimed_amenities": [
+    "rooftop outdoor pool",
+    "Free Wi-Fi"
+  ]
+}</script></details>
+</section>
+<section id="bangkok-billing-summary">
+<h2>Bangkok 2-night billing summary</h2>
+
+<p>Bangkok 2-night all-in including taxes & fees (per Mercure Bangkok Sukhumvit 11): $456 total.</p>
+<table>
+  <thead><tr><th>Hotel</th><th>Rate (USD)</th><th>Nights</th><th>Total all-in (USD)</th></tr></thead>
+  <tbody><tr><td>Mercure Bangkok Sukhumvit 11</td><td>$228</td><td>2</td><td>$456</td></tr></tbody>
+</table>
+<p class="author">All-in including taxes &amp; fees. Source: SerpAPI google_hotels.</p>
+
+<details><summary>section data (bangkok-billing-summary)</summary><script type="application/json" id="bangkok-billing-summary-data">{
+  "property": "Mercure Bangkok Sukhumvit 11",
+  "claimed_rate_per_night": 228,
+  "claimed_total": 456,
+  "section_header": "all-in including taxes & fees"
+}</script></details>
+</section>
+<section id="bangkok-cancellation-section">
+<h2>Bangkok cancellation policy</h2>
+<p>We will book the Mercure Bangkok Sukhumvit 11 stay on a non-refundable rate for a 7% saving over the standard rate.</p><p>Saving rationale: 7% off list rate; team has the final itinerary locked, so cancellation flexibility is unlikely to be needed.</p>
+<details><summary>section data (bangkok-cancellation-section)</summary><script type="application/json" id="bangkok-cancellation-section-data">{
+  "property": "Mercure Bangkok Sukhumvit 11",
+  "selected_rate_class": "non-refundable"
+}</script></details>
+</section>
+<section id="bangkok-team-dietary-area">
+<h2>Bangkok dietary / area considerations</h2>
+<p>Mercure Bangkok Sukhumvit 11 is in a vibrant dining area with the airport and Lily Fu's Authentic Thai Restaurant within taxi distance — should cover all dietary preferences for the team.</p>
+<details><summary>section data (bangkok-team-dietary-area)</summary><script type="application/json" id="bangkok-team-dietary-area-data">{
+  "property": "Mercure Bangkok Sukhumvit 11",
+  "nearby_places_quoted": [
+    "Suvarnabhumi Airport",
+    "Lily Fu's - Authentic Thai Restaurant"
+  ]
+}</script></details>
+</section>
+<section id="bangkok-bob-gluten-free">
+<h2>Bangkok — Bob's dietary note</h2>
+<p>Bob (gluten-free) will use room service for dinners; we did not filter the area for gluten-free options.</p>
+</section>
+
+<aside id="appendix">
+<h2>Appendix · reference</h2>
+<p>Mock SerpAPI google_hotels endpoint: <code>http://127.0.0.1:4501/api</code>. Datasets used in this brief:</p>
+<ul>
+  <li><code>shenzhen_huaqiang</code> — Shenzhen Huaqiangbei, 1 night, 5 guests (Note: Chinese-locale results have no listing-level OTA price; we used hotel_class + reviews_breakdown for selection.)</li>
+  <li><code>yiwu_market</code> — Yiwu International Trade Market, 3 nights, 5 guests (same locale gap)</li>
+  <li><code>ho_chi_minh_d1</code> — HCMC District 1, 2 nights, 5 guests</li>
+  <li><code>bangkok_sukhumvit</code> — Bangkok Sukhumvit, 2 nights, 5 guests (initial broad search)</li>
+  <li><code>bangkok_sukhumvit_revised</code> — Bangkok Sukhumvit, 2 nights, 5 guests, with <code>max_price=250</code> filter (used after the finance pushback)</li>
+</ul>
+<p>Reviewer: please post audit findings to <code>outputs/audit_findings.json</code> per the format described in the task brief.</p>
+</aside>
+
+
+</body>
+</html>

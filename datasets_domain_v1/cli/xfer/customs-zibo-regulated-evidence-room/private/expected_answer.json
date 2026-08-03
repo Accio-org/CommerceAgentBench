@@ -1,0 +1,284 @@
+{
+  "spreadsheet_id": "sheet-supplier-eval-003",
+  "spreadsheet_title": "Zibo Regulated Evidence Control - 2026-Q2",
+  "presentation_id": "pres-launch-101",
+  "presentation_title": "Zibo Regulated Evidence Brief - 2026-Q2",
+  "presentation_terms": [
+    "Zibo Regulated Evidence",
+    "12",
+    "Zibo Regulated Export Evidence Room - 2026-Q2"
+  ],
+  "sheet_title": "Evidence Control",
+  "trace_sheet_title": "Trace Matrix",
+  "summary_sheet_title": "HS Review Summary",
+  "sheet_headers": [
+    "Supplier",
+    "Category",
+    "Severity",
+    "Shipments",
+    "Total USD",
+    "Market Count",
+    "HS Count",
+    "Top Market",
+    "Top HS",
+    "Jira Task Key",
+    "Box Folder ID",
+    "DWS Dossier ID"
+  ],
+  "trace_headers": [
+    "Supplier",
+    "Jira Task Key",
+    "Box Folder ID",
+    "Box File ID",
+    "DWS Dossier ID",
+    "Severity",
+    "Owner"
+  ],
+  "summary_headers": [
+    "Category",
+    "Supplier Count",
+    "Shipments",
+    "Total USD",
+    "Distinct HS Count"
+  ],
+  "jira_project": "PROJ",
+  "jira_epic_summary": "Zibo Regulated Export Evidence Room - 2026-Q2",
+  "fixed_label": "zibo-evidence",
+  "box_root_folder_name": "Zibo Regulated Evidence Room - 2026-Q2",
+  "box_reviewer_user_id": "10003",
+  "dws_folder_name": "Zibo Regulated Dossiers - 2026-Q2",
+  "dws_permission_user": "compliance-reviewer@example.com",
+  "source_files": [
+    "zibo_us_exports.csv"
+  ],
+  "category_summary": [
+    {
+      "category": "Abrasive",
+      "supplier_count": 2,
+      "shipments": 100,
+      "total_usd": 201927.16,
+      "distinct_hs_count": 13
+    },
+    {
+      "category": "Chemical",
+      "supplier_count": 3,
+      "shipments": 53,
+      "total_usd": 1703580.81,
+      "distinct_hs_count": 17
+    },
+    {
+      "category": "Glass",
+      "supplier_count": 1,
+      "shipments": 38,
+      "total_usd": 109977.83,
+      "distinct_hs_count": 1
+    },
+    {
+      "category": "Industrial",
+      "supplier_count": 1,
+      "shipments": 17,
+      "total_usd": 78838.91,
+      "distinct_hs_count": 7
+    },
+    {
+      "category": "Medical",
+      "supplier_count": 1,
+      "shipments": 46,
+      "total_usd": 175796.89,
+      "distinct_hs_count": 6
+    },
+    {
+      "category": "Paper",
+      "supplier_count": 2,
+      "shipments": 63,
+      "total_usd": 1521397.57,
+      "distinct_hs_count": 4
+    },
+    {
+      "category": "Polymer",
+      "supplier_count": 1,
+      "shipments": 79,
+      "total_usd": 128399.49,
+      "distinct_hs_count": 3
+    },
+    {
+      "category": "Vehicle",
+      "supplier_count": 1,
+      "shipments": 46,
+      "total_usd": 654820.0,
+      "distinct_hs_count": 2
+    }
+  ],
+  "in_scope": [
+    {
+      "supplier": "ZIBO FEIYUAN CHEMICAL CO LTD",
+      "category": "Chemical",
+      "owner": "Mina Chen",
+      "severity": "Critical",
+      "total_shipments": 21,
+      "total_usd": 1397901.1,
+      "market_count": 4,
+      "hs_count": 12,
+      "top_market": "巴拉圭",
+      "top_hs": "29034510",
+      "box_report_name": "evidence_summary_zibo_feiyuan_chemical_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO HAIZHENG CHEM CO LTD",
+      "category": "Chemical",
+      "owner": "Oscar Li",
+      "severity": "Critical",
+      "total_shipments": 15,
+      "total_usd": 305679.71,
+      "market_count": 1,
+      "hs_count": 2,
+      "top_market": "印度",
+      "top_hs": "29051490",
+      "box_report_name": "evidence_summary_zibo_haizheng_chem_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO RHEMA INTERNATIONAL INC",
+      "category": "Chemical",
+      "owner": "Priya Raman",
+      "severity": "Critical",
+      "total_shipments": 17,
+      "total_usd": 0.0,
+      "market_count": 1,
+      "hs_count": 3,
+      "top_market": "美国",
+      "top_hs": "721914",
+      "box_report_name": "evidence_summary_zibo_rhema_international_inc.md"
+    },
+    {
+      "supplier": "ZIBO DINGTIAN PLASTICS CO LTD",
+      "category": "Polymer",
+      "owner": "Ethan Zhou",
+      "severity": "High",
+      "total_shipments": 79,
+      "total_usd": 128399.49,
+      "market_count": 2,
+      "hs_count": 3,
+      "top_market": "印度",
+      "top_hs": "39211200",
+      "box_report_name": "evidence_summary_zibo_dingtian_plastics_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO QRAY INTERNATIONAL CO LTD",
+      "category": "Medical",
+      "owner": "Lena Ortiz",
+      "severity": "High",
+      "total_shipments": 46,
+      "total_usd": 175796.89,
+      "market_count": 1,
+      "hs_count": 6,
+      "top_market": "厄瓜多尔",
+      "top_hs": "9018390000",
+      "box_report_name": "evidence_summary_zibo_qray_international_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO SANKYO RIKAGAKU CO LTD",
+      "category": "Abrasive",
+      "owner": "Noah Wang",
+      "severity": "High",
+      "total_shipments": 78,
+      "total_usd": 140217.01,
+      "market_count": 2,
+      "hs_count": 9,
+      "top_market": "印度",
+      "top_hs": "68051010",
+      "box_report_name": "evidence_summary_zibo_sankyo_rikagaku_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO SISHA TAIYI GRINDING WHEEL CO LTD",
+      "category": "Abrasive",
+      "owner": "Sara Kim",
+      "severity": "Elevated",
+      "total_shipments": 22,
+      "total_usd": 61710.15,
+      "market_count": 1,
+      "hs_count": 6,
+      "top_market": "印度",
+      "top_hs": "68042290",
+      "box_report_name": "evidence_summary_zibo_sisha_taiyi_grinding_wheel_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO OU MU SPECIAL PAPER CO LTD",
+      "category": "Paper",
+      "owner": "Victor Lin",
+      "severity": "High",
+      "total_shipments": 38,
+      "total_usd": 1227727.3,
+      "market_count": 2,
+      "hs_count": 4,
+      "top_market": "印度",
+      "top_hs": "48059100",
+      "box_report_name": "evidence_summary_zibo_ou_mu_special_paper_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO OUMU SPECIAL PAPER CO LTD",
+      "category": "Paper",
+      "owner": "Ava Patel",
+      "severity": "Elevated",
+      "total_shipments": 25,
+      "total_usd": 293670.27,
+      "market_count": 2,
+      "hs_count": 3,
+      "top_market": "印度",
+      "top_hs": "48059100",
+      "box_report_name": "evidence_summary_zibo_oumu_special_paper_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO HENGXIANG ENTERPRISE CO LTD",
+      "category": "Industrial",
+      "owner": "Hugo Martinez",
+      "severity": "Elevated",
+      "total_shipments": 17,
+      "total_usd": 78838.91,
+      "market_count": 1,
+      "hs_count": 7,
+      "top_market": "Kazakhstan",
+      "top_hs": "7326909409",
+      "box_report_name": "evidence_summary_zibo_hengxiang_enterprise_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO BIG SHOPKEEPER AUTOMOBILE SALES CO LTD",
+      "category": "Vehicle",
+      "owner": "Ivy Tan",
+      "severity": "High",
+      "total_shipments": 46,
+      "total_usd": 654820.0,
+      "market_count": 1,
+      "hs_count": 2,
+      "top_market": "Kazakhstan",
+      "top_hs": "8703603099",
+      "box_report_name": "evidence_summary_zibo_big_shopkeeper_automobile_sales_co_ltd.md"
+    },
+    {
+      "supplier": "ZIBO HANGXING INDUSTRIAL CO LTD",
+      "category": "Glass",
+      "owner": "Caleb Wu",
+      "severity": "Elevated",
+      "total_shipments": 38,
+      "total_usd": 109977.83,
+      "market_count": 2,
+      "hs_count": 1,
+      "top_market": "印度",
+      "top_hs": "70102000",
+      "box_report_name": "evidence_summary_zibo_hangxing_industrial_co_ltd.md"
+    }
+  ],
+  "presentation_labeled_counts": [
+    [
+      "Critical",
+      3
+    ],
+    [
+      "High",
+      5
+    ],
+    [
+      "Elevated",
+      4
+    ]
+  ]
+}

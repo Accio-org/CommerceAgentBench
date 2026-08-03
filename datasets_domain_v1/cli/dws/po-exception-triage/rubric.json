@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-dws-po-exception-triage",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "notes": "Host-side verifier reads the final dws_doc_cli state and scores PO exception triage: per-exception triage reports (named, severity-classified, placed in the right folder, filled) plus a comment on each exception PO, restraint on the 24 normal POs and the distractors, an unmodified template, and a PO Exception Summary with correct counts. Capacity checks are folded capability units (per docs/check-granularity.md); the 8 exception_triaged checks are kept per-PO (R3a) because exception identification + severity classification across all 8 is the hard core competency; each folds that PO's underlying triage-doc + comment atoms by AND.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "DWS mock state reachable and readable (GET /api/state). The lone plumbing gate; a failure short-circuits to this single check."},
+    {"id": "exception_triaged::PO-8806", "check_type": "deterministic_exact", "description": "PO-8806 (customs hold under Booked status → Urgent) triaged: 'Triage — PO-8806' doc in the Urgent folder containing PO + 'Severity: Urgent', AND a global comment on the PO."},
+    {"id": "exception_triaged::PO-8807", "check_type": "deterministic_exact", "description": "PO-8807 (Partial Receipt, shortfall 154 < 500, no customs → Standard) triaged: 'Triage — PO-8807' doc in the Standard folder containing PO + 'Severity: Standard', AND a global comment on the PO."},
+    {"id": "exception_triaged::PO-8810", "check_type": "deterministic_exact", "description": "PO-8810 (customs hold under In Transit status → Urgent) triaged: 'Triage — PO-8810' doc in the Urgent folder containing PO + 'Severity: Urgent', AND a global comment on the PO."},
+    {"id": "exception_triaged::PO-8814", "check_type": "deterministic_exact", "description": "PO-8814 (Partial Receipt, shortfall 507 >= 500 → Urgent) triaged: 'Triage — PO-8814' doc in the Urgent folder containing PO + 'Severity: Urgent', AND a global comment on the PO."},
+    {"id": "exception_triaged::PO-8816", "check_type": "deterministic_exact", "description": "PO-8816 (Status Exception, 992 units at risk >= 500 → Urgent) triaged: 'Triage — PO-8816' doc in the Urgent folder containing PO + 'Severity: Urgent', AND a global comment on the PO."},
+    {"id": "exception_triaged::PO-8821", "check_type": "deterministic_exact", "description": "PO-8821 (Partial Receipt, shortfall 644 >= 500 → Urgent) triaged: 'Triage — PO-8821' doc in the Urgent folder containing PO + 'Severity: Urgent', AND a global comment on the PO."},
+    {"id": "exception_triaged::PO-8828", "check_type": "deterministic_exact", "description": "PO-8828 (Partial Receipt, shortfall 595 >= 500 → Urgent) triaged: 'Triage — PO-8828' doc in the Urgent folder containing PO + 'Severity: Urgent', AND a global comment on the PO."},
+    {"id": "exception_triaged::PO-8832", "check_type": "deterministic_exact", "description": "PO-8832 (Status Exception, 1584 units at risk >= 500 → Urgent) triaged: 'Triage — PO-8832' doc in the Urgent folder containing PO + 'Severity: Urgent', AND a global comment on the PO."},
+    {"id": "normal_pos_untouched", "check_type": "deterministic_exact", "description": "No global comments added to any of the 24 normal (non-exception) POs in the Active POs folder (over-triage restraint). Internally validates a zero comment count on each of the 24 PO nodes."},
+    {"id": "distractors_respected", "check_type": "deterministic_exact", "description": "The Triage Report Template is left unmodified (still contains '[PO NUMBER]', 'Recommended Action', 'Severity'), AND the misfiled closed/delivered PO (PO-7799) receives no triage comment."},
+    {"id": "summary_correct", "check_type": "deterministic_exact", "description": "A single 'PO Exception Summary' document exists under the root folder with the heading and all required counts: Total Active POs reviewed 32, Exceptions found 8, Urgent 7, Standard 1, Normal 24."}
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "task_id": "browser-freightos-booking-rated",
+  "version": "1.0.0",
+  "route": {
+    "origin_country": "CN",
+    "origin_city": "shenzhen",
+    "origin_city_label_contains": ["Shenzhen"],
+    "dest_country": "US",
+    "dest_city": "newyork",
+    "dest_city_label_contains": ["New York"]
+  },
+  "cargo": {
+    "container_type": "40FCL",
+    "quantity": 1,
+    "goods_value_usd": 30000,
+    "commodity": "Consumer Electronics"
+  },
+  "services": {
+    "insurance": true,
+    "insurance_rate": 0.0042,
+    "insurance_premium_usd": 126.0,
+    "customs_clearance": true,
+    "customs_fee_usd": 275.0,
+    "bond_type": "single_entry",
+    "bond_fee_usd": 65.0
+  },
+  "quotes": [
+    {
+      "quote_id": "QT-0801",
+      "seller": "Maersk",
+      "seller_rating": 4.6,
+      "seller_reviews": 2450,
+      "ocean_freight_usd": 5850.0,
+      "platform_fee_rate": 0.015,
+      "platform_fee_usd": 87.75,
+      "total_allin_usd": 6403.75,
+      "rank_by_price": 3
+    },
+    {
+      "quote_id": "QT-0802",
+      "seller": "COSCO",
+      "seller_rating": 4.3,
+      "seller_reviews": 890,
+      "ocean_freight_usd": 5200.0,
+      "platform_fee_rate": 0.015,
+      "platform_fee_usd": 78.0,
+      "total_allin_usd": 5744.0,
+      "rank_by_price": 1
+    },
+    {
+      "quote_id": "QT-0803",
+      "seller": "Xhipment",
+      "seller_rating": 4.2,
+      "seller_reviews": 58,
+      "ocean_freight_usd": 5650.0,
+      "platform_fee_rate": 0.015,
+      "platform_fee_usd": 84.75,
+      "total_allin_usd": 6200.75,
+      "rank_by_price": 2
+    },
+    {
+      "quote_id": "QT-0804",
+      "seller": "Evergreen",
+      "seller_rating": 4.4,
+      "seller_reviews": 670,
+      "ocean_freight_usd": 6400.0,
+      "platform_fee_rate": 0.015,
+      "platform_fee_usd": 96.0,
+      "total_allin_usd": 6962.0,
+      "rank_by_price": 4
+    }
+  ],
+  "top3_cheapest": ["QT-0802", "QT-0803", "QT-0801"],
+  "top3_cheapest_totals_usd": {
+    "QT-0802": 5744.0,
+    "QT-0803": 6200.75,
+    "QT-0801": 6403.75
+  },
+  "top3_ratings": {
+    "QT-0802": 4.3,
+    "QT-0803": 4.2,
+    "QT-0801": 4.6
+  },
+  "correct_answer": {
+    "quote_id": "QT-2026-0801",
+    "seller": "Maersk",
+    "reason": "Highest seller rating (4.6★) among the 3 cheapest quotes (QT-0802 at 4.3★, QT-0803 at 4.2★, QT-0801 at 4.6★)."
+  },
+  "partial_credit_answers": [
+    {
+      "quote_id": "QT-2026-0802",
+      "seller": "COSCO",
+      "reason": "Cheapest overall but only 4.3★ — wrong selection criterion applied (cheapest instead of best-rated among top 3)."
+    },
+    {
+      "quote_id": "QT-2026-0804",
+      "seller": "Evergreen",
+      "reason": "Highest rated (4.4★) outside top 3 — agent may have confused overall best-rated with best-rated among cheapest."
+    }
+  ],
+  "wrong_answers": [
+    {
+      "quote_id": "QT-2026-0803",
+      "seller": "Xhipment",
+      "reason": "Lowest rated among top 3 — incorrect application of all criteria."
+    }
+  ],
+  "grading_notes": "The platform fee is 1.5% of the ocean freight base rate. Insurance is 0.42% of declared goods value ($30,000). Customs fee is $275 flat. Bond fee is $65 flat. Total all-in = ocean + platform_fee + insurance + customs + bond."
+}

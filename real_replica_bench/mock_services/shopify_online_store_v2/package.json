@@ -1,0 +1,21 @@
+{
+  "name": "shopify-online-store-v2-mock",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Shopify Online Store / theme-editor mock — HTTP backend + Shopify CLI surface aligned to @shopify/cli 4.1.0 (theme commands).",
+  "bin": {
+    "shopify": "./bin/shopify",
+    "shopify-bench": "./bin/shopify-bench"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "cli": "bun bin/shopify",
+    "bench": "bun bin/shopify-bench",
+    "smoke": "bash smoke_test.sh",
+    "test": "bash smoke_test.sh"
+  },
+  "engines": {
+    "node": ">=18",
+    "bun": ">=1.1"
+  }
+}

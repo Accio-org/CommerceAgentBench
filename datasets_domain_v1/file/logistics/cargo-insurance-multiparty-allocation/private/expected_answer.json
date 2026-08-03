@@ -1,0 +1,68 @@
+{
+  "task_id": "file-logistics-cargo-insurance-multiparty-allocation",
+  "_doc": "Verifier ground truth. Each customer has expected gross/paid/reduction (numeric ±tolerance), a status (some are list-acceptable), and three tiers of reason keywords (any one from each tier must appear in the agent's reason_short).",
+  "tolerance": {
+    "per_customer_usd": 0.50,
+    "summary_usd": 5.00
+  },
+  "customers": {
+    "LINNEA": {
+      "gross_claim_usd": 12800.00,
+      "paid_usd": 12300.00,
+      "reduction_from_claim_usd": 500.00,
+      "status_acceptable": ["paid_partial"],
+      "insurer_acceptable_substrings": ["pingan", "ping an", "ping-an"],
+      "reason_primary_keywords_any_of": ["icc(a)", "icc a", "all risks", "all-risks"],
+      "reason_secondary_keywords_any_of": ["usd 500", "$500", "500 absolute", "500 deductible", "absolute deductible", "deductible of 500", "deductible: 500", "fixed deductible"],
+      "reason_tertiary_keywords_any_of": ["pingan", "ping an", "26,400", "26400", "110%", "110 percent", "sum insured", "no exclusion", "no commodity exclusion"]
+    },
+    "JONAS": {
+      "gross_claim_usd": 0.00,
+      "paid_usd": 0.00,
+      "reduction_from_claim_usd": 0.00,
+      "status_acceptable": ["no_claim"],
+      "insurer_acceptable_substrings": ["allianz"],
+      "reason_primary_keywords_any_of": ["no damage", "no loss", "no claim", "dry", "top tier", "no payable", "zero damage", "0 damage", "not damaged", "0% damage", "0 percent", "no carton damage", "no insurance settlement", "no settlement is due", "no payment is due"],
+      "reason_secondary_keywords_any_of": ["allianz", "icc(b)", "icc b", "fob", "al-de-mar", "008842", "al-de-mar-2026-008842"],
+      "reason_tertiary_keywords_any_of": ["top tier", "front tier", "rubber gasket", "j01", "j08", "8 cartons", "stowed at top", "cartons arrived dry", "no carton damage", "all 8 gasket cartons", "0% damage by the surveyor"]
+    },
+    "MAHMOUD": {
+      "gross_claim_usd": 26100.00,
+      "paid_usd": 0.00,
+      "reduction_from_claim_usd": 26100.00,
+      "status_acceptable": ["denied", "escalate_surveyor"],
+      "insurer_acceptable_substrings": ["sinosure"],
+      "reason_primary_keywords_any_of": ["natural fibre", "natural fiber", "natural-fibre", "natural-fiber", "textile exclusion", "textile moisture", "moisture exclusion", "exclusion rider", "commodity exclusion", "sc-nft"],
+      "reason_secondary_keywords_any_of": ["gross negligence", "surveyor report", "surveyor's report", "no gross negligence", "ordinary water damage", "exclusion overrides", "overrides icc(a)", "overrides icc a"],
+      "reason_tertiary_keywords_any_of": ["sinosure", "rider", "sc-nft", "2024-rev3", "rev3", "escalate", "escalation", "denied", "denial", "26,100", "26100"]
+    },
+    "OCEANTECH": {
+      "gross_claim_usd": 5400.00,
+      "paid_usd": 0.00,
+      "reduction_from_claim_usd": 5400.00,
+      "status_acceptable": ["denied"],
+      "insurer_acceptable_substrings": ["baoviet", "bao viet", "bảo việt", "bao-viet"],
+      "reason_primary_keywords_any_of": ["icc(c)", "icc c", "named perils", "named-perils", "narrow coverage", "narrowest"],
+      "reason_secondary_keywords_any_of": ["not covered", "not within", "does not cover", "no coverage", "not engaged", "not insured under", "outside coverage", "narrower than", "coverage requires", "no covered cause", "coverage gap", "requires a maritime catastrophe", "no named peril", "no icc(c) named peril"],
+      "reason_tertiary_keywords_any_of": ["baoviet", "bao viet", "water damage", "ordinary water", "container seal", "would have been covered under icc(b)", "would have been covered under icc b", "had they elected icc(b)", "icc(b) would cover"]
+    },
+    "VERDE": {
+      "gross_claim_usd": 7200.00,
+      "paid_usd": 2000.00,
+      "reduction_from_claim_usd": 5200.00,
+      "status_acceptable": ["paid_partial"],
+      "insurer_acceptable_substrings": ["mapfre"],
+      "reason_primary_keywords_any_of": ["sub-limit", "sub limit", "sublimit", "per-event", "per event", "usd 2,000", "$2,000", "2000 cap", "2,000 cap", "event cap", "per-event sub"],
+      "reason_secondary_keywords_any_of": ["mapfre", "mf-sub", "no deductible", "deductible waived", "primer-comprador", "single event"],
+      "reason_tertiary_keywords_any_of": ["aggregate", "single occurrence", "single insurable event", "5,200", "5200", "reduction", "capped"]
+    }
+  },
+  "summary": {
+    "total_gross_claim_usd": 51500.00,
+    "total_paid_usd": 14300.00,
+    "total_reduction_usd": 37200.00,
+    "count_paid": 2,
+    "count_denied_acceptable_set": [2],
+    "container_cap_check": true
+  }
+}

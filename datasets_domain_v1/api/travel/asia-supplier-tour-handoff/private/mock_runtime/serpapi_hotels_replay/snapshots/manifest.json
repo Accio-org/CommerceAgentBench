@@ -1,0 +1,153 @@
+{
+  "service": "serpapi_hotels_replay",
+  "version": 1,
+  "generated_at": 1779602851,
+  "datasets": [
+    {
+      "id": "bangkok_sukhumvit",
+      "city": "Bangkok",
+      "country": "TH",
+      "neighborhood": "Sukhumvit",
+      "check_in": "2026-09-21",
+      "check_out": "2026-09-23",
+      "currency": "USD",
+      "guests": 5,
+      "summary": "Hotels in Bangkok Sukhumvit — 2 nights, 5 guests, no price filter (default search).",
+      "underlying_serpapi_params": {
+        "engine": "google_hotels",
+        "q": "Bangkok Sukhumvit hotels",
+        "check_in_date": "2026-09-21",
+        "check_out_date": "2026-09-23",
+        "adults": 5,
+        "currency": "USD",
+        "gl": "us",
+        "hl": "en"
+      },
+      "stats": {
+        "properties_total": 20,
+        "hotels": 15,
+        "vacation_rentals": 5,
+        "with_listing_price": 13,
+        "ads": 9
+      },
+      "fetched_at": 1779597984
+    },
+    {
+      "id": "bangkok_sukhumvit_revised",
+      "city": "Bangkok",
+      "country": "TH",
+      "neighborhood": "Sukhumvit",
+      "check_in": "2026-09-21",
+      "check_out": "2026-09-23",
+      "currency": "USD",
+      "guests": 5,
+      "summary": "Hotels in Bangkok Sukhumvit — 2 nights, 5 guests, with max_price=250 filter (post-finance-pushback re-search).",
+      "underlying_serpapi_params": {
+        "engine": "google_hotels",
+        "q": "Bangkok Sukhumvit hotels",
+        "check_in_date": "2026-09-21",
+        "check_out_date": "2026-09-23",
+        "adults": 5,
+        "currency": "USD",
+        "gl": "us",
+        "hl": "en",
+        "max_price": 250
+      },
+      "stats": {
+        "properties_total": 18,
+        "hotels": 18,
+        "vacation_rentals": 0,
+        "with_listing_price": 18,
+        "ads": 9
+      },
+      "fetched_at": 1779598000
+    },
+    {
+      "id": "ho_chi_minh_d1",
+      "city": "Ho Chi Minh City",
+      "country": "VN",
+      "neighborhood": "District 1",
+      "check_in": "2026-09-19",
+      "check_out": "2026-09-21",
+      "currency": "USD",
+      "guests": 5,
+      "summary": "Hotels and serviced apartments in HCMC District 1 — 2 nights, 5 guests. Mix of hotel/vacation_rental properties; vacation_rentals carry rich excluded_amenities.",
+      "underlying_serpapi_params": {
+        "engine": "google_hotels",
+        "q": "Ho Chi Minh City District 1 hotels",
+        "check_in_date": "2026-09-19",
+        "check_out_date": "2026-09-21",
+        "adults": 5,
+        "currency": "USD",
+        "gl": "us",
+        "hl": "en"
+      },
+      "stats": {
+        "properties_total": 20,
+        "hotels": 15,
+        "vacation_rentals": 5,
+        "with_listing_price": 8,
+        "ads": 0
+      },
+      "fetched_at": 1779597964
+    },
+    {
+      "id": "shenzhen_huaqiang",
+      "city": "Shenzhen",
+      "country": "CN",
+      "neighborhood": "Huaqiangbei",
+      "check_in": "2026-09-15",
+      "check_out": "2026-09-16",
+      "currency": "USD",
+      "guests": 5,
+      "summary": "Hotels near Shenzhen Huaqiangbei electronics market — 1 night, 5 guests. Note: Chinese-locale results expose hotel_class, reviews_breakdown, nearby_places, amenities; OTA listing-level prices are NOT surfaced by Google Hotels for this region.",
+      "underlying_serpapi_params": {
+        "engine": "google_hotels",
+        "q": "Shenzhen Huaqiangbei hotels",
+        "check_in_date": "2026-09-15",
+        "check_out_date": "2026-09-16",
+        "adults": 5,
+        "currency": "USD",
+        "gl": "us",
+        "hl": "en"
+      },
+      "stats": {
+        "properties_total": 18,
+        "hotels": 18,
+        "vacation_rentals": 0,
+        "with_listing_price": 0,
+        "ads": 0
+      },
+      "fetched_at": 1779598385
+    },
+    {
+      "id": "yiwu_market",
+      "city": "Yiwu",
+      "country": "CN",
+      "neighborhood": "Yiwu International Trade Market",
+      "check_in": "2026-09-16",
+      "check_out": "2026-09-19",
+      "currency": "USD",
+      "guests": 5,
+      "summary": "Hotels near Yiwu International Trade Market (Futian) — 3 nights, 5 guests. Same Chinese-locale OTA price gap as Shenzhen.",
+      "underlying_serpapi_params": {
+        "engine": "google_hotels",
+        "q": "Yiwu International Trade Market hotels",
+        "check_in_date": "2026-09-16",
+        "check_out_date": "2026-09-19",
+        "adults": 5,
+        "currency": "USD",
+        "gl": "us",
+        "hl": "en"
+      },
+      "stats": {
+        "properties_total": 18,
+        "hotels": 18,
+        "vacation_rentals": 0,
+        "with_listing_price": 0,
+        "ads": 0
+      },
+      "fetched_at": 1779598390
+    }
+  ]
+}

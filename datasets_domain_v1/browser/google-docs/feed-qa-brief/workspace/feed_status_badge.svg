@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260" role="img" aria-label="Feed QA status badge">
+  <rect width="640" height="260" rx="28" fill="#e8f0fe"/>
+  <rect x="34" y="34" width="572" height="192" rx="22" fill="#ffffff"/>
+  <circle cx="114" cy="130" r="52" fill="#1a73e8"/>
+  <path d="M91 130l16 16 34-39" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="190" y="112" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#202124">Feed QA Weekly Brief</text>
+  <text x="190" y="158" font-family="Arial, sans-serif" font-size="25" fill="#5f6368">2026-W22 · High priority remediation</text>
+</svg>

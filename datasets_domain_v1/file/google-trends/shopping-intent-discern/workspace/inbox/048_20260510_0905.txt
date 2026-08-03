@@ -1,0 +1,6 @@
+From: it-help@northstar-dtc.com
+To: wen.li@northstar-dtc.com
+Date: Sun, 10 May 2026 09:05
+Subject: Re: intern project scoping
+
+Scoping the summer intern project around churn prediction. If you want to mentor, let me know by Friday.

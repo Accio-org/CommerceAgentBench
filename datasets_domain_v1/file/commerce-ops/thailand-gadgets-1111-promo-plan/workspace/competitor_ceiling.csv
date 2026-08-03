@@ -1,0 +1,19 @@
+sku_id,platform,competitor_ceiling_thb,source
+A01,shopee_th,399,top-3 avg from Shopee search
+A01,lazada_th,409,top-3 avg from Lazada search
+A01,tiktok_th,379,TikTok influencer reference price
+A02,shopee_th,159,top-3 avg from Shopee search
+A02,lazada_th,165,top-3 avg from Lazada search
+A02,tiktok_th,149,TikTok influencer reference price
+A03,shopee_th,519,top-3 avg from Shopee search
+A03,lazada_th,529,top-3 avg from Lazada search
+A03,tiktok_th,499,TikTok influencer reference price
+A04,shopee_th,449,top-3 avg from Shopee search
+A04,lazada_th,459,top-3 avg from Lazada search
+A04,tiktok_th,429,TikTok influencer reference price
+A05,shopee_th,109,top-3 avg from Shopee search
+A05,lazada_th,115,top-3 avg from Lazada search
+A05,tiktok_th,105,TikTok influencer reference price
+A06,shopee_th,339,top-3 avg from Shopee search
+A06,lazada_th,349,top-3 avg from Lazada search
+A06,tiktok_th,319,TikTok influencer reference price

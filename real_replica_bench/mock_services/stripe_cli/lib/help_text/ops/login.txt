@@ -1,0 +1,41 @@
+Login to your Stripe account to set up the CLI.
+
+Browser-based login is not available in this environment. Use --interactive
+to paste an API key directly:
+
+  stripe login --interactive
+
+This prompts you to enter your API key (sk_test_* or sk_live_*). Useful for
+SSH sessions, CI environments, or containerized workflows.
+
+Usage:
+  stripe login [flags]
+
+Examples:
+  # Paste an API key
+  stripe login --interactive
+
+[Agent guidance]
+  Use `stripe login --interactive` to authenticate. You will be prompted to
+  enter your API key. Alternatively, set STRIPE_API_KEY or pass --api-key.
+  Run stripe --map to quickly see all available commands.
+  Run stripe resources to discover all available API resources.
+  Run stripe [resource] --help to see operations and required/common parameters for a resource.
+  Run stripe help [resource] [operation] to see the full parameter list for a specific operation.
+
+Flags:
+  -h, --help              help for login
+  -i, --interactive       Run interactive configuration mode if you cannot
+                          open a browser
+
+Global flags:
+      --api-key string        Your API key to use for the command
+      --color string          turn on/off color output (on, off, auto)
+      --config string         config file (default is
+                              $HOME/.config/stripe/config.toml)
+      --device-name string    device name
+      --log-level string      log level (debug, info, trace, warn, error)
+                              (default "info")
+      --map string[="tree"]   Print a command tree [tree|compact|paths|json]
+  -p, --project-name string   the project name to read from for config
+                              (default "default")

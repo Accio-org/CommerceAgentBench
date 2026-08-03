@@ -1,0 +1,387 @@
+{
+  "total_skus": 32,
+  "awardable_skus": 30,
+  "unawardable_skus": [
+    {
+      "sku": "LEATHER-WALLET",
+      "reason": "sole category supplier (Dhaka Leather Works, Accessories) is disqualified (rating 3.3 < 3.5); no other supplier maps to Accessories"
+    },
+    {
+      "sku": "HOME-RUG-2X3",
+      "reason": "sole category supplier (São Paulo Têxtil, Textiles) is disqualified (rating 3.2 < 3.5); no other supplier maps to Textiles"
+    }
+  ],
+  "disqualified_suppliers": [
+    {"name": "São Paulo Têxtil", "rating": 3.2, "category": "Textiles"},
+    {"name": "Dhaka Leather Works", "rating": 3.3, "category": "Accessories"},
+    {"name": "Bandung Outdoor Supply", "rating": 3.4, "category": "Outdoor"}
+  ],
+  "aggregate_savings": 10.77,
+  "awards": [
+    {
+      "sku": "LED-PANEL-60W",
+      "product": "60W LED Panel Light",
+      "award_supplier": "深圳流明科技 (Shenzhen Lumen)",
+      "award_price": 12.50,
+      "runner_up_supplier": "Rayong LED Components",
+      "runner_up_price": 13.80,
+      "savings": 1.30,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "PKG-KRAFT-M",
+      "product": "Kraft Mailer Box (Medium)",
+      "award_supplier": "杭州维包贸易 (Hangzhou Wellpack)",
+      "award_price": 0.38,
+      "runner_up_supplier": "宁波港塑料 (Ningbo Harbor)",
+      "runner_up_price": 0.42,
+      "savings": 0.04,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "TOOL-PRUNE-01",
+      "product": "Bypass Pruning Shears",
+      "award_supplier": "青岛绿野工具 (Qingdao Greenfield)",
+      "award_price": 3.20,
+      "runner_up_supplier": "Pacific Northwest Tools",
+      "runner_up_price": 3.85,
+      "savings": 0.65,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "KIT-KNIFE-5PC",
+      "product": "5-Piece Kitchen Knife Set",
+      "award_supplier": "Busan Alloy Works",
+      "award_price": 16.50,
+      "runner_up_supplier": "Istanbul Metalworks",
+      "runner_up_price": 18.00,
+      "savings": 1.50,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "PET-BED-LG",
+      "product": "Orthopedic Dog Bed (Large)",
+      "award_supplier": "东莞新星宠物 (Dongguan Nova Pet)",
+      "award_price": 9.80,
+      "runner_up_supplier": "Toronto Pet Goods",
+      "runner_up_price": 10.50,
+      "savings": 0.70,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "DECOR-VASE-CER",
+      "product": "Ceramic Flower Vase, 12\"",
+      "award_supplier": "Porto Cork & Home",
+      "award_price": 4.30,
+      "runner_up_supplier": "Guadalajara Artesanías",
+      "runner_up_price": 4.60,
+      "savings": 0.30,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "PKG-BUBBLE-LG",
+      "product": "Bubble Wrap Roll (Large)",
+      "award_supplier": "杭州维包贸易 (Hangzhou Wellpack)",
+      "award_price": 1.65,
+      "runner_up_supplier": "宁波港塑料 (Ningbo Harbor)",
+      "runner_up_price": 1.80,
+      "savings": 0.15,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "CAMP-TENT-2P",
+      "product": "2-Person Camping Tent",
+      "award_supplier": "厦门蓝波户外 (Xiamen Bluewave)",
+      "award_price": 22.00,
+      "runner_up_supplier": null,
+      "runner_up_price": null,
+      "savings": 0.00,
+      "rationale": "sole qualified bidder"
+    },
+    {
+      "sku": "BEAUTY-SERUM-VC",
+      "product": "Vitamin C Serum 30ml",
+      "award_supplier": "广州兰花美容 (Guangzhou Orchid Beauty)",
+      "award_price": 1.20,
+      "runner_up_supplier": "Bangkok Wellness Labs",
+      "runner_up_price": 1.45,
+      "savings": 0.25,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "AUTO-FILTER-OIL",
+      "product": "Oil Filter (Universal)",
+      "award_supplier": "Krakow Auto Filters",
+      "award_price": 0.88,
+      "runner_up_supplier": "Rajkot Precision Parts",
+      "runner_up_price": 0.95,
+      "savings": 0.07,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "SPICE-TURM-ORG",
+      "product": "Organic Turmeric Powder 500g",
+      "award_supplier": "Chennai Spice Exports",
+      "award_price": 3.40,
+      "runner_up_supplier": null,
+      "runner_up_price": null,
+      "savings": 0.00,
+      "rationale": "sole qualified bidder"
+    },
+    {
+      "sku": "STEEL-SHELF-3T",
+      "product": "3-Tier Steel Storage Shelf",
+      "award_supplier": "Lombardy Fixture Co.",
+      "award_price": 12.80,
+      "runner_up_supplier": "Monterrey Steel",
+      "runner_up_price": 14.00,
+      "savings": 1.20,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "GLASS-TUMBLER-SET",
+      "product": "Handblown Glass Tumbler Set (4)",
+      "award_supplier": "Porto Cork & Home",
+      "award_price": 7.50,
+      "runner_up_supplier": "Guadalajara Artesanías",
+      "runner_up_price": 8.00,
+      "savings": 0.50,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "TOOL-HOSE-25FT",
+      "product": "Expandable Garden Hose 25ft",
+      "award_supplier": "Pacific Northwest Tools",
+      "award_price": 3.85,
+      "runner_up_supplier": "青岛绿野工具 (Qingdao Greenfield)",
+      "runner_up_price": 4.20,
+      "savings": 0.35,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "KIT-COFFEE-MILL",
+      "product": "Manual Coffee Grinder",
+      "award_supplier": "Osaka Home Goods",
+      "award_price": 6.05,
+      "runner_up_supplier": "苏州明居制造 (Suzhou BrightHome)",
+      "runner_up_price": 6.40,
+      "savings": 0.35,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "LED-STRIP-5M",
+      "product": "LED Strip Light 5m",
+      "award_supplier": "深圳流明科技 (Shenzhen Lumen)",
+      "award_price": 2.80,
+      "runner_up_supplier": "佛山北极星照明 (Foshan Northstar)",
+      "runner_up_price": 3.10,
+      "savings": 0.30,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "PET-TOY-ROPE",
+      "product": "Cotton Rope Pet Toy",
+      "award_supplier": "东莞新星宠物 (Dongguan Nova Pet)",
+      "award_price": 0.74,
+      "runner_up_supplier": "Penang Pet Comfort",
+      "runner_up_price": 0.86,
+      "savings": 0.12,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "DECOR-CANDLE-SET",
+      "product": "Scented Candle Set (3)",
+      "award_supplier": "Porto Cork & Home",
+      "award_price": 3.35,
+      "runner_up_supplier": "Guadalajara Artesanías",
+      "runner_up_price": 3.60,
+      "savings": 0.25,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "AUTO-WIPER-22",
+      "product": "22-inch Hybrid Wiper Blade",
+      "award_supplier": "Rajkot Precision Parts",
+      "award_price": 2.95,
+      "runner_up_supplier": "Krakow Auto Filters",
+      "runner_up_price": 3.45,
+      "savings": 0.50,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "PKG-TAPE-CLR",
+      "product": "Clear Packing Tape 48mm",
+      "award_supplier": "杭州维包贸易 (Hangzhou Wellpack)",
+      "award_price": 0.47,
+      "runner_up_supplier": "宁波港塑料 (Ningbo Harbor)",
+      "runner_up_price": 0.52,
+      "savings": 0.05,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "KITCHEN-SCALE-5KG",
+      "product": "Digital Kitchen Scale 5kg",
+      "award_supplier": "Istanbul Metalworks",
+      "award_price": 4.80,
+      "runner_up_supplier": "Busan Alloy Works",
+      "runner_up_price": 5.35,
+      "savings": 0.55,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "OUTDOOR-LANTERN",
+      "product": "Rechargeable Camping Lantern",
+      "award_supplier": "厦门蓝波户外 (Xiamen Bluewave)",
+      "award_price": 8.90,
+      "runner_up_supplier": null,
+      "runner_up_price": null,
+      "savings": 0.00,
+      "rationale": "sole qualified bidder"
+    },
+    {
+      "sku": "BEAUTY-BRUSH-SET",
+      "product": "Makeup Brush Set (12)",
+      "award_supplier": "广州兰花美容 (Guangzhou Orchid Beauty)",
+      "award_price": 2.10,
+      "runner_up_supplier": "Bangkok Wellness Labs",
+      "runner_up_price": 2.45,
+      "savings": 0.35,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "FOOD-TEA-GIFT",
+      "product": "Loose Leaf Tea Gift Tin",
+      "award_supplier": "Chennai Spice Exports",
+      "award_price": 3.05,
+      "runner_up_supplier": null,
+      "runner_up_price": null,
+      "savings": 0.00,
+      "rationale": "sole qualified bidder"
+    },
+    {
+      "sku": "SHELF-BIN-SM",
+      "product": "Small Storage Bin",
+      "award_supplier": "义乌经纬供应 (Yiwu Meridian)",
+      "award_price": 1.15,
+      "runner_up_supplier": null,
+      "runner_up_price": null,
+      "savings": 0.00,
+      "rationale": "sole qualified bidder"
+    },
+    {
+      "sku": "CORK-COASTER-6",
+      "product": "Cork Coaster Set (6)",
+      "award_supplier": "Guadalajara Artesanías",
+      "award_price": 1.90,
+      "runner_up_supplier": "Porto Cork & Home",
+      "runner_up_price": 2.05,
+      "savings": 0.15,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "LED-DRIVER-40W",
+      "product": "40W Constant Current LED Driver",
+      "award_supplier": "深圳流明科技 (Shenzhen Lumen)",
+      "award_price": 4.40,
+      "runner_up_supplier": "Rayong LED Components",
+      "runner_up_price": 4.85,
+      "savings": 0.45,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "PET-MAT-WASH",
+      "product": "Washable Pet Feeding Mat",
+      "award_supplier": "东莞新星宠物 (Dongguan Nova Pet)",
+      "award_price": 1.65,
+      "runner_up_supplier": "Toronto Pet Goods",
+      "runner_up_price": 1.82,
+      "savings": 0.17,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "DECOR-GLASS-VASE",
+      "product": "Glass Bud Vase Trio",
+      "award_supplier": "Guadalajara Artesanías",
+      "award_price": 3.90,
+      "runner_up_supplier": "Porto Cork & Home",
+      "runner_up_price": 4.15,
+      "savings": 0.25,
+      "rationale": "lowest price"
+    },
+    {
+      "sku": "AUTO-AIR-FILTER",
+      "product": "Cabin Air Filter",
+      "award_supplier": "Rajkot Precision Parts",
+      "award_price": 1.35,
+      "runner_up_supplier": "Krakow Auto Filters",
+      "runner_up_price": 1.62,
+      "savings": 0.27,
+      "rationale": "lowest price"
+    }
+  ],
+  "supplier_mapping": {
+    "rule": "Supplier A/B/C = 1st/2nd/3rd supplier in Supplier Overview (row order) whose Category column matches the SKU's inferred product category",
+    "category_assignments": {
+      "LED-PANEL-60W": "LED Lighting",
+      "PKG-KRAFT-M": "Packaging",
+      "TOOL-PRUNE-01": "Garden Tools",
+      "KIT-KNIFE-5PC": "Kitchen Hardware",
+      "PET-BED-LG": "Pet Supplies",
+      "DECOR-VASE-CER": "Home Décor",
+      "PKG-BUBBLE-LG": "Packaging",
+      "CAMP-TENT-2P": "Outdoor",
+      "BEAUTY-SERUM-VC": "Beauty",
+      "AUTO-FILTER-OIL": "Automotive",
+      "SPICE-TURM-ORG": "Food & Beverage",
+      "STEEL-SHELF-3T": "Industrial",
+      "LEATHER-WALLET": "Accessories",
+      "GLASS-TUMBLER-SET": "Home Décor",
+      "TOOL-HOSE-25FT": "Garden Tools",
+      "KIT-COFFEE-MILL": "Home & Kitchen",
+      "HOME-RUG-2X3": "Textiles",
+      "LED-STRIP-5M": "LED Lighting",
+      "PET-TOY-ROPE": "Pet Supplies",
+      "DECOR-CANDLE-SET": "Home Décor",
+      "AUTO-WIPER-22": "Automotive",
+      "PKG-TAPE-CLR": "Packaging",
+      "KITCHEN-SCALE-5KG": "Kitchen Hardware",
+      "OUTDOOR-LANTERN": "Outdoor",
+      "BEAUTY-BRUSH-SET": "Beauty",
+      "FOOD-TEA-GIFT": "Food & Beverage",
+      "SHELF-BIN-SM": "General Merchandise",
+      "CORK-COASTER-6": "Home Décor",
+      "LED-DRIVER-40W": "LED Lighting",
+      "PET-MAT-WASH": "Pet Supplies",
+      "DECOR-GLASS-VASE": "Home Décor",
+      "AUTO-AIR-FILTER": "Automotive"
+    },
+    "categories_with_3_suppliers": ["LED Lighting", "Packaging", "Pet Supplies", "Home Décor", "Home & Kitchen"],
+    "categories_with_fewer_than_3": {
+      "Garden Tools": ["青岛绿野工具 (Qingdao Greenfield)", "Pacific Northwest Tools"],
+      "Kitchen Hardware": ["Istanbul Metalworks", "Busan Alloy Works"],
+      "Automotive": ["Rajkot Precision Parts", "Krakow Auto Filters"],
+      "Outdoor": ["厦门蓝波户外 (Xiamen Bluewave)", "Bandung Outdoor Supply (DQ)"],
+      "Beauty": ["广州兰花美容 (Guangzhou Orchid Beauty)", "Bangkok Wellness Labs"],
+      "Industrial": ["Monterrey Steel", "Lombardy Fixture Co."],
+      "Food & Beverage": ["Chennai Spice Exports"],
+      "General Merchandise": ["义乌经纬供应 (Yiwu Meridian)"],
+      "Textiles": ["São Paulo Têxtil (DQ)"],
+      "Accessories": ["Dhaka Leather Works (DQ)"]
+    },
+    "unmapped_slot_note": "When a category has fewer than 3 suppliers, extra Supplier B/C quote slots cannot be attributed to a named supplier and are excluded from award consideration"
+  },
+  "audit_trail_entry": {
+    "date": "today (YYYY-MM-DD)",
+    "user": "sourcing-bot@",
+    "change": "Award decisions finalized for 30 SKUs",
+    "old_value": "",
+    "new_value": "30 awards, $10.77 aggregate savings"
+  },
+  "presentation_slide": {
+    "position": 7,
+    "layout": "TITLE_AND_BODY",
+    "title": "Q2 Award Summary",
+    "body_format": "bullet list: · <SKU>: <Award Supplier> at $<price> (<rationale>)",
+    "footer": "Total: 30 SKUs awarded, $10.77 aggregate savings vs runner-up"
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "schema_version": "2.0",
+  "constraints": {
+    "price_min_usd": 30.0,
+    "price_max_usd": 80.0,
+    "rating_min": 4.0,
+    "reviews_min": 1000
+  },
+  "valid_subcategories": [
+    "bone_conduction",
+    "open_ear",
+    "clip_on",
+    "in_ear",
+    "over_ear"
+  ],
+  "asin_subcategory_gt": {
+    "B0D2XRXNGY": "open_ear",
+    "B0D2HKCMBP": "bone_conduction",
+    "B09BW29FJS": "bone_conduction",
+    "B09BW1QVVT": "bone_conduction",
+    "B0F62TV3ZW": "open_ear",
+    "B0DHVH5KCB": "open_ear",
+    "B0GK9FWDX5": "bone_conduction",
+    "B0DTRW94T7": "bone_conduction",
+    "B0GYRWSDGV": "clip_on",
+    "B0G2LW2DQ4": "clip_on",
+    "B0DWSX6FZJ": "bone_conduction",
+    "B0C5X3YT8D": "bone_conduction",
+    "B0GV9ZTP4B": "bone_conduction",
+    "B0DFWM4TWW": "bone_conduction",
+    "B0DP6YGW5F": "open_ear",
+    "B0FYCH5HZB": "open_ear",
+    "B0BTYCJXBK": "in_ear",
+    "B0F8J38VRR": "clip_on",
+    "B0D9M7VQ47": "clip_on",
+    "B0FKSV2GW2": "clip_on",
+    "B09JC3S2PN": "over_ear",
+    "B0CHP177FN": "over_ear",
+    "B0734S1YBS": "in_ear",
+    "B0GQRQ4D4T": "over_ear",
+    "B0D31C567W": "open_ear",
+    "B0FMRPKN3G": "clip_on",
+    "B0GXFMJ4T9": "clip_on",
+    "B09FT58QQP": "in_ear",
+    "B0CRTYZG5C": "in_ear",
+    "B09FLNSYDZ": "over_ear",
+    "B0BTYCRJSS": "in_ear",
+    "B0CSXV3GK4": "in_ear",
+    "B0D635YLCT": "in_ear",
+    "B0C3W4MNN1": "over_ear",
+    "B0DRBPMYJQ": "over_ear",
+    "B0B1LVC5VZ": "in_ear"
+  },
+  "asin_field_gt": {
+    "B0D2XRXNGY": {
+      "brand": "Soundcore",
+      "title": "Soundcore V20i by Anker Open-Ear Headphones, Adjustable Ear Hooks, Ultra-Comfort, Snug Fit, Powerful Sound, Clear Calls, IP55, 36H Playtime, Bluetooth 5.4 Wireless Earbuds, Multipoint Connection",
+      "price": 29.99,
+      "rating": 4.4,
+      "reviews": 14998
+    },
+    "B0D2HKCMBP": {
+      "brand": "SHOKZ",
+      "title": "SHOKZ New OpenRun Pro 2- Bone Conduction Headphones, Open-Ear Bluetooth Wireless Sport Earphones for Running, Workouts - Sweat Resistant, Secure Comfortable Fit -Deep Bass, Smart Mic, Reflective Strip",
+      "price": 179.95,
+      "rating": 4.5,
+      "reviews": 9870
+    },
+    "B09BW29FJS": {
+      "brand": "SHOKZ",
+      "title": "SHOKZ OpenMove - Open-Ear Bluetooth Sport Headphones, Bone Conduction Wireless Earphones, Sweatproof for Running and Workouts, with Sticker Pack, Grey",
+      "price": 54.95,
+      "rating": 4.4,
+      "reviews": 23316
+    },
+    "B09BW1QVVT": {
+      "brand": "SHOKZ",
+      "title": "SHOKZ OpenRun Bone Conduction Open-Ear Bluetooth Sport Headphones, Running Workout Bundle with Waterproof Carrying Case & Sweat Headband, IP67 Sweat Resistant, 8H Playtime, Mic, Black",
+      "price": 129.95,
+      "rating": 4.5,
+      "reviews": 26420
+    },
+    "B0F62TV3ZW": {
+      "brand": "OHAYO",
+      "title": "OHAYO Open Ear Headphones,Over Ear Earbuds with Ergonomic Earhook,Bluetooth Headphones 5.4 with Smart Digital Display,40H Playtime,IPX6 Waterproof,Touch Control Operate Fit Cycling,Running,Workout",
+      "price": 29.99,
+      "rating": 4.4,
+      "reviews": 2131
+    },
+    "B0DHVH5KCB": {
+      "brand": "TOZO",
+      "title": "TOZO OpenEarRing True Open Ear Earbuds, Lightweight Comfort Open Ear Clip Wireless Earbuds, 40H Play Bluetooth 5.4 Headphones with Smart Digital Display Design Fit Sports Running, Workout Black",
+      "price": 26.99,
+      "rating": 4.2,
+      "reviews": 7300
+    },
+    "B0GK9FWDX5": {
+      "brand": "PSIER",
+      "title": "PSIER Bone Conduction Headphones, 2026 Upgrade Bluetooth 6.0 Open Ear Headphones, 10Hrs Playtime Wireless Earbuds with Mic, 23g Lightweight Comfort, IPX5 Waterproof Running Headphones for Gym, Outdoor",
+      "price": 39.99,
+      "rating": 4.4,
+      "reviews": 1577
+    },
+    "B0DTRW94T7": {
+      "brand": "Raycon",
+      "title": "Raycon Bone Conduction Headphones Bluetooth - Open Ear Running Headphones, Sweat & Water-Resistant Earbuds with Mic for Sports & Workouts, 13hr Playtime (Gray)",
+      "price": 84.99,
+      "rating": 4.1,
+      "reviews": 998
+    },
+    "B0GYRWSDGV": {
+      "brand": "Boytond",
+      "title": "Boytond Ultra Open Ear Earbuds - Comfortable Clip-On Bone Conduction Earbuds, Over-The-Ear Open Headphones with Waterproof Build for Running, Gym Workouts, and Outdoor Sports, Gloss Black",
+      "price": 39.99,
+      "rating": 4.3,
+      "reviews": 26
+    },
+    "B0G2LW2DQ4": {
+      "brand": "OHAYO",
+      "title": "OHAYO A7 Open Ear Clip-On Headphones for Glasses Wearers - Safe for Running & Streets, 4.7g Weightless Fit, 40H Battery, Bluetooth 5.4, Black",
+      "price": 14.39,
+      "rating": 4.6,
+      "reviews": 428
+    },
+    "B0DWSX6FZJ": {
+      "brand": "PSIER",
+      "title": "PSIER Bone Conduction Headphones IPX8 Waterproof Swimming Headphones Open Ear Headphones with MP3 Mode 32GB Memory Up to 8 Hours Playtime Bluetooth 6.0 Ear Buds Secure Fit for Running and Fitness",
+      "price": 85.99,
+      "rating": 4.4,
+      "reviews": 2272
+    },
+    "B0C5X3YT8D": {
+      "brand": "CXK",
+      "title": "CXK Bone Conduction Headphones Bluetooth 6.0 Open Ear Headphones with Mic, Premium Loud Sound 10Hrs Playtime Bluetooth Headphones, IPX6 Waterproof Sports Headset for Running, Cycling, Walking",
+      "price": 45.99,
+      "rating": 4.0,
+      "reviews": 4743
+    },
+    "B0GV9ZTP4B": {
+      "brand": "Ogogrs",
+      "title": "Bone Conduction Headphones, Wireless Bluetooth Open-Ear Sports Headphones with Mic, Type-C Quick Charging Long Battery Life, Upgrade Waterproof Earphones for Running, Walking, Cycling, Workout, Gift",
+      "price": 59.99,
+      "rating": 4.7,
+      "reviews": 100
+    },
+    "B0DFWM4TWW": {
+      "brand": "SHOKZ",
+      "title": "OpenComm2 2025 Upgrade - Open-Ear Bone Conduction Headphones, Wireless Bluetooth Headset with Noise Canceling Mic & Mute Button for Work Calls and Meetings, 16 Hour Talk Time for Mobile & PC - C120",
+      "price": 159.95,
+      "rating": 4.3,
+      "reviews": 890
+    },
+    "B0DP6YGW5F": {
+      "brand": "Ortizan",
+      "title": "Ortizan Open Ear Headphones, Bluetooth 5.3 Wireless Air Conduction Headphones Sport Earbuds, Premium Sound, IPX6 Waterproof, Clear Call, 19g Lightweight Earphones for Running Cycling Workouts (Black)",
+      "price": 25.98,
+      "rating": 4.3,
+      "reviews": 1254
+    },
+    "B0FYCH5HZB": {
+      "brand": "SHOKZ",
+      "title": "SHOKZ OpenFit Pro Open-Ear True Wireless Earbuds with Open-Ear Noise Reduction, Optimised for Dolby Atmos, Deep Bass, 50H Playtime, AI-Powered Clear Calls for Work, Sport, Bluetooth 6.1, IP55, Black",
+      "price": 249.95,
+      "rating": 4.5,
+      "reviews": 169
+    },
+    "B0BTYCJXBK": {
+      "brand": "Soundcore",
+      "title": "Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization (White)",
+      "price": 20.99,
+      "rating": 4.4,
+      "reviews": 106043
+    },
+    "B0F8J38VRR": {
+      "brand": "Kinglucky",
+      "title": "Kinglucky Upgraded Clip-On Earbuds Bluetooth 6.0 Wireless Headphones Open Ear Buds Comfortable Fit & Crystal-Clear Sound, 50H Playtime for Women & Kids Ideal for Small Ears, Sports, Glasses Rose Gold",
+      "price": 27.99,
+      "rating": 4.5,
+      "reviews": 1239
+    },
+    "B0D9M7VQ47": {
+      "brand": "King Lucky",
+      "title": "King Lucky Clip-On Earbuds Gen 3, Open-Ear Wireless Bluetooth 6.0 Headphones with Mic, Secure Fit for Small Ears & Glasses Wearers, 50H Playtime, ENC, IPX5 Waterproof Sport Ear Buds (Purple)",
+      "price": 21.72,
+      "rating": 4.2,
+      "reviews": 6370
+    },
+    "B0FKSV2GW2": {
+      "brand": "Soundcore",
+      "title": "Soundcore C50i by Anker Open Ear Earbuds, Clip-On Headphones Over Ear for Running Workout, 12mm Drivers Powerful Bass, IP55 Waterproof, Bluetooth 6.0 Hi-Res, FlexiClip Design",
+      "price": 39.99,
+      "rating": 4.4,
+      "reviews": 1114
+    },
+    "B09JC3S2PN": {
+      "brand": "bmani",
+      "title": "bmani Ear Buds Wireless Earbuds Bluetooth Headphones with 80H Playtime LED Display Case, Over-Ear Hook with Mic, Stereo Sound, Easy Button Controls, Sports Earphones for Running Workout Gym Pink",
+      "price": 39.99,
+      "rating": 4.4,
+      "reviews": 53972
+    },
+    "B0CHP177FN": {
+      "brand": "PocBuds",
+      "title": "PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime Wireless Charging Case Digital Display Sports Ear Buds with Earhook Deep Bass IPX7 Waterproof Over-Ear Earphones for TV Phone Laptop Olive",
+      "price": 25.99,
+      "rating": 4.4,
+      "reviews": 21202
+    },
+    "B0734S1YBS": {
+      "brand": "Otium",
+      "title": "Otium Bluetooth Earbuds Wireless Headphones Bluetooth Headphones, Sports Earbuds, IPX7 Waterproof Stereo Earphones for Gym Running 15 Hours Playtime Sound Isolation Headsets,Black",
+      "price": 23.99,
+      "rating": 4.3,
+      "reviews": 17118
+    },
+    "B0GQRQ4D4T": {
+      "brand": "Csasan",
+      "title": "Wireless Earbuds Bluetooth 5.3 Headphones Sports, 48H Earphone with ENC Mic, Stereo Deep Bass Bluetooth Earbuds with Secure Earhooks, LED Display, IPX7 Waterproof Over Ear Buds for Running/Gym/Workout",
+      "price": 26.0,
+      "rating": 4.4,
+      "reviews": 8391
+    },
+    "B0D31C567W": {
+      "brand": "Soundcore",
+      "title": "soundcore V20i by Anker Open-Ear Headphones, Adjustable Ear Hooks, Ultra-Comfort, Snug Fit, Powerful Sound, Clear Calls, IP55, 36H Playtime, Bluetooth 5.4 Wireless Earbuds, Multipoint Connection",
+      "price": 31.99,
+      "rating": 4.4,
+      "reviews": 15000
+    },
+    "B0FMRPKN3G": {
+      "brand": "Baseus",
+      "title": "Baseus Inspire XC1 Open Ear Clip-On Earbuds, Sound by Bose, Dolby Audio, Adaptive Tunning Sound, Hybrid 2-Way Driver, Zero-Sense Air Cushion, 4-Mic Adaptive Clear Calls, IP66 Waterproof, 40H Playtime",
+      "price": 109.99,
+      "rating": 4.3,
+      "reviews": 901
+    },
+    "B0GXFMJ4T9": {
+      "brand": "Boytond",
+      "title": "Boytond Ultra Open Ear Earbuds - Comfortable Clip-On Bone Conduction Earbuds, Over-The-Ear Open Headphones with Waterproof Build for Running, Gym Workouts, and Outdoor Sports, Classic Black",
+      "price": 39.99,
+      "rating": 4.1,
+      "reviews": 1484
+    },
+    "B09FT58QQP": {
+      "brand": "TOZO",
+      "title": "TOZO A1 Wireless Earbuds Bluetooth 5.3 Light Weight in Ear IPX5 Waterproof Headphones 2 Mic for AI Calls, Immersive Premium Sound Bass Headset with Charging Case, 32 Presets EQ Customization via App",
+      "price": 13.99,
+      "rating": 4.3,
+      "reviews": 113832
+    },
+    "B0CRTYZG5C": {
+      "brand": "Soundcore",
+      "title": "Soundcore P30i by Anker Noise Cancelling Earbuds, Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Wireless Earbuds, Bluetooth 5.4 (Black)",
+      "price": 27.99,
+      "rating": 4.4,
+      "reviews": 33461
+    },
+    "B09FLNSYDZ": {
+      "brand": "bmani",
+      "title": "bmani Ear Buds Wireless Earbuds Bluetooth Headphones with 80H Playtime LED Display Case, Over-Ear Hook with Mic, Stereo Sound, Easy Button Controls, Sports Earphones for Running Workout Gym Black",
+      "price": 39.99,
+      "rating": 4.4,
+      "reviews": 53961
+    },
+    "B0BTYCRJSS": {
+      "brand": "Soundcore",
+      "title": "Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization via App",
+      "price": 19.99,
+      "rating": 4.4,
+      "reviews": 106043
+    },
+    "B0CSXV3GK4": {
+      "brand": "Aptkdoe",
+      "title": "Wireless Earbuds 75hrs Bluetooth 5.4 Headphone Sport, 2026 Bluetooth Earbuds Stereo Deep Bass Over Ear Bud with Earhooks, ENC Noise Cancelling Mic, IPX7 Waterproof Earphone for Gym/Running/Workout",
+      "price": 25.99,
+      "rating": 4.3,
+      "reviews": 27683
+    },
+    "B0D635YLCT": {
+      "brand": "kurdene",
+      "title": "kurdene Wireless Earbuds Bluetooth 5.3 in Ear Buds Light Weight Headphones,Deep Bass Sound,Built in Mics Headset,Clear Calls Earphones for Sports Workout",
+      "price": 8.48,
+      "rating": 4.3,
+      "reviews": 59127
+    },
+    "B0C3W4MNN1": {
+      "brand": "PocBuds",
+      "title": "PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime Wireless Charging Case Digital Display Sports Ear Buds with Earhook Deep Bass IPX7 Waterproof Over-Ear Earphones for TV Phone Laptop Black",
+      "price": 25.99,
+      "rating": 4.4,
+      "reviews": 21202
+    },
+    "B0DRBPMYJQ": {
+      "brand": "kurdene",
+      "title": "kurdene Wireless Earbuds Bluetooth Headphones Sport,Over Ear Buds with Deep Bass Sound,60Hrs Playtime Earphones Redesigned Comfort Fit with Earhooks for Running,Meeting,Workout-Black",
+      "price": 14.99,
+      "rating": 4.3,
+      "reviews": 6031
+    },
+    "B0B1LVC5VZ": {
+      "brand": "Soundcore",
+      "title": "Soundcore by Anker Space A40 Adaptive Active Noise Cancelling Wireless Earbuds, Reduce Noise by Up to 98%, Ultra Long 50H Playtime, 10H Single Playtime, Hi-Res Sound, Comfortable Fit, Wireless Charge",
+      "price": 54.99,
+      "rating": 4.2,
+      "reviews": 23679
+    }
+  },
+  "valid_asin_set": [
+    "B09BW29FJS",
+    "B09FLNSYDZ",
+    "B09JC3S2PN",
+    "B0B1LVC5VZ",
+    "B0C5X3YT8D",
+    "B0D31C567W",
+    "B0FKSV2GW2",
+    "B0GK9FWDX5",
+    "B0GXFMJ4T9"
+  ],
+  "valid_asin_by_subcategory": {
+    "bone_conduction": [
+      "B09BW29FJS",
+      "B0C5X3YT8D",
+      "B0GK9FWDX5"
+    ],
+    "open_ear": [
+      "B0D31C567W"
+    ],
+    "clip_on": [
+      "B0FKSV2GW2",
+      "B0GXFMJ4T9"
+    ],
+    "in_ear": [
+      "B0B1LVC5VZ"
+    ],
+    "over_ear": [
+      "B09FLNSYDZ",
+      "B09JC3S2PN"
+    ]
+  },
+  "opportunity_per_asin": {
+    "B09BW29FJS": 9.6281,
+    "B09FLNSYDZ": 16.6611,
+    "B09JC3S2PN": 16.6614,
+    "B0B1LVC5VZ": 9.1898,
+    "B0C5X3YT8D": 10.0018,
+    "B0D31C567W": 17.6435,
+    "B0FKSV2GW2": 10.7277,
+    "B0GK9FWDX5": 11.2592,
+    "B0GXFMJ4T9": 10.4049
+  },
+  "optimal_portfolio": {
+    "selected_asins": [
+      "B0GK9FWDX5",
+      "B0D31C567W",
+      "B09JC3S2PN"
+    ],
+    "by_subcategory": {
+      "bone_conduction": "B0GK9FWDX5",
+      "open_ear": "B0D31C567W",
+      "over_ear": "B09JC3S2PN"
+    },
+    "portfolio_score": 45.5641,
+    "near_optimal_tolerance": 0.05,
+    "tied_combinations_count": 1
+  },
+  "portfolio_aggregates": {
+    "avg_rating": 4.4,
+    "total_reviews": 70549
+  },
+  "obvious_traps": [
+    {
+      "asin": "B09FT58QQP",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $13.99 below floor $30.00",
+      "title": "TOZO A1 Wireless Earbuds Bluetooth 5.3 Light Weight in Ear IPX5 Waterproof Headphones 2 Mic for AI Calls, Immersive Premium Sound Bass Headset with Charging Case, 32 Presets EQ Customization via App",
+      "reviews": 113832
+    },
+    {
+      "asin": "B0BTYCJXBK",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $20.99 below floor $30.00",
+      "title": "Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization (White)",
+      "reviews": 106043
+    },
+    {
+      "asin": "B0BTYCRJSS",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $19.99 below floor $30.00",
+      "title": "Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization via App",
+      "reviews": 106043
+    },
+    {
+      "asin": "B0D635YLCT",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $8.48 below floor $30.00",
+      "title": "kurdene Wireless Earbuds Bluetooth 5.3 in Ear Buds Light Weight Headphones,Deep Bass Sound,Built in Mics Headset,Clear Calls Earphones for Sports Workout",
+      "reviews": 59127
+    },
+    {
+      "asin": "B0CRTYZG5C",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $27.99 below floor $30.00",
+      "title": "Soundcore P30i by Anker Noise Cancelling Earbuds, Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Wireless Earbuds, Bluetooth 5.4 (Black)",
+      "reviews": 33461
+    },
+    {
+      "asin": "B0CSXV3GK4",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $25.99 below floor $30.00",
+      "title": "Wireless Earbuds 75hrs Bluetooth 5.4 Headphone Sport, 2026 Bluetooth Earbuds Stereo Deep Bass Over Ear Bud with Earhooks, ENC Noise Cancelling Mic, IPX7 Waterproof Earphone for Gym/Running/Workout",
+      "reviews": 27683
+    },
+    {
+      "asin": "B09BW1QVVT",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $129.95 above ceiling $80.00",
+      "title": "SHOKZ OpenRun Bone Conduction Open-Ear Bluetooth Sport Headphones, Running Workout Bundle with Waterproof Carrying Case & Sweat Headband, IP67 Sweat Resistant, 8H Playtime, Mic, Black",
+      "reviews": 26420
+    },
+    {
+      "asin": "B0CHP177FN",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $25.99 below floor $30.00",
+      "title": "PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime Wireless Charging Case Digital Display Sports Ear Buds with Earhook Deep Bass IPX7 Waterproof Over-Ear Earphones for TV Phone Laptop Olive",
+      "reviews": 21202
+    },
+    {
+      "asin": "B0C3W4MNN1",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $25.99 below floor $30.00",
+      "title": "PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime Wireless Charging Case Digital Display Sports Ear Buds with Earhook Deep Bass IPX7 Waterproof Over-Ear Earphones for TV Phone Laptop Black",
+      "reviews": 21202
+    },
+    {
+      "asin": "B0734S1YBS",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $23.99 below floor $30.00",
+      "title": "Otium Bluetooth Earbuds Wireless Headphones Bluetooth Headphones, Sports Earbuds, IPX7 Waterproof Stereo Earphones for Gym Running 15 Hours Playtime Sound Isolation Headsets,Black",
+      "reviews": 17118
+    },
+    {
+      "asin": "B0D2XRXNGY",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $29.99 below floor $30.00",
+      "title": "Soundcore V20i by Anker Open-Ear Headphones, Adjustable Ear Hooks, Ultra-Comfort, Snug Fit, Powerful Sound, Clear Calls, IP55, 36H Playtime, Bluetooth 5.4 Wireless Earbuds, Multipoint Connection",
+      "reviews": 14998
+    },
+    {
+      "asin": "B0D2HKCMBP",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $179.95 above ceiling $80.00",
+      "title": "SHOKZ New OpenRun Pro 2- Bone Conduction Headphones, Open-Ear Bluetooth Wireless Sport Earphones for Running, Workouts - Sweat Resistant, Secure Comfortable Fit -Deep Bass, Smart Mic, Reflective Strip",
+      "reviews": 9870
+    },
+    {
+      "asin": "B0GQRQ4D4T",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $26.00 below floor $30.00",
+      "title": "Wireless Earbuds Bluetooth 5.3 Headphones Sports, 48H Earphone with ENC Mic, Stereo Deep Bass Bluetooth Earbuds with Secure Earhooks, LED Display, IPX7 Waterproof Over Ear Buds for Running/Gym/Workout",
+      "reviews": 8391
+    },
+    {
+      "asin": "B0DHVH5KCB",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $26.99 below floor $30.00",
+      "title": "TOZO OpenEarRing True Open Ear Earbuds, Lightweight Comfort Open Ear Clip Wireless Earbuds, 40H Play Bluetooth 5.4 Headphones with Smart Digital Display Design Fit Sports Running, Workout Black",
+      "reviews": 7300
+    },
+    {
+      "asin": "B0D9M7VQ47",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $21.72 below floor $30.00",
+      "title": "King Lucky Clip-On Earbuds Gen 3, Open-Ear Wireless Bluetooth 6.0 Headphones with Mic, Secure Fit for Small Ears & Glasses Wearers, 50H Playtime, ENC, IPX5 Waterproof Sport Ear Buds (Purple)",
+      "reviews": 6370
+    },
+    {
+      "asin": "B0DRBPMYJQ",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $14.99 below floor $30.00",
+      "title": "kurdene Wireless Earbuds Bluetooth Headphones Sport,Over Ear Buds with Deep Bass Sound,60Hrs Playtime Earphones Redesigned Comfort Fit with Earhooks for Running,Meeting,Workout-Black",
+      "reviews": 6031
+    },
+    {
+      "asin": "B0DWSX6FZJ",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $85.99 above ceiling $80.00",
+      "title": "PSIER Bone Conduction Headphones IPX8 Waterproof Swimming Headphones Open Ear Headphones with MP3 Mode 32GB Memory Up to 8 Hours Playtime Bluetooth 6.0 Ear Buds Secure Fit for Running and Fitness",
+      "reviews": 2272
+    },
+    {
+      "asin": "B0F62TV3ZW",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $29.99 below floor $30.00",
+      "title": "OHAYO Open Ear Headphones,Over Ear Earbuds with Ergonomic Earhook,Bluetooth Headphones 5.4 with Smart Digital Display,40H Playtime,IPX6 Waterproof,Touch Control Operate Fit Cycling,Running,Workout",
+      "reviews": 2131
+    },
+    {
+      "asin": "B0DP6YGW5F",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $25.98 below floor $30.00",
+      "title": "Ortizan Open Ear Headphones, Bluetooth 5.3 Wireless Air Conduction Headphones Sport Earbuds, Premium Sound, IPX6 Waterproof, Clear Call, 19g Lightweight Earphones for Running Cycling Workouts (Black)",
+      "reviews": 1254
+    },
+    {
+      "asin": "B0F8J38VRR",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $27.99 below floor $30.00",
+      "title": "Kinglucky Upgraded Clip-On Earbuds Bluetooth 6.0 Wireless Headphones Open Ear Buds Comfortable Fit & Crystal-Clear Sound, 50H Playtime for Women & Kids Ideal for Small Ears, Sports, Glasses Rose Gold",
+      "reviews": 1239
+    },
+    {
+      "asin": "B0DTRW94T7",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $84.99 above ceiling $80.00",
+      "title": "Raycon Bone Conduction Headphones Bluetooth - Open Ear Running Headphones, Sweat & Water-Resistant Earbuds with Mic for Sports & Workouts, 13hr Playtime (Gray)",
+      "reviews": 998
+    },
+    {
+      "asin": "B0FMRPKN3G",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $109.99 above ceiling $80.00",
+      "title": "Baseus Inspire XC1 Open Ear Clip-On Earbuds, Sound by Bose, Dolby Audio, Adaptive Tunning Sound, Hybrid 2-Way Driver, Zero-Sense Air Cushion, 4-Mic Adaptive Clear Calls, IP66 Waterproof, 40H Playtime",
+      "reviews": 901
+    },
+    {
+      "asin": "B0DFWM4TWW",
+      "reason_code": "PRICE_OUT_OF_RANGE",
+      "brief": "price $159.95 above ceiling $80.00",
+      "title": "OpenComm2 2025 Upgrade - Open-Ear Bone Conduction Headphones, Wireless Bluetooth Headset with Noise Canceling Mic & Mute Button for Work Calls and Meetings, 16 Hour Talk Time for Mobile & PC - C120",
+      "reviews": 890
+    }
+  ],
+  "formula_spec": {
+    "opportunity": "log10(max(reviews,1)) * rating * (price_ceiling - price) / 50",
+    "price_ceiling": 80.0,
+    "portfolio_score": "sum(opportunity over 3 selected ASINs)",
+    "near_optimal_tolerance_pct": 5.0,
+    "trap_min_reviews": 500
+  },
+  "excluded_ambiguous_asins": {},
+  "_diagnostics": {
+    "total_unique_asins_in_search": 36,
+    "asins_with_detail": 36,
+    "asins_with_subcategory_gt": 36,
+    "valid_count": 9,
+    "valid_by_subcategory_count": {
+      "bone_conduction": 3,
+      "open_ear": 1,
+      "clip_on": 2,
+      "in_ear": 1,
+      "over_ear": 2
+    },
+    "optimal_portfolio_score": 45.5641,
+    "tied_optimal_combinations": 1,
+    "obvious_traps_count": 23,
+    "excluded_ambiguous_count": 0
+  }
+}

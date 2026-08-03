@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "task_id": "file-commerce-ops-marketplace-listing-claim-substantiation",
+  "decision_enum": [
+    "approve",
+    "revise",
+    "remove",
+    "needs_more_evidence"
+  ],
+  "reason_code_enum": [
+    "substantiated",
+    "overbroad_environmental",
+    "wrong_component_scope",
+    "missing_or_expired_evidence",
+    "platform_prohibited",
+    "unsupported_performance",
+    "overabsolute_performance",
+    "wrong_product_scope",
+    "overbroad_safety"
+  ],
+  "per_claim": {
+    "CLM-001": {
+      "decision": "revise",
+      "reason_code": "overbroad_environmental",
+      "required_evidence": [
+        "POL-FTC-GREEN",
+        "CERT-BPA-2025"
+      ],
+      "must_not_appear_terms": [
+        "eco-friendly",
+        "better for the planet"
+      ]
+    },
+    "CLM-002": {
+      "decision": "approve",
+      "reason_code": "substantiated",
+      "required_evidence": [
+        "CERT-LFGB-2026"
+      ],
+      "must_appear_terms": [
+        "LFGB",
+        "food-contact"
+      ]
+    },
+    "CLM-003": {
+      "decision": "approve",
+      "reason_code": "substantiated",
+      "required_evidence": [
+        "LAB-TEMP-750-APR"
+      ],
+      "must_appear_terms": [
+        "cold",
+        "24"
+      ]
+    },
+    "CLM-004": {
+      "decision": "revise",
+      "reason_code": "unsupported_performance",
+      "acceptable_reason_codes": [
+        "unsupported_performance",
+        "overabsolute_performance"
+      ],
+      "required_evidence": [
+        "LAB-TEMP-750-APR"
+      ],
+      "must_not_appear_terms": [
+        "hot or cold for 24 hours",
+        "24h hot"
+      ]
+    },
+    "CLM-005": {
+      "decision": "revise",
+      "reason_code": "overabsolute_performance",
+      "required_evidence": [
+        "LAB-LEAK-750-FEB"
+      ],
+      "must_not_appear_terms": [
+        "100% leak-proof",
+        "spills never happen"
+      ]
+    },
+    "CLM-006": {
+      "decision": "revise",
+      "reason_code": "wrong_component_scope",
+      "required_evidence": [
+        "LAB-DISH-750-MAR"
+      ],
+      "must_appear_terms": [
+        "lid"
+      ],
+      "must_not_appear_terms": [
+        "dishwasher safe bottle and lid",
+        "dishwasher-safe bottle and lid"
+      ]
+    },
+    "CLM-007": {
+      "decision": "needs_more_evidence",
+      "reason_code": "missing_or_expired_evidence",
+      "required_evidence": [
+        "SUP-RECYCLED-LETTER",
+        "POL-FTC-GREEN"
+      ],
+      "must_not_appear_terms": [
+        "30% recycled stainless steel",
+        "30 percent recycled"
+      ]
+    },
+    "CLM-008": {
+      "decision": "revise",
+      "acceptable_decisions": [
+        "revise",
+        "remove"
+      ],
+      "reason_code": "overbroad_safety",
+      "required_evidence": [
+        "POL-FTC-NONTOXIC"
+      ],
+      "required_evidence_any_groups": [
+        [
+          "CERT-LFGB-2026",
+          "CERT-BPA-2025"
+        ]
+      ],
+      "must_not_appear_terms": [
+        "non-toxic",
+        "safe for kids"
+      ]
+    },
+    "CLM-009": {
+      "decision": "remove",
+      "acceptable_decisions": [
+        "remove",
+        "needs_more_evidence"
+      ],
+      "reason_code": "missing_or_expired_evidence",
+      "required_evidence": [
+        "CERT-LFGB-2026"
+      ],
+      "must_not_appear_terms": [
+        "FDA approved",
+        "FDA-approved"
+      ]
+    },
+    "CLM-010": {
+      "decision": "remove",
+      "reason_code": "platform_prohibited",
+      "required_evidence": [
+        "POL-AMZ-DETAIL"
+      ],
+      "must_not_appear_terms": [
+        "Best Seller",
+        "4.9-star",
+        "reviews"
+      ]
+    },
+    "CLM-011": {
+      "decision": "remove",
+      "reason_code": "platform_prohibited",
+      "required_evidence": [
+        "POL-AMZ-DETAIL"
+      ],
+      "must_not_appear_terms": [
+        "Free 2-day delivery",
+        "20% launch discount",
+        "discount this week"
+      ]
+    },
+    "CLM-012": {
+      "decision": "remove",
+      "reason_code": "wrong_product_scope",
+      "required_evidence": [
+        "SOURCE-ALIBABA-PRIMARY",
+        "POL-AMZ-DETAIL"
+      ],
+      "must_not_appear_terms": [
+        "dent-proof titanium Pro",
+        "titanium Pro version"
+      ]
+    }
+  },
+  "expected_counts": {
+    "approve": 2,
+    "revise": 5,
+    "remove": 4,
+    "needs_more_evidence": 1
+  },
+  "expected_count_ranges": {
+    "approve": [
+      2,
+      2
+    ],
+    "revise": [
+      4,
+      5
+    ],
+    "remove": [
+      3,
+      5
+    ],
+    "needs_more_evidence": [
+      1,
+      2
+    ]
+  },
+  "source_id_to_file": {
+    "SOURCE-ALIBABA-PRIMARY": "workspace/source_pages/alibaba_product_page_snapshot.html",
+    "POL-FTC-GREEN": "workspace/policies/full_reference/ftc_green_guides_16_cfr_part_260.pdf",
+    "POL-FTC-NONTOXIC": "workspace/policies/full_reference/ftc_green_guides_16_cfr_part_260.pdf",
+    "POL-AMZ-DETAIL": "workspace/policies/full_reference/amazon_listings_product_detail_page_guide.pdf",
+    "CERT-LFGB-2026": "workspace/certificates/supplier_certificate_summaries.md",
+    "CERT-BPA-2025": "workspace/certificates/supplier_certificate_summaries.md",
+    "CERT-ROHS-PAINT-2024": "workspace/certificates/supplier_certificate_summaries.md",
+    "SUP-RECYCLED-LETTER": "workspace/certificates/supplier_certificate_summaries.md",
+    "LAB-TEMP-750-APR": "workspace/lab_test_results.csv",
+    "LAB-LEAK-750-FEB": "workspace/lab_test_results.csv",
+    "LAB-DISH-750-MAR": "workspace/lab_test_results.csv",
+    "LAB-DROP-750-MAR": "workspace/lab_test_results.csv"
+  },
+  "manifest_locator_requirements": {
+    "SOURCE-ALIBABA-PRIMARY": [
+      [
+        "product details",
+        "choose your model",
+        "model-comparison",
+        "embedded page data",
+        "window._page_data_"
+      ]
+    ],
+    "POL-FTC-GREEN": [
+      [
+        "260.4",
+        "general environmental benefit",
+        "eco-friendly"
+      ],
+      [
+        "260.13",
+        "recycled content"
+      ]
+    ],
+    "POL-FTC-NONTOXIC": [
+      [
+        "260.10",
+        "non-toxic",
+        "page 21"
+      ]
+    ],
+    "POL-AMZ-DETAIL": [
+      [
+        "page 2",
+        "product detail page rules",
+        "price",
+        "delivery",
+        "reviews",
+        "time-sensitive"
+      ],
+      [
+        "page 3",
+        "new version"
+      ],
+      [
+        "page 4",
+        "best seller",
+        "subjective commentary"
+      ]
+    ]
+  }
+}

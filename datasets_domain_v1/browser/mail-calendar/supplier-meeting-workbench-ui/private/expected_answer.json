@@ -1,0 +1,24 @@
+{
+  "expected_event": {
+    "title_must_contain_any": ["solar pump", "rfq"],
+    "start_time": "2026-05-07T16:00:00+08:00",
+    "end_time": "2026-05-07T17:30:00+08:00",
+    "location": "Procurement War Room C3",
+    "required_attendees": [
+      "alice.li@company.com",
+      "farah.hussein@nilepumps.eg",
+      "diego.ramos@company.com",
+      "mina.chen@company.com"
+    ]
+  },
+  "required_contacts": [
+    "farah.hussein@nilepumps.eg",
+    "diego.ramos@company.com",
+    "mina.chen@company.com"
+  ],
+  "farah_email": "farah.hussein@nilepumps.eg",
+  "alice_email": "alice.li@company.com",
+  "alice_message_id": "mail_solar_rfq_001",
+  "decoy_domain": "buyer-events.org",
+  "forbidden_location_token": "Room C2"
+}

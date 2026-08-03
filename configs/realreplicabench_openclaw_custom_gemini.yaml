@@ -1,0 +1,76 @@
+# RealReplicaBench — OpenClaw harness, native generateContent against a
+# CUSTOM Gemini-compatible endpoint (private gateway, local proxy, ...).
+#
+# What this preset is: a starter for pointing OpenClaw's native Gemini client
+# at a URL that is NOT the public Google API. Same wire format as the shipped
+# `openclaw_native_google_direct.yaml` preset, but templated so the baseUrl
+# and apiKey come from your own env vars.
+#
+# When to prefer this vs. the shipped Gemini presets:
+#   * configs/realreplicabench_openclaw_native_google_direct.yaml -> public
+#     Google generativelanguage.googleapis.com with GEMINI_API_KEY.
+#   * THIS FILE -> your own Gemini-compatible URL. Typical uses: a
+#     Vertex-fronting reverse-proxy that rewrites to :generateContent,
+#     LiteLLM's Gemini pass-through, an on-prem staging cluster serving the
+#     same wire format.
+#
+# BYO steps:
+#   1. Edit configs/realreplicabench_custom_gemini_models.json — set baseUrl
+#      to your gateway (must include the /v1beta path prefix Gemini expects),
+#      set models[].id, and choose your env-var names.
+#   2. Export:
+#        export CUSTOM_GEMINI_BASE_URL="http://host.docker.internal:8080/v1beta"
+#        export CUSTOM_GEMINI_API_KEY="..."
+#      (Rename to whatever names you put into the JSON's ${...} placeholders.)
+#   3. Run:
+#        real-replica-bench run <task> \
+#          --config configs/realreplicabench_openclaw_custom_gemini.yaml
+#
+# HOW IT WORKS — the models_config JSON is the single source of truth:
+#   configs/realreplicabench_custom_gemini_models.json declares provider
+#   "custom" with api=google-generative-ai. OpenClaw POSTs to
+#   {baseUrl}/models/<model>:streamGenerateContent?alt=sse with the
+#   x-goog-api-key header populated from apiKey. If your proxy ignores the
+#   inbound key, any placeholder works.
+#
+# Notes:
+#   * `--openclaw-base-url` and `--openclaw-api-key` are OpenRouter-scoped;
+#     they are silently ignored on this native path. Edit the JSON to
+#     retarget the endpoint.
+#   * baseUrl must be reachable from INSIDE the container. Docker Desktop ->
+#     host.docker.internal; Linux -> host IP / --add-host / HTTPS_PROXY.
+#   * The default image_model is `gemini-3.5-flash`, which matches the vision
+#     precheck whitelist. Swap to whatever vision-capable id your proxy serves.
+#   * Judge stays on Gemini via GEMINI_API_KEY (independent from the agent).
+#     To route the judge through the same proxy, add --llm-judge-base-url.
+#
+# The benchmark image is public on Docker Hub:
+#   docker pull acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+
+run_id: realreplicabench-domain-v1-openclaw-custom-gemini
+datasets_dir: datasets_domain_v1
+collection: datasets_domain_v1/realreplicabench_domain_v1_all.collection.json
+parallelism: 2
+
+runtime:
+  os: linux
+  image: acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+  platform: linux/amd64
+
+harness: openclaw
+
+openclaw:
+  models_config: configs/realreplicabench_custom_gemini_models.json
+  # custom/ prefix (!= openrouter/) -> native generateContent, no sidecar.
+  model: custom/gemini-3.5-flash
+  image_model: custom/gemini-3.5-flash
+  gateway_port: 18789
+  gateway_ready_delay: 6
+  thinking: medium
+
+judge:
+  provider: gemini
+  model: gemini-3.1-pro-preview
+  timeout: 240
+
+start_index: 1

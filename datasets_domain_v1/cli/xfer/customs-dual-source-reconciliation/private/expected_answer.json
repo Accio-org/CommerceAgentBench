@@ -1,0 +1,1283 @@
+{
+  "source_csv_dir": "workspace/customs_data",
+  "source_min_rows": 250,
+  "source_csv_count": 2,
+  "loading_csv": "loading_port_dongying.csv",
+  "discharge_csv": "discharge_port_guangzhou.csv",
+  "all_suppliers": [
+    {
+      "supplier": "DONGYING HENGKE PRECISION METAL CO LTD",
+      "classification": "overlap",
+      "reconciled": {
+        "weight_kg": 168.0,
+        "weight_source": "loading",
+        "amount_usd": 36976.12,
+        "amount_source": "discharge",
+        "quantity": 1913,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "84162000",
+          "84169000",
+          "842860"
+        ],
+        "hs_resolution_detail": [
+          {
+            "loading_hs": "84162000",
+            "discharge_hs": "84168000",
+            "loading_rate": 3.5,
+            "discharge_rate": 2.0,
+            "resolved_hs": "84162000",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "84169000",
+            "discharge_hs": "84169000",
+            "loading_rate": 2.5,
+            "discharge_rate": 2.5,
+            "resolved_hs": "84169000",
+            "source": "same"
+          },
+          {
+            "loading_hs": "842860",
+            "discharge_hs": "842860",
+            "loading_rate": 0.0,
+            "discharge_rate": 0.0,
+            "resolved_hs": "842860",
+            "source": "same"
+          }
+        ],
+        "shipment_count_loading": 22,
+        "shipment_count_discharge": 22
+      },
+      "source_comparison": {
+        "loading_weight_kg": 168.0,
+        "discharge_weight_kg": 173.0,
+        "loading_amount_usd": 33014.39,
+        "discharge_amount_usd": 36976.12,
+        "loading_quantity": 1913,
+        "discharge_quantity": 1913,
+        "loading_hs": [
+          "84162000",
+          "84169000",
+          "842860"
+        ],
+        "discharge_hs": [
+          "84168000",
+          "84169000",
+          "842860"
+        ]
+      },
+      "amount_diff_pct": 12.0,
+      "has_hs_conflict": true,
+      "jira_priority": "Medium",
+      "jira_labels": [
+        "reconciliation",
+        "hs-conflict"
+      ]
+    },
+    {
+      "supplier": "DONGYING JOFO FILTRATION TECHNOLOGY CO LTD",
+      "classification": "overlap",
+      "reconciled": {
+        "weight_kg": 2868.0,
+        "weight_source": "loading",
+        "amount_usd": 245391.72,
+        "amount_source": "discharge",
+        "quantity": 92787.86,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "56031200",
+          "56039100",
+          "701932"
+        ],
+        "hs_resolution_detail": [
+          {
+            "loading_hs": "56031200",
+            "discharge_hs": "56031400",
+            "loading_rate": 5.0,
+            "discharge_rate": 3.0,
+            "resolved_hs": "56031200",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "56039100",
+            "discharge_hs": "56039400",
+            "loading_rate": 6.5,
+            "discharge_rate": 4.0,
+            "resolved_hs": "56039100",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "701931",
+            "discharge_hs": "701932",
+            "loading_rate": 3.5,
+            "discharge_rate": 5.5,
+            "resolved_hs": "701932",
+            "source": "discharge"
+          }
+        ],
+        "shipment_count_loading": 13,
+        "shipment_count_discharge": 13
+      },
+      "source_comparison": {
+        "loading_weight_kg": 2868.0,
+        "discharge_weight_kg": 3011.4,
+        "loading_amount_usd": 225130.02,
+        "discharge_amount_usd": 245391.72,
+        "loading_quantity": 92787.86,
+        "discharge_quantity": 92787.9,
+        "loading_hs": [
+          "56031200",
+          "56039100",
+          "701931"
+        ],
+        "discharge_hs": [
+          "56031400",
+          "56039400",
+          "701932"
+        ]
+      },
+      "amount_diff_pct": 9.0,
+      "has_hs_conflict": true,
+      "jira_priority": "Low",
+      "jira_labels": [
+        "reconciliation",
+        "hs-conflict"
+      ]
+    },
+    {
+      "supplier": "DONGYING GEEK RUBBER CO LTD",
+      "classification": "overlap",
+      "reconciled": {
+        "weight_kg": 145330.0,
+        "weight_source": "loading",
+        "amount_usd": 94740.18,
+        "amount_source": "discharge",
+        "quantity": 85349,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "40114000000",
+          "40139020000"
+        ],
+        "hs_resolution_detail": [
+          {
+            "loading_hs": "40114000000",
+            "discharge_hs": "40119300",
+            "loading_rate": 4.0,
+            "discharge_rate": 3.5,
+            "resolved_hs": "40114000000",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "40139020000",
+            "discharge_hs": "40132000",
+            "loading_rate": 4.5,
+            "discharge_rate": 4.5,
+            "resolved_hs": "40139020000",
+            "source": "loading"
+          }
+        ],
+        "shipment_count_loading": 12,
+        "shipment_count_discharge": 12
+      },
+      "source_comparison": {
+        "loading_weight_kg": 145330.0,
+        "discharge_weight_kg": 151143.2,
+        "loading_amount_usd": 83105.43,
+        "discharge_amount_usd": 94740.18,
+        "loading_quantity": 85349,
+        "discharge_quantity": 85349,
+        "loading_hs": [
+          "40114000000",
+          "40139020000"
+        ],
+        "discharge_hs": [
+          "40119300",
+          "40132000"
+        ]
+      },
+      "amount_diff_pct": 14.0,
+      "has_hs_conflict": true,
+      "jira_priority": "Medium",
+      "jira_labels": [
+        "reconciliation",
+        "hs-conflict"
+      ]
+    },
+    {
+      "supplier": "DONGYING SHENZHOU NONWOVENS CO LTD",
+      "classification": "overlap",
+      "reconciled": {
+        "weight_kg": 46580.87,
+        "weight_source": "loading",
+        "amount_usd": 96649.26,
+        "amount_source": "discharge",
+        "quantity": 46580.87,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "5603110000",
+          "56039200"
+        ],
+        "hs_resolution_detail": [
+          {
+            "loading_hs": "5603110000",
+            "discharge_hs": "56031300",
+            "loading_rate": 5.0,
+            "discharge_rate": 4.0,
+            "resolved_hs": "5603110000",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "56039300000",
+            "discharge_hs": "56039200",
+            "loading_rate": 4.5,
+            "discharge_rate": 6.0,
+            "resolved_hs": "56039200",
+            "source": "discharge"
+          }
+        ],
+        "shipment_count_loading": 11,
+        "shipment_count_discharge": 11
+      },
+      "source_comparison": {
+        "loading_weight_kg": 46580.87,
+        "discharge_weight_kg": 49375.7,
+        "loading_amount_usd": 89490.04,
+        "discharge_amount_usd": 96649.26,
+        "loading_quantity": 46580.87,
+        "discharge_quantity": 46580.9,
+        "loading_hs": [
+          "5603110000",
+          "56039300000"
+        ],
+        "discharge_hs": [
+          "56031300",
+          "56039200"
+        ]
+      },
+      "amount_diff_pct": 8.0,
+      "has_hs_conflict": true,
+      "jira_priority": "Low",
+      "jira_labels": [
+        "reconciliation",
+        "hs-conflict"
+      ]
+    },
+    {
+      "supplier": "DONGYING XINXING MARINE EQUIPMENT",
+      "classification": "overlap",
+      "reconciled": {
+        "weight_kg": 4262.0,
+        "weight_source": "loading",
+        "amount_usd": 17373.1,
+        "amount_source": "discharge",
+        "quantity": 1192,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "720421",
+          "73170010",
+          "76169990",
+          "83021010"
+        ],
+        "hs_resolution_detail": [
+          {
+            "loading_hs": "720421",
+            "discharge_hs": "720429",
+            "loading_rate": 0.0,
+            "discharge_rate": 0.0,
+            "resolved_hs": "720421",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "73160010",
+            "discharge_hs": "73170010",
+            "loading_rate": 2.0,
+            "discharge_rate": 3.5,
+            "resolved_hs": "73170010",
+            "source": "discharge"
+          },
+          {
+            "loading_hs": "76169990",
+            "discharge_hs": "76169100",
+            "loading_rate": 5.0,
+            "discharge_rate": 3.0,
+            "resolved_hs": "76169990",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "83021010",
+            "discharge_hs": "83024100",
+            "loading_rate": 3.5,
+            "discharge_rate": 2.0,
+            "resolved_hs": "83021010",
+            "source": "loading"
+          }
+        ],
+        "shipment_count_loading": 11,
+        "shipment_count_discharge": 11
+      },
+      "source_comparison": {
+        "loading_weight_kg": 4262.0,
+        "discharge_weight_kg": 4347.2,
+        "loading_amount_usd": 15651.45,
+        "discharge_amount_usd": 17373.1,
+        "loading_quantity": 1192,
+        "discharge_quantity": 1192,
+        "loading_hs": [
+          "720421",
+          "73160010",
+          "76169990",
+          "83021010"
+        ],
+        "discharge_hs": [
+          "720429",
+          "73170010",
+          "76169100",
+          "83024100"
+        ]
+      },
+      "amount_diff_pct": 11.0,
+      "has_hs_conflict": true,
+      "jira_priority": "Medium",
+      "jira_labels": [
+        "reconciliation",
+        "hs-conflict"
+      ]
+    },
+    {
+      "supplier": "SINOPETROLEUM TECHNOLOGY INC",
+      "classification": "overlap",
+      "reconciled": {
+        "weight_kg": 547.7,
+        "weight_source": "loading",
+        "amount_usd": 18255.73,
+        "amount_source": "discharge",
+        "quantity": 67,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "7326199000",
+          "8431490000"
+        ],
+        "hs_resolution_detail": [
+          {
+            "loading_hs": "7326909409",
+            "discharge_hs": "7326199000",
+            "loading_rate": 2.9,
+            "discharge_rate": 3.5,
+            "resolved_hs": "7326199000",
+            "source": "discharge"
+          },
+          {
+            "loading_hs": "8431430000",
+            "discharge_hs": "8431490000",
+            "loading_rate": 0.0,
+            "discharge_rate": 2.5,
+            "resolved_hs": "8431490000",
+            "source": "discharge"
+          }
+        ],
+        "shipment_count_loading": 14,
+        "shipment_count_discharge": 14
+      },
+      "source_comparison": {
+        "loading_weight_kg": 547.7,
+        "discharge_weight_kg": 553.1,
+        "loading_amount_usd": 15874.57,
+        "discharge_amount_usd": 18255.73,
+        "loading_quantity": 67,
+        "discharge_quantity": 67,
+        "loading_hs": [
+          "7326909409",
+          "8431430000"
+        ],
+        "discharge_hs": [
+          "7326199000",
+          "8431490000"
+        ]
+      },
+      "amount_diff_pct": 15.0,
+      "has_hs_conflict": true,
+      "jira_priority": "Medium",
+      "jira_labels": [
+        "reconciliation",
+        "hs-conflict"
+      ]
+    },
+    {
+      "supplier": "HAOCHENG PETROLEUM TECHNOLOGY CO LIMITED",
+      "classification": "overlap",
+      "reconciled": {
+        "weight_kg": 3145.0,
+        "weight_source": "loading",
+        "amount_usd": 58275.91,
+        "amount_source": "discharge",
+        "quantity": 6097,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "4009120000",
+          "4009220009",
+          "5607902000",
+          "6116100000",
+          "6306190000",
+          "6507000000",
+          "7318159008",
+          "7326199000",
+          "8203200009",
+          "8204110000",
+          "8204120000",
+          "8207709000",
+          "8479899707",
+          "8483109500",
+          "8531103000",
+          "8708913509"
+        ],
+        "hs_resolution_detail": [
+          {
+            "loading_hs": "4009110000",
+            "discharge_hs": "4009120000",
+            "loading_rate": 2.5,
+            "discharge_rate": 3.0,
+            "resolved_hs": "4009120000",
+            "source": "discharge"
+          },
+          {
+            "loading_hs": "4009220009",
+            "discharge_hs": "4009220009",
+            "loading_rate": 2.5,
+            "discharge_rate": 2.5,
+            "resolved_hs": "4009220009",
+            "source": "same"
+          },
+          {
+            "loading_hs": "5607902000",
+            "discharge_hs": "5607500000",
+            "loading_rate": 4.0,
+            "discharge_rate": 3.5,
+            "resolved_hs": "5607902000",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "6116990000",
+            "discharge_hs": "6116100000",
+            "loading_rate": 2.0,
+            "discharge_rate": 5.0,
+            "resolved_hs": "6116100000",
+            "source": "discharge"
+          },
+          {
+            "loading_hs": "6306190000",
+            "discharge_hs": "6306190000",
+            "loading_rate": 3.0,
+            "discharge_rate": 3.0,
+            "resolved_hs": "6306190000",
+            "source": "same"
+          },
+          {
+            "loading_hs": "6507000000",
+            "discharge_hs": "6507000000",
+            "loading_rate": 1.0,
+            "discharge_rate": 1.0,
+            "resolved_hs": "6507000000",
+            "source": "same"
+          },
+          {
+            "loading_hs": "7318159008",
+            "discharge_hs": "7318159008",
+            "loading_rate": 2.5,
+            "discharge_rate": 2.5,
+            "resolved_hs": "7318159008",
+            "source": "same"
+          },
+          {
+            "loading_hs": "7326909409",
+            "discharge_hs": "7326199000",
+            "loading_rate": 2.9,
+            "discharge_rate": 3.5,
+            "resolved_hs": "7326199000",
+            "source": "discharge"
+          },
+          {
+            "loading_hs": "8203200009",
+            "discharge_hs": "8203200009",
+            "loading_rate": 3.0,
+            "discharge_rate": 3.0,
+            "resolved_hs": "8203200009",
+            "source": "same"
+          },
+          {
+            "loading_hs": "8204110000",
+            "discharge_hs": "8204110000",
+            "loading_rate": 2.5,
+            "discharge_rate": 2.5,
+            "resolved_hs": "8204110000",
+            "source": "same"
+          },
+          {
+            "loading_hs": "8204120000",
+            "discharge_hs": "8204120000",
+            "loading_rate": 2.5,
+            "discharge_rate": 2.5,
+            "resolved_hs": "8204120000",
+            "source": "same"
+          },
+          {
+            "loading_hs": "8207709000",
+            "discharge_hs": "8207709000",
+            "loading_rate": 3.0,
+            "discharge_rate": 3.0,
+            "resolved_hs": "8207709000",
+            "source": "same"
+          },
+          {
+            "loading_hs": "8479899707",
+            "discharge_hs": "8479899707",
+            "loading_rate": 0.0,
+            "discharge_rate": 0.0,
+            "resolved_hs": "8479899707",
+            "source": "same"
+          },
+          {
+            "loading_hs": "8483109500",
+            "discharge_hs": "8483109500",
+            "loading_rate": 2.0,
+            "discharge_rate": 2.0,
+            "resolved_hs": "8483109500",
+            "source": "same"
+          },
+          {
+            "loading_hs": "8531103000",
+            "discharge_hs": "8531103000",
+            "loading_rate": 2.5,
+            "discharge_rate": 2.5,
+            "resolved_hs": "8531103000",
+            "source": "same"
+          },
+          {
+            "loading_hs": "8708913509",
+            "discharge_hs": "8708913509",
+            "loading_rate": 2.5,
+            "discharge_rate": 2.5,
+            "resolved_hs": "8708913509",
+            "source": "same"
+          }
+        ],
+        "shipment_count_loading": 25,
+        "shipment_count_discharge": 25
+      },
+      "source_comparison": {
+        "loading_weight_kg": 3145.0,
+        "discharge_weight_kg": 3239.4,
+        "loading_amount_usd": 52978.1,
+        "discharge_amount_usd": 58275.91,
+        "loading_quantity": 6097,
+        "discharge_quantity": 6097,
+        "loading_hs": [
+          "4009110000",
+          "4009220009",
+          "5607902000",
+          "6116990000",
+          "6306190000",
+          "6507000000",
+          "7318159008",
+          "7326909409",
+          "8203200009",
+          "8204110000",
+          "8204120000",
+          "8207709000",
+          "8479899707",
+          "8483109500",
+          "8531103000",
+          "8708913509"
+        ],
+        "discharge_hs": [
+          "4009120000",
+          "4009220009",
+          "5607500000",
+          "6116100000",
+          "6306190000",
+          "6507000000",
+          "7318159008",
+          "7326199000",
+          "8203200009",
+          "8204110000",
+          "8204120000",
+          "8207709000",
+          "8479899707",
+          "8483109500",
+          "8531103000",
+          "8708913509"
+        ]
+      },
+      "amount_diff_pct": 10.0,
+      "has_hs_conflict": true,
+      "jira_priority": "Medium",
+      "jira_labels": [
+        "reconciliation",
+        "hs-conflict"
+      ]
+    },
+    {
+      "supplier": "SAILUN GROUP CO LIMITED",
+      "classification": "overlap",
+      "reconciled": {
+        "weight_kg": 20175.02,
+        "weight_source": "loading",
+        "amount_usd": 71715.7,
+        "amount_source": "discharge",
+        "quantity": 1661,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "4011100003",
+          "4011201000"
+        ],
+        "hs_resolution_detail": [
+          {
+            "loading_hs": "4011100003",
+            "discharge_hs": "4011100009",
+            "loading_rate": 4.0,
+            "discharge_rate": 3.5,
+            "resolved_hs": "4011100003",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "4011100009",
+            "discharge_hs": "4011100003",
+            "loading_rate": 3.5,
+            "discharge_rate": 4.0,
+            "resolved_hs": "4011100003",
+            "source": "discharge"
+          },
+          {
+            "loading_hs": "4011201000",
+            "discharge_hs": "4011209000",
+            "loading_rate": 4.0,
+            "discharge_rate": 3.0,
+            "resolved_hs": "4011201000",
+            "source": "loading"
+          },
+          {
+            "loading_hs": "4011209000",
+            "discharge_hs": "4011201000",
+            "loading_rate": 3.0,
+            "discharge_rate": 4.0,
+            "resolved_hs": "4011201000",
+            "source": "discharge"
+          }
+        ],
+        "shipment_count_loading": 20,
+        "shipment_count_discharge": 20
+      },
+      "source_comparison": {
+        "loading_weight_kg": 20175.02,
+        "discharge_weight_kg": 20578.5,
+        "loading_amount_usd": 63465.23,
+        "discharge_amount_usd": 71715.7,
+        "loading_quantity": 1661,
+        "discharge_quantity": 1661,
+        "loading_hs": [
+          "4011100003",
+          "4011100009",
+          "4011201000",
+          "4011209000"
+        ],
+        "discharge_hs": [
+          "4011100003",
+          "4011100009",
+          "4011201000",
+          "4011209000"
+        ]
+      },
+      "amount_diff_pct": 13.0,
+      "has_hs_conflict": true,
+      "jira_priority": "Medium",
+      "jira_labels": [
+        "reconciliation",
+        "hs-conflict"
+      ]
+    },
+    {
+      "supplier": "DONGYING ANOKY TEXTILE MATERIALS CO LTD",
+      "classification": "loading_only",
+      "reconciled": {
+        "weight_kg": 76430.0,
+        "weight_source": "loading",
+        "amount_usd": 94168.82,
+        "amount_source": "loading",
+        "quantity": 25950,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "32041110",
+          "32041190",
+          "32041600"
+        ],
+        "shipment_count": 10
+      }
+    },
+    {
+      "supplier": "DONGYINGXIAMENINDUSTRIAL CO LTD",
+      "classification": "loading_only",
+      "reconciled": {
+        "weight_kg": 275.4,
+        "weight_source": "loading",
+        "amount_usd": 5401.14,
+        "amount_source": "loading",
+        "quantity": 1856,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "8517629000",
+          "8518300000"
+        ],
+        "shipment_count": 11
+      }
+    },
+    {
+      "supplier": "DONGYING BESCO MACHINE TOOL LIMITED",
+      "classification": "loading_only",
+      "reconciled": {
+        "weight_kg": 120.0,
+        "weight_source": "loading",
+        "amount_usd": 39550.58,
+        "amount_source": "loading",
+        "quantity": 324,
+        "quantity_source": "loading",
+        "hs_codes": [
+          "8207309000",
+          "84283900",
+          "84622900",
+          "84624900",
+          "84807900"
+        ],
+        "shipment_count": 6
+      }
+    },
+    {
+      "supplier": "GUANGZHOU FUYOU IMPORT & EXPORT TRADE CO LTD",
+      "classification": "discharge_only",
+      "reconciled": {
+        "weight_kg": 117231.0,
+        "weight_source": "discharge",
+        "amount_usd": 1188120.0,
+        "amount_source": "discharge",
+        "quantity": 10399,
+        "quantity_source": "discharge",
+        "hs_codes": [
+          "321390",
+          "392330",
+          "482030",
+          "590500",
+          "611512",
+          "950440"
+        ],
+        "shipment_count": 9
+      }
+    },
+    {
+      "supplier": "GUANGZHOU MAITELIN IT LTD",
+      "classification": "discharge_only",
+      "reconciled": {
+        "weight_kg": 131885.0,
+        "weight_source": "discharge",
+        "amount_usd": 1940100.0,
+        "amount_source": "discharge",
+        "quantity": 5905,
+        "quantity_source": "discharge",
+        "hs_codes": [
+          "842860",
+          "851621",
+          "900490",
+          "940140"
+        ],
+        "shipment_count": 9
+      }
+    }
+  ],
+  "overlap_suppliers": [
+    "DONGYING HENGKE PRECISION METAL CO LTD",
+    "DONGYING JOFO FILTRATION TECHNOLOGY CO LTD",
+    "DONGYING GEEK RUBBER CO LTD",
+    "DONGYING SHENZHOU NONWOVENS CO LTD",
+    "DONGYING XINXING MARINE EQUIPMENT",
+    "SINOPETROLEUM TECHNOLOGY INC",
+    "HAOCHENG PETROLEUM TECHNOLOGY CO LIMITED",
+    "SAILUN GROUP CO LIMITED"
+  ],
+  "loading_only_suppliers": [
+    "DONGYING ANOKY TEXTILE MATERIALS CO LTD",
+    "DONGYINGXIAMENINDUSTRIAL CO LTD",
+    "DONGYING BESCO MACHINE TOOL LIMITED"
+  ],
+  "discharge_only_suppliers": [
+    "GUANGZHOU FUYOU IMPORT & EXPORT TRADE CO LTD",
+    "GUANGZHOU MAITELIN IT LTD"
+  ],
+  "total_supplier_count": 13,
+  "overlap_count": 8,
+  "dws_folder_name": "海关数据裁决报告",
+  "dws_summary_doc_name": "裁决汇总报告",
+  "jira_project_name": "RECONCILIATION",
+  "todoist_project_name": "海关裁决后续",
+  "todoist_sections": {
+    "hs_review": "HS编码复核",
+    "amount_confirm": "金额确认",
+    "archive": "归档完成"
+  },
+  "todoist_labels": [
+    "customs-reconciliation",
+    "hs-review"
+  ],
+  "tariff_schedule": {
+    "84162000": 3.5,
+    "84168000": 2.0,
+    "84169000": 2.5,
+    "842860": 0.0,
+    "56031200": 5.0,
+    "56031400": 3.0,
+    "56039100": 6.5,
+    "56039400": 4.0,
+    "701931": 3.5,
+    "701932": 5.5,
+    "5603110000": 5.0,
+    "56031300": 4.0,
+    "56039300000": 4.5,
+    "56039200": 6.0,
+    "40114000000": 4.0,
+    "40119300": 3.5,
+    "40139020000": 4.5,
+    "40132000": 4.5,
+    "4011100003": 4.0,
+    "4011100009": 3.5,
+    "4011201000": 4.0,
+    "4011209000": 3.0,
+    "720421": 0.0,
+    "720429": 0.0,
+    "73160010": 2.0,
+    "73170010": 3.5,
+    "76169990": 5.0,
+    "76169100": 3.0,
+    "83021010": 3.5,
+    "83024100": 2.0,
+    "7326909409": 2.9,
+    "7326199000": 3.5,
+    "8431430000": 0.0,
+    "8431490000": 2.5,
+    "4009110000": 2.5,
+    "4009120000": 3.0,
+    "4009220009": 2.5,
+    "5607902000": 4.0,
+    "5607500000": 3.5,
+    "6116990000": 2.0,
+    "6116100000": 5.0,
+    "6306190000": 3.0,
+    "6507000000": 1.0,
+    "7318159008": 2.5,
+    "8203200009": 3.0,
+    "8204110000": 2.5,
+    "8204120000": 2.5,
+    "8207709000": 3.0,
+    "8479899707": 0.0,
+    "8483109500": 2.0,
+    "8531103000": 2.5,
+    "8708913509": 2.5,
+    "32041110": 6.5,
+    "32041190": 6.5,
+    "32041600": 6.5,
+    "8517629000": 0.0,
+    "8518300000": 3.0,
+    "8207309000": 3.0,
+    "84283900": 0.0,
+    "84622900": 2.5,
+    "84624900": 2.5,
+    "84807900": 2.5,
+    "321390": 3.5,
+    "392330": 3.0,
+    "482030": 0.0,
+    "590500": 5.0,
+    "611512": 3.0,
+    "950440": 0.0,
+    "851621": 3.5,
+    "900490": 2.5,
+    "940140": 0.0
+  },
+  "spot_checks": [
+    {
+      "supplier": "DONGYING HENGKE PRECISION METAL CO LTD",
+      "field": "weight_kg",
+      "expected_value": 168.0,
+      "expected_source": "loading",
+      "wrong_value": 173.0,
+      "wrong_source": "discharge"
+    },
+    {
+      "supplier": "DONGYING HENGKE PRECISION METAL CO LTD",
+      "field": "amount_usd",
+      "expected_value": 36976.12,
+      "expected_source": "discharge",
+      "wrong_value": 33014.39,
+      "wrong_source": "loading"
+    },
+    {
+      "supplier": "DONGYING HENGKE PRECISION METAL CO LTD",
+      "field": "hs_code",
+      "loading_hs": "84162000",
+      "discharge_hs": "84168000",
+      "loading_rate": 3.5,
+      "discharge_rate": 2.0,
+      "expected_hs": "84162000",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "DONGYING JOFO FILTRATION TECHNOLOGY CO LTD",
+      "field": "weight_kg",
+      "expected_value": 2868.0,
+      "expected_source": "loading",
+      "wrong_value": 3011.4,
+      "wrong_source": "discharge"
+    },
+    {
+      "supplier": "DONGYING JOFO FILTRATION TECHNOLOGY CO LTD",
+      "field": "amount_usd",
+      "expected_value": 245391.72,
+      "expected_source": "discharge",
+      "wrong_value": 225130.02,
+      "wrong_source": "loading"
+    },
+    {
+      "supplier": "DONGYING JOFO FILTRATION TECHNOLOGY CO LTD",
+      "field": "hs_code",
+      "loading_hs": "56031200",
+      "discharge_hs": "56031400",
+      "loading_rate": 5.0,
+      "discharge_rate": 3.0,
+      "expected_hs": "56031200",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "DONGYING JOFO FILTRATION TECHNOLOGY CO LTD",
+      "field": "hs_code",
+      "loading_hs": "56039100",
+      "discharge_hs": "56039400",
+      "loading_rate": 6.5,
+      "discharge_rate": 4.0,
+      "expected_hs": "56039100",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "DONGYING JOFO FILTRATION TECHNOLOGY CO LTD",
+      "field": "hs_code",
+      "loading_hs": "701931",
+      "discharge_hs": "701932",
+      "loading_rate": 3.5,
+      "discharge_rate": 5.5,
+      "expected_hs": "701932",
+      "expected_source": "discharge"
+    },
+    {
+      "supplier": "DONGYING GEEK RUBBER CO LTD",
+      "field": "weight_kg",
+      "expected_value": 145330.0,
+      "expected_source": "loading",
+      "wrong_value": 151143.2,
+      "wrong_source": "discharge"
+    },
+    {
+      "supplier": "DONGYING GEEK RUBBER CO LTD",
+      "field": "amount_usd",
+      "expected_value": 94740.18,
+      "expected_source": "discharge",
+      "wrong_value": 83105.43,
+      "wrong_source": "loading"
+    },
+    {
+      "supplier": "DONGYING GEEK RUBBER CO LTD",
+      "field": "hs_code",
+      "loading_hs": "40114000000",
+      "discharge_hs": "40119300",
+      "loading_rate": 4.0,
+      "discharge_rate": 3.5,
+      "expected_hs": "40114000000",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "DONGYING GEEK RUBBER CO LTD",
+      "field": "hs_code",
+      "loading_hs": "40139020000",
+      "discharge_hs": "40132000",
+      "loading_rate": 4.5,
+      "discharge_rate": 4.5,
+      "expected_hs": "40139020000",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "DONGYING SHENZHOU NONWOVENS CO LTD",
+      "field": "weight_kg",
+      "expected_value": 46580.87,
+      "expected_source": "loading",
+      "wrong_value": 49375.7,
+      "wrong_source": "discharge"
+    },
+    {
+      "supplier": "DONGYING SHENZHOU NONWOVENS CO LTD",
+      "field": "amount_usd",
+      "expected_value": 96649.26,
+      "expected_source": "discharge",
+      "wrong_value": 89490.04,
+      "wrong_source": "loading"
+    },
+    {
+      "supplier": "DONGYING SHENZHOU NONWOVENS CO LTD",
+      "field": "hs_code",
+      "loading_hs": "5603110000",
+      "discharge_hs": "56031300",
+      "loading_rate": 5.0,
+      "discharge_rate": 4.0,
+      "expected_hs": "5603110000",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "DONGYING SHENZHOU NONWOVENS CO LTD",
+      "field": "hs_code",
+      "loading_hs": "56039300000",
+      "discharge_hs": "56039200",
+      "loading_rate": 4.5,
+      "discharge_rate": 6.0,
+      "expected_hs": "56039200",
+      "expected_source": "discharge"
+    },
+    {
+      "supplier": "DONGYING XINXING MARINE EQUIPMENT",
+      "field": "weight_kg",
+      "expected_value": 4262.0,
+      "expected_source": "loading",
+      "wrong_value": 4347.2,
+      "wrong_source": "discharge"
+    },
+    {
+      "supplier": "DONGYING XINXING MARINE EQUIPMENT",
+      "field": "amount_usd",
+      "expected_value": 17373.1,
+      "expected_source": "discharge",
+      "wrong_value": 15651.45,
+      "wrong_source": "loading"
+    },
+    {
+      "supplier": "DONGYING XINXING MARINE EQUIPMENT",
+      "field": "hs_code",
+      "loading_hs": "720421",
+      "discharge_hs": "720429",
+      "loading_rate": 0.0,
+      "discharge_rate": 0.0,
+      "expected_hs": "720421",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "DONGYING XINXING MARINE EQUIPMENT",
+      "field": "hs_code",
+      "loading_hs": "73160010",
+      "discharge_hs": "73170010",
+      "loading_rate": 2.0,
+      "discharge_rate": 3.5,
+      "expected_hs": "73170010",
+      "expected_source": "discharge"
+    },
+    {
+      "supplier": "DONGYING XINXING MARINE EQUIPMENT",
+      "field": "hs_code",
+      "loading_hs": "76169990",
+      "discharge_hs": "76169100",
+      "loading_rate": 5.0,
+      "discharge_rate": 3.0,
+      "expected_hs": "76169990",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "DONGYING XINXING MARINE EQUIPMENT",
+      "field": "hs_code",
+      "loading_hs": "83021010",
+      "discharge_hs": "83024100",
+      "loading_rate": 3.5,
+      "discharge_rate": 2.0,
+      "expected_hs": "83021010",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "SINOPETROLEUM TECHNOLOGY INC",
+      "field": "weight_kg",
+      "expected_value": 547.7,
+      "expected_source": "loading",
+      "wrong_value": 553.1,
+      "wrong_source": "discharge"
+    },
+    {
+      "supplier": "SINOPETROLEUM TECHNOLOGY INC",
+      "field": "amount_usd",
+      "expected_value": 18255.73,
+      "expected_source": "discharge",
+      "wrong_value": 15874.57,
+      "wrong_source": "loading"
+    },
+    {
+      "supplier": "SINOPETROLEUM TECHNOLOGY INC",
+      "field": "hs_code",
+      "loading_hs": "7326909409",
+      "discharge_hs": "7326199000",
+      "loading_rate": 2.9,
+      "discharge_rate": 3.5,
+      "expected_hs": "7326199000",
+      "expected_source": "discharge"
+    },
+    {
+      "supplier": "SINOPETROLEUM TECHNOLOGY INC",
+      "field": "hs_code",
+      "loading_hs": "8431430000",
+      "discharge_hs": "8431490000",
+      "loading_rate": 0.0,
+      "discharge_rate": 2.5,
+      "expected_hs": "8431490000",
+      "expected_source": "discharge"
+    },
+    {
+      "supplier": "HAOCHENG PETROLEUM TECHNOLOGY CO LIMITED",
+      "field": "weight_kg",
+      "expected_value": 3145.0,
+      "expected_source": "loading",
+      "wrong_value": 3239.4,
+      "wrong_source": "discharge"
+    },
+    {
+      "supplier": "HAOCHENG PETROLEUM TECHNOLOGY CO LIMITED",
+      "field": "amount_usd",
+      "expected_value": 58275.91,
+      "expected_source": "discharge",
+      "wrong_value": 52978.1,
+      "wrong_source": "loading"
+    },
+    {
+      "supplier": "HAOCHENG PETROLEUM TECHNOLOGY CO LIMITED",
+      "field": "hs_code",
+      "loading_hs": "4009110000",
+      "discharge_hs": "4009120000",
+      "loading_rate": 2.5,
+      "discharge_rate": 3.0,
+      "expected_hs": "4009120000",
+      "expected_source": "discharge"
+    },
+    {
+      "supplier": "HAOCHENG PETROLEUM TECHNOLOGY CO LIMITED",
+      "field": "hs_code",
+      "loading_hs": "5607902000",
+      "discharge_hs": "5607500000",
+      "loading_rate": 4.0,
+      "discharge_rate": 3.5,
+      "expected_hs": "5607902000",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "HAOCHENG PETROLEUM TECHNOLOGY CO LIMITED",
+      "field": "hs_code",
+      "loading_hs": "6116990000",
+      "discharge_hs": "6116100000",
+      "loading_rate": 2.0,
+      "discharge_rate": 5.0,
+      "expected_hs": "6116100000",
+      "expected_source": "discharge"
+    },
+    {
+      "supplier": "HAOCHENG PETROLEUM TECHNOLOGY CO LIMITED",
+      "field": "hs_code",
+      "loading_hs": "7326909409",
+      "discharge_hs": "7326199000",
+      "loading_rate": 2.9,
+      "discharge_rate": 3.5,
+      "expected_hs": "7326199000",
+      "expected_source": "discharge"
+    },
+    {
+      "supplier": "SAILUN GROUP CO LIMITED",
+      "field": "weight_kg",
+      "expected_value": 20175.02,
+      "expected_source": "loading",
+      "wrong_value": 20578.5,
+      "wrong_source": "discharge"
+    },
+    {
+      "supplier": "SAILUN GROUP CO LIMITED",
+      "field": "amount_usd",
+      "expected_value": 71715.7,
+      "expected_source": "discharge",
+      "wrong_value": 63465.23,
+      "wrong_source": "loading"
+    },
+    {
+      "supplier": "SAILUN GROUP CO LIMITED",
+      "field": "hs_code",
+      "loading_hs": "4011100003",
+      "discharge_hs": "4011100009",
+      "loading_rate": 4.0,
+      "discharge_rate": 3.5,
+      "expected_hs": "4011100003",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "SAILUN GROUP CO LIMITED",
+      "field": "hs_code",
+      "loading_hs": "4011100009",
+      "discharge_hs": "4011100003",
+      "loading_rate": 3.5,
+      "discharge_rate": 4.0,
+      "expected_hs": "4011100003",
+      "expected_source": "discharge"
+    },
+    {
+      "supplier": "SAILUN GROUP CO LIMITED",
+      "field": "hs_code",
+      "loading_hs": "4011201000",
+      "discharge_hs": "4011209000",
+      "loading_rate": 4.0,
+      "discharge_rate": 3.0,
+      "expected_hs": "4011201000",
+      "expected_source": "loading"
+    },
+    {
+      "supplier": "SAILUN GROUP CO LIMITED",
+      "field": "hs_code",
+      "loading_hs": "4011209000",
+      "discharge_hs": "4011201000",
+      "loading_rate": 3.0,
+      "discharge_rate": 4.0,
+      "expected_hs": "4011201000",
+      "expected_source": "discharge"
+    }
+  ],
+  "team_roster": {
+    "East China": [
+      "zhangwei@customs.example.com",
+      "wangjun@customs.example.com"
+    ],
+    "South China": [
+      "lina@customs.example.com",
+      "liuyang@customs.example.com"
+    ],
+    "Central Asia": [
+      "chenhui@customs.example.com"
+    ],
+    "General": [
+      "zhaomin@customs.example.com"
+    ]
+  },
+  "valid_assignee_names": [
+    "Zhang Wei",
+    "Li Na",
+    "Wang Jun",
+    "Chen Hui",
+    "Liu Yang",
+    "Zhao Min"
+  ],
+  "valid_assignee_emails": [
+    "zhangwei@customs.example.com",
+    "lina@customs.example.com",
+    "wangjun@customs.example.com",
+    "chenhui@customs.example.com",
+    "liuyang@customs.example.com",
+    "zhaomin@customs.example.com"
+  ]
+}

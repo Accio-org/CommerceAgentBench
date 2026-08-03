@@ -1,0 +1,72 @@
+[
+  {"_comment": "=== PRODUCTS: 5 with errors + 2 junk (spec requires 7 correct) ==="},
+
+  {"_comment": "P0: VoltGrid Basic — correct name/desc/meta"},
+  {"resource": "products", "params": {"name": "VoltGrid Basic", "description": "Single charging station management. Real-time monitoring, basic analytics, email alerts.", "metadata": {"tier": "basic", "stations": "1"}}},
+  {"_comment": "P1: VoltGrid Pro — WRONG name (should be 'VoltGrid Professional')"},
+  {"resource": "products", "params": {"name": "VoltGrid Pro", "description": "Up to 10 stations. Advanced analytics, load balancing, mobile app, API access.", "metadata": {"tier": "professional", "stations": "10"}}},
+  {"_comment": "P2: VoltGrid Fleet — correct name/desc, WRONG meta stations=50 (should be 'unlimited')"},
+  {"resource": "products", "params": {"name": "VoltGrid Fleet", "description": "Unlimited stations. Fleet management, route optimization, priority support, SLA guarantee.", "metadata": {"tier": "fleet", "stations": "50"}}},
+  {"_comment": "P3: Maintenance Add-on — correct"},
+  {"resource": "products", "params": {"name": "Maintenance Add-on", "description": "Quarterly on-site maintenance inspection for each registered station.", "metadata": {"addon": "true", "frequency": "quarterly"}}},
+  {"_comment": "P4: Hardware Warranty — WRONG description (missing '3-year')"},
+  {"resource": "products", "params": {"name": "Hardware Warranty", "description": "Extended warranty for VoltGrid charging hardware. Covers parts and labor.", "metadata": {"addon": "true", "warranty_years": "3"}}},
+  {"_comment": "P5: junk product"},
+  {"resource": "products", "params": {"name": "Test Product DO NOT USE", "description": "Testing"}},
+  {"_comment": "P6: junk product"},
+  {"resource": "products", "params": {"name": "Old Charger v1 (deprecated)", "description": "Legacy product"}},
+
+  {"_comment": "=== PRICES for products above ==="},
+
+  {"_comment": "Basic monthly: WRONG 7900 (should be 8900)"},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "7900", "product": "$ref:products:0", "recurring.interval": "month"}},
+  {"_comment": "Basic annual: correct 89000"},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "89000", "product": "$ref:products:0", "recurring.interval": "year"}},
+  {"_comment": "Pro monthly: correct 14900"},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "14900", "product": "$ref:products:1", "recurring.interval": "month"}},
+  {"_comment": "Pro annual: WRONG 143000 (should be 149000)"},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "143000", "product": "$ref:products:1", "recurring.interval": "year"}},
+  {"_comment": "Fleet monthly: correct 89900"},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "89900", "product": "$ref:products:2", "recurring.interval": "month"}},
+  {"_comment": "Fleet annual: correct 899000"},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "899000", "product": "$ref:products:2", "recurring.interval": "year"}},
+  {"_comment": "Maintenance monthly: correct 14900"},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "14900", "product": "$ref:products:3", "recurring.interval": "month"}},
+  {"_comment": "Warranty monthly: correct 3900"},
+  {"resource": "prices", "params": {"currency": "usd", "unit_amount": "3900", "product": "$ref:products:4", "recurring.interval": "month"}},
+
+  {"_comment": "=== CUSTOMERS: 3 seeded (need 5) — missing EcoFleet Partners, CityGrid Municipal ==="},
+
+  {"_comment": "C0: ChargeFast Inc — correct name/email/desc, MISSING segment metadata"},
+  {"resource": "customers", "params": {"name": "ChargeFast Inc", "email": "billing@chargefast.io", "description": "Fleet customer — unlimited stations, annual billing"}},
+  {"_comment": "C1: GreenDrive LLC — WRONG email (info@ instead of accounts@), MISSING segment metadata"},
+  {"resource": "customers", "params": {"name": "GreenDrive LLC", "email": "info@greendrive.com", "description": "Professional customer — 10 stations, monthly billing"}},
+  {"_comment": "C2: ParkCharge Systems — MISSING description, MISSING segment metadata"},
+  {"resource": "customers", "params": {"name": "ParkCharge Systems", "email": "finance@parkcharge.dev"}},
+
+  {"_comment": "=== COUPONS: 2 with errors + 1 junk (need 3 correct) ==="},
+
+  {"_comment": "EARLYBIRD: WRONG percent_off 10 (should be 15)"},
+  {"resource": "coupons", "params": {"percent_off": "10", "duration": "repeating", "duration_in_months": "6", "name": "EARLYBIRD"}},
+  {"_comment": "FLEET25: correct"},
+  {"resource": "coupons", "params": {"percent_off": "25", "duration": "forever", "name": "FLEET25"}},
+  {"_comment": "TESTDISCOUNT: junk"},
+  {"resource": "coupons", "params": {"percent_off": "5", "duration": "once", "name": "TESTDISCOUNT"}},
+
+  {"_comment": "=== WEBHOOKS: 1 partial (need 3) — billing only has invoice.paid ==="},
+
+  {"resource": "webhook_endpoints", "params": {"url": "https://api.voltgrid.com/webhooks/billing", "enabled_events": "invoice.paid", "description": "Billing event notifications"}},
+
+  {"_comment": "=== CHARGES: 2 seeded (need 4) ==="},
+
+  {"_comment": "ChargeFast: WRONG amount 200000 (should be 250000)"},
+  {"resource": "charges", "params": {"amount": 200000, "currency": "usd", "customer": "$ref:customers:0", "description": "Fleet onboarding and hardware installation — ChargeFast Inc"}},
+  {"_comment": "GreenDrive: correct"},
+  {"resource": "charges", "params": {"amount": 75000, "currency": "usd", "customer": "$ref:customers:1", "description": "Professional setup and station configuration — GreenDrive LLC"}},
+
+  {"_comment": "=== SUBSCRIPTIONS: 3 seeded (need 8) ==="},
+
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:0", "items[0][price]": "$ref:prices:5"}},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:1", "items[0][price]": "$ref:prices:2"}},
+  {"resource": "subscriptions", "params": {"customer": "$ref:customers:2", "items[0][price]": "$ref:prices:0"}}
+]

@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "score_type": "capacity",
+  "check_strategy": "Deterministic verifier folds ~53 atomic checks into 6 capability groups via AND. Output replenishment_watchlist.json is validated against expected answers; google_workspace_cli audit trail proves CLI-based data access; restraint checks verify no bulk or direct API bypasses.",
+  "criteria": [
+    {"id": "setup_gate", "description": "Environment ready: mock reachable and output JSON parseable."},
+    {"id": "priority_identification", "description": "Identified the correct top-3 priority SKU/warehouse pairs and ranked them 1-2-3."},
+    {"id": "priority_action_details", "description": "All per-action fields correct across the 3 priority rows: lookups (sku, warehouse, supplier, po_number, eta), judgment (recommended_action, deck_risk_level), calculations (stockout_days, shortfall, net_after_in_transit), and evidence ranges."},
+    {"id": "monitor_only_correct", "description": "Low-risk in-transit exceptions classified as monitor-only with no overlap against priority actions."},
+    {"id": "cli_data_access", "description": "Audit trail proves the answer came from gws CLI: required tools used (sheets.getMetadata, sheets.getRange, slides.getText) and correct spreadsheet ranges read (Warehouse Stock, Reorder Queue, PO Ledger)."},
+    {"id": "data_access_restraint", "description": "No bulk sheets.getText on source spreadsheets and no direct/write API calls bypassing the CLI."}
+  ]
+}

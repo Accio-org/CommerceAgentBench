@@ -1,0 +1,56 @@
+{
+  "expected_fields": {
+    "category": "Sports & Entertainment > Camping & Hiking > Water Bottles",
+    "saleMode": "Domestic Shipping",
+    "productTitle": "750ml Vacuum Insulated Stainless Steel Water Bottle Double Wall Thermos Flask Leak Proof Sports Bottle for Outdoor Camping Hiking",
+    "keyword_1": "stainless steel water bottle",
+    "keyword_2": "vacuum insulated thermos",
+    "keyword_3": "sports bottle outdoor",
+    "productGroup": "Outdoor Drinkware",
+    "attr_brand": "ThermoKing",
+    "attr_model": "TK-750",
+    "attr_material": [
+      "304 Stainless Steel",
+      "18/8 (304) Stainless Steel",
+      "Stainless Steel",
+      "SS304",
+      "18/8 (304) Stainless Steel, BPA-free Tritan lid, silicone seal"
+    ],
+    "attr_diameter": [
+      "75mm",
+      "75mm diameter x 280mm height",
+      "Diameter 75mm × Height 280mm",
+      "Diameter 75mm x Height 280mm"
+    ],
+    "saleType": "Per Piece",
+    "priceUnit": "Piece",
+    "priceMode": "ladder",
+    "fobType": "FOB Ningbo",
+    "fobPriceMin": "3.26",
+    "fobPriceMax": "4.45",
+    "minOrderQuantity": "300",
+    "inventory": "80000",
+    "productVisible": "no",
+    "descType": "custom",
+    "agreement": "true",
+    "selectedCountries": "[{\"code\": \"US\", \"name\": \"United States\"}, {\"code\": \"UK\", \"name\": \"United Kingdom\"}, {\"code\": \"DE\", \"name\": \"Germany\"}, {\"code\": \"CA\", \"name\": \"Canada\"}, {\"code\": \"AU\", \"name\": \"Australia\"}]",
+    "ladderPrice": "[{\"quantity\": \"300-999\", \"price\": \"4.45\"}, {\"quantity\": \"1000-4999\", \"price\": \"3.97\"}, {\"quantity\": \"5000-19999\", \"price\": \"3.58\"}, {\"quantity\": \"20000+\", \"price\": \"3.26\"}]",
+    "deliveryPeriod": "[{\"quantity\": \"300-1000\", \"days\": \"12\"}, {\"quantity\": \"1001-5000\", \"days\": \"20\"}, {\"quantity\": \"5001-30000\", \"days\": \"30\"}]",
+    "countryPriceDiff": "{\"mode\": \"percent\", \"prices\": {\"US\": [\"0\", \"0\", \"0\", \"0\"], \"CA\": [\"0\", \"0\", \"0\", \"0\"], \"UK\": [\"5\", \"5\", \"5\", \"5\"], \"DE\": [\"5\", \"5\", \"5\", \"5\"], \"AU\": [\"8\", \"8\", \"8\", \"8\"]}}"
+  },
+  "required_files": [
+    "image_1",
+    "image_2",
+    "image_3",
+    "image_4",
+    "image_5",
+    "image_6"
+  ],
+  "json_fields": [
+    "countryPriceDiff",
+    "deliveryPeriod",
+    "ladderPrice",
+    "selectedCountries"
+  ],
+  "notes": "Each each expected_fields entry as one atomic deterministic_exact check (json_fields use deep-equal), plus structural checks (session_exists, session_state_readable, session_submitted, mock_submit_via_legitimate_path, image uploads). No fake-LLM-judge or hidden-trap mechanics; the expected_fields entries are the only ground truth."
+}

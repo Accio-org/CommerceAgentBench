@@ -1,0 +1,27 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1,
+  "task_id": "cli-xfer-subscription-anomaly-jira-followup",
+  "summary": "Cross-system renewal-risk triage: derive risky Stripe subscriptions from live subscription status and cancellation flags, derive priority from customer tier, and build a Jira PROJ epic plus per-subscription renewal-risk issues with live Stripe pointers, comments, links, and workflow state. Stripe is read-only.",
+  "category": "cross_system_renewal_followup",
+  "state_kind": "dual_cli_mock_stateful",
+  "difficulty": "hard",
+  "check_strategy": "Verifier reads final Stripe and Jira mock states via /__bench/state. It recomputes the in-scope subscription set, tier, lead, risk reason, live pointer IDs, and same-tier pairs from Stripe, then checks Jira final state using semantic/structural checks. Binary pass requires all 14 checks.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "Both mock states are reachable, PROJ exists, and the verifier can derive renewal-risk subscriptions from Stripe."},
+    {"id": "epic_correct", "check_type": "deterministic_exact", "description": "Exactly one weekly renewal-risk epic exists in PROJ."},
+    {"id": "inclusion_set_correct", "check_type": "deterministic_exact", "description": "Exactly one renewal-risk Task issue exists for each source-derived in-scope subscription; no out-of-scope or duplicate customer issue exists."},
+    {"id": "priority_correct", "check_type": "deterministic_exact", "description": "Each issue priority matches the tier-derived Jira priority."},
+    {"id": "summary_format_correct", "check_type": "deterministic_exact", "description": "Each issue summary identifies the source-derived tier, customer, risk reason, and renewal lead."},
+    {"id": "labels_correct", "check_type": "deterministic_exact", "description": "Each issue carries the fixed renewal queue label, the correct tier label, and a correct source-of-risk label without contradictory tier/source labels."},
+    {"id": "risk_source_labels_correct", "check_type": "deterministic_exact", "description": "Each issue has exactly one risk-source label and it matches the source-derived anomaly type."},
+    {"id": "escalation_comments_correct", "check_type": "deterministic_exact", "description": "High-priority issues have Tier A SLA escalation language; Medium/Low issues do not carry High-priority SLA escalation."},
+    {"id": "account_health_comments_correct", "check_type": "deterministic_exact", "description": "Every in-scope issue has an account-health comment with the latest invoice or subscription status context."},
+    {"id": "transition_state_correct", "check_type": "deterministic_exact", "description": "Every in-scope issue is in the In Progress workflow state."},
+    {"id": "issue_description_markers_correct", "check_type": "deterministic_exact", "description": "Each issue description contains its own Jira key plus live Stripe customer, subscription, subscription item, price/plan, and latest invoice identifiers."},
+    {"id": "epic_description_markers_correct", "check_type": "deterministic_exact", "description": "The epic description contains the live customer roster, Stripe balance and webhook context, active sprint, board, project lead, and reviewer identity."},
+    {"id": "same_tier_links_correct", "check_type": "deterministic_exact", "description": "In-scope issues sharing the same tier are linked to each other with a relates-style Jira issue link."},
+    {"id": "source_integrity", "check_type": "deterministic_exact", "description": "Stripe customer/subscription counts and the source-derived renewal-risk fingerprint remain unchanged."}
+  ],
+  "notes": "Total checks = 14 capability units. Final reward is binary; raw_score records partial diagnostics only."
+}

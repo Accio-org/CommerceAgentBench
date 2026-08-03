@@ -1,0 +1,116 @@
+<svg width="1200" height="940" viewBox="0 0 1200 940" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">RealReplicaBench Leaderboard</title>
+  <desc id="desc">Pass rates for the twelve model families evaluated with both OpenClaw and Accio.</desc>
+  <defs>
+    <linearGradient id="openclaw" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#00B2FF"/>
+      <stop offset="1" stop-color="#91FFF1"/>
+    </linearGradient>
+    <linearGradient id="accio" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="940" rx="24" fill="#FFFFFF"/>
+  <rect x=".5" y=".5" width="1199" height="939" rx="23.5" stroke="#E5E7EB"/>
+  <text x="54" y="56" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="780">RealReplicaBench Leaderboard</text>
+  <text x="54" y="86" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="15">OpenClaw vs. Accio · binary pass rate over the same 107 tasks</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">
+    <circle cx="796" cy="70" r="7" fill="#00B2FF"/>
+    <text x="810" y="75" fill="#0369A1">OpenClaw</text>
+    <circle cx="934" cy="70" r="7" fill="#10B981"/>
+    <text x="948" y="75" fill="#047857">Accio</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(0 112)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Claude Opus 5</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="600" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">56.1% · 60/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="660" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">61.7% · 66/107</text>
+    </g>
+    <g transform="translate(0 176)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Claude Opus 4.8</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="550" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">51.4% · 55/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="590" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">55.1% · 59/107</text>
+    </g>
+    <g transform="translate(0 240)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">GPT-5.6 Sol</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="530" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">49.5% · 53/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="550" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">51.4% · 55/107</text>
+    </g>
+    <g transform="translate(0 304)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">GPT-5.5</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="510" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">47.7% · 51/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="480" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">44.9% · 48/107</text>
+    </g>
+    <g transform="translate(0 368)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Claude Opus 4.7</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="490" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">45.8% · 49/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="560" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">52.3% · 56/107</text>
+    </g>
+    <g transform="translate(0 432)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Qwen 3.8 Max Preview</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="480" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">44.9% · 48/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="490" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">45.8% · 49/107</text>
+    </g>
+    <g transform="translate(0 496)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Gemini 3.6 Flash</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="480" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">44.9% · 48/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="500" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">46.7% · 50/107</text>
+    </g>
+    <g transform="translate(0 560)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">DeepSeek V4 Flash</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="460" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">43.0% · 46/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="500" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">46.7% · 50/107</text>
+    </g>
+    <g transform="translate(0 624)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">GLM 5.2</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="420" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">39.3% · 42/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="500" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">46.7% · 50/107</text>
+    </g>
+    <g transform="translate(0 688)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Gemini 3.5 Flash</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="390" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">36.4% · 39/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="460" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">43.0% · 46/107</text>
+    </g>
+    <g transform="translate(0 752)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">GPT-5.6 Luna</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="360" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">33.6% · 36/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="480" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">44.9% · 48/107</text>
+    </g>
+    <g transform="translate(0 816)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Gemini 3 Flash</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="310" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">29.0% · 31/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="310" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">29.0% · 31/107</text>
+    </g>
+  </g>
+
+  <rect x="52" y="884" width="1096" height="38" rx="19" fill="#F7FAF9"/>
+  <text x="600" y="908" text-anchor="middle" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="650">Only model families evaluated in both harnesses are shown · 107 aligned tasks</text>
+</svg>

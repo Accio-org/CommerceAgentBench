@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-freightos-route-optimization",
+  "summary": "FreightOS mock — agent completes booking flow through browser UI. v2: each search/services/quote/booking/verification/report sub-criterion is one atomic deterministic_exact check. No length checks. (task_id=browser-freightos-route-optimization)",
+  "category": "freight_booking",
+  "state_kind": "local_mock_browser",
+  "difficulty": "hard",
+  "check_strategy": "At runtime, freightos_v2.verify expands the full checks[] from booking-state + access-log + report. Declared checks below are illustrative — the verifier is the source of truth.",
+  "checks": [
+    {
+      "id": "mock_service_reachable",
+      "check_type": "deterministic_exact",
+      "description": "GET /api/booking-state and /api/access-log both succeed."
+    },
+    {
+      "id": "auth_success",
+      "check_type": "deterministic_exact",
+      "description": "state.authenticated == true AND access-log contains POST /login success."
+    },
+    {
+      "id": "mock_submit_via_legitimate_path",
+      "check_type": "deterministic_exact",
+      "description": "Access-log shows valid uiToken POSTs to all of /search, /services, /select-quote, /confirm, /verification AND a verifier_token was injected."
+    },
+    {
+      "id": "data_collection_route_planner_visited",
+      "check_type": "deterministic_exact",
+      "description": "Access-log shows a request to /route-planner."
+    },
+    {
+      "id": "route_analysis_md_exists",
+      "check_type": "deterministic_exact",
+      "description": "outputs/route_analysis.md exists and is non-empty."
+    },
+    {
+      "id": "quote_selection_correct",
+      "check_type": "deterministic_exact",
+      "description": "state.selectedQuoteId == QT-2026-0813 (Yang Ming Shenzhen→Long Beach via D1+O3+L2)."
+    },
+    {
+      "id": "booking_confirmed",
+      "check_type": "deterministic_exact",
+      "description": "state.bookingConfirmed == true."
+    },
+    {
+      "id": "shipment_id_present",
+      "check_type": "deterministic_exact",
+      "description": "state.shipmentId is non-empty."
+    },
+    {
+      "id": "verification_*_correct",
+      "check_type": "deterministic_exact",
+      "description": "6 atomic checks: pickup/delivery company/contact/email match expected (Dongguan TechParts → Central US Logistics Hub)."
+    },
+    {
+      "id": "route_report_*",
+      "check_type": "deterministic_exact",
+      "description": "6 structural checks on route_analysis.md: cites D1+O3+L2, optimal cost 6,054.50, 30-day deadline, D2+O4+L1 and D3+O6+L2 infeasibility, ≥6 of 8 candidate routes enumerated."
+    }
+  ]
+}

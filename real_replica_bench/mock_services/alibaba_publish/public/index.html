@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Listing - Alibaba.com</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;background:#f5f5f5;color:#333;font-size:14px;line-height:1.5;min-height:100vh}
+a{color:#0070cc;text-decoration:none}a:hover{text-decoration:underline}
+input,textarea,select,button{font-family:inherit;font-size:14px}
+li{list-style:none}
+
+/* === Layout === */
+.sell-wrap{display:flex;max-width:1320px;margin:0 auto;padding:16px 20px;gap:16px;position:relative}
+#struct-left{width:220px;flex-shrink:0}
+#struct-right{flex:1;min-width:0}
+
+/* === Pinbar / Quality === */
+#struct-pinbar{position:sticky;top:10px}
+.sell-o-addon-label{font-size:14px;color:#333;font-weight:500;display:block;padding:12px 16px 8px;line-height:1.4}
+.sell-o-addon-label .labelSubtitle{display:block;font-size:12px;color:#999;font-weight:400;margin-top:2px;line-height:1.5}
+.sell-o-addon-label.required::before{content:"*";color:#ff3000;margin-right:2px}
+
+.quality-card{background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.08);overflow:hidden}
+.sell-top-messsage{padding:8px 16px;font-size:12px;color:#666;background:#fffbe6;border-bottom:1px solid #f0f0f0;line-height:1.6}
+.sell-top-messsage a{font-size:12px}
+.check-area{background:#f7f8fa;padding:16px;position:relative;background-image:url(https://s.alicdn.com/@img/imgextra/i4/O1CN01EOV9eT1Z1QMCgGm9C_!!6000000003134-2-tps-152-120.png);background-repeat:no-repeat;background-position:right 8px top 8px;background-size:89px 70px}
+.check-area .title{margin-bottom:10px}
+.check-area .title-text{font-size:14px;font-weight:600;color:#333}
+.score-check-area{display:flex;align-items:center;gap:16px}
+.score-status{display:flex;flex-direction:column;align-items:center}
+.score-container{width:48px;height:48px;border-radius:50%;border:3px solid #e8e8e8;display:flex;align-items:center;justify-content:center;background:#fff}
+.score-text{font-size:22px;font-weight:700;color:#ccc}
+.score-tips{font-size:11px;color:#999;margin-top:4px}
+.btn-check{padding:5px 16px;background:#0070cc;color:#fff;border:1px solid #0070cc;border-radius:4px;cursor:pointer;font-size:13px;box-shadow:none}
+.btn-check:hover{background:#005ea6}
+
+.tab-container{display:flex;border-bottom:1px solid #e8e8e8}
+.tab-item{flex:1;text-align:center;padding:10px 0;font-size:13px;color:#666;cursor:pointer;position:relative}
+.tab-item:hover{color:#0070cc}
+.tab-item.tab-checked{color:#0070cc;font-weight:500}
+.tab-item.tab-checked::after{content:"";position:absolute;bottom:0;left:20%;right:20%;height:2px;background:#0070cc;border-radius:1px}
+
+.detail-content{padding:12px 16px;max-height:500px;overflow-y:auto}
+.detail-content::-webkit-scrollbar{width:4px}
+.detail-content::-webkit-scrollbar-thumb{background:#ddd;border-radius:2px}
+.detail-content .card{margin-bottom:10px}
+.detail-content .card-title{font-size:13px;font-weight:600;color:#333;padding:4px 0;border-bottom:1px solid #f0f0f0;margin-bottom:6px}
+.detail-content .card-title div{display:inline}
+.detail-content .sub-card{margin-bottom:8px}
+.detail-content .sub-title{font-size:12px;font-weight:500;color:#555;margin-bottom:4px}
+.detail-content .sub-title div{display:inline}
+.detail-content .content-text{font-size:12px;color:#888;line-height:1.6;margin-bottom:4px}
+.detail-content .content-text li{font-weight:500;color:#666;margin-bottom:2px}
+.detail-content .content-text a{font-size:12px}
+
+/* === Global Notice === */
+.compose-notice{background:#fffbe6;border:1px solid #ffe58f;border-radius:4px;padding:10px 16px;margin-bottom:12px;display:flex;align-items:flex-start;gap:8px;font-size:13px;color:#333;line-height:1.7}
+.compose-notice-icon{color:#faad14;font-size:16px;flex-shrink:0;margin-top:2px}
+.compose-notice p{margin:0}
+.compose-notice a{font-size:13px}
+
+/* === Card === */
+.sell-card{background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.08);margin-bottom:16px;overflow:hidden}
+.icbu-card-title{padding:16px 24px;border-bottom:1px solid #f0f0f0}
+.icbu-card-title h2{font-size:16px;font-weight:600;color:#333;margin:0}
+.icbu-card-title h2 span{font-size:16px}
+.icbu-card-title.small-title h2 span{font-size:14px}
+.icbu-card-title .icbu-card-subtitle{font-size:12px;color:#999;font-weight:400;margin-left:8px}
+.card-body{padding:0 24px 24px}
+.module-card{padding:0 24px}
+
+/* === Form Row === */
+.form-row{display:flex;padding:16px 0;border-bottom:1px solid #f5f5f5;align-items:flex-start}
+.form-row:last-child{border-bottom:none}
+.row-label{width:140px;flex-shrink:0;text-align:right;padding-right:16px;padding-top:6px;font-size:14px;color:#666;line-height:1.5}
+.row-label.required::before{content:"*";color:#ff3000;margin-right:2px}
+.row-label .help-icon{display:inline-block;margin-left:4px;color:#b3b3b3;cursor:help;font-size:14px}
+.row-content{flex:1;min-width:0}
+
+/* === Inputs === */
+.next-input{display:inline-flex;align-items:center;border:1px solid #c4c6cf;border-radius:4px;height:32px;padding:0 8px;background:#fff;width:100%;transition:border-color .2s}
+.next-input:focus-within{border-color:#0070cc;box-shadow:0 0 0 2px rgba(0,112,204,.1)}
+.next-input input{border:none;outline:none;width:100%;height:100%;background:transparent;font-size:14px}
+.next-input input::placeholder{color:#b0b0b0}
+.next-input-group{display:inline-flex;align-items:center;border:1px solid #c4c6cf;border-radius:4px;height:32px;background:#fff;width:100%}
+.next-input-group .next-input-group-addon{padding:0 8px;background:#fafafa;border-right:1px solid #c4c6cf;height:100%;display:flex;align-items:center;font-size:13px;color:#666;white-space:nowrap;border-radius:4px 0 0 4px}
+.next-input-group .next-input{border:none;border-radius:0 4px 4px 0;flex:1}
+.input-unit{color:#999;font-size:13px;white-space:nowrap;margin-left:8px}
+
+.next-select-outer{position:relative;display:inline-flex;align-items:center;border:1px solid #c4c6cf;border-radius:4px;height:32px;padding:0 28px 0 8px;background:#fff;cursor:pointer;width:100%}
+.next-select-outer::after{content:"▾";position:absolute;right:10px;color:#999;font-size:12px;pointer-events:none}
+.next-select-outer select{position:absolute;inset:0;opacity:0;cursor:pointer}
+.next-select-outer .sel-val{font-size:14px;color:#333;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.next-select-outer .sel-ph{font-size:14px;color:#b0b0b0}
+
+.next-textarea{border:1px solid #c4c6cf;border-radius:4px;padding:6px 8px;width:100%;font-size:14px;resize:vertical;min-height:60px;background:#fff;transition:border-color .2s}
+.next-textarea:focus{border-color:#0070cc;outline:none;box-shadow:0 0 0 2px rgba(0,112,204,.1)}
+.next-textarea::placeholder{color:#b0b0b0}
+
+/* === Checkbox / Radio === */
+.next-checkbox-group{display:flex;flex-wrap:wrap;gap:8px 20px}
+.checkbox-label,.radio-label{display:inline-flex;align-items:center;gap:6px;cursor:pointer;font-size:14px;color:#333}
+.checkbox-label input[type="checkbox"],.radio-label input[type="radio"]{width:16px;height:16px;accent-color:#0070cc;cursor:pointer}
+
+/* === Category === */
+.category-container{padding:12px 16px;background:#f7f8fa;border-radius:4px;display:flex;align-items:center;justify-content:space-between}
+.category-title{font-size:14px;color:#333}
+.category-button{color:#0070cc;cursor:pointer;font-size:14px;white-space:nowrap}
+
+/* === Image Upload === */
+.image-upload-list{display:flex;flex-wrap:wrap;gap:8px}
+.image-upload-list-item{width:120px;height:120px;border:1px dashed #c4c6cf;border-radius:4px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;background:#fafafa;transition:border-color .2s,background .2s;position:relative}
+.image-upload-list-item:hover{border-color:#0070cc;background:#f0f7ff}
+.image-upload-mainImg-tag{position:absolute;top:0;left:0;background:rgba(83,65,227,.8);color:#fff;font-size:11px;padding:1px 8px;border-radius:4px 0 4px 0}
+.image-upload-photobank-placeholder{display:flex;flex-direction:column;align-items:center;gap:4px}
+.image-upload-photobank-placeholder .iconfont{font-size:24px;color:#999}
+.image-upload-photobank-placeholder span{font-size:12px;color:#999}
+.trigger-wrapper{display:flex;align-items:center;margin-bottom:8px}
+.trigger-wrapper-left{display:flex;align-items:center}
+.labelImgVideo{font-size:14px;color:#666;font-weight:500}
+.labelImgVideo.required::before{content:"*";color:#ff3000;margin-right:2px}
+.trigger-wrapper-right{display:inline-flex;align-items:center;gap:4px;background:#f0f0ff;border-radius:4px;padding:4px 10px;margin-left:12px;cursor:pointer;font-size:13px;color:#1047f5}
+.trigger-wrapper-right img{width:18px;height:18px}
+
+/* === Attributes Grid === */
+.catProp-grid{display:flex;flex-wrap:wrap;margin:-6px -12px}
+.sell-catProp-item{width:33.33%;padding:6px 12px}
+.sell-catProp-item .label{font-size:13px;color:#666;margin-bottom:4px}
+
+/* === Price Table === */
+.ladder-price-row{display:flex;gap:24px}
+.ladder-price-left{flex:1}
+.ladder-price-right{width:300px;flex-shrink:0}
+.ladder-price-table{width:100%;border-collapse:collapse}
+.ladder-price-table th{text-align:left;font-weight:500;font-size:13px;color:#666;padding:8px 12px;border-bottom:1px solid #e8e8e8;background:#fafafa}
+.ladder-price-table th .table-header-label.required::before{content:"*";color:#ff3000;margin-right:2px}
+.ladder-price-table th .table-header-desc{font-size:12px;color:#999;font-weight:400}
+.ladder-price-table td{padding:8px 12px;border-bottom:1px solid #f0f0f0}
+.ladder-price-table .delete-btn{text-align:left}
+.ladder-price-more{padding:8px 0;display:flex;align-items:center;gap:4px}
+.ladder-price-more .btn-add{background:none;border:none;color:#0070cc;cursor:pointer;font-size:13px;padding:0}
+.ladder-price-more .btn-add:hover{text-decoration:underline}
+.ladder-price-more .btn-add-desc{color:#999;font-size:12px}
+.ladder-price-preview{background:#fafafa;border-radius:4px;padding:16px}
+.ladder-price-preview-header{font-size:13px;font-weight:600;color:#333;margin-bottom:8px}
+.ladder-price-preview-header .unit-hint{font-weight:400;color:#999;font-size:12px;margin-left:4px}
+.preview-empty-hint{color:#999;font-size:12px;line-height:1.6}
+.preview-empty-hint a{font-size:12px}
+
+.promo-tip{margin-top:12px;padding:10px 12px;background:#fffbe6;border-radius:4px;font-size:12px;color:#666;line-height:1.6}
+.promo-tip span{font-weight:600;color:#333}
+
+/* === HS Code === */
+.tariffs-code-container{display:flex;align-items:center;gap:12px;padding:8px 0}
+.hs-code-label{font-size:13px;color:#666;margin-right:8px}
+.hs-code-number-none{font-size:13px;color:#999}
+.edit-icon{display:inline-flex;align-items:center;gap:4px;color:#acacac;font-size:13px}
+.edit-btn-text{color:#0070cc;cursor:pointer;background:none;border:none;font-size:13px}
+
+/* === Certificate Table === */
+.certificate-table{width:100%;border-collapse:collapse;margin-top:8px}
+.certificate-table th{text-align:left;font-size:13px;color:#666;font-weight:500;padding:8px 12px;border-bottom:1px solid #e8e8e8;background:#fafafa}
+.certificate-table td{padding:12px;text-align:center;color:#999;font-size:13px;border-bottom:1px solid #f0f0f0}
+.add-more{padding:8px 0;display:flex;align-items:center;gap:4px}
+.add-more button{background:none;border:none;color:#0070cc;cursor:pointer;font-size:13px;padding:0}
+.add-more span{color:#999;font-size:12px}
+
+/* === Radio Group === */
+.sell-radio{display:flex;gap:24px;flex-wrap:wrap}
+.radio-item{display:inline-flex;align-items:center;gap:4px}
+.radio-item label.next-radio-wrapper{display:inline-flex;align-items:center;gap:4px;cursor:pointer}
+.next-radio{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px}
+.next-radio-inner{width:16px;height:16px;border:1px solid #c4c6cf;border-radius:50%;display:inline-block;position:relative;background:#fff}
+.next-radio.checked .next-radio-inner{border-color:#0070cc}
+.next-radio.checked .next-radio-inner::after{content:"";position:absolute;top:3px;left:3px;width:8px;height:8px;border-radius:50%;background:#0070cc}
+.item-label{font-size:14px;color:#333}
+
+/* === Customized Services === */
+.customizedServices-container{border:1px solid #f0f0f0;border-radius:4px;padding:16px}
+.customizedServices-container-title{font-size:14px;font-weight:500;color:#333;margin-bottom:4px}
+.title-bottom{font-size:12px;color:#999;margin-bottom:12px}
+.title-bottom a{font-size:12px}
+.custom-text{display:inline-flex;align-items:center;gap:4px;color:#0070cc;cursor:pointer;font-size:13px;border:1px dashed #0070cc;border-radius:4px;padding:6px 16px}
+
+/* === Description Editor === */
+.editor-toolbar{display:flex;flex-wrap:wrap;gap:4px;padding:8px 10px;background:#fafafa;border:1px solid #e8e8e8;border-bottom:none;border-radius:4px 4px 0 0}
+.editor-toolbar+.editor-toolbar{border-top:none;border-radius:0}
+.tb-group{display:flex;gap:4px;padding:0 6px;border-right:1px solid #ddd}
+.tb-group:last-child{border-right:none}
+.tb-btn{height:28px;padding:0 8px;display:inline-flex;align-items:center;justify-content:center;border:1px solid #d9d9d9;background:#fff;cursor:pointer;border-radius:4px;color:#333;font-size:12px;white-space:nowrap;transition:all .15s}
+.tb-btn:hover{background:#e6f0ff;border-color:#0070cc;color:#0070cc}
+.tb-btn:active{background:#d0e4ff}
+.tb-select{height:28px;border:1px solid #d9d9d9;border-radius:4px;padding:0 4px;font-size:12px;color:#333;background:#fff;cursor:pointer}
+.tb-select{height:28px;border:1px solid #ddd;border-radius:3px;background:#fff;padding:0 4px;font-size:12px;color:#666;cursor:pointer}
+.editor-nav{display:flex;gap:0;border-bottom:1px solid #e8e8e8}
+.nav-tab{padding:8px 16px;font-size:13px;color:#0070cc;cursor:pointer;border-bottom:2px solid transparent}
+.nav-tab:hover{background:#f5f5f5}
+.nav-tab.active{border-bottom-color:#0070cc;font-weight:500}
+.editor-body{border:1px solid #e8e8e8;min-height:387px;padding:16px;background:#fff;position:relative}
+.editor-body .editor-placeholder{color:#bbb;font-size:14px}
+.editor-statusbar{display:flex;justify-content:space-between;padding:6px 8px;border:1px solid #e8e8e8;border-top:none;background:#fafafa;font-size:12px;color:#999}
+.editor-statusbar .word-count span{color:#ff6600;font-weight:500}
+.editor-statusbar .ai-hint{font-size:12px}
+
+/* === Agreement === */
+.posting-field-agreement{padding:0 0 8px}
+.posting-field-agreement .label{font-size:14px;font-weight:500;color:#333;margin-bottom:8px}
+.agreement-check{display:flex;align-items:flex-start;gap:8px}
+.agreement-check input{margin-top:4px}
+.agreement-check .name{font-size:14px;color:#333}
+.agreement-check .name a{font-size:14px}
+.agreement-check .tips{font-size:12px;color:#999;margin-top:2px}
+
+/* === Bottom Bar === */
+.sell-float-bottom{position:sticky;bottom:0;background:#fff;box-shadow:0 -2px 8px rgba(0,0,0,.08);z-index:100}
+.button-container{display:flex;align-items:center;justify-content:center;padding:12px 24px;gap:0}
+.transparentBtn{padding:8px 0;background:#fff;color:#333;border:1px solid #c4c6cf;border-radius:4px;font-size:14px;cursor:pointer;height:36px;width:160px}
+.transparentBtn:hover{border-color:#0070cc;color:#0070cc}
+.button-submit-button{padding:8px 32px;background:#ff6a00;color:#fff;border:none;border-radius:4px;font-size:14px;font-weight:500;cursor:pointer;height:40px;margin-left:10px}
+.button-submit-button:hover{background:#e65c00}
+
+/* === Helpers === */
+.hide{display:none!important}
+.w200{width:200px}.w300{width:300px}
+.sell-bottom-message{padding:8px 0;font-size:12px;color:#999;line-height:1.6}
+.sell-bottom-message a{font-size:12px}
+.sell-bottom-message .msg-text p{margin:0}
+</style>
+</head>
+<body>
+
+<!-- ===== Main Layout ===== -->
+<div id="root" style="min-height:100vh">
+<div class="sell-wrap" id="ROOT">
+
+<!-- ========== LEFT: Pinbar ========== -->
+<div id="struct-left">
+<div id="struct-pinbar" style="position:sticky;top:10px">
+
+  <!-- productQuality -->
+  <div class="quality-card" id="productQuality">
+    <label class="sell-o-addon-label">Listing Quality</label>
+    <div class="sell-top-messsage">
+      <div class="msg-text">Product info quality directly affects search ranking. <a target="_blank" href="javascript:void(0)">Details</a></div>
+    </div>
+    <div class="check-area">
+      <div class="title"><span class="title-text">Listing Quality Assistant</span></div>
+      <div class="score-check-area">
+        <div class="score-status">
+          <div class="score-container"><span class="score-text">-</span></div>
+          <div class="score-tips">Upload main image to check</div>
+        </div>
+        <button class="btn-check" id="qualityCheckBtn" onclick="runQualityCheck()" title="Quality Check">Quality Check</button>
+      </div>
+    </div>
+    <div class="tab-container">
+      <div class="tab-item" title="Quality Check" onclick="switchQaTab(this,'check')"><span class="tab-item-text">Quality Check</span></div>
+      <div class="tab-item tab-checked" title="Form Rules" onclick="switchQaTab(this,'rules')"><span class="tab-item-text">Form Rules</span></div>
+    </div>
+    <div class="detail-content rule-detail-content" id="qaTabCheck" style="display:none;padding:32px 16px;text-align:center;color:#ccc;font-size:13px">
+      Upload main image to run quality check
+    </div>
+    <div class="detail-content rule-detail-content" id="qaTabRules">
+      <div class="card" data-quality-card-id="base-card">
+        <div class="card-title"><div>Basic Info</div></div>
+        <div class="sub-card" data-quality-com-id="scImages">
+          <div class="sub-title"><div>Image Requirements</div></div>
+          <div class="content-text"><div>
+            <li>1. Image upload requirements</li>At least 4 images, each ≤5MB. Recommended: square, 640-1000px. Formats: jpeg, jpg, png.<br>
+            <a href="javascript:void(0)" target="_blank">View image quality standards</a>
+          </div></div>
+          <div class="content-text"><div>
+            <li>2. Video upload requirements</li>Video ≤45s, ≤100MB. Displayed before the first product image.<br>
+            <a href="javascript:void(0)" target="_blank">View video standards</a>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ========== RIGHT: Main Content ========== -->
+<div id="struct-right">
+
+<!-- sessionBanner -->
+<div id="sessionBanner" style="background:#e6f7ff;border:1px solid #91d5ff;border-radius:4px;padding:8px 16px;margin-bottom:12px;display:flex;align-items:center;justify-content:space-between;font-size:13px">
+  <span>Session: <strong id="sessionIdDisplay">-</strong></span>
+  <button onclick="resetSession()" style="background:#fff;border:1px solid #c4c6cf;border-radius:4px;padding:4px 12px;cursor:pointer;font-size:12px">Reset Session</button>
+</div>
+
+<!-- commonTips -->
+<div class="compose-notice" id="commonTips">
+  <span class="compose-notice-icon">⚠</span>
+  <div class="compose-notice-content" style="color:#000">
+    <p>[Notice] AI image generation launched with 200% stability improvement! (<a href="javascript:void(0)" target="_blank">Details</a>）<br>
+    [Survey] Quick 30s survey about HS code filling. <a href="javascript:void(0)" target="_blank">Start</a><br>
+    [Survey] 1-min survey to improve product migration. (<a href="javascript:void(0)" target="_blank">Survey</a>）<br>
+    [Notice] Dropshipping module sunset on Mar 16. <a href="javascript:void(0)" target="_blank">View</a></p>
+  </div>
+</div>
+
+<!-- ====== category-card ====== -->
+<div class="sell-card" id="category-card">
+
+  <!-- catInfo -->
+  <div style="padding:16px 24px">
+    <div class="category-container">
+      <div class="category-title" role="catpath" id="catpathDisplay">Current Category: Agriculture &gt; Farm Machinery &gt; Other Farm Machinery</div>
+      <input type="hidden" name="category" id="categoryValue" value="Agriculture > Farm Machinery > Other Farm Machinery">
+      <input type="hidden" name="saleMode" id="saleModeValue" value="Domestic Shipping">
+      <div class="category-button" role="btn" onclick="showCategoryModal()">Switch Category & Sale Mode</div>
+    </div>
+  </div>
+
+  <!-- icbuCountryRegion -->
+  <div style="padding:0 24px 16px">
+    <div style="padding:16px 0;border-bottom:1px solid #f5f5f5">
+      <label class="sell-o-addon-label" style="padding:0 0 8px">Country/Region Settings<span class="labelSubtitle" style="display:inline;margin-left:4px">After selecting countries, you can set price differences per country. If selling at one price globally, no need to select.</span></label>
+      <div id="selectedCountryTags" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px"></div>
+      <button type="button" onclick="showCountryModal()" style="padding:4px 14px;background:#fff;border:1px solid #0070cc;color:#0070cc;border-radius:4px;cursor:pointer;font-size:13px">+ Select Countries</button>
+      <input type="hidden" name="selectedCountries" id="selectedCountriesValue" value="[]">
+    </div>
+  </div>
+</div>
+
+<!-- ====== base-card: Basic Info ====== -->
+<div class="sell-card" id="base-card">
+  <header class="icbu-card-title" id="base-card-title"><h2><span>Basic Information</span></h2></header>
+
+  <div class="card-body">
+    <!-- scImages: Product Images & Video -->
+    <div class="form-row" id="scImages">
+      <div class="row-label">&nbsp;</div>
+      <div class="row-content">
+        <div class="trigger-wrapper">
+          <div class="trigger-wrapper-left">
+            <div class="labelImgVideo sell-o-addon-label required" style="padding:0">Product Images &amp; Video</div>
+            <span class="help-icon" style="color:#b3b3b3;margin:0 17px 0 4px;font-size:14px;cursor:help">?</span>
+          </div>
+        </div>
+        <div class="image-upload-list">
+          <div class="image-upload-list-item" onclick="this.querySelector('input[type=file]').click()">
+            <input type="file" name="image_1" accept="image/*" style="display:none" onchange="handleImageSelect(this, 1)">
+            <div class="image-upload-mainImg-tag"><span>Main Image</span></div>
+            <div class="image-upload-photobank-placeholder" id="imgPlaceholder_1">
+              <span class="iconfont" style="font-size:24px;color:#999">＋</span>
+              <span>Upload Image</span>
+            </div>
+            <img id="imgPreview_1" style="display:none;width:100%;height:100%;object-fit:cover;border-radius:4px" />
+          </div>
+          <div class="image-upload-list-item" onclick="this.querySelector('input[type=file]').click()">
+            <input type="file" name="image_2" accept="image/*" style="display:none" onchange="handleImageSelect(this, 2)">
+            <div class="image-upload-photobank-placeholder" id="imgPlaceholder_2">
+              <span class="iconfont" style="font-size:24px;color:#999">＋</span>
+              <span>Upload Image</span>
+            </div>
+            <img id="imgPreview_2" style="display:none;width:100%;height:100%;object-fit:cover;border-radius:4px" />
+          </div>
+          <div class="image-upload-list-item" onclick="this.querySelector('input[type=file]').click()">
+            <input type="file" name="image_3" accept="image/*" style="display:none" onchange="handleImageSelect(this, 3)">
+            <div class="image-upload-photobank-placeholder" id="imgPlaceholder_3">
+              <span class="iconfont" style="font-size:24px;color:#999">＋</span>
+              <span>Upload Image</span>
+            </div>
+            <img id="imgPreview_3" style="display:none;width:100%;height:100%;object-fit:cover;border-radius:4px" />
+          </div>
+          <div class="image-upload-list-item" onclick="this.querySelector('input[type=file]').click()">
+            <input type="file" name="image_4" accept="image/*" style="display:none" onchange="handleImageSelect(this, 4)">
+            <div class="image-upload-photobank-placeholder" id="imgPlaceholder_4">
+              <span class="iconfont" style="font-size:24px;color:#999">＋</span>
+              <span>Upload Image</span>
+            </div>
+            <img id="imgPreview_4" style="display:none;width:100%;height:100%;object-fit:cover;border-radius:4px" />
+          </div>
+          <div class="image-upload-list-item" onclick="this.querySelector('input[type=file]').click()">
+            <input type="file" name="image_5" accept="image/*" style="display:none" onchange="handleImageSelect(this, 5)">
+            <div class="image-upload-photobank-placeholder" id="imgPlaceholder_5">
+              <span class="iconfont" style="font-size:24px;color:#999">＋</span>
+              <span>Upload Image</span>
+            </div>
+            <img id="imgPreview_5" style="display:none;width:100%;height:100%;object-fit:cover;border-radius:4px" />
+          </div>
+          <div class="image-upload-list-item" onclick="this.querySelector('input[type=file]').click()">
+            <input type="file" name="image_6" accept="image/*" style="display:none" onchange="handleImageSelect(this, 6)">
+            <div class="image-upload-photobank-placeholder" id="imgPlaceholder_6">
+              <span class="iconfont" style="font-size:24px;color:#999">＋</span>
+              <span>Upload Image</span>
+            </div>
+            <img id="imgPreview_6" style="display:none;width:100%;height:100%;object-fit:cover;border-radius:4px" />
+          </div>
+          <div class="image-upload-list-item" style="border:1px dashed #0070cc;background:#f0f7ff" onclick="this.querySelector('input[type=file]').click()">
+            <input type="file" name="video" accept="video/*" style="display:none" onchange="handleVideoSelect(this)">
+            <div class="image-upload-photobank-placeholder" id="videoPlaceholder">
+              <span class="iconfont" style="font-size:24px;color:#0070cc">▶</span>
+              <span style="color:#0070cc">Upload Video</span>
+              <span style="font-size:11px;color:#999">≤45s/100MB</span>
+            </div>
+            <div id="videoPreviewName" style="display:none;padding:4px;font-size:12px;color:#333;text-align:center;word-break:break-all"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- productTitle: Product Title -->
+    <div class="form-row" id="productTitle">
+      <div class="row-label required">Product Title<span class="help-icon">?</span></div>
+      <div class="row-content">
+        <div class="next-input"><input type="text" name="productTitle" placeholder="" maxlength="180" autocomplete="off"></div>
+      </div>
+    </div>
+
+    <!-- productKeywords: Keywords -->
+    <div class="form-row" id="productKeywords">
+      <div class="row-label">Keywords</div>
+      <div class="row-content" style="display:flex;flex-direction:column;gap:8px">
+        <textarea class="next-textarea" name="keyword_1" rows="2" placeholder='Format: "modifier + core product + scenario", e.g. "Red 8GB mp3 for sports"'></textarea>
+        <textarea class="next-textarea" name="keyword_2" rows="2" placeholder='Format: "modifier + core product + scenario", e.g. "Red 8GB mp3 for sports"'></textarea>
+        <textarea class="next-textarea" name="keyword_3" rows="2" placeholder='Format: "modifier + core product + scenario", e.g. "Red 8GB mp3 for sports"'></textarea>
+      </div>
+    </div>
+
+    <!-- productGroup: Product Group -->
+    <div class="form-row" id="productGroup">
+      <div class="row-label">Product Group<span class="help-icon">?</span></div>
+      <div class="row-content">
+        <div class="next-select-outer w300">
+          <input type="text" name="productGroup" placeholder="e.g. LED Lighting, Fitness" maxlength="50" style="border:none;outline:none;width:100%;height:100%;font-size:14px">
+        </div>
+      </div>
+    </div>
+
+    <!-- catPropText: Product Attributes Header -->
+    <div style="padding:16px 0;border-bottom:1px solid #f5f5f5" id="catPropText">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start">
+        <div>
+          <span style="font-size:14px;font-weight:600;color:#333">Product Attributes</span>
+          <div style="font-size:12px;color:#999;margin-top:2px">Complete and accurate attributes help your product get more exposure</div>
+        </div>
+        <div style="font-size:13px;white-space:nowrap">Can't find the right attribute? <a href="javascript:void(0)" target="_blank">Submit request</a></div>
+      </div>
+    </div>
+
+    <!-- icbuCatProp: Product Attributes -->
+    <div id="icbuCatProp" style="padding:12px 0">
+      <div class="catProp-grid">
+        <div class="sell-catProp-item"><div class="label">Usage</div>
+          <div class="next-input"><input type="text" name="attr_usage" placeholder="e.g. Indoor Lighting, Kitchen" maxlength="100"></div></div>
+        <div class="sell-catProp-item"><div class="label">Product Type</div>
+          <div class="next-input"><input type="text" name="attr_productType" placeholder="e.g. LED Bulb, Valve" maxlength="100"></div></div>
+        <div class="sell-catProp-item"><div class="label">Instructions</div>
+          <div class="next-input"><input type="text" name="attr_instructions" placeholder="Usage instructions" maxlength="200"></div></div>
+        <div class="sell-catProp-item"><div class="label">Brand</div>
+          <div class="next-input"><input type="text" name="attr_brand" placeholder="Enter value" maxlength="50"></div></div>
+        <div class="sell-catProp-item"><div class="label">Model</div>
+          <div class="next-input"><input type="text" name="attr_model" placeholder="Enter value" maxlength="50"></div></div>
+        <div class="sell-catProp-item"><div class="label">Material</div>
+          <div class="next-input"><input type="text" name="attr_material" placeholder="Enter value" maxlength="50"></div></div>
+        <div class="sell-catProp-item"><div class="label">Diameter</div>
+          <div class="next-input"><input type="text" name="attr_diameter" placeholder="Enter value" maxlength="50"></div></div>
+        <div class="sell-catProp-item"><div class="label">Shape</div>
+          <div class="next-input"><input type="text" name="attr_shape" placeholder="Enter value" maxlength="50"></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ====== trade-card: Trade Information ====== -->
+<div class="sell-card" id="trade-card">
+  <header class="icbu-card-title" id="trade-card-title"><h2><span>Trade Information</span></h2></header>
+  <div class="module-card">
+
+    <!-- saleType: Sale Type -->
+    <div class="form-row" id="saleType">
+      <div class="row-label required">Sale Type</div>
+      <div class="row-content">
+        <div class="next-select-outer w300">
+          <span class="sel-ph">Please select</span>
+          <select name="saleType"><option value="">Please select</option><option value="Per Piece">Per Piece</option><option value="Per Set">Per Set</option><option value="Per Lot">Per Lot</option></select>
+        </div>
+      </div>
+    </div>
+
+    <!-- priceUnit: unit -->
+    <div class="form-row" id="priceUnit">
+      <div class="row-label required">Price Unit</div>
+      <div class="row-content">
+        <div class="next-select-outer w300">
+          <span class="sel-ph">Please select</span>
+          <select name="priceUnit">
+            <option value="">Please select</option>
+            <option value="Piece">Piece</option><option value="Set">Set</option><option value="Pair">Pair</option>
+            <option value="Roll">Roll</option><option value="Unit">Unit</option>
+            <option value="Meter">Meter</option><option value="Ton">Ton</option><option value="Kilogram">Kilogram</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- batchNum: Batch quantity setting (hidden by default but shown here) -->
+    <div class="form-row" id="batchNum" style="display:none">
+      <div class="row-label">Batch quantity setting</div>
+      <div class="row-content">
+        <span style="display:inline-flex;align-items:center">
+          <div class="next-input" style="width:200px"><input type="number" placeholder="Enter value" min="1" max="999999999" maxlength="15"></div>
+          <span class="input-unit"> unit</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- scPrice: Price Mode -->
+    <div class="form-row" id="scPrice">
+      <div class="row-label">&nbsp;</div>
+      <div class="row-content">
+        <div class="sell-radio" style="display:flex;gap:48px">
+          <span class="radio-item"><label class="next-radio-wrapper checked" onclick="switchPriceMode('ladder')"><span class="next-radio checked"><span class="next-radio-inner press"></span><input type="radio" name="priceMode" value="ladder" checked></span></label><span class="item-label">Tiered Pricing (by quantity)</span><span class="help-icon" style="color:#b3b3b3;margin-left:4px;cursor:help">?</span></span>
+          <span class="radio-item"><label class="next-radio-wrapper" onclick="switchPriceMode('single')"><span class="next-radio"><span class="next-radio-inner unpress"></span><input type="radio" name="priceMode" value="single"></span></label><span class="item-label">Single Price Range</span><span class="help-icon" style="color:#b3b3b3;margin-left:4px;cursor:help">?</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ladderPrice: Tiered Price (visible in ladder mode) -->
+    <div class="form-row" id="ladderPrice">
+      <div class="row-label">&nbsp;</div>
+      <div class="row-content">
+        <div class="ladder-price-row">
+          <div class="ladder-price-left">
+            <table class="ladder-price-table">
+              <colgroup><col><col style="width:215px"><col style="width:100px"></colgroup>
+              <thead><tr>
+                <th><label class="table-header-label required"><span>Min Order Qty</span> <span class="table-header-desc" title="pcs">(pcs)</span></label></th>
+                <th><label class="table-header-label required"><span>Unit Price</span> <span class="table-header-desc" title="Price Unit">(unit)</span></label>
+                  <select id="currencySelect" onchange="updateCurrencyLabels()" style="margin-left:4px;height:22px;border:1px solid #c4c6cf;border-radius:3px;font-size:12px;padding:0 2px">
+                    <option value="US $" selected>US $</option><option value="EUR">EUR €</option><option value="GBP">GBP £</option><option value="JPY">JPY ¥</option><option value="AUD">AUD $</option><option value="CAD">CAD $</option><option value="CNY">CNY ¥</option>
+                  </select>
+                </th>
+                <th class="delete-btn">Action</th>
+              </tr></thead>
+              <tbody id="priceRows">
+                <tr>
+                  <td><div class="next-input"><input type="text" placeholder="e.g. 300-999" maxlength="20" oninput="rebuildCountryPriceTable()"></div></td>
+                  <td><div class="next-input-group"><span class="next-input-group-addon">US $</span><div class="next-input"><input type="text" placeholder="Enter price" maxlength="15"></div></div></td>
+                  <td class="delete-btn"><button disabled style="font-size:12px;background:none;border:none;color:#ccc;cursor:not-allowed">Delete</button></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="ladder-price-more">
+              <button class="btn-add" type="button" onclick="addPriceRow()">+ Add price tier</button>
+              <span class="btn-add-desc">(max 4 tiers)</span>
+            </div>
+          </div>
+          <div class="ladder-price-right" style="width:300px;flex-shrink:0">
+            <div class="ladder-price-preview">
+              <div class="ladder-price-preview-header"><label>Preview</label><span class="unit-hint">(unit: unit)</span></div>
+              <p class="preview-empty-hint">Empty. Please set at least one price tier.</p>
+            </div>
+          </div>
+        </div>
+        <div class="promo-tip">
+          <span>[Promotion Tip] </span>You can batch-edit prices or set tariff discounts to boost conversions.
+          <button style="background:none;border:none;color:#0070cc;cursor:pointer;font-size:12px;padding:0">Batch edit prices</button>
+        </div>
+        <!-- Country price diff (embedded below tiered price) -->
+        <div id="countryPriceDiffSection" style="display:none;margin-top:16px;padding:16px;background:#f7f8fa;border-radius:6px;border:1px solid #e8e8e8">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;cursor:pointer" onclick="toggleCountryPricePanel()">
+            <span style="font-size:14px;font-weight:500;color:#333">Country Price Settings</span>
+            <span id="countryPriceToggle" style="color:#0070cc;font-size:12px">▼</span>
+          </div>
+          <div id="countryPricePanel">
+            <div style="margin-bottom:10px;display:flex;gap:16px;flex-wrap:wrap">
+              <label style="font-size:13px;cursor:pointer;display:flex;align-items:center;gap:4px"><input type="radio" name="countryPriceMode" value="direct" checked style="accent-color:#0070cc"> Set price directly</label>
+              <label style="font-size:13px;cursor:pointer;display:flex;align-items:center;gap:4px"><input type="radio" name="countryPriceMode" value="offset" style="accent-color:#0070cc"> Base price +/- amount</label>
+              <label style="font-size:13px;cursor:pointer;display:flex;align-items:center;gap:4px"><input type="radio" name="countryPriceMode" value="percent" style="accent-color:#0070cc"> Base price % adjustment</label>
+            </div>
+            <div id="countryPriceModeHint" style="font-size:12px;color:#999;margin-bottom:8px">Set independent prices for each country/region</div>
+            <div style="overflow-x:auto">
+              <table id="countryPriceTable" class="ladder-price-table" style="min-width:100%;background:#fff">
+                <thead id="countryPriceHead"><tr><th style="min-width:120px">Min Order Qty</th></tr></thead>
+                <tbody id="countryPriceBody"></tbody>
+              </table>
+            </div>
+          </div>
+          <input type="hidden" name="countryPriceDiff" id="countryPriceDiffValue" value="{}">
+        </div>
+      </div>
+    </div>
+
+    <!-- tariffsHsCode: US HS Code -->
+    <div class="form-row" id="tariffsHsCode">
+      <div class="row-label">US HS Code<span style="display:block;font-size:12px;color:#999;font-weight:400;text-align:right">(required for trade)</span></div>
+      <div class="row-content">
+        <div class="tariffs-code-container">
+          <span class="hs-code-label">US HS Code</span>
+          <span class="hs-code-number-none">Not selected</span>
+          <span class="edit-icon" style="margin-left:12px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2.5 2.667H11.667V3.583H2.917V12.417H12.417V8H13.333V12.833c0 .277-.224.5-.5.5H2.5a.5.5 0 01-.5-.5V3.167c0-.277.224-.5.5-.5Z" fill="#ACACAC"/><path d="M13.786 3.215l.648.648L8.296 10H7.667v-.667l6.119-6.118Z" fill="#ACACAC"/></svg>
+            <button class="edit-btn-text" disabled style="color:#acacac;cursor:not-allowed">Add customs attributes</button>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- countryPriceDiff: moved into ladder price area -->
+
+    <!-- fob: Unit Price (visible in single mode) -->
+    <div class="form-row" id="fobPrice">
+      <div class="row-label">Unit Price</div>
+      <div class="row-content">
+        <div style="margin-bottom:8px">
+          <div class="next-select-outer" style="width:200px">
+            <span class="sel-ph">Please select</span>
+            <select name="fobType"><option value="">Please select</option><option value="FOB Shenzhen">FOB Shenzhen</option><option value="FOB Ningbo">FOB Ningbo</option><option value="FOB Shanghai">FOB Shanghai</option><option value="FOB Guangzhou">FOB Guangzhou</option><option value="FOB Yiwu">FOB Yiwu</option><option value="CIF">CIF</option><option value="EXW">EXW</option></select>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px">
+          <div class="next-input" style="width:200px"><input type="text" name="fobPriceMin" placeholder="Min price" maxlength="15"></div>
+          <span style="color:#999">-</span>
+          <div class="next-input" style="width:200px"><input type="text" name="fobPriceMax" placeholder="Max price" maxlength="15"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- minOrderQuantity: Min Order Qty (visible in single mode) -->
+    <div class="form-row" id="minOrderQuantity">
+      <div class="row-label">Min Order Qty</div>
+      <div class="row-content">
+        <span style="display:inline-flex;align-items:center">
+          <div class="next-input" style="width:200px"><input type="number" name="minOrderQuantity" placeholder="Enter value" min="0" max="999999999" maxlength="15"></div>
+          <span class="input-unit"> unit</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- inventory: Stock Qty -->
+    <div class="form-row" id="inventory">
+      <div class="row-label">Stock Qty</div>
+      <div class="row-content">
+        <div class="next-input" style="width:200px"><input type="number" name="inventory" placeholder="Enter quantity" min="1" max="999999999" maxlength="15"></div>
+      </div>
+    </div>
+
+    <!-- ladderPeriod: Delivery Period -->
+    <div class="form-row" id="ladderPeriod">
+      <div class="row-label required">Delivery Period</div>
+      <div class="row-content">
+        <div class="ladder-price-row">
+          <div class="ladder-price-left">
+            <table class="ladder-price-table">
+              <colgroup><col><col><col style="width:100px"></colgroup>
+              <thead><tr>
+                <th><label class="table-header-label required"><span>Quantity</span> <span class="table-header-desc">(unit)</span></label></th>
+                <th><label class="table-header-label required"><span>Est. Time</span> <span class="table-header-desc">(days)</span></label></th>
+                <th class="delete-btn" style="text-align:left">Action</th>
+              </tr></thead>
+              <tbody id="deliveryRows">
+                <tr>
+                  <td><div class="next-input"><input type="text" placeholder="e.g. 1-1000" maxlength="20"></div></td>
+                  <td><div class="next-input"><input type="number" placeholder="Enter value" min="1" max="999999999" maxlength="15"></div></td>
+                  <td class="delete-btn"><button disabled style="font-size:12px;background:none;border:none;color:#ccc;cursor:not-allowed">Delete</button></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="ladder-price-more">
+              <button class="btn-add" type="button" onclick="addDeliveryRow()">+ Add delivery tier</button>
+              <span class="btn-add-desc">(max 3 tiers)</span>
+            </div>
+          </div>
+          <div class="ladder-price-right" style="width:300px;flex-shrink:0">
+            <div class="ladder-price-preview">
+              <div class="ladder-price-preview-header"><label>Preview</label><span class="unit-hint">(unit: unit)</span></div>
+              <p class="preview-empty-hint">Set reasonable delivery periods based on order qty (<a href="javascript:void(0)" target="_blank">How to calculate</a>). Note: Delivery period is part of Trade Assurance. Please set realistic times to avoid disputes (<a href="javascript:void(0)" target="_blank">Penalty rules</a>）。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ====== scm-region-card: Certificates & Other Services ====== -->
+<div class="sell-card" id="scm-region-card">
+  <header class="icbu-card-title" id="scm-region-card-title"><h2><span>Certificates & Other Services</span></h2></header>
+
+  <!-- custom-card: Customization -->
+  <header class="icbu-card-title small-title" id="custom-card-title"><h2><span>Customization</span></h2></header>
+  <div class="module-card" id="custom-card-wrapper">
+    <div class="form-row" id="newCustomizedServices">
+      <div class="row-label">Deep Customization</div>
+      <div class="row-content">
+        <div class="customizedServices-container">
+          <div class="customizedServices-container-title">Deep Customization(0/4)</div>
+          <div class="title-bottom">Can't find suitable attributes. <a href="javascript:void(0)" target="_blank">Submit request</a></div>
+          <div><span class="custom-text" onclick="addCustomization()" style="cursor:pointer">＋ <span class="custom-text-add">Add capability</span></span></div>
+        </div>
+        <div class="sell-bottom-message">
+          <div class="msg-text"><p>[Deep Customization] upgraded. Express attributes seriously for better matching.<a href="javascript:void(0)" target="_blank">Details</a></p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- service-card-title: Services -->
+  <header class="icbu-card-title small-title" id="service-card-title"><h2><span>Services</span></h2></header>
+  <div class="module-card" id="service-card">
+
+    <!-- productVisible: Private Label -->
+    <div class="form-row" id="productVisible">
+      <div class="row-label">Private Label</div>
+      <div class="row-content">
+        <div class="sell-radio">
+          <span class="radio-item"><label class="next-radio-wrapper"><span class="next-radio"><span class="next-radio-inner unpress"></span><input type="radio" name="productVisible" value="yes"></span></label><span class="item-label">Yes</span><span class="help-icon" style="color:#b3b3b3;margin-left:4px;cursor:help;font-size:12px">?</span></span>
+          <span class="radio-item"><label class="next-radio-wrapper"><span class="next-radio checked"><span class="next-radio-inner press"></span><input type="radio" name="productVisible" value="no" checked></span></label><span class="item-label">No</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- productCertificate: Product Certificates -->
+    <div class="form-row" id="productCertificate">
+      <div class="row-label">Product Certificates</div>
+      <div class="row-content">
+        <table class="certificate-table">
+          <colgroup><col style="width:190px"><col><col><col style="width:32px"></colgroup>
+          <thead><tr>
+            <th>No.</th>
+            <th>Certificate Name</th>
+            <th>Verification<span class="help-icon" style="color:#b3b3b3;margin-left:4px;font-size:12px;cursor:help">?</span></th>
+            <th></th>
+          </tr></thead>
+          <tbody>
+            <tr><td colspan="4" style="text-align:center;padding:16px;color:#999">No certificates added. Click to add.</td></tr>
+          </tbody>
+        </table>
+        <div class="add-more">
+          <button type="button" onclick="addCertificate()">+&nbsp;Add Certificate</button>
+          <span>(no limit)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ====== desc-card: Product Description ====== -->
+<div class="sell-card" id="struct-desc-card">
+  <header class="icbu-card-title" id="desc-card-title"><h2><span>Product Description</span></h2></header>
+  <div class="card-body">
+
+    <!-- superText: Rich Text Editor -->
+    <div style="margin-top:12px" id="superText">
+      <input type="hidden" name="descType" value="custom">
+      <!-- Toolbar Row 1 -->
+      <div class="editor-toolbar">
+        <div class="tb-group">
+          <select class="tb-select" title="Font" style="width:110px" onchange="execFont(this.value)">
+            <option value="" disabled selected>Font</option><option value="Arial">Arial</option><option value="Times New Roman">Times New Roman</option><option value="Verdana">Verdana</option><option value="Georgia">Georgia</option><option value="Courier New">Courier New</option><option value="Microsoft YaHei">Microsoft YaHei</option><option value="SimSun">SimSun</option>
+          </select>
+          <select class="tb-select" title="Size" style="width:70px" onchange="document.execCommand('fontSize',false,this.value)">
+            <option value="" disabled selected>Size</option><option value="1">12px</option><option value="2">14px</option><option value="3">16px</option><option value="4">18px</option><option value="5">24px</option><option value="6">32px</option><option value="7">48px</option>
+          </select>
+        </div>
+        <div class="tb-group">
+          <button class="tb-btn" title="Bold" onclick="document.execCommand('bold')">B</button>
+          <button class="tb-btn" title="Italic" onclick="document.execCommand('italic')">I</button>
+          <button class="tb-btn" title="Underline" onclick="document.execCommand('underline')">U</button>
+          <button class="tb-btn" title="Strikethrough" onclick="document.execCommand('strikeThrough')">S</button>
+        </div>
+        <div class="tb-group">
+          <button class="tb-btn" title="Font Color" onclick="editorColorPick('foreColor')">Color</button>
+          <button class="tb-btn" title="Background Color" onclick="editorColorPick('hiliteColor')">BG</button>
+        </div>
+        <div class="tb-group">
+          <button class="tb-btn" title="Unordered List" onclick="document.execCommand('insertUnorderedList')">UL</button>
+          <button class="tb-btn" title="Ordered List" onclick="document.execCommand('insertOrderedList')">OL</button>
+        </div>
+        <div class="tb-group">
+          <button class="tb-btn" title="Align Left" onclick="document.execCommand('justifyLeft')">Left</button>
+          <button class="tb-btn" title="Align Center" onclick="document.execCommand('justifyCenter')">Center</button>
+          <button class="tb-btn" title="Align Right" onclick="document.execCommand('justifyRight')">Right</button>
+        </div>
+        <div class="tb-group">
+          <button class="tb-btn" title="Decrease Indent" onclick="document.execCommand('outdent')">Outdent</button>
+          <button class="tb-btn" title="Increase Indent" onclick="document.execCommand('indent')">Indent</button>
+        </div>
+        <div class="tb-group">
+          <button class="tb-btn" title="Insert Image" onclick="document.getElementById('editorImageUpload').click()">Insert Image</button>
+          <input type="file" id="editorImageUpload" accept="image/*" multiple style="display:none" onchange="insertEditorImages(this)">
+          <button class="tb-btn" title="Insert Link" onclick="insertEditorLink()">Link</button>
+          <button class="tb-btn" title="Insert Table" onclick="insertEditorTable()">Table</button>
+        </div>
+        <div class="tb-group">
+          <button class="tb-btn" title="Undo" onclick="document.execCommand('undo')">Undo</button>
+          <button class="tb-btn" title="Redo" onclick="document.execCommand('redo')">Redo</button>
+          <button class="tb-btn" title="Clear Format" onclick="document.execCommand('removeFormat')">Clear</button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="editor-nav">
+        <div class="nav-tab active" onclick="switchNavTab(this)">Product Description</div>
+        <div class="nav-tab" onclick="switchNavTab(this)">Packaging &amp; Shipping</div>
+        <div class="nav-tab" onclick="switchNavTab(this)">Our Services</div>
+        <div class="nav-tab" onclick="switchNavTab(this)">Company Information</div>
+        <div class="nav-tab" onclick="switchNavTab(this)">FAQ</div>
+      </div>
+
+      <!-- Editor Body -->
+      <div class="editor-body" contenteditable="true" id="editorBody" style="min-height:300px">
+        <span class="editor-placeholder">Type "/" to invoke AI assistant for high-quality product descriptions</span>
+      </div>
+
+      <!-- Status Bar -->
+      <div class="editor-statusbar">
+        <span></span>
+        <div style="display:flex;gap:16px;align-items:center">
+          <span class="ai-hint">Type "/" for AI assistant</span>
+          <span class="word-count">Chars left: <span id="editorWordCount">50000</span></span>
+          <span class="word-count">Images left: <span id="editorImgCount">30</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ====== agreement-card ====== -->
+<div class="sell-card" id="agreement-card">
+  <div style="padding:16px 24px">
+    <div class="form-row" style="border:none;padding:0" id="agreement">
+      <div class="row-label required">Listing Agreement</div>
+      <div class="row-content">
+        <div class="posting-field-agreement">
+          <div class="label">Listing Agreement</div>
+          <div class="agreement-check">
+            <input type="checkbox" name="agreement" checked style="width:16px;height:16px;accent-color:#0070cc">
+            <div>
+              <div class="name">Please verify that your submitted information is authentic, <a href="javascript:void(0)" target="_blank">legal</a> and <a href="javascript:void(0)" target="_blank">valid</a>。</div>
+              <div class="tips">You can edit the listing after it is published or returned.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /struct-right -->
+</div><!-- /sell-wrap -->
+
+<!-- ====== float-bottom: Bottom Action Bar ====== -->
+<div class="sell-float-bottom" id="float-bottom">
+  <div class="button-container">
+    <button type="button" class="transparentBtn" style="width:160px;height:36px">Preview</button>
+    <button type="button" class="transparentBtn" style="margin-left:10px;width:160px;height:36px">Save</button>
+    <button type="button" class="button-submit-button" style="margin-left:10px" onclick="submitForm()">Submit</button>
+  </div>
+</div>
+
+<script>
+function switchQaTab(el, tab) {
+  document.querySelectorAll('.tab-item').forEach(function(t){t.classList.remove('tab-checked')});
+  el.classList.add('tab-checked');
+  document.getElementById('qaTabCheck').style.display = tab==='check'?'':'none';
+  document.getElementById('qaTabRules').style.display = tab==='rules'?'':'none';
+}
+
+function switchPriceMode(mode) {
+  var ladder = document.getElementById('ladderPrice');
+  var fob = document.getElementById('fobPrice');
+  var moq = document.getElementById('minOrderQuantity');
+  if (mode === 'ladder') {
+    ladder.style.display = '';
+  } else {
+    ladder.style.display = 'none';
+  }
+  fob.style.display = '';
+  moq.style.display = '';
+  // Update radio visual state
+  document.querySelectorAll('input[name="priceMode"]').forEach(function(r) {
+    var w = r.closest('.next-radio-wrapper');
+    var s = r.closest('.next-radio') || w.querySelector('.next-radio');
+    w.classList.remove('checked');
+    if (s) { s.classList.remove('checked'); s.querySelector('.next-radio-inner').className = 'next-radio-inner unpress'; }
+    r.checked = false;
+  });
+  var idx = mode === 'ladder' ? 0 : 1;
+  var radios = document.querySelectorAll('input[name="priceMode"]');
+  var target = radios[idx];
+  target.checked = true;
+  var tw = target.closest('.next-radio-wrapper');
+  var ts = tw.querySelector('.next-radio');
+  tw.classList.add('checked');
+  if (ts) { ts.classList.add('checked'); ts.querySelector('.next-radio-inner').className = 'next-radio-inner press'; }
+}
+
+function switchNavTab(el) {
+  document.querySelectorAll('.editor-nav .nav-tab').forEach(function(t){t.classList.remove('active')});
+  el.classList.add('active');
+}
+
+function execFont(fontName) {
+  if(!fontName) return;
+  document.execCommand('fontName', false, fontName);
+  document.getElementById('editorBody').focus();
+}
+
+function editorColorPick(command) {
+  var color = prompt(command === 'foreColor' ? 'Enter font color (e.g. #ff0000 or red)' : 'Enter background color (e.g. #ffff00 or yellow)', '#ff0000');
+  if(color) document.execCommand(command, false, color);
+}
+
+var editorImgUsed = 0;
+function insertEditorImages(input) {
+  if(!input.files) return;
+  var editor = document.getElementById('editorBody');
+  var ph = editor.querySelector('.editor-placeholder');
+  if(ph) ph.remove();
+  editor.focus();
+  Array.from(input.files).forEach(function(file) {
+    if(editorImgUsed >= 30) { alert('Max 30 images'); return; }
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var img = '<img src="' + e.target.result + '" style="max-width:100%;margin:8px 0;display:block;border-radius:4px">';
+      document.execCommand('insertHTML', false, img);
+      editorImgUsed++;
+      document.getElementById('editorImgCount').textContent = 30 - editorImgUsed;
+    };
+    reader.readAsDataURL(file);
+  });
+  input.value = '';
+}
+
+function insertEditorLink() {
+  var url = prompt('Enter URL', 'https://');
+  if(!url) return;
+  var text = window.getSelection().toString() || url;
+  document.execCommand('insertHTML', false, '<a href="' + url + '" target="_blank" style="color:#0070cc">' + text + '</a>');
+}
+
+function insertEditorTable() {
+  var rows = prompt('Table rows', '3');
+  var cols = prompt('Table columns', '3');
+  if(!rows || !cols) return;
+  var r = parseInt(rows), c = parseInt(cols);
+  if(isNaN(r) || isNaN(c) || r < 1 || c < 1) return;
+  var html = '<table style="border-collapse:collapse;width:100%;margin:8px 0"><tbody>';
+  for(var i = 0; i < r; i++) {
+    html += '<tr>';
+    for(var j = 0; j < c; j++) html += '<td style="border:1px solid #d9d9d9;padding:6px 8px;min-width:60px">&nbsp;</td>';
+    html += '</tr>';
+  }
+  html += '</tbody></table><p></p>';
+  document.execCommand('insertHTML', false, html);
+}
+
+document.getElementById('editorBody').addEventListener('input', function() {
+  var text = this.textContent || '';
+  var remaining = 50000 - text.length;
+  document.getElementById('editorWordCount').textContent = Math.max(0, remaining);
+});
+
+document.getElementById('editorBody').addEventListener('focus', function(){
+  var ph = this.querySelector('.editor-placeholder');
+  if(ph) ph.remove();
+});
+document.getElementById('editorBody').addEventListener('blur', function(){
+  var text = this.textContent.trim();
+  if(!text || text.length === 0){
+    this.innerHTML='<span class="editor-placeholder">Type "/" to invoke AI assistant for high-quality product descriptions</span>';
+  }
+});
+
+var priceRowCount=1;
+function getCurrency() { var sel = document.getElementById('currencySelect'); return sel ? sel.value : 'US $'; }
+function updateCurrencyLabels() {
+  var c = getCurrency();
+  document.querySelectorAll('#priceRows .next-input-group-addon').forEach(function(el){ if(el.textContent.match(/US \$|EUR|GBP|JPY|AUD|CAD|CNY/)) el.textContent = c; });
+  rebuildCountryPriceTable();
+}
+function addPriceRow(){
+  if(priceRowCount>=4) return;
+  priceRowCount++;
+  var c = getCurrency();
+  var tr=document.createElement('tr');
+  tr.innerHTML='<td><div class="next-input"><input type="text" placeholder="e.g. 1000-4999" maxlength="20" oninput="rebuildCountryPriceTable()"></div></td>'
+    +'<td><div class="next-input-group"><span class="next-input-group-addon">'+c+'</span><div class="next-input"><input type="text" placeholder="Enter price" maxlength="15"></div></div></td>'
+    +'<td class="delete-btn"><button style="font-size:12px;background:none;border:none;color:#ff3000;cursor:pointer" onclick="this.closest(\'tr\').remove();priceRowCount--;rebuildCountryPriceTable()">Delete</button></td>';
+  document.getElementById('priceRows').appendChild(tr);
+  rebuildCountryPriceTable();
+}
+
+function addDeliveryRow(){
+  var tr=document.createElement('tr');
+  tr.innerHTML='<td><div class="next-input"><input type="text" placeholder="e.g. 1001-5000" maxlength="20"></div></td>'
+    +'<td><div class="next-input"><input type="number" placeholder="Enter value" min="1" maxlength="15"></div></td>'
+    +'<td class="delete-btn"><button style="font-size:12px;background:none;border:none;color:#ff3000;cursor:pointer" onclick="this.closest(\'tr\').remove()">Delete</button></td>';
+  document.getElementById('deliveryRows').appendChild(tr);
+}
+
+document.querySelectorAll('.next-radio-wrapper').forEach(function(wrapper){
+  wrapper.addEventListener('click', function(e){
+    var inp = this.querySelector('input[type=radio]');
+    if(!inp) return;
+    var name = inp.name;
+    if(name === 'priceMode') return; // handled by switchPriceMode
+    document.querySelectorAll('input[name="'+name+'"]').forEach(function(r){
+      var w = r.closest('.next-radio-wrapper');
+      var s = r.closest('.next-radio');
+      if(w){w.classList.remove('checked');}
+      if(s){s.classList.remove('checked');s.querySelector('.next-radio-inner').className='next-radio-inner unpress';}
+      r.checked = false;
+    });
+    this.classList.add('checked');
+    var radio = this.querySelector('.next-radio');
+    if(radio){radio.classList.add('checked');radio.querySelector('.next-radio-inner').className='next-radio-inner press';}
+    inp.checked = true;
+  });
+});
+
+document.querySelectorAll('.next-select-outer select').forEach(function(sel){
+  sel.addEventListener('change', function(){
+    var w=this.closest('.next-select-outer');
+    var v=w.querySelector('.sel-val'), p=w.querySelector('.sel-ph');
+    if(this.value){
+      if(v) v.textContent=this.options[this.selectedIndex].text;
+      if(p){p.className='sel-val';p.textContent=this.options[this.selectedIndex].text;}
+    }
+  });
+});
+
+// === Benchmark form infrastructure ===
+
+var currentSessionId = null;
+var currentUiToken = null;
+
+function storeUiToken(sessionId, token) {
+  if (!sessionId || !token) return;
+  sessionStorage.setItem('alibaba_publish_ui_token_' + sessionId, token);
+}
+
+// Initialize session on page load
+window.addEventListener('DOMContentLoaded', function() {
+  fetch('/api/session').then(function(r) { return r.json(); }).then(function(data) {
+    currentSessionId = data.sessionId;
+    currentUiToken = data.uiToken;
+    storeUiToken(currentSessionId, currentUiToken);
+    document.getElementById('sessionIdDisplay').textContent = data.sessionId.substring(0, 8) + '...';
+  });
+});
+
+function resetSession() {
+  fetch('/api/reset', { method: 'POST' }).then(function(r) { return r.json(); }).then(function(data) {
+    currentSessionId = data.sessionId;
+    currentUiToken = data.uiToken;
+    storeUiToken(currentSessionId, currentUiToken);
+    document.getElementById('sessionIdDisplay').textContent = data.sessionId.substring(0, 8) + '...';
+    location.reload();
+  });
+}
+
+function handleImageSelect(input, idx) {
+  var placeholder = document.getElementById('imgPlaceholder_' + idx);
+  var preview = document.getElementById('imgPreview_' + idx);
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      preview.src = e.target.result;
+      preview.style.display = 'block';
+      placeholder.style.display = 'none';
+    };
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+
+function handleVideoSelect(input) {
+  var placeholder = document.getElementById('videoPlaceholder');
+  var nameEl = document.getElementById('videoPreviewName');
+  if (input.files && input.files[0]) {
+    placeholder.style.display = 'none';
+    nameEl.textContent = input.files[0].name;
+    nameEl.style.display = 'block';
+  }
+}
+
+function collectLadderPrice() {
+  var rows = document.querySelectorAll('#priceRows tr');
+  var data = [];
+  rows.forEach(function(row) {
+    var inputs = row.querySelectorAll('input');
+    if (inputs.length >= 2) {
+      var qty = inputs[0].value;
+      var price = inputs[1].value;
+      if (qty || price) data.push({ quantity: qty, price: price });
+    }
+  });
+  return JSON.stringify(data);
+}
+
+function collectDeliveryPeriod() {
+  var rows = document.querySelectorAll('#deliveryRows tr');
+  var data = [];
+  rows.forEach(function(row) {
+    var inputs = row.querySelectorAll('input');
+    if (inputs.length >= 2) {
+      var qty = inputs[0].value;
+      var days = inputs[1].value;
+      if (qty || days) data.push({ quantity: qty, days: days });
+    }
+  });
+  return JSON.stringify(data);
+}
+
+function submitForm() {
+  if (!currentSessionId) { alert('No active session'); return; }
+
+  var fd = new FormData();
+
+  // File inputs
+  for (var i = 1; i <= 6; i++) {
+    var fileInput = document.querySelector('input[name="image_' + i + '"]');
+    if (fileInput && fileInput.files[0]) fd.append('image_' + i, fileInput.files[0]);
+  }
+
+  // All named text/select/number inputs
+  var fields = ['category', 'saleMode', 'descType', 'productTitle', 'productGroup', 'saleType', 'priceUnit', 'fobType', 'fobPriceMin', 'fobPriceMax', 'minOrderQuantity', 'inventory',
+    'attr_usage', 'attr_productType', 'attr_instructions', 'attr_brand', 'attr_model', 'attr_material', 'attr_diameter', 'attr_shape'];
+  fields.forEach(function(name) {
+    var el = document.querySelector('[name="' + name + '"]');
+    if (el && el.value) fd.append(name, el.value);
+  });
+
+  // Textareas
+  ['keyword_1', 'keyword_2', 'keyword_3'].forEach(function(name) {
+    var el = document.querySelector('[name="' + name + '"]');
+    if (el && el.value) fd.append(name, el.value);
+  });
+
+  // Checkboxes (countries + agreement)
+  ['agreement'].forEach(function(name) {
+    var el = document.querySelector('[name="' + name + '"]');
+    if (el && el.checked) fd.append(name, 'true');
+  });
+
+  // Country data (JSON hidden inputs)
+  fd.append('selectedCountries', document.getElementById('selectedCountriesValue').value);
+  fd.append('countryPriceDiff', document.getElementById('countryPriceDiffValue').value);
+
+  // Radios
+  ['priceMode', 'productVisible'].forEach(function(name) {
+    var checked = document.querySelector('[name="' + name + '"]:checked');
+    if (checked) fd.append(name, checked.value || 'on');
+  });
+
+  // Dynamic tables
+  fd.append('ladderPrice', collectLadderPrice());
+  fd.append('deliveryPeriod', collectDeliveryPeriod());
+
+  // Rich text
+  var editor = document.getElementById('editorBody');
+  var html = editor.innerHTML;
+  if (html && !html.includes('editor-placeholder')) fd.append('descriptionHtml', html);
+
+  fetch('/api/submit', {
+    method: 'POST',
+    headers: { 'X-Session-Id': currentSessionId, 'X-Ui-Token': currentUiToken },
+    body: fd
+  }).then(function(r) { return r.json(); }).then(function(data) {
+    window.location.href = '/result.html?session=' + currentSessionId;
+  }).catch(function(err) {
+    alert('Submit failed: ' + err.message);
+  });
+}
+
+// === Category switch (multi-level + Sale Mode) ===
+var categoryTree = {
+  'Lights & Lighting': ['LED Lighting > LED Bulbs & Tubes','LED Lighting > LED Strip Lights','Indoor Lighting > Chandeliers','Indoor Lighting > Pendant Lights','Outdoor Lighting > Street Lights','Outdoor Lighting > Solar Lights','Stage Lighting','Lighting Accessories'],
+  'Home & Garden': ['Kitchen,Dining & Bar > Cooking Tool Sets','Kitchen,Dining & Bar > Dinnerware Sets','Kitchen,Dining & Bar > Drinkware','Household Sundries > Storage','Garden Supplies > Garden Tools','Home Decor > Vases','Bathroom Products','Home Textile'],
+  'Sports & Entertainment': ['Fitness & Body Building > Yoga > Yoga Mats','Fitness & Body Building > Gym Equipment','Camping & Hiking > Water Bottles','Camping & Hiking > Tents','Water Sports > Swimming','Ball Sports > Football','Musical Instruments','Board Games'],
+  'Mechanical Parts & Fabrication Services': ['Valves > Ball Valves','Valves > Butterfly Valves','Valves > Gate Valves','Machining > CNC Machining','Pumps > Centrifugal Pumps','Bearings > Ball Bearings','Fasteners > Bolts','Hydraulic Parts'],
+  'Consumer Electronics': ['Portable Audio & Video > Earphones & Headphones','Portable Audio & Video > Speakers','Smart Electronics > Smart Watches','Accessories & Parts > Phone Cases','Camera & Photo > Action Cameras','Power Source > Power Banks','VR/AR Devices','Electronic Cigarettes'],
+  'Apparel': ['Women Clothing','Men Clothing','Children Clothing','Underwear','Sportswear','Swimwear','Accessories','Costumes'],
+  'Beauty & Personal Care': ['Makeup','Skin Care','Hair Care','Fragrance','Nail Art','Beauty Tools','Oral Care','Bath & Body'],
+  'Automobiles & Motorcycles': ['Auto Parts > Engine Parts','Auto Parts > Brake System','Auto Electronics','Motorcycle Parts','Car Care','Tires & Wheels','Interior Accessories','Exterior Accessories'],
+  'Electrical Equipment & Supplies': ['Switches','Cables & Wires','Transformers','Generators','Connectors','Circuit Breakers','Power Supplies','Solar Cells'],
+  'Packaging & Printing': ['Paper Packaging','Plastic Packaging','Label & Tags','Packaging Machinery','Printing Machinery','Bottles & Jars','Bags','Film'],
+  'Textiles & Leather Products': ['Cotton Fabric','Synthetic Fabric','Knitted Fabric','Leather','Lace & Trim','Yarn','Non-woven Fabric','Silk'],
+  'Rubber & Plastics': ['Rubber Products','Plastic Products','Silicone Products','Foam','Plastic Raw Materials','Rubber Raw Materials'],
+  'Construction & Real Estate': ['Tiles','Flooring','Doors & Windows','Plumbing','Steel Structure','Insulation Materials','Decorative Materials','Roofing'],
+  'Tools & Hardware': ['Hand Tools','Power Tools','Welding Equipment','Measuring Tools','Fasteners','Abrasives','Locks','Tool Accessories'],
+  'Minerals & Metallurgy': ['Steel','Aluminum','Copper','Stainless Steel','Alloy','Wire Mesh','Metal Sheets','Pipes'],
+  'Agriculture': ['Farm Machinery','Animal Feed','Seeds & Bulbs','Greenhouses','Fertilizer','Aquaculture','Fresh Produce','Forestry'],
+  'Health & Medical': ['Medical Instruments','Diagnostic Equipment','Lab Supplies','Rehabilitation','Personal Protective Equipment','Dental','First Aid','Mobility Aids'],
+  'Gifts & Crafts': ['Artificial Crafts','Metal Crafts','Ceramic Crafts','Crystal Crafts','Candles','Photo Frames','Figurines','Souvenirs'],
+  'Furniture': ['Living Room','Bedroom','Office','Hotel','Outdoor','Children','Commercial','Metal Furniture'],
+  'Security & Protection': ['CCTV','Access Control','Alarm','Fire Protection','Safes','Safety Clothing','Traffic Safety','Inspection Equipment'],
+  'Office & School Supplies': ['Stationery','Writing Instruments','Filing Products','Presentation Supplies','School Supplies','Calculators','Desk Organizers','Boards'],
+  'Shoes & Accessories': ['Women Shoes','Men Shoes','Children Shoes','Sports Shoes','Slippers','Shoe Materials','Shoe Accessories','Boots'],
+  'Luggage & Bags': ['Travel Bags','Backpacks','Handbags','Wallets','Cosmetic Bags','Business Bags','Laptop Bags','Luggage Sets'],
+  'Toys & Hobbies': ['Stuffed Toys','Building Blocks','Remote Control Toys','Educational Toys','Dolls','Outdoor Toys','Model Toys','Party Supplies'],
+  'Vehicles & Transportation': ['Electric Vehicles','Motorcycles','Bicycles','Golf Carts','ATVs','Boat','Spare Parts','Electric Scooters']
+};
+var categoryTopLevel = Object.keys(categoryTree);
+var currentSaleMode = 'Domestic Shipping';
+
+function showCategoryModal() {
+  var overlay = document.createElement('div');
+  overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:9999;display:flex;align-items:center;justify-content:center';
+  var box = document.createElement('div');
+  box.style.cssText = 'background:#fff;border-radius:8px;width:720px;max-height:85vh;display:flex;flex-direction:column;box-shadow:0 4px 24px rgba(0,0,0,.18)';
+
+  // header
+  var header = document.createElement('div');
+  header.style.cssText = 'padding:16px 24px;border-bottom:1px solid #e8e8e8;display:flex;justify-content:space-between;align-items:center';
+  header.innerHTML = '<h3 style="margin:0;font-size:16px">Select Category</h3><button onclick="this.closest(\'div[style*=fixed]\').remove()" style="background:none;border:none;font-size:20px;cursor:pointer;color:#999">×</button>';
+  box.appendChild(header);
+
+  // search
+  var searchBar = document.createElement('div');
+  searchBar.style.cssText = 'padding:12px 24px;border-bottom:1px solid #f0f0f0';
+  searchBar.innerHTML = '<input id="catSearchInput" type="text" placeholder="Search category" style="width:100%;height:32px;border:1px solid #c4c6cf;border-radius:4px;padding:0 10px;font-size:14px">';
+  box.appendChild(searchBar);
+
+  // category columns
+  var colWrap = document.createElement('div');
+  colWrap.style.cssText = 'display:flex;flex:1;overflow:hidden;min-height:350px';
+  var col1 = document.createElement('ul');
+  col1.id = 'catCol1';
+  col1.style.cssText = 'width:240px;overflow-y:auto;border-right:1px solid #f0f0f0;margin:0;padding:0;list-style:none';
+  var col2 = document.createElement('ul');
+  col2.id = 'catCol2';
+  col2.style.cssText = 'flex:1;overflow-y:auto;margin:0;padding:0;list-style:none';
+
+  categoryTopLevel.forEach(function(cat) {
+    var li = document.createElement('li');
+    li.textContent = cat;
+    li.style.cssText = 'padding:8px 16px;cursor:pointer;font-size:13px;border-bottom:1px solid #f5f5f5;display:flex;justify-content:space-between;align-items:center';
+    li.innerHTML = cat + '<span style="color:#ccc;font-size:12px">›</span>';
+    li.onmouseover = function(){ this.style.background='#f0f7ff'; };
+    li.onmouseout = function(){ if(!this.classList.contains('cat-active')) this.style.background=''; };
+    li.onclick = function() {
+      col1.querySelectorAll('li').forEach(function(l){ l.classList.remove('cat-active'); l.style.background=''; });
+      this.classList.add('cat-active');
+      this.style.background = '#e6f0ff';
+      col2.innerHTML = '';
+      var subs = categoryTree[cat] || [];
+      subs.forEach(function(sub) {
+        var li2 = document.createElement('li');
+        li2.textContent = sub;
+        li2.style.cssText = 'padding:8px 16px;cursor:pointer;font-size:13px;border-bottom:1px solid #f5f5f5';
+        li2.onmouseover = function(){ this.style.background='#f0f7ff'; };
+        li2.onmouseout = function(){ this.style.background=''; };
+        li2.onclick = function() {
+          var path = cat + ' > ' + sub;
+          document.getElementById('catpathDisplay').innerHTML = 'Current Category: ' + path.replace(/ > /g, ' &gt; ');
+          document.getElementById('categoryValue').value = path;
+          overlay.remove();
+        };
+        col2.appendChild(li2);
+      });
+    };
+    col1.appendChild(li);
+  });
+  colWrap.appendChild(col1);
+  colWrap.appendChild(col2);
+  box.appendChild(colWrap);
+
+  // sale mode
+  var saleBar = document.createElement('div');
+  saleBar.style.cssText = 'padding:12px 24px;border-top:1px solid #e8e8e8;display:flex;align-items:center;gap:16px';
+  saleBar.innerHTML = '<span style="font-size:13px;color:#333;font-weight:500">Sale Mode</span>'
+    + '<label style="cursor:pointer;font-size:13px;display:flex;align-items:center;gap:4px"><input type="radio" name="saleModeModal" value="Domestic Shipping" '+(currentSaleMode==='Domestic Shipping'?'checked':'')+' style="accent-color:#0070cc"> Domestic Shipping</label>'
+    + '<label style="cursor:pointer;font-size:13px;display:flex;align-items:center;gap:4px"><input type="radio" name="saleModeModal" value="Overseas Stock" '+(currentSaleMode==='Overseas Stock'?'checked':'')+' style="accent-color:#0070cc"> Overseas Stock</label>';
+  saleBar.querySelectorAll('input[name="saleModeModal"]').forEach(function(r) {
+    r.addEventListener('change', function() { currentSaleMode = this.value; document.getElementById('saleModeValue').value = this.value; });
+  });
+  box.appendChild(saleBar);
+
+  // search filter
+  overlay.appendChild(box);
+  document.body.appendChild(overlay);
+  document.getElementById('catSearchInput').addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    col1.querySelectorAll('li').forEach(function(li) {
+      var cat = li.textContent.replace('›','').trim();
+      var subs = categoryTree[cat] || [];
+      var match = !q || cat.toLowerCase().includes(q) || subs.some(function(s){ return s.toLowerCase().includes(q); });
+      li.style.display = match ? '' : 'none';
+    });
+  });
+  overlay.onclick = function(e) { if(e.target===overlay) overlay.remove(); };
+}
+
+// === Deep Customization ===
+var customCount = 0;
+function addCustomization() {
+  if(customCount >= 4) { alert('Max 4 customization items'); return; }
+  customCount++;
+  var container = document.querySelector('.customizedServices-container');
+  var title = container.querySelector('.customizedServices-container-title');
+  title.textContent = 'Deep Customization(' + customCount + '/4)';
+  var entry = document.createElement('div');
+  entry.style.cssText = 'display:flex;align-items:center;gap:8px;margin-top:8px;padding:8px;background:#f7f8fa;border-radius:4px';
+  entry.innerHTML = '<input type="text" placeholder="Attribute name" style="flex:1;height:30px;border:1px solid #c4c6cf;border-radius:4px;padding:0 8px;font-size:13px">'
+    + '<button onclick="removeCustomization(this)" style="background:none;border:none;color:#ff3000;cursor:pointer;font-size:12px">Delete</button>';
+  title.after(entry);
+}
+function removeCustomization(btn) {
+  btn.parentElement.remove();
+  customCount--;
+  document.querySelector('.customizedServices-container-title').textContent = 'Deep Customization(' + customCount + '/4)';
+}
+
+// === Certificates ===
+var certCount = 0;
+function addCertificate() {
+  certCount++;
+  var tbody = document.querySelector('.certificate-table tbody');
+  var emptyRow = tbody.querySelector('td[colspan]');
+  if(emptyRow) emptyRow.closest('tr').remove();
+  var tr = document.createElement('tr');
+  tr.innerHTML = '<td>CERT-' + String(certCount).padStart(3,'0') + '</td>'
+    + '<td><input type="text" placeholder="Enter certificate name" style="width:100%;height:28px;border:1px solid #c4c6cf;border-radius:4px;padding:0 8px;font-size:13px"></td>'
+    + '<td><span style="color:#52c41a">Pending</span></td>'
+    + '<td><button onclick="removeCertificate(this)" style="background:none;border:none;color:#ff3000;cursor:pointer;font-size:14px">×</button></td>';
+  tbody.appendChild(tr);
+}
+function removeCertificate(btn) {
+  btn.closest('tr').remove();
+  var tbody = document.querySelector('.certificate-table tbody');
+  if(!tbody.querySelector('tr')) {
+    var emptyTr = document.createElement('tr');
+    emptyTr.innerHTML = '<td colspan="4" style="text-align:center;padding:16px;color:#999">No certificates added. Click to add.</td>';
+    tbody.appendChild(emptyTr);
+  }
+}
+
+// === Country/Region selection ===
+var countryCurrency = {
+  'US':'US $','CA':'CA $','MX':'MX $','BR':'R$','AR':'AR $','CL':'CL $','CO':'CO $','PE':'S/.','EC':'US $','VE':'Bs','UY':'UY $','PY':'₲','BO':'Bs',
+  'GB':'£','DE':'€','FR':'€','IT':'€','ES':'€','NL':'€','PL':'zł','SE':'kr','NO':'kr','DK':'kr','FI':'€','PT':'€','GR':'€','CZ':'Kč','RO':'lei','BE':'€','AT':'€','CH':'CHF','IE':'€','HU':'Ft',
+  'ZA':'R','EG':'E£','MA':'MAD','NG':'₦','KE':'KSh','GH':'GH₵','TZ':'TSh','ET':'Br','SN':'CFA','DZ':'DA',
+  'GT':'Q','CU':'$','DO':'RD$','HN':'L','PA':'B/.','CR':'₡','JM':'J$',
+  'AU':'A$','NZ':'NZ$','FJ':'FJ$','PG':'K',
+  'JP':'¥','KR':'₩','IN':'₹','TH':'฿','VN':'₫','MY':'RM','ID':'Rp','PH':'₱','SG':'S$','PK':'Rs','BD':'৳','SA':'SAR','AE':'AED','TR':'₺','IL':'₪','IQ':'IQD','KW':'KWD','QA':'QAR','LK':'Rs','MM':'K','KH':'៛','NP':'Rs',
+  'RU':'₽','UA':'₴'
+};
+function getCountryCurrency(code) { return countryCurrency[code] || 'US $'; }
+var regionData = {
+  'Popular': [
+    {code:'US',name:'United States'},{code:'UK',name:'United Kingdom'},{code:'CA',name:'Canada'},{code:'RU',name:'Russia'},{code:'DE',name:'Germany'},{code:'FR',name:'France'},
+    {code:'MX',name:'Mexico'},{code:'BR',name:'Brazil'},{code:'ES',name:'Spain'},{code:'IT',name:'Italy'},{code:'PH',name:'Philippines'},{code:'AU',name:'Australia'},
+    {code:'PK',name:'Pakistan'},{code:'MY',name:'Malaysia'},{code:'SA',name:'Saudi Arabia'},{code:'NL',name:'Netherlands'},{code:'TH',name:'Thailand'},{code:'TR',name:'Turkey'},
+    {code:'PE',name:'Peru'},{code:'ID',name:'Indonesia'},{code:'IN',name:'India'},{code:'CL',name:'Chile'},{code:'EG',name:'Egypt'},{code:'KR',name:'South Korea'},
+    {code:'CO',name:'Colombia'},{code:'JP',name:'Japan'},{code:'VN',name:'Vietnam'},{code:'UA',name:'Ukraine'},{code:'ZA',name:'South Africa'},{code:'AR',name:'Argentina'},
+    {code:'MA',name:'Morocco'},{code:'BD',name:'Bangladesh'},{code:'AE',name:'UAE'},{code:'NZ',name:'New Zealand'}
+  ],
+  'South America': [{code:'BR',name:'Brazil'},{code:'AR',name:'Argentina'},{code:'CL',name:'Chile'},{code:'CO',name:'Colombia'},{code:'PE',name:'Peru'},{code:'EC',name:'Ecuador'},{code:'VE',name:'Venezuela'},{code:'UY',name:'Uruguay'},{code:'PY',name:'Paraguay'},{code:'BO',name:'Bolivia'}],
+  'Europe': [{code:'UK',name:'United Kingdom'},{code:'DE',name:'Germany'},{code:'FR',name:'France'},{code:'IT',name:'Italy'},{code:'ES',name:'Spain'},{code:'NL',name:'Netherlands'},{code:'PL',name:'Poland'},{code:'SE',name:'Sweden'},{code:'NO',name:'Norway'},{code:'DK',name:'Denmark'},{code:'FI',name:'Finland'},{code:'PT',name:'Portugal'},{code:'GR',name:'Greece'},{code:'CZ',name:'Czech Republic'},{code:'RO',name:'Romania'},{code:'UA',name:'Ukraine'},{code:'RU',name:'Russia'},{code:'BE',name:'Belgium'},{code:'AT',name:'Austria'},{code:'CH',name:'Switzerland'},{code:'IE',name:'Ireland'},{code:'HU',name:'Hungary'}],
+  'Africa': [{code:'ZA',name:'South Africa'},{code:'EG',name:'Egypt'},{code:'MA',name:'Morocco'},{code:'NG',name:'Nigeria'},{code:'KE',name:'Kenya'},{code:'GH',name:'Ghana'},{code:'TZ',name:'Tanzania'},{code:'ET',name:'Ethiopia'},{code:'SN',name:'Senegal'},{code:'DZ',name:'Algeria'}],
+  'North America': [{code:'US',name:'United States'},{code:'CA',name:'Canada'},{code:'MX',name:'Mexico'},{code:'GT',name:'Guatemala'},{code:'CU',name:'Cuba'},{code:'DO',name:'Dominican Republic'},{code:'HN',name:'Honduras'},{code:'PA',name:'Panama'},{code:'CR',name:'Costa Rica'},{code:'JM',name:'Jamaica'}],
+  'Oceania': [{code:'AU',name:'Australia'},{code:'NZ',name:'New Zealand'},{code:'FJ',name:'Fiji'},{code:'PG',name:'Papua New Guinea'}],
+  'Asia': [{code:'JP',name:'Japan'},{code:'KR',name:'South Korea'},{code:'IN',name:'India'},{code:'TH',name:'Thailand'},{code:'VN',name:'Vietnam'},{code:'MY',name:'Malaysia'},{code:'ID',name:'Indonesia'},{code:'PH',name:'Philippines'},{code:'SG',name:'Singapore'},{code:'PK',name:'Pakistan'},{code:'BD',name:'Bangladesh'},{code:'SA',name:'Saudi Arabia'},{code:'AE',name:'UAE'},{code:'TR',name:'Turkey'},{code:'IL',name:'Israel'},{code:'IQ',name:'Iraq'},{code:'KW',name:'Kuwait'},{code:'QA',name:'Qatar'},{code:'LK',name:'Sri Lanka'},{code:'MM',name:'Myanmar'},{code:'KH',name:'Cambodia'},{code:'NP',name:'Nepal'}]
+};
+var selectedCountries = [];
+
+function showCountryModal() {
+  var overlay = document.createElement('div');
+  overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:9999;display:flex;align-items:center;justify-content:center';
+  var box = document.createElement('div');
+  box.style.cssText = 'background:#fff;border-radius:8px;width:660px;max-height:80vh;display:flex;flex-direction:column;box-shadow:0 4px 24px rgba(0,0,0,.18)';
+
+  var header = document.createElement('div');
+  header.style.cssText = 'padding:14px 20px;border-bottom:1px solid #e8e8e8;font-size:13px;color:#666';
+  header.textContent = 'Select countries by region';
+  box.appendChild(header);
+
+  var tabs = Object.keys(regionData);
+  var tabBar = document.createElement('div');
+  tabBar.style.cssText = 'display:flex;flex-wrap:wrap;gap:0;border-bottom:1px solid #e8e8e8;padding:0 20px';
+  var contentArea = document.createElement('div');
+  contentArea.style.cssText = 'padding:16px 20px;overflow-y:auto;flex:1;min-height:250px';
+
+  var tempSel = selectedCountries.slice();
+
+  function renderTab(region) {
+    contentArea.innerHTML = '';
+    var countries = regionData[region];
+    countries.forEach(function(c) {
+      var wrap = document.createElement('label');
+      wrap.style.cssText = 'display:inline-flex;align-items:center;gap:4px;width:130px;padding:4px 0;cursor:pointer;font-size:13px';
+      var cb = document.createElement('input');
+      cb.type = 'checkbox'; cb.value = c.code; cb.style.accentColor = '#0070cc';
+      if(tempSel.some(function(s){return s.code===c.code})) cb.checked = true;
+      cb.onchange = function() {
+        if(this.checked) { if(!tempSel.some(function(s){return s.code===c.code})) tempSel.push({code:c.code,name:c.name}); }
+        else { tempSel = tempSel.filter(function(s){return s.code!==c.code}); }
+      };
+      wrap.appendChild(cb);
+      wrap.appendChild(document.createTextNode(c.name));
+      contentArea.appendChild(wrap);
+    });
+  }
+
+  tabs.forEach(function(t, i) {
+    var tab = document.createElement('div');
+    tab.textContent = t;
+    tab.style.cssText = 'padding:8px 12px;cursor:pointer;font-size:13px;border-bottom:2px solid transparent;color:#666;white-space:nowrap';
+    if(i===0) { tab.style.borderBottomColor = '#0070cc'; tab.style.color = '#0070cc'; }
+    tab.onclick = function() {
+      tabBar.querySelectorAll('div').forEach(function(d){d.style.borderBottomColor='transparent';d.style.color='#666';});
+      this.style.borderBottomColor='#0070cc'; this.style.color='#0070cc';
+      renderTab(t);
+    };
+    tabBar.appendChild(tab);
+  });
+  box.appendChild(tabBar);
+  box.appendChild(contentArea);
+  renderTab(tabs[0]);
+
+  var footer = document.createElement('div');
+  footer.style.cssText = 'padding:12px 20px;border-top:1px solid #e8e8e8;display:flex;justify-content:flex-end;gap:8px';
+  var okBtn = document.createElement('button');
+  okBtn.textContent = 'OK';
+  okBtn.style.cssText = 'padding:6px 20px;background:#0070cc;color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:13px';
+  okBtn.onclick = function() { selectedCountries = tempSel; updateCountryDisplay(); overlay.remove(); };
+  var cancelBtn = document.createElement('button');
+  cancelBtn.textContent = 'Cancel';
+  cancelBtn.style.cssText = 'padding:6px 20px;background:#fff;border:1px solid #c4c6cf;border-radius:4px;cursor:pointer;font-size:13px';
+  cancelBtn.onclick = function() { overlay.remove(); };
+  footer.appendChild(okBtn); footer.appendChild(cancelBtn);
+  box.appendChild(footer);
+
+  overlay.appendChild(box);
+  overlay.onclick = function(e){if(e.target===overlay) overlay.remove();};
+  document.body.appendChild(overlay);
+}
+
+function updateCountryDisplay() {
+  var tagsEl = document.getElementById('selectedCountryTags');
+  tagsEl.innerHTML = '';
+  selectedCountries.forEach(function(c) {
+    var tag = document.createElement('span');
+    tag.style.cssText = 'display:inline-flex;align-items:center;gap:4px;padding:2px 8px;background:#e6f0ff;border:1px solid #b3d4ff;border-radius:3px;font-size:12px;color:#0070cc';
+    tag.innerHTML = c.name + '<span onclick="removeCountry(\''+c.code+'\')" style="cursor:pointer;color:#999;font-size:14px;line-height:1">&times;</span>';
+    tagsEl.appendChild(tag);
+  });
+  document.getElementById('selectedCountriesValue').value = JSON.stringify(selectedCountries);
+  var diffSection = document.getElementById('countryPriceDiffSection');
+  if(selectedCountries.length > 0) { diffSection.style.display = ''; rebuildCountryPriceTable(); }
+  else { diffSection.style.display = 'none'; }
+}
+
+function removeCountry(code) {
+  selectedCountries = selectedCountries.filter(function(c){return c.code!==code;});
+  updateCountryDisplay();
+}
+
+function toggleCountryPricePanel() {
+  var panel = document.getElementById('countryPricePanel');
+  var toggle = document.getElementById('countryPriceToggle');
+  if(panel.style.display==='none') { panel.style.display=''; toggle.textContent='▼'; }
+  else { panel.style.display='none'; toggle.textContent='▶'; }
+}
+
+function rebuildCountryPriceTable() {
+  if(selectedCountries.length === 0) return;
+  var currency = getCurrency();
+  var mode = document.querySelector('input[name="countryPriceMode"]:checked');
+  var modeVal = mode ? mode.value : 'direct';
+  var hint = document.getElementById('countryPriceModeHint');
+  if(modeVal === 'direct') { hint.textContent = 'Set independent price per country (in ' + currency + ', auto-converted to local currency)'; }
+  else if(modeVal === 'offset') { hint.textContent = 'Add/subtract amount from base price (in ' + currency + ', positive = markup, negative = discount)'; }
+  else { hint.textContent = 'Adjust by percentage. e.g. 10 = +10%, -5 = -5%'; }
+
+  var headRow = document.getElementById('countryPriceHead').querySelector('tr');
+  headRow.innerHTML = '<th style="min-width:120px">Min Order Qty</th>';
+  selectedCountries.forEach(function(c) {
+    var unit = modeVal === 'percent' ? '(%)' : '(' + currency + ')';
+    headRow.innerHTML += '<th style="min-width:150px">' + c.name + ' Price <span style="font-weight:400;color:#999;font-size:12px">' + unit + '</span></th>';
+  });
+
+  var priceRows = document.querySelectorAll('#priceRows tr');
+  var body = document.getElementById('countryPriceBody');
+  var oldValues = {};
+  body.querySelectorAll('input[data-country]').forEach(function(inp) {
+    oldValues[inp.getAttribute('data-country') + '_' + inp.getAttribute('data-tier')] = inp.value;
+  });
+  body.innerHTML = '';
+  priceRows.forEach(function(pr, idx) {
+    var qtyInput = pr.querySelector('input[type="number"]');
+    var qty = qtyInput ? qtyInput.value : '';
+    var tr = document.createElement('tr');
+    tr.innerHTML = '<td style="font-size:13px;color:#666;background:#fafafa">≥ ' + (qty || '?') + '</td>';
+    selectedCountries.forEach(function(c) {
+      var oldVal = oldValues[c.code + '_' + idx] || '';
+      if(modeVal === 'percent') {
+        tr.innerHTML += '<td><div style="display:inline-flex;align-items:center;border:1px solid #c4c6cf;border-radius:4px;height:28px;background:#fff;width:100px">'
+          + '<input type="text" placeholder="±%" value="' + oldVal + '" data-country="' + c.code + '" data-tier="' + idx + '" onchange="syncCountryPriceDiff()" style="border:none;outline:none;width:100%;height:100%;padding:0 6px;font-size:13px">'
+          + '<span style="padding:0 6px;color:#999;font-size:12px;white-space:nowrap">%</span></div></td>';
+      } else {
+        var ph = modeVal === 'offset' ? '±amount' : 'price';
+        tr.innerHTML += '<td><div style="display:inline-flex;align-items:center;border:1px solid #c4c6cf;border-radius:4px;height:28px;background:#fff;width:130px">'
+          + '<span style="padding:0 6px;background:#fafafa;border-right:1px solid #c4c6cf;font-size:12px;color:#666;white-space:nowrap;height:100%;display:flex;align-items:center">' + currency + '</span>'
+          + '<input type="text" placeholder="' + ph + '" value="' + oldVal + '" data-country="' + c.code + '" data-tier="' + idx + '" onchange="syncCountryPriceDiff()" style="border:none;outline:none;width:100%;height:100%;padding:0 6px;font-size:13px">'
+          + '</div></td>';
+      }
+    });
+    body.appendChild(tr);
+  });
+}
+
+function syncCountryPriceDiff() {
+  var mode = document.querySelector('input[name="countryPriceMode"]:checked');
+  var data = { mode: mode ? mode.value : 'direct', prices: {} };
+  selectedCountries.forEach(function(c) { data.prices[c.code] = []; });
+  document.querySelectorAll('#countryPriceBody input[data-country]').forEach(function(inp) {
+    var code = inp.getAttribute('data-country');
+    var tier = parseInt(inp.getAttribute('data-tier'));
+    if(!data.prices[code]) data.prices[code] = [];
+    data.prices[code][tier] = inp.value;
+  });
+  document.getElementById('countryPriceDiffValue').value = JSON.stringify(data);
+}
+document.querySelectorAll('input[name="countryPriceMode"]').forEach(function(r){
+  r.addEventListener('change', function(){ rebuildCountryPriceTable(); syncCountryPriceDiff(); });
+});
+
+// === Quality Check ===
+function runQualityCheck() {
+  var filledCount = 0;
+  var checks = ['productTitle','keyword_1','image_1','saleType','priceUnit','deliveryPeriod','attr_brand','attr_material'];
+  checks.forEach(function(name) {
+    var el = document.querySelector('[name="'+name+'"]');
+    if(!el) return;
+    if(el.type === 'file') { if(el.files && el.files.length > 0) filledCount++; }
+    else if(el.type === 'checkbox' || el.type === 'radio') { if(el.checked) filledCount++; }
+    else if(el.value && el.value.trim()) filledCount++;
+  });
+  var editorEl = document.getElementById('editorBody');
+  if(editorEl && editorEl.textContent.trim() && !editorEl.querySelector('.editor-placeholder')) filledCount++;
+  var agreementEl = document.querySelector('[name="agreement"]');
+  if(agreementEl && agreementEl.checked) filledCount++;
+  var total = checks.length + 2;
+  var score = Math.min(Math.round(filledCount / total * 100), 100);
+  var scoreText = document.querySelector('.score-text');
+  var scoreTips = document.querySelector('.score-tips');
+  var scoreContainer = document.querySelector('.score-container');
+  if(scoreText) scoreText.textContent = score;
+  if(scoreTips) scoreTips.textContent = score >= 80 ? 'Excellent' : score >= 50 ? 'Good' : 'Needs Improvement';
+  if(scoreContainer) {
+    scoreContainer.style.borderColor = score >= 80 ? '#52c41a' : score >= 50 ? '#faad14' : '#ff4d4f';
+    scoreText.style.color = score >= 80 ? '#52c41a' : score >= 50 ? '#faad14' : '#ff4d4f';
+  }
+}
+</script>
+</body>
+</html>

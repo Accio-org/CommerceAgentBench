@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "browser-reddit-auth-browse answer",
+  "type": "object",
+  "required": [
+    "primary_session_cookie",
+    "target_username",
+    "target_subreddit",
+    "ppwr_effective_date",
+    "ppwr_recycled_content_min_pct",
+    "ppwr_empty_space_max_pct",
+    "ppwr_dpp_required",
+    "ppwr_epr_per_country_required",
+    "ppwr_penalty_max_eur",
+    "ppwr_penalty_max_revenue_pct",
+    "inspection_total_cost_usd",
+    "inspection_orders_count",
+    "inspection_savings_usd",
+    "inspection_roi_multiplier",
+    "aql_critical",
+    "aql_major",
+    "aql_minor",
+    "inspection_stages",
+    "third_party_threshold_usd",
+    "freelance_inspector_min_day_rate_usd",
+    "freelance_inspector_max_day_rate_usd"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "primary_session_cookie": { "type": "string", "minLength": 1 },
+    "target_username": { "type": "string", "minLength": 1 },
+    "target_subreddit": { "type": "string", "minLength": 1 },
+    "ppwr_effective_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "ppwr_recycled_content_min_pct": { "type": "integer" },
+    "ppwr_empty_space_max_pct": { "type": "integer" },
+    "ppwr_dpp_required": { "type": "boolean" },
+    "ppwr_epr_per_country_required": { "type": "boolean" },
+    "ppwr_penalty_max_eur": { "type": "integer" },
+    "ppwr_penalty_max_revenue_pct": { "type": "integer" },
+    "inspection_total_cost_usd": { "type": "integer" },
+    "inspection_orders_count": { "type": "integer" },
+    "inspection_savings_usd": { "type": "integer" },
+    "inspection_roi_multiplier": { "type": "number" },
+    "aql_critical": { "type": "number" },
+    "aql_major": { "type": "number" },
+    "aql_minor": { "type": "number" },
+    "inspection_stages": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "third_party_threshold_usd": { "type": "integer" },
+    "freelance_inspector_min_day_rate_usd": { "type": "integer" },
+    "freelance_inspector_max_day_rate_usd": { "type": "integer" }
+  }
+}

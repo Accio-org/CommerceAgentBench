@@ -1,0 +1,11 @@
+{
+  "error": {
+    "code": "parameter_missing",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-missing",
+    "message": "Missing required param: currency.",
+    "param": "currency",
+    "request_log_url": "https://dashboard.stripe.com/acct_1TcPzGCLKuX79GC2/test/workbench/logs?object=req_1IeAfvZAkMPIOv",
+    "type": "invalid_request_error"
+  }
+}
+

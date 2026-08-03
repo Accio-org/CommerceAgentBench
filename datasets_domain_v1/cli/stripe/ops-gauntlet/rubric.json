@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "minimum_pass_score": 1.0,
+  "criteria": [
+    {"id": "setup_gate", "weight": 0.05, "description": "Stripe mock reachable and state loaded"},
+    {"id": "products_created", "weight": 0.10, "description": "All 5 products created with descriptions"},
+    {"id": "prices_correct", "weight": 0.10, "description": "Monthly/annual/one-time prices at correct amounts incl. $59.99 standup correction (not $49.99)"},
+    {"id": "no_annual_addons", "weight": 0.08, "description": "Add-on and one-time products have NO annual price"},
+    {"id": "blocked_products_respected", "weight": 0.08, "description": "JIRA-4521-blocked refund products NOT created"},
+    {"id": "legacy_data_preserved", "weight": 0.08, "description": "TechCorp customer and deprecated product left untouched"},
+    {"id": "customers_created", "weight": 0.08, "description": "All 4 testers created including Refund Test User"},
+    {"id": "webhook_payment_events", "weight": 0.10, "description": "Payment webhook maps correct events and drops charge.failed per standup"},
+    {"id": "webhook_lifecycle_events", "weight": 0.08, "description": "Lifecycle webhook maps customer.* plus invoice.created"},
+    {"id": "subscriptions_correct", "weight": 0.08, "description": "Only Users A+C subscribed, User B pristine, exactly 2 subscriptions"},
+    {"id": "coupons_correct", "weight": 0.08, "description": "Free-trial 100% coupon and QA_PARTIAL_25 at 20% (standup correction) not 25%"},
+    {"id": "sprint_tags_applied", "weight": 0.06, "description": "Every product tagged payment-q3"},
+    {"id": "output_summary_written", "weight": 0.05, "description": "setup_summary.json artifact written"}
+  ]
+}

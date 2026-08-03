@@ -1,0 +1,44 @@
+# Amazon Japan Listing YAML Schema
+# Output file: outputs/amazon_jp_listing.yaml
+# All fields marked (required) must be present.
+
+listing:
+  product_type: string (required, "PortableStove")
+  brand: string (required, brand name in English)
+  manufacturer: string (required, same as brand)
+
+  parent:
+    sku: string (required, parent SKU identifier, use product line code e.g. "TJ-THERMOJET")
+    title: string (required, Japanese product title following brand guideline title formula)
+    description: string (required, product description in Japanese)
+    bullet_points: # (required, exactly 5 bullet points in Japanese)
+      - string
+      - string
+      - string
+      - string
+      - string
+    browse_node_id: string (required, from category_mapping.csv for amazon_jp)
+    variation_theme: string (required, "SizeColor")
+
+  children: # (required) one entry per variant SKU
+    - sku: string (required)
+      title: string (required, child title in Japanese, include variant details)
+      size: string (required, tier name in Japanese)
+      color: string (required, color name in Japanese)
+      price: integer (required, JPY price, calculated per brand guidelines pricing rules)
+      condition: string (required, "New")
+      quantity: integer (required, initial stock, use 100)
+
+  images: # (required) exactly 7 image slots
+    MAIN: string (required, white-background main product image filename)
+    PT01: string (required, supplementary image 1)
+    PT02: string (required, supplementary image 2)
+    PT03: string (required, supplementary image 3)
+    PT04: string (required, supplementary image 4)
+    PT05: string (required, supplementary image 5)
+    PT06: string (required, supplementary image 6)
+
+  compliance: # (required for gas appliances in Japan)
+    pse_cert_number: string (required, PSE certificate number from certifications.json)
+    safety_warning: string (required, exact Japanese warning text from certifications.json)
+    safety_standard: string (required, "PSE")

@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-dws-feed-qa-weekly-report",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "notes": "Host-side verifier reads the final dws_doc_cli state and scores the Week 23 Feed QA Summary: summary document created, all qualifying SKUs included, all non-qualifying SKUs excluded, one comment per included document, and no prior-cycle content pulled in. Capacity checks are folded capability units (per docs/check-granularity.md); each folds the underlying per-SKU/per-document atomic comparisons in expected_answer.json by AND.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "DWS mock state reachable and readable (GET /api/state). The lone plumbing gate; a failure short-circuits to this single check."},
+    {"id": "summary_doc_created", "check_type": "deterministic_exact", "description": "Exactly one document named 'Week 23 Feed QA Summary' exists under the knowledge base root folder."},
+    {"id": "included_issues_complete", "check_type": "deterministic_exact", "description": "All 18 qualifying SKUs (feed QA documents, current Week-23 cycle, High/Highest severity, Open status) appear in the summary content. Item-completeness is the hard selection competency; reason lists any missing SKUs."},
+    {"id": "excluded_issues_filtered", "check_type": "deterministic_exact", "description": "All 26 non-qualifying SKUs are absent from the summary content (excluded for Medium severity, prior/archived cycle, closed status, or non-QA document type). The restraint/negative side of the filter over the heterogeneous distractor set; reason lists any leaked SKUs."},
+    {"id": "comments_on_included", "check_type": "deterministic_exact", "description": "Exactly one comment was added on each of the 18 included QA documents (no missing and no duplicate comments). The distinct annotation competence; reason lists any document whose comment count is wrong."},
+    {"id": "no_archived_content", "check_type": "deterministic_exact", "description": "The summary does not reference prior-cycle / archived content ('prior cycle' string absent)."}
+  ]
+}

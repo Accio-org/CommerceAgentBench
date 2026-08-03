@@ -1,0 +1,6 @@
+product_id,product_name,description,tier,base_monthly_usd,includes_annual
+TC-STD,TerraCharge Standard,"Single-port Level 2 charger management, usage monitoring, basic reporting",standard,45.00,yes
+TC-PRO,TerraCharge Pro,"Dual-port Level 2 + DC fast charger management, real-time analytics, mobile app",professional,125.00,yes
+TC-FLEET,TerraCharge Fleet,"Unlimited chargers, fleet route optimization, energy arbitrage, SLA guarantee",fleet,395.00,yes
+TC-MAINT,Maintenance Plan,"Quarterly on-site inspection, firmware updates, parts replacement",addon,55.00,no
+TC-API,Developer API,"REST API access for billing integration and charger telemetry, 2000 req/min",addon,89.00,no

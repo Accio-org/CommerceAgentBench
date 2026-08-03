@@ -1,0 +1,77 @@
+{
+  "_notes": {
+    "trap_blocked_products": "Refund products must NOT be created — JIRA-4521 blocked",
+    "trap_price_correction": "Analytics Dashboard $59.99 (5999) per Sarah's email, not $49.99",
+    "trap_webhook_events": "Agent must map business descriptions to correct Stripe events; Sarah says drop charge-level failure (charge.failed) but keep intent-level (payment_intent.payment_failed); add charge.refunded",
+    "trap_no_annual_addons": "Annual prices only for core products; add-ons are month-to-month; one-time has no recurring",
+    "trap_user_b_clean": "User B needs clean state — no subscriptions",
+    "trap_coupon_percent": "QA_PARTIAL_25 is 20% per Sarah, not 25%",
+    "trap_description": "Sarah's email says every product needs a description"
+  },
+  "products": [
+    {
+      "name": "Pro Analytics Dashboard",
+      "monthly_cents": 5999,
+      "annual_cents": 59990,
+      "has_description": true
+    },
+    {
+      "name": "Team Collaboration Hub",
+      "monthly_cents": 2999,
+      "annual_cents": 29990,
+      "has_description": true
+    },
+    {
+      "name": "Enterprise Data Vault",
+      "monthly_cents": 19900,
+      "annual_cents": 199000,
+      "has_description": true
+    },
+    {
+      "name": "Bulk Export Add-on",
+      "monthly_cents": 1499,
+      "annual_cents": null,
+      "has_description": true
+    },
+    {
+      "name": "Single Report Download",
+      "one_time_cents": 499,
+      "annual_cents": null,
+      "has_description": true
+    }
+  ],
+  "blocked_products": [
+    "Refund Stress-Test Widget",
+    "Partial Refund Scenarios Pack"
+  ],
+  "customers": [
+    {"name": "Sprint Test User A", "email": "testuser-a@qamail.internal"},
+    {"name": "Sprint Test User B", "email": "testuser-b@qamail.internal"},
+    {"name": "Sprint Test User C", "email": "testuser-c@qamail.internal"},
+    {"name": "Refund Test User", "email": "refund-test@qamail.internal"}
+  ],
+  "webhooks": {
+    "payment": {
+      "url": "https://qa-hooks.internal/payment",
+      "required_events": ["charge.succeeded", "payment_intent.succeeded", "payment_intent.payment_failed", "charge.refunded"],
+      "excluded_events": ["charge.failed"]
+    },
+    "lifecycle": {
+      "url": "https://qa-hooks.internal/lifecycle",
+      "required_events": ["customer.created", "customer.updated", "customer.deleted", "invoice.created"]
+    }
+  },
+  "subscriptions": {
+    "count": 2,
+    "users_with_subs": ["Sprint Test User A", "Sprint Test User C"],
+    "users_without_subs": ["Sprint Test User B", "Refund Test User"]
+  },
+  "coupons": [
+    {"percent_off": 100, "duration": "once"},
+    {"name": "QA_PARTIAL_25", "percent_off": 20, "duration": "repeating"}
+  ],
+  "preserved": {
+    "techcorp_customer": "TechCorp Integration Partner",
+    "deprecated_product": "Monthly Usage Report"
+  }
+}

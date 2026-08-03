@@ -1,0 +1,27 @@
+Displays information about your theme environment, including your current store. Can also retrieve information about a specific theme.
+
+USAGE
+  $ shopify theme info [-d] [-e <value>...] [-j] [--no-color]
+    [--password <value>] [--path <value>] [-s <value>] [-t <value>] [--verbose]
+
+FLAGS
+  -d, --development             Retrieve info from your development theme.
+  -e, --environment=<value>...  The environment to apply to the current command.
+  -j, --json                    Output the result as JSON. Automatically
+                                disables color output.
+  -s, --store=<value>           Store URL. It can be the store prefix (example)
+                                or the full myshopify.com URL
+                                (example.myshopify.com,
+                                https://example.myshopify.com).
+  -t, --theme=<value>           Theme ID or name of the remote theme.
+      --no-color                Disable color output.
+      --password=<value>        Password generated from the Theme Access app or
+                                an Admin API token.
+      --path=<value>            The path where you want to run the command.
+                                Defaults to the current working directory.
+      --verbose                 Increase the verbosity of the output.
+
+DESCRIPTION
+  Displays information about your theme environment, including your current
+  store. Can also retrieve information about a specific theme.
+

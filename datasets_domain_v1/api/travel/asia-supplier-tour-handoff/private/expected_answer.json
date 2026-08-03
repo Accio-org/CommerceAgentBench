@@ -1,0 +1,99 @@
+{
+  "task_id": "api-travel-asia-supplier-tour-handoff",
+  "expected_total_findings": 10,
+  "expected_findings": [
+    {
+      "finding_id": 1,
+      "error_type": "co_location_failure",
+      "leg_id": "shenzhen-team-section",
+      "correct_value_kind": "string",
+      "correct_value": "Hampton by Hilton Shenzhen Futian Huaqiangbei",
+      "tolerance": null,
+      "context_hint": "email#1 ¶3 + policy §4.5 require a single hotel for 3+ team members on one leg. Among the two split properties, both are in the §3 Shenzhen allowlist — by tiebreaker §4.7(b) (Chinese-locale market, no OTA prices) the FIRST entry in the §3 allowlist for Shenzhen is canonical: 'Hampton by Hilton Shenzhen Futian Huaqiangbei'. (Also matches §4.7's 'larger sub-group' principle since 3 of 5 are already at Hampton.)"
+    },
+    {
+      "finding_id": 2,
+      "error_type": "non_contracted_hotel",
+      "leg_id": "yiwu-allowlist-check",
+      "correct_value_kind": "string",
+      "correct_value": "Hampton by Hilton Yiwu International Trade Market",
+      "tolerance": null,
+      "context_hint": "policy §3 Yiwu allowlist = [Hampton by Hilton Yiwu International Trade Market, Crowne Plaza Yiwu Expo, Best Western Premier Yiwu Ocean Hotel, Holiday Inn Yiwu Center by IHG]; Kasion International is NOT on the list. Per tiebreaker §4.7(b) (Chinese-locale market, no OTA prices), the canonical alternative is the FIRST entry in the §3 allowlist: 'Hampton by Hilton Yiwu International Trade Market'."
+    },
+    {
+      "finding_id": 3,
+      "error_type": "flight_arrival_mismatch",
+      "leg_id": "hcmc-arrival-flight",
+      "correct_value_kind": "string",
+      "correct_value": "VN-238",
+      "tolerance": null,
+      "context_hint": "policy §4.2 prohibits inbound arrivals between 22:00 and 05:00 inclusive — VN-321 (23:50) violates. §4.2 also prefers the LATEST compliant arrival (to maximise productive in-transit hours). Among compliant options TG-555 (16:20) and VN-238 (19:45), VN-238 is the latest still under the 22:00 window → uniquely correct."
+    },
+    {
+      "finding_id": 4,
+      "error_type": "time_window_violation",
+      "leg_id": "hcmc-day-3-zoom",
+      "correct_value_kind": "number",
+      "correct_value": 1200,
+      "tolerance": 2,
+      "context_hint": "client_meetings.ics has the NYC zoom on 2026-09-21 09:00 America/New_York. Sept 21, 2026 falls during EDT (UTC-4); ICT is UTC+7. Difference is 11 hours. NYC 09:00 EDT = ICT 20:00 = 1200 minutes-since-midnight. Brief claims 19:00 ICT = 1140 minutes (off by 60)."
+    },
+    {
+      "finding_id": 5,
+      "error_type": "cross_source_inconsistency",
+      "leg_id": "bangkok-amenity-claim",
+      "correct_value_kind": "string",
+      "correct_value": "Paradox Bangkok Sukhumvit",
+      "tolerance": null,
+      "context_hint": "Mock excluded_amenities for 'Platinum Premium Deluxe Apartments' includes 'No outdoor pool' AND 'No indoor pool'. Per task.md disambiguation rule, excluded is authoritative → the property has NO pool of any kind. Brief's 'rooftop outdoor pool' claim is contradicted by mock. By tiebreaker §4.7(a) (lowest post-tax rate), the cheapest Bangkok property with explicit 'Outdoor pool' in amenities is 'Paradox Bangkok Sukhumvit' at $101/night — uniquely correct alternative."
+    },
+    {
+      "finding_id": 6,
+      "error_type": "policy_violation",
+      "leg_id": "bangkok-budget-section",
+      "correct_value_kind": "number",
+      "correct_value": 230.0,
+      "tolerance": 0.5,
+      "context_hint": "policy §2 allows Thailand premium $300/night, but email#3 ¶2 from CFO Mei Watanabe tightens to $230/night for this trip. Per policy §4.6, written CFO override → stricter limit prevails → cap is $230. Mercure Bangkok Sukhumvit 11 at $243 violates by $13/night. (NOTE: Mercure IS on the §3 Bangkok allowlist, so this is a single-error section — only policy_violation applies, no non_contracted_hotel double-flag.)"
+    },
+    {
+      "finding_id": 7,
+      "error_type": "accessibility_mismatch",
+      "leg_id": "bangkok-accessibility-section",
+      "correct_value_kind": "string",
+      "correct_value": "Retreat House 81 - BTS Onnut - Three-Bedroom House",
+      "tolerance": null,
+      "context_hint": "Mock excluded_amenities for 'Vintage Gallery Sukhumvit' includes 'Not wheelchair accessible'. Sarah requires wheelchair access (email#2 signature). Per policy §4.3, this property is prohibited. By tiebreaker §4.7(a) (lowest post-tax price), the cheapest Bangkok vacation rental with explicit 'Wheelchair accessible' in amenities is 'Retreat House 81' at $122/night — uniquely correct."
+    },
+    {
+      "finding_id": 8,
+      "error_type": "arithmetic_error",
+      "leg_id": "bangkok-billing-summary",
+      "correct_value_kind": "number",
+      "correct_value": 486.0,
+      "tolerance": 0.5,
+      "context_hint": "Mercure Bangkok Sukhumvit 11 has rate_per_night.lowest=$243 (post-tax) and rate_per_night.before_taxes_fees=$228 (pre-tax). Brief computed 2-night total using before_taxes_fees ($228 × 2 = $456) but section header asserts 'all-in including taxes & fees' which per task.md billing convention requires lowest (post-tax). Correct = $243 × 2 = $486."
+    },
+    {
+      "finding_id": 9,
+      "error_type": "cancellation_floor_violation",
+      "leg_id": "bangkok-cancellation-section",
+      "correct_value_kind": "number",
+      "correct_value": 48,
+      "tolerance": 0.5,
+      "context_hint": "Trip lasts 9 calendar days (Sept 15-23, inclusive) ≥ 7. Policy §4.1 prohibits non-refundable rates on trips ≥7 days and mandates a minimum 48-hour cancellation grace window. correct_value = 48 (the required minimum cancellation grace in hours, derivable directly from policy §4.1)."
+    },
+    {
+      "finding_id": 10,
+      "error_type": "dietary_unaccommodated",
+      "leg_id": "bangkok-team-dietary-area",
+      "correct_value_kind": "string",
+      "correct_value": [
+        "Paradox Bangkok Sukhumvit",
+        "Walton Suites Sukhumvit Bangkok"
+      ],
+      "tolerance": null,
+      "context_hint": "Client email#4 invokes policy §4.4 dining-diverse-neighbourhood rule. §4.4's approved Bangkok corridor is [Sukhumvit, Asoke, Phrom Phong, Thong Lor, Nana]. Mercure Bangkok Sukhumvit 11's nearby_places = ['Suvarnabhumi Airport', \"Lily Fu's - Authentic Thai Restaurant\"] — neither matches the approved list (the property's own name containing 'Sukhumvit' is explicitly NOT sufficient per §4.4 second sentence). Two equally-valid corrections per §3 (revised) + §4.7: (a) 'Paradox Bangkok Sukhumvit' at $101/night (nearby_places ['Sukhumvit', ...] — cheapest dataset-wide §4.4-compliant); (b) 'Walton Suites Sukhumvit Bangkok' at $170/night (nearby_places ['Asoke', ...] — cheapest §3-allowlist §4.4-compliant). Either is acceptable per the §3 (revised) clause that allows corrections to either prefer the contracted supplier OR seek the dataset-wide cheapest compliant property."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "target_doc_name": "AccessoryHub Wholesale Price List — Q3 2026",
+  "target_doc_id": "doc-pricelist-q3-2026",
+
+  "products": [
+    {
+      "sku": "AG-100",
+      "origin": "imported",
+      "old_price": "$24.00",
+      "expected_price": "$26.90",
+      "expected_block_text": "AG-100 — Wireless Charging Pad (Imported) — $26.90 / unit",
+      "check_id": "price_updated:AG-100"
+    },
+    {
+      "sku": "AG-115",
+      "origin": "imported",
+      "old_price": "$38.50",
+      "expected_price": "$43.10",
+      "expected_block_text": "AG-115 — USB-C Hub, 7-port (Imported) — $43.10 / unit",
+      "check_id": "price_updated:AG-115"
+    },
+    {
+      "sku": "AG-130",
+      "origin": "domestic",
+      "old_price": "$14.75",
+      "expected_price": "$14.75",
+      "expected_block_text": "AG-130 — Mechanical Keyboard Switch Tester (Domestic) — $14.75 / unit",
+      "check_id": "price_unchanged:AG-130"
+    },
+    {
+      "sku": "AG-145",
+      "origin": "imported",
+      "old_price": "$12.75",
+      "expected_price": "$14.30",
+      "expected_block_text": "AG-145 — Silicone Cable Tidy Set, 12-pack (Imported) — $14.30 / unit",
+      "check_id": "price_updated:AG-145"
+    },
+    {
+      "sku": "AG-160",
+      "origin": "domestic",
+      "old_price": "$31.00",
+      "expected_price": "$31.00",
+      "expected_block_text": "AG-160 — Aluminium Laptop Stand (Domestic) — $31.00 / unit",
+      "check_id": "price_unchanged:AG-160"
+    },
+    {
+      "sku": "AG-175",
+      "origin": "imported",
+      "old_price": "$17.60",
+      "expected_price": "$19.70",
+      "expected_block_text": "AG-175 — Portable LED Desk Lamp (Imported) — $19.70 / unit",
+      "check_id": "price_updated:AG-175"
+    },
+    {
+      "sku": "AG-190",
+      "origin": "discontinued",
+      "old_price": "$6.50",
+      "expected_price": "$6.50",
+      "expected_block_text": "AG-190 — Webcam Privacy Cover, 10-pack (Discontinued) — $6.50 / unit",
+      "check_id": "price_frozen:AG-190"
+    },
+    {
+      "sku": "AG-205",
+      "origin": "re-sourced",
+      "old_price": "$33.60",
+      "expected_price": "$33.60",
+      "expected_block_text": "AG-205 — Braided Nylon Cable Set, 3-pack (Imported) — $33.60 / unit",
+      "check_id": "price_unchanged:AG-205"
+    }
+  ],
+
+  "q2_reference_products": [
+    {
+      "sku": "AG-100",
+      "expected_text": "AG-100 — Wireless Charging Pad (Imported) — $24.00 / unit"
+    },
+    {
+      "sku": "AG-115",
+      "expected_text": "AG-115 — USB-C Hub, 7-port (Imported) — $38.50 / unit"
+    },
+    {
+      "sku": "AG-130",
+      "expected_text": "AG-130 — Mechanical Keyboard Switch Tester (Domestic) — $14.75 / unit"
+    },
+    {
+      "sku": "AG-145",
+      "expected_text": "AG-145 — Silicone Cable Tidy Set, 12-pack (Imported) — $12.75 / unit"
+    },
+    {
+      "sku": "AG-160",
+      "expected_text": "AG-160 — Aluminium Laptop Stand (Domestic) — $31.00 / unit"
+    },
+    {
+      "sku": "AG-175",
+      "expected_text": "AG-175 — Portable LED Desk Lamp (Imported) — $17.60 / unit"
+    },
+    {
+      "sku": "AG-190",
+      "expected_text": "AG-190 — Webcam Privacy Cover, 10-pack (Discontinued) — $6.50 / unit"
+    },
+    {
+      "sku": "AG-205",
+      "expected_text": "AG-205 — Braided Nylon Cable Set, 3-pack (Imported) — $33.60 / unit"
+    }
+  ],
+
+  "distractor_doc": {
+    "id": "doc-supplier-contacts",
+    "name": "Supplier Contact Directory — 2026",
+    "block_original_texts": {
+      "b-sc-title": "Supplier Contact Directory — 2026",
+      "b-sc-intro": "Primary contacts for all AccessoryHub product suppliers. Updated quarterly by Operations.",
+      "b-sc-imported-heading": "Imported Product Suppliers",
+      "b-sc-shenzhen": "Shenzhen PowerTech Ltd. — AG-100, AG-115, AG-145, AG-175. Contact: wei.liu@szpowertech.test. Lead time: 45 days.",
+      "b-sc-domestic-heading": "Domestic Suppliers",
+      "b-sc-midwest": "MidWest Components Inc. — AG-130, AG-160, AG-205 (from Q3 2026). Contact: orders@midwestcomponents.test. Lead time: 10 days."
+    }
+  },
+
+  "expected_doc_count": 2
+}

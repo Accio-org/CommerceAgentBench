@@ -1,0 +1,19 @@
+{
+  "products": [
+    {"name": "Starter", "monthly_cents": 2900, "annual_cents": 27800},
+    {"name": "Pro", "monthly_cents": 7900, "annual_cents": 75800},
+    {"name": "Enterprise", "monthly_cents": 19900, "annual_cents": null}
+  ],
+  "customers": [
+    {"name": "Alice Chen", "email": "alice@startup.io", "converts": true, "plan": "starter_monthly", "expected_price_cents": 2900},
+    {"name": "Bob Rivera", "email": "bob@agency.co", "converts": true, "plan": "enterprise_monthly", "expected_price_cents": 19900},
+    {"name": "Carol Zhang", "email": "carol@design.studio", "converts": true, "plan": "pro_monthly", "trial_extension": true, "expected_price_cents": 7900},
+    {"name": "Dave Okafor", "email": "dave@consulting.ng", "converts": true, "plan": "starter_annual", "discount_pct": 15, "expected_price_cents": 27800},
+    {"name": "Eve Larsson", "email": "eve@nordic.tech", "converts": true, "plan": "pro_monthly", "card_replaced": true, "expected_price_cents": 7900},
+    {"name": "Frank Bauer", "email": "frank@retail.de", "converts": false, "churned": true}
+  ],
+  "webhook_url": "https://hooks.saas.io/billing",
+  "subscription_count": 5,
+  "setup_intent_count": 5,
+  "payment_method_count": 5
+}

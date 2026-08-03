@@ -1,0 +1,36 @@
+{
+  "seed_customers": [
+    {"name": "Alpine Ridge Outfitters", "email": "wholesale@alpineridge.com"},
+    {"name": "Basecamp Supply Co", "email": "ap@basecampsupply.com"},
+    {"name": "Crestline Camping Wholesale", "email": "orders@crestlinecamping.com"}
+  ],
+  "new_customer": {
+    "name": "Summit Trail Direct",
+    "email": "wholesale@summittrail.com"
+  },
+  "customer_descriptions": {
+    "Alpine Ridge Outfitters": "Tier 1 wholesale — net 30, 5% volume discount applied",
+    "Basecamp Supply Co": "Tier 2 wholesale — net 45, standard pricing",
+    "Crestline Camping Wholesale": "Tier 1 wholesale — net 30, priority fulfillment",
+    "Summit Trail Direct": "New wholesale account — net 60, first order"
+  },
+  "line_items": [
+    {"customer_name": "Alpine Ridge Outfitters", "amount": 1428000, "desc_contains": "Trekking pole"},
+    {"customer_name": "Alpine Ridge Outfitters", "amount": 864000, "desc_contains": "daypack"},
+    {"customer_name": "Alpine Ridge Outfitters", "amount": 294000, "desc_contains": "tent stakes", "_note": "adjusted from 315000 due to short-ship credit of 70 units"},
+    {"customer_name": "Basecamp Supply Co", "amount": 637500, "desc_contains": "water bottle"},
+    {"customer_name": "Basecamp Supply Co", "amount": 2016000, "desc_contains": "sleeping bag", "_note": "adjusted from 2160000: only 168 accepted (12 failed QC)"},
+    {"customer_name": "Crestline Camping Wholesale", "amount": 495000, "desc_contains": "headlamp"},
+    {"customer_name": "Crestline Camping Wholesale", "amount": 1120000, "desc_contains": "stove"},
+    {"customer_name": "Crestline Camping Wholesale", "amount": 768000, "desc_contains": "boot"},
+    {"customer_name": "Crestline Camping Wholesale", "amount": 225000, "desc_contains": "aid kit"},
+    {"customer_name": "Summit Trail Direct", "amount": 740000, "desc_contains": "backpack"},
+    {"customer_name": "Summit Trail Direct", "amount": 690000, "desc_contains": "water filter"}
+  ],
+  "invoice_count": 4,
+  "reconciliation": {
+    "total_invoiced_cents": 9277500,
+    "invoice_count": 4,
+    "line_item_count": 11
+  }
+}

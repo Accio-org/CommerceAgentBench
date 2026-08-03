@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-lc-eco-tote-discrepancy-audit",
+  "summary": "Audit a documentary credit presentation: identify the material discrepancies under UCP 600 / ISBP 821, distinguish them from items that look discrepant but fall within tolerance or practice, and reach the correct honour-or-refuse decision. 8 material discrepancies + 6 non-material traps planted. Checks folded per docs/check-granularity.md: completeness of finding each material discrepancy (R3a) and clearing each trap (R3a) are the two graded core competencies; rule_cite folds into each item.",
+  "category": "trade_finance_lc_examination",
+  "state_kind": "offline_local_only",
+  "difficulty": "L6",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Environment/format gate (R2): outputs/discrepancy_audit.json exists, is non-empty, parses as a JSON object, and contains the required top-level keys material_discrepancies (array), non_material_examined (array), decision_enum (string)."
+    },
+    {
+      "id": "material_found::shipment_after_lc_latest_date",
+      "check_type": "deterministic_exact",
+      "description": "M1: flags the bill_of_lading on-board/shipment date (2026-03-12) being after the LC latest date of shipment (2026-03-10) as material, with rule_cite referencing UCP 600 art 19-25 (transport docs) / 14 / latest shipment / field 44C."
+    },
+    {
+      "id": "material_found::goods_description_classification_change",
+      "check_type": "deterministic_exact",
+      "description": "M2: flags the commercial_invoice goods-description classification change ('polyester non-woven' vs LC 45A 'cotton canvas') as material, with rule_cite referencing UCP 600 art 14(e) / 18(a) or ISBP section C."
+    },
+    {
+      "id": "material_found::bl_signed_by_agent_without_named_carrier",
+      "check_type": "deterministic_exact",
+      "description": "M3: flags the bill_of_lading signed by Sino Shipping Agency 'as Agent' without a named carrier as material, with rule_cite referencing UCP 600 art 20 / 20(a)."
+    },
+    {
+      "id": "material_found::weight_conflict_packing_list_vs_bl",
+      "check_type": "deterministic_exact",
+      "description": "M4: flags the weight conflict between packing_list (net 4,650 kg / gross 5,237.5 kg) and bill_of_lading (net 4,470 kg / gross 5,020 kg) as material, with rule_cite referencing UCP 600 art 14(d) or ISBP weight identity."
+    },
+    {
+      "id": "material_found::late_presentation_27_days",
+      "check_type": "deterministic_exact",
+      "description": "M5: flags the cover schedule despatch/presentation date 2026-04-08 being more than 21 days after shipment (27 days) as material, with rule_cite referencing UCP 600 art 14(c) / field 48 / period for presentation."
+    },
+    {
+      "id": "material_found::insurance_missing_institute_strikes_clauses",
+      "check_type": "deterministic_exact",
+      "description": "M6: flags the insurance_policy missing Institute Strikes Clauses (LC 46A mandates Strikes; policy lists only ICC(A) + War + TPND) as material, with rule_cite referencing UCP 600 art 28 / 28(g) or art 14(a)."
+    },
+    {
+      "id": "material_found::draft_tenor_usance_vs_lc_sight",
+      "check_type": "deterministic_exact",
+      "description": "M7: flags the cover schedule draft tenor 'at 30 days sight' (usance) vs LC 42C 'sight' as material, with rule_cite referencing UCP 600 art 14(d) or LC field 42C."
+    },
+    {
+      "id": "material_found::inspection_certificate_required_but_not_presented",
+      "check_type": "deterministic_exact",
+      "description": "M8: flags the Inspection Certificate required by LC 46A but not enclosed in the cover schedule (only 5 documents) as material, with rule_cite referencing UCP 600 art 14(a) or LC field 46A."
+    },
+    {
+      "id": "trap_classified::invoice_amount_short_within_art_30c_tolerance",
+      "check_type": "deterministic_exact",
+      "description": "T1: classifies the invoice amount USD 92,500 (vs LC USD 95,000, 2.63% short) as non-material (NOT in material_discrepancies), with rule_cite referencing UCP 600 art 30 / 30(c)."
+    },
+    {
+      "id": "trap_classified::insurance_coverage_exactly_at_minimum_110pct",
+      "check_type": "deterministic_exact",
+      "description": "T2: classifies the insurance coverage USD 104,500 = exactly 110% of CIF as non-material (NOT in material_discrepancies), with rule_cite referencing UCP 600 art 28 / 28(f)."
+    },
+    {
+      "id": "trap_classified::exporter_name_case_difference",
+      "check_type": "deterministic_exact",
+      "description": "T3: classifies the exporter-name case difference (CO upper-case vs invoice title-case) as non-material (NOT in material_discrepancies), with rule_cite referencing ISBP 821 A23 / typographical / case difference."
+    },
+    {
+      "id": "trap_classified::invoice_title_export_invoice_acceptable",
+      "check_type": "deterministic_exact",
+      "description": "T4: classifies the invoice title 'EXPORT INVOICE' (vs LC 46A 'Commercial Invoice') as non-material (NOT in material_discrepancies), with rule_cite referencing ISBP 821 A19/A20 or UCP art 18."
+    },
+    {
+      "id": "trap_classified::insurance_extra_tpnd_coverage_acceptable",
+      "check_type": "deterministic_exact",
+      "description": "T5: classifies the extra TPND coverage on the insurance policy as non-material (NOT in material_discrepancies), with rule_cite referencing ISBP 821 K17/K18 (greater coverage acceptable) or UCP art 28."
+    },
+    {
+      "id": "trap_classified::country_of_origin_format_variance",
+      "check_type": "deterministic_exact",
+      "description": "T6: classifies the country-of-origin format variance ('CHINA' on invoice vs 'PEOPLE'S REPUBLIC OF CHINA' on CO) as non-material (NOT in material_discrepancies), with rule_cite referencing ISBP 821 A23 / B17 / country-name variation."
+    },
+    {
+      "id": "no_false_positives",
+      "check_type": "deterministic_exact",
+      "description": "Restraint / count (R6): material_discrepancies array contains exactly 8 entries — no spurious discrepancies (false positives) added beyond the 8 expected material discrepancies."
+    },
+    {
+      "id": "decision_correct",
+      "check_type": "deterministic_exact",
+      "description": "Honour/refuse conclusion (R6): decision_enum equals 'discrepant' (any material discrepancy → presentation is non-complying)."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "discrepancy_audit.json"
+    ]
+  }
+}

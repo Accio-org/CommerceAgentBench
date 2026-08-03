@@ -1,0 +1,80 @@
+{
+  "task_id": "browser-gmail-vendor-brief",
+  "label": {
+    "name": "VBR-52"
+  },
+  "label_required_message_ids": [
+    "vbr-001-brief",
+    "vbr-002-capacity",
+    "vbr-003-quality",
+    "vbr-004-price",
+    "vbr-005-meeting"
+  ],
+  "label_forbidden_message_ids": [
+    "vbr-006-old-price",
+    "vbr-007-other-vendor"
+  ],
+  "mark_read_message_ids": [
+    "vbr-001-brief",
+    "vbr-002-capacity",
+    "vbr-003-quality",
+    "vbr-004-price",
+    "vbr-005-meeting"
+  ],
+  "star_required_message_ids": [
+    "vbr-003-quality",
+    "vbr-004-price"
+  ],
+  "star_forbidden_message_ids": [
+    "vbr-006-old-price",
+    "vbr-007-other-vendor"
+  ],
+  "drafts": [
+    {
+      "id": "buyer-brief",
+      "to": [
+        "buyer.ops@auroraretail.test"
+      ],
+      "subject_all": [
+        "VBR-52",
+        "brief"
+      ],
+      "body_all": [
+        "24k/week",
+        "17 days",
+        "CAPA-52",
+        "zipper seam",
+        "USD 7.42",
+        "2025-06-21"
+      ]
+    }
+  ],
+  "calendar_events": [
+    {
+      "id": "supplier-call",
+      "title_all": [
+        "VBR-52",
+        "Harbor Stitch"
+      ],
+      "date": "2025-06-21",
+      "start": "09:00",
+      "end": "09:45",
+      "guests_all": [
+        "buyer.ops@auroraretail.test",
+        "account@harborstitch.test"
+      ],
+      "description_all": [
+        "24k/week",
+        "17 days",
+        "CAPA-52",
+        "USD 7.42"
+      ]
+    }
+  ],
+  "required_ui_events": {
+    "label_created": 1,
+    "message_action": 3,
+    "draft_saved": 1,
+    "calendar_event_created": 1
+  }
+}

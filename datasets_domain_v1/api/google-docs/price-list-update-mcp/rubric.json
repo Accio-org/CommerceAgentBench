@@ -1,0 +1,127 @@
+{
+  "schema_version": "2.0",
+  "task_id": "api-google-docs-price-list-update-mcp",
+  "summary": "MCP-only Google Docs task: apply Finance's Q3 supplier surcharge to the current AccessoryHub wholesale price list while preserving exempt products, historical reference rows, document structure, and the distractor document.",
+  "category": "google_docs_mcp",
+  "state_kind": "runtime_mock_mcp_stateful",
+  "difficulty": "hard",
+  "check_strategy": "Verifier reads the final Google Docs mock state, evaluates atom-level document predicates, then folds them into stable capability checks by pure AND aggregation. Binary reward requires all capability checks to pass.",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_state",
+      "description": "The mock state is readable and the target price-list document exists exactly once."
+    },
+    {
+      "id": "imported_prices_updated",
+      "check_type": "deterministic_exact",
+      "description": "All imported current-catalogue SKUs have the 12% surcharge applied and rounded to the nearest $0.05."
+    },
+    {
+      "id": "exempt_prices_preserved",
+      "check_type": "deterministic_exact",
+      "description": "Domestic, discontinued, and re-sourced SKUs keep their original current-catalogue prices."
+    },
+    {
+      "id": "catalogue_structure_intact",
+      "check_type": "deterministic_state",
+      "description": "Each SKU remains represented exactly once as a product price line in the current-catalogue region."
+    },
+    {
+      "id": "q2_reference_intact",
+      "check_type": "deterministic_exact",
+      "description": "The Previous Quarter reference section keeps every SKU row at its original Q2 price."
+    },
+    {
+      "id": "structural_blocks_intact",
+      "check_type": "deterministic_state",
+      "description": "The title, intro, Products heading, Notes heading, and footer remain present."
+    },
+    {
+      "id": "distractor_doc_unchanged",
+      "check_type": "deterministic_exact",
+      "description": "The supplier-contact distractor document remains unchanged."
+    },
+    {
+      "id": "document_count_unchanged",
+      "check_type": "deterministic_state",
+      "description": "The final workspace still contains the expected number of non-trashed documents."
+    },
+    {
+      "id": "workspace_batch_update_used",
+      "check_type": "deterministic_state",
+      "description": "At least one Workspace/MCP document update tool call was used."
+    }
+  ],
+  "atomic_checks": [
+    {
+      "id": "mock_state_readable",
+      "folds_into": "setup_gate"
+    },
+    {
+      "id": "target_doc_present",
+      "folds_into": "setup_gate"
+    },
+    {
+      "id": "target_doc_unique",
+      "folds_into": "setup_gate"
+    },
+    {
+      "id": "price_updated:AG-100",
+      "folds_into": "imported_prices_updated"
+    },
+    {
+      "id": "price_updated:AG-115",
+      "folds_into": "imported_prices_updated"
+    },
+    {
+      "id": "price_updated:AG-145",
+      "folds_into": "imported_prices_updated"
+    },
+    {
+      "id": "price_updated:AG-175",
+      "folds_into": "imported_prices_updated"
+    },
+    {
+      "id": "price_unchanged:AG-130",
+      "folds_into": "exempt_prices_preserved"
+    },
+    {
+      "id": "price_unchanged:AG-160",
+      "folds_into": "exempt_prices_preserved"
+    },
+    {
+      "id": "price_frozen:AG-190",
+      "folds_into": "exempt_prices_preserved"
+    },
+    {
+      "id": "price_unchanged:AG-205",
+      "folds_into": "exempt_prices_preserved"
+    },
+    {
+      "id": "catalogue_structure_intact",
+      "folds_into": "catalogue_structure_intact"
+    },
+    {
+      "id": "q2_reference_intact",
+      "folds_into": "q2_reference_intact"
+    },
+    {
+      "id": "structural_blocks_intact",
+      "folds_into": "structural_blocks_intact"
+    },
+    {
+      "id": "distractor_doc_unchanged",
+      "folds_into": "distractor_doc_unchanged"
+    },
+    {
+      "id": "document_count_unchanged",
+      "folds_into": "document_count_unchanged"
+    },
+    {
+      "id": "workspace_batch_update_used",
+      "folds_into": "workspace_batch_update_used"
+    }
+  ],
+  "notes": "The memo is required task input: it states the finance rule, exceptions, and rounding convention needed to perform the document edit. The discriminating failure mode is over-broad document replacement: correct current-catalogue prices are not enough if the Q2 reference section or unrelated supplier-contact document is also modified."
+}

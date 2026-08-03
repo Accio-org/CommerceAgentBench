@@ -1,0 +1,31 @@
+{
+  "account_id": "ACC-88721",
+  "store_name": "好居家旗舰店",
+  "data_cutoff_date": "2026-05-20",
+  "weekly_budget_cny": 4200.00,
+  "daily_budget_cap_cny": 600.00,
+  "max_bid_cny": 3.00,
+  "min_bid_cny": 0.20,
+  "brand_min_bid_cny": 0.50,
+  "ad_groups": [
+    {
+      "group_id": "AG01",
+      "name": "家居收纳",
+      "category": "收纳整理",
+      "daily_budget_cny": 250.00
+    },
+    {
+      "group_id": "AG02",
+      "name": "厨房用品",
+      "category": "厨房收纳",
+      "daily_budget_cny": 250.00
+    },
+    {
+      "group_id": "AG03",
+      "name": "浴室配件",
+      "category": "卫浴收纳",
+      "daily_budget_cny": 200.00
+    }
+  ],
+  "notes": "各组日预算为参考值，实际以账户总日预算为硬上限；组预算仅用于内部分析，不作为约束条件。"
+}

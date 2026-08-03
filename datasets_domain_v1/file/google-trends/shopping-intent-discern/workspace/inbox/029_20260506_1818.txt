@@ -1,0 +1,6 @@
+From: newsletter@gadgetwire.example
+To: wen.li@northstar-dtc.com
+Date: Wed, 06 May 2026 18:18
+Subject: Re: shared drive cleanup
+
+Reminder to clear old exports from the shared drive — we're at 90% quota. Archive anything older than 6 months.

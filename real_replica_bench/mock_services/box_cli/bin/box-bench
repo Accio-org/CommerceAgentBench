@@ -1,0 +1,185 @@
+#!/usr/bin/env bun
+// Box bench control — state inspection, seeding, reset, health check
+// Sibling to bin/box, uses same DB
+
+import { openDb, initSchema, runSeed, now } from '../lib/db.js';
+import { readFileSync, existsSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { writeSync as __ccbWriteSyncFd } from "node:fs";
+// Flush-safe stdout: process.exit() discards un-flushed async pipe writes
+// (verifier state JSON >64KB was truncated through the daemon). writeSync
+// to fd 1 is synchronous in both node and bun.
+const __ccbOut = (s) => { try { __ccbWriteSyncFd(1, s); } catch (e) {} };
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const MOCK_ROOT = join(__dirname, '..');
+const DEFAULT_SEED_PATH = join(MOCK_ROOT, 'seeds', 'default.sql');
+
+const args = process.argv.slice(2);
+const command = args[0];
+const flags = {};
+
+for (let i = 1; i < args.length; i++) {
+  const arg = args[i];
+  if (arg.startsWith('--')) {
+    const eqIdx = arg.indexOf('=');
+    if (eqIdx !== -1) {
+      flags[arg.slice(2, eqIdx)] = arg.slice(eqIdx + 1);
+    } else {
+      const next = args[i + 1];
+      if (next && !next.startsWith('-')) {
+        flags[arg.slice(2)] = next;
+        i++;
+      } else {
+        flags[arg.slice(2)] = true;
+      }
+    }
+  }
+}
+
+if (!command || command === '--help' || command === '-h') {
+  printHelp();
+  process.exit(0);
+}
+
+const VERIFIER_TOKEN = process.env.MOCK_VERIFIER_TOKEN || 'bench-verifier';
+
+switch (command) {
+  case 'health':
+    doHealth();
+    break;
+  case 'state':
+    doState();
+    break;
+  case 'seed':
+    doSeed();
+    break;
+  case 'reset':
+    doReset();
+    break;
+  case 'audit':
+    doAudit();
+    break;
+  default:
+    process.stderr.write(`Unknown command: ${command}\n`);
+    printHelp();
+    process.exit(2);
+}
+
+function requireToken() {
+  const token = flags.token;
+  const internalToken = process.env.CCB_INTERNAL_BENCH_TOKEN;
+  if (token === VERIFIER_TOKEN || internalToken === VERIFIER_TOKEN) {
+    return;
+  }
+  if (!token && !internalToken) {
+    process.stderr.write('Unauthorized: invalid or missing --token\n');
+  } else {
+    process.stderr.write('Unauthorized: invalid verifier token\n');
+  }
+  process.exit(2);
+}
+
+function doHealth() {
+  try {
+    const db = openDb();
+    initSchema(db);
+    const row = db.prepare('SELECT COUNT(*) as cnt FROM users').get();
+    db.close();
+    const result = {
+      status: 'ok',
+      timestamp: now(),
+      users_count: row.cnt,
+    };
+    __ccbOut(JSON.stringify(result, null, 2) + '\n');
+  } catch (err) {
+    __ccbOut(JSON.stringify({ status: 'error', message: err.message }) + '\n');
+    process.exit(2);
+  }
+}
+
+function doState() {
+  requireToken();
+  const db = openDb();
+  initSchema(db);
+
+  const state = {
+    users: db.prepare('SELECT * FROM users').all(),
+    folders: db.prepare('SELECT * FROM folders WHERE is_deleted = 0').all(),
+    files: db.prepare('SELECT id, name, description, parent_id, size, sha1, etag, created_at, modified_at, item_status, tags_json, trashed_at, is_deleted FROM files WHERE is_deleted = 0').all(),
+    comments: db.prepare('SELECT * FROM comments WHERE is_deleted = 0').all(),
+    collaborations: db.prepare('SELECT * FROM collaborations WHERE is_deleted = 0').all(),
+    shared_links: db.prepare('SELECT * FROM shared_links WHERE is_deleted = 0').all(),
+    tasks: db.prepare('SELECT * FROM tasks WHERE is_deleted = 0').all(),
+    auth_sessions: db.prepare('SELECT * FROM auth_session').all(),
+    trashed_files: db.prepare('SELECT id, name, trashed_at FROM files WHERE trashed_at IS NOT NULL AND is_deleted = 0').all(),
+    trashed_folders: db.prepare("SELECT id, name, trashed_at FROM folders WHERE trashed_at IS NOT NULL AND is_deleted = 0 AND id != '0'").all(),
+  };
+
+  db.close();
+  __ccbOut(JSON.stringify(state, null, 2) + '\n');
+}
+
+function doSeed() {
+  requireToken();
+  const seedFile = flags.file || DEFAULT_SEED_PATH;
+  if (!existsSync(seedFile)) {
+    process.stderr.write(`Seed file not found: ${seedFile}\n`);
+    process.exit(2);
+  }
+
+  const db = openDb();
+  initSchema(db);
+  runSeed(db, seedFile);
+  db.close();
+  __ccbOut(`Seeded from ${seedFile}\n`);
+}
+
+function doReset() {
+  requireToken();
+  const db = openDb();
+
+  // Drop all data
+  const tables = ['audit_log', 'auth_session', 'shared_links', 'tasks', 'comments', 'collaborations', 'files', 'folders', 'users'];
+  for (const table of tables) {
+    db.prepare(`DELETE FROM ${table}`).run();
+  }
+
+  // Re-seed
+  if (existsSync(DEFAULT_SEED_PATH)) {
+    runSeed(db, DEFAULT_SEED_PATH);
+  }
+
+  db.close();
+  __ccbOut('Database reset and re-seeded.\n');
+}
+
+function doAudit() {
+  requireToken();
+  const db = openDb();
+  initSchema(db);
+
+  const logs = db.prepare('SELECT * FROM audit_log ORDER BY id DESC LIMIT 100').all();
+  db.close();
+  __ccbOut(JSON.stringify(logs, null, 2) + '\n');
+}
+
+function printHelp() {
+  __ccbOut(`Box Bench Control — RealReplicaBench
+
+USAGE
+  $ box-bench COMMAND [OPTIONS]
+
+COMMANDS
+  health                Health check (no auth required)
+  state  --token <T>    Dump full database state as JSON
+  seed   --token <T>    Seed database from SQL file (--file <path>)
+  reset  --token <T>    Wipe database and re-seed with defaults
+  audit  --token <T>    Show audit log (last 100 entries)
+
+OPTIONS
+  --token <T>    Verifier token (required for state/seed/reset/audit)
+  --file <path>  SQL seed file (for seed command; default: seeds/default.sql)
+`);
+}

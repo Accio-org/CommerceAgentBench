@@ -1,0 +1,241 @@
+ARG BASE_IMAGE=acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+FROM ${BASE_IMAGE}
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN rm -rf /opt/mock_services /var/lib/mocksvc
+
+# --- alibaba_publish mock ---
+RUN mkdir -p /opt/mock_services/alibaba_publish
+COPY alibaba_publish/ /opt/mock_services/alibaba_publish/
+
+RUN cd /opt/mock_services/alibaba_publish \
+    && npm install --omit=dev --no-save --no-audit --no-fund \
+      --registry=https://registry.npmmirror.com \
+      --fetch-retries=5 \
+      --fetch-retry-mintimeout=20000 \
+      --fetch-retry-maxtimeout=120000 \
+    && npm cache clean --force \
+    && rm -f /root/.npmrc \
+    && mkdir -p /opt/mock_services/alibaba_publish/data /opt/mock_services/alibaba_publish/uploads
+
+RUN cd /opt/mock_services/alibaba_publish \
+    && bun -e "require('express'); require('multer'); require('uuid'); require('bun:sqlite'); console.log('alibaba_publish deps ok')"
+
+# --- reddit_mock ---
+RUN mkdir -p /opt/mock_services/reddit_mock
+COPY reddit_mock/ /opt/mock_services/reddit_mock/
+
+RUN cd /opt/mock_services/reddit_mock \
+    && npm install --omit=dev --no-save --no-audit --no-fund \
+      --registry=https://registry.npmmirror.com \
+      --fetch-retries=5 \
+      --fetch-retry-mintimeout=20000 \
+      --fetch-retry-maxtimeout=120000 \
+    && npm cache clean --force \
+    && rm -f /root/.npmrc
+
+RUN cd /opt/mock_services/reddit_mock \
+    && bun -e "require('express'); require('cookie-parser'); console.log('reddit_mock deps ok')"
+
+# --- shopify_admin mock ---
+RUN mkdir -p /opt/mock_services/shopify_admin
+COPY shopify_admin/ /opt/mock_services/shopify_admin/
+
+RUN cd /opt/mock_services/shopify_admin \
+    && npm install --omit=dev --no-save --no-audit --no-fund \
+      --registry=https://registry.npmmirror.com \
+      --fetch-retries=5 \
+      --fetch-retry-mintimeout=20000 \
+      --fetch-retry-maxtimeout=120000 \
+    && npm cache clean --force \
+    && rm -f /root/.npmrc \
+    && mkdir -p /opt/mock_services/shopify_admin/data /opt/mock_services/shopify_admin/uploads
+
+RUN cd /opt/mock_services/shopify_admin \
+    && bun -e "require('express'); require('multer'); require('uuid'); require('bun:sqlite'); console.log('shopify_admin deps ok')"
+
+# --- SaaS/API mocks baked for domain_v1 runtime_mocks ---
+RUN mkdir -p \
+    /opt/mock_services/gmail_mock \
+    /opt/mock_services/amazon_sp_api \
+    /opt/mock_services/google_docs_mock \
+    /opt/mock_services/notion_cli \
+    /opt/mock_services/shopify_online_store_v2
+COPY gmail_mock/ /opt/mock_services/gmail_mock/
+COPY amazon_sp_api/ /opt/mock_services/amazon_sp_api/
+COPY google_docs_mock/ /opt/mock_services/google_docs_mock/
+COPY notion_cli/ /opt/mock_services/notion_cli/
+COPY shopify_online_store_v2/ /opt/mock_services/shopify_online_store_v2/
+
+RUN cd /opt/mock_services/gmail_mock \
+    && bun -e "require('./db'); console.log('gmail_mock deps ok')"
+
+RUN cd /opt/mock_services/amazon_sp_api \
+    && bun -e "await import('./lib/store.js'); console.log('amazon_sp_api deps ok')"
+
+RUN cd /opt/mock_services/google_docs_mock \
+    && test -f data/seed_state.json \
+    && bun -e "require('./lib/docs_model'); console.log('google_docs_mock deps ok')"
+
+RUN cd /opt/mock_services/notion_cli \
+    && npm install --omit=dev --no-save --no-audit --no-fund \
+      --registry=https://registry.npmmirror.com \
+      --fetch-retries=5 \
+      --fetch-retry-mintimeout=20000 \
+      --fetch-retry-maxtimeout=120000 \
+    && npm cache clean --force \
+    && rm -f /root/.npmrc \
+    && chmod 0755 bin/ntn-mock-bench bin/ntn-daemon-start bin/ntn-mock.js \
+    && bun -e "await import('./lib/state/store.js'); await import('express'); console.log('notion_cli deps ok')"
+
+RUN cd /opt/mock_services/shopify_online_store_v2 \
+    && chmod 0755 bin/shopify bin/shopify-bench \
+    && bun -e "require('./lib/admin'); console.log('shopify_online_store_v2 deps ok')"
+
+# --- CLI daemon helper + high-integrity CLI mocks ---
+RUN mkdir -p \
+    /opt/mock_services/cli_daemon \
+    /opt/mock_services/stripe_cli \
+    /opt/mock_services/box_cli \
+    /opt/mock_services/jira_cli \
+    /opt/mock_services/todoist_cli \
+    /opt/mock_services/dws_doc_cli \
+    /opt/mock_services/google_workspace_cli
+COPY cli_daemon/ /opt/mock_services/cli_daemon/
+COPY stripe_cli/ /opt/mock_services/stripe_cli/
+COPY box_cli/ /opt/mock_services/box_cli/
+COPY jira_cli/ /opt/mock_services/jira_cli/
+COPY todoist_cli/ /opt/mock_services/todoist_cli/
+COPY dws_doc_cli/ /opt/mock_services/dws_doc_cli/
+COPY google_workspace_cli/ /opt/mock_services/google_workspace_cli/
+
+RUN cd /opt/mock_services/stripe_cli \
+    && chmod 0755 bin/stripe bin/stripe-bench bin/stripe-daemon-start \
+    && bun -e "await import('./lib/db.js'); console.log('stripe_cli deps ok')"
+
+RUN chmod 0755 /opt/mock_services/cli_daemon/start-daemon-cli-mock
+
+RUN cd /opt/mock_services/box_cli \
+    && npm install --omit=dev --no-save --no-audit --no-fund \
+      --registry=https://registry.npmmirror.com \
+      --fetch-retries=5 \
+      --fetch-retry-mintimeout=20000 \
+      --fetch-retry-maxtimeout=120000 \
+    && npm cache clean --force \
+    && rm -f /root/.npmrc \
+    && chmod 0755 bin/box bin/box-bench bin/box-daemon-start \
+    && bun -e "await import('./lib/db.js'); await import('js-yaml'); console.log('box_cli deps ok')"
+
+RUN cd /opt/mock_services/jira_cli \
+    && chmod 0755 bin/jira bin/jira-bench bin/jira-daemon-start \
+    && bun -e "await import('./lib/db.js'); console.log('jira_cli deps ok')"
+
+RUN cd /opt/mock_services/todoist_cli \
+    && chmod 0755 bin/todoist bin/todoist-bench bin/todoist-daemon-start \
+    && bun -e "await import('./lib/db.js'); console.log('todoist_cli deps ok')"
+
+RUN cd /opt/mock_services/dws_doc_cli \
+    && chmod 0755 bin/dws bin/dws-bench bin/dws-bench.js bin/dws-daemon-start \
+    && bun -e "require('./lib/db.js'); console.log('dws_doc_cli deps ok')"
+
+RUN cd /opt/mock_services/google_workspace_cli \
+    && chmod 0755 bin/gws bin/gws-bench \
+    && bun -e "await import('./lib/db.mjs'); console.log('google_workspace_cli deps ok')"
+
+# --- media-root allowlist (bake what cli.py used to apply per-run) ---
+# OpenClaw's bundled `buildMediaLocalRoots` hardcodes the allowed media roots
+# in a hashed local-roots-*.js bundle. Append "/benchmark" to that list so
+# PDF/image tools can read task inputs at /benchmark/tasks/<task_id>/files/.
+# Fail closed if the bundle layout changes instead of silently shipping an
+# image whose media tools cannot access benchmark inputs.
+RUN set -e; python3 - <<'PY'
+from pathlib import Path
+
+root = Path("/usr/local/lib/node_modules/openclaw/dist")
+needle = 'path.join(resolvedStateDir, "sandboxes")'
+replacement = needle + ',\n\t\t"/benchmark"'
+patched = []
+already = []
+
+for path in root.rglob("local-roots-*.js"):
+    text = path.read_text(encoding="utf-8")
+    if '"/benchmark"' in text:
+        already.append(path)
+        continue
+    if needle in text:
+        path.write_text(text.replace(needle, replacement, 1), encoding="utf-8")
+        patched.append(path)
+
+if not patched and not already:
+    raise SystemExit("OpenClaw media-root patch target not found")
+
+missing = [
+    str(path)
+    for path in [*patched, *already]
+    if '"/benchmark"' not in path.read_text(encoding="utf-8")
+]
+if missing:
+    raise SystemExit("OpenClaw media-root patch missing /benchmark: " + ", ".join(missing))
+
+print("patched_media_roots", len(patched), "already_patched", len(already))
+PY
+
+# --- Mock-source isolation (benchmark integrity) ---
+# Background: agents can shell out via OpenClaw's `exec` tool while running as
+# root in this container. milestone-139 trajectories show models reading
+# /opt/mock_services/<name>/server.js (and even sqlite3 on benchmark.db) to
+# extract validation rules / answer hints — clear benchmark-integrity
+# violations.
+#
+# Defense: dedicated `mocksvc` system user owns /opt/mock_services/ at mode
+# 0700, and cli.py drops DAC_OVERRIDE/DAC_READ_SEARCH/FOWNER caps on the
+# OpenClaw container. Net: agent root can't read mock source (no
+# DAC_OVERRIDE), can't chmod its way past (no FOWNER), and can't sudo/su to
+# mocksvc (setuid bits stripped below). Mock services launched at setup time
+# via `docker exec --user mocksvc` can read their own files because they
+# match the file owner.
+#
+# A mocksvc-writable scratch dir at /var/lib/mocksvc holds per-run pid/log
+# files (cli.py overrides BENCH_WORKDIR to point here for OpenClaw runs, so
+# start_mock_services.sh writes pid/log there instead of in the
+# root-owned /workspace/accio-work/<task>/tmp/). Mock data still lives at
+# /opt/mock_services/<name>/data/ (mocksvc-owned).
+RUN if ! id mocksvc >/dev/null 2>&1; then \
+      groupadd -r mocksvc \
+      && useradd -r -g mocksvc -d /var/lib/mocksvc -s /usr/sbin/nologin mocksvc; \
+    fi \
+    && mkdir -p \
+      /var/lib/mocksvc \
+      /var/lib/mocksvc/stripe_cli \
+      /var/lib/mocksvc/box_cli \
+      /var/lib/mocksvc/jira_cli \
+      /var/lib/mocksvc/todoist_cli \
+      /var/lib/mocksvc/dws_doc_cli \
+      /var/lib/mocksvc/google_workspace_cli \
+      /var/lib/mocksvc/gmail_mock \
+      /var/lib/mocksvc/amazon_sp_api \
+      /var/lib/mocksvc/google_docs_mock \
+      /var/lib/mocksvc/notion_cli \
+      /var/lib/mocksvc/shopify_online_store_v2 \
+    && chown -R mocksvc:mocksvc /opt/mock_services /var/lib/mocksvc \
+    && chmod -R go-rwx /opt/mock_services \
+    && chmod -R u+rwX /opt/mock_services \
+    && chmod -R go-rwx /var/lib/mocksvc \
+    && chmod -R u+rwX /var/lib/mocksvc \
+    && for bin in /usr/bin/sudo /usr/bin/su /usr/sbin/runuser /bin/su /bin/sudo; do \
+         [ -e "$bin" ] && chmod u-s,g-s "$bin" 2>/dev/null || true; \
+       done \
+    # bun was installed by docker/openclaw/Dockerfile under /root/.bun/ and
+    # symlinked at /usr/local/bin/bun. /root is mode 0700 so the symlink
+    # target is unreadable to mocksvc — `command -v bun` from a `docker exec
+    # --user mocksvc` shell would fail. Replace the symlink with a world-
+    # readable copy at /usr/local/bin/bun so mocksvc can launch the mocks.
+    && if [ -L /usr/local/bin/bun ]; then \
+         BUN_REAL=$(readlink -f /usr/local/bin/bun); \
+         rm -f /usr/local/bin/bun; \
+         install -m 0755 "$BUN_REAL" /usr/local/bin/bun; \
+       fi
+
+LABEL org.opencontainers.image.source="real-replica-bench" \
+      org.opencontainers.image.description="OpenClaw runtime with bundled RealReplicaBench domain_v1 mocks + daemon CLI mocks + media-root /benchmark allowlist + mocksvc isolation"

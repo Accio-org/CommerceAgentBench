@@ -1,0 +1,77 @@
+{
+  "id": "qt_1Tcge1CLKuX79GC2RHppURij",
+  "object": "quote",
+  "amount_subtotal": 0,
+  "amount_total": 0,
+  "application": null,
+  "application_fee_amount": null,
+  "application_fee_percent": null,
+  "automatic_tax": {
+    "enabled": false,
+    "liability": null,
+    "provider": null,
+    "status": null
+  },
+  "collection_method": "charge_automatically",
+  "computed": {
+    "recurring": null,
+    "upfront": {
+      "amount_subtotal": 0,
+      "amount_total": 0,
+      "total_details": {
+        "amount_discount": 0,
+        "amount_shipping": 0,
+        "amount_tax": 0
+      }
+    }
+  },
+  "created": 1780123517,
+  "currency": "usd",
+  "customer": "cus_UbuSaaviZal7A9",
+  "customer_account": null,
+  "default_tax_rates": [],
+  "description": null,
+  "discounts": [],
+  "expires_at": 1782715517,
+  "footer": null,
+  "from_quote": null,
+  "header": null,
+  "invoice": null,
+  "invoice_settings": {
+    "days_until_due": null,
+    "issuer": {
+      "type": "self"
+    }
+  },
+  "livemode": false,
+  "metadata": {},
+  "number": null,
+  "on_behalf_of": null,
+  "status": "draft",
+  "status_transitions": {
+    "accepted_at": null,
+    "canceled_at": null,
+    "finalized_at": null
+  },
+  "subscription": null,
+  "subscription_data": {
+    "billing_mode": {
+      "flexible": {
+        "proration_discounts": "included"
+      },
+      "type": "flexible"
+    },
+    "description": null,
+    "effective_date": null,
+    "metadata": null,
+    "trial_period_days": null
+  },
+  "subscription_schedule": null,
+  "test_clock": null,
+  "total_details": {
+    "amount_discount": 0,
+    "amount_shipping": 0,
+    "amount_tax": 0
+  },
+  "transfer_data": null
+}

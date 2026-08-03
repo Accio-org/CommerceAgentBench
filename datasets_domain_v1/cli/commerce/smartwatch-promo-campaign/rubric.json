@@ -1,0 +1,51 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-commerce-smartwatch-promo-campaign",
+  "summary": "智能手表大促活动配置 — 多源冲突解决与精确定价 — local DTC campaign mock. v3: 7 capability checks (folded from 32 atoms; see docs/check-granularity.md).",
+  "category": "ecommerce_campaign",
+  "state_kind": "local_mock_cli",
+  "difficulty": "very-hard",
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": []
+  },
+  "check_strategy": "private/expected_answer.json drives the internal atomic field/banner predicates; the verifier folds them into capability groups (GROUP_SPECS). rubric.json declares the capability schema, not the per-field list.",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Environment + legitimate submit gate (R2): a session exists, its state is readable via the verifier endpoint, status is 'submitted', and the access-log shows a 'cli_submit_valid' event — i.e. the campaign was submitted through the proper CLI path."
+    },
+    {
+      "id": "product_identity",
+      "check_type": "deterministic_exact",
+      "description": "Disambiguated the ChronoVibe Pulse S2 smart watch among four mixed products: productSku, productTitle, category, basePrice, currency all match the Pulse S2 catalog facts."
+    },
+    {
+      "id": "pricing_with_cfo_override",
+      "check_type": "deterministic_exact",
+      "description": "Pricing built from the latest valid plan with the CFO discount override applied, with 2-decimal discounted-price compute: discountType, discountTiers, freeShippingThreshold all correct."
+    },
+    {
+      "id": "regions_with_ceo_expansion",
+      "check_type": "deterministic_exact",
+      "description": "Target markets from the marketing-director email merged with the CEO last-minute expansion, plus the correct per-region surcharge schedule: targetRegions and regionSurcharge both correct."
+    },
+    {
+      "id": "inventory_with_ops_adjustment",
+      "check_type": "deterministic_exact",
+      "description": "Warehouse allocation built from the latest valid plan with the Ops Manager Slack adjustment, preserving the total-stock invariant and the confirmed reserve mode: warehouseAllocation, totalCampaignStock, stockReserveMode all correct."
+    },
+    {
+      "id": "campaign_directives",
+      "check_type": "deterministic_exact",
+      "description": "Marketing-director-driven campaign settings all correct: campaignName, campaignType, campaignStart, campaignEnd, dailyAdBudget, paymentMethods, landingPageSlug, adPlatforms, maxPerCustomer, agreement."
+    },
+    {
+      "id": "banner_selection_correct",
+      "check_type": "deterministic_exact",
+      "description": "Selected the correct set of campaign banners by inspecting the PNGs — all five uploaded slots are smartwatch campaign assets and none is a fitness-band / charging-dock / reject distractor."
+    }
+  ],
+  "notes": "v3 folds the 32 atomic checks (4 structural + 23 field + 5 banner) into 7 capability groups. Each group passes iff all its member atoms pass (pure AND aggregation; binary pass unchanged). Per-atom failures are surfaced in the verifier's group `reason`. Expected field values remain verifier-only in private/expected_answer.json. Validation: refold + live rerun of 9 archived models, 0 binary mismatches (scratch/scripts/capacity_refactor/)."
+}

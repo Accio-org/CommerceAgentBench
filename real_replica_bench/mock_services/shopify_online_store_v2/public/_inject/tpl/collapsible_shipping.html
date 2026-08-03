@@ -1,0 +1,48 @@
+<!-- Rebuilt 1:1 from the real captured #product_variant_collapsible_shipping content
+     (/tmp/ccb_collapsibleShipping.html). 原产国家/地区 + 协调制度(HS)编码 are cosmetic —
+     the backend (lib/admin/products.js) does not persist countryCodeOfOrigin /
+     harmonizedSystemCode, so these are display-only (no name needed for scoring). -->
+<div class="Polaris-Box" style="--pc-box-padding-block-start-xs: var(--p-space-400); --pc-box-padding-block-end-xs: var(--p-space-400); --pc-box-padding-inline-start-xs: var(--p-space-400); --pc-box-padding-inline-end-xs: var(--p-space-400); padding:var(--p-space-400, 16px);">
+  <div class="Polaris-BlockStack" style="display:flex; flex-direction:column; gap:var(--p-space-400, 16px);">
+    <!-- 原产国家/地区 -->
+    <div class="Polaris-Box" style="--pc-box-padding-block-end-xs: var(--p-space-200);">
+      <div class="Polaris-FormLayout__Item Polaris-FormLayout--grouped">
+        <div class=""><div class="Polaris-Labelled__LabelWrapper"><div class="Polaris-Label"><label id="ShippingCardCountryOfOriginLabel" for="ShippingCardCountryOfOrigin" class="Polaris-Label__Text"><span class="Polaris-Text--root Polaris-Text--bodyMd">原产国家/地区</span></label></div></div>
+          <div class="Polaris-Select">
+            <select id="ShippingCardCountryOfOrigin" name="countryCodeOfOrigin" class="Polaris-Select__Input" aria-labelledby="ShippingCardCountryOfOriginLabel">
+              <option value="" disabled selected>选择</option>
+              <option value="CN">中国</option>
+              <option value="HK">中国香港特别行政区</option>
+              <option value="TW">中国台湾</option>
+              <option value="US">美国</option>
+              <option value="JP">日本</option>
+              <option value="KR">韩国</option>
+              <option value="DE">德国</option>
+              <option value="FR">法国</option>
+              <option value="GB">英国</option>
+              <option value="IT">意大利</option>
+              <option value="VN">越南</option>
+              <option value="IN">印度</option>
+              <option value="CA">加拿大</option>
+              <option value="AU">澳大利亚</option>
+            </select>
+            <div class="Polaris-Select__Content Polaris-Select--notLabelInside" aria-hidden="true"><span class="Polaris-Select__SelectedOption">选择</span><span class="Polaris-Select__Icon"><span class="Polaris-Icon Polaris-Icon--toneBase" style="width:1.25rem;height:1.25rem;"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true"><path d="M7.28 8.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1-1.06 1.06l-2.72-2.72-2.72 2.72z"></path><path d="M12.72 11.22a.75.75 0 0 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 1 1 1.06-1.06l2.72 2.72 2.72-2.72z"></path></svg></span></span></div>
+            <div class="Polaris-Select__Backdrop"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 协调制度 (HS) 编码 -->
+    <div class="Polaris-Box" style="--pc-box-padding-block-end-xs: var(--p-space-200);">
+      <div class="Polaris-BlockStack" style="display:flex; flex-direction:column; gap:var(--p-space-200, 8px);">
+        <div class="Polaris-InlineStack" style="display:flex; align-items:center; flex-wrap:wrap; gap:var(--p-space-100, 4px);">
+          <h5 style="margin:0;"><span class="Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--medium">协调制度 (HS) 编码</span></h5>
+        </div>
+        <div class="Polaris-Connected"><div class="Polaris-Connected__Item Polaris-Connected__Item--primary"><div class="Polaris-TextField">
+          <input name="harmonizedSystemCode" id="ShippingCardHarmonizedSystemCodeV2" role="combobox" placeholder="输入 6 位代码或按关键字搜索" autocomplete="off" class="Polaris-TextField__Input" type="text" aria-labelledby="ShippingCardHarmonizedSystemCodeV2Label" value="">
+          <div class="Polaris-TextField__Backdrop"></div>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+</div>

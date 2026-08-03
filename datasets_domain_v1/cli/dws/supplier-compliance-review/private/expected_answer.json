@@ -1,0 +1,822 @@
+{
+  "checks": [
+    {
+      "id": "review_doc_exists",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "review_status_apex_plastics",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Apex Plastics | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_atlas_packaging",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Atlas Packaging | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_bluewave_outdoor",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Bluewave Outdoor | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_brighthome_manufacturing",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "BrightHome Manufacturing | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_cedar_baby_goods",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Cedar Baby Goods | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_eastern_carton",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Eastern Carton | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_evermold",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "EverMold | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_goldriver_packaging",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "GoldRiver Packaging | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_greenfield_tools",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Greenfield Tools | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_harbor_homeware",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Harbor Homeware | Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_lumenbattery",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "LumenBattery | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_meridian_supply",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Meridian Supply | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_nanshan_cable",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Nanshan Cable | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_northstar_lighting",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Northstar Lighting | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_nova_pet_products",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Nova Pet Products | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_orchid_beauty",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Orchid Beauty | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_pearl_pcb",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Pearl PCB | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_prime_auto_parts",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Prime Auto Parts | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_purebath",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "PureBath | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_riverworks_metal",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "RiverWorks Metal | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_shoreline_silicone",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Shoreline Silicone | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_sunpeak_cable",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "SunPeak Cable | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_vector_office",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Vector Office | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_status_willow_textile",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Willow Textile | Non-Compliant"
+          ]
+        }
+      }
+    },
+    {
+      "id": "misfiled_moved_brighthome_manufacturing",
+      "entity": "documents",
+      "match": {
+        "nodeId": "s03-cert"
+      },
+      "expect": {
+        "equals": {
+          "parentId": "fold-s03"
+        }
+      }
+    },
+    {
+      "id": "misfiled_not_in_wrong_brighthome_manufacturing",
+      "entity": "documents",
+      "match": {
+        "nodeId": "s03-cert"
+      },
+      "expect": {
+        "not_contains": {
+          "parentId": [
+            "fold-s07"
+          ]
+        }
+      }
+    },
+    {
+      "id": "misfiled_moved_evermold",
+      "entity": "documents",
+      "match": {
+        "nodeId": "s06-cert"
+      },
+      "expect": {
+        "equals": {
+          "parentId": "fold-s06"
+        }
+      }
+    },
+    {
+      "id": "misfiled_not_in_wrong_evermold",
+      "entity": "documents",
+      "match": {
+        "nodeId": "s06-cert"
+      },
+      "expect": {
+        "not_contains": {
+          "parentId": [
+            "fold-s01"
+          ]
+        }
+      }
+    },
+    {
+      "id": "misfiled_moved_greenfield_tools",
+      "entity": "documents",
+      "match": {
+        "nodeId": "s08-cert"
+      },
+      "expect": {
+        "equals": {
+          "parentId": "fold-s08"
+        }
+      }
+    },
+    {
+      "id": "misfiled_not_in_wrong_greenfield_tools",
+      "entity": "documents",
+      "match": {
+        "nodeId": "s08-cert"
+      },
+      "expect": {
+        "not_contains": {
+          "parentId": [
+            "fold-s15"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_lumenbattery_cert_expired",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s10"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-EXPIRED"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_meridian_supply_cert_scope_mismatch",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s11"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-SCOPE-MISMATCH"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_nanshan_cable_cert_wrong_entity",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s12"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-WRONG-ENTITY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_northstar_lighting_audit_open_finding",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s13"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "AUDIT-OPEN-FINDING"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_nova_pet_products_cert_expired",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s14"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-EXPIRED"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_nova_pet_products_audit_open_finding",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s14"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "AUDIT-OPEN-FINDING"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_orchid_beauty_cert_scope_mismatch",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s15"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-SCOPE-MISMATCH"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_pearl_pcb_cert_wrong_entity",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s16"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-WRONG-ENTITY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_pearl_pcb_cert_expired",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s16"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-EXPIRED"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_prime_auto_parts_audit_open_finding",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s17"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "AUDIT-OPEN-FINDING"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_purebath_cert_missing",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s18"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-MISSING"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_riverworks_metal_cert_scope_mismatch",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s19"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-SCOPE-MISMATCH"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_riverworks_metal_audit_open_finding",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s19"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "AUDIT-OPEN-FINDING"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_shoreline_silicone_cert_wrong_entity",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s20"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-WRONG-ENTITY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_sunpeak_cable_audit_missing",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s21"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "AUDIT-MISSING"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_vector_office_audit_open_finding",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s22"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "AUDIT-OPEN-FINDING"
+          ]
+        }
+      }
+    },
+    {
+      "id": "comment_willow_textile_cert_scope_mismatch",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s23"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "CERT-SCOPE-MISMATCH"
+          ]
+        }
+      }
+    },
+    {
+      "id": "no_comment_apex_plastics",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s00"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_atlas_packaging",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s01"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_bluewave_outdoor",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s02"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_brighthome_manufacturing",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s03"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_cedar_baby_goods",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s04"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_eastern_carton",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s05"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_evermold",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s06"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_goldriver_packaging",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s07"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_greenfield_tools",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s08"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_harbor_homeware",
+      "entity": "comments",
+      "match": {
+        "documentParentId": "fold-s09"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "review_compliant_count",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "10"
+          ]
+        }
+      }
+    },
+    {
+      "id": "review_noncompliant_count",
+      "entity": "documents",
+      "match": {
+        "name": "Q2 2026 Compliance Review Results"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "14"
+          ]
+        }
+      }
+    },
+    {
+      "id": "template_unmodified",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-template-cert"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "TEMPLATE"
+          ]
+        }
+      }
+    },
+    {
+      "id": "archive_unmodified",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-archive-q4"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "Q4 2025"
+          ]
+        }
+      }
+    }
+  ]
+}

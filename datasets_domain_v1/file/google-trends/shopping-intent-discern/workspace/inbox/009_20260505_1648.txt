@@ -1,0 +1,6 @@
+From: raj.menon@northstar-dtc.com
+To: wen.li@northstar-dtc.com
+Date: Tue, 05 May 2026 16:48
+Subject: re: trends tool — how it scales
+
+Heads up before you pull: the trends compare tool only takes TWO brands per query, and each query is rescaled to its own top (the higher of the two peaks = 100). So a value from one pull is NOT on the same scale as a value from another pull — you'll need to reconcile them onto one scale yourself if you want a single chart. I'll drop each pull I run into files/trends_pulls/, named by the date I ran it.

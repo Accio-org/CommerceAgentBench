@@ -1,0 +1,10 @@
+{
+  "name": "todoist-cli-mock",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Stateful Todoist CLI mock for RealReplicaBench",
+  "scripts": {
+    "smoke": "bash smoke_test.sh"
+  }
+}

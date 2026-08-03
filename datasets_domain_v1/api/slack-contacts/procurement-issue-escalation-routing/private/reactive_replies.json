@@ -1,0 +1,98 @@
+{
+  "slack_messages": {
+    "@finance-controller|@finance|@linda-finance": [
+      {
+        "message_id": "react_finance_1",
+        "sender": "@linda-finance",
+        "channel": "DM",
+        "content": "For INV-2026-0394, the USD 52,500 includes a USD 7,500 expedited mold-change charge. The commercial team promised to absorb that charge in the renewal cap, so Finance agrees the customer-facing amount should stay USD 45,000 pending credit memo CM-221.",
+        "timestamp": "2026-04-20T09:40:00+08:00",
+        "is_read": false,
+        "tags": [
+          "finance"
+        ]
+      }
+    ],
+    "@compliance-qa|@maria-compliance|@qa-lead": [
+      {
+        "message_id": "react_compliance_1",
+        "sender": "@maria-compliance",
+        "channel": "DM",
+        "content": "CPSIA issue is P0. Internal retest confirmed lead above threshold on yellow zipper pull only. Need immediate shipment hold for batch S-778, supplier CAPA within 24h, and customer response reviewed by Legal. Please route the draft to @legal-ethan before customer release. Do not promise replacement date until QA validates new component.",
+        "timestamp": "2026-04-20T09:42:00+08:00",
+        "is_read": false,
+        "tags": [
+          "compliance",
+          "quality"
+        ]
+      }
+    ],
+    "@jake-sun|@sales-jake|@sales": [
+      {
+        "message_id": "react_sales_1",
+        "sender": "@jake-sun",
+        "channel": "DM",
+        "content": "I did send Kappa the revised proposal last Friday, but the email bounced because procurement@kappahome.co was deprecated. The current contact is sourcing@kappahome.co. Proposal terms: MOQ 3,000 sets, USD 4.82 for 3k, USD 4.55 for 8k, 35-day lead time.",
+        "timestamp": "2026-04-20T09:44:00+08:00",
+        "is_read": false,
+        "tags": [
+          "sales"
+        ]
+      }
+    ],
+    "@logistics-lead|@nina-logistics|@ship-ops": [
+      {
+        "message_id": "react_logistics_1",
+        "sender": "@nina-logistics",
+        "channel": "DM",
+        "content": "PO-9015 can still arrive LA by May 20 using Xiamen air-sea split: 30% air, 70% ocean express. Surcharge estimate USD 8,400. Delay was weather-related, but factory missed the pre-typhoon handoff, so surcharge should be negotiated 50/50 with supplier.",
+        "timestamp": "2026-04-20T09:46:00+08:00",
+        "is_read": false,
+        "tags": [
+          "logistics"
+        ]
+      }
+    ],
+    "@risk-owen|@payment-risk|@payment-safety|@treasury-risk": [
+      {
+        "message_id": "react_risk_1",
+        "sender": "@risk-owen",
+        "channel": "DM",
+        "content": "Do not approve the new Fuzhou-17 bank account yet. We have no signed bank-change form, and the request came from a lookalike supplier domain. Treat Orion as P0 payment-safety risk: tell them to hold the wire, use the last verified beneficiary only, and route the bank-change package to Treasury Risk for callback verification. Ask @ap-ivy to confirm the last verified beneficiary reference before drafting final instructions.",
+        "timestamp": "2026-04-20T09:48:00+08:00",
+        "is_read": false,
+        "tags": [
+          "payment",
+          "risk"
+        ]
+      }
+    ],
+    "@ap-ivy|@accounts-payable|@ap-control": [
+      {
+        "message_id": "react_ap_1",
+        "sender": "@ap-ivy",
+        "channel": "DM",
+        "content": "Last verified Fuzhou-17 beneficiary reference is FZ17-8844, validated by callback on 2026-03-28. No bank-change package is approved for the new account. Customer-facing wording should say: hold the wire, do not use the new account, and wait for verified instructions after Treasury callback.",
+        "timestamp": "2026-04-20T09:52:00+08:00",
+        "is_read": false,
+        "tags": [
+          "payment",
+          "ap"
+        ]
+      }
+    ],
+    "@legal-ethan|@legal|@commercial-counsel": [
+      {
+        "message_id": "react_legal_1",
+        "sender": "@legal-ethan",
+        "channel": "DM",
+        "content": "For Helio, the draft can state shipment hold, CAPA in progress, and no replacement date until QA validates the new component. Avoid admitting systemic product-line failure; keep the scope to yellow zipper pull in batch S-778.",
+        "timestamp": "2026-04-20T09:54:00+08:00",
+        "is_read": false,
+        "tags": [
+          "legal"
+        ]
+      }
+    ]
+  }
+}

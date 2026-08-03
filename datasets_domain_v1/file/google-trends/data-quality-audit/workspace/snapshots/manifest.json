@@ -1,0 +1,944 @@
+{
+  "datasets": [
+    {
+      "id": "set_airfryer",
+      "summary": "12-month weekly Google Trends shopping interest for 5 airfryer brands (US, Google Shopping channel).",
+      "type": "multi_brand_timeseries",
+      "category": "airfryer",
+      "channel": "shopping",
+      "queries": [
+        "ninja air fryer",
+        "cosori",
+        "gourmia",
+        "instant vortex",
+        "dash air fryer"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "ninja air fryer,cosori,gourmia,instant vortex,dash air fryer",
+        "geo": "US",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_earbuds",
+      "summary": "12-month weekly Google Trends shopping interest for 5 earbuds brands (US, Google Shopping channel).",
+      "type": "multi_brand_timeseries",
+      "category": "earbuds",
+      "channel": "shopping",
+      "queries": [
+        "sony wf-1000xm5",
+        "bose quietcomfort earbuds",
+        "jabra elite",
+        "jbl live",
+        "beats studio buds"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "sony wf-1000xm5,bose quietcomfort earbuds,jabra elite,jbl live,beats studio buds",
+        "geo": "US",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_speaker",
+      "summary": "12-month weekly Google Trends shopping interest for 5 speaker brands (US, Google Shopping channel).",
+      "type": "multi_brand_timeseries",
+      "category": "speaker",
+      "channel": "shopping",
+      "queries": [
+        "echo dot",
+        "google nest mini",
+        "sonos era",
+        "homepod mini",
+        "bose soundlink"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "echo dot,google nest mini,sonos era,homepod mini,bose soundlink",
+        "geo": "US",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_vacuum",
+      "summary": "12-month weekly Google Trends shopping interest for 5 vacuum brands (US, Google Shopping channel).",
+      "type": "multi_brand_timeseries",
+      "category": "vacuum",
+      "channel": "shopping",
+      "queries": [
+        "dyson",
+        "shark navigator",
+        "bissell",
+        "hoover",
+        "eureka"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "dyson,shark navigator,bissell,hoover,eureka",
+        "geo": "US",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_coffee",
+      "summary": "12-month weekly Google Trends shopping interest for 5 coffee brands (US, Google Shopping channel).",
+      "type": "multi_brand_timeseries",
+      "category": "coffee",
+      "channel": "shopping",
+      "queries": [
+        "keurig",
+        "nespresso",
+        "breville",
+        "cuisinart coffee",
+        "ninja coffee"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "keurig,nespresso,breville,cuisinart coffee,ninja coffee",
+        "geo": "US",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_drill",
+      "summary": "12-month weekly Google Trends shopping interest for 5 drill brands (US, Google Shopping channel).",
+      "type": "multi_brand_timeseries",
+      "category": "drill",
+      "channel": "shopping",
+      "queries": [
+        "dewalt",
+        "milwaukee",
+        "makita",
+        "ryobi",
+        "bosch"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "dewalt,milwaukee,makita,ryobi,bosch",
+        "geo": "US",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_mattress",
+      "summary": "12-month weekly Google Trends shopping interest for 5 mattress brands (US, Google Shopping channel).",
+      "type": "multi_brand_timeseries",
+      "category": "mattress",
+      "channel": "shopping",
+      "queries": [
+        "purple mattress",
+        "casper",
+        "nectar mattress",
+        "saatva",
+        "leesa"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "purple mattress,casper,nectar mattress,saatva,leesa",
+        "geo": "US",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_headset",
+      "summary": "12-month weekly Google Trends shopping interest for 5 headset brands (US, Google Shopping channel).",
+      "type": "multi_brand_timeseries",
+      "category": "headset",
+      "channel": "shopping",
+      "queries": [
+        "razer kraken",
+        "logitech g",
+        "hyperx cloud",
+        "steelseries arctis",
+        "astro a40"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "razer kraken,logitech g,hyperx cloud,steelseries arctis,astro a40",
+        "geo": "US",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_airfryer_web",
+      "summary": "12-month weekly Google Trends general-web search interest for 5 airfryer brands (US).",
+      "type": "multi_brand_timeseries",
+      "category": "airfryer",
+      "channel": "web",
+      "queries": [
+        "ninja air fryer",
+        "cosori",
+        "gourmia",
+        "instant vortex",
+        "dash air fryer"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "ninja air fryer,cosori,gourmia,instant vortex,dash air fryer",
+        "geo": "US",
+        "date": "today 12-m"
+      }
+    },
+    {
+      "id": "set_earbuds_web",
+      "summary": "12-month weekly Google Trends general-web search interest for 5 earbuds brands (US).",
+      "type": "multi_brand_timeseries",
+      "category": "earbuds",
+      "channel": "web",
+      "queries": [
+        "sony wf-1000xm5",
+        "bose quietcomfort earbuds",
+        "jabra elite",
+        "jbl live",
+        "beats studio buds"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "sony wf-1000xm5,bose quietcomfort earbuds,jabra elite,jbl live,beats studio buds",
+        "geo": "US",
+        "date": "today 12-m"
+      }
+    },
+    {
+      "id": "set_speaker_web",
+      "summary": "12-month weekly Google Trends general-web search interest for 5 speaker brands (US).",
+      "type": "multi_brand_timeseries",
+      "category": "speaker",
+      "channel": "web",
+      "queries": [
+        "echo dot",
+        "google nest mini",
+        "sonos era",
+        "homepod mini",
+        "bose soundlink"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "echo dot,google nest mini,sonos era,homepod mini,bose soundlink",
+        "geo": "US",
+        "date": "today 12-m"
+      }
+    },
+    {
+      "id": "set_vacuum_web",
+      "summary": "12-month weekly Google Trends general-web search interest for 5 vacuum brands (US).",
+      "type": "multi_brand_timeseries",
+      "category": "vacuum",
+      "channel": "web",
+      "queries": [
+        "dyson",
+        "shark navigator",
+        "bissell",
+        "hoover",
+        "eureka"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "dyson,shark navigator,bissell,hoover,eureka",
+        "geo": "US",
+        "date": "today 12-m"
+      }
+    },
+    {
+      "id": "set_coffee_web",
+      "summary": "12-month weekly Google Trends general-web search interest for 5 coffee brands (US).",
+      "type": "multi_brand_timeseries",
+      "category": "coffee",
+      "channel": "web",
+      "queries": [
+        "keurig",
+        "nespresso",
+        "breville",
+        "cuisinart coffee",
+        "ninja coffee"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "keurig,nespresso,breville,cuisinart coffee,ninja coffee",
+        "geo": "US",
+        "date": "today 12-m"
+      }
+    },
+    {
+      "id": "set_drill_web",
+      "summary": "12-month weekly Google Trends general-web search interest for 5 drill brands (US).",
+      "type": "multi_brand_timeseries",
+      "category": "drill",
+      "channel": "web",
+      "queries": [
+        "dewalt",
+        "milwaukee",
+        "makita",
+        "ryobi",
+        "bosch"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "dewalt,milwaukee,makita,ryobi,bosch",
+        "geo": "US",
+        "date": "today 12-m"
+      }
+    },
+    {
+      "id": "set_mattress_web",
+      "summary": "12-month weekly Google Trends general-web search interest for 5 mattress brands (US).",
+      "type": "multi_brand_timeseries",
+      "category": "mattress",
+      "channel": "web",
+      "queries": [
+        "purple mattress",
+        "casper",
+        "nectar mattress",
+        "saatva",
+        "leesa"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "purple mattress,casper,nectar mattress,saatva,leesa",
+        "geo": "US",
+        "date": "today 12-m"
+      }
+    },
+    {
+      "id": "set_headset_web",
+      "summary": "12-month weekly Google Trends general-web search interest for 5 headset brands (US).",
+      "type": "multi_brand_timeseries",
+      "category": "headset",
+      "channel": "web",
+      "queries": [
+        "razer kraken",
+        "logitech g",
+        "hyperx cloud",
+        "steelseries arctis",
+        "astro a40"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "razer kraken,logitech g,hyperx cloud,steelseries arctis,astro a40",
+        "geo": "US",
+        "date": "today 12-m"
+      }
+    },
+    {
+      "id": "set_airfryer_2024",
+      "summary": "Prior-year (2024-05-24 → 2025-05-22) shopping interest for the same 5 airfryer brands. Use to compare year-over-year shifts.",
+      "type": "multi_brand_timeseries",
+      "category": "airfryer",
+      "channel": "shopping",
+      "queries": [
+        "ninja air fryer",
+        "cosori",
+        "gourmia",
+        "instant vortex",
+        "dash air fryer"
+      ],
+      "geo": "US",
+      "date_range": "2024-05-24 2025-05-22",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "ninja air fryer,cosori,gourmia,instant vortex,dash air fryer",
+        "geo": "US",
+        "date": "2024-05-24 2025-05-22",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_earbuds_2024",
+      "summary": "Prior-year (2024-05-24 → 2025-05-22) shopping interest for the same 5 earbuds brands. Use to compare year-over-year shifts.",
+      "type": "multi_brand_timeseries",
+      "category": "earbuds",
+      "channel": "shopping",
+      "queries": [
+        "sony wf-1000xm5",
+        "bose quietcomfort earbuds",
+        "jabra elite",
+        "jbl live",
+        "beats studio buds"
+      ],
+      "geo": "US",
+      "date_range": "2024-05-24 2025-05-22",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "sony wf-1000xm5,bose quietcomfort earbuds,jabra elite,jbl live,beats studio buds",
+        "geo": "US",
+        "date": "2024-05-24 2025-05-22",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_speaker_2024",
+      "summary": "Prior-year (2024-05-24 → 2025-05-22) shopping interest for the same 5 speaker brands. Use to compare year-over-year shifts.",
+      "type": "multi_brand_timeseries",
+      "category": "speaker",
+      "channel": "shopping",
+      "queries": [
+        "echo dot",
+        "google nest mini",
+        "sonos era",
+        "homepod mini",
+        "bose soundlink"
+      ],
+      "geo": "US",
+      "date_range": "2024-05-24 2025-05-22",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "echo dot,google nest mini,sonos era,homepod mini,bose soundlink",
+        "geo": "US",
+        "date": "2024-05-24 2025-05-22",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_vacuum_2024",
+      "summary": "Prior-year (2024-05-24 → 2025-05-22) shopping interest for the same 5 vacuum brands. Use to compare year-over-year shifts.",
+      "type": "multi_brand_timeseries",
+      "category": "vacuum",
+      "channel": "shopping",
+      "queries": [
+        "dyson",
+        "shark navigator",
+        "bissell",
+        "hoover",
+        "eureka"
+      ],
+      "geo": "US",
+      "date_range": "2024-05-24 2025-05-22",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "dyson,shark navigator,bissell,hoover,eureka",
+        "geo": "US",
+        "date": "2024-05-24 2025-05-22",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_coffee_2024",
+      "summary": "Prior-year (2024-05-24 → 2025-05-22) shopping interest for the same 5 coffee brands. Use to compare year-over-year shifts.",
+      "type": "multi_brand_timeseries",
+      "category": "coffee",
+      "channel": "shopping",
+      "queries": [
+        "keurig",
+        "nespresso",
+        "breville",
+        "cuisinart coffee",
+        "ninja coffee"
+      ],
+      "geo": "US",
+      "date_range": "2024-05-24 2025-05-22",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "keurig,nespresso,breville,cuisinart coffee,ninja coffee",
+        "geo": "US",
+        "date": "2024-05-24 2025-05-22",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_drill_2024",
+      "summary": "Prior-year (2024-05-24 → 2025-05-22) shopping interest for the same 5 drill brands. Use to compare year-over-year shifts.",
+      "type": "multi_brand_timeseries",
+      "category": "drill",
+      "channel": "shopping",
+      "queries": [
+        "dewalt",
+        "milwaukee",
+        "makita",
+        "ryobi",
+        "bosch"
+      ],
+      "geo": "US",
+      "date_range": "2024-05-24 2025-05-22",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "dewalt,milwaukee,makita,ryobi,bosch",
+        "geo": "US",
+        "date": "2024-05-24 2025-05-22",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_mattress_2024",
+      "summary": "Prior-year (2024-05-24 → 2025-05-22) shopping interest for the same 5 mattress brands. Use to compare year-over-year shifts.",
+      "type": "multi_brand_timeseries",
+      "category": "mattress",
+      "channel": "shopping",
+      "queries": [
+        "purple mattress",
+        "casper",
+        "nectar mattress",
+        "saatva",
+        "leesa"
+      ],
+      "geo": "US",
+      "date_range": "2024-05-24 2025-05-22",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "purple mattress,casper,nectar mattress,saatva,leesa",
+        "geo": "US",
+        "date": "2024-05-24 2025-05-22",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "set_headset_2024",
+      "summary": "Prior-year (2024-05-24 → 2025-05-22) shopping interest for the same 5 headset brands. Use to compare year-over-year shifts.",
+      "type": "multi_brand_timeseries",
+      "category": "headset",
+      "channel": "shopping",
+      "queries": [
+        "razer kraken",
+        "logitech g",
+        "hyperx cloud",
+        "steelseries arctis",
+        "astro a40"
+      ],
+      "geo": "US",
+      "date_range": "2024-05-24 2025-05-22",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "razer kraken,logitech g,hyperx cloud,steelseries arctis,astro a40",
+        "geo": "US",
+        "date": "2024-05-24 2025-05-22",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "geomap_airfryer",
+      "summary": "State-level shopping-interest breakdown across 5 airfryer brands (compared_breakdown_by_region).",
+      "type": "multi_brand_geo_map",
+      "category": "airfryer",
+      "channel": "shopping",
+      "queries": [
+        "ninja air fryer",
+        "cosori",
+        "gourmia",
+        "instant vortex",
+        "dash air fryer"
+      ],
+      "geo": "US",
+      "region_granularity": "REGION",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP",
+        "q": "ninja air fryer,cosori,gourmia,instant vortex,dash air fryer",
+        "geo": "US",
+        "region": "REGION",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "geomap_earbuds",
+      "summary": "State-level shopping-interest breakdown across 5 earbuds brands (compared_breakdown_by_region).",
+      "type": "multi_brand_geo_map",
+      "category": "earbuds",
+      "channel": "shopping",
+      "queries": [
+        "sony wf-1000xm5",
+        "bose quietcomfort earbuds",
+        "jabra elite",
+        "jbl live",
+        "beats studio buds"
+      ],
+      "geo": "US",
+      "region_granularity": "REGION",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP",
+        "q": "sony wf-1000xm5,bose quietcomfort earbuds,jabra elite,jbl live,beats studio buds",
+        "geo": "US",
+        "region": "REGION",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "geomap_speaker",
+      "summary": "State-level shopping-interest breakdown across 5 speaker brands (compared_breakdown_by_region).",
+      "type": "multi_brand_geo_map",
+      "category": "speaker",
+      "channel": "shopping",
+      "queries": [
+        "echo dot",
+        "google nest mini",
+        "sonos era",
+        "homepod mini",
+        "bose soundlink"
+      ],
+      "geo": "US",
+      "region_granularity": "REGION",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP",
+        "q": "echo dot,google nest mini,sonos era,homepod mini,bose soundlink",
+        "geo": "US",
+        "region": "REGION",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "geomap_vacuum",
+      "summary": "State-level shopping-interest breakdown across 5 vacuum brands (compared_breakdown_by_region).",
+      "type": "multi_brand_geo_map",
+      "category": "vacuum",
+      "channel": "shopping",
+      "queries": [
+        "dyson",
+        "shark navigator",
+        "bissell",
+        "hoover",
+        "eureka"
+      ],
+      "geo": "US",
+      "region_granularity": "REGION",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP",
+        "q": "dyson,shark navigator,bissell,hoover,eureka",
+        "geo": "US",
+        "region": "REGION",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "geomap_coffee",
+      "summary": "State-level shopping-interest breakdown across 5 coffee brands (compared_breakdown_by_region).",
+      "type": "multi_brand_geo_map",
+      "category": "coffee",
+      "channel": "shopping",
+      "queries": [
+        "keurig",
+        "nespresso",
+        "breville",
+        "cuisinart coffee",
+        "ninja coffee"
+      ],
+      "geo": "US",
+      "region_granularity": "REGION",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP",
+        "q": "keurig,nespresso,breville,cuisinart coffee,ninja coffee",
+        "geo": "US",
+        "region": "REGION",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "geomap_drill",
+      "summary": "State-level shopping-interest breakdown across 5 drill brands (compared_breakdown_by_region).",
+      "type": "multi_brand_geo_map",
+      "category": "drill",
+      "channel": "shopping",
+      "queries": [
+        "dewalt",
+        "milwaukee",
+        "makita",
+        "ryobi",
+        "bosch"
+      ],
+      "geo": "US",
+      "region_granularity": "REGION",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP",
+        "q": "dewalt,milwaukee,makita,ryobi,bosch",
+        "geo": "US",
+        "region": "REGION",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "geomap_mattress",
+      "summary": "State-level shopping-interest breakdown across 5 mattress brands (compared_breakdown_by_region).",
+      "type": "multi_brand_geo_map",
+      "category": "mattress",
+      "channel": "shopping",
+      "queries": [
+        "purple mattress",
+        "casper",
+        "nectar mattress",
+        "saatva",
+        "leesa"
+      ],
+      "geo": "US",
+      "region_granularity": "REGION",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP",
+        "q": "purple mattress,casper,nectar mattress,saatva,leesa",
+        "geo": "US",
+        "region": "REGION",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "geomap_headset",
+      "summary": "State-level shopping-interest breakdown across 5 headset brands (compared_breakdown_by_region).",
+      "type": "multi_brand_geo_map",
+      "category": "headset",
+      "channel": "shopping",
+      "queries": [
+        "razer kraken",
+        "logitech g",
+        "hyperx cloud",
+        "steelseries arctis",
+        "astro a40"
+      ],
+      "geo": "US",
+      "region_granularity": "REGION",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP",
+        "q": "razer kraken,logitech g,hyperx cloud,steelseries arctis,astro a40",
+        "geo": "US",
+        "region": "REGION",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "season_sunscreen",
+      "summary": "5-year weekly shopping interest for 'sunscreen' — covers full annual seasonal cycles.",
+      "type": "single_query_timeseries",
+      "category": "sunscreen",
+      "channel": "shopping",
+      "queries": [
+        "sunscreen"
+      ],
+      "geo": "US",
+      "date_range": "today 5-y",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "sunscreen",
+        "geo": "US",
+        "date": "today 5-y",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "season_christmas_tree",
+      "summary": "5-year weekly shopping interest for 'christmas tree' — covers full annual seasonal cycles.",
+      "type": "single_query_timeseries",
+      "category": "christmas_tree",
+      "channel": "shopping",
+      "queries": [
+        "christmas tree"
+      ],
+      "geo": "US",
+      "date_range": "today 5-y",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "christmas tree",
+        "geo": "US",
+        "date": "today 5-y",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "season_halloween_costume",
+      "summary": "5-year weekly shopping interest for 'halloween costume' — covers full annual seasonal cycles.",
+      "type": "single_query_timeseries",
+      "category": "halloween_costume",
+      "channel": "shopping",
+      "queries": [
+        "halloween costume"
+      ],
+      "geo": "US",
+      "date_range": "today 5-y",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "halloween costume",
+        "geo": "US",
+        "date": "today 5-y",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "season_snow_blower",
+      "summary": "5-year weekly shopping interest for 'snow blower' — covers full annual seasonal cycles.",
+      "type": "single_query_timeseries",
+      "category": "snow_blower",
+      "channel": "shopping",
+      "queries": [
+        "snow blower"
+      ],
+      "geo": "US",
+      "date_range": "today 5-y",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "snow blower",
+        "geo": "US",
+        "date": "today 5-y",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "season_patio_furniture",
+      "summary": "5-year weekly shopping interest for 'patio furniture' — covers full annual seasonal cycles.",
+      "type": "single_query_timeseries",
+      "category": "patio_furniture",
+      "channel": "shopping",
+      "queries": [
+        "patio furniture"
+      ],
+      "geo": "US",
+      "date_range": "today 5-y",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "patio furniture",
+        "geo": "US",
+        "date": "today 5-y",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "dma_dyson",
+      "summary": "DMA-level (TV-market) shopping interest distribution for 'dyson'. Note: small-population DMAs can score 100 due to within-query normalization, not absolute volume.",
+      "type": "single_query_dma_map",
+      "category": "dyson",
+      "channel": "shopping",
+      "queries": [
+        "dyson"
+      ],
+      "geo": "US",
+      "region_granularity": "DMA",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP_0",
+        "q": "dyson",
+        "geo": "US",
+        "region": "DMA",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "dma_milwaukee",
+      "summary": "DMA-level (TV-market) shopping interest distribution for 'milwaukee'. Note: small-population DMAs can score 100 due to within-query normalization, not absolute volume.",
+      "type": "single_query_dma_map",
+      "category": "milwaukee",
+      "channel": "shopping",
+      "queries": [
+        "milwaukee"
+      ],
+      "geo": "US",
+      "region_granularity": "DMA",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "GEO_MAP_0",
+        "q": "milwaukee",
+        "geo": "US",
+        "region": "DMA",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    },
+    {
+      "id": "edge_empty",
+      "summary": "Sparse-query example — query 'zzzz_nonexistent_brand_xyz' returning near-empty data. Useful for data-quality validation.",
+      "type": "single_query_timeseries",
+      "category": "edge",
+      "channel": "shopping",
+      "queries": [
+        "zzzz_nonexistent_brand_xyz"
+      ],
+      "geo": "US",
+      "date_range": "today 12-m",
+      "underlying_serpapi_params": {
+        "engine": "google_trends",
+        "data_type": "TIMESERIES",
+        "q": "zzzz_nonexistent_brand_xyz",
+        "geo": "US",
+        "date": "today 12-m",
+        "gprop": "froogle"
+      }
+    }
+  ]
+}

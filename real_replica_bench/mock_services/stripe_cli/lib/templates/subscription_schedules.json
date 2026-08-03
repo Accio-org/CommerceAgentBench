@@ -1,0 +1,86 @@
+{
+  "id": "sub_sched_1TchhuCLKuX79GC2PbLzXRnu",
+  "object": "subscription_schedule",
+  "application": null,
+  "billing_mode": {
+    "flexible": {
+      "proration_discounts": "included"
+    },
+    "type": "flexible",
+    "updated_at": 1780127601
+  },
+  "canceled_at": null,
+  "completed_at": null,
+  "created": 1780127602,
+  "current_phase": {
+    "end_date": 1782805998,
+    "start_date": 1780127598
+  },
+  "customer": "cus_UbvZY54mUfuF5B",
+  "customer_account": null,
+  "default_settings": {
+    "application_fee_percent": null,
+    "automatic_tax": {
+      "disabled_reason": null,
+      "enabled": false,
+      "liability": null
+    },
+    "billing_cycle_anchor": "automatic",
+    "billing_thresholds": null,
+    "collection_method": "charge_automatically",
+    "default_payment_method": null,
+    "default_source": null,
+    "description": null,
+    "invoice_settings": {
+      "account_tax_ids": null,
+      "days_until_due": null,
+      "issuer": {
+        "type": "self"
+      }
+    },
+    "on_behalf_of": null,
+    "transfer_data": null
+  },
+  "end_behavior": "release",
+  "livemode": false,
+  "metadata": {},
+  "phases": [
+    {
+      "add_invoice_items": [],
+      "application_fee_percent": null,
+      "billing_cycle_anchor": null,
+      "billing_thresholds": null,
+      "collection_method": null,
+      "currency": "usd",
+      "default_payment_method": null,
+      "default_tax_rates": [],
+      "description": null,
+      "discounts": [],
+      "end_date": 1782805998,
+      "invoice_settings": null,
+      "items": [
+        {
+          "billing_thresholds": null,
+          "discounts": [],
+          "metadata": {},
+          "plan": "price_1TchhrCLKuX79GC2gDVsOfjJ",
+          "price": "price_1TchhrCLKuX79GC2gDVsOfjJ",
+          "quantity": 1,
+          "tax_rates": []
+        }
+      ],
+      "metadata": {},
+      "on_behalf_of": null,
+      "proration_behavior": "create_prorations",
+      "start_date": 1780127598,
+      "transfer_data": null,
+      "trial_end": null
+    }
+  ],
+  "released_at": null,
+  "released_subscription": null,
+  "renewal_interval": null,
+  "status": "active",
+  "subscription": "sub_1TchhuCLKuX79GC22ugOLkxM",
+  "test_clock": null
+}

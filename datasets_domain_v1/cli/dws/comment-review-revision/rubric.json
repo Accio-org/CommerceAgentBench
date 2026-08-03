@@ -1,0 +1,13 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-dws-comment-review-revision",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "notes": "Host-side verifier reads the final dws_doc_cli state and scores comment-driven document edits, content preservation, comment replies, and a single revision log. Capacity checks are folded capability units (per docs/check-granularity.md); each folds the underlying per-comment / per-fix atomic comparisons by AND.",
+  "checks": [
+    {"id": "mock_state_readable", "check_type": "deterministic_exact", "description": "DWS mock state reachable and readable (GET /api/state). The lone plumbing gate; a failure short-circuits to this single check."},
+    {"id": "comments_replied", "check_type": "deterministic_exact", "description": "Every processed (unresolved, non-approval) review comment got at least one confirmation reply. Internally validates each of the 42 comment keys has replies.count >= 1; reason lists any without a reply."},
+    {"id": "content_edits_applied", "check_type": "deterministic_exact", "description": "The actionable-fix edits were applied to document content while other fields were preserved: price corrections (lst-000 21.47, lst-002 26.62, lst-007 39.48 with the old prices removed), availability change (lst-001 preorder), and MPN add (lst-000 NB-SHORE-1001). Internally validates each fix spec; reason lists any failing edit."},
+    {"id": "revision_log_correct", "check_type": "deterministic_exact", "description": "Exactly one document named 'Revision Log' exists under the root folder (count == 1). A distinct restraint/count competence — creating zero or multiple revision logs fails this without affecting the other capabilities."}
+  ]
+}

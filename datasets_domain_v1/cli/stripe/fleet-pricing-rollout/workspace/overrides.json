@@ -1,0 +1,14 @@
+[
+  {
+    "customer_name": "EuroVolt GmbH",
+    "product_id": "TC-FLEET",
+    "reason": "Government subsidy agreement — reduced fleet rate for 2026",
+    "adjusted_monthly_cents": 42000
+  },
+  {
+    "customer_name": "AsiaFleet Pte Ltd",
+    "product_id": "TC-FLEET",
+    "reason": "Launch partner promotional rate — first 12 months",
+    "adjusted_monthly_cents": 28000
+  }
+]

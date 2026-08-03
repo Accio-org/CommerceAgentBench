@@ -1,0 +1,44 @@
+{
+  "optimal_route": {
+    "legs": ["D1", "O3", "L2"],
+    "path": "Dongguan → Shenzhen (1d, $180) → Long Beach via Yang Ming (26d, $4,500) → Dallas (3d, $820)",
+    "total_days": 30,
+    "cost_breakdown": {
+      "domestic_cn": 180,
+      "ocean_freight": 4500,
+      "us_delivery": 820,
+      "insurance": 147.00,
+      "customs": 275.00,
+      "bond": 65.00,
+      "platform_fee": 67.50,
+      "total": 6054.50
+    },
+    "ocean_carrier": "Yang Ming Marine",
+    "matching_quote_origin_port": "shenzhen",
+    "matching_quote_dest_port": "longbeach"
+  },
+  "runner_up": {
+    "legs": ["D1", "O1", "L1"],
+    "total_days": 28,
+    "total_cost": 6389.00
+  },
+  "all_routes": [
+    {"legs": "D1+O1+L1", "days": 28, "total": 6389.00, "feasible": true},
+    {"legs": "D1+O2+L1", "days": 25, "total": 6896.50, "feasible": true},
+    {"legs": "D1+O3+L2", "days": 30, "total": 6054.50, "feasible": true, "optimal": true},
+    {"legs": "D2+O4+L1", "days": 31, "total": null, "feasible": false, "reason": "exceeds 30 day deadline"},
+    {"legs": "D3+O5+L1", "days": 29, "total": 6892.00, "feasible": true},
+    {"legs": "D3+O6+L2", "days": 31, "total": null, "feasible": false, "reason": "exceeds 30 day deadline"},
+    {"legs": "D4+O7+L1", "days": 26, "total": 7569.50, "feasible": true},
+    {"legs": "D4+O8+L1", "days": 30, "total": 6909.75, "feasible": true}
+  ],
+  "infeasible_routes": ["D2+O4+L1", "D3+O6+L2"],
+  "feasible_count": 6,
+  "expected_report_fields": [
+    "all_routes_enumerated",
+    "infeasible_identified",
+    "cost_breakdown",
+    "optimal_reasoning",
+    "total_days"
+  ]
+}

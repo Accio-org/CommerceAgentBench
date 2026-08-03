@@ -1,0 +1,40 @@
+Download your remote theme files locally.
+
+USAGE
+  $ shopify theme pull [-d] [-e <value>...] [-x <value>...] [-l]
+    [--no-color] [-n] [-o <value>...] [--password <value>] [--path <value>] [-s
+    <value>] [-t <value>] [--verbose]
+
+FLAGS
+  -d, --development             Pull theme files from your remote development
+                                theme.
+  -e, --environment=<value>...  The environment to apply to the current command.
+  -l, --live                    Pull theme files from your remote live theme.
+  -n, --nodelete                Prevent deleting local files that don't exist
+                                remotely.
+  -o, --only=<value>...         Download only the specified files (Multiple
+                                flags allowed). Wrap the value in double quotes
+                                if you're using wildcards.
+  -s, --store=<value>           Store URL. It can be the store prefix (example)
+                                or the full myshopify.com URL
+                                (example.myshopify.com,
+                                https://example.myshopify.com).
+  -t, --theme=<value>           Theme ID or name of the remote theme.
+  -x, --ignore=<value>...       Skip downloading the specified files (Multiple
+                                flags allowed). Wrap the value in double quotes
+                                if you're using wildcards.
+      --no-color                Disable color output.
+      --password=<value>        Password generated from the Theme Access app or
+                                an Admin API token.
+      --path=<value>            The path where you want to run the command.
+                                Defaults to the current working directory.
+      --verbose                 Increase the verbosity of the output.
+
+DESCRIPTION
+  Download your remote theme files locally.
+
+  Retrieves theme files from Shopify.
+
+  If no theme is specified, then you're prompted to select the theme to pull
+  from the list of the themes in your store.
+

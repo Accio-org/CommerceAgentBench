@@ -1,0 +1,4692 @@
+{
+  "account": {
+    "name": "李明",
+    "givenName": "明",
+    "email": "liming.demo@example.com",
+    "avatar": "L",
+    "locale": "zh-CN"
+  },
+  "people": [
+    {
+      "id": "me",
+      "displayName": "李明",
+      "email": "liming.demo@example.com",
+      "initial": "L",
+      "color": "#1a73e8"
+    },
+    {
+      "id": "p-zhao",
+      "displayName": "赵雪",
+      "email": "zhao.xue@example.com",
+      "initial": "赵",
+      "color": "#e8710a"
+    },
+    {
+      "id": "p-chen",
+      "displayName": "Chen Wei",
+      "email": "chen.wei@example.com",
+      "initial": "C",
+      "color": "#188038"
+    },
+    {
+      "id": "p-wang",
+      "displayName": "王琳",
+      "email": "wang.lin@example.com",
+      "initial": "王",
+      "color": "#a142f4"
+    },
+    {
+      "id": "p-david",
+      "displayName": "David Park",
+      "email": "david.park@example.com",
+      "initial": "D",
+      "color": "#d93025"
+    }
+  ],
+  "files": [
+    {
+      "id": "doc-feed-nb-sg-bir-005",
+      "sourceFeedId": "feed_005",
+      "name": "QA: NB-SG-BIR-005",
+      "type": "document",
+      "parentId": "root",
+      "starred": true,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-21T09:00:00Z",
+      "modifiedAt": "2026-05-21T09:00:00Z",
+      "lastOpenedAt": "2026-05-21T09:00:00Z",
+      "content": {
+        "title": "QA: NB-SG-BIR-005",
+        "blocks": [
+          {
+            "id": "b-doc-feed-nb-sg-bir-005-h",
+            "type": "heading1",
+            "text": "Product Feed QA Report — NB-SG-BIR-005",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-sg-bir-005-title",
+            "type": "paragraph",
+            "text": "Title: Nova Bird Ladders and Perches SG 005",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-sg-bir-005-market",
+            "type": "paragraph",
+            "text": "Market: SG",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-sg-bir-005-channel",
+            "type": "paragraph",
+            "text": "Channel: Google Merchant",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-sg-bir-005-issue",
+            "type": "paragraph",
+            "text": "Issue Code: BAD_LANDING_PAGE",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-sg-bir-005-severity",
+            "type": "paragraph",
+            "text": "Severity: High",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-sg-bir-005-domain",
+            "type": "paragraph",
+            "text": "Domain: Feed Quality",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-sg-bir-005-owner",
+            "type": "paragraph",
+            "text": "Owner: cx.ops@northbridge.example.com",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-sg-bir-005-action",
+            "type": "paragraph",
+            "text": "Expected Action: point feed link to canonical product page and remove interstitial redirect",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-feed-nb-au-cat-012",
+      "sourceFeedId": "feed_012",
+      "name": "QA: NB-AU-CAT-012",
+      "type": "document",
+      "parentId": "root",
+      "starred": true,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-22T09:00:00Z",
+      "modifiedAt": "2026-05-22T09:00:00Z",
+      "lastOpenedAt": "2026-05-22T09:00:00Z",
+      "content": {
+        "title": "QA: NB-AU-CAT-012",
+        "blocks": [
+          {
+            "id": "b-doc-feed-nb-au-cat-012-h",
+            "type": "heading1",
+            "text": "Product Feed QA Report — NB-AU-CAT-012",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-cat-012-title",
+            "type": "paragraph",
+            "text": "Title: Aurora Cat Steps and Ramps AU 012",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-cat-012-market",
+            "type": "paragraph",
+            "text": "Market: AU",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-cat-012-channel",
+            "type": "paragraph",
+            "text": "Channel: TikTok Shop",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-cat-012-issue",
+            "type": "paragraph",
+            "text": "Issue Code: MISSING_MAIN_IMAGE",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-cat-012-severity",
+            "type": "paragraph",
+            "text": "Severity: High",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-cat-012-domain",
+            "type": "paragraph",
+            "text": "Domain: Feed Quality",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-cat-012-owner",
+            "type": "paragraph",
+            "text": "Owner: artwork.ops@northbridge.example.com",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-cat-012-action",
+            "type": "paragraph",
+            "text": "Expected Action: replace placeholder image and confirm image URL resolves from verified merchant domain",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-feed-nb-jp-dog-017",
+      "sourceFeedId": "feed_017",
+      "name": "QA: NB-JP-DOG-017",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-23T09:00:00Z",
+      "modifiedAt": "2026-05-23T09:00:00Z",
+      "lastOpenedAt": "2026-05-23T09:00:00Z",
+      "content": {
+        "title": "QA: NB-JP-DOG-017",
+        "blocks": [
+          {
+            "id": "b-doc-feed-nb-jp-dog-017-h",
+            "type": "heading1",
+            "text": "Product Feed QA Report — NB-JP-DOG-017",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-jp-dog-017-title",
+            "type": "paragraph",
+            "text": "Title: Nova Dog Toys JP 017",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-jp-dog-017-market",
+            "type": "paragraph",
+            "text": "Market: JP",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-jp-dog-017-channel",
+            "type": "paragraph",
+            "text": "Channel: TikTok Shop",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-jp-dog-017-issue",
+            "type": "paragraph",
+            "text": "Issue Code: BAD_LANDING_PAGE",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-jp-dog-017-severity",
+            "type": "paragraph",
+            "text": "Severity: High",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-jp-dog-017-domain",
+            "type": "paragraph",
+            "text": "Domain: Feed Quality",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-jp-dog-017-owner",
+            "type": "paragraph",
+            "text": "Owner: marketplace.ops@northbridge.example.com",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-jp-dog-017-action",
+            "type": "paragraph",
+            "text": "Expected Action: point feed link to canonical product page and remove interstitial redirect",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-feed-nb-de-pet-024",
+      "sourceFeedId": "feed_024",
+      "name": "QA: NB-DE-PET-024",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-24T09:00:00Z",
+      "modifiedAt": "2026-05-24T09:00:00Z",
+      "lastOpenedAt": "2026-05-24T09:00:00Z",
+      "content": {
+        "title": "QA: NB-DE-PET-024",
+        "blocks": [
+          {
+            "id": "b-doc-feed-nb-de-pet-024-h",
+            "type": "heading1",
+            "text": "Product Feed QA Report — NB-DE-PET-024",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-de-pet-024-title",
+            "type": "paragraph",
+            "text": "Title: Aurora Pet Food Scoops DE 024",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-de-pet-024-market",
+            "type": "paragraph",
+            "text": "Market: DE",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-de-pet-024-channel",
+            "type": "paragraph",
+            "text": "Channel: Shopify",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-de-pet-024-issue",
+            "type": "paragraph",
+            "text": "Issue Code: MISSING_MAIN_IMAGE",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-de-pet-024-severity",
+            "type": "paragraph",
+            "text": "Severity: High",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-de-pet-024-domain",
+            "type": "paragraph",
+            "text": "Domain: Feed Quality",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-de-pet-024-owner",
+            "type": "paragraph",
+            "text": "Owner: catalog.ops@northbridge.example.com",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-de-pet-024-action",
+            "type": "paragraph",
+            "text": "Expected Action: replace placeholder image and confirm image URL resolves from verified merchant domain",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-feed-nb-br-pet-002",
+      "sourceFeedId": "feed_002",
+      "name": "QA: NB-BR-PET-002",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-25T09:00:00Z",
+      "modifiedAt": "2026-05-25T09:00:00Z",
+      "lastOpenedAt": "2026-05-25T09:00:00Z",
+      "content": {
+        "title": "QA: NB-BR-PET-002",
+        "blocks": [
+          {
+            "id": "b-doc-feed-nb-br-pet-002-h",
+            "type": "heading1",
+            "text": "Product Feed QA Report — NB-BR-PET-002",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-br-pet-002-title",
+            "type": "paragraph",
+            "text": "Title: Harbor Pet Containment Systems BR 002",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-br-pet-002-market",
+            "type": "paragraph",
+            "text": "Market: BR",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-br-pet-002-channel",
+            "type": "paragraph",
+            "text": "Channel: TikTok Shop",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-br-pet-002-issue",
+            "type": "paragraph",
+            "text": "Issue Code: DRAFT_STATUS_BLOCKER",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-br-pet-002-severity",
+            "type": "paragraph",
+            "text": "Severity: High",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-br-pet-002-domain",
+            "type": "paragraph",
+            "text": "Domain: Product Catalog",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-br-pet-002-owner",
+            "type": "paragraph",
+            "text": "Owner: supplier.ops@northbridge.example.com",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-br-pet-002-action",
+            "type": "paragraph",
+            "text": "Expected Action: complete catalog detail and move product out of Draft only after required fields are approved",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-feed-nb-mx-pet-003",
+      "sourceFeedId": "feed_003",
+      "name": "QA: NB-MX-PET-003",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-26T09:00:00Z",
+      "modifiedAt": "2026-05-26T09:00:00Z",
+      "lastOpenedAt": "2026-05-26T09:00:00Z",
+      "content": {
+        "title": "QA: NB-MX-PET-003",
+        "blocks": [
+          {
+            "id": "b-doc-feed-nb-mx-pet-003-h",
+            "type": "heading1",
+            "text": "Product Feed QA Report — NB-MX-PET-003",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pet-003-title",
+            "type": "paragraph",
+            "text": "Title: Lumen Pet Heating Pad Accessories MX 003",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pet-003-market",
+            "type": "paragraph",
+            "text": "Market: MX",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pet-003-channel",
+            "type": "paragraph",
+            "text": "Channel: Walmart Marketplace",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pet-003-issue",
+            "type": "paragraph",
+            "text": "Issue Code: MPN_GTIN_GAP",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pet-003-severity",
+            "type": "paragraph",
+            "text": "Severity: Medium",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pet-003-domain",
+            "type": "paragraph",
+            "text": "Domain: Identifier QA",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pet-003-owner",
+            "type": "paragraph",
+            "text": "Owner: inventory.ops@northbridge.example.com",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pet-003-action",
+            "type": "paragraph",
+            "text": "Expected Action: confirm whether GTIN is truly unavailable and backfill MPN/brand evidence",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-feed-nb-mx-pre-011",
+      "sourceFeedId": "feed_011",
+      "name": "QA: NB-MX-PRE-011",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-27T09:00:00Z",
+      "modifiedAt": "2026-05-27T09:00:00Z",
+      "lastOpenedAt": "2026-05-27T09:00:00Z",
+      "content": {
+        "title": "QA: NB-MX-PRE-011",
+        "blocks": [
+          {
+            "id": "b-doc-feed-nb-mx-pre-011-h",
+            "type": "heading1",
+            "text": "Product Feed QA Report — NB-MX-PRE-011",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pre-011-title",
+            "type": "paragraph",
+            "text": "Title: River Prescription Cat Food MX 011",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pre-011-market",
+            "type": "paragraph",
+            "text": "Market: MX",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pre-011-channel",
+            "type": "paragraph",
+            "text": "Channel: Amazon",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pre-011-issue",
+            "type": "paragraph",
+            "text": "Issue Code: CATEGORY_UNCATEGORIZED",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pre-011-severity",
+            "type": "paragraph",
+            "text": "Severity: High",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pre-011-domain",
+            "type": "paragraph",
+            "text": "Domain: Product Catalog",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pre-011-owner",
+            "type": "paragraph",
+            "text": "Owner: inventory.ops@northbridge.example.com",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-mx-pre-011-action",
+            "type": "paragraph",
+            "text": "Expected Action: assign a predefined Shopify taxonomy breadcrumb and verify sales-channel fit",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-feed-nb-au-pre-020",
+      "sourceFeedId": "feed_020",
+      "name": "QA: NB-AU-PRE-020",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "me",
+      "lastModifiedById": "me",
+      "sharedWith": [],
+      "trashed": false,
+      "createdAt": "2026-05-28T09:00:00Z",
+      "modifiedAt": "2026-05-28T09:00:00Z",
+      "lastOpenedAt": "2026-05-28T09:00:00Z",
+      "content": {
+        "title": "QA: NB-AU-PRE-020",
+        "blocks": [
+          {
+            "id": "b-doc-feed-nb-au-pre-020-h",
+            "type": "heading1",
+            "text": "Product Feed QA Report — NB-AU-PRE-020",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-pre-020-title",
+            "type": "paragraph",
+            "text": "Title: Vector Prescription Dog Food AU 020",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-pre-020-market",
+            "type": "paragraph",
+            "text": "Market: AU",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-pre-020-channel",
+            "type": "paragraph",
+            "text": "Channel: Google Merchant",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-pre-020-issue",
+            "type": "paragraph",
+            "text": "Issue Code: EU_CERT_CODE_MISSING",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-pre-020-severity",
+            "type": "paragraph",
+            "text": "Severity: High",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-pre-020-domain",
+            "type": "paragraph",
+            "text": "Domain: Compliance",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-pre-020-owner",
+            "type": "paragraph",
+            "text": "Owner: artwork.ops@northbridge.example.com",
+            "format": {}
+          },
+          {
+            "id": "b-doc-feed-nb-au-pre-020-action",
+            "type": "paragraph",
+            "text": "Expected Action: add certification authority, name, and code from approved certificate record",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl-blank",
+      "name": "空白文档",
+      "category": "通用",
+      "featured": true,
+      "description": "从空白文档开始",
+      "thumbnailColor": "#ffffff",
+      "skin": "blank",
+      "content": {
+        "title": "未命名文档",
+        "blocks": [
+          {
+            "id": "b-yl3k9r",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-letter-mint",
+      "name": "信件",
+      "category": "信函",
+      "subname": "薄荷绿",
+      "featured": true,
+      "description": "薄荷绿信件模版",
+      "thumbnailColor": "#ffffff",
+      "skin": "letter-mint",
+      "previewFromContent": true,
+      "content": {
+        "title": "信件",
+        "blocks": [
+          {
+            "id": "b-070rxu",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "color": "#1e8e3e",
+              "height": 4
+            }
+          },
+          {
+            "id": "b-xlywgu",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-n9wf1i",
+            "type": "paragraph",
+            "text": "收件人姓名",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-yfeqmm",
+            "type": "paragraph",
+            "text": "公司名称首席执行官",
+            "format": {}
+          },
+          {
+            "id": "b-ktvp2q",
+            "type": "paragraph",
+            "text": "省/市/自治区 + 县市名称",
+            "format": {}
+          },
+          {
+            "id": "b-qodi6i",
+            "type": "paragraph",
+            "text": "街道名称 + 门牌号",
+            "format": {}
+          },
+          {
+            "id": "b-lb7flg",
+            "type": "paragraph",
+            "text": "邮编：123456",
+            "format": {}
+          },
+          {
+            "id": "b-7lksbf",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-sprpkq",
+            "type": "paragraph",
+            "text": "您的姓名",
+            "format": {
+              "align": "right",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-s44qwr",
+            "type": "paragraph",
+            "text": "省/市/自治区 + 县市名称",
+            "format": {
+              "align": "right"
+            }
+          },
+          {
+            "id": "b-5o3vs0",
+            "type": "paragraph",
+            "text": "街道名称 + 门牌号",
+            "format": {
+              "align": "right"
+            }
+          },
+          {
+            "id": "b-ntunsu",
+            "type": "paragraph",
+            "text": "邮编：123456",
+            "format": {
+              "align": "right"
+            }
+          },
+          {
+            "id": "b-j641kb",
+            "type": "paragraph",
+            "text": "(+86) 00000000000",
+            "format": {
+              "align": "right"
+            }
+          },
+          {
+            "id": "b-ql7has",
+            "type": "paragraph",
+            "text": "no_reply@example.com",
+            "format": {
+              "align": "right"
+            }
+          },
+          {
+            "id": "b-2ig0fm",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-qeyr9r",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-92qh6j",
+            "type": "paragraph",
+            "text": "尊敬的<收件人姓名>:",
+            "format": {}
+          },
+          {
+            "id": "b-g9a0tp",
+            "type": "paragraph",
+            "text": "您好！",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-r81urb",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-tl0z97",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-wslmww",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-xundhr",
+            "type": "paragraph",
+            "text": "此致!",
+            "format": {}
+          },
+          {
+            "id": "b-tv5jqs",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-4pit77",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-f9whbs",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-ph11fw",
+            "type": "paragraph",
+            "text": "您的姓名",
+            "format": {
+              "align": "right",
+              "color": "#1e8e3e",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-3ci3wj",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-8qkqch",
+            "type": "paragraph",
+            "text": "20XX 年 9 月 4 日",
+            "format": {
+              "align": "right"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-resume-serif",
+      "name": "简历",
+      "category": "简历",
+      "subname": "Serif",
+      "featured": true,
+      "description": "经典衬线风简历",
+      "thumbnailColor": "#ffffff",
+      "skin": "resume-serif",
+      "previewFromContent": true,
+      "content": {
+        "title": "简历",
+        "layout": "two-col-resume",
+        "blocks": [
+          {
+            "id": "b-di03gm",
+            "type": "heading1",
+            "text": "您的姓名",
+            "format": {
+              "section": "header",
+              "col": "L"
+            }
+          },
+          {
+            "id": "b-6giq66",
+            "type": "subtitle",
+            "text": "创意总监",
+            "format": {
+              "section": "header",
+              "col": "L",
+              "color": "#ee7060",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-nam60c",
+            "type": "paragraph",
+            "text": "您的姓名",
+            "format": {
+              "section": "header",
+              "col": "R",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-d9jk7e",
+            "type": "paragraph",
+            "text": "省/市/自治区 + 县市名称",
+            "format": {
+              "section": "header",
+              "col": "R"
+            }
+          },
+          {
+            "id": "b-cpuhkn",
+            "type": "paragraph",
+            "text": "街道名称 + 门牌号，邮编：123456",
+            "format": {
+              "section": "header",
+              "col": "R"
+            }
+          },
+          {
+            "id": "b-kk8sjx",
+            "type": "paragraph",
+            "text": "",
+            "format": {
+              "section": "header",
+              "col": "R"
+            }
+          },
+          {
+            "id": "b-3orm8f",
+            "type": "paragraph",
+            "text": "(+86) 00000000000",
+            "format": {
+              "section": "header",
+              "col": "R",
+              "color": "#ee7060"
+            }
+          },
+          {
+            "id": "b-14ypz8",
+            "type": "paragraph",
+            "text": "no_reply@example.com",
+            "format": {
+              "section": "header",
+              "col": "R",
+              "color": "#ee7060"
+            }
+          },
+          {
+            "id": "b-mcesyf",
+            "type": "paragraph",
+            "text": "技能",
+            "format": {
+              "section": "skills",
+              "col": "L",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-wvmhfe",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "section": "skills",
+              "col": "R"
+            }
+          },
+          {
+            "id": "b-z7vae2",
+            "type": "paragraph",
+            "text": "工作经历",
+            "format": {
+              "section": "experience",
+              "col": "L",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-5njpz7",
+            "type": "heading3",
+            "text": "公司名称/职位",
+            "format": {
+              "section": "experience",
+              "col": "R",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-4mshzr",
+            "type": "paragraph",
+            "text": "20XX 年 X 月 - 至今，所在地",
+            "format": {
+              "section": "experience",
+              "col": "R",
+              "italic": true,
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-x9dj0l",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "section": "experience",
+              "col": "R"
+            }
+          },
+          {
+            "id": "b-ukkgjq",
+            "type": "heading3",
+            "text": "公司名称/职位",
+            "format": {
+              "section": "experience",
+              "col": "R",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-uonzic",
+            "type": "paragraph",
+            "text": "20XX 年 X 月 - 20XX 年 X 月，所在地",
+            "format": {
+              "section": "experience",
+              "col": "R",
+              "italic": true,
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-adsn8u",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "section": "experience",
+              "col": "R"
+            }
+          },
+          {
+            "id": "b-z1sa9r",
+            "type": "heading3",
+            "text": "公司名称/职位",
+            "format": {
+              "section": "experience",
+              "col": "R",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-8y925m",
+            "type": "paragraph",
+            "text": "20XX 年 X 月 - 20XX 年 X 月，所在地",
+            "format": {
+              "section": "experience",
+              "col": "R",
+              "italic": true,
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-hhl48a",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "section": "experience",
+              "col": "R"
+            }
+          },
+          {
+            "id": "b-72isj4",
+            "type": "paragraph",
+            "text": "教育背景",
+            "format": {
+              "section": "education",
+              "col": "L",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-wwfffz",
+            "type": "heading3",
+            "text": "学校名称/学历",
+            "format": {
+              "section": "education",
+              "col": "R",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-ejm34m",
+            "type": "paragraph",
+            "text": "20XX 年 X 月 - 20XX 年 X 月，所在地",
+            "format": {
+              "section": "education",
+              "col": "R",
+              "italic": true,
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-ocjub2",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "section": "education",
+              "col": "R"
+            }
+          },
+          {
+            "id": "b-hn71tr",
+            "type": "heading3",
+            "text": "学校名称/学历",
+            "format": {
+              "section": "education",
+              "col": "R",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-55hab9",
+            "type": "paragraph",
+            "text": "20XX 年 X 月 - 20XX 年 X 月，所在地",
+            "format": {
+              "section": "education",
+              "col": "R",
+              "italic": true,
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-nqbhkj",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "section": "education",
+              "col": "R"
+            }
+          },
+          {
+            "id": "b-v747cs",
+            "type": "paragraph",
+            "text": "荣誉奖励",
+            "format": {
+              "section": "honors",
+              "col": "L",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-tz7n8n",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "section": "honors",
+              "col": "R"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-resume-coral",
+      "name": "简历",
+      "category": "简历",
+      "subname": "珊瑚",
+      "featured": true,
+      "description": "珊瑚红主题简历",
+      "thumbnailColor": "#ffffff",
+      "skin": "resume-coral",
+      "previewFromContent": true,
+      "content": {
+        "title": "简历",
+        "blocks": [
+          {
+            "id": "b-9ui7ga",
+            "type": "heading1",
+            "text": "您的姓名",
+            "format": {
+              "background": "#ee7060",
+              "color": "#fff",
+              "padding": "large",
+              "bold": true,
+              "fontSize": 28
+            }
+          },
+          {
+            "id": "b-j1hk0g",
+            "type": "subtitle",
+            "text": "创意总监",
+            "format": {
+              "background": "#ee7060",
+              "color": "#fff",
+              "padding": "medium"
+            }
+          },
+          {
+            "id": "b-6raymt",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-agfruj",
+            "type": "heading2",
+            "text": "个人简介",
+            "format": {
+              "color": "#ee7060",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-7xk82c",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-9qpnou",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-xnwbdn",
+            "type": "heading2",
+            "text": "工作经历",
+            "format": {
+              "color": "#ee7060",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-mxz8yp",
+            "type": "paragraph",
+            "text": "公司名称 · 职位 · 时间段",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-pna3zb",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-zpdauc",
+            "type": "paragraph",
+            "text": "公司名称 · 职位 · 时间段",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-awhobi",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-1d1wna",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-j769va",
+            "type": "heading2",
+            "text": "教育背景",
+            "format": {
+              "color": "#ee7060",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-ankxg7",
+            "type": "paragraph",
+            "text": "学校 · 专业 · 学位 · 时间段",
+            "format": {}
+          },
+          {
+            "id": "b-1p76f2",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-y93sel",
+            "type": "heading2",
+            "text": "技能",
+            "format": {
+              "color": "#ee7060",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-ku9p69",
+            "type": "bullet",
+            "text": "技能与工具",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-project-tropical",
+      "name": "项目计划书",
+      "category": "工作",
+      "subname": "热带",
+      "featured": true,
+      "description": "热带风格项目计划",
+      "thumbnailColor": "#ffffff",
+      "skin": "project-tropical",
+      "previewFromContent": true,
+      "content": {
+        "title": "项目计划书",
+        "blocks": [
+          {
+            "id": "b-hembyy",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "tropical",
+              "height": 200
+            }
+          },
+          {
+            "id": "b-rn12hw",
+            "type": "heading1",
+            "text": "项目计划书",
+            "format": {
+              "bold": true,
+              "fontSize": 24
+            }
+          },
+          {
+            "id": "b-kij1kc",
+            "type": "subtitle",
+            "text": "负责人 · 起止日期",
+            "format": {
+              "color": "#888",
+              "italic": true
+            }
+          },
+          {
+            "id": "b-jsuwrx",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-j792jf",
+            "type": "heading2",
+            "text": "一、目标",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-hhbqzx",
+            "type": "paragraph",
+            "text": "用 SMART 方式定义目标。在此处插入目标的具体描述、可衡量指标、达成时限。",
+            "format": {}
+          },
+          {
+            "id": "b-ik004l",
+            "type": "heading2",
+            "text": "二、范围与非范围",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-a8kxb4",
+            "type": "bullet",
+            "text": "范围内事项",
+            "format": {}
+          },
+          {
+            "id": "b-q6zvhr",
+            "type": "bullet",
+            "text": "明确不做的事项",
+            "format": {}
+          },
+          {
+            "id": "b-zfa0pu",
+            "type": "heading2",
+            "text": "三、里程碑",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-6dx1rg",
+            "type": "numbered",
+            "text": "M1：第一阶段交付",
+            "format": {}
+          },
+          {
+            "id": "b-mkkz9m",
+            "type": "numbered",
+            "text": "M2：第二阶段交付",
+            "format": {}
+          },
+          {
+            "id": "b-qqfmno",
+            "type": "heading2",
+            "text": "四、风险与缓解",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-3yfi73",
+            "type": "bullet",
+            "text": "风险点与对策",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-brochure-geometric",
+      "name": "手册",
+      "category": "工作",
+      "subname": "几何图案",
+      "featured": true,
+      "description": "几何风格产品手册",
+      "thumbnailColor": "#ffffff",
+      "skin": "brochure-geo",
+      "previewFromContent": true,
+      "content": {
+        "title": "产品手册",
+        "blocks": [
+          {
+            "id": "b-8efg6t",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "geometric",
+              "height": 220
+            }
+          },
+          {
+            "id": "b-87jtmz",
+            "type": "heading1",
+            "text": "产品手册",
+            "format": {
+              "bold": true,
+              "fontSize": 24
+            }
+          },
+          {
+            "id": "b-qpud3m",
+            "type": "subtitle",
+            "text": "版本 · 日期",
+            "format": {
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-vzhhmz",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-a28ox1",
+            "type": "heading2",
+            "text": "产品概览",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-uvuab5",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-exkpkx",
+            "type": "heading2",
+            "text": "核心特性",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-sb0ct5",
+            "type": "bullet",
+            "text": "特性 1 · 关键卖点",
+            "format": {}
+          },
+          {
+            "id": "b-kcyx8r",
+            "type": "bullet",
+            "text": "特性 2 · 关键卖点",
+            "format": {}
+          },
+          {
+            "id": "b-wap3w7",
+            "type": "bullet",
+            "text": "特性 3 · 关键卖点",
+            "format": {}
+          },
+          {
+            "id": "b-034i9d",
+            "type": "heading2",
+            "text": "使用指南",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-xr49e0",
+            "type": "numbered",
+            "text": "打开应用",
+            "format": {}
+          },
+          {
+            "id": "b-l9drzs",
+            "type": "numbered",
+            "text": "完成账户设置",
+            "format": {}
+          },
+          {
+            "id": "b-egz2cq",
+            "type": "numbered",
+            "text": "开始使用",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-report-luxe",
+      "name": "报告",
+      "category": "工作",
+      "subname": "奢华",
+      "featured": true,
+      "description": "高级感商务报告",
+      "thumbnailColor": "#ffffff",
+      "skin": "report-luxe",
+      "previewFromContent": true,
+      "content": {
+        "title": "报告",
+        "blocks": [
+          {
+            "id": "b-q7ocuv",
+            "type": "paragraph",
+            "text": "课程名称",
+            "format": {
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-om1ruq",
+            "type": "heading1",
+            "text": "报告标题",
+            "format": {
+              "bold": true,
+              "fontSize": 28
+            }
+          },
+          {
+            "id": "b-grxeus",
+            "type": "subtitle",
+            "text": "在此处插入文本",
+            "format": {}
+          },
+          {
+            "id": "b-v24dzs",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "luxe",
+              "height": 240
+            }
+          },
+          {
+            "id": "b-9z52ya",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-8uzxtg",
+            "type": "heading2",
+            "text": "简介",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-1qx4gp",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-urwpn6",
+            "type": "heading2",
+            "text": "正文",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-1ptyco",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-resume-swiss",
+      "name": "简历",
+      "category": "简历",
+      "subname": "瑞士",
+      "featured": false,
+      "description": "瑞士风格简洁简历",
+      "thumbnailColor": "#ffffff",
+      "skin": "resume-swiss",
+      "previewFromContent": true,
+      "content": {
+        "title": "简历",
+        "blocks": [
+          {
+            "id": "b-hyx1cl",
+            "type": "heading1",
+            "text": "您的姓名",
+            "format": {
+              "align": "center",
+              "bold": true,
+              "fontSize": 28
+            }
+          },
+          {
+            "id": "b-m8cb2g",
+            "type": "subtitle",
+            "text": "创意总监",
+            "format": {
+              "align": "center",
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-3swtx9",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-4t7rbo",
+            "type": "paragraph",
+            "text": "邮箱 · 电话 · 城市",
+            "format": {
+              "align": "center",
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-zn2o24",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-xoctz1",
+            "type": "heading2",
+            "text": "个人简介",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-yrcoik",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-gufpxl",
+            "type": "heading2",
+            "text": "工作经历",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-zi5utn",
+            "type": "paragraph",
+            "text": "公司 · 职位 · 时间段",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-6rvjts",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-pv6fts",
+            "type": "heading2",
+            "text": "教育背景",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-xzgm26",
+            "type": "paragraph",
+            "text": "学校 · 专业 · 学位 · 时间段",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-resume-spearmint",
+      "name": "简历",
+      "category": "简历",
+      "subname": "薄荷绿",
+      "featured": false,
+      "description": "清新薄荷绿简历",
+      "thumbnailColor": "#ffffff",
+      "skin": "resume-mint",
+      "previewFromContent": true,
+      "content": {
+        "title": "简历",
+        "blocks": [
+          {
+            "id": "b-jpgyt8",
+            "type": "heading1",
+            "text": "您的姓名",
+            "format": {
+              "background": "#1e8e3e",
+              "color": "#fff",
+              "padding": "large",
+              "bold": true,
+              "fontSize": 28
+            }
+          },
+          {
+            "id": "b-o2lip4",
+            "type": "subtitle",
+            "text": "创意总监",
+            "format": {
+              "background": "#1e8e3e",
+              "color": "#fff",
+              "padding": "medium"
+            }
+          },
+          {
+            "id": "b-1c26ac",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-a9xpj3",
+            "type": "heading2",
+            "text": "个人简介",
+            "format": {
+              "color": "#1e8e3e",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-9sf6qz",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-4jtq3q",
+            "type": "heading2",
+            "text": "工作经历",
+            "format": {
+              "color": "#1e8e3e",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-h2hk8i",
+            "type": "paragraph",
+            "text": "公司 · 职位 · 时间段",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-a21jfk",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-tvrggf",
+            "type": "heading2",
+            "text": "教育背景",
+            "format": {
+              "color": "#1e8e3e",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-6gr86a",
+            "type": "paragraph",
+            "text": "学校 · 专业 · 学位",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-resume-modern",
+      "name": "简历",
+      "category": "简历",
+      "subname": "现代作家",
+      "featured": false,
+      "description": "现代作家风格简历",
+      "thumbnailColor": "#ffffff",
+      "skin": "resume-modern",
+      "previewFromContent": true,
+      "content": {
+        "title": "简历",
+        "blocks": [
+          {
+            "id": "b-wpxlmr",
+            "type": "heading1",
+            "text": "您的姓名",
+            "format": {
+              "color": "#b71c1c",
+              "bold": true,
+              "fontSize": 28
+            }
+          },
+          {
+            "id": "b-i3aya8",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "color": "#b71c1c",
+              "height": 1
+            }
+          },
+          {
+            "id": "b-d43oq6",
+            "type": "subtitle",
+            "text": "个人简介",
+            "format": {
+              "italic": true
+            }
+          },
+          {
+            "id": "b-156jd2",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-eejnev",
+            "type": "heading2",
+            "text": "工作经历",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-c0m2lx",
+            "type": "paragraph",
+            "text": "公司 · 职位 · 时间段",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-eeaf9j",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-ni230t",
+            "type": "heading2",
+            "text": "教育背景",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-i5lw8x",
+            "type": "paragraph",
+            "text": "学校 · 专业",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-letter-coral",
+      "name": "信件",
+      "category": "信函",
+      "subname": "珊瑚",
+      "featured": false,
+      "description": "珊瑚红信件",
+      "thumbnailColor": "#ffffff",
+      "skin": "letter-coral",
+      "previewFromContent": true,
+      "content": {
+        "title": "信件",
+        "blocks": [
+          {
+            "id": "b-as02mx",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "color": "#ee7060",
+              "height": 8
+            }
+          },
+          {
+            "id": "b-e8x2a2",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-wr0zro",
+            "type": "paragraph",
+            "text": "收件人姓名",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-cnttv6",
+            "type": "paragraph",
+            "text": "公司名称",
+            "format": {}
+          },
+          {
+            "id": "b-izqh2s",
+            "type": "paragraph",
+            "text": "地址 · 邮编",
+            "format": {}
+          },
+          {
+            "id": "b-sbhg84",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-bhfgqv",
+            "type": "paragraph",
+            "text": "您的姓名",
+            "format": {
+              "align": "right",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-5ab84r",
+            "type": "paragraph",
+            "text": "地址 · 邮编",
+            "format": {
+              "align": "right"
+            }
+          },
+          {
+            "id": "b-28z199",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-6c0kaw",
+            "type": "paragraph",
+            "text": "尊敬的<收件人姓名>:",
+            "format": {}
+          },
+          {
+            "id": "b-0865yz",
+            "type": "paragraph",
+            "text": "您好！",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-o6u9u0",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-ji9nk0",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-mfo0j8",
+            "type": "paragraph",
+            "text": "此致!",
+            "format": {}
+          },
+          {
+            "id": "b-oigwh6",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-teec9l",
+            "type": "paragraph",
+            "text": "您的姓名",
+            "format": {
+              "align": "right",
+              "color": "#ee7060",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-sy3ttd",
+            "type": "paragraph",
+            "text": "20XX 年 X 月 X 日",
+            "format": {
+              "align": "right"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-letter-bold",
+      "name": "信件",
+      "category": "信函",
+      "subname": "醒目",
+      "featured": false,
+      "description": "醒目风格信件",
+      "thumbnailColor": "#ffffff",
+      "skin": "letter-bold",
+      "previewFromContent": true,
+      "content": {
+        "title": "信件",
+        "blocks": [
+          {
+            "id": "b-pov6u4",
+            "type": "heading1",
+            "text": "您的公司名称",
+            "format": {
+              "color": "#d93025",
+              "bold": true,
+              "fontSize": 32
+            }
+          },
+          {
+            "id": "b-m7yboz",
+            "type": "subtitle",
+            "text": "信件主题",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-rp3b28",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-8831gx",
+            "type": "paragraph",
+            "text": "收件人姓名",
+            "format": {}
+          },
+          {
+            "id": "b-0l5rbq",
+            "type": "paragraph",
+            "text": "公司 · 地址",
+            "format": {}
+          },
+          {
+            "id": "b-n6d7ki",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-56h94p",
+            "type": "paragraph",
+            "text": "尊敬的<收件人姓名>:",
+            "format": {}
+          },
+          {
+            "id": "b-zv31ii",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-hdc16z",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-nyq9ig",
+            "type": "paragraph",
+            "text": "此致!",
+            "format": {}
+          },
+          {
+            "id": "b-mrb9p8",
+            "type": "paragraph",
+            "text": "您的姓名",
+            "format": {
+              "bold": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-letter-modern",
+      "name": "信件",
+      "category": "信函",
+      "subname": "现代作家",
+      "featured": false,
+      "description": "现代作家风格信件",
+      "thumbnailColor": "#ffffff",
+      "skin": "letter-modern",
+      "previewFromContent": true,
+      "content": {
+        "title": "信件",
+        "blocks": [
+          {
+            "id": "b-m54a37",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "modern",
+              "height": 120
+            }
+          },
+          {
+            "id": "b-5054qs",
+            "type": "heading1",
+            "text": "您的公司名称",
+            "format": {
+              "color": "#1a73e8",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-vzmhmv",
+            "type": "subtitle",
+            "text": "日期 · 地址",
+            "format": {}
+          },
+          {
+            "id": "b-prc308",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-vplinb",
+            "type": "paragraph",
+            "text": "收件人姓名",
+            "format": {}
+          },
+          {
+            "id": "b-rrs4q2",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-nqnozj",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-ea5lk8",
+            "type": "paragraph",
+            "text": "此致!",
+            "format": {}
+          },
+          {
+            "id": "b-9y1h9n",
+            "type": "paragraph",
+            "text": "您的姓名",
+            "format": {
+              "bold": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-letter-informal",
+      "name": "信件",
+      "category": "信函",
+      "subname": "非正式",
+      "featured": false,
+      "description": "非正式信件",
+      "thumbnailColor": "#ffffff",
+      "skin": "letter-informal",
+      "previewFromContent": true,
+      "content": {
+        "title": "信件",
+        "blocks": [
+          {
+            "id": "b-rwb57g",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "informal",
+              "height": 60
+            }
+          },
+          {
+            "id": "b-3srt1n",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-39zs16",
+            "type": "heading2",
+            "text": "亲爱的朋友：",
+            "format": {
+              "color": "#d93025",
+              "italic": true
+            }
+          },
+          {
+            "id": "b-5wadc4",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-8arvxj",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-d6mf8c",
+            "type": "paragraph",
+            "text": "期待你的回信。",
+            "format": {}
+          },
+          {
+            "id": "b-wn1zit",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-g07j0i",
+            "type": "paragraph",
+            "text": "你的朋友",
+            "format": {
+              "align": "right",
+              "italic": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-project-proposal",
+      "name": "项目计划书",
+      "category": "工作",
+      "subname": "现代",
+      "featured": false,
+      "description": "现代项目计划书",
+      "thumbnailColor": "#ffffff",
+      "skin": "project-modern",
+      "previewFromContent": true,
+      "content": {
+        "title": "项目计划书",
+        "blocks": [
+          {
+            "id": "b-my0fg8",
+            "type": "heading1",
+            "text": "项目计划书",
+            "format": {
+              "background": "#1a73e8",
+              "color": "#fff",
+              "padding": "large",
+              "bold": true,
+              "fontSize": 26
+            }
+          },
+          {
+            "id": "b-s3wwyk",
+            "type": "subtitle",
+            "text": "负责人 · 起止日期",
+            "format": {
+              "background": "#1a73e8",
+              "color": "#fff",
+              "padding": "medium"
+            }
+          },
+          {
+            "id": "b-g0nr4w",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-x95ids",
+            "type": "heading2",
+            "text": "一、目标",
+            "format": {
+              "color": "#1a73e8",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-jhgbjv",
+            "type": "paragraph",
+            "text": "在此处插入目标的具体描述、可衡量指标。",
+            "format": {}
+          },
+          {
+            "id": "b-gq9qro",
+            "type": "heading2",
+            "text": "二、范围",
+            "format": {
+              "color": "#1a73e8",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-s1eyjc",
+            "type": "bullet",
+            "text": "范围内事项",
+            "format": {}
+          },
+          {
+            "id": "b-lyz2tp",
+            "type": "bullet",
+            "text": "明确不做的事项",
+            "format": {}
+          },
+          {
+            "id": "b-nzwl6m",
+            "type": "heading2",
+            "text": "三、里程碑",
+            "format": {
+              "color": "#1a73e8",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-8kjvts",
+            "type": "numbered",
+            "text": "M1：第一阶段交付",
+            "format": {}
+          },
+          {
+            "id": "b-b8yyq7",
+            "type": "numbered",
+            "text": "M2：第二阶段交付",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-brochure-spearmint",
+      "name": "简报",
+      "category": "工作",
+      "subname": "几何图案",
+      "featured": false,
+      "description": "几何简报",
+      "thumbnailColor": "#ffffff",
+      "skin": "brochure-geo",
+      "previewFromContent": true,
+      "content": {
+        "title": "简报",
+        "blocks": [
+          {
+            "id": "b-awounl",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "spearmint",
+              "height": 140
+            }
+          },
+          {
+            "id": "b-u5r21f",
+            "type": "heading1",
+            "text": "本期简报",
+            "format": {
+              "color": "#1e8e3e",
+              "bold": true,
+              "fontSize": 24
+            }
+          },
+          {
+            "id": "b-9dk4zm",
+            "type": "subtitle",
+            "text": "日期 · 撰写人",
+            "format": {
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-fv62o6",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-e64649",
+            "type": "heading2",
+            "text": "本周亮点",
+            "format": {
+              "color": "#1e8e3e",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-um1819",
+            "type": "bullet",
+            "text": "亮点 1 · 数据",
+            "format": {}
+          },
+          {
+            "id": "b-l0amxh",
+            "type": "bullet",
+            "text": "亮点 2 · 数据",
+            "format": {}
+          },
+          {
+            "id": "b-2dgssu",
+            "type": "heading2",
+            "text": "数据看板",
+            "format": {
+              "color": "#1e8e3e",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-r7v4ck",
+            "type": "paragraph",
+            "text": "指标 · 数值 · 同比",
+            "format": {}
+          },
+          {
+            "id": "b-jt9uvv",
+            "type": "heading2",
+            "text": "下周计划",
+            "format": {
+              "color": "#1e8e3e",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-y6fbp3",
+            "type": "bullet",
+            "text": "计划项 1",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-meeting-notes",
+      "name": "会议记录",
+      "category": "工作",
+      "featured": false,
+      "description": "记录议题、决议、待办",
+      "thumbnailColor": "#ffffff",
+      "skin": "meeting",
+      "previewFromContent": true,
+      "content": {
+        "title": "会议记录",
+        "blocks": [
+          {
+            "id": "b-saxojs",
+            "type": "heading1",
+            "text": "会议主题",
+            "format": {
+              "bold": true,
+              "fontSize": 22
+            }
+          },
+          {
+            "id": "b-zntijv",
+            "type": "subtitle",
+            "text": "日期 · 参会者",
+            "format": {
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-rqzxga",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "color": "#34a853",
+              "height": 2
+            }
+          },
+          {
+            "id": "b-3gfnpr",
+            "type": "heading2",
+            "text": "议题",
+            "format": {
+              "color": "#34a853",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-xf54az",
+            "type": "bullet",
+            "text": "议题 1：在此处插入议题描述",
+            "format": {}
+          },
+          {
+            "id": "b-pzym6k",
+            "type": "bullet",
+            "text": "议题 2：在此处插入议题描述",
+            "format": {}
+          },
+          {
+            "id": "b-22uzap",
+            "type": "heading2",
+            "text": "决议",
+            "format": {
+              "color": "#34a853",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-jab4qo",
+            "type": "bullet",
+            "text": "决议事项 1",
+            "format": {}
+          },
+          {
+            "id": "b-9s1lqu",
+            "type": "bullet",
+            "text": "决议事项 2",
+            "format": {}
+          },
+          {
+            "id": "b-1evfin",
+            "type": "heading2",
+            "text": "待办",
+            "format": {
+              "color": "#34a853",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-b2e2qn",
+            "type": "todo",
+            "text": "[ ] 张三 · 完成需求评审 · 2026-X-X",
+            "format": {}
+          },
+          {
+            "id": "b-vbuoxn",
+            "type": "todo",
+            "text": "[ ] 李四 · 准备方案 · 2026-X-X",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-email-draft",
+      "name": "邮件草稿",
+      "category": "工作",
+      "featured": false,
+      "description": "正式邮件正文",
+      "thumbnailColor": "#fef7e0",
+      "skin": "email-draft",
+      "previewFromContent": true,
+      "content": {
+        "title": "邮件草稿",
+        "blocks": [
+          {
+            "id": "b-23yhyd",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "yellow-soft",
+              "height": 60
+            }
+          },
+          {
+            "id": "b-oy17yg",
+            "type": "paragraph",
+            "text": "收件人：在此处插入收件人邮箱",
+            "format": {
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-iph9ag",
+            "type": "paragraph",
+            "text": "主题：在此处插入主题",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-cuhs4l",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-2y5mj2",
+            "type": "paragraph",
+            "text": "您好，",
+            "format": {}
+          },
+          {
+            "id": "b-bh32ub",
+            "type": "paragraph",
+            "text": "在此处插入邮件正文。在此处插入邮件正文在此处插入邮件正文在此处插入邮件正文在此处插入邮件正文。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-u4ms5j",
+            "type": "paragraph",
+            "text": "在此处插入邮件正文在此处插入邮件正文。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-ewrdgi",
+            "type": "paragraph",
+            "text": "谢谢！",
+            "format": {}
+          },
+          {
+            "id": "b-88tc6y",
+            "type": "paragraph",
+            "text": "您的姓名",
+            "format": {
+              "bold": true
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-class-notes",
+      "name": "课程笔记",
+      "category": "教育",
+      "featured": false,
+      "description": "康奈尔笔记法",
+      "thumbnailColor": "#fef7e0",
+      "skin": "notes-serif",
+      "previewFromContent": true,
+      "content": {
+        "title": "课程笔记",
+        "blocks": [
+          {
+            "id": "b-2jbqy2",
+            "type": "heading1",
+            "text": "课程名称 · 第 N 讲",
+            "format": {
+              "bold": true,
+              "fontSize": 22
+            }
+          },
+          {
+            "id": "b-9zoj8s",
+            "type": "subtitle",
+            "text": "日期 · 讲师",
+            "format": {
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-eiohnl",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "color": "#f9ab00",
+              "height": 1
+            }
+          },
+          {
+            "id": "b-gyls0a",
+            "type": "heading2",
+            "text": "要点",
+            "format": {
+              "color": "#f9ab00",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-po5mli",
+            "type": "bullet",
+            "text": "关键概念 1",
+            "format": {}
+          },
+          {
+            "id": "b-2g5k8d",
+            "type": "bullet",
+            "text": "关键概念 2",
+            "format": {}
+          },
+          {
+            "id": "b-e411yc",
+            "type": "bullet",
+            "text": "关键概念 3",
+            "format": {}
+          },
+          {
+            "id": "b-bbsm44",
+            "type": "heading2",
+            "text": "问题",
+            "format": {
+              "color": "#f9ab00",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-tfnbhv",
+            "type": "bullet",
+            "text": "待澄清的问题",
+            "format": {}
+          },
+          {
+            "id": "b-mtyhb1",
+            "type": "heading2",
+            "text": "总结",
+            "format": {
+              "color": "#f9ab00",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-f7z37q",
+            "type": "paragraph",
+            "text": "两三句话总结本讲的核心内容。",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-lesson-plan",
+      "name": "教学计划",
+      "category": "教育",
+      "featured": false,
+      "description": "课堂教学计划",
+      "thumbnailColor": "#e8f0fe",
+      "skin": "lesson-illustrated",
+      "previewFromContent": true,
+      "content": {
+        "title": "教学计划",
+        "blocks": [
+          {
+            "id": "b-cx30cc",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "illustrated",
+              "height": 180
+            }
+          },
+          {
+            "id": "b-wneq3q",
+            "type": "heading1",
+            "text": "教学计划",
+            "format": {
+              "color": "#1a73e8",
+              "bold": true,
+              "fontSize": 26
+            }
+          },
+          {
+            "id": "b-3q6thb",
+            "type": "subtitle",
+            "text": "课程名称",
+            "format": {}
+          },
+          {
+            "id": "b-w4p978",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-rguy3b",
+            "type": "heading2",
+            "text": "教学目标",
+            "format": {
+              "color": "#1a73e8",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-vw3xdm",
+            "type": "bullet",
+            "text": "目标 1",
+            "format": {}
+          },
+          {
+            "id": "b-45yefv",
+            "type": "bullet",
+            "text": "目标 2",
+            "format": {}
+          },
+          {
+            "id": "b-qv63l7",
+            "type": "heading2",
+            "text": "教学内容",
+            "format": {
+              "color": "#1a73e8",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-o0lgm0",
+            "type": "paragraph",
+            "text": "内容简述",
+            "format": {}
+          },
+          {
+            "id": "b-xs4btf",
+            "type": "heading2",
+            "text": "教学步骤",
+            "format": {
+              "color": "#1a73e8",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-o18hbr",
+            "type": "numbered",
+            "text": "导入",
+            "format": {}
+          },
+          {
+            "id": "b-y5m1ov",
+            "type": "numbered",
+            "text": "讲授",
+            "format": {}
+          },
+          {
+            "id": "b-5u0a29",
+            "type": "numbered",
+            "text": "练习",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-student-report-mla",
+      "name": "学生报告",
+      "category": "教育",
+      "subname": "MLA",
+      "featured": false,
+      "description": "MLA 格式学生报告",
+      "thumbnailColor": "#ffffff",
+      "skin": "academic-mla",
+      "previewFromContent": true,
+      "content": {
+        "title": "MLA 报告",
+        "blocks": [
+          {
+            "id": "b-6osnkh",
+            "type": "paragraph",
+            "text": "Your Name",
+            "format": {}
+          },
+          {
+            "id": "b-ww1043",
+            "type": "paragraph",
+            "text": "Instructor Name",
+            "format": {}
+          },
+          {
+            "id": "b-0zpscw",
+            "type": "paragraph",
+            "text": "Course Number",
+            "format": {}
+          },
+          {
+            "id": "b-754t8c",
+            "type": "paragraph",
+            "text": "Date",
+            "format": {}
+          },
+          {
+            "id": "b-m5l9sj",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-z4jrht",
+            "type": "heading1",
+            "text": "报告标题",
+            "format": {
+              "align": "center",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-zsn7yx",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-09srq8",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {
+              "indent": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-student-report-apa7",
+      "name": "学生报告",
+      "category": "教育",
+      "subname": "APA 第 7 版",
+      "featured": false,
+      "description": "APA 第 7 版报告",
+      "thumbnailColor": "#ffffff",
+      "skin": "academic-apa",
+      "previewFromContent": true,
+      "content": {
+        "title": "APA 报告",
+        "blocks": [
+          {
+            "id": "b-lykohd",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-akwljq",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-brn4r5",
+            "type": "heading1",
+            "text": "报告标题",
+            "format": {
+              "align": "center",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-11vw7c",
+            "type": "paragraph",
+            "text": "Your Name",
+            "format": {
+              "align": "center"
+            }
+          },
+          {
+            "id": "b-uygqjv",
+            "type": "paragraph",
+            "text": "Course / Department",
+            "format": {
+              "align": "center"
+            }
+          },
+          {
+            "id": "b-f10ajn",
+            "type": "paragraph",
+            "text": "Instructor / Date",
+            "format": {
+              "align": "center"
+            }
+          },
+          {
+            "id": "b-70cq6e",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-xbr523",
+            "type": "heading2",
+            "text": "Abstract",
+            "format": {
+              "align": "center",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-fa4fgw",
+            "type": "paragraph",
+            "text": "在此处插入摘要内容在此处插入摘要内容在此处插入摘要内容。",
+            "format": {
+              "indent": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-essay-mla",
+      "name": "论文",
+      "category": "教育",
+      "subname": "MLA",
+      "featured": false,
+      "description": "MLA 论文模版",
+      "thumbnailColor": "#ffffff",
+      "skin": "academic-mla",
+      "previewFromContent": true,
+      "content": {
+        "title": "MLA 论文",
+        "blocks": [
+          {
+            "id": "b-mcirey",
+            "type": "paragraph",
+            "text": "Your Name",
+            "format": {}
+          },
+          {
+            "id": "b-2j68ug",
+            "type": "paragraph",
+            "text": "Instructor Name",
+            "format": {}
+          },
+          {
+            "id": "b-3mtlqr",
+            "type": "paragraph",
+            "text": "Course Number",
+            "format": {}
+          },
+          {
+            "id": "b-9qxru5",
+            "type": "paragraph",
+            "text": "Date",
+            "format": {}
+          },
+          {
+            "id": "b-wzux9p",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-shr01p",
+            "type": "heading1",
+            "text": "论文题目",
+            "format": {
+              "align": "center",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-xho9xg",
+            "type": "paragraph",
+            "text": "在此处插入正文在此处插入正文在此处插入正文在此处插入正文。",
+            "format": {
+              "indent": 1
+            }
+          },
+          {
+            "id": "b-q56y3a",
+            "type": "paragraph",
+            "text": "在此处插入正文在此处插入正文。",
+            "format": {
+              "indent": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-essay-apa7",
+      "name": "论文",
+      "category": "教育",
+      "subname": "APA 第 7 版",
+      "featured": false,
+      "description": "APA 第 7 版论文",
+      "thumbnailColor": "#ffffff",
+      "skin": "academic-apa",
+      "previewFromContent": true,
+      "content": {
+        "title": "APA 论文",
+        "blocks": [
+          {
+            "id": "b-ngq6jt",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-y22w6j",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-v4ve48",
+            "type": "heading1",
+            "text": "论文题目",
+            "format": {
+              "align": "center",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-g93sc5",
+            "type": "paragraph",
+            "text": "Your Name",
+            "format": {
+              "align": "center"
+            }
+          },
+          {
+            "id": "b-c0b1pm",
+            "type": "paragraph",
+            "text": "University / Department",
+            "format": {
+              "align": "center"
+            }
+          },
+          {
+            "id": "b-s5125s",
+            "type": "paragraph",
+            "text": "Course / Instructor / Date",
+            "format": {
+              "align": "center"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-onboarding",
+      "name": "入职注意事项",
+      "category": "工作",
+      "featured": false,
+      "description": "新员工入职清单",
+      "thumbnailColor": "#fef7e0",
+      "skin": "onboarding",
+      "previewFromContent": true,
+      "content": {
+        "title": "入职注意事项",
+        "blocks": [
+          {
+            "id": "b-1hdaqa",
+            "type": "heading1",
+            "text": "入职注意事项",
+            "format": {
+              "bold": true,
+              "fontSize": 24
+            }
+          },
+          {
+            "id": "b-9dzvcx",
+            "type": "subtitle",
+            "text": "新员工 · 入职日期",
+            "format": {
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-vjnx5x",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "color": "#f9ab00",
+              "height": 3
+            }
+          },
+          {
+            "id": "b-30hzjg",
+            "type": "heading2",
+            "text": "第一周",
+            "format": {
+              "color": "#f9ab00",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-autt10",
+            "type": "todo",
+            "text": "完成账号开通",
+            "format": {}
+          },
+          {
+            "id": "b-cgr9k8",
+            "type": "todo",
+            "text": "设备申请",
+            "format": {}
+          },
+          {
+            "id": "b-8qhfxa",
+            "type": "todo",
+            "text": "团队介绍 1:1",
+            "format": {}
+          },
+          {
+            "id": "b-f8135l",
+            "type": "heading2",
+            "text": "第一个月",
+            "format": {
+              "color": "#f9ab00",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-94unho",
+            "type": "bullet",
+            "text": "熟悉代码仓库与发布流程",
+            "format": {}
+          },
+          {
+            "id": "b-0zuvuj",
+            "type": "bullet",
+            "text": "参与项目评审",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-project-tracker",
+      "name": "项目建议书",
+      "category": "工作",
+      "featured": false,
+      "description": "提案立项",
+      "thumbnailColor": "#e8f0fe",
+      "skin": "proposal-blue",
+      "previewFromContent": true,
+      "content": {
+        "title": "项目建议书",
+        "blocks": [
+          {
+            "id": "b-m709i2",
+            "type": "heading1",
+            "text": "项目建议书",
+            "format": {
+              "color": "#1a73e8",
+              "bold": true,
+              "fontSize": 26
+            }
+          },
+          {
+            "id": "b-rqmczj",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "color": "#1a73e8",
+              "height": 1
+            }
+          },
+          {
+            "id": "b-ynqzt3",
+            "type": "subtitle",
+            "text": "提案人 · 日期",
+            "format": {
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-7qcdo1",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-fudive",
+            "type": "heading2",
+            "text": "问题陈述",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-n2gz3m",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-tvy95d",
+            "type": "heading2",
+            "text": "解决方案",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-sfgdrb",
+            "type": "bullet",
+            "text": "方案要点 1",
+            "format": {}
+          },
+          {
+            "id": "b-et2wwv",
+            "type": "bullet",
+            "text": "方案要点 2",
+            "format": {}
+          },
+          {
+            "id": "b-elyrde",
+            "type": "heading2",
+            "text": "预期收益",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-9q3z0w",
+            "type": "paragraph",
+            "text": "在此处插入文本。",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-recipe",
+      "name": "食谱",
+      "category": "生活",
+      "featured": false,
+      "description": "菜谱",
+      "thumbnailColor": "#fce8e6",
+      "skin": "recipe-warm",
+      "previewFromContent": true,
+      "content": {
+        "title": "食谱",
+        "blocks": [
+          {
+            "id": "b-8t6mnq",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "recipe",
+              "height": 120
+            }
+          },
+          {
+            "id": "b-4rims6",
+            "type": "heading1",
+            "text": "菜名",
+            "format": {
+              "color": "#6d4c41",
+              "bold": true,
+              "fontSize": 26
+            }
+          },
+          {
+            "id": "b-5v70co",
+            "type": "subtitle",
+            "text": "烹饪时间 · 难度 · 几人份",
+            "format": {
+              "color": "#888"
+            }
+          },
+          {
+            "id": "b-z5ugig",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-5lxgr9",
+            "type": "heading2",
+            "text": "用料",
+            "format": {
+              "color": "#689f38",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-o9q51e",
+            "type": "bullet",
+            "text": "食材 1 · 用量",
+            "format": {}
+          },
+          {
+            "id": "b-m18kbe",
+            "type": "bullet",
+            "text": "食材 2 · 用量",
+            "format": {}
+          },
+          {
+            "id": "b-7q3viu",
+            "type": "bullet",
+            "text": "食材 3 · 用量",
+            "format": {}
+          },
+          {
+            "id": "b-5qtat2",
+            "type": "heading2",
+            "text": "做法",
+            "format": {
+              "color": "#689f38",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-7zn3a8",
+            "type": "numbered",
+            "text": "步骤 1",
+            "format": {}
+          },
+          {
+            "id": "b-7uo7tl",
+            "type": "numbered",
+            "text": "步骤 2",
+            "format": {}
+          },
+          {
+            "id": "b-9rw1mj",
+            "type": "numbered",
+            "text": "步骤 3",
+            "format": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-paperback",
+      "name": "平装本",
+      "category": "生活",
+      "featured": false,
+      "description": "小说平装本布局",
+      "thumbnailColor": "#f1f3f4",
+      "skin": "paperback-classic",
+      "previewFromContent": true,
+      "content": {
+        "title": "书名",
+        "blocks": [
+          {
+            "id": "b-8ye6po",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "paperback",
+              "height": 120
+            }
+          },
+          {
+            "id": "b-i8z5in",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-swqbr9",
+            "type": "heading1",
+            "text": "书名",
+            "format": {
+              "align": "center",
+              "bold": true,
+              "fontSize": 36
+            }
+          },
+          {
+            "id": "b-ggb38k",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "color": "#6d4c41",
+              "height": 1
+            }
+          },
+          {
+            "id": "b-i39400",
+            "type": "subtitle",
+            "text": "副标题",
+            "format": {
+              "align": "center",
+              "italic": true
+            }
+          },
+          {
+            "id": "b-i9iym8",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-ytgptf",
+            "type": "paragraph",
+            "text": "作者姓名",
+            "format": {
+              "align": "center",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-xm793t",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-exyw1y",
+            "type": "heading2",
+            "text": "第一章",
+            "format": {
+              "align": "center",
+              "bold": true
+            }
+          },
+          {
+            "id": "b-c1ykp1",
+            "type": "paragraph",
+            "text": "在此处插入正文在此处插入正文在此处插入正文在此处插入正文。",
+            "format": {
+              "indent": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tpl-biodata",
+      "name": "个人简介",
+      "category": "生活",
+      "featured": false,
+      "description": "个人简介",
+      "thumbnailColor": "#e8f0fe",
+      "skin": "biodata-portrait",
+      "previewFromContent": true,
+      "content": {
+        "title": "个人简介",
+        "blocks": [
+          {
+            "id": "b-t56970",
+            "type": "banner",
+            "text": "",
+            "format": {
+              "gradient": "blue-soft",
+              "height": 100
+            }
+          },
+          {
+            "id": "b-vpb5dq",
+            "type": "heading1",
+            "text": "您的姓名",
+            "format": {
+              "align": "center",
+              "bold": true,
+              "fontSize": 28
+            }
+          },
+          {
+            "id": "b-geuexb",
+            "type": "subtitle",
+            "text": "一句话介绍",
+            "format": {
+              "align": "center",
+              "color": "#1a73e8"
+            }
+          },
+          {
+            "id": "b-ckttgz",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          },
+          {
+            "id": "b-3h28uk",
+            "type": "heading2",
+            "text": "关于我",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-3picfc",
+            "type": "paragraph",
+            "text": "在此处插入文本在此处插入文本在此处插入文本在此处插入文本。",
+            "format": {}
+          },
+          {
+            "id": "b-s9lqti",
+            "type": "heading2",
+            "text": "技能与经验",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-dghcho",
+            "type": "bullet",
+            "text": "技能 1",
+            "format": {}
+          },
+          {
+            "id": "b-4ydo31",
+            "type": "bullet",
+            "text": "技能 2",
+            "format": {}
+          },
+          {
+            "id": "b-rymby8",
+            "type": "heading2",
+            "text": "联系方式",
+            "format": {
+              "bold": true
+            }
+          },
+          {
+            "id": "b-rlq6l3",
+            "type": "paragraph",
+            "text": "邮箱 · 电话",
+            "format": {}
+          }
+        ]
+      }
+    }
+  ],
+  "view": {
+    "activeView": "home",
+    "currentFolderId": "root",
+    "sortBy": "name",
+    "sortDir": "asc",
+    "layout": "grid",
+    "activeDocId": null,
+    "templateStripExpanded": true,
+    "sidebarCollapsed": false
+  },
+  "selection": {
+    "ids": []
+  },
+  "notifications": [],
+  "events": [],
+  "versions": {
+    "doc-feed-nb-sg-bir-005": [],
+    "doc-feed-nb-au-cat-012": [],
+    "doc-feed-nb-jp-dog-017": [],
+    "doc-feed-nb-de-pet-024": [],
+    "doc-feed-nb-br-pet-002": [],
+    "doc-feed-nb-mx-pet-003": [],
+    "doc-feed-nb-mx-pre-011": [],
+    "doc-feed-nb-au-pre-020": []
+  },
+  "db": {
+    "spreadsheets": {
+      "sheet-inventory-004": {
+        "properties": {
+          "title": "Cross-Border Inventory Tracker"
+        },
+        "sheets": [
+          {
+            "properties": {
+              "title": "Warehouse Stock",
+              "sheetId": 0
+            },
+            "cells": {
+              "A1": {
+                "value": "SKU"
+              },
+              "B1": {
+                "value": "Product Name"
+              },
+              "C1": {
+                "value": "Warehouse"
+              },
+              "D1": {
+                "value": "On Hand"
+              },
+              "E1": {
+                "value": "Safety Stock"
+              },
+              "F1": {
+                "value": "Reorder Point"
+              },
+              "G1": {
+                "value": "Status"
+              },
+              "H1": {
+                "value": "Last Count Date"
+              },
+              "I1": {
+                "value": "Category"
+              },
+              "J1": {
+                "value": "Unit Cost"
+              },
+              "K1": {
+                "value": "Total Value"
+              },
+              "L1": {
+                "value": "Supplier"
+              },
+              "M1": {
+                "value": "Notes"
+              },
+              "A2": {
+                "value": "LED-PANEL-40W"
+              },
+              "B2": {
+                "value": "LED Panel 40W"
+              },
+              "C2": {
+                "value": "US-East"
+              },
+              "D2": {
+                "value": 320
+              },
+              "E2": {
+                "value": 100
+              },
+              "F2": {
+                "value": 150
+              },
+              "G2": {
+                "value": "In Stock"
+              },
+              "H2": {
+                "value": "2026-03-15"
+              },
+              "I2": {
+                "value": "Lighting"
+              },
+              "J2": {
+                "value": 12.5
+              },
+              "K2": {
+                "value": 4000
+              },
+              "L2": {
+                "value": "ShenZhen Optics"
+              },
+              "M2": {
+                "value": ""
+              },
+              "A3": {
+                "value": "PKG-KRAFT-M"
+              },
+              "B3": {
+                "value": "Kraft Mailer Medium"
+              },
+              "C3": {
+                "value": "US-West"
+              },
+              "D3": {
+                "value": 8500
+              },
+              "E3": {
+                "value": 2000
+              },
+              "F3": {
+                "value": 3000
+              },
+              "G3": {
+                "value": "In Stock"
+              },
+              "H3": {
+                "value": "2026-03-20"
+              },
+              "I3": {
+                "value": "Packaging"
+              },
+              "J3": {
+                "value": 0.34
+              },
+              "K3": {
+                "value": 2890
+              },
+              "L3": {
+                "value": "EcoPack Ltd"
+              },
+              "M3": {
+                "value": ""
+              },
+              "A4": {
+                "value": "CAMP-TENT-2P"
+              },
+              "B4": {
+                "value": "2-Person Camping Tent"
+              },
+              "C4": {
+                "value": "APAC-SG"
+              },
+              "D4": {
+                "value": 45
+              },
+              "E4": {
+                "value": 20
+              },
+              "F4": {
+                "value": 30
+              },
+              "G4": {
+                "value": "In Stock"
+              },
+              "H4": {
+                "value": "2026-03-18"
+              },
+              "I4": {
+                "value": "Outdoor"
+              },
+              "J4": {
+                "value": 28.5
+              },
+              "K4": {
+                "value": 1282.5
+              },
+              "L4": {
+                "value": "XiamenGear Co"
+              },
+              "M4": {
+                "value": ""
+              },
+              "A5": {
+                "value": "CAMP-TENT-2P"
+              },
+              "B5": {
+                "value": "2-Person Camping Tent"
+              },
+              "C5": {
+                "value": "US-West"
+              },
+              "D5": {
+                "value": 0
+              },
+              "E5": {
+                "value": 50
+              },
+              "F5": {
+                "value": 75
+              },
+              "G5": {
+                "value": "Out"
+              },
+              "H5": {
+                "value": "2026-03-22"
+              },
+              "I5": {
+                "value": "Outdoor"
+              },
+              "J5": {
+                "value": 28.5
+              },
+              "K5": {
+                "value": 0
+              },
+              "L5": {
+                "value": "XiamenGear Co"
+              },
+              "M5": {
+                "value": "RISK-ACTION: Single-source dependency on Xiamen supplier; CAMP-TENT-2P stockout at US-West warehouse with no alternative vendor qualified"
+              },
+              "A6": {
+                "value": "BEAUTY-SERUM-HA"
+              },
+              "B6": {
+                "value": "Hyaluronic Acid Serum"
+              },
+              "C6": {
+                "value": "EU-DE"
+              },
+              "D6": {
+                "value": 180
+              },
+              "E6": {
+                "value": 50
+              },
+              "F6": {
+                "value": 80
+              },
+              "G6": {
+                "value": "In Stock"
+              },
+              "H6": {
+                "value": "2026-03-10"
+              },
+              "I6": {
+                "value": "Beauty"
+              },
+              "J6": {
+                "value": 8.75
+              },
+              "K6": {
+                "value": 1575
+              },
+              "L6": {
+                "value": "BioLab Korea"
+              },
+              "M6": {
+                "value": ""
+              },
+              "A7": {
+                "value": "BEAUTY-SERUM-HA"
+              },
+              "B7": {
+                "value": "Hyaluronic Acid Serum"
+              },
+              "C7": {
+                "value": "US-East"
+              },
+              "D7": {
+                "value": 95
+              },
+              "E7": {
+                "value": 50
+              },
+              "F7": {
+                "value": 80
+              },
+              "G7": {
+                "value": "In Stock"
+              },
+              "H7": {
+                "value": "2026-03-12"
+              },
+              "I7": {
+                "value": "Beauty"
+              },
+              "J7": {
+                "value": 8.75
+              },
+              "K7": {
+                "value": 831.25
+              },
+              "L7": {
+                "value": "BioLab Korea"
+              },
+              "M7": {
+                "value": ""
+              },
+              "A8": {
+                "value": "PET-BED-LG"
+              },
+              "B8": {
+                "value": "Large Pet Bed"
+              },
+              "C8": {
+                "value": "US-West"
+              },
+              "D8": {
+                "value": 45
+              },
+              "E8": {
+                "value": 80
+              },
+              "F8": {
+                "value": 100
+              },
+              "G8": {
+                "value": "Low"
+              },
+              "H8": {
+                "value": "2026-03-15"
+              },
+              "I8": {
+                "value": "Pet"
+              },
+              "J8": {
+                "value": 15
+              },
+              "K8": {
+                "value": 675
+              },
+              "L8": {
+                "value": "ComfyPet Mfg"
+              },
+              "M8": {
+                "value": ""
+              },
+              "A9": {
+                "value": "PET-BED-LG"
+              },
+              "B9": {
+                "value": "Large Pet Bed"
+              },
+              "C9": {
+                "value": "US-East"
+              },
+              "D9": {
+                "value": 12
+              },
+              "E9": {
+                "value": 80
+              },
+              "F9": {
+                "value": 100
+              },
+              "G9": {
+                "value": "Critical"
+              },
+              "H9": {
+                "value": "2026-03-14"
+              },
+              "I9": {
+                "value": "Pet"
+              },
+              "J9": {
+                "value": 15
+              },
+              "K9": {
+                "value": 180
+              },
+              "L9": {
+                "value": "ComfyPet Mfg"
+              },
+              "M9": {
+                "value": ""
+              },
+              "A10": {
+                "value": "TOOL-DRILL-18V"
+              },
+              "B10": {
+                "value": "18V Cordless Drill"
+              },
+              "C10": {
+                "value": "US-West"
+              },
+              "D10": {
+                "value": 200
+              },
+              "E10": {
+                "value": 40
+              },
+              "F10": {
+                "value": 60
+              },
+              "G10": {
+                "value": "In Stock"
+              },
+              "H10": {
+                "value": "2026-03-20"
+              },
+              "I10": {
+                "value": "Tools"
+              },
+              "J10": {
+                "value": 35
+              },
+              "K10": {
+                "value": 7000
+              },
+              "L10": {
+                "value": "PowerMax Tools"
+              },
+              "M10": {
+                "value": ""
+              },
+              "A11": {
+                "value": "TOOL-DRILL-18V"
+              },
+              "B11": {
+                "value": "18V Cordless Drill"
+              },
+              "C11": {
+                "value": "EU-DE"
+              },
+              "D11": {
+                "value": 88
+              },
+              "E11": {
+                "value": 40
+              },
+              "F11": {
+                "value": 60
+              },
+              "G11": {
+                "value": "In Stock"
+              },
+              "H11": {
+                "value": "2026-03-18"
+              },
+              "I11": {
+                "value": "Tools"
+              },
+              "J11": {
+                "value": 35
+              },
+              "K11": {
+                "value": 3080
+              },
+              "L11": {
+                "value": "PowerMax Tools"
+              },
+              "M11": {
+                "value": ""
+              },
+              "A12": {
+                "value": "DECOR-VASE-CER"
+              },
+              "B12": {
+                "value": "Ceramic Decorative Vase"
+              },
+              "C12": {
+                "value": "US-East"
+              },
+              "D12": {
+                "value": 150
+              },
+              "E12": {
+                "value": 30
+              },
+              "F12": {
+                "value": 50
+              },
+              "G12": {
+                "value": "In Stock"
+              },
+              "H12": {
+                "value": "2026-03-16"
+              },
+              "I12": {
+                "value": "Home"
+              },
+              "J12": {
+                "value": 22
+              },
+              "K12": {
+                "value": 3300
+              },
+              "L12": {
+                "value": "CraftsVN"
+              },
+              "M12": {
+                "value": ""
+              },
+              "A13": {
+                "value": "DECOR-VASE-CER"
+              },
+              "B13": {
+                "value": "Ceramic Decorative Vase"
+              },
+              "C13": {
+                "value": "EU-DE"
+              },
+              "D13": {
+                "value": 0
+              },
+              "E13": {
+                "value": 40
+              },
+              "F13": {
+                "value": 60
+              },
+              "G13": {
+                "value": "Out"
+              },
+              "H13": {
+                "value": "2026-03-25"
+              },
+              "I13": {
+                "value": "Home"
+              },
+              "J13": {
+                "value": 22
+              },
+              "K13": {
+                "value": 0
+              },
+              "L13": {
+                "value": "CraftsVN"
+              },
+              "M13": {
+                "value": "RISK-ACTION: 4.2% breakage rate on ceramic imports causing DECOR-VASE-CER stockout at EU-DE warehouse; packaging inadequate for transatlantic shipping"
+              },
+              "A14": {
+                "value": "PKG-KRAFT-M"
+              },
+              "B14": {
+                "value": "Kraft Mailer Medium"
+              },
+              "C14": {
+                "value": "EU-DE"
+              },
+              "D14": {
+                "value": 3200
+              },
+              "E14": {
+                "value": 1000
+              },
+              "F14": {
+                "value": 1500
+              },
+              "G14": {
+                "value": "In Stock"
+              },
+              "H14": {
+                "value": "2026-03-22"
+              },
+              "I14": {
+                "value": "Packaging"
+              },
+              "J14": {
+                "value": 0.38
+              },
+              "K14": {
+                "value": 1216
+              },
+              "L14": {
+                "value": "EcoPack Ltd"
+              },
+              "M14": {
+                "value": ""
+              },
+              "A15": {
+                "value": "LED-PANEL-40W"
+              },
+              "B15": {
+                "value": "LED Panel 40W"
+              },
+              "C15": {
+                "value": "APAC-SG"
+              },
+              "D15": {
+                "value": 55
+              },
+              "E15": {
+                "value": 30
+              },
+              "F15": {
+                "value": 45
+              },
+              "G15": {
+                "value": "In Stock"
+              },
+              "H15": {
+                "value": "2026-03-19"
+              },
+              "I15": {
+                "value": "Lighting"
+              },
+              "J15": {
+                "value": 12.5
+              },
+              "K15": {
+                "value": 687.5
+              },
+              "L15": {
+                "value": "ShenZhen Optics"
+              },
+              "M15": {
+                "value": ""
+              },
+              "A16": {
+                "value": "TOOL-DRILL-18V"
+              },
+              "B16": {
+                "value": "18V Cordless Drill"
+              },
+              "C16": {
+                "value": "APAC-SG"
+              },
+              "D16": {
+                "value": 30
+              },
+              "E16": {
+                "value": 20
+              },
+              "F16": {
+                "value": 35
+              },
+              "G16": {
+                "value": "In Stock"
+              },
+              "H16": {
+                "value": "2026-03-21"
+              },
+              "I16": {
+                "value": "Tools"
+              },
+              "J16": {
+                "value": 35
+              },
+              "K16": {
+                "value": 1050
+              },
+              "L16": {
+                "value": "PowerMax Tools"
+              },
+              "M16": {
+                "value": ""
+              }
+            }
+          },
+          {
+            "properties": {
+              "title": "Reorder Queue",
+              "sheetId": 1
+            },
+            "cells": {
+              "A1": {
+                "value": "PO Number"
+              },
+              "B1": {
+                "value": "SKU"
+              },
+              "C1": {
+                "value": "Warehouse"
+              },
+              "D1": {
+                "value": "Quantity"
+              },
+              "E1": {
+                "value": "Status"
+              },
+              "F1": {
+                "value": "Notes"
+              },
+              "A2": {
+                "value": "PO-2026-0041"
+              },
+              "B2": {
+                "value": "CAMP-TENT-2P"
+              },
+              "C2": {
+                "value": "US-West"
+              },
+              "D2": {
+                "value": 200
+              },
+              "E2": {
+                "value": "Pending"
+              },
+              "F2": {
+                "value": "Supplier confirmed ETA May 15 [EXPEDITED]"
+              },
+              "A3": {
+                "value": "PO-2026-0042"
+              },
+              "B3": {
+                "value": "PET-BED-LG"
+              },
+              "C3": {
+                "value": "US-East"
+              },
+              "D3": {
+                "value": 150
+              },
+              "E3": {
+                "value": "Pending"
+              },
+              "F3": {
+                "value": "Awaiting supplier quote [EXPEDITED]"
+              },
+              "A4": {
+                "value": "PO-2026-0043"
+              },
+              "B4": {
+                "value": "DECOR-VASE-CER"
+              },
+              "C4": {
+                "value": "EU-DE"
+              },
+              "D4": {
+                "value": 100
+              },
+              "E4": {
+                "value": "Pending"
+              },
+              "F4": {
+                "value": "New supplier under eval [EXPEDITED]"
+              },
+              "A5": {
+                "value": "PO-2026-0044"
+              },
+              "B5": {
+                "value": "PET-BED-LG"
+              },
+              "C5": {
+                "value": "US-West"
+              },
+              "D5": {
+                "value": 80
+              },
+              "E5": {
+                "value": "Pending"
+              },
+              "F5": {
+                "value": "Standard reorder"
+              },
+              "A6": {
+                "value": "PO-2026-0045"
+              },
+              "B6": {
+                "value": "LED-PANEL-40W"
+              },
+              "C6": {
+                "value": "APAC-SG"
+              },
+              "D6": {
+                "value": 50
+              },
+              "E6": {
+                "value": "Approved"
+              },
+              "F6": {
+                "value": "Q3 restock"
+              },
+              "A7": {
+                "value": "PO-2026-0046"
+              },
+              "B7": {
+                "value": "CAMP-TENT-2P"
+              },
+              "C7": {
+                "value": "APAC-SG"
+              },
+              "D7": {
+                "value": 30
+              },
+              "E7": {
+                "value": "Approved"
+              },
+              "F7": {
+                "value": "Regional buffer"
+              },
+              "A8": {
+                "value": "PO-2026-0047"
+              },
+              "B8": {
+                "value": "BEAUTY-SERUM-HA"
+              },
+              "C8": {
+                "value": "US-East"
+              },
+              "D8": {
+                "value": 200
+              },
+              "E8": {
+                "value": "Approved"
+              },
+              "F8": {
+                "value": "Seasonal prep"
+              }
+            }
+          },
+          {
+            "properties": {
+              "title": "Risk Mitigation",
+              "sheetId": 2
+            },
+            "cells": {
+              "A1": {
+                "value": "Risk Level"
+              },
+              "B1": {
+                "value": "SKU"
+              },
+              "C1": {
+                "value": "Warehouse"
+              },
+              "D1": {
+                "value": "Issue Summary"
+              },
+              "E1": {
+                "value": "Current Stock Status"
+              },
+              "F1": {
+                "value": "Mitigation Action"
+              },
+              "A2": {
+                "value": "HIGH"
+              },
+              "B2": {
+                "value": "CAMP-TENT-2P"
+              },
+              "C2": {
+                "value": "US-West"
+              },
+              "D2": {
+                "value": "Single-source dependency on Xiamen supplier; stockout with no alternative vendor qualified"
+              },
+              "E2": {
+                "value": "Out (0 units, safety stock 50)"
+              },
+              "F2": {
+                "value": "expedite PO"
+              },
+              "A3": {
+                "value": "HIGH"
+              },
+              "B3": {
+                "value": "DECOR-VASE-CER"
+              },
+              "C3": {
+                "value": "EU-DE"
+              },
+              "D3": {
+                "value": "4.2% breakage rate on ceramic imports causing stockout; packaging inadequate for transatlantic shipping"
+              },
+              "E3": {
+                "value": "Out (0 units, safety stock 40)"
+              },
+              "F3": {
+                "value": "expedite PO"
+              },
+              "A4": {
+                "value": "MEDIUM"
+              },
+              "B4": {
+                "value": "LED-PANEL-40W"
+              },
+              "C4": {
+                "value": "APAC-SG"
+              },
+              "D4": {
+                "value": "Approaching reorder point; lead time from ShenZhen supplier increased to 6 weeks"
+              },
+              "E4": {
+                "value": "In Stock (55 units, safety stock 30)"
+              },
+              "F4": {
+                "value": "transfer from US-East"
+              },
+              "A5": {
+                "value": "MEDIUM"
+              },
+              "B5": {
+                "value": "PET-BED-LG"
+              },
+              "C5": {
+                "value": "US-East"
+              },
+              "D5": {
+                "value": "Critically low at US-East (12 units vs 80 safety stock); demand spike from summer season approaching"
+              },
+              "E5": {
+                "value": "Critical (12 units, safety stock 80)"
+              },
+              "F5": {
+                "value": "expedite PO"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "presentations": {
+      "pres-sourcing-review-303": {
+        "properties": {
+          "title": "Q2 Sourcing Review"
+        },
+        "slides": [
+          {
+            "slideId": "slide-title",
+            "title": "Q2 Sourcing Review",
+            "elements": [
+              {
+                "type": "title",
+                "text": "Q2 Sourcing Review"
+              },
+              {
+                "type": "subtitle",
+                "text": "Cross-Border Supply Chain Risk Assessment & Cost Optimization"
+              }
+            ]
+          },
+          {
+            "slideId": "slide-exec-summary",
+            "title": "Executive Summary",
+            "elements": [
+              {
+                "type": "title",
+                "text": "Executive Summary"
+              },
+              {
+                "type": "body",
+                "text": "This quarter's sourcing review identified critical supply chain risks across our cross-border warehouses. Two HIGH-risk stockout situations require immediate action, two MEDIUM-risk items need monitoring, and one cost optimization win has been secured on packaging."
+              }
+            ]
+          },
+          {
+            "slideId": "slide-risk-assessment",
+            "title": "Supply Chain Risk Assessment",
+            "elements": [
+              {
+                "type": "title",
+                "text": "Supply Chain Risk Assessment"
+              },
+              {
+                "type": "body",
+                "text": "Risk Items Identified:\n\n1. HIGH — Single-source dependency on Xiamen supplier; CAMP-TENT-2P stockout at US-West warehouse with no alternative vendor qualified\n\n2. HIGH — 4.2% breakage rate on ceramic imports causing DECOR-VASE-CER stockout at EU-DE warehouse; packaging inadequate for transatlantic shipping\n\n3. MEDIUM — PET-BED-LG critically low at US-East (12 units vs 80 safety stock); demand spike from summer season approaching\n\n4. MEDIUM — LED-PANEL-40W at APAC-SG approaching reorder point; lead time from ShenZhen supplier has increased to 6 weeks"
+              }
+            ]
+          },
+          {
+            "slideId": "slide-cost-optimization",
+            "title": "Cost Optimization Wins",
+            "elements": [
+              {
+                "type": "title",
+                "text": "Cost Optimization Wins"
+              },
+              {
+                "type": "body",
+                "text": "Packaging Cost Reduction:\n\nSKU PKG-KRAFT-M (Kraft Mailer Medium): Renegotiated with EcoPack Ltd for thinner kraft board. Savings of $0.04/box (from $0.38 to $0.34 per unit). At current US-West volume of 8,500 units, this represents $340 immediate savings. Apply new pricing to US-West warehouse stock immediately; EU-DE pricing under separate negotiation."
+              }
+            ]
+          },
+          {
+            "slideId": "slide-next-steps",
+            "title": "Next Steps",
+            "elements": [
+              {
+                "type": "title",
+                "text": "Next Steps"
+              },
+              {
+                "type": "body",
+                "text": "1. Mark HIGH-risk items in inventory tracker for immediate action\n2. Expedite pending POs for stockout SKUs\n3. Apply negotiated packaging cost to US-West warehouse\n4. Begin dual-source qualification for CAMP-TENT-2P\n5. Review ceramic packaging standards for EU-DE shipments"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLI Reference - Notion CLI Mock</title>
+  <link rel="stylesheet" href="css/docs.css">
+</head>
+<body>
+
+<!-- ========== Navbar ========== -->
+<nav class="navbar">
+  <button class="hamburger" aria-label="Menu">&#9776;</button>
+  <a href="#" class="navbar-brand">
+    <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="#fff" stroke-width="2"/><path d="M7 8h10M7 12h6M7 16h8" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>
+    Notion CLI Mock
+  </a>
+  <div class="navbar-links">
+    <a href="#">Docs</a>
+    <a href="#">Admin Panel</a>
+  </div>
+</nav>
+
+<!-- ========== Mobile Overlay ========== -->
+<div class="sidebar-overlay"></div>
+
+<!-- ========== Sidebar ========== -->
+<aside class="sidebar">
+  <div class="sidebar-search">
+    <input type="text" placeholder="Filter commands...">
+  </div>
+
+  <!-- Global -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Overview <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#global-flags">Global Flags</a>
+      <a href="#env-variables">Environment Variables</a>
+    </div>
+  </div>
+
+  <!-- Authentication -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Authentication <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#login">login</a>
+      <a href="#logout">logout</a>
+    </div>
+  </div>
+
+  <!-- Workers -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Workers <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#workers-new">workers new</a>
+      <a href="#workers-deploy">workers deploy</a>
+      <a href="#workers-list">workers list</a>
+      <a href="#workers-get">workers get</a>
+      <a href="#workers-create">workers create</a>
+      <a href="#workers-delete">workers delete</a>
+      <a href="#workers-exec">workers exec</a>
+      <a href="#workers-capabilities-list">workers capabilities list</a>
+      <a href="#workers-tui">workers tui</a>
+    </div>
+  </div>
+
+  <!-- Workers Sync -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Workers Sync <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#workers-sync-status">workers sync status</a>
+      <a href="#workers-sync-trigger">workers sync trigger</a>
+      <a href="#workers-sync-pause">workers sync pause</a>
+      <a href="#workers-sync-resume">workers sync resume</a>
+      <a href="#workers-sync-state-get">workers sync state get</a>
+      <a href="#workers-sync-state-reset">workers sync state reset</a>
+    </div>
+  </div>
+
+  <!-- Workers Env -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Workers Env <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#workers-env-set">workers env set</a>
+      <a href="#workers-env-list">workers env list</a>
+      <a href="#workers-env-unset">workers env unset</a>
+      <a href="#workers-env-pull">workers env pull</a>
+      <a href="#workers-env-push">workers env push</a>
+    </div>
+  </div>
+
+  <!-- Workers OAuth -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Workers OAuth <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#workers-oauth-start">workers oauth start</a>
+      <a href="#workers-oauth-token">workers oauth token</a>
+      <a href="#workers-oauth-show-redirect-url">workers oauth show-redirect-url</a>
+    </div>
+  </div>
+
+  <!-- Workers Runs -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Workers Runs <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#workers-runs-list">workers runs list</a>
+      <a href="#workers-runs-logs">workers runs logs</a>
+    </div>
+  </div>
+
+  <!-- Workers Webhooks -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Workers Webhooks <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#workers-webhooks-list">workers webhooks list</a>
+    </div>
+  </div>
+
+  <!-- API -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">API <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#api">api (path)</a>
+      <a href="#api-ls">api ls</a>
+    </div>
+  </div>
+
+  <!-- Datasources -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Datasources <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#datasources-query">datasources query</a>
+      <a href="#datasources-resolve">datasources resolve</a>
+    </div>
+  </div>
+
+  <!-- Pages -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Pages <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#pages-trash">pages trash</a>
+      <a href="#pages-get">pages get</a>
+      <a href="#pages-create">pages create</a>
+      <a href="#pages-update">pages update</a>
+    </div>
+  </div>
+
+  <!-- Files -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Files <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#files-create">files create</a>
+      <a href="#files-get">files get</a>
+      <a href="#files-list">files list</a>
+    </div>
+  </div>
+
+  <!-- Utility -->
+  <div class="sidebar-group">
+    <div class="sidebar-group-header">Utility <span class="chevron">&#9662;</span></div>
+    <div class="sidebar-group-items">
+      <a href="#doctor">doctor</a>
+      <a href="#update">update</a>
+    </div>
+  </div>
+</aside>
+
+<!-- ========== Main Content ========== -->
+<main class="main-content">
+<div class="content-inner">
+
+  <h1 class="page-title">CLI Reference</h1>
+  <p class="page-subtitle">Complete reference for every command, flag, and option available in the Notion CLI (<code>ntn</code>).</p>
+
+  <!-- ==================== Global Flags ==================== -->
+  <section id="global-flags" class="command-section">
+    <h2>Global Flags</h2>
+    <p class="command-description">These flags can be used with any command.</p>
+    <table class="options-table">
+      <thead>
+        <tr><th>Flag</th><th>Description</th><th>Default</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>-v, --verbose</code></td><td>Enable verbose output for debugging</td><td>false</td></tr>
+        <tr><td><code>--workers-config-file</code></td><td>Path to the workers configuration file</td><td><code>./notion-workers.toml</code></td></tr>
+        <tr><td><code>-V, --version</code></td><td>Print the CLI version</td><td>-</td></tr>
+        <tr><td><code>-h, --help</code></td><td>Print help information for a command</td><td>-</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ==================== Environment Variables ==================== -->
+  <section id="env-variables" class="command-section">
+    <h2>Environment Variables</h2>
+    <p class="command-description">Environment variables that configure CLI behaviour. These take precedence over config files.</p>
+    <table class="options-table">
+      <thead>
+        <tr><th>Variable</th><th>Description</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>NOTION_API_TOKEN</code></td><td>API token used for authentication instead of the token stored in the keyring.</td></tr>
+        <tr><td><code>NOTION_KEYRING</code></td><td>Override the default keyring backend (<code>system</code>, <code>file</code>, <code>memory</code>).</td></tr>
+        <tr><td><code>NOTION_WORKERS_CONFIG_FILE</code></td><td>Path to the workers configuration file, equivalent to <code>--workers-config-file</code>.</td></tr>
+        <tr><td><code>NOTION_WORKSPACE_ID</code></td><td>Default workspace ID to use when not specified in the command.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== AUTHENTICATION ==================== -->
+
+  <!-- login -->
+  <section id="login" class="command-section">
+    <h2>ntn login</h2>
+    <p class="command-description">Authenticate the CLI with your Notion account. Opens a browser window for the OAuth flow and stores the resulting token in your system keyring.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn login [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--token &lt;token&gt;</code></td><td>Authenticate using an API token directly instead of browser OAuth</td></tr>
+        <tr><td><code>--workspace &lt;id&gt;</code></td><td>Set the default workspace after login</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre># Interactive browser login
+ntn login
+
+# Token-based login
+ntn login --token ntn_v2_abc123...</pre>
+    </div>
+  </section>
+
+  <!-- logout -->
+  <section id="logout" class="command-section">
+    <h2>ntn logout</h2>
+    <p class="command-description">Remove stored authentication credentials from the system keyring.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn logout [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--all</code></td><td>Remove credentials for all workspaces</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn logout
+ntn logout --all</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== WORKERS ==================== -->
+
+  <!-- workers new -->
+  <section id="workers-new" class="command-section">
+    <h2>ntn workers new</h2>
+    <p class="command-description">Scaffold a new worker project. Creates a directory with the config file, source template, and package manifest.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers new &lt;name&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--template &lt;name&gt;</code></td><td>Starter template (<code>basic</code>, <code>sync</code>, <code>webhook</code>)</td></tr>
+        <tr><td><code>--dir &lt;path&gt;</code></td><td>Parent directory (default: current directory)</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers new my-sync-worker --template sync</pre>
+    </div>
+  </section>
+
+  <!-- workers deploy -->
+  <section id="workers-deploy" class="command-section">
+    <h2>ntn workers deploy</h2>
+    <p class="command-description">Build and deploy the current worker project to Notion's infrastructure. Reads the worker configuration from <code>notion-workers.toml</code>.</p>
+    <span class="command-alias">Alias: ntn deploy</span>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers deploy [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--dry-run</code></td><td>Validate and build without deploying</td></tr>
+        <tr><td><code>--env &lt;name&gt;</code></td><td>Deploy to a specific environment (<code>production</code>, <code>staging</code>)</td></tr>
+        <tr><td><code>--message &lt;msg&gt;</code></td><td>Deployment message</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers deploy
+ntn workers deploy --env staging --message "Fix sync timeout"
+ntn deploy --dry-run</pre>
+    </div>
+  </section>
+
+  <!-- workers list -->
+  <section id="workers-list" class="command-section">
+    <h2>ntn workers list</h2>
+    <p class="command-description">List all workers in the current workspace.</p>
+    <span class="command-alias">Alias: ntn workers ls</span>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers list [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+        <tr><td><code>--limit &lt;n&gt;</code></td><td>Maximum number of results</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers list
+ntn workers ls --json</pre>
+    </div>
+  </section>
+
+  <!-- workers get -->
+  <section id="workers-get" class="command-section">
+    <h2>ntn workers get</h2>
+    <p class="command-description">Retrieve details of a specific worker, including its status, last deployment, and configuration.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers get &lt;worker-id&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers get wrk_abc123
+ntn workers get wrk_abc123 --json</pre>
+    </div>
+  </section>
+
+  <!-- workers create -->
+  <section id="workers-create" class="command-section">
+    <h2>ntn workers create</h2>
+    <p class="command-description">Create a new worker registration in the workspace without deploying code. Useful for CI/CD pipelines that deploy separately.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers create &lt;name&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--description &lt;text&gt;</code></td><td>Human-readable description</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers create my-worker --description "Syncs CRM contacts"</pre>
+    </div>
+  </section>
+
+  <!-- workers delete -->
+  <section id="workers-delete" class="command-section">
+    <h2>ntn workers delete</h2>
+    <p class="command-description">Delete a worker and all its associated resources (runs, logs, environment variables). This action is irreversible.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers delete &lt;worker-id&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--force</code></td><td>Skip confirmation prompt</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers delete wrk_abc123
+ntn workers delete wrk_abc123 --force</pre>
+    </div>
+  </section>
+
+  <!-- workers exec -->
+  <section id="workers-exec" class="command-section">
+    <h2>ntn workers exec</h2>
+    <p class="command-description">Execute a worker locally for testing. The worker runs against the live Notion API but does not count as a production run.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers exec [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--input &lt;json&gt;</code></td><td>JSON payload passed to the worker's handler</td></tr>
+        <tr><td><code>--timeout &lt;seconds&gt;</code></td><td>Maximum execution time (default: 30)</td></tr>
+        <tr><td><code>--env-file &lt;path&gt;</code></td><td>Load environment variables from a file</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers exec
+ntn workers exec --input '{"database_id":"db_abc"}' --timeout 60</pre>
+    </div>
+  </section>
+
+  <!-- workers capabilities list -->
+  <section id="workers-capabilities-list" class="command-section">
+    <h2>ntn workers capabilities list</h2>
+    <p class="command-description">List the available worker capabilities (API scopes, triggers, and resource types) for the current workspace plan.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers capabilities list [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers capabilities list
+ntn workers capabilities list --json</pre>
+    </div>
+  </section>
+
+  <!-- workers tui -->
+  <section id="workers-tui" class="command-section">
+    <h2>ntn workers tui</h2>
+    <p class="command-description">Launch the interactive terminal UI for managing workers. Provides a dashboard view of all workers, runs, and logs.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers tui</pre>
+    </div>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers tui</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== WORKERS SYNC ==================== -->
+
+  <!-- workers sync status -->
+  <section id="workers-sync-status" class="command-section">
+    <h2>ntn workers sync status</h2>
+    <p class="command-description">Show the current synchronisation status for the worker, including last sync time, record counts, and error state.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync status [worker-id] [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync status
+ntn workers sync status wrk_abc123 --json</pre>
+    </div>
+  </section>
+
+  <!-- workers sync trigger -->
+  <section id="workers-sync-trigger" class="command-section">
+    <h2>ntn workers sync trigger</h2>
+    <p class="command-description">Manually trigger a synchronisation run for the worker. Useful for testing or forcing an immediate sync outside the schedule.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync trigger [worker-id] [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--full</code></td><td>Perform a full sync instead of incremental</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync trigger
+ntn workers sync trigger wrk_abc123 --full</pre>
+    </div>
+  </section>
+
+  <!-- workers sync pause -->
+  <section id="workers-sync-pause" class="command-section">
+    <h2>ntn workers sync pause</h2>
+    <p class="command-description">Pause scheduled synchronisation for the worker. The worker remains deployed but no automatic syncs will run.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync pause [worker-id]</pre>
+    </div>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync pause
+ntn workers sync pause wrk_abc123</pre>
+    </div>
+  </section>
+
+  <!-- workers sync resume -->
+  <section id="workers-sync-resume" class="command-section">
+    <h2>ntn workers sync resume</h2>
+    <p class="command-description">Resume scheduled synchronisation for a paused worker.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync resume [worker-id]</pre>
+    </div>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync resume
+ntn workers sync resume wrk_abc123</pre>
+    </div>
+  </section>
+
+  <!-- workers sync state get -->
+  <section id="workers-sync-state-get" class="command-section">
+    <h2>ntn workers sync state get</h2>
+    <p class="command-description">Retrieve the persisted sync cursor/state for the worker. The state is a JSON blob used to track incremental sync progress.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync state get [worker-id] [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync state get wrk_abc123 --json</pre>
+    </div>
+  </section>
+
+  <!-- workers sync state reset -->
+  <section id="workers-sync-state-reset" class="command-section">
+    <h2>ntn workers sync state reset</h2>
+    <p class="command-description">Reset the persisted sync state. The next sync will start from scratch as a full sync.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync state reset [worker-id] [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--force</code></td><td>Skip confirmation prompt</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers sync state reset wrk_abc123
+ntn workers sync state reset --force</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== WORKERS ENV ==================== -->
+
+  <!-- workers env set -->
+  <section id="workers-env-set" class="command-section">
+    <h2>ntn workers env set</h2>
+    <p class="command-description">Set an environment variable for the worker. The value is encrypted at rest and injected at runtime.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env set &lt;key&gt; &lt;value&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker (defaults to current project)</td></tr>
+        <tr><td><code>--secret</code></td><td>Mark as a secret (hidden in logs and UI)</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env set API_KEY sk-abc123 --secret
+ntn workers env set DATABASE_URL postgres://localhost/mydb</pre>
+    </div>
+  </section>
+
+  <!-- workers env list -->
+  <section id="workers-env-list" class="command-section">
+    <h2>ntn workers env list</h2>
+    <p class="command-description">List all environment variables configured for the worker. Secret values are redacted.</p>
+    <span class="command-alias">Alias: ntn workers env ls</span>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env list [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env list
+ntn workers env ls --json</pre>
+    </div>
+  </section>
+
+  <!-- workers env unset -->
+  <section id="workers-env-unset" class="command-section">
+    <h2>ntn workers env unset</h2>
+    <p class="command-description">Remove an environment variable from the worker.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env unset &lt;key&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env unset API_KEY</pre>
+    </div>
+  </section>
+
+  <!-- workers env pull -->
+  <section id="workers-env-pull" class="command-section">
+    <h2>ntn workers env pull</h2>
+    <p class="command-description">Download the worker's environment variables to a local <code>.env</code> file. Secret values are included in plaintext.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env pull [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+        <tr><td><code>--file &lt;path&gt;</code></td><td>Output file path (default: <code>.env</code>)</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env pull
+ntn workers env pull --file .env.local</pre>
+    </div>
+  </section>
+
+  <!-- workers env push -->
+  <section id="workers-env-push" class="command-section">
+    <h2>ntn workers env push</h2>
+    <p class="command-description">Upload environment variables from a local <code>.env</code> file to the worker. Existing variables with matching keys are overwritten.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env push [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+        <tr><td><code>--file &lt;path&gt;</code></td><td>Input file path (default: <code>.env</code>)</td></tr>
+        <tr><td><code>--replace</code></td><td>Replace all variables instead of merging</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers env push
+ntn workers env push --file .env.production --replace</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== WORKERS OAUTH ==================== -->
+
+  <!-- workers oauth start -->
+  <section id="workers-oauth-start" class="command-section">
+    <h2>ntn workers oauth start</h2>
+    <p class="command-description">Start the OAuth flow for a third-party integration configured in the worker. Opens a browser for the user to authorize access.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers oauth start &lt;provider&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+        <tr><td><code>--scopes &lt;list&gt;</code></td><td>Comma-separated list of OAuth scopes</td></tr>
+        <tr><td><code>--port &lt;n&gt;</code></td><td>Local callback server port (default: 8400)</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers oauth start github --scopes repo,read:user
+ntn workers oauth start salesforce --worker wrk_abc123</pre>
+    </div>
+  </section>
+
+  <!-- workers oauth token -->
+  <section id="workers-oauth-token" class="command-section">
+    <h2>ntn workers oauth token</h2>
+    <p class="command-description">Retrieve the current OAuth access token for a provider. Automatically refreshes expired tokens.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers oauth token &lt;provider&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+        <tr><td><code>--json</code></td><td>Output full token payload in JSON</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers oauth token github
+ntn workers oauth token salesforce --json</pre>
+    </div>
+  </section>
+
+  <!-- workers oauth show-redirect-url -->
+  <section id="workers-oauth-show-redirect-url" class="command-section">
+    <h2>ntn workers oauth show-redirect-url</h2>
+    <p class="command-description">Print the OAuth redirect URL that must be registered with the third-party provider for the worker.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers oauth show-redirect-url [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers oauth show-redirect-url
+# Output: https://workers.notion.com/oauth/callback/wrk_abc123</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== WORKERS RUNS ==================== -->
+
+  <!-- workers runs list -->
+  <section id="workers-runs-list" class="command-section">
+    <h2>ntn workers runs list</h2>
+    <p class="command-description">List recent execution runs for the worker, including status, duration, and trigger type.</p>
+    <span class="command-alias">Alias: ntn workers runs ls</span>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers runs list [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+        <tr><td><code>--limit &lt;n&gt;</code></td><td>Maximum number of results (default: 20)</td></tr>
+        <tr><td><code>--status &lt;s&gt;</code></td><td>Filter by status (<code>success</code>, <code>failed</code>, <code>running</code>)</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers runs list
+ntn workers runs ls --status failed --limit 5 --json</pre>
+    </div>
+  </section>
+
+  <!-- workers runs logs -->
+  <section id="workers-runs-logs" class="command-section">
+    <h2>ntn workers runs logs</h2>
+    <p class="command-description">Stream or retrieve logs for a specific worker run.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers runs logs &lt;run-id&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+        <tr><td><code>--follow</code></td><td>Stream logs in real time (for running executions)</td></tr>
+        <tr><td><code>--tail &lt;n&gt;</code></td><td>Show last N lines only</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers runs logs run_xyz789
+ntn workers runs logs run_xyz789 --follow
+ntn workers runs logs run_xyz789 --tail 50</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== WORKERS WEBHOOKS ==================== -->
+
+  <!-- workers webhooks list -->
+  <section id="workers-webhooks-list" class="command-section">
+    <h2>ntn workers webhooks list</h2>
+    <p class="command-description">List webhook endpoints configured for the worker, including their URL, events, and active/inactive status.</p>
+    <span class="command-alias">Alias: ntn workers webhooks ls</span>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers webhooks list [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--worker &lt;id&gt;</code></td><td>Target worker</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn workers webhooks list
+ntn workers webhooks ls --json</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== API ==================== -->
+
+  <!-- api -->
+  <section id="api" class="command-section">
+    <h2>ntn api &lt;path&gt;</h2>
+    <p class="command-description">Make an authenticated request to the Notion API. Supports all HTTP methods and automatically handles pagination for list endpoints.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn api &lt;path&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>-X, --method &lt;verb&gt;</code></td><td>HTTP method (<code>GET</code>, <code>POST</code>, <code>PATCH</code>, <code>DELETE</code>)</td></tr>
+        <tr><td><code>-d, --data &lt;json&gt;</code></td><td>Request body (JSON string or <code>@file</code>)</td></tr>
+        <tr><td><code>--paginate</code></td><td>Automatically follow pagination cursors</td></tr>
+        <tr><td><code>-q, --jq &lt;expr&gt;</code></td><td>JQ expression to filter the response</td></tr>
+        <tr><td><code>--raw</code></td><td>Output raw response without formatting</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre># Get current user
+ntn api /v1/users/me
+
+# Query a database
+ntn api /v1/databases/db_abc/query -X POST -d '{"page_size":10}'
+
+# List all pages with jq filter
+ntn api /v1/search -X POST --paginate -q '.results[].id'</pre>
+    </div>
+  </section>
+
+  <!-- api ls -->
+  <section id="api-ls" class="command-section">
+    <h2>ntn api ls</h2>
+    <p class="command-description">List available Notion API endpoints with their methods and descriptions. Useful for discovering API paths without leaving the terminal.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn api ls [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--filter &lt;text&gt;</code></td><td>Filter endpoints by path or description</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn api ls
+ntn api ls --filter database</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== DATASOURCES ==================== -->
+
+  <!-- datasources query -->
+  <section id="datasources-query" class="command-section">
+    <h2>ntn datasources query</h2>
+    <p class="command-description">Query a connected datasource using its native query language or a Notion filter object. Returns results as JSON.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn datasources query &lt;datasource-id&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--query &lt;string&gt;</code></td><td>Query string in the datasource's native format</td></tr>
+        <tr><td><code>--filter &lt;json&gt;</code></td><td>Notion-style filter object (JSON)</td></tr>
+        <tr><td><code>--limit &lt;n&gt;</code></td><td>Maximum records to return</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn datasources query ds_abc --query "SELECT * FROM contacts LIMIT 10"
+ntn datasources query ds_abc --filter '{"property":"status","equals":"active"}' --json</pre>
+    </div>
+  </section>
+
+  <!-- datasources resolve -->
+  <section id="datasources-resolve" class="command-section">
+    <h2>ntn datasources resolve</h2>
+    <p class="command-description">Resolve a datasource reference to its underlying connection details (type, host, database name). Useful for debugging connectivity issues.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn datasources resolve &lt;datasource-id&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn datasources resolve ds_abc
+ntn datasources resolve ds_abc --json</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== PAGES ==================== -->
+
+  <!-- pages trash -->
+  <section id="pages-trash" class="command-section">
+    <h2>ntn pages trash</h2>
+    <p class="command-description">Move a page to the trash. The page can be restored from the trash within 30 days.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn pages trash &lt;page-id&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--force</code></td><td>Skip confirmation prompt</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn pages trash pg_abc123
+ntn pages trash pg_abc123 --force</pre>
+    </div>
+  </section>
+
+  <!-- pages get -->
+  <section id="pages-get" class="command-section">
+    <h2>ntn pages get</h2>
+    <p class="command-description">Retrieve a page's properties and metadata. Optionally include page content (blocks).</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn pages get &lt;page-id&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--include-content</code></td><td>Also fetch the page's block content</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn pages get pg_abc123
+ntn pages get pg_abc123 --include-content --json</pre>
+    </div>
+  </section>
+
+  <!-- pages create -->
+  <section id="pages-create" class="command-section">
+    <h2>ntn pages create</h2>
+    <p class="command-description">Create a new page in a database or as a child of another page.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn pages create [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--parent &lt;id&gt;</code></td><td>Parent page or database ID (required)</td></tr>
+        <tr><td><code>--title &lt;text&gt;</code></td><td>Page title</td></tr>
+        <tr><td><code>--properties &lt;json&gt;</code></td><td>Page properties as JSON</td></tr>
+        <tr><td><code>--content &lt;json&gt;</code></td><td>Block content as JSON array</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn pages create --parent db_abc --title "Meeting Notes"
+ntn pages create --parent pg_abc --title "Sub Page" --content '[{"type":"paragraph","paragraph":{"text":[{"type":"text","text":{"content":"Hello"}}]}}]'</pre>
+    </div>
+  </section>
+
+  <!-- pages update -->
+  <section id="pages-update" class="command-section">
+    <h2>ntn pages update</h2>
+    <p class="command-description">Update a page's properties. Only specified properties are modified; others remain unchanged.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn pages update &lt;page-id&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--title &lt;text&gt;</code></td><td>Update the page title</td></tr>
+        <tr><td><code>--properties &lt;json&gt;</code></td><td>Properties to update as JSON</td></tr>
+        <tr><td><code>--icon &lt;emoji|url&gt;</code></td><td>Set the page icon</td></tr>
+        <tr><td><code>--cover &lt;url&gt;</code></td><td>Set the page cover image URL</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn pages update pg_abc123 --title "Updated Title"
+ntn pages update pg_abc123 --properties '{"Status":{"select":{"name":"Done"}}}'</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== FILES ==================== -->
+
+  <!-- files create -->
+  <section id="files-create" class="command-section">
+    <h2>ntn files create</h2>
+    <p class="command-description">Upload a file to the Notion workspace. Returns the file object with a download URL.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn files create &lt;file-path&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--name &lt;name&gt;</code></td><td>Override the file name</td></tr>
+        <tr><td><code>--content-type &lt;mime&gt;</code></td><td>Override the MIME type</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn files create ./report.pdf
+ntn files create ./logo.png --name "company-logo.png" --json</pre>
+    </div>
+  </section>
+
+  <!-- files get -->
+  <section id="files-get" class="command-section">
+    <h2>ntn files get</h2>
+    <p class="command-description">Retrieve metadata for a file, including its download URL, size, and MIME type.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn files get &lt;file-id&gt; [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--download</code></td><td>Download the file to the current directory</td></tr>
+        <tr><td><code>--output &lt;path&gt;</code></td><td>Download to a specific path</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn files get file_abc123 --json
+ntn files get file_abc123 --download --output ./downloads/</pre>
+    </div>
+  </section>
+
+  <!-- files list -->
+  <section id="files-list" class="command-section">
+    <h2>ntn files list</h2>
+    <p class="command-description">List files in the workspace, optionally filtered by page or database.</p>
+    <span class="command-alias">Alias: ntn files ls</span>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn files list [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--parent &lt;id&gt;</code></td><td>Filter by parent page or database</td></tr>
+        <tr><td><code>--limit &lt;n&gt;</code></td><td>Maximum number of results</td></tr>
+        <tr><td><code>--json</code></td><td>Output in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn files list
+ntn files ls --parent pg_abc123 --limit 50 --json</pre>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ==================== UTILITY ==================== -->
+
+  <!-- doctor -->
+  <section id="doctor" class="command-section">
+    <h2>ntn doctor</h2>
+    <p class="command-description">Run diagnostic checks on the CLI installation and configuration. Verifies authentication, API connectivity, workspace access, and worker config validity.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn doctor [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--json</code></td><td>Output results in JSON format</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn doctor</pre>
+    </div>
+  </section>
+
+  <!-- update -->
+  <section id="update" class="command-section">
+    <h2>ntn update</h2>
+    <p class="command-description">Update the Notion CLI to the latest version. Downloads and replaces the current binary.</p>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn update [flags]</pre>
+    </div>
+    <h3>Options</h3>
+    <table class="options-table">
+      <thead><tr><th>Flag</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>--check</code></td><td>Check for updates without installing</td></tr>
+        <tr><td><code>--force</code></td><td>Force update even if already on the latest version</td></tr>
+      </tbody>
+    </table>
+    <h3>Example</h3>
+    <div class="code-block">
+      <button class="copy-btn">Copy</button>
+      <pre>ntn update
+ntn update --check
+ntn update --force</pre>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<script src="js/docs.js"></script>
+</body>
+</html>

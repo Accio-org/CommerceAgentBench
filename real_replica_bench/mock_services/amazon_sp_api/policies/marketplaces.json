@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "description": "Marketplace metadata for Amazon SP-API mock (Wave 0 seed set). Field names match Sellers v1 Marketplace schema (camelCase).",
+  "marketplaces": [
+    {
+      "id": "ATVPDKIKX0DER",
+      "name": "Amazon.com",
+      "countryCode": "US",
+      "defaultCurrencyCode": "USD",
+      "defaultLanguageCode": "en_US",
+      "domainName": "www.amazon.com",
+      "region": "NA"
+    },
+    {
+      "id": "A1PA6795UKMFR9",
+      "name": "Amazon.de",
+      "countryCode": "DE",
+      "defaultCurrencyCode": "EUR",
+      "defaultLanguageCode": "de_DE",
+      "domainName": "www.amazon.de",
+      "region": "EU"
+    },
+    {
+      "id": "A1F83G8C2ARO7P",
+      "name": "Amazon.co.uk",
+      "countryCode": "GB",
+      "defaultCurrencyCode": "GBP",
+      "defaultLanguageCode": "en_GB",
+      "domainName": "www.amazon.co.uk",
+      "region": "EU"
+    },
+    {
+      "id": "A13V1IB3VIYZZH",
+      "name": "Amazon.fr",
+      "countryCode": "FR",
+      "defaultCurrencyCode": "EUR",
+      "defaultLanguageCode": "fr_FR",
+      "domainName": "www.amazon.fr",
+      "region": "EU"
+    },
+    {
+      "id": "APJ6JRA9NG5V4",
+      "name": "Amazon.it",
+      "countryCode": "IT",
+      "defaultCurrencyCode": "EUR",
+      "defaultLanguageCode": "it_IT",
+      "domainName": "www.amazon.it",
+      "region": "EU"
+    },
+    {
+      "id": "A1RKKUPIHCS9HS",
+      "name": "Amazon.es",
+      "countryCode": "ES",
+      "defaultCurrencyCode": "EUR",
+      "defaultLanguageCode": "es_ES",
+      "domainName": "www.amazon.es",
+      "region": "EU"
+    },
+    {
+      "id": "A2EUQ1WTGCTBG2",
+      "name": "Amazon.ca",
+      "countryCode": "CA",
+      "defaultCurrencyCode": "CAD",
+      "defaultLanguageCode": "en_CA",
+      "domainName": "www.amazon.ca",
+      "region": "NA"
+    },
+    {
+      "id": "A1VC38T7YXB528",
+      "name": "Amazon.co.jp",
+      "countryCode": "JP",
+      "defaultCurrencyCode": "JPY",
+      "defaultLanguageCode": "ja_JP",
+      "domainName": "www.amazon.co.jp",
+      "region": "FE"
+    }
+  ]
+}

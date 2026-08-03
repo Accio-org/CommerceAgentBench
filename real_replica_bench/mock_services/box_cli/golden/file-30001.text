@@ -1,0 +1,44 @@
+Type: file
+ID: '30001'
+Name: Q2-Budget-Report.xlsx
+Description: Quarterly budget report
+Size: 245760
+SHA1: a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2
+ETag: '1'
+Parent:
+    Type: folder
+    ID: '20001'
+    Name: Project Alpha
+Created At: '2026-04-10T09:30:00Z'
+Modified At: '2026-05-20T14:00:00Z'
+Content Created At: '2026-04-10T09:30:00Z'
+Content Modified At: '2026-05-20T14:00:00Z'
+Created By:
+    Type: user
+    ID: '10002'
+    Name: Alice Chen
+    Login: alice@boxmock.example.com
+Modified By:
+    Type: user
+    ID: '10002'
+    Name: Alice Chen
+    Login: alice@boxmock.example.com
+Owned By:
+    Type: user
+    ID: '10002'
+    Name: Alice Chen
+    Login: alice@boxmock.example.com
+Item Status: active
+Path Collection:
+    Total Count: 2
+    Entries:
+        -
+            Type: folder
+            ID: '0'
+            Name: All Files
+        -
+            Type: folder
+            ID: '20001'
+            Name: Project Alpha
+Shared Link: null
+Tags: []

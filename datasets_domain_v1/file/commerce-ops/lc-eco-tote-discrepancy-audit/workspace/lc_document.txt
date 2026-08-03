@@ -1,0 +1,124 @@
+============================================================
+SWIFT MT700 — ISSUANCE OF DOCUMENTARY CREDIT
+(transcribed from issuing bank teleprinter, sequence retained)
+============================================================
+
+:27:    Sequence of Total
+        1/1
+
+:40A:   Form of Documentary Credit
+        IRREVOCABLE
+
+:20:    Documentary Credit Number
+        BOA-DC-2026031045
+
+:31C:   Date of Issue
+        2026-02-15
+
+:40E:   Applicable Rules
+        UCP LATEST VERSION
+
+:31D:   Date and Place of Expiry
+        2026-04-15 HANGZHOU, CHINA
+
+:50:    Applicant
+        ACME DISTRIBUTION LLC
+        2200 WACKER DRIVE, SUITE 800
+        CHICAGO, IL 60606, USA
+
+:59:    Beneficiary
+        HANGZHOU GREEN BAG CO., LTD.
+        NO. 188 BINJIANG ROAD
+        HANGZHOU, ZHEJIANG 310053, CHINA
+
+:32B:   Currency Code, Amount
+        USD 95,000.00
+
+:39A:   Percentage Credit Amount Tolerance
+        0/0
+
+:41D:   Available With ... By ...
+        BANK OF CHINA HANGZHOU BRANCH
+        BY NEGOTIATION
+
+:42C:   Drafts at ...
+        SIGHT FOR 100 PCT OF INVOICE VALUE
+
+:42A:   Drawee
+        BANK OF AMERICA, CHICAGO BRANCH
+
+:43P:   Partial Shipments
+        NOT ALLOWED
+
+:43T:   Transhipment
+        ALLOWED
+
+:44A:   Place of Taking in Charge / Dispatch from / Place of Receipt
+        HANGZHOU, CHINA
+
+:44E:   Port of Loading / Airport of Departure
+        SHANGHAI, CHINA
+
+:44F:   Port of Discharge / Airport of Destination
+        LONG BEACH, USA
+
+:44B:   Place of Final Destination / Place of Delivery
+        CHICAGO, IL, USA
+
+:44C:   Latest Date of Shipment
+        2026-03-10
+
+:45A:   Description of Goods and/or Services
+        50,000 PCS ECO-FRIENDLY COTTON CANVAS TOTE BAGS, 12OZ
+        SIZE: 38 X 42 X 10 CM
+        CUSTOMER PRINTED LOGO PER BUYER ARTWORK SPEC HGB-2026-01
+        CIF LONG BEACH, USA
+        HS CODE: 4202.92
+
+:46A:   Documents Required
+        + SIGNED COMMERCIAL INVOICE IN TRIPLICATE
+        + FULL SET 3/3 CLEAN ON-BOARD OCEAN BILL OF LADING
+          MARKED "FREIGHT PREPAID" CONSIGNED TO ORDER OF
+          BANK OF AMERICA, CHICAGO BRANCH, NOTIFY APPLICANT
+        + PACKING LIST IN DUPLICATE SHOWING NUMBER OF CARTONS,
+          GROSS AND NET WEIGHT
+        + CERTIFICATE OF ORIGIN ISSUED BY CHINA COUNCIL FOR THE
+          PROMOTION OF INTERNATIONAL TRADE (CCPIT) IN ORIGINAL
+          PLUS ONE COPY
+        + INSURANCE POLICY OR CERTIFICATE IN ORIGINAL PLUS ONE
+          COPY FOR 110 PCT OF CIF VALUE COVERING INSTITUTE CARGO
+          CLAUSES (A), INSTITUTE WAR CLAUSES, INSTITUTE STRIKES
+          CLAUSES, CLAIMS PAYABLE AT DESTINATION IN USD
+        + INSPECTION CERTIFICATE COVERING QUANTITY AND QUALITY
+          OF GOODS, ISSUED BY SGS OR EQUIVALENT INDEPENDENT
+          SURVEYOR, IN ORIGINAL PLUS ONE COPY
+
+:47A:   Additional Conditions
+        + ALL DOCUMENTS MUST INDICATE THIS LC NUMBER
+        + GOODS DESCRIPTION ON COMMERCIAL INVOICE MUST CORRESPOND
+          WITH LC DESCRIPTION; OTHER DOCUMENTS MAY USE GENERIC
+          TERMS PROVIDED THEY DO NOT CONFLICT WITH THE LC
+        + BILLS OF LADING MUST EVIDENCE "SHIPPED ON BOARD"
+          NOTATION INCLUDING THE ON-BOARD DATE
+        + THIRD-PARTY DOCUMENTS ACCEPTABLE EXCEPT COMMERCIAL
+          INVOICE WHICH MUST BE ISSUED BY BENEFICIARY
+
+:48:    Period for Presentation
+        WITHIN 21 DAYS AFTER THE DATE OF SHIPMENT BUT WITHIN
+        THE VALIDITY OF THIS CREDIT
+
+:49:    Confirmation Instructions
+        WITHOUT
+
+:71B:   Charges
+        ALL BANK CHARGES OUTSIDE USA ARE FOR ACCOUNT OF
+        BENEFICIARY
+
+:78:    Instructions to the Paying / Negotiating Bank
+        UPON RECEIPT OF DOCUMENTS IN COMPLIANCE WITH LC TERMS,
+        REIMBURSE YOURSELVES IN ACCORDANCE WITH STANDING
+        INSTRUCTIONS WITH OUR CHICAGO BRANCH
+
+============================================================
+End of MT700 issuance.
+============================================================

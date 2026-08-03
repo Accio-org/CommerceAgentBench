@@ -1,0 +1,43 @@
+{
+  "slack_messages": {
+    "@finance-martin|@finance|@cfo-office": [
+      {
+        "message_id": "react_finance_atlas",
+        "sender": "@finance-martin",
+        "channel": "DM",
+        "content": "最新测算：按 USD 2.05/pc、50k MOQ、平台服务费 8%、正常海运，项目毛利率 20.6%。若触发 USD 12,600 空运补货，毛利率降到 16.1%，低于 18% 红线，需要 COO 批准。",
+        "timestamp": "2026-04-22T12:05:00+08:00",
+        "is_read": false,
+        "tags": [
+          "finance"
+        ]
+      }
+    ],
+    "@legal-ethan|@legal|@compliance": [
+      {
+        "message_id": "react_legal_atlas",
+        "sender": "@legal-ethan",
+        "channel": "DM",
+        "content": "REACH 2026 版报告最晚 4/24 中午拿到，否则不能对客户写合规已满足。客户草稿可以写 RoHS completed, REACH pending supplier 2026 report. recycled content declaration must avoid guaranteed percentage until certificate arrives.",
+        "timestamp": "2026-04-22T12:08:00+08:00",
+        "is_read": false,
+        "tags": [
+          "legal"
+        ]
+      }
+    ],
+    "@hr-lily|@qa-staffing|@hr": [
+      {
+        "message_id": "react_hr_atlas",
+        "sender": "@hr-lily",
+        "channel": "DM",
+        "content": "Alice Q 可以 4/25 晚到厂，覆盖 4/26-4/27 小批驻厂 QA，但需要项目经理今天 18:00 前确认差旅预算。",
+        "timestamp": "2026-04-22T12:10:00+08:00",
+        "is_read": false,
+        "tags": [
+          "hr"
+        ]
+      }
+    ]
+  }
+}

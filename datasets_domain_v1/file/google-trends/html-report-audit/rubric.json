@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-google-trends-html-report-audit",
+  "scoring": {
+    "binary": true,
+    "rule": "score=1.0 iff all checks pass; else 0.0"
+  },
+  "checks": [
+    {
+      "id": "setup_gate",
+      "description": "outputs/audit_findings.json exists and parses to a findings list (plumbing — folded per docs/check-granularity R2)",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "findings_count_exact",
+      "description": "findings list has exactly 10 entries (decoys must not be flagged; missing errors fail too)",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::exec-summary",
+      "description": "arithmetic_error in exec-summary: present, correctly typed, located, and correct_value (38) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::drill-brand-ranking",
+      "description": "channel_confusion in drill-brand-ranking: present, correctly typed, located, and correct_value (30.06) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::earbuds-rank",
+      "description": "rank_error in earbuds-rank: present, correctly typed, located, and correct_value (bose quietcomfort earbuds, read from PNG chart) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::drill-regional",
+      "description": "regional_count_error in drill-regional: present, correctly typed, located, and correct_value (41) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::drill-q4-trend",
+      "description": "partial_data_unfiltered in drill-q4-trend: present, correctly typed, located, and correct_value (57.15) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::coffee-snapshot",
+      "description": "arithmetic_error in coffee-snapshot: present, correctly typed, located, and correct_value (12.6) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::speaker-regional",
+      "description": "regional_count_error in speaker-regional: present, correctly typed, located, and correct_value (22) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::vacuum-q4-trend",
+      "description": "partial_data_unfiltered in vacuum-q4-trend: present, correctly typed, located, and correct_value (48.92) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::speaker-channel",
+      "description": "channel_confusion in speaker-channel: present, correctly typed, located, and correct_value (16.67) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "finding_correct::mattress-rank",
+      "description": "rank_error in mattress-rank: present, correctly typed, located, and correct_value (purple mattress, read from PNG chart) — R3a per planted error",
+      "check_type": "deterministic_exact"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "_notes": [
+    "Frozen on :3098 mock 2026-06-02 via /tmp/caseA_walkthrough.mjs CDP run.",
+    "Mock starts with sparse colorSchemes[0]={id,label,background,text,accent}; opening scheme editor + setting buttonSolidBg adds the deepened keys to the saved state, so we assert on the three the brief specifies (background/text/buttonSolidBg).",
+    "Typography path is 'headings' (plural) to match the mock UI label '标题' which binds to typography.headings."
+  ],
+  "checks": [
+    {
+      "id": "save_event_emitted",
+      "kind": "event_present",
+      "type": "ui_save_valid",
+      "min_count": 1
+    },
+    {
+      "id": "draft_persisted_to_saved",
+      "kind": "path_value",
+      "path": "dirty",
+      "expect": {"equals": false}
+    },
+    {
+      "id": "logo_image_uploaded",
+      "kind": "path_value",
+      "path": "saved.themeSettings.logo.image",
+      "expect": {"pattern": "^/media/"}
+    },
+    {
+      "id": "logo_width_correct",
+      "kind": "path_value",
+      "path": "saved.themeSettings.logo.width",
+      "expect": {"equals": 180}
+    },
+    {
+      "id": "favicon_image_uploaded",
+      "kind": "path_value",
+      "path": "saved.themeSettings.favicon.image",
+      "expect": {"pattern": "^/media/"}
+    },
+    {
+      "id": "scheme1_background_correct",
+      "kind": "path_value",
+      "path": "saved.themeSettings.colorSchemes.0.background",
+      "expect": {"equals": "#fff8f3"}
+    },
+    {
+      "id": "scheme1_text_correct",
+      "kind": "path_value",
+      "path": "saved.themeSettings.colorSchemes.0.text",
+      "expect": {"equals": "#2f4a2b"}
+    },
+    {
+      "id": "scheme1_button_solid_bg_correct",
+      "kind": "path_value",
+      "path": "saved.themeSettings.colorSchemes.0.buttonSolidBg",
+      "expect": {"equals": "#ed8a3c"}
+    },
+    {
+      "id": "typography_headings_playfair",
+      "kind": "path_value",
+      "path": "saved.themeSettings.typography.headings",
+      "expect": {"equals": "Playfair Display"}
+    },
+    {
+      "id": "typography_body_inter",
+      "kind": "path_value",
+      "path": "saved.themeSettings.typography.body",
+      "expect": {"equals": "Inter"}
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{"ts": "2026-05-02T10:08:00Z", "event": "order_placed", "order_id": "ORD-77821", "sku": "TRAIL-750-2PK", "qty": 1, "amount": 48.99}
+{"ts": "2026-05-03T14:20:00Z", "event": "warehouse_photo_captured", "photo_id": "outbound_pack_01", "weight_kg": 1.42}
+{"ts": "2026-05-04T09:44:00Z", "event": "carrier_acceptance", "tracking": "1ZRET77821", "weight_kg": 1.4}
+{"ts": "2026-05-06T18:12:00Z", "event": "delivered", "location": "front porch"}
+{"ts": "2026-05-08T08:31:00Z", "event": "customer_return_requested", "reason": "one bottle dented and one cap missing"}
+{"ts": "2026-05-13T16:20:00Z", "event": "return_received", "weight_kg": 0.74}
+{"ts": "2026-05-13T16:42:00Z", "event": "return_photo_captured", "photo_id": "return_contents_01"}
+{"ts": "2026-05-10T11:18:00Z", "event": "order_placed", "order_id": "ORD-88104", "sku": "CERAMIC-MUG", "qty": 2, "amount": 32.0}
+{"ts": "2026-05-11T09:40:00Z", "event": "warehouse_photo_captured", "photo_id": "mug_outbound_pack", "weight_kg": 1.08}
+{"ts": "2026-05-12T16:10:00Z", "event": "carrier_acceptance", "tracking": "1ZMUG88104", "weight_kg": 1.07}
+{"ts": "2026-05-14T18:52:00Z", "event": "delivered", "order_id": "ORD-88104", "location": "mailroom", "exception": "outer carton crushed at delivery photo"}
+{"ts": "2026-05-15T07:15:00Z", "event": "customer_return_requested", "order_id": "ORD-88104", "reason": "mugs arrived broken"}
+{"ts": "2026-05-16T12:30:00Z", "event": "return_received", "order_id": "ORD-88104", "weight_kg": 1.05}
+{"ts": "2026-05-17T13:02:00Z", "event": "order_placed", "order_id": "ORD-99017", "sku": "CLEAN-TAB-12", "qty": 1, "amount": 9.99}
+{"ts": "2026-05-18T10:20:00Z", "event": "warehouse_photo_captured", "photo_id": "tabs_outbound_pack", "weight_kg": 0.18}
+{"ts": "2026-05-19T15:10:00Z", "event": "delivered", "order_id": "ORD-99017", "location": "locker"}
+{"ts": "2026-05-20T08:05:00Z", "event": "customer_return_requested", "order_id": "ORD-99017", "reason": "wrong item received"}
+{"ts": "2026-05-24T11:22:00Z", "event": "return_received", "order_id": "ORD-99017", "weight_kg": 0.18}

@@ -1,0 +1,29 @@
+schema_version = "1.0"
+
+[task]
+id = "file-commerce-ops-marketplace-listing-claim-substantiation"
+name = "Marketplace Listing Claim Substantiation Review"
+language = "en"
+entrypoint = "task.md"
+files_dir = "workspace"
+test = "grader/run.sh"
+rubric = "rubric.json"
+private_dir = "private"
+keywords = ["ecommerce", "marketplace", "listing", "claim_review", "llm_judge", "v2"]
+difficulty = "L4"
+
+[agent]
+timeout_sec = 2400
+max_actions = 60
+
+[verifier]
+type = "script"
+timeout_sec = 240
+
+[environment]
+base_images = ["acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859"]
+requires_vision = true
+requires_browser = false
+requires_network = false
+runtime_boundary = "closed_source_black_box"
+state_policy = "offline_only_local_files"

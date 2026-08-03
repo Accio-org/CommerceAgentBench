@@ -1,0 +1,65 @@
+# RealReplicaBench — OpenClaw harness, Qwen 3.7 Plus via OpenRouter.
+#
+# Simplest route to Qwen 3.7 Plus: no models_config JSON, no DashScope key.
+# Provide OPENROUTER_API_KEY and let the release fork's OpenRouter shim handle
+# reasoning-effort translation.
+#
+#   OPENROUTER_API_KEY=sk-or-... real-replica-bench run <task> \
+#     --config configs/realreplicabench_openclaw_qwen37plus_openrouter.yaml \
+#     --run-id realreplicabench-qwen37plus-or-$(date +%Y%m%d-%H%M%S)
+#
+# WHY THIS WORKS:
+#   * The `openrouter/` prefix is the ONLY prefix that triggers the auto-sidecar
+#     path in real_replica_bench/harnesses/openclaw/runner.py. Everything else
+#     goes to a native provider client (OpenClaw bundles one for `qwen`, `openai`,
+#     `anthropic`, `google`, etc.). With `openrouter/qwen/qwen3.7-plus`, the shim
+#     starts automatically, preserves OpenClaw's native reasoning field or
+#     supplies one when absent, and forwards to https://openrouter.ai/api/v1.
+#   * Model availability, pricing, and rate limits are determined by your
+#     OpenRouter account and should be checked before a full 107-task run.
+#
+# REQUIREMENTS:
+#   * OPENROUTER_API_KEY exported in your shell (used by the shim on outbound
+#     requests to real openrouter.ai). Pass it explicitly with --openclaw-api-key
+#     if you prefer.
+#   * The container must reach openrouter.ai (add HTTPS_PROXY if needed).
+#
+# VISION:
+#   qwen3.7-plus is multimodal. `image_model` set to the same ref makes browser
+#   snapshots / uploaded screenshots / PDF renders go through the same route.
+#   Requires the vision-substring whitelist to include "qwen3.7-plus" (release
+#   fork ≥ 2026-07 already carries it in
+#   real_replica_bench/harnesses/openclaw/runner.py::_OPENCLAW_VISION_MODEL_SUBSTRINGS).
+#
+# The benchmark image is public on Docker Hub:
+#   docker pull acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+
+run_id: realreplicabench-domain-v1-openclaw-qwen37plus-openrouter
+datasets_dir: datasets_domain_v1
+collection: datasets_domain_v1/realreplicabench_domain_v1_all.collection.json
+parallelism: 2
+
+runtime:
+  os: linux
+  image: acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+  platform: linux/amd64
+
+harness: openclaw
+
+openclaw:
+  model: openrouter/qwen/qwen3.7-plus
+  image_model: openrouter/qwen/qwen3.7-plus
+  base_url: https://openrouter.ai/api/v1
+  gateway_port: 18789
+  gateway_ready_delay: 6
+  # Auto-starts the release-fork OpenRouter shim (see runner.py:531 auto-enable
+  # rule). Existing reasoning.effort is preserved; missing effort is supplied
+  # before the outbound /chat/completions request.
+  thinking: medium
+
+judge:
+  provider: gemini
+  model: gemini-3.1-pro-preview
+  timeout: 240
+
+start_index: 1

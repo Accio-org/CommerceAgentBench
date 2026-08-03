@@ -1,0 +1,91 @@
+Call the public Notion API (beta)
+
+Usage: api [OPTIONS] [PATH] [INPUT]...
+       api [OPTIONS] [PATH] [INPUT]... <COMMAND>
+
+Commands:
+  ls    List supported public API endpoints
+  help  Print this message or the help of the given subcommand(s)
+
+Arguments:
+  [PATH]
+          The public Notion API path to call
+
+  [INPUT]...
+          Inline request inputs such as headers, query params, and body fields
+
+Options:
+  -d, --data <JSON>
+          Use the provided JSON string as the request body
+
+  -X, --method <METHOD>
+          Override the inferred HTTP method
+
+      --spec
+          Print a reduced OpenAPI fragment for the selected endpoint
+
+      --docs
+          Print the full official markdown docs for the selected endpoint
+
+      --file <PATH>
+          Read the file contents into a multipart `file` form field
+
+      --notion-version <VERSION>
+          Override the Notion-Version header
+          
+          [env: NOTION_API_VERSION=]
+
+  -h, --help
+          Print help for `ntn api` or for a specific endpoint
+
+Request Body Sources:
+  Use exactly one of these body sources per request:
+  - stdin JSON
+  - `-d, --data <JSON>`
+  - inline body inputs such as `path=value` and `path:=json`
+
+Request Input Syntax:
+  Extra arguments after <PATH> are parsed as inline request inputs.
+
+  Header:Value   Request header                 Accept:application/json
+  name==value    Query parameter                page_size==100
+  path=value     Body string assignment         parent[page_id]=abc123
+  path:=json     Body typed JSON assignment     archived:=true
+
+  Parser precedence:
+  1. path:=json
+  2. name==value
+  3. Header:Value
+  4. path=value
+
+  Body paths support nested objects and arrays:
+  properties[foo]=bar
+  properties[count]:=10
+  children[][paragraph][rich_text][0][text][content]=Hello
+
+  Method selection:
+  - GET by default
+  - POST automatically when stdin JSON, `--data`, or inline body inputs are present
+  - -X/--method always wins
+
+  Notes:
+  - Use := for numbers, booleans, arrays, objects, and null.
+  - Use = to always store a JSON string.
+  - Body JSON must come from exactly one source: stdin, `--data`, or inline body inputs.
+
+  Shell Completion:
+  - PATH completions come from the live or cached OpenAPI spec.
+  - -X/--method only suggests methods supported by the selected path.
+
+Environment Variables:
+  NOTION_API_BASE_URL         Base URL for public API requests (default varies by --env)
+  NOTION_API_DOCS_BASE_URL    Base URL for OpenAPI/docs lookups (default: https://developers.notion.com)
+  NOTION_API_TOKEN            Override the token used for authentication
+  NOTION_API_VERSION          Notion-Version header to send (same as --notion-version)
+  NOTION_ENV                  Environment to target for other CLI commands (same as --env)
+  NOTION_HOME                 Override the CLI state root (`ntn api` cache uses NOTION_HOME/cache)
+  NOTION_KEYRING              Set to 0 to use file-based auth (~/.config/notion/auth.json) instead of OS keychain
+  NOTION_WORKERS_CONFIG_FILE  Path to workers.json config file (same as --workers-config-file)
+  NOTION_WORKSPACE_ID         Workspace ID override used by other CLI commands
+  XDG_CACHE_HOME              XDG base directory for cached OpenAPI specs (fallback)
+  XDG_CONFIG_HOME             XDG base directory for config/auth state (fallback)

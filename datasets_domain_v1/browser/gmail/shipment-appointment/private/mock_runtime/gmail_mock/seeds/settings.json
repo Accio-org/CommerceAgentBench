@@ -1,0 +1,10 @@
+{
+  "density": "comfortable",
+  "readingPane": "right",
+  "conversationView": true,
+  "smartCompose": true,
+  "labelListExpanded": true,
+  "expandedUserLabels": [
+    "label-logistics"
+  ]
+}

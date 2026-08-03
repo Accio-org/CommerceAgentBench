@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-thailand-gadgets-1111-promo-plan",
+  "summary": "Compute 18-row pricing matrix (6 SKUs × 3 platforms), inventory allocation with warehouse-cap overflow and budget-driven removal, and flash sale slot assignment. Checks folded into distinct capability units (docs/check-granularity.md); per-atom validation logic unchanged, emit layer folded.",
+  "category": "ecommerce_pricing_inventory",
+  "state_kind": "offline_only_local_files",
+  "difficulty": "hard",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "All four deliverables exist and are well-formed: pricing_matrix.csv (parseable, 18 data rows, all 6×3 combos no dup, required columns present), inventory_allocation.csv (parseable, 18 rows, required columns present), promotion_plan.json (parseable object), campaign_report.md (non-empty)."
+    },
+    {
+      "id": "source_warehouse_selection_correct",
+      "check_type": "deterministic_exact",
+      "description": "Part 1: optimal warehouse chosen by comparing the two landed-cost formulas for every SKU across all 18 rows (A01/A04 → cn_warehouse; A02/A03/A05/A06 → th_warehouse)."
+    },
+    {
+      "id": "pricing_matrix_correct",
+      "check_type": "deterministic_exact",
+      "description": "Part 2: pricing matrix computation correct across the spot-checked rows (A01/shopee, A02/tiktok, A03/shopee, A04/tiktok, A05/shopee, A05/tiktok, A06/shopee, A06/tiktok): landed_cost, final_regular_price with competitor-ceiling cap, best_promo_tier with floor-price + eligibility logic, best_promo_price, flash_eligible/flash_floor_ok flags."
+    },
+    {
+      "id": "inventory_allocation_correct",
+      "check_type": "deterministic_exact",
+      "description": "Part 3: warehouse-cap overflow split allocations correct — A05/tiktok_th (req=1092, th=521, cn=571) and A02/tiktok_th (req=728, th=276, cn=452) where the optimal warehouse's 70% cap is exhausted and the remainder spills to the other warehouse."
+    },
+    {
+      "id": "budget_removal_correct",
+      "check_type": "deterministic_exact",
+      "description": "Part 4: budget constraint resolved by iteratively removing the lowest effective-promo-margin combos — A01/tiktok_th and A04/tiktok_th skipped (removed_for_budget); total non-skipped allocation cost ≈ 797993.33 (±50) and ≤ 800000; promotion_plan.budget_summary has within_budget=true, active_combo_count=16, both removed combos listed."
+    },
+    {
+      "id": "flash_slot_assignment_correct",
+      "check_type": "deterministic_exact",
+      "description": "Part 5: per-platform flash slot assignment correct under the ≤4-slot cap and post-removal eligibility — shopee_th = {A05,A02,A01,A06}, lazada_th = {A05,A02}, tiktok_th = [] (empty after ceiling caps and budget removal)."
+    },
+    {
+      "id": "promotion_plan_summary_correct",
+      "check_type": "deterministic_exact",
+      "description": "promotion_plan.json summary fields correct: tier_summary (flash_sale_count=8, platform_voucher_count=10, none_count=0) and warnings is an array of at least 2 non-empty strings."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "pricing_matrix.csv",
+      "inventory_allocation.csv",
+      "promotion_plan.json",
+      "campaign_report.md"
+    ]
+  }
+}

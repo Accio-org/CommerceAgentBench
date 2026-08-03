@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Q3 2026 Multi-Category Sourcing Dashboard</title>
+<style>
+  :root { --navy: #14213d; --accent: #e63946; --light: #f8f9fa; --border: #dee2e6; --muted: #6c757d; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, sans-serif; margin: 0; color: #222; line-height: 1.55; background: #fff; }
+  .layout { display: grid; grid-template-columns: 220px 1fr; max-width: 1100px; margin: 0 auto; gap: 24px; padding: 24px; }
+  header.page-header { grid-column: 1 / -1; border-bottom: 3px solid var(--accent); padding-bottom: 12px; }
+  header.page-header h1 { margin: 0; color: var(--navy); font-size: 1.6em; }
+  header.page-header .subtitle { color: var(--muted); font-size: 0.95em; margin-top: 4px; }
+  nav.toc { background: var(--light); padding: 16px; border-radius: 6px; font-size: 0.92em; position: sticky; top: 16px; align-self: start; }
+  nav.toc h3 { margin: 0 0 8px; color: var(--navy); font-size: 1em; }
+  nav.toc ul { list-style: none; padding-left: 0; margin: 0; }
+  nav.toc li { margin: 4px 0; }
+  nav.toc a { color: var(--navy); text-decoration: none; }
+  main { min-width: 0; }
+  section { margin-bottom: 28px; padding: 14px 18px; background: var(--light); border-left: 4px solid var(--navy); border-radius: 0 4px 4px 0; }
+  section h2 { color: var(--navy); margin: 0 0 12px; font-size: 1.2em; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 0.92em; }
+  th, td { border: 1px solid var(--border); padding: 6px 10px; text-align: left; }
+  th { background: var(--navy); color: white; font-weight: 600; }
+  .metric { font-weight: 600; color: var(--accent); }
+  .meta { font-size: 0.85em; color: var(--muted); font-style: italic; }
+  details { margin: 8px 0; background: #fff; border: 1px solid var(--border); border-radius: 4px; padding: 6px 10px; }
+  details summary { cursor: pointer; font-weight: 600; color: var(--navy); padding: 4px 0; }
+  figure { margin: 12px 0; text-align: center; }
+  figure img { max-width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px; }
+  figure figcaption { color: var(--muted); font-size: 0.88em; margin-top: 6px; }
+  .footnote-ref { color: var(--accent); text-decoration: none; font-size: 0.85em; vertical-align: super; }
+  aside.appendix { grid-column: 1 / -1; margin-top: 32px; padding: 20px 24px; border-top: 2px solid var(--navy); background: #fafbfc; font-size: 0.92em; }
+  aside.appendix h2 { color: var(--navy); margin-top: 0; }
+  aside.appendix h3 { color: var(--navy); margin: 16px 0 8px; }
+  .recommendation { background: #fff7e6; border-left-color: #d99500; }
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+<header class="page-header">
+  <h1>Q3 2026 Multi-Category Sourcing Dashboard</h1>
+  <div class="subtitle">Prepared by Analytics Team · Source: Google Trends shopping-channel data (today 12-m, US) with web channel and 2024 baseline as cross-references · v0.7 DRAFT (pre-VP review)</div>
+</header>
+
+<nav class="toc">
+  <h3>Contents</h3>
+  <ul>
+    <li><a href="#exec-summary">Executive Summary</a></li>
+    <li><a href="#drill-brand-ranking">Drill Brand Ranking</a></li>
+    <li><a href="#earbuds-rank">Earbuds Leader (chart)</a></li>
+    <li><a href="#drill-regional">Drill Regional</a></li>
+    <li><a href="#drill-q4-trend">Drill Q4 Trend</a></li>
+    <li><a href="#coffee-snapshot">Coffee Snapshot</a></li>
+    <li><a href="#speaker-regional">Speaker Regional</a></li>
+    <li><a href="#vacuum-q4-trend">Vacuum Q4 Trend</a></li>
+    <li><a href="#speaker-channel">Speaker Channel Compare</a></li>
+    <li><a href="#mattress-rank">Mattress Leader (chart)</a></li>
+    <li><a href="#recommendation">Recommendation</a></li>
+    <li><a href="#appendix">Appendix</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<section id="exec-summary">
+  <h2>Executive Summary</h2>
+  <p>Cross-category snapshot for Q3 2026 sourcing strategy. Headline finding from the drill power-tools category:</p>
+  <ul>
+    <li>Drill category leader: <span class="metric">Milwaukee at 12-month shopping average of 41.2</span></li>
+    <li>Drill category structure: open competition (5 active brands)</li>
+    <li>Cross-category coverage: 6 commerce categories audited (drill, earbuds, coffee, speaker, vacuum, mattress)</li>
+  </ul>
+</section>
+
+<section id="drill-brand-ranking">
+  <h2>Drill Brand Ranking — 12-Month Shopping Average</h2>
+  <p>Computed as the mean <code>extracted_value</code> across all 52 non-partial weeks of the shopping-channel multi-brand timeseries.</p>
+  <details>
+    <summary>Full ranking table (click to expand)</summary>
+    <table>
+      <thead><tr><th>Rank</th><th>Brand</th><th>12-Month Avg (shopping)</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Milwaukee</td><td>38.00</td></tr>
+        <tr><td>2</td><td>Dewalt</td><td><span class="metric">20.02</span></td></tr>
+        <tr><td>3</td><td>Bosch</td><td>26.62</td></tr>
+        <tr><td>4</td><td>Ryobi</td><td>15.10</td></tr>
+        <tr><td>5</td><td>Makita</td><td>7.71</td></tr>
+      </tbody>
+    </table>
+  </details>
+  <p class="meta">Rounded to 2 decimal places.</p>
+</section>
+
+<section id="earbuds-rank">
+  <h2>Cross-Category Reference: Earbuds Leader (Shopping)</h2>
+  <p>For category-volume scale context, the chart below shows 12-month shopping-channel interest for the top 5 earbuds brands:</p>
+  <figure>
+    <img src="charts/earbuds_leaderboard.png" alt="Earbuds 12-month shopping interest by brand">
+    <figcaption>Source: Google Trends shopping channel, today 12-m, US — same data source as drill category above.</figcaption>
+  </figure>
+  <p>Takeaway: in the earbuds category, the top performer is <span class="metric">Sony WF-1000XM5 at 12-month average of 6.98</span>, followed by Bose, JBL, Jabra, and Beats in that order.</p>
+</section>
+
+<section id="drill-regional">
+  <h2>Drill Regional Dominance (Multi-Brand GEO_MAP, REGION level)</h2>
+  <p>Per-state leader analysis on the shopping-channel state-level data:</p>
+  <ul>
+    <li>Milwaukee leads in <span class="metric">32 states</span> <a class="footnote-ref" href="#fn-regional-1">[1]</a></li>
+    <li>Dewalt leads in 6 states</li>
+    <li>Bosch leads in 4 states</li>
+  </ul>
+  <p class="meta">
+    <strong id="fn-regional-1">[1]</strong> Counts derived from <a href="#appendix-a3">Appendix A.3</a>; ties broken by manifest order (dewalt, milwaukee, makita, ryobi, bosch).
+  </p>
+</section>
+
+<section id="drill-q4-trend">
+  <h2>Drill Q4 (Last 13 Weeks) — Milwaukee Trend</h2>
+  <p>Milwaukee's Q4 average (last 13 weekly entries): <span class="metric">62.0</span>. Strong surge driven by spring tool-buying season.</p>
+  <p class="meta">Methodology: arithmetic mean across the last 13 weekly entries. Raw data embedded below.</p>
+  <details>
+    <summary>Show embedded raw data (JSON, machine-readable)</summary>
+    <script type="application/json" id="drill-q4-raw">
+{
+  "category": "drill",
+  "channel": "shopping",
+  "brand_of_interest": "milwaukee",
+  "note": "Last 14 weekly entries of drill multi-brand shopping timeseries.",
+  "weeks": [
+    {
+      "date": "Feb 15 – 21, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 23,
+        "milwaukee": 31,
+        "makita": 5,
+        "ryobi": 9,
+        "bosch": 11
+      }
+    },
+    {
+      "date": "Feb 22 – 28, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 21,
+        "milwaukee": 31,
+        "makita": 6,
+        "ryobi": 9,
+        "bosch": 10
+      }
+    },
+    {
+      "date": "Mar 1 – 7, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 23,
+        "milwaukee": 29,
+        "makita": 6,
+        "ryobi": 10,
+        "bosch": 10
+      }
+    },
+    {
+      "date": "Mar 8 – 14, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 25,
+        "milwaukee": 30,
+        "makita": 6,
+        "ryobi": 12,
+        "bosch": 9
+      }
+    },
+    {
+      "date": "Mar 15 – 21, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 26,
+        "milwaukee": 33,
+        "makita": 6,
+        "ryobi": 13,
+        "bosch": 13
+      }
+    },
+    {
+      "date": "Mar 22 – 28, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 33,
+        "milwaukee": 39,
+        "makita": 8,
+        "ryobi": 18,
+        "bosch": 20
+      }
+    },
+    {
+      "date": "Mar 29 – Apr 4, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 74,
+        "milwaukee": 77,
+        "makita": 16,
+        "ryobi": 36,
+        "bosch": 66
+      }
+    },
+    {
+      "date": "Apr 5 – 11, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 96,
+        "milwaukee": 99,
+        "makita": 23,
+        "ryobi": 50,
+        "bosch": 85
+      }
+    },
+    {
+      "date": "Apr 12 – 18, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 87,
+        "milwaukee": 100,
+        "makita": 21,
+        "ryobi": 52,
+        "bosch": 95
+      }
+    },
+    {
+      "date": "Apr 19 – 25, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 74,
+        "milwaukee": 83,
+        "makita": 18,
+        "ryobi": 42,
+        "bosch": 67
+      }
+    },
+    {
+      "date": "Apr 26 – May 2, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 58,
+        "milwaukee": 62,
+        "makita": 15,
+        "ryobi": 29,
+        "bosch": 46
+      }
+    },
+    {
+      "date": "May 3 – 9, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 48,
+        "milwaukee": 48,
+        "makita": 10,
+        "ryobi": 25,
+        "bosch": 33
+      }
+    },
+    {
+      "date": "May 10 – 16, 2026",
+      "partial_data": false,
+      "values": {
+        "dewalt": 73,
+        "milwaukee": 81,
+        "makita": 17,
+        "ryobi": 40,
+        "bosch": 67
+      }
+    },
+    {
+      "date": "May 17 – 23, 2026",
+      "partial_data": true,
+      "values": {
+        "dewalt": 83,
+        "milwaukee": 94,
+        "makita": 22,
+        "ryobi": 47,
+        "bosch": 87
+      }
+    }
+  ]
+}
+    </script>
+  </details>
+</section>
+
+<section id="coffee-snapshot">
+  <h2>Coffee Category Snapshot — Top Brands</h2>
+  <p>Coffee category 12-month shopping leader board:</p>
+  <table>
+    <thead><tr><th>Rank</th><th>Brand</th><th>12-Month Avg (shopping)</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Breville</td><td>8.50</td></tr>
+      <tr><td>2</td><td>Nespresso</td><td>2.10</td></tr>
+      <tr><td>3</td><td>Keurig</td><td>1.75</td></tr>
+      <tr><td>4</td><td>Ninja Coffee</td><td>1.35</td></tr>
+      <tr><td>5</td><td>Cuisinart Coffee</td><td>0.73</td></tr>
+    </tbody>
+  </table>
+  <p>Note: <span class="metric">Nespresso is the clear runner-up at 2.10</span> — close enough to the leader to warrant monitoring.</p>
+</section>
+
+<section id="speaker-regional">
+  <h2>Speaker Regional Dominance — Multi-Brand GEO_MAP</h2>
+  <p>Per-state leader analysis for the speaker category:</p>
+  <ul>
+    <li>Echo Dot leads in <span class="metric">30 states</span> <a class="footnote-ref" href="#appendix-a4">[A.4]</a></li>
+    <li>Bose SoundLink leads in 13 states</li>
+    <li>Sonos Era leads in 8 states</li>
+  </ul>
+  <p class="meta">Source: <code>geomap_speaker.json</code> → <code>compared_breakdown_by_region</code>. See Appendix A.4 for full state-by-state breakdown.</p>
+</section>
+
+<section id="vacuum-q4-trend">
+  <h2>Vacuum Q4 — Dyson Trend</h2>
+  <p>Dyson's Q4 vacuum average (last 13 weekly entries): <span class="metric">50.93</span>. The category remains Dyson-dominated.</p>
+  <p class="meta">Methodology: arithmetic mean across the last 13 weekly entries. Raw data embedded below.</p>
+  <details>
+    <summary>Show embedded raw data (JSON, machine-readable)</summary>
+    <script type="application/json" id="vacuum-q4-raw">
+{
+  "category": "vacuum",
+  "channel": "shopping",
+  "brand_of_interest": "dyson",
+  "note": "Last 14 weekly entries of vacuum multi-brand shopping timeseries.",
+  "weeks": [
+    {
+      "date": "Feb 15 – 21, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 3,
+        "shark navigator": 0,
+        "bissell": 2,
+        "hoover": 1,
+        "eureka": 0
+      }
+    },
+    {
+      "date": "Feb 22 – 28, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 3,
+        "shark navigator": 0,
+        "bissell": 2,
+        "hoover": 1,
+        "eureka": 1
+      }
+    },
+    {
+      "date": "Mar 1 – 7, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 3,
+        "shark navigator": 0,
+        "bissell": 2,
+        "hoover": 1,
+        "eureka": 0
+      }
+    },
+    {
+      "date": "Mar 8 – 14, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 2,
+        "shark navigator": 0,
+        "bissell": 2,
+        "hoover": 1,
+        "eureka": 0
+      }
+    },
+    {
+      "date": "Mar 15 – 21, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 10,
+        "shark navigator": 0,
+        "bissell": 8,
+        "hoover": 1,
+        "eureka": 1
+      }
+    },
+    {
+      "date": "Mar 22 – 28, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 36,
+        "shark navigator": 1,
+        "bissell": 34,
+        "hoover": 1,
+        "eureka": 1
+      }
+    },
+    {
+      "date": "Mar 29 – Apr 4, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 69,
+        "shark navigator": 1,
+        "bissell": 61,
+        "hoover": 2,
+        "eureka": 2
+      }
+    },
+    {
+      "date": "Apr 5 – 11, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 82,
+        "shark navigator": 2,
+        "bissell": 72,
+        "hoover": 3,
+        "eureka": 2
+      }
+    },
+    {
+      "date": "Apr 12 – 18, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 91,
+        "shark navigator": 2,
+        "bissell": 80,
+        "hoover": 3,
+        "eureka": 2
+      }
+    },
+    {
+      "date": "Apr 19 – 25, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 80,
+        "shark navigator": 1,
+        "bissell": 74,
+        "hoover": 2,
+        "eureka": 2
+      }
+    },
+    {
+      "date": "Apr 26 – May 2, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 75,
+        "shark navigator": 2,
+        "bissell": 69,
+        "hoover": 2,
+        "eureka": 1
+      }
+    },
+    {
+      "date": "May 3 – 9, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 82,
+        "shark navigator": 1,
+        "bissell": 81,
+        "hoover": 1,
+        "eureka": 1
+      }
+    },
+    {
+      "date": "May 10 – 16, 2026",
+      "partial_data": false,
+      "values": {
+        "dyson": 100,
+        "shark navigator": 1,
+        "bissell": 94,
+        "hoover": 2,
+        "eureka": 1
+      }
+    },
+    {
+      "date": "May 17 – 23, 2026",
+      "partial_data": true,
+      "values": {
+        "dyson": 77,
+        "shark navigator": 1,
+        "bissell": 69,
+        "hoover": 2,
+        "eureka": 2
+      }
+    }
+  ]
+}
+    </script>
+  </details>
+</section>
+
+<section id="speaker-channel">
+  <h2>Speaker — Shopping vs Web Channel Comparison</h2>
+  <p>Echo Dot 12-month performance, separated by channel:</p>
+  <table>
+    <thead><tr><th>Channel</th><th>Echo Dot 12-mo Avg</th></tr></thead>
+    <tbody>
+      <tr><td>shopping (gprop=froogle)</td><td><span class="metric">53.71</span></td></tr>
+      <tr><td>web (default)</td><td>53.71</td></tr>
+    </tbody>
+  </table>
+  <p class="meta">The shopping vs web channel divergence is a useful signal for shopping-intent strength. Values above are partial-filtered.</p>
+</section>
+
+<section id="mattress-rank">
+  <h2>Mattress Leader (Shopping)</h2>
+  <p>For diversification analysis, the mattress category 12-month shopping leaderboard:</p>
+  <figure>
+    <img src="charts/mattress_leaderboard.png" alt="Mattress 12-month shopping interest by brand">
+    <figcaption>Source: Google Trends shopping channel, today 12-m, US.</figcaption>
+  </figure>
+  <p>Takeaway: <span class="metric">Casper leads the mattress shopping category at 12-month average of 5.44</span>, followed by Purple Mattress, Saatva, Nectar Mattress, and Leesa.</p>
+</section>
+
+<section id="recommendation" class="recommendation">
+  <h2>Recommendation</h2>
+  <p>Across all 6 audited categories the leader gap is moderate (no brand is "untouchable"), suggesting active sourcing opportunities. Re-run this dashboard monthly during Q3 to catch any leader rotation early.</p>
+</section>
+
+</main>
+
+<aside class="appendix" id="appendix">
+  <h2>Appendix</h2>
+
+  <h3 id="appendix-a1">A.1 — Methodology Notes</h3>
+  <p>All averages computed over the partial-data-filtered timeseries (52 weeks for today 12-m). Channel = <code>shopping</code> (gprop=froogle) unless otherwise specified. Geographic scope = US.</p>
+
+  <h3 id="appendix-a2">A.2 — Source Identifiers</h3>
+  <ul>
+    <li>drill multi-brand shopping: <code>set_drill</code>; web: <code>set_drill_web</code>; geo: <code>geomap_drill</code></li>
+    <li>earbuds: leaderboard chart only — <code>charts/earbuds_leaderboard.png</code> · <code>geomap_earbuds</code> (raw timeseries not retained for this category)</li>
+    <li>coffee: <code>set_coffee</code> · <code>geomap_coffee</code></li>
+    <li>speaker: <code>set_speaker</code> · <code>set_speaker_web</code> · <code>geomap_speaker</code></li>
+    <li>vacuum: <code>set_vacuum</code> · <code>geomap_vacuum</code></li>
+    <li>mattress: leaderboard chart only — <code>charts/mattress_leaderboard.png</code> · <code>geomap_mattress</code> (raw timeseries not retained for this category)</li>
+  </ul>
+
+  <h3 id="appendix-a3">A.3 — Drill State-by-State Leader Table</h3>
+  <p>Source: <code>geomap_drill.json</code>. Ties broken by manifest order (dewalt, milwaukee, makita, ryobi, bosch).</p>
+  <table>
+    <thead><tr><th>State</th><th>Leading Brand</th><th>Value</th></tr></thead>
+    <tbody>
+      <tr><td>Alabama</td><td>milwaukee</td><td>31</td></tr>
+      <tr><td>Alaska</td><td>milwaukee</td><td>35</td></tr>
+      <tr><td>Arizona</td><td>milwaukee</td><td>30</td></tr>
+      <tr><td>Arkansas</td><td>dewalt</td><td>32</td></tr>
+      <tr><td>California</td><td>milwaukee</td><td>31</td></tr>
+      <tr><td>Colorado</td><td>milwaukee</td><td>31</td></tr>
+      <tr><td>Connecticut</td><td>milwaukee</td><td>31</td></tr>
+      <tr><td>Delaware</td><td>dewalt</td><td>30</td></tr>
+      <tr><td>District of Columbia</td><td>bosch</td><td>29</td></tr>
+      <tr><td>Florida</td><td>milwaukee</td><td>28</td></tr>
+      <tr><td>Georgia</td><td>milwaukee</td><td>29</td></tr>
+      <tr><td>Hawaii</td><td>dewalt</td><td>29</td></tr>
+      <tr><td>Idaho</td><td>milwaukee</td><td>32</td></tr>
+      <tr><td>Illinois</td><td>milwaukee</td><td>35</td></tr>
+      <tr><td>Indiana</td><td>milwaukee</td><td>36</td></tr>
+      <tr><td>Iowa</td><td>milwaukee</td><td>40</td></tr>
+      <tr><td>Kansas</td><td>milwaukee</td><td>35</td></tr>
+      <tr><td>Kentucky</td><td>milwaukee</td><td>34</td></tr>
+      <tr><td>Louisiana</td><td>milwaukee</td><td>31</td></tr>
+      <tr><td>Maine</td><td>milwaukee</td><td>33</td></tr>
+      <tr><td>Maryland</td><td>milwaukee</td><td>31</td></tr>
+      <tr><td>Massachusetts</td><td>milwaukee</td><td>29</td></tr>
+      <tr><td>Michigan</td><td>milwaukee</td><td>35</td></tr>
+      <tr><td>Minnesota</td><td>milwaukee</td><td>36</td></tr>
+      <tr><td>Mississippi</td><td>milwaukee</td><td>35</td></tr>
+      <tr><td>Missouri</td><td>milwaukee</td><td>35</td></tr>
+      <tr><td>Montana</td><td>milwaukee</td><td>37</td></tr>
+      <tr><td>Nebraska</td><td>milwaukee</td><td>38</td></tr>
+      <tr><td>Nevada</td><td>milwaukee</td><td>33</td></tr>
+      <tr><td>New Hampshire</td><td>milwaukee</td><td>28</td></tr>
+      <tr><td>New Jersey</td><td>bosch</td><td>37</td></tr>
+      <tr><td>New Mexico</td><td>milwaukee</td><td>37</td></tr>
+      <tr><td>New York</td><td>milwaukee</td><td>29</td></tr>
+      <tr><td>North Carolina</td><td>milwaukee</td><td>30</td></tr>
+      <tr><td>North Dakota</td><td>milwaukee</td><td>50</td></tr>
+      <tr><td>Ohio</td><td>milwaukee</td><td>31</td></tr>
+      <tr><td>Oklahoma</td><td>dewalt</td><td>35</td></tr>
+      <tr><td>Oregon</td><td>bosch</td><td>42</td></tr>
+      <tr><td>Pennsylvania</td><td>milwaukee</td><td>33</td></tr>
+      <tr><td>Rhode Island</td><td>milwaukee</td><td>29</td></tr>
+      <tr><td>South Carolina</td><td>dewalt</td><td>28</td></tr>
+      <tr><td>South Dakota</td><td>milwaukee</td><td>40</td></tr>
+      <tr><td>Tennessee</td><td>milwaukee</td><td>32</td></tr>
+      <tr><td>Texas</td><td>milwaukee</td><td>31</td></tr>
+      <tr><td>Utah</td><td>milwaukee</td><td>30</td></tr>
+      <tr><td>Vermont</td><td>milwaukee</td><td>35</td></tr>
+      <tr><td>Virginia</td><td>milwaukee</td><td>29</td></tr>
+      <tr><td>Washington</td><td>milwaukee</td><td>31</td></tr>
+      <tr><td>West Virginia</td><td>dewalt</td><td>37</td></tr>
+      <tr><td>Wisconsin</td><td>milwaukee</td><td>65</td></tr>
+      <tr><td>Wyoming</td><td>bosch</td><td>29</td></tr>
+    </tbody>
+  </table>
+  <p class="meta">51 state rows.</p>
+
+  <h3 id="appendix-a4">A.4 — Speaker State-by-State Leader Table</h3>
+  <p>Source: <code>geomap_speaker.json</code>. Ties broken by manifest order (echo dot, bose soundlink, sonos era, google nest mini, jbl flip).</p>
+  <table>
+    <thead><tr><th>State</th><th>Leading Brand</th><th>Value</th></tr></thead>
+    <tbody>
+      <tr><td>Alabama</td><td>sonos era</td><td>40</td></tr>
+      <tr><td>Arizona</td><td>bose soundlink</td><td>47</td></tr>
+      <tr><td>Arkansas</td><td>bose soundlink</td><td>59</td></tr>
+      <tr><td>California</td><td>bose soundlink</td><td>37</td></tr>
+      <tr><td>Colorado</td><td>bose soundlink</td><td>49</td></tr>
+      <tr><td>Connecticut</td><td>echo dot</td><td>80</td></tr>
+      <tr><td>Delaware</td><td>echo dot</td><td>55</td></tr>
+      <tr><td>District of Columbia</td><td>sonos era</td><td>100</td></tr>
+      <tr><td>Florida</td><td>echo dot</td><td>31</td></tr>
+      <tr><td>Georgia</td><td>echo dot</td><td>36</td></tr>
+      <tr><td>Hawaii</td><td>sonos era</td><td>62</td></tr>
+      <tr><td>Idaho</td><td>sonos era</td><td>92</td></tr>
+      <tr><td>Illinois</td><td>bose soundlink</td><td>30</td></tr>
+      <tr><td>Indiana</td><td>echo dot</td><td>50</td></tr>
+      <tr><td>Iowa</td><td>sonos era</td><td>35</td></tr>
+      <tr><td>Kansas</td><td>bose soundlink</td><td>51</td></tr>
+      <tr><td>Kentucky</td><td>echo dot</td><td>85</td></tr>
+      <tr><td>Louisiana</td><td>echo dot</td><td>57</td></tr>
+      <tr><td>Maryland</td><td>echo dot</td><td>73</td></tr>
+      <tr><td>Massachusetts</td><td>bose soundlink</td><td>48</td></tr>
+      <tr><td>Michigan</td><td>echo dot</td><td>51</td></tr>
+      <tr><td>Minnesota</td><td>echo dot</td><td>81</td></tr>
+      <tr><td>Mississippi</td><td>bose soundlink</td><td>95</td></tr>
+      <tr><td>Missouri</td><td>sonos era</td><td>37</td></tr>
+      <tr><td>Nebraska</td><td>sonos era</td><td>52</td></tr>
+      <tr><td>Nevada</td><td>bose soundlink</td><td>88</td></tr>
+      <tr><td>New Jersey</td><td>echo dot</td><td>46</td></tr>
+      <tr><td>New Mexico</td><td>echo dot</td><td>100</td></tr>
+      <tr><td>New York</td><td>echo dot</td><td>31</td></tr>
+      <tr><td>North Carolina</td><td>echo dot</td><td>35</td></tr>
+      <tr><td>Ohio</td><td>echo dot</td><td>52</td></tr>
+      <tr><td>Oklahoma</td><td>bose soundlink</td><td>85</td></tr>
+      <tr><td>Oregon</td><td>google nest mini</td><td>74</td></tr>
+      <tr><td>Pennsylvania</td><td>bose soundlink</td><td>41</td></tr>
+      <tr><td>Rhode Island</td><td>echo dot</td><td>100</td></tr>
+      <tr><td>South Carolina</td><td>echo dot</td><td>57</td></tr>
+      <tr><td>Tennessee</td><td>echo dot</td><td>48</td></tr>
+      <tr><td>Texas</td><td>echo dot</td><td>31</td></tr>
+      <tr><td>Utah</td><td>sonos era</td><td>31</td></tr>
+      <tr><td>Virginia</td><td>echo dot</td><td>41</td></tr>
+      <tr><td>Washington</td><td>echo dot</td><td>52</td></tr>
+      <tr><td>West Virginia</td><td>echo dot</td><td>55</td></tr>
+      <tr><td>Wisconsin</td><td>bose soundlink</td><td>48</td></tr>
+      <tr><td>Wyoming</td><td>bose soundlink</td><td>47</td></tr>
+    </tbody>
+  </table>
+  <p class="meta">44 state rows.</p>
+</aside>
+
+</div>
+
+</body>
+</html>

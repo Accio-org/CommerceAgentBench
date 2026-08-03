@@ -1,0 +1,4 @@
+return_id,inspection_observation,outbound_reference,return_observation,evidence_strength
+RET-55812,"return box opened with torn flap","two units, 1.42 kg","one bottle, 0.74 kg, no LoopCap",medium
+RET-66104,"crushed corners, carrier scan exception present","two mugs intact, 1.08 kg","two broken mugs, fragments in carton",high
+RET-77017,"factory seal intact","CLEAN-TAB-12, 0.18 kg","sealed CLEAN-TAB-12 returned, 0.18 kg",medium

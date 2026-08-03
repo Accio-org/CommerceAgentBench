@@ -1,0 +1,36 @@
+#!/usr/bin/env bun
+// todoist — mock CLI for RealReplicaBench
+// Shadows the real sachaos/todoist Go binary.
+// State lives in SQLite at ~/.cache/todoist/mock.db (or TODOIST_MOCK_HOME).
+
+import { openDb } from '../lib/db.js';
+import { requireAuth, resolveToken } from '../lib/auth.js';
+import { parseArgv, dispatch } from '../lib/commands/_dispatch.js';
+
+// Parse command line
+const parsed = parseArgv(process.argv);
+
+// Skip auth for help/version (main.go:44-53 isHelpCommand)
+const skipAuth = (
+  parsed.globalFlags.help ||
+  parsed.globalFlags.version ||
+  parsed.command === 'help' ||
+  parsed.command === 'h' ||
+  parsed.command === 'version' ||
+  !parsed.command
+);
+
+if (!skipAuth) {
+  requireAuth();
+}
+
+// Open database
+const db = openDb();
+
+// Dispatch command
+const exitCode = dispatch(db, parsed);
+
+// Close db
+db.close();
+
+process.exit(exitCode);

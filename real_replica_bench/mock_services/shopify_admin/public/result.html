@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>提交结果 · Shopify</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-left">
+        <button class="topbar-burger"><svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M2 5h16v2H2zm0 4h16v2H2zm0 4h16v2H2z"/></svg></button>
+        <div class="shopify-logo"><span class="glyph">S</span><span>Shopify</span></div>
+      </div>
+      <div class="topbar-search">
+        <button><svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M9 2a7 7 0 105.7 11l3.6 3.6 1.4-1.4-3.6-3.6A7 7 0 009 2z"/></svg><span>搜索</span><span class="kbd">⌘ K</span></button>
+      </div>
+      <div class="topbar-right">
+        <button class="topbar-user"><span class="avatar">店</span><span style="font-size:13px;font-weight:500">我的商店</span></button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <nav>
+          <div class="nav-section">
+            <a class="nav-item" href="/"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5L1 9h2v9h5v-6h4v6h5V9h2L10 1.5z"/></svg><span>主页</span></a>
+            <a class="nav-item active" href="/products/new"><svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2L2 6v8l8 4 8-4V6l-8-4z"/></svg><span>产品</span></a>
+          </div>
+        </nav>
+      </aside>
+
+      <main class="main">
+        <div class="page-header">
+          <h1 class="page-title">
+            <a class="page-title-back" href="/" title="返回">
+              <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M13 4L7 10l6 6V4z"/></svg>
+            </a>
+            <span>提交结果<span class="muted" id="session-page" style="margin-left:8px;font-size:13px;font-weight:400"></span></span>
+          </h1>
+          <div class="flex-row">
+            <button class="btn btn-tertiary" id="reset-session">重置会话</button>
+            <a class="btn btn-secondary" id="back-to-form" href="/products/new">回到表单</a>
+            <button class="btn btn-primary" id="btn-refresh">刷新</button>
+          </div>
+        </div>
+
+        <div class="summary-cards" id="summary-cards"></div>
+
+        <!-- Verifier -->
+        <section class="verifier-box">
+          <div class="card-title">Verifier 校验（输入 expected JSON）</div>
+          <div class="muted mb-3" style="font-size:13px">
+            提交期望答案，系统会逐字段对比并给出 accuracy。例：
+            <code>{"title":"短袖T恤","price":"19.99","status":"active"}</code>
+          </div>
+          <textarea
+            id="expected-input"
+            class="textarea"
+            style="min-height: 140px; font-family: ui-monospace, monospace; font-size: 12px"
+            placeholder='{"title":"...","price":"...","category":"..."}'
+          ></textarea>
+          <div class="flex-row" style="margin-top: 12px">
+            <button class="btn btn-primary" id="btn-verify">运行校验</button>
+            <button class="btn btn-secondary" id="btn-fill-actual">用当前值填充</button>
+            <span class="muted" style="margin-left: auto" id="verify-summary"></span>
+          </div>
+          <div id="verify-result"></div>
+        </section>
+
+        <!-- Sections -->
+        <div id="sections"></div>
+
+        <p class="session-info">
+          Session: <span id="session-id">…</span>
+        </p>
+      </main>
+    </div>
+
+    <div class="toast" id="toast"></div>
+    <script src="/admin.js"></script>
+    <script src="/result.js"></script>
+  </body>
+</html>

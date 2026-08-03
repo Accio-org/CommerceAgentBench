@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>自定义主题 · Shopify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@400;600;700;800&family=DM+Serif+Display&family=Bebas+Neue&family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Lato:wght@400;700&family=Source+Sans+3:wght@400;600;700&family=Nunito+Sans:wght@400;600;700&family=Work+Sans:wght@400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/storefront.css" />
+    <link rel="stylesheet" href="/themes-customize.css" />
+  </head>
+  <body data-page="theme">
+    <header class="topbar te-topbar">
+      <div class="topbar-left">
+        <a href="/" class="topbar-burger" title="退出主题编辑器">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M13 4L7 10l6 6V4z"/></svg>
+        </a>
+        <div class="shopify-logo">
+          <span class="glyph">S</span>
+          <span>主题编辑器</span>
+        </div>
+        <span class="te-theme-badge" id="te-theme-name-badge">主题：<strong>Dawn</strong></span>
+      </div>
+
+      <div class="te-device-toggles">
+        <button data-device="desktop" class="te-device active" title="桌面">
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3h16v11H2zm5 13h6v2H7z"/></svg>
+        </button>
+        <button data-device="tablet" class="te-device" title="平板">
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M4 2h12v16H4zm6 14a1 1 0 100-2 1 1 0 000 2z"/></svg>
+        </button>
+        <button data-device="mobile" class="te-device" title="手机">
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M6 1h8v18H6zm4 16a1 1 0 100-2 1 1 0 000 2z"/></svg>
+        </button>
+      </div>
+
+      <div class="topbar-right">
+        <div class="te-history">
+          <button title="撤销" disabled>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M7 3L2 8l5 5V9h6a4 4 0 010 8H8v2h5a6 6 0 100-12H7V3z"/></svg>
+          </button>
+          <button title="重做" disabled>
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M13 3l5 5-5 5V9H7a4 4 0 000 8h5v2H7a6 6 0 110-12h6V3z"/></svg>
+          </button>
+        </div>
+        <button class="te-sidekick-trigger" id="open-sidekick" title="询问 Sidekick">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2 5 5 1-4 4 1 6-4-3-4 3 1-6-4-4 5-1 2-5z"/></svg>
+        </button>
+        <button class="btn btn-tertiary" id="btn-switch-template" title="切换主题模板">切换模板</button>
+        <button class="btn btn-tertiary" id="btn-discard">放弃</button>
+        <button class="btn btn-secondary" id="btn-preview" title="在新窗口预览">预览</button>
+        <button class="btn btn-primary" id="btn-save">保存</button>
+      </div>
+    </header>
+
+    <div class="te-layout">
+      <!-- 左侧：Sections panel -->
+      <aside class="te-sections-panel">
+        <div class="te-panel-section">
+          <div class="te-panel-title">
+            <span>主页</span>
+            <button class="te-panel-action" type="button" title="主页面分区已锁定（mock 中不可增删）">📋</button>
+          </div>
+          <ul class="te-section-tree" id="te-page-sections"></ul>
+        </div>
+
+        <div class="te-panel-section">
+          <div class="te-panel-title">主题设置</div>
+          <ul class="te-section-tree" id="te-theme-sections"></ul>
+        </div>
+
+        <div class="te-panel-section">
+          <div class="te-panel-title">发布</div>
+          <ul class="te-section-tree" id="te-publish-sections"></ul>
+        </div>
+      </aside>
+
+      <!-- 中央：Storefront Preview -->
+      <div class="te-preview-stage">
+        <div class="te-preview-frame" id="te-preview-frame" data-device="desktop">
+          <div id="storefront-root"></div>
+        </div>
+      </div>
+
+      <!-- 右侧：Inspector -->
+      <aside class="te-inspector">
+        <div class="te-inspector-header">
+          <button class="te-inspector-back" id="inspector-back" title="返回主题设置" style="display:none">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M13 4L7 10l6 6V4z"/></svg>
+          </button>
+          <h3 class="te-inspector-title" id="inspector-title">主题设置</h3>
+        </div>
+        <div class="te-inspector-content" id="inspector-content"></div>
+      </aside>
+    </div>
+
+    <!-- Sidekick popover（右下角浮动） -->
+    <div class="te-sidekick-popover" id="sidekick-popover">
+      <div class="te-sidekick-header">
+        <div class="te-sidekick-character">
+          <svg viewBox="0 0 300 300">
+            <circle cx="151" cy="151" r="116" fill="#fff"/>
+            <path fill="#1C004F" d="M132.47 216.57s-4.69-1.24-3.45 4c5.25 8 13.11 12.84 22.36 12.84 9.38 0 18.5-6.62 21.25-14.5 0-2.75-1.24-4.13-4-2.75-1.24 1.38-6.62 6.62-17.25 6.62-10.63 0-9.66-.96-18.9-6.2Z"/>
+            <path fill="#7126FF" d="M238.87 132.67c-17.25-1.24-31.46 3.73-43.74 12-27.88 18.77-50.92 28.02-87.5 0-11.72-9.1-26.5-13.24-43.74-13.24-53.39.57-40.39 88.07 4 87.35 28.02 7.73 55.62-19.87 55.62-19.87 23.32-25.8 43.05-13.1 52.99 0a75.9 75.9 0 0 0 58.23 19.87c42.92-3.59 57.41-82.94 4.14-86.1Z"/>
+            <path fill="#fff" d="M236.36 195.15a26.5 26.5 0 1 1-37.48-37.46 26.5 26.5 0 0 1 37.48 37.46Zm-132.48 0A26.5 26.5 0 1 1 66.4 157.7a26.5 26.5 0 0 1 37.48 37.46Z"/>
+            <path fill="#1C004F" d="M202.72 167.03c1.65-3.45 8.14-9.93 19.6-7.86-11.05 10.2 3.17 20 11.86 12 2.76 10.63-4.28 21.67-18.77 21.67-3.72 0-20.97-6.35-12.7-25.8Zm-133.17 0c1.65-3.45 8.14-9.93 19.6-7.86-11.05 10.2 3.17 20 11.86 12 2.76 10.63-4.28 21.67-18.77 21.67-3.72 0-20.97-6.35-12.7-25.8Z"/>
+          </svg>
+        </div>
+        <div class="te-sidekick-title">Sidekick · 自定义您的在线商店</div>
+        <button class="te-sidekick-close" id="close-sidekick" title="关闭">×</button>
+      </div>
+      <div class="te-sidekick-body">
+        <div class="te-sidekick-card">
+          <p>欢迎来到主题编辑器！这里有三种方式可以开始定制：</p>
+          <ol>
+            <li><strong>描述您的业务</strong>，自动生成专属设计</li>
+            <li><strong>挑选现成设计</strong>，选择风格直接使用</li>
+            <li><strong>直接编辑当前设计</strong>，逐项调整</li>
+          </ol>
+          <div class="te-sidekick-buttons">
+            <button class="primary" id="sk-describe">✨ 根据业务描述自动生成</button>
+            <button id="sk-pick">🎨 随机挑选一套现成设计</button>
+            <button id="sk-edit">🛠️ 我自己手动编辑</button>
+          </div>
+        </div>
+        <div class="te-sidekick-input">
+          <input type="text" id="sk-input" placeholder="例如：手工咖啡豆，受众 25-40 岁咖啡爱好者…" />
+          <button id="sk-send" title="发送">
+            <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l14-7-14-7v5l9 2-9 2v5z" fill="currentColor"/></svg>
+          </button>
+        </div>
+        <div class="te-sidekick-tip" id="sk-tip" style="display:none"></div>
+      </div>
+    </div>
+
+    <!-- 隐藏 form：用于 file input + submit -->
+    <form id="theme-form" enctype="multipart/form-data" style="display:none"></form>
+
+    <!-- 主题模板选择器（首次进入 / 点"切换模板"时显示） -->
+    <div class="te-template-picker" id="te-template-picker" hidden>
+      <div class="te-template-picker__overlay"></div>
+      <div class="te-template-picker__modal" role="dialog" aria-labelledby="tp-title" aria-modal="true">
+        <div class="te-template-picker__header">
+          <h2 class="te-template-picker__title" id="tp-title">选择您的主题模板</h2>
+          <p class="te-template-picker__sub">从两套预设主题中选择一个开始定制。模板决定了起始 sections、配色与字体；之后所有内容都可单独编辑。</p>
+          <button class="te-template-picker__close" id="tp-close" type="button" hidden title="关闭">×</button>
+        </div>
+
+        <div class="te-template-picker__cards">
+          <!-- Card A: classic -->
+          <div class="te-template-card" data-template="classic" tabindex="0" role="button">
+            <div class="te-template-card__preview te-tp-preview-classic">
+              <div class="tp-preview-bar tp-bar-anno">公告 · 满 ¥299 包邮</div>
+              <div class="tp-preview-bar tp-bar-header">
+                <span class="tp-logo">我的商店</span>
+                <span class="tp-icons">🔍 👤 🛒</span>
+              </div>
+              <div class="tp-preview-hero">
+                <div class="tp-hero-text">
+                  <h3>欢迎光临</h3>
+                  <p>立即购买</p>
+                  <span class="tp-btn">立即购买</span>
+                </div>
+              </div>
+              <div class="tp-preview-grid">
+                <div class="tp-card"></div>
+                <div class="tp-card"></div>
+                <div class="tp-card"></div>
+                <div class="tp-card"></div>
+              </div>
+              <div class="tp-preview-cols">
+                <div class="tp-col">🚚<br><span>快速发货</span></div>
+                <div class="tp-col">⭐<br><span>品质保证</span></div>
+                <div class="tp-col">↩️<br><span>无忧退换</span></div>
+              </div>
+            </div>
+            <div class="te-template-card__body">
+              <div class="te-template-card__name-row">
+                <h3 class="te-template-card__name">Dawn Classic</h3>
+                <span class="te-template-card__tag">经典零售范式</span>
+              </div>
+              <p class="te-template-card__desc">大图 hero + 多产品网格 + 价值主张多栏。适合 SKU 多、强调促销与上架的电商。</p>
+              <ul class="te-template-card__meta">
+                <li>主题 · <strong>Dawn</strong></li>
+                <li>配色 · <strong>Light & Bright</strong></li>
+                <li>Header · <strong>居左</strong></li>
+                <li>Sections · <strong>7</strong></li>
+              </ul>
+              <button class="btn btn-primary te-template-card__cta" type="button" data-template-cta="classic">使用此模板</button>
+            </div>
+          </div>
+
+          <!-- Card B: editorial -->
+          <div class="te-template-card" data-template="editorial" tabindex="0" role="button">
+            <div class="te-template-card__preview te-tp-preview-editorial">
+              <div class="tp-preview-bar tp-bar-anno tp-bar-anno--warm">手工打造 · 限量发售</div>
+              <div class="tp-preview-bar tp-bar-header tp-bar-header--center">
+                <span class="tp-icons-left">🔍</span>
+                <span class="tp-logo tp-logo--center">CRAVE</span>
+                <span class="tp-icons">👤 🛒</span>
+              </div>
+              <div class="tp-preview-bigtext">
+                <span class="tp-bigtext">Handcrafted<br/>products</span>
+              </div>
+              <div class="tp-preview-featured">
+                <div class="tp-featured-img">📷</div>
+                <div class="tp-featured-info">
+                  <h4>产品标题示例</h4>
+                  <p>$19.99 USD</p>
+                  <span class="tp-btn tp-btn--full">添加到购物车</span>
+                </div>
+              </div>
+              <div class="tp-preview-eyebrow"><span>THE REVIEWS</span><strong>Testimonials</strong></div>
+              <div class="tp-preview-cols tp-preview-cols--quotes">
+                <div class="tp-col"><strong>So soft</strong><span>"质感很棒…"</span></div>
+                <div class="tp-col"><strong>Wicked smart</strong><span>"巧妙设计…"</span></div>
+                <div class="tp-col"><strong>Elegant</strong><span>"优雅简约…"</span></div>
+              </div>
+              <div class="tp-preview-banner">
+                <div class="tp-banner-box">
+                  <h4>图片横幅</h4>
+                  <span class="tp-btn tp-btn--double">按钮 / 按钮</span>
+                </div>
+              </div>
+            </div>
+            <div class="te-template-card__body">
+              <div class="te-template-card__name-row">
+                <h3 class="te-template-card__name">Crave Editorial</h3>
+                <span class="te-template-card__tag te-template-card__tag--warm">杂志感故事品牌</span>
+              </div>
+              <p class="te-template-card__desc">大字标题 + 精选单品 + 图文故事 + 评价多栏 + 大图横幅。适合工艺/小众/单品爆款品牌。</p>
+              <ul class="te-template-card__meta">
+                <li>主题 · <strong>Crave</strong></li>
+                <li>配色 · <strong>Warm & Earthy</strong></li>
+                <li>Header · <strong>居中</strong></li>
+                <li>Sections · <strong>7</strong></li>
+              </ul>
+              <button class="btn btn-primary te-template-card__cta" type="button" data-template-cta="editorial">使用此模板</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="te-template-picker__footer">
+          <span>选好后随时可在顶部「切换模板」按钮里更换。</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+    <script src="/admin.js"></script>
+    <script src="/storefront-renderer.js"></script>
+    <script src="/themes-customize.js"></script>
+  </body>
+</html>

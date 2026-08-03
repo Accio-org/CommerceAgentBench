@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "minimum_pass_score": 1.0,
+  "criteria": [
+    {
+      "id": "setup_gate",
+      "weight": 0.05,
+      "description": "Environment ready: stripe mock reachable and state loaded."
+    },
+    {
+      "id": "products_created",
+      "weight": 0.20,
+      "description": "All 6 products created with exact names, descriptions, and metadata key-value pairs."
+    },
+    {
+      "id": "prices_created",
+      "weight": 0.15,
+      "description": "All 9 prices created with correct unit_amount, recurring interval, and product linkage."
+    },
+    {
+      "id": "coupons_managed",
+      "weight": 0.12,
+      "description": "Active coupons created with correct discount terms and the launch coupon deleted."
+    },
+    {
+      "id": "webhooks_created",
+      "weight": 0.10,
+      "description": "Webhook endpoints created with the exact URLs and enabled event sets from the pricing sheet."
+    },
+    {
+      "id": "triggers_fired",
+      "weight": 0.08,
+      "description": "Pipeline triggers fired (payment_intent.succeeded, invoice.paid, checkout.session.completed)."
+    },
+    {
+      "id": "charges_created",
+      "weight": 0.10,
+      "description": "Onboarding setup-fee charges created at the correct amounts."
+    },
+    {
+      "id": "subscriptions_attached",
+      "weight": 0.10,
+      "description": "Pilot subscriptions attached with correct customer-product-interval associations."
+    },
+    {
+      "id": "audit_record_computed",
+      "weight": 0.10,
+      "description": "Audit-record customer created with the dynamically-counted metadata totals."
+    }
+  ]
+}

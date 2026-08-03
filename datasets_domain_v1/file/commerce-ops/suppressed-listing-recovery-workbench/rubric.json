@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-suppressed-listing-recovery-workbench",
+  "status": "ready_for_review",
+  "difficulty": "very-hard",
+  "summary": "Recover a suppressed listing: identify all suppression codes from the workbench export, draft compliant per-bullet copy grounded in the supplier evidence, swap the promo image for the clean one, attach a structured evidence_file + resolution_action per code, and write a topic-covered recovery note.",
+  "category": "ecommerce_catalog_operations",
+  "state_kind": "offline_only_local_files",
+  "artifact_policy": {
+    "expected_artifacts": [
+      "outputs/corrected_listing_fields.json",
+      "outputs/evidence_manifest.json",
+      "outputs/recovery_note.md"
+    ]
+  },
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Environment/format ready: corrected_listing_fields.json parses as an object, all required keys present, image_recommendation is a structured object, and recovery_note.md exists and is non-empty."
+    },
+    {
+      "id": "title_compliant",
+      "check_type": "deterministic_exact",
+      "description": "Title contains the canonical product specs (750, stainless, bottle) and none of the promo / competitor / unsupported banned phrases."
+    },
+    {
+      "id": "bullets_compliant",
+      "check_type": "deterministic_semantic",
+      "description": "All five bullets are narrowed to evidence-supported, policy-compliant copy: bullet_1 material grounding (LFGB / 304 stainless), bullet_2 lab-tested cold-only (24h hot removed), bullet_3 leak-resistant / test-condition wording (no leak-proof), bullet_4 top-rack LoopCap / lid scope (no body-included claim), bullet_5 BPA-not-detected LoopCap evidence (no non-toxic / safe-for-kids). Per-bullet failures listed in reason."
+    },
+    {
+      "id": "description_compliant",
+      "check_type": "deterministic_semantic",
+      "description": "Description is grounded in >=3 concrete product specs and contains no eco-friendly / zero-waste / carbon-neutral / best-seller claims."
+    },
+    {
+      "id": "search_terms_compliant",
+      "check_type": "deterministic_exact",
+      "description": "Backend search_terms include >=4 distinct allowed-enum tokens, every token is in the allowed enum (no off-list / brand / promo terms), and none of the banned phrases appear."
+    },
+    {
+      "id": "no_banned_terms_in_listing",
+      "check_type": "deterministic_exact",
+      "description": "Negative restraint: no banned term remains across any listing-facing field (title / bullet_1..5 / description / search_terms). Metadata fields like resolution_action are exempt."
+    },
+    {
+      "id": "image_correct",
+      "check_type": "deterministic_semantic",
+      "description": "image_recommendation selects the overlay-free image (product_image_a.jpg), rejects the discount-overlay image (product_image_b.jpg), and the reason cites the promo overlay / 20% / discount / Best Seller / OCR finding."
+    },
+    {
+      "id": "resolution_PROHIBITED_PROMO_valid",
+      "check_type": "deterministic_semantic",
+      "description": "suppression_reason_resolutions[PROHIBITED_PROMO] has a real evidence_file (field-level export / restricted-claims policy / workbench / current_listing_state) AND a resolution_action that names the promo phrase removal / title rewrite."
+    },
+    {
+      "id": "resolution_UNSUPPORTED_PERFORMANCE_valid",
+      "check_type": "deterministic_semantic",
+      "description": "suppression_reason_resolutions[UNSUPPORTED_PERFORMANCE] cites supplier_certificates.md (LAB-TEMP-750-APR) or the field-level export AND a resolution_action that narrows to lab evidence / cold-only / removes the 24h hot claim."
+    },
+    {
+      "id": "resolution_RESTRICTED_SAFETY_CLAIM_valid",
+      "check_type": "deterministic_semantic",
+      "description": "suppression_reason_resolutions[RESTRICTED_SAFETY_CLAIM] cites the restricted-claims policy or supplier_certificates.md (CERT-BPA-2025) AND a resolution_action that removes safety language / replaces with BPA evidence."
+    },
+    {
+      "id": "resolution_IMAGE_TEXT_PROMO_valid",
+      "check_type": "deterministic_semantic",
+      "description": "suppression_reason_resolutions[IMAGE_TEXT_PROMO] cites the OCR result / clean photo / workbench / field-level export AND a resolution_action that swaps to the clean image / removes the overlay."
+    },
+    {
+      "id": "resolution_COMPETITOR_BRAND_TERM_valid",
+      "check_type": "deterministic_semantic",
+      "description": "suppression_reason_resolutions[COMPETITOR_BRAND_TERM] cites the field-level export / candidate copy options / restricted-claims policy / catalog thread AND a resolution_action that removes Stanley/Yeti / replaces backend search."
+    },
+    {
+      "id": "resolution_DISHWASHER_SCOPE_CONFLICT_valid",
+      "check_type": "deterministic_semantic",
+      "description": "suppression_reason_resolutions[DISHWASHER_SCOPE_CONFLICT] cites supplier_certificates.md (LAB-DISH-750-MAR) / field-level export / candidate copy options AND a resolution_action that narrows to top-rack LoopCap / hand-wash body."
+    },
+    {
+      "id": "resolution_ENVIRONMENTAL_CLAIM_UNSUPPORTED_valid",
+      "check_type": "deterministic_semantic",
+      "description": "suppression_reason_resolutions[ENVIRONMENTAL_CLAIM_UNSUPPORTED] cites supplier_certificates.md (PACK-BOM-750-MAY) / catalog thread / field-level export AND a resolution_action that removes eco / zero-waste / carbon and optionally narrows to recycled paperboard."
+    },
+    {
+      "id": "unverifiable_claims_flagged",
+      "check_type": "deterministic_semantic",
+      "description": "fields_needing_more_evidence has at least 1 entry that names an explicitly-unverifiable topic from the supplier evidence (hot retention beyond 12h / carbon-neutral / zero-waste / competitor price)."
+    },
+    {
+      "id": "supporting_deliverables_grounded",
+      "check_type": "deterministic_semantic",
+      "description": "Supporting artifacts are grounded: evidence_manifest.json references >=3 real source-file paths under workspace/{source_evidence,review_inputs,policies,listing,workbench,messages}/, and the recovery note covers >=4 of the 5 required topics (title change, bullet compliance, evidence/lab citation, image swap, search-terms cleanup)."
+    }
+  ]
+}

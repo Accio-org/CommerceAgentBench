@@ -1,0 +1,34 @@
+schema_version = "2.0"
+
+[task]
+id = "cli-stripe-invoice-reconciliation"
+name = "Stripe invoice reconciliation from ledger"
+language = "en"
+entrypoint = "task.md"
+files_dir = "workspace"
+test = "grader/run.sh"
+rubric = "rubric.json"
+keywords = ["stripe", "cli", "mock", "invoice", "reconciliation", "ledger", "sourcing"]
+difficulty = "hard"
+
+[agent]
+timeout_sec = 3600
+max_actions = 260
+
+[verifier]
+type = "script"
+timeout_sec = 180
+
+[environment]
+requires_vision = false
+requires_browser = false
+requires_network = false
+runtime_boundary = "closed_source_black_box"
+state_policy = "offline_or_mock_only"
+mock_services = true
+host_published_port = 3000
+base_images = ["acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859"]
+
+[environment.runtime_mocks.stripe_cli]
+kind = "cli"
+port = 3000

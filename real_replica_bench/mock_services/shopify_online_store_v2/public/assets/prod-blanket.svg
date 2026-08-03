@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="亚麻毛毯">
+  <defs>
+    <radialGradient id="lbg" cx="50%" cy="42%" r="72%">
+      <stop offset="0%" stop-color="#f6f4ef"/><stop offset="100%" stop-color="#e7e1d6"/>
+    </radialGradient>
+    <linearGradient id="lblk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9c8a6"/><stop offset="100%" stop-color="#bda77e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#lbg)"/>
+  <ellipse cx="200" cy="318" rx="130" ry="20" fill="#000" opacity="0.10"/>
+  <g>
+    <rect x="96" y="232" width="208" height="58" rx="10" fill="url(#lblk)"/>
+    <rect x="104" y="196" width="192" height="52" rx="10" fill="#e3d4b4"/>
+    <rect x="112" y="160" width="176" height="50" rx="10" fill="#d9c8a6"/>
+    <rect x="120" y="126" width="160" height="48" rx="10" fill="#ead9b8"/>
+  </g>
+  <g stroke="#a8916a" stroke-width="3" opacity="0.6">
+    <line x1="150" y1="126" x2="150" y2="290"/>
+    <line x1="200" y1="126" x2="200" y2="290"/>
+    <line x1="250" y1="126" x2="250" y2="290"/>
+  </g>
+  <g stroke="#bda77e" stroke-width="4" stroke-linecap="round">
+    <line x1="120" y1="292" x2="120" y2="308"/><line x1="140" y1="292" x2="140" y2="310"/>
+    <line x1="160" y1="292" x2="160" y2="308"/><line x1="180" y1="292" x2="180" y2="310"/>
+    <line x1="200" y1="292" x2="200" y2="308"/><line x1="220" y1="292" x2="220" y2="310"/>
+    <line x1="240" y1="292" x2="240" y2="308"/><line x1="260" y1="292" x2="260" y2="310"/>
+    <line x1="280" y1="292" x2="280" y2="308"/>
+  </g>
+</svg>

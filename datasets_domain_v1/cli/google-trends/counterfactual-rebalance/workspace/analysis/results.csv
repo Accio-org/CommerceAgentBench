@@ -1,0 +1,10 @@
+quarter,slot,starting_brand,qoq_growth,action
+Q2,earbuds,jbl live,-1.0,swap_in:jabra elite
+Q2,drill,ryobi,-0.2731,swap_in:milwaukee
+Q2,speaker,homepod mini,0.0,hold_watch
+Q3,earbuds,jabra elite,-1.0,swap_in:bose quietcomfort earbuds
+Q3,drill,milwaukee,-0.0292,hold_watch
+Q3,speaker,homepod mini,0.0,hold_watch
+Q4,earbuds,bose quietcomfort earbuds,60.1481,keep
+Q4,drill,milwaukee,0.9332,keep
+Q4,speaker,homepod mini,1466.6667,keep

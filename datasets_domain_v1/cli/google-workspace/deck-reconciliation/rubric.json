@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "score_type": "capacity",
+  "check_strategy": "Deterministic verifier reads outputs/deck_reconciliation.json plus verifier-authenticated google_workspace_cli /api/state. Atoms are folded into 6 capability groups by AND.",
+  "criteria": [
+    {"id": "setup_gate", "description": "Environment ready: mock reachable, output JSON parseable, audit log present."},
+    {"id": "send_recommendation", "description": "Correct top-level send/revise recommendation."},
+    {"id": "claim_identification", "description": "Correctly identified which claims need fixing (must_fix_claim_ids) and which are validated."},
+    {"id": "claim_reconciliation", "description": "All 6 claims reconciled with correct status, slide reference, evidence ranges, and values."},
+    {"id": "cli_source_coverage", "description": "Used required CLI tools (slides/sheets metadata+text+range) and accessed all expected sheet ranges."},
+    {"id": "data_access_restraint", "description": "No forbidden bulk sheet getText on source spreadsheets and no non-CLI tool/write audit entries."}
+  ]
+}

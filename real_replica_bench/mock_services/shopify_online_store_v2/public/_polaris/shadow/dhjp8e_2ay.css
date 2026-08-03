@@ -1,0 +1,33 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+.avatar, img { display: block; }
+.avatar { position: relative; overflow: hidden; color: rgb(255, 255, 255); block-size: 1.75rem; inline-size: 1.75rem; border-radius: var(--t-border-radius-avatar,.5rem); }
+img { max-inline-size: 100%; max-block-size: 100%; object-fit: cover; }
+.hidden { display: none; }
+.initials, img { inline-size: 100%; block-size: 100%; }
+.initials { position: absolute; inset-block-start: 0px; inset-inline-end: 0px; display: flex; align-items: center; justify-content: center; }
+.text { text-anchor: middle; dominant-baseline: central; font-size: 1rem; }
+.long { font-size: 0.75rem; }
+.svg { inline-size: 100%; block-size: 100%; }
+.color-one { background-color: rgb(197, 48, 197); }
+.color-one, .color-one svg, .color-one text { color: rgb(253, 239, 253); }
+.color-two { background-color: rgb(82, 244, 144); }
+.color-two, .color-two svg, .color-two text { color: rgb(1, 75, 64); }
+.color-three { background-color: rgb(44, 224, 212); }
+.color-three, .color-three svg, .color-three text { color: rgb(3, 60, 57); }
+.color-four { background-color: rgb(81, 192, 255); }
+.color-four, .color-four svg, .color-four text { color: rgb(0, 33, 51); }
+.color-five { background-color: rgb(253, 75, 146); }
+.color-five, .color-five svg, .color-five text { color: rgb(255, 246, 248); }
+.color-six { background-color: rgb(37, 232, 43); }
+.color-six, .color-six svg, .color-six text { color: rgb(3, 61, 5); }
+.color-seven { background-color: rgb(148, 116, 255); }
+.color-seven, .color-seven svg, .color-seven text { color: rgb(248, 247, 255); }
+.size-small-200 { block-size: 1.25rem; inline-size: 1.25rem; border-radius: var(--t-border-radius-avatar,.25rem); }
+.size-small, .size-small-100 { block-size: 1.5rem; inline-size: 1.5rem; border-radius: var(--t-border-radius-avatar,.375rem); }
+.size-large, .size-large-100, .size-large-200 { block-size: 2rem; inline-size: 2rem; border-radius: var(--t-border-radius-avatar,.5rem); }
+.size-large-200 { block-size: 2.5rem; inline-size: 2.5rem; }

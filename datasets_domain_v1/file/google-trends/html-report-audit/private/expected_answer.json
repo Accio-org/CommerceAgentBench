@@ -1,0 +1,102 @@
+{
+  "task_id": "trends-html-report-audit",
+  "expected_total_findings": 10,
+  "expected_findings": [
+    {
+      "finding_id": 1,
+      "error_type": "arithmetic_error",
+      "section_id": "exec-summary",
+      "correct_value_kind": "number",
+      "correct_value": 38,
+      "tolerance": 0.5,
+      "context_hint": "drill Milwaukee 12-mo shopping avg"
+    },
+    {
+      "finding_id": 2,
+      "error_type": "channel_confusion",
+      "section_id": "drill-brand-ranking",
+      "correct_value_kind": "number",
+      "correct_value": 30.06,
+      "tolerance": 0.5,
+      "context_hint": "Dewalt drill 12-mo shopping (table shows web value)"
+    },
+    {
+      "finding_id": 3,
+      "error_type": "rank_error",
+      "section_id": "earbuds-rank",
+      "correct_value_kind": "string",
+      "correct_value": [
+        "bose",
+        "bose quietcomfort earbuds"
+      ],
+      "tolerance": null,
+      "context_hint": "earbuds #1 by shopping — read short brand label from PNG chart"
+    },
+    {
+      "finding_id": 4,
+      "error_type": "regional_count_error",
+      "section_id": "drill-regional",
+      "correct_value_kind": "number",
+      "correct_value": 41,
+      "tolerance": 1,
+      "context_hint": "states where Milwaukee leads in drill geo"
+    },
+    {
+      "finding_id": 5,
+      "error_type": "partial_data_unfiltered",
+      "section_id": "drill-q4-trend",
+      "correct_value_kind": "number",
+      "correct_value": 57.15,
+      "tolerance": 0.8,
+      "context_hint": "drill Milwaukee Q4 partial-filtered"
+    },
+    {
+      "finding_id": 6,
+      "error_type": "arithmetic_error",
+      "section_id": "coffee-snapshot",
+      "correct_value_kind": "number",
+      "correct_value": 12.6,
+      "tolerance": 0.5,
+      "context_hint": "coffee Breville 12-mo shopping avg"
+    },
+    {
+      "finding_id": 7,
+      "error_type": "regional_count_error",
+      "section_id": "speaker-regional",
+      "correct_value_kind": "number",
+      "correct_value": 22,
+      "tolerance": 1,
+      "context_hint": "states where Echo Dot leads in speaker geo"
+    },
+    {
+      "finding_id": 8,
+      "error_type": "partial_data_unfiltered",
+      "section_id": "vacuum-q4-trend",
+      "correct_value_kind": "number",
+      "correct_value": 48.92,
+      "tolerance": 0.8,
+      "context_hint": "vacuum Dyson Q4 partial-filtered"
+    },
+    {
+      "finding_id": 9,
+      "error_type": "channel_confusion",
+      "section_id": "speaker-channel",
+      "correct_value_kind": "number",
+      "correct_value": 16.67,
+      "tolerance": 0.5,
+      "context_hint": "speaker Echo Dot 12-mo SHOPPING (text cites shopping but value shown is web)"
+    },
+    {
+      "finding_id": 10,
+      "error_type": "rank_error",
+      "section_id": "mattress-rank",
+      "correct_value_kind": "string",
+      "correct_value": [
+        "purple",
+        "purple mattress"
+      ],
+      "tolerance": null,
+      "context_hint": "mattress #1 by shopping — read short brand label from PNG chart"
+    }
+  ]
+}

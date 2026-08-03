@@ -1,0 +1,73 @@
+{
+  "expected_fields": {
+    "category": "Sports & Entertainment > Fitness & Body Building > Yoga > Yoga Mats",
+    "saleMode": "Domestic Shipping",
+    "productTitle": "Custom Logo TPE Yoga Mat 6mm Non-Slip Eco-Friendly Exercise Mat Double Layer Fitness Pilates Mat with Carrying Strap",
+    "keyword_1": "TPE yoga mat non-slip",
+    "keyword_2": "eco-friendly exercise mat",
+    "keyword_3": "pilates mat with strap",
+    "productGroup": "Sports & Fitness",
+    "attr_usage": "Yoga / Pilates / Fitness",
+    "attr_productType": "TPE Yoga Mat",
+    "attr_instructions": "Lay flat on a level surface; avoid contact with sharp objects; roll up for storage after use",
+    "attr_brand": "XinYoga",
+    "attr_model": "XY-TPE-PRO6",
+    "attr_material": [
+      "TPE",
+      "100% TPE",
+      "100% TPE (SGS certified; no PVC; no latex)",
+      "TPE (Thermoplastic Elastomer)"
+    ],
+    "attr_diameter": [
+      "Approx 15cm",
+      "approx 15cm",
+      "Rolled diameter approx 15cm",
+      "15cm"
+    ],
+    "attr_shape": "Rectangular",
+    "saleType": "Per Piece",
+    "priceUnit": "Piece",
+    "priceMode": "ladder",
+    "fobType": "FOB Shanghai",
+    "fobPriceMin": "6.81",
+    "fobPriceMax": "9.32",
+    "minOrderQuantity": "100",
+    "inventory": "60000",
+    "productVisible": "no",
+    "descType": "custom",
+    "agreement": "true",
+    "selectedCountries": "[{\"code\": \"US\", \"name\": \"United States\"}, {\"code\": \"CA\", \"name\": \"Canada\"}, {\"code\": \"UK\", \"name\": \"United Kingdom\"}, {\"code\": \"DE\", \"name\": \"Germany\"}, {\"code\": \"FR\", \"name\": \"France\"}, {\"code\": \"JP\", \"name\": \"Japan\"}, {\"code\": \"AU\", \"name\": \"Australia\"}]",
+    "ladderPrice": "[{\"quantity\": \"100-499\", \"price\": \"9.32\"}, {\"quantity\": \"500-1999\", \"price\": \"8.25\"}, {\"quantity\": \"2000-4999\", \"price\": \"7.53\"}, {\"quantity\": \"5000+\", \"price\": \"6.81\"}]",
+    "deliveryPeriod": "[{\"quantity\": \"100-500\", \"days\": \"15\"}, {\"quantity\": \"501-2000\", \"days\": \"25\"}, {\"quantity\": \"2001-5000\", \"days\": \"35\"}]",
+    "countryPriceDiff": "{\"mode\": \"percent\", \"prices\": {\"US\": [\"0\", \"0\", \"0\", \"0\"], \"CA\": [\"0\", \"0\", \"0\", \"0\"], \"UK\": [\"6\", \"6\", \"6\", \"6\"], \"DE\": [\"6\", \"6\", \"6\", \"6\"], \"FR\": [\"6\", \"6\", \"6\", \"6\"], \"JP\": [\"10\", \"10\", \"10\", \"10\"], \"AU\": [\"8\", \"8\", \"8\", \"8\"]}}"
+  },
+  "required_files": [
+    "image_1"
+  ],
+  "json_fields": [
+    "countryPriceDiff",
+    "deliveryPeriod",
+    "ladderPrice",
+    "selectedCountries"
+  ],
+  "image_selection": {
+    "correct_files": [
+      "DSC_0421.jpg",
+      "DSC_0422.jpg",
+      "DSC_0423.jpg",
+      "DSC_0424.jpg",
+      "DSC_0425.jpg",
+      "DSC_0426.jpg"
+    ],
+    "wrong_files": [
+      "DSC_0427.jpg",
+      "DSC_0428.jpg",
+      "DSC_0429.jpg"
+    ],
+    "duplicate_files": [
+      "DSC_0430.jpg"
+    ],
+    "note": "DSC_0421-0426 are yoga mats. DSC_0427 is a cork yoga block, DSC_0428 is resistance bands, DSC_0429 is a foam yoga block. DSC_0430 is a duplicate of DSC_0421. Agent must view images to distinguish — filenames give no hint."
+  },
+  "notes": "Each each expected_fields entry as one atomic deterministic_exact check (json_fields use deep-equal), plus structural checks (session_exists, session_state_readable, session_submitted, mock_submit_via_legitimate_path, image uploads). No fake-LLM-judge or hidden-trap mechanics; the expected_fields entries are the only ground truth."
+}

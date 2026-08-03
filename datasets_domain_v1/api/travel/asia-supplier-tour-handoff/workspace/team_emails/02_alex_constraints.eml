@@ -1,0 +1,34 @@
+From: Alex Chen <alex.chen@helios-sourcing.com>
+To: priyanka.mehta@helios-sourcing.com
+Cc: audit-review@helios-sourcing.com
+Subject: Re: Asia supplier tour =?utf-8?b?4oCU?= team preferences
+Date: Tue, 08 Sep 2026 15:42:00 +0800
+Message-ID: <177961500456.18492.10869984016629426251@helios-sourcing.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Priyanka,
+
+Quick rundown on team prefs for the Asia tour:
+
+- I'll handle all client-facing meetings; everyone else can stay back at
+  the hotel for prep on transit days.
+- Bob is gluten-free but very flexible; he says he can usually find
+  options in any city. No need to filter hotels for this.
+- Tom and Priya =E2=80=94 no specific prefs on either side; happy with whatev=
+er
+  the rest of the team picks.
+
+I'll route any other prefs through email if they come up. Looking forward
+to it.
+
+Cheers,
+Alex
+---
+Alex Chen | Sales Lead, APAC | Helios Sourcing Group
+alex.chen@helios-sourcing.com | +1 (650) 555-0287
+Note: Sarah Goldberg (joining as Senior AM on this trip) uses a wheelchair.
+Coordinator should flag any property without explicit wheelchair access
+in the SerpAPI `amenities` array, and avoid any property listed as "Not
+wheelchair accessible" in `excluded_amenities`.

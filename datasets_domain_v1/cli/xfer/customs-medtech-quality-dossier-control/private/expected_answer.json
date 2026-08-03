@@ -1,0 +1,267 @@
+{
+  "spreadsheet_id": "sheet-supplier-eval-003",
+  "spreadsheet_title": "Medtech Quality Dossier Control - 2026-Q2",
+  "sheet_title": "Medtech Quality Control",
+  "trace_sheet_title": "Medtech Trace Map",
+  "sheet_headers": [
+    "Supplier",
+    "Severity",
+    "Shipments",
+    "Total USD",
+    "Destination Count",
+    "HS Count",
+    "Top Market",
+    "Owner",
+    "Jira Task Key",
+    "DWS Report ID"
+  ],
+  "trace_headers": [
+    "Supplier",
+    "Jira Task Key",
+    "DWS Report ID",
+    "Severity",
+    "Owner",
+    "Total USD"
+  ],
+  "presentation_id": "pres-launch-101",
+  "presentation_title": "Medtech Quality Dossier Control Brief - 2026-Q2",
+  "presentation_terms": [
+    "Medtech Quality Dossier Control",
+    "Medtech Export Quality Dossier - 2026-Q2"
+  ],
+  "presentation_labeled_counts": [
+    [
+      "Supplier",
+      19
+    ],
+    [
+      "Critical",
+      14
+    ],
+    [
+      "High",
+      5
+    ]
+  ],
+  "jira_project": "PROJ",
+  "jira_epic_summary": "Medtech Export Quality Dossier - 2026-Q2",
+  "fixed_label": "medtech-quality",
+  "dws_folder_name": "Medtech Quality Dossiers - 2026-Q2",
+  "dws_permission_user": "qa-reviewer@example.com",
+  "source_files": [
+    "medical_ultrasound.csv",
+    "medical_xray_ct_24.csv",
+    "medical_xray_ct_25.csv"
+  ],
+  "in_scope": [
+    {
+      "supplier": "MR GLOBAL HK LIMITED",
+      "owner": "Mina Chen",
+      "severity": "Critical",
+      "total_shipments": 422,
+      "total_usd": 15345262.68,
+      "destination_count": 11,
+      "hs_count": 9,
+      "top_market": "印度",
+      "top_hs": "90181290"
+    },
+    {
+      "supplier": "GE HUALUN MEDICAL SYSTEMS CO LTD",
+      "owner": "Oscar Li",
+      "severity": "Critical",
+      "total_shipments": 267,
+      "total_usd": 16160941.59,
+      "destination_count": 5,
+      "hs_count": 7,
+      "top_market": "墨西哥",
+      "top_hs": "9022149101"
+    },
+    {
+      "supplier": "CARESTREAM HEALTH HK HOLDING LTD",
+      "owner": "Priya Raman",
+      "severity": "Critical",
+      "total_shipments": 161,
+      "total_usd": 510085.6,
+      "destination_count": 2,
+      "hs_count": 2,
+      "top_market": "印度",
+      "top_hs": "90221490"
+    },
+    {
+      "supplier": "CHISON MEDICAL TECHNOLOGIES CO LTD",
+      "owner": "Ethan Zhou",
+      "severity": "Critical",
+      "total_shipments": 150,
+      "total_usd": 2945448.96,
+      "destination_count": 4,
+      "hs_count": 3,
+      "top_market": "越南",
+      "top_hs": "90181200"
+    },
+    {
+      "supplier": "SHANGHAI CHANNELMED IMPORT & EXPORT CO LTD",
+      "owner": "Lena Ortiz",
+      "severity": "Critical",
+      "total_shipments": 149,
+      "total_usd": 209889.32,
+      "destination_count": 1,
+      "hs_count": 1,
+      "top_market": "加纳",
+      "top_hs": "9022140000"
+    },
+    {
+      "supplier": "SONOSCAPE MEDICAL CORP",
+      "owner": "Noah Wang",
+      "severity": "Critical",
+      "total_shipments": 131,
+      "total_usd": 2473614.66,
+      "destination_count": 5,
+      "hs_count": 4,
+      "top_market": "越南",
+      "top_hs": "90181200"
+    },
+    {
+      "supplier": "SHENZHEN BROWINER TECH CO LTD",
+      "owner": "Sara Kim",
+      "severity": "Critical",
+      "total_shipments": 120,
+      "total_usd": 4783352.87,
+      "destination_count": 21,
+      "hs_count": 7,
+      "top_market": "乌兹别克斯坦",
+      "top_hs": "9022140000"
+    },
+    {
+      "supplier": "SIEMENS HEALTHINEERS AG",
+      "owner": "Victor Lin",
+      "severity": "Critical",
+      "total_shipments": 100,
+      "total_usd": 18109256.07,
+      "destination_count": 9,
+      "hs_count": 5,
+      "top_market": "印度",
+      "top_hs": "90221490"
+    },
+    {
+      "supplier": "FUJIFILM CORPORATION",
+      "owner": "Ava Patel",
+      "severity": "High",
+      "total_shipments": 76,
+      "total_usd": 2509486.45,
+      "destination_count": 1,
+      "hs_count": 1,
+      "top_market": "巴基斯坦",
+      "top_hs": "90221400"
+    },
+    {
+      "supplier": "PHILIPS ELECTRONICS SINGAPORE PTE LTD",
+      "owner": "Hugo Martinez",
+      "severity": "High",
+      "total_shipments": 74,
+      "total_usd": 202504.83,
+      "destination_count": 2,
+      "hs_count": 3,
+      "top_market": "印度",
+      "top_hs": "90221490"
+    },
+    {
+      "supplier": "NANJING PERLOVE MEDICAL EQUIPMENT CO LTD",
+      "owner": "Ivy Tan",
+      "severity": "Critical",
+      "total_shipments": 58,
+      "total_usd": 2689490.61,
+      "destination_count": 18,
+      "hs_count": 5,
+      "top_market": "Kazakhstan",
+      "top_hs": "9022140000"
+    },
+    {
+      "supplier": "EDAN INSTRUMENTS INC",
+      "owner": "Caleb Wu",
+      "severity": "High",
+      "total_shipments": 57,
+      "total_usd": 708032.11,
+      "destination_count": 1,
+      "hs_count": 1,
+      "top_market": "印度",
+      "top_hs": "90181290"
+    },
+    {
+      "supplier": "SHENZHEN LANMAGE MEDICAL TECHNOLOGY CO LTD",
+      "owner": "Nora Singh",
+      "severity": "Critical",
+      "total_shipments": 49,
+      "total_usd": 2061036.99,
+      "destination_count": 16,
+      "hs_count": 7,
+      "top_market": "乌克兰",
+      "top_hs": "9022140000"
+    },
+    {
+      "supplier": "BEIJING WANDONG MEDICAL TECHNOLOGY CO LTD",
+      "owner": "Felix Gao",
+      "severity": "High",
+      "total_shipments": 48,
+      "total_usd": 4552589.94,
+      "destination_count": 8,
+      "hs_count": 4,
+      "top_market": "乌兹别克斯坦",
+      "top_hs": "9022140000"
+    },
+    {
+      "supplier": "BEIJING GE HUALUN MEDICAL EQUIPMENT CO LTD",
+      "owner": "Olivia Reyes",
+      "severity": "Critical",
+      "total_shipments": 44,
+      "total_usd": 17008446.44,
+      "destination_count": 5,
+      "hs_count": 5,
+      "top_market": "印度",
+      "top_hs": "9022140000"
+    },
+    {
+      "supplier": "SHENZHEN ANGELL TECHNOLOGY CO LTD",
+      "owner": "Marcus Shen",
+      "severity": "High",
+      "total_shipments": 41,
+      "total_usd": 2905563.92,
+      "destination_count": 8,
+      "hs_count": 5,
+      "top_market": "乌兹别克斯坦",
+      "top_hs": "9022140000"
+    },
+    {
+      "supplier": "SIEMENS HEALTHINEERS INTERNATIONAL AG",
+      "owner": "Tara Ahmed",
+      "severity": "Critical",
+      "total_shipments": 39,
+      "total_usd": 39142630.48,
+      "destination_count": 2,
+      "hs_count": 2,
+      "top_market": "印度",
+      "top_hs": "90221490"
+    },
+    {
+      "supplier": "NEUSOFT MEDICAL SYSTEMS CO LTD",
+      "owner": "Leo Huang",
+      "severity": "Critical",
+      "total_shipments": 38,
+      "total_usd": 3543397.14,
+      "destination_count": 10,
+      "hs_count": 6,
+      "top_market": "印度",
+      "top_hs": "90221410"
+    },
+    {
+      "supplier": "SHENZHEN SONTU MEDICAL IMAGING EQUIPMENT CO LTD",
+      "owner": "Grace Park",
+      "severity": "Critical",
+      "total_shipments": 36,
+      "total_usd": 1765020.92,
+      "destination_count": 12,
+      "hs_count": 5,
+      "top_market": "Russia",
+      "top_hs": "9022140000"
+    }
+  ]
+}

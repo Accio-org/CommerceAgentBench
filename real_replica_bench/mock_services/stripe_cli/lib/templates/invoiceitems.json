@@ -1,0 +1,33 @@
+{
+  "id": "ii_1TcR6uCLKuX79GC2Vq6TYpP4",
+  "object": "invoiceitem",
+  "amount": 1200,
+  "currency": "usd",
+  "customer": "cus_UbePEdrsMZ2Tmr",
+  "customer_account": null,
+  "date": 1780063804,
+  "description": null,
+  "discountable": true,
+  "discounts": [],
+  "invoice": null,
+  "livemode": false,
+  "metadata": {},
+  "parent": null,
+  "period": {
+    "end": 1780063804,
+    "start": 1780063804
+  },
+  "pricing": {
+    "price_details": {
+      "price": "price_1TcR6uCLKuX79GC2J8IhDZ4T",
+      "product": "prod_UbePPV64NBqFxR"
+    },
+    "type": "price_details",
+    "unit_amount_decimal": "1200"
+  },
+  "proration": false,
+  "quantity": 1,
+  "quantity_decimal": "1",
+  "tax_rates": [],
+  "test_clock": null
+}

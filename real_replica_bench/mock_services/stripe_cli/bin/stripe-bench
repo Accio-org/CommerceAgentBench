@@ -1,0 +1,84 @@
+#!/usr/bin/env bun
+/**
+ * bin/stripe-bench — 验证控制台，供评测 harness 检视 mock 状态。
+ *   stripe-bench health                Health check
+ *   stripe-bench state  --token <T>    Dump 全部对象/配置为 JSON
+ *   stripe-bench reset  --token <T>    清库
+ *   stripe-bench audit  --token <T>    Dump 审计日志
+ */
+import { getDb } from "../lib/db.js";
+import { seedDefaults, seedFromFile } from "../lib/seed.js";
+import { existsSync } from "node:fs";
+import { writeSync as __ccbWriteSyncFd } from "node:fs";
+// Flush-safe stdout: process.exit() discards un-flushed async pipe writes
+// (verifier state JSON >64KB was truncated through the daemon). writeSync
+// to fd 1 is synchronous in both node and bun.
+const __ccbOut = (s) => { try { __ccbWriteSyncFd(1, s); } catch (e) {} };
+
+const VERIFIER_TOKEN = process.env.MOCK_VERIFIER_TOKEN || "bench-verifier";
+
+function main() {
+  const args = process.argv.slice(2);
+  const command = args[0];
+
+  if (command === "health") {
+    const db = getDb();
+    const n = db.prepare("SELECT COUNT(*) AS n FROM objects").get().n;
+    __ccbOut(JSON.stringify({ status: "ok", objects: n }, null, 2) + "\n");
+    return;
+  }
+
+  const tokenIdx = args.indexOf("--token");
+  const token = tokenIdx >= 0 ? args[tokenIdx + 1] : null;
+  const internalToken = process.env.CCB_INTERNAL_BENCH_TOKEN || "";
+  if (internalToken !== VERIFIER_TOKEN && (!token || token !== VERIFIER_TOKEN)) {
+    process.stderr.write("Error: invalid or missing --token\n");
+    process.exit(1);
+  }
+
+  const db = getDb();
+  switch (command) {
+    case "state": {
+      const objects = db.prepare("SELECT id, object, resource, created, deleted, data_json FROM objects ORDER BY created, id").all()
+        .map((r) => ({ ...r, deleted: !!r.deleted, data: JSON.parse(r.data_json), data_json: undefined }));
+      const config = db.prepare("SELECT profile, key, value FROM config ORDER BY profile, key").all();
+      __ccbOut(JSON.stringify({ objects, config }, null, 2) + "\n");
+      return;
+    }
+    case "reset": {
+      db.exec("DELETE FROM objects; DELETE FROM config; DELETE FROM audit_log;");
+      __ccbOut(JSON.stringify({ status: "ok", message: "reset" }, null, 2) + "\n");
+      return;
+    }
+    case "seed": {
+      const fileIdx = args.indexOf("--file");
+      const seedFile = fileIdx >= 0 ? args[fileIdx + 1] : null;
+      let counts;
+      if (seedFile) {
+        if (!existsSync(seedFile)) {
+          process.stderr.write(`Seed file not found: ${seedFile}\n`);
+          process.exit(2);
+        }
+        counts = seedFromFile(db, seedFile);
+      } else {
+        counts = seedDefaults(db);
+      }
+      __ccbOut(JSON.stringify({ status: "ok", seeded: counts }, null, 2) + "\n");
+      return;
+    }
+    case "audit": {
+      const rows = db.prepare("SELECT * FROM audit_log ORDER BY id").all().map((r) => ({
+        ...r,
+        details: JSON.parse(r.details_json || "{}"),
+        details_json: undefined,
+      }));
+      __ccbOut(JSON.stringify(rows, null, 2) + "\n");
+      return;
+    }
+    default:
+      process.stderr.write(`Unknown command: ${command || "(none)"}\nUsage: stripe-bench {health|state|seed|reset|audit} [--token T] [--file <path>]\n`);
+      process.exit(1);
+  }
+}
+
+main();

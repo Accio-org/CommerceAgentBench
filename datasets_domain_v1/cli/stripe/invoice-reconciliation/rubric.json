@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "minimum_pass_score": 1.0,
+  "criteria": [
+    {
+      "id": "setup_gate",
+      "weight": 0.05,
+      "description": "Environment ready: stripe mock reachable and state loaded."
+    },
+    {
+      "id": "new_customer_provisioned",
+      "weight": 0.10,
+      "description": "Summit Trail Direct recognized as a new account and created before invoicing."
+    },
+    {
+      "id": "customer_descriptions",
+      "weight": 0.15,
+      "description": "Customer description fields updated with the account status notes from the ledger."
+    },
+    {
+      "id": "invoice_line_items",
+      "weight": 0.30,
+      "description": "All 11 invoice line items created with the correct customer and amount (cents)."
+    },
+    {
+      "id": "adjustments_correct",
+      "weight": 0.15,
+      "description": "Both real-world adjustments applied (tent stakes short-ship credit, sleeping bag QC rejection) and the unadjusted amounts are absent."
+    },
+    {
+      "id": "invoices_created",
+      "weight": 0.10,
+      "description": "4 invoices created, one per customer/account group."
+    },
+    {
+      "id": "reconciliation_output",
+      "weight": 0.15,
+      "description": "outputs/reconciliation.json exists with correct total_invoiced_cents, invoice_count, and line_item_count."
+    }
+  ]
+}

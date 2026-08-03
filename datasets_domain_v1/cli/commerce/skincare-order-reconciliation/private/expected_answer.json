@@ -1,0 +1,358 @@
+{
+  "unified_orders": {
+    "total_rows": 75,
+    "columns": [
+      "order_id",
+      "platform",
+      "internal_sku",
+      "product_name",
+      "qty",
+      "paid_amount",
+      "order_date",
+      "status"
+    ],
+    "status_counts": {
+      "completed": 60,
+      "cancelled": 9,
+      "refunded": 6
+    },
+    "pdd_unique_count": 20,
+    "legacy_sku_order_id": "TM-20260601-016",
+    "legacy_sku_mapped_to": "LC-HEM-01",
+    "sample_rows": {
+      "TM-20260601-016": {
+        "platform": "tmall",
+        "internal_sku": "LC-HEM-01",
+        "qty": 1,
+        "paid_amount": 128.0,
+        "order_date": "2026-06-11",
+        "status": "completed"
+      },
+      "JD-2026060103": {
+        "platform": "jd",
+        "internal_sku": "LC-REC-03",
+        "qty": 1,
+        "paid_amount": 255.0,
+        "order_date": "2026-06-03",
+        "status": "completed"
+      },
+      "PDD20260601004": {
+        "platform": "pdd",
+        "internal_sku": "LC-UVS-04",
+        "qty": 3,
+        "paid_amount": 207.0,
+        "order_date": "2026-06-04",
+        "status": "completed"
+      }
+    },
+    "duplicate_order_ids": [
+      "PDD20260601003",
+      "PDD20260601010"
+    ]
+  },
+  "exceptions": {
+    "fulfillment_exceptions": [
+      {
+        "order_id": "JD-2026060114",
+        "platform": "jd",
+        "type": "partial",
+        "ordered_qty": 3,
+        "shipped_qty": 2
+      },
+      {
+        "order_id": "JD-2026060119",
+        "platform": "jd",
+        "type": "unshipped",
+        "ordered_qty": 1,
+        "shipped_qty": 0
+      },
+      {
+        "order_id": "PDD20260601004",
+        "platform": "pdd",
+        "type": "over_shipped",
+        "ordered_qty": 3,
+        "shipped_qty": 4
+      },
+      {
+        "order_id": "PDD20260601017",
+        "platform": "pdd",
+        "type": "unshipped",
+        "ordered_qty": 1,
+        "shipped_qty": 0
+      },
+      {
+        "order_id": "TM-20260601-013",
+        "platform": "tmall",
+        "type": "partial",
+        "ordered_qty": 2,
+        "shipped_qty": 1
+      },
+      {
+        "order_id": "TM-20260601-020",
+        "platform": "tmall",
+        "type": "unshipped",
+        "ordered_qty": 3,
+        "shipped_qty": 0
+      }
+    ],
+    "settlement_discrepancies": [
+      {
+        "platform": "jd",
+        "expected_settlement": "3550.28",
+        "actual_settlement": "3784.88",
+        "difference": "+234.60"
+      }
+    ],
+    "data_quality_issues": [
+      {
+        "type": "duplicate_order",
+        "order_ids": [
+          "PDD20260601003",
+          "PDD20260601010"
+        ],
+        "resolution": "deduplicated"
+      },
+      {
+        "type": "legacy_sku",
+        "order_id": "TM-20260601-016",
+        "old_sku": "tmall_lc_hm01",
+        "new_sku": "tmall_lc_hem01",
+        "internal_sku": "LC-HEM-01",
+        "resolution": "remapped"
+      }
+    ]
+  },
+  "sku_performance": [
+    {
+      "internal_sku": "LC-BRC-02",
+      "platform": "jd",
+      "units_sold": 6,
+      "gross_revenue": "990.00",
+      "cogs": "210.00",
+      "commission": "79.20",
+      "net_profit": "700.80",
+      "margin_pct": "70.8"
+    },
+    {
+      "internal_sku": "LC-BRC-02",
+      "platform": "pdd",
+      "units_sold": 4,
+      "gross_revenue": "556.00",
+      "cogs": "140.00",
+      "commission": "11.12",
+      "net_profit": "404.88",
+      "margin_pct": "72.8"
+    },
+    {
+      "internal_sku": "LC-BRC-02",
+      "platform": "tmall",
+      "units_sold": 9,
+      "gross_revenue": "1512.00",
+      "cogs": "315.00",
+      "commission": "75.60",
+      "net_profit": "1121.40",
+      "margin_pct": "74.2"
+    },
+    {
+      "internal_sku": "LC-GCW-05",
+      "platform": "jd",
+      "units_sold": 9,
+      "gross_revenue": "504.00",
+      "cogs": "108.00",
+      "commission": "40.32",
+      "net_profit": "355.68",
+      "margin_pct": "70.6"
+    },
+    {
+      "internal_sku": "LC-GCW-05",
+      "platform": "pdd",
+      "units_sold": 7,
+      "gross_revenue": "315.00",
+      "cogs": "84.00",
+      "commission": "6.30",
+      "net_profit": "224.70",
+      "margin_pct": "71.3"
+    },
+    {
+      "internal_sku": "LC-GCW-05",
+      "platform": "tmall",
+      "units_sold": 13,
+      "gross_revenue": "767.00",
+      "cogs": "156.00",
+      "commission": "38.35",
+      "net_profit": "572.65",
+      "margin_pct": "74.7"
+    },
+    {
+      "internal_sku": "LC-HEM-01",
+      "platform": "jd",
+      "units_sold": 6,
+      "gross_revenue": "750.00",
+      "cogs": "168.00",
+      "commission": "60.00",
+      "net_profit": "522.00",
+      "margin_pct": "69.6"
+    },
+    {
+      "internal_sku": "LC-HEM-01",
+      "platform": "pdd",
+      "units_sold": 5,
+      "gross_revenue": "495.00",
+      "cogs": "140.00",
+      "commission": "9.90",
+      "net_profit": "345.10",
+      "margin_pct": "69.7"
+    },
+    {
+      "internal_sku": "LC-HEM-01",
+      "platform": "tmall",
+      "units_sold": 7,
+      "gross_revenue": "896.00",
+      "cogs": "196.00",
+      "commission": "44.80",
+      "net_profit": "655.20",
+      "margin_pct": "73.1"
+    },
+    {
+      "internal_sku": "LC-REC-03",
+      "platform": "jd",
+      "units_sold": 4,
+      "gross_revenue": "1020.00",
+      "cogs": "168.00",
+      "commission": "81.60",
+      "net_profit": "770.40",
+      "margin_pct": "75.5"
+    },
+    {
+      "internal_sku": "LC-REC-03",
+      "platform": "pdd",
+      "units_sold": 3,
+      "gross_revenue": "654.00",
+      "cogs": "126.00",
+      "commission": "13.08",
+      "net_profit": "514.92",
+      "margin_pct": "78.7"
+    },
+    {
+      "internal_sku": "LC-REC-03",
+      "platform": "tmall",
+      "units_sold": 5,
+      "gross_revenue": "1290.00",
+      "cogs": "210.00",
+      "commission": "64.50",
+      "net_profit": "1015.50",
+      "margin_pct": "78.7"
+    },
+    {
+      "internal_sku": "LC-UVS-04",
+      "platform": "jd",
+      "units_sold": 7,
+      "gross_revenue": "595.00",
+      "cogs": "126.00",
+      "commission": "47.60",
+      "net_profit": "421.40",
+      "margin_pct": "70.8"
+    },
+    {
+      "internal_sku": "LC-UVS-04",
+      "platform": "pdd",
+      "units_sold": 5,
+      "gross_revenue": "345.00",
+      "cogs": "90.00",
+      "commission": "6.90",
+      "net_profit": "248.10",
+      "margin_pct": "71.9"
+    },
+    {
+      "internal_sku": "LC-UVS-04",
+      "platform": "tmall",
+      "units_sold": 11,
+      "gross_revenue": "979.00",
+      "cogs": "198.00",
+      "commission": "48.95",
+      "net_profit": "732.05",
+      "margin_pct": "74.8"
+    }
+  ],
+  "monthly_summary": {
+    "period": "2026-06",
+    "total_orders": 75,
+    "completed_orders": 60,
+    "cancelled_orders": 9,
+    "refunded_orders": 6,
+    "total_revenue": "11668.00",
+    "total_cogs": "2435.00",
+    "total_commission": "628.22",
+    "net_profit": "8604.78",
+    "overall_margin_pct": "73.7",
+    "best_sku": {
+      "sku": "LC-REC-03",
+      "net_profit": "2300.82"
+    },
+    "worst_sku": {
+      "sku": "LC-GCW-05",
+      "net_profit": "1153.03"
+    },
+    "platform_breakdown": {
+      "tmall": {
+        "orders": 25,
+        "revenue": "5444.00",
+        "commission": "272.20"
+      },
+      "jd": {
+        "orders": 20,
+        "revenue": "3859.00",
+        "commission": "308.72"
+      },
+      "pdd": {
+        "orders": 15,
+        "revenue": "2365.00",
+        "commission": "47.30"
+      }
+    },
+    "fulfillment_exception_count": 6,
+    "settlement_discrepancy_count": 1
+  },
+  "inventory_reconciliation": {
+    "LC-BRC-02": {
+      "opening": 400,
+      "received": 150,
+      "shipped": 18,
+      "expected_closing": 532,
+      "actual_closing": 532,
+      "discrepancy": 0
+    },
+    "LC-GCW-05": {
+      "opening": 800,
+      "received": 300,
+      "shipped": 26,
+      "expected_closing": 1074,
+      "actual_closing": 1074,
+      "discrepancy": 0
+    },
+    "LC-HEM-01": {
+      "opening": 500,
+      "received": 300,
+      "shipped": 18,
+      "expected_closing": 782,
+      "actual_closing": 780,
+      "discrepancy": -2
+    },
+    "LC-REC-03": {
+      "opening": 300,
+      "received": 100,
+      "shipped": 11,
+      "expected_closing": 389,
+      "actual_closing": 389,
+      "discrepancy": 0
+    },
+    "LC-UVS-04": {
+      "opening": 600,
+      "received": 200,
+      "shipped": 22,
+      "expected_closing": 778,
+      "actual_closing": 779,
+      "discrepancy": 1
+    }
+  }
+}

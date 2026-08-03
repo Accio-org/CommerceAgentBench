@@ -1,0 +1,1380 @@
+{
+  "project": "Project Atlas",
+  "product": "anodized aluminum laptop stand",
+  "final_spec_finish": "matte black anodized",
+  "final_material": "6061-T6",
+  "final_quantity": 2800,
+  "kickoff_date": "2026-06-15",
+  "po_date": "2026-06-22",
+  "in_dc_date_initial": "2026-08-24",
+  "in_dc_date_final": "2026-08-17",
+  "allowed_lead_days": 56,
+  "allowed_lead_days_tolerance": 0,
+  "required_cert": "ISO 9001",
+  "required_warranty_months": 24,
+  "chosen_supplier": "Meridian Aluminum Industries",
+  "chosen_supplier_email": "quotes@meridian-alu.com",
+  "chosen_supplier_domain": "meridian-alu.com",
+  "chosen_supplier_token": "meridian",
+  "chosen_quote_message_id": "msg-0086",
+  "landed_cost_usd": 17.24,
+  "landed_cost_tolerance": 0.05,
+  "runner_up_supplier": "Apex Metalcraft Co.",
+  "runner_up_supplier_email": "sales@apexmetalcraft.com",
+  "runner_up_supplier_token": "apex",
+  "runner_up_landed_cost_usd": 17.34,
+  "disqualified": {
+    "Crestline Fabrication": "spec",
+    "Crestline Castings": "moq",
+    "Vanguard Extrusions": "certification",
+    "Vanguard Tooling": "warranty",
+    "Harborline Metalworks": "payment_terms",
+    "Harborline Stampworks": "moq",
+    "Delta Formworks": "moq",
+    "Delta Castworks": "spec",
+    "Brookfield Stamping": "spec",
+    "Orion Alloys": "certification",
+    "Tanaka Precision Co.": "lead_time",
+    "Saito Industrial": "lead_time",
+    "Pinnacle Anodizing": "payment_terms",
+    "Westgate Anodizers": "warranty",
+    "Riverton Alloys": "warranty"
+  },
+  "disqualified_tokens": {
+    "fabrication": "spec",
+    "castings": "moq",
+    "extrusions": "certification",
+    "tooling": "warranty",
+    "metalworks": "payment_terms",
+    "stampworks": "moq",
+    "formworks": "moq",
+    "castworks": "spec",
+    "brookfield": "spec",
+    "orion": "certification",
+    "tanaka": "lead_time",
+    "saito": "lead_time",
+    "pinnacle": "payment_terms",
+    "westgate": "warranty",
+    "riverton": "warranty"
+  },
+  "supplier_name_to_token": {
+    "Meridian Aluminum Industries": "meridian",
+    "Apex Metalcraft Co.": "apex",
+    "Lumen Alloy Works": "lumen",
+    "Brightforge Metals Ltd": "brightforge",
+    "Castle Metal Co.": "castle",
+    "Crestline Fabrication": "fabrication",
+    "Crestline Castings": "castings",
+    "Vanguard Extrusions": "extrusions",
+    "Vanguard Tooling": "tooling",
+    "Harborline Metalworks": "metalworks",
+    "Harborline Stampworks": "stampworks",
+    "Delta Formworks": "formworks",
+    "Delta Castworks": "castworks",
+    "Brookfield Stamping": "brookfield",
+    "Orion Alloys": "orion",
+    "Tanaka Precision Co.": "tanaka",
+    "Saito Industrial": "saito",
+    "Pinnacle Anodizing": "pinnacle",
+    "Westgate Anodizers": "westgate",
+    "Riverton Alloys": "riverton"
+  },
+  "alias_token_to_canon": {
+    "meridian": "meridian",
+    "meridian aluminum industries": "meridian",
+    "meridian aluminium industries co ltd": "meridian",
+    "apex": "apex",
+    "apex metalcraft co": "apex",
+    "apex metalcraft manufacturing co ltd": "apex",
+    "lumen": "lumen",
+    "lumen alloy works": "lumen",
+    "lumen alloy works sp z o o": "lumen",
+    "brightforge": "brightforge",
+    "brightforge metals ltd": "brightforge",
+    "brightforge metals limited": "brightforge",
+    "castle": "castle",
+    "castle metal co": "castle",
+    "castle metal industrial co ltd": "castle",
+    "fabrication": "fabrication",
+    "crestline fabrication": "fabrication",
+    "crestline fab industrial ltd": "fabrication",
+    "castings": "castings",
+    "crestline castings": "castings",
+    "crestline castings manufacturing ltd": "castings",
+    "tideway": "castings",
+    "tideway founders ltd": "castings",
+    "extrusions": "extrusions",
+    "vanguard extrusions": "extrusions",
+    "vanguard extrusion group plc": "extrusions",
+    "eastvale": "extrusions",
+    "eastvale profiles": "extrusions",
+    "tooling": "tooling",
+    "vanguard tooling": "tooling",
+    "vanguard tooling works co ltd": "tooling",
+    "forrester": "tooling",
+    "forrester machinery": "tooling",
+    "metalworks": "metalworks",
+    "harborline metalworks": "metalworks",
+    "harborline metal industries co ltd": "metalworks",
+    "quayside": "metalworks",
+    "quayside alloys ltd": "metalworks",
+    "stampworks": "stampworks",
+    "harborline stampworks": "stampworks",
+    "harborline stamping group ltd": "stampworks",
+    "cleave": "stampworks",
+    "cleave pressworks ltd": "stampworks",
+    "formworks": "formworks",
+    "delta formworks": "formworks",
+    "delta form industrial co ltd": "formworks",
+    "estuary": "formworks",
+    "estuary foundry": "formworks",
+    "castworks": "castworks",
+    "delta castworks": "castworks",
+    "delta cast holdings co ltd": "castworks",
+    "brookfield": "brookfield",
+    "brookfield stamping": "brookfield",
+    "brookfield pressing industrial co ltd": "brookfield",
+    "pressings": "brookfield",
+    "bfs metal pressings": "brookfield",
+    "orion": "orion",
+    "orion alloys": "orion",
+    "orion surface holdings co ltd": "orion",
+    "halcyon": "orion",
+    "halcyon surface tech": "orion",
+    "tanaka": "tanaka",
+    "tanaka precision co": "tanaka",
+    "tanaka seimitsu kk": "tanaka",
+    "naniwa": "tanaka",
+    "naniwa tekko kk": "tanaka",
+    "saito": "saito",
+    "saito industrial": "saito",
+    "saito industrial kk": "saito",
+    "kobe": "saito",
+    "kobe forge works": "saito",
+    "pinnacle": "pinnacle",
+    "pinnacle anodizing": "pinnacle",
+    "pinnacle anodizing industrial co ltd": "pinnacle",
+    "westgate": "westgate",
+    "westgate anodizers": "westgate",
+    "westgate surface treatment co ltd": "westgate",
+    "riverton": "riverton",
+    "riverton alloys": "riverton",
+    "riverton alloy industrial co ltd": "riverton"
+  },
+  "broker_tokens": [
+    "Eastlink Sourcing Agents"
+  ],
+  "lookalike_pairs": [
+    [
+      "fabrication",
+      "castings"
+    ],
+    [
+      "extrusions",
+      "tooling"
+    ],
+    [
+      "metalworks",
+      "stampworks"
+    ],
+    [
+      "formworks",
+      "castworks"
+    ]
+  ],
+  "colocated_pairs": [
+    [
+      "metalworks",
+      "stampworks"
+    ],
+    [
+      "formworks",
+      "castworks"
+    ]
+  ],
+  "flagged_email_ids": [
+    "msg-0007",
+    "msg-0014",
+    "msg-0008"
+  ],
+  "flagged_sender_emails": [
+    "ar.department@meridian-alu-billing.com",
+    "accounts@apex-metalcraft-billing.com",
+    "lumen.alloy.billing@gmail.com"
+  ],
+  "decoy_email_ids": [
+    "msg-0012",
+    "msg-0021",
+    "msg-0036",
+    "msg-0019"
+  ],
+  "labels": {
+    "rfq_decision": "RFQ-Decision",
+    "security_review": "Security-Review"
+  },
+  "cost_components": {
+    "origin_handling": 0.85,
+    "freight_tiers": [
+      {
+        "max_qty": 2000,
+        "per_unit": 2.9
+      },
+      {
+        "max_qty": 3000,
+        "per_unit": 2.5
+      },
+      {
+        "max_qty": 5000,
+        "per_unit": 2.2
+      },
+      {
+        "max_qty": null,
+        "per_unit": 1.95
+      }
+    ],
+    "freight_at_final_qty": 2.5,
+    "duty_rate": 0.045,
+    "destination": 1.15,
+    "fx": {
+      "USD": 1.0,
+      "EUR": 1.08,
+      "GBP": 1.27,
+      "JPY": 0.0067,
+      "CNY": 0.14
+    }
+  },
+  "incoterm_buyer_flow": {
+    "EXW": {
+      "origin": true,
+      "freight": true,
+      "duty": true,
+      "destination": true
+    },
+    "FOB": {
+      "origin": false,
+      "freight": true,
+      "duty": true,
+      "destination": true
+    },
+    "FCA": {
+      "origin": false,
+      "freight": true,
+      "duty": true,
+      "destination": true
+    },
+    "CIF": {
+      "origin": false,
+      "freight": false,
+      "duty": true,
+      "destination": true
+    },
+    "CIP": {
+      "origin": false,
+      "freight": false,
+      "duty": true,
+      "destination": true
+    },
+    "DDP": {
+      "origin": false,
+      "freight": false,
+      "duty": false,
+      "destination": false
+    }
+  },
+  "supplier_analysis": [
+    {
+      "role": "quote_meridian",
+      "token": "meridian",
+      "name": "Meridian Aluminum Industries",
+      "email": "quotes@meridian-alu.com",
+      "identity_role": "winner",
+      "incoterm": "CIF",
+      "currency": "USD",
+      "unit_price": 15.4,
+      "tiers": null,
+      "usd_unit_price_at_final": 15.4,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 2500,
+      "warranty_months": 36,
+      "landed_cost": 17.24,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": true,
+      "dq_reason": "",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Ningbo",
+        "works_street": "Yongjiang",
+        "works_estate": "Beilun",
+        "phone_stem": "8657488120017",
+        "bank_beneficiary": "Meridian Aluminium Industries Co., Ltd",
+        "bank_account_tail": "1182",
+        "export_licence": "HK21140857",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_meridian": "msg-0086"
+      },
+      "binding_message_id": "msg-0086"
+    },
+    {
+      "role": "quote_apex",
+      "token": "apex",
+      "name": "Apex Metalcraft Co.",
+      "email": "sales@apexmetalcraft.com",
+      "identity_role": "runner",
+      "incoterm": "FOB",
+      "currency": "USD",
+      "unit_price": null,
+      "tiers": [
+        [
+          2999,
+          13.1
+        ],
+        [
+          4999,
+          12.8
+        ],
+        [
+          null,
+          12.5
+        ]
+      ],
+      "usd_unit_price_at_final": 13.1,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 44,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 17.34,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": true,
+      "dq_reason": "",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Shenzhen",
+        "works_street": "Shazui",
+        "works_estate": "Fuyong",
+        "phone_stem": "8675582330024",
+        "bank_beneficiary": "Apex Metalcraft Manufacturing Co., Ltd",
+        "bank_account_tail": "3310",
+        "export_licence": "CN44150231",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_apex": "msg-0023"
+      },
+      "binding_message_id": "msg-0023"
+    },
+    {
+      "role": "quote_lumen",
+      "token": "lumen",
+      "name": "Lumen Alloy Works",
+      "email": "rfq@lumen-alloy.eu",
+      "identity_role": "fx_eur",
+      "incoterm": "FOB",
+      "currency": "EUR",
+      "unit_price": 12.5,
+      "tiers": null,
+      "usd_unit_price_at_final": 13.5,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 48,
+      "moq": 2500,
+      "warranty_months": 36,
+      "landed_cost": 17.76,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": true,
+      "dq_reason": "",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Gdansk",
+        "works_street": "Stoczniowa",
+        "works_estate": "Pomerania",
+        "phone_stem": "48587110033",
+        "bank_beneficiary": "Lumen Alloy Works Sp. z o.o.",
+        "bank_account_tail": "9041",
+        "export_licence": "PL58110994",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_lumen": "msg-0047"
+      },
+      "binding_message_id": "msg-0047"
+    },
+    {
+      "role": "quote_brightforge",
+      "token": "brightforge",
+      "name": "Brightforge Metals Ltd",
+      "email": "sales@brightforge.co.uk",
+      "identity_role": "fx_gbp",
+      "incoterm": "FOB",
+      "currency": "GBP",
+      "unit_price": 11.4,
+      "tiers": null,
+      "usd_unit_price_at_final": 14.478,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 50,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 18.78,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": true,
+      "dq_reason": "",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Birmingham",
+        "works_street": "Wharfdale",
+        "works_estate": "Tyseley",
+        "phone_stem": "441216640041",
+        "bank_beneficiary": "Brightforge Metals Limited",
+        "bank_account_tail": "2815",
+        "export_licence": "GB12660041",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_brightforge": "msg-0031"
+      },
+      "binding_message_id": "msg-0031"
+    },
+    {
+      "role": "quote_castle",
+      "token": "castle",
+      "name": "Castle Metal Co.",
+      "email": "sales@castle-metal.com",
+      "identity_role": "supersede_eligible",
+      "incoterm": "CIF",
+      "currency": "USD",
+      "unit_price": 16.0,
+      "tiers": null,
+      "usd_unit_price_at_final": 16.0,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 42,
+      "moq": 2500,
+      "warranty_months": 36,
+      "landed_cost": 17.87,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": true,
+      "dq_reason": "",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Busan",
+        "works_street": "Noksan",
+        "works_estate": "Noksan",
+        "phone_stem": "82515770058",
+        "bank_beneficiary": "Castle Metal Industrial Co., Ltd",
+        "bank_account_tail": "3987",
+        "export_licence": "KR51770058",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_castle": "msg-0035",
+        "quote_castle_v1": "msg-0117"
+      },
+      "binding_message_id": "msg-0035"
+    },
+    {
+      "role": "quote_fabrication",
+      "token": "fabrication",
+      "name": "Crestline Fabrication",
+      "email": "sales@crestline-fab.com",
+      "identity_role": "lookalike",
+      "incoterm": "DDP",
+      "currency": "USD",
+      "unit_price": 16.8,
+      "tiers": null,
+      "usd_unit_price_at_final": 16.8,
+      "finish": "silver natural anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 16.8,
+      "gates": {
+        "spec": false,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "spec",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Dongguan",
+        "works_street": "Beihuan",
+        "works_estate": "Humen",
+        "phone_stem": "8676988450061",
+        "bank_beneficiary": "Crestline Fab Industrial Ltd",
+        "bank_account_tail": "7553",
+        "export_licence": "CN44071190",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_fabrication": "msg-0136"
+      },
+      "binding_message_id": "msg-0136"
+    },
+    {
+      "role": "quote_castings",
+      "token": "castings",
+      "name": "Crestline Castings",
+      "email": "quotes@crestline-castings.com",
+      "identity_role": "lookalike+variant",
+      "incoterm": "FOB",
+      "currency": "USD",
+      "unit_price": 12.6,
+      "tiers": null,
+      "usd_unit_price_at_final": 12.6,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 3000,
+      "warranty_months": 36,
+      "landed_cost": 16.82,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": false,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "moq",
+      "variant_tokens": [
+        "tideway"
+      ],
+      "identity_signals": {
+        "works_city": "Dongguan",
+        "works_street": "Nanhuan",
+        "works_estate": "Humen",
+        "phone_stem": "8676988470062",
+        "bank_beneficiary": "Crestline Castings Manufacturing Ltd",
+        "bank_account_tail": "5057",
+        "export_licence": "CN33254471",
+        "variant_identities": [
+          {
+            "token": "tideway",
+            "name": "Tideway Founders Ltd",
+            "email": "r.hale@tideway-founders.com",
+            "phone_override": null,
+            "bank_omitted": false
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_castings": "msg-0065",
+        "quote_castings_var": "msg-0121"
+      },
+      "binding_message_id": "msg-0065"
+    },
+    {
+      "role": "quote_extrusions",
+      "token": "extrusions",
+      "name": "Vanguard Extrusions",
+      "email": "rfq@vanguard-extrusions.com",
+      "identity_role": "lookalike+variant",
+      "incoterm": "CIF",
+      "currency": "USD",
+      "unit_price": 15.2,
+      "tiers": null,
+      "usd_unit_price_at_final": 15.2,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_pending",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 17.03,
+      "gates": {
+        "spec": true,
+        "certification": false,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "certification",
+      "variant_tokens": [
+        "eastvale"
+      ],
+      "identity_signals": {
+        "works_city": "Birmingham",
+        "works_street": "Saltley",
+        "works_estate": "Saltley",
+        "phone_stem": "441217750073",
+        "bank_beneficiary": "Vanguard Extrusion Group plc",
+        "bank_account_tail": "5868",
+        "export_licence": "GB07730461",
+        "variant_identities": [
+          {
+            "token": "eastvale",
+            "name": "Eastvale Profiles",
+            "email": "s.reed@eastvale-profiles.com",
+            "phone_override": null,
+            "bank_omitted": false
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_extrusions_var": "msg-0050",
+        "quote_extrusions": "msg-0102"
+      },
+      "binding_message_id": "msg-0102"
+    },
+    {
+      "role": "quote_tooling",
+      "token": "tooling",
+      "name": "Vanguard Tooling",
+      "email": "rfq@vanguard-tooling.com",
+      "identity_role": "lookalike+variant",
+      "incoterm": "FOB",
+      "currency": "USD",
+      "unit_price": 12.7,
+      "tiers": null,
+      "usd_unit_price_at_final": 12.7,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 12,
+      "landed_cost": 16.92,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": false
+      },
+      "qualified": false,
+      "dq_reason": "warranty",
+      "variant_tokens": [
+        "forrester"
+      ],
+      "identity_signals": {
+        "works_city": "Foshan",
+        "works_street": "Lecong",
+        "works_estate": "Lecong",
+        "phone_stem": "8675783360081",
+        "bank_beneficiary": "Vanguard Tooling Works Co., Ltd",
+        "bank_account_tail": "1083",
+        "export_licence": "CN44889925",
+        "variant_identities": [
+          {
+            "token": "forrester",
+            "name": "Forrester Machinery",
+            "email": "d.knox@forrester-mach.com",
+            "phone_override": null,
+            "bank_omitted": true
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_tooling": "msg-0056",
+        "quote_tooling_var": "msg-0106"
+      },
+      "binding_message_id": "msg-0056"
+    },
+    {
+      "role": "quote_metalworks",
+      "token": "metalworks",
+      "name": "Harborline Metalworks",
+      "email": "sales@harborline-metal.com",
+      "identity_role": "lookalike+variant",
+      "incoterm": "CIP",
+      "currency": "USD",
+      "unit_price": 15.3,
+      "tiers": null,
+      "usd_unit_price_at_final": 15.3,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "50% deposit on PO, balance before shipment",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 17.14,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": false,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "payment_terms",
+      "variant_tokens": [
+        "quayside"
+      ],
+      "identity_signals": {
+        "works_city": "Felixstowe",
+        "works_street": "Dock",
+        "works_estate": "Languard",
+        "phone_stem": "441394660091",
+        "bank_beneficiary": "Harborline Metal Industries Co., Ltd",
+        "bank_account_tail": "4339",
+        "export_licence": "GB06650118",
+        "variant_identities": [
+          {
+            "token": "quayside",
+            "name": "Quayside Alloys Ltd",
+            "email": "t.boyd@quayside-alloys.co.uk",
+            "phone_override": null,
+            "bank_omitted": false
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_metalworks": "msg-0071",
+        "quote_metalworks_var": "msg-0097"
+      },
+      "binding_message_id": "msg-0071"
+    },
+    {
+      "role": "quote_stampworks",
+      "token": "stampworks",
+      "name": "Harborline Stampworks",
+      "email": "quotes@harborline-stamp.com",
+      "identity_role": "lookalike+variant",
+      "incoterm": "FOB",
+      "currency": "USD",
+      "unit_price": 12.55,
+      "tiers": null,
+      "usd_unit_price_at_final": 12.55,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 3200,
+      "warranty_months": 36,
+      "landed_cost": 16.76,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": false,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "moq",
+      "variant_tokens": [
+        "cleave"
+      ],
+      "identity_signals": {
+        "works_city": "Felixstowe",
+        "works_street": "Dock",
+        "works_estate": "Languard",
+        "phone_stem": "441394770092",
+        "bank_beneficiary": "Harborline Stamping Group Ltd",
+        "bank_account_tail": "7413",
+        "export_licence": "GB09913440",
+        "variant_identities": [
+          {
+            "token": "cleave",
+            "name": "Cleave Pressworks Ltd",
+            "email": "m.frost@cleave-press.co.uk",
+            "phone_override": null,
+            "bank_omitted": false
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_stampworks_var": "msg-0049",
+        "quote_stampworks": "msg-0077"
+      },
+      "binding_message_id": "msg-0077"
+    },
+    {
+      "role": "quote_formworks",
+      "token": "formworks",
+      "name": "Delta Formworks",
+      "email": "quotes@deltaform.com",
+      "identity_role": "lookalike+variant",
+      "incoterm": "DDP",
+      "currency": "USD",
+      "unit_price": 16.5,
+      "tiers": null,
+      "usd_unit_price_at_final": 16.5,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 5000,
+      "warranty_months": 36,
+      "landed_cost": 16.5,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": false,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "moq",
+      "variant_tokens": [
+        "estuary"
+      ],
+      "identity_signals": {
+        "works_city": "Tianjin",
+        "works_street": "Xingang",
+        "works_estate": "TEDA",
+        "phone_stem": "862259880101",
+        "bank_beneficiary": "Delta Form Industrial Co., Ltd",
+        "bank_account_tail": "6648",
+        "export_licence": "CN12003098",
+        "variant_identities": [
+          {
+            "token": "estuary",
+            "name": "Estuary Foundry",
+            "email": "p.vance@estuary-foundry.com",
+            "phone_override": null,
+            "bank_omitted": false
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_formworks": "msg-0089",
+        "quote_formworks_var": "msg-0126"
+      },
+      "binding_message_id": "msg-0089"
+    },
+    {
+      "role": "quote_castworks",
+      "token": "castworks",
+      "name": "Delta Castworks",
+      "email": "sales@delta-castworks.com",
+      "identity_role": "lookalike",
+      "incoterm": "FOB",
+      "currency": "USD",
+      "unit_price": 12.45,
+      "tiers": null,
+      "usd_unit_price_at_final": 12.45,
+      "finish": "matte black anodized",
+      "material": "6063-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 16.66,
+      "gates": {
+        "spec": false,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "spec",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Tianjin",
+        "works_street": "Xingang",
+        "works_estate": "TEDA",
+        "phone_stem": "862259770102",
+        "bank_beneficiary": "Delta Cast Holdings Co., Ltd",
+        "bank_account_tail": "3637",
+        "export_licence": "CN31066610",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_castworks": "msg-0108"
+      },
+      "binding_message_id": "msg-0108"
+    },
+    {
+      "role": "quote_brookfield",
+      "token": "brookfield",
+      "name": "Brookfield Stamping",
+      "email": "rfq@brookfield-stamping.com",
+      "identity_role": "variant",
+      "incoterm": "FOB",
+      "currency": "USD",
+      "unit_price": 12.5,
+      "tiers": null,
+      "usd_unit_price_at_final": 12.5,
+      "finish": "matte black anodized",
+      "material": "6063-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 16.71,
+      "gates": {
+        "spec": false,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "spec",
+      "variant_tokens": [
+        "pressings"
+      ],
+      "identity_signals": {
+        "works_city": "Tianjin",
+        "works_street": "Quanwang",
+        "works_estate": "Wuqing",
+        "phone_stem": "862260110111",
+        "bank_beneficiary": "Brookfield Pressing Industrial Co., Ltd",
+        "bank_account_tail": "3392",
+        "export_licence": "CN13077415",
+        "variant_identities": [
+          {
+            "token": "pressings",
+            "name": "BFS Metal Pressings",
+            "email": "e.cole@bfs-pressings.com",
+            "phone_override": null,
+            "bank_omitted": false
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_brookfield_var": "msg-0083",
+        "quote_brookfield": "msg-0113"
+      },
+      "binding_message_id": "msg-0113"
+    },
+    {
+      "role": "quote_orion",
+      "token": "orion",
+      "name": "Orion Alloys",
+      "email": "sales@orion-alloys.com",
+      "identity_role": "variant",
+      "incoterm": "CIF",
+      "currency": "USD",
+      "unit_price": 15.1,
+      "tiers": null,
+      "usd_unit_price_at_final": 15.1,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso14001_only",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 16.93,
+      "gates": {
+        "spec": true,
+        "certification": false,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "certification",
+      "variant_tokens": [
+        "halcyon"
+      ],
+      "identity_signals": {
+        "works_city": "Busan",
+        "works_street": "Mieumsandan",
+        "works_estate": "Noksan",
+        "phone_stem": "862785220121",
+        "bank_beneficiary": "Orion Surface Holdings Co., Ltd",
+        "bank_account_tail": "1832",
+        "export_licence": "KR41122350",
+        "variant_identities": [
+          {
+            "token": "halcyon",
+            "name": "Halcyon Surface Tech",
+            "email": "j.park@halcyon-surface.kr",
+            "phone_override": "82517330888",
+            "bank_omitted": false
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_orion_var": "msg-0038",
+        "quote_orion": "msg-0084"
+      },
+      "binding_message_id": "msg-0084"
+    },
+    {
+      "role": "quote_tanaka",
+      "token": "tanaka",
+      "name": "Tanaka Precision Co.",
+      "email": "export@tanaka-precision.co.jp",
+      "identity_role": "variant",
+      "incoterm": "EXW",
+      "currency": "USD",
+      "unit_price": 11.9,
+      "tiers": null,
+      "usd_unit_price_at_final": 11.9,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 59,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 16.94,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": false,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "lead_time",
+      "variant_tokens": [
+        "naniwa"
+      ],
+      "identity_signals": {
+        "works_city": "Osaka",
+        "works_street": "Chuo",
+        "works_estate": "Sakai",
+        "phone_stem": "81665330131",
+        "bank_beneficiary": "Tanaka Seimitsu KK",
+        "bank_account_tail": "2529",
+        "export_licence": "JP70110052",
+        "variant_identities": [
+          {
+            "token": "naniwa",
+            "name": "Naniwa Tekko KK",
+            "email": "h.mori@naniwa-tekko.jp",
+            "phone_override": null,
+            "bank_omitted": true
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_tanaka_var": "msg-0063",
+        "quote_tanaka": "msg-0131"
+      },
+      "binding_message_id": "msg-0131"
+    },
+    {
+      "role": "quote_saito",
+      "token": "saito",
+      "name": "Saito Industrial",
+      "email": "export@saito-industrial.co.jp",
+      "identity_role": "variant+resend",
+      "incoterm": "FOB",
+      "currency": "USD",
+      "unit_price": 12.4,
+      "tiers": null,
+      "usd_unit_price_at_final": 12.4,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 70,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 16.61,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": false,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "lead_time",
+      "variant_tokens": [
+        "kobe"
+      ],
+      "identity_signals": {
+        "works_city": "Kobe",
+        "works_street": "Koyocho",
+        "works_estate": "Rokko",
+        "phone_stem": "81785440141",
+        "bank_beneficiary": "Saito Industrial KK",
+        "bank_account_tail": "5547",
+        "export_licence": "JP61400088",
+        "variant_identities": [
+          {
+            "token": "kobe",
+            "name": "Kobe Forge Works",
+            "email": "k.saito@kobeforge.jp",
+            "phone_override": null,
+            "bank_omitted": false
+          }
+        ]
+      },
+      "message_ids": {
+        "quote_saito_resend": "msg-0024",
+        "quote_saito_var": "msg-0046",
+        "quote_saito": "msg-0100"
+      },
+      "binding_message_id": "msg-0100"
+    },
+    {
+      "role": "quote_pinnacle",
+      "token": "pinnacle",
+      "name": "Pinnacle Anodizing",
+      "email": "sales@pinnacle-anodizing.com",
+      "identity_role": "broker_forward",
+      "incoterm": "FOB",
+      "currency": "USD",
+      "unit_price": 12.9,
+      "tiers": null,
+      "usd_unit_price_at_final": 12.9,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "100% T/T in advance",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 36,
+      "landed_cost": 17.13,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": false,
+        "lead_time": true,
+        "moq": true,
+        "warranty": true
+      },
+      "qualified": false,
+      "dq_reason": "payment_terms",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Shenzhen",
+        "works_street": "Jinniu",
+        "works_estate": "Pingshan",
+        "phone_stem": "8675586550151",
+        "bank_beneficiary": "Pinnacle Anodizing Industrial Co., Ltd",
+        "bank_account_tail": "8554",
+        "export_licence": "CN44399205",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_pinnacle_fwd": "msg-0079"
+      },
+      "binding_message_id": "msg-0079"
+    },
+    {
+      "role": "quote_westgate",
+      "token": "westgate",
+      "name": "Westgate Anodizers",
+      "email": "sales@westgate-anodizers.com",
+      "identity_role": "supersede_reverse",
+      "incoterm": "CIF",
+      "currency": "USD",
+      "unit_price": 15.0,
+      "tiers": null,
+      "usd_unit_price_at_final": 15.0,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 12,
+      "landed_cost": 16.82,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": false
+      },
+      "qualified": false,
+      "dq_reason": "warranty",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Zhengzhou",
+        "works_street": "Hanghai",
+        "works_estate": "AEZ",
+        "phone_stem": "863716660161",
+        "bank_beneficiary": "Westgate Surface Treatment Co., Ltd",
+        "bank_account_tail": "1399",
+        "export_licence": "CN41177588",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_westgate_v3": "msg-0027",
+        "quote_westgate_v2": "msg-0070",
+        "quote_westgate": "msg-0095"
+      },
+      "binding_message_id": "msg-0095"
+    },
+    {
+      "role": "quote_riverton",
+      "token": "riverton",
+      "name": "Riverton Alloys",
+      "email": "sales@riverton-alloys.com",
+      "identity_role": "supersede_reason",
+      "incoterm": "CIF",
+      "currency": "USD",
+      "unit_price": 15.05,
+      "tiers": null,
+      "usd_unit_price_at_final": 15.05,
+      "finish": "matte black anodized",
+      "material": "6061-T6",
+      "cert": "iso9001_valid",
+      "payment": "Net 30",
+      "lead_days": 40,
+      "moq": 2000,
+      "warranty_months": 18,
+      "landed_cost": 16.88,
+      "gates": {
+        "spec": true,
+        "certification": true,
+        "payment_terms": true,
+        "lead_time": true,
+        "moq": true,
+        "warranty": false
+      },
+      "qualified": false,
+      "dq_reason": "warranty",
+      "variant_tokens": [],
+      "identity_signals": {
+        "works_city": "Zhengzhou",
+        "works_street": "Jingkai",
+        "works_estate": "AEZ",
+        "phone_stem": "863716770162",
+        "bank_beneficiary": "Riverton Alloy Industrial Co., Ltd",
+        "bank_account_tail": "0178",
+        "export_licence": "CN41055821",
+        "variant_identities": []
+      },
+      "message_ids": {
+        "quote_riverton": "msg-0043",
+        "quote_riverton_v1": "msg-0114"
+      },
+      "binding_message_id": "msg-0043"
+    }
+  ],
+  "signal_message_ids": {
+    "fraud_winner": "msg-0007",
+    "fraud_freemail": "msg-0008",
+    "decoy_internal_ap_migration": "msg-0012",
+    "fraud_runner": "msg-0014",
+    "decoy_mailbox_phish": "msg-0019",
+    "decoy_real_invoice": "msg-0021",
+    "quote_apex": "msg-0023",
+    "quote_saito_resend": "msg-0024",
+    "quote_westgate_v3": "msg-0027",
+    "rfq_finish_retraction": "msg-0028",
+    "quote_brightforge": "msg-0031",
+    "quote_castle": "msg-0035",
+    "decoy_internal_payrun": "msg-0036",
+    "quote_orion_var": "msg-0038",
+    "quote_riverton": "msg-0043",
+    "rfq_cert_tight": "msg-0045",
+    "quote_saito_var": "msg-0046",
+    "quote_lumen": "msg-0047",
+    "quote_stampworks_var": "msg-0049",
+    "quote_extrusions_var": "msg-0050",
+    "quote_tooling": "msg-0056",
+    "rfq_payment": "msg-0057",
+    "quote_tanaka_var": "msg-0063",
+    "quote_castings": "msg-0065",
+    "quote_westgate_v2": "msg-0070",
+    "quote_metalworks": "msg-0071",
+    "rfq_qty2": "msg-0073",
+    "quote_stampworks": "msg-0077",
+    "quote_pinnacle_fwd": "msg-0079",
+    "quote_brookfield_var": "msg-0083",
+    "quote_orion": "msg-0084",
+    "quote_meridian": "msg-0086",
+    "rfq_indc_pull": "msg-0087",
+    "quote_formworks": "msg-0089",
+    "quote_westgate": "msg-0095",
+    "rfq_warranty": "msg-0096",
+    "quote_metalworks_var": "msg-0097",
+    "quote_saito": "msg-0100",
+    "quote_extrusions": "msg-0102",
+    "quote_tooling_var": "msg-0106",
+    "quote_castworks": "msg-0108",
+    "quote_brookfield": "msg-0113",
+    "quote_riverton_v1": "msg-0114",
+    "rfq_cert_loose": "msg-0115",
+    "quote_castle_v1": "msg-0117",
+    "rfq_finish_correction": "msg-0120",
+    "quote_castings_var": "msg-0121",
+    "quote_formworks_var": "msg-0126",
+    "quote_tanaka": "msg-0131",
+    "quote_fabrication": "msg-0136",
+    "rfq_qty1": "msg-0141",
+    "rfq_brief": "msg-0161"
+  },
+  "evolution_thread_positions": [
+    27,
+    44,
+    56,
+    72,
+    86,
+    95,
+    114,
+    119,
+    140,
+    160
+  ]
+}

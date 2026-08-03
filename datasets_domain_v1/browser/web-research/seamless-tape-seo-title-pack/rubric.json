@@ -1,0 +1,40 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-web-research-seamless-tape-seo-title-pack",
+  "summary": "Acne-patch listing pack with public-web research evidence. Capacity-refactored 2026-06-09: 29 atomic checks folded into 7 capability units (setup_gate + evidence screenshots + manifest research record + title set format + title core-term inclusion + title efficacy-term restraint + listing-pack completeness). Pure aggregation (group = AND of member atoms); binary pass unchanged. Per-atom detail surfaces in reason strings. LLM judge dropped per v2 design.",
+  "category": "browser_web_ecommerce",
+  "state_kind": "public_web_research",
+  "difficulty": "L4",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact",
+     "description": "All four deliverable files (keyword_research.md, titles.md, listing_pack.md, evidence_manifest.json) exist and are non-empty, and evidence_manifest.json parses cleanly as a JSON object."},
+    {"id": "evidence_screenshots_captured", "check_type": "deterministic_exact",
+     "description": "All 7 required public-web evidence screenshots exist with size > 0: source_product, search_results, competitor_01..05 (.png/.jpg/.jpeg/.webp)."},
+    {"id": "manifest_research_complete", "check_type": "deterministic_exact",
+     "description": "evidence_manifest.json records the structured public-web research: source_product.url and search.url are non-empty strings; competitors is a list of exactly 5, each an object with non-empty url, screenshot, status, keywords; keyword_groups is a non-empty object or list."},
+    {"id": "titles_count_and_format", "check_type": "deterministic_exact",
+     "description": "titles.md contains a Markdown table with exactly 20 data rows, and every title is <= 128 English characters (len(str))."},
+    {"id": "titles_contain_core_term", "check_type": "deterministic_exact",
+     "description": "Every one of the 20 titles contains at least one core term {acne patch, pimple patch, hydrocolloid} (case-insensitive substring)."},
+    {"id": "titles_no_forbidden_efficacy", "check_type": "deterministic_exact",
+     "description": "No title contains any high-risk efficacy term {healing, treatment, therapy, scar prevention, inflammation reduction, redness relief, skin repair, skin removal} (case-insensitive substring)."},
+    {"id": "listing_pack_complete", "check_type": "deterministic_exact",
+     "description": "listing_pack.md is complete: a short-description section, exactly 5 contiguous bullet points, a search-terms section with 10 entries, and an A/B title-grouping marker {A/B, Group A, Group B, Variant A, Variant B}."}
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "keyword_research.md",
+      "titles.md",
+      "listing_pack.md",
+      "evidence_manifest.json",
+      "evidence/source_product.png",
+      "evidence/search_results.png",
+      "evidence/competitor_01.png",
+      "evidence/competitor_02.png",
+      "evidence/competitor_03.png",
+      "evidence/competitor_04.png",
+      "evidence/competitor_05.png"
+    ]
+  }
+}

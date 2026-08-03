@@ -1,0 +1,1047 @@
+{
+  "_meta": {
+    "engine": "amazon_product",
+    "asin": "B0DFWM4TWW",
+    "fetched_at": 1779458213
+  },
+  "payload": {
+    "search_metadata": {
+      "id": "6a10609fafea452db287e313",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/P97Y2Saxy8XmMEMpYV4mgA/6a10609fafea452db287e313.json",
+      "created_at": "2026-05-22 13:56:47 UTC",
+      "processed_at": "2026-05-22 13:56:47 UTC",
+      "amazon_product_url": "https://www.amazon.com/dp/B0DFWM4TWW/?",
+      "raw_html_file": "https://serpapi.com/searches/P97Y2Saxy8XmMEMpYV4mgA/6a10609fafea452db287e313.html",
+      "total_time_taken": 3.29
+    },
+    "search_parameters": {
+      "engine": "amazon_product",
+      "asin": "B0DFWM4TWW",
+      "amazon_domain": "amazon.com",
+      "device": "desktop"
+    },
+    "product_results": {
+      "asin": "B0DFWM4TWW",
+      "title": "OpenComm2 2025 Upgrade - Open-Ear Bone Conduction Headphones, Wireless Bluetooth Headset with Noise Canceling Mic & Mute Button for Work Calls and Meetings, 16 Hour Talk Time for Mobile & PC - C120",
+      "link": "https://www.amazon.com/OpenComm2-2025-Upgrade-Conduction-Headphones/dp/B0DFWM4TWW/",
+      "link_clean": "https://www.amazon.com/dp/B0DFWM4TWW/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DFWM4TWW&device=desktop&engine=amazon_product",
+      "variants": [
+        {
+          "title": "Style",
+          "items": [
+            {
+              "position": 1,
+              "asin": "B0DFWM4TWW",
+              "name": "OpenComm2",
+              "selected": true,
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DFWM4TWW&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 2,
+              "asin": "B0DFWJS7Q9",
+              "name": "OpenComm2UC (USB-A)",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DFWJS7Q9&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 3,
+              "asin": "B0DFWM3H87",
+              "name": "OpenComm2UC (USB-C)",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DFWM3H87&device=desktop&engine=amazon_product"
+            }
+          ]
+        }
+      ],
+      "thumbnail": "https://m.media-amazon.com/images/I/51TRx1Yc4LL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "thumbnails": [
+        "https://m.media-amazon.com/images/I/51TRx1Yc4LL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81bLgtH0UTL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71yaektO2TL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71dH2cUpNiL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71vfVLp9vRL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71KRAEk8FzL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71HDMgp4-ML._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71NDrtDW89L._AC_SL1500_.jpg"
+      ],
+      "rating": 4.3,
+      "reviews": 890,
+      "stock": "This item cannot be shipped to your selected delivery location. Please choose a different delivery location."
+    },
+    "item_specifications": {
+      "brand": "SHOKZ",
+      "color": "Black",
+      "ear_placement": "Open Ear",
+      "form_factor": "Open Ear",
+      "impedance": "8.5 Ohms"
+    },
+    "about_item": [
+      "Advanced All-Day Comfort - This portable open-ear headset weighs only 35g, and is engineered with a flexible frame and IP55 water-resistant soft silicone finish for comfortable, mobile workwear day after day.",
+      "Crystal-Clear Calls - Feel like you are conversing in person with Shokz 7th generation Bone Conduction Technology, powerful PremiumPitch 2.0 audio, and a noise-canceling microphone with DSP technology.",
+      "Multipoint Pairing - Reliable Bluetooth connectivity allows you to easily pair your headset with two devices simultaneously and seamlessly toggle between them with the included Shokz App.",
+      "Intuitive Integrated Controls - Precisely adjust your volume, mute and unmute calls, play or pause audio, and more with a simple press of the headphone's physical control buttons.",
+      "Effortless USB-C Charging - Stay connected and collaborative with up to 16h of talk time and 8h of listening time per charge, and benefit from a 5-minute quick charge that provides 2h of talk time."
+    ],
+    "related_products": [
+      {
+        "position": 1,
+        "asin": "B0DTRSX4PM",
+        "title": "Raycon Bone Conduction Headphones Bluetooth - Open Ear Running Headphones, Sweat & Water-Resistant Earbuds with Mic for Sports & Workouts, 13hr Playtime (Purple)",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNzY0NzMwMzc3OTIxMDY3OjE3Nzk0NTgyMDk6c3BfZGV0YWlsX3RoZW1hdGljOjMwMDg2MDIyNzAyODIwMjo6Ojo&url=%2Fdp%2FB0DTRSX4PM%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0DTRSX4PM%26pd_rd_w%3DcYxtk%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0DTRSX4PM/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DTRSX4PM&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/6111-K6j3JL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.1,
+        "reviews": 998,
+        "discount": "-15%",
+        "price": "BOB 606.32",
+        "extracted_price": 606.32,
+        "old_price": "BOB 713.33",
+        "extracted_old_price": 713.33,
+        "prime": true
+      },
+      {
+        "position": 2,
+        "asin": "B0DK328JG9",
+        "title": "mojawa Aerra Bone Conduction Sport Headphones, IP67 Waterproof Workout Earphones, Open-Ear, Wireless Bluetooth with Mic, Secure and Comfortable for Running and Cycling, Green and Purple",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNzY0NzMwMzc3OTIxMDY3OjE3Nzk0NTgyMDk6c3BfZGV0YWlsX3RoZW1hdGljOjMwMDU0MTM0NTcxODQwMjo6Ojo&url=%2Fdp%2FB0DK328JG9%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0DK328JG9%26pd_rd_w%3DcYxtk%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0DK328JG9/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DK328JG9&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/61VMlf86-kL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.2,
+        "reviews": 186,
+        "discount": "-30%",
+        "price": "BOB 499.31",
+        "extracted_price": 499.31,
+        "old_price": "BOB 713.33",
+        "extracted_old_price": 713.33,
+        "prime": true,
+        "climate_pledge_friendly": true
+      },
+      {
+        "position": 3,
+        "asin": "B0FZBV6ZWR",
+        "title": "OTYHVV Trucker Bluetooth Headset with Charging Base, Wireless Hands-Free Headset with Noise Canceling Mic & Mute Button, 56Hrs Working Time PC Headsets for Cell Phones, Computer, Truck Driver",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNzY0NzMwMzc3OTIxMDY3OjE3Nzk0NTgyMDk6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTE5OTIzNzk5MzQwMjo6Ojo&url=%2Fdp%2FB0FZBV6ZWR%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0FZBV6ZWR%26pd_rd_w%3DcYxtk%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0FZBV6ZWR/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FZBV6ZWR&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "#1 New Release",
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/71xHmFOPg7L._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.6,
+        "reviews": 210,
+        "discount": "-38%",
+        "price": "BOB 263.89",
+        "extracted_price": 263.89,
+        "old_price": "BOB 427.97",
+        "extracted_old_price": 427.97,
+        "prime": true
+      },
+      {
+        "position": 4,
+        "asin": "B09WRDNM7F",
+        "title": "Sarevile Trucker Bluetooth Headset, V5.2 Wireless Headset with Upgraded Microphone AI Noise Canceling, On Ear Bluetooth Headphone with Mute for Driver Office Call Center (Black)",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNzY0NzMwMzc3OTIxMDY3OjE3Nzk0NTgyMDk6c3BfZGV0YWlsX3RoZW1hdGljOjMwMDcxNDU4MjQ1OTEwMjo6Ojo&url=%2Fdp%2FB09WRDNM7F%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB09WRDNM7F%26pd_rd_w%3DcYxtk%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B09WRDNM7F/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09WRDNM7F&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/61zrp9vEicL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.4,
+        "reviews": 6384,
+        "discount": "-10%",
+        "price": "BOB 243.91",
+        "extracted_price": 243.91,
+        "old_price": "BOB 271.02",
+        "extracted_old_price": 271.02,
+        "prime": true
+      },
+      {
+        "position": 5,
+        "asin": "B0GVN5MNRC",
+        "title": "Monster Open Ear AC390 Headphones, Open Ear Earbuds with Stereo Sound, Bluetooth 6.0, 24H Playtime, IPX5 Waterproof, Rotating Charging Case with Lanyard, Ultra-Light for Outdoor Sport",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNzY0NzMwMzc3OTIxMDY3OjE3Nzk0NTgyMDk6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI3ODk2MjIzODgwMjo6Ojo&url=%2Fdp%2FB0GVN5MNRC%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0GVN5MNRC%26pd_rd_w%3DcYxtk%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0GVN5MNRC/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GVN5MNRC&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/71wP6eS0ZXL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.3,
+        "reviews": 103,
+        "discount": "-50%",
+        "price": "BOB 142.61",
+        "extracted_price": 142.61,
+        "price_unit": "BOB2.00 / count",
+        "extracted_price_unit": 2.0,
+        "old_price": "BOB 285.29",
+        "extracted_old_price": 285.29,
+        "prime": true
+      },
+      {
+        "position": 6,
+        "asin": "B0GL2252ZZ",
+        "title": "Monster AC225 Open Ear Earbuds, Stereo Sound, Bluetooth 6.0 Open Ear Headphones, Lightweight Comfort Clip-On Earbuds with ENC Mic for Clear Calls, 36H Playtime, Touch Control, IPX6 Waterproof, White",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNzY0NzMwMzc3OTIxMDY3OjE3Nzk0NTgyMDk6c3BfZGV0YWlsX3RoZW1hdGljOjMwMDk5MDAwMzM4ODEwMjo6Ojo&url=%2Fdp%2FB0GL2252ZZ%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0GL2252ZZ%26pd_rd_w%3DcYxtk%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0GL2252ZZ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GL2252ZZ&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/61R-lscd6dL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.3,
+        "reviews": 8897,
+        "discount": "-40%",
+        "price": "BOB 213.81",
+        "extracted_price": 213.81,
+        "old_price": "BOB 356.42",
+        "extracted_old_price": 356.42,
+        "prime": true
+      },
+      {
+        "position": 7,
+        "asin": "B0GY41NGWR",
+        "title": "Yorlu Bone Conduction Headphones, 2026 Upgrade Open Ear Bluetooth 5.4 Headphones with Mic, 10Hrs Playtime Wireless Earbuds, Sports Earphones Comfort, IP56 Waterproof Headset",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyNzY0NzMwMzc3OTIxMDY3OjE3Nzk0NTgyMDk6c3BfZGV0YWlsX3RoZW1hdGljOjMwMTI1NDUxMzIwMDUwMjo6Ojo&url=%2Fdp%2FB0GY41NGWR%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0GY41NGWR%26pd_rd_w%3DcYxtk%26content-id%3Damzn1.sym.85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_p%3D85ceacba-39b1-4243-8f28-2e014f9512c7%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM",
+        "link_clean": "https://www.amazon.com/dp/B0GY41NGWR/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GY41NGWR&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "badges": [
+          "Limited time deal"
+        ],
+        "thumbnail": "https://m.media-amazon.com/images/I/51TIcvYqOLL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.5,
+        "reviews": 85,
+        "discount": "-57%",
+        "price": "BOB 185.41",
+        "extracted_price": 185.41,
+        "old_price": "BOB 427.97",
+        "extracted_old_price": 427.97,
+        "prime": true
+      },
+      {
+        "position": 8,
+        "asin": "B0G5NFCSQC",
+        "title": "Wireless Noise Cancelling Headphones with Mic,Wireless Headset with Mic for Work(50...",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3MjcyMzMwNDY1NDU1ODU4OjE3Nzk0NTgyMDk6c3BfZGV0YWlsMjozMDEyMTQyODM5MjEzMDI6Ojo6&url=%2Fdp%2FB0G5NFCSQC%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0G5NFCSQC%26pd_rd_w%3DU6qXl%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0G5NFCSQC/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G5NFCSQC&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/416HYOK0clL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 3.7,
+        "reviews": 82,
+        "price": "BOB 784.67",
+        "extracted_price": 784.67,
+        "save_with_coupon": "Save 10%",
+        "prime": true
+      },
+      {
+        "position": 9,
+        "asin": "B0CWV69CZN",
+        "title": "Mopchnic Bluetooth Headset, Wireless Headphone with AI Noise-Canceling Microphone On Ear Wireless Headset with USB Dongle for Computer Office",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3MjcyMzMwNDY1NDU1ODU4OjE3Nzk0NTgyMDk6c3BfZGV0YWlsMjozMDExNDc5NDQ3OTgwMDI6Ojo6&url=%2Fdp%2FB0CWV69CZN%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0CWV69CZN%26pd_rd_w%3DU6qXl%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0CWV69CZN/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CWV69CZN&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/71lTHaWtJcL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 5.0,
+        "reviews": 3,
+        "discount": "-14%",
+        "price": "BOB 427.97",
+        "extracted_price": 427.97,
+        "old_price": "BOB 499.31",
+        "extracted_old_price": 499.31,
+        "prime": true
+      },
+      {
+        "position": 10,
+        "asin": "B0G5ZVGWV9",
+        "title": "Bluetooth Headset, Wireless Bluetooth Earpiece with Dual-Mics & Noise Canceling, Single Ear Headphone with Mute for Trucker/Business/Remote Work, V5.3 Hand-Free Headset for iOS Android (Gunmetal)",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3MjcyMzMwNDY1NDU1ODU4OjE3Nzk0NTgyMDk6c3BfZGV0YWlsMjozMDEyOTM1MTkwOTk4MDI6Ojo6&url=%2Fdp%2FB0G5ZVGWV9%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0G5ZVGWV9%26pd_rd_w%3DU6qXl%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0G5ZVGWV9/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G5ZVGWV9&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/71Xl+oRstpL._AC_UF480,480_SR480,480_.jpg",
+        "price": "BOB 356.63",
+        "extracted_price": 356.63,
+        "prime": true
+      },
+      {
+        "position": 11,
+        "asin": "B0GFC4KT92",
+        "title": "Open Ear Bluetooth Headphones with Microphone, Noise Cancelling Wireless Headset wi...",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3MjcyMzMwNDY1NDU1ODU4OjE3Nzk0NTgyMDk6c3BfZGV0YWlsMjozMDEyMzQzMzE3NDM5MDI6Ojo6&url=%2Fdp%2FB0GFC4KT92%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0GFC4KT92%26pd_rd_w%3DU6qXl%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0GFC4KT92/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GFC4KT92&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/51K9K-OXl+L._AC_UF480,480_SR480,480_.jpg",
+        "rating": 5.0,
+        "reviews": 4,
+        "price": "BOB 570.65",
+        "extracted_price": 570.65,
+        "prime": true
+      },
+      {
+        "position": 12,
+        "asin": "B0G2BKN6VF",
+        "title": "CXK Open Ear Headphones with Mic, Bluetooth 5.4 Dual Noise Canceling Mic for Clear Calls, 23g Lightweight Headset with Mute Button, 12H Playtime Air Conduction Headphones for Call, Meeting, Driving",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3MjcyMzMwNDY1NDU1ODU4OjE3Nzk0NTgyMDk6c3BfZGV0YWlsMjozMDEyNjIzNDM5MjY0MDI6Ojo6&url=%2Fdp%2FB0G2BKN6VF%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0G2BKN6VF%26pd_rd_w%3DU6qXl%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0G2BKN6VF/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G2BKN6VF&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/51+SL+e4a9L._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.5,
+        "reviews": 121,
+        "discount": "-40%",
+        "price": "BOB 427.97",
+        "extracted_price": 427.97,
+        "old_price": "BOB 713.33",
+        "extracted_old_price": 713.33,
+        "save_with_coupon": "Save BOB 71.34",
+        "prime": true
+      },
+      {
+        "position": 13,
+        "asin": "B0GWM3MSFW",
+        "title": "CXK Open Ear Headphones with Mic, Wireless Headset with AI Noise Cancellation Microphone Bluetooth 5.3 Bluetooth Headset with Mic Air Conduction Headphones for Work Call Meeting Driving",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3MjcyMzMwNDY1NDU1ODU4OjE3Nzk0NTgyMDk6c3BfZGV0YWlsMjozMDExNjEzNDAxOTIzMDI6Ojo6&url=%2Fdp%2FB0GWM3MSFW%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0GWM3MSFW%26pd_rd_w%3DU6qXl%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0GWM3MSFW/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GWM3MSFW&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/51J-c6ezesL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.9,
+        "reviews": 58,
+        "price": "BOB 641.99",
+        "extracted_price": 641.99,
+        "save_with_coupon": "Save BOB 285.36",
+        "prime": true
+      },
+      {
+        "position": 14,
+        "asin": "B0GKFLQ6B6",
+        "title": "Air Conduction Open Ear Headphones with Mic, AI Noise Cancelling Bluetooth Headset,...",
+        "link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3MjcyMzMwNDY1NDU1ODU4OjE3Nzk0NTgyMDk6c3BfZGV0YWlsMjozMDEyOTEyMTMzODkyMDI6Ojo6&url=%2Fdp%2FB0GKFLQ6B6%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0GKFLQ6B6%26pd_rd_w%3DU6qXl%26content-id%3Damzn1.sym.4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_p%3D4a7f44df-467c-45a1-af5f-91661a6df2f9%26pf_rd_r%3D51QVJ6FRC5PPRS22DSKJ%26pd_rd_wg%3DuPQNH%26pd_rd_r%3De5130556-3aec-464d-914c-3be184974937%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy",
+        "link_clean": "https://www.amazon.com/dp/B0GKFLQ6B6/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GKFLQ6B6&device=desktop&engine=amazon_product",
+        "sponsored": true,
+        "thumbnail": "https://m.media-amazon.com/images/I/61QVkq+09FL._AC_UF480,480_SR480,480_.jpg",
+        "rating": 4.8,
+        "reviews": 30,
+        "discount": "-29%",
+        "price": "BOB 356.63",
+        "extracted_price": 356.63,
+        "old_price": "BOB 499.31",
+        "extracted_old_price": 499.31,
+        "prime": true
+      }
+    ],
+    "sustainability_features": {
+      "summary": "This product has sustainability features recognized by trusted certifications.",
+      "climate_pledge_friendly": true,
+      "learn_more_link": "https://www.amazon.com/climatepledgefriendly",
+      "features": [
+        {
+          "position": 1,
+          "title": "Carbon impact",
+          "text": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+          "certified_by": [
+            {
+              "name": "ClimeCo Certified",
+              "logo": "https://m.media-amazon.com/images/I/61sxI+4PZlL._SS144_.png",
+              "description": "ClimeCo certifies products whose carbon emissions have been assessed, verified, decarbonized, and are on a committed path towards continual emissions reductions. Companies may pursue emissions reductions for products through various means such as sustainable manufacturing practices, supply chain sustainability, raw materials innovation, renewable energy use, insetting, sustainable transportation and packaging.",
+              "link": "https://www.climeco.com/stand-out-on-amazon-as-a-climeco-certified-product/"
+            }
+          ]
+        }
+      ]
+    },
+    "videos": [
+      {
+        "position": 1,
+        "title": "This Headset Changed My Workday",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/aa584527-dee2-48b1-a3d2-4c51a379dc33/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/616XR3q2jXL.jpg",
+        "duration": "1:47",
+        "vendor": "Sherry C2C Mom",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/51ywpqO5uML._CR0,0,417,417_._FMjpg_._SL34_.jpg",
+        "date": "Mar 29, 2026"
+      },
+      {
+        "position": 2,
+        "title": "The noise cancelling mic on the bone conduction is amazing",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7a5b6e26-d176-4888-878c-a92159db958a/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/61qmSZ3+i9L.jpg",
+        "duration": "2:46",
+        "vendor": "🔥Product Demo Lab",
+        "vendor_thumbnail": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/livestreamlabs_1667317749608_original._CR0,0,820,820_._FMjpg_._SL34_.jpeg",
+        "date": "Mar 8, 2022"
+      },
+      {
+        "position": 3,
+        "title": "Review after using SHOKZ OpenComm2 headphones",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/84c75277-afab-4ece-a4fb-59fd6952a75e/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51GpIYIG+JL.jpg",
+        "duration": "2:10",
+        "vendor": "Karidon",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/81ioGHCXPzL._CR0,0,1424,1424_._FMjpg_._SL34_.jpg",
+        "date": "Jan 15, 2026"
+      },
+      {
+        "position": 4,
+        "title": "These are fantastic for comfort and quality!",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/f0549f4f-c4f8-4684-8132-1a2f4f535965/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51IX2FxtSJL.jpg",
+        "duration": "1:01",
+        "vendor": "Katie Hermann",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/71pB-t8kjqL._CR0,0,787,787_._FMjpg_._SL34_.jpg",
+        "date": "Mar 2, 2026"
+      },
+      {
+        "position": 5,
+        "title": "Everything You Want To Know About the SHOKZ OpenComm2 UC",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9dda9940-cf47-4798-8b6a-915b403acac1/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/B1PuCq5igZL.png",
+        "duration": "3:04",
+        "vendor": "⚠️ GominPlanet Reviews ⚠️",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/91qscKsq5aL._CR0,0,2000,2000_._FMjpg_._SL34_.jpg",
+        "date": "Oct 7, 2023"
+      },
+      {
+        "position": 6,
+        "title": "Lightweight and wireless",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9f19b5a3-e5b4-48d2-bf24-635350e9f830/embedded.cc.default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51NDVS00P4L.jpg",
+        "duration": "0:12",
+        "vendor": "Ann Vincent Walter",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/S/amazon-avatars-global/f652353d-51c3-4991-b558-b946c0c1c4ea._CR16%2C0%2C467%2C467_SX460_._SL34_.jpg",
+        "date": "Aug 19, 2025"
+      },
+      {
+        "position": 7,
+        "title": "Best solution for high call volume!",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7a18410d-f291-440b-af42-4a5e820805d7/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/C1-3BurpEBL.png",
+        "duration": "0:48",
+        "vendor": "Lemont Family",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/B1bjr7cqxsL._CR0,0,4284,4284_._FMjpg_._SL34_.jpg",
+        "date": "Jan 7, 2026"
+      },
+      {
+        "position": 8,
+        "title": "Great headset for work and comfort!",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/06744fd5-27e7-4dd3-bbb0-d20fbbb21571/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/71YS9xGrEvL.jpg",
+        "duration": "1:30",
+        "vendor": "Meredith",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/51gi3mzKKRL._CR0,0,473,473_._FMjpg_._SL34_.jpg",
+        "date": "Mar 23, 2026"
+      },
+      {
+        "position": 9,
+        "title": "Sound Test / Excellent mic, noise cancelling and features",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/a01c89e7-07c0-4bc6-ade9-24c5de68e7ac/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/91pQo+YB1gL.png",
+        "duration": "6:09",
+        "vendor": "✅ The Net Guy Reviews 🏆",
+        "vendor_thumbnail": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/thenetguy_1614273555086_original._CR0,0,360,360_._FMjpg_._SL34_.jpeg",
+        "date": "Feb 20, 2025"
+      },
+      {
+        "position": 10,
+        "title": "Aftershokz openComm bone conduction Bluetooth headset",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/012c0157-4ff2-49f7-adb9-e70646dd37b4/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/518SFNHckjL.jpg",
+        "duration": "0:55",
+        "vendor": "Altovise Pelzer",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A1+AyBksPZL._CR0,0,3009,3009_._FMjpg_._SL34_.jpg",
+        "date": "May 4, 2023"
+      }
+    ],
+    "product_description": [
+      {
+        "position": 1,
+        "title": "120",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f13f572b-3429-4308-9c4e-c50c0171acfc.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+      },
+      {
+        "position": 2,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/adaa251c-97e4-4f28-ac6d-a98ea812f8f4.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 2,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5c10a060-5dbf-4c47-8e12-4a82b3a7f5ac.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 3,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4a377cba-6f7c-44df-be4b-c8b3f21fce8b.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 4,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/5d25882a-952a-4457-9aeb-96356f8f64eb.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 5,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/fc447bd4-8083-4386-912c-6ebf1d51acc5.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/8b1293a1-42df-4893-bd49-1e846924bfba.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 2,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/99eda482-e6d8-4c7b-96a9-30533ee53caf.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 3,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2ccbf1fe-d806-4700-b23d-fb0a4f671c8b.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 4,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/50bbba29-7287-4aed-9bb8-d7d76d3701f5.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 5,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a06013db-4187-48b0-b45c-f5583b778b44.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          }
+        ]
+      },
+      {
+        "position": 4,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2ea53244-f66c-4020-81df-2be9861192d4.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 2,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/35696d6e-7bf6-45da-a860-66a52dec22ff.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 3,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f2199ce8-2c5a-4b98-a07c-3bb9881bad59.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          },
+          {
+            "position": 4,
+            "title": "120",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/6eb5dab0-f9fd-4e1e-ab05-6937f6be9c76.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          }
+        ]
+      },
+      {
+        "position": 5,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "shokz APP",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b3f46618-5701-4bd0-84d5-ecbdc1084539.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "bookmark",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/90dda0ba-1f1b-4a64-b291-1686391bcfd9.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "开箱",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/bd21a2e8-b60a-4fec-ae23-6236b6bc3b57.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 6,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "C110",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/395a2c96-f9b0-421b-889c-0675590b43f7.__CR77,0,1046,1500_PT0_SX488_V1___.png"
+          },
+          {
+            "position": 2,
+            "title": "PRO2",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/845ac0e9-7d47-4c47-9647-fc351f15f083.__CR0,0,488,700_PT0_SX488_V1___.png"
+          },
+          {
+            "position": 3,
+            "title": "S710",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b909f6b4-20b7-4425-a15b-b07ff6074f18.__CR0,0,488,700_PT0_SX488_V1___.jpg"
+          },
+          {
+            "position": 4,
+            "title": "OFA",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/772f73cf-2a28-4946-a85a-b27e51525a8b.__CR0,0,488,700_PT0_SX488_V1___.png"
+          }
+        ]
+      },
+      {
+        "position": 7
+      }
+    ],
+    "product_details": {
+      "brand_name": "SHOKZ",
+      "model_number": "SHOKZ C120",
+      "model_name": "OpenComm2",
+      "built_in_media": "Cable, OpenComm2 Bone Conduction Stereo Bluetooth Headset * 1, Protective Case, User Manual",
+      "age_range_description": "Adult",
+      "warranty_description": "2 Years",
+      "customer_package_type": "Standard Packaging",
+      "number_of_items": "1",
+      "upc": "810160663256",
+      "manufacturer": "ShenzhenShokzCo.Ltd.",
+      "external_testing_certification": "Não",
+      "is_autographed": "No",
+      "best_sellers_rank": [
+        {
+          "text": "#722 in Electronics (See Top 100 in Electronics)",
+          "extracted_rank": 722,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/ref=pd_zg_ts_electronics",
+          "link_text": "See Top 100 in Electronics"
+        },
+        {
+          "text": "#14 in Open-Ear Headphones",
+          "extracted_rank": 14,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/99530371011/ref=pd_zg_hrsr_electronics",
+          "link_text": "Open-Ear Headphones"
+        }
+      ],
+      "asin": "B0DFWM4TWW",
+      "customer_reviews": "4.3 out of 5 stars",
+      "rating": 4.3,
+      "reviews": 890,
+      "headphone_jack": "No Jack",
+      "connectivity_technology": "Wireless",
+      "wireless_technology": "Bluetooth",
+      "bluetooth_range": "98 Feet",
+      "bluetooth_version": "5.1",
+      "control_type": "Volume Control",
+      "control_method": "App, Touch",
+      "controller_type": "Button",
+      "item_weight": "35 Grams",
+      "unit_count": "1.0 Count",
+      "carrying_case_battery_average_life": "16 Hours",
+      "carrying_case_battery_charging_time": "60 Minutes",
+      "impedance": "8.5 Ohms",
+      "noise_control": "None",
+      "frequency_response": "2400 MHz",
+      "sensitivity": "96 dB",
+      "audio_driver_type": "Bone Conduction Driver",
+      "frequency_range": "[20 Hz - 20,000 Hz]",
+      "enclosure_material": "Nickel-Titanium Alloy, Plastic, Silicone",
+      "specific_uses_for_product": "Business, Professional",
+      "antenna_location": "Calling",
+      "compatible_devices": "Android, Mac, PC, iPhone",
+      "cable_features": "Without Cable",
+      "water_resistance_level": "Water Resistant",
+      "carrying_case_material": "Plastic",
+      "additional_features": "Bone Conduction Technology, Noise-Canceling Microphone, Reliable Bluetooth Connectivity, Open-Ear Design",
+      "is_electric": "Yes",
+      "number_of_power_levels": "5",
+      "headphones_ear_placement": "Open Ear",
+      "headphone_folding_features": "Open Ear",
+      "earpiece_shape": "open-ear",
+      "color": "Black",
+      "style_name": "OpenComm2",
+      "carrying_case_color": "Black",
+      "theme": "Office, Online Meeting",
+      "battery_charge_time": "1 Hours",
+      "battery_average_life": "8 Hours"
+    },
+    "sponsored_brands": [
+      {
+        "position": 1,
+        "asin": "B0DZSM637L",
+        "title": "Yealink WH64 DECT & Bluetooth Wireless Mono Headset, 606ft Long Range Work Headphones, 3X Noise Cancelling Mic, 26H Calls, Office Single On Ear Headsets (Desk Phone,PC,Cellphone) for Teams Zoom UC",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JB4G8aLXbbRIfFkn92NnLB8AAAGeT_l11QEAAAH2AQBvbm9fdHhuX2JpZDUgICBvbm9fdHhuX2ltcDIgICCWaY89/clv1c_ek-IxQfWLcTaTBVEai7o5V7vNBUpfksAB7aZqxzqujraEdYBlwhIeadTbVBLya9Q_AUd2BsOAzKIcK8q2TEVeh0GWoEge4OzZeCX8tyl3836uxsBwHCLTOzy5iHkB2b13N-e6DCDlsuKzcD4BMIt_9HVlD0dkl_aMv34L5erS4wnU2EJNBy7Rzi8Q9Q-HgU393PARwEb3kZL2Xn8vlDUsfySF5d3TEqK5axtM53l0Tr4tF_lclQ77Qovlc6OkWXRgZMisXKEH8LomvG8YNg4aP_6eyNLLpDYTqaWZgC5yCRvMveqH3ZPi85y1kcCqF14hTtWPFJjDL1VKW6itCDHGwe05iQFgm0bFNXY9i_HA3M50V3V6CbqZfXhxgumQlUgH_xQzDNeGZtVeAXztU3mV48P3OjeFVXrFZMmuqnhE7G_tG4V82XG3x8rXxPnULct8mQTlR9shWqb5N-YPzVDqIyiSkp-OvTMqkUMG0ssrG2y3ZQlzGodVukO1LSlQI6-Gpqk07t1BI2ypj9gk1i2w1Pt0QawiSx5KGsj09Cl0DmI0MXOoe5CRbsgrQXbGjetNUKHdL48GCiFQhqHty0I_kYtldgCjBJZHScGgfM6KSB94UFotfTLRv0Rzi2ohMP-wGEZATBcnj7838I8c1UZjYcX9AMIVDBcIPWm5ZTBWOzLZF4otRcr9Y1VftBivANrqilUCewXggdgwSxc2FGKRc1ehXgDVIKfnGziZH5wes5KOsIQuMis-a2LPsKXhTgXY8-xVh5J5tJfTyWSLTgSIHHmJJ6w8lLzi9jMo_6BiRmb3OyRyb6i6CeDvxbQGEBtj_dCiO0TgLk7zsLk8BQWinmOatHNi2m74BxHPtnY0HmRgr1_dfJa_WNMzK3S6-Yd6XkOc1bHtZYLJLwwmXZwE_w-V3IJ5KnIGUHLW2jULKy95lNaW2V_MRFg1bICBxYgSseJBBSKZdct--0IiH-GoiZbRWt0QkS0D_FGOF1_8qSqc-X9RiykSPdkLoODxtwiNdCDWev3boaJq6k-SpBKncvcMzRLIUGqRPl1646WmuzATUxcLPmPg9qKcZUWPpJ1g31VX8myFF7wkJXVzM8ujOjIlD4LRWTMtmm7An1qA8zDSjBy19Tg1y-zV6cS3WTULkGF5hsLVW4H-E8-sf4-uMgMnBXQjlVyBH6jZyXzNghc8IRI1qj6tfJDgfiZRHtNy0sLBmTbXWs9RS3vobJCUBZ7IIRRMWntvH4uDq_xfosoOOdcju8a8gPXiXkD7ShIO1WQu41m83lssxxW4ChGSuadUUT2cqp3v9QW33iwGjw5KDAHd2l6v14ICCku9iyzANIYgj8zsPV_PR1eHCpdzYIBaK4KGyi_Sjex08KOUaLXw_r4XLnyqPrkQzebQzVlkAoA34a_07q1Z2sd0aVIPFFmMhSW5OdIPtzK-yhe4EORPlyNKAcYKGgAck_XjiwLH1t3vn8EABymiKRZAl6fM-aJAfs-Xa9CzymcVuD89fWWzS4Qfa_Uo9v8Z94w3ISRFwFOo1sQ_5mprDV2S_d1kZcD3Tl35A/https://www.amazon.com/dp/B0DZSM637L/?_encoding=UTF8&pd_rd_i=B0DZSM637L&pd_rd_i=B0DZSM637L&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=h3pUr&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=51QVJ6FRC5PPRS22DSKJ&pd_rd_wg=uPQNH&pd_rd_r=e5130556-3aec-464d-914c-3be184974937",
+        "link_clean": "https://www.amazon.com/dp/B0DZSM637L/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DZSM637L&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/31FmRzrYCCL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/4ff6d1fe-a172-4a10-b109-9aaf6c9588be.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/4ff6d1fe-a172-4a10-b109-9aaf6c9588be.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.0,
+        "reviews": 63
+      },
+      {
+        "position": 2,
+        "asin": "B0DWSX6FZJ",
+        "title": "PSIER Bone Conduction Headphones IPX8 Waterproof Swimming Headphones Open Ear Headphones with MP3 Mode 32GB Memory Up to 8 Hours Playtime Bluetooth 6.0 Ear Buds Secure Fit for Running and Fitness",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JLy_F9hBqu7ZHBJpWE_gyOoAAAGeT_l11gEAAAH2AQBvbm9fdHhuX2JpZDUgICBvbm9fdHhuX2ltcDIgICA9YJOA/clv1c_ek-IBXfWLcTSXk6htmnxSfo_zZoFSx7RAXbcjnBW1ZfGEUaxqsDteHCxHz9KKC8H3nFAywAyDRNn4rmuMYMTIfwaaNlqfyaj7_2PcFO2yWa8KbElpMXHCYS4YvRhvPdBN8ALvt0Bt85hQteMrizs2xJapuEM1lTsps_h0ztKnIdYGOqbW4BxcQZpJiRlFe8Fg1Si_0hFJT_QhYUvF0hDkKMpt9-zgOpUnbj0SvnU7TygTdd-FV-W4i3TW8J1l8l4m56eQ7GRsym8V0pQZ3Cveg03I0Bp6N4eDqdatS8wcDXKKrywGSBBrH1BB3ddFIQetCikcZl3MJQ0ny8tva9HD9BYYyfTQLrv-wK7m5JEa2N-0Er0AJcrz7IWZSG-yIDiavkil5-3luxQYsufukBXa-eKteMuM1HY-rB1N3Vj2OUwtdVTJ_v1LuYhC9tzYFVJ3pWoetHy_OZ1E2LkqZ7DEy-z2c20gqRTIL1Dek9wBdl1nhQnnv6nY7FQZZdwxrtpTMkxsizy6KjUmuyzaD3pzB1DqSMngP92a7UagUlK8dqSDBXTbqslmrnt-BOnZqMmE8tD7od1LIxIWGlmet1pV-mclFUF8t14bDZ06FRlS-IPK_cQtsGurh1g0U0fMsbh-UsWuvva-983LeEsWanuSfWmhtaXnb5dcluTdComKYayYsdjJRyN7BNQeen-d8o5ff_qKl9HZPnTt9JAywygh-7hEoTbHrxAjUqaZAhxZDmaQkG8hTsaYezclDt_4Pnv_bHpZXnXd1vRL1MGYe0WRQ5QzDSPSCFsd_Xu8YiuZIk0E-63yIqrvC3Px0C9o1SkvNen21Yd6Bkb1281Fp-VgUj8SJ2mzS5vUiUJu7qNI5k3LnsWe-gmsHehEFTW0hDL7AdwJ-4b9dlpfJUDFvz-l1F1iHo46YoIiCl24j0kJXeFtLcOT-ef_mHivKBA7HkbfmbkjBUAzZ-vXyYM6BkhlbiUjyd_kZZsGh6PPHrwU37Eh6wfBWc2DFT60nDcl_i7F9tLj9ESyAKKyBh6ElmMspDmQy5ULEKQSDmrQWNj4f2YbwXyUf3DuI1TvbPv8lYUkfRw-1sF_cU-nNvz0s371hPPtxamWp_hl-X9CUfaNqd67VBPvB9pGWEoYx0R6LPVGuQSxjy1BaWDkJp5c5FxBxFarriAkIwcS57uO6EpCxxJApJzqYII7NasHpjBh_pCN83pc88YtJ0U8FUTr6PnFSNnIfliUAEfIwA8DNsuHwxMZamcIiEiuMggU2F-g7_wvQaw6gKNIaB1HbZQ4M9baRy2MVlOzI1qi16OZBmYAJ5LovvjRVwi99BMKDb8TLsfj3zPLQK9LXff2DkSnLr-pu8FStdOqboiG21tJ0xYJIzvV5oDMqixSL5KUb_q43PMeOaGYegPra1DduRS3i7WznhEnsOhv4CKYC8w6XZynV_-0dzS87Pok067wrERz6qsxen5NhNLk6TdZADTwxyKyzseGBMy9rrEsCGNAQIEpSqWecdNhPWox85iQTjgWFx12-2TmOY04WdBhoyFnD-SXMUpdAmjjRY/https://www.amazon.com/dp/B0DWSX6FZJ/?_encoding=UTF8&pd_rd_i=B0DWSX6FZJ&pd_rd_i=B0DWSX6FZJ&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=h3pUr&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=51QVJ6FRC5PPRS22DSKJ&pd_rd_wg=uPQNH&pd_rd_r=e5130556-3aec-464d-914c-3be184974937",
+        "link_clean": "https://www.amazon.com/dp/B0DWSX6FZJ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DWSX6FZJ&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41wmnHdx4uL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/bf0145b5-c599-4fc9-ac4e-3a841a6d2703.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/bf0145b5-c599-4fc9-ac4e-3a841a6d2703.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.4,
+        "reviews": 2272,
+        "price": "BOB595.48",
+        "extracted_price": 595.48
+      },
+      {
+        "position": 3,
+        "asin": "B0DWF5S6K3",
+        "title": "SHOKZ OpenDots ONE-Open-Ear Headphones, Clip-On Earbuds-Wireless Bluetooth Earbuds with Microphone-Secure, Lightweight, Comfort-Premium Dolby Audio-Water Resistant-Fast Charging-Up to 40 hrs Playtime",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JBCGmEcy9y8RpjcC0xsnZ28AAAGeT_l11wEAAAH2AQBvbm9fdHhuX2JpZDUgICBvbm9fdHhuX2ltcDIgICCXwDg-/clv1c_ek-IBQfWLbbSTg1Tdz-Qio-tvz6rGnfgzpKWS1VgXx0w-dWD4yF4HwNcUf0Hvs3wt3J2X8PRvLMc7TTv7Fhf-h5DyAkPWPU_Y6lFEfeCWgBVz7Uym2VlDWHI0lg0A2A_-w85E8fAUG2sk9a3o7xEi2B7oNakhtXqW0L3SDum3iaX0Ts0pydqzENltAOD758OVNwRzQpImAvN7_nP58BW3sGRlVc3LtBW5JpR5sqbBnmiD84_0cn0ovCmwxYYC8IQcua1Q8vGvaOL__T9jhKncOdsX1WILO6hAcwt3MgZ4N_N6GcCRFXtXPLxaFIbmk-axenwLwMWZ4neM98-K-dCTEJJ-zJtbU86ItLkELVIXRpuZEGmga_j1OAUDEzuQ5taPNqIyZpl4KJP8GOH1YqKi4RejDU8KOc_1U-mzJq2w4zrz0pjygzfagsmukJeF7wN5MrOwtKw0lz8dmwXvyVFOBgRm7mcoTA6HhtCSIRxYplP-tUe5ymQ7kg1jyBkhW9CR8MXO9ofQBHh7_ECcbIK_D5OkexFrrgP6FYaCEm45tFt4aOt1F5ObJ4ZsGe3MItYkSDW6RKL3vJkMA2oHWgxyyDOKtHIi_Icrw8v9hrcm1AtFCzQD_hvj4iAB9jtN0Xrtd8GqevgmvEQsyAN9qkwBrFT6-MlDLQ-dY1cneXlNOhbcuOOyGJJ3ycX3vVnpY9CHcath-Fw-YDbhsaM307lCU91AQe11qJAFAHiHGFlJ-HRJPDxDeFqBu3pfqyjmjrwR30P4ID4-eLDDncXnJFqL24O6di3cytk6VvrH_VUiLGqduNVKw0z1zoEFUhWJ89RnxBEkUv0LoVRhalOAvyRj1tv3wDLKge3-gH3KbUrjHc2cjx0UWCwaWOKbrdqKEsh6pOephcrTGfm57AwDco_T-HwVZ1-22Y0-16TCsMDHGLgoPz_Y8FUt75Z2MqT623tvQZXbkyW3usaTGvHIjx2a705UBPAET7ZewAED8rfaKAtV8rWnq8EZ7OpaZtoFF1e-q0V2vyx8wgntB7knaPe6dCSzXVzg03f1o-xLZkYp0lDlCL-6BYmgI1HHCeAf2ZuVAblp1W030RX-UzYjfmqGwxmH_wbNQobm3J1qjyjIv1obEIY6WSqwBbl52W3w5Kzs0E7zL_0rOvKRHvTQUDffsW0i5CZij3kZsqwwDrnN7YAHabbSx-GWsJ19o1DnnEDx4eOuuHr2SklphzAQ-ehDDcbAZIRgU9tafAQU5TcITunJ2Bz7XW9q_4G8oGkv1K34XUjctm5_0z31kqrwEFQF-eTKt5iMH_2jzOVuJcyQ7_EJ26lMis1hXD9Y707tKonbpx0wtkAyPsIwKaIjp6-wo-1r7BFoEJeC7ZBz0rQ5db-WxYkKZ9a_vqCFOuystC-h7wXRSxSt1zuCXCGVkVeFe07UBxQHB-Xeh7kzsOATV1YHIraZ0xVPc0mcvBCjtvWvCe32cqlCf_4MeIskKGan8AaJlY1zWITPGTLWzfYO3s_Gv4YrlY3ucTwP8aY85RP8bA1kPdxxdIOV0H1bq_ki0td/https://www.amazon.com/dp/B0DWF5S6K3/?_encoding=UTF8&pd_rd_i=B0DWF5S6K3&pd_rd_i=B0DWF5S6K3&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=h3pUr&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=51QVJ6FRC5PPRS22DSKJ&pd_rd_wg=uPQNH&pd_rd_r=e5130556-3aec-464d-914c-3be184974937",
+        "link_clean": "https://www.amazon.com/dp/B0DWF5S6K3/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DWF5S6K3&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/31EcW0jsyRL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/da8dc713-7f5a-487a-b6eb-0432aa82cb6d.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/da8dc713-7f5a-487a-b6eb-0432aa82cb6d.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.4,
+        "reviews": 2268
+      },
+      {
+        "position": 4,
+        "asin": "B0C48K99FS",
+        "title": "Bluetooth Headset, Wireless Headset with Microphone for PC, V5.2 Computer Headset with Noise Cancelling Mic, USB Dongle, Charging Base & Mute Button for Work, Cell Phones, Computer (Black)",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JDW7_LfwsMJV6Nzh1eVSLooAAAGeT_l12AEAAAH2AQBvbm9fdHhuX2JpZDUgICBvbm9fdHhuX2ltcDIgICDaUS0T/clv1c_ek-IxXfWLbTaTNVIKi58BnJUSaGzf86GlS2GcUDrPj10ctsA5SPk47JENj8WhTN7ulNl_UM2rJVDwbxi-WzgbQflAwgQcqpamrhH6Yb-xsQ-lwU_8xgkiWztkslV5bu5wJYUIOBaO26NBPMiHc7w_8zHiB2el3GK0rXhD3WpypN3TX81YaG82tRrMNNf1Dhkd1iTMarrnYLOzN72pXDUsTuTN9f3zEqK5X6S7e-TGs1xyzCItp4OT7KXcl1_M_pCXwGsQsrCracI78dOM5dqFKm1i9h2UcP3bB4IgCvuApZoqBYnftbfvenRYBIjjdlsG290IfKigd1yRgDTUGM_IVpSGni9cHUyu2TUHu-975YVN0mhdZC-ixPBiXh9Cnj_GAzeIK_usRnit4-l9XhOX4sx0-nOHSTdGkG5iBjTtHQJ76gilfzn0w_WEyLznT0cfKcTtReYHemaVHawEgLwTPyl5f_cThRPuvNrB95gFQjRp41sxbsCBuUGV6yr0Z4yG4oksrMXBJU-xTMj04gRPQ46z1nl8yul1o4gI5GZ1a0WO4zH1os-X95cx5P7RzepRVplROxAQJ3CWFmlAbLzCv-89nk9NzglohS0sKfc_wYc4FpKtgZcPLbztOb8Ae4Sd9Deejo2qKlvCKgNrSSKI4FNxbY-ERWrGSoWfoqNmauY2saOtRHb9WPzFXnr9K4CXf-I-siwvuwTHq1h46pwnXYxFSiTHCIu7m0bnbA08lgl0w_jwXytvm_J1yNvZ8y1f54BOzWjY7ijhRo2lyU65V67YIkqSttNnDcDZM6wu2Yssh8nzOkmMyzF3FIzdItp_tZNDZvi3xVQH9bV36-9dMD6SAi-sGfmPQUi78PbebzlbFAVqg-bMh8oIy05PWHTjd9cx-db-wVh9AQBja3Up-eSzjsNoITn3Uq_dXQlu8mYafnMhw9Tssbm7vjzDGqYvHBaT2hGhezcrNSPy-Z3VxT0kkpDzI7bb_XmJxHaNsYTp89eZWCyawvikSoTNaJ48CvCEr5xzdmA8WgMzNctUCB7IHsF6N51OIg1joFVL21KzJzSXW0Jw4d8tSqlxaeOnZZKKeiAbe4Ov7ipl7c35YiA79WDhulYu2KQg62_sjsEuj18lLcl52usOGDyd2VCksfnw8AYYyeZHCLVLuYeHf7tjF_3hivmzwWsgDBnMpA49rjP1XxNa0fvwzlu2U8M6ky5-Szq64Pu6Oy1IfVVGQFHI8o7ew3u2-Kd--qGPK1qd6BkZ3ABdByaY1WeCH8lXG5pFpc8v9x4SNO9GLJLqhEJX7LYnvB8FLs-_Kw7NXOO2Ffcth7xeqoL6xGq3gz9NPKehtb7DfrTKz-kwZwjS6-i5pnfwCyXBXA5SSL-R7bwAk0oaPxkVR_QidM5msZKKqFhnFUliSJEht_G_crpCp0YgrDwdjN-fX78LPeSAtyAGo9-JVk-DvFXm9y81QQeSGTHv7WifYLPKthdkqZ5lNS7MmYhW0moLeM_rUJRjMWGkf1A4fSlmldugWAH3acI/https://www.amazon.com/dp/B0C48K99FS/?_encoding=UTF8&pd_rd_i=B0C48K99FS&pd_rd_i=B0C48K99FS&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=h3pUr&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=51QVJ6FRC5PPRS22DSKJ&pd_rd_wg=uPQNH&pd_rd_r=e5130556-3aec-464d-914c-3be184974937",
+        "link_clean": "https://www.amazon.com/dp/B0C48K99FS/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0C48K99FS&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41saj31tfgL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/d1f88cb9-db8c-4f50-aa14-9398d40bc480.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/d1f88cb9-db8c-4f50-aa14-9398d40bc480.mp4/r/THUMBNAIL_1080P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.0,
+        "reviews": 2468,
+        "price": "BOB415.43",
+        "extracted_price": 415.43
+      },
+      {
+        "position": 5,
+        "asin": "B0DRP9FS76",
+        "title": "Sarevile Bluetooth Headset with USB Dongle for Computer, Single-Ear Wireless Headset with Noise Cancelling Microphone for Office & Truckers, Bluetooth V5.2 with Mute Button for Work",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JF70MMVRNperB02eTvzVDP8AAAGeT_l12QEAAAH2AQBvbm9fdHhuX2JpZDUgICBvbm9fdHhuX2ltcDIgICAJH7_N/clv1c_ek-YBQfWLbbSTj1Tdz-Qio-tvz6rGnfgzpKWS1VgXx0w-ZVMQs4i3H8ku91bsdBO6gvligJ2DVNq9Li-WzGFO8lYWgHZkYSMW2FUDmgnnwQ6EtbDgguAp23p2OkU5fd38nRjgaRPtQkk7q0ChEbCQcLTUH2dmXG6EsU9iTWlz75LmTpNvu3h6oGvVBMthzwNsJUV-Tgv9-eplWG0MErMeO9YtFX3zIacCu41vD7-MP3NwDjxSOAnTFNYSuyeFWXjCCKa1ry_ixHvEjk197Pseg0_C7I5tYtOKjhzJRE4jkMPuYsoeZaLfkfL_tjJF8lgccPVNQ-kiOGR2uRnqmAlBUakV_97Awr11uegfM0o9-OZpFzbuus6BADA391FVJeJ5GdePPZAi68Jvf0A8hVIn837Dxwak1s6wg8_MJlUd_sF0kAjk1kQUE8VilNlp3ECzr1bUoxOuoXSxX4nUDG38UWy7NWvXtdTKagW03ZuHXgRYIw3PshvDClwfnxyY3z95qDLET_q7u7UPFdd6uWTt6I-7sRB2-sVQL5yAYMeKpj9Ato2mmSf8kuwzFJNJyWipknkqDcnfcbQeUrucD60rD8OOR8Al4diAJ1DQ9bNBrgSKOEoy95KnfZE2aU7WMVKoBTPypNycam8-pM7DKr-efQeYXylA0G12Z7Pnxmd4VObGC-FDf_4e6Z9YcbzX_FR-fBQ0vRUmSJFy2XNzlG7rmUozpRhe7Q4Ob4Avff2AmiOQiOohWUg-M9UCclWsxRw4WhyesIbgxq82yKNxRUr1aK7sJbwM-MS9szFuv7RyeeWTPB_AZonsTPG4TM2t_VKKOqtzo05PtGs03O4u0Qalygf7XeNAcLyAcWsKosx4Cq_ht1Q4HovjaSEyrvU4rWrdhCyHVKmvie3h5Z5vAU2d7ukLjjq0e__5goGK75AL49lQ5S8qETX-SHn853SnBUc5CAUOJxBB3-nNjKCw4dgeQEU0GTlnZjR489EcEuzq6Y6VJ91FnVJ0Srxo-g3i5ys1yjO9NWm49E7PDZvzc_4zLUbVH30JQxY0VOdmQ7OeNcR4X_aKAmHQXQAjbnCRCHsX56KFsjnSrW7-MIjCdS4Tqd-L9AaocopylSrJbNARqsW2oROu0B7uNjUqwPOY8YDy1FItPuePqTx3KJdTKMqc6W-SaiDG92wUZB4WwSdBnQthjOYrYXYQlzKOBDXrvdvyEQF13bkr1iezeuWdga_O7h2_jz15c3GoJpNov465CY7zVAiVfUPJNy4ustvJt7CzNRy-xA3qSr3v1Sseq_VKJ1bWddfVVYf1HZAJQoV3CKB5a9FTziO6tB0W6lkyikVKtCEBfZG-XXo8pjrhlBxcvrOcHOxgFsFVSl2UduiqR-FYScQwf44iza1wz_Z5rkNr6b0Jvb4CsZkikngr58nU_9IGZ6ygRtbVrNfTa-O3z4wUov5zksGLvha7_MqAUZg7ke3lStjuNOB6IprZfSjYnUa3qYszVE7OQg0WVCULOPX_8KsJDXRagW9rgmxlPv9RR3ucWa1tW8/https://www.amazon.com/dp/B0DRP9FS76/?_encoding=UTF8&pd_rd_i=B0DRP9FS76&pd_rd_i=B0DRP9FS76&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=h3pUr&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=51QVJ6FRC5PPRS22DSKJ&pd_rd_wg=uPQNH&pd_rd_r=e5130556-3aec-464d-914c-3be184974937",
+        "link_clean": "https://www.amazon.com/dp/B0DRP9FS76/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DRP9FS76&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41iv00wxIPL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/5b60ced1-8c58-449f-95ef-4e53e61eadda.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/5b60ced1-8c58-449f-95ef-4e53e61eadda.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.2,
+        "reviews": 1054,
+        "price": "BOB276.93",
+        "extracted_price": 276.93
+      }
+    ],
+    "reviews_information": {
+      "summary": {
+        "text": "Customers find these bone conduction headphones deliver great sound quality, with one noting they sound like the person is right there. The headset receives positive feedback for its comfort, with customers mentioning it doesn't hurt their ears, and for its noise cancellation, with one customer highlighting its effectiveness in noisy environments. Moreover, the microphone quality is praised for being extremely clear, and the headset works well for truckers. However, battery life and fit receive mixed reviews, with some customers reporting long charge times while others complain about poor battery life, and some find the fit nice while others disagree.",
+        "insights": [
+          {
+            "title": "Sound quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 66,
+              "positive": 51,
+              "negative": 15
+            },
+            "summary": "Customers like the sound quality of these headphones, with one mentioning that it sounds like the person is right there.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "These are amazing! They are light weight, with great sound quality, and incredible battery life....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2PDGVISIWGWGK"
+              },
+              {
+                "position": 2,
+                "snippet": "...The fit is great and is very comfortable. The sound quality and functionality is amazing. It is very light weight and super easy to use....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3W1AXHFCL82DA"
+              },
+              {
+                "position": 3,
+                "snippet": "Clean, clear sound. Comfortable to wear. Fast to charge. Battery only lasts about 12 hours. I'd buy them again.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R18AA9HMDJ2XFO"
+              },
+              {
+                "position": 4,
+                "snippet": "...tried them out with some music 1st and,,,, was floored about how bad they sounded. ZERO bass. Tried a phone call....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1WILTC27SGJVW"
+              }
+            ]
+          },
+          {
+            "title": "Quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 57,
+              "positive": 49,
+              "negative": 8
+            },
+            "summary": "Customers find the headphones to be of great quality, with excellent call performance.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Great headset. I got it 2 days ago so not much to report as of yet. What I found out it does come with an USB-C cable....",
+                "link": "https://www.amazon.com/gp/customer-reviews/RCFNQHWZBIYEM"
+              },
+              {
+                "position": 2,
+                "snippet": "Great product. Comfortable. Would forget that I was wearing it. Great call quality. Bone conduction is cool. Long battery life....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2JR16QYAZBJCO"
+              },
+              {
+                "position": 3,
+                "snippet": "Good product. I wear a hard hat and it does a good job, good noise canceling mic....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R35RYGW3KNT2VC"
+              },
+              {
+                "position": 4,
+                "snippet": "...The Shokz Opencomm 2 is the best headset I have ever had. I extreme noise environments you can put earplugs in and still hear the headset fine.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1W5JBYJBBC5KZ"
+              }
+            ]
+          },
+          {
+            "title": "Comfort",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 47,
+              "positive": 39,
+              "negative": 8
+            },
+            "summary": "Customers find these bone conduction headphones comfortable, noting they don't hurt their ears and one customer mentions they are barely noticeable.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Best of all, they are compact, comfortable, and work with two units, so I can have my phone and laptop connected concurrently, though only one will...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R7QVK1BHNA4E7"
+              },
+              {
+                "position": 2,
+                "snippet": "These open ear shocks are very comfortable and easy to wear all day. They have a quality sound and the microphone works very well.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2W4P51KKQTWW8"
+              },
+              {
+                "position": 3,
+                "snippet": "...They're super comfortable and I honestly forget I'm wearing them after about 20 minutes! 10/10, would buy again if needed.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2PDGVISIWGWGK"
+              },
+              {
+                "position": 4,
+                "snippet": "Comfort and sound are up to par, but they don’t work with their own iPhone app",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2MTU92IIBWUYL"
+              }
+            ]
+          },
+          {
+            "title": "Reliability",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 42,
+              "positive": 31,
+              "negative": 11
+            },
+            "summary": "Customers find that the headphones work well, particularly for truckers, and one customer mentions they maintain power throughout the workday.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Its super nice and comfortable and works great but my battery keeps dying and its constantly disconnecting from my phone",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1MV4TIM7GZI3"
+              },
+              {
+                "position": 2,
+                "snippet": "Love them, they work great and last 2 full days on a charge with life to spare.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2NPHVCA10W5IU"
+              },
+              {
+                "position": 3,
+                "snippet": "...Super Cheap and unreliable. This is my 3rd and final try....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R20WB6QPXOJNPQ"
+              },
+              {
+                "position": 4,
+                "snippet": "Works well only problem is definitely doesn’t get 16 hour talk time so that’s really annoying your lucky to get 8 on a full charge",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2Q4E9MPENAN76"
+              }
+            ]
+          },
+          {
+            "title": "Noise cancellation",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 41,
+              "positive": 34,
+              "negative": 7
+            },
+            "summary": "Customers appreciate the noise cancellation features of these headphones, noting that they work well in noisy environments and allow them to be heard clearly. One customer mentions that they help with tinnitus issues, while another notes that they don't block the ears.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Noise canceling works good while I'm running a 65 hp tractor open cab with a 10' bushhog running. Great!",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1SH9LNR9SVCH1"
+              },
+              {
+                "position": 2,
+                "snippet": "...Great for hands free phone using on calls. Noise cancelation is good. Wouldn't use it for music. Would vibrate too much for my liking....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2K1FU4Q3IUBW9"
+              },
+              {
+                "position": 3,
+                "snippet": "Not really noise cancelling. Can hear most/all background noises",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2E0P8O9EFUSNF"
+              },
+              {
+                "position": 4,
+                "snippet": "...The mic is what stands out. Noise canceling is superb. Conversations can be had with bad background noise without issue....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2K43A03MYWPHE"
+              }
+            ]
+          },
+          {
+            "title": "Microphone quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 34,
+              "positive": 26,
+              "negative": 8
+            },
+            "summary": "Customers praise the headphones' microphone, noting its exceptional voice quality and extremely clear sound.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Perfect sound and mic quality",
+                "link": "https://www.amazon.com/gp/customer-reviews/RIOVYLXIUG6NP"
+              },
+              {
+                "position": 2,
+                "snippet": "With no doubt the best headphones to work at home. Great mic quality, fee ears not fatigue and whole day battery.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2VM9V69UP7KXX"
+              },
+              {
+                "position": 3,
+                "snippet": "These bone-conduction headphones with the boom mic, are amazing....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R9CGD2JSDRI8G"
+              },
+              {
+                "position": 4,
+                "snippet": "Very poor quality sounds comes and mic not good, do not buy",
+                "link": "https://www.amazon.com/gp/customer-reviews/R28M1HG48ZIV35"
+              }
+            ]
+          },
+          {
+            "title": "Battery life",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 62,
+              "positive": 37,
+              "negative": 25
+            },
+            "summary": "Customers have mixed experiences with the headphones' battery life, with some reporting long charges while others complain about poor performance.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Great call quality. Bone conduction is cool. Long battery life. Microphone failed a couple of weeks after purchase. Returned for refund....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2JR16QYAZBJCO"
+              },
+              {
+                "position": 2,
+                "snippet": "...Will say not a fan of the short battery life can’t make an entire shift driving listening to music....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R8UFOI2BOKXHA"
+              },
+              {
+                "position": 3,
+                "snippet": "...They are light weight, with great sound quality, and incredible battery life....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2PDGVISIWGWGK"
+              },
+              {
+                "position": 4,
+                "snippet": "...Only thing I wish the battery life was better. But will be ordering another one",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1F35OP0UUHKGE"
+              }
+            ]
+          },
+          {
+            "title": "Fit",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 31,
+              "positive": 16,
+              "negative": 15
+            },
+            "summary": "Customers have mixed opinions about the headphones' fit, with some finding them comfortable while others report poor positioning.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...🤭 These function well, are easy to wear - good fit - no matter what your head size is, and I’m comfortable with the price range.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2GS3PG8LDHIZ6"
+              },
+              {
+                "position": 2,
+                "snippet": "...Or do the bands come in different sizes? This is HUGE and will not stay on my head. It keeps falling and it is very annoying....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2TSTPIRMGWUFW"
+              },
+              {
+                "position": 3,
+                "snippet": "...They don’t cover your ears, so you can still hear, which is nice if you are out for a walk. Tilt the boom up to turn the mic off....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R9CGD2JSDRI8G"
+              },
+              {
+                "position": 4,
+                "snippet": "...The only thing because it doesn't go inside your ear is if you around a lot of noise you can't hear who you're talking to....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R35RYGW3KNT2VC"
+              }
+            ]
+          }
+        ],
+        "images": [
+          "https://m.media-amazon.com/images/I/71CsOzCAVML.jpg",
+          "https://m.media-amazon.com/images/I/719CThLQRlL.jpg",
+          "https://m.media-amazon.com/images/I/51hBTGS7PoL.jpg",
+          "https://m.media-amazon.com/images/I/51+GosqN5vL.jpg",
+          "https://m.media-amazon.com/images/I/61b91wmP1vL.jpg",
+          "https://m.media-amazon.com/images/I/71dUgCot+LL.jpg",
+          "https://m.media-amazon.com/images/I/71EkIzZR0XL.jpg"
+        ],
+        "customer_reviews": {
+          "5 star": 69,
+          "4 star": 11,
+          "3 star": 8,
+          "2 star": 5,
+          "1 star": 7
+        }
+      }
+    }
+  }
+}

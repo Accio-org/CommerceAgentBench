@@ -1,0 +1,58 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-commerce-cross-platform-shopping",
+  "summary": "多平台比价凑单方案 — 跨平台商品分配+包邮门槛+优惠券触发+紧急配送约束+缺货限制. 8 capability checks on 1 output file.",
+  "category": "combinatorial_optimization",
+  "state_kind": "file_output",
+  "difficulty": "hard",
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "shopping_plan.json"
+    ]
+  },
+  "check_strategy": "private/expected_answer.json stores the platform rules and price catalog; verify_task.py reads OUTPUT_DIR/shopping_plan.json, recomputes legality, platform summaries, totals, and the global optimum. Per docs/check-granularity.md the fine-grained legality/arithmetic/optimum atoms are folded into 8 capability units (each = AND of its atoms; per-atom failures listed in `reason`). Every atom is still validated exactly as before.",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "outputs/shopping_plan.json exists, is valid JSON, and has the expected shopping_plan/assignments/platform_summary structure."
+    },
+    {
+      "id": "assignment_completeness",
+      "check_type": "deterministic_exact",
+      "description": "Exactly the 12 expected items are assigned, each present once, with no duplicate, missing, or unknown item IDs."
+    },
+    {
+      "id": "assignments_legal",
+      "check_type": "deterministic_exact",
+      "description": "Every assignment respects the hard feasibility constraints: a legal platform ID (JD/TM/PDD), urgent items off slow (>2 day) platforms, and no item placed where it is unavailable."
+    },
+    {
+      "id": "prices_accurate",
+      "check_type": "deterministic_exact",
+      "description": "Each assignment's reported price matches the hidden catalog price for that item and platform."
+    },
+    {
+      "id": "platform_summary_consistent",
+      "check_type": "deterministic_exact",
+      "description": "Each platform_summary.items list matches the assignments, and every platform subtotal and platform_total is computed correctly."
+    },
+    {
+      "id": "shipping_and_coupon_rules",
+      "check_type": "deterministic_exact",
+      "description": "Every platform's shipping fee (free-shipping threshold) and coupon discount (coupon threshold) are applied correctly."
+    },
+    {
+      "id": "totals_correct",
+      "check_type": "deterministic_exact",
+      "description": "total_cost equals the sum of platform_total values and total_savings equals the sum of coupon discounts."
+    },
+    {
+      "id": "globally_optimal",
+      "check_type": "deterministic_exact",
+      "description": "The plan's total_cost equals the global optimum over all legal assignments (the combinatorial-optimization core). The current unique optimum is 454."
+    }
+  ],
+  "notes": "This is a COMBINATORIAL OPTIMIZATION task from the buyer perspective. The verifier checks legality and arithmetic directly from the hidden price catalog, then brute-force recomputes the global optimum. The optimal solution costs 454: JD items 01+04+07+11, TM items 08+12, and PDD items 02+03+05+06+09+10. Granularity: 23 atomic checks folded into 8 capability units per docs/check-granularity.md (pure aggregation; binary pass unchanged)."
+}

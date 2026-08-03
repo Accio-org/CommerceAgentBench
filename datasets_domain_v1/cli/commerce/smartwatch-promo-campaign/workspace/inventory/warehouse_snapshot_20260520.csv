@@ -1,0 +1,10 @@
+Product,SKU,Warehouse,On-Hand Units,Snapshot Date,Notes
+Pulse S2,CVP-S2-2026,US-West,8500,2026-05-20,Pre-allocation total (includes non-campaign reserve)
+Pulse S2,CVP-S2-2026,EU-NL,6200,2026-05-20,Pre-allocation total
+Pulse S2,CVP-S2-2026,Asia-SZ,5800,2026-05-20,Pre-allocation total
+Band Lite,CVB-L1-2026,US-West,15000,2026-05-20,
+Band Lite,CVB-L1-2026,EU-NL,12000,2026-05-20,
+Band Lite,CVB-L1-2026,Asia-SZ,18000,2026-05-20,
+Dock Pro,CVD-P1-2026,US-West,4500,2026-05-20,
+Dock Pro,CVD-P1-2026,EU-NL,3000,2026-05-20,
+Buds Mini,CVBM-1-2026,Asia-SZ,25000,2026-05-20,End-of-life clearance

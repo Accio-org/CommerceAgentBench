@@ -1,0 +1,59 @@
+{
+  "expected_fields": {
+    "category": "Consumer Electronics > Portable Audio & Video > Earphones & Headphones",
+    "saleMode": "Domestic Shipping",
+    "productTitle": "SoundBee Pro X3 TWS Bluetooth 5.3 Earbuds Active Noise Cancelling Wireless Earphones LDAC Hi-Res Audio IPX5 Waterproof",
+    "productGroup": "Consumer Electronics",
+    "attr_brand": "SoundBee",
+    "attr_model": "Pro X3",
+    "attr_material": "ABS+PC",
+    "attr_shape": ["In-ear, ergonomic design", "In-ear ergonomic design", "In-ear ergonomic", "In-ear ergonomic earbuds", "In-ear ergonomic earbuds with charging case"],
+    "saleType": "Per Piece",
+    "priceUnit": "Pair",
+    "priceMode": "ladder",
+    "fobType": "FOB Shenzhen",
+    "fobPriceMin": "9.33",
+    "fobPriceMax": "12.64",
+    "minOrderQuantity": "100",
+    "inventory": "200000",
+    "productVisible": "no",
+    "descType": "custom",
+    "agreement": "true",
+    "selectedCountries": "[{\"code\": \"US\", \"name\": \"United States\"}, {\"code\": \"UK\", \"name\": \"United Kingdom\"}, {\"code\": \"DE\", \"name\": \"Germany\"}, {\"code\": \"FR\", \"name\": \"France\"}, {\"code\": \"JP\", \"name\": \"Japan\"}, {\"code\": \"KR\", \"name\": \"South Korea\"}, {\"code\": \"AU\", \"name\": \"Australia\"}, {\"code\": \"BR\", \"name\": \"Brazil\"}]",
+    "ladderPrice": "[{\"quantity\": \"100-499\", \"price\": \"12.64\"}, {\"quantity\": \"500-1999\", \"price\": \"11.47\"}, {\"quantity\": \"2000-4999\", \"price\": \"10.50\"}, {\"quantity\": \"5000+\", \"price\": \"9.33\"}]",
+    "deliveryPeriod": "[{\"quantity\": \"100-499\", \"days\": \"10\"}, {\"quantity\": \"500-2000\", \"days\": \"18\"}, {\"quantity\": \"2001-5000\", \"days\": \"25\"}, {\"quantity\": \"5000+\", \"days\": \"35\"}]",
+    "countryPriceDiff": "{\"mode\": \"percent\", \"prices\": {\"US\": [\"0\", \"0\", \"0\", \"0\"], \"UK\": [\"0\", \"0\", \"0\", \"0\"], \"DE\": [\"0\", \"0\", \"0\", \"0\"], \"FR\": [\"0\", \"0\", \"0\", \"0\"], \"JP\": [\"0\", \"0\", \"0\", \"0\"], \"KR\": [\"0\", \"0\", \"0\", \"0\"], \"AU\": [\"0\", \"0\", \"0\", \"0\"], \"BR\": [\"12\", \"12\", \"12\", \"12\"]}}"
+  },
+  "required_files": [
+    "image_1"
+  ],
+  "json_fields": [
+    "countryPriceDiff",
+    "deliveryPeriod",
+    "ladderPrice",
+    "selectedCountries"
+  ],
+  "image_selection": {
+    "correct_files": [
+      "IMG_20260503_001.jpg",
+      "IMG_20260503_002.jpg",
+      "IMG_20260503_004.jpg",
+      "IMG_20260503_006.jpg",
+      "IMG_20260503_008.jpg",
+      "IMG_20260503_010.jpg",
+      "IMG_20260503_012.jpg"
+    ],
+    "wrong_files": [
+      "IMG_20260503_003.jpg",
+      "IMG_20260503_005.jpg",
+      "IMG_20260503_007.jpg",
+      "IMG_20260503_009.jpg",
+      "IMG_20260503_011.jpg",
+      "IMG_20260503_013.jpg",
+      "IMG_20260503_014.jpg",
+      "IMG_20260503_015.jpg"
+    ],
+    "note": "Agent must visually identify earbuds images (001,002,004,006,008,010,012) by looking at the photos (requires_vision=true; no per-image labels in the shoot log). Phone case (003,007,011), screen protector (005,009,013), and rejects (014 blurry, 015 overexposed) are wrong."
+  },
+  "notes": "Each each expected_fields entry as one atomic deterministic_exact check (json_fields use deep-equal), plus structural checks (session_exists, session_state_readable, session_submitted, mock_submit_via_legitimate_path, image uploads). No fake-LLM-judge or hidden-trap mechanics; the expected_fields entries are the only ground truth."
+}

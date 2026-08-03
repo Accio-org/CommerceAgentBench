@@ -1,0 +1,47 @@
+{
+  "seed_customers": [
+    {"name": "Shenzhen HuaXin Electronics", "email": "ap@huaxin-electronics.cn"},
+    {"name": "Dongguan MeiDa Packaging", "email": "finance@meida-pack.com"},
+    {"name": "Ningbo SailWind Logistics", "email": "billing@sailwind-logistics.com"},
+    {"name": "Guangzhou YiHe Textiles", "email": "accounts@yihe-textiles.cn"}
+  ],
+  "expected_refunds": [
+    {"charge_description": "Bluetooth Module Batch B-4412", "refund_amount": 195500, "full": false, "tolerance": 0, "_note": "23% actual (115/500), NOT 25% as stated in report text"},
+    {"charge_description": "Retail Box Print Run RB-7790", "refund_amount": 320000, "full": true, "tolerance": 0},
+    {"charge_description": "Freight Deposit FD-2026-038", "refund_amount": 242000, "full": false, "tolerance": 0},
+    {"charge_description": "Fabric Sample Set SS-A10", "refund_amount": 95000, "full": true, "tolerance": 0},
+    {"charge_description": "Corrugated Mailer Batch CM-3301", "refund_amount": 51000, "full": false, "tolerance": 0},
+    {"charge_description": "Warehousing Fee WH-2026-Q2", "refund_amount": 118222, "full": false, "tolerance": 1},
+    {"charge_description": "Gift Box Insert Set GBI-4420", "refund_amount": 185000, "full": true, "tolerance": 0}
+  ],
+  "no_refund": [
+    "USB-C Cable Lot C-5523",
+    "Organic Cotton Bolt OC-889",
+    "LED Driver Board LD-7710",
+    "Quarterly Platform Access Fee Q2-2026"
+  ],
+  "total_refunded_cents": 1206722,
+  "total_refunded_tolerance": 1,
+  "customer_refund_totals": {
+    "Shenzhen HuaXin Electronics": {"total_cents": 195500, "count": 1},
+    "Dongguan MeiDa Packaging": {"total_cents": 556000, "count": 3},
+    "Ningbo SailWind Logistics": {"total_cents": 360222, "count": 2, "tolerance": 1},
+    "Guangzhou YiHe Textiles": {"total_cents": 95000, "count": 1}
+  },
+  "summary_customer": {
+    "name": "Refund Batch 2026-06",
+    "email": "refunds@greenleaf-trading.com",
+    "metadata": {
+      "total_refunded_cents": "1206722",
+      "refund_count": "7",
+      "customers_affected": "4",
+      "batch_date": "2026-06-01"
+    }
+  },
+  "liability_payment_intent": {
+    "amount": 1206722,
+    "currency": "usd",
+    "description": "Net refund liability — Batch 2026-06",
+    "metadata": {"batch": "2026-06", "type": "refund_liability"}
+  }
+}

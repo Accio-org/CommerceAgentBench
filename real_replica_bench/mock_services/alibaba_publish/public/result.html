@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>提交结果 - Benchmark</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#f5f5f5;color:#333;font-size:14px;line-height:1.6}
+.container{max-width:960px;margin:0 auto;padding:24px 20px}
+.header{background:#fff;border-radius:8px;padding:24px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.header h1{font-size:20px;margin-bottom:16px;color:#333}
+.meta{display:flex;gap:24px;flex-wrap:wrap;font-size:13px;color:#666;margin-bottom:16px}
+.meta-item{display:flex;align-items:center;gap:6px}
+.meta-label{color:#999}
+.progress-bar{height:24px;background:#e8e8e8;border-radius:12px;overflow:hidden;position:relative}
+.progress-fill{height:100%;border-radius:12px;transition:width .5s;display:flex;align-items:center;justify-content:flex-end;padding:0 10px;font-size:12px;font-weight:600;color:#fff;min-width:40px}
+.progress-fill.high{background:linear-gradient(90deg,#52c41a,#73d13d)}
+.progress-fill.mid{background:linear-gradient(90deg,#faad14,#ffc53d)}
+.progress-fill.low{background:linear-gradient(90deg,#ff4d4f,#ff7875)}
+.stats{display:flex;gap:12px;margin-top:16px}
+.stat-card{flex:1;background:#f7f8fa;border-radius:6px;padding:12px 16px;text-align:center}
+.stat-num{font-size:24px;font-weight:700;color:#0070cc}
+.stat-label{font-size:12px;color:#999;margin-top:2px}
+
+.section{background:#fff;border-radius:8px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,.08);overflow:hidden}
+.section-title{padding:14px 20px;background:#fafafa;border-bottom:1px solid #f0f0f0;font-size:15px;font-weight:600;color:#333;display:flex;justify-content:space-between;align-items:center}
+.section-badge{font-size:12px;font-weight:400;padding:2px 8px;border-radius:10px;color:#fff}
+.section-badge.complete{background:#52c41a}
+.section-badge.partial{background:#faad14}
+.section-badge.empty{background:#d9d9d9}
+.field-row{display:flex;padding:12px 20px;border-bottom:1px solid #f5f5f5;align-items:flex-start}
+.field-row:last-child{border-bottom:none}
+.field-row:hover{background:#fafafa}
+.field-status{width:24px;flex-shrink:0;font-size:16px;margin-top:1px}
+.field-info{width:160px;flex-shrink:0}
+.field-name{font-size:13px;font-weight:500;color:#333}
+.field-type{font-size:11px;color:#999;margin-top:2px}
+.field-required{color:#ff3000;font-size:11px;margin-left:4px}
+.field-value{flex:1;min-width:0;font-size:13px;color:#333;word-break:break-all}
+.field-value.empty{color:#ccc;font-style:italic}
+.json-block{background:#f7f8fa;border:1px solid #e8e8e8;border-radius:4px;padding:8px 12px;font-family:'Courier New',monospace;font-size:12px;white-space:pre-wrap;max-height:200px;overflow-y:auto}
+.html-preview{background:#fff;border:1px solid #e8e8e8;border-radius:4px;padding:12px;max-height:300px;overflow-y:auto}
+.img-thumb{width:60px;height:60px;object-fit:cover;border-radius:4px;border:1px solid #e8e8e8}
+.back-btn{display:inline-block;padding:8px 20px;background:#0070cc;color:#fff;border-radius:4px;text-decoration:none;font-size:14px;margin-top:16px}
+.back-btn:hover{background:#005ea6}
+
+.verify-section{background:#fff;border-radius:8px;padding:24px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.verify-section h2{font-size:16px;margin-bottom:12px}
+.verify-textarea{width:100%;min-height:120px;border:1px solid #d9d9d9;border-radius:4px;padding:10px;font-family:monospace;font-size:12px;resize:vertical}
+.verify-btn{padding:8px 20px;background:#0070cc;color:#fff;border:none;border-radius:4px;cursor:pointer;font-size:14px;margin-top:8px}
+.verify-btn:hover{background:#005ea6}
+.verify-result{margin-top:12px;padding:16px;background:#f7f8fa;border-radius:6px;display:none}
+.match-true{color:#52c41a}
+.match-false{color:#ff4d4f}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>提交结果</h1>
+    <div class="meta" id="metaInfo"></div>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="stats" id="statsArea"></div>
+    <a href="/" class="back-btn">返回表单</a>
+  </div>
+  <div id="fieldsArea"></div>
+
+</div>
+
+<script>
+var sessionId = new URLSearchParams(window.location.search).get('session');
+if(!sessionId) { document.body.innerHTML = '<div style="padding:40px;text-align:center;color:#999">缺少 session 参数<br><a href="/">返回表单</a></div>'; }
+var uiToken = sessionStorage.getItem('alibaba_publish_ui_token_' + sessionId) || '';
+
+function load() {
+  if(!sessionId) return;
+  fetch('/api/score/' + sessionId, { headers: {'X-Ui-Token': uiToken} }).then(function(r){return r.json()}).then(function(data) {
+    if(data.error) { document.body.innerHTML = '<div style="padding:40px;text-align:center;color:#ff4d4f">' + data.error + '</div>'; return; }
+
+    var pct = Math.round(data.completion * 100);
+    var cls = pct >= 80 ? 'high' : pct >= 50 ? 'mid' : 'low';
+    document.getElementById('progressFill').className = 'progress-fill ' + cls;
+    document.getElementById('progressFill').style.width = Math.max(pct, 5) + '%';
+    document.getElementById('progressFill').textContent = pct + '%';
+
+    document.getElementById('metaInfo').innerHTML =
+      '<div class="meta-item"><span class="meta-label">Session:</span>' + data.sessionId.substring(0,12) + '...</div>' +
+      '<div class="meta-item"><span class="meta-label">状态:</span>' + data.status + '</div>';
+
+    document.getElementById('statsArea').innerHTML =
+      '<div class="stat-card"><div class="stat-num">' + data.filled + '/' + data.total + '</div><div class="stat-label">已填写字段</div></div>' +
+      '<div class="stat-card"><div class="stat-num">' + data.requiredFilled + '/' + data.requiredTotal + '</div><div class="stat-label">必填字段</div></div>' +
+      '<div class="stat-card"><div class="stat-num">' + pct + '%</div><div class="stat-label">完成率</div></div>';
+
+    var sections = {};
+    data.fields.forEach(function(f) {
+      if(!sections[f.section]) sections[f.section] = [];
+      sections[f.section].push(f);
+    });
+
+    var html = '';
+    Object.keys(sections).forEach(function(sec) {
+      var fields = sections[sec];
+      var filled = fields.filter(function(f){return f.filled}).length;
+      var badgeCls = filled === fields.length ? 'complete' : filled > 0 ? 'partial' : 'empty';
+      var badgeText = filled + '/' + fields.length;
+
+      html += '<div class="section"><div class="section-title">' + sec + ' <span class="section-badge ' + badgeCls + '">' + badgeText + '</span></div>';
+      fields.forEach(function(f) {
+        var statusIcon = f.filled ? '✓' : '✗';
+        var statusColor = f.filled ? '#52c41a' : '#d9d9d9';
+        var valHtml = '';
+
+        if(!f.filled) {
+          valHtml = '<span class="field-value empty">未填写</span>';
+        } else if(f.type === 'json') {
+          try { valHtml = '<div class="json-block">' + JSON.stringify(JSON.parse(f.value), null, 2) + '</div>'; }
+          catch(e) { valHtml = '<div class="json-block">' + escapeHtml(f.value) + '</div>'; }
+        } else if(f.type === 'html') {
+          valHtml = '<div class="html-preview">' + f.value + '</div>';
+        } else if(f.type === 'file') {
+          var isImg = f.filePath && f.filePath.match(/\.(jpg|jpeg|png|gif|webp|bmp)$/i);
+          valHtml = '<span>' + escapeHtml(f.value || '') + '</span>';
+          if(isImg) valHtml += ' <img class="img-thumb" src="/' + f.filePath + '">';
+        } else {
+          valHtml = '<span>' + escapeHtml(f.value) + '</span>';
+        }
+
+        html += '<div class="field-row">' +
+          '<div class="field-status" style="color:' + statusColor + '">' + statusIcon + '</div>' +
+          '<div class="field-info"><div class="field-name">' + f.label + (f.required ? '<span class="field-required">*必填</span>' : '') + '</div><div class="field-type">' + f.name + ' (' + f.type + ')</div></div>' +
+          '<div class="field-value">' + valHtml + '</div></div>';
+      });
+      html += '</div>';
+    });
+    document.getElementById('fieldsArea').innerHTML = html;
+  });
+}
+
+function escapeHtml(s) {
+  var d = document.createElement('div'); d.textContent = s; return d.innerHTML;
+}
+
+load();
+</script>
+</body>
+</html>

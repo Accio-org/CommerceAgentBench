@@ -1,0 +1,77 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-mail-calendar-supplier-meeting-workbench-ui",
+  "summary": "Coordinate the Solar Pump RFQ Technical Alignment meeting via the workbench UI mock. Each criterion is a capability-unit check (AND of its atomic predicates) against the workbench audit log and final state.",
+  "category": "email_calendar_workbench",
+  "state_kind": "local_mock_ui",
+  "difficulty": "medium",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Required output artifacts produced: outputs/mock_audit/workbench_audit.json exists and is parseable JSON, AND outputs/meeting_workbench_summary.md exists and is non-empty."
+    },
+    {
+      "id": "read_alice_thread",
+      "check_type": "deterministic_exact",
+      "description": "Read the inbox through the UI: at least one '/ui/mail/list' call, at least 4 '/ui/mail/get' calls, and one '/ui/mail/get' opened Alice's source mail (message_id 'mail_solar_rfq_001'). No /api/* bypass."
+    },
+    {
+      "id": "contacted_required_parties",
+      "check_type": "deterministic_exact",
+      "description": "Sent initial outreach via '/ui/mail/send' to all three required parties (farah.hussein@nilepumps.eg, diego.ramos@company.com, mina.chen@company.com), case-insensitive."
+    },
+    {
+      "id": "two_way_clarification_with_farah",
+      "check_type": "deterministic_exact",
+      "description": "Resolved the Cairo port-inspection conflict: '/ui/mail/send' count to farah.hussein@nilepumps.eg is >= 2 (initial ask + clarification follow-up)."
+    },
+    {
+      "id": "decoy_thread_ignored",
+      "check_type": "deterministic_exact",
+      "description": "Negative restraint: zero '/ui/mail/send' to any address ending in '@buyer-events.org' (decoy thread ignored)."
+    },
+    {
+      "id": "final_confirmation_to_alice",
+      "check_type": "deterministic_exact",
+      "description": "Closed the loop: at least one '/ui/mail/send' to alice.li@company.com (final confirmation back to the requester)."
+    },
+    {
+      "id": "calendar_event_created_via_ui",
+      "check_type": "deterministic_exact",
+      "description": "Created an event via '/ui/calendar/create' with a valid title containing 'Solar Pump' OR 'RFQ' (case-insensitive)."
+    },
+    {
+      "id": "timezone_window_resolved",
+      "check_type": "deterministic_exact",
+      "description": "Resolved the cross-timezone meeting window: an event has request_body.start_time == '2026-05-07T16:00:00+08:00' AND end_time == '2026-05-07T17:30:00+08:00' (strict ISO 8601 with +08:00 offset)."
+    },
+    {
+      "id": "meeting_room_selected",
+      "check_type": "deterministic_exact",
+      "description": "Closed-set room selection with the C2 trap avoided: the matched event's location == 'Procurement War Room C3' (case-insensitive whole-string) AND does NOT contain 'Room C2'."
+    },
+    {
+      "id": "all_attendees_present",
+      "check_type": "deterministic_exact",
+      "description": "The matched event's attendees include all four required emails (alice.li@company.com, farah.hussein@nilepumps.eg, diego.ramos@company.com, mina.chen@company.com), case-insensitive."
+    },
+    {
+      "id": "no_existing_event_deleted",
+      "check_type": "deterministic_exact",
+      "description": "Negative restraint: zero '/ui/calendar/delete' calls AND audit.deleted is empty (no existing event removed)."
+    },
+    {
+      "id": "ui_only_no_api_bypass",
+      "check_type": "deterministic_exact",
+      "description": "Negative restraint: zero calls whose endpoint path starts with '/api/' (agent used UI endpoints, not API bypass)."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "meeting_workbench_summary.md",
+      "mock_audit/workbench_audit.json"
+    ]
+  }
+}

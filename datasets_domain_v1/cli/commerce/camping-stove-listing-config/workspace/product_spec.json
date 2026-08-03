@@ -1,0 +1,77 @@
+{
+  "brand": {
+    "name_en": "TrailBlaze",
+    "name_zh": "越途",
+    "website": "https://trailblaze-outdoor.com"
+  },
+  "product_line": {
+    "name_en": "ThermoJet",
+    "name_zh": "烈焰",
+    "category": "Portable Camping Stove",
+    "launch_date": "2026-07-15"
+  },
+  "common_specs": {
+    "burner_output_watts": 3500,
+    "fuel_type": "Standard 230g isobutane/propane canisters",
+    "fuel_consumption_g_per_hr": 135,
+    "boil_time_1L_seconds": 195,
+    "ignition": "Piezo electric",
+    "burner_material": "Titanium alloy",
+    "support_material": "Stainless steel",
+    "operating_temp_min_c": -10,
+    "operating_temp_max_c": 40,
+    "flame_adjustable": true,
+    "pot_support_arms": 4
+  },
+  "variants": [
+    {
+      "tier": "Solo",
+      "name_en": "ThermoJet Solo",
+      "name_zh": "烈焰 Solo 基础款",
+      "description_en": "Ultralight stove unit only. Perfect for minimalist backpackers.",
+      "description_zh": "超轻炉头单品，极简主义背包客的理想选择。",
+      "includes": ["stove unit"],
+      "colors": [
+        {"name_en": "Black", "name_zh": "黑色", "sku": "TJ-SOLO-BK"},
+        {"name_en": "Olive Green", "name_zh": "橄榄绿", "sku": "TJ-SOLO-OG"}
+      ],
+      "weight_g": 95,
+      "dimensions_folded_mm": {"length": 105, "width": 105, "height": 68},
+      "base_cost_cny": 45,
+      "msrp_usd": 34.99
+    },
+    {
+      "tier": "Kit",
+      "name_en": "ThermoJet Kit",
+      "name_zh": "烈焰 Kit 套装款",
+      "description_en": "Stove with integrated windscreen and padded carry bag. Ready for any trail.",
+      "description_zh": "炉头搭配一体式挡风板和加厚收纳袋，随时出发。",
+      "includes": ["stove unit", "windscreen", "carry bag"],
+      "colors": [
+        {"name_en": "Black", "name_zh": "黑色", "sku": "TJ-KIT-BK"},
+        {"name_en": "Olive Green", "name_zh": "橄榄绿", "sku": "TJ-KIT-OG"}
+      ],
+      "weight_g": 185,
+      "dimensions_folded_mm": {"length": 120, "width": 120, "height": 95},
+      "base_cost_cny": 85,
+      "msrp_usd": 59.99
+    },
+    {
+      "tier": "Pro",
+      "name_en": "ThermoJet Pro",
+      "name_zh": "烈焰 Pro 专业款",
+      "description_en": "Complete cooking system with titanium pot set, windscreen, and premium carry bag.",
+      "description_zh": "完整烹饪系统，含钛合金锅具套装、挡风板和高级收纳袋。",
+      "includes": ["stove unit", "titanium pot set (750ml + 450ml)", "windscreen", "carry bag"],
+      "colors": [
+        {"name_en": "Black", "name_zh": "黑色", "sku": "TJ-PRO-BK"},
+        {"name_en": "Olive Green", "name_zh": "橄榄绿", "sku": "TJ-PRO-OG"},
+        {"name_en": "Titanium", "name_zh": "钛色", "sku": "TJ-PRO-TI"}
+      ],
+      "weight_g": 420,
+      "dimensions_folded_mm": {"length": 135, "width": 135, "height": 160},
+      "base_cost_cny": 180,
+      "msrp_usd": 129.99
+    }
+  ]
+}

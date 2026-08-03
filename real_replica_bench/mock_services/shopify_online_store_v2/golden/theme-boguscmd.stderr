@@ -1,0 +1,14 @@
+╭─ error ──────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  Failed to prompt:                                                           │
+│                                                                              │
+│  Command theme boguscmd not found. Did you mean theme push?                  │
+│                                                                              │
+│  This usually happens when running a command non-interactively, for example  │
+│   in a CI environment, or when piping to or from another process.            │
+│                                                                              │
+│  To resolve this, specify the option in the command, or run the command in   │
+│  an interactive environment such as your local terminal.                     │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

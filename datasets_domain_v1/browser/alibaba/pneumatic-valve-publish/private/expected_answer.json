@@ -1,0 +1,83 @@
+{
+  "expected_fields": {
+    "category": "Mechanical Parts & Fabrication Services > Valves > Ball Valves",
+    "saleMode": "Domestic Shipping",
+    "productGroup": "Industrial Valves",
+    "attr_brand": [
+      "ZhongDe",
+      "Zhongde",
+      "ZHONGDE",
+      "ZhongDe Valve",
+      "Zhongde Valve",
+      "zhongde-valve"
+    ],
+    "attr_model": "ZD-PBV-DN50",
+    "attr_material": [
+      "SS304",
+      "304 Stainless Steel",
+      "Stainless Steel",
+      "ASTM A351 CF8 (SS304)",
+      "SS304 (ASTM A351 CF8)",
+      "ASTM A351 CF8 / SS304 body and ball, SS304 stem, PTFE seat",
+      "SS304 Stainless Steel Body / PTFE Seat",
+      "Stainless Steel SS304 (ASTM A351 CF8), PTFE seat"
+    ],
+    "attr_diameter": [
+      "165mm",
+      "DN50",
+      "DN50 (2\")",
+      "DN50 (2 inch)",
+      "DN50 (165mm flange OD)",
+      "DN50 / 165mm flange OD"
+    ],
+    "saleType": "Per Piece",
+    "priceUnit": "Unit",
+    "priceMode": "ladder",
+    "fobType": "FOB Shanghai",
+    "fobPriceMin": "92.98",
+    "fobPriceMax": "124.01",
+    "minOrderQuantity": "10",
+    "inventory": "5000",
+    "productVisible": "no",
+    "descType": "custom",
+    "agreement": "true",
+    "selectedCountries": "[{\"code\": \"BR\", \"name\": \"Brazil\"}, {\"code\": \"MX\", \"name\": \"Mexico\"}, {\"code\": \"CO\", \"name\": \"Colombia\"}, {\"code\": \"AE\", \"name\": \"UAE\"}, {\"code\": \"SA\", \"name\": \"Saudi Arabia\"}, {\"code\": \"US\", \"name\": \"United States\"}, {\"code\": \"DE\", \"name\": \"Germany\"}]",
+    "ladderPrice": "[{\"quantity\": \"10-49\", \"price\": \"124.01\"}, {\"quantity\": \"50-99\", \"price\": \"112.88\"}, {\"quantity\": \"100-499\", \"price\": \"101.89\"}, {\"quantity\": \"500+\", \"price\": \"92.98\"}]",
+    "deliveryPeriod": "[{\"quantity\": \"10-49\", \"days\": \"15\"}, {\"quantity\": \"50-99\", \"days\": \"20\"}, {\"quantity\": \"100-500\", \"days\": \"30\"}]",
+    "countryPriceDiff": "{\"mode\": \"percent\", \"prices\": {\"BR\": [\"8\", \"8\", \"8\", \"8\"], \"MX\": [\"8\", \"8\", \"8\", \"8\"], \"CO\": [\"8\", \"8\", \"8\", \"8\"], \"AE\": [\"5\", \"5\", \"5\", \"5\"], \"SA\": [\"5\", \"5\", \"5\", \"5\"], \"US\": [\"0\", \"0\", \"0\", \"0\"], \"DE\": [\"0\", \"0\", \"0\", \"0\"]}}"
+  },
+  "required_files": [
+    "image_1",
+    "image_2",
+    "image_3",
+    "image_4",
+    "image_5",
+    "image_6"
+  ],
+  "json_fields": [
+    "countryPriceDiff",
+    "deliveryPeriod",
+    "ladderPrice",
+    "selectedCountries"
+  ],
+  "image_selection": {
+    "correct_files": [
+      "PHOTO_001.jpg",
+      "PHOTO_002.jpg",
+      "PHOTO_003.jpg",
+      "PHOTO_004.jpg",
+      "PHOTO_005.jpg",
+      "PHOTO_006.jpg"
+    ],
+    "acceptable_files": [
+      "PHOTO_010.jpg"
+    ],
+    "wrong_files": [
+      "PHOTO_007.jpg",
+      "PHOTO_008.jpg",
+      "PHOTO_009.jpg"
+    ],
+    "note": "PHOTO_001-006 are DN50 pneumatic ball valves. PHOTO_007 is a butterfly valve, PHOTO_008 is a gate valve, PHOTO_009 is another butterfly valve. PHOTO_010 is a factory warehouse photo (acceptable but not product). Agent must view images to distinguish valve types."
+  },
+  "notes": "Each expected_fields entry is one atomic deterministic_exact check (json_fields use deep-equal), plus structural checks (session_exists, session_state_readable, session_submitted, mock_submit_via_legitimate_path, image uploads). The expected_fields entries are the only ground truth — no fake-LLM-judge or hidden-trap mechanics."
+}

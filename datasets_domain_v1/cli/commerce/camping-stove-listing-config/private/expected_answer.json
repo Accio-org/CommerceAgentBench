@@ -1,0 +1,46 @@
+{
+  "shopify": {
+    "variant_count": 5,
+    "variant_skus": ["TJ-SOLO-BK", "TJ-SOLO-OG", "TJ-KIT-BK", "TJ-KIT-OG", "TJ-PRO-TI"],
+    "solo_weight_g": 98,
+    "solo_weight_oz_str": "3.46",
+    "prices": {
+      "TJ-SOLO-BK": "34.99",
+      "TJ-SOLO-OG": "34.99",
+      "TJ-KIT-BK": "59.99",
+      "TJ-KIT-OG": "59.99",
+      "TJ-PRO-TI": "139.99"
+    },
+    "seo_keywords": ["camping stove", "portable", "backpacking", "ultralight"],
+    "main_image_prefix": "main_white"
+  },
+  "amazon_jp": {
+    "child_count": 5,
+    "title_starts_with": "TrailBlaze",
+    "title_contains": "ThermoJet",
+    "bullet_count": 5,
+    "prices": {
+      "TJ-SOLO-BK": 5290,
+      "TJ-SOLO-OG": 5290,
+      "TJ-KIT-BK": 8990,
+      "TJ-KIT-OG": 8990,
+      "TJ-PRO-TI": 20990
+    },
+    "pse_cert": "PSE-JP-2026-GAS-0089",
+    "pse_warning_contains": "一酸化炭素中毒",
+    "browse_node": "2529479051"
+  },
+  "douyin": {
+    "sku_count": 5,
+    "banned_words": ["最好", "最轻", "最强", "最佳", "最优", "第一", "唯一", "首选", "独家", "顶级", "极致", "绝对", "完美"],
+    "prices": {
+      "TJ-SOLO-BK": 249,
+      "TJ-SOLO-OG": 249,
+      "TJ-KIT-BK": 429,
+      "TJ-KIT-OG": 429,
+      "TJ-PRO-TI": 1009
+    },
+    "ccc_cert": "CCC-2026-OUTDOOR-1158",
+    "category_path": "运动户外/户外装备/户外炉具"
+  }
+}

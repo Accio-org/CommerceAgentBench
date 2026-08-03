@@ -1,0 +1,25 @@
+From: Arthur Pendragon <procurement-lead@company.com>
+To: procurement-ops@company.com, deal-team-leads@company.com
+Subject: [Action Required] Q3 Supplier Deal Pipeline Kickoff - Process Reminders
+Date: Mon, 8 Jun 2026 10:30:00 +0800
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
+
+Dear Procurement Operations and Deal Team Leads,
+
+As we kick off the Q3 2026 supplier contract onboarding cycle, it is critical that we align our automated systems and manual reviews with our updated governance model.
+
+For pipeline volume, procurement should work from normal in-flight POs only. Records marked `Exception` are not part of the cumulative volume calculation; the active normal statuses are `Booked`, `In Transit`, and `At Port`.
+
+For Jira, active deal tasks should land in `In Review` in the `PROJ` project. The workflow map in the procurement pipeline workbook documents the allowed path into that state and the direct transitions that are blocked by governance.
+
+For owner and sizing, use the Q3 pipeline workbook as the source: `SupplierMaster.primary_owner_id` maps to `ProcurementOwners.employee_id`, and the active Deal Size thresholds are the Large, Medium, and Standard rows in `DealSizeBuckets`. Legacy micro or macro sizes should not be used for this onboarding cycle.
+
+This onboarding cycle is essential to secure our tier-1 and tier-2 material supplies for the upcoming fiscal quarters. Let us ensure the transition data is 100% accurate before the active board review.
+
+Best regards,
+
+Arthur Pendragon
+Procurement Lead
+procurement-lead@company.com

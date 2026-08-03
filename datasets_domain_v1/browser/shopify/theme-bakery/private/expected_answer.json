@@ -1,0 +1,40 @@
+{
+  "page": "theme",
+  "expected_fields": {
+    "themeTemplate": "classic",
+    "industry": "食品饮料",
+    "businessType": "B2C 零售",
+    "targetAudience": "Health-conscious food lovers who appreciate artisan craftsmanship, aged 30-55",
+    "brandTone": "优雅高端",
+    "theme": "Dawn",
+    "colorScheme": "Warm & Earthy",
+    "fontHeading": "Cormorant Garamond",
+    "fontBody": "Source Sans 3",
+    "storeName": "La Mie Dorée",
+    "slogan": "Baked with time, served with love",
+    "brandColor": "#8B5E3C",
+    "announcementText": "Order by 8pm for next-morning delivery 🥐",
+    "menuItems": "[{\"label\":\"Breads\"},{\"label\":\"Pastries\"},{\"label\":\"Seasonal\"},{\"label\":\"About Us\"}]",
+    "headerLayout": "left",
+    "heroHeading": "Artisan Bread, Perfected Over Time",
+    "heroSubheading": "48-hour cold fermentation, organic stone-ground flour, baked fresh daily",
+    "heroCTAText": "Order Fresh Bread",
+    "featuredCollection": "Signature Loaves",
+    "products": "[{\"title\":\"Country Sourdough Loaf\",\"price\":8.5},{\"title\":\"Pain de Campagne\",\"price\":9},{\"title\":\"Baguette Tradition\",\"price\":5.5}]",
+    "valueProp1": "48-hour cold fermentation process",
+    "valueProp2": "100% organic stone-ground flour",
+    "valueProp3": "Same-day local delivery before noon",
+    "footerEmail": "bonjour@lamiedoree.com",
+    "newsletterText": "Fresh bread updates & seasonal specials in your inbox",
+    "publishStatus": "published",
+    "agreement": "true"
+  },
+  "required_files": [
+    "heroImage"
+  ],
+  "json_fields": [
+    "menuItems",
+    "products"
+  ],
+  "notes": "page=theme. Each expected_fields entry is one atomic deterministic_exact check, plus structural checks (session_exists / session_state_readable / session_submitted / mock_submit_via_legitimate_path / image uploads). No fake-LLM-judge or hidden-trap mechanics."
+}

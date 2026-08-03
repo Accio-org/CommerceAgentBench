@@ -1,0 +1,110 @@
+[
+  {
+    "id": "inbox",
+    "name": "收件箱",
+    "icon": "inbox",
+    "type": "system"
+  },
+  {
+    "id": "starred",
+    "name": "已加星标",
+    "icon": "star",
+    "type": "system"
+  },
+  {
+    "id": "snoozed",
+    "name": "已延后",
+    "icon": "clock",
+    "type": "system"
+  },
+  {
+    "id": "sent",
+    "name": "已发邮件",
+    "icon": "send",
+    "type": "system"
+  },
+  {
+    "id": "drafts",
+    "name": "草稿",
+    "icon": "draft",
+    "type": "system"
+  },
+  {
+    "id": "purchases",
+    "name": "购物",
+    "icon": "tag",
+    "type": "system"
+  },
+  {
+    "id": "important",
+    "name": "重要邮件",
+    "icon": "important",
+    "type": "system"
+  },
+  {
+    "id": "scheduled",
+    "name": "定时发送",
+    "icon": "scheduled",
+    "type": "system"
+  },
+  {
+    "id": "all",
+    "name": "所有邮件",
+    "icon": "all",
+    "type": "system"
+  },
+  {
+    "id": "spam",
+    "name": "垃圾邮件",
+    "icon": "spam",
+    "type": "system"
+  },
+  {
+    "id": "trash",
+    "name": "已删除邮件",
+    "icon": "trash",
+    "type": "system"
+  },
+  {
+    "id": "subscriptions",
+    "name": "管理订阅",
+    "icon": "mail_manage",
+    "type": "system"
+  },
+  {
+    "id": "manage-labels",
+    "name": "管理标签",
+    "icon": "settings",
+    "type": "system"
+  },
+  {
+    "id": "label-work",
+    "name": "工作",
+    "icon": "tag",
+    "type": "user",
+    "color": "#5f6368"
+  },
+  {
+    "id": "label-work-ai",
+    "name": "AI",
+    "icon": "tag",
+    "type": "user",
+    "color": "#5f6368",
+    "parentId": "label-work"
+  },
+  {
+    "id": "label-work-ai-test",
+    "name": "test",
+    "icon": "tag",
+    "type": "user",
+    "color": "#5f6368",
+    "parentId": "label-work-ai"
+  },
+  {
+    "id": "label-life",
+    "name": "生活",
+    "icon": "tag",
+    "type": "user",
+    "color": "#5f6368"
+  }
+]

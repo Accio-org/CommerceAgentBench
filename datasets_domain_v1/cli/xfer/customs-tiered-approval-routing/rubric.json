@@ -1,0 +1,45 @@
+{
+  "schema_version": "2.0",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "description": "All three CLI mock services (GWS, Stripe, Box) are accessible",
+      "points": 1
+    },
+    {
+      "id": "source_data_present",
+      "description": "Both customs CSV files exist with expected row counts",
+      "points": 1
+    },
+    {
+      "id": "sheet_all_tiers_present",
+      "description": "GWS approval tracking sheet contains ALL 13 qualified suppliers with correct tier labels and amounts",
+      "points": 1
+    },
+    {
+      "id": "slides_tier1_only",
+      "description": "Executive briefing slides exist ONLY for Tier 1 suppliers (3 slides); no slides for Tier 2 or Tier 3",
+      "points": 1
+    },
+    {
+      "id": "stripe_tier1_correct",
+      "description": "Tier 1 suppliers have customer + product + invoice + payment_intent in Stripe",
+      "points": 1
+    },
+    {
+      "id": "stripe_tier2_correct",
+      "description": "Tier 2 suppliers have customer + invoice ONLY in Stripe (no products, no payment_intents)",
+      "points": 1
+    },
+    {
+      "id": "stripe_tier3_absent",
+      "description": "Tier 3 suppliers have NO Stripe records at all (no customers, no invoices, nothing)",
+      "points": 1
+    },
+    {
+      "id": "box_routing_correct",
+      "description": "Box has full setup for Tier 1 (folder + contract + task + collaboration), minimal for Tier 2 (folder + file only), nothing for Tier 3",
+      "points": 1
+    }
+  ]
+}

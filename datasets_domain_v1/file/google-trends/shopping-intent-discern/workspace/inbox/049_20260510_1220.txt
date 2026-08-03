@@ -1,0 +1,6 @@
+From: diane.okafor@northstar-dtc.com
+To: wen.li@northstar-dtc.com
+Date: Sun, 10 May 2026 12:20
+Subject: deliverable format for the readout
+
+For the hand-off, give me one json file. An object called "comparison" mapping each entry's label to its interest index, on a 0–100 scale where the single highest weekly point across all the entries = 100. Plus a "ranking" array, labels strongest to weakest. Label bose's two entries exactly "bose quietcomfort earbuds (2026)" and "bose quietcomfort earbuds (2025)"; the others just the brand name as I wrote it originally.

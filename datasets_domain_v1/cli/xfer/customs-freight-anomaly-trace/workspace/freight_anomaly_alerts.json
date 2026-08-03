@@ -1,0 +1,62 @@
+[
+  {
+    "alert_id": "FRT-001",
+    "supplier": "NEUSOFT MEDICAL SYSTEMS CO LTD",
+    "route": "Beijing -> Bangalore",
+    "transport_mode": "Air",
+    "year_2024_freight_usd": 155936.07,
+    "year_2025_freight_usd": 234218.35,
+    "variance_pct": 50.20,
+    "status": "open",
+    "flagged_date": "2025-12-15",
+    "notes": "Freight cost increased significantly year-over-year. Requires investigation."
+  },
+  {
+    "alert_id": "FRT-002",
+    "supplier": "SINOVISION HEALTHCARE YANGZHOU CO LTD",
+    "route": "Shanghai -> Colombo",
+    "transport_mode": "Sea",
+    "year_2024_freight_usd": 24048.00,
+    "year_2025_freight_usd": 42240.00,
+    "variance_pct": 75.65,
+    "status": "open",
+    "flagged_date": "2025-12-15",
+    "notes": "Freight cost increased substantially. Requires investigation."
+  },
+  {
+    "alert_id": "FRT-003",
+    "supplier": "SHENZHEN BROWINER TECH CO LTD",
+    "route": "Shekou -> Busan",
+    "transport_mode": "Sea",
+    "year_2024_freight_usd": 82571.97,
+    "year_2025_freight_usd": 6855.84,
+    "variance_pct": -91.70,
+    "status": "open",
+    "flagged_date": "2025-12-15",
+    "notes": "Freight cost dropped dramatically despite continued operations. Highly anomalous."
+  },
+  {
+    "alert_id": "FRT-004",
+    "supplier": "NANJING PERLOVE MEDICAL EQUIPMENT CO LTD",
+    "route": "Shanghai -> Mumbai",
+    "transport_mode": "Sea",
+    "year_2024_freight_usd": 80509.52,
+    "year_2025_freight_usd": 603624.00,
+    "variance_pct": 649.75,
+    "status": "open",
+    "flagged_date": "2025-12-15",
+    "notes": "Freight cost surged to 7.5x previous year. Extremely anomalous, urgent review needed."
+  },
+  {
+    "alert_id": "FRT-005",
+    "supplier": "SIEMENS SHANGHAI MEDICAL EQUI LTD",
+    "route": "Shanghai -> Delhi",
+    "transport_mode": "Air",
+    "year_2024_freight_usd": 3634.00,
+    "year_2025_freight_usd": 6432.50,
+    "variance_pct": 77.01,
+    "status": "open",
+    "flagged_date": "2025-12-15",
+    "notes": "Freight cost increased despite similar shipment volume. Requires investigation."
+  }
+]

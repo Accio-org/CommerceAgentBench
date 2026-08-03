@@ -1,0 +1,155 @@
+#!/usr/bin/env node
+// ntn-mock-bench — bench control binary for verifier access
+// Provides: state, seed, reset, health, audit
+// NOT on agent PATH; verifier-only.
+
+import { fileURLToPath } from 'url';
+import path from 'path';
+import fs from 'fs';
+import { writeSync as __ccbWriteSyncFd } from "node:fs";
+// Flush-safe stdout: process.exit() discards un-flushed async pipe writes
+// (verifier state JSON >64KB was truncated through the daemon). writeSync
+// to fd 1 is synchronous in both node and bun.
+const __ccbOut = (s) => { try { __ccbWriteSyncFd(1, s); } catch (e) {} };
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const VERIFIER_TOKEN = process.env.MOCK_VERIFIER_TOKEN || 'bench-verifier';
+const PORT = process.env.NTN_MOCK_PORT || '3456';
+const BASE_URL = `http://localhost:${PORT}`;
+
+const args = process.argv.slice(2);
+const command = args[0];
+
+function usage() {
+  __ccbOut(`Usage: ntn-mock-bench <command> [options]
+
+Commands:
+  state   --token <T>            Dump full DB state as JSON
+  seed    --token <T> --file <f> Run seed file against DB
+  reset   --token <T>            Wipe and re-seed DB
+  health                         Check server is running
+  audit   --token <T>            Dump event log as JSON
+`);
+}
+
+function parseFlags(a) {
+  const flags = {};
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] === '--token' && i + 1 < a.length) { flags.token = a[++i]; continue; }
+    if (a[i] === '--file' && i + 1 < a.length) { flags.file = a[++i]; continue; }
+  }
+  return flags;
+}
+
+function requireToken(flags) {
+  const internalToken = process.env.CCB_INTERNAL_BENCH_TOKEN || '';
+  if (internalToken === VERIFIER_TOKEN || flags.token === VERIFIER_TOKEN) {
+    // Daemon env-token mode omits --token; backend auth still needs the real
+    // verifier token, so resolve it here instead of passing flags.token through.
+    flags.token = VERIFIER_TOKEN;
+    return;
+  }
+  if (!flags.token || flags.token !== VERIFIER_TOKEN) {
+    process.stderr.write('Error: invalid or missing --token\n');
+    process.exit(1);
+  }
+}
+
+async function apiFetch(urlPath, opts = {}) {
+  const url = new URL(urlPath, BASE_URL).toString();
+  const headers = { 'Content-Type': 'application/json', ...opts.headers };
+  const res = await fetch(url, { ...opts, headers });
+  const text = await res.text();
+  return { status: res.status, data: text };
+}
+
+switch (command) {
+  case 'health': {
+    try {
+      const { status, data } = await apiFetch('/health');
+      if (status === 200) {
+        __ccbOut(data + '\n');
+        process.exit(0);
+      }
+      process.stderr.write(`Server returned ${status}\n`);
+      process.exit(1);
+    } catch (e) {
+      __ccbOut(JSON.stringify({ status: 'error', error: 'Server not running' }) + '\n');
+      process.exit(1);
+    }
+    break;
+  }
+
+  case 'state': {
+    const flags = parseFlags(args.slice(1));
+    requireToken(flags);
+    const { status, data } = await apiFetch('/api/state', {
+      headers: { Authorization: `Bearer ${flags.token}` },
+    });
+    if (status === 200) {
+      __ccbOut(data + '\n');
+      process.exit(0);
+    }
+    process.stderr.write(`Error: server returned ${status}\n`);
+    process.exit(1);
+  }
+
+  case 'audit': {
+    const flags = parseFlags(args.slice(1));
+    requireToken(flags);
+    const { status, data } = await apiFetch('/api/state', {
+      headers: { Authorization: `Bearer ${flags.token}` },
+    });
+    if (status === 200) {
+      const state = JSON.parse(data);
+      __ccbOut(JSON.stringify(state.events || [], null, 2) + '\n');
+      process.exit(0);
+    }
+    process.stderr.write(`Error: server returned ${status}\n`);
+    process.exit(1);
+  }
+
+  case 'seed': {
+    const flags = parseFlags(args.slice(1));
+    requireToken(flags);
+    if (!flags.file) {
+      process.stderr.write('Error: --file is required\n');
+      process.exit(1);
+    }
+    if (!fs.existsSync(flags.file)) {
+      process.stderr.write(`Error: file not found: ${flags.file}\n`);
+      process.exit(1);
+    }
+    const body = fs.readFileSync(flags.file, 'utf-8');
+    const { status, data } = await apiFetch('/api/state/seed', {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${flags.token}` },
+      body,
+    });
+    if (status === 200) {
+      __ccbOut(data + '\n');
+      process.exit(0);
+    }
+    process.stderr.write(`Error: server returned ${status}: ${data}\n`);
+    process.exit(1);
+  }
+
+  case 'reset': {
+    const flags = parseFlags(args.slice(1));
+    requireToken(flags);
+    const { status, data } = await apiFetch('/api/state/reset', {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${flags.token}` },
+    });
+    if (status === 200) {
+      __ccbOut(data + '\n');
+      process.exit(0);
+    }
+    process.stderr.write(`Error: server returned ${status}\n`);
+    process.exit(1);
+  }
+
+  default:
+    usage();
+    process.exit(command ? 1 : 0);
+}

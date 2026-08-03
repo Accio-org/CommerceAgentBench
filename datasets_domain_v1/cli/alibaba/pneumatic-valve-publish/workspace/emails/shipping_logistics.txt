@@ -1,0 +1,24 @@
+From: Xiao Zhou, Shunda International Logistics <zhou@shunda-logistics.com>
+To: liu@zhongde-valve.com
+Date: 2026-05-08
+Subject: RE: LCL Quote for Wenzhou to Shanghai Port
+
+Hi Manager Liu,
+
+LCL (Less than Container Load) sea freight quote from Wenzhou to Shanghai port:
+
+- Volume rate: 380 RMB / cubic meter
+- Minimum charge: 150 RMB / shipment
+
+Based on your pneumatic valve wooden crate of approximately 0.12 cubic meters / crate, 4 units / crate:
+  -> Freight per crate = 0.12 × 380 = 45.6 RMB
+  -> Freight per unit = 45.6 / 4 = 11.4 RMB
+
+Additionally, port handling fee is a flat 200 RMB / shipment regardless of crate count. This can be amortized across the order:
+  - Small batch (under 50 units): add roughly 4 RMB / unit
+  - Large batch (100+ units): negligible (less than 1 RMB / unit amortized)
+
+I can issue a formal quotation when needed.
+
+Xiao Zhou
+Shunda International Logistics

@@ -1,0 +1,15 @@
+{
+  "name": "google-sheets-slides-mock",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Local mock of Google Sheets + Slides aligned with the google/mcp Workspace tool surface. Uses bun:sqlite.",
+  "bin": {
+    "gws": "./cli.mjs"
+  },
+  "scripts": {
+    "start": "bun server.mjs",
+    "smoke": "bun smoke.mjs",
+    "check": "node --check state.mjs && node --check seeds/default.mjs"
+  }
+}

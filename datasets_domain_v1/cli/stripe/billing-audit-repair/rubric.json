@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "minimum_pass_score": 1.0,
+  "criteria": [
+    {
+      "id": "setup_gate",
+      "weight": 0.05,
+      "description": "Environment ready: stripe mock reachable and state loaded."
+    },
+    {
+      "id": "catalog_cardinality_correct",
+      "weight": 0.08,
+      "description": "Exactly 7 products with the two junk products removed and no extras (cardinality + restraint)."
+    },
+    {
+      "id": "products_repaired",
+      "weight": 0.13,
+      "description": "Every one of the 7 products has the correct name, description, and metadata."
+    },
+    {
+      "id": "prices_repaired",
+      "weight": 0.10,
+      "description": "All 10 active prices present at the correct amounts, currency, and intervals."
+    },
+    {
+      "id": "coupons_repaired",
+      "weight": 0.08,
+      "description": "3 coupons correct (EARLYBIRD/FLEET25/HARDWARE10) and the junk TESTDISCOUNT coupon removed."
+    },
+    {
+      "id": "tax_rate_repaired",
+      "weight": 0.05,
+      "description": "US sales tax rate created at the correct percentage (8.875)."
+    },
+    {
+      "id": "shipping_rate_repaired",
+      "weight": 0.05,
+      "description": "Equipment delivery shipping rate created at the correct fixed amount (2499)."
+    },
+    {
+      "id": "webhooks_repaired",
+      "weight": 0.10,
+      "description": "3 webhook endpoints present with the correct URLs and enabled events."
+    },
+    {
+      "id": "customers_repaired",
+      "weight": 0.13,
+      "description": "The 5 customers present with correct email and segment metadata."
+    },
+    {
+      "id": "subscriptions_correct",
+      "weight": 0.05,
+      "description": "All 8 subscriptions with correct customer-product-interval associations."
+    },
+    {
+      "id": "charges_repaired",
+      "weight": 0.08,
+      "description": "4 setup-fee charges at the correct amounts for the correct customers."
+    },
+    {
+      "id": "triggers_fired",
+      "weight": 0.05,
+      "description": "Pipeline triggers fired (payment_intent.succeeded, invoice.paid, checkout.session.completed)."
+    },
+    {
+      "id": "audit_record_computed",
+      "weight": 0.05,
+      "description": "Audit customer created with dynamically-counted metadata totals."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+# Shopify Product JSON Schema
+# Output file: outputs/shopify_product.json
+# All fields marked (required) must be present.
+
+product:
+  title: string (required, product display title in English)
+  body_html: string (required, product description in HTML, may include <p>, <ul>, <li> tags)
+  vendor: string (required, brand name)
+  product_type: string (required, use category_mapping.csv shopify category_id)
+  tags: list of strings (required, relevant product tags for search/filtering)
+
+  options: # (required) define the variant axes
+    - name: string  # e.g. "Size", "Color"
+      values: list of strings  # all possible values for this option
+
+  variants: # (required) one entry per purchasable SKU
+    - sku: string (required, internal SKU code e.g. "TJ-SOLO-BK")
+      option1: string (required, value for first option axis)
+      option2: string (required, value for second option axis)
+      price: string (required, USD price with 2 decimal places, e.g. "34.99")
+      weight: number (required, weight in grams)
+      weight_unit: string (required, must be "g")
+      requires_shipping: boolean (required, true for physical products)
+      inventory_management: string (required, "shopify")
+
+  images: # (required) product images, ordered by position
+    - src: string (required, image filename from manifest)
+      position: integer (required, 1-based, position 1 = main/hero image)
+      alt: string (required, descriptive alt text)
+    # Rules:
+    # - Position 1 image MUST be a white-background product shot
+    # - Maximum 10 images
+    # - Include lifestyle, detail, and infographic images as available
+
+  metafields: # (required) structured product metadata
+    - namespace: string (required, "specs" or "compliance")
+      key: string (required, field identifier)
+      value: string (required, field value)
+      type: string (required, "single_line_text_field")
+    # Required spec metafields:
+    #   - specs.burner_output (watts)
+    #   - specs.weight_metric (all variant weights in grams, slash-separated)
+    #   - specs.weight_imperial (all variant weights in ounces, slash-separated, 2 decimal places)
+    #   - specs.dimensions_metric (LxWxH in mm per variant, slash-separated)
+    #   - specs.dimensions_imperial (LxWxH in inches per variant, 2 decimal places, slash-separated)
+    #   - specs.fuel_type
+    #   - specs.boil_time
+    #   - specs.material
+    #   - compliance.ce_cert (CE certificate number)
+
+  seo: # (required) search engine optimization metadata
+    title: string (required, max 70 characters, include brand and product line)
+    description: string (required, max 320 characters, must include target SEO keywords from brand guidelines)

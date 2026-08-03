@@ -1,0 +1,139 @@
+{
+  "summary_title": "Feed QA Weekly Summary 2026-W22",
+  "required_comment": "Included in Feed QA Weekly Summary 2026-W22 — please start remediation before the next feed submission.",
+  "qualifying": [
+    {
+      "id": "feed_005",
+      "sku": "NB-SG-BIR-005",
+      "title": "Nova Bird Ladders and Perches SG 005",
+      "market": "SG",
+      "channel": "Google Merchant",
+      "issue_code": "BAD_LANDING_PAGE",
+      "domain": "Feed Quality",
+      "severity": "High",
+      "owner": "cx.ops@northbridge.example.com",
+      "comment_block_id": "b-doc-feed-nb-sg-bir-005-issue",
+      "expected_action": "point feed link to canonical product page and remove interstitial redirect",
+      "source_fact_ids": [
+        "gmc-landing-image"
+      ]
+    },
+    {
+      "id": "feed_012",
+      "sku": "NB-AU-CAT-012",
+      "title": "Aurora Cat Steps and Ramps AU 012",
+      "market": "AU",
+      "channel": "TikTok Shop",
+      "issue_code": "MISSING_MAIN_IMAGE",
+      "domain": "Feed Quality",
+      "severity": "High",
+      "owner": "artwork.ops@northbridge.example.com",
+      "comment_block_id": "b-doc-feed-nb-au-cat-012-issue",
+      "expected_action": "replace placeholder image and confirm image URL resolves from verified merchant domain",
+      "source_fact_ids": [
+        "gmc-landing-image"
+      ]
+    },
+    {
+      "id": "feed_017",
+      "sku": "NB-JP-DOG-017",
+      "title": "Nova Dog Toys JP 017",
+      "market": "JP",
+      "channel": "TikTok Shop",
+      "issue_code": "BAD_LANDING_PAGE",
+      "domain": "Feed Quality",
+      "severity": "High",
+      "owner": "marketplace.ops@northbridge.example.com",
+      "comment_block_id": "b-doc-feed-nb-jp-dog-017-issue",
+      "expected_action": "point feed link to canonical product page and remove interstitial redirect",
+      "source_fact_ids": [
+        "gmc-landing-image"
+      ]
+    },
+    {
+      "id": "feed_024",
+      "sku": "NB-DE-PET-024",
+      "title": "Aurora Pet Food Scoops DE 024",
+      "market": "DE",
+      "channel": "Shopify",
+      "issue_code": "MISSING_MAIN_IMAGE",
+      "domain": "Feed Quality",
+      "severity": "High",
+      "owner": "catalog.ops@northbridge.example.com",
+      "comment_block_id": "b-doc-feed-nb-de-pet-024-issue",
+      "expected_action": "replace placeholder image and confirm image URL resolves from verified merchant domain",
+      "source_fact_ids": [
+        "gmc-landing-image"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "id": "feed_002",
+      "sku": "NB-BR-PET-002",
+      "title": "Harbor Pet Containment Systems BR 002",
+      "market": "BR",
+      "channel": "TikTok Shop",
+      "issue_code": "DRAFT_STATUS_BLOCKER",
+      "domain": "Product Catalog",
+      "severity": "High",
+      "owner": "supplier.ops@northbridge.example.com",
+      "expected_action": "complete catalog detail and move product out of Draft only after required fields are approved",
+      "source_fact_ids": [
+        "shopify-status",
+        "shopify-product-core"
+      ]
+    },
+    {
+      "id": "feed_003",
+      "sku": "NB-MX-PET-003",
+      "title": "Lumen Pet Heating Pad Accessories MX 003",
+      "market": "MX",
+      "channel": "Walmart Marketplace",
+      "issue_code": "MPN_GTIN_GAP",
+      "domain": "Identifier QA",
+      "severity": "Medium",
+      "owner": "inventory.ops@northbridge.example.com",
+      "expected_action": "confirm whether GTIN is truly unavailable and backfill MPN/brand evidence",
+      "source_fact_ids": [
+        "gmc-identifiers",
+        "gtin-management"
+      ]
+    },
+    {
+      "id": "feed_011",
+      "sku": "NB-MX-PRE-011",
+      "title": "River Prescription Cat Food MX 011",
+      "market": "MX",
+      "channel": "Amazon",
+      "issue_code": "CATEGORY_UNCATEGORIZED",
+      "domain": "Product Catalog",
+      "severity": "High",
+      "owner": "inventory.ops@northbridge.example.com",
+      "expected_action": "assign a predefined Shopify taxonomy breadcrumb and verify sales-channel fit",
+      "source_fact_ids": [
+        "shopify-category-taxonomy"
+      ]
+    },
+    {
+      "id": "feed_020",
+      "sku": "NB-AU-PRE-020",
+      "title": "Vector Prescription Dog Food AU 020",
+      "market": "AU",
+      "channel": "Google Merchant",
+      "issue_code": "EU_CERT_CODE_MISSING",
+      "domain": "Compliance",
+      "severity": "High",
+      "owner": "artwork.ops@northbridge.example.com",
+      "expected_action": "add certification authority, name, and code from approved certificate record",
+      "source_fact_ids": [
+        "gmc-certification"
+      ]
+    }
+  ],
+  "required_breakdown": {
+    "BAD_LANDING_PAGE": 2,
+    "MISSING_MAIN_IMAGE": 2
+  },
+  "expected_file_count_after_completion": 9
+}

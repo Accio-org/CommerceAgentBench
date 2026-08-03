@@ -1,0 +1,108 @@
+{
+  "task_id": "browser-gmail-shipment-appointment",
+  "label": {
+    "name": "SEA-772",
+    "parent_name": "Logistics"
+  },
+  "label_required_message_ids": [
+    "ship-001-brief",
+    "ship-003-final-window",
+    "ship-004-port-docs",
+    "ship-005-exception"
+  ],
+  "label_forbidden_message_ids": [
+    "ship-002-old-window",
+    "ship-006-other-booking",
+    "ship-007-promo"
+  ],
+  "mark_read_message_ids": [
+    "ship-001-brief",
+    "ship-003-final-window",
+    "ship-004-port-docs",
+    "ship-005-exception"
+  ],
+  "star_required_message_ids": [
+    "ship-003-final-window",
+    "ship-004-port-docs",
+    "ship-005-exception"
+  ],
+  "star_forbidden_message_ids": [
+    "ship-002-old-window",
+    "ship-006-other-booking",
+    "ship-007-promo"
+  ],
+  "drafts": [
+    {
+      "id": "carrier-confirmation",
+      "to": [
+        "dispatch@blueharbor.test"
+      ],
+      "cc_any": [
+        "marco.chen@auroraretail.test"
+      ],
+      "subject_all": [
+        "SEA-772",
+        "pickup"
+      ],
+      "body_all": [
+        "15:00-16:30",
+        "WH-7",
+        "142 cartons",
+        "2,860 kg",
+        "BH-772-19",
+        "Nolan Park",
+        "HK-8842"
+      ]
+    }
+  ],
+  "calendar_events": [
+    {
+      "id": "pickup-event",
+      "title_all": [
+        "SEA-772",
+        "pickup"
+      ],
+      "date": "2025-06-20",
+      "start": "15:00",
+      "end": "16:30",
+      "location": "WH-7",
+      "guests_all": [
+        "marco.chen@auroraretail.test",
+        "dispatch@blueharbor.test"
+      ],
+      "description_all": [
+        "142 cartons",
+        "2,860 kg",
+        "BH-772-19",
+        "Nolan Park",
+        "HK-8842"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "gate-pass",
+      "title_all": [
+        "SEA-772",
+        "gate pass"
+      ],
+      "details_all": [
+        "Nolan Park",
+        "HK-8842",
+        "BH-772-19"
+      ],
+      "due_any": [
+        "today",
+        "今天",
+        "2025-06-20"
+      ]
+    }
+  ],
+  "required_ui_events": {
+    "label_created": 1,
+    "message_action": 3,
+    "draft_saved": 1,
+    "calendar_event_created": 1,
+    "task_created": 1
+  }
+}

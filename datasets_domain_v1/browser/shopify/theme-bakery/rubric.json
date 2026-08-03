@@ -1,0 +1,42 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-shopify-theme-bakery",
+  "summary": "Shopify Admin mock — theme page. v2: 4 structural + 1 image + 27 field atomic checks.",
+  "category": "ecommerce_shopify_theme",
+  "state_kind": "local_mock_browser",
+  "difficulty": "medium",
+  "check_strategy": "private/expected_answer.json drives atomic checks; rubric.json declares the schema, not the per-field list",
+  "checks": [
+    {
+      "id": "session_exists",
+      "check_type": "deterministic_exact",
+      "description": "GET /api/sessions returns at least one session with page='theme'."
+    },
+    {
+      "id": "session_state_readable",
+      "check_type": "deterministic_exact",
+      "description": "GET /api/state/<session_id> returns parseable JSON."
+    },
+    {
+      "id": "session_submitted",
+      "check_type": "deterministic_exact",
+      "description": "Session status equals 'submitted'."
+    },
+    {
+      "id": "mock_submit_via_legitimate_path",
+      "check_type": "deterministic_exact",
+      "description": "Access-log contains at least one 'ui_submit_valid' event for this session."
+    },
+    {
+      "id": "<slot>_uploaded",
+      "check_type": "deterministic_exact",
+      "description": "Each entry in required_files has a non-empty value on the mock session."
+    },
+    {
+      "id": "field_<each expected_fields entry>_correct",
+      "check_type": "deterministic_exact",
+      "description": "For each field in private/expected_answer.json.expected_fields, value on mock session equals expected (string eq; deep-eq for json_fields)."
+    }
+  ],
+  "notes": "Total atomic checks at runtime = 32."
+}

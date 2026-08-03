@@ -1,0 +1,71 @@
+{
+  "optimal_quote": {
+    "id": "QT-2026-0701",
+    "seller": "Xhipment",
+    "base_price": 5178.80,
+    "origin_port": "CNSHA",
+    "dest_port": "USLAX",
+    "transit_days": "22-26",
+    "est_arrival": "Jun 12, 2026",
+    "total_with_services": 5596.50,
+    "reason": "Only quote that definitively meets both budget (<$6,200) and deadline (arrive by Jun 12). Other within-budget options risk missing the deadline."
+  },
+  "acceptable_quotes": ["QT-2026-0701"],
+  "partial_credit_quotes": ["QT-2026-0705"],
+  "all_quote_totals": {
+    "QT-2026-0701": { "base": 5178.80, "insurance": 201.60, "customs": 275.00, "bond": 65.00, "platform_fee": 77.68, "total": 5798.08 },
+    "QT-2026-0702": { "base": 5655.90, "total": 6282.19, "fail_reason": "over_budget" },
+    "QT-2026-0703": { "base": 6885.96, "total": 7541.85, "fail_reason": "over_budget_and_late" },
+    "QT-2026-0704": { "base": 6200.00, "total": 6835.00, "fail_reason": "over_budget" },
+    "QT-2026-0705": { "base": 5450.00, "total": 6073.25, "fail_reason": "deadline_risk_arrives_jun17" },
+    "QT-2026-0706": { "base": 4980.00, "total": 5596.40, "fail_reason": "misses_deadline_jun24" },
+    "QT-2026-0707": { "base": 5890.00, "total": 6520.35, "fail_reason": "over_budget" },
+    "QT-2026-0708": { "base": 5350.00, "total": 5972.25, "fail_reason": "deadline_risk_arrives_jun17" }
+  },
+  "expected_search_data": {
+    "origin_country": "CN",
+    "origin_city": "hangzhou",
+    "origin_city_label_contains": ["hangzhou", "Hangzhou"],
+    "dest_country": "US",
+    "dest_city": "losangeles",
+    "dest_city_label_contains": ["los angeles", "Los Angeles"],
+    "cargo_type": "fcl",
+    "container_size": "40",
+    "container_qty": 1,
+    "goods_value": 48000,
+    "hazardous": false,
+    "goods_ready": "ready"
+  },
+  "expected_services": {
+    "insurance": true,
+    "customs": true,
+    "bond_type": "single"
+  },
+  "expected_verification": {
+    "pickup": {
+      "company_contains": ["GlobalTrade", "globaltrade"],
+      "contact_contains": ["Wang Li", "wang li"],
+      "email": "wangli@globaltrade-elec.com",
+      "city_contains": ["Hangzhou", "hangzhou"],
+      "country": "CN",
+      "zip": "310052"
+    },
+    "delivery": {
+      "company_contains": ["GlobalTrade", "Distribution"],
+      "contact_contains": ["James Miller", "james miller"],
+      "email": "james.miller@globaltrade-us.com",
+      "city_contains": ["Los Angeles", "los angeles"],
+      "country": "US",
+      "zip": "90015"
+    }
+  },
+  "report_expected_fields": [
+    "shipment_id",
+    "seller_name",
+    "route_ports",
+    "transit_time",
+    "arrival_date",
+    "total_cost",
+    "cost_breakdown"
+  ]
+}

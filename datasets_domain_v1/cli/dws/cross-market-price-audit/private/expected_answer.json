@@ -1,0 +1,1372 @@
+{
+  "checks": [
+    {
+      "id": "changelog_exists",
+      "entity": "documents",
+      "match": {
+        "name": "Pricing Audit Change Log"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "updated_nb_au_pet_004",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "30.02"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_cat_012",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "51.19"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_pre_020",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "72.36"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_bir_028",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "93.53"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_dog_036",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "114.7"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_pet_044",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "34.34"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_swi_052",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "55.51"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_dog_060",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "76.68"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_pet_068",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "97.85"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_cat_076",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "119.02"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_pre_084",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "38.66"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_au_bir_092",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-au"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "59.83"
+          ]
+        }
+      }
+    },
+    {
+      "id": "exempt_nb_br_pet_002",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "22.9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_mir_010",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "45.9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_dog_018",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "67.07"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_bir_026",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "88.24"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_cat_034",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "109.4"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_dog_042",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "29.05"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_bir_050",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "50.22"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_dog_058",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "71.39"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_pet_066",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "92.56"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_mir_074",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "113.72"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_dog_082",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "33.37"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_br_bir_090",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-br"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "54.54"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_bir_008",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "40.61"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_dog_016",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "61.78"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_pet_024",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "82.94"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_cat_032",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "104.11"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_dog_040",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "23.76"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_bir_048",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "44.93"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_cat_056",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "66.1"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_liv_064",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "87.26"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_bir_072",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "108.43"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_dog_080",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "28.08"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_pet_088",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "49.25"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_de_cat_096",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-de"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "70.42"
+          ]
+        }
+      }
+    },
+    {
+      "id": "exempt_nb_jp_pet_001",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "20.45"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_bir_009",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "43.25"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_dog_017",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "64.42"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_pet_025",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "85.59"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_out_033",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "106.76"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_non_041",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "26.41"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_bir_049",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "47.57"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_cat_057",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "68.74"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_pet_065",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "89.91"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_bir_073",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "111.08"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_dog_081",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "30.73"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_jp_pet_089",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-jp"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "51.89"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_pet_003",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "27.38"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_pre_011",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "48.55"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_non_019",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "69.71"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_bir_027",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "90.88"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_stu_035",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "112.05"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_dog_043",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "31.7"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_bir_051",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "52.87"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_dog_059",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "74.03"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_pet_067",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "95.2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_pre_075",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "116.37"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_non_083",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "36.02"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_mx_bir_091",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-mx"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "57.19"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_bir_005",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "32.67"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_cat_013",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "53.84"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_dog_021",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "75.01"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_com_029",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "96.17"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_dog_037",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "117.34"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_pet_045",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "36.99"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_cat_053",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "58.16"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_dog_061",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "79.33"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_bir_069",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "100.49"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_cat_077",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "121.66"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_dog_085",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "41.31"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_sg_com_093",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-sg"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "62.48"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_bir_007",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "37.96"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_dog_015",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "59.13"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_pet_023",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "80.3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_puz_031",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "101.47"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_dog_039",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "122.63"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_sma_047",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "42.28"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_out_055",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "63.45"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_dog_063",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "84.62"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_bir_071",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "105.79"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_dog_079",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "126.95"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_pet_087",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "46.6"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_uk_puz_095",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-uk"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "67.77"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_bir_006",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "35.32"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_int_014",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "56.48"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_fis_022",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "77.65"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_com_030",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "98.82"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_dog_038",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "119.99"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_pet_046",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "39.64"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_cat_054",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "60.8"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_pre_062",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "81.97"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_bir_070",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "103.14"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_int_078",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "124.31"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_fis_086",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "43.96"
+          ]
+        }
+      }
+    },
+    {
+      "id": "updated_nb_us_com_094",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-mkt-us"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "65.12"
+          ]
+        }
+      }
+    },
+    {
+      "id": "changelog_has_exemptions",
+      "entity": "documents",
+      "match": {
+        "name": "Pricing Audit Change Log"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "exempt"
+          ]
+        }
+      }
+    }
+  ]
+}

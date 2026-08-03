@@ -1,0 +1,30 @@
+schema_version = "1.0"
+
+[task]
+id = "browser-web-research-seamless-tape-seo-title-pack"
+name = "痘痘贴 Alibaba Listing 优化包 (v2)"
+language = "zh-CN"
+entrypoint = "task.md"
+files_dir = "workspace"
+test = "grader/run.sh"
+rubric = "rubric.json"
+private_dir = "private"
+keywords = ["browser_web_ecommerce", "seo", "listing", "deterministic", "v2"]
+difficulty = "L4"
+
+[agent]
+timeout_sec = 1800
+max_actions = 60
+
+[verifier]
+type = "script"
+timeout_sec = 60
+
+[environment]
+base_images = ["acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859"]
+requires_vision = true
+requires_browser = true
+requires_network = true
+runtime_boundary = "closed_source_black_box"
+state_policy = "public_web_research"
+mock_services = false

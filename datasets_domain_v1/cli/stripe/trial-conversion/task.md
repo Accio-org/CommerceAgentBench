@@ -1,0 +1,1 @@
+Our June trial cohort expires next Friday. Sales already confirmed each account's conversion path — the tracker is in `workspace/`. Get everyone squared away in Stripe so billing kicks in on time. The product catalog isn't set up yet either, so you'll need to build that first. Drop a batch summary in `outputs/conversion_summary.json` when you're done.

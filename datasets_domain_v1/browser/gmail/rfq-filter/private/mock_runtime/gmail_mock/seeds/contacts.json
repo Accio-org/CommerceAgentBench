@@ -1,0 +1,29 @@
+[
+  {
+    "id": "contact-iris",
+    "name": "Iris Zhao",
+    "email": "iris.zhao@auroraretail.test",
+    "phone": "",
+    "notes": "Procurement lead",
+    "source": "directory",
+    "color": "#1a73e8"
+  },
+  {
+    "id": "contact-thermal",
+    "name": "ThermalPack Sales",
+    "email": "quotes@thermalpack.test",
+    "phone": "",
+    "notes": "Shortlist supplier candidate",
+    "source": "recent",
+    "color": "#d93025"
+  },
+  {
+    "id": "contact-bamboo",
+    "name": "Maya Lin",
+    "email": "maya@bamboocore.test",
+    "phone": "",
+    "notes": "BambooCore supplier",
+    "source": "recent",
+    "color": "#188038"
+  }
+]

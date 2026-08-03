@@ -1,0 +1,28 @@
+schema_version = "1.0"
+
+[task]
+id = "file-commerce-ops-hengyan-english-site-build"
+name = "恒燕起重英文官网前端实现 (v2)"
+language = "zh-CN"
+entrypoint = "task.md"
+files_dir = "workspace"
+test = "grader/run.sh"
+rubric = "rubric.json"
+private_dir = "private"
+keywords = ["browser", "web", "ecommerce", "frontend", "v2"]
+
+[agent]
+timeout_sec = 1800
+max_actions = 60
+
+[verifier]
+type = "script"
+timeout_sec = 240
+
+[environment]
+base_images = ["acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859"]
+requires_vision = false
+requires_browser = false
+requires_network = false
+runtime_boundary = "closed_source_black_box"
+state_policy = "offline_or_mock_only"

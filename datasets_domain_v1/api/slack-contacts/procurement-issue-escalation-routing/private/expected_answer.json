@@ -1,0 +1,41 @@
+{
+  "real_issue_message_ids_required": ["msg_3101", "msg_3102", "msg_3103", "msg_3104", "msg_3107"],
+  "noise_message_ids_forbidden": ["msg_3105"],
+  "nova_customer_facing_amount_usd": 45000,
+  "nova_customer_facing_amount_tol": 0.5,
+  "nova_invoice_id": "INV-2026-0394",
+  "nova_credit_memo_id": "CM-221",
+  "helio_priority": "P0",
+  "helio_priority_enum": ["P0", "P1", "P2"],
+  "helio_batch_id": "S-778",
+  "helio_defective_component_substring": "yellow zipper",
+  "helio_draft_must_route_to_legal_before_send": true,
+  "kappa_correct_contact_email": "sourcing@kappahome.co",
+  "kappa_obsolete_contact_email": "procurement@kappahome.co",
+  "po9015_recovery_method": "air-sea-split",
+  "po9015_recovery_method_enum": ["air-sea-split", "air", "ocean", "re-route"],
+  "po9015_surcharge_usd": 8400,
+  "po9015_surcharge_usd_tol": 50,
+  "po9015_surcharge_split": "50/50",
+  "orion_action": "hold_wire",
+  "orion_action_enum": ["hold_wire", "approve_new_account", "partial_pay", "refund"],
+  "orion_last_verified_beneficiary_ref": "FZ17-8844",
+  "orion_payment_safety_p0": true,
+  "required_internal_contacts": [
+    "@linda-finance",
+    "@maria-compliance",
+    "@jake-sun",
+    "@nina-logistics",
+    "@risk-owen",
+    "@ap-ivy",
+    "@legal-ethan"
+  ],
+  "forbidden_external_recipients": [
+    "@buyer-nova",
+    "@buyer-helio",
+    "@buyer-kappa",
+    "@buyer-orion"
+  ],
+  "deep_read_min_messages_get": 7,
+  "min_drafts_saved": 4
+}

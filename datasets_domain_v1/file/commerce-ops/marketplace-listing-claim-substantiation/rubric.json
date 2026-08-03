@@ -1,0 +1,128 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-commerce-ops-marketplace-listing-claim-substantiation",
+  "summary": "Adjudicate 12 marketplace listing claims against FTC Green Guides / Amazon detail-page rules and local evidence, then rewrite the listing and build an evidence manifest. One folded check per claim (decision+reason+evidence) + setup_gate + 4 grouped deliverable checks + 5 LLM-judge quality checks = 22.",
+  "category": "ecommerce_compliance_listing_review",
+  "state_kind": "offline_local_only",
+  "difficulty": "L4",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Plumbing + well-formedness folded: claim_review.json / revised_listing.md / evidence_manifest.json exist, parse, and outputs/ is clean; all 12 claim IDs covered once; decision and reason_code values are in the closed enums; reference fixtures intact."
+    },
+    {
+      "id": "claim_CLM-001_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-001 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-002_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-002 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-003_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-003 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-004_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-004 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-005_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-005 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-006_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-006 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-007_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-007 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-008_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-008 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-009_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-009 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-010_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-010 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-011_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-011 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "claim_CLM-012_correct",
+      "check_type": "deterministic_exact",
+      "description": "CLM-012 adjudicated correctly: decision, reason_code, and required supporting evidence all match the canonical answer (acceptable-sets honoured). Folded per claim (R3a); failing dimensions listed in reason."
+    },
+    {
+      "id": "summary_counts_correct",
+      "check_type": "deterministic_exact",
+      "description": "The four decision aggregate counts fall in the expected ranges AND the listing_compliance_summary counts match the per-claim decisions (count-consistency skill)."
+    },
+    {
+      "id": "evidence_manifest_quality",
+      "check_type": "deterministic_exact",
+      "description": "Evidence manifest is well-formed: sources reference existing local files, used_for_claims are valid claim IDs, quoted_points are non-empty, and PDF/HTML sources carry page/section/snapshot locators."
+    },
+    {
+      "id": "claim_review_completeness",
+      "check_type": "deterministic_exact",
+      "description": "Every claim row carries a substantive rationale, and non-remove decisions carry replacement_text (deliverable completeness of claim_review.json)."
+    },
+    {
+      "id": "revised_listing_correct",
+      "check_type": "deterministic_exact",
+      "description": "Revised listing is compliant: required sections present, supported terms preserved, and all unsupported environmental/performance/platform-prohibited/wrong-scope terms removed with dishwasher scope narrowed to the top-rack lid."
+    },
+    {
+      "id": "llm_revised_listing_is_commercially_usable_and_evidence_bound",
+      "check_type": "llm_judge_boolean",
+      "description": "Does revised_listing.md read like commercially usable marketplace copy while staying within the evidence boundaries for HPT-750-SS (not generic legal notes and not unsupported marketing exaggeration)?"
+    },
+    {
+      "id": "llm_claim_rationales_are_specific_to_local_evidence",
+      "check_type": "llm_judge_boolean",
+      "description": "Do the claim_review.json rationales explain the specific evidence boundary for each claim rather than giving generic one-line accept/reject explanations?"
+    },
+    {
+      "id": "llm_environmental_and_safety_claims_are_appropriately_qualified",
+      "check_type": "llm_judge_boolean",
+      "description": "Are environmental and safety-related claims in the revised listing appropriately qualified according to the local FTC excerpt and component-specific certificates?"
+    },
+    {
+      "id": "llm_performance_claims_are_not_overstated",
+      "check_type": "llm_judge_boolean",
+      "description": "Are temperature, leak, dishwasher, and durability claims in the revised listing no stronger than the local lab evidence supports?"
+    },
+    {
+      "id": "llm_evidence_manifest_supports_review_decisions",
+      "check_type": "llm_judge_boolean",
+      "description": "Does evidence_manifest.json connect the important review decisions to relevant local source files and concise evidence notes, rather than listing irrelevant sources?"
+    }
+  ],
+  "standard_output_dir": "/task/outputs/",
+  "expected_outputs": [
+    "claim_review.json",
+    "revised_listing.md",
+    "evidence_manifest.json"
+  ],
+  "check_strategy": "private/expected_answer.json drives per-claim, per-dimension validation; the verifier computes the same atoms as before but folds emission per docs/check-granularity.md. Plumbing/coverage/enum → setup_gate (R2). Each claim = ONE check = AND(decision, reason_code, required_evidence), kept per-claim because claim adjudication at volume is the hard competency (R3a). summary counts, evidence manifest, claim_review completeness, and revised-listing edits each collapse to one same-skill capability check (R3). The 5 llm_judge_boolean quality checks stay separate (distinct judge rubrics, R4). Binary pass = all 22, identical to the old all-70 atoms (pure aggregation).",
+  "notes": "Total checks = 22 (setup_gate + 12 per-claim + summary_counts_correct + evidence_manifest_quality + claim_review_completeness + revised_listing_correct + 5 llm_judge_boolean). Restructured 2026-06-08 from the previous 70-atom layout (20 structural + 12×3 per-claim + 9 listing/manifest + 5 LLM). Pure aggregation on the deterministic part: no validation loosened, binary pass unchanged; capacity now reflects distinct capability units. See docs/check-granularity.md."
+}

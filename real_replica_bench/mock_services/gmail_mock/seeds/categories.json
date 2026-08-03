@@ -1,0 +1,20 @@
+[
+  {
+    "id": "primary",
+    "name": "主要",
+    "selected": true,
+    "teaser": ""
+  },
+  {
+    "id": "promotions",
+    "name": "推广",
+    "selected": false,
+    "teaser": "Google AI Studio - Build Android apps in minutes with simple prompts"
+  },
+  {
+    "id": "social",
+    "name": "社交",
+    "selected": false,
+    "teaser": ""
+  }
+]

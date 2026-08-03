@@ -1,0 +1,11 @@
+{
+  "name": "amazon-sp-api-mock",
+  "version": "0.5.0-wave3b",
+  "private": true,
+  "type": "module",
+  "description": "Stateful Amazon Selling Partner API mock for RealReplicaBench (11 namespaces): Sellers v1, Catalog Items v2022-04-01, Listings Items v2021-08-01, Product Pricing v0 + v2022-05-01, Product Fees v0, Orders v0, FBA Inventory v1, Feeds v2021-06-30, Finances v0, Reports v2021-06-30.",
+  "scripts": {
+    "start": "bun server.js",
+    "smoke": "bash smoke_test.sh"
+  }
+}

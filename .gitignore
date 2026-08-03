@@ -1,0 +1,99 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+build/
+node_modules/
+
+# Provider credentials. The harness reads model keys from the environment
+# (GEMINI_API_KEY, OPENAI_API_KEY, OPENCLAW_PROVIDER_API_KEY, ...), so a .env
+# next to the checkout is the obvious place to keep them and must never be
+# committable. .env.example is the one file worth tracking.
+.env
+.env.*
+!.env.example
+
+# Build and tooling artifacts. build/ was already covered; dist/ is what
+# `python -m build` actually writes.
+/dist/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+/venv/
+
+# Editor state
+.idea/
+.vscode/
+/runs/
+/images/
+/login-state/
+/logs/
+*.egg-info/
+/dataset_dev/
+
+# Mock service runtime artifacts (SQLite DBs, Bun lockfiles auto-generated on first run)
+real_replica_bench/mock_services/*/data/
+!real_replica_bench/mock_services/google_docs_mock/data/
+!real_replica_bench/mock_services/google_docs_mock/data/seed_state.json
+real_replica_bench/mock_services/*/bun.lock
+real_replica_bench/mock_services/*/node_modules/
+
+# Claude Code local session / hooks dir
+.claude/
+
+# Hosted-site workspaces and the legacy in-repo web pages. The public pages are
+# deployed from local site workspaces — rrb-report/ builds the leaderboard at
+# realreplicabench.site.accio.ai — and are NOT shipped in this repository.
+# rrb-matrix/ builds a site this release does not link; it stays local too.
+# The legacy docs/index.html and docs/matrix.html pages (plus their page-only
+# assets and data-regeneration helper) stay local for site maintenance. Runtime
+# docs and README assets under
+# docs/ remain tracked. A new site workspace needs its own line here — nothing
+# below is a glob, so an unlisted one shows up untracked and is one `git add -A`
+# away from landing in the repository.
+/rrb-report/
+/rrb-report-v2/
+/rrb-matrix/
+/project/
+/docs/index.html
+/docs/matrix.html
+/docs/assets/model-icons/
+/docs/screenshots/
+/scripts/build_site_data.py
+
+# Site-QA scratch (viewport screenshots, overflow probes, in-page DOM rect
+# measurements) from the same site work
+/reports/
+/screenshots/
+/shots/
+/overflow_page*.json
+/hero_measure*.js
+/hero_measure*.json
+
+# Session-scoped scratch space — one-off orchestrators, per-campaign yaml bundles,
+# in-progress release HTML drafts. README is the only tracked file; see scratch/README.md
+# for the convention. New campaign scripts/configs/docs go under scratch/{scripts,configs,docs}/
+# and inherit this ignore — no need to add per-file lines here.
+# Pattern: ignore *contents* of scratch/ (not the dir itself), then re-include README.
+# (Ignoring the dir itself would prevent the README negation from taking effect.)
+/scratch/*
+!/scratch/README.md
+
+# Reference results. The live leaderboard at realreplicabench.site.accio.ai is
+# the source of record; a JSON snapshot in the repo only ever drifts behind it
+# and gives readers two numbers to choose between. README carries a
+# human-readable snapshot and says the site wins.
+/results/
+
+# Internal scoring-change forensics. The fix list documents exactly what each
+# grader checks and how it was tightened — a contamination route to publish for
+# a benchmark. Keep the record local; the public docs state only that scores
+# are comparable within one benchmark version.
+/docs/task-hardening-2026-08.md
+
+# Internal image-overlay recipes. The published runtime is distributed as an
+# immutable digest (docs/openclaw-runtime-image.md); the intermediate build
+# lanes that produced it are internal R&D records, not part of the release.
+/docker/patches/

@@ -1,0 +1,31 @@
+管理钉钉 CLI 的认证凭证。支持 OAuth 扫码登录和 Device Flow。
+
+Usage:
+  dws auth [flags]
+  dws auth [command]
+
+Available Commands:
+  export      导出可迁移认证包
+  import      导入可迁移认证包
+  login       登录钉钉（自动刷新 token，必要时扫码）
+  logout      清除认证信息
+  reset       重置认证信息（清除本地 Token，触发重新授权）
+  status      查看认证状态
+
+Flags:
+  -h, --help   help for auth
+
+Global Flags:
+      --client-id string       Override OAuth client ID (DingTalk AppKey)
+      --client-secret string   Override OAuth client secret (DingTalk AppSecret)
+      --debug                  显示调试日志
+      --dry-run                预览操作内容，不实际执行
+      --fields string          筛选输出字段 (逗号分隔, 如: name,id,status)
+  -f, --format string          输出格式: json|table|raw|pretty|ndjson|csv (default "json")
+      --jq string              jq 表达式过滤输出 (如: '.items[] | .name')
+      --mock                   使用 Mock 数据 (开发调试用)
+      --timeout int            HTTP 请求超时时间 (秒) (default 30)
+  -v, --verbose                显示详细日志
+  -y, --yes                    跳过确认提示 (AI Agent 模式)
+
+Use "dws auth [command] --help" for more information about a command.

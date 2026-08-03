@@ -1,0 +1,19 @@
+#portfolio-review (relevant excerpt — Mon afternoon)
+
+[Mon 14:08]  sarah:  ok pulling Q3 numbers. drill is gonna be the interesting one
+[Mon 14:08]  sarah:  milwaukee was leading Q1/Q2 but the shopping momentum has flattened
+[Mon 14:09]  pm:     swap?
+[Mon 14:10]  sarah:  yeah leaning swap_out → dewalt. milwaukee qoq is around -0.08 ish
+[Mon 14:10]  sarah:  dewalt has been the strongest non-milwaukee brand on the shopping side
+[Mon 14:11]  pm:     ok works for me, pencil it in
+[Mon 14:12]  sarah:  cool, Q3 drill = swap_in:dewalt going on the readout
+
+[Mon 14:55]  sarah:  btw bose earbuds Q4 thing is wild. script says +5500% qoq lol
+[Mon 14:55]  pm:     wat
+[Mon 14:56]  sarah:  bose qc went from ~0 in Q3 to ~40 in Q4. divide by ~0 and you get monster numbers
+[Mon 14:56]  pm:     ha ok. leave it for the readout, they can explain in the slides
+[Mon 14:57]  sarah:  agreed. action is keep either way
+
+[Mon 15:32]  sarah:  one more thing — homepod Q4 speaker also blew up because Q3 was 0
+[Mon 15:33]  sarah:  same divide-by-tiny-number situation. action stays keep
+[Mon 15:33]  pm:     👍 readout will note the math quirk

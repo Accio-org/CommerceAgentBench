@@ -1,0 +1,5 @@
+[
+  {"resource": "customers", "params": {"name": "Alpine Ridge Outfitters", "email": "wholesale@alpineridge.com"}},
+  {"resource": "customers", "params": {"name": "Basecamp Supply Co", "email": "ap@basecampsupply.com"}},
+  {"resource": "customers", "params": {"name": "Crestline Camping Wholesale", "email": "orders@crestlinecamping.com"}}
+]

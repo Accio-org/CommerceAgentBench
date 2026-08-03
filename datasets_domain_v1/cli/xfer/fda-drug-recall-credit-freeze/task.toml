@@ -1,0 +1,51 @@
+schema_version = "2.0"
+
+[task]
+id = "cli-xfer-fda-drug-recall-credit-freeze"
+name = "FDA drug recall credit-freeze across Google Workspace, Jira, and Todoist"
+language = "zh"
+entrypoint = "task.md"
+files_dir = "workspace"
+test = "grader/run.sh"
+rubric = "rubric.json"
+keywords = ["fda", "openfda", "drug", "recall", "google-workspace", "jira", "todoist", "cli", "xfer", "compliance"]
+difficulty = "hard"
+
+[agent]
+timeout_sec = 3600
+max_actions = 280
+
+[verifier]
+type = "script"
+timeout_sec = 180
+
+[environment]
+requires_vision = false
+requires_browser = false
+requires_network = false
+runtime_boundary = "closed_source_black_box"
+state_policy = "offline_or_mock_only"
+mock_services = true
+base_images = ["acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859"]
+
+[environment.runtime_mocks.google_workspace_cli]
+kind = "cli"
+port = 3081
+health_path = "/health"
+isolate = true
+isolation_model = "daemon_cli"
+
+[environment.runtime_mocks.google_workspace_cli.env]
+GWS_MOCK_PORT = "3081"
+
+[environment.runtime_mocks.jira_cli]
+kind = "cli"
+port = 3100
+isolate = true
+isolation_model = "daemon_cli"
+
+[environment.runtime_mocks.todoist_cli]
+kind = "cli"
+port = 3200
+isolate = true
+isolation_model = "daemon_cli"

@@ -1,0 +1,121 @@
+{
+  "schema_version": "2.0",
+  "task_id": "api-gmail-invoice-hold-mcp",
+  "summary": "MCP-only task for invoice hold triage, draft creation, and AP review scheduling.",
+  "category": "gmail_mcp",
+  "state_kind": "runtime_mock_mcp_stateful",
+  "difficulty": "hard",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "check_type": "deterministic_exact",
+      "description": "Environment ready: mock state/event log reachable and anti-cheat path diagnostics recorded (plumbing, folded)."
+    },
+    {
+      "id": "labeling_correct",
+      "check_type": "deterministic_exact",
+      "description": "Correct case label created and applied to the right threads while restraining from decoys."
+    },
+    {
+      "id": "marked_read_correct",
+      "check_type": "deterministic_exact",
+      "description": "Case threads were processed (marked read)."
+    },
+    {
+      "id": "starring_correct",
+      "check_type": "deterministic_exact",
+      "description": "True blockers were starred and decoys were not."
+    },
+    {
+      "id": "drafts_correct",
+      "check_type": "deterministic_semantic",
+      "description": "Both required unsent drafts are composed to the correct recipients with the expected invoice-hold and vendor-correction facts."
+    },
+    {
+      "id": "calendar_event_correct",
+      "check_type": "deterministic_semantic",
+      "description": "The AP review calendar event is scheduled at the requested time with the required guests and invoice-risk facts."
+    },
+    {
+      "id": "no_messages_sent",
+      "check_type": "deterministic_exact",
+      "description": "Negative restraint: no email was actually sent."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": []
+  },
+  "atomic_checks": [
+    {
+      "id": "mock_state_readable",
+      "check_type": "deterministic_exact",
+      "description": "Gmail mock state is readable."
+    },
+    {
+      "id": "mock_events_readable",
+      "check_type": "deterministic_exact",
+      "description": "Gmail mock event log is readable."
+    },
+    {
+      "id": "workspace_tool_evidence_present",
+      "check_type": "deterministic_exact",
+      "description": "Workspace/MCP tool-call evidence is reported as diagnostics only and does not determine reward."
+    },
+    {
+      "id": "no_ui_mutation_events",
+      "check_type": "deterministic_exact",
+      "description": "UI-sourced mutation events are reported as diagnostics only and do not determine reward."
+    },
+    {
+      "id": "no_direct_api_mutation_events",
+      "check_type": "deterministic_exact",
+      "description": "Raw internal API mutation events are reported as diagnostics only and do not determine reward."
+    },
+    {
+      "id": "nested_label_created",
+      "check_type": "deterministic_exact",
+      "description": "INV-440 label was created."
+    },
+    {
+      "id": "required_messages_labeled",
+      "check_type": "deterministic_exact",
+      "description": "Current invoice-risk threads were labeled."
+    },
+    {
+      "id": "forbidden_messages_not_labeled",
+      "check_type": "deterministic_exact",
+      "description": "Old and generic decoys were not labeled."
+    },
+    {
+      "id": "required_messages_marked_read",
+      "check_type": "deterministic_exact",
+      "description": "Current invoice-risk threads were marked read."
+    },
+    {
+      "id": "blockers_starred",
+      "check_type": "deterministic_exact",
+      "description": "Invoice-risk evidence was starred."
+    },
+    {
+      "id": "decoys_not_starred",
+      "check_type": "deterministic_exact",
+      "description": "Decoys were not starred."
+    },
+    {
+      "id": "required_drafts_saved",
+      "check_type": "deterministic_semantic",
+      "description": "AP hold and vendor correction drafts contain the required facts."
+    },
+    {
+      "id": "calendar_event_created",
+      "check_type": "deterministic_semantic",
+      "description": "AP review calendar event was created at the requested time."
+    },
+    {
+      "id": "no_messages_sent",
+      "check_type": "deterministic_exact",
+      "description": "No email was sent."
+    }
+  ]
+}

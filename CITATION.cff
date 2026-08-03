@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use RealReplicaBench, please cite this software release together with the exact Git commit used for evaluation."
+type: software
+title: "RealReplicaBench"
+abstract: "A stateful agent benchmark for long-horizon commerce and business workflows: 107 tasks with reproducible mock services, deterministic verifiers, and an OpenClaw runner."
+authors:
+  - family-names: "Lian"
+    given-names: "Yukun"
+    affiliation: "Accio, Alibaba International"
+    email: "lianyukun.lyk@alibaba-inc.com"
+  - family-names: "Wei"
+    given-names: "Lei"
+    affiliation: "Accio, Alibaba International"
+  - family-names: "Xie"
+    given-names: "Sicong"
+    affiliation: "Accio, Alibaba International"
+    email: "sicong.xsc@alibaba-inc.com"
+  - family-names: "Wang"
+    given-names: "Kesu"
+    affiliation: "Accio, Alibaba International"
+  - family-names: "Li"
+    given-names: "Hongyu"
+    affiliation: "Accio, Alibaba International"
+  - family-names: "Jiang"
+    given-names: "Chenhao"
+    affiliation: "Accio, Alibaba International"
+  - family-names: "Lin"
+    given-names: "Lanbo"
+    affiliation: "Accio, Alibaba International"
+  - family-names: "Yang"
+    given-names: "Tianyuan"
+    affiliation: "Accio, Alibaba International"
+  - family-names: "Guo"
+    given-names: "Xiaoyu"
+    affiliation: "Accio, Alibaba International"
+  - family-names: "Cai"
+    given-names: "Li"
+    affiliation: "Accio, Alibaba International"
+  - family-names: "Zhu"
+    given-names: "Jialong"
+    affiliation: "Accio, Alibaba International"
+contact:
+  - family-names: "Lian"
+    given-names: "Yukun"
+    affiliation: "Accio, Alibaba International"
+    email: "lianyukun.lyk@alibaba-inc.com"
+  - family-names: "Xie"
+    given-names: "Sicong"
+    affiliation: "Accio, Alibaba International"
+    email: "sicong.xsc@alibaba-inc.com"
+version: 1.3.1
+date-released: 2026-08-02
+# Dual-licensed: Apache-2.0 for the harness and package code, CC BY 4.0 for
+# the task suite under datasets_domain_v1/. See the License section of README.
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+url: "https://realreplicabench.site.accio.ai"
+repository-code: "https://github.com/Accio-Lab/RealReplicaBench"

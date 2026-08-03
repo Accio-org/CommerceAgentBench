@@ -1,0 +1,13 @@
+{
+  "density": "默认",
+  "inboxType": "默认",
+  "readingPane": "不拆分",
+  "desktopNotifications": false,
+  "sidePanelVisible": true,
+  "labelListExpanded": false,
+  "expandedUserLabels": [
+    "label-work",
+    "label-work-ai"
+  ],
+  "activeCompanionPanel": null
+}

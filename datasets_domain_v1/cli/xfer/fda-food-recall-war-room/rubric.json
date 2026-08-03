@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1,
+  "task_id": "cli-xfer-fda-food-recall-war-room",
+  "summary": "Three-CLI transfer task using a real 2,117-record openFDA food enforcement packet split into CSV pages and free-text case cards. The agent must filter Ongoing records from a large multi-file attachment bundle, aggregate all matching FDA recall records by recalling_firm, join them to an internal exposure table, derive severity/priority/action, and leave a final cross-system control-center graph across Jira, Todoist, Google Sheets, and Google Slides with returned IDs traced back across systems.",
+  "category": "cross_system_regulatory_recall_war_room",
+  "state_kind": "triple_cli_mock_stateful_plus_real_file",
+  "difficulty": "very_hard",
+  "check_strategy": "Verifier reads only final gws/jira/todoist states over verifier-only endpoints. It checks exact derived rows, dynamic Jira key/Todoist id backfill, Jira issue graph links, Todoist active and completed ledger state, trace map closure, briefing deck content, statuses, and source packet record count. It does not inspect command history. It penalizes restoring a JSON shortcut, using only the first CSV/page of the FDA packet, missing cross-page firm aggregation, per-record duplication, out-of-scope low-exposure or no-trigger firms, and missing aggregation.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "All three mock states are reachable and target Jira/Todoist/GWS containers exist."},
+    {"id": "sheet_rows_correct", "check_type": "deterministic_exact", "description": "GWS sheet exists with exact headers, one exact row per in-scope firm, and the actual Jira Task key / Todoist item id returned by the other CLIs."},
+    {"id": "jira_epic_correct", "check_type": "deterministic_exact", "description": "Exactly one canonical Jira epic exists in PROJ."},
+    {"id": "jira_inclusion_set_correct", "check_type": "deterministic_exact", "description": "Exactly one Jira task per in-scope firm; no out-of-scope or per-recall duplicates."},
+    {"id": "jira_fields_correct", "check_type": "deterministic_exact", "description": "Jira task summaries, priority, labels, required comments, cross-system trace comments, status, and links to the war-room Epic match derived values."},
+    {"id": "todoist_queue_correct", "check_type": "deterministic_exact", "description": "Todoist project exists with Critical/High callback sections plus completed acknowledgement section; active callback tasks and completed Critical acknowledgement tasks have exact content, Jira key references, labels, priority, completion state, and section placement."},
+    {"id": "control_center_trace_correct", "check_type": "deterministic_exact", "description": "GWS spreadsheet title, trace-map sheet, dynamic cross-system IDs, Jira link type, Critical ack IDs, and briefing deck title/content close the final control-center graph."},
+    {"id": "source_file_present", "check_type": "deterministic_exact", "description": "The real FDA packet remains present, parseable through CSV/TSV/text assets, above the required minimum record count, and without JSON shortcuts."}
+  ],
+  "notes": "Ground truth is held in private/expected_answer.json."
+}

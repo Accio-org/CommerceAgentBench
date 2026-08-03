@@ -1,0 +1,62 @@
+From: Ops Director Mr. Zhou <zhou.zong@company.com>
+To: Operations Team All <ops-team@company.com>
+Date: 2026-05-11
+Subject: TWS Bluetooth Earbuds Alibaba International Listing Strategy
+
+Team,
+
+The SoundBee Pro X3 Bluetooth earbuds go live this week. Strict listing strategy below:
+
+[Category]
+Consumer Electronics > Portable Audio & Video > Earphones & Headphones
+
+[Sale Mode]
+Domestic Shipping
+
+[Title]
+SoundBee Pro X3 TWS Bluetooth 5.3 Earbuds Active Noise Cancelling Wireless Earphones LDAC Hi-Res Audio IPX5 Waterproof
+
+[Keywords]
+Compose them yourself. They must cover: bluetooth earbuds, wireless earphones, ANC earbuds directions.
+
+[Target Markets]
+United States, United Kingdom, Germany, France, Japan, South Korea, Australia, Brazil
+
+Country differential pricing:
+- US/UK/DE/FR/JP/KR/AU: standard price (no markup)
+- Brazil: +12% (high tariffs and tax)
+
+[Pricing Formula]
+FOB USD = EXW (RMB) x 1.40 / 7.20
+
+Note: use the finally-confirmed EXW price (if procurement has the latest adjustment, follow the adjusted value).
+FOB Type: FOB Shenzhen
+Take the lowest and highest ladder prices as the FOB price range.
+
+[Trade Info]
+- Sale Type: Per Piece
+- Price Unit: Pair
+- Price Mode: ladder
+- Minimum Order Quantity: 100
+- Stock Quantity: 200000
+
+[Delivery Period]
+- 100-499 pairs: 10 days
+- 500-2000 pairs: 18 days
+- 2001-5000 pairs: 25 days
+- 5000+: 35 days
+
+[Product Group]
+Consumer Electronics
+
+[Description]
+Custom edit mode, English. Combine with the product spec sheet. Emphasize:
+ANC noise cancellation, LDAC Hi-Res audio, Bluetooth 5.3, IPX5 waterproof, 32h total playtime, wireless charging.
+
+[Product Service]
+Private Label: no
+
+[Listing Agreement]
+Accept
+
+Mr. Zhou

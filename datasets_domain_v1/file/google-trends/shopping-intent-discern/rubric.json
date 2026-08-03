@@ -1,0 +1,11 @@
+{
+  "schema_version": "2.0",
+  "task_id": "file-google-trends-shopping-intent-discern",
+  "scoring_formula": "score = 1.0 iff every atomic check passes else 0.0 (raw_score = passed/total for diagnostics)",
+  "checks": [
+    {"id": "setup_gate", "description": "outputs/intent_picks.json exists and is parseable JSON (plumbing)", "check_type": "setup"},
+    {"id": "label_set_exact", "description": "comparison keys exactly match the 6 final entries derived from the chat (sony, bose 2026, bose 2025, jbl, beats, samsung) — no distractors, none missing, both bose periods present (requirement extraction from the inbox timeline)", "check_type": "deterministic_exact"},
+    {"id": "unified_index_correct", "description": "cross-call pairwise rescaling: every one of the 6 final brands' unified index is within ±2 of expected on the common 0-100 scale (validated per-brand internally, incl. the cross-period bose 2025 reconstruction; offenders listed in reason). Collapsed per R3 — one capability tested across 6 brands.", "check_type": "deterministic_exact"},
+    {"id": "ranking_order", "description": "ranking array lists the 6 entries strongest-to-weakest in the correct order (derived deliverable)", "check_type": "deterministic_exact"}
+  ]
+}

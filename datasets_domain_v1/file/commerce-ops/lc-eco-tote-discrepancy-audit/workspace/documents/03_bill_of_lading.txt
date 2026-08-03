@@ -1,0 +1,72 @@
+============================================================
+BILL OF LADING — OCEAN  (3/3 ORIGINALS)
+============================================================
+
+B/L Number:           PAC-2026-031245
+Booking Number:       PAC-BK-026091
+Service Contract:     PAC-SC-2026/0089
+
+------------------------------------------------------------
+
+Shipper:
+  Hangzhou Green Bag Co., Ltd.
+  No. 188 Binjiang Road
+  Hangzhou, Zhejiang 310053, China
+
+Consignee:
+  TO ORDER OF BANK OF AMERICA, CHICAGO BRANCH
+  2200 WACKER DRIVE
+  CHICAGO, IL 60606, USA
+
+Notify Party:
+  Acme Distribution LLC
+  2200 Wacker Drive, Suite 800
+  Chicago, IL 60606, USA
+
+------------------------------------------------------------
+
+Vessel / Voyage:      MV PACIFIC PIONEER / V.1234E
+Place of Receipt:     Hangzhou, China
+Port of Loading:      Shanghai, China
+Port of Discharge:    Long Beach, CA, USA
+Place of Delivery:    Chicago, IL, USA (via inland rail)
+Number of Originals:  3 / 3 (THREE)
+
+------------------------------------------------------------
+PARTICULARS FURNISHED BY THE SHIPPER
+------------------------------------------------------------
+
+  Marks & Numbers:     ACME-EC-0042 / 1-1250 / MADE IN CHINA
+
+  No. of Packages:     1,250 cartons
+
+  Description:         Tote bags, HS 4202.92
+                       (per shipper's commercial invoice)
+
+  Gross Weight:        5,020.00 kg
+  Net Weight:          4,470.00 kg
+  Measurement:         18.20 cbm
+
+------------------------------------------------------------
+
+Freight & Charges:    FREIGHT PREPAID
+
+Place and Date of Issue: Shanghai, China — 2026-03-12
+
+SHIPPED ON BOARD:     2026-03-12
+                      (vessel: MV PACIFIC PIONEER, V.1234E)
+
+LC Reference Quoted:  BOA-DC-2026031045
+
+------------------------------------------------------------
+SIGNED:
+
+  SINO SHIPPING AGENCY CO., LTD.
+  as Agent
+
+  [signature]
+  ___________________________
+  Liu Jianmin, Documentation Manager
+  Shanghai office
+
+============================================================

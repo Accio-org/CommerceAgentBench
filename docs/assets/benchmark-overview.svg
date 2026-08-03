@@ -1,0 +1,123 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">How RealReplicaBench evaluates an agent</title>
+  <desc id="desc">A business request is executed by an agent across browser, CLI, API, and file surfaces against stateful replicas, then verified from final state and artifacts.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#00B2FF"/>
+    </linearGradient>
+    <linearGradient id="deepGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#059669"/>
+      <stop offset="1" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="softMix" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E8FAF4"/>
+      <stop offset="1" stop-color="#EEF7FF"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(934 40) rotate(156) scale(384 220)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D8AB" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#111827" flood-opacity=".06"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L0 6L8 3Z" fill="#9CA3AF"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="520" rx="24" fill="#FFFFFF"/>
+  <rect width="1200" height="520" rx="24" fill="url(#halo)"/>
+  <rect x=".5" y=".5" width="1199" height="519" rx="23.5" stroke="#E5E7EB"/>
+  <text x="56" y="58" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">From business intent to verified state change</text>
+  <text x="56" y="88" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="16">Every task runs in a fresh container and preserves the evidence needed for audit.</text>
+
+  <g stroke="#9CA3AF" stroke-width="2.2" stroke-dasharray="5 7" marker-end="url(#arrow)">
+    <path d="M252 232H291"/>
+    <path d="M482 232H521"/>
+    <path d="M712 232H751"/>
+    <path d="M942 232H981"/>
+  </g>
+
+  <g transform="translate(52 126)" filter="url(#cardShadow)">
+    <rect width="200" height="212" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <rect x="20" y="20" width="50" height="50" rx="15" fill="#EEF7FF"/>
+    <path d="M34 36H56M34 44H56M34 52H49" stroke="#0369A1" stroke-width="3" stroke-linecap="round"/>
+    <text x="20" y="99" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="760">Business request</text>
+    <text x="20" y="128" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">Natural instructions</text>
+    <text x="20" y="150" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">Local attachments</text>
+    <text x="20" y="172" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">Hard constraints</text>
+  </g>
+
+  <g transform="translate(282 126)" filter="url(#cardShadow)">
+    <rect width="200" height="212" rx="20" fill="url(#accent)"/>
+    <circle cx="45" cy="45" r="25" fill="#FFFFFF" fill-opacity=".18"/>
+    <circle cx="38" cy="42" r="4" fill="#FFFFFF"/>
+    <circle cx="52" cy="42" r="4" fill="#FFFFFF"/>
+    <path d="M36 53C41 58 49 58 54 53" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <text x="20" y="99" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="760">Agent runtime</text>
+    <text x="20" y="128" fill="#FFFFFF" fill-opacity=".9" font-family="Inter, Arial, sans-serif" font-size="14">OpenClaw harness</text>
+    <text x="20" y="150" fill="#FFFFFF" fill-opacity=".9" font-family="Inter, Arial, sans-serif" font-size="14">Accio harness</text>
+    <text x="20" y="172" fill="#FFFFFF" fill-opacity=".9" font-family="Inter, Arial, sans-serif" font-size="14">Model + tools</text>
+  </g>
+
+  <g transform="translate(512 126)" filter="url(#cardShadow)">
+    <rect width="200" height="212" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <rect x="1" y="1" width="198" height="4" rx="2" fill="url(#accent)"/>
+    <text x="20" y="43" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="760">Action surfaces</text>
+    <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="760">
+      <rect x="20" y="64" width="74" height="42" rx="12" fill="#EEF7FF"/>
+      <text x="57" y="90" text-anchor="middle" fill="#0369A1">Browser</text>
+      <rect x="106" y="64" width="74" height="42" rx="12" fill="#E8FAF4"/>
+      <text x="143" y="90" text-anchor="middle" fill="#047857">CLI</text>
+      <rect x="20" y="118" width="74" height="42" rx="12" fill="url(#softMix)"/>
+      <text x="57" y="144" text-anchor="middle" fill="#047857">API/MCP</text>
+      <rect x="106" y="118" width="74" height="42" rx="12" fill="#F7FAF9" stroke="#E5E7EB"/>
+      <text x="143" y="144" text-anchor="middle" fill="#374151">Files</text>
+    </g>
+    <text x="20" y="190" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="13">Long-horizon execution</text>
+  </g>
+
+  <g transform="translate(742 126)" filter="url(#cardShadow)">
+    <rect width="200" height="212" rx="20" fill="url(#deepGreen)"/>
+    <path d="M28 35C28 25 62 25 62 35V58C62 68 28 68 28 58V35Z" stroke="#FFFFFF" stroke-width="2.5"/>
+    <ellipse cx="45" cy="35" rx="17" ry="7" stroke="#FFFFFF" stroke-width="2.5"/>
+    <text x="20" y="99" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="760">Stateful replicas</text>
+    <text x="20" y="128" fill="#FFFFFF" fill-opacity=".9" font-family="Inter, Arial, sans-serif" font-size="14">SaaS and commerce mocks</text>
+    <text x="20" y="150" fill="#FFFFFF" fill-opacity=".9" font-family="Inter, Arial, sans-serif" font-size="14">Server-side validation</text>
+    <text x="20" y="172" fill="#FFFFFF" fill-opacity=".9" font-family="Inter, Arial, sans-serif" font-size="14">Isolated private state</text>
+  </g>
+
+  <g transform="translate(972 126)" filter="url(#cardShadow)">
+    <rect width="176" height="212" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <rect x="20" y="20" width="50" height="50" rx="15" fill="#E8FAF4"/>
+    <path d="M32 45L41 54L59 34" stroke="#059669" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="20" y="99" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="760">Verification</text>
+    <text x="20" y="128" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">Final state</text>
+    <text x="20" y="150" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">Artifacts</text>
+    <text x="20" y="172" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="14">Audit logs</text>
+  </g>
+
+  <g transform="translate(52 382)" font-family="Inter, Arial, sans-serif">
+    <rect width="202" height="82" rx="18" fill="#1D1D1F"/>
+    <text x="24" y="34" fill="#D1D5DB" font-size="12" font-weight="720" letter-spacing="1">FULL SUITE</text>
+    <text x="24" y="62" fill="#FFFFFF" font-size="26" font-weight="820">107 tasks</text>
+
+    <rect x="218" width="202" height="82" rx="18" fill="url(#softMix)" stroke="#10B981" stroke-opacity=".2"/>
+    <text x="242" y="34" fill="#047857" font-size="12" font-weight="720" letter-spacing="1">INTERFACES</text>
+    <text x="242" y="56" fill="#111827" font-size="16" font-weight="820">CLI 53 · Browser 28</text>
+    <text x="242" y="75" fill="#374151" font-size="14" font-weight="720">File 16 · API 10</text>
+
+    <rect x="436" width="202" height="82" rx="18" fill="#EEF7FF"/>
+    <text x="460" y="34" fill="#0369A1" font-size="12" font-weight="720" letter-spacing="1">TEXT ONLY</text>
+    <text x="460" y="62" fill="#111827" font-size="26" font-weight="820">65 tasks</text>
+
+    <rect x="654" width="202" height="82" rx="18" fill="#E8FAF4"/>
+    <text x="678" y="34" fill="#047857" font-size="12" font-weight="720" letter-spacing="1">BROWSER TEXT</text>
+    <text x="678" y="62" fill="#111827" font-size="26" font-weight="820">20 tasks</text>
+
+    <rect x="872" width="224" height="82" rx="18" fill="url(#softMix)" stroke="#00B2FF" stroke-opacity=".18"/>
+    <text x="896" y="34" fill="#0369A1" font-size="12" font-weight="720" letter-spacing="1">VISION REQUIRED</text>
+    <text x="896" y="62" fill="#111827" font-size="26" font-weight="820">22 tasks</text>
+  </g>
+</svg>

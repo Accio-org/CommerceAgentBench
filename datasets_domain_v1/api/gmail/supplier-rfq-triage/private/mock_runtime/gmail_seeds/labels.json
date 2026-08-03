@@ -1,0 +1,101 @@
+[
+  {
+    "id": "inbox",
+    "name": "Inbox",
+    "icon": "inbox",
+    "type": "system"
+  },
+  {
+    "id": "starred",
+    "name": "Starred",
+    "icon": "star",
+    "type": "system"
+  },
+  {
+    "id": "snoozed",
+    "name": "Snoozed",
+    "icon": "clock",
+    "type": "system"
+  },
+  {
+    "id": "sent",
+    "name": "Sent",
+    "icon": "send",
+    "type": "system"
+  },
+  {
+    "id": "drafts",
+    "name": "Drafts",
+    "icon": "draft",
+    "type": "system"
+  },
+  {
+    "id": "purchases",
+    "name": "Purchases",
+    "icon": "tag",
+    "type": "system"
+  },
+  {
+    "id": "important",
+    "name": "Important",
+    "icon": "important",
+    "type": "system"
+  },
+  {
+    "id": "scheduled",
+    "name": "Scheduled",
+    "icon": "scheduled",
+    "type": "system"
+  },
+  {
+    "id": "all",
+    "name": "All Mail",
+    "icon": "all",
+    "type": "system"
+  },
+  {
+    "id": "spam",
+    "name": "Spam",
+    "icon": "spam",
+    "type": "system"
+  },
+  {
+    "id": "trash",
+    "name": "Trash",
+    "icon": "trash",
+    "type": "system"
+  },
+  {
+    "id": "subscriptions",
+    "name": "Manage subscriptions",
+    "icon": "mail_manage",
+    "type": "system"
+  },
+  {
+    "id": "manage-labels",
+    "name": "Manage labels",
+    "icon": "settings",
+    "type": "system"
+  },
+  {
+    "id": "label-suppliers",
+    "name": "Suppliers",
+    "icon": "tag",
+    "type": "user",
+    "color": "#1a73e8"
+  },
+  {
+    "id": "label-logistics",
+    "name": "Logistics",
+    "icon": "tag",
+    "type": "user",
+    "color": "#188038"
+  },
+  {
+    "id": "label-finance",
+    "name": "Finance",
+    "icon": "tag",
+    "type": "user",
+    "color": "#a142f4"
+  }
+]

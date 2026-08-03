@@ -1,0 +1,8 @@
+TYPE		KEY	SUMMARY					STATUS		ASSIGNEE		REPORTER		PRIORITY	RESOLUTION	CREATED				UPDATED				LABELS
+Bug		PROJ-6	Memory leak in background job worker	To Do		alice@example.com	charlie@example.com	Highest				2026-05-10T07:45:00.000Z	2026-05-10T07:45:00.000Z	performance
+Sub-task	PROJ-7	Update OAuth2 client library to v3.2	In Progress	alice@example.com	alice@example.com	Medium				2026-05-05T11:00:00.000Z	2026-05-09T14:00:00.000Z	
+Story		PROJ-5	Add rate limiting to public API		In Review	bob@example.com		admin@example.com	Medium				2026-05-02T09:00:00.000Z	2026-05-12T10:00:00.000Z	api
+Bug		PROJ-3	Login page crashes on Safari 18		To Do					bob@example.com		Highest				2026-05-01T08:30:00.000Z	2026-05-01T08:30:00.000Z	safari,login
+Task		PROJ-4	Write migration runbook			Done		charlie@example.com	alice@example.com	Medium		Done		2026-04-25T13:00:00.000Z	2026-05-06T16:00:00.000Z	docs
+Story		PROJ-2	Migrate user authentication to OAuth2	In Progress	alice@example.com	admin@example.com	High				2026-04-22T10:00:00.000Z	2026-05-08T11:00:00.000Z	migration,auth
+Epic		PROJ-1	Q3 Platform Migration			In Progress	alice@example.com	admin@example.com	High				2026-04-20T09:00:00.000Z	2026-05-10T14:30:00.000Z	migration,q3

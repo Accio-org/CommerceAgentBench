@@ -1,0 +1,29 @@
+{
+  "name": "ntn-mock",
+  "version": "1.0.0",
+  "description": "Local mock environment for Notion CLI (ntn) — all 43 commands",
+  "type": "module",
+  "bin": {
+    "ntn": "./bin/ntn",
+    "ntn-mock": "./bin/ntn-mock.js"
+  },
+  "main": "lib/server/index.js",
+  "scripts": {
+    "start": "bun lib/server/index.js",
+    "cli": "bun bin/ntn",
+    "smoke": "bash smoke_test.sh",
+    "test": "bash smoke_test.sh"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

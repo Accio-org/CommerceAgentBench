@@ -1,0 +1,1860 @@
+{
+  "search_metadata": {
+    "id": "6a12827a556ce3da47137241",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/BtoNWUXZALh01h_YYKqtig/6a12827a556ce3da47137241.json",
+    "created_at": "2026-05-24T04:45:46.104Z",
+    "processed_at": "2026-05-24T04:45:46.106Z",
+    "google_hotels_url": "https://www.google.com/travel/search?q=Shenzhen+Huaqiangbei+hotels&hl=en&gl=us",
+    "raw_html_file": "https://serpapi.com/searches/BtoNWUXZALh01h_YYKqtig/6a12827a556ce3da47137241.html",
+    "prettify_html_file": "https://serpapi.com/searches/BtoNWUXZALh01h_YYKqtig/6a12827a556ce3da47137241.prettify",
+    "total_time_taken": {
+      "float": 1.2053043842315674
+    }
+  },
+  "search_parameters": {
+    "engine": "google_hotels",
+    "q": "Shenzhen Huaqiangbei hotels",
+    "gl": "us",
+    "hl": "en",
+    "currency": "USD",
+    "check_in_date": "2026-09-15",
+    "check_out_date": "2026-09-16",
+    "adults": 5,
+    "children": 0
+  },
+  "search_information": {
+    "total_results": 133
+  },
+  "brands": [
+    {
+      "id": 33,
+      "name": "Accor Live Limitless",
+      "children": [
+        {
+          "id": 47,
+          "name": "Novotel"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Hanting"
+    },
+    {
+      "id": 28,
+      "name": "Hilton Honors",
+      "children": [
+        {
+          "id": 115,
+          "name": "Hampton by Hilton"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "type": "hotel",
+      "name": "Hampton by Hilton Shenzhen Futian Huaqiangbei",
+      "property_token": "ChoItYfSzNqwjrawARoNL2cvMTF3aHI2cTY4eBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoItYfSzNqwjrawARoNL2cvMTF3aHI2cTY4eBAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.544656999999997,
+        "longitude": 114.0912
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "46 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKT4HcviXYm0gQn0KuBiHpIdyeeh01Wgm19Zsqyy7jVmMypYH6xv_60ZpESPIRDZm-EYS-g7u5a0BsQCzaH82EeDmchAuGyWtHqtq209GahZNygu1UmU5KTZWwXog4NGcaK3ezUroWsQU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKT4HcviXYm0gQn0KuBiHpIdyeeh01Wgm19Zsqyy7jVmMypYH6xv_60ZpESPIRDZm-EYS-g7u5a0BsQCzaH82EeDmchAuGyWtHqtq209GahZNygu1UmU5KTZWwXog4NGcaK3ezUroWsQU=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkDX5BgN0IaE_g_mRlM5OZPbe2gYheUyBEwXigP37McaRLNk-lS6Zexm4gXp14D8tT_fh_svETd667ArENDXpHEdP_5jYHR165GRPYdN48J0NSbw-Nq7Hia2XBrjq425VNdsGfWedRontS=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkDX5BgN0IaE_g_mRlM5OZPbe2gYheUyBEwXigP37McaRLNk-lS6Zexm4gXp14D8tT_fh_svETd667ArENDXpHEdP_5jYHR165GRPYdN48J0NSbw-Nq7Hia2XBrjq425VNdsGfWedRontS=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4-ITKBFdIQZIGnVvlu15d4ddF98ZFC7wYRXsM0TXcll29C_BKTCY6GIQUFUTq-62Stf5ZPaf1K6HI2xlhso51PKwI5IyzaL0W1-xFKwq5aHInzkGyITATva-En8bSuJqMR42S=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4-ITKBFdIQZIGnVvlu15d4ddF98ZFC7wYRXsM0TXcll29C_BKTCY6GIQUFUTq-62Stf5ZPaf1K6HI2xlhso51PKwI5IyzaL0W1-xFKwq5aHInzkGyITATva-En8bSuJqMR42S=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFdp-Kk61gypbQDritYGj1UHhjXZu4N-fTU5DM8CK9iU-0nNfCG8X7Ex_zEb4o49IQbvJR-EQs_IaerLX_FpPa_YolcufmucDfwmp-xbBZj6P2mny2G44E89PMe1B80K_kpERByLL83ass=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFdp-Kk61gypbQDritYGj1UHhjXZu4N-fTU5DM8CK9iU-0nNfCG8X7Ex_zEb4o49IQbvJR-EQs_IaerLX_FpPa_YolcufmucDfwmp-xbBZj6P2mny2G44E89PMe1B80K_kpERByLL83ass=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/csp8-q5gpqxh77OnwdstkeTQXozWzNqpYRxklMpzK_33n-B6i5RDJ_3DkJv0xfvzPyFwRX98cHoV3nm-0q-lHBPobLxmZhL3fQvgHWiKxZ7yR7IbyL3f5R28lvmEQ1QVXtnPhI8yvPq7RDdCBuZ7Zk4lRIbPjw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/16/3c/163ccc534fe38e0bf0e79fe839e8781db8da8feb.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDnt8hbygRL0xGqEI1hcNU49YM6xs1BcGYL7ByXR1Z6u2YEJFjh9pdgsC0DAlTSbF-LzY8ixZG-e5pQjaskk_So4OvXPRZtgRgSxNtbu5K2utMg18hmI_ttY0q8b4cgp1zRXaF=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDnt8hbygRL0xGqEI1hcNU49YM6xs1BcGYL7ByXR1Z6u2YEJFjh9pdgsC0DAlTSbF-LzY8ixZG-e5pQjaskk_So4OvXPRZtgRgSxNtbu5K2utMg18hmI_ttY0q8b4cgp1zRXaF=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEir3Z30F7DJax0_-PZZyPjbBjokSfMqe6wzEZ6ouBcxxRbWPGDY0kvAj1FSiyH-O3ScEEHwjkk3AEmGE0zc76PYTNqcJ-1wr3MRQTYxJVW2moLTyT56fWhGOTIYeEyelklJ1DH=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEir3Z30F7DJax0_-PZZyPjbBjokSfMqe6wzEZ6ouBcxxRbWPGDY0kvAj1FSiyH-O3ScEEHwjkk3AEmGE0zc76PYTNqcJ-1wr3MRQTYxJVW2moLTyT56fWhGOTIYeEyelklJ1DH=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDOtYjDJ5CBEQSmO36e7UXltxLhOpKxipbrfiqQvg8n-eNaQoRSVps2azDJ9pvszNwsT0IaSIKpIf0Xm666Z7cHo2BuMtc2EPCMbhdaTSkFbeYkZYoJwUKSeG4M7frHJUn8JCp=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDOtYjDJ5CBEQSmO36e7UXltxLhOpKxipbrfiqQvg8n-eNaQoRSVps2azDJ9pvszNwsT0IaSIKpIf0Xm666Z7cHo2BuMtc2EPCMbhdaTSkFbeYkZYoJwUKSeG4M7frHJUn8JCp=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8OnNzj4EWWnJilIvb67j879aj4F8eQ5wm7QkHqnP5R6re5aOFUUYASrUY8AC3j5aSPdmBYw-Kbx_jYGyYg6k-uaEQVxQc2_n4Dow3p4-Mid8QmS06WGRojv8gJZCPuE1VUP-8jCx4kxs=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8OnNzj4EWWnJilIvb67j879aj4F8eQ5wm7QkHqnP5R6re5aOFUUYASrUY8AC3j5aSPdmBYw-Kbx_jYGyYg6k-uaEQVxQc2_n4Dow3p4-Mid8QmS06WGRojv8gJZCPuE1VUP-8jCx4kxs=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 47,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 43
+        },
+        {
+          "stars": 4,
+          "count": 2
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 3.4,
+      "reviews_breakdown": [
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 12,
+          "positive": 12,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=DZ7RYHica1yRnFiSmp5fVDl5eXBqUVlmciojjAEAtX8MDA&engine=google_hotels_reviews&hl=en&property_token=ChoItYfSzNqwjrawARoNL2cvMTF3aHI2cTY4eBAB"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 7,
+          "positive": 7,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU&engine=google_hotels_reviews&hl=en&property_token=ChoItYfSzNqwjrawARoNL2cvMTF3aHI2cTY4eBAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Pool",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant",
+        "Accessible",
+        "Business center",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoItYfSzNqwjrawARoNL2cvMTF3aHI2cTY4eBAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoItYfSzNqwjrawARoNL2cvMTF3aHI2cTY4eBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Hotel Novotel Shenzhen Watergate",
+      "description": "Sleek business hotel with streamlined rooms & suites, plus global dining & an outdoor pool.",
+      "link": "https://www.accorhotels.com/zh/hotel-3601-%E6%B7%B1%E5%9C%B3%E4%B8%87%E5%BE%B7%E8%AF%BA%E5%AF%8C%E7%89%B9%E9%85%92%E5%BA%97/index.shtml",
+      "property_token": "ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.540250999999998,
+        "longitude": 114.10279299999999
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "48 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/XUToFj0pCvRzsOKoAvStrpb4I0Zi7Q1317opYKIxQOotqYjfaDVVsV1PajHT6NnXAZE_tl797dHbg_4LF3cuUQ39gTviCYG2BiDr5VcVKQEtAZ9hun6GMDMMcRKq0a1a8en9aWUXirpHzPv5A1ae18lPBos3dFU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/107897/107897a_hb_l_004.jpg?20241221170405?20250419125554?20250707224211"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/sBnY4vJjuF-s8mxkhFtdB2rdCbCiwdncpZL7F0nPuTlHPViyWmBPuTi9jAPty24s8MnsSW_VvyMlxLWHMi3tpZWUzW12TNTrk4xX3BNeJ8ITIcl_ZxexykUfaE0G0BfTGMv0rDZumYQM_ORG3I7b07YQju2xnQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/600000/598400/598396/45c5418b_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFksXsZZfnGhUB9eqeaHmbdDMAFM2OK8BrPuot9m2-7F4TO-2-Yv3H8k8uWRCSMVMN_KTN3otCoci5S4H6clGhpZXBye1S5i4NbXxb1OVplcxtVR6hfe3X1CvNqDCRWEuIQcVnLkKyt6O7w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFksXsZZfnGhUB9eqeaHmbdDMAFM2OK8BrPuot9m2-7F4TO-2-Yv3H8k8uWRCSMVMN_KTN3otCoci5S4H6clGhpZXBye1S5i4NbXxb1OVplcxtVR6hfe3X1CvNqDCRWEuIQcVnLkKyt6O7w=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_Rco_MXz9FywwZMq6yPBAB_vU0NjYUqbs7nD_zTKQNQ004TrmfDbxog5tnerEcwyiJshmw2iI_XOufGIfmeH4YBGDjiQ2Ap7hlw-jPnZ82DjOX474Sx5C9evPmx4IvUUZs-veWQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_Rco_MXz9FywwZMq6yPBAB_vU0NjYUqbs7nD_zTKQNQ004TrmfDbxog5tnerEcwyiJshmw2iI_XOufGIfmeH4YBGDjiQ2Ap7hlw-jPnZ82DjOX474Sx5C9evPmx4IvUUZs-veWQ=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/7_W_F4797r3SJXw7Jh-PPW_Cl3wqsV3-ujQNfC69218u7LWyR9Kh6kvnF04jdvLZKMHb-AQOQ2MN3Xh1BTXlxFLn0AwP4ZQ82MrQoxZSxT1ozDNutduPXROcYrKxEY9lWNEaORliqhJhUI3bguhczZat_PwXdA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/107897/107897a_hb_r_008.jpg?20250217090139?20250419125553?20250707224210"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/nhtExQZmBimG1OQuYht31bdv2jy6jOOlpn6uqPWm380qEj5CyJodYylmhdPDuZ_f7ti8fy1DifBBefZyE0j2PZAd-wBZOYsg-sB08LAM-xDBm4G2I1mfvvTxXhVQYoG920pjQ7JgLg69JU6LorceNMCQ-qEkzJ8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/107897/107897a_hb_w_010.jpg?20241221170405?20250419125554?20250707224210"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ezxKHi417Tt2KasH_-V7BpLLqT6-s79FFfklE4hTiXA1aDumDC3ZWI5thc2Q91m9odhZ3A_4uV9GvRt4r6WcatslPzCGn0rmHRhF_2srB-M7zMgOn5Rma730XMKEF-bzjn9vqHcadoZnYGB4CVfRqSqTv4tqFN8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://photos.hotelbeds.com/giata/original/10/107897/107897a_hb_ba_001.jpg?20250109080129?20250419125554?20250707224210"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/6RgENahsPD8-yKVALJGIZOxPfkvpxNvTc_koLzWxS9643Mjq8mo7zSXWIhGff9uoVAYOl6LbvpkkevbiBiBmtDbZuZtNNR6RbMqnLiyOOCOJ3dSbaq_sVQ6CjQrVraOj6W1prG9z42Smv2-iJyHSC7gD4aaCA2E=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/1000000/600000/598400/598396/f483404d_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/GG6NePEPWdf4tby_pYzKSfpN3wwpvijZI41e3gbrN9Eo8GU_DM8RiG-FVrYLj7XTQ1R1ghf6oafws5Ia4eYnJrpH3DR86BBkbGlxDRUCIuNYFSfZuOmJY4jnuVJExKBy1SWwse0a3bfWHKduapbF2RbzXiOyvw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/4c/24/4d/photo2jpg.jpg?w=1900&h=1400&s=1"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 92,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 41
+        },
+        {
+          "stars": 4,
+          "count": 33
+        },
+        {
+          "stars": 3,
+          "count": 9
+        },
+        {
+          "stars": 2,
+          "count": 5
+        },
+        {
+          "stars": 1,
+          "count": 4
+        }
+      ],
+      "location_rating": 3.8,
+      "reviews_breakdown": [
+        {
+          "name": "Breakfast",
+          "description": "Breakfast",
+          "total_mentioned": 10,
+          "positive": 8,
+          "negative": 2,
+          "neutral": 0,
+          "category_token": "B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=B2S1iHica1yRnFiSmp5fVDl5pVNRamJ2WmJxCSOCCQDoBQ2U&engine=google_hotels_reviews&hl=en&property_token=ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ"
+        },
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 13,
+          "positive": 11,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 12,
+          "positive": 9,
+          "negative": 2,
+          "neutral": 1,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ"
+        },
+        {
+          "name": "Service",
+          "description": "Service",
+          "total_mentioned": 9,
+          "positive": 7,
+          "negative": 0,
+          "neutral": 2,
+          "category_token": "nHbA-nica1yRnFiSmp5fVDl5eXBqUVlmcioDjAEAtXYMCw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=nHbA-nica1yRnFiSmp5fVDl5eXBqUVlmcioDjAEAtXYMCw&engine=google_hotels_reviews&hl=en&property_token=ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ"
+        },
+        {
+          "name": "Business",
+          "description": "Business",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "U39xA3ica1yRnFiSmp5fVDl5hVNpcWZeanExA5wFAM-qDQM",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=U39xA3ica1yRnFiSmp5fVDl5hVNpcWZeanExA5wFAM-qDQM&engine=google_hotels_reviews&hl=en&property_token=ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ"
+        },
+        {
+          "name": "Cleanliness",
+          "description": "Cleanliness",
+          "total_mentioned": 5,
+          "positive": 4,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=3NLKrXica1yRnFiSmp5fVDl5tXNOamJeTmZeanExAzIHACP9D1M&engine=google_hotels_reviews&hl=en&property_token=ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Pool",
+        "Air conditioning",
+        "Fitness center",
+        "Bar",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Accessible",
+        "Business center",
+        "Kid-friendly",
+        "Smoke-free property"
+      ],
+      "eco_certified": true,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgIn83fzfKr2rzrARoLL2cvMXRkeWM3MHYQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "Atour Hotel Shenzhen Huaqiang North",
+      "property_token": "ChoI3qyPkr310OjpARoNL2cvMTFyX3hqbXJsORAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoI3qyPkr310OjpARoNL2cvMTFyX3hqbXJsORAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.54677,
+        "longitude": 114.09522799999999
+      },
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "48 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGcj1vwf6X8HB3Sz8EG7lyGGnYKGUk_k_lmtBlmxeSPFC1_WWqNZS0bNYuEOf-UKAqcF6E4Wzmx3e2tlfUtOkC0-w8qGCbG8o6hUpMcs_7f5ai-g9qM6o7r9iGxPTBONC9DWMKIjv7kWT8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGcj1vwf6X8HB3Sz8EG7lyGGnYKGUk_k_lmtBlmxeSPFC1_WWqNZS0bNYuEOf-UKAqcF6E4Wzmx3e2tlfUtOkC0-w8qGCbG8o6hUpMcs_7f5ai-g9qM6o7r9iGxPTBONC9DWMKIjv7kWT8=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/EXj1-4g0YZOreadXoxoiqCDXj_FDUDh3PpadiJz0LHcDeYh4AvAABdPZtfd2e_S8guickP0TKtn-o_RHwbIB1PVkLZSQIY4Q5TpZg9x712HNeFsjEPVCSrMdrUPzy-EAQ1jLyA8XbtaxS44G6yS5QKIuSt6Zduc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/09/0b/090b712ac65d48306ebeeb74f682beb74789e35d.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/VnISanWyBjKdXxowdipZ7oSu98nebEXnUqpKaXCTY9baiWSwgRA6vwBXF9VXqJdhKoZ-ZFJL7ws-rei4PR1tzjg_1kXZomEeS-NiajpM53r7n9MMN-4ZuiCGyCuRERgLQ8wLQvWRe-CDUFgLrOlzhRB9J_axwQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/d2/4f/d24fc429a1e9362780afab8fb665ff6c1dcec84e.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/OHJsC1UeFxyuBwd6s-KmBhVzKYTZtTSyiOgq8NuaOSEz3FEK9Yr-ns7NUwE14Yxz4glksV3PPUWR1m9zS1KqeRpImk3sxNZw5znhhAKnU0sreez16Y1sO6apRApTcFHGZVNmGL4Sm4LAlGNMAfeBWMyUybk7ysY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/87/76/8776f2f5767d8c88d4f7eaa9fd66bb8f0904ccdf.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFmTqLAI37kC0qSnhwLIyvyOdZXmitMpAEXnOt-b1NWNPYu874rJs1f_bs5IaVQ393OkDxDA65QZQK8NiNb3_7HF_LTnSELi9MXviIPs16Q-qi-YT_KK96UFLh4bMvIYjdrxGgUog=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFmTqLAI37kC0qSnhwLIyvyOdZXmitMpAEXnOt-b1NWNPYu874rJs1f_bs5IaVQ393OkDxDA65QZQK8NiNb3_7HF_LTnSELi9MXviIPs16Q-qi-YT_KK96UFLh4bMvIYjdrxGgUog=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/YQmuziR3xIaVYUajwl5200Q50mgDDhUjRkNm_X9yJgLSNtvP71nFkrcdmkurlPYunUiLx4EZ1CqpnlzJdvQGDG8hyhDTZvW6i_Qat5l1GWqWxMj7J-TR5BAdjPwOeDVNouZU9Pocsxd5bSf-hJ6n-aTa9Y75EP0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/70/ce/70ced89d337aded54ddf785a260aa6591aba202c.JPEG"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/Lb6hAJqILkYckXfSWxeyOdVuWJqNyHcAHGr8TeQpYSXzl9VnIVg-n_YcGlJAJcy3T70gpxW0bSgK4MNm4B2wCv9WzX_Z3vQ_7ucBWNazGdW3bL7d0f_jnF6Py9RPFnlSSDUWlm5hGfYLo5Eh-wUjmrrFape7Lvg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/b6/8f/b68f27fe22847afe78b9635a3edaf4e31b0273db.JPEG"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/MUcMsPLTtcqusF8CuH0lnLF_Qm9oekNHH5_SIwf3-wyYjOYMlzj8dvGldLpODu4Psnknha2UXUq3OR1xUE1r_1LDLzSfFzcPFOd_9QzrAXesyim1dwiNNmsYX9VgvMPAaQgHkvLJwaJt23Q8XBFrOyGLxfd5-A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/84/0a/840a4a2d314cf5f6cd3ca70a3471df32e3269ea1.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE52HluWNEOezhuWrKowiDy8dssVYFUarx2QVAYhGAAQ1LPwGp6X1dXe1Ghmz91klGLsLcVTvzZkcfGWQ92Va12aMKGALIyo4RQgRMTtH3lTOqjvV-5jMJ9Y91jGwE0-y_kKez3tMDnYSS9=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE52HluWNEOezhuWrKowiDy8dssVYFUarx2QVAYhGAAQ1LPwGp6X1dXe1Ghmz91klGLsLcVTvzZkcfGWQ92Va12aMKGALIyo4RQgRMTtH3lTOqjvV-5jMJ9Y91jGwE0-y_kKez3tMDnYSS9=s10000"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 14,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 10
+        },
+        {
+          "stars": 4,
+          "count": 3
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.1,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Restaurant"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI3qyPkr310OjpARoNL2cvMTFyX3hqbXJsORAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoI3qyPkr310OjpARoNL2cvMTFyX3hqbXJsORAB"
+    },
+    {
+      "type": "hotel",
+      "name": "汉庭酒店(深圳华强北燕南地铁站店)",
+      "link": "https://hotels.wingontravel.com/detail-shenzhen-30-1462278/hanting-hotel-shenzhen-huaqiangbei-yannan-metro-station",
+      "property_token": "ChkIqrW9hZ725qpSGg0vZy8xMWd5M3dzc3poEAE",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChkIqrW9hZ725qpSGg0vZy8xMWd5M3dzc3poEAE&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.546668999999998,
+        "longitude": 114.09329299999999
+      },
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "47 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/7wuIwGOLI8oZ_BKtg3pxJDfbyAm6B0b2hj8woIO2vy9xQ7O79D5ZuqdlPtFHndgf2xSLYmrDd-8BlVEQepuO8heQf4VF-fYbchlIkRW7MVPS-klRFkIs4U74EkdViUYbZORccReHOQcuCQXWd3BdTuvRiLo9lQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/96/aa/97/difu-business-hotel.jpg?w=1300&h=1000&s=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ObefVt-GkgzHKoZc6MVhIaLzwsp6Bt0_U-3vqsEIbJB1_iWrdLE2k-9QpjLt9xJNovuvJtArME4ca8AXEMKGFXBTDUGZ9x5YFVKiIFPTpk8i6O4VQ7YLFyFntPFbnYmwN7B7BjXMceFXxAfOxA0Q_ZQwbNjYzgo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/96/aa/8f/difu-business-hotel.jpg?w=1300&h=1000&s=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/20j_udsMpvnkB41uafPalydctfVSi0avdnaQyZuO6vpHL6EMigptnBonV4NUj-w-RS5iChDa0pwBkI04kuxuv--uxzX-3cog0nJFPpXxtUGNLWUmNMQtTjJluWWUFYbAhRpvWMyWB8KVko8Dej6w5DVuolfh70w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/d2/1e/d21e58752dd31da4277de6aa831d20d8cd247601.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEMFk8Qv5Af0itQl_zeTI281QwcmU7ja9-FkKQpb6W6DhxrvlIu_49ebjBV3hKVXEpVUoLAJ_NJLi6cgsyxQ45snYkyWOSOQfhI1cFdZAEN9kyulOUQuuRrFxG2b1hfQrDMwraS=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEMFk8Qv5Af0itQl_zeTI281QwcmU7ja9-FkKQpb6W6DhxrvlIu_49ebjBV3hKVXEpVUoLAJ_NJLi6cgsyxQ45snYkyWOSOQfhI1cFdZAEN9kyulOUQuuRrFxG2b1hfQrDMwraS=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/lsONleHWUgjwNjwF2mdTDimjzzwu_JoFMcXvO1FtsY0sg-2fiZltkMnf5z5ZfE6ovt5o3ebeDPiCFBshYmYz6UbcHhj6uy-_M7exFvdo5j6rHR9mEPSLYH-Mg1T2KMq8A6AGk16D7CStAqo_wH5TtRDlRrfm5A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/59/1e/591e81881733ca066c7239d36905c416459d0974.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/mih-sX52x9opr9PLPN1Nudbv48INOncgsqJWEYSwBDHOboHZ0ATq2jq05aszbORLf5YXlrnFSMDAVIZ1zkOnkg955tzo61M6UZFnce0JSe7-990hs-YX1TzbgNf7rur1pSUOsJAuPZMeYSPTbRivOGmAZKV6nw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/d3/93/d3930b8850314aa9689f30b7451c3921acd706f3.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/jGvzg15c_x7uRhcXf1BXWJkv8x0_Zpbp8NM7rcfRMzx0KbvkhLdE8FEnLoKUQuIWP3Hy5xmQUr91XhD-WaTctmGq6HzeSXQYUk6CRi6z8j1uSNpdh8JEqfxiOsHJ37ApP-g4JB8ZHrifXKoKR2AcBD5b7Q6zvA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/55/ed/55ed651a5de94b4c09f9e86807698ca382d13590.JPEG"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 1,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.2,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Restaurant"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChkIqrW9hZ725qpSGg0vZy8xMWd5M3dzc3poEAE",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChkIqrW9hZ725qpSGg0vZy8xMWd5M3dzc3poEAE"
+    },
+    {
+      "type": "hotel",
+      "name": "Shanshui Trends Hotel North Huaqiang",
+      "description": "Understated hotel offering warmly decorated rooms, a restaurant & a bar, as well as free parking.",
+      "link": "http://www.shanshuihotel.com/",
+      "property_token": "ChcIiuSd5bnI84YzGgsvZy8xdGRwY3Q0MRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcIiuSd5bnI84YzGgsvZy8xdGRwY3Q0MRAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.544021,
+        "longitude": 114.088991
+      },
+      "check_in_time": "6:00 AM",
+      "check_out_time": "5:00 PM",
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "44 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/RhZ3NEC2OlpDmMOnOnkrI2KAeeiKEPLfIKCMDjU5L_S7mjq7UI9ZlbpNLP163Hizq9_gS1xbS64SMdBi0VjUduHOOoWcMU_9HtMgI42USRUij9X3hBaMCDZe600pjGaauo2zOFn5G-O5RTJ8-Vm97WD0TtYYCg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/5000000/4230000/4226900/4226832/a62c2a76_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/eDYbvbiggl5PR6NbXnmuuM7CJEbZ5bK1thVcDx1T6W67vx9fKPvGbMueFtAwWFf_R6Zw0C67xCtQOpU-OfU5rB3xDNiGaHQBrhQ4F7V1Fd0dE4adKleI55D7JADxdh3JiRw5o0hNqkA7VGZytPDi2orsDUeEEQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/5000000/4230000/4226900/4226832/7cc1931d_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/sCsGLfxTzZ-tqMfJGQ0DGJmIZgcYHLz2oTeZJEOBqaUosePqZRZPTFtZSu5OdIJbPRP3QHmwC0TZFyZZkVNHWDLGZ8dU0y4GkAbCxZwoITF4owvzqKNRO6MU_nn6_MAtDha8tv9lWc4Efi1EEkl0d-ZD68SX9ec=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/3a/df/3adfcc7061be73832d21b638ddfe82bb11d1e777.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/x9x7zBeQagDC4Qbpkpc-hAlxK4L3J1FtbNqFfZeLQ_efhOZk_xgt2OnxaB-S39isu0NMdGQH5vr9jDT6Q0_c_TyJK14ma633wpv6Ng7Cbp5FZF7g21dDfJpbWgySM09-q-ORW3SbnpbOQzfRZbG2TNu7QdOMYxg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/75/67/756760a6c8f081c6dff296e26c2abcf5d06d6534.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/4oXAkMUTRHhEUK_ULqmMBXqteBsmMxXekyK4gCJYkrk7YhvmZKjNPMBsCmHzLI0hxkbEIM1hoCsVAZJ5U53hsKOdbBwK1NZO-v6EjK9w7tL-Nj4V0beVtgAuUPYP5uYPV91y8o5_bf6nUA-hM7bOewHbl_E9Zlc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/5000000/4230000/4226900/4226832/ac90d58b_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/l7-IKiNqWTZhqg6uD8NGXnu-iZgoQtf_jLT_vpVytnV1YnPft4TXcJbl3jAwIPGzaBORVvED-QKrwMJjq_2dSZoRSQjSSLFnopvJ6_F7TxkIwlyba6Jp9f22wPI-Ab_SwCIWdVJ-qG2GceRh-kPcUCK7a3jj5w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://images.trvl-media.com/lodging/5000000/4230000/4226900/4226832/d1d223c0_z.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFqD4vIaL7DvMjVDx10Aijt7RuVOdKiIdegpyOjDssFBKIRKq6SSGu0vE6N7ZAiU6vymWHp_QZZkgJjq2QguY3n003cIvIOer9QwSdu7eB3bbyTp5S7ymdoVAKrwH-4PvsiBmXmUZ7hZjKI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFqD4vIaL7DvMjVDx10Aijt7RuVOdKiIdegpyOjDssFBKIRKq6SSGu0vE6N7ZAiU6vymWHp_QZZkgJjq2QguY3n003cIvIOer9QwSdu7eB3bbyTp5S7ymdoVAKrwH-4PvsiBmXmUZ7hZjKI=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGK0T0j9BYmSVIj_n5pGQrLVwdlZtue3_7jF3AnAL59VqHRLioh89pYarbMqyMjTbsaqQLLadtM2eFrk8AyRC1botyXWzds61foSv0h4ZyjaahcpVtq5jN1GBpMimgghzPqfRc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGK0T0j9BYmSVIj_n5pGQrLVwdlZtue3_7jF3AnAL59VqHRLioh89pYarbMqyMjTbsaqQLLadtM2eFrk8AyRC1botyXWzds61foSv0h4ZyjaahcpVtq5jN1GBpMimgghzPqfRc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGhSKTpNCLRbWWMz2R73FdequmafFBeCR_b3sBqlLwEqD4iyg9MBM3CS4pREeZY24TAU0p2d_A_Lh08uo7cBdkig3PhhlgPzERXlgqsrPbMs7xSFR2t3ByQyAMx1NuE2ROaIeQS=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGhSKTpNCLRbWWMz2R73FdequmafFBeCR_b3sBqlLwEqD4iyg9MBM3CS4pREeZY24TAU0p2d_A_Lh08uo7cBdkig3PhhlgPzERXlgqsrPbMs7xSFR2t3ByQyAMx1NuE2ROaIeQS=s10000"
+        }
+      ],
+      "overall_rating": 4.1,
+      "reviews": 95,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 45
+        },
+        {
+          "stars": 4,
+          "count": 26
+        },
+        {
+          "stars": 3,
+          "count": 17
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 5
+        }
+      ],
+      "location_rating": 3.6,
+      "reviews_breakdown": [
+        {
+          "name": "Location",
+          "description": "Location",
+          "total_mentioned": 11,
+          "positive": 8,
+          "negative": 1,
+          "neutral": 2,
+          "category_token": "jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=jLN0PHica1yRnFiSmp5fVDl5hU8-kJ2Zn8cIZwEAzmAM3g&engine=google_hotels_reviews&hl=en&property_token=ChcIiuSd5bnI84YzGgsvZy8xdGRwY3Q0MRAB"
+        },
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 11,
+          "positive": 10,
+          "negative": 1,
+          "neutral": 0,
+          "category_token": "qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=qPRjhHica1yRnFiSmp5fVDl5RUBRfkFqUUklI5wFANGQDTY&engine=google_hotels_reviews&hl=en&property_token=ChcIiuSd5bnI84YzGgsvZy8xdGRwY3Q0MRAB"
+        },
+        {
+          "name": "Atmosphere",
+          "description": "Atmosphere",
+          "total_mentioned": 5,
+          "positive": 3,
+          "negative": 1,
+          "neutral": 1,
+          "category_token": "i_dZKHica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSoDEhsACA8Onw",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=i_dZKHica1yRnFiSmp5fVDl5lWNJbn5xQUZqUSoDEhsACA8Onw&engine=google_hotels_reviews&hl=en&property_token=ChcIiuSd5bnI84YzGgsvZy8xdGRwY3Q0MRAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Air conditioning",
+        "Fitness center",
+        "Restaurant",
+        "Room service",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcIiuSd5bnI84YzGgsvZy8xdGRwY3Q0MRAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcIiuSd5bnI84YzGgsvZy8xdGRwY3Q0MRAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Janeys City Hotel Huaqiangbei Branch",
+      "link": "https://www.bthhotels.com/hotel/E75503",
+      "property_token": "ChoIjqL0rraLrvP9ARoNL2cvMTFiNnZwa3AxaBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIjqL0rraLrvP9ARoNL2cvMTFiNnZwa3AxaBAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.544332999999998,
+        "longitude": 114.09339
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "49 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/03AeFzMS2MqQtrbDhQ1HcZdcbzZefFkHlyQGg0KSosfDShGQ_oci46UuYixjxgmE8weQGDJDJiKbfmtq3OEo5Gj6dz1g84FDGb4PNLC4-8CHYHrbMa-aanOUWjPmyeMnziIsjcBCqSWuH_d9tu066WKvFVpojA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/a5/9c/a59c8276badf6d531feb7d2990ddfc1bc3241f56.JPEG"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/zEkXkPdLZdf06S6zquFmRA_BFvyyoJAq61AH358hbN1zJbjER05c-2hIjq7ORj1IYn4HhSSCRuk79XIL91XNMc_lSPcH2EmJwLsxTG8_sIC05JKMyP1Q6cPCBfsjmgzozZWliX8G-c1l97XvtOcE-LycsYQKpG8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/e9/64/e9647c08904cd6e6ae9bf2f1ceb8ab49909c7fb1.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/MtqZnDxuGqLrDzR3jnqb1CXqHKhrRudQvOPlJuNW3SHA-EnLyoBNbMkn8se9sL1CEm5G9QBapgrkWVCtC6PbLbqFz5uxiyQYauCRcAZT8NdlS2vVc5lOlcV3KW-syAwqpyL2fF-o9ClpKvtSmbrZhvZb9Rid3w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/zz/69/ad69d64e139795ad0f7ead98461190f482564cb5.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/DmjupmILy0FjRSlmsfRFFznZ_QLvzP-y9btLY6up6YIRxjbrXJBYe3w5MIso4gL5pTzSvHoPYNQgr12k9_wze4KlUfnDDIjmehoQzgPDRhheoFSqOVyys1vr92d8vljAsyp19kJ8bPKmhBSDsXnNVSyVTbXAsHM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/46/50/4650de5ec2a696ef9a913e71ed254727b0613897.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/FnKAQGkbOTqNKNJq1Gy0Ex4wPE1BeGx4NDFeky1pV_J_zFEh9lAeQJgRbXk5Ss55HZDQZ-8OFRhWQVvtuoxvXluz8QbVD661Z0ydpzBxU3yP1o6goKLM7iGHIh2Ob8CNZ4_2Q1cWzx9mNJrRcC0SNIjBejhUpN4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/82/75/8275a0549ec21ef6f76803956277118d4c458b89.JPEG"
+        }
+      ],
+      "location_rating": 3.3,
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Restaurant",
+        "Smoke-free property"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIjqL0rraLrvP9ARoNL2cvMTFiNnZwa3AxaBAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIjqL0rraLrvP9ARoNL2cvMTFiNnZwa3AxaBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Chicago Suites International",
+      "description": "Unfussy rooms & suites, most with kitchens, in a relaxed hotel with dining & a business center.",
+      "property_token": "ChcI3sKi9eGBu7BrGgsvZy8xdGQ5eThtYhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcI3sKi9eGBu7BrGgsvZy8xdGQ5eThtYhAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.541981,
+        "longitude": 114.09287099999999
+      },
+      "nearby_places": [
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "44 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtWqsqi2wJ1TWzYBvkTTLBw0_cLLUjSfIKnhshoEDkxao1odV3birU_4f1Vyq6HLtMAp40JpONUQ9G5yfX0RIWW0LWeKT3MA4x5iLK1CmiCrH4OoZk9YEECbM5dmWDckNsSiw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtWqsqi2wJ1TWzYBvkTTLBw0_cLLUjSfIKnhshoEDkxao1odV3birU_4f1Vyq6HLtMAp40JpONUQ9G5yfX0RIWW0LWeKT3MA4x5iLK1CmiCrH4OoZk9YEECbM5dmWDckNsSiw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1jEI4Os-VpzWXWyIQ5ooXQJV048BmKgnzAerwWaFDl64YkX-vVbF2E479y2ofRs3VrEmEitKra3U97ogL1vX5-n3HgPYDv7kkeqIf9fY7CuEUC9kaZ0qZT6AF3SWk_9S4iI6A=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF1jEI4Os-VpzWXWyIQ5ooXQJV048BmKgnzAerwWaFDl64YkX-vVbF2E479y2ofRs3VrEmEitKra3U97ogL1vX5-n3HgPYDv7kkeqIf9fY7CuEUC9kaZ0qZT6AF3SWk_9S4iI6A=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSISPnCh3HRnk5lO9-lnT9A3kq3D7Ggolv9gLMvJwIiaK72G1iIWjIFPkcxuWLBZtBEDQ1PHMmqrjPNzGOgdyjlaDqbgPjpTt-1T-_RdbXVY4-ejoGaITjrcKUpmWCgeOa42Q-=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSISPnCh3HRnk5lO9-lnT9A3kq3D7Ggolv9gLMvJwIiaK72G1iIWjIFPkcxuWLBZtBEDQ1PHMmqrjPNzGOgdyjlaDqbgPjpTt-1T-_RdbXVY4-ejoGaITjrcKUpmWCgeOa42Q-=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0QLIQM3k944HI4truXEvU46-egXQizIH1lLJFHLSP5SlMZEmEtJy-XxYhChao12bV686nk7HDcwjY0k23iekepuUAG_dUkbJXCVW0cVmd7QIltPmakycrul5Ygg1VUuPLImAw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0QLIQM3k944HI4truXEvU46-egXQizIH1lLJFHLSP5SlMZEmEtJy-XxYhChao12bV686nk7HDcwjY0k23iekepuUAG_dUkbJXCVW0cVmd7QIltPmakycrul5Ygg1VUuPLImAw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHw9jqd7JEuAq4VyJfCnur3axauilymft377borcNk0gq1v9ipR2rmOdo8Jxx8cFXorsUzfhhLUZ_0RnEmjBNrX8LBDdapLv59rHGrUO6RT6ltbCZof7SMpd_-TLFnLA7OUsB_e=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHw9jqd7JEuAq4VyJfCnur3axauilymft377borcNk0gq1v9ipR2rmOdo8Jxx8cFXorsUzfhhLUZ_0RnEmjBNrX8LBDdapLv59rHGrUO6RT6ltbCZof7SMpd_-TLFnLA7OUsB_e=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1y-I0PoUJdeakm9uT1vCtzeiT-3j_R1qbTzxxYK47uYmzt3fNhgYAH9EJwhpqxPn9GQM_SdooripuMyGczbiOVyTNJoR3toxuTCmUHXuZdDJ92Cu4oWEGoBMk8vemmI9qNcXoGA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH1y-I0PoUJdeakm9uT1vCtzeiT-3j_R1qbTzxxYK47uYmzt3fNhgYAH9EJwhpqxPn9GQM_SdooripuMyGczbiOVyTNJoR3toxuTCmUHXuZdDJ92Cu4oWEGoBMk8vemmI9qNcXoGA=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEAmvjwm-DcMaLXboEVu5Msh3y8MFDwGyyDGSoKflVRMAb4IVqGrnDi5Ih1NdSvwGJ5-QPvLQkUyw5U90zDxLqpjqB2RAZAAa7iT2qjA8VfhCJFlz2IJp9kSfedS65Ak4dNyCw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEAmvjwm-DcMaLXboEVu5Msh3y8MFDwGyyDGSoKflVRMAb4IVqGrnDi5Ih1NdSvwGJ5-QPvLQkUyw5U90zDxLqpjqB2RAZAAa7iT2qjA8VfhCJFlz2IJp9kSfedS65Ak4dNyCw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5kZh7UECQsDkR50U04VBTPQEiVefsq9jLLWwirUzn91QnTbopnDB2u9detDkDepSc5t90ed7CSZlGlRfrL7FW0-wAZgcTbGOIjaLIXJDhu65soIGfH9gqokTEi6F5Gmv1HHj2=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5kZh7UECQsDkR50U04VBTPQEiVefsq9jLLWwirUzn91QnTbopnDB2u9detDkDepSc5t90ed7CSZlGlRfrL7FW0-wAZgcTbGOIjaLIXJDhu65soIGfH9gqokTEi6F5Gmv1HHj2=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_78cleel41q8sMSUuhzxLJcxhADzq8rEm_pf7sKtlE9Y2d99V36p0TDPkM0P-CKWik9IrF_0WqIFoNVisPrBuljNpvyTmU3kxGmlmZ0WjlcREFkFf3lEVW8qYyKF9VHIOOYIXLQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_78cleel41q8sMSUuhzxLJcxhADzq8rEm_pf7sKtlE9Y2d99V36p0TDPkM0P-CKWik9IrF_0WqIFoNVisPrBuljNpvyTmU3kxGmlmZ0WjlcREFkFf3lEVW8qYyKF9VHIOOYIXLQ=s10000"
+        }
+      ],
+      "overall_rating": 3.6,
+      "reviews": 30,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 8
+        },
+        {
+          "stars": 4,
+          "count": 9
+        },
+        {
+          "stars": 3,
+          "count": 8
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 3
+        }
+      ],
+      "location_rating": 3.4,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Restaurant",
+        "Airport shuttle",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcI3sKi9eGBu7BrGgsvZy8xdGQ5eThtYhAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcI3sKi9eGBu7BrGgsvZy8xdGQ5eThtYhAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Rezen Dong Hotel",
+      "property_token": "ChoIn-Gc0be-ibm6ARoNL2cvMTFraHM1Z3FsNBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIn-Gc0be-ibm6ARoNL2cvMTFraHM1Z3FsNBAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.544188,
+        "longitude": 114.09008999999999
+      },
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "44 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/br329A9yOWJb3XDS-OR0rYdMig1YN1gTxXyOJ65LaxVlS3gFFUJGkwJW5DthT9uUbjvRjo5hqphD54t93d3L1J_14lGfJeCUJT3QLGaR8BcZ-UpZYh3Eqs2vyYIn0oW99wgJY47_pW0gvQ-nlL-DU13FSTiHOKM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/159/138/409/Superior_twin_room_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/OZ0imDxgJxvqi3VG_v8zZUctkCsWjgtDS1qz4ZXvU5ngqKj8BNF-KpyiIxCeDi__xUoBV2cdfRLtWSGOtZMez1VbtmMsJ8XSbuJpj7WW4pdn9T1S8APinHtiptuMGPffwWTBBjIUgIgC0M90BTOm9tFgiVq65ag=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/159/138/185/Hotel_lobby-1_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/79WnXTK6LjJlk1lBTjwEzLroDyFf-kHPtsopxj9xnnef6PZ3ZTR3o03_bpdGdhVh0yRbkjeUTnBargMXaB61olDCDAcC4qjhE1_43TTN09_ban5U9mqVXlQBgQfO8KbxCux6693zWdwozssQV81aJ7M6AVhZ2g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/159/138/109/Exterior_of_the_hotel-4_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/TI_boScZGavcZlYu7CGGEroO-YBF-49zHpmKdsBa-uknCSz1il4fC2kX_p8rdH--_LhPJVlVmkmyQ93LYeUSD0t_fQv230QYYU5B7NzyPPWxkYXle2Rm6NVJOtX823fa5quWu-YdLy9OJv25bR0UDeT63tTMWw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/159/138/433/Breakfast_Room-4_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Ecouhcx-0WX7xHoVj4Tm8HlyHOZc0jt-Qpsahw2dqA-bhY51bwwnPhzggg_rxUpU8ig10PzzKz9WBNjqjC2BNleaAhu47BxdVB5KZKTspQSXblyFOx9uUjFtyJdzfCygKJnbvXZ_-LGs661q5MbCjLCfu-zUnA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/2/0/197/583/820/Business_Facilities1_R.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/K_1hZDNB3W6O7SjlsfhOSwOIbdkGd6vJbkgNhZpEZjXLJ0C3K3NGS4MiitaFQ__zBMNDDNTZQRgknDsXGrb9IgIVzFr2K-9JntDA_c3k8Hce03ks41rFYuWg92lUWjP_WXmJjeh-86yUa_ACCrm-LhP3Q3dOJQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/159/138/285/Romantic_round_bed_room_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/w6_Z9dTEvMtAdvcdqs8z4wU6lkB1fE7QTwqF9ToN_Ot_uW6YQ42N7v7nltCuSx8wZ941TyY9q8w7V-1mrqV-4Pr0NqigPCybpLCSngEwqXTJ3SIDRF9X-x7XS3X2jm-0ueN6oPq75nm2-PfenawlpXVs2pDKBA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/159/138/85/Discount_single_room_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/PGIGVZlQ74xxF2ndITUcwNoZqSQWzlVaKi4j95LIX7KRM-zgqrC79pJyE0cWDKpLZdezTJB5cqXxjsp5DANWghZlXnKSRFlrkm92sqJ0Qc6J6SIwL-u6isqA2gGTYjGy6yVpW4Bf9CMjrLMYJ5XHeM-u6ZZpTyo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/159/138/311/Superior_suite_O.jpg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/aFskhsFt8lOd6ngigWH0HIZq1gsdGrphwh9yiawDoP4-cqfo6YXsFpNpVBRxMs4y6SiMOsArsJOzP_NeCaeGgf2w8Eooa9DNQE5J23wiae12DEWHt_nZe6RdY0wrKQfVglmiW3-tC4NeSEKoo71W-2HZAeybRw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/159/138/159/Hotel_lobby-2_O.jpg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 2,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.5,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIn-Gc0be-ibm6ARoNL2cvMTFraHM1Z3FsNBAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIn-Gc0be-ibm6ARoNL2cvMTFraHM1Z3FsNBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Tourism Trend Hotel",
+      "description": "Warm rooms & suites in an unassuming budget hotel offering complimentary breakfast & parking.",
+      "property_token": "ChgImouZ943C656BARoLL2cvMXdiZnhfc2QQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChgImouZ943C656BARoLL2cvMXdiZnhfc2QQAQ&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.545488,
+        "longitude": 114.09201399999999
+      },
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "47 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/N3_tejPXugUPF_7nz8S9lRl9W0AqbBWavy2BOpyc9Dg5VO2CYEV_7j985jcHVdHgGQlAUcbvhCoNFGJwV296GtweL3MB0-4-G5rbbgSPH51neuEXOD5mJvBIUXeWZUu_LGtqtf_nRW7e7SCfEDU_Z6Yc3pyQcg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/45/40/454088f77ea422234263388bd4993fb37f432abe.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/PkbTYc4WdgiD5U6Qz5SLxrSFNq39UB_Iaz0lBzkFj8xSAuGydgdZbL-Td155PLFtK8aWtH2XoQzL5MPwKW5qlZQluJ1Y58-2Xsn4wjie2BE8U71CTfVyrhjaQx0XV6moUiqMQLKI7uVs4D95Q5oQ_QrgwDyffg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/0b/22/0b22694d1536c56bbc40fa3de6b699237abb3ef5.jpeg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/j_CfNG7qJqt9qLYeq5bDF21qSsbBT5pRcX7dBCicyE0fOtITG6qOvT-RSgirCXfWqnf8UI-LB65ErGvMOhNTM923lX-fp7Pfy6e00XYm9EDO2L-JfWy3NLZ8sz0tiouVv6LZh_3WHQfoSYVewHAJCuaCXtcnL58=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/7f/68/7f68ae1173323c6c0297b4c07b347befbec5859b.jpeg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/dkaEwnSOgEtgoba6GmVJWZ3FGfwb3CvRznRt_LaMI9OCuSCMAk5jFc0LX1d3cVCNYN9pVpIIUVjdwSU5b58Xx4xQdjyeOsA_qMz59DEoTL8fNEDnWpwFZdqXCPg79Ge7bUW_4TzNMn3sM1OTuCi8piw5YuW1LA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/39/e5/39e5627044a5803c9236727ea26698900f5d7258.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/6OfvRYK34hWpSioUaLJ6bVqGnNBjqeW_JhoqZvVq04V-yGsiC3mUwe2LNp-K1ah5pC-U5Ehff-r8nEo_IObFtzUlCZdwm1dPaT1OSsqXM9JYLeFzKdyJUnbi2tzjpRuHLZfw9we0TzHnssEzPtAV9IsA2f5lzg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/d3/54/d35431e35f407dbd7a2d4b8ded0b3769f63a25bb.jpeg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/PhYauIAQmLgGbs9Uv2kT3ozZVd_Xml_L2ElvbmFtSIoFTPz236CLI6AYOjqNvWtPal53E7T8N-He_WVTLe-FVYN-5AoMUOyO6zKR1iaQtN5MvegkIFF93c7rBsEjvhlDb6CQLhmpmtACWzsstNMJsVweRLy-Xgk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/02/1c/021ca3b666bae4a0eb6b019520e2548d4c19b653.jpeg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/1ktNzxX7GcMGPD_rTiwO6e3rcJUW3fO_FGWhhXlVRga6G3gqh3mj4rvMi7oLNfSQnrtrR9t56WIGtb3950wwEFOyW1iden_T96W2gAnw-pAbKxbdRvkQJvhfSgTunHDcfEoX5y4XnjPEDaLF24O8FSDH7BE3rWQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/b7/65/b76534db7da0892df19a53167778ae2f15f9adea.jpeg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/Iklnwmju8Rnhp4OT7Eggp_ISQyRqxxaVWiVA7sDUPIRysARbKs_DOUHIXBTvtzjFi_OyhA-CpDqqDLEhZ7Hqtb_c9N2c9BgxjEXcHvrBuly2JKpZkTkhRUqr4X_XMO9E1cPHYdoWHkITkhIjFCPn9MYdAgz-VNI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/53/80/e6/shenzhen-tourism-trend.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/EmEnziZH4H176HBWNOj4noaWYOw_NiW14bQGN5II240pHrNUq-LKIzYD7133kL7RZ3qz_paaSMEjN81dQynrlkY2ltb82YTf7kHXUGl08Qk_5xj1YvtvGpEvnM4_XE1eN1Br9LXM1aw8wlJr9equnyTx_t9TzZ8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/e9/fd/e9fd0e416250bfeb30bd49e698e244a89b9aaecc.jpeg"
+        }
+      ],
+      "overall_rating": 3.4,
+      "reviews": 29,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 11
+        },
+        {
+          "stars": 4,
+          "count": 1
+        },
+        {
+          "stars": 3,
+          "count": 12
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 5
+        }
+      ],
+      "location_rating": 3.3,
+      "amenities": [
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgImouZ943C656BARoLL2cvMXdiZnhfc2QQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgImouZ943C656BARoLL2cvMXdiZnhfc2QQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "Connar Hotel",
+      "property_token": "ChoIho24nYeK78--ARoNL2cvMTFxbjZuMnpfNhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIho24nYeK78--ARoNL2cvMTFxbjZuMnpfNhAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.54128,
+        "longitude": 114.095665
+      },
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "46 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/uoKwUSAizrK1k07F5BaPfrBsXrXHy1ipddGn5AN757YMbcHhJcDiRZsG5Ch0WY6Ynp-ShXrwUC41VtVttc4ihGMh-Pi3VksPZ2Ygwz_UGMC3UbCMrcA_1R1Qkz0lmEYnT5V6CgrYti7t06XNRX8su1umso1nq30=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/b1/9a/4a/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEEB6TbEoV_lcZ5rTus_0xKJippUrCgOMG9T6snah6u7lObYAUOBFDo6RlTt2Uw3vMW_mGgiZnGXWiWqjvc2FLO4rmvGDC3cHDFcjnXIM4fA-yyis_2GefvR5UJ-aA4YtvcsQqs5w=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEEB6TbEoV_lcZ5rTus_0xKJippUrCgOMG9T6snah6u7lObYAUOBFDo6RlTt2Uw3vMW_mGgiZnGXWiWqjvc2FLO4rmvGDC3cHDFcjnXIM4fA-yyis_2GefvR5UJ-aA4YtvcsQqs5w=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/evxug1-uB_pWLla9Q2pcnIrBasTAf_fsfrVLDJzlrTEoZolqtaDVc9vYnjrgzgH4mT_lcPZGbQ47pzyMf-hp44tZjRrhQcqnGZxMlJFkxoTgADLPARTmfAJbDS3yspGJA8XjLIIi1PaJCaUhJREdatW6fiDzoZ4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/b1/9a/4e/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/Y-7ZAUFbQlZbESJLig_krEJFtpf7TlAh5CzaB0ZeF6r-SJCrwS7Fbrun8nASv-tii2FMyOROIAnLx1VYj58-hX66CT8Iw4R56g2PqRPM3LUrleZoPrk3-XyRXS8ryJi8H56Srr8QoYM5ZHB34sC6ngkCI28Urg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/b1/9a/4f/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/cNkQHLvfIs-3G8mSR7DfkH4sVVT30PZZR6QXsJvuMTtMt22a28e-411WcYjQgp24-pZL3tgMgJhQwcunrutfERglj0c1iDWz5_RRgKof2T1U3XhL2doBrQVY-2MS4-qwcWNakwNSIbDxf8UhOdMR4bBm5ojwYA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/b1/9a/52/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/BeIX8yFo6gI8CH8oAIynCIbdSb38oNzSyg-FnVULNOeoyv9KLJoxtLeGVTyfI_Sj_-NxnnhBBo7Kz9Tlb0WVZR9jMv_5BP0Ip_KIZzFUUTzpWDlQe7yrbinme4jFHj32n3l8skbd0F_Patw9tSSVPNUb4DnXXg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/b1/9a/47/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/U4XN9YTIcIIt3gSiZrYKmHpFOSQ_wQWIijJANN19v-XZv6e_9AXcz0pGmy7lpeXS0yHjL64TUzXfb2nGo_ZMuhlkvKiLUDKvMQrNA5QJZX3YhwSrgzpLW5ar5Q3HRv2i6W7FWFZHSa8HVUbPIyu_JH5aJ68DAH4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/b1/9a/49/caption.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGz4MPefJSO7j8ErTAc2DY_yL46o4vGD_x7uJ-EHneNQrlBhnUXv_F10kJ8vHpq9pIzPuCmWhhriyb-Q1Fn6ysmEErUm8-g_KJk-3iZDTEZGimriOTd980ov9_G7w0I9rg0n17d=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGz4MPefJSO7j8ErTAc2DY_yL46o4vGD_x7uJ-EHneNQrlBhnUXv_F10kJ8vHpq9pIzPuCmWhhriyb-Q1Fn6ysmEErUm8-g_KJk-3iZDTEZGimriOTd980ov9_G7w0I9rg0n17d=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG95Atbpy4-vjjQ4XKMK6ltN3zscUJeTSxlVOlASqmFdPj36blboiwEaj3ONBS88k29-QWxvWZEKaHP8x89Nx2kSC9G37NTSs0BenXmAynNucYYkHCaOVPN1oR2id-yQ4ri40wj=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG95Atbpy4-vjjQ4XKMK6ltN3zscUJeTSxlVOlASqmFdPj36blboiwEaj3ONBS88k29-QWxvWZEKaHP8x89Nx2kSC9G37NTSs0BenXmAynNucYYkHCaOVPN1oR2id-yQ4ri40wj=s10000"
+        }
+      ],
+      "overall_rating": 4.8,
+      "reviews": 8,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 6
+        },
+        {
+          "stars": 4,
+          "count": 2
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.3,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIho24nYeK78--ARoNL2cvMTFxbjZuMnpfNhAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIho24nYeK78--ARoNL2cvMTFxbjZuMnpfNhAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Difu Hotel Shenzhen",
+      "property_token": "ChcIqOHBka7ZppUQGgsvZy8xdGRkcHNwMhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcIqOHBka7ZppUQGgsvZy8xdGRkcHNwMhAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.54429,
+        "longitude": 114.089552
+      },
+      "check_in_time": "2:00 PM",
+      "check_out_time": "12:00 PM",
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "10 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "44 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/iXzPuUrpLLlV2O9tfTmpxHaVr60bWTmCUEL95Ek-LtGUy6n4vYW-t0wHsK1lJHKzdsBj0eMjtEFnZilGv3cJs7XyDHIEAQpjDW7aw9roUoRSJTeSL6rXqRMSqDGpT9arRa2pxpUlfH1TfWfUjG4rzDdtdcB3pw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/76/b0/76b0079c68db7a7bf9a1839e48a5f5c8326f506b.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgpcdClSQ0tlID-GgWUT2PlbjaaxGIASV8O9RxckfA2zLE8OQDz4StZ7rFScrhkAbfS0tJyEZhBsDy7vYzjMXh9Ec5sKpNK6k7gR4dGGpp8Hk9tDppP_z9ZkcNZsXcbDwHxonn=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgpcdClSQ0tlID-GgWUT2PlbjaaxGIASV8O9RxckfA2zLE8OQDz4StZ7rFScrhkAbfS0tJyEZhBsDy7vYzjMXh9Ec5sKpNK6k7gR4dGGpp8Hk9tDppP_z9ZkcNZsXcbDwHxonn=s10000"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/0nduksbVi8zAIrOGrs2OOEqQ4SibMxMqay0qfMTWsa-Qm6iQlsqP_9Z_KmskUNiQypTexIO4FGIy1Vyj1uKxF6wsRNbiCIkFsMIOMvzdHjUOi_iYoK_rH0ZL6f-EcDWzkqYEjNIuM-v2ucJxkK-fneCSZqtB2Is=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/c8/85/c8857b85cae1bd6431874bd417f8b2a497c0589b.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPtBRJ4I8Ayeios6LZX3gWG4DN_Q7evKfbYxX_dFcqII7Uwj8nJxRfxnK20f6ZhOceuomtwCzesoRGJfjL_eV4SHDQWIc3MX35H7NsnGRzxODMU-z26uO-FIKW6uve7UbKRwc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPtBRJ4I8Ayeios6LZX3gWG4DN_Q7evKfbYxX_dFcqII7Uwj8nJxRfxnK20f6ZhOceuomtwCzesoRGJfjL_eV4SHDQWIc3MX35H7NsnGRzxODMU-z26uO-FIKW6uve7UbKRwc=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHGcM0AOu2LWcHhnQx2g2jkmtwcDRxSv-BAHdtbfHIUe6f3KM5iYXv0KkDpZY6aUFncyvm7hfGQzaUFzVCqFbPaTGfZr2RIOJxIWXWBtL33hOYZK_y15HsDSSUrGQETc7_74ZJmg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHGcM0AOu2LWcHhnQx2g2jkmtwcDRxSv-BAHdtbfHIUe6f3KM5iYXv0KkDpZY6aUFncyvm7hfGQzaUFzVCqFbPaTGfZr2RIOJxIWXWBtL33hOYZK_y15HsDSSUrGQETc7_74ZJmg=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFETRPW1gP8_2yMmI-aq3y2GMSD2JHPsiabmk9WlnJS4KU2oDNFXgpb026-OAEk3XEOZF8DKUjyHhgORNFJ39ILCZ_wqxV2-4tNFKzn_zfNwbVZ-nQj775GWFskzI5lWlTOgXw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFETRPW1gP8_2yMmI-aq3y2GMSD2JHPsiabmk9WlnJS4KU2oDNFXgpb026-OAEk3XEOZF8DKUjyHhgORNFJ39ILCZ_wqxV2-4tNFKzn_zfNwbVZ-nQj775GWFskzI5lWlTOgXw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/eUUEjwe7zWlxR-xNSnKzOzIJc33bT889f6pnxHXR4q80v2irP7lNPMRZZ-f_WGogH9Ko6hhhaUxX3-XUp8dqcrukL_zs8hENMEBZ-PEBmjwg6dlF0VgySFyd0c_zkCsuA4fJdfw7mXjVwmK6RqS5V2n551kyio0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/af/ce/afce60dbf1bb2b860bc92df77844b85a12dde0f6.JPEG"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ryjmZj9w84PMHA-h_2uRyLhEpSidcDvdWR_uVXByNtbpm3b7NX7BAWPf0lmwdlFCi1VvMJsSufTkpwelJ2-8OD80pTDAPTKrXbyoWPt0-VAVInhAPi4eZKY3Ik57jQd4q836GTslOCnWET1Pn2P0887M92F_ww=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/87/98/87987330a1a31e91f8a779bf9707fd8b041f6232.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/crvAdbQl2M8gjn4LYCIF2jsUIaO64ptMt6pnmCG_ljgAwf5wcd_W-XvGep45lSPM0ELulsxc8ozOndI35FHmBxT2eoN9jyBJ3eV6d7cvi1RJOT1NJ8vK_kk3um0ttBsaVeYzgofPaxD7Nkkq-OBe9SlntiP_-g=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/76/6c/766c5e806515f00ecc5d2be77bf8e68a89ada5e8.JPEG"
+        }
+      ],
+      "overall_rating": 4.6,
+      "reviews": 26,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 19
+        },
+        {
+          "stars": 4,
+          "count": 5
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 3.5,
+      "reviews_breakdown": [
+        {
+          "name": "Property",
+          "description": "Property",
+          "total_mentioned": 5,
+          "positive": 5,
+          "negative": 0,
+          "neutral": 0,
+          "category_token": "PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU",
+          "serpapi_link": "https://serpapi.com/search.json?category_token=PFaLzHica1yRnFiSmp5fVDl5RUBRfkFqUUklA5wFANGGDTU&engine=google_hotels_reviews&hl=en&property_token=ChcIqOHBka7ZppUQGgsvZy8xdGRkcHNwMhAB"
+        }
+      ],
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Free parking",
+        "Air conditioning",
+        "Restaurant",
+        "Full-service laundry",
+        "Accessible"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcIqOHBka7ZppUQGgsvZy8xdGRkcHNwMhAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcIqOHBka7ZppUQGgsvZy8xdGRkcHNwMhAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Sichuan Hotel",
+      "link": "http://www.szscds.cn/",
+      "property_token": "ChcIx8qL8eGHnrgtGgsvZy8xdGtzZmQ5cBAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChcIx8qL8eGHnrgtGgsvZy8xdGtzZmQ5cBAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.548761,
+        "longitude": 114.09525
+      },
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "7 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "49 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/upZr-NF3WYDoKdXM6d0JxTdGcseFpUSlsZJO7tHHR45OmWD5xprIHq6fuZYuPv0e-24TaBmq2N5sauS2PIO5iL9EDRo3qAvA0WMX4IuxCDPdaYyS8eAoaCsqiaxusnYGeXaPW9vwBEM3aNa9EgCLSFKl0jMceg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/ba/19/ba1941ad7a80578ce9decadd436b8a86560ab876.jpeg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/KBvPd7rUJbWDcXO2T6jw4mHTtARXwkesUJCXJU67YDeRuTZbx54GhhNFdSzSYTZ4Xyx3EJfkXgHwN0dhAEV5lgQdnqQ5IKnle0WYEZb_eo0Zewyq2IpjE8xr5AvST1G5kQC3vjtJxk4oI0Wp9EBmupwoR_iiTA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/48/4a/484aa0446750b879df12f42de6cfbe8dbdfeaac1.jpeg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/bBwvutWcPJq7R2nHRp1RUXy2Wi8kyHCVCaglOKAlj51-MAkZqUSvnIUyCEvApChwEkIL7js2Orad5ZAU1Fa7C-xY9_JsOOpclpAsV_olggKbqKLsMGpkNkFSoj9OZx3R69JUQzSKJJAZdKR2tiwQ27qPF-dNpA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/b5/49/b54989b48bc5715b554a27d12cc0b4f61de552bf.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/rSiBBL_R2wPiXUTH71lJdI6wletwwoWWS-YvETae3wn1YMgH_m53DMxirqEZsmeZUT0OT21IvUizw1wRR1OgejmFSekBhigKr2deHCz6raMxCbuSPVBdTZL4sywieNy4qL3DKR0bApBq3KoS9I8r1GVqMmvDxw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/81/e9/81e93cc8882734df71f29d60a15947c227fa63b7.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/gek7H_c_skEEJolfeUZgu4c4faun-nA-XG-czO2xnuiguzJyV92tzqKbzwqrsESQeYkMZQ3EiV2TgH9LTAD_3wUuOPy1Wj4qTsUgz7UIhBi_PblN_mnJ4Gp6GPG528AKmq6AX4chWw12xbBtGB54UMCb-k9nwDk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/7f/ac/7fac7f1288615ef7ec5552036ea407c4cb722c03.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/eVOb8-fYPdNEi5qFRoxDcv8ADOtiqrCGdjBohv5n065WeEDtuCS_1mZwlHnGFMHooTG1IwH1_Qvw7G9Xbh6fceyP5H14JlPg6cgb5sMgZIzaBtAHJde91-Uzwbq2U9CTjYIKU1KUKeMdDpOwf1TfigVhFHG7Ww=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/36/62/3662c5a49161e7a0bdfb70cb784dc71f4565f2d9.jpeg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/ITPDAgrMODwXf--d9f5znGsazPWVI9pQ0izzKgFUVggoG_ya1C-v3MmpwSxChbzdmEH-D3P9Z7ZEc_ElioB1rnjvJIceBzh-YMnHW7R9HyRHrKRyT24M-7cC4_ZYXzhs3-l2ELkk8xIplszQwG4DLvRH0oNREA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/af/5f/cf/photo0jpg.jpg?w=1900&h=1400&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFBYjUqZ3i0aageC5BaHMpNR1GC3yvZI3lhvCVQfgophTF9HCYXJHYdmc4OZyP5-ZYIwGXjrpmS6eZxHiwB7eQYtY1rsRjkQchVzTftDt88Iy8jeLCp9xMSrFNwPOdVDkj5kC3=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFBYjUqZ3i0aageC5BaHMpNR1GC3yvZI3lhvCVQfgophTF9HCYXJHYdmc4OZyP5-ZYIwGXjrpmS6eZxHiwB7eQYtY1rsRjkQchVzTftDt88Iy8jeLCp9xMSrFNwPOdVDkj5kC3=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWG7T6pjGNhSwZbck9rvWvth3qDdEqiYDAQf3XE_OsysDr71h_6yqFSm7PQgfthO8hQOL0pmqGP-rv8czsi_8urP-cI3w1-6PRkdTHjOObEeJcDHDmeFsnAxyx6x_pCFeTky4=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEWG7T6pjGNhSwZbck9rvWvth3qDdEqiYDAQf3XE_OsysDr71h_6yqFSm7PQgfthO8hQOL0pmqGP-rv8czsi_8urP-cI3w1-6PRkdTHjOObEeJcDHDmeFsnAxyx6x_pCFeTky4=s10000"
+        }
+      ],
+      "overall_rating": 3.7,
+      "reviews": 9,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 3
+        },
+        {
+          "stars": 4,
+          "count": 3
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 1
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 3.1,
+      "amenities": [
+        "Breakfast",
+        "Free Wi-Fi",
+        "Parking",
+        "Restaurant",
+        "Full-service laundry",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChcIx8qL8eGHnrgtGgsvZy8xdGtzZmQ5cBAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChcIx8qL8eGHnrgtGgsvZy8xdGtzZmQ5cBAB"
+    },
+    {
+      "type": "hotel",
+      "name": "山水酒店",
+      "link": "http://www.shanshuihotel.com/",
+      "property_token": "ChoIr9TDiJuBuJ6KARoNL2cvMTFiNnZtaDI1bhAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoIr9TDiJuBuJ6KARoNL2cvMTFiNnZtaDI1bhAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.542996,
+        "longitude": 114.08896899999999
+      },
+      "nearby_places": [
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "43 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/aKKW1Jgd50fQuWzP7U7l0p2h22H_VEoMX714mguIrlBUtcJAYdoRGADBRX-CX3JDf3Bvm3BP1DloIsXOTR0AAyL1cG_XHvxw63vGkxV1SB0t6KKKr5DBSUYDYhBSx1C_kuGrP8eSrVvTXFn_IMcuFGTzxFWQI6c=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/72/80/72803c45951ab258bf89f1cc3850432aeaf9104c.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/MGXYHVdtcS-8Cu-9L1HfJSgrPetgNCG0kwFxy1cxlviWFDuwBD1y7_zV6JWMhkgC_XNe1obelYfbsE75BmP77gwR3CAexr8LJTpM4uNFGHPmYXbMGJugCr946Qb_xxrOswYMtaYiXwi3RMGFALoC_gz9KkdqPvQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/08/e4/08e406816873c81eda353c98167e3816c535eb4a.jpeg"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/ostuTrJx8EVCezRJc4AQkNFVsEXW6oksfxFxYb6PKfdwPL2jLvlb7bOY_ItQg79IpXriLu4fDOJUcatP2HtHcbb7R7SHzJPHbbUiCI-KzelfHnDHnGnfWtwXQTxwuPX6SC0n8FYn31MkJIGX5fkrgEytSzrMnQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/37/63/3763290212a57fc35b8b31aa7b76b98c7c8c0209.jpeg"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/yrdHAlDkCI4wsUD3rZxb5ZKk32A2GA9VnydHYn3UXe-nQVo5OZQhQDswLFuMh82Nt2Xycz3ydTF6nVcX738R5b7ePoQQZKyS2A0adMbOTWlnCd2-E4uUiIag3KVEVj3ev6OoXHbwhAcV1Uo4Bglzf_rbtJzm0EI=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/17/bf/17bf519f73e4b1357091450231aae9aca3744ad5.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/Kw9doTkf7mPcZUp7oN2YPyuuke85XXvWEal32JNfIMelNhjxWe_dvItc8kSmBoUuAXCdSIWTi_D6aClo95SjKClkUnZBZkFdPF94ufWSCfakI8lQ-ocrrbs9ZJM1WYAKYBJVDlQYVKHoLPqt-9PSBYU3GHaImA0=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/7a/cd/7acd006f61015411dd5196c58e21612fe04c7255.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/4zU8K7n4B2u7eGKnmkc9bOPCXtiafGdBnHAtPBxU5kljvZzYpA061gjcT4xov0ngINL95bIUK1Sc0jG-PrFugSjMZarGvg_m_vnwlZho58lbH7Aed5NbrV9J8g3YcrBdINvl4vkXjSySU7FptwNSjuDKeUI8Igg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/c6/54/c65475b651c72090b7b425ab422ffee816b00719.jpeg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/UITPVYystIi52jIFX9h9EpE005KJkc5PQFnNnwCwQTY_xyefc3Hd8GJWpqk-UFyOyZ1GrVbS3Y8jb5cTwJPaQFIHtzQE0TXtB4VxA4XQr11-b_EU4L3uTIWFDbzoSvOh3_VaI-OHeNo7g0sIaR9teSHnZWQxdw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/53/90/5390d669d254597bbfdcd144e81a55e12f2305cf.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/k_gMXERjkAbcq3-7py3iTz7loeitUPGDcBpsMGEqGvu_Oj_egfG2CGd9I1jsvFNe787qB6mEB9ehWQbt72jNjsGuEVJguOUDlYWQsfuHCQQy4pymt9nJbGdvgRSihi28zryoJBl5W02-Ue6Xwle8VmM2xAkinA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/2e/60/2e6096168c3024f915bd33dd6f035c24d4908a38.jpeg"
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 1,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 1
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.5,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoIr9TDiJuBuJ6KARoNL2cvMTFiNnZtaDI1bhAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoIr9TDiJuBuJ6KARoNL2cvMTFiNnZtaDI1bhAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Shenzhen Xinghua Hotel",
+      "link": "https://shenzhen-xinghua-hotel.hotel-shenzhen.com/en/",
+      "property_token": "ChgImdTo6u-t98z4ARoLL2cvMXcwNGdxMF8QAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChgImdTo6u-t98z4ARoLL2cvMXcwNGdxMF8QAQ&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.540908,
+        "longitude": 114.092161
+      },
+      "check_in_time": "6:00 AM",
+      "check_out_time": "2:00 PM",
+      "nearby_places": [
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "43 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "3-star hotel",
+      "extracted_hotel_class": 3,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/-iuDn7LXOz2OQetkYn2hUPt41wVqmV56uBfC2-TV9B3zmKZsXiE6ScsNK_KOLx_7n0HnHny3e2497Td8A3D_GoBK8h9IV8EBbUcLL2L1sZOYTvmBvdu6-G5Jbw-s3YagTpSGYeWMK3r0GzXmUm1cajuTomm9Hg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/f8/20/f820c9c80e027ad5068eb8d3121fd2fe1a58ec39.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvdS5DXL4dHla8Gw0Au4VQcejXXxX1kSLYZapZqejGDbvQGTr2FaYZQjqmjuiE-qlb4YeB1OaLG5b4iw9Za3G6sMFNWwqPtFXorgxO0lm4F6x_l5-hq_lLdqN3fWxws0ELNDiT=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvdS5DXL4dHla8Gw0Au4VQcejXXxX1kSLYZapZqejGDbvQGTr2FaYZQjqmjuiE-qlb4YeB1OaLG5b4iw9Za3G6sMFNWwqPtFXorgxO0lm4F6x_l5-hq_lLdqN3fWxws0ELNDiT=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbIy-xGjsYeW7KgFjCddmxnw8W-8uB-yxj8s7rhBVmlPsGfIdW9BVWJjP58OGsP5IG93QH97LpU9TIQ81FMU4ZONlUTlH-VNefSmhDR5vV8cLsaLirbwQ6EZNcBsTVduOZscxSNLz0Kwl7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHbIy-xGjsYeW7KgFjCddmxnw8W-8uB-yxj8s7rhBVmlPsGfIdW9BVWJjP58OGsP5IG93QH97LpU9TIQ81FMU4ZONlUTlH-VNefSmhDR5vV8cLsaLirbwQ6EZNcBsTVduOZscxSNLz0Kwl7=s10000"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/xEShvx6VwvcMPH67vkIA8QeV5ckOvH5AXlzQZZAZAuBZSruf34jotrH5hP4BBSkbGR9B_LqnghctAFQdlQ4RPWNolLfPJN6-H9zvLhKjgSk_SUggfd24_T5peLIm240jfWKt9KOUZL9-v4JzWio1ryqWJFUwiA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/6e/e4/6ee4c3eeb53a04a5aa90a48474eb751a6e176f55.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/P36hDw5GjTrIzi1ljqcZ6HQ2w8dYXgNIvoAVa87kRnN-jQJC8Z-UpUmxStM_X4F9Cy67VNF2SOUiHhmX6SdjsXLlpwNCRpJ5EK7KEi5Duv3kja8rdrhyIudJxjjNH_wI86yHuI7X8SzeftjI-ePA1zRXEhG1IzE=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/ca/09/ca09d5f964930a0225965bda126d903475b50fa0.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/eoiI_wvADtL3j1CEFxT_I0Vzu9DRjnny4VIdlRC9W4ox_UxpFHK-khHsUu0OWgs_-dwMfCLOzibZ2q_JnWWVxj1Mgfr7ZqjDridIjSiPIWeClvztnEHo9KqZJSSvJSd2B7PZN4tF68QigUe5j5rH6HUOxzUiEvc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/2b/1e/2b1efebeaab4ea1ae10cbb0a0b4e1be0faddbec6.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/P7xPI4ugm5p_zOMHZGhOoWlMzeUnWesC2eFJXEZuCmjpTfWtqfY82Ktf1PeDkG6NtSmfxMksl3-n3D5erUj6jRQBocYEJTjNSQZEIrjG5H4WP1yiU3wUZKl8hNYXfKWERSjE45fiGwut9JuPfrvspBEd1qxtdA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/84/10/8410655df8c1df73b178f7e33f484e3b17ae2496.jpeg"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/gg-NdhS0Pa_gMvD3MF1VyRHklv-pftT7yYJr9qvIfQKOdkMsAuI6x4K-9hKj3YL37adzBBzTg7AtLNn8kGy1GNfhOmhx2n6t7vvz17JH2lJmfaMncMZqJDAWAFvF6MKTKyfrds0JkWxTVASVrvyLnVFuA-RyAA=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/13/b9/13b9f0bf25d5f3b993e15b1d85000c53dabf219b.jpeg"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/AUCG4xhYNzHlIMIhXhCsbdC-T34QcwjD_PaNZmh5zHpZOxRClTwYkn5ImylV0JFNjIy9ge0a6yL3BOkkmqOA2v6nd8jwU6h3ynxyOi1KtvFrd8cFHoOD5n-J6bZHAduSdkhoocQX-sx_sFjU5d5cA-Xuhu8SL9o=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/06/b5/06b5f68ecfcc97d480bf7b3f32c1d0afe78c3934.jpeg"
+        }
+      ],
+      "overall_rating": 3.5,
+      "reviews": 19,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 6
+        },
+        {
+          "stars": 4,
+          "count": 4
+        },
+        {
+          "stars": 3,
+          "count": 4
+        },
+        {
+          "stars": 2,
+          "count": 4
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 3.4,
+      "amenities": [
+        "Breakfast ($)",
+        "Free Wi-Fi",
+        "Air conditioning",
+        "Restaurant",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgImdTo6u-t98z4ARoLL2cvMXcwNGdxMF8QAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgImdTo6u-t98z4ARoLL2cvMXcwNGdxMF8QAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "Estay Residence",
+      "property_token": "ChoI8qDQiITrq4bnARoNL2cvMTF4ejFzMnIzZxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoI8qDQiITrq4bnARoNL2cvMTF4ejFzMnIzZxAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.543491,
+        "longitude": 114.09286499999999
+      },
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "9 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "45 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/_KHJgYw9uNv0zvjhSYaDqAe1vGcECLwZ-7XdxxrxrmBJfPCkXhp_GgA8ubFEW9jl0GfWJEZWPyBbPFx6-c7tFS4-cP01vs7a_N3_kIqHmm7wdOwCOxuRPCLhTw4QIAELQ4jM54e1yr9p_1t0q8cXoFWtHc0SKq8=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/a5/d6/a5d687a2506af40e7c0315b8f9498de6df0e82af.JPEG"
+        },
+        {
+          "thumbnail": "https://lh6.googleusercontent.com/proxy/G3mYcd1T7eg4V50U7Mjd3HqscVTi-8TVp46LRphZ94IkMoMHvZ1WUg8CQmmMSrgne0ts9n_01-koW-Fc9xJmgELAkVTjr2zssRThH0-x_gB-Q2XA7CuARYWuTQGryTJI_6XGTXYPoTaM9n-ptl6FyE-4OAt-Jw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/f0/24/f02486ccac69665763bf7688ede0f6271edf0dbb.JPEG"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/EukQIxW_B4bcrkznLjWsaZDU76u9s1hUw0eDb5rqVaCw_Q0pxfZddLiLuQ22tka2RHzUKjjW3jdng6ssP09KzIiwJVXaepqH5588VxufWrAV4xPYpP6pKTUYkP1Sl1Wy7IxwF25BdgIaGdahOr0DODeAjNOIiQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/9d/5c/9d5cced437a3660921f69159d9145ff7ca2ec984.JPEG"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/yD1FgZTgahOObF7D4MO0zith7R3Wvv7LHTnFwg2Ro8CGv2HeUPeUWI0XS1LinrzILDw2dGh6EX-jnjYNMxBz__P-KySDJWlvEw99dh55X4lXs56RbzQYe5U56uDM-VRm6ClXdVZ-r5fffc-Gtf9Lxe6AuEXbtpc=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/bc/f5/bcf53466250507e6e769cc7ef5d705791071b2ef.JPEG"
+        },
+        {
+          "thumbnail": "https://lh4.googleusercontent.com/proxy/hhtFC_swiM5SWGm8JO2L39xCW5HlWojxXhJ4Qg48ob48kGkiT1f6IjQg54plRNYRhH3t9vL_EEQEBgSHMKY0eoXMdjVZlFdrmC9SUxtwvHV_MHQ4ShW6ZBPXNRCERyy9Dg5_i-2FAi3pu_7YH-EyvEQ2AoH3BIY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/ef/8a/ef8a0c79b7476c521013afcbf1b13642c938c093.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/gZDiku6G9yh0ZCtQe3u1sncprcwoF3GSKi3TW4A5Gl6RM7kz048jaaPJaQn_P0ozSxeT_8hnnBs0q70293W_t47Rmd1xyhWitPAxW0EroFwENRVJSC1AwNhZSifZJv2rnqKuLgLYhd7Oq0Mpiqa7Lh2D0t7qlQ=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/e5/95/e59593272983b4fc7f83b4cbe064cab088ad6949.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/6ISeh4L8ZbuIXzjUSKIH-WZJspdpIsIunsmsaPV5eZIXAjYMOzFaT1_-D_0tinkgWJ4mGoFsJtF0VfCG9QdQLs9Qs8xQ9H6JxO51z6Y53EPR0klT5-kHAF88g3IcGaYtllMxvdnhsvlkKU3Vm6IhBAJIcXsD670=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/9d/a5/9da58942b95f6c7a3b358743900938d5feebf7e1.JPEG"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/4tgv9VNVZeXOPah-QlU51QUzcZ0t9PFIHEahOWnwGEdbcWVo_HbUFVne0eTMDDOBtzqBTSil1s9jpDd98s3htOOB8oh2z4WRnu4YYoScCuznf638nTwNDHI4jfsdKQ71b52Sob_zrPsAnZIcO8I3eXUvgkCcdmU=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/8c/de/8cdec3e25141a08cf520e5bb085336f7dd58c0df.JPEG"
+        },
+        {
+          "thumbnail": "https://lh5.googleusercontent.com/proxy/sUAN_wlXD-vt4WfaRWNJnLGiAVxhMF6RUv9s0-nSs_rLuPrAUHdZewLizqHXZdt75AsIgUR4beRNwMiNfstN6XdEmOaVIXXa0VzXkxDv6PbAU7IqjIoI2HHAcIDHrkpxiS_mUIUmmffOiXlVLn9S2-PAGLG_bpM=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://cdn.worldota.net/t/1024x768/content/ed/84/ed8401060e38cfbcbf3152c47b2d89014272516b.JPEG"
+        }
+      ],
+      "location_rating": 3.4,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI8qDQiITrq4bnARoNL2cvMTF4ejFzMnIzZxAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoI8qDQiITrq4bnARoNL2cvMTF4ejFzMnIzZxAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Luyue Hotel",
+      "property_token": "ChoI4ba-l5y3osCQARoNL2cvMTF3aHI4N3ptMRAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoI4ba-l5y3osCQARoNL2cvMTF3aHI4N3ptMRAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.53849,
+        "longitude": 114.09210999999999
+      },
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "42 min"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVgZlBqgbTPaZ_VktyZVMpw7YStTF4wkp_A6HQu6sFcAfHdDlmu2tPjZ9-X2jU96lfap_MBGsRpsZhAa29VP_GkImPdrjKAi1fowZhU0JKkOAdff1c3wUyociR-JieeGWFcKbk=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVgZlBqgbTPaZ_VktyZVMpw7YStTF4wkp_A6HQu6sFcAfHdDlmu2tPjZ9-X2jU96lfap_MBGsRpsZhAa29VP_GkImPdrjKAi1fowZhU0JKkOAdff1c3wUyociR-JieeGWFcKbk=s10000"
+        }
+      ],
+      "overall_rating": 4.3,
+      "reviews": 3,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 1
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.2,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoI4ba-l5y3osCQARoNL2cvMTF3aHI4N3ptMRAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoI4ba-l5y3osCQARoNL2cvMTF3aHI4N3ptMRAB"
+    },
+    {
+      "type": "hotel",
+      "name": "Uniton Hotel",
+      "property_token": "ChgIt_few6Su-qXUARoLL2cvMXRoN19qd2MQAQ",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChgIt_few6Su-qXUARoLL2cvMXRoN19qd2MQAQ&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.543188,
+        "longitude": 114.096046
+      },
+      "check_in_time": "12:00 PM",
+      "check_out_time": "1:00 PM",
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "48 min"
+            }
+          ]
+        }
+      ],
+      "hotel_class": "4-star hotel",
+      "extracted_hotel_class": 4,
+      "images": [
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEw0TvmhqDe1kw1cSb0t0uIocY7W4Sx3nhWmPdlrmy_qXf_RIrmd_M8QUTI6eS6x8eH5WT_ESJ2L3-MgCYpc85Mv4K0-azRVo6ZCh_TjOxXaH-Yyvjb28w3iqeC5Ip4URK1H7AY=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEw0TvmhqDe1kw1cSb0t0uIocY7W4Sx3nhWmPdlrmy_qXf_RIrmd_M8QUTI6eS6x8eH5WT_ESJ2L3-MgCYpc85Mv4K0-azRVo6ZCh_TjOxXaH-Yyvjb28w3iqeC5Ip4URK1H7AY=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/proxy/xLLrkXcBgr-YaktPGSeQw9oSWJROSizoMlfO1Y6BUp2VcdA6eqIkgfSFXuDquBkruA6WN62pdKeH5mco3nXYXIt8o5rH1N0140YoyAN8wJriswsvbEYz5Ln67aEUUOohCvMxEM8diLlhXf593tLqekiEjuWSjg=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/f9/65/37/room.jpg?w=1600&h=1200&s=1"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFRSasvifmoeWxa1u-RfPizOtTbqM4MNaxPur_uYVQnL7L7HkPrQWywq1O08Z34b3DgYOXytPYDFCTKMQ5Gs--JzyB_V_90JtGi7QVm8zyhvEgh_5gKY6ATjMM2SaOkQwkUOZu9Nw=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFRSasvifmoeWxa1u-RfPizOtTbqM4MNaxPur_uYVQnL7L7HkPrQWywq1O08Z34b3DgYOXytPYDFCTKMQ5Gs--JzyB_V_90JtGi7QVm8zyhvEgh_5gKY6ATjMM2SaOkQwkUOZu9Nw=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFkWUgmBeyVAhWm50lEkHR4M22PfsDaRi0m2AJ63oRrrZ_aGvBbDJZxW_-iFopfJm1lJ9wTxfDcXSN4-tJpxFMSZVsKRrEN40uyeMB_wYvWXRKOS61Zma0q-s3Q45VP7QfAjRPu=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFkWUgmBeyVAhWm50lEkHR4M22PfsDaRi0m2AJ63oRrrZ_aGvBbDJZxW_-iFopfJm1lJ9wTxfDcXSN4-tJpxFMSZVsKRrEN40uyeMB_wYvWXRKOS61Zma0q-s3Q45VP7QfAjRPu=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGpoZeyb-FyEOxJcJsb1l6VKlogzpCivauwJJm1ziVb6liSXLqhbbF97epoHR5U-OV0GPG89BQXgnzV71KOdbGdEIkxtlmitN5JtJWALW_g5uQDIE7cpnPZzGodDp78MR4nCvDB=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGpoZeyb-FyEOxJcJsb1l6VKlogzpCivauwJJm1ziVb6liSXLqhbbF97epoHR5U-OV0GPG89BQXgnzV71KOdbGdEIkxtlmitN5JtJWALW_g5uQDIE7cpnPZzGodDp78MR4nCvDB=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFF5kBUuuoGJR-B7uUcpPOkgVB2ncSUPBlBebQUwLclqANuo4q13-N6H9CoyRgpE7dZQFGMkEn2biUMHgva3K-yRBV-xJwk_MPlYRBhPR2fSHzAJ5gWpIz3u1z5H9AtZZB0QwK7=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFF5kBUuuoGJR-B7uUcpPOkgVB2ncSUPBlBebQUwLclqANuo4q13-N6H9CoyRgpE7dZQFGMkEn2biUMHgva3K-yRBV-xJwk_MPlYRBhPR2fSHzAJ5gWpIz3u1z5H9AtZZB0QwK7=s10000"
+        },
+        {
+          "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUxID_xqtrUyEr16oS-StH1v-s4R3B4eCfGcQezLxKUwlDoRls5kcjPaPUHzaSFFfR6I52NcQIeAGb9TczdhH9ThRXjxly8NdH5SriKvBTGCxD2qN_qB2adjzYqmSfDTAKCKo=s287-w287-h192-n-k-no-v1",
+          "original_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUxID_xqtrUyEr16oS-StH1v-s4R3B4eCfGcQezLxKUwlDoRls5kcjPaPUHzaSFFfR6I52NcQIeAGb9TczdhH9ThRXjxly8NdH5SriKvBTGCxD2qN_qB2adjzYqmSfDTAKCKo=s10000"
+        }
+      ],
+      "overall_rating": 3.2,
+      "reviews": 10,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2
+        },
+        {
+          "stars": 4,
+          "count": 2
+        },
+        {
+          "stars": 3,
+          "count": 3
+        },
+        {
+          "stars": 2,
+          "count": 2
+        },
+        {
+          "stars": 1,
+          "count": 1
+        }
+      ],
+      "location_rating": 3.2,
+      "amenities": [
+        "Breakfast",
+        "Air conditioning",
+        "Kid-friendly"
+      ],
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChgIt_few6Su-qXUARoLL2cvMXRoN19qd2MQAQ",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChgIt_few6Su-qXUARoLL2cvMXRoN19qd2MQAQ"
+    },
+    {
+      "type": "hotel",
+      "name": "Boruisi Executive Apartment",
+      "property_token": "ChoItNGF5vy7xuqhARoNL2cvMTFqNnRidnIwXxAB",
+      "serpapi_property_details_link": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&property_token=ChoItNGF5vy7xuqhARoNL2cvMTFqNnRidnIwXxAB&q=Shenzhen+Huaqiangbei+hotels",
+      "gps_coordinates": {
+        "latitude": 22.549339999999997,
+        "longitude": 114.098976
+      },
+      "nearby_places": [
+        {
+          "name": "Shun Hing Square",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "8 min"
+            }
+          ]
+        },
+        {
+          "name": "Shenzhen Bao'an International Airport",
+          "transportations": [
+            {
+              "type": "Taxi",
+              "duration": "48 min"
+            }
+          ]
+        }
+      ],
+      "overall_rating": 5,
+      "reviews": 2,
+      "ratings": [
+        {
+          "stars": 5,
+          "count": 2
+        },
+        {
+          "stars": 4,
+          "count": 0
+        },
+        {
+          "stars": 3,
+          "count": 0
+        },
+        {
+          "stars": 2,
+          "count": 0
+        },
+        {
+          "stars": 1,
+          "count": 0
+        }
+      ],
+      "location_rating": 3.1,
+      "serpapi_google_hotels_reviews_link": "https://serpapi.com/search.json?engine=google_hotels_reviews&hl=en&property_token=ChoItNGF5vy7xuqhARoNL2cvMTFqNnRidnIwXxAB",
+      "serpapi_google_hotels_photos_link": "https://serpapi.com/search.json?engine=google_hotels_photos&property_token=ChoItNGF5vy7xuqhARoNL2cvMTFqNnRidnIwXxAB"
+    }
+  ],
+  "serpapi_pagination": {
+    "current_from": 1,
+    "current_to": 18,
+    "next_page_token": "CBI=",
+    "next": "https://serpapi.com/search.json?adults=5&check_in_date=2026-09-15&check_out_date=2026-09-16&children=0&currency=USD&engine=google_hotels&gl=us&hl=en&next_page_token=CBI%3D&q=Shenzhen+Huaqiangbei+hotels"
+  }
+}

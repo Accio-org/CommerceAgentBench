@@ -1,0 +1,4 @@
+[
+  {"resource": "customers", "params": {"name": "Acme Inc", "email": "billing@acme.com"}},
+  {"resource": "customers", "params": {"name": "Globex Corp", "email": "ap@globex.com"}}
+]

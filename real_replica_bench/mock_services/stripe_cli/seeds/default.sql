@@ -1,0 +1,3 @@
+-- seeds/default.sql — 种子数据现由 lib/seed.js 提供（复用 REGISTRY.build，与真品同构）。
+-- 注入方式：stripe-bench seed --token <T>
+-- 此文件保留作占位/未来纯 SQL 种子之用。

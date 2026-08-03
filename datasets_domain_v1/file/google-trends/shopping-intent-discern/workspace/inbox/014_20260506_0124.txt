@@ -1,0 +1,6 @@
+From: tom.hardy@northstar-dtc.com
+To: wen.li@northstar-dtc.com
+Date: Wed, 06 May 2026 01:24
+Subject: Re: data warehouse migration cutover
+
+Cutover to the new warehouse is the 14th. Read paths unaffected; some write jobs pause for ~2 hours.

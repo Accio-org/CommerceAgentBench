@@ -1,0 +1,24 @@
+{
+  "subscriptions": [
+    {"customer_name": "ChargeFast Inc", "product_name": "VoltGrid Fleet", "interval": "year"},
+    {"customer_name": "ChargeFast Inc", "product_name": "API Integration Pack", "interval": "month"},
+    {"customer_name": "GreenDrive LLC", "product_name": "VoltGrid Professional", "interval": "month"},
+    {"customer_name": "GreenDrive LLC", "product_name": "Energy Analytics", "interval": "month"},
+    {"customer_name": "ParkCharge Systems", "product_name": "VoltGrid Basic", "interval": "month"},
+    {"customer_name": "ParkCharge Systems", "product_name": "Maintenance Add-on", "interval": "month"},
+    {"customer_name": "EcoFleet Partners", "product_name": "VoltGrid Fleet", "interval": "month"},
+    {"customer_name": "CityGrid Municipal", "product_name": "VoltGrid Professional", "interval": "year"}
+  ],
+  "audit_customer": {
+    "name": "Audit Complete 2026-06-03",
+    "metadata": {
+      "products_total": "7",
+      "prices_active": "10",
+      "coupons_total": "3",
+      "customers_total": "6",
+      "subscriptions_total": "8",
+      "webhooks_total": "3",
+      "charges_total": "4"
+    }
+  }
+}

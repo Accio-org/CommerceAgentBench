@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>我的商店 · 主页 · Shopify</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="product">
+    <!-- Top Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <button class="topbar-burger" aria-label="切换菜单">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M2 5h16v2H2zm0 4h16v2H2zm0 4h16v2H2z"/></svg>
+        </button>
+        <div class="shopify-logo">
+          <span class="glyph">S</span>
+          <span>Shopify</span>
+        </div>
+      </div>
+      <div class="topbar-search">
+        <button>
+          <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M9 2a7 7 0 105.7 11l3.6 3.6 1.4-1.4-3.6-3.6A7 7 0 009 2zm0 2a5 5 0 110 10 5 5 0 010-10z"/></svg>
+          <span>搜索</span>
+          <span class="kbd">⌘ K</span>
+        </button>
+      </div>
+      <div class="topbar-right">
+        <button class="topbar-icon-btn" title="Sidekick AI 助手">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm0 4a4 4 0 11-.001 8 4 4 0 01.001-8z"/></svg>
+        </button>
+        <button class="topbar-icon-btn" title="提醒动态">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a5 5 0 00-5 5v3.5L3 13v1h14v-1l-2-2.5V7a5 5 0 00-5-5zm-2 14a2 2 0 104 0H8z"/></svg>
+          <span class="topbar-badge">1</span>
+        </button>
+        <button class="topbar-user">
+          <span class="avatar">店</span>
+          <span style="font-size: 13px; font-weight: 500">我的商店</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <nav>
+          <div class="nav-section">
+            <a class="nav-item active" href="/">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5L1 9h2v9h5v-6h4v6h5V9h2L10 1.5z"/></svg>
+              <span>主页</span>
+            </a>
+            <a class="nav-item" href="#">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 3h14v14H3V3zm2 2v10h10V5H5z"/></svg>
+              <span>订单</span>
+              <span class="badge">0</span>
+            </a>
+            <a class="nav-item" href="/products/new">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2L2 6v8l8 4 8-4V6l-8-4zm0 2.2L15.8 7 10 9.8 4.2 7 10 4.2zM4 8.6l5 2.4v6L4 14.6V8.6zm12 6L11 17v-6l5-2.4v6z"/></svg>
+              <span>产品</span>
+            </a>
+            <a class="nav-item" href="#">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 4a3 3 0 100 6 3 3 0 000-6zm0 8c-3 0-6 1.5-6 4v1h12v-1c0-2.5-3-4-6-4z"/></svg>
+              <span>客户</span>
+            </a>
+            <a class="nav-item" href="#">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><circle cx="10" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="10" r="2"/></svg>
+              <span>市场营销</span>
+            </a>
+            <a class="nav-item" href="#">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 5l3-3h8l3 3v3l-9 11L3 8V5zm6 1a1 1 0 100 2 1 1 0 000-2z"/></svg>
+              <span>折扣</span>
+            </a>
+            <a class="nav-item" href="#">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 3h14v3H3zm0 5h14v3H3zm0 5h14v3H3z"/></svg>
+              <span>内容</span>
+            </a>
+            <a class="nav-item" href="#">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 2a6 6 0 010 12 6 6 0 010-12z"/></svg>
+              <span>Markets</span>
+            </a>
+            <a class="nav-item" href="#">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 5h14v3H3zm0 5h14v7H3z"/></svg>
+              <span>财务</span>
+            </a>
+            <a class="nav-item" href="#">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 17V8h3v9H3zm5 0V3h3v14H8zm5 0v-7h3v7h-3z"/></svg>
+              <span>分析</span>
+            </a>
+          </div>
+
+          <div class="nav-section">
+            <div class="nav-section-title">销售渠道 ▾</div>
+            <a class="nav-item" href="/online-store/customize">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M3 6h14l-1 11H4L3 6zm2-3h10l1 2H4l1-2z"/></svg>
+              <span>在线商店</span>
+            </a>
+          </div>
+
+          <div class="nav-section">
+            <div class="nav-section-title">应用 ▾</div>
+            <a class="nav-item" href="#">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10 6v4l3 2"/></svg>
+              <span>添加</span>
+            </a>
+          </div>
+        </nav>
+
+        <div class="sidebar-footer">
+          <a class="nav-item" href="#">
+            <svg class="icon" viewBox="0 0 20 20" fill="currentColor"><path d="M10 4a2 2 0 100 4 2 2 0 000-4zm0 6a2 2 0 100 4 2 2 0 000-4zm0 6a2 2 0 100 4 2 2 0 000-4z"/></svg>
+            <span>设置</span>
+          </a>
+          <div class="subscribe-card">
+            <div class="small">试用期还剩 2 天结束</div>
+            <div class="title">以 $1 的价格订阅</div>
+            <button class="btn-light">选择套餐</button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main -->
+      <main class="main">
+        <!-- Trial Banner -->
+        <div class="banner">
+          <div class="banner-content">
+            <div class="banner-title">3 个月，仅需 $1/月</div>
+          </div>
+          <div>
+            <button class="banner-cta">选择一个套餐</button>
+            <button class="banner-close" aria-label="忽略">×</button>
+          </div>
+        </div>
+
+        <!-- Greeting + Sidekick -->
+        <section class="greeting-card">
+          <div class="greeting-text">您好，我们开始吧。</div>
+          <div class="sidekick-input-wrap">
+            <div class="sidekick-avatar"></div>
+            <input class="sidekick-input" placeholder="尽管问..." aria-label="尽管问..." />
+            <button class="sidekick-send" disabled aria-label="发送">
+              <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor"><path d="M3 17l14-7-14-7v5l9 2-9 2v5z"/></svg>
+            </button>
+          </div>
+        </section>
+
+        <!-- Onboarding -->
+        <section class="onboarding-section">
+          <div class="greeting-store-name">
+            <span>添加商店名称</span>
+            <button title="编辑">
+              <svg width="14" height="14" viewBox="0 0 20 20" fill="currentColor"><path d="M14.7 3.3a1 1 0 011.4 0l.6.6a1 1 0 010 1.4L7 15H3v-4l9.7-7.7zM12 5.4l2.6 2.6L15.5 7 13 4.5 12 5.4z"/></svg>
+            </button>
+          </div>
+
+          <div class="onboarding-row-large">
+            <div class="onboarding-card-large" data-testid="module-activity-add_product_activity">
+              <div class="onboarding-card-img onboarding-card-img-product">📦</div>
+              <div class="onboarding-card-body">
+                <div class="onboarding-card-title">添加您的第一款产品</div>
+                <div class="onboarding-card-desc">首先请添加一款产品并提供一些关键详细信息。还没准备好？<a href="#">从示例产品开始</a></div>
+                <div class="flex-row">
+                  <a class="btn btn-primary" href="/products/new">添加产品</a>
+                  <a class="btn btn-tertiary" href="#">导入</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="onboarding-card-large" data-testid="module-activity-generate_your_theme_activity">
+              <div class="onboarding-card-img onboarding-card-img-theme">🎨</div>
+              <div class="onboarding-card-body">
+                <div class="onboarding-card-title">自定义您的在线商店</div>
+                <div class="onboarding-card-desc">添加您的 logo、颜色和图片，让您的品牌焕发生机。Sidekick 可以根据您的业务描述自动生成专属设计。</div>
+                <div class="flex-row">
+                  <a class="btn btn-primary" href="/online-store/customize">自定义主题</a>
+                  <a class="btn btn-tertiary" href="/online-store/customize">浏览主题库</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="onboarding-row-small">
+            <div class="onboarding-card-small" data-testid="module-activity-setup_payments_activity">
+              <h3>设置 Shopify Payments</h3>
+              <div class="payment-icons">
+                <span class="payment-icon shop-pay">SHOP</span>
+                <span class="payment-icon visa">VISA</span>
+                <span class="payment-icon mc">MC</span>
+              </div>
+              <button class="btn btn-secondary">激活</button>
+            </div>
+
+            <div class="onboarding-card-small" data-testid="module-activity-review_shipping_rates_activity">
+              <h3>检查您的运费</h3>
+              <div class="payment-icons">
+                <span class="payment-icon" title="美国">🇺🇸</span>
+              </div>
+              <button class="btn btn-secondary">检查</button>
+            </div>
+
+            <div class="onboarding-card-small" data-testid="module-activity-customize_domain_activity">
+              <h3>自定义域名</h3>
+              <div class="muted mb-3" style="font-size: 12px">benchmark.myshopify.com</div>
+              <button class="btn btn-secondary">自定义</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- GMV card -->
+        <section class="card">
+          <div class="flex-between">
+            <div>
+              <div class="card-title" style="margin-bottom: 6px">您的套餐可轻松回本</div>
+              <div class="muted" style="font-size: 13px">订阅即享前 3 个月每月 1 美元优惠。此外，每笔销售均可赚取 1% 的抵扣额，最高可达 $10,000。</div>
+            </div>
+            <button class="btn btn-secondary">详细了解</button>
+          </div>
+        </section>
+
+        <p class="session-info">
+          Session: <span id="session-id">…</span> ·
+          <a href="/products/new">添加产品 →</a> ·
+          <a href="/online-store/customize">自定义在线商店 →</a> ·
+          <a href="#" id="reset-session">重置会话</a>
+        </p>
+      </main>
+    </div>
+
+    <div class="toast" id="toast"></div>
+    <script src="/admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+{
+  "policy_version": "north-america-pilot-2026-05",
+  "buyer_profile": "North American urban delivery operator evaluating first pilot inventory for electric cargo tricycles.",
+  "currency_to_usd": {
+    "USD": 1.0,
+    "CNY": 0.138,
+    "CAD": 0.735
+  },
+  "unit_conversion": {
+    "kg_to_lb": 2.20462
+  },
+  "pilot_constraints": {
+    "max_minimum_order_qty": 10,
+    "target_price_min_usd": 900,
+    "target_price_max_usd": 2200,
+    "minimum_payload_lb": 330,
+    "preferred_payload_lb": 400,
+    "minimum_motor_w": 500,
+    "preferred_motor_w": 750
+  },
+  "landed_price_rules": {
+    "Alibaba.com": {
+      "use_price_midpoint_when_range": true,
+      "add_freight_usd_per_unit": true,
+      "import_buffer_pct": 0.08
+    },
+    "default": {
+      "use_price_midpoint_when_range": true,
+      "add_freight_usd_per_unit": false,
+      "import_buffer_pct": 0.0
+    }
+  },
+  "channel_fit": {
+    "Alibaba.com": 0.75,
+    "Amazon": 0.70,
+    "Walmart": 0.65,
+    "Brand Sites": 0.90
+  },
+  "availability_fit": {
+    "accessible": 1.0,
+    "blocked_partial": 0.60,
+    "visible_limited": 0.40
+  },
+  "opportunity_score": {
+    "scale": 100,
+    "weights": {
+      "price_band_fit": 0.25,
+      "payload_fit": 0.20,
+      "motor_fit": 0.15,
+      "evidence_confidence": 0.20,
+      "availability_fit": 0.10,
+      "channel_fit": 0.10
+    },
+    "price_band_fit": {
+      "in_target_band": 1.0,
+      "near_band": 0.75,
+      "outside_band": 0.35,
+      "missing_price": 0.0
+    },
+    "payload_fit": {
+      "preferred_or_above": 1.0,
+      "minimum_to_preferred": 0.70,
+      "below_minimum": 0.30,
+      "missing_payload": 0.0
+    },
+    "motor_fit": {
+      "preferred_or_above": 1.0,
+      "minimum_to_preferred": 0.80,
+      "below_minimum": 0.30,
+      "missing_motor": 0.0
+    }
+  },
+  "exclusion_rules": [
+    {
+      "code": "not_electric_cargo_tricycle",
+      "condition": "is_electric_cargo_tricycle is false"
+    },
+    {
+      "code": "moq_exceeds_pilot_limit",
+      "condition": "minimum_order_qty exceeds pilot_constraints.max_minimum_order_qty"
+    },
+    {
+      "code": "missing_normalized_price",
+      "condition": "price is not visible or cannot be converted to USD"
+    }
+  ],
+  "required_recommendation_view": {
+    "top_pick_basis": "highest opportunity_score among usable records; if tied, prefer higher evidence_confidence, then Brand Sites, then lower normalized_price_usd",
+    "report_risks": ["blocked_or_partial_pages", "invisible_sales_signals", "marketplace_vs_brand_site_comparability", "Alibaba_landed_price_assumption"]
+  }
+}

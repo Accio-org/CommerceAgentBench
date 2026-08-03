@@ -1,0 +1,55 @@
+============================================================
+PACKING LIST
+============================================================
+
+Seller / Shipper:
+  Hangzhou Green Bag Co., Ltd.
+  No. 188 Binjiang Road, Hangzhou, Zhejiang 310053, China
+
+Consignee:
+  To Order of Bank of America, Chicago Branch
+  (Notify: Acme Distribution LLC, Chicago, IL, USA)
+
+Packing List No.:    HGB-PL-2026-0312-001
+Date:                2026-03-12
+LC Reference:        BOA-DC-2026031045
+Invoice Reference:   HGB-2026-0312-001
+Shipping Marks:      ACME-EC-0042 / 1-1250 / MADE IN CHINA
+
+------------------------------------------------------------
+DESCRIPTION:    Tote bags per Commercial Invoice
+                HGB-2026-0312-001 dated 2026-03-12
+
+------------------------------------------------------------
+CARTON SUMMARY
+------------------------------------------------------------
+
+  Carton range:        Master cartons 1 through 1,250
+  Total cartons:       1,250 master cartons
+  Pieces per carton:   40 pcs
+  Total pieces:        50,000 pcs
+
+  Per carton dimensions: 60 x 40 x 30 cm
+  Per carton net weight: 3.72 kg
+  Per carton gross weight: 4.19 kg
+
+------------------------------------------------------------
+SHIPMENT TOTALS
+------------------------------------------------------------
+
+  TOTAL NET WEIGHT:    4,650.00 kg
+  TOTAL GROSS WEIGHT:  5,237.50 kg
+  TOTAL MEASUREMENT:   18.20 cbm
+
+------------------------------------------------------------
+
+For and on behalf of
+HANGZHOU GREEN BAG CO., LTD.
+
+  [signature]
+  ___________________________
+  Wang Jianhua
+  Director of Sales
+
+  Date: 2026-03-12
+  Place: Hangzhou, China

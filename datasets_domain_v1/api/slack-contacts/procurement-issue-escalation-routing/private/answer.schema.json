@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "api-slack-contacts-procurement-issue-escalation-routing answer",
+  "type": "object",
+  "required": [
+    "real_issue_message_ids",
+    "nova_customer_facing_amount_usd",
+    "nova_invoice_id",
+    "nova_credit_memo_id",
+    "helio_priority",
+    "helio_batch_id",
+    "helio_defective_component",
+    "helio_draft_must_route_to_legal_before_send",
+    "kappa_correct_contact_email",
+    "kappa_obsolete_contact_email",
+    "po9015_recovery_method",
+    "po9015_surcharge_usd",
+    "po9015_surcharge_split",
+    "orion_action",
+    "orion_last_verified_beneficiary_ref",
+    "orion_payment_safety_p0"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "real_issue_message_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "nova_customer_facing_amount_usd": { "type": "number" },
+    "nova_invoice_id": { "type": "string", "minLength": 1 },
+    "nova_credit_memo_id": { "type": "string", "minLength": 1 },
+    "helio_priority": { "type": "string", "enum": ["P0", "P1", "P2"] },
+    "helio_batch_id": { "type": "string", "minLength": 1 },
+    "helio_defective_component": { "type": "string", "minLength": 1 },
+    "helio_draft_must_route_to_legal_before_send": { "type": "boolean" },
+    "kappa_correct_contact_email": { "type": "string", "minLength": 1 },
+    "kappa_obsolete_contact_email": { "type": "string", "minLength": 1 },
+    "po9015_recovery_method": { "type": "string", "enum": ["air-sea-split", "air", "ocean", "re-route"] },
+    "po9015_surcharge_usd": { "type": "number" },
+    "po9015_surcharge_split": { "type": "string", "minLength": 1 },
+    "orion_action": { "type": "string", "enum": ["hold_wire", "approve_new_account", "partial_pay", "refund"] },
+    "orion_last_verified_beneficiary_ref": { "type": "string", "minLength": 1 },
+    "orion_payment_safety_p0": { "type": "boolean" }
+  }
+}

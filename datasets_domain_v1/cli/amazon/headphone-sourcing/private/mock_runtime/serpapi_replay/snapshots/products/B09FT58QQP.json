@@ -1,0 +1,897 @@
+{
+  "_meta": {
+    "engine": "amazon_product",
+    "asin": "B09FT58QQP",
+    "fetched_at": 1779458121
+  },
+  "payload": {
+    "search_metadata": {
+      "id": "6a106043eb55a320cd70aff0",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/NrbbC0DeblVraQo3UffM2A/6a106043eb55a320cd70aff0.json",
+      "created_at": "2026-05-22 13:55:15 UTC",
+      "processed_at": "2026-05-22 13:55:15 UTC",
+      "amazon_product_url": "https://www.amazon.com/dp/B09FT58QQP/?",
+      "raw_html_file": "https://serpapi.com/searches/NrbbC0DeblVraQo3UffM2A/6a106043eb55a320cd70aff0.html",
+      "total_time_taken": 3.47
+    },
+    "search_parameters": {
+      "engine": "amazon_product",
+      "asin": "B09FT58QQP",
+      "amazon_domain": "amazon.com",
+      "device": "desktop"
+    },
+    "product_results": {
+      "asin": "B09FT58QQP",
+      "title": "TOZO A1 Wireless Earbuds Bluetooth 5.3 Light Weight in Ear IPX5 Waterproof Headphones 2 Mic for AI Calls, Immersive Premium Sound Bass Headset with Charging Case, 32 Presets EQ Customization via App",
+      "link": "https://www.amazon.com/A1/dp/B09FT58QQP/",
+      "link_clean": "https://www.amazon.com/dp/B09FT58QQP/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09FT58QQP&device=desktop&engine=amazon_product",
+      "badges": [
+        "Amazon's Choice"
+      ],
+      "variants": [
+        {
+          "title": "Color",
+          "items": [
+            {
+              "position": 1,
+              "asin": "B09FT58QQP",
+              "name": "Black",
+              "image": "https://m.media-amazon.com/images/I/41HQDzTaXgL._SS64_.jpg",
+              "selected": true,
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09FT58QQP&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 2,
+              "asin": "B09ZYCFDBL",
+              "name": "Blue",
+              "image": "https://m.media-amazon.com/images/I/41gx5MVQhFL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09ZYCFDBL&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 3,
+              "asin": "B0D4DZF3SB",
+              "name": "Dark Gray",
+              "image": "https://m.media-amazon.com/images/I/41W132G3+vL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D4DZF3SB&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 4,
+              "asin": "B09ZYDRRK2",
+              "name": "Green",
+              "image": "https://m.media-amazon.com/images/I/41nFwQEhR5L._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09ZYDRRK2&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 5,
+              "asin": "B0D4DXPPN8",
+              "name": "Light Khaki",
+              "image": "https://m.media-amazon.com/images/I/416P5hHKXjL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D4DXPPN8&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 6,
+              "asin": "B0G8HCFDCB",
+              "name": "Light Purple",
+              "image": "https://m.media-amazon.com/images/I/41yJcSgursL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G8HCFDCB&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 7,
+              "asin": "B0D4DZQJ3P",
+              "name": "Matte White",
+              "image": "https://m.media-amazon.com/images/I/41FX362AM6L._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D4DZQJ3P&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 8,
+              "asin": "B0G8HFVM1M",
+              "name": "Orange",
+              "image": "https://m.media-amazon.com/images/I/418YSXtcVrL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G8HFVM1M&device=desktop&engine=amazon_product"
+            },
+            {
+              "position": 9,
+              "asin": "B0CMSYTP6Q",
+              "name": "Rose Gold",
+              "image": "https://m.media-amazon.com/images/I/41Lwu1zXcdL._SS64_.jpg",
+              "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CMSYTP6Q&device=desktop&engine=amazon_product"
+            }
+          ]
+        }
+      ],
+      "brand": "Visit the TOZO Store",
+      "thumbnail": "https://m.media-amazon.com/images/I/81+4jNKVFgL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "thumbnails": [
+        "https://m.media-amazon.com/images/I/81+4jNKVFgL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71Ods5k1-RL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71MW-XFDnyL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61Xkr-ZQpVL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71p3B45NPbL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81yBRIb44FL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71UGzLiE1XL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71jFCVCJxgL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61+JdXE0V6L._AC_SL1500_.jpg"
+      ],
+      "rating": 4.3,
+      "reviews": 113832,
+      "stock": "This item cannot be shipped to your selected delivery location. Please choose a different delivery location."
+    },
+    "item_specifications": {
+      "brand": "TOZO",
+      "color": "Black",
+      "ear_placement": "In Ear",
+      "form_factor": "In Ear",
+      "impedance": "16 Ohms"
+    },
+    "about_item": [
+      "[Ultra-Lightweight Ear Buds Designed for Small Ears] Each earbud weighs only 3.7g and features a compact, ergonomic in-ear design made especially for small ears. Secure, low-profile, and comfortable for workouts or all-day wear.",
+      "[Immersive Stereo Sound with TOZO OrigX Technology] TOZO OrigX tuning delivers clear vocals, balanced mids, and natural stereo sound for music, podcasts, and videos.",
+      "[Long Battery Life for Daily Use] Get up to 7 hours of playtime on a single charge, with up to 32 hours total using the charging case—ideal for workdays, commuting, and extended listening sessions.",
+      "[Bluetooth 5.3 & Stable Connection] Bluetooth 5.3 provides fast pairing, stable wireless performance, and reduced dropouts as you move around home or office.",
+      "[Deep Bass with Clear Vocals] High-performance drivers produce punchy bass while keeping vocals clean and detailed for everyday listening.",
+      "[AI-Enhanced ENC for Clear Calls] ENC microphones help reduce background noise like traffic and office sounds, keeping your voice clear on calls and video meetings.",
+      "[32 Custom EQ with TOZO App] Use the TOZO app to access 32 EQ presets and adjust bass, vocals, or balanced sound to match your preference.",
+      "[One-Step Pairing & Touch Controls] Open the case to pair automatically. Touch controls let you manage music, calls, and voice assistants with simple taps.",
+      "[IPX5 Sweat & Splash Resistance] IPX5-rated protection helps withstand sweat and light splashes—ideal for sports, gym and daily activities.",
+      "[Made for Calls, Fitness & Daily Comfort] Lightweight, secure, and easy to use—built for daily comfort, clear calls, and an easy fit for small ears."
+    ],
+    "related_products": [
+      {
+        "position": 1,
+        "title": "TOZO NC9 Hybrid Active Noise Cancelling Wireless Earbuds, 6 Mics ENC Clear Call, IPX8 Waterproof, in Ear Bluetooth 5.3 Headph",
+        "link": "https://www.amazon.com/TOZO-Cancelling-Waterproof-Bluetooth-Headphones/dp/B0DD41G2NZ/ref=bmx_dp_d_sccl_1_1/147-5829718-6452843?pd_rd_w=QkLDZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a&pd_rd_i=B0DD41G2NZ&psc=1",
+        "asin": "B0DD41G2NZ",
+        "link_clean": "https://www.amazon.com/TOZO-Cancelling-Waterproof-Bluetooth-Headphones/dp/B0DD41G2NZ/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DD41G2NZ&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/818Tszb+hNL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.3,
+        "reviews": 42540
+      },
+      {
+        "position": 2,
+        "title": "Fhumsh 50H ENC Wireless Earbuds – Bluetooth 5.3, HiFi, LED Display, IPX7, Black",
+        "link": "https://www.amazon.com/Fhumsh-Bluetooth-Headphones-Canceling-Waterproof/dp/B0GJ6B46RT/ref=bmx_dp_d_sccl_1_2/147-5829718-6452843?pd_rd_w=QkLDZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a&pd_rd_i=B0GJ6B46RT&psc=1",
+        "asin": "B0GJ6B46RT",
+        "link_clean": "https://www.amazon.com/Fhumsh-Bluetooth-Headphones-Canceling-Waterproof/dp/B0GJ6B46RT/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GJ6B46RT&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61cUTDCSe0L._AC_UL165_SR165,165_.jpg",
+        "rating": 4.3,
+        "reviews": 30
+      },
+      {
+        "position": 3,
+        "title": "TOZO T6 Wireless Earbuds, Bluetooth 5.3 Ear Buds, Stereo Sound in Ear Headphones, 50 Hours Playtime, Wireless Charging Case,",
+        "link": "https://www.amazon.com/TOZO-T6-Headphones-Customisable-Waterproof/dp/B0CH9JYGKW/ref=bmx_dp_d_sccl_1_3/147-5829718-6452843?pd_rd_w=QkLDZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a&pd_rd_i=B0CH9JYGKW&psc=1",
+        "asin": "B0CH9JYGKW",
+        "link_clean": "https://www.amazon.com/TOZO-T6-Headphones-Customisable-Waterproof/dp/B0CH9JYGKW/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CH9JYGKW&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61mY64-XwJL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.4,
+        "reviews": 220488
+      },
+      {
+        "position": 4,
+        "title": "MGHOAQFRS Bluetooth Headphones Over Ear, Noise Reduction Wireless Headphones with Microphone/Deep Bass, HiFi Stereo Foldable",
+        "link": "https://www.amazon.com/MGHOAQFRS-Bluetooth-Headphones-Microphone-Lightweight/dp/B0F88CW16D/ref=bmx_dp_d_sccl_1_4/147-5829718-6452843?pd_rd_w=QkLDZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a&pd_rd_i=B0F88CW16D&psc=1",
+        "asin": "B0F88CW16D",
+        "link_clean": "https://www.amazon.com/MGHOAQFRS-Bluetooth-Headphones-Microphone-Lightweight/dp/B0F88CW16D/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F88CW16D&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51z39WTuuHL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.1,
+        "reviews": 89,
+        "price": "SAR48.71",
+        "extracted_price": 48.71,
+        "delivery": [
+          "Get it as soon as Tuesday, Jun 9"
+        ]
+      },
+      {
+        "position": 5,
+        "title": "JLab, Go Pods ANC, True Wireless Earbuds, Active Noise Cancelling, Bluetooth, Sage",
+        "link": "https://www.amazon.com/JLab-Wireless-Bluetooth-canceling-Listening/dp/B0DWCKJGMN/ref=bmx_dp_d_sccl_1_5/147-5829718-6452843?pd_rd_w=QkLDZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a&pd_rd_i=B0DWCKJGMN&psc=1",
+        "asin": "B0DWCKJGMN",
+        "link_clean": "https://www.amazon.com/JLab-Wireless-Bluetooth-canceling-Listening/dp/B0DWCKJGMN/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DWCKJGMN&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/71axnPf+oNL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.2,
+        "reviews": 848,
+        "price": "SAR112.55",
+        "extracted_price": 112.55,
+        "delivery": [
+          "Get it as soon as Saturday, Jun 6"
+        ]
+      },
+      {
+        "position": 6,
+        "title": "TOZO USB-C to USB-A Charging Cable Supports 480Mbps Speed and Type C Fast Charging Data Cable Compatible with iPhone 17 16 15",
+        "link": "https://www.amazon.com/TOZO-Charging-OpenBuds-Wireless-Headphone/dp/B0CXXHHSSV/ref=bmx_dp_d_sccl_1_6/147-5829718-6452843?pd_rd_w=QkLDZ&content-id=amzn1.sym.c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_p=c952656f-2e08-43b8-b699-3c3bba430c7f&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a&pd_rd_i=B0CXXHHSSV&psc=1",
+        "asin": "B0CXXHHSSV",
+        "link_clean": "https://www.amazon.com/TOZO-Charging-OpenBuds-Wireless-Headphone/dp/B0CXXHHSSV/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CXXHHSSV&device=desktop&engine=amazon_product",
+        "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/61mE+NHZfdL._AC_UL165_SR165,165_.jpg",
+        "rating": 4.5,
+        "reviews": 190
+      }
+    ],
+    "sustainability_features": {
+      "summary": "This product has sustainability features recognized by trusted certifications.",
+      "climate_pledge_friendly": true,
+      "learn_more_link": "https://www.amazon.com/climatepledgefriendly",
+      "features": [
+        {
+          "position": 1,
+          "title": "Recycled materials",
+          "text": "Contains at least 50% recycled material.",
+          "certified_by": [
+            {
+              "name": "Global Recycled Standard",
+              "logo": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS144_.png",
+              "description": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly.",
+              "link": "https://textileexchange.org/integrity/"
+            }
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Safer chemicals",
+          "text": "Made with chemicals safer for human health and the environment.",
+          "certified_by": [
+            {
+              "name": "Global Recycled Standard",
+              "logo": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS144_.png",
+              "description": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly.",
+              "link": "https://textileexchange.org/integrity/"
+            }
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Worker well-being",
+          "text": "Manufactured on farms or in facilities that protect the rights and/or health of workers.",
+          "certified_by": [
+            {
+              "name": "Global Recycled Standard",
+              "logo": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS144_.png",
+              "description": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly.",
+              "link": "https://textileexchange.org/integrity/"
+            }
+          ]
+        }
+      ]
+    },
+    "videos": [
+      {
+        "position": 1,
+        "title": "TOZO A1 mini earbuds bluetooth 5.3 inch",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/7c64d75c-1ab9-4268-8f6a-4c58f53fda54/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/61rJ2Bmn-NL.jpg",
+        "duration": "0:16",
+        "vendor": "Brianna Cogar",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/81ijQVI0fGL._CR0,0,2048,2048_._FMjpg_._SL34_.jpg",
+        "date": "Jan 12, 2025"
+      },
+      {
+        "position": 2,
+        "title": "Best earbuds",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/18d3970a-0830-49b3-8418-b274b1439070/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51m5ikwEV-L.jpg",
+        "duration": "0:05",
+        "vendor": "Shannon Beth Nicholson",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/S/amazon-avatars-global/5f3176f6-d8dd-4e31-8b6e-8be2caa53846._CR0%2C0%2C885%2C885_SX460_._SL34_.jpg",
+        "date": "Dec 12, 2023"
+      },
+      {
+        "position": 3,
+        "title": "TOZO A1 Wireless Earbuds Bluetooth 5.3 in Ear Headphones",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/fe9609d6-03d2-4eed-8e81-baa40243178c/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/91Y6wEbBA4L.jpg",
+        "duration": "1:10",
+        "vendor": "Worgo",
+        "date": "Jul 1, 2025"
+      },
+      {
+        "position": 4,
+        "title": "Tozo A1 vs Tozo T6",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/44b14d7c-21d2-4a9c-99ce-f582a2369b74/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51dXVk+MQKL.jpg",
+        "duration": "1:21",
+        "vendor": "Julian",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/71o4jPAfFhL._CR77,37,392,392_._FMjpg_._SL34_.jpg",
+        "date": "Dec 22, 2022"
+      },
+      {
+        "position": 5,
+        "title": "Review of TOZO A1 mini wireless earbuds",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/9225fc23-9276-4aa1-8a65-10c18219d84f/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51xmG66e1UL.jpg",
+        "duration": "1:36",
+        "vendor": "Suzette and Jacob",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/B1dHEv1ssoL._CR0,0,3024,3024_._FMjpg_._SL34_.jpg",
+        "date": "May 14, 2024"
+      },
+      {
+        "position": 6,
+        "title": "TOZO Brand Wireless Earbuds",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/168ca01c-1762-4ed7-a241-a325e96c0c07/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/71MJ6WD-5iL.jpg",
+        "duration": "1:04",
+        "vendor": "Douglas B.",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/B1FJjGpgBPL._CR0,0,3173,3173_._FMjpg_._SL34_.jpg",
+        "date": "Feb 14, 2026"
+      },
+      {
+        "position": 7,
+        "title": "These Budget Earbuds Actually Stay In Place",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/63291de9-b190-4107-bdbb-cda85adb8ba2/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51bkjgeexFL.jpg",
+        "duration": "0:48",
+        "vendor": "Daddy DIY",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/710HCMKuuDL._CR0,0,600,600_._FMjpg_._SL34_.jpg",
+        "date": "May 13, 2026"
+      },
+      {
+        "position": 8,
+        "title": "Tozo A1 Earbuds - Unboxing, First Look & Features",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/62c76301-53e2-434e-afa4-4d876e7c87c3/default.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/91xFW2Emu-L.png",
+        "duration": "1:55",
+        "vendor": "MrYouWho",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/A16KSXRjp7L._CR410,23,1056,1057_._FMjpg_._SL34_.jpg",
+        "date": "Jan 26, 2025"
+      },
+      {
+        "position": 9,
+        "title": "Everyday Use Earbuds",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/02d2d38f-0ec3-4010-95a7-6b02adbebab2/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/61Qkg2nX5RL.jpg",
+        "duration": "1:11",
+        "vendor": "Manny",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/I/B1GOEjPAQnL._CR0,142,1312,1312_._FMjpg_._SL34_.jpg",
+        "date": "Oct 17, 2025"
+      },
+      {
+        "position": 10,
+        "title": "Tozo A1 Review",
+        "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/fb46c093-0418-43c5-b423-bdf9bcc6c45c/default.vertical.jobtemplate.hls.m3u8",
+        "thumbnail": "https://m.media-amazon.com/images/I/51dIR7+LSjL.jpg",
+        "duration": "1:08",
+        "vendor": "Frank Prieto",
+        "vendor_thumbnail": "https://m.media-amazon.com/images/S/amazon-avatars-global/default._SL34_.png",
+        "date": "Jul 10, 2024"
+      }
+    ],
+    "product_description": [
+      {
+        "position": 1,
+        "title": "Balance Sound, Comfortable Fit",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d00d3d06-729f-4d1a-858c-2ecd86bfbc40.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+      },
+      {
+        "position": 2,
+        "title": "Ear Buds",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2aea6c79-01f4-48d0-8289-161b6c967262.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+      },
+      {
+        "position": 3
+      },
+      {
+        "position": 4,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "Dynamic driver diaphragm structure for balanced bass and clear sound in TOZO A1 wireless earbuds",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a7dfef6f-9ec3-49a8-af56-024c030c7f41.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "Instant one-step pairing with a stable, low-latency connection.",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/578edef2-c57a-4e5c-b2b3-7cafb637a39a.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "TOZO A1 IPX5 water resistant wireless earbuds for workout and sports sweatproof",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a58f5fb8-f200-4cba-a836-5da42b2df0e9.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 4,
+            "title": "LED battery indicator lights on TOZO A1 charging case showing power status levels",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2d37c18d-f2a7-402a-9211-566fbc508ab8.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 5,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "Ultra-lightweight 3.7g in-ear earbud design for comfortable everyday wireless listening",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/59f071b5-0e46-462d-829e-d5d0c872e3b7.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "Ergonomic in-ear wireless earbuds worn comfortably for secure everyday listening",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/148aaf73-7bf5-4d90-8d5a-423d73d8c751.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 3,
+            "title": "Compact wireless earbud charging case designed for easy pocket carry and travel use",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/67f20b1a-0ccf-4f5c-9dcb-4f529fb19e9c.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      },
+      {
+        "position": 6,
+        "title": "Person wearing TOZO A1 earbuds in everyday outdoor setting with OrigX tuned sound",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/73300a4f-6706-462b-b718-fb2abda66232.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+      },
+      {
+        "position": 7,
+        "carousel_images": [
+          {
+            "position": 1,
+            "title": "TOZO A1 earbuds with charging case showing 7 hours single charge and 32 hours total battery life",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/050b0bc9-c6c5-42ff-9039-a66e7ad1d573.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          },
+          {
+            "position": 2,
+            "title": "TOZO App with Custom EQ Presets",
+            "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0a853fb7-dc24-49da-9cab-c6d3dc63d644.__CR0,0,1464,600_PT0_SX1464_V1___.jpg"
+          }
+        ]
+      }
+    ],
+    "product_details": {
+      "brand_name": "TOZO",
+      "model_number": "A1",
+      "model_name": "TOZO A1",
+      "built_in_media": "Charging Case, Eartip, TOZO A1 Mini Wireless Earbuds, USB-C (A to C) cable (20cm), User Manual",
+      "age_range_description": "ALL",
+      "warranty_description": "TOZO",
+      "customer_package_type": "Charging Case\" or \"Water-resistant packaging with Charging Case",
+      "number_of_items": "1",
+      "series_number": "1",
+      "global_trade_identification_number": "06971681317050, 06971681319900",
+      "manufacturer": "Shenzhen Worgo Technology Co., Ltd.",
+      "external_testing_certification": "177202201739",
+      "item_type_name": "in-the-ear-headphones",
+      "is_autographed": "No",
+      "best_sellers_rank": [
+        {
+          "text": "#44 in Electronics (See Top 100 in Electronics)",
+          "extracted_rank": 44,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/ref=pd_zg_ts_electronics",
+          "link_text": "See Top 100 in Electronics"
+        },
+        {
+          "text": "#8 in Earbud & In-Ear Headphones",
+          "extracted_rank": 8,
+          "link": "https://www.amazon.com/gp/bestsellers/electronics/12097478011/ref=pd_zg_hrsr_electronics",
+          "link_text": "Earbud & In-Ear Headphones"
+        }
+      ],
+      "asin": "B09FT58QQP",
+      "customer_reviews": "4.3 out of 5 stars",
+      "rating": 4.3,
+      "reviews": 113832,
+      "headphone_jack": "Wireless",
+      "connectivity_technology": "Wireless",
+      "wireless_technology": "Bluetooth",
+      "bluetooth_range": "12 Meters",
+      "bluetooth_version": "5.3",
+      "color": "Black",
+      "style_name": "Classic",
+      "carrying_case_color": "Black",
+      "theme": "all",
+      "subject_character": "Animal / Anime / Cartoon / Fantasy / TV Series / Video Game / Sport / Music / Gaming / Motorcycling / Office Meetings",
+      "battery_charge_time": "2 Hours",
+      "battery_average_life": "7 Hours",
+      "carrying_case_battery_capacity": "400 Milliamp Hours",
+      "carrying_case_battery_average_life": "32 Hours",
+      "carrying_case_battery_charging_time": "2 Hours",
+      "impedance": "16 Ohms",
+      "noise_control": "Sound Isolation",
+      "frequency_response": "20 Hz",
+      "sensitivity": "102 dB",
+      "audio_driver_type": "Dynamic Driver",
+      "audio_latency": "60 Milliseconds",
+      "audio_driver_size": "6 Millimeters",
+      "frequency_range": "20Hz - 20kHz",
+      "enclosure_material": "Acrylonitrile Butadiene Styrene (ABS), Polycarbonate (PC)",
+      "specific_uses_for_product": "Business / Fitness / Entertainment / Gaming / Professional / School / Sleeping / Travel / TV Series / Video Game / Sport / Music / Gaming / Motorcycling / Office Meetings",
+      "antenna_location": "Audio Monitoring / Calling / Cycling / Disc Jockey Use / Exercising / Gaming / Motorcycling / Office Meetings / Radio Communication / Running / Skateboarding / Snowboarding / Studio",
+      "compatible_devices": "Compatible with IOS/Android mainstream mobile phones, tablets, laptops and other Bluetooth devices",
+      "cable_features": "Charge",
+      "water_resistance_level": "Waterproof",
+      "carrying_case_material": "ABS",
+      "additional_features": "Charging Case, Microphone Included, No Separation Between Primary and Secondary Ear",
+      "is_electric": "Yes",
+      "number_of_power_levels": "1",
+      "total_usb_2_0_ports": "1",
+      "headphones_ear_placement": "In Ear",
+      "headphone_folding_features": "In Ear",
+      "earpiece_shape": "Round",
+      "control_type": "APP / Smart Touch Control / Volume Control",
+      "control_method": "App",
+      "controller_type": "APP, Touch",
+      "item_weight": "35.1 Grams",
+      "carrying_case_length": "66 Millimeters",
+      "carrying_case_width": "29 Millimeters",
+      "carrying_case_height": "33 Millimeters",
+      "carrying_case_weight": "27 Grams",
+      "unit_count": "1.0 Count"
+    },
+    "sponsored_brands": [
+      {
+        "position": 1,
+        "asin": "B09DT48V16",
+        "title": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Waterproof in-Ear Ear buds with Mic for TV Smart Phone Laptop Computer Sports",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JDz73KxNiuqfwOt986MKrT8AAAGeT_gO1gEAAAH2AQBvbm9fdHhuX2JpZDYgICBvbm9fdHhuX2ltcDEgICDPP1yf/clv1c_ek-wxfHXLcTWDaXjaCcSiFwLMKlTuYp7bWIhO9dmz6UzFxKaFcDSvxl7F-NeQ7SI1uElyIc_rZetFBI7MQGQau_L2UwxkKQ6IjWsfNQjtNxmJzlDmQM0iWT10knU5qfWKx2JJwjHNEGSTFAbeNw3ftPO-L0cllGahNaIJ3cJzgydW34cX101bM62J-2uvhcoHLcLNVtfd-dpluVmsVGI5jFIrWV3aHigF5Va1fik7TpjfW8-UT9TiMURvZ0aAWrJgHcZG-iaHOO-pWMoYMpYPo0Wvp2fp3FvdddYXCogjfSG31fbFR19-L5ZgDTPBpigSdt9xfoid7EmZYBqAUJBjgWkMFfegB8Z820ZnHYJ5_blRcbc6MjSKtio__qXRUG4Gi7FKMCJTJBWIGcgVdCxsIy0rooHJwizbbCEXgXoO3LImVV2P_kQpk9YK8-2XX5s_hgnlWTXTLN4gf9AcHAhVE-zWZWKQqdrID0IXwWOuM-d3EEkoFnqUylhfnSxVFo6is3cOPCK3uJQBeZzskhxtSGr66ViiL2zAurqzWszGe5wP_93K49yz2QXB4jw8QPJYfmYmhO5PBR1SEbgzpI15w1trhgRBcpLE3oR64xaGDoDo5zD0nnMq6RMm6ZLFqxkh0T0YGhGSGsE3FnU08uf5VbMIPf2eGkY8Rxt90wg7T0yVUCstKgTN09xjdMbGF-wsr-MOTR3FbMnWeDoajHe7YoMWUkwFT3Jkb_Szw-rXiieBJNX3mQSXtvXFudv-LgL-V6kAf-Y_282p-ui5Ph7Jnvm-dJU6MicIi_iGiVO2v8wZwOahpOgAOUyGVQxm038DwWEZuHWgNHFtNCsB3sZ1YWsOWgdPuMRTM0OfCRNrtlGWrx75q-i3-tyqRYgadQ6EZrO6iPgPu1gvjb8Ow8-vV4eb1p0aDM5HdJYVRrv1EIxxE5sfFl1uzFuNgMD-5fg95lHHeku0WHF5qzCn2ik3RfdxZlQkTdcfo_-dSGXSXw6MESSaFAWypNNMS5uJnpvpYpqVb_TYD3iptv9XFDHkT3Ee6YFzAcNJXLH34Rm6qm0loKuzSYXnJGJcQsSYE2DkDtKkQZn32D_vaFb_HzwtjFLmN3dA_dkgJK3f2oy17M49bTM7W-b1LpR5awHcVnt04kKvfYlTyvMkDJiF-xrtmPqCZyaG8mlwWMrHFY_PQT0VFkAj9IYt4MgflIGqPlQAE6Qvks4rbp4FbqR5rYp25MQRwi70NOVe3zvZeQjG_2FYiUorRQWDj3ROFxjg47PzKO0BrrtcHxgxhxBDq3ZetWTKfHP13eI4v1u4C2KkreCm6BjxaHCCuP6Y1qcohfefQyBcb3bapR_IZFgdbpMr4zVxTYYi3egv_qM99b19bjnBA5OoG3xtrPN5iWJYy7px8hyg-HyL8DCV9bJIy68QHFfYRNk0tWhIQ4Zi8rY10tnFfi6YvhKmUJXzdnF6zs3XchEkAYcXKNKS6bKx4RGBK1kuKr4UPPVLIaiatz7DXPmfaN77ac1j5nZao7aC0d5mRZ_pVjNTLO_AyTbWLeoObfODyEHpQ/https://www.amazon.com/dp/B09DT48V16/?_encoding=UTF8&pd_rd_i=B09DT48V16&pd_rd_i=B09DT48V16&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=n1Ggy&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a",
+        "link_clean": "https://www.amazon.com/dp/B09DT48V16/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09DT48V16&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41jhM7IY4uL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/e029bbde-c0ec-4312-b050-add3b63fbd20.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/e029bbde-c0ec-4312-b050-add3b63fbd20.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.4,
+        "reviews": 85951,
+        "price": "SAR150.08",
+        "extracted_price": 150.08
+      },
+      {
+        "position": 2,
+        "asin": "B0CSXV3GK4",
+        "title": "Wireless Earbuds 75hrs Bluetooth 5.4 Headphone Sport, 2026 Bluetooth Earbuds Stereo Deep Bass Over Ear Bud with Earhooks, ENC Noise Cancelling Mic, IPX7 Waterproof Earphone for Gym/Running/Workout",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JM9gHg-kkNZ9j0_5FzLiflQAAAGeT_gO2AEAAAH2AQBvbm9fdHhuX2JpZDYgICBvbm9fdHhuX2ltcDEgICDDR7Vv/clv1c_ek-wBfHXLcTWnuOrk9HI84ba7BoeWEuZcjtSgHBmjTzwFopo8MBlcBSRH_uXqS8FXqJ0yoAwzNcmOmcwEPvV7U9Lswm3ZLK31X3PNBP-_UCmqQU_8xksiWz16knU5ufW-1I_oQHhD2KkNt5rxKJE7caPQFyfnGXK-4wQbzQhxr4VUz_zje3pKvpGcgdPxtOFVUFHrc1NET3cZS1tNg7x1yMKXP3sEXJ38kZINNM18VQcPKp-vbu1tketz_YaC1p0omwRkVsW-JzhrTyVO_Mxu0q2RYDsNgPnBNivwJoE_aaIIMGsT9I8PMZfNVMGr3hegRzIO-ApIVpWch4Cg1-rhXCCa0q_1XAMibdUaDTV-piWsPQtKVKnzW_fkUm60pAxByA9hGN9yCYHC26H0w_pPTRPpSUNg0oq4fk94-hGVROprGklW9wMMglLRxemBBzK5DZw5MoVUH9BQA1o2NgUgVMAYI7Qy4IrQPyki550YKmP-zUf5ynQ7mj1zjCE9JnwDitsX-pXEI1KxT_bwj99LYtGYgWf4ifnRCZF96K0170YygzA6IvbwnST-uAizr0xFwVGs4XfKz7ylgNcxy-3-Q23qql05QYGk6cRGxlpRW4PVFgVdmfh1xxZJ37pHP6ZCVhLQwda-FHLZ6eo9J5ghzb8G3h4Ndi3GGm_BBrcwZcovrJaL-3Dd5cpsf8XF4jR8T-Py5LhA-RAuAEAEKWjnOA3u6uUS8XW9VT92a0rS4Bn-K3ZrlpG0JrZklHlrPtHm4FVSQOe4n8Kue1GDv3qZ0ErWmqySVsdTUAHnNIN84n67DeBLbWEqBJmX1wLMSLjgXPv2BAtUwqNo2suqrA4Y5njQrEbhobwqX4MjejWBRoFPG7AIHiyiWSKaraq16fE_ZEoT-SB7go0FJm5dAPCqMZyO1VH3dsiP3cTbzsYRMkMluSM3ecRgJnqlGKXST6bUn1u0OfnPMQmjaXS74kHcn_DOAUsgaqwrsKajYo1xrFBm2AE_3XpOWGB1jQ4GLjIt96mvm8HqX21LBWqxEdhMvrN9WJyoKEfsVLHN55dAXI09I9pelc1Voj7JTVnmrhoSCdv18SBtjJJPPtTPU7K6WAApqCVbL1Q3VB3ctIPwswnyrvNdS2ntFOB8ksB_1rwOlup7KM8gHxQadID_QU29wQeZ12-q5vH4xAa1irlaN1aUW1LV9MbpW9jcsZee0p8cD8i8tRxB1OjphczTBvka6cGRYDHOHsK52tcSawl6SKbgZ-P__UG-4XWjYGM2jcTelG9JlxhpvCPZBe_Ga-yGzuKGRNuNTjxM6hJILzfdlxd2_ogURJAbMSjwqo7-ArFtuZd6L4DgqaaJDjfJwrAhywz1jRd09Mz0GCqAy5kIpowieL7xoiOWRa4ygpz4j4jhJXzY9ake0tI_OahMquymNnNCyVZQaxVET9aJW6B95L4xwtOd6NcasdE9TUqkeQFtcvwIwgtL7dd1IG1ysCDyBqm0tNEXV38yzCF126wqdpVNPBoJbe04EjnTfYY8ofc8n15pFDt2ptTdYbSJmUQUo4Z/https://www.amazon.com/dp/B0CSXV3GK4/?_encoding=UTF8&pd_rd_i=B0CSXV3GK4&pd_rd_i=B0CSXV3GK4&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=n1Ggy&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a",
+        "link_clean": "https://www.amazon.com/dp/B0CSXV3GK4/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CSXV3GK4&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/413GBwDNJnL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/dcefa0bd-d305-4123-9095-7f5ac295ea7b.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/dcefa0bd-d305-4123-9095-7f5ac295ea7b.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.3,
+        "reviews": 27683,
+        "price": "SAR97.54",
+        "extracted_price": 97.54,
+        "old_price": "SAR150.08",
+        "extracted_old_price": 150.08
+      },
+      {
+        "position": 3,
+        "asin": "B0D83J6JJ9",
+        "title": "CMF Buds Pro 2 Wireless Earbuds with Smart Dial, 50dB Hybrid Noise Cancelling Earbuds Wireless Bluetooth 5.3, 11mm Bass with LDAC, 6 Hi-Res Audio Mics, 43H Playtime, Fast Charging Case, Dark Grey",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JOlwGdH0aLK22Jg1hdUENYoAAAGeT_gO2AEAAAH2AQBvbm9fdHhuX2JpZDYgICBvbm9fdHhuX2ltcDEgICAowtiC/clv1c_ek-IBfHXLcTWnuOrk9HI84ba7BoeWEszZ-2Y6cTyVUhrezX9n22Ti1WMrgfrkQ7luSyXO1PV9M8QQ272yh9Ony2DQoGwfbC31X3PNBP-_UCmqQU_8xk0iWz16knU5ifXGxMfsR7iD2mCVPTmBlvq3lLRnK3cl1POmcXsu1f7zcFe2OFl9msrs84tyec4H0KrEjGrpEhMAg0QoSy9FNByXkC7PH6WfMwzOFb2MhqWScM5QBVhbigICkk6CnXtOc3Q69JskI0wucqdpChFO4Nw-lqyoHOBLO6hDgAxZPdp4N8P6PM6VFXtUjDfLznQhTThog7QOitSLX8dxNTRtdw8yDaqYzBj_ViIiY9YKKRW-hiWMPUtEWR6wpWKE4lSJUAHA_EcAijn9qvGcQjHsvOe1v5-3ErennDSzZ-sJPc_broI3mox5pcqMgMxMHOV3JpqpR4MUnHJpsugBQwu829CJMnR3AInuSgJY-luyN68XROAbwlzbcSYmP2zG-_7YdkobL2tR9OduV0-pHh7-TFZdac6mxXe-rMqIPfoNkMmFVJ6WlSONaICGuAwhpIRkUbKANgBsSkbHwcy46a94OwebfY7OE4b7y94dRdliw7Mj8Zkmg2AN_t5w2IHhmiTVBF2_SgWM15_0hKBehV4v20e97ssZ1zKBOEqV8ilMp6m8AbqLB3tlWHDS_QpR9WivK6-49BZkVcw_ThGsREOp9RPaY7Ck1WHdMwfIHvg6x6Kr4gu9f2Rk07S0U6PNvrlc8uo_tVWPnJyUzZ8Z8J9gD3N-ezKFGsPccbEIU8x8j-X3oXtokf8uUkguWbF8tfWEZF7YmmFxMk5YK88J1F6ZtDVWX0V3mCr6UhSXhamMTUnXVSs4e4fuL8eeOsbYRcywPCHARAR7qbXsVPRHCIbOMuql2Y-tZK0hsB80pp0Vsyiomkm9qMYJnTjblapt_-i4j7nMpSaKafFx9Z6RBr8z5G7xrA2iYAjjHc4tHZh-m8qIM1ij3jD-jmCHyn81MOaKO1X6Im58INeeRXcqmJxww3rtYEguzw-nRW-JFHGh9hD1JgcwwdsWrgAnQyADq4BVyhpTSvUVRfXXlM4P1lwfY9dkvbQl4Pis3xRV2wt-YbPYLRYeRM6exDahfwi2McTSvn_IlX8DnFiNQg7f56kOo0JYvUSlYt5QCELlT0UBJbeDIzX4QlKkN9oBby1wNiSxFKXAvae2GAx4FFPBqZeZDwzX-N7_l2z45EQbOMCmjd0bsFJAvwvJ2pHL3zCzoYzKER9kx9-nXDTgsvfeorWaImsZOi6fibUPWCxGlnGtLST1Ir5abfw4NVbKXg3pbINb_7Ujr8xtgFahH7trwlkWdR-o8jCKlLMaf75F_RgpA8Cqxm7V3ldRJhh6cEdrZJR6lQmAkLpqBC4KZzwIdL0pc7RMVeRWvfwSamiIyLOcYrpEc1OW4k29u_0faOlOMGJtKP-N93jr8gJE9MVko8BxQBmSd9P7IUC6dFJ1QVeqnK08IM1OMpyFTdnBk7ofY4B064XMz95eLv3MwwliFpwfScscw/https://www.amazon.com/dp/B0D83J6JJ9/?_encoding=UTF8&pd_rd_i=B0D83J6JJ9&pd_rd_i=B0D83J6JJ9&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=n1Ggy&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a",
+        "link_clean": "https://www.amazon.com/dp/B0D83J6JJ9/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D83J6JJ9&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/31xjlYflwHL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/4615506e-f1e9-4215-8dad-0ee26202cc75.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/4615506e-f1e9-4215-8dad-0ee26202cc75.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.4,
+        "reviews": 2659
+      },
+      {
+        "position": 4,
+        "asin": "B07KY8G9NM",
+        "title": "TOZO Hybrid Active Noise Cancelling Headphones, Wireless Over Ear Bluetooth Headset, 60H Playtime, Hi-Res Audio Custom EQ via App Deep Bass Comfort Fit Ear Cups, for Home Office Travel",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JBiiZG0kvHFn6QC8Sol6eKMAAAGeT_gO2QEAAAH2AQBvbm9fdHhuX2JpZDYgICBvbm9fdHhuX2ltcDEgICBOcEUX/clv1c_ek-wBfHXUsbWHn2mJkKPYYizA5Pba0Rg3yqi5W6wi_7O9GgKLIcqvWaQ9kwR4E3ohagN620qOzHr8Lj80FSdE2Ov81t4GYBc8ALwhIpqGtQVL3kDQWA8j2TlsinV5CHmrS0J4CSgV98EfzSLmVytC_Dao-l8llYs0sb_zB_ejFbP-foNVROO3lr-Z2MqoirPEv6WwQpMEATimc7pl5ist7vP_Q5vMGJ40dt7FNf06VLcHO47MPnw47D6-EUVCti7OjkN87L-xgZRvTzcv52g2audC-JiUTOPH28K0LhX1oJRqjA7eFruOfvCe7QdDEHd_28BwxucVnNk5C4XFVLqJM68ySFxr97_4eoJr8QkX_j7VPPYSoByjey-rrj-r6lggaYpEq4QgWtRnfLKCtVRDzmqoxQ9QMSenChcgalyrf6HWORhXAwtdl6iUNHklZdQF20s_pIqcer3bQ0812jYxk8EaTjjJs6tBSqzQohjctHRmwQ2CQswBBu1N1U-t6yQC8P0WjeTIlD9XE31PJHL4OXSeQK-ar6VfkcaaGFshs58-DJAfu2xjEemNJnzfexmiXQ1nZN72ipR69kLQSQaLta5q5SMPkKYP8V8r3SwiHkYsA1lMZnzMK-A6xJLBLVc14ysOVxof3fl5RARBVUfikaye59EN1Q0YuCxw9KAz6VTHjUzXgCXOXo-g1hzCZ7zdqolJfFZ6dMFM72vCxZxPYSgUL5ePs4OrN_B7tRQNAok8zdNc_molqPKSY6Bc6kcWvl378L4qwW3llLFziEfaTZ6AFdpvD3mNShyiNUkpx6fMF_daFzge8wjJBnFpT8o3h3TxnQdVdg8OBYVEnzJLlN9h__jl7iOGJIuK3Usn5DirPthKKZ0p-9xuX26W-iddvROKMvO7P6iW1mvTJR22zMnBR2dwYTxdSxKSIGwrTpZn0877w5FnScntbxq0Lb3G_xAHq7RwgXbaKSVqUKxxfANFs3rvd8TVEklG8ACX2OU1NeQL71qbj4TgqlupP1IwmLcO4PWrXme-vhAH3FKT0xu1x7t-SXf3f2r3gxX6lV7Ty5iSfw3bEy-z1NWDHMeWLoeQheV-jQExAbKh4Y7v5JdIz-ibIXIp2d1zs8RlyZalh8npsCdfanXCu-Tx8S_6DcYtXI0j8HYBpyAZGmqBvbr-E7lGfFSPkVnVDqiPBfKHYeWkRHl6adCjUPChror3AERcNL9Bei0YGzG_bbcY5ezTN6DYuyaOFN52y7mEGemeWF9XEatnEX_TU0oKwY2k4JiM9f-zIj35URxZebZ5shPGulUTvEDOIkOFbO1lOQ3hkZgrqk52VoRT8-zRzU4GleUITGfl9GyDUbMwBf3gYMDFLh94KfxNTeFKvOrrhR01GpdXjmwsmy9YRGKA4x5vv2CAwzBbbjLIgYhQokw1Qel8Bf2uVodHjDhMgkMkxJ-8SttZzkammhhlmnPvpd9KhHo_5AkNOuOCcLJ0e9Hurl18k-BlQMiWCHz07iARBGbTn9rVju-dt6rottMaJ0-GA/https://www.amazon.com/dp/B07KY8G9NM/?_encoding=UTF8&pd_rd_i=B07KY8G9NM&pd_rd_i=B07KY8G9NM&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=n1Ggy&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a",
+        "link_clean": "https://www.amazon.com/dp/B07KY8G9NM/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07KY8G9NM&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41XeWxverEL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/baefada6-c479-4cc6-833a-9359daeb7e64.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/baefada6-c479-4cc6-833a-9359daeb7e64.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.5,
+        "reviews": 4756
+      },
+      {
+        "position": 5,
+        "asin": "B0D9M7VQ47",
+        "title": "King Lucky Clip-On Earbuds Gen 3, Open-Ear Wireless Bluetooth 6.0 Headphones with Mic, Secure Fit for Small Ears & Glasses Wearers, 50H Playtime, ENC, IPX5 Waterproof Sport Ear Buds (Purple)",
+        "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JCpSrNBJuIpdLgnvwOtYGlAAAAGeT_gO2gEAAAH2AQBvbm9fdHhuX2JpZDYgICBvbm9fdHhuX2ltcDEgICBE-I9y/clv1c_ek-wxYHXLbbWDfHOAIfz8e5gSokx4vL44e0CUtrhmwpxK0WvUeVFJOasqsGIkh1Fe80YAtJ6YgDoTDkCNSOMIrFsF9rb_54IW_GHDqvhwG9369Lbes8iGX_6ljm0Jnh8Sut-54JJKcxZwu27spYVydbFxL0dl1f6Uh24L1eoQYw3VXPNPvXlpFN98GdbMF3M5gCJOGmuz8YJUe6buU2I6uw5_QovVB5GrEymADL-8PzdxLj0q8T4BKzjU8Vk981wG-Y0FW1e9rq1yrjwKWDp7UZ0xStJojC9FjVHJMKITMa2ftftSVfRkq5amPxEkhINgTrudH9AsS38J8TfrrdHsX4oljpba3JI-_2i4GpoBGLwFDyrvqrMMgcOutth6CqJCgELiGG1bbxgDJWXjBG0QhhTfZKaScxZRQKKvPtZzqQfOmyykj0-zR1GkUzPKD3QDUYLhKS9UwAj5Iondamtn_7QbQx816GmEmtZhiepuiNNm13Zr3NbZqgbrpB8Ugess4XeAMuzDrjww8d_DB_bTmzb-wq9hudM-t0sDCnVNAo7ZTXF44j7S9KZo1ZBCMKSRl9EtF220Pr6CaG-_TsPOBLrfOv7XgrWzRF83TNQvZ5V7_JyImmG0tLdB8PvvwZJQYPdJfnDKT39H4-eJJF0Io-ZP_hLVkHMrSoWemom4UWyYPfTwwSK3yPiEHLkB7cimSFs1vREmSL72-cCELa6j77f32xrecgcwUrcGR_yWV1vUfEMYQrNNqOG-ycjXBDwvFWWSlRLoKn8RdH42l8OytcD8g-2FN-u-iAXlZ_OgkhaU913erBpUtXP24eIDa0EPsDiUAeYXL8zAgfHMdeuohBMKf8s2V5DWkoedGRxquFZWrP_l59G3CtTqRRJoBri-4HAMeK34xoaVvOaP5Ud0YZZajYBcGgLFKxE0ebfYFve4KKMzu2JqrBzGWTktecPSG-YMWu9YZ0LRIpLMPh2zYK80qRuqyBfbjP4jyEBZr1scK8e8IIK-Y6KKtzOJ_MDghlxFWAzydvXh58SnB4gAZSJNk06ovzm90Jguvy3eNdBdbR_Qxzuab5KhoDzDrbXp0nBVUt52ZxULvdhuzxpr1X3LmSNp5EXhNgWa4kS4H0S8lUjVJyh7IbNo9ZmSas_i_nMO-hQca2r2gLl1TU1F783F6XSAvDCMw0s63TfeX7gnl25qpHP9edeE-KqTVD-OCQrsMOKRMeXh8eRLwgf0FFJTBMDOHcpGQlxnt-1hlO6tj5QYBY-UMAOxGLuPy193CHyM0ZVqm3H-q6WpQCn0RqgLCwZSXKZJRcJ6dTn9uKrpYzSwWEhXPazuh3xIxzn4IdrTtUGx1NfnP2AsaF6B-uuRfoIMlOl_Y1ycP5_ESlcKJMF7aMWw4C5SoNropR0BZjFhTN-6BeKdMhCPIyUtQL1hBBebjYLyFx9ZMAZMDhn300qBHeTF9qoAXAGDWlr-IPkG_u6nXqUUeBSsHB6xBUe217QhQvbP6K1GSa6LpSnP0nWj8Zxv41IySCGGWJ9eeubBS84ljm8SA059gm-OPkmQp4vHhQ/https://www.amazon.com/dp/B0D9M7VQ47/?_encoding=UTF8&pd_rd_i=B0D9M7VQ47&pd_rd_i=B0D9M7VQ47&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=n1Ggy&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=FGZEHCE245CJJE3ZCYW8&pd_rd_wg=Ij5HQ&pd_rd_r=09ffec58-1e60-4645-a947-6f39fd86323a",
+        "link_clean": "https://www.amazon.com/dp/B0D9M7VQ47/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D9M7VQ47&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41hv9vENsXL._AC_SR100,100_QL65_.jpg",
+        "video": {
+          "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/ef01be37-8e1b-4c71-a690-cd7bc852dd96.mp4/productVideoOptimized.mp4",
+          "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/ef01be37-8e1b-4c71-a690-cd7bc852dd96.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+        },
+        "rating": 4.2,
+        "reviews": 6370,
+        "price": "SAR81.51",
+        "extracted_price": 81.51,
+        "old_price": "SAR101.26",
+        "extracted_old_price": 101.26
+      }
+    ],
+    "reviews_information": {
+      "summary": {
+        "text": "Customers find these wireless earbuds very loud, clear, and extremely comfortable, noting they stay in place and don't fall out during use. Customers consider them good value for money and solid in quality. The battery life receives mixed feedback - while some say it lasts a long time, others report poor performance. Moreover, connectivity and reliability are also mixed aspects, with some customers reporting easy pairing and good performance, while others experience frequent disconnections and left ear buds that stop working.",
+        "insights": [
+          {
+            "title": "Sound quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 8700,
+              "positive": 6751,
+              "negative": 1970
+            },
+            "summary": "Customers like the sound quality of these earbuds, finding them very loud and clear.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...Summary: great sound and fit, but very short battery life. Good for the gym, walks, and short trips. Not good for using over longer periods of time.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2CUBTQH9F0MCG"
+              },
+              {
+                "position": 2,
+                "snippet": "Easy to use, charges quickly, good sound, and good value for the price. Crazy long battery life. Great customer service when I've had to contact them.",
+                "link": "https://www.amazon.com/gp/customer-reviews/RF3RHIZA3WVVG"
+              },
+              {
+                "position": 3,
+                "snippet": "...Here’s why: Sound Quality: These earbuds sound amazing! The premium sound and deep bass are just fantastic, especially for the price....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1NX9MCN5MXZ7S"
+              },
+              {
+                "position": 4,
+                "snippet": "No bass, even when I used settings on my device to add \"adequate\" bass, the second a boom or shout happened, it was if the things were electrocuting...",
+                "link": "https://www.amazon.com/gp/customer-reviews/RBM30GP8DRWCR"
+              }
+            ]
+          },
+          {
+            "title": "Value for money",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 5900,
+              "positive": 5505,
+              "negative": 395
+            },
+            "summary": "Customers find these earbuds to be good value for money, offering great quality and sound for their price point.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...I will have to get another couple pairs for my kids and family. Great price and they work so good. Fit in your ear and they charge in the little box....",
+                "link": "https://www.amazon.com/gp/customer-reviews/ROP8M66W7LZLY"
+              },
+              {
+                "position": 2,
+                "snippet": "...Earbuds under 15$. Been using Tozo brand for years and always has great value, the earbuds last, they keep a charge and you save over competitors....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R6HPWY76NPIR4"
+              },
+              {
+                "position": 3,
+                "snippet": "These are great for the price. This is my second pair. The first one I bought for my daughter. She loved them so much that I bought a pair for myself!",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1LM1VLZXPBEWX"
+              },
+              {
+                "position": 4,
+                "snippet": "The earbuds are good for the price the battery last long they for comfortable for the most part they fit nicely i use the smaller gummies they come...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R4C773WDBJZFR"
+              }
+            ]
+          },
+          {
+            "title": "Quality",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 5300,
+              "positive": 4586,
+              "negative": 741
+            },
+            "summary": "Customers find these earbuds to be of good quality, with one customer noting they are better than AirPods.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...But all in all this is a great product if these go out on me in the next couple of years I will buy the same kind. Give him a try you won't be sorry",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2A5RKQPP3GFC4"
+              },
+              {
+                "position": 2,
+                "snippet": "...apple so comfy in my ears never fall out and good sound l love it good quality ,very light , don’t have to charge ever ever day stay charge for four...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2X0195NKINUP3"
+              },
+              {
+                "position": 3,
+                "snippet": "...The reviews for this product weren’t wrong great product, great quality, great sound. Easy connection to Bluetooth, the choices of colors were great....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2GRNRPW2YG9CT"
+              },
+              {
+                "position": 4,
+                "snippet": "These are great earbuds. They have nice sound quality, are comfortable to wear, charge quickly, and work really well. They pair easily with my phone.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1I58GCQHUAWE4"
+              }
+            ]
+          },
+          {
+            "title": "Fit",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 3800,
+              "positive": 2839,
+              "negative": 1017
+            },
+            "summary": "Customers find that the earbuds fit well in their ears and stay securely in place during use.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "These airbuds fit well and the sound is good, but they stopped working after 6 weeks. They simply will no longer sync with my phone. Do not recommend",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1VN8ZQ02MR2ZF"
+              },
+              {
+                "position": 2,
+                "snippet": "...Summary: great sound and fit, but very short battery life. Good for the gym, walks, and short trips. Not good for using over longer periods of time.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2CUBTQH9F0MCG"
+              },
+              {
+                "position": 3,
+                "snippet": "...They also fall out of my ears unless I keep shoving them into my ears. Overall an unpleasant experience I wouldn’t recommend to anyone.",
+                "link": "https://www.amazon.com/gp/customer-reviews/RAGOXWEGMI3NA"
+              },
+              {
+                "position": 4,
+                "snippet": "i like these earbuds very much, great fit, great sound. Still the controls are not so easy to recall, so I don't use them, just the hang up call....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R22QYOZEQU7DCE"
+              }
+            ]
+          },
+          {
+            "title": "Comfort",
+            "sentiment": "positive",
+            "mentions": {
+              "total": 2300,
+              "positive": 1791,
+              "negative": 597
+            },
+            "summary": "Customers find these earbuds extremely comfortable, particularly noting that they don't hurt their ears.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...They are comfortable, and I like the matte feel, along with the ablility to touch to pause, but \"S's\" hurt my ears. It's sharp, but not in a good way.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R3HUCAB4HHE14L"
+              },
+              {
+                "position": 2,
+                "snippet": "Easy to connect. Very comfortable. Doesn't fall out my ears. Long lasting battery. Very clear while listening to music or phone calls. Great buy.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R36O7L0D2TGC8T"
+              },
+              {
+                "position": 3,
+                "snippet": "Not great at all, they are uncomfortable, even after changing the ear plugs to smaller, the sound is horrible, absolutely no bass, so the treble...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1GYH7P0NU74T9"
+              },
+              {
+                "position": 4,
+                "snippet": "...Easy to set up, comfortable to wear, and good sound quality. The only problem I had was that after initially pairing them, the right one didn't work....",
+                "link": "https://www.amazon.com/gp/customer-reviews/RAA0RPWUFHGS5"
+              }
+            ]
+          },
+          {
+            "title": "Battery life",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 4100,
+              "positive": 2736,
+              "negative": 1375
+            },
+            "summary": "Customers have mixed experiences with the earbuds' battery life, with some reporting that the charge lasts a long time, while others find it poor.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...of these earbuds I am very pleased with the sound quality and the battery life. They also came with several replacements for the tips of the earbuds....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2R4Q0YHE9G9AC"
+              },
+              {
+                "position": 2,
+                "snippet": "these are good. but have a short battery life only last about 6 hours before i have to recharge it, im over the road a lot and work from my car...",
+                "link": "https://www.amazon.com/gp/customer-reviews/RSZU3OL4TMHKN"
+              },
+              {
+                "position": 3,
+                "snippet": "...sound quality was great and the earbuds were comfortable with a long battery life but the case broke in 2 weeks I’d recommend finding something else...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2QD9IU9XL26BS"
+              },
+              {
+                "position": 4,
+                "snippet": "...He loves everything about them, good battery life, comfortable, the look nice, the sound is great and he has no issue with connection to his devices...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1IR8TGN9LFDV7"
+              }
+            ]
+          },
+          {
+            "title": "Reliability",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 3800,
+              "positive": 2400,
+              "negative": 1426
+            },
+            "summary": "Customers have mixed experiences with the headphones' reliability, with some reporting good performance and no issues, while others mention that the right earbud stops working and only one earbud functions properly.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "...I use these to listen to my audiobooks and they work great. They don’t cancel out noise but that’s good for me as I need to be listening for my kids....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2MEH31LZYZ7M5"
+              },
+              {
+                "position": 2,
+                "snippet": "...this product, after using for a few weeks all of a sudden it stopped working, so I texted with the support of TOZO to receive help and they helped...",
+                "link": "https://www.amazon.com/gp/customer-reviews/R23LK6R6Z09CJ7"
+              },
+              {
+                "position": 3,
+                "snippet": "Super cute & works great! I have really small ears so I love that it gives you three sizes you can put on the earbuds so they actually stay in!",
+                "link": "https://www.amazon.com/gp/customer-reviews/RME00UMN2J6BZ"
+              },
+              {
+                "position": 4,
+                "snippet": "...For the price, they work well. Wish they had “find my” but I digress. Bought them Aug 2024 and my right earbud stopped working as of last month(Feb)....",
+                "link": "https://www.amazon.com/gp/customer-reviews/R1DLHIHNQ0O8X1"
+              }
+            ]
+          },
+          {
+            "title": "Connectivity",
+            "sentiment": "mixed",
+            "mentions": {
+              "total": 2400,
+              "positive": 1627,
+              "negative": 797
+            },
+            "summary": "Customers have mixed experiences with the earbuds' connectivity, with some finding them easy to pair and use, while others report connection issues and frequent disconnections.",
+            "examples": [
+              {
+                "position": 1,
+                "snippet": "Easy to connect. Very comfortable. Doesn't fall out my ears. Long lasting battery. Very clear while listening to music or phone calls. Great buy.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R36O7L0D2TGC8T"
+              },
+              {
+                "position": 2,
+                "snippet": "...All in all I'd say great product for the price. Came well packaged, easy to pair, lovely color (green) fits in the ear comfortably, preteen approved.",
+                "link": "https://www.amazon.com/gp/customer-reviews/REGM3K5JFK53T"
+              },
+              {
+                "position": 3,
+                "snippet": "We tried to pair the hearing ear buds through the app. They will not connect. Going to return them.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R2VIIXBUIFOQW2"
+              },
+              {
+                "position": 4,
+                "snippet": "...Even with two of the same model, they connect easily and quickly. The sound is good to me, but I'm not an audiophile like others, so ymmv.",
+                "link": "https://www.amazon.com/gp/customer-reviews/R305562UKVSHWW"
+              }
+            ]
+          }
+        ],
+        "images": [
+          "https://m.media-amazon.com/images/I/71dnr5UioWL.jpg",
+          "https://m.media-amazon.com/images/I/71sUa-KUnKL.jpg",
+          "https://m.media-amazon.com/images/I/71DR5lZqMJL.jpg",
+          "https://m.media-amazon.com/images/I/61P+sFfG0XL.jpg",
+          "https://m.media-amazon.com/images/I/91GHPUOWocL.jpg",
+          "https://m.media-amazon.com/images/I/71t44woaa-L.jpg",
+          "https://m.media-amazon.com/images/I/81PoaXtOHDL.jpg",
+          "https://m.media-amazon.com/images/I/812OqKz+GtL.jpg",
+          "https://m.media-amazon.com/images/I/61XtvbmhF5L.jpg",
+          "https://m.media-amazon.com/images/I/61hLWDCGzvL.jpg",
+          "https://m.media-amazon.com/images/I/61n+H50GedL.jpg",
+          "https://m.media-amazon.com/images/I/615ruBdKSWL.jpg"
+        ],
+        "customer_reviews": {
+          "5 star": 67,
+          "4 star": 16,
+          "3 star": 8,
+          "2 star": 4,
+          "1 star": 5
+        }
+      }
+    }
+  }
+}

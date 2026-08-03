@@ -1,0 +1,89 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-web-research-unitedenergytech-huayue-comparison",
+  "summary": "unitedenergytech vs huayuecorp 阿里店铺对标 + 转化优化。target 5 截图 + benchmark 5 截图 + 对比表 + 优化报告。",
+  "category": "browser_web_ecommerce",
+  "state_kind": "public_web_research",
+  "difficulty": "medium",
+  "checks": [
+    {
+      "id": "deliverables_present",
+      "check_type": "deterministic_exact",
+      "description": "All three required deliverables exist and are usable: optimization_report.md (non-empty) + comparison_table.md (non-empty) + evidence_manifest.json (parseable dict with target/benchmark objects and comparison_dimensions array of length >=5). Folds optimization_report_exists + comparison_table_exists + evidence_manifest_exists_and_parseable."
+    },
+    {
+      "id": "evidence_screenshots_captured",
+      "check_type": "deterministic_exact",
+      "description": "For BOTH shops: all 5 page-type screenshots (home/products/pdp/company_profile/inquiry_path) exist as valid images, OR the shop is marked access_status=='inaccessible' with a valid blocker screenshot. Folds target_screenshots_or_blocker + benchmark_screenshots_or_blocker."
+    },
+    {
+      "id": "manifest_well_formed",
+      "check_type": "deterministic_exact",
+      "description": "evidence_manifest.json is structurally correct and honest: both target and benchmark have non-empty url/access_status/main_category and a screenshots dict with all 5 page-type keys, AND all access_status values are in {'visited','inaccessible','search_result_only'} (no offline-pool markers). Folds manifest_target_and_benchmark_fields_complete + manifest_uses_only_allowed_access_status_values."
+    },
+    {
+      "id": "outputs_dir_clean",
+      "check_type": "deterministic_exact",
+      "description": "Restraint: outputs/ contains only the declared deliverables + evidence/ (declared screenshots and optional blockers/ subdir); no stray files. Folds outputs_dir_has_only_declared_files."
+    },
+    {
+      "id": "report_structure_complete",
+      "check_type": "llm_judge_boolean",
+      "description": "Both the report's required section structure and the comparison table's required shape are present: optimization_report.md has all 8 required sections AND comparison_table.md has a Markdown table with >=5 dimension rows covering the required columns/dimensions. Folds report_has_all_8_required_sections + comparison_table_has_5plus_dimension_rows."
+    },
+    {
+      "id": "target_problems_diagnosed_concretely",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the unitedenergytech 当前运营问题 section list >=3 specific problems, each tied to a screenshot or manifest observation (not generic '页面不够吸引人')?"
+    },
+    {
+      "id": "pdp_to_lead_optimization_concrete",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the 商详到商机转化优化 section provide >=3 concrete adjustments tied to specific PDP elements observed in target_pdp.png vs benchmark_pdp.png (e.g., 'add 3D viewer like benchmark', 'add MOQ panel above fold')? Reject vague boilerplate."
+    },
+    {
+      "id": "lead_to_order_optimization_concrete",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the 商机到订单转化优化 section provide >=3 concrete adjustments tied to specific inquiry-path observations (e.g., 'reduce inquiry form fields from N to M', 'add response-time SLA badge')? Reject vague boilerplate."
+    },
+    {
+      "id": "action_plan_7_14_30_days_concrete",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the 7/14/30 天保姆级整改清单 section have items grouped or labeled for all three timeframes, each with >=2 concrete actionable items? Each item should reference a specific page element to change."
+    },
+    {
+      "id": "no_local_seed_pool_terms",
+      "check_type": "llm_judge_boolean",
+      "description": "Yes/no: NEITHER report files NOR evidence_manifest.json contain forbidden terms: 'local_seed_only', 'seed_only', '本地池', '本地种子', 'local seed pool', 'local pool'."
+    },
+    {
+      "id": "no_login_or_inquiry_submission",
+      "check_type": "llm_judge_boolean",
+      "description": "Does the report avoid any mention of attempting login, sending inquiry/RFQ, submitting forms, contacting merchants, or messaging? Read-only browsing only (opening pages and screenshotting is OK)."
+    }
+  ],
+  "artifact_policy": {
+    "standard_output_dir": "/task/outputs/",
+    "expected_artifacts": [
+      "optimization_report.md",
+      "comparison_table.md",
+      "evidence_manifest.json",
+      "evidence/target_home.png",
+      "evidence/target_products.png",
+      "evidence/target_pdp.png",
+      "evidence/target_company_profile.png",
+      "evidence/target_inquiry_path.png",
+      "evidence/benchmark_home.png",
+      "evidence/benchmark_products.png",
+      "evidence/benchmark_pdp.png",
+      "evidence/benchmark_company_profile.png",
+      "evidence/benchmark_inquiry_path.png"
+    ],
+    "allowed_extra_globs": [
+      "evidence/blockers/*.png",
+      "evidence/blockers/*.jpg",
+      "evidence/blockers/*.jpeg",
+      "evidence/blockers/*.webp"
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "account": {
+    "name": "Morgan Chen",
+    "givenName": "Morgan",
+    "email": "morgan.chen@accessoryhub.test",
+    "avatar": "M",
+    "locale": "en-US"
+  },
+  "people": [
+    {
+      "id": "me",
+      "displayName": "Morgan Chen",
+      "email": "morgan.chen@accessoryhub.test",
+      "initial": "M",
+      "color": "#1a73e8"
+    },
+    {
+      "id": "p-finance",
+      "displayName": "Dana Park",
+      "email": "dana.park@accessoryhub.test",
+      "initial": "D",
+      "color": "#e8710a"
+    },
+    {
+      "id": "p-ops",
+      "displayName": "Riley Osei",
+      "email": "riley.osei@accessoryhub.test",
+      "initial": "R",
+      "color": "#188038"
+    }
+  ],
+  "files": [
+    {
+      "id": "doc-pricelist-q3-2026",
+      "name": "AccessoryHub Wholesale Price List — Q3 2026",
+      "type": "document",
+      "parentId": "root",
+      "starred": true,
+      "ownerId": "me",
+      "lastModifiedById": "p-finance",
+      "sharedWith": [
+        "p-finance",
+        "p-ops"
+      ],
+      "trashed": false,
+      "createdAt": "2026-05-15T09:00:00Z",
+      "modifiedAt": "2026-06-01T14:00:00Z",
+      "lastOpenedAt": "2026-06-03T10:00:00Z",
+      "content": {
+        "title": "AccessoryHub Wholesale Price List — Q3 2026",
+        "blocks": [
+          {
+            "id": "b-pl-title",
+            "type": "heading1",
+            "text": "AccessoryHub Wholesale Price List — Q3 2026",
+            "format": {}
+          },
+          {
+            "id": "b-pl-intro",
+            "type": "paragraph",
+            "text": "Wholesale unit prices, USD, exclusive of tax and freight.",
+            "format": {}
+          },
+          {
+            "id": "b-pl-heading-products",
+            "type": "heading2",
+            "text": "Products",
+            "format": {}
+          },
+          {
+            "id": "b-pl-ag100",
+            "type": "paragraph",
+            "text": "AG-100 — Wireless Charging Pad (Imported) — $24.00 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-pl-ag115",
+            "type": "paragraph",
+            "text": "AG-115 — USB-C Hub, 7-port (Imported) — $38.50 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-pl-ag130",
+            "type": "paragraph",
+            "text": "AG-130 — Mechanical Keyboard Switch Tester (Domestic) — $14.75 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-pl-ag145",
+            "type": "paragraph",
+            "text": "AG-145 — Silicone Cable Tidy Set, 12-pack (Imported) — $12.75 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-pl-ag160",
+            "type": "paragraph",
+            "text": "AG-160 — Aluminium Laptop Stand (Domestic) — $31.00 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-pl-ag175",
+            "type": "paragraph",
+            "text": "AG-175 — Portable LED Desk Lamp (Imported) — $17.60 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-pl-ag190",
+            "type": "paragraph",
+            "text": "AG-190 — Webcam Privacy Cover, 10-pack (Discontinued) — $6.50 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-pl-ag205",
+            "type": "paragraph",
+            "text": "AG-205 — Braided Nylon Cable Set, 3-pack (Imported) — $33.60 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-pl-ag205-note",
+            "type": "paragraph",
+            "text": "Note (AG-205): Re-sourced to domestic supplier (MidWest Components Inc.) effective Q3 2026. Treat as domestic for this adjustment cycle — surcharge does not apply.",
+            "format": {}
+          },
+          {
+            "id": "b-pl-footer-heading",
+            "type": "heading2",
+            "text": "Notes",
+            "format": {}
+          },
+          {
+            "id": "b-pl-footer",
+            "type": "paragraph",
+            "text": "All prices are USD, ex-warehouse. Minimum order quantity: 50 units per SKU. Discontinued items remain available while stock lasts; no reorders accepted.",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-heading",
+            "type": "heading2",
+            "text": "Previous Quarter (Q2 2026) — Reference Only (do not modify)",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-note",
+            "type": "paragraph",
+            "text": "Q2 2026 wholesale unit prices kept for internal comparison. These figures are historical record and must not be changed.",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-ag100",
+            "type": "paragraph",
+            "text": "AG-100 — Wireless Charging Pad (Imported) — $24.00 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-ag115",
+            "type": "paragraph",
+            "text": "AG-115 — USB-C Hub, 7-port (Imported) — $38.50 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-ag130",
+            "type": "paragraph",
+            "text": "AG-130 — Mechanical Keyboard Switch Tester (Domestic) — $14.75 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-ag145",
+            "type": "paragraph",
+            "text": "AG-145 — Silicone Cable Tidy Set, 12-pack (Imported) — $12.75 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-ag160",
+            "type": "paragraph",
+            "text": "AG-160 — Aluminium Laptop Stand (Domestic) — $31.00 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-ag175",
+            "type": "paragraph",
+            "text": "AG-175 — Portable LED Desk Lamp (Imported) — $17.60 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-ag190",
+            "type": "paragraph",
+            "text": "AG-190 — Webcam Privacy Cover, 10-pack (Discontinued) — $6.50 / unit",
+            "format": {}
+          },
+          {
+            "id": "b-ref-q2-ag205",
+            "type": "paragraph",
+            "text": "AG-205 — Braided Nylon Cable Set, 3-pack (Imported) — $33.60 / unit",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    },
+    {
+      "id": "doc-supplier-contacts",
+      "name": "Supplier Contact Directory — 2026",
+      "type": "document",
+      "parentId": "root",
+      "starred": false,
+      "ownerId": "p-ops",
+      "lastModifiedById": "p-ops",
+      "sharedWith": [
+        "me"
+      ],
+      "trashed": false,
+      "createdAt": "2026-01-10T08:00:00Z",
+      "modifiedAt": "2026-03-22T11:00:00Z",
+      "lastOpenedAt": "2026-05-20T09:30:00Z",
+      "content": {
+        "title": "Supplier Contact Directory — 2026",
+        "blocks": [
+          {
+            "id": "b-sc-title",
+            "type": "heading1",
+            "text": "Supplier Contact Directory — 2026",
+            "format": {}
+          },
+          {
+            "id": "b-sc-intro",
+            "type": "paragraph",
+            "text": "Primary contacts for all AccessoryHub product suppliers. Updated quarterly by Operations.",
+            "format": {}
+          },
+          {
+            "id": "b-sc-imported-heading",
+            "type": "heading2",
+            "text": "Imported Product Suppliers",
+            "format": {}
+          },
+          {
+            "id": "b-sc-shenzhen",
+            "type": "paragraph",
+            "text": "Shenzhen PowerTech Ltd. — AG-100, AG-115, AG-145, AG-175. Contact: wei.liu@szpowertech.test. Lead time: 45 days.",
+            "format": {}
+          },
+          {
+            "id": "b-sc-domestic-heading",
+            "type": "heading2",
+            "text": "Domestic Suppliers",
+            "format": {}
+          },
+          {
+            "id": "b-sc-midwest",
+            "type": "paragraph",
+            "text": "MidWest Components Inc. — AG-130, AG-160, AG-205 (from Q3 2026). Contact: orders@midwestcomponents.test. Lead time: 10 days.",
+            "format": {}
+          }
+        ]
+      },
+      "comments": [],
+      "reactions": []
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl-blank",
+      "name": "Blank document",
+      "category": "General",
+      "featured": true,
+      "description": "Start with a blank document",
+      "thumbnailColor": "#ffffff",
+      "skin": "blank",
+      "content": {
+        "title": "Untitled document",
+        "blocks": [
+          {
+            "id": "b-blank-p1",
+            "type": "paragraph",
+            "text": "",
+            "format": {}
+          }
+        ]
+      }
+    }
+  ],
+  "versions": [],
+  "view": {
+    "mode": "list",
+    "sortBy": "modifiedTime",
+    "sortDesc": true
+  },
+  "config": {
+    "mcpEnabled": true
+  }
+}

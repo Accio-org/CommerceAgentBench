@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "task_id": "browser-freightos-booking-rated",
+  "summary": "FreightOS mock — agent completes booking flow through browser UI. v2: each search/services/quote/booking/verification/report sub-criterion is one atomic deterministic_exact check. No length checks. (task_id=browser-freightos-booking-rated)",
+  "category": "freight_booking",
+  "state_kind": "local_mock_browser",
+  "difficulty": "hard",
+  "check_strategy": "At runtime, freightos_v2.verify expands the full checks[] from booking-state + access-log + report. Declared checks below are illustrative — the verifier is the source of truth.",
+  "checks": [
+    {
+      "id": "mock_service_reachable",
+      "check_type": "deterministic_exact",
+      "description": "GET /api/booking-state and /api/access-log both succeed."
+    },
+    {
+      "id": "auth_success",
+      "check_type": "deterministic_exact",
+      "description": "state.authenticated == true AND access-log contains POST /login success."
+    },
+    {
+      "id": "mock_submit_via_legitimate_path",
+      "check_type": "deterministic_exact",
+      "description": "Access-log shows valid uiToken POSTs to all of /search, /services, /select-quote, /confirm, /verification AND a verifier_token was injected."
+    },
+    {
+      "id": "booking_confirmation_md_exists",
+      "check_type": "deterministic_exact",
+      "description": "outputs/booking_confirmation.md exists and is non-empty."
+    },
+    {
+      "id": "search_*_correct",
+      "check_type": "deterministic_exact",
+      "description": "8-9 atomic checks on state.searchData: origin/dest country+city, cargo type, container size+qty, goods value within $1000 of expected, non-hazardous (booking/booking-fastest)."
+    },
+    {
+      "id": "services_*_correct",
+      "check_type": "deterministic_exact",
+      "description": "3 atomic checks: insurance, customs, bond_type all match expected."
+    },
+    {
+      "id": "quote_selection_correct",
+      "check_type": "deterministic_exact",
+      "description": "state.selectedQuoteId == expected_answer.optimal_quote.id (or correct_answer.quote_id for booking-rated)."
+    },
+    {
+      "id": "booking_confirmed",
+      "check_type": "deterministic_exact",
+      "description": "state.bookingConfirmed == true."
+    },
+    {
+      "id": "shipment_id_present",
+      "check_type": "deterministic_exact",
+      "description": "state.shipmentId is non-empty."
+    },
+    {
+      "id": "verification_*_correct",
+      "check_type": "deterministic_exact",
+      "description": "6-8 atomic checks: pickup/delivery company/contact/email/country match expected (task-specific)."
+    },
+    {
+      "id": "report_*",
+      "check_type": "deterministic_exact",
+      "description": "4 structural checks on booking_confirmation.md: cites shipment_id, selected quote_id, seller name, includes ≥1 money/number figure. No length minimum."
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "checks": [
+    {
+      "id": "summary_doc_exists",
+      "entity": "documents",
+      "match": {},
+      "expect": {
+        "custom_note": "A summary/triage summary doc should exist"
+      }
+    },
+    {
+      "id": "no_comment_po_8801",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-000"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8802",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-001"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8803",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-002"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8804",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-003"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8805",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-004"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "triage_exists_po_8806",
+      "entity": "documents",
+      "match": {},
+      "expect": {
+        "custom_note": "Triage doc for PO-8806 should exist"
+      }
+    },
+    {
+      "id": "comment_on_po_8806",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-005"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "triage_exists_po_8807",
+      "entity": "documents",
+      "match": {},
+      "expect": {
+        "custom_note": "Triage doc for PO-8807 should exist"
+      }
+    },
+    {
+      "id": "comment_on_po_8807",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-006"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "no_comment_po_8808",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-007"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8809",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-008"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "triage_exists_po_8810",
+      "entity": "documents",
+      "match": {},
+      "expect": {
+        "custom_note": "Triage doc for PO-8810 should exist"
+      }
+    },
+    {
+      "id": "comment_on_po_8810",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-009"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "no_comment_po_8811",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-010"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8812",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-011"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8813",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-012"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "triage_exists_po_8814",
+      "entity": "documents",
+      "match": {},
+      "expect": {
+        "custom_note": "Triage doc for PO-8814 should exist"
+      }
+    },
+    {
+      "id": "comment_on_po_8814",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-013"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "no_comment_po_8815",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-014"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "triage_exists_po_8816",
+      "entity": "documents",
+      "match": {},
+      "expect": {
+        "custom_note": "Triage doc for PO-8816 should exist"
+      }
+    },
+    {
+      "id": "comment_on_po_8816",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-015"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "no_comment_po_8817",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-016"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8818",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-017"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8819",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-018"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8820",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-019"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "triage_exists_po_8821",
+      "entity": "documents",
+      "match": {},
+      "expect": {
+        "custom_note": "Triage doc for PO-8821 should exist"
+      }
+    },
+    {
+      "id": "comment_on_po_8821",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-020"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "no_comment_po_8822",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-021"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8823",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-022"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8824",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-023"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8825",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-024"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8826",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-025"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8827",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-026"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "triage_exists_po_8828",
+      "entity": "documents",
+      "match": {},
+      "expect": {
+        "custom_note": "Triage doc for PO-8828 should exist"
+      }
+    },
+    {
+      "id": "comment_on_po_8828",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-027"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "no_comment_po_8829",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-028"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8830",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-029"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "no_comment_po_8831",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-030"
+      },
+      "expect": {
+        "count": 0
+      }
+    },
+    {
+      "id": "triage_exists_po_8832",
+      "entity": "documents",
+      "match": {},
+      "expect": {
+        "custom_note": "Triage doc for PO-8832 should exist"
+      }
+    },
+    {
+      "id": "comment_on_po_8832",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-031"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "template_unmodified",
+      "entity": "documents",
+      "match": {
+        "nodeId": "doc-triage-tmpl"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "[PO NUMBER]",
+            "Recommended Action",
+            "Severity"
+          ]
+        }
+      }
+    },
+    {
+      "id": "no_triage_closed_po",
+      "entity": "comments",
+      "match": {
+        "nodeId": "po-closed-noise"
+      },
+      "expect": {
+        "count": 0
+      }
+    }
+  ]
+}

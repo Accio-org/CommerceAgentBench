@@ -1,0 +1,29 @@
+#!/usr/bin/env bun
+/**
+ * bin/jira — Jira CLI mock entry point.
+ * Shadows github.com/ankitpokhrel/jira-cli.
+ *
+ * Uses bun:sqlite for state persistence. All state lives in a local SQLite
+ * database; no network calls.
+ *
+ * Env vars:
+ *   JIRA_MOCK_HOME     — base dir for config + DB (default: script dir's parent)
+ *   JIRA_MOCK_DB       — explicit DB path
+ *   JIRA_CONFIG_FILE   — explicit config file path
+ *   JIRA_API_TOKEN     — API token (any non-empty value accepted)
+ *   JIRA_LOGIN         — fallback login if config not set
+ *   JIRA_SERVER        — fallback server URL
+ *   JIRA_DEFAULT_PROJECT — fallback default project key
+ */
+
+import { dispatch } from "../lib/commands/_dispatch.js";
+
+try {
+  dispatch(process.argv.slice(2));
+} catch (err) {
+  // Mirror cmdutil.ExitIfError's generic branch: "Error: %s" on stderr, no ✗
+  // marker (internal/cmdutil/utils.go:48,52). This only fires on unexpected
+  // mock-internal exceptions; normal command errors exit via their own paths.
+  process.stderr.write(`Error: ${err.message}\n`);
+  process.exit(1);
+}

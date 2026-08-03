@@ -1,0 +1,130 @@
+{
+  "brand": {
+    "company_en": "Hebei Hengyan Lifting Machinery Co., Ltd.",
+    "brand": "HENGYAN",
+    "positioning": "Industrial lifting machinery for overseas B2B buyers",
+    "markets": ["United States", "European Union", "Southeast Asia"],
+    "tone": "engineering-grade, reliable, practical",
+    "unsupported_claims": [
+      "Do not claim CE, ISO, TUV, OSHA, UL, or third-party certifications; no certificate evidence is provided in this local brief.",
+      "Do not claim exact annual output, founded year, patent count, or named customers; no source evidence is provided."
+    ]
+  },
+  "hero": {
+    "headline": "Engineering Reliable Lifting Systems for Global Workshops",
+    "subheadline": "Overhead cranes, gantry cranes, hoists, winches, and supporting lifting components for factories, yards, ports, and maintenance teams."
+  },
+  "products": [
+    {
+      "id": "HY-OHC-20",
+      "name": "Overhead Crane",
+      "category": "crane",
+      "capacity": "5-20 ton",
+      "buyer_use": "factory bay material handling",
+      "key_points": ["box-girder structure", "stable travel control", "custom span planning"],
+      "inquiry_prompt": "Share span, lifting height, runway length, duty cycle, and power supply."
+    },
+    {
+      "id": "HY-GANTRY-32",
+      "name": "Gantry Crane",
+      "category": "crane",
+      "capacity": "10-32 ton",
+      "buyer_use": "outdoor yards, precast plants, and loading zones",
+      "key_points": ["outdoor steel frame", "ground rail or rubber-tyred options", "wind-aware operating plan"],
+      "inquiry_prompt": "Share working width, outdoor conditions, rail plan, and maximum load."
+    },
+    {
+      "id": "HY-EHOIST-5",
+      "name": "Electric Hoist",
+      "category": "hoist",
+      "capacity": "1-5 ton",
+      "buyer_use": "workstation lifting and crane replacement parts",
+      "key_points": ["compact lifting unit", "wire-rope and chain options", "easy maintenance access"],
+      "inquiry_prompt": "Share lifting height, speed preference, suspension type, and voltage."
+    },
+    {
+      "id": "HY-WINCH-10",
+      "name": "Winch",
+      "category": "winch",
+      "capacity": "3-10 ton",
+      "buyer_use": "pulling, positioning, and maintenance operations",
+      "key_points": ["heavy-duty drum", "site-specific rope length", "braking configuration"],
+      "inquiry_prompt": "Share pulling load, rope length, duty cycle, and environment."
+    },
+    {
+      "id": "HY-JIB-3",
+      "name": "Jib Crane",
+      "category": "crane",
+      "capacity": "0.5-3 ton",
+      "buyer_use": "local workstation loading and tool maintenance",
+      "key_points": ["floor or wall mounted", "compact rotation area", "fast workstation deployment"],
+      "inquiry_prompt": "Share arm length, rotation angle, foundation condition, and load."
+    },
+    {
+      "id": "HY-CRAB-16",
+      "name": "Crab Trolley",
+      "category": "component",
+      "capacity": "5-16 ton",
+      "buyer_use": "bridge crane modernization and spare assemblies",
+      "key_points": ["travel trolley assembly", "compatible hoist package", "replacement planning support"],
+      "inquiry_prompt": "Share existing rail gauge, wheelbase, hoist model, and control cabinet details."
+    }
+  ],
+  "cases": [
+    {
+      "id": "CASE-SEA-YARD",
+      "title": "Southeast Asia Outdoor Yard Handling",
+      "product_id": "HY-GANTRY-32",
+      "challenge": "A steel distributor needed stable outdoor handling during rainy-season loading windows.",
+      "solution": "Gantry crane concept with outdoor operating notes and rail layout discussion.",
+      "metric": "Designed around 32-ton peak load planning."
+    },
+    {
+      "id": "CASE-EU-WORKSHOP",
+      "title": "EU Workshop Bay Upgrade",
+      "product_id": "HY-OHC-20",
+      "challenge": "A fabrication workshop needed a safer internal handling route for long assemblies.",
+      "solution": "Overhead crane page explains span, runway, and lifting-height questions for quotation.",
+      "metric": "Built around 20-ton class material flow."
+    },
+    {
+      "id": "CASE-US-MAINT",
+      "title": "US Maintenance Cell Hoist Replacement",
+      "product_id": "HY-EHOIST-5",
+      "challenge": "Maintenance teams needed compact replacement hoists with clear voltage and mounting checks.",
+      "solution": "Electric hoist inquiry path asks for voltage, lift height, and suspension details.",
+      "metric": "Targets 1-5 ton workstation lifting."
+    },
+    {
+      "id": "CASE-PORT-WINCH",
+      "title": "Port Equipment Positioning Winch",
+      "product_id": "HY-WINCH-10",
+      "challenge": "A port maintenance contractor needed a pulling unit for controlled equipment positioning.",
+      "solution": "Winch content highlights rope length, brake configuration, and environment details.",
+      "metric": "Covers 3-10 ton pulling scenarios."
+    }
+  ],
+  "news": [
+    {
+      "id": "NEWS-INQUIRY-CHECKLIST",
+      "title": "How to Prepare a Crane Inquiry for Faster Engineering Review",
+      "summary": "A practical checklist covering span, lifting height, duty cycle, voltage, and site constraints."
+    },
+    {
+      "id": "NEWS-HOIST-SELECTION",
+      "title": "Wire Rope Hoist vs Chain Hoist: What Buyers Should Confirm First",
+      "summary": "A buyer-facing comparison of load, speed, mounting, and maintenance considerations."
+    },
+    {
+      "id": "NEWS-YARD-SAFETY",
+      "title": "Outdoor Gantry Planning Notes for Wind, Rail, and Ground Conditions",
+      "summary": "A short guide to information Hengyan needs before recommending an outdoor lifting layout."
+    }
+  ],
+  "contact": {
+    "email": "export@hengyan-lifting.example",
+    "phone": "+86-312-0000-000",
+    "address": "Hebei Province, China",
+    "inquiry_fields": ["name", "company", "email", "product_interest", "load_capacity", "message"]
+  }
+}

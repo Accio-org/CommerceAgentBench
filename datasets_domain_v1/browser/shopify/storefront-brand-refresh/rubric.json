@@ -1,0 +1,6 @@
+{
+  "schema_version": "2.0",
+  "grading": "deterministic_script",
+  "minimum_pass_score": 1.0,
+  "notes": "Host-side verifier reads /api/state with verifier-token access from the v2 mock. Theme settings paths determine reward; declared event checks are reported as diagnostics only."
+}

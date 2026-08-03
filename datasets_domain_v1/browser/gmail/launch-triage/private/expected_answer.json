@@ -1,0 +1,198 @@
+{
+  "task_id": "browser-gmail-launch-triage",
+  "label": {
+    "name": "ALP-26",
+    "parent_name": "Launch"
+  },
+  "label_required_message_ids": [
+    "alp-001-brief",
+    "alp-002-fcc",
+    "alp-003-logistics-final",
+    "alp-005-finance",
+    "alp-006-creative",
+    "alp-007-support",
+    "alp-008-sku",
+    "alp-009-msds",
+    "alp-010-exec-hold"
+  ],
+  "label_forbidden_message_ids": [
+    "alp-004-logistics-stale",
+    "decoy-001-alp25",
+    "decoy-002-near-sender",
+    "decoy-003-vendor-news",
+    "decoy-004-ap-old"
+  ],
+  "mark_read_message_ids": [
+    "alp-001-brief",
+    "alp-002-fcc",
+    "alp-003-logistics-final",
+    "alp-005-finance",
+    "alp-006-creative",
+    "alp-007-support",
+    "alp-008-sku",
+    "alp-009-msds",
+    "alp-010-exec-hold"
+  ],
+  "star_required_message_ids": [
+    "alp-002-fcc",
+    "alp-003-logistics-final",
+    "alp-005-finance",
+    "alp-009-msds"
+  ],
+  "star_forbidden_message_ids": [
+    "alp-004-logistics-stale",
+    "decoy-001-alp25",
+    "decoy-002-near-sender",
+    "decoy-003-vendor-news"
+  ],
+  "drafts": [
+    {
+      "id": "compliance",
+      "to": [
+        "mei.chen@lumenlabs.test"
+      ],
+      "cc_any": [
+        "alice.li@auroraretail.test",
+        "ops-launch@auroraretail.test"
+      ],
+      "subject_all": [
+        "ALP-26",
+        "FCC"
+      ],
+      "body_all": [
+        "W2K-4529",
+        "Nova Home LLC",
+        "Aurora Retail Ltd",
+        "18:00 HKT"
+      ]
+    },
+    {
+      "id": "logistics",
+      "to": [
+        "leon.wu@northport-3pl.test"
+      ],
+      "cc_any": [
+        "ops-launch@auroraretail.test"
+      ],
+      "subject_all": [
+        "ALP-26",
+        "pickup"
+      ],
+      "body_all": [
+        "118 cartons",
+        "WH-3",
+        "14:30-16:00 HKT",
+        "ALP26-DCK-118"
+      ]
+    },
+    {
+      "id": "creative",
+      "to": [
+        "nora.patel@auroraretail.test"
+      ],
+      "cc_any": [],
+      "subject_all": [
+        "ALP-26",
+        "PDP"
+      ],
+      "body_all": [
+        "ALP26_Hero_v7.jpg",
+        "ALP26_certified_claims.png",
+        "medical-grade",
+        "remove"
+      ]
+    },
+    {
+      "id": "finance",
+      "to": [
+        "ap-hold@auroraretail.test"
+      ],
+      "cc_any": [
+        "priya.raman@auroraretail.test",
+        "ops-launch@auroraretail.test"
+      ],
+      "subject_all": [
+        "AP-771",
+        "hold"
+      ],
+      "body_all": [
+        "18,420",
+        "PO line 4",
+        "recycled insert",
+        "W2K-4529"
+      ]
+    },
+    {
+      "id": "support",
+      "to": [
+        "vip-support@auroraretail.test"
+      ],
+      "cc_any": [],
+      "subject_all": [
+        "ALP-26",
+        "VIP"
+      ],
+      "body_all": [
+        "37",
+        "June 23",
+        "opt-out",
+        "MSDS"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "title_all": [
+        "FCC",
+        "W2K-4529"
+      ],
+      "details_all": [
+        "Mei",
+        "18:00 HKT",
+        "Aurora Retail"
+      ],
+      "due_any": [
+        "今天",
+        "today",
+        "2025-06-19"
+      ]
+    },
+    {
+      "title_all": [
+        "MSDS",
+        "air"
+      ],
+      "details_all": [
+        "remove",
+        "air-shipment-ready",
+        "ALP-26"
+      ],
+      "due_any": [
+        "今天",
+        "today",
+        "2025-06-19"
+      ]
+    }
+  ],
+  "calendar_event": {
+    "title_all": [
+      "ALP-26",
+      "blocker"
+    ],
+    "date": "2025-06-19",
+    "start": "16:00",
+    "end": "17:00",
+    "guests_all": [
+      "alice.li@auroraretail.test",
+      "mei.chen@lumenlabs.test",
+      "leon.wu@northport-3pl.test",
+      "nora.patel@auroraretail.test"
+    ],
+    "description_all": [
+      "FCC",
+      "118 cartons",
+      "MSDS",
+      "AP-771"
+    ]
+  }
+}

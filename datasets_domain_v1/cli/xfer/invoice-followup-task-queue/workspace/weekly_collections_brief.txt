@@ -1,0 +1,32 @@
+From: AR Lead
+To: AR analysts
+Subject: Q3 Week 1 Collections Kickoff Brief
+Date: Monday, June 8, 2026
+
+Hi Team,
+
+Welcome to the Q3 kickoff for invoice collections. Please use Stripe as the
+source of truth for this week's unpaid invoices and keep the working queue in
+a fresh Todoist project for Q3 collections. The queue should focus only on
+finalized open invoices at or above our 300 USD follow-up threshold; amounts
+below 30000 in Stripe's smallest currency unit, draft invoices, paid invoices,
+and void invoices should stay out of the handoff queue.
+
+The updated workbook has the current ledger context, active tier-to-priority
+rules, industry label guidance, and the auxiliary lead roster. When there is a
+conflict, use the live Stripe customer description for the customer tier and
+collections lead.
+
+Please make the final Todoist project easy for AR teammates to take over in
+standup: urgent Tier A outreach should be easy to separate from standard
+Tier B/C follow-up, Tier A acknowledgement records should be clearly completed,
+and every record should carry enough Stripe identifiers to audit the same
+invoice again later.
+
+Let's ensure 100% accuracy on our outreach priorities this week. Let me know
+if you run into any issues.
+
+Best regards,
+
+Robert Harris
+AR Lead, Finance Operations

@@ -1,0 +1,23 @@
+Item,Value
+Sale Type,Per Set
+Price Unit,Set
+Price Mode,ladder
+FOB Type,FOB Ningbo
+FOB Min Price,8.50
+FOB Max Price,15.00
+Minimum Order Quantity,200
+Stock Quantity,50000
+Ladder Price Quantity 1,200-499
+Ladder Price Unit Price 1,15.00
+Ladder Price Quantity 2,500-1999
+Ladder Price Unit Price 2,12.00
+Ladder Price Quantity 3,2000-9999
+Ladder Price Unit Price 3,9.50
+Ladder Price Quantity 4,10000+
+Ladder Price Unit Price 4,8.50
+Delivery Period Quantity 1,200-500
+Delivery Period Days 1,10
+Delivery Period Quantity 2,501-2000
+Delivery Period Days 2,20
+Delivery Period Quantity 3,2001-10000
+Delivery Period Days 3,35

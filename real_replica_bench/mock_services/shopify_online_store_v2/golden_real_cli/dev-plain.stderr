@@ -1,0 +1,23 @@
+╭─ warning ────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  It doesn't seem like you're running this command in a theme directory.      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ success ────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  Preview your theme (t)                                                      │
+│    • [1]                                                                     │
+│                                                                              │
+│  Next steps                                                                  │
+│    • Share your theme preview (p) [2]                                        │
+│      https://i415x6-zf.myshopify.com/?preview_theme_id=159103910101          │
+│    • Customize your theme at the theme editor (e) [3]                        │
+│    • Preview your gift cards (g) [4]                                         │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[1] http://127.0.0.1:9292
+[2] https://i415x6-zf.myshopify.com/?preview_theme_id=159103910101
+[3] https://i415x6-zf.myshopify.com/admin/themes/159103910101/editor?hr=9292
+[4] http://127.0.0.1:9292/gift_cards/[store_id]/preview
+

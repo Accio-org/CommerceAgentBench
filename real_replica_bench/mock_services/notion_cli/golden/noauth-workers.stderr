@@ -1,0 +1,2 @@
+error: No workspace selected.
+  hint: Run `ntn login` first, or set NOTION_WORKSPACE_ID.

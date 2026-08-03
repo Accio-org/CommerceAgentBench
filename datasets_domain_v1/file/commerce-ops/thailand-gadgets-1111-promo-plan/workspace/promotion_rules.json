@@ -1,0 +1,49 @@
+{
+  "campaign": "11.11 Big Sale 2026",
+  "promo_period_days": 7,
+  "safety_buffer_multiplier": 1.3,
+  "exchange_rate_cny_to_thb": 4.80,
+  "target_margin_rate": 0.20,
+  "floor_margin_rate": 0.05,
+  "promo_tiers": {
+    "flash_sale": {
+      "discount_pct": 15,
+      "description": "Flash deal with countdown timer, highest visibility",
+      "eligibility": "avg_daily_units_30d >= platform.min_flash_sale_velocity on that platform",
+      "extra_platform_fee": "platform.flash_sale_extra_fee applies on top of regular fee",
+      "max_slots_per_platform": 4
+    },
+    "platform_voucher": {
+      "discount_pct": 10,
+      "description": "Platform-issued voucher, medium visibility",
+      "eligibility": "all SKUs eligible",
+      "extra_platform_fee": "none"
+    },
+    "normal_promo": {
+      "discount_pct": 5,
+      "description": "Seller markdown, basic promotion tag",
+      "eligibility": "all SKUs eligible",
+      "extra_platform_fee": "none"
+    }
+  },
+  "pricing_formula": {
+    "regular_price_thb": "landed_cost_thb / (1 - platform_fee_rate - target_margin_rate)",
+    "promo_price_thb": "regular_price_thb × (1 - discount_pct / 100)",
+    "floor_price_check": "promo_price × (1 - total_fee_rate_incl_flash) >= landed_cost × (1 + floor_margin_rate)",
+    "notes": [
+      "If regular_price > competitor_ceiling, cap at competitor_ceiling and recalculate actual_margin.",
+      "If floor_price_check fails for flash_sale, downgrade to platform_voucher; if still fails, downgrade to normal_promo; if still fails, best_promo_tier = none.",
+      "Best promo tier = highest discount tier that passes floor_price_check AND meets eligibility.",
+      "For flash_sale floor check, use total_fee = commission + transaction_fee + flash_sale_extra_fee.",
+      "For voucher/normal_promo floor check, use total_fee = commission + transaction_fee (no extra fee)."
+    ]
+  },
+  "allocation_output_rules": [
+    "Calculate required_units = ceil(daily_velocity × promo_period_days × safety_buffer_multiplier).",
+    "Allocation cost uses the warehouse-specific landed cost for units from each warehouse.",
+    "Total promo budget cap: 800000 THB (sum of all allocation_cost_thb across all platform-SKU combos).",
+    "If total exceeds budget, iteratively remove the platform-SKU combo with the lowest effective promo margin until budget is met.",
+    "Effective promo margin = (best_promo_price × (1 - total_platform_fee_for_that_tier) - landed_cost) / best_promo_price.",
+    "Remove whole combos, not partial units. After removal, set that combo's allocation to 0 and mark as skipped."
+  ]
+}

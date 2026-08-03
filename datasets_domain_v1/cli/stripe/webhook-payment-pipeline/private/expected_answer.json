@@ -1,0 +1,29 @@
+{
+  "webhooks": [
+    {
+      "url": "https://api.cloudmerch.io/webhooks/fulfillment",
+      "events": ["checkout.session.completed", "payment_intent.succeeded", "charge.succeeded"]
+    },
+    {
+      "url": "https://api.cloudmerch.io/webhooks/billing",
+      "events": ["invoice.paid", "invoice.payment_failed", "customer.subscription.created", "customer.subscription.deleted"]
+    },
+    {
+      "url": "https://api.cloudmerch.io/webhooks/finance",
+      "events": ["charge.refunded", "charge.succeeded", "payment_intent.payment_failed", "charge.failed"],
+      "_note": "charge.failed added in v2.1 update (buried in prose after the event list)"
+    }
+  ],
+  "test_customer": {
+    "name": "CloudMerch Integration Test",
+    "email": "integration-test@cloudmerch.io",
+    "metadata": {"env": "test", "pipeline_version": "2.1"}
+  },
+  "scenario_a": {
+    "charge_amount": 7500,
+    "refund_amount": 2500
+  },
+  "triggers": ["payment_intent.succeeded", "checkout.session.completed", "invoice.paid"],
+  "tax_rate_percentage": 8.875,
+  "shipping_rate_amount": 599
+}

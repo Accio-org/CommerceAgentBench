@@ -1,0 +1,43 @@
+schema_version = "2.0"
+
+[task]
+id = "cli-todoist-sourcing-schedule"
+name = "Todoist 采购 backlog 供应商能力覆盖分诊（Ready to PO / Re-source + capability-gap）"
+language = "en"
+entrypoint = "task.md"
+files_dir = "workspace"
+test = "grader/run.sh"
+rubric = "rubric.json"
+keywords = ["ecommerce", "sourcing", "procurement", "vendor", "capability", "coverage", "triage", "todoist", "cli", "mock"]
+difficulty = "hard"
+
+[agent]
+# 36 backlog cards solved through the Todoist CLI. Gold path is: discover project
+# and sections, list cards with IDs, `show` every card to read the hidden note, then
+# run 36 precise stateful modifies. The core CLI/API difficulty is using IDs, using
+# `--section-name` and replacement-style `--label-names` correctly, preserving the
+# exact active card set, and leaving Backlog empty without creating/closing/deleting
+# cards. Capability judgement remains present, but the verifier focuses on exact
+# Todoist state after real CLI operations.
+timeout_sec = 2700
+max_actions = 260
+
+[verifier]
+type = "script"
+timeout_sec = 180
+
+[environment]
+requires_vision = false
+requires_browser = false
+requires_network = false
+runtime_boundary = "closed_source_black_box"
+state_policy = "offline_or_mock_only"
+mock_services = true
+host_published_port = 3000
+base_images = ["acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859"]
+
+[environment.runtime_mocks.todoist_cli]
+kind = "cli"
+port = 3000
+isolate = true
+isolation_model = "daemon_cli"

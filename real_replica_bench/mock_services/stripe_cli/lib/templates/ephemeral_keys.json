@@ -1,0 +1,14 @@
+{
+  "id": "ephkey_1TdWQZCLKuX79GC2bnPaJ3U2",
+  "object": "ephemeral_key",
+  "associated_objects": [
+    {
+      "id": "cus_UclyqgYtV2ngfq",
+      "type": "customer"
+    }
+  ],
+  "created": 1780322571,
+  "expires": 1780326171,
+  "livemode": false,
+  "secret": "ek_test_YWNjdF8xVGNQekdDTEt1WDc5R0MyLFdvTXNHUWJ2NG9LZ1M3aDVvbGVaYVRadDRWRE9SM0I_007DeYGgz9"
+}

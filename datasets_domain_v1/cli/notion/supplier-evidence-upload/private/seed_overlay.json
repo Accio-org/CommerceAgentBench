@@ -1,0 +1,70 @@
+{
+  "entities": {
+    "pages": {
+      "page_supplier_queue": {
+        "id": "page_supplier_queue",
+        "parentType": "page",
+        "parentId": "page_root",
+        "title": "Supplier Certificate Review Queue",
+        "content": "# Supplier Certificate Review Queue\n\nUse the local packet files for the current June launch review. Only legal-hold packets should get handoff pages.",
+        "properties": {},
+        "archived": false,
+        "createdAt": "2026-05-29T09:00:00.000Z",
+        "updatedAt": "2026-06-01T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_lumen_old": {
+        "id": "page_lumen_old",
+        "parentType": "page",
+        "parentId": "page_supplier_queue",
+        "title": "Shenzhen Lumen Co. 2025 certificate archive",
+        "content": "# Shenzhen Lumen Co. 2025 certificate archive\n\nOld certificate record; do not reuse for the June launch.",
+        "properties": {},
+        "archived": false,
+        "createdAt": "2025-12-01T09:00:00.000Z",
+        "updatedAt": "2026-01-15T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      },
+      "page_approved_suppliers": {
+        "id": "page_approved_suppliers",
+        "parentType": "page",
+        "parentId": "page_root",
+        "title": "Approved supplier certificate handoffs",
+        "content": "# Approved supplier certificate handoffs\n\nPassing suppliers should not receive new legal-hold pages.",
+        "properties": {},
+        "archived": false,
+        "createdAt": "2026-05-20T09:00:00.000Z",
+        "updatedAt": "2026-05-31T09:00:00.000Z",
+        "createdBy": "usr_mock_001"
+      }
+    },
+    "files": {
+      "file_prior_lumen": {
+        "id": "file_prior_lumen",
+        "filename": "lumen-2025-certificate-archive.txt",
+        "status": "uploaded",
+        "contentType": "text/plain",
+        "contentLength": 93,
+        "externalUrl": null,
+        "createdAt": "2026-01-15T09:00:00.000Z",
+        "lastEdited": "2026-01-15T09:00:00.000Z",
+        "expiryTime": "2026-12-31T09:00:00.000Z"
+      },
+      "file_policy_snapshot": {
+        "id": "file_policy_snapshot",
+        "filename": "certificate-policy-snapshot.txt",
+        "status": "uploaded",
+        "contentType": "text/plain",
+        "contentLength": 75,
+        "externalUrl": null,
+        "createdAt": "2026-05-20T09:00:00.000Z",
+        "lastEdited": "2026-05-20T09:00:00.000Z",
+        "expiryTime": "2026-12-31T09:00:00.000Z"
+      }
+    }
+  },
+  "fileBlobs": {
+    "file_prior_lumen": "T2xkIDIwMjUgY2VydGlmaWNhdGUgcmVjb3JkIGZvciBTaGVuemhlbiBMdW1lbiBDby4gRG8gbm90IHVzZSBmb3IgdGhlIEp1bmUgbGF1bmNoLgo=",
+    "file_policy_snapshot": "TWF5IHBvbGljeSBzbmFwc2hvdDsgdXNlIHRoZSBsb2NhbCBKdW5lIHBhY2tldCBmaWxlcyBpbnN0ZWFkLgo="
+  }
+}

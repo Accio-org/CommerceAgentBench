@@ -1,0 +1,46 @@
+ARG BASE_IMAGE=commercecraftbench/openclaw:base-v1.3
+FROM ${BASE_IMAGE}
+
+# Legacy migration recipe retained for historical development only. It is not
+# the lineage or build path of the pinned RealReplicaBench v1.3.1 runtime.
+# Clear any proxy inherited from a caller-supplied legacy base.
+ENV http_proxy="" \
+    https_proxy="" \
+    HTTP_PROXY="" \
+    HTTPS_PROXY=""
+
+RUN mkdir -p /benchmark/private /task \
+             /opt/openclaw_proxy
+
+# Install Bun (used by screenshot_sidecar.ts and bundled mock services).
+# Copy a real binary into /usr/local/bin/bun (not a symlink) so the mocksvc
+# user can run it without /root/ traversal — see Dockerfile.all-mocks for
+# the same fix and rationale.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends unzip \
+    && rm -rf /var/lib/apt/lists/* \
+    && curl -fsSL https://bun.sh/install | bash \
+    && rm -f /usr/local/bin/bun \
+    && install -m 0755 "$(readlink -f /root/.bun/bin/bun || echo /root/.bun/bin/bun)" /usr/local/bin/bun \
+    && bun --version
+
+# Install OpenClaw v2026.5.22 on a caller-supplied legacy base. The 5.22 release
+# fundamentally changed the
+# browser stack:
+#   - `assets/chrome-extension/` removed; no Chrome extension shipped
+#   - `chrome-relay` profile and `driver=extension` no longer exist
+#   - browser tool now uses `driver=existing-session` + `cdpUrl` to attach
+#     to an already-running Chrome via raw CDP (no extension wrapper)
+# The harness side (cli.py) skips the EXTRA_LOAD_EXTENSIONS env var, the
+# extension copy/patch in this Dockerfile, and `attach_openclaw_ext.ts`
+# entirely on this image — see "OpenClaw v2026.5.22 Migration" in CLAUDE.md.
+RUN npm i -g openclaw@2026.5.22 \
+      --registry=https://registry.npmmirror.com \
+      --no-audit --no-fund \
+    && openclaw --version
+
+# OpenRouter shim sidecar (cli.py starts it when --openclaw-openrouter-shim
+# is set, or auto-starts it when --openclaw-thinking is set with an
+# openrouter/... model). cli.py also docker-cps the host-side file at run
+# time so dev iteration does not need an image rebuild.
+COPY proxy/openrouter_shim.py /opt/openclaw_proxy/openrouter_shim.py

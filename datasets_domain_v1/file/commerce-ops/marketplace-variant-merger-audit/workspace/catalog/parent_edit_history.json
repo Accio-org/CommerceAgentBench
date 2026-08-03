@@ -1,0 +1,20 @@
+{
+  "parent_sku": "TRAIL-750-PARENT",
+  "recent_events": [
+    {
+      "date": "2026-04-18",
+      "event": "variation_theme_locked",
+      "detail": "ColorName accepted by marketplace template"
+    },
+    {
+      "date": "2026-05-03",
+      "event": "black_child_suppressed_duplicate",
+      "detail": "TRAIL-750-BLK-OLD remains in archive with matching UPC family"
+    },
+    {
+      "date": "2026-05-18",
+      "event": "size_theme_rebuild_rejected",
+      "detail": "Prior rebuild attempt mixed 750ml and 1000ml without migration plan"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+analyst_id,name,email,region,max_cases
+A01,Zhang Wei,zhangwei@customs.example.com,East China,5
+A02,Li Na,lina@customs.example.com,South China,5
+A03,Wang Jun,wangjun@customs.example.com,East China,4
+A04,Chen Hui,chenhui@customs.example.com,Central Asia,4
+A05,Liu Yang,liuyang@customs.example.com,South China,3
+A06,Zhao Min,zhaomin@customs.example.com,General,6

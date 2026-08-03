@@ -1,0 +1,6 @@
+From: no-reply@calendly.example
+To: wen.li@northstar-dtc.com
+Date: Thu, 14 May 2026 12:17
+Subject: Standup notes — Tue
+
+Quick recap from standup: API migration on track, QA backlog at 12 tickets, nothing blocking. Ping me if you need the Jira board.

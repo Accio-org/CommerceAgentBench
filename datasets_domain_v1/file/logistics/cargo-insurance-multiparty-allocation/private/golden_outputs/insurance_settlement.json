@@ -1,0 +1,58 @@
+{
+  "settlements": [
+    {
+      "customer_id": "LINNEA",
+      "gross_claim_usd": 12800.00,
+      "reduction_from_claim_usd": 500.00,
+      "paid_usd": 12300.00,
+      "status": "paid_partial",
+      "insurer": "PingAn",
+      "reason_short": "Loss covered under ICC(A) all-risks (PingAn policy PA-MAR-CN-2026-04217, sum insured 110% = USD 26,400). USD 500 absolute deductible applied once per event. No commodity exclusion engaged for teak furniture water damage."
+    },
+    {
+      "customer_id": "JONAS",
+      "gross_claim_usd": 0.00,
+      "reduction_from_claim_usd": 0.00,
+      "paid_usd": 0.00,
+      "status": "no_claim",
+      "insurer": "Allianz",
+      "reason_short": "No damage observed on any of the 8 rubber gasket cartons (J01-J08, top tier front, all dry per surveyor). No payable claim under Allianz ICC(B) policy AL-DE-MAR-2026-008842; no FOB-side insurance event to settle."
+    },
+    {
+      "customer_id": "MAHMOUD",
+      "gross_claim_usd": 26100.00,
+      "reduction_from_claim_usd": 26100.00,
+      "paid_usd": 0.00,
+      "status": "escalate_surveyor",
+      "insurer": "Sinosure",
+      "reason_short": "Cotton-linen blend garments fall within Sinosure SC-NFT-2024-Rev3 natural-fibre textile moisture exclusion rider, which overrides ICC(A). Surveyor's no-gross-negligence finding means the override condition is not satisfied. Escalation path: commission an independent surveyor's report specifically addressing gross negligence of the carrier — if obtained, the 26,100 claim could be revisited."
+    },
+    {
+      "customer_id": "OCEANTECH",
+      "gross_claim_usd": 5400.00,
+      "reduction_from_claim_usd": 5400.00,
+      "paid_usd": 0.00,
+      "status": "denied",
+      "insurer": "BaoViet",
+      "reason_short": "Ordinary water damage in transit is not within the ICC(C) named-perils list (BaoViet BV-MAR-2026-VN-117344, narrowest of the three ICC tiers). No vessel grounding / sinking / capsizing / collision / jettison engaged. Would have been covered under ICC(B) had OceanTech elected the wider clause at policy inception. No coverage under the policy as written; no further surveyor evidence can cure the scope gap."
+    },
+    {
+      "customer_id": "VERDE",
+      "gross_claim_usd": 7200.00,
+      "reduction_from_claim_usd": 5200.00,
+      "paid_usd": 2000.00,
+      "status": "paid_partial",
+      "insurer": "Mapfre",
+      "reason_short": "Mapfre MF-CL-MAR-2026-09812 ICC(A) covers the loss; no deductible applies (primer-comprador programme). However, clause MF-SUB-2025-08 caps the per-event aggregate at USD 2,000 — the single insurable event (water-ingress in container OCEAN-2026-04-V552) reduces the 7,200 gross claim to a 2,000 payout. Reduction = 5,200 capped."
+    }
+  ],
+  "summary": {
+    "total_gross_claim_usd": 51500.00,
+    "total_paid_usd": 14300.00,
+    "total_reduction_usd": 37200.00,
+    "count_paid": 2,
+    "count_denied": 2,
+    "count_no_claim": 1,
+    "container_cap_check": true
+  }
+}

@@ -1,0 +1,2018 @@
+{
+  "_meta": {
+    "engine": "amazon",
+    "query": "clip on bluetooth earbuds",
+    "sort": "exact-aware-popularity-rank",
+    "fetched_at": 1779444373
+  },
+  "payload": {
+    "search_metadata": {
+      "id": "6a102a93124815fb3c37aea0",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/djT6fx5gTlZrIqpFFchwzg/6a102a93124815fb3c37aea0.json",
+      "created_at": "2026-05-22 10:06:11 UTC",
+      "processed_at": "2026-05-22 10:06:11 UTC",
+      "amazon_url": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&s=exact-aware-popularity-rank",
+      "raw_html_file": "https://serpapi.com/searches/djT6fx5gTlZrIqpFFchwzg/6a102a93124815fb3c37aea0.html",
+      "total_time_taken": 0.89
+    },
+    "search_parameters": {
+      "engine": "amazon",
+      "k": "clip on bluetooth earbuds",
+      "amazon_domain": "amazon.com",
+      "s": "exact-aware-popularity-rank",
+      "device": "desktop"
+    },
+    "search_information": {
+      "total_results": 822,
+      "query_displayed": "clip on bluetooth earbuds",
+      "store": "gateway",
+      "page": 1
+    },
+    "organic_results": [
+      {
+        "position": 1,
+        "asin": "B0BTYCJXBK",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0BTYCJXBK",
+              "title": "White",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYCJXBK/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-1"
+            },
+            {
+              "position": 2,
+              "asin": "B0BTYCRJSS",
+              "title": "Black",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYCRJSS/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-1"
+            },
+            {
+              "position": 3,
+              "asin": "B0BTYDLTM3",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYDLTM3/ref=cs_sr_dp_loc_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-1"
+            },
+            {
+              "position": 4,
+              "asin": "B0D5HSP346",
+              "title": "Light Blue",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0D5HSP346/ref=cs_sr_dp_loc_4?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-1"
+            },
+            {
+              "position": 5,
+              "asin": "B0D5HN8B1F",
+              "title": "Pink",
+              "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0D5HN8B1F/ref=cs_sr_dp_loc_5?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-1"
+            }
+          ]
+        },
+        "title": "Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization (White)",
+        "link": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYCJXBK/ref=sr_1_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-1",
+        "link_clean": "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Water-Resistant-Customization/dp/B0BTYCJXBK/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BTYCJXBK&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/41hED0cR6tL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 105900,
+        "bought_last_month": "5K+ bought in past month",
+        "price": "$20.99",
+        "extracted_price": 20.99,
+        "old_price": "$39.99",
+        "extracted_old_price": 39.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "more_buying_choices": "$19.39 (2 new offers)",
+        "more_buying_choices_link": "https://www.amazon.com/gp/offer-listing/B0BTYCJXBK/ref=sr_1_1_olp?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-1"
+      },
+      {
+        "position": 2,
+        "asin": "B0F8J38VRR",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0F8J38VRR",
+              "title": "Rose Gold",
+              "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0F8J38VRR/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-2"
+            },
+            {
+              "position": 2,
+              "asin": "B0FK2B6WXR",
+              "title": "Black",
+              "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0FK2B6WXR/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-2"
+            },
+            {
+              "position": 3,
+              "asin": "B0FD2FP8ZX",
+              "title": "Purple",
+              "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0FD2FP8ZX/ref=cs_sr_dp_loc_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-2"
+            },
+            {
+              "position": 4,
+              "asin": "B0FX21MGWY",
+              "title": "White",
+              "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0FX21MGWY/ref=cs_sr_dp_loc_4?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-2"
+            }
+          ]
+        },
+        "title": "Kinglucky Upgraded Clip-On Earbuds Bluetooth 6.0 Wireless Headphones Open Ear Buds Comfortable Fit & Crystal-Clear Sound, 50H Playtime for Women & Kids Ideal for Small Ears, Sports, Glasses Rose Gold",
+        "link": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0F8J38VRR/ref=sr_1_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-2",
+        "link_clean": "https://www.amazon.com/Kinglucky-Comfortable-Crystal-Clear-Bluetooth-Headphones/dp/B0F8J38VRR/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8J38VRR&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/71KxrwBkQWL._AC_UY218_.jpg",
+        "rating": 4.5,
+        "reviews": 1200,
+        "bought_last_month": "4K+ bought in past month",
+        "price": "$27.99",
+        "extracted_price": 27.99,
+        "old_price": "$35.99",
+        "extracted_old_price": 35.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Carbon impact",
+            "snippet": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+            "thumbnail": "https://m.media-amazon.com/images/I/61sxI+4PZlL._SS200_.png",
+            "certified_by": "ClimeCo Certified",
+            "certified_info": "ClimeCo certifies products whose carbon emissions have been assessed, verified, decarbonized, and are on a committed path towards continual emissions reductions. Companies may pursue emissions reductions for products through various means such as sustainable manufacturing practices, supply chain sustainability, raw materials innovation, renewable energy use, insetting, sustainable transportation and packaging."
+          }
+        ]
+      },
+      {
+        "position": 3,
+        "asin": "B0D9M7VQ47",
+        "badges": [
+          "Ends in 20:53:47"
+        ],
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0D9M7VQ47",
+              "title": "Purple",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0D9M7VQ47/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-3"
+            },
+            {
+              "position": 2,
+              "asin": "B0D9VD6ZL2",
+              "title": "Black",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0D9VD6ZL2/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-3"
+            },
+            {
+              "position": 3,
+              "asin": "B0DYD15SPF",
+              "title": "Light White",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0DYD15SPF/ref=cs_sr_dp_loc_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-3"
+            },
+            {
+              "position": 4,
+              "asin": "B0F93CBR98",
+              "title": "Pink",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0F93CBR98/ref=cs_sr_dp_loc_4?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-3"
+            },
+            {
+              "position": 5,
+              "asin": "B0FXWPT4RZ",
+              "title": "White",
+              "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0FXWPT4RZ/ref=cs_sr_dp_loc_5?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-3"
+            }
+          ]
+        },
+        "title": "King Lucky Clip-On Earbuds Gen 3, Open-Ear Wireless Bluetooth 6.0 Headphones with Mic, Secure Fit for Small Ears & Glasses Wearers, 50H Playtime, ENC, IPX5 Waterproof Sport Ear Buds (Purple)",
+        "link": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0D9M7VQ47/ref=sr_1_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-3",
+        "link_clean": "https://www.amazon.com/King-Lucky-Bluetooth-Headphones-Waterproof/dp/B0D9M7VQ47/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D9M7VQ47&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/71KwnFBYryL._AC_UY218_.jpg",
+        "rating": 4.2,
+        "reviews": 6300,
+        "bought_last_month": "3K+ bought in past month",
+        "price": "$21.72",
+        "extracted_price": 21.72,
+        "old_price": "$26.98",
+        "extracted_old_price": 26.98,
+        "delivery": [
+          "Join Prime to get FREE delivery Sun, May 24",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Carbon impact",
+            "snippet": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+            "thumbnail": "https://m.media-amazon.com/images/I/61sxI+4PZlL._SS200_.png",
+            "certified_by": "ClimeCo Certified",
+            "certified_info": "ClimeCo certifies products whose carbon emissions have been assessed, verified, decarbonized, and are on a committed path towards continual emissions reductions. Companies may pursue emissions reductions for products through various means such as sustainable manufacturing practices, supply chain sustainability, raw materials innovation, renewable energy use, insetting, sustainable transportation and packaging."
+          }
+        ]
+      },
+      {
+        "position": 4,
+        "asin": "B0F62TV3ZW",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0F62TV3ZW",
+              "title": "Black",
+              "link": "https://www.amazon.com/Headphones-Ergonomic-Bluetooth-Playtime-Waterproof/dp/B0F62TV3ZW/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-4"
+            },
+            {
+              "position": 2,
+              "asin": "B0F9K6YQ3K",
+              "title": "Beige",
+              "link": "https://www.amazon.com/Headphones-Ergonomic-Bluetooth-Playtime-Waterproof/dp/B0F9K6YQ3K/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-4"
+            }
+          ]
+        },
+        "title": "OHAYO Open Ear Headphones,Over Ear Earbuds with Ergonomic Earhook,Bluetooth Headphones 5.4 with Smart Digital Display,40H Playtime,IPX6 Waterproof,Touch Control Operate Fit Cycling,Running,Workout",
+        "link": "https://www.amazon.com/Headphones-Ergonomic-Bluetooth-Playtime-Waterproof/dp/B0F62TV3ZW/ref=sr_1_4?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-4",
+        "link_clean": "https://www.amazon.com/Headphones-Ergonomic-Bluetooth-Playtime-Waterproof/dp/B0F62TV3ZW/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F62TV3ZW&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/61jC7oIl5IL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 2100,
+        "bought_last_month": "5K+ bought in past month",
+        "price": "$29.99",
+        "extracted_price": 29.99,
+        "old_price": "$49.99",
+        "extracted_old_price": 49.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 5,
+        "asin": "B0DHVH5KCB",
+        "options": "See options",
+        "options_link": "https://www.amazon.com/TOZO-OpenEarRing-Headphones-Lightweight-Bluetooth/dp/B0DHVH5KCB/ref=sr_1_5_so_HEADPHONES?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-5",
+        "title": "TOZO OpenEarRing True Open Ear Earbuds, Lightweight Comfort Open Ear Clip Wireless Earbuds, 40H Play Bluetooth 5.4 Headphones with Smart Digital Display Design Fit Sports Running, Workout Black",
+        "link": "https://www.amazon.com/TOZO-OpenEarRing-Headphones-Lightweight-Bluetooth/dp/B0DHVH5KCB/ref=sr_1_5?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-5",
+        "link_clean": "https://www.amazon.com/TOZO-OpenEarRing-Headphones-Lightweight-Bluetooth/dp/B0DHVH5KCB/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DHVH5KCB&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/61gDMS2fowL._AC_UY218_.jpg",
+        "rating": 4.2,
+        "reviews": 7200,
+        "bought_last_month": "4K+ bought in past month",
+        "price": "$26.99",
+        "extracted_price": 26.99,
+        "old_price": "$39.99",
+        "extracted_old_price": 39.99,
+        "offers": [
+          "Exclusive Prime price"
+        ],
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Recycled materials",
+            "snippet": "Contains at least 50% recycled material.",
+            "thumbnail": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS200_.png",
+            "certified_by": "Global Recycled Standard",
+            "certified_info": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly."
+          },
+          {
+            "position": 2,
+            "name": "Safer chemicals",
+            "snippet": "Made with chemicals safer for human health and the environment.",
+            "thumbnail": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS200_.png",
+            "certified_by": "Global Recycled Standard",
+            "certified_info": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly."
+          },
+          {
+            "position": 3,
+            "name": "Worker well-being",
+            "snippet": "Manufactured on farms or in facilities that protect the rights and/or health of workers.",
+            "thumbnail": "https://m.media-amazon.com/images/I/51IhSrucIyL._SS200_.png",
+            "certified_by": "Global Recycled Standard",
+            "certified_info": "Global Recycled Standard (GRS) certified products contain recycled content that has been independently verified at each stage of the supply chain, from the source to the final product and meet social, environmental, and chemical requirements. The purchase of Global Recycled Standard (GRS) certified products supports the use of recycled content in the supply chain. A product must contain at least 50% certified GRS material to qualify for inclusion in Climate Pledge Friendly."
+          }
+        ]
+      },
+      {
+        "position": 6,
+        "asin": "B0FKSV2GW2",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0FKSV2GW2",
+              "title": "Black",
+              "link": "https://www.amazon.com/Soundcore-Headphones-Waterproof-Bluetooth-FlexiClip/dp/B0FKSV2GW2/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-6"
+            },
+            {
+              "position": 2,
+              "asin": "B0GGZXN5XY",
+              "title": "Purple",
+              "link": "https://www.amazon.com/Soundcore-Headphones-Waterproof-Bluetooth-FlexiClip/dp/B0GGZXN5XY/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-6"
+            },
+            {
+              "position": 3,
+              "asin": "B0FKSY35WJ",
+              "title": "White",
+              "link": "https://www.amazon.com/Soundcore-Headphones-Waterproof-Bluetooth-FlexiClip/dp/B0FKSY35WJ/ref=cs_sr_dp_loc_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-6"
+            }
+          ]
+        },
+        "title": "Soundcore C50i by Anker Open Ear Earbuds, Clip-On Headphones Over Ear for Running Workout, 12mm Drivers Powerful Bass, IP55 Waterproof, Bluetooth 6.0 Hi-Res, FlexiClip Design",
+        "link": "https://www.amazon.com/Soundcore-Headphones-Waterproof-Bluetooth-FlexiClip/dp/B0FKSV2GW2/ref=sr_1_6?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-6",
+        "link_clean": "https://www.amazon.com/Soundcore-Headphones-Waterproof-Bluetooth-FlexiClip/dp/B0FKSV2GW2/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FKSV2GW2&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/61R-NgdII1L._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 1100,
+        "bought_last_month": "3K+ bought in past month",
+        "price": "$39.99",
+        "extracted_price": 39.99,
+        "old_price": "$69.99",
+        "extracted_old_price": 69.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ]
+      },
+      {
+        "position": 7,
+        "asin": "B09JC3S2PN",
+        "title": "bmani Ear Buds Wireless Earbuds Bluetooth Headphones with 80H Playtime LED Display Case, Over-Ear Hook with Mic, Stereo Sound, Easy Button Controls, Sports Earphones for Running Workout Gym Pink",
+        "link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphones-BMANI-VEAT00L/dp/B09JC3S2PN/ref=sr_1_7?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-7",
+        "link_clean": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphones-BMANI-VEAT00L/dp/B09JC3S2PN/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09JC3S2PN&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/710mzTUvUiL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 53900,
+        "bought_last_month": "3K+ bought in past month",
+        "price": "$39.99",
+        "extracted_price": 39.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ]
+      },
+      {
+        "position": 8,
+        "asin": "B0GYRWSDGV",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0GYRWSDGV",
+              "title": "Gloss Black",
+              "link": "https://www.amazon.com/Boytond-Ultra-Earbuds-Clip-Over/dp/B0GYRWSDGV/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-8"
+            },
+            {
+              "position": 2,
+              "asin": "B0H1BR7J7R",
+              "title": "Aurora Purple",
+              "link": "https://www.amazon.com/Boytond-Ultra-Earbuds-Clip-Over/dp/B0H1BR7J7R/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-8"
+            }
+          ]
+        },
+        "title": "Boytond Ultra Open Ear Earbuds - Comfortable Clip-On Bone Conduction Earbuds, Over-The-Ear Open Headphones with Waterproof Build for Running, Gym Workouts, and Outdoor Sports, Gloss Black",
+        "link": "https://www.amazon.com/Boytond-Ultra-Earbuds-Clip-Over/dp/B0GYRWSDGV/ref=sr_1_8?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-8",
+        "link_clean": "https://www.amazon.com/Boytond-Ultra-Earbuds-Clip-Over/dp/B0GYRWSDGV/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GYRWSDGV&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/61F8AKd3rPL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 25,
+        "bought_last_month": "New on Amazon in past month",
+        "price": "$39.99",
+        "extracted_price": 39.99,
+        "old_price": "$49.99",
+        "extracted_old_price": 49.99,
+        "save_with_coupon": "Save 50% with coupon",
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ]
+      },
+      {
+        "position": 9,
+        "asin": "B0G2LW2DQ4",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0G2LW2DQ4",
+              "title": "Black",
+              "link": "https://www.amazon.com/OHAYO-A7-Headphones-Glasses-Wearers/dp/B0G2LW2DQ4/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-9"
+            },
+            {
+              "position": 2,
+              "asin": "B0FF8ZT386",
+              "title": "Light Gray",
+              "link": "https://www.amazon.com/OHAYO-A7-Headphones-Glasses-Wearers/dp/B0FF8ZT386/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-9"
+            }
+          ]
+        },
+        "title": "OHAYO A7 Open Ear Clip-On Headphones for Glasses Wearers - Safe for Running & Streets, 4.7g Weightless Fit, 40H Battery, Bluetooth 5.4, Black",
+        "link": "https://www.amazon.com/OHAYO-A7-Headphones-Glasses-Wearers/dp/B0G2LW2DQ4/ref=sr_1_9?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-9",
+        "link_clean": "https://www.amazon.com/OHAYO-A7-Headphones-Glasses-Wearers/dp/B0G2LW2DQ4/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0G2LW2DQ4&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/61LBZ412GuL._AC_UY218_.jpg",
+        "rating": 4.6,
+        "reviews": 427,
+        "bought_last_month": "2K+ bought in past month",
+        "price": "$14.39",
+        "extracted_price": 14.39,
+        "old_price": "$15.19",
+        "extracted_old_price": 15.19,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 10,
+        "asin": "B0CHP177FN",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0CHP177FN",
+              "title": "Olive",
+              "link": "https://www.amazon.com/Bluetooth-Headphones-Wireless-Waterproof-Earphones/dp/B0CHP177FN/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-10"
+            },
+            {
+              "position": 2,
+              "asin": "B0C3W4MNN1",
+              "title": "Black",
+              "link": "https://www.amazon.com/Bluetooth-Headphones-Wireless-Waterproof-Earphones/dp/B0C3W4MNN1/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-10"
+            },
+            {
+              "position": 3,
+              "asin": "B0CHP1WLW4",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Bluetooth-Headphones-Wireless-Waterproof-Earphones/dp/B0CHP1WLW4/ref=cs_sr_dp_loc_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-10"
+            },
+            {
+              "position": 4,
+              "asin": "B0GXFFC5QJ",
+              "title": "Purple",
+              "link": "https://www.amazon.com/Bluetooth-Headphones-Wireless-Waterproof-Earphones/dp/B0GXFFC5QJ/ref=cs_sr_dp_loc_4?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-10"
+            },
+            {
+              "position": 5,
+              "asin": "B0GXFKD7YS",
+              "title": "Rose Gold",
+              "link": "https://www.amazon.com/Bluetooth-Headphones-Wireless-Waterproof-Earphones/dp/B0GXFKD7YS/ref=cs_sr_dp_loc_5?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-10"
+            },
+            {
+              "position": 6,
+              "asin": "B0C863HXJW",
+              "title": "Mint Green",
+              "link": "https://www.amazon.com/Bluetooth-Headphones-Wireless-Waterproof-Earphones/dp/B0C863HXJW/ref=cs_sr_dp_loc_6?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-10"
+            }
+          ],
+          "more_variants": "+2",
+          "more_variants_link": "https://www.amazon.com/Bluetooth-Headphones-Wireless-Waterproof-Earphones/dp/B0CHP177FN/ref=cs_sr_dp_loc_n?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-10"
+        },
+        "title": "PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime Wireless Charging Case Digital Display Sports Ear Buds with Earhook Deep Bass IPX7 Waterproof Over-Ear Earphones for TV Phone Laptop Olive",
+        "link": "https://www.amazon.com/Bluetooth-Headphones-Wireless-Waterproof-Earphones/dp/B0CHP177FN/ref=sr_1_10?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-10",
+        "link_clean": "https://www.amazon.com/Bluetooth-Headphones-Wireless-Waterproof-Earphones/dp/B0CHP177FN/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CHP177FN&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/71CmYtjpslL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 21100,
+        "bought_last_month": "2K+ bought in past month",
+        "price": "$25.99",
+        "extracted_price": 25.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 11,
+        "asin": "B0734S1YBS",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0734S1YBS",
+              "title": "Black",
+              "link": "https://www.amazon.com/Otium-Headphones-Bluetooth-Waterproof-Cancelling/dp/B0734S1YBS/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-11"
+            },
+            {
+              "position": 2,
+              "asin": "B07F336T8K",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Otium-Headphones-Bluetooth-Waterproof-Cancelling/dp/B07F336T8K/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-11"
+            },
+            {
+              "position": 3,
+              "asin": "B09YV4JVXZ",
+              "title": "Red",
+              "link": "https://www.amazon.com/Otium-Headphones-Bluetooth-Waterproof-Cancelling/dp/B09YV4JVXZ/ref=cs_sr_dp_loc_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-11"
+            },
+            {
+              "position": 4,
+              "asin": "B0B1HNC8J8",
+              "title": "Rose",
+              "link": "https://www.amazon.com/Otium-Headphones-Bluetooth-Waterproof-Cancelling/dp/B0B1HNC8J8/ref=cs_sr_dp_loc_4?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-11"
+            }
+          ]
+        },
+        "title": "Otium Bluetooth Earbuds Wireless Headphones Bluetooth Headphones, Sports Earbuds, IPX7 Waterproof Stereo Earphones for Gym Running 15 Hours Playtime Sound Isolation Headsets,Black",
+        "link": "https://www.amazon.com/Otium-Headphones-Bluetooth-Waterproof-Cancelling/dp/B0734S1YBS/ref=sr_1_11?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-11",
+        "link_clean": "https://www.amazon.com/Otium-Headphones-Bluetooth-Waterproof-Cancelling/dp/B0734S1YBS/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0734S1YBS&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/61rAAYgQq8L._AC_UY218_.jpg",
+        "rating": 4.3,
+        "reviews": 17100,
+        "bought_last_month": "1K+ bought in past month",
+        "price": "$23.99",
+        "extracted_price": 23.99,
+        "save_with_coupon": "Save $5.00 with coupon",
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ],
+        "more_buying_choices": "$15.90 (6 used & new offers)",
+        "more_buying_choices_link": "https://www.amazon.com/gp/offer-listing/B0734S1YBS/ref=sr_1_11_olp?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-11"
+      },
+      {
+        "position": 12,
+        "asin": "B0DP6YGW5F",
+        "badges": [
+          "Limited time deal"
+        ],
+        "title": "Ortizan Open Ear Headphones, Bluetooth 5.3 Wireless Air Conduction Headphones Sport Earbuds, Premium Sound, IPX6 Waterproof, Clear Call, 19g Lightweight Earphones for Running Cycling Workouts (Black)",
+        "link": "https://www.amazon.com/Ortizan-Headphones-Conduction-Waterproof-Lightweight/dp/B0DP6YGW5F/ref=sr_1_12?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-12",
+        "link_clean": "https://www.amazon.com/Ortizan-Headphones-Conduction-Waterproof-Lightweight/dp/B0DP6YGW5F/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DP6YGW5F&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/51-2eUG0pZL._AC_UY218_.jpg",
+        "rating": 4.3,
+        "reviews": 1200,
+        "bought_last_month": "1K+ bought in past month",
+        "price": "$25.98",
+        "extracted_price": 25.98,
+        "old_price": "$39.99",
+        "extracted_old_price": 39.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 13,
+        "asin": "B0GQRQ4D4T",
+        "badges": [
+          "Limited time deal"
+        ],
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0GQRQ4D4T",
+              "title": "Black",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphone-Waterproof/dp/B0GQRQ4D4T/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-13"
+            },
+            {
+              "position": 2,
+              "asin": "B0GL72RC7P",
+              "title": "Gray",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphone-Waterproof/dp/B0GL72RC7P/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-13"
+            },
+            {
+              "position": 3,
+              "asin": "B0GL7H1B5H",
+              "title": "Green",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphone-Waterproof/dp/B0GL7H1B5H/ref=cs_sr_dp_loc_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-13"
+            },
+            {
+              "position": 4,
+              "asin": "B0CRDXDJ78",
+              "title": "Misty Blue",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphone-Waterproof/dp/B0CRDXDJ78/ref=cs_sr_dp_loc_4?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-13"
+            },
+            {
+              "position": 5,
+              "asin": "B0GCHK2MYP",
+              "title": "Purple",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphone-Waterproof/dp/B0GCHK2MYP/ref=cs_sr_dp_loc_5?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-13"
+            },
+            {
+              "position": 6,
+              "asin": "B0GCJQNLTD",
+              "title": "Rose",
+              "link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphone-Waterproof/dp/B0GCJQNLTD/ref=cs_sr_dp_loc_6?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-13"
+            }
+          ],
+          "more_variants": "+1",
+          "more_variants_link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphone-Waterproof/dp/B0GQRQ4D4T/ref=cs_sr_dp_loc_n?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-13"
+        },
+        "title": "Wireless Earbuds Bluetooth 5.3 Headphones Sports, 48H Earphone with ENC Mic, Stereo Deep Bass Bluetooth Earbuds with Secure Earhooks, LED Display, IPX7 Waterproof Over Ear Buds for Running/Gym/Workout",
+        "link": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphone-Waterproof/dp/B0GQRQ4D4T/ref=sr_1_13?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-13",
+        "link_clean": "https://www.amazon.com/Wireless-Bluetooth-Headphones-Earphone-Waterproof/dp/B0GQRQ4D4T/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GQRQ4D4T&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/610RqF1vP4L._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 8300,
+        "bought_last_month": "1K+ bought in past month",
+        "price": "$26.00",
+        "extracted_price": 26.0,
+        "old_price": "$129.99",
+        "extracted_old_price": 129.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Sun, May 24",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 14,
+        "asin": "B0D31C567W",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0D31C567W",
+              "title": "Blue",
+              "link": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D31C567W/ref=cs_sr_dp_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-14"
+            },
+            {
+              "position": 2,
+              "asin": "B0D2XRXNGY",
+              "title": "Black",
+              "link": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D2XRXNGY/ref=cs_sr_dp_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-14"
+            },
+            {
+              "position": 3,
+              "asin": "B0D319J6T2",
+              "title": "White",
+              "link": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D319J6T2/ref=cs_sr_dp_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-14"
+            }
+          ]
+        },
+        "title": "soundcore V20i by Anker Open-Ear Headphones, Adjustable Ear Hooks, Ultra-Comfort, Snug Fit, Powerful Sound, Clear Calls, IP55, 36H Playtime, Bluetooth 5.4 Wireless Earbuds, Multipoint Connection",
+        "link": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D31C567W/ref=sr_1_14?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-14",
+        "link_clean": "https://www.amazon.com/Soundcore-Headphones-Adjustable-Ultra-Comfort-Multipoint/dp/B0D31C567W/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0D31C567W&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/51KzzdWPypL._AC_UY218_.jpg",
+        "rating": 4.4,
+        "reviews": 14900,
+        "bought_last_month": "1K+ bought in past month",
+        "price": "$31.99",
+        "extracted_price": 31.99,
+        "old_price": "$49.99",
+        "extracted_old_price": 49.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27 on $35 of items shipped by Amazon"
+        ]
+      },
+      {
+        "position": 15,
+        "asin": "B0FMRPKN3G",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0FMRPKN3G",
+              "title": "Cosmic Black",
+              "link": "https://www.amazon.com/Baseus-Inspire-XC1-Zero-Sense-Waterproof/dp/B0FMRPKN3G/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-15"
+            },
+            {
+              "position": 2,
+              "asin": "B0FMRP142L",
+              "title": "Starlight Off-White",
+              "link": "https://www.amazon.com/Baseus-Inspire-XC1-Zero-Sense-Waterproof/dp/B0FMRP142L/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-15"
+            },
+            {
+              "position": 3,
+              "asin": "B0GV3X89P4",
+              "title": "Titanium",
+              "link": "https://www.amazon.com/Baseus-Inspire-XC1-Zero-Sense-Waterproof/dp/B0GV3X89P4/ref=cs_sr_dp_loc_3?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-15"
+            }
+          ]
+        },
+        "title": "Baseus Inspire XC1 Open Ear Clip-On Earbuds, Sound by Bose, Dolby Audio, Adaptive Tunning Sound, Hybrid 2-Way Driver, Zero-Sense Air Cushion, 4-Mic Adaptive Clear Calls, IP66 Waterproof, 40H Playtime",
+        "link": "https://www.amazon.com/Baseus-Inspire-XC1-Zero-Sense-Waterproof/dp/B0FMRPKN3G/ref=sr_1_15?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-15",
+        "link_clean": "https://www.amazon.com/Baseus-Inspire-XC1-Zero-Sense-Waterproof/dp/B0FMRPKN3G/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FMRPKN3G&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/51rf8EwzQhL._AC_UY218_.jpg",
+        "rating": 4.3,
+        "reviews": 895,
+        "bought_last_month": "1K+ bought in past month",
+        "price": "$109.99",
+        "extracted_price": 109.99,
+        "old_price": "$129.99",
+        "extracted_old_price": 129.99,
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ],
+        "climate_pledge_friendly": true,
+        "sustainability_features": [
+          {
+            "position": 1,
+            "name": "Carbon impact",
+            "snippet": "Carbon emissions from the lifecycle of this product were measured, reduced and/or offset.",
+            "thumbnail": "https://m.media-amazon.com/images/I/117Gv10-Q1L._SS200_.png",
+            "certified_by": "ClimatePartner certified",
+            "certified_info": "The ClimatePartner certified product label confirms that a product meets the requirements for the five steps in climate action including calculating carbon footprints, setting reduction targets, implementing reductions, financing climate projects and communicating transparently to continuously reducing emissions."
+          }
+        ]
+      },
+      {
+        "position": 16,
+        "asin": "B0GXFMJ4T9",
+        "variants": {
+          "options": [
+            {
+              "position": 1,
+              "asin": "B0GXFMJ4T9",
+              "title": "Classic Black",
+              "link": "https://www.amazon.com/Boytond-Ultra-Earbuds-Clip-Over/dp/B0GXFMJ4T9/ref=cs_sr_dp_loc_1?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-16"
+            },
+            {
+              "position": 2,
+              "asin": "B0GXJRV4H7",
+              "title": "Elegant White",
+              "link": "https://www.amazon.com/Boytond-Ultra-Earbuds-Clip-Over/dp/B0GXJRV4H7/ref=cs_sr_dp_loc_2?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-16"
+            }
+          ]
+        },
+        "title": "Boytond Ultra Open Ear Earbuds - Comfortable Clip-On Bone Conduction Earbuds, Over-The-Ear Open Headphones with Waterproof Build for Running, Gym Workouts, and Outdoor Sports, Classic Black",
+        "link": "https://www.amazon.com/Boytond-Ultra-Earbuds-Clip-Over/dp/B0GXFMJ4T9/ref=sr_1_16?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-16",
+        "link_clean": "https://www.amazon.com/Boytond-Ultra-Earbuds-Clip-Over/dp/B0GXFMJ4T9/",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GXFMJ4T9&device=desktop&engine=amazon_product",
+        "thumbnail": "https://m.media-amazon.com/images/I/613WV7PR74L._AC_UY218_.jpg",
+        "rating": 4.1,
+        "reviews": 1400,
+        "bought_last_month": "1K+ bought in past month",
+        "price": "$39.99",
+        "extracted_price": 39.99,
+        "old_price": "$49.96",
+        "extracted_old_price": 49.96,
+        "save_with_coupon": "Save 50% with coupon",
+        "delivery": [
+          "Join Prime to get FREE delivery Tomorrow, May 23",
+          "Or Non-members get FREE delivery Wed, May 27"
+        ],
+        "more_buying_choices": "$39.98 (2 new offers)",
+        "more_buying_choices_link": "https://www.amazon.com/gp/offer-listing/B0GXFMJ4T9/ref=sr_1_16_olp?keywords=clip+on+bluetooth+earbuds&qid=1779444371&sr=8-16"
+      }
+    ],
+    "categories": [
+      {
+        "position": 1,
+        "name": "Books",
+        "link": "https://www.amazon.com/books-used-books-textbooks/b/?ie=UTF8&node=283155&ref_=nav_cs_books",
+        "node": "283155",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=283155"
+      },
+      {
+        "position": 2,
+        "name": "Gift Cards",
+        "link": "https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc",
+        "node": "2238192011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=2238192011"
+      },
+      {
+        "position": 3,
+        "name": "Sell",
+        "link": "https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell",
+        "node": "12766669011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=12766669011"
+      },
+      {
+        "position": 4,
+        "name": "Smart Home",
+        "link": "https://www.amazon.com/Smart-Home/b/?ie=UTF8&node=6563140011&ref_=nav_cs_smart_home",
+        "node": "6563140011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=6563140011"
+      },
+      {
+        "position": 5,
+        "name": "Fashion",
+        "link": "https://www.amazon.com/amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion",
+        "node": "7141123011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=7141123011"
+      },
+      {
+        "position": 6,
+        "name": "Amazon Home",
+        "link": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/?ie=UTF8&node=1055398&ref_=nav_cs_home",
+        "node": "1055398",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=1055398"
+      },
+      {
+        "position": 7,
+        "name": "Automotive",
+        "link": "https://www.amazon.com/automotive-auto-truck-replacements-parts/b/?ie=UTF8&node=15684181&ref_=nav_cs_automotive",
+        "node": "15684181",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=15684181"
+      },
+      {
+        "position": 8,
+        "name": "Toys & Games",
+        "link": "https://www.amazon.com/toys/b/?ie=UTF8&node=165793011&ref_=nav_cs_toys",
+        "node": "165793011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=165793011"
+      },
+      {
+        "position": 9,
+        "name": "Sports & Outdoors",
+        "link": "https://www.amazon.com/sports-outdoors/b/?ie=UTF8&node=3375251&ref_=nav_cs_sports",
+        "node": "3375251",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3375251"
+      },
+      {
+        "position": 10,
+        "name": "Home Improvement",
+        "link": "https://www.amazon.com/Tools-and-Home-Improvement/b/?ie=UTF8&node=228013&ref_=nav_cs_hi",
+        "node": "228013",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=228013"
+      },
+      {
+        "position": 11,
+        "name": "Baby",
+        "link": "https://www.amazon.com/baby-car-seats-strollers-bedding/b/?ie=UTF8&node=165796011&ref_=nav_cs_baby",
+        "node": "165796011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=165796011"
+      },
+      {
+        "position": 12,
+        "name": "Kindle Books",
+        "link": "https://www.amazon.com/Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books",
+        "node": "154606011",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=154606011"
+      },
+      {
+        "position": 13,
+        "name": "Beauty & Personal Care",
+        "link": "https://www.amazon.com/Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty",
+        "node": "3760911",
+        "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&node=3760911"
+      }
+    ],
+    "filters": {
+      "popular_shopping_ideas": [
+        {
+          "position": 1,
+          "name": "Ear",
+          "link": "https://www.amazon.com/s?k=bluetooth+earbuds+clip+on+ear&ref=sr_nr_p_rag_integrated_qb_0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=bluetooth+earbuds+clip+on+ear&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Bose",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds+bose&ref=sr_nr_p_rag_integrated_qb_1",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds+bose&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Jbl",
+          "link": "https://www.amazon.com/s?k=jbl+clip+on+bluetooth+earbuds&ref=sr_nr_p_rag_integrated_qb_2",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=jbl+clip+on+bluetooth+earbuds&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Sweatproof",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds+sweat+proof&ref=sr_nr_p_rag_integrated_qb_3",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds+sweat+proof&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Jlab",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds+jlab&ref=sr_nr_p_rag_integrated_qb_4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds+jlab&s=exact-aware-popularity-rank"
+        }
+      ],
+      "eligible_for_free_shipping": [
+        {
+          "position": 1,
+          "name": "Free Shipping by Amazon",
+          "description": "Get FREE Shipping on eligible orders shipped by Amazon",
+          "rh": "p_76:1249137011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_76%3A1249137011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=1249135011&ref=sr_nr_p_76_1&ds=v1%3AtbxcwMN0MWdDQGxG7o3hnl8%2B7%2BKwpjbhlfVY1Hr0m7U",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_76%3A1249137011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "delivery_day": [
+        {
+          "position": 1,
+          "name": "Get It Today",
+          "rh": "p_90:8308920011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_90%3A8308920011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=8308919011&ref=sr_nr_p_90_1&ds=v1%3A4L4UL8A2fSBcaZTNYM5Luo%2F%2BxlxBMTna28U8yD0itk0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_90%3A8308920011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Get It by Tomorrow",
+          "rh": "p_90:8308921011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_90%3A8308921011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=8308919011&ref=sr_nr_p_90_2&ds=v1%3AwZDZWJHyjjMBtzFjdivUmCgUEOx71fBks9jJDzpkJQM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_90%3A8308921011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "price": [
+        {
+          "position": 1,
+          "name": "All Discounts",
+          "rh": "p_n_deal_type:23566065011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_deal_type%3A23566065011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23566063011&ref=sr_nr_p_n_deal_type_1&ds=v1%3APieqXHpzI4bDMqZNqu0n2GfoJi1ouD2paqB8y5ED9s4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_deal_type%3A23566065011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Buy More, Save More",
+          "rh": "p_n_deal_type:210906365011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_deal_type%3A210906365011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23566063011&ref=sr_nr_p_n_deal_type_2&ds=v1%3Ax21tJyDwg8AC8OjcQ5Pr2eI2%2BJ7mLr9f7NPsVYiIflo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_deal_type%3A210906365011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Coupons",
+          "rh": "p_n_deal_type:210906366011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_deal_type%3A210906366011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23566063011&ref=sr_nr_p_n_deal_type_3&ds=v1%3AVPeByh%2BU%2FeLc8hRT4XCjPomaS412zqRdRf0Xlw8lgGI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_deal_type%3A210906366011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Today's Deals",
+          "rh": "p_n_deal_type:23566064011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_deal_type%3A23566064011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23566063011&ref=sr_nr_p_n_deal_type_4&ds=v1%3A8wAWTe5vNxce1wRcKdnM00DqjxEXDi8jswegNNUFezM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_deal_type%3A23566064011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Up to $15",
+          "rh": "p_36:dynamic-picker-0",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_36%3A-1500&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=386442011&ref=sr_nr_p_36_1&ds=v1%3AexbzRryYnDWVBvkDHAusR%2FFkX4ooAyXkuAr38Otpqc0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_36%3A-1500&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "$15 to $40",
+          "rh": "p_36:dynamic-picker-1",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_36%3A1500-4000&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=386442011&ref=sr_nr_p_36_2&ds=v1%3ALJq7Dc8ArVwFmfq2dqrYZjhfZ%2B7ftgsu4FaycNM0oNI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_36%3A1500-4000&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "$40 & above",
+          "rh": "p_36:dynamic-picker-2",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_36%3A4000-&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=386442011&ref=sr_nr_p_36_3&ds=v1%3APt3i4KYhpIq%2Bl%2FFahxEkHcUscDY0mmO4Pwo2ZSddb5c",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_36%3A4000-&s=exact-aware-popularity-rank"
+        }
+      ],
+      "brands": [
+        {
+          "position": 1,
+          "name": "Skullcandy",
+          "rh": "p_123:193772",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_123%3A193772&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=85457740011&ref=sr_nr_p_123_1&ds=v1%3AXYCXd4o65PgXdeatYBklIBw%2B7I%2FQTKlp4BXjlLeoUt0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_123%3A193772&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Monster",
+          "rh": "p_123:392247",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_123%3A392247&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=85457740011&ref=sr_nr_p_123_2&ds=v1%3A0pK4cYXadjI%2Bb7c%2FKsM1D8EnUuT2yMDb1AULm2LFgzo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_123%3A392247&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "TOZO",
+          "rh": "p_123:137850",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_123%3A137850&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=85457740011&ref=sr_nr_p_123_3&ds=v1%3AQTBCR9yUDV%2FCtnT0pO3YJTggInebfav0VYZHaXcUCoU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_123%3A137850&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "SHOKZ",
+          "rh": "p_123:1074925",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_123%3A1074925&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=85457740011&ref=sr_nr_p_123_4&ds=v1%3AubUrpS5wYSEthlDS1DLaES9Pg41wzyEViP%2F6N1FfKBk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_123%3A1074925&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Soundcore",
+          "rh": "p_123:324795",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_123%3A324795&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=85457740011&ref=sr_nr_p_123_5&ds=v1%3A3kSMqIqN6oBrJ9IAmL9d3TBP7%2FKSpbJes5mtkjW%2FFgU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_123%3A324795&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Plantronics",
+          "rh": "p_123:173204",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_123%3A173204&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=85457740011&ref=sr_nr_p_123_6&ds=v1%3AHkyHtN%2FgRCQqOz5VMLqjsMj9qVAaUANk6wEC2fPI0W4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_123%3A173204&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "King Lucky",
+          "rh": "p_123:5757995",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_123%3A5757995&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=85457740011&ref=sr_nr_p_123_7&ds=v1%3AF4BL2hi7AmuFTuMLSRHEPzHR7%2FFp4nWkZCeBP2vLmQI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_123%3A5757995&s=exact-aware-popularity-rank"
+        }
+      ],
+      "customer_reviews": [
+        {
+          "position": 1,
+          "name": "& Up",
+          "rh": "p_72:1248879011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_72%3A1248879011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=1248877011&ref=sr_nr_p_72_1&ds=v1%3A3icqqZ6E%2Fl7BI69EKoV21E8As17wPrlTS1tVTqzC7tQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_72%3A1248879011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "condition": [
+        {
+          "position": 1,
+          "name": "New",
+          "rh": "p_n_condition-type:2224371011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_condition-type%3A2224371011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=2224369011&ref=sr_nr_p_n_condition-type_1&ds=v1%3AIYKnFbSpWQaMFJiU2Yuvv3GaM%2BVILYtmXz6QWS0%2FeAs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_condition-type%3A2224371011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Used",
+          "rh": "p_n_condition-type:2224373011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_condition-type%3A2224373011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=2224369011&ref=sr_nr_p_n_condition-type_2&ds=v1%3AFInG5Nrzk12tT8NCxcwiJghBo5VqjSXHaPtPkQbXUqg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_condition-type%3A2224373011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "top_brands": [
+        {
+          "position": 1,
+          "name": "Top Brands",
+          "rh": "p_n_g-101014971069111:119653281011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101014971069111%3A119653281011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=119653280011&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3A6OZsRkMutASJ%2BJhL4xJ8y5%2FWKbz0keqjiL4DZu0FV%2FQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101014971069111%3A119653281011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "smart_home_compatibility": [
+        {
+          "position": 1,
+          "name": "Not Smart Home Compatible",
+          "rh": "p_n_g-101017505917111:216905797011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101017505917111%3A216905797011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=216905792011&ref=sr_nr_p_n_g-101017505917111_1&ds=v1%3AXjSePTL77LNc4PGK2OSEz8d7WbaHA%2BcpvXUtuaqBSHU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101017505917111%3A216905797011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "sustainability_features": [
+        {
+          "position": 1,
+          "name": "Any Feature",
+          "rh": "p_n_cpf_labels:121136630011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A121136630011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_1&ds=v1%3A2PRPksgnPdI5NLy4QooCRjuq4fDBSQ9wtilN9aYAG0M",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A121136630011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Carbon Impact",
+          "rh": "p_n_cpf_labels:116845688011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845688011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_2&ds=v1%3AmLYEoMUtZ2BYbqnrDGhhcnYUMs1rbVW4LBYWIeOJ%2BIc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845688011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Recycled Materials",
+          "rh": "p_n_cpf_labels:116845689011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845689011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_3&ds=v1%3A556vx28M%2FtfApg4hU07RqFzH6TIrMRQwRMwwPQOYrRk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845689011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Safer Chemicals",
+          "rh": "p_n_cpf_labels:116845683011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845683011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_4&ds=v1%3Amj8wyUS0njC4v7TC9916ElzVpu4V5y1VCGAI8TPEXwc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845683011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Worker Wellbeing",
+          "rh": "p_n_cpf_labels:116845686011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845686011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=116845681011&ref=sr_nr_p_n_cpf_labels_5&ds=v1%3AUNWMH3mzjBRKJSer903AdHkbF1v2qcgu7wS%2BmXwBTj0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_cpf_labels%3A116845686011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "weight": [
+        {
+          "position": 1,
+          "name": "Up to 1 lb",
+          "rh": "p_n_g-101015497033111:122268323011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015497033111%3A122268323011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268188011&ref=sr_nr_p_n_g-101015497033111_1&ds=v1%3A9%2BRSo25ERnO%2FAkQDr7ZYo0tmEyw53E9EwVBmJ72YTmA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015497033111%3A122268323011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "purpose": [
+        {
+          "position": 1,
+          "name": "Exercising",
+          "rh": "p_n_g-101016755135111:207882058011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882058011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_1&ds=v1%3AgptyNGAvpUOGXmnt5%2FnNss7DRoxbqXQtLSlMKQndZ98",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882058011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Music Listening",
+          "rh": "p_n_g-101016755135111:207882059011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882059011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_2&ds=v1%3Ae%2Fjvx8n%2F%2B2VUen5UqM5wW%2F3LpVbQnwPfNE%2BpxZp%2F7Eg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882059011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Phone Calling",
+          "rh": "p_n_g-101016755135111:207882067011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882067011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_3&ds=v1%3Av7pcSEPRX9IDdyM8UvWjiqFIt5NRNfC9te97KemQ3DU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882067011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Commuting",
+          "rh": "p_n_g-101016755135111:207882074011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882074011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_4&ds=v1%3Avf7rfxNmMQQQ8yu8gDtkzDTb%2BL%2BgU2YWCP8hDhKHlkY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882074011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Cycling",
+          "rh": "p_n_g-101016755135111:207882073011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882073011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_5&ds=v1%3A8vbgZImLLeI50Q6vs0i74JGA7bS3yRTJHTaAsyZZHxQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882073011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Gaming",
+          "rh": "p_n_g-101016755135111:207882062011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882062011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_6&ds=v1%3Anxr6BLp8Sbx0R%2BwaY%2Fjx%2BrGiWW1W7puLajWi9KieXik",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882062011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Podcasting",
+          "rh": "p_n_g-101016755135111:207882068011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882068011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_7&ds=v1%3AbuXw8ZOvdIGC1rR4gooSZ%2BKBvQA3%2BVDEvASl8Nghvco",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882068011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Running",
+          "rh": "p_n_g-101016755135111:207882064011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882064011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_8&ds=v1%3Aj829qfqzuWcAgjqYgB296%2BCBgTt8%2FN888cEUHovytn0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882064011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Sleeping",
+          "rh": "p_n_g-101016755135111:207882060011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882060011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_9&ds=v1%3AzLXo92bvM7UNPS87hGrlkpDPPsPjI5Enx467nOlY4AQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882060011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 10,
+          "name": "Swimming",
+          "rh": "p_n_g-101016755135111:207882070011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882070011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_10&ds=v1%3AIe0PdZV1CeaQd162fNZ1%2BZLLDElV2B5bVb9OfN%2BYfOg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882070011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 11,
+          "name": "Traveling",
+          "rh": "p_n_g-101016755135111:207882065011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882065011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_11&ds=v1%3AoDvbru1QkJPzjkGtedaJV8DDVgAAE8OLZuVn0b4%2BMIU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882065011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 12,
+          "name": "Video Conferencing",
+          "rh": "p_n_g-101016755135111:207882061011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882061011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_12&ds=v1%3Ap3vv5b3yXBLintTFMewe6CVJq86cwhys8K0HkOULL70",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882061011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 13,
+          "name": "Walking",
+          "rh": "p_n_g-101016755135111:207882071011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882071011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_13&ds=v1%3A4oIvHxeWyVKnKvcX18PPifprLiQjy3Kfa74RmS2sXg0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882071011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 14,
+          "name": "Watching TV",
+          "rh": "p_n_g-101016755135111:207882069011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882069011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207882057011&ref=sr_nr_p_n_g-101016755135111_14&ds=v1%3A9QjoztxiCP26zLWyHdaawhPGxnUvv58nsnMIScwXhGQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016755135111%3A207882069011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "noise_control": [
+        {
+          "position": 1,
+          "name": "Active Noise Cancellation",
+          "rh": "p_n_g-1003195531111:23746030011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746030011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_1&ds=v1%3A5y0cMkIgTBmNP4aWpK1qH7blYWuH7XypThYElsj8hEk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746030011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "None",
+          "rh": "p_n_g-1003195531111:23746031011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746031011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_2&ds=v1%3AbhP%2B2x9e2k%2FVobPJDRRb4bVSxRbUNE8O%2BcNe0ogA2oQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746031011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Sound Isolation",
+          "rh": "p_n_g-1003195531111:23746032011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746032011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_3&ds=v1%3A%2FrK73zdwhpiKiEqb%2FtfNRnK3MaJXzxaG6UV9bTsNy%2Fc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A23746032011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Passive Noise Cancellation",
+          "rh": "p_n_g-1003195531111:110686947011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686947011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_4&ds=v1%3ADqaZ76AVCRWjUTkQkKRKaHSUFZ1Azz13GMN%2Fi%2BS13%2BU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686947011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Adaptive Noise Cancellation",
+          "rh": "p_n_g-1003195531111:110686945011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686945011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_5&ds=v1%3AMCIP7uFZ2fUb%2FXht1qabFR8%2FWqmlY1st5FqucPHNiUc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686945011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Hybrid Noise Cancellation",
+          "rh": "p_n_g-1003195531111:110686943011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686943011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_6&ds=v1%3Ao34qR8ykZkV7mvTgxpLDKSFmRZtfjQonTos6P1C%2FqZQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A110686943011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Environmental Noise Cancellation",
+          "rh": "p_n_g-1003195531111:210912314011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A210912314011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23746028011&ref=sr_nr_p_n_g-1003195531111_7&ds=v1%3A2mheC3yGcbEO%2BgL96%2FcwlFWFLi0MzkuoXXn3Ia7eKT8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003195531111%3A210912314011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "features": [
+        {
+          "position": 1,
+          "name": "Wireless",
+          "rh": "p_n_feature_thirteen_browse-bin:509316",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A509316&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_1&ds=v1%3AZgwealQkvARkSCLzP8ltj1dgFpvdEdlRipMQHjkzrm8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A509316&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Sports & Exercise",
+          "rh": "p_n_feature_thirteen_browse-bin:2266980011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A2266980011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_2&ds=v1%3At%2BgyPPxp13kYC1j6hRXU2IUYDOfmWr8XXmarjVIffxk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A2266980011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Lightweight",
+          "rh": "p_n_feature_thirteen_browse-bin:12097488011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097488011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_3&ds=v1%3ATF20ykKfbXXSHd7b48mCNzzaf11XVsWzTUOPHH9FmbQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097488011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Foldable",
+          "rh": "p_n_feature_thirteen_browse-bin:12097487011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097487011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_4&ds=v1%3AdXxwagDGeRtPe6QHKE3oT6tNeD1IldX9LpXr3nwZ1tk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A12097487011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Microphone",
+          "rh": "p_n_feature_thirteen_browse-bin:2266981011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A2266981011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=2266979011&ref=sr_nr_p_n_feature_thirteen_browse-bin_5&ds=v1%3AAZUmhhUFHIwMIdtlLXrW4ybD%2F4URWmRJCUnD3TEyoHo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_thirteen_browse-bin%3A2266981011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "battery_life": [
+        {
+          "position": 1,
+          "name": "Up to 9 h",
+          "rh": "p_n_g-101015499813111:122268319011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268319011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_1&ds=v1%3A0QU7e90O%2BdqfEw2TLwqpDq0SVcWHilEDkNqfzge0uHQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268319011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "10 to 14 h",
+          "rh": "p_n_g-101015499813111:122268321011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268321011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_2&ds=v1%3An%2Bhc8epj8QxPcS7DczI6lGng4vPvp4Q9%2BA4QuIJG6wA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268321011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "15 to 19 h",
+          "rh": "p_n_g-101015499813111:122268318011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268318011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_3&ds=v1%3A711v0IUIU9tFCdlKCae7NjYMPL42uSVH%2FwHHE7DNdP4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268318011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "20 to 24 h",
+          "rh": "p_n_g-101015499813111:122268320011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268320011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_4&ds=v1%3ADktbRowXymFdGH7KtSws4R%2FwRFPLBOiUjlPiIQufEbo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268320011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "25 h & above",
+          "rh": "p_n_g-101015499813111:122268317011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268317011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268187011&ref=sr_nr_p_n_g-101015499813111_5&ds=v1%3AQcOwkvPkNp2LxPvdUb%2BHfyQ%2FAMPzWQAcGgS%2F%2Fq7q3%2Fw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499813111%3A122268317011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "battery_charge_time": [
+        {
+          "position": 1,
+          "name": "1 to 1.9 h",
+          "rh": "p_n_g-101015490467111:122265086011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265086011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122265083011&ref=sr_nr_p_n_g-101015490467111_1&ds=v1%3APBj50T3zLJY9uZn%2FqQttWWTe0w8tmFwR4c2VEAsVFRg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265086011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "2 to 2.9 h",
+          "rh": "p_n_g-101015490467111:122265088011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265088011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122265083011&ref=sr_nr_p_n_g-101015490467111_2&ds=v1%3ANvBbOsWkv%2FKHqQepUUnYE%2FXVCbsovHgJ%2BevFtzezJRg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265088011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "3 h & above",
+          "rh": "p_n_g-101015490467111:122265087011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265087011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122265083011&ref=sr_nr_p_n_g-101015490467111_3&ds=v1%3Ama3RHq7SqcegCZi8IRCH5QsZ3IjM52yFYmtOMhPm%2Frk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490467111%3A122265087011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "headphones_form_factor": [
+        {
+          "position": 1,
+          "name": "In Ear",
+          "rh": "p_n_feature_seventeen_browse-bin:23508656011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508656011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23508613011&ref=sr_nr_p_n_feature_seventeen_browse-bin_1&ds=v1%3ARM8oCuTE4CwW%2F%2Baxhs1wvI8eoZKhL9cvk1g3fZ%2B2JqE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508656011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "On Ear",
+          "rh": "p_n_feature_seventeen_browse-bin:23508657011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508657011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23508613011&ref=sr_nr_p_n_feature_seventeen_browse-bin_2&ds=v1%3Alj3SSX5FqFriB%2F3V0wlwWpNoYQYvsAVtgKexL2JMy90",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508657011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Over Ear",
+          "rh": "p_n_feature_seventeen_browse-bin:23508658011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508658011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23508613011&ref=sr_nr_p_n_feature_seventeen_browse-bin_3&ds=v1%3A04Q2hjxpew43t8QNOtS5CRcHmJinLXQm4QESbV39ZBM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A23508658011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "True Wireless",
+          "rh": "p_n_feature_seventeen_browse-bin:117806101011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A117806101011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23508613011&ref=sr_nr_p_n_feature_seventeen_browse-bin_4&ds=v1%3AmV0spaPuANWwXQHGxloV%2BYlHCMyVmqC6wWAldMEGAPs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_seventeen_browse-bin%3A117806101011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "water_resistance_level": [
+        {
+          "position": 1,
+          "name": "Not Water Resistant",
+          "rh": "p_n_g-101016670375111:207192564011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192564011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207192560011&ref=sr_nr_p_n_g-101016670375111_1&ds=v1%3A9N749xvgfqdSr%2B%2F5Q%2B3oItpVFR%2Fki6qBESPF1xoQPb8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192564011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Water Repellent",
+          "rh": "p_n_g-101016670375111:207192561011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192561011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207192560011&ref=sr_nr_p_n_g-101016670375111_2&ds=v1%3AH4%2BtD7TEIKuHv8dl9eIBZPkRkfWCUnYyabvcdyDqCLw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192561011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Water Resistant",
+          "rh": "p_n_g-101016670375111:207192562011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192562011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207192560011&ref=sr_nr_p_n_g-101016670375111_3&ds=v1%3AFkDcfbzrXVZU2I3IucI5I7h5J5oSGoOyhEDUHJ8Qqrc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192562011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Waterproof",
+          "rh": "p_n_g-101016670375111:207192563011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192563011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=207192560011&ref=sr_nr_p_n_g-101016670375111_4&ds=v1%3Am8lspikf0lrIMBHH04aLQ4IatWtRGM6hf05uU511yrg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101016670375111%3A207192563011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "age_range": [
+        {
+          "position": 1,
+          "name": "Adult",
+          "rh": "p_n_feature_browse-bin:23549351011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_browse-bin%3A23549351011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23549346011&ref=sr_nr_p_n_feature_browse-bin_1&ds=v1%3AJ1CGogTXJxDNC1%2FxTUVrRC8x9QWZegfiOZ9uyWWvd50",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_browse-bin%3A23549351011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Teen",
+          "rh": "p_n_feature_browse-bin:88212678011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_browse-bin%3A88212678011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23549346011&ref=sr_nr_p_n_feature_browse-bin_2&ds=v1%3AYLr%2FySwM69k3aSCYVXliIvY0IvS0GE2%2FpI70EsUxux8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_browse-bin%3A88212678011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "audio_driver_type": [
+        {
+          "position": 1,
+          "name": "Dynamic Driver",
+          "rh": "p_n_g-101015499549111:122268314011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268314011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_1&ds=v1%3AXoToD2SZvH2NeHQUsRc6sYQejHNz360baWhJH8Wjqkk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268314011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Bone Conduction Driver",
+          "rh": "p_n_g-101015499549111:122268315011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268315011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_2&ds=v1%3Awo75y3DizZq8Q7lKx0l%2F4tOv8EvczzgD%2FGAOOWDgK74",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268315011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Balanced Armature Driver",
+          "rh": "p_n_g-101015499549111:122268312011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268312011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_3&ds=v1%3ADAu9VGSX8UixdAh0EWE00f6pKVQD3%2FJixpxra9HVBNI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268312011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Bass Driver",
+          "rh": "p_n_g-101015499549111:211954496011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954496011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_4&ds=v1%3ADfi1gbd%2BDrJPXAc6CIqsPgd34%2BW20iZkafUAzVl7TGM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A211954496011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Planar Magnetic Driver",
+          "rh": "p_n_g-101015499549111:122268310011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268310011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268186011&ref=sr_nr_p_n_g-101015499549111_5&ds=v1%3AJ%2Ffw%2FhYI2u3BnSCL%2FNzZ8X36qM%2FHKvCPZSotszKVwTM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015499549111%3A122268310011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "compatible_devices": [
+        {
+          "position": 1,
+          "name": "Cellphones",
+          "rh": "p_n_g-1003341941111:24003431011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003431011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_1&ds=v1%3A0x3hLcQQ%2FoPDOqBk6PctlEXuPHXImdpAgvpQct%2BGRUU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003431011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Laptops",
+          "rh": "p_n_g-1003341941111:24003427011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003427011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_2&ds=v1%3AzeGIAQNqx5b4dEDyHtOyT4%2BeNNnv4cj7SLdrYYRC99I",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003427011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Tablets",
+          "rh": "p_n_g-1003341941111:24003432011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003432011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_3&ds=v1%3ArlJBXTMfDJ2EiTT9rV180ZZK%2Btx%2B2lQU96tVSHPwC78",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003432011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Desktops",
+          "rh": "p_n_g-1003341941111:24003434011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003434011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_4&ds=v1%3AzQWIIweITim9uU9lD5mrhpQOX54Kl20g6mZn4dRMa%2Fs",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003434011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Gaming Consoles",
+          "rh": "p_n_g-1003341941111:24003430011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003430011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_5&ds=v1%3AJSDuI7AlTVKhmmktDDAg%2BOPidU6q1JxIiE19KcV7mck",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003430011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Television",
+          "rh": "p_n_g-1003341941111:69690507011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A69690507011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_6&ds=v1%3An9nBRdChar0S4utF14cGCpmjJ5B3md0SQq3e1SthNZM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A69690507011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Portable Media Player",
+          "rh": "p_n_g-1003341941111:216753764011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A216753764011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_7&ds=v1%3AtJtqAFsv6hfH12mD2Ni6oV8uM38GLg6O39LXAJb3P8c",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A216753764011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Smart Watch",
+          "rh": "p_n_g-1003341941111:122127202011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A122127202011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_8&ds=v1%3AodcYcg35lZe7szaYMHUfT8lF6vkub6Z87VFyQrVopWo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A122127202011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Telephones",
+          "rh": "p_n_g-1003341941111:24003426011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003426011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=24003299011&ref=sr_nr_p_n_g-1003341941111_9&ds=v1%3A%2F2qIfpFSSCx0lNyEwyP92D73PyvVxveitOYshWN%2Fa9w",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1003341941111%3A24003426011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "earpiece_shape": [
+        {
+          "position": 1,
+          "name": "Bud",
+          "rh": "p_n_g-101014793102111:118149309011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149309011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_1&ds=v1%3ASgCIJMV%2F6veFH4ljWo%2B3IYBS353uqnq3O68vvPUPo4w",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149309011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Hook",
+          "rh": "p_n_g-101014793102111:118149306011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149306011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_2&ds=v1%3A7Uk1mGyevJwULux6H09m4aI4E%2Bxl0QGySaUJnvXJMDA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149306011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Circle",
+          "rh": "p_n_g-101014793102111:118149311011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149311011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_3&ds=v1%3AFqkhNtvDRn8U8aN%2F12%2FPdQGdRY1uVXNnDAxGby2G4I0",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149311011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Oval",
+          "rh": "p_n_g-101014793102111:118149307011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149307011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=118149305011&ref=sr_nr_p_n_g-101014793102111_4&ds=v1%3ABhBFcT8lBEgwJgCNd1BhZ5eSorcM%2BJC6MvnZightuag",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101014793102111%3A118149307011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "included_components": [
+        {
+          "position": 1,
+          "name": "User Manual",
+          "rh": "p_n_g-1002989062111:76076001011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A76076001011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_1&ds=v1%3A%2BpW26xAugyW2jv9Cn5YiaS45W5%2Bos4qLFU8D%2FQv9tkc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A76076001011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Wireless Charging Case",
+          "rh": "p_n_g-1002989062111:23657295011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657295011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_2&ds=v1%3ArSSDaxRQR05Zeh6Q0DHo9h4zEFuHXn7pqFV5xvaLsio",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657295011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Eartip",
+          "rh": "p_n_g-1002989062111:101369949011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A101369949011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_3&ds=v1%3ARZrO%2BxbX6wR4pifwj2IQDRcExPSruZ2RDzSdsZhTk5w",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A101369949011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Adapter",
+          "rh": "p_n_g-1002989062111:207314836011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A207314836011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_4&ds=v1%3AJLsarKu7LnKtpxbWFDZNbzOKhURtSYhLq%2BpGoZxfzUg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A207314836011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Ear Cushions",
+          "rh": "p_n_g-1002989062111:23657294011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657294011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_5&ds=v1%3ASHsEIFCj9mCAxXv4TBRlWBkPV1c%2FbstePQBn4rQtlFI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657294011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Protective Case",
+          "rh": "p_n_g-1002989062111:23657291011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657291011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23657289011&ref=sr_nr_p_n_g-1002989062111_6&ds=v1%3ABPAgqEjdYA9kqdxSBZFo%2BysF0aorySLYN%2BFM3QOF1H4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989062111%3A23657291011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "connectivity": [
+        {
+          "position": 1,
+          "name": "Hybrid",
+          "rh": "p_n_feature_ten_browse-bin:216310548011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A216310548011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=3150266011&ref=sr_nr_p_n_feature_ten_browse-bin_1&ds=v1%3AR8BtDWNW2QHI3GkIBJMnWECXCi7TlddCiwpZap7gkSY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A216310548011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Wireless",
+          "rh": "p_n_feature_ten_browse-bin:3150268011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A3150268011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=3150266011&ref=sr_nr_p_n_feature_ten_browse-bin_2&ds=v1%3AVuuJghyOlym86dEsyCAXlw3GnWawUH27i8NIUQ6tjsw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_ten_browse-bin%3A3150268011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "wireless_technology": [
+        {
+          "position": 1,
+          "name": "Bluetooth",
+          "rh": "p_n_feature_two_browse-bin:212335655011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_two_browse-bin%3A212335655011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=212335649011&ref=sr_nr_p_n_feature_two_browse-bin_1&ds=v1%3AO%2F3y5vYjYmG9kScXNGuhR0iAM9cI%2FeTW%2FPSxUOFjvIY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_two_browse-bin%3A212335655011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Wi-Fi",
+          "rh": "p_n_feature_two_browse-bin:212335654011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_two_browse-bin%3A212335654011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=212335649011&ref=sr_nr_p_n_feature_two_browse-bin_2&ds=v1%3AVXZstRCQY2DdNka3J5WMYFzGFv6lTY9jf0aByEutaek",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_two_browse-bin%3A212335654011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "impedance": [
+        {
+          "position": 1,
+          "name": "Up to 1",
+          "rh": "p_n_g-101015490468111:122265093011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265093011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122265084011&ref=sr_nr_p_n_g-101015490468111_1&ds=v1%3A1F5KyEmY8H8CYuKRTLKovIGHRxjvkGTkDF7Njica2DA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265093011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "1 to 1.9",
+          "rh": "p_n_g-101015490468111:122265090011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265090011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122265084011&ref=sr_nr_p_n_g-101015490468111_2&ds=v1%3AOQQzf83wdZ6hCDTOUilU68bndd8ujNvLBJ3jZs8Esws",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265090011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "3 & above",
+          "rh": "p_n_g-101015490468111:122265091011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265091011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122265084011&ref=sr_nr_p_n_g-101015490468111_3&ds=v1%3A2ENtynP3DfkCHdtOA48d5xMHNqxJK769V13C8By89Kc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015490468111%3A122265091011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "carrying_case_color": [
+        {
+          "position": 1,
+          "name": "Black",
+          "rh": "p_n_g-101015500219111:122269856011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269856011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_1&ds=v1%3AV0HvP7HLQRCpTzMCtyaeSXF%2Fo6DYJNDtrj2GR8HvjPA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269856011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Pink",
+          "rh": "p_n_g-101015500219111:122269850011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269850011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_2&ds=v1%3AVraihxY1FR5QoSwqBkKUTydaA4LvGBMyVZEoNAL3OcU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269850011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "White",
+          "rh": "p_n_g-101015500219111:122269858011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269858011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_3&ds=v1%3Aw2%2BhWBQcnix%2BkmzuZqOMoYAH%2FU8%2BLVwfBdtufCuGzuM",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269858011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Beige",
+          "rh": "p_n_g-101015500219111:122269853011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269853011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_4&ds=v1%3AllJiBxKL2guVxw6rC76SUM5QGhuV8%2Bdd9he0pjxMbJ4",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269853011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Blue",
+          "rh": "p_n_g-101015500219111:122269855011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269855011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_5&ds=v1%3A03tuIfv7R1QocQS5HpTBY%2BJcFCsL8G7Hs8bCO%2FIfiKE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269855011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Grey",
+          "rh": "p_n_g-101015500219111:122269864011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269864011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_6&ds=v1%3AWyCw2IKXaj%2BiCpHp%2BjfJctWJ3I%2FszQTP1suanJfkrOc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269864011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Multicolor",
+          "rh": "p_n_g-101015500219111:122269851011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269851011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_7&ds=v1%3Ay1qFEZ5uaywvvSV7Loa2MNzBrNZ3D7%2BDJ%2FiRxf%2FkKzc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269851011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Purple",
+          "rh": "p_n_g-101015500219111:122269849011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269849011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269793011&ref=sr_nr_p_n_g-101015500219111_8&ds=v1%3A8iRAyEV8G6MauybnpS9RCafosD9r%2BjEMlXIyjuRJkpU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500219111%3A122269849011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "frequency_response": [
+        {
+          "position": 1,
+          "name": "Up to 99,999 Hz",
+          "rh": "p_n_g-101015501853111:122268329011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015501853111%3A122268329011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122268189011&ref=sr_nr_p_n_g-101015501853111_1&ds=v1%3AQBarm7nbKeh90U7scYh33pMciYfnTHi5SJWXTm1Hd30",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015501853111%3A122268329011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "control": [
+        {
+          "position": 1,
+          "name": "Media Control",
+          "rh": "p_n_g-1002989016111:23641591011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641591011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_1&ds=v1%3AJvEBOWdNPk9xAYkhtiCCRvwaeVsrTw9xScVT0u4fM9I",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641591011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Touch Control",
+          "rh": "p_n_g-1002989016111:122131394011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131394011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_2&ds=v1%3AgZEXdhnGszin7Nz7lNhny3UcmvjTUvKshnWqAPUzbL8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131394011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Volume Control",
+          "rh": "p_n_g-1002989016111:23641592011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641592011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_3&ds=v1%3Ap64XD2l13EijHzpNs%2FFP2X27tvAdmWOgcoywhO2BcGk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641592011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Button Control",
+          "rh": "p_n_g-1002989016111:122131395011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131395011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_4&ds=v1%3ADfvl9zev5%2FAMq9ldntySnqACTMc7ZdY6Ha6J4M%2Bp6EA",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A122131395011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Call Control",
+          "rh": "p_n_g-1002989016111:23641589011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641589011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_5&ds=v1%3A4eXwcQaBew8X7kKyKKfCg4ZtGtB0ps6izlDjnBSxraQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641589011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Google Assistant",
+          "rh": "p_n_g-1002989016111:24086508011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A24086508011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_6&ds=v1%3AF%2Brq9vNGRZgPTlyywSSOl3ObRQgKbZh396k5c79jfbg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A24086508011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Noise Control",
+          "rh": "p_n_g-1002989016111:23641590011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641590011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_7&ds=v1%3AzuuN%2FkzKbrbsgQl5WgzNB%2FXBAti%2FqCGGfjezx6NmocQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641590011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Voice Control",
+          "rh": "p_n_g-1002989016111:23641593011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641593011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=23641586011&ref=sr_nr_p_n_g-1002989016111_8&ds=v1%3AEGjUmAr2WjIrzjUNwE118X%2FKrFHZ3Dx5hldyEJlSvVQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-1002989016111%3A23641593011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "audio_latency": [
+        {
+          "position": 1,
+          "name": "35 to 49 ms",
+          "rh": "p_n_g-101015506076111:122272123011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272123011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122272099011&ref=sr_nr_p_n_g-101015506076111_1&ds=v1%3AB08LUstmfYqqhL%2BcVknCrH%2BpiR4kGVf2vBeyIWxr1Fw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272123011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "50 ms & above",
+          "rh": "p_n_g-101015506076111:122272122011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272122011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122272099011&ref=sr_nr_p_n_g-101015506076111_2&ds=v1%3AHcFem8oVexHYIVEYixJH6xz7hoSSqyE9yk3ue4Q%2Fbxo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015506076111%3A122272122011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "color": [
+        {
+          "position": 1,
+          "name": "Black",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376047011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376047011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_1&ds=v1%3As7fpVJGYNOGmCS8v3tRjLeX66z8arQRn4qFf%2BeG2g3I",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376047011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Grey",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376042011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376042011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_2&ds=v1%3ALjRS4X%2BGlYHdO1HDVaZ%2BPjL2%2BxZDsKRnqmuAIqg8ERk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376042011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "White",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376052011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376052011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_3&ds=v1%3AgsfbtD%2Bqo%2BLbn0h7Pq7t9AcGcI9yLtgpxWjIoBeol%2BU",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376052011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Beige",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376050011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376050011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_4&ds=v1%3AaM6X7IkasQvCeOh8Pr0caKX9A7MdUtRmdprTCAUiuEg",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376050011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Red",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376043011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376043011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_5&ds=v1%3AUzF3jBxtXpitonqCmyziHtvIdW7aIrkFhJ7zQ%2BqRDTQ",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376043011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Pink",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376057011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376057011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_6&ds=v1%3AH5dOtRtI487ZOKwLPzpG3bd5jFEnrMpXme7GIGr6D%2F8",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376057011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "Orange",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376044011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376044011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_7&ds=v1%3A81gxQ5nKumPh2Q8JV2wp6SDYuv%2FAqLb6pJrQP8eAA6s",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376044011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 8,
+          "name": "Yellow",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376055011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376055011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_8&ds=v1%3AHzcgP2FXB1HOUxakHS2SAACQEFoziy0TjMpVUUQJ28s",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376055011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 9,
+          "name": "Green",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376051011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376051011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_9&ds=v1%3ArZQWdbFmw3%2FqWcPj7cLmy3LguJb42ZbQsDhyzMC93rY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376051011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 10,
+          "name": "Blue",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376048011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376048011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_10&ds=v1%3A9T4t4rxHl%2Bm3KpXJeDr7qJyCNlO8NorWbkpX69qc1II",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376048011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 11,
+          "name": "Purple",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376054011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376054011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_11&ds=v1%3AM1XCXtEETjWsIxVEV44EHffCf4nl2HEa53e77%2FuL57I",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376054011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 12,
+          "name": "Gold",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376041011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376041011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_12&ds=v1%3AtTRluatVQRkYtssmMhnAPX5xn6MZKw2v2GSpUXQQgMo",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376041011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 13,
+          "name": "Silver",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376053011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376053011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_13&ds=v1%3A7ZWNEMMUz8ZRJAC0TwTIjqEShamPmj5Bb%2BFFPbefQEk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376053011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 14,
+          "name": "Clear",
+          "image": "https://m.media-amazon.com/images/G/01/nav2/images/gui/clothingcolorsprite._CB437558320_.png",
+          "rh": "p_n_feature_twenty-nine_browse-bin:204376046011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376046011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=204376039011&ref=sr_nr_p_n_feature_twenty-nine_browse-bin_14&ds=v1%3AYsDDnnWk1CG9A3KxQ16Q%2BTeCgxBU%2FamHfZcdTCB50%2BI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_feature_twenty-nine_browse-bin%3A204376046011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "carrying_case_material": [
+        {
+          "position": 1,
+          "name": "Plastic",
+          "rh": "p_n_g-101015500290111:122269835011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269835011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269792011&ref=sr_nr_p_n_g-101015500290111_1&ds=v1%3Ac%2B8KdGyqOJ1KUHVv79gYVJ2rOHnDEfLTBRpRyNw6y8k",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269835011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Faux Leather",
+          "rh": "p_n_g-101015500290111:122269834011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269834011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269792011&ref=sr_nr_p_n_g-101015500290111_2&ds=v1%3A7H0AcsLj%2Fcl78BlX1viOUo2B1Jb59HnAngf%2B17oBF2s",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269834011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Metal",
+          "rh": "p_n_g-101015500290111:122269838011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269838011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=122269792011&ref=sr_nr_p_n_g-101015500290111_3&ds=v1%3AOw66gV%2F0lK%2FqL5HmtyC%2BnjXwhru2arfhfOd%2FK7V6nlw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101015500290111%3A122269838011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "noise_control_features": [
+        {
+          "position": 1,
+          "name": "Adjustable Levels",
+          "rh": "p_n_g-101017149505111:215591643011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591643011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=215591641011&ref=sr_nr_p_n_g-101017149505111_1&ds=v1%3ARbN23ygtcrwXpynFnNurncE5Nn%2F7JzaXS0wyfRWSnLk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591643011&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Transparency Mode",
+          "rh": "p_n_g-101017149505111:215591642011",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591642011&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=215591641011&ref=sr_nr_p_n_g-101017149505111_2&ds=v1%3AD4te6l8MYCnHyYUEfHQQFNDVE4OlKYhoVxeNhYrEZaE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_n_g-101017149505111%3A215591642011&s=exact-aware-popularity-rank"
+        }
+      ],
+      "seller": [
+        {
+          "position": 1,
+          "name": "Quidnuran",
+          "rh": "p_6:ABUQKLRBFFXQW",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_6%3AABUQKLRBFFXQW&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=303116011&ref=sr_nr_p_6_1&ds=v1%3Avw2pM3Xuf43UzbrWB532CH5UBPbxmCcF%2FkzXpoQ3wWY",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_6%3AABUQKLRBFFXQW&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 2,
+          "name": "Ming Zhi Na",
+          "rh": "p_6:A28AHULK2Y2TJA",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_6%3AA28AHULK2Y2TJA&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=303116011&ref=sr_nr_p_6_2&ds=v1%3AyaHZ3DF8l%2FidW%2FEvPRkjNY4P3bx4j3txc6tA9o2k4rE",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_6%3AA28AHULK2Y2TJA&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 3,
+          "name": "Amazon Resale",
+          "rh": "p_6:A2L77EE7U53NWQ",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_6%3AA2L77EE7U53NWQ&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=303116011&ref=sr_nr_p_6_3&ds=v1%3ATczEPdBwVZdX25RcQZCFs%2FutaZHAWOKzTChkfnxtbRw",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_6%3AA2L77EE7U53NWQ&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 4,
+          "name": "Micool",
+          "rh": "p_6:AW14CDI2CHR95",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_6%3AAW14CDI2CHR95&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=303116011&ref=sr_nr_p_6_4&ds=v1%3Aq59zAo7ELEmBnafD6z6Xab6KOVpMBcc3roExfsdslNk",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_6%3AAW14CDI2CHR95&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 5,
+          "name": "Jiesiung",
+          "rh": "p_6:A8T7DIT9WTDUF",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_6%3AA8T7DIT9WTDUF&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=303116011&ref=sr_nr_p_6_5&ds=v1%3AqZ6t%2FR9NvApCotSVL%2BJXXp6qPZdDNFiusQl6E3ZLbpI",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_6%3AA8T7DIT9WTDUF&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 6,
+          "name": "Amazon.com",
+          "rh": "p_6:ATVPDKIKX0DER",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_6%3AATVPDKIKX0DER&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=303116011&ref=sr_nr_p_6_6&ds=v1%3AIzD9xHyp%2F26nwLWzBfRHSHISZbKSGn1Octt2SblVI8g",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_6%3AATVPDKIKX0DER&s=exact-aware-popularity-rank"
+        },
+        {
+          "position": 7,
+          "name": "QYNIQIAN",
+          "rh": "p_6:A3DFJ9ZHDG35M7",
+          "link": "https://www.amazon.com/s?k=clip+on+bluetooth+earbuds&rh=p_6%3AA3DFJ9ZHDG35M7&s=exact-aware-popularity-rank&dc&qid=1779444371&rnid=303116011&ref=sr_nr_p_6_7&ds=v1%3AODnsuq1MYn3astMSkdr0PW3inT%2FX4178b7ItKIxf4Oc",
+          "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&rh=p_6%3AA3DFJ9ZHDG35M7&s=exact-aware-popularity-rank"
+        }
+      ]
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next": "https://serpapi.com/search.json?amazon_domain=amazon.com&device=desktop&engine=amazon&k=clip+on+bluetooth+earbuds&page=2&s=exact-aware-popularity-rank"
+    }
+  }
+}

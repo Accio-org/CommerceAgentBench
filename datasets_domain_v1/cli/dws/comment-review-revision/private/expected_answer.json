@@ -1,0 +1,603 @@
+{
+  "checks": [
+    {
+      "id": "reply_nb_jp_pet_001_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0000"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_jp_pet_001_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0001"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_br_pet_002_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0002"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_br_pet_002_c2",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0004"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_mx_pet_003_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0005"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_mx_pet_003_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0006"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_mx_pet_003_c2",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0007"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_au_pet_004_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0010"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_sg_bir_005_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0011"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_sg_bir_005_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0012"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_sg_bir_005_c2",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0013"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_us_bir_006_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0014"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_us_bir_006_c2",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0016"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_uk_bir_007_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0019"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_de_bir_008_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0020"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_de_bir_008_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0021"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_jp_bir_009_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0023"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_jp_bir_009_c2",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0025"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_jp_bir_009_c3",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0026"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_br_mir_010_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0027"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_br_mir_010_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0028"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_mx_pre_011_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0030"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_au_cat_012_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0032"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_au_cat_012_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0033"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_au_cat_012_c2",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0034"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_au_cat_012_c3",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0035"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_sg_cat_013_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0036"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_us_int_014_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0039"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_us_int_014_c2",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0040"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_uk_dog_015_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0041"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_uk_dog_015_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0042"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_uk_dog_015_c3",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0044"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_de_dog_016_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0045"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_jp_dog_017_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0047"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_jp_dog_017_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0048"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_jp_dog_017_c2",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0049"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_br_dog_018_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0051"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_br_dog_018_c3",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0053"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_mx_non_019_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0054"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_mx_non_019_c1",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0055"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_au_pre_020_c0",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0056"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "reply_nb_au_pre_020_c2",
+      "entity": "comments",
+      "match": {
+        "commentKey": "cmk-0058"
+      },
+      "expect": {
+        "min": {
+          "replies.count": 1
+        }
+      }
+    },
+    {
+      "id": "revision_log_exists",
+      "entity": "documents",
+      "match": {
+        "name": "Revision Log"
+      },
+      "expect": {
+        "count": 1
+      }
+    },
+    {
+      "id": "content_fix_price_lst000",
+      "entity": "documents",
+      "match": {
+        "nodeId": "lst-000"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "21.47"
+          ]
+        },
+        "not_contains": {
+          "content": [
+            "20.45"
+          ]
+        }
+      }
+    },
+    {
+      "id": "content_fix_avail_lst001",
+      "entity": "documents",
+      "match": {
+        "nodeId": "lst-001"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "preorder"
+          ]
+        }
+      }
+    },
+    {
+      "id": "content_fix_price_lst002",
+      "entity": "documents",
+      "match": {
+        "nodeId": "lst-002"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "26.62"
+          ]
+        },
+        "not_contains": {
+          "content": [
+            "25.35"
+          ]
+        }
+      }
+    },
+    {
+      "id": "content_fix_price_lst007",
+      "entity": "documents",
+      "match": {
+        "nodeId": "lst-007"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "39.48"
+          ]
+        },
+        "not_contains": {
+          "content": [
+            "37.6"
+          ]
+        }
+      }
+    },
+    {
+      "id": "content_fix_mpn_lst000",
+      "entity": "documents",
+      "match": {
+        "nodeId": "lst-000"
+      },
+      "expect": {
+        "contains": {
+          "content": [
+            "NB-SHORE-1001"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "counterOffsets": {
+    "labels": {
+      "inbox": 39,
+      "purchases": 5
+    },
+    "categories": {
+      "promotions": 36,
+      "social": 0
+    }
+  },
+  "nextLabelId": 1
+}

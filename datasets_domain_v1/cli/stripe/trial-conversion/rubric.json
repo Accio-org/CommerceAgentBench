@@ -1,0 +1,21 @@
+{
+  "schema_version": "2.0",
+  "minimum_pass_score": 1.0,
+  "task_id": "cli-stripe-trial-conversion",
+  "summary": "Agent must map business requirements to Stripe CLI operations: products, prices, customers, payment methods, setup intents, subscriptions, coupons, webhooks.",
+  "category": "cli_stripe_billing",
+  "difficulty": "hard",
+  "check_strategy": "Verifier reads mock state via /__bench/state, computes per-resource atomic checks, and folds them by AND into 10 capability groups (setup gate + catalog/pricing/customers/payment-verification/subscriptions/churn-restraint/discount/trial-extension/webhook). Pure emit/grouping; atomic comparisons unchanged.",
+  "checks": [
+    {"id": "setup_gate", "check_type": "deterministic_exact", "description": "Stripe mock reachable + conversion_summary.json written"},
+    {"id": "catalog_built", "check_type": "deterministic_exact", "description": "All 3 product tiers created with correct names"},
+    {"id": "pricing_correct", "check_type": "deterministic_exact", "description": "Correct monthly/annual prices per tier; Enterprise has no annual"},
+    {"id": "customers_created", "check_type": "deterministic_exact", "description": "All 6 cohort customers created by email"},
+    {"id": "payment_verification", "check_type": "deterministic_exact", "description": "5 payment methods + 5 setup intents linking converting customers (card verified before billing)"},
+    {"id": "subscriptions_correct", "check_type": "deterministic_exact", "description": "Each converter has a subscription on the correct plan/price"},
+    {"id": "churn_restraint", "check_type": "deterministic_exact", "description": "Frank not subscribed and marked churned in metadata"},
+    {"id": "discount_applied", "check_type": "deterministic_exact", "description": "Dave's 15% one-time first-payment discount coupon"},
+    {"id": "trial_extension", "check_type": "deterministic_exact", "description": "Carol's 30-day trial extension (trial_end or 100%-off coupon)"},
+    {"id": "webhook_configured", "check_type": "deterministic_exact", "description": "Billing-lifecycle webhook endpoint with >=2 events"}
+  ]
+}

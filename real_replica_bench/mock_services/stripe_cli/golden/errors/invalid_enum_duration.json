@@ -1,0 +1,9 @@
+{
+  "error": {
+    "message": "Invalid duration: must be one of once, repeating, or forever",
+    "param": "duration",
+    "request_log_url": "https://dashboard.stripe.com/acct_1TcPzGCLKuX79GC2/test/workbench/logs?object=req_BAo35OkazCCxRU",
+    "type": "invalid_request_error"
+  }
+}
+

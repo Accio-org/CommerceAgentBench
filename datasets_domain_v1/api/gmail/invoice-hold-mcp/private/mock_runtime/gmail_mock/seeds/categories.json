@@ -1,0 +1,20 @@
+[
+  {
+    "id": "primary",
+    "name": "主要",
+    "selected": true,
+    "teaser": "Operations mail"
+  },
+  {
+    "id": "promotions",
+    "name": "促销",
+    "selected": false,
+    "teaser": "Vendor campaigns"
+  },
+  {
+    "id": "social",
+    "name": "社交",
+    "selected": false,
+    "teaser": "Community updates"
+  }
+]

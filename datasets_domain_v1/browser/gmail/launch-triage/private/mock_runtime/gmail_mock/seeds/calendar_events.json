@@ -1,0 +1,15 @@
+[
+  {
+    "id": "cal-existing-ops",
+    "title": "Daily ops check",
+    "date": "2025-06-19",
+    "start": "09:00",
+    "end": "09:30",
+    "guests": "ops-launch@auroraretail.test",
+    "location": "Ops room",
+    "description": "Existing event; do not delete.",
+    "meet": false,
+    "allDay": false,
+    "color": "#188038"
+  }
+]

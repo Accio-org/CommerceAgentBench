@@ -1,0 +1,95 @@
+{
+  "task_id": "browser-gmail-supplier-spoof-triage",
+  "label": {
+    "name": "PAY-419",
+    "parent_name": "Risk"
+  },
+  "label_required_message_ids": [
+    "spf-001-brief",
+    "spf-002-real-bank",
+    "spf-003-finance-hold",
+    "spf-004-supplier-confirm"
+  ],
+  "label_forbidden_message_ids": [
+    "spf-005-spoof",
+    "spf-006-old-pay391",
+    "spf-007-news",
+    "spf-008-legal"
+  ],
+  "mark_read_message_ids": [
+    "spf-001-brief",
+    "spf-002-real-bank",
+    "spf-003-finance-hold",
+    "spf-004-supplier-confirm"
+  ],
+  "star_required_message_ids": [
+    "spf-002-real-bank",
+    "spf-003-finance-hold",
+    "spf-004-supplier-confirm"
+  ],
+  "star_forbidden_message_ids": [
+    "spf-005-spoof",
+    "spf-006-old-pay391",
+    "spf-007-news",
+    "spf-008-legal"
+  ],
+  "messages_in_spam": [
+    "spf-005-spoof"
+  ],
+  "filters": [
+    {
+      "id": "spoof-domain-watch",
+      "from": "northstar-supp1ies.test",
+      "has_words": "PAY-419",
+      "actions": {
+        "archive": true,
+        "markRead": true,
+        "alwaysImportant": true
+      }
+    }
+  ],
+  "drafts": [
+    {
+      "id": "finance-hold",
+      "to": [
+        "payables@auroraretail.test"
+      ],
+      "cc_any": [
+        "leah.sun@auroraretail.test"
+      ],
+      "subject_all": [
+        "PAY-419",
+        "hold"
+      ],
+      "body_all": [
+        "USD 46,880",
+        "PO-8841",
+        "GB29",
+        "Northstar Supplies Ltd",
+        "+44 20 7946 0188",
+        "northstar-supp1ies"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "id": "risk-note",
+      "text_all": [
+        "PAY-419",
+        "Northstar",
+        "GB29",
+        "USD 46,880",
+        "PO-8841",
+        "supp1ies",
+        "+44 20 7946 0188"
+      ]
+    }
+  ],
+  "required_ui_events": {
+    "label_created": 1,
+    "message_action": 4,
+    "filter_saved": 1,
+    "draft_saved": 1,
+    "note_created": 1
+  }
+}

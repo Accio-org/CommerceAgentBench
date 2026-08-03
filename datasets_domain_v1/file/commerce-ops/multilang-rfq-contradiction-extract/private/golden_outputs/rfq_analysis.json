@@ -1,0 +1,83 @@
+{
+  "rfqs": [
+    {
+      "rfq_id": "RFQ-01",
+      "language": "es",
+      "normalized": {
+        "quantity_units": 10000,
+        "incoterm": "FOB"
+      },
+      "contradictions": [
+        {
+          "category": "physical_impossibility",
+          "evidence": "Buyer requires the goods to arrive at Manzanillo (Pacific Mexico) within 10 días of departure from Shanghai. Per our sourcing reference, the Shanghai → Manzanillo TPEB lane is 18 to 25 days; a 10-day sea transit on this lane is not physically achievable.",
+          "suggested_resolution": "Reply with a realistic transit of 18 to 22 days for FOB Manzanillo sea freight; if the 6 January Reyes window is hard, propose air freight as an alternative for a partial first batch and seafreight for the bulk."
+        }
+      ]
+    },
+    {
+      "rfq_id": "RFQ-02",
+      "language": "de",
+      "normalized": {
+        "quantity_units": 5000,
+        "incoterm": "FOB"
+      },
+      "contradictions": [
+        {
+          "category": "incoterm_conflict",
+          "evidence": "Buyer asks for an FOB Shanghai stückpreis but expects the seller to organise sea freight, insurance, import clearance and inland delivery to the Berliner Zentrallager, with the seller bearing risk to Berlin. FOB-Shanghai-basis allocates cost and risk to the buyer from the loading port onwards — the stated obligations correspond to a DAP or DDP arrangement, not FOB.",
+          "suggested_resolution": "Restate the Incoterm as DAP Berlin (or DDP Berlin if duties are also to be cleared by us), or alternatively send two separate quotes: one FOB Shanghai (buyer arranges onward freight) and one DAP Berlin (we organise the whole leg). Confirm with the buyer which option fits their controlling needs."
+        }
+      ]
+    },
+    {
+      "rfq_id": "RFQ-03",
+      "language": "pt",
+      "normalized": {
+        "quantity_units": 50000,
+        "incoterm": "FOB"
+      },
+      "contradictions": [
+        {
+          "category": "cost_infeasible",
+          "evidence": "Buyer's target of USD 0,12 per unit FOB Shanghai is well below the realistic BOM floor for a silicone TPU phone case carrying ISO 9001 + INMETRO + RoHS + REACH plus 100% third-party inspection and custom silk-screen. Our sourcing reference puts the floor for this spec at USD 0,45 to 0,80 per unit; INMETRO certification alone adds roughly USD 0,08 per unit.",
+          "suggested_resolution": "Counter with USD 0,55 to 0,65 per unit at the stated specification, or propose dropping the 100% inspection in favour of AQL sampling and removing one of the cost-driving certifications (typically INMETRO or REACH) to reach a lower price. Ask the buyer which of price, certification, and inspection coverage is most flexible."
+        }
+      ]
+    },
+    {
+      "rfq_id": "RFQ-04",
+      "language": "ar",
+      "normalized": {
+        "quantity_units": 100,
+        "incoterm": "FOB"
+      },
+      "contradictions": [
+        {
+          "category": "logical_conflict",
+          "evidence": "Buyer requests an exclusive-use 40HQ container booking for an order of 100 stainless bottles. 100 bottles fit in approximately one or two cartons (roughly 0,5 cubic meters); a 40HQ holds 76 cubic meters. The buyer also requests air freight via DXB, which does not use ocean containers at all. The combination of 100 units, 40HQ exclusive, and air freight is not a workable shipping spec.",
+          "suggested_resolution": "Reply with two options: (1) air freight only, packed in a single carton, with no container booking — appropriate for a 100-unit trial batch; (2) LCL sea consolidation if the price target is the priority. Ask the buyer to clarify whether the 100-unit figure is the intended trial quantity or whether they meant the 5,000-unit follow-on batch, in which case a partial 40HQ booking can be reconsidered."
+        }
+      ]
+    },
+    {
+      "rfq_id": "RFQ-05",
+      "language": "en",
+      "normalized": {
+        "quantity_units": 8000,
+        "incoterm": "FOB"
+      },
+      "contradictions": [
+        {
+          "category": "timeline_conflict",
+          "evidence": "Buyer wants goods at the Northampton distribution centre by 15 April for the Easter weekend, but states PO will be issued 22 March with approximately 30 days of production and 30 days of sea transit Shanghai → Felixstowe. Production would end around 21 April and goods would reach the UK around 21 May, missing the 15 April deadline by roughly five weeks.",
+          "suggested_resolution": "Warn the buyer that the Easter window cannot be met under FOB sea freight on the stated PO date. Propose either: (a) switch to air freight for the full shipment (lead time about 7 days for the freight leg, premium pricing), (b) split into a small air shipment of 2,000 to 3,000 units for the Easter window with the remainder by sea for post-Easter restock, (c) issue PO before mid-March to start production earlier, or (d) reduce the order to a quantity that can be air-shipped within budget."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_rfqs": 5,
+    "total_contradictions": 5
+  }
+}

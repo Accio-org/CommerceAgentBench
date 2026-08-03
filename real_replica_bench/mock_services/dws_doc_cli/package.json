@@ -1,0 +1,17 @@
+{
+  "name": "dws-doc-cli-mock-benchmark",
+  "version": "1.0.0",
+  "description": "DingTalk Workspace CLI doc-product mock benchmark service",
+  "main": "server.js",
+  "bin": {
+    "dws": "./bin/dws"
+  },
+  "scripts": {
+    "start": "bun server.js"
+  },
+  "keywords": ["dingtalk", "doc", "cli", "mock", "benchmark"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

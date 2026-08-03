@@ -1,0 +1,32 @@
+{
+  "schema_version": "2.0",
+  "task_id": "cli-google-trends-data-quality-audit",
+  "scoring_formula": "score = passed_checks / total_checks",
+  "checks": [
+    {
+      "id": "setup_gate",
+      "description": "outputs/quality_audit.json exists and is parseable JSON",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "partial_data_correct",
+      "description": "Partial-data datasets: exact dataset set AND every per-dataset partial_data_week_count correct",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "empty_query_correct",
+      "description": "Empty-query dataset IDs: exact set match",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "sub_floor_correct",
+      "description": "Sub-floor (slug, brand) presence pairs: exact set match",
+      "check_type": "deterministic_exact"
+    },
+    {
+      "id": "monopoly_correct",
+      "description": "Monopoly categories: exact slug set AND every leader_share within ±0.02",
+      "check_type": "deterministic_exact"
+    }
+  ]
+}

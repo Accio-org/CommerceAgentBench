@@ -1,0 +1,65 @@
+[
+  {
+    "id": "contact-alice",
+    "name": "Alice Li",
+    "email": "alice.li@auroraretail.test",
+    "phone": "",
+    "notes": "Launch owner",
+    "source": "directory",
+    "color": "#1a73e8"
+  },
+  {
+    "id": "contact-mei",
+    "name": "Mei Chen",
+    "email": "mei.chen@lumenlabs.test",
+    "phone": "",
+    "notes": "Compliance lab",
+    "source": "recent",
+    "color": "#d93025"
+  },
+  {
+    "id": "contact-leon",
+    "name": "Leon Wu",
+    "email": "leon.wu@northport-3pl.test",
+    "phone": "",
+    "notes": "3PL dock lead",
+    "source": "recent",
+    "color": "#188038"
+  },
+  {
+    "id": "contact-nora",
+    "name": "Nora Patel",
+    "email": "nora.patel@auroraretail.test",
+    "phone": "",
+    "notes": "Creative lead",
+    "source": "directory",
+    "color": "#a142f4"
+  },
+  {
+    "id": "contact-ap",
+    "name": "AP Hold Queue",
+    "email": "ap-hold@auroraretail.test",
+    "phone": "",
+    "notes": "Finance holds",
+    "source": "directory",
+    "color": "#f9ab00"
+  },
+  {
+    "id": "contact-support",
+    "name": "VIP Support",
+    "email": "vip-support@auroraretail.test",
+    "phone": "",
+    "notes": "Support queue",
+    "source": "directory",
+    "color": "#188038"
+  },
+  {
+    "id": "contact-ops",
+    "name": "Ops Launch",
+    "email": "ops-launch@auroraretail.test",
+    "phone": "",
+    "notes": "Launch distribution",
+    "source": "directory",
+    "color": "#1a73e8"
+  }
+]

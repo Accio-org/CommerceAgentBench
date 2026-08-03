@@ -1,0 +1,40 @@
+{
+  "messages": [
+    {
+      "message_id": "mail_solar_rfq_001",
+      "from": "alice.li@company.com",
+      "to": "me@company.com",
+      "subject": "Please schedule Solar Pump RFQ Technical Alignment",
+      "date": "2026-05-05T08:20:00+08:00",
+      "is_read": false,
+      "body": "Hi,\n\nPlease coordinate a 90-minute Solar Pump RFQ Technical Alignment this week before Friday. We need to align technical specs, pre-shipment inspection criteria, and the Ningbo export window for the 2,400-unit solar irrigation pump RFQ.\n\nRequired attendees:\n- Farah Hussein from Nile Pumps, farah.hussein@nilepumps.eg\n- Diego Ramos from QA, diego.ramos@company.com\n- Mina Chen from logistics, mina.chen@company.com\n\nPlease check availability, handle timezone differences, create the calendar event, and confirm back to me.\n\nImportant: book Procurement War Room C3. Room C2 is reserved for the battery pack vendor audit this week.\n\nThanks,\nAlice\nProcurement Lead"
+    },
+    {
+      "message_id": "mail_decoy_partner_002",
+      "from": "alice.li@buyer-events.org",
+      "to": "me@company.com",
+      "subject": "Solar seminar speaker planning",
+      "date": "2026-05-05T08:36:00+08:00",
+      "is_read": false,
+      "body": "Could you schedule a solar marketing seminar prep call? This is not related to the RFQ workstream."
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt_existing_qa_sync",
+      "title": "QA sampling sync",
+      "start_time": "2026-05-07T13:30:00+08:00",
+      "end_time": "2026-05-07T14:30:00+08:00",
+      "attendees": ["me@company.com", "diego.ramos@company.com"],
+      "location": "Online"
+    },
+    {
+      "event_id": "evt_existing_export_cutoff",
+      "title": "Ningbo export cutoff review",
+      "start_time": "2026-05-07T18:00:00+08:00",
+      "end_time": "2026-05-07T18:30:00+08:00",
+      "attendees": ["me@company.com", "mina.chen@company.com"],
+      "location": "Logistics Room"
+    }
+  ]
+}

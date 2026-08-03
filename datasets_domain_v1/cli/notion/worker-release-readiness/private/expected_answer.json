@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "id": "target_worker_deployed_once",
+      "entity": "workers",
+      "match": {"name": "supplier-portal-order-sync"},
+      "expect": {
+        "equals": {"status": "active", "deployCount": 3}
+      }
+    },
+    {
+      "id": "prod_shopify_token_set",
+      "entity": "envVars",
+      "match": {"workerId": "wkr_orders_prod", "key": "SHOPIFY_ADMIN_TOKEN"},
+      "expect": {
+        "equals": {"value": "shopify-admin-prod-2026-06", "isSet": true}
+      }
+    },
+    {
+      "id": "prod_supplier_base_set",
+      "entity": "envVars",
+      "match": {"workerId": "wkr_orders_prod", "key": "SUPPLIER_PORTAL_BASE"},
+      "expect": {
+        "equals": {"value": "https://supplier.example.test", "isSet": true}
+      }
+    },
+    {
+      "id": "prod_database_url_removed",
+      "entity": "envVars",
+      "match": {"workerId": "wkr_orders_prod", "key": "DATABASE_URL"},
+      "expect": {"absent": true}
+    },
+    {
+      "id": "supplier_order_sync_triggered",
+      "entity": "syncs",
+      "match": {"workerId": "wkr_orders_prod", "capabilityKey": "syncSupplierOrders"},
+      "expect": {
+        "equals": {"status": "running", "runCount": 13}
+      }
+    },
+    {
+      "id": "legacy_backfill_paused",
+      "entity": "syncs",
+      "match": {"workerId": "wkr_orders_prod", "capabilityKey": "backfillLegacyOrders"},
+      "expect": {
+        "equals": {"status": "paused", "runCount": 4}
+      }
+    },
+    {
+      "id": "preview_worker_untouched",
+      "entity": "workers",
+      "match": {"id": "wkr_orders_preview"},
+      "expect": {
+        "equals": {"deployCount": 8, "status": "active"}
+      }
+    },
+    {
+      "id": "preview_token_untouched",
+      "entity": "envVars",
+      "match": {"workerId": "wkr_orders_preview", "key": "SHOPIFY_ADMIN_TOKEN"},
+      "expect": {
+        "equals": {"value": "shopify-admin-preview-2026-06", "isSet": true}
+      }
+    },
+    {
+      "id": "worker_count_preserved",
+      "entity": "workers",
+      "match": {},
+      "expect": {"count": 14}
+    }
+  ]
+}
