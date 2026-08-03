@@ -43,6 +43,12 @@ real_replica_bench/mock_services/*/node_modules/
 # Claude Code local session / hooks dir
 .claude/
 
+# Agent guidance files. These describe how we work on the benchmark rather than
+# how to use it, and they go stale faster than the release does. Contributors
+# get their instructions from CONTRIBUTING.md instead.
+/CLAUDE.md
+/CLAUDE.local.md
+
 # Hosted-site workspaces and the legacy in-repo web pages. The public pages are
 # deployed from local site workspaces — rrb-report/ builds the leaderboard at
 # realreplicabench.site.accio.ai — and are NOT shipped in this repository.
