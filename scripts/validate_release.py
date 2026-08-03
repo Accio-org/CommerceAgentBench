@@ -517,18 +517,27 @@ def validate_public_remote(check: Validation) -> None:
         check.warnings.append("git metadata unavailable; public remote check skipped")
         return
     proc = subprocess.run(
-        ["git", "remote", "get-url", "--all", "origin"],
+        ["git", "remote", "-v"],
         cwd=ROOT,
         text=True,
         capture_output=True,
         check=False,
     )
-    urls = [line.strip() for line in proc.stdout.splitlines() if line.strip()]
-    check.require(
-        any(re.search(r"github\.com[:/]Accio-Lab/", url) for url in urls),
-        "origin is not the public GitHub remote (github.com/Accio-Lab)",
+    remotes = {}
+    for line in proc.stdout.splitlines():
+        parts = line.split()
+        if len(parts) >= 2:
+            remotes.setdefault(parts[0], set()).add(parts[1])
+    public = sorted(
+        name
+        for name, urls in remotes.items()
+        if any(re.search(r"github\.com[:/]Accio-Lab/", url) for url in urls)
     )
-    print(f"remote: origin_urls={len(urls)} github={any('github.com' in url for url in urls)}")
+    check.require(
+        bool(public),
+        "no remote points at the public GitHub repository (github.com/Accio-Lab)",
+    )
+    print(f"remote: remotes={len(remotes)} public={','.join(public) or 'none'}")
 
 
 def main() -> int:
