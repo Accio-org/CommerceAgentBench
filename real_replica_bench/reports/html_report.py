@@ -17,6 +17,7 @@ MAX_TEXT_PREVIEW = 16000
 MAX_INLINE_IMAGE_BYTES = 2 * 1024 * 1024
 MAX_TRAJECTORY_ARGUMENT_CHARS = 6000
 MAX_TRAJECTORY_RESULT_CHARS = 8000
+MAX_TRAJECTORY_REASONING_CHARS = 6000
 LEGACY_SOURCE_NAME = "".join(chr(code) for code in (87, 105, 108, 100, 67, 108, 97, 119))
 LEGACY_SOURCE_BENCH = LEGACY_SOURCE_NAME + "Bench"
 LEGACY_SOURCE_TOKEN = LEGACY_SOURCE_NAME.lower()
@@ -397,6 +398,53 @@ def _dedupe_tool_progress(progress: Any) -> list[Any]:
     return _dedupe_items(progress, key_fn)
 
 
+def _model_turns(messages: Any) -> list[Any]:
+    """Model turns only.
+
+    `messages` records tool results as turns too, so the sequence reads end to
+    end. For a "messages" count that means the agent's own turns, filter them
+    out — otherwise every tool call inflates the number by one. Readers that
+    predate per-turn records emitted no role at all; treat those as model turns
+    so their counts do not silently drop to zero.
+    """
+    if not isinstance(messages, list):
+        return []
+    return [
+        m for m in messages
+        if not isinstance(m, dict) or m.get("role") not in ("tool", "toolResult")
+    ]
+
+
+def _turn_context_by_call_id(trajectory: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    """call_id -> what the turn that issued it also produced.
+
+    ``{"text": ..., "reasoning": ..., "first": bool}``. The flag lets the
+    renderer print a turn's message and reasoning once even when that turn
+    fired several tool calls — both belong to the turn, not to each call.
+    """
+    out: dict[str, dict[str, Any]] = {}
+    messages = trajectory.get("messages", [])
+    if not isinstance(messages, list):
+        return out
+    for message in messages:
+        if not isinstance(message, dict) or message.get("role") != "assistant":
+            continue
+        text = message.get("text")
+        reasoning = message.get("reasoning")
+        text = text if isinstance(text, str) else ""
+        reasoning = reasoning if isinstance(reasoning, str) else ""
+        if not text.strip() and not reasoning.strip():
+            continue
+        calls = message.get("tool_calls")
+        if not isinstance(calls, list):
+            continue
+        for position, call in enumerate(c for c in calls if isinstance(c, dict)):
+            call_id = _call_id(call)
+            if call_id:
+                out[call_id] = {"text": text, "reasoning": reasoning, "first": position == 0}
+    return out
+
+
 def _dedupe_messages(messages: Any) -> list[Any]:
     def key_fn(item: Any) -> tuple[str, str, str, str, str]:
         if not isinstance(item, dict):
@@ -418,7 +466,7 @@ def _trajectory_counts(run_dir: Path) -> dict[str, int]:
         return {"steps": 0, "tool_calls": 0, "tool_results": 0, "messages": 0}
     tool_calls = _dedupe_tool_calls(trajectory.get("tool_calls", []))
     tool_results = _dedupe_tool_results(trajectory.get("tool_results", []))
-    messages = _dedupe_messages(trajectory.get("messages", []))
+    messages = _dedupe_messages(_model_turns(trajectory.get("messages", [])))
     return {
         "steps": len(tool_calls),
         "tool_calls": len(tool_calls),
@@ -640,6 +688,7 @@ def _trajectory_steps(trajectory: dict[str, Any]) -> str:
         return "<p class='placeholder-note'>No tool calls were captured.</p>"
     results_by_id = _tool_results_by_call_id(trajectory)
     timestamps_by_source = _message_timestamp_by_source(trajectory)
+    context_by_call = _turn_context_by_call_id(trajectory)
     blocks: list[str] = []
     for index, call in enumerate(calls, start=1):
         if not isinstance(call, dict):
@@ -667,6 +716,38 @@ def _trajectory_steps(trajectory: dict[str, Any]) -> str:
         else:
             observation_html = "<p class='placeholder-note'>No matching tool result captured for this call.</p>"
         args_clip_suffix = "\n... clipped ..." if args_clipped else ""
+        # The turn's message and reasoning belong to the turn, not the individual
+        # call: print them once, on the first call the turn issued, above the
+        # call they led to. Reasoning is collapsed (long, secondary); the visible
+        # message is not (it is what the agent actually said at that point).
+        turn_context = context_by_call.get(call_id) if call_id else None
+        reasoning_html = ""
+        message_html = ""
+        if turn_context and turn_context["first"]:
+            reasoning_text = turn_context["reasoning"]
+            if reasoning_text.strip():
+                clipped = len(reasoning_text) > MAX_TRAJECTORY_REASONING_CHARS
+                shown = reasoning_text[:MAX_TRAJECTORY_REASONING_CHARS] + (
+                    "\n... clipped ..." if clipped else ""
+                )
+                reasoning_html = (
+                    "<details class=\"step-reasoning\">"
+                    f"<summary>Model reasoning &middot; {len(reasoning_text)} chars</summary>"
+                    f"<pre><code>{_e(shown)}</code></pre>"
+                    "</details>"
+                )
+            message_text = turn_context["text"]
+            if message_text.strip():
+                clipped = len(message_text) > MAX_TRAJECTORY_REASONING_CHARS
+                shown = message_text[:MAX_TRAJECTORY_REASONING_CHARS] + (
+                    "\n... clipped ..." if clipped else ""
+                )
+                message_html = (
+                    "<div class=\"step-message\">"
+                    f"<strong>Model message &middot; {len(message_text)} chars</strong>"
+                    f"<pre><code>{_e(shown)}</code></pre>"
+                    "</div>"
+                )
         blocks.append(
             f"""
 <div class="step-card">
@@ -676,6 +757,8 @@ def _trajectory_steps(trajectory: dict[str, Any]) -> str:
     <span class="step-meta">{meta}</span>
   </div>
   <div class="step-body">
+    {reasoning_html}
+    {message_html}
     <div><strong>Tool call:</strong>
       <div class="tool-call"><span class="fn-name">{_e(name)}</span><pre><code>{_e(args_preview)}{args_clip_suffix}</code></pre></div>
     </div>
@@ -699,7 +782,7 @@ def _trajectory_block(instance_dir: Path, run_dir: Path) -> str:
         "tool calls": len(_dedupe_tool_calls(trajectory.get("tool_calls", []))),
         "tool results": len(_dedupe_tool_results(trajectory.get("tool_results", []))),
         "tool progress": len(_dedupe_tool_progress(trajectory.get("tool_progress", []))),
-        "messages": len(_dedupe_messages(trajectory.get("messages", []))),
+        "model turns": len(_dedupe_messages(_model_turns(trajectory.get("messages", [])))),
     }
     source_label = {
         "accio_state": "Accio state",
@@ -718,7 +801,7 @@ def _trajectory_block(instance_dir: Path, run_dir: Path) -> str:
         ("Tool calls", counts["tool calls"]),
         ("Tool results", counts["tool results"]),
         ("Tool progress", counts["tool progress"]),
-        ("Messages", counts["messages"]),
+        ("Model turns", counts["model turns"]),
     ]
     source_files = trajectory.get("recovered_source_files")
     if isinstance(source_files, list) and source_files:
@@ -961,6 +1044,12 @@ pre, code { font-family:var(--font-mono); font-size:.78rem; } pre { background:#
 .step-card { border:1px solid var(--c-border); border-radius:var(--radius-sm); margin-bottom:10px; overflow:hidden; background:var(--c-surface); }
 .step-header { display:flex; align-items:center; gap:10px; background:var(--c-surface-2); padding:8px 14px; flex-wrap:wrap; border-bottom:1px solid var(--c-border); }
 .step-id { font-weight:700; font-size:.85rem; color:var(--c-text); font-family:var(--font-mono); }
+.step-reasoning { margin-bottom:10px; border-left:3px solid var(--c-border); padding-left:10px; }
+.step-reasoning > summary { cursor:pointer; font-size:.8rem; font-weight:600; color:var(--c-muted); user-select:none; }
+.step-reasoning > pre { margin-top:6px; white-space:pre-wrap; font-size:.8rem; }
+.step-message { margin-bottom:10px; border-left:3px solid var(--c-primary-soft); padding-left:10px; }
+.step-message > strong { font-size:.8rem; color:var(--c-muted); font-weight:600; }
+.step-message > pre { margin-top:6px; white-space:pre-wrap; font-size:.82rem; }
 .source-badge { display:inline-block; padding:2px 9px; border-radius:var(--radius-pill); font-size:.72rem; font-weight:600; letter-spacing:.02em; }
 .source-agent { background:var(--c-primary-soft); color:#4338ca; }
 .source-user { background:var(--c-success-soft); color:#047857; }

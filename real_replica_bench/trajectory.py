@@ -218,6 +218,12 @@ def recover_trajectory_from_accio_state(agent_dir: Path) -> dict[str, Any]:
     }
 
 
+# Assistant content-part types that carry reasoning rather than the visible
+# answer. "thinking" is what OpenClaw 2026.5.22 writes; the others are accepted
+# so a provider/version that labels the part differently still gets captured.
+_OPENCLAW_REASONING_PART_TYPES = frozenset({"thinking", "reasoning", "reasoning_content"})
+
+
 def recover_trajectory_from_openclaw_chat(agent_dir: Path) -> dict[str, Any]:
     """Parse OpenClaw's chat.jsonl session log into a trajectory dict.
 
@@ -233,6 +239,8 @@ def recover_trajectory_from_openclaw_chat(agent_dir: Path) -> dict[str, Any]:
     tool_results: list[dict[str, Any]] = []
     response_chunks: list[str] = []
     response_chunk_seen: set[str] = set()
+    reasoning_chunks: list[str] = []
+    messages: list[dict[str, Any]] = []
     usage: dict[str, int] = {}
     for line_no, line in enumerate(chat_path.read_text(encoding="utf-8", errors="replace").splitlines(), start=1):
         item = _safe_json_loads(line.strip())
@@ -249,22 +257,62 @@ def recover_trajectory_from_openclaw_chat(agent_dir: Path) -> dict[str, Any]:
             if isinstance(u_val, int):
                 usage[u_key] = usage.get(u_key, 0) + u_val
         if role == "assistant":
+            turn_text: list[str] = []
+            turn_reasoning: list[str] = []
+            turn_calls: list[dict[str, Any]] = []
+            turn_parts: list[dict[str, Any]] = []
             for part in content:
                 if not isinstance(part, dict):
                     continue
                 ptype = part.get("type")
                 if ptype == "text":
                     txt = part.get("text") or ""
-                    if isinstance(txt, str) and txt.strip() and txt not in response_chunk_seen:
-                        response_chunk_seen.add(txt)
-                        response_chunks.append(txt)
+                    if isinstance(txt, str) and txt.strip():
+                        turn_text.append(txt)
+                        turn_parts.append({"type": "text", "text": txt})
+                        if txt not in response_chunk_seen:
+                            response_chunk_seen.add(txt)
+                            response_chunks.append(txt)
+                elif ptype in _OPENCLAW_REASONING_PART_TYPES:
+                    # OpenClaw serialises the model's reasoning as a sibling
+                    # content part. Observed on 2026.5.22: type "thinking" with
+                    # the plaintext under a "thinking" key, not "text".
+                    txt = part.get("text") or part.get("thinking") or part.get("reasoning") or ""
+                    if isinstance(txt, str) and txt.strip():
+                        turn_reasoning.append(txt)
+                        turn_parts.append({"type": "reasoning", "text": txt})
+                        reasoning_chunks.append(txt)
                 elif ptype == "toolCall":
-                    tool_calls.append({
+                    call = {
                         "id": part.get("id"),
                         "name": part.get("name"),
                         "arguments": part.get("arguments"),
                         "_source": f"chat.jsonl:{line_no}",
-                    })
+                    }
+                    turn_calls.append(call)
+                    turn_parts.append({"type": "toolCall", **call})
+                    tool_calls.append(call)
+            if turn_parts:
+                text_joined = "\n".join(turn_text)
+                messages.append({
+                    "role": "assistant",
+                    "message_type": None,
+                    "tool_name": None,
+                    # `parts` is the turn as the provider returned it: reasoning,
+                    # visible text and tool calls interleaved in their original
+                    # order. The flat tool_calls/response_text/reasoning bags
+                    # below are aggregates over every turn and cannot say which
+                    # reasoning preceded which call.
+                    "parts": turn_parts,
+                    "text": text_joined,
+                    "reasoning": "\n".join(turn_reasoning),
+                    "tool_calls": turn_calls,
+                    "tool_call_count": len(turn_calls),
+                    "usage": msg.get("usage") if isinstance(msg.get("usage"), dict) else None,
+                    "content_preview": text_joined[:4000],
+                    "timestamp": msg.get("timestamp") or item.get("timestamp"),
+                    "_source": f"chat.jsonl:{line_no}",
+                })
         elif role in ("tool", "toolResult"):
             text_chunks: list[str] = []
             for part in content:
@@ -274,23 +322,47 @@ def recover_trajectory_from_openclaw_chat(agent_dir: Path) -> dict[str, Any]:
                         text_chunks.append(t)
                 elif isinstance(part, str):
                     text_chunks.append(part)
-            tool_results.append({
+            joined = "\n".join(text_chunks)
+            result = {
                 "toolCallId": msg.get("toolCallId"),
                 "toolName": msg.get("toolName") or msg.get("name"),
-                "content": "\n".join(text_chunks),
+                "content": joined,
+                "_source": f"chat.jsonl:{line_no}",
+            }
+            tool_results.append(result)
+            # Tool results are turns too. Recording them in `messages` keeps the
+            # sequence readable end to end (assistant turn -> its results -> next
+            # assistant turn) instead of leaving holes the reader has to rejoin
+            # by toolCallId.
+            messages.append({
+                "role": "toolResult",
+                "message_type": "tool_result",
+                "tool_name": result["toolName"],
+                "toolCallId": result["toolCallId"],
+                "parts": [{"type": "toolResult", "text": joined}],
+                "text": joined,
+                "reasoning": "",
+                "tool_calls": [],
+                "tool_call_count": 0,
+                "usage": None,
+                "content_preview": joined[:4000],
+                "timestamp": msg.get("timestamp") or item.get("timestamp"),
                 "_source": f"chat.jsonl:{line_no}",
             })
-    if not any([tool_calls, tool_results, response_chunks]):
+    if not any([tool_calls, tool_results, response_chunks, reasoning_chunks]):
         return {}
     return {
         "source": "openclaw_chat",
         "recovered_from_openclaw_chat": True,
         "recovered_source_files": ["chat.jsonl"],
         "response_text": "\n\n".join(response_chunks)[-60000:],
+        # Same key the codex rollout reader emits, so consumers do not have to
+        # branch on which harness produced the trajectory.
+        "reasoning": "\n\n".join(reasoning_chunks)[-20000:] if reasoning_chunks else "",
         "tool_calls": tool_calls,
         "tool_results": tool_results,
         "tool_progress": [],
-        "messages": [],
+        "messages": messages,
         "usage": usage,
     }
 

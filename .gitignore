@@ -93,6 +93,12 @@ real_replica_bench/mock_services/*/node_modules/
 # are comparable within one benchmark version.
 /docs/task-hardening-2026-08.md
 
+# Internal benchmark strategy and positioning notes. These working documents
+# may contain pre-release reasoning and success criteria that are not public
+# commitments; keep the whole directory, including its local figures, out of
+# the release repository.
+/docs/internal/
+
 # Internal image-overlay recipes. The published runtime is distributed as an
 # immutable digest (docs/openclaw-runtime-image.md); the intermediate build
 # lanes that produced it are internal R&D records, not part of the release.

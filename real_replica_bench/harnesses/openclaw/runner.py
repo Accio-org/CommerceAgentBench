@@ -61,6 +61,31 @@ if TYPE_CHECKING:
     from real_replica_bench.cli import TaskSpec
 
 
+# Autonomous-agent directive, prepended to every OpenClaw prompt in the most
+# prominent position. OpenClaw's default framing is a conversational personal
+# assistant, and persona-forward models (notably GPT-5.6 Luna/Terra/Sol) latch
+# onto it — they open with a "我刚上线，你希望怎么称呼我？" self-introduction plus a
+# question, end the turn with zero tool calls, and since `openclaw agent
+# --message` is a single non-interactive invocation there is no user to answer →
+# the loop terminates and the task scores ~0. Reproduced on this runtime with
+# gpt-5.6-luna: one upstream call, zero tool calls, reward 0.
+#
+# It carries NO task-specific or verifier-facing hints, and is applied uniformly
+# to every OpenClaw run so the cross-model comparison stays fair. Because it sits
+# on the scoring boundary — changing it moves every model's starting line — it is
+# a module-level constant rather than an inline string: greppable, diffable in
+# review, and overridable in an A/B harness without editing this file.
+OPENCLAW_AGENT_DIRECTIVE = (
+    "# 角色：自主任务执行 Agent\n\n"
+    "你是一个自主运行的任务执行 agent，**不是**聊天助手。请**立即开始执行下面的任务**。\n"
+    "- **不要**自我介绍、不要给自己取名字、不要询问「如何称呼你 / 我该怎么称呼你」、不要任何寒暄开场白。\n"
+    "- 当前是**无人值守的单次执行**：没有人会回答你的任何反问，任何"
+    "「等待用户确认 / 请用户提供」都会导致任务直接失败。\n"
+    "- 直接调用工具（read / exec / browser 等）完成任务，把最终产物写到 `/task/outputs/`。"
+    "遇到不确定的地方，基于任务描述做出最合理的假设并继续推进，不要停下来等待确认。\n\n"
+    "---\n\n"
+)
+
 # Vision-capable model substrings used by the OpenClaw set-image precheck.
 # Match is case-insensitive substring against the resolved primary model name
 # (which is what OpenClaw's `models set-image` would otherwise be left set to
@@ -77,6 +102,10 @@ _OPENCLAW_VISION_MODEL_SUBSTRINGS: tuple[str, ...] = (
     "qwen-vl",
     "qwen3.7-preview",
     "qwen3.7-plus",  # multimodal GA (2026-06-01, DashScope + OpenRouter)
+    # Substring covers the whole qwen3.8-max family. The -preview variant was
+    # probed on DashScope (2026-07-26: image_url decoded, image_tokens billed);
+    # the GA id is covered by the same entry rather than a second line.
+    "qwen3.8-max",
     "qwen-latest-series",
     "kimi-vl",
     "glm-vl",
@@ -477,7 +506,9 @@ def run_openclaw_agent(
         f"- **任务输入参考**：`{remote_task_input_dir}/` 是只读的原始任务输入（用于 read 工具）；"
         f"`{openclaw_uploads_root}/` 是同样内容的可上传副本（专供 browser upload）。\n"
     )
-    prompt = base_prompt + openclaw_hint + build_mock_integrity_note(spec)
+    prompt = (
+        OPENCLAW_AGENT_DIRECTIVE + base_prompt + openclaw_hint + build_mock_integrity_note(spec)
+    )
     prompt_path = agent_dir / "openclaw-prompt.md"
     prompt_path.write_text(prompt, encoding="utf-8")
     remote_prompt = f"/tmp/{spec.task_id}-openclaw-prompt.md"

@@ -13,8 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="#release-status"><img alt="Release v1.3.1" src="https://img.shields.io/badge/release-v1.3.1-111827"></a>
-  <a href="#benchmark-suite"><img alt="107 tasks" src="https://img.shields.io/badge/tasks-107-10b981"></a>
+  <a href="#reproducibility-contract"><img alt="Release v1.3.1" src="https://img.shields.io/badge/release-v1.3.1-111827"></a>
+  <a href="#task-and-run-layout"><img alt="107 tasks" src="https://img.shields.io/badge/tasks-107-10b981"></a>
   <a href="#quick-start"><img alt="Python 3.11 or newer" src="https://img.shields.io/badge/python-%E2%89%A53.11-00b2ff"></a>
   <a href="#quick-start"><img alt="OpenClaw harness" src="https://img.shields.io/badge/harness-OpenClaw-059669"></a>
   <a href="#reference-results"><img alt="OpenClaw and Accio reference results" src="https://img.shields.io/badge/results-OpenClaw%20%2B%20Accio-047857"></a>
@@ -25,16 +25,7 @@
   <a href="https://realreplicabench.site.accio.ai/">Live leaderboard</a> ·
   <a href="https://realreplicabench-mock-showcase.site.accio.ai/">Mock showcase</a> ·
   <a href="#quick-start">Quick start</a> ·
-  <a href="#reproducibility-contract">Reproducibility</a> ·
-  <a href="#project-ownership">Accio</a>
-</p>
-
-<p align="center">
-  <sub>Official sites:
-  <a href="https://realreplicabench.site.accio.ai/">leaderboard</a> ·
-  <a href="https://realreplicabench-mock-showcase.site.accio.ai/">mock showcase</a> ·
-  <a href="https://github.com/Accio-Lab">github.com/Accio-Lab</a> ·
-  <a href="https://www.accio.com/">accio.com</a></sub>
+  <a href="#reproducibility-contract">Reproducibility</a>
 </p>
 
 ---
@@ -63,8 +54,7 @@ own deterministic or LLM-assisted verifier.
 ### Real task surfaces
 
 The suite uses reproducible local replicas of commerce and business software,
-so agents must operate interfaces and change state rather than merely describe
-what they would do.
+so agents must operate interfaces and change state.
 
 <table>
   <tr>
@@ -91,75 +81,21 @@ what they would do.
   runtime.</sub>
 </p>
 
-> [!NOTE]
-> **RealReplicaBench is an Accio project.** Its public benchmark identity is
-> independent of any one harness, while the task design and release are
-> developed and maintained by the Accio team at Alibaba International.
-
-## Release status
-
-This repository contains the public **v1.3.1 task suite and OpenClaw harness**.
-The reference tables below use the same 107 task IDs as this release.
-
-The supplied OpenClaw result bundles were audited against this repository:
-
-- all **107/107 task IDs** match;
-- all **107/107 agent-visible `task.md` files** match;
-- among tasks with attachments, **101 workspaces match byte-for-byte** and two
-  differ only in regenerated PDF branding/metadata; the remaining four tasks
-  have no workspace attachments;
-- the refreshed public runtime image has the same 23-layer root filesystem and
-  the same `/opt/mock_services` contents as the image used by the OpenClaw
-  reference runs.
-
-One boundary remains important: the published OpenClaw scores were produced
-through managed evaluation endpoints that are not distributed with this
-repository and are not required to run it. The public path uses bring-your-own
-credentials for native Gemini, native Qwen, OpenRouter, OpenAI's Responses API,
-or a user-declared endpoint. The default public judge uses the same
-`gemini-3.1-pro-preview` model identifier as the reference evaluation, but its
-Google API route is still not byte-for-byte identical to the original
-evaluation route. Treat the tables as **audited reference results**, not a
-promise that a run through another endpoint or model snapshot will return the
-same score.
-
 ## Reference results
 
-Results are aligned by `task_id` over the complete 107-task collection. To keep
-the harness comparison direct, the table below shows only the twelve model
-families with results from both OpenClaw and Accio.
+Results are aligned by `task_id` over the complete 107-task collection. The
+tables below are per harness — twelve model families on OpenClaw, thirteen on
+Accio — and the twelve present in both are the ones that compare directly.
+The published scores were produced through Accio-managed evaluation endpoints
+with `gemini-3.1-pro-preview` as the judge; the public path in this repository
+uses bring-your-own credentials.
 
-**The live leaderboard at
-[realreplicabench.site.accio.ai](https://realreplicabench.site.accio.ai/) is the
-source of record** — it carries analysis charts, task composition, benchmark
-anatomy, and any model added since this README was written. The snapshot here
-is for reading the repository offline; where the two differ, the site is right.
+The [live leaderboard](https://realreplicabench.site.accio.ai/) is the
+source of record; the tables below are a snapshot.
 
 <p align="center">
   <img src="docs/assets/reference-leaderboard.svg" width="100%" alt="RealReplicaBench Leaderboard comparing OpenClaw and Accio">
 </p>
-
-### OpenClaw vs. Accio
-
-<a href="https://www.accio.com/"><img src="docs/assets/accio-logo.svg" height="24" alt="Accio"></a>
-
-Only model families with results from both harnesses over the same 107 task IDs
-are included.
-
-| Model | OpenClaw | Accio |
-|---|---:|---:|
-| Claude Opus 5 | **60/107 (56.1%)** | **66/107 (61.7%)** |
-| Claude Opus 4.8 | **55/107 (51.4%)** | **59/107 (55.1%)** |
-| GPT-5.6 Sol | **53/107 (49.5%)** | **55/107 (51.4%)** |
-| GPT-5.5 | **51/107 (47.7%)** | **48/107 (44.9%)** |
-| Claude Opus 4.7 | **49/107 (45.8%)** | **56/107 (52.3%)** |
-| Qwen 3.8 Max Preview | **48/107 (44.9%)** | **49/107 (45.8%)** |
-| Gemini 3.6 Flash | **48/107 (44.9%)** | **50/107 (46.7%)** |
-| DeepSeek V4 Flash | **46/107 (43.0%)** | **50/107 (46.7%)** |
-| GLM 5.2 | **42/107 (39.3%)** | **50/107 (46.7%)** |
-| Gemini 3.5 Flash | **39/107 (36.4%)** | **46/107 (43.0%)** |
-| GPT-5.6 Luna | **36/107 (33.6%)** | **48/107 (44.9%)** |
-| Gemini 3 Flash | **31/107 (29.0%)** | **31/107 (29.0%)** |
 
 ### Detailed evaluation statistics
 
@@ -203,10 +139,6 @@ normalized efficiency scores.
 | Kimi K3 | 43/107 (40.2%) | 0.832 | 61.5 | 13.8 min | 2.31M |
 | Gemini 3 Flash | 31/107 (29.0%) | 0.769 | 46.0 | 4.5 min | 2.48M |
 
-Full-precision values, public result IDs, runtime references, telemetry
-coverage, and alignment metadata are on the
-[live leaderboard](https://realreplicabench.site.accio.ai/).
-
 The raw task-level result bundles are not stored in Git and do not yet have
 public immutable URLs or checksums. Until they do, the published board is an
 audited aggregate keyed by public result IDs, not a standalone reproduction
@@ -214,18 +146,16 @@ package.
 
 ### Get your model on the leaderboard
 
-We run models on request, including **pre-release and internal builds** under
-whatever access arrangement you need. If you want a result published on the
-board — or an evaluation run privately against your own checkpoint before you
-ship it — reach out: Yukun Lian, <lianyukun.lyk@alibaba-inc.com>; Sicong Xie,
+We run models on request, including **pre-release and internal builds**, and
+can evaluate privately against your own checkpoint before you ship it. Reach
+out: Yukun Lian, <lianyukun.lyk@alibaba-inc.com>; Sicong Xie,
 <sicong.xsc@alibaba-inc.com>.
 
 ### Metrics
 
 | Metric | Definition |
 |---|---|
-| Pass | A task passes only when every required verifier check passes. |
-| Pass rate | Binary passes divided by the 107 aligned tasks. |
+| Pass | A task passes only when every required verifier check passes; the rate is passes over the 107 aligned tasks. |
 | Avg. capacity | Macro mean of each task's `checks_passed / checks_total`; this preserves partial task completion but is not a weighted official score. |
 | Avg. steps | Mean trajectory tool-call count over the displayed task attempts. |
 | Avg. time | Mean task wall-clock duration, using summary duration or audited manifest timestamps when the summary duration is zero. |
@@ -235,10 +165,10 @@ ship it — reach out: Yukun Lian, <lianyukun.lyk@alibaba-inc.com>; Sicong Xie,
 
 ### Requirements
 
-- Docker with Linux container support.
+- Docker with Linux container support (`linux/amd64`; Apple Silicon hosts can
+  use emulation).
 - Python 3.11 or newer.
 - A model API key and an LLM-judge API key.
-- `linux/amd64` support. Apple Silicon hosts can use Docker emulation.
 
 ### Install
 
@@ -285,8 +215,6 @@ real-replica-bench run api-amazon-margin-floor-audit \
 ### Run a collection
 
 ```bash
-export GEMINI_API_KEY="..."
-
 real-replica-bench run \
   --config configs/realreplicabench_openclaw_native_google_direct.yaml \
   --run-id "realreplicabench-openclaw-$(date +%Y%m%d-%H%M%S)"
@@ -296,85 +224,58 @@ Use `--limit 1` for a batch-path smoke test. The full suite can be partitioned
 with the `*_text_only`, `*_browser_textcapable`, and `*_vision` collection
 files under `datasets_domain_v1/`.
 
-### Provider configurations
+### Provider routes
 
-| Route | Configuration | Credentials |
-|---|---|---|
-| Native Gemini | `configs/realreplicabench_openclaw_native_google_direct.yaml` | `GEMINI_API_KEY` |
-| Native Qwen / DashScope | `configs/realreplicabench_openclaw_qwen37plus_native.yaml` | `DASHSCOPE_API_KEY` plus judge key |
-| OpenRouter | `configs/realreplicabench_openclaw.yaml` | `OPENROUTER_API_KEY` plus judge key |
-| Qwen through OpenRouter | `configs/realreplicabench_openclaw_qwen37plus_openrouter.yaml` | `OPENROUTER_API_KEY` plus judge key |
-| Custom native Gemini endpoint | `configs/realreplicabench_openclaw_native_google.yaml` | Provider-specific |
-| OpenAI `/v1/chat/completions` (BYO) | `configs/realreplicabench_openclaw_openai_chat.yaml` | `OPENAI_API_KEY` (or your endpoint's env var) |
-| OpenAI `/v1/responses` (BYO) | `configs/realreplicabench_openclaw_openai_responses.yaml` | `OPENAI_API_KEY` (or your endpoint's env var) |
-| Anthropic `/v1/messages` (BYO) | `configs/realreplicabench_openclaw_anthropic_messages.yaml` | `ANTHROPIC_API_KEY` (or your endpoint's env var) |
-| Custom Gemini `generateContent` proxy | `configs/realreplicabench_openclaw_custom_gemini.yaml` | `CUSTOM_GEMINI_BASE_URL` + `CUSTOM_GEMINI_API_KEY` |
-
-The last four rows are vendor-neutral BYO-endpoint templates covering the
-four common LLM wire formats — the presets ship with public defaults but
-are meant to be edited (or bypassed via the CLI shortcut). See
-[`docs/openclaw-byo-endpoint.md`](docs/openclaw-byo-endpoint.md) for the
-full contract, the schema, and the `--openclaw-api` shortcut that
-synthesizes a preset in memory.
-
-### Public API routing
-
-The agent API and Judge API are independent. Public commands use only the
-provider routes documented below.
-
-| Role | Public protocol | Credential | Endpoint control |
+| Route | Configuration | Wire protocol | Credentials |
 |---|---|---|---|
-| Gemini agent | Native `generateContent` through OpenClaw | `GEMINI_API_KEY` | `baseUrl` in the models JSON |
-| Qwen agent | DashScope OpenAI-compatible chat completions | `DASHSCOPE_API_KEY` | `baseUrl` in the models JSON |
-| OpenAI Chat agent (BYO) | OpenAI `/v1/chat/completions` | `OPENAI_API_KEY` (or your endpoint's env var) | `baseUrl` in the models JSON, or `--openclaw-provider-base-url` |
-| OpenAI Responses agent (BYO) | OpenAI `/v1/responses` | `OPENAI_API_KEY` (or your endpoint's env var) | `baseUrl` in the models JSON, or `--openclaw-provider-base-url` |
-| Anthropic agent (BYO) | Anthropic `/v1/messages` | `ANTHROPIC_API_KEY` (or your endpoint's env var) | `baseUrl` in the models JSON, or `--openclaw-provider-base-url` |
-| Custom Gemini agent (BYO) | Native `generateContent` proxy | `CUSTOM_GEMINI_API_KEY` | `baseUrl` in the models JSON, or `--openclaw-provider-base-url` |
-| OpenRouter agent | OpenRouter chat completions through the bundled shim | `OPENROUTER_API_KEY` | `openclaw.base_url` / `--openclaw-base-url` |
-| Gemini Judge | Native `generateContent` | `GEMINI_API_KEY` | `judge.base_url` / `--llm-judge-base-url` |
-| OpenAI Judge | Responses API with structured output | `OPENAI_API_KEY` | `judge.base_url` / `--llm-judge-base-url` |
+| Native Gemini | `configs/realreplicabench_openclaw_native_google_direct.yaml` | Gemini `generateContent` | `GEMINI_API_KEY` |
+| Native Qwen / DashScope | `configs/realreplicabench_openclaw_qwen37plus_native.yaml` | DashScope OpenAI-compatible chat completions | `DASHSCOPE_API_KEY` |
+| OpenRouter | `configs/realreplicabench_openclaw.yaml` | OpenRouter chat completions through the bundled shim | `OPENROUTER_API_KEY` |
+| Qwen through OpenRouter | `configs/realreplicabench_openclaw_qwen37plus_openrouter.yaml` | OpenRouter chat completions through the bundled shim | `OPENROUTER_API_KEY` |
+| Custom native Gemini endpoint | `configs/realreplicabench_openclaw_native_google.yaml` | Gemini `generateContent` | Provider-specific |
+| Your own OpenAI Chat endpoint | `configs/realreplicabench_openclaw_openai_chat.yaml` | OpenAI `/v1/chat/completions` | `OPENAI_API_KEY`, or your endpoint's env var |
+| Your own OpenAI Responses endpoint | `configs/realreplicabench_openclaw_openai_responses.yaml` | OpenAI `/v1/responses` | `OPENAI_API_KEY`, or your endpoint's env var |
+| Your own Anthropic endpoint | `configs/realreplicabench_openclaw_anthropic_messages.yaml` | Anthropic `/v1/messages` | `ANTHROPIC_API_KEY`, or your endpoint's env var |
+| Your own Gemini proxy | `configs/realreplicabench_openclaw_custom_gemini.yaml` | Gemini `generateContent` | `CUSTOM_GEMINI_BASE_URL` + `CUSTOM_GEMINI_API_KEY` |
 
-Six tasks include LLM-assisted checks; the other checks are deterministic.
-For comparable public runs, keep the Judge fixed to
-`gemini-3.1-pro-preview` unless you explicitly report a different Judge.
+The last four rows are **bring-your-own-endpoint** templates: they point
+OpenClaw at any base URL you control that speaks one of the four common LLM
+wire formats, so you can evaluate a self-hosted or pre-release model. Override
+the endpoint with `baseUrl` in the models JSON, `--openclaw-provider-base-url`
+(`--openclaw-base-url` for OpenRouter), or `--openclaw-api` to skip the preset
+entirely — see [`docs/openclaw-byo-endpoint.md`](docs/openclaw-byo-endpoint.md).
 
-Supply credentials through environment variables. CLI key flags remain
-available for direct one-task use, but environment variables keep secrets out
-of the benchmark command itself. The batch runner redacts credential fields
-from `run.yaml`, and unresolved `${...}` placeholders now fail before a
-container run instead of being sent to a provider.
+The judge is configured independently of the agent, on Gemini `generateContent`
+or the OpenAI Responses API. Six tasks include LLM-assisted checks; keep the
+judge on `gemini-3.1-pro-preview` unless you report a different one.
 
-> [!CAUTION]
-> The evaluated agent has shell access inside its task container. Provider
-> credentials are available to the runtime while a task is executing, even
-> though the release excludes them from archived OpenClaw state and redacts
-> persisted configs. Use dedicated evaluation keys with minimum permissions,
-> strict spend/rate limits, and no access to production data; rotate or revoke
-> them after the run.
+Supply credentials through environment variables: the batch runner redacts them
+from `run.yaml` and fails on unresolved `${...}` placeholders before a container
+starts. Evaluated models run with shell access to their container — see
+[`SECURITY.md`](SECURITY.md) for the key-handling rules that implies.
 
 ### API validation boundary
 
-The pinned public image has been exercised against local protocol recorders,
-without real credentials or billable calls:
-
-- Gemini agent: versioned
-  `/v1beta/models/<model>:streamGenerateContent?alt=sse`,
-  `x-goog-api-key`, Gemini `contents`, and `thinkingConfig`.
-- Qwen agent: `/compatible-mode/v1/chat/completions`, Bearer authentication,
-  streaming messages, and native `enable_thinking`.
-- OpenRouter agent: `/api/v1/chat/completions`, Bearer authentication, and
-  reasoning preserved through the bundled shim, including a custom upstream
-  base URL.
-- Gemini Judge and OpenAI Judge: exact native `generateContent` and Responses
-  API request/response contracts covered by `tests/test_public_api.py`.
+Every route above — the Gemini, Qwen, and OpenRouter agents and both Judges,
+including reasoning through the bundled shim and custom upstream base URLs —
+has been exercised against local protocol recorders, without real credentials
+or billable calls, under the exact request/response contracts covered by
+`tests/test_public_api.py`.
 
 This proves request construction and response parsing, not provider-side model
 entitlement, quota, or billing. Before a full run, use `--limit 1` with your own
 keys and record the provider/model snapshot in the run metadata.
 
+Deeper reference:
+[`docs/openclaw-runtime-image.md`](docs/openclaw-runtime-image.md) for the
+runtime image's identity, pin, and customization boundary;
+[`docs/openclaw-native-gemini.md`](docs/openclaw-native-gemini.md) and
+[`docs/openclaw-native-qwen.md`](docs/openclaw-native-qwen.md) for the native
+provider routes.
+
 ## Reproducibility contract
 
-Comparable runs must pin all of the following:
+Comparable runs pin these four:
 
 | Component | v1.3.1 pin |
 |---|---|
@@ -382,181 +283,58 @@ Comparable runs must pin all of the following:
 | Task definitions | This repository release, including task workspaces and graders |
 | Harness | OpenClaw runner in this repository |
 | Runtime | `acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859` |
-| Model route | Record provider, exact model identifier, endpoint class, and reasoning configuration |
-| Judge | Record provider, exact judge model, endpoint class, and timeout |
-| Evaluation settings | Record task count, retry policy, aggregation rule, and stopping conditions before comparing scores |
 
-Pin the runtime by digest, not by the mutable Docker Hub tag. Compare results
-only within one benchmark version — a release can change what a task accepts,
-so scores carry across versions only where the task did not.
+Report the rest: provider, exact model and judge identifiers, endpoint class,
+reasoning configuration, task count, retry policy, and aggregation rule.
+Compare results only within one benchmark version — a release can change what a
+task accepts — and never by displayed model name alone: routing, model
+snapshots, prompt adapters, retry policies, and judge endpoints all change
+outcomes.
 
-Do not compare results solely by a displayed model name. Provider routing,
-model snapshots, prompt adapters, retry policies, and judge endpoints can all
-change outcomes.
-
-## Benchmark suite
+## Task and run layout
 
 ```text
 datasets_domain_v1/
-├── realreplicabench_domain_v1_all.collection.json
-├── realreplicabench_domain_v1_text_only.collection.json
-├── realreplicabench_domain_v1_browser_textcapable.collection.json
-├── realreplicabench_domain_v1_vision.collection.json
+├── realreplicabench_domain_v1_{all,text_only,browser_textcapable,vision}.collection.json
 └── <interface>/<platform>/<task>/
-    ├── task.toml
-    ├── task.md
-    ├── workspace/
-    ├── grader/
-    ├── services/
-    ├── private/
-    └── rubric.json
+    ├── task.toml   task.md   workspace/          agent-visible
+    └── grader/     services/ private/ rubric.json
 ```
 
-Only `task.md` and `workspace/` are staged into the agent-visible task tree.
-Graders, rubrics, private seeds, service launchers, and mock implementations
-remain outside it. Final artifacts must be written to `/task/outputs/`.
-
-The benchmark uses a fresh container for each task. After the agent exits, the
-host-side verifier reads the final outputs and isolated mock state, writes the
-reward record, archives available logs and trajectories, and removes the task
-container.
-
-## Result artifacts
+Only `task.md` and `workspace/` are staged into the agent-visible task tree;
+graders, rubrics, private seeds, service launchers, and mock source stay
+outside it, and final artifacts go to `/task/outputs/`. After the agent exits,
+the host-side verifier reads those outputs and the isolated mock state, writes
+the reward record, archives logs and trajectories, removes the container, and
+leaves:
 
 ```text
 runs/<run_id>/
-├── run.yaml
-├── summary.json
-├── summary.md
-├── report.html
-└── tasks/
-    └── <index>-<task_id>/
-        ├── manifest.json
-        ├── agent/
-        ├── verifier/
-        ├── workspace/outputs/
-        ├── screenshots/
-        └── container/
+├── run.yaml   summary.json   summary.md   report.html
+└── tasks/<index>-<task_id>/
+    └── manifest.json  agent/  verifier/  workspace/outputs/  screenshots/  container/
 ```
-
-## Repository layout
-
-```text
-real_replica_bench/       Python package, verifiers, reports, and OpenClaw harness
-configs/                  Public provider and batch-run configurations
-datasets_domain_v1/       The 107 task definitions and local assets
-docker/openclaw/          Runtime image recipes and provider sidecars
-docs/                     Runtime and provider docs, plus README assets
-scripts/                  Build, run, validation, and artifact helpers
-```
-
-The runtime image's identity, immutable pin, and customization boundary are documented in
-[`docs/openclaw-runtime-image.md`](docs/openclaw-runtime-image.md). Native
-provider details are in
-[`docs/openclaw-native-gemini.md`](docs/openclaw-native-gemini.md) and
-[`docs/openclaw-native-qwen.md`](docs/openclaw-native-qwen.md).
-
-## Validate a checkout
-
-```bash
-python scripts/validate_release.py
-python -m compileall -q real_replica_bench scripts
-python -m unittest discover -s tests -v
-```
-
-The release validator checks collection membership, task IDs, modality
-partitions, required task files, config references, leaderboard shape, and
-tracked absolute developer paths.
 
 ## Contributing
 
 **We are asking for your mock environments.** A benchmark with a fixed task set
-decays on a schedule: models saturate it, and its answers drift into training
-data. RealReplicaBench is released in large part so that its mock surface can
-keep growing — each new replica service is a new family of tasks that no model
-has been trained on. Widening that surface faster than the field moves is not
-work one team can do alone, which is why the mocks ship under an open license
-and why this is the contribution we ask for first.
+decays: models saturate it and its answers drift into training data. Each new
+replica service — a real service's API semantics, state transitions, and above
+all its rejections, running offline and scored deterministically — is a family
+of tasks no model has been trained on. The fourteen shipping today are
+registered in `real_replica_bench/mock_services/registry.py`.
 
-### Contribute a mock environment
+[`CONTRIBUTING.md`](CONTRIBUTING.md) states the bar a new mock has to clear, and
+the rules for task fixes, graders, and harness changes. A merged mock reaches
+the published benchmark when maintainers next rebake the runtime image.
 
-A mock environment is a replica of a real service — its API semantics, its
-state transitions, and above all its rejections — that runs offline and can be
-scored deterministically. The thirteen registered in
-`real_replica_bench/mock_services/registry.py` are the ones shipping today.
-[`CONTRIBUTING.md`](CONTRIBUTING.md) states the bar a new one has to clear and
-shows how to bake a local image to test it before you open the pull request.
+The Accio team at Alibaba International built the harness, the mock services,
+and the v1 task suite; your pull request adds you to
+[`CONTRIBUTORS.md`](CONTRIBUTORS.md) alongside the mock itself.
 
-**When your pull request is merged, you are credited under
-[Contributors](#contributors).** That is the loop this release exists to start:
-new mocks become new tasks, and new tasks keep the evaluation set ahead of the
-models it measures.
-
-One caveat worth stating plainly: mock services run from inside the pinned
-runtime image, not from a checkout, so a merged mock reaches the published
-benchmark only once the maintainers rebake that image and repin its digest.
-That step is ours, and it happens on the release cadence rather than per merge.
-
-### Other contributions and security
-
-Task fixes, grader corrections, harness improvements, and documentation are all
-welcome — see [`CONTRIBUTING.md`](CONTRIBUTING.md) for the task-integrity and
-validation rules. Report integrity or security vulnerabilities privately as
-described in [`SECURITY.md`](SECURITY.md). Third-party runtime and snapshot
+Report vulnerabilities privately per [`SECURITY.md`](SECURITY.md); third-party
 provenance is inventoried in
 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
-
-## Accio evaluation ecosystem
-
-RealReplicaBench is the first public release in Accio's evaluation matrix.
-
-| Property | Link | What it is |
-|---|---|---|
-| Live leaderboard | [realreplicabench.site.accio.ai](https://realreplicabench.site.accio.ai/) | Interactive results, analysis charts, and benchmark anatomy for this release |
-| UI mock showcase | [realreplicabench-mock-showcase.site.accio.ai](https://realreplicabench-mock-showcase.site.accio.ai/) | 104 rendered pages across eight UI mock services — a static visual tour of the task surfaces |
-| GitHub | [github.com/Accio-Lab](https://github.com/Accio-Lab) | The Accio-Lab organization hosting this repository |
-| Accio | [accio.com](https://www.accio.com/) | The Accio product by Alibaba International |
-
-## Project ownership
-
-<p>
-  <a href="https://www.accio.com/">
-    <img src="docs/assets/accio-logo.svg" height="30" alt="Accio">
-  </a>
-</p>
-
-RealReplicaBench is developed and maintained by the **Accio team at Alibaba
-International**. Accio owns the project identity and coordinates benchmark
-releases, task-integrity changes, and reference evaluations. Public releases
-are published under the [Accio-Lab](https://github.com/Accio-Lab) GitHub
-organization.
-
-## Contributors
-
-### Core contributors
-
-The Accio team at Alibaba International — the harness, the mock services, and
-the v1 task suite. Listed in author order, matching
-[`CITATION.cff`](CITATION.cff) and the [Citation](#citation) entry.
-
-**Yukun Lian** · **Lei Wei** · **Sicong Xie** · **Kesu Wang** ·
-**Hongyu Li** · **Chenhao Jiang** · **Lanbo Lin** · **Tianyuan Yang** ·
-**Xiaoyu Guo** · **Li Cai** · **Jialong Zhu**
-
-Contact: Yukun Lian, <lianyukun.lyk@alibaba-inc.com>; Sicong Xie,
-<sicong.xsc@alibaba-inc.com>.
-
-### Community contributors
-
-Authors of merged mock environments, tasks, graders, and fixes. Land a pull
-request and you are listed here.
-
-_This list opens with the first community contribution. Be the first._
-
-Being listed is a credit line rather than paper authorship:
-[`CITATION.cff`](CITATION.cff) stays with the core contributors. Where a
-contribution is substantial enough to warrant formal authorship, the
-maintainers may invite it.
 
 ## Citation
 

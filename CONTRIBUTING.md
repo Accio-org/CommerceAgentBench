@@ -45,6 +45,18 @@ validate fine. See
 full provider-entry schema and the `--openclaw-api` CLI shortcut that
 synthesizes one in memory.
 
+### The OpenClaw prompt prefix
+
+Every OpenClaw prompt is prepended with an autonomous-agent directive in
+`real_replica_bench/harnesses/openclaw/runner.py` (search
+`openclaw_agent_directive`). It exists because OpenClaw frames the agent as a
+conversational assistant and persona-forward models answer with a
+self-introduction and a question instead of calling a tool — and
+`openclaw agent --message` is a single non-interactive invocation, so nobody
+answers and the task scores ~0. Keep it, keep it prepended, and keep it free of
+task-specific or verifier-facing hints: it is applied to every run, so anything
+leaking into it distorts every model's score at once.
+
 ## Public sites (leaderboard, matrix, showcase)
 
 The public web pages are **not tracked in this repository**. They are
@@ -74,7 +86,7 @@ New replica services are the contribution this project most wants, because the
 mock surface is what keeps the evaluation set ahead of the models it measures.
 A mock is a replica of a real service that runs offline and can be scored
 deterministically; `real_replica_bench/mock_services/registry.py` documents
-what each of the thirteen current services declares.
+what each of the fourteen current services declares.
 
 The bar a new mock has to clear:
 
@@ -93,6 +105,9 @@ The bar a new mock has to clear:
   path, and launcher, so the image build and the task launchers stay in sync.
 - **At least one task that exercises it.** A mock with no task cannot be
   evaluated, and therefore cannot be reviewed. See "Task changes" below.
+- **A [`CONTRIBUTORS.md`](CONTRIBUTORS.md) entry**, added by the same pull
+  request — you are the only person who reliably knows who should be credited
+  for the service you replicated. The file states the row format.
 - **Redistributable assets only.** Mirrored stylesheets, webfonts, icons,
   product photography, and captured third-party responses must either be
   clearly redistributable under this repository's licenses or be replaced with
@@ -123,7 +138,8 @@ Merging a mock does not by itself change the published benchmark: the official
 runtime image has to be rebaked with the new service and its digest repinned.
 That is a maintainer step on the release cadence rather than a per-merge one —
 [Shipping a mock-source change to the published image](#shipping-a-mock-source-change-to-the-published-image)
-describes it. Once it ships, you are listed under Contributors in the README.
+describes it. Your credit does not wait on it: the
+[`CONTRIBUTORS.md`](CONTRIBUTORS.md) row lands with the merge.
 
 ## Task changes
 

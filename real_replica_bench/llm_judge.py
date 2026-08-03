@@ -271,7 +271,16 @@ def build_judge_prompt(
     script_reward: Any,
     artifact_summary: str = "",
 ) -> str:
-    response_text = extract_response_text(result_json)
+    # trajectory.json's response_text is the recovered assistant text (see
+    # trajectory.recover_trajectory_from_openclaw_chat); result.json's
+    # responseText is a weaker extraction of the same transcript. Prefer the
+    # recovered one and fall back only when no trajectory was supplied.
+    recovered_text = trajectory.get("response_text") if isinstance(trajectory, dict) else None
+    response_text = (
+        recovered_text
+        if isinstance(recovered_text, str) and recovered_text.strip()
+        else extract_response_text(result_json)
+    )
     compact_trajectory = {
         "tool_calls": trajectory.get("tool_calls", []) if isinstance(trajectory, dict) else [],
         "tool_progress": trajectory.get("tool_progress", []) if isinstance(trajectory, dict) else [],

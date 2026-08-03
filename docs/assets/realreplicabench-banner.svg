@@ -30,7 +30,7 @@
   <rect x="28" y="0" width="1144" height="4" rx="2" fill="url(#accent)"/>
 
   <g transform="translate(56 44)">
-    <rect width="228" height="32" rx="16" fill="#FFFFFF" stroke="#D1D5DB"/>
+    <rect width="266" height="32" rx="16" fill="#FFFFFF" stroke="#D1D5DB"/>
     <rect x="14" y="11" width="10" height="10" rx="3" transform="rotate(45 14 11)" fill="url(#accent)"/>
     <text x="34" y="21" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="760" letter-spacing="1">STATEFUL AGENT BENCHMARK</text>
 

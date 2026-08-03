@@ -42,7 +42,24 @@ def copy_from_container(container: str, src: str, dst: Path) -> None:
 
 
 def extract_json_event_text(log_text: str) -> str:
-    chunks: list[str] = []
+    """Best-effort "what the agent said" from a JSONL agent transcript.
+
+    Prefers assistant-authored text. OpenClaw writes
+    ``{type:"message", message:{role, content:[{type:"text", text}, ...]}}``,
+    so for that shape we take only the assistant text parts — the same parse
+    trajectory.recover_trajectory_from_openclaw_chat performs.
+
+    The recursive walk below is the fallback for transcript shapes we do not
+    recognise. It is deliberately *not* the primary path: it collects every
+    "text"/"content"/"message"/"delta" key at any depth, which splices the task
+    brief and every tool result (fetched pages, file dumps) into what callers
+    then label as the agent's answer.
+
+    Falls back further to the raw log tail so an unparseable transcript still
+    yields something rather than an empty string.
+    """
+    assistant_chunks: list[str] = []
+    walked_chunks: list[str] = []
     interesting_keys = {"text", "content", "message", "delta"}
 
     def visit(value: Any, depth: int = 0) -> None:
@@ -51,23 +68,50 @@ def extract_json_event_text(log_text: str) -> str:
         if isinstance(value, dict):
             for key, item in value.items():
                 if key in interesting_keys and isinstance(item, str):
-                    chunks.append(item)
+                    walked_chunks.append(item)
                 elif isinstance(item, (dict, list)):
                     visit(item, depth + 1)
         elif isinstance(value, list):
             for item in value:
                 visit(item, depth + 1)
 
-    for line in log_text.splitlines():
+    def assistant_text(item: Any) -> list[str]:
+        if not isinstance(item, dict) or item.get("type") != "message":
+            return []
+        message = item.get("message")
+        if not isinstance(message, dict) or message.get("role") != "assistant":
+            return []
+        content = message.get("content")
+        if not isinstance(content, list):
+            return []
+        out: list[str] = []
+        for part in content:
+            if not isinstance(part, dict) or part.get("type") != "text":
+                continue
+            text = part.get("text")
+            if isinstance(text, str) and text.strip():
+                out.append(text)
+        return out
+
+    # split("\n"), not splitlines(): the latter also breaks on U+2028/U+2029,
+    # which are legal inside a JSON string, splitting one record into two
+    # unparseable halves that are then silently dropped.
+    for line in log_text.split("\n"):
         line = line.strip()
         if not line.startswith("{"):
             continue
         try:
-            visit(json.loads(line))
+            item = json.loads(line)
         except json.JSONDecodeError:
             continue
-    text = "\n".join(chunk for chunk in chunks if chunk.strip())
-    return text[-20000:] if text else log_text[-20000:]
+        assistant_chunks.extend(assistant_text(item))
+        visit(item)
+
+    for chunks in (assistant_chunks, walked_chunks):
+        text = "\n".join(chunk for chunk in chunks if chunk.strip())
+        if text:
+            return text[-20000:]
+    return log_text[-20000:]
 
 
 def write_agent_result(
