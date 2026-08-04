@@ -100,7 +100,7 @@ so agents must operate interfaces and change state.
 ## Reference results
 
 Results are aligned by `task_id` over the complete 107-task collection. The
-tables below are per harness — twelve model families on OpenClaw, fourteen on
+tables below are per harness — twelve model families on OpenClaw, thirteen on
 Accio — and the twelve present in both are the ones that compare directly.
 The published scores were produced through Accio-managed evaluation endpoints
 with `gemini-3.1-pro-preview` as the judge; the public path in this repository
@@ -157,7 +157,6 @@ are directly comparable between the two tables.
 | GPT-5.5 | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.864 | 45.3 | 4.5 min | 1.44M |
 | GPT-5.6 Luna | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.809 | 66.0 | 5.7 min | 2.49M |
 | Gemini 3.5 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 0.821 | 91.2 | 9.0 min | 4.80M |
-| Kimi K3 | `████████░░░░░░░░░░░░` 43/107 (40.2%) | 0.832 | 61.5 | 13.8 min | 2.31M |
 | Gemini 3 Flash | `██████░░░░░░░░░░░░░░` 31/107 (29.0%) | 0.769 | 46.0 | 4.5 min | 2.48M |
 
 The raw task-level result bundles are not stored in Git and do not yet have
