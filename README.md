@@ -100,7 +100,7 @@ so agents must operate interfaces and change state.
 ## Reference results
 
 Results are aligned by `task_id` over the complete 107-task collection. The
-tables below are per harness — twelve model families on OpenClaw, thirteen on
+tables below are per harness — twelve model families on OpenClaw, fourteen on
 Accio — and the twelve present in both are the ones that compare directly.
 The published scores were produced through Accio-managed evaluation endpoints
 with `gemini-3.1-pro-preview` as the judge; the public path in this repository
@@ -149,6 +149,7 @@ are directly comparable between the two tables.
 | 🥈 Claude Opus 4.8 | `███████████░░░░░░░░░` 59/107 (55.1%) | 0.886 | 67.4 | 11.6 min | 4.82M |
 | 🥉 Claude Opus 4.7 | `██████████░░░░░░░░░░` 56/107 (52.3%) | 0.878 | 61.5 | 6.4 min | 4.32M |
 | GPT-5.6 Sol | `██████████░░░░░░░░░░` 55/107 (51.4%) | 0.873 | 53.0 | 5.5 min | 1.85M |
+| Qwen 3.8 Max | `██████████░░░░░░░░░░` 52/107 (48.6%) | 0.826 | 67.8 | 15.6 min | 2.93M |
 | Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.815 | 47.7 | 4.6 min | 2.62M |
 | GLM 5.2 | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.787 | 81.0 | 10.8 min | 3.62M |
 | DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.838 | 84.0 | 10.0 min | 5.35M |
