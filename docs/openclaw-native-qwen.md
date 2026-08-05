@@ -236,8 +236,11 @@ curl -sS "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completion
 - **Vision whitelist**: the release fork uses a substring whitelist in
   `real_replica_bench/harnesses/openclaw/runner.py::_OPENCLAW_VISION_MODEL_SUBSTRINGS`
   to short-circuit set-image when the primary model looks non-vision. Since
-  2026-07 the tuple includes `"qwen3.7-plus"`; older forks abort at model setup
-  until you add it.
+  2026-07 the tuple includes `"qwen3.7-plus"` and `"qwen3.8-max"` — the latter
+  deliberately bare, so one entry covers both the GA id and
+  `qwen3.8-max-preview`. A whitelist carrying only the `-preview` id aborts at
+  model setup for any run that names the bare model; older forks abort until
+  you add the entry.
 
 ---
 
