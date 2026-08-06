@@ -357,8 +357,8 @@ def validate_readme_branding(check: Validation) -> None:
         "README still links the Accio BenchHub site, which is not part of this release",
     )
     check.require(
-        "https://github.com/Accio-Lab" in readme,
-        "README is missing the Accio-Lab GitHub organization link",
+        "https://github.com/Accio-org" in readme,
+        "README is missing the Accio-org GitHub organization link",
     )
     check.require(
         "53/107 (49.5%)" in readme,
@@ -531,11 +531,11 @@ def validate_public_remote(check: Validation) -> None:
     public = sorted(
         name
         for name, urls in remotes.items()
-        if any(re.search(r"github\.com[:/]Accio-Lab/", url) for url in urls)
+        if any(re.search(r"github\.com[:/]Accio-org/", url) for url in urls)
     )
     check.require(
         bool(public),
-        "no remote points at the public GitHub repository (github.com/Accio-Lab)",
+        "no remote points at the public GitHub repository (github.com/Accio-org)",
     )
     print(f"remote: remotes={len(remotes)} public={','.join(public) or 'none'}")
 

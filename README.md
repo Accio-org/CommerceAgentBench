@@ -388,7 +388,7 @@ the repository directly:
             Yang and Xiaoyu Guo and Li Cai and Jialong Zhu},
     title={RealReplicaBench: A Stateful Agent Benchmark for Long-Horizon Commerce and Business Workflows},
     note={GitHub repository, v1.3.1},
-    howpublished={\url{https://github.com/Accio-Lab/RealReplicaBench}},
+    howpublished={\url{https://github.com/Accio-org/RealReplicaBench}},
     year={2026}
 }
 ```

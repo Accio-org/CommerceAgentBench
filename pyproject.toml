@@ -33,7 +33,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://realreplicabench.site.accio.ai"
-Repository = "https://github.com/Accio-Lab/RealReplicaBench"
+Repository = "https://github.com/Accio-org/RealReplicaBench"
 "Mock showcase" = "https://realreplicabench-mock-showcase.site.accio.ai"
 Accio = "https://www.accio.com"
 
