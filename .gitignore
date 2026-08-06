@@ -109,3 +109,23 @@ real_replica_bench/mock_services/*/node_modules/
 # immutable digest (docs/openclaw-runtime-image.md); the intermediate build
 # lanes that produced it are internal R&D records, not part of the release.
 /docker/patches/
+
+# Chinese-language authoring and developer notes. The release documents itself
+# in English; these were written for internal contributors and never got a
+# translation pass, so they read as unfinished to a public reader. They stay on
+# disk for local use.
+#
+# Scope is deliberately narrow: authoring notes ONLY. Chinese inside
+# datasets_domain_v1/ task content (task.md and the workspace fixtures beside
+# it) and inside mock-service UI/seed data is benchmark material that the agent
+# is meant to read — several tasks declare language = "zh-CN" in task.toml.
+# Ignoring any of that would break the tasks it belongs to. Do not widen this
+# list to "every tracked file containing Chinese".
+/datasets_domain_v1/README.md
+/real_replica_bench/mock_services/gmail_mock/README.md
+/real_replica_bench/mock_services/google_docs_mock/README.md
+/real_replica_bench/mock_services/notion_cli/test/README.md
+/real_replica_bench/mock_services/shopify_online_store_v2/README.md
+/real_replica_bench/mock_services/stripe_cli/README.md
+/real_replica_bench/mock_services/stripe_cli/TUTORIAL.md
+/real_replica_bench/mock_services/stripe_cli/golden/README.md

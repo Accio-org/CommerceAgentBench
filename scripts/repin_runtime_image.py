@@ -54,8 +54,9 @@ LIVE_PIN_GLOBS = (
     "scripts/validate_release.py",                        # asserts the current pin
     "tests/test_public_api.py",                           # asserts the current pin
     # Prose that states the current release runtime rather than recording a
-    # historical one. A reader copying from either expects what the suite runs.
-    "datasets_domain_v1/README.md",
+    # historical one. A reader copying from it expects what the suite runs.
+    # (datasets_domain_v1/README.md used to be listed here; it is no longer
+    # tracked, so repinning it would rewrite a file the release does not ship.)
     "real_replica_bench/harnesses/openclaw/README.md",
 )
 
