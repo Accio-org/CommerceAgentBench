@@ -20,12 +20,20 @@ core-team work. Listed in author order, matching
 
 ## Mock environments
 
-One row per merged replica service, named by its `MOCK_SERVICE_REGISTRY` key
-and sorted by that name.
+One row per merged replica service, named by its service directory and sorted
+by that name. Credit lands when the service is merged into
+[`mock_services/contrib/`](real_replica_bench/mock_services/contrib/README.md),
+not when it is later promoted into the shipped set — the row is written once and
+its **Status** is what changes.
 
-| Mock service | Contributor | Affiliation |
-|---|---|---|
-<!-- | `acme_crm` | Jane Doe ([@janedoe](https://github.com/janedoe)) | Independent | -->
+- `staged` — merged, published, and credited; queued for promotion while real
+  workflow cases are built out against it, and not yet in the runtime image.
+- `shipped` — promoted, registered in `MOCK_SERVICE_REGISTRY`, and baked into
+  the image the benchmark runs.
+
+| Mock service | Contributor | Affiliation | Status |
+|---|---|---|---|
+<!-- | `acme_crm` | Jane Doe ([@janedoe](https://github.com/janedoe)) | Independent | staged | -->
 
 _Opens with the first community mock. Be the first._
 

@@ -512,6 +512,98 @@ def validate_public_hygiene(check: Validation) -> None:
     print(f"hygiene: tracked_files={len(files)}")
 
 
+def validate_mock_staging(check: Validation) -> None:
+    """Keep the contributed-mock staging area separated from the shipped set.
+
+    ``real_replica_bench/mock_services/contrib/`` holds community services that
+    are merged and credited but not yet part of the benchmark. The separation is
+    load-bearing in three directions and each one fails silently:
+
+    - A registry entry pointing into ``contrib/`` would put a service the image
+      does not contain into the record of what the benchmark has.
+    - Promotion is a move plus a registry entry plus a Dockerfile ``COPY``. Doing
+      the first two and forgetting the third yields a service that runs from a
+      local build and is absent from the published image — the task passes for
+      whoever promoted it and fails for everyone else.
+    - A task resolving its runtime mock out of ``contrib/`` would run against
+      source that is in the repository but not in the image.
+    """
+    mock_root = ROOT / "real_replica_bench" / "mock_services"
+    contrib = mock_root / "contrib"
+    check.require(
+        (contrib / "README.md").is_file(),
+        "mock_services/contrib/README.md is missing (staging conventions are undocumented)",
+    )
+
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    try:
+        from real_replica_bench.mock_services.registry import MOCK_SERVICE_REGISTRY
+    except ImportError as exc:
+        check.warnings.append(f"mock registry not importable; staging checks skipped ({exc})")
+        return
+
+    staged = sorted(p.name for p in contrib.iterdir() if p.is_dir()) if contrib.is_dir() else []
+
+    staged_in_registry = [name for name in staged if name in MOCK_SERVICE_REGISTRY]
+    check.require(
+        not staged_in_registry,
+        "staged mocks are registered as shipped services: " + ", ".join(staged_in_registry),
+    )
+
+    contrib_rel = "mock_services/contrib"
+    registry_in_contrib = [
+        name
+        for name, spec in MOCK_SERVICE_REGISTRY.items()
+        if contrib_rel in spec.source_dir.replace("\\", "/")
+    ]
+    check.require(
+        not registry_in_contrib,
+        "registry entries point into the staging area: " + ", ".join(registry_in_contrib),
+    )
+
+    missing_source = [
+        name
+        for name, spec in MOCK_SERVICE_REGISTRY.items()
+        if not resolve_repo_path(spec.source_dir).is_dir()
+    ]
+    check.require(
+        not missing_source,
+        "registry entries whose source_dir does not exist: " + ", ".join(missing_source),
+    )
+
+    dockerfile = ROOT / "docker" / "openclaw" / "Dockerfile.all-mocks"
+    if dockerfile.is_file():
+        dockerfile_text = dockerfile.read_text(encoding="utf-8")
+        check.require(
+            "COPY contrib/" not in dockerfile_text,
+            "Dockerfile.all-mocks copies a staged mock into the image",
+        )
+        copied = set(re.findall(r"^COPY\s+([\w.-]+)/", dockerfile_text, flags=re.MULTILINE))
+        # One-directional: cli_daemon is copied but is infrastructure, not a
+        # registered service, so an uncopied COPY target is not an error.
+        uncopied = sorted(
+            name
+            for name, spec in MOCK_SERVICE_REGISTRY.items()
+            if spec.derived_image and name not in copied
+        )
+        check.require(
+            not uncopied,
+            "registered mocks missing a Dockerfile COPY line: " + ", ".join(uncopied),
+        )
+
+    task_hits = sorted(
+        str(path.relative_to(ROOT))
+        for path in DATASETS.rglob("task.toml")
+        if contrib_rel in path.read_text(encoding="utf-8")
+    )
+    check.require(
+        not task_hits,
+        "tasks resolve a runtime mock out of the staging area: " + ", ".join(task_hits),
+    )
+    print(f"mock staging: shipped={len(MOCK_SERVICE_REGISTRY)} staged={len(staged)}")
+
+
 def validate_public_remote(check: Validation) -> None:
     if not (ROOT / ".git").exists():
         check.warnings.append("git metadata unavailable; public remote check skipped")
@@ -547,6 +639,7 @@ def main() -> int:
         validate_configs(check)
         validate_readme_branding(check)
         validate_public_hygiene(check)
+        validate_mock_staging(check)
         validate_public_remote(check)
     except (
         OSError,

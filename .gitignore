@@ -37,8 +37,10 @@ htmlcov/
 real_replica_bench/mock_services/*/data/
 !real_replica_bench/mock_services/google_docs_mock/data/
 !real_replica_bench/mock_services/google_docs_mock/data/seed_state.json
-real_replica_bench/mock_services/*/bun.lock
-real_replica_bench/mock_services/*/node_modules/
+# ** so these reach staged services under contrib/<name>/ too, not just the
+# shipped services one level down.
+real_replica_bench/mock_services/**/bun.lock
+real_replica_bench/mock_services/**/node_modules/
 
 # Claude Code local session / hooks dir
 .claude/

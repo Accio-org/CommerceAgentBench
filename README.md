@@ -363,8 +363,14 @@ of tasks no model has been trained on. The fourteen shipping today are
 registered in `real_replica_bench/mock_services/registry.py`.
 
 [`CONTRIBUTING.md`](CONTRIBUTING.md) states the bar a new mock has to clear, and
-the rules for task fixes, graders, and harness changes. A merged mock reaches
-the published benchmark when maintainers next rebake the runtime image.
+the rules for task fixes, graders, and harness changes. Contributed services
+merge into
+[`mock_services/contrib/`](real_replica_bench/mock_services/contrib/README.md)
+and are credited on that merge. From there they are migrated into the shipped
+set progressively, with real workflow cases built out against each one, and
+released as the test set of a subsequent version — so a contributed replica is
+on its way into the benchmark, not parked next to it. Until that promotion it
+stays outside the scored set, which is what lets it land early.
 
 The Accio team at Alibaba International built the harness, the mock services,
 and the v1 task suite; your pull request adds you to

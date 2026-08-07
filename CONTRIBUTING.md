@@ -88,7 +88,41 @@ A mock is a replica of a real service that runs offline and can be scored
 deterministically; `real_replica_bench/mock_services/registry.py` documents
 what each of the fourteen current services declares.
 
-The bar a new mock has to clear:
+Contributed services land in
+[`real_replica_bench/mock_services/contrib/`](real_replica_bench/mock_services/contrib/README.md)
+first. That directory is intake, not a side gallery: it sits outside the runtime
+image and outside the registry, so merging into it accepts, publishes, and
+credits your work without disturbing published results — and staged services are
+then migrated into the shipped set progressively, with real workflow cases built
+out against each one, to be released as the test set of a subsequent version.
+
+The two gates below exist because their questions become answerable at
+different times. Whether your code and assets may be published is settled the
+moment they enter the repository. Whether the service grades correctly can only
+be settled by running it.
+
+### To merge into `contrib/`
+
+- **Redistributable assets only.** Mirrored stylesheets, webfonts, icons,
+  product photography, and captured third-party responses must either be
+  clearly redistributable under this repository's licenses or be replaced with
+  an original equivalent — and recorded in
+  [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) when kept.
+- **No real personal data, credentials, or customer records**, in seed data or
+  anywhere else.
+- **Lawful, good-faith scenarios**, same as the task suite.
+- **A `README.md` in your service directory** — what it replicates, the port it
+  wants, how a verifier reads ground truth, and the shape of its seed data.
+- **A [`CONTRIBUTORS.md`](CONTRIBUTORS.md) entry**, added by the same pull
+  request — you are the only person who reliably knows who should be credited
+  for the service you replicated. The file states the row format. Credit lands
+  with *this* merge; it does not wait for promotion.
+
+None of these can be deferred to promotion. A staged service is in the
+repository, on GitHub, and distributed under the same Apache-2.0 terms as a
+shipped one — "not promoted yet" changes none of that.
+
+### To be promoted into the shipped set
 
 - **Offline and deterministic.** No live network. Nothing a grader reads may
   depend on wall-clock time or randomness. The same seed state plus the same
@@ -100,20 +134,15 @@ The bar a new mock has to clear:
 - **A verifier readout.** Ground truth is read out of the service (`/__bench/state`
   or a documented alias), not scraped from the agent's own output.
 - **Seed data committed to the repository.** Deterministic fixtures, never
-  fetch-at-run-time. No real personal data, credentials, or customer records.
+  fetch-at-run-time.
 - **A registry entry** recording source dir, install path, listen port, health
   path, and launcher, so the image build and the task launchers stay in sync.
 - **At least one task that exercises it.** A mock with no task cannot be
   evaluated, and therefore cannot be reviewed. See "Task changes" below.
-- **A [`CONTRIBUTORS.md`](CONTRIBUTORS.md) entry**, added by the same pull
-  request — you are the only person who reliably knows who should be credited
-  for the service you replicated. The file states the row format.
-- **Redistributable assets only.** Mirrored stylesheets, webfonts, icons,
-  product photography, and captured third-party responses must either be
-  clearly redistributable under this repository's licenses or be replaced with
-  an original equivalent — and recorded in
-  [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) when kept.
-- **Lawful, good-faith scenarios**, same as the task suite.
+
+Clearing these at staging time is welcome and makes promotion a formality. They
+are listed apart because they are judged by running the service, not by reading
+the diff.
 
 ### Test it before opening the pull request
 
@@ -129,17 +158,39 @@ docker build --platform linux/amd64 \
   real_replica_bench/mock_services
 ```
 
+`contrib/` is inside that build context, so a staged service can be built and
+run without relocating it: add a `COPY contrib/<name>/ /opt/mock_services/<name>/`
+line to the Dockerfile alongside the others and before the final `RUN` that
+chowns `/opt/mock_services`. The staging
+[`README.md`](real_replica_bench/mock_services/contrib/README.md) has the
+details. Revert that line before you commit — it belongs to the promotion
+commit.
+
 Then point your task's `base_images` at `realreplicabench/openclaw:dev` while
 you iterate, and restore the pinned digest before you commit.
 
 ### What happens after the merge
 
-Merging a mock does not by itself change the published benchmark: the official
-runtime image has to be rebaked with the new service and its digest repinned.
-That is a maintainer step on the release cadence rather than a per-merge one —
+Your service is queued for the benchmark, not parked. Staged mocks are migrated
+into the shipped set progressively; the work that gets each one there is the
+build-out of real workflow cases against it — enough that promoting the service
+adds a domain rather than a single scenario — and the result ships as the test
+set of a subsequent release. You are welcome to do that case work with us, and
+`contrib/` stays open for it.
+
+What the merge does not do is move any of that immediately. It does not change
+the published benchmark, and with staging it does not even place the service in
+the registry. Promotion moves the directory up out of `contrib/`, adds the
+registry entry and the Dockerfile `COPY` line, and then the official runtime
+image has to be rebaked with the new service and its digest repinned —
 [Shipping a mock-source change to the published image](#shipping-a-mock-source-change-to-the-published-image)
-describes it. Your credit does not wait on it: the
-[`CONTRIBUTORS.md`](CONTRIBUTORS.md) row lands with the merge.
+describes that half. `python scripts/validate_release.py` fails the release on a
+half-finished promotion, so a registry entry still pointing into `contrib/`, or
+a promoted service with no `COPY` line, cannot ship quietly.
+
+Your credit does not wait on any of it: the
+[`CONTRIBUTORS.md`](CONTRIBUTORS.md) row lands with the merge into `contrib/`,
+and flips from `staged` to `shipped` when the service is promoted.
 
 ## Task changes
 
