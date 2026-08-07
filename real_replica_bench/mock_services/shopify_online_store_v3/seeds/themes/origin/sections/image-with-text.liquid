@@ -1,0 +1,33 @@
+<section class="image-with-text section--hero" data-section-id="{{ section.id }}">
+  <div class="container image-with-text__inner">
+    {% if section.settings.image %}
+      <div class="image-with-text__media">
+        <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image_alt | escape }}" loading="lazy">
+      </div>
+    {% endif %}
+    <div class="image-with-text__copy">
+      {% if section.settings.subheading != blank %}<p class="image-with-text__subheading">{{ section.settings.subheading }}</p>{% endif %}
+      {% if section.settings.heading != blank %}<h1 class="image-with-text__heading">{{ section.settings.heading }}</h1>{% endif %}
+      {% if section.settings.text != blank %}<div class="image-with-text__text">{{ section.settings.text }}</div>{% endif %}
+      {% if section.settings.button_label != blank %}
+        <a class="button" href="{{ section.settings.button_link | default: '/' }}">{{ section.settings.button_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Image with text",
+  "settings": [
+    { "type": "image_picker", "id": "image", "label": "Image" },
+    { "type": "text", "id": "image_alt", "label": "Image alt", "default": "" },
+    { "type": "text", "id": "subheading", "label": "Subheading", "default": "" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Featured highlight" },
+    { "type": "richtext", "id": "text", "label": "Body", "default": "<p>Tell the story behind this feature.</p>" },
+    { "type": "text", "id": "button_label", "label": "Button label", "default": "Shop now" },
+    { "type": "url", "id": "button_link", "label": "Button link", "default": "/" }
+  ],
+  "presets": [{ "name": "Image with text" }]
+}
+{% endschema %}

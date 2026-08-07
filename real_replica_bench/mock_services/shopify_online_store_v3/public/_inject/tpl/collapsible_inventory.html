@@ -1,0 +1,38 @@
+<!-- Rebuilt 1:1 from the real captured #product_variant_collapsible_inventory content
+     (/tmp/rrb_collapsibleInventory.html). SKU is a plain Polaris-TextField in real; 条码
+     is an inert <s-internal-text-field> rebuilt as plain Polaris. Both carry name= so
+     collect() persists them. SKU + 条码 share the row (flex:1) and wrap when narrow. -->
+<div class="Polaris-Box" style="--pc-box-padding-block-end-xs: var(--p-space-400); --pc-box-padding-inline-start-xs: var(--p-space-400); --pc-box-padding-inline-end-xs: var(--p-space-400); --pc-box-width: 100%;">
+  <div class="Polaris-BlockStack" style="display:flex; flex-direction:column; gap:var(--p-space-400, 16px);">
+    <div class="Polaris-BlockStack" role="group" style="display:flex; flex-direction:column; gap:var(--p-space-200, 8px);">
+      <div class="Polaris-InlineStack" style="display:flex; flex-wrap:wrap; gap:var(--p-space-300, 12px); align-items:flex-start;">
+        <!-- SKU（货号） -->
+        <div class="Polaris-FormLayout__Item Polaris-FormLayout--grouped" style="flex:1 1 200px; min-width:0;"><div class="Polaris-Box" style="--pc-box-padding-block-start-xs: var(--p-space-200); padding-top:var(--p-space-200, 8px);">
+          <div class=""><div class="Polaris-Labelled__LabelWrapper"><div class="Polaris-Label"><label id="InventoryCardSkuLabel" for="InventoryCardSku" class="Polaris-Label__Text"><span class="Polaris-Text--root Polaris-Text--bodyMd">SKU（货号）</span></label></div></div>
+            <div class="Polaris-Connected"><div class="Polaris-Connected__Item Polaris-Connected__Item--primary"><div class="Polaris-TextField"><input name="sku" id="InventoryCardSku" autocomplete="off" class="Polaris-TextField__Input" type="text" aria-labelledby="InventoryCardSkuLabel" value=""><div class="Polaris-TextField__Backdrop"></div></div></div></div>
+          </div>
+        </div></div>
+        <!-- 条码（ISBN、UPC、GTIN 等） -->
+        <div class="Polaris-FormLayout__Item Polaris-FormLayout--grouped" style="flex:1 1 200px; min-width:0;"><div class="Polaris-Box" style="--pc-box-padding-block-start-xs: var(--p-space-200); padding-top:var(--p-space-200, 8px);">
+          <div class=""><div class="Polaris-Labelled__LabelWrapper"><div class="Polaris-Label"><label id="InventoryCardBarcodeLabel" for="InventoryCardBarcode" class="Polaris-Label__Text"><span class="Polaris-Text--root Polaris-Text--bodyMd">条码（ISBN、UPC、GTIN 等）</span></label></div></div>
+            <div class="Polaris-Connected"><div class="Polaris-Connected__Item Polaris-Connected__Item--primary"><div class="Polaris-TextField"><input name="barcode" id="InventoryCardBarcode" autocomplete="off" class="Polaris-TextField__Input" type="text" aria-labelledby="InventoryCardBarcodeLabel" value=""><div class="Polaris-TextField__Backdrop"></div></div></div></div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+    <!-- 缺货时继续销售 (real is <s-checkbox>; rebuilt plain) + POS 除外 note -->
+    <div class="Polaris-FormLayout__Item Polaris-FormLayout--grouped">
+      <div class="Polaris-InlineStack" style="display:flex; align-items:center; flex-wrap:wrap; gap:var(--p-space-200, 8px);">
+        <label class="Polaris-Choice" for="InventoryCardAllowOutOfStockPurchases">
+          <span class="Polaris-Choice__Control"><span class="Polaris-Checkbox">
+            <input id="InventoryCardAllowOutOfStockPurchases" type="checkbox" class="Polaris-Checkbox__Input" role="checkbox" aria-checked="false" value="">
+            <span class="Polaris-Checkbox__Backdrop"></span>
+            <span class="Polaris-Checkbox__Icon"><svg viewBox="0 0 16 16" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true"><path d="M11.78 5.97a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0l-2.25-2.25a.75.75 0 1 1 1.06-1.06l1.72 1.72 3.72-3.72a.75.75 0 0 1 1.06 0z"></path></svg></span>
+          </span></span>
+          <span class="Polaris-Choice__Label"><span class="Polaris-Text--root Polaris-Text--bodyMd">缺货时继续销售</span></span>
+        </label>
+        <span class="Polaris-Text--root Polaris-Text--bodyMd Polaris-Text--subdued" style="color:var(--p-color-text-secondary,#616161); display:inline-flex; align-items:center; gap:4px;"><span style="display:inline-flex;width:1rem;height:1rem;color:#8a8a8a;"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true"><path d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-12a.75.75 0 0 1 .75.75v.5a.75.75 0 0 1-1.5 0v-.5A.75.75 0 0 1 10 6zm0 3a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0v-3.5A.75.75 0 0 1 10 9z"></path></svg></span><span class="Polaris-Text--medium">POS 除外</span></span>
+      </div>
+    </div>
+  </div>
+</div>

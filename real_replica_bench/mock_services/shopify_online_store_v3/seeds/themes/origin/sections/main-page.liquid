@@ -1,0 +1,15 @@
+<section class="main-page" data-section-id="{{ section.id }}">
+  <div class="container main-page__inner">
+    {% if page %}
+      <h1 class="main-page__title">{{ page.title }}</h1>
+      <div class="main-page__content">{{ page.content }}</div>
+    {% else %}
+      <h1>Page</h1>
+      <p>This page is not available.</p>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{"name":"Page","settings":[],"presets":[{"name":"Page"}]}
+{% endschema %}

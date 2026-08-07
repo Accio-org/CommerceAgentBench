@@ -1,0 +1,18 @@
+{
+  "current": {
+    "logo_text": "我的商店",
+    "show_announcement": true,
+    "announcement_text": "Free shipping on orders over $50.",
+    "announcement_background": "#1b1b1b",
+    "announcement_color": "#ffffff"
+  },
+  "presets": {
+    "Default": {
+      "logo_text": "我的商店",
+      "show_announcement": true,
+      "announcement_text": "Free shipping on orders over $50.",
+      "announcement_background": "#1b1b1b",
+      "announcement_color": "#ffffff"
+    }
+  }
+}

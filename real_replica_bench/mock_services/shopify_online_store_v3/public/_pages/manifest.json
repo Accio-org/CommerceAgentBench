@@ -1,0 +1,278 @@
+[
+  {
+    "name": "home",
+    "path": ""
+  },
+  {
+    "name": "orders",
+    "path": "/orders"
+  },
+  {
+    "name": "draft_orders",
+    "path": "/draft_orders"
+  },
+  {
+    "name": "draft_order_new",
+    "path": "/draft_orders/new"
+  },
+  {
+    "name": "shipping_labels",
+    "path": "/shipping_labels"
+  },
+  {
+    "name": "checkouts",
+    "path": "/checkouts"
+  },
+  {
+    "name": "products",
+    "path": "/products"
+  },
+  {
+    "name": "product_new",
+    "path": "/products/new"
+  },
+  {
+    "name": "inventory",
+    "path": "/inventory"
+  },
+  {
+    "name": "collections",
+    "path": "/collections"
+  },
+  {
+    "name": "gift_cards",
+    "path": "/gift_cards"
+  },
+  {
+    "name": "purchase_orders",
+    "path": "/purchase_orders"
+  },
+  {
+    "name": "purchase_order_new",
+    "path": "/purchase_orders/new"
+  },
+  {
+    "name": "transfers",
+    "path": "/transfers"
+  },
+  {
+    "name": "customers",
+    "path": "/customers"
+  },
+  {
+    "name": "customer_new",
+    "path": "/customers/new"
+  },
+  {
+    "name": "customer_segments",
+    "path": "/customers/segments"
+  },
+  {
+    "name": "marketing",
+    "path": "/marketing"
+  },
+  {
+    "name": "marketing_campaigns",
+    "path": "/marketing/campaigns"
+  },
+  {
+    "name": "marketing_automations",
+    "path": "/marketing/automations"
+  },
+  {
+    "name": "discounts",
+    "path": "/discounts"
+  },
+  {
+    "name": "discount_new",
+    "path": "/discounts/new"
+  },
+  {
+    "name": "content_metaobjects",
+    "path": "/content/metaobjects"
+  },
+  {
+    "name": "content_files",
+    "path": "/content/files"
+  },
+  {
+    "name": "content_menus",
+    "path": "/content/menus"
+  },
+  {
+    "name": "markets",
+    "path": "/markets"
+  },
+  {
+    "name": "finance",
+    "path": "/finance"
+  },
+  {
+    "name": "analytics",
+    "path": "/analytics"
+  },
+  {
+    "name": "analytics_reports",
+    "path": "/analytics/reports"
+  },
+  {
+    "name": "online_store_themes",
+    "path": "/themes"
+  },
+  {
+    "name": "online_store_theme_customize",
+    "path": "/online-store/customize"
+  },
+  {
+    "name": "online_store_pages_actual",
+    "path": "/pages"
+  },
+  {
+    "name": "online_store_blog_posts",
+    "path": "/online_store/blog_posts"
+  },
+  {
+    "name": "online_store_blogs",
+    "path": "/online_store/blogs"
+  },
+  {
+    "name": "online_store_pages",
+    "path": "/online_store/pages"
+  },
+  {
+    "name": "online_store_navigation",
+    "path": "/online_store/menus"
+  },
+  {
+    "name": "online_store_preferences",
+    "path": "/online_store/preferences"
+  },
+  {
+    "name": "apps",
+    "path": "/apps"
+  },
+  {
+    "name": "app_simgym",
+    "path": "/apps/simgym"
+  },
+  {
+    "name": "app_agentic",
+    "path": "/apps/agentic"
+  },
+  {
+    "name": "settings",
+    "path": "/settings"
+  },
+  {
+    "name": "settings_store_details",
+    "path": "/settings/general"
+  },
+  {
+    "name": "settings_plan",
+    "path": "/settings/plan"
+  },
+  {
+    "name": "settings_billing",
+    "path": "/settings/billing"
+  },
+  {
+    "name": "settings_users_permissions",
+    "path": "/settings/account"
+  },
+  {
+    "name": "settings_payments",
+    "path": "/settings/payments"
+  },
+  {
+    "name": "settings_checkout",
+    "path": "/settings/checkout"
+  },
+  {
+    "name": "settings_customer_accounts",
+    "path": "/settings/customer_accounts"
+  },
+  {
+    "name": "settings_shipping",
+    "path": "/settings/shipping"
+  },
+  {
+    "name": "settings_taxes",
+    "path": "/settings/taxes"
+  },
+  {
+    "name": "settings_locations",
+    "path": "/settings/locations"
+  },
+  {
+    "name": "settings_markets",
+    "path": "/settings/markets"
+  },
+  {
+    "name": "settings_apps_sales_channels",
+    "path": "/settings/apps"
+  },
+  {
+    "name": "settings_domains",
+    "path": "/settings/domains"
+  },
+  {
+    "name": "settings_notifications",
+    "path": "/settings/notifications"
+  },
+  {
+    "name": "settings_custom_data",
+    "path": "/settings/custom_data"
+  },
+  {
+    "name": "settings_languages",
+    "path": "/settings/languages"
+  },
+  {
+    "name": "settings_policies",
+    "path": "/settings/policies"
+  },
+  {
+    "name": "settings_legal",
+    "path": "/settings/legal"
+  },
+  {
+    "name": "settings_customer_events",
+    "path": "/settings/customer_events"
+  },
+  {
+    "name": "settings_brand",
+    "path": "/settings/brand"
+  },
+  {
+    "name": "settings_privacy",
+    "path": "/settings/privacy"
+  },
+  {
+    "name": "discount_amount_off",
+    "path": "/discounts/new/amount-off-product"
+  },
+  {
+    "name": "taxes_filing",
+    "path": "/taxes/filing"
+  },
+  {
+    "name": "finance_credit",
+    "path": "/credit"
+  },
+  {
+    "name": "payments_payouts",
+    "path": "/payments/payouts"
+  },
+  {
+    "name": "shopify_balance_apy",
+    "path": "/shopify-balance/terms/apyRewards"
+  },
+  {
+    "name": "catalogs",
+    "path": "/catalogs"
+  },
+  {
+    "name": "rollouts",
+    "path": "/rollouts"
+  }
+]

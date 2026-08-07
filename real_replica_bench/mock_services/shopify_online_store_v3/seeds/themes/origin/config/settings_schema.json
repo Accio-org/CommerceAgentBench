@@ -1,0 +1,20 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Origin v3",
+    "theme_version": "1.0.0",
+    "theme_author": "RealReplicaBench",
+    "theme_documentation_url": "",
+    "theme_support_url": ""
+  },
+  {
+    "name": "Branding",
+    "settings": [
+      { "type": "text", "id": "logo_text", "label": "Logo text", "default": "我的商店" },
+      { "type": "checkbox", "id": "show_announcement", "label": "Show announcement bar", "default": true },
+      { "type": "text", "id": "announcement_text", "label": "Announcement text", "default": "Free shipping on orders over $50." },
+      { "type": "color", "id": "announcement_background", "label": "Announcement background", "default": "#1b1b1b" },
+      { "type": "color", "id": "announcement_color", "label": "Announcement text color", "default": "#ffffff" }
+    ]
+  }
+]

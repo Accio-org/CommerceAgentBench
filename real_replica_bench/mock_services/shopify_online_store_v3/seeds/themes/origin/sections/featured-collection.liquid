@@ -1,0 +1,35 @@
+<section class="featured-collection section--collection" data-section-id="{{ section.id }}">
+  <div class="container">
+    {% if section.settings.heading != blank %}<h2 class="featured-collection__heading">{{ section.settings.heading }}</h2>{% endif %}
+    {% assign handle = section.settings.collection_handle | default: 'frontpage' %}
+    {% assign coll = collections[handle] %}
+    {% if coll == nil %}
+      {% assign coll = collections['frontpage'] | default: collections['all'] %}
+    {% endif %}
+    {% if coll and coll.products.size > 0 %}
+      <ul class="product-grid">
+        {% assign limit = section.settings.products_to_show | default: 8 %}
+        {% for product in coll.products limit: limit %}
+          <li class="product-grid__item">{% render 'product-card', product: product %}</li>
+        {% endfor %}
+      </ul>
+      <div class="featured-collection__more">
+        <a class="button button--outline" href="{{ coll.url }}">View all {{ coll.products_count }} products</a>
+      </div>
+    {% else %}
+      <p class="featured-collection__empty">{{ 'collections.general.no_matches' | t }}</p>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Featured collection",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Featured collection" },
+    { "type": "collection", "id": "collection_handle", "label": "Collection handle", "default": "frontpage" },
+    { "type": "range", "id": "products_to_show", "min": 2, "max": 24, "step": 1, "label": "Products to show", "default": 8 }
+  ],
+  "presets": [{ "name": "Featured collection" }]
+}
+{% endschema %}

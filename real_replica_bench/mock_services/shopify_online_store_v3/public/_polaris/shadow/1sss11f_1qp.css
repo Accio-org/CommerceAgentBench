@@ -1,0 +1,15 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+.thumbnail { block-size: var(--s-thumbnail-size,3.75rem); inline-size: var(--s-thumbnail-size,3.75rem); border-radius: var(--s-thumbnail-border-radius,.5rem); overflow: hidden; margin-block-end: var(--s-thumbnail-margin-block-end); position: relative; }
+.thumbnail::after { content: ""; border: 1px solid rgba(0, 0, 0, 0.08); border-radius: inherit; position: absolute; inset: 0px; }
+.border-radius-small { border-radius: 0.375rem; }
+.size-small-200 { block-size: var(--s-thumbnail-size,1.5rem); inline-size: var(--s-thumbnail-size,1.5rem); border-radius: var(--s-thumbnail-border-radius,.375rem); }
+.size-small, .size-small-100 { block-size: var(--s-thumbnail-size,2.5rem); inline-size: var(--s-thumbnail-size,2.5rem); border-radius: var(--s-thumbnail-border-radius,.5rem); }
+.size-large, .size-large-100 { block-size: var(--s-thumbnail-size,5rem); inline-size: var(--s-thumbnail-size,5rem); border-radius: var(--s-thumbnail-border-radius,.5rem); }
+.thumbnail-empty, img { block-size: 100%; inline-size: 100%; }
+.thumbnail-empty { display: flex; align-items: center; justify-content: center; border-radius: inherit; background-color: var(--t-surface,rgba(255,255,255,1)); }
+img { display: block; max-inline-size: 100%; max-block-size: 100%; object-fit: contain; }

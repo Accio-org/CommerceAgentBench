@@ -1,0 +1,28 @@
+{
+  "name": "shopify-online-store-v3-mock",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Shopify Online Store v3 mock — HTTP admin backend + Shopify CLI surface (aligned to @shopify/cli 4.1.0) + Liquid storefront renderer (Dawn-subset seed theme).",
+  "bin": {
+    "shopify": "./bin/shopify",
+    "shopify-bench": "./bin/shopify-bench"
+  },
+  "scripts": {
+    "start": "bun server.js",
+    "cli": "bun bin/shopify",
+    "bench": "bun bin/shopify-bench",
+    "smoke": "bash smoke_test.sh",
+    "smoke-cli": "bash smoke_cli_test.sh",
+    "smoke-storefront": "bash smoke_storefront_test.sh",
+    "smoke-admin-graphql": "bash smoke_admin_graphql_test.sh",
+    "smoke-forgefit": "bash smoke_forgefit_replay.sh",
+    "test": "bash smoke_cli_test.sh && bash smoke_storefront_test.sh && bash smoke_admin_graphql_test.sh && bash smoke_forgefit_replay.sh"
+  },
+  "dependencies": {
+    "liquidjs": "^10.21.0"
+  },
+  "engines": {
+    "node": ">=18",
+    "bun": ">=1.1"
+  }
+}

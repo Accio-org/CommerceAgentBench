@@ -1,0 +1,33 @@
+Creates a shareable, unpublished, and new theme on your theme library with a randomized name.
+
+USAGE
+  $ shopify theme share [-e <value>...] [--listing <value>] [--no-color]
+    [--password <value>] [--path <value>] [-s <value>] [--verbose]
+
+FLAGS
+  -e, --environment=<value>...  The environment to apply to the current command.
+  -s, --store=<value>           Store URL. It can be the store prefix (example)
+                                or the full myshopify.com URL
+                                (example.myshopify.com,
+                                https://example.myshopify.com).
+      --listing=<value>         The listing preset to use for multi-preset
+                                themes. Applies preset files from
+                                listings/[preset-name] directory.
+      --no-color                Disable color output.
+      --password=<value>        Password generated from the Theme Access app or
+                                an Admin API token.
+      --path=<value>            The path where you want to run the command.
+                                Defaults to the current working directory.
+      --verbose                 Increase the verbosity of the output.
+
+DESCRIPTION
+  Creates a shareable, unpublished, and new theme on your theme library with a
+  randomized name.
+
+  Uploads your theme as a new, unpublished theme in your theme library. The
+  theme is given a randomized name.
+
+  This command returns a "preview link"
+  (https://help.shopify.com/manual/online-store/themes/adding-themes#share-a-t
+  heme-preview-with-others) that you can share with others.
+

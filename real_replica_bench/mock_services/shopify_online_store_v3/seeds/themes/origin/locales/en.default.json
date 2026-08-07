@@ -1,0 +1,19 @@
+{
+  "general": {
+    "search": { "search": "Search" },
+    "accessibility": { "skip_to_content": "Skip to content" }
+  },
+  "products": {
+    "product": {
+      "sold_out": "Sold out",
+      "add_to_cart": "Add to cart"
+    }
+  },
+  "collections": {
+    "general": { "no_matches": "No products found" }
+  },
+  "cart": {
+    "general": { "title": "Your cart" }
+  },
+  "newsletter": { "label": "Email" }
+}

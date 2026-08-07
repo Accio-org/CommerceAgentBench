@@ -1,0 +1,9 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size-26021,1rem); line-height: var(--s-global-line-height-26021,1.5rem); letter-spacing: var(--s-global-letter-spacing-26021,-.00833em); font-family: var(--s-global-font-family-26021,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight-26021,450); font-variant: normal; color: var(--s-global-color-26021,var(--t-text-26021,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size-26021,.8125rem); line-height: var(--s-global-line-height-26021,1.25rem); letter-spacing: var(--s-global-letter-spacing-26021,0); }
+}
+.popover, .popover.has-popover-anchor { border-radius: var(--s-popover-border-radius-26021); }
+.popover { position: fixed; background-color: var(--t-surface-26021,rgba(255,255,255,1)); padding: 0px; --s-popover-border-radius-26021: .75rem; box-shadow: var(--t-shadow-300-26021,0 8px 24px -8px rgba(0,0,0,.28), 0 8px 16px -4px #0000000d, 0 3px 6px 0 #0000000d, 0 2px 4px 0 #0000000d, 0 1px 2px 0 #0000000d, 0 0 0 1px #0000000f); border: 0px; margin: 0px; z-index: 520; outline: 0px; scrollbar-width: thin; scrollbar-color: #b5b5b5 var(--t-bg-transparent-26021,rgba(0,0,0,0)); }
+.popover.has-popover-anchor { --s-popover-border-radius-26021: .5rem; }

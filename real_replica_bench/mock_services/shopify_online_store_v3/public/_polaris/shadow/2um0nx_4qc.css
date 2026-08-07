@@ -1,0 +1,56 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+.banner { overflow: hidden; border-radius: 0px; background: var(--t-surface,rgba(255,255,255,1)); border-block-start: .125rem solid var(--s-banner-title-background); margin-block-end: var(--s-banner-margin-block-end,0); --s-banner-title-background: var(--t-fill-info,rgba(145,208,255,1)); --s-banner-title-color: var(--t-text-info-on-fill,rgba(0,33,51,1)); }
+.banner.in-section-or-modal { background: var(--t-surface-info,rgba(234,244,255,1)); color: var(--t-text-info,rgba(0,58,90,1)); }
+.icon { --s-icon-color: currentColor; display: flex; align-self: start; background: var(--s-banner-title-background); color: var(--s-banner-title-color); border-radius: 0.5rem; padding: 0.25rem; line-height: 0; }
+.hidden { display: none; }
+.content { display: flex; flex-direction: column; justify-content: start; align-self: stretch; gap: 0px; }
+.dismiss { --s-button-color: var(--t-icon-secondary,rgba(138,138,138,1)); margin-block: -0.25rem; }
+.body .dismiss.multi-line { margin-block-start: -0.25rem; }
+.body, .title-bar { grid-template-columns: auto 1fr auto; padding: 0.75rem 0.5rem 0.75rem 0.75rem; }
+.title-bar { display: none; gap: 0.25rem; align-items: start; background-color: var(--s-banner-title-background); color: var(--s-banner-title-color); --s-global-color: var(--s-banner-title-color); }
+.title-bar .icon { padding: 0px; }
+.title-bar .dismiss { --s-button-color: currentColor; --s-button-color-hover: currentColor; --s-button-color-active: currentColor; }
+.body { display: grid; gap: 0.5rem; }
+.body .title { margin-block: 0.25rem 0.125rem; }
+.body .dismiss { margin-block: -0.5rem; margin-inline-end: -0.25rem; }
+.body-two-column { grid-template-columns: 1fr auto; }
+.actions { --s-button-inline-size: fit-content; --s-button-flex: 1 1 auto; display: flex; flex-wrap: wrap; align-items: start; gap: 0.5rem; margin-block-start: 0.5rem; }
+.tone-success { --s-banner-title-background: var(--t-fill-success,rgba(4,123,93,1)); --s-banner-title-color: var(--t-text-success-on-fill,rgba(250,255,251,1)); }
+.tone-success.in-section-or-modal { background: var(--t-surface-success,rgba(205,254,212,1)); color: var(--t-text-success,rgba(1,75,64,1)); }
+.tone-warning { --s-banner-title-background: var(--t-fill-warning,rgba(255,184,0,1)); --s-banner-title-color: var(--t-text-warning-on-fill,rgba(37,26,0,1)); }
+.tone-warning.in-section-or-modal { background: var(--t-surface-warning,rgba(255,241,227,1)); color: var(--t-text-warning,rgba(94,66,0,1)); }
+.tone-critical { --s-banner-title-background: var(--t-fill-critical,rgba(199,10,36,1)); --s-banner-title-color: var(--t-text-critical-on-fill,rgba(255,250,251,1)); }
+.tone-critical.in-section-or-modal { background: var(--t-surface-critical,rgba(254,232,235,1)); color: var(--t-text-critical,rgba(142,11,33,1)); }
+.in-section-or-modal { --s-banner-title-background: #0000; --s-banner-title-color: currentColor; --s-global-color: currentColor; --s-link-color: currentColor; gap: 0.5rem; border-radius: 0.5rem; box-shadow: none; border-block-start: none; }
+.in-section-or-modal .title-bar { display: none; }
+.in-section-or-modal .title { margin-block: 0px; }
+.in-section-or-modal .icon { padding: 0px; }
+.in-section-or-modal .dismiss { --s-button-color: currentColor; --s-button-color-hover: currentColor; --s-button-color-active: currentColor; margin-block: -0.25rem; }
+.in-section-or-modal .body { padding: 0.5rem; }
+:is(.in-section-or-modal .body) .dismiss { margin-inline-end: -0.25rem; }
+.in-section-or-modal:not(.has-heading) .icon { margin-block-start: 0.125rem; }
+.in-section-or-modal:not(.has-heading) .dismiss { margin-block: -0.125rem; }
+.has-heading:not(.in-section-or-modal) .body { padding-inline-end: 1rem; }
+:is(.has-heading:not(.in-section-or-modal) .body) .dismiss { margin-inline-end: -0.75rem; }
+.banner:not(.has-heading):not(.in-section-or-modal) .content { align-self: center; }
+@media (min-width: 48rem), (pointer: fine) {
+  .banner { border-block-start: none; border-radius: 0.75rem; box-shadow: var(--t-shadow-200,0 8px 10px -5px rgba(0,0,0,.08),0 5px 5px -2.5px #00000008,0 3px 3px -1.5px #00000005,0 2px 2px -1px #00000005,0 1px 1px -.5px #00000008,0 .5px .5px 0 #0000000a,0 0 0 1px #0000000f); }
+  .title-bar { display: grid; font-size: 0.8125rem; }
+  .body .title { margin-block: 0px; }
+  .body .dismiss { margin: 0px; }
+  .actions { --s-button-flex: initial; }
+  .banner:not(.has-heading):not(.in-section-or-modal):has(.has-actions) .dismiss { margin-block-start: -0.25rem; }
+  .in-section-or-modal { border-radius: 0.5rem; box-shadow: none; }
+  :is(.in-section-or-modal .body) .dismiss { margin-block: -0.125rem; margin-inline-end: -0.125rem; }
+  .in-section-or-modal:not(.has-heading) .icon { margin-block-start: 0px; }
+  .has-heading:not(.in-section-or-modal) .body { padding: 0.75rem 1rem 1rem; }
+  :is(.has-heading:not(.in-section-or-modal) .body) :where(.icon, .title, .dismiss) { display: none; }
+  .banner:not(.has-heading):not(.in-section-or-modal) .content { align-self: center; }
+  .banner.has-actions:not(.has-heading):not(.in-section-or-modal) .content { align-self: start; }
+  .banner:not(.has-content):not(.has-actions) .body { display: none; }
+}

@@ -1,0 +1,19 @@
+{
+  "general": {
+    "search": { "search": "搜索" },
+    "accessibility": { "skip_to_content": "跳到内容" }
+  },
+  "products": {
+    "product": {
+      "sold_out": "售罄",
+      "add_to_cart": "添加到购物车"
+    }
+  },
+  "collections": {
+    "general": { "no_matches": "此产品系列目前没有产品。" }
+  },
+  "cart": {
+    "general": { "title": "您的购物车" }
+  },
+  "newsletter": { "label": "电子邮件" }
+}

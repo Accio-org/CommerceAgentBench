@@ -1,0 +1,35 @@
+<header class="site-header" role="banner">
+  <div class="site-header__inner container">
+    <a class="site-header__logo" href="{{ routes.root_url }}">
+      {% if settings.logo_text %}{{ settings.logo_text }}{% else %}{{ shop.name }}{% endif %}
+    </a>
+    <nav class="site-nav" role="navigation" aria-label="Main">
+      <ul class="site-nav__list">
+        {% for link in linklists.main-menu.links %}
+          <li class="site-nav__item">
+            <a href="{{ link.url }}" class="site-nav__link">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="site-header__actions">
+      <a href="{{ routes.search_url }}" class="site-header__search">{{ 'general.search.search' | t }}</a>
+      <a href="{{ routes.cart_url }}" class="site-header__cart" data-cart-count="{{ cart.item_count }}">
+        {{ 'cart.general.title' | t }} ({{ cart.item_count }})
+      </a>
+    </div>
+  </div>
+  {% if settings.show_announcement %}
+  <div class="announcement-bar" style="background:{{ settings.announcement_background | default: '#1b1b1b' }};color:{{ settings.announcement_color | default: '#ffffff' }};">
+    {{ settings.announcement_text | default: 'Free shipping on orders over $50.' }}
+  </div>
+  {% endif %}
+</header>
+
+{% schema %}
+{
+  "name": "Header",
+  "settings": [],
+  "presets": [{ "name": "Header" }]
+}
+{% endschema %}

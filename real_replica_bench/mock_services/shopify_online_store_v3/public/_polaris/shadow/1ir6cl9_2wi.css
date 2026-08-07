@@ -1,0 +1,32 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+@keyframes remove-mask { 
+  100% { --s-slot-text-overflow: ellipsis; mask-image: none; }
+}
+a, button { all: unset; }
+.link { color: var(--s-link-color,var(--t-text-link,rgba(0,91,211,1))); cursor: pointer; padding: 0px; text-decoration: var(--s-link-text-decoration,none); font-size: var(--s-global-font-size,1rem); font-weight: var(--s-global-font-weight,450); }
+@media (min-width: 48rem), (pointer: fine) {
+  .link { font-size: var(--s-global-font-size,.8125rem); }
+}
+.link:hover { color: var(--s-link-color-hover,var(--t-text-link-hover,rgba(0,66,153,1))); text-decoration: underline; }
+.link:active { color: var(--s-link-color-active,var(--t-text-link-active,rgba(0,46,106,1))); }
+.link:focus-visible { outline: var(--t-border-focus,rgba(0,91,211,1)) solid .125rem; outline-offset: 0.125rem; border-radius: 0.125rem; text-decoration: none; }
+@media print {
+  .link { color: var(--s-link-color,var(--t-text,rgba(48,48,48,1))); }
+}
+.tone-critical { color: var(--t-text-critical,rgba(142,11,33,1)); }
+.tone-critical:hover { color: var(--t-text-critical-hover,rgba(95,7,22,1)); }
+.tone-critical:active { color: var(--t-text-critical-active,rgba(47,4,11,1)); }
+.tone-inherit, .tone-inherit:active, .tone-inherit:hover { color: inherit; }
+.button-link { border: 0px; background-color: rgba(0, 0, 0, 0); }
+@container --s-page-header (width > 0) {
+  .link { --s-breadcrumbs-rollout-duration: 250ms; --s-breadcrumbs-rollout-easing: cubic-bezier(.42, 0, .58, 1); color: var(--t-text-secondary,rgba(97,97,97,1)); font-size: 0.875rem; font-weight: 450; text-decoration: none; padding: 0.25rem; border-radius: 0.375rem; display: inline-flex; align-items: center; justify-content: center; min-inline-size: 1.75rem; max-inline-size: var(--s-link-max-inline-size,none); white-space: nowrap; overflow: hidden; mask-image: var(--s-link-mask-image,none); animation: var(--s-link-animation,none); transition-property: ; transition-duration: ; transition-timing-function: ; transition-behavior: ; transition-delay: 0s,var(--s-link-transition-delay,50ms); }
+  .link:focus-visible, .link:hover { color: var(--t-text,rgba(48,48,48,1)); background-color: var(--t-fill-transparent-hover,rgba(0,0,0,.05)); text-decoration: none; }
+  .link:active { color: var(--t-text,rgba(48,48,48,1)); background-color: var(--t-fill-transparent-active,rgba(0,0,0,.08)); box-shadow: rgba(26, 26, 26, 0.15) 0px 0.0625rem 0.125rem 0px inset, rgba(26, 26, 26, 0.15) 0px 0.0625rem 0.0625rem 0px inset; position: relative; inset-block-start: 0.0625rem; }
+  .link:focus-visible { border-radius: 0.375rem; outline: .125rem solid var(--t-border-focus,rgba(0,91,211,1)); outline-offset: -0.125rem; }
+  slot { display: block; min-inline-size: 0px; overflow: hidden; text-overflow: var(--s-slot-text-overflow,clip); }
+}

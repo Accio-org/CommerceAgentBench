@@ -1,0 +1,29 @@
+Lists the themes in your store, along with their IDs and statuses.
+
+USAGE
+  $ shopify theme list [-e <value>...] [--id <value>] [-j] [--name
+    <value>] [--no-color] [--password <value>] [--path <value>] [--role
+    live|unpublished|development] [-s <value>] [--verbose]
+
+FLAGS
+  -e, --environment=<value>...  The environment to apply to the current command.
+  -j, --json                    Output the result as JSON. Automatically
+                                disables color output.
+  -s, --store=<value>           Store URL. It can be the store prefix (example)
+                                or the full myshopify.com URL
+                                (example.myshopify.com,
+                                https://example.myshopify.com).
+      --id=<value>              Only list theme with the given ID.
+      --name=<value>            Only list themes that contain the given name.
+      --no-color                Disable color output.
+      --password=<value>        Password generated from the Theme Access app or
+                                an Admin API token.
+      --path=<value>            The path where you want to run the command.
+                                Defaults to the current working directory.
+      --role=<option>           Only list themes with the given role.
+                                <options: live|unpublished|development>
+      --verbose                 Increase the verbosity of the output.
+
+DESCRIPTION
+  Lists the themes in your store, along with their IDs and statuses.
+

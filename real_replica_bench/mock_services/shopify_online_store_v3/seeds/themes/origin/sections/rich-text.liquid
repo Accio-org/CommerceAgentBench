@@ -1,0 +1,17 @@
+<section class="rich-text section--rich" data-section-id="{{ section.id }}">
+  <div class="container rich-text__inner">
+    {% if section.settings.heading != blank %}<h2 class="rich-text__heading">{{ section.settings.heading }}</h2>{% endif %}
+    {% if section.settings.text != blank %}<div class="rich-text__body">{{ section.settings.text }}</div>{% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Rich text",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Tell your story" },
+    { "type": "richtext", "id": "text", "label": "Body", "default": "<p>Use this text to share more about your brand.</p>" }
+  ],
+  "presets": [{ "name": "Rich text" }]
+}
+{% endschema %}

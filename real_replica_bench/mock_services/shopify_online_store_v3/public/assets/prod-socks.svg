@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="美利奴羊毛袜">
+  <defs>
+    <radialGradient id="sbg" cx="50%" cy="42%" r="72%">
+      <stop offset="0%" stop-color="#f6f7f4"/><stop offset="100%" stop-color="#e7e9e3"/>
+    </radialGradient>
+    <linearGradient id="ssock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8ede9"/><stop offset="100%" stop-color="#c6d0c8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sbg)"/>
+  <ellipse cx="200" cy="320" rx="120" ry="20" fill="#000" opacity="0.10"/>
+  <g transform="rotate(-12 168 210)">
+    <rect x="118" y="120" width="92" height="92" rx="20" fill="url(#ssock)"/>
+    <rect x="118" y="120" width="92" height="22" rx="11" fill="#3c6b54"/>
+    <rect x="118" y="150" width="92" height="8" fill="#3c6b54" opacity="0.5"/>
+    <circle cx="164" cy="178" r="28" fill="#000" opacity="0.06"/>
+  </g>
+  <g transform="rotate(10 244 214)">
+    <rect x="196" y="126" width="96" height="96" rx="22" fill="url(#ssock)"/>
+    <rect x="196" y="126" width="96" height="22" rx="11" fill="#b5754a"/>
+    <rect x="196" y="156" width="96" height="8" fill="#b5754a" opacity="0.5"/>
+    <circle cx="244" cy="186" r="30" fill="#000" opacity="0.06"/>
+  </g>
+</svg>

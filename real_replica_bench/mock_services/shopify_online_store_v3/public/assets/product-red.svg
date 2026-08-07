@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" role="img" aria-labelledby="title">
+  <title id="title">Red product shirt</title>
+  <rect width="320" height="260" fill="#f3f4f6"/>
+  <path d="M105 48l32-18h46l32 18 45 30-28 52-32-17v98H120v-98l-32 17-28-52 45-30z" fill="#cf6d61"/>
+  <path d="M137 30h46c-4 20-42 20-46 0z" fill="#f9e3c6"/>
+  <path d="M120 113v98h80v-98l32 17 12-22-49-31c-10 18-60 18-70 0l-49 31 12 22 32-17z" fill="#d9766a"/>
+  <path d="M137 30h46c-1 7-7 12-16 15h-14c-9-3-15-8-16-15z" fill="#ffffff"/>
+</svg>

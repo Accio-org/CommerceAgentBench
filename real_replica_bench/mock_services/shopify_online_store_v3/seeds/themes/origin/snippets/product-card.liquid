@@ -1,0 +1,18 @@
+{% comment %}
+  Usage: {% render 'product-card', product: product %}
+  Renders a single product card with title, price, image, vendor.
+{% endcomment %}
+<article class="product-card">
+  <a class="product-card__link" href="{{ product.url }}">
+    {% if product.featured_image %}
+      <img class="product-card__image" src="{{ product.featured_image | image_url }}" alt="{{ product.featured_image.alt | default: product.title | escape }}" loading="lazy">
+    {% else %}
+      <div class="product-card__image product-card__image--placeholder">{{ product.title | slice: 0, 1 | upcase }}</div>
+    {% endif %}
+    <div class="product-card__info">
+      {% if product.vendor != blank %}<p class="product-card__vendor">{{ product.vendor }}</p>{% endif %}
+      <h3 class="product-card__title">{{ product.title }}</h3>
+      <p class="product-card__price">{% render 'price', product: product %}</p>
+    </div>
+  </a>
+</article>

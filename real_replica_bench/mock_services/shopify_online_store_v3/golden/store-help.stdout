@@ -1,0 +1,9 @@
+Work directly with Shopify stores.
+
+USAGE
+  $ shopify store COMMAND
+
+COMMANDS
+  store auth     Authenticate an app against a store for store commands.
+  store execute  Execute GraphQL queries and mutations on a store.
+

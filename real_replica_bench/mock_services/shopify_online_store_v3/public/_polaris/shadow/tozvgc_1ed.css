@@ -1,0 +1,14 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+.button-group { --s-button-inline-size: var(--s-button-group-inline-size,100%); display: flex; flex-direction: column; inline-size: var(--s-button-group-inline-size,100%); }
+@media (min-width: 48rem), (pointer: fine) {
+  .button-group { --s-button-inline-size: var(--s-button-group-inline-size,fit-content); display: inline-flex; flex-flow: wrap; inline-size: var(--s-button-group-inline-size,fit-content); }
+}
+.button-group > s-button-context { display: var(--s-button-context-display,contents); flex: var(--s-button-flex,initial); }
+:is(.button-group > s-button-context) > * { flex: var(--s-button-flex,initial); min-inline-size: 0px; }
+.gap-base, .gap-base > s-button-context { gap: var(--s-button-group-gap,.5rem); }
+.gap-none { gap: 0px; flex-flow: row; inline-size: var(--s-button-group-inline-size,fit-content); }

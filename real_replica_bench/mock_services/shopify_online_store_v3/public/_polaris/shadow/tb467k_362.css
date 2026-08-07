@@ -1,0 +1,31 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+.font-variant-numeric-tabular-nums { font-feature-settings: "tnum"; font-variant-numeric: tabular-nums; }
+.accessibility-visibility-exclusive { inline-size: 1px; block-size: 1px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); overflow: hidden; position: absolute; white-space: nowrap; }
+.color-base.tone-info { --s-link-color-active: var(--t-text-info-active,rgba(0,33,51,1)); --s-link-color-hover: var(--t-text-info-hover,rgba(0,58,90,1)); --s-global-color: var(--t-text-info,rgba(0,58,90,1)); }
+.color-base.tone-success { --s-link-color-active: var(--t-text-success-active,rgba(2,38,34,1)); --s-link-color-hover: var(--t-text-success-hover,rgba(7,54,48,1)); --s-global-color: var(--t-text-success,rgba(1,75,64,1)); }
+.color-base.tone-warning { --s-link-color-active: var(--t-text-warning-active,rgba(37,26,0,1)); --s-link-color-hover: var(--t-text-warning-hover,rgba(65,45,0,1)); --s-global-color: var(--t-text-warning,rgba(94,66,0,1)); }
+.color-base.tone-critical { --s-link-color-active: var(--t-text-critical-active,rgba(47,4,11,1)); --s-link-color-hover: var(--t-text-critical-hover,rgba(95,7,22,1)); --s-global-color: var(--t-text-critical,rgba(142,11,33,1)); }
+.color-base.tone-caution { --s-link-color-active: var(--t-text-caution-active,rgba(31,28,0,1)); --s-link-color-hover: var(--t-text-caution-hover,rgba(51,46,0,1)); --s-global-color: var(--t-text-caution,rgba(79,71,0,1)); }
+.color-base.tone-ai { --s-link-color-active: var(--t-text-ai,rgba(87,0,209,1)); --s-link-color-hover: var(--t-text-ai,rgba(87,0,209,1)); --s-global-color: var(--t-text-ai,rgba(87,0,209,1)); }
+.color-subdued.tone-auto, .color-subdued.tone-neutral { --s-global-color: var(--t-text-secondary,rgba(97,97,97,1)); }
+.text { --s-link-text-decoration: underline; --s-icon-color: currentColor; --s-link-color: currentColor; --s-link-color-active: currentColor; --s-link-color-hover: currentColor; display: inline; text-align: var(--s-text-align,initial); font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-weight: var(--s-global-font-weight,450); }
+@media (min-width: 48rem), (pointer: fine) {
+  .text { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+.text:focus-visible { outline: .125rem solid var(--t-border-focus,rgba(0,91,211,1)); outline-offset: 0.0625rem; border-radius: 0.125rem; }
+address.text { font-style: normal; }
+.interest { border-block-end: var(--s-text-border-block-end,none); }
+@media (pointer: fine) {
+  .interest-text-underline { border-block-end: .125rem dotted var(--t-border,rgba(227,227,227,1)); }
+}
+.weight-auto { font-weight: var(--s-global-font-weight,initial); }
+.weight-base { --s-global-font-weight: 450; font-weight: var(--s-global-font-weight); }
+.weight-medium { --s-global-font-weight: 550; }
+.weight-bold, .weight-medium, .weight-semibold { font-weight: var(--s-global-font-weight); }
+.weight-semibold { --s-global-font-weight: 600; }
+.weight-bold { --s-global-font-weight: 650; }

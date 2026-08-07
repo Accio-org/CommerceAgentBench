@@ -1,0 +1,34 @@
+<section class="main-cart" data-section-id="{{ section.id }}">
+  <div class="container main-cart__inner">
+    <h1 class="main-cart__title">{{ 'cart.general.title' | t }}</h1>
+    {% if cart.item_count > 0 %}
+      {% form 'cart' %}
+        <ul class="cart-lines">
+          {% for line in cart.items %}
+            <li class="cart-line">
+              {% if line.image %}<img src="{{ line.image.src | image_url }}" alt="{{ line.title | escape }}">{% endif %}
+              <div class="cart-line__info">
+                <a href="{{ line.url }}" class="cart-line__title">{{ line.title }}</a>
+                {% if line.variant_title and line.variant_title != 'Default' %}<p class="cart-line__variant">{{ line.variant_title }}</p>{% endif %}
+                <p class="cart-line__price">${{ line.final_price | divided_by: 100.0 | round: 2 }}</p>
+              </div>
+              <input type="number" name="updates[{{ line.key }}]" value="{{ line.quantity }}" min="0" aria-label="Quantity">
+            </li>
+          {% endfor %}
+        </ul>
+        <div class="cart-total">
+          <strong>Subtotal:</strong> ${{ cart.items_subtotal_price | divided_by: 100.0 | round: 2 }} {{ cart.currency }}
+        </div>
+        <button type="submit" class="button button--primary">Update cart</button>
+        <a href="/checkout" class="button button--primary">Check out</a>
+      {% endform %}
+    {% else %}
+      <p class="cart-empty">Your cart is empty.</p>
+      <a class="button" href="/collections/all">Continue shopping</a>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{"name":"Cart","settings":[],"presets":[{"name":"Cart"}]}
+{% endschema %}

@@ -39,20 +39,26 @@ verified image identity, immutable release digest, and customization boundary.
 
 ## Shopify Admin interface replica
 
-`real_replica_bench/mock_services/shopify_online_store_v2/public/` (308 files)
-backs the `browser/shopify/storefront-brand-refresh` task. It is not a
-hand-drawn lookalike: two of its subtrees are **mirrored static assets** served
-from Shopify's admin CDN, kept under their original content-hashed filenames so
-the replica's stylesheets resolve unmodified.
+Two replicas carry this material, with the same captured asset set in each:
+
+| Replica | Status |
+|---|---|
+| `real_replica_bench/mock_services/shopify_online_store_v2/public/` (310 files) | ships in the runtime image; backs the `browser/shopify/storefront-brand-refresh` task |
+| `real_replica_bench/mock_services/shopify_online_store_v3/public/` (310 files) | source only — not registered in `MOCK_SERVICE_REGISTRY`, not in the runtime image, no task yet |
+
+Neither is a hand-drawn lookalike: two of the subtrees in each are **mirrored
+static assets** served from Shopify's admin CDN, kept under their original
+content-hashed filenames so the replica's stylesheets resolve unmodified.
 
 | Subtree | Files | Contents |
 |---|---|---|
-| `_polaris/` | 198 | Polaris design-system CSS, `img/` (102 hash-named SVG/PNG/JPG), `shadow/` (78 hash-named CSS chunks), `assets/` fonts |
-| `_embedded/` | 11 | embedded-app stylesheets and fonts |
+| `_polaris/` | 199 | Polaris design-system CSS, `img/` (102 hash-named SVG/PNG/JPG), `shadow/` (78 hash-named CSS chunks), `assets/` fonts |
+| `_embedded/` | 12 | embedded-app stylesheets and fonts |
 | `_pages/` | 70 | admin page structures |
 
 The remaining files (product SVGs, seed JSON, page templates) are
-RealReplicaBench fixtures.
+RealReplicaBench fixtures. v3 additionally carries `seeds/themes/` — Liquid
+theme sources that are RealReplicaBench fixtures, not mirrored assets.
 
 These materials carry Shopify trademarks, product names, interface structure,
 and styling. Shopify Inc. retains every right it holds in them. The fonts are
@@ -60,19 +66,26 @@ the one component with an affirmative redistribution grant — see below.
 
 ## Bundled fonts
 
-Eighteen `.woff2` files ship inside the replica above. All are licensed under
-the **SIL Open Font License 1.1**, which permits redistribution provided the
-license accompanies the fonts:
+Eighteen `.woff2` files ship inside each replica above — the same eighteen, so
+thirty-six files in a source checkout and eighteen in the runtime image, which
+carries v2 only. All are licensed under the **SIL Open Font License 1.1**, which
+permits redistribution provided the license accompanies the fonts:
 
-| Family | Files | Copyright | License copy |
+| Family | Files (per replica) | Copyright | License copy |
 |---|---|---|---|
-| Inter | 14 | The Inter Project Authors | [`_polaris/assets/OFL.txt`](real_replica_bench/mock_services/shopify_online_store_v2/public/_polaris/assets/OFL.txt), [`_embedded/assets/OFL.txt`](real_replica_bench/mock_services/shopify_online_store_v2/public/_embedded/assets/OFL.txt) |
-| Geist Mono | 4 | Vercel, in collaboration with basement.studio | [`_polaris/assets/OFL.txt`](real_replica_bench/mock_services/shopify_online_store_v2/public/_polaris/assets/OFL.txt) |
+| Inter | 14 | The Inter Project Authors | `_polaris/assets/OFL.txt`, `_embedded/assets/OFL.txt` |
+| Geist Mono | 4 | Vercel, in collaboration with basement.studio | `_polaris/assets/OFL.txt` |
+
+Both paths are relative to each replica's `public/` directory:
+[v2 `_polaris`](real_replica_bench/mock_services/shopify_online_store_v2/public/_polaris/assets/OFL.txt),
+[v2 `_embedded`](real_replica_bench/mock_services/shopify_online_store_v2/public/_embedded/assets/OFL.txt),
+[v3 `_polaris`](real_replica_bench/mock_services/shopify_online_store_v3/public/_polaris/assets/OFL.txt),
+[v3 `_embedded`](real_replica_bench/mock_services/shopify_online_store_v3/public/_embedded/assets/OFL.txt).
 
 Seven of the Inter files are content-hash-named and were identified from their
 internal `name` table rather than their filename. The license copies sit beside
-the fonts in both directories, so they travel with the fonts into the runtime
-image as well as through a source checkout.
+the fonts in every directory that holds them, so they travel with the fonts into
+the runtime image as well as through a source checkout.
 
 ## Replayed third-party API responses
 

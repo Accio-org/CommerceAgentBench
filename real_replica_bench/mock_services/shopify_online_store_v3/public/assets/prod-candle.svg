@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="大豆蜡香薰">
+  <defs>
+    <radialGradient id="cbg" cx="50%" cy="40%" r="72%">
+      <stop offset="0%" stop-color="#f7f4f0"/><stop offset="100%" stop-color="#eae3d9"/>
+    </radialGradient>
+    <linearGradient id="cjar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#caa98f"/><stop offset="45%" stop-color="#e7d2bd"/><stop offset="100%" stop-color="#b8967a"/>
+    </linearGradient>
+    <radialGradient id="cflame" cx="50%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#fff3c4"/><stop offset="60%" stop-color="#ffb74d"/><stop offset="100%" stop-color="#f57f17"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#cbg)"/>
+  <ellipse cx="200" cy="332" rx="96" ry="16" fill="#000" opacity="0.10"/>
+  <path d="M196 96 q4 -26 4 -34 q0 8 4 34 q10 12 -4 22 q-14 -10 -4 -22 z" fill="url(#cflame)"/>
+  <rect x="198" y="118" width="4" height="22" fill="#5a4632"/>
+  <path d="M120 150 h160 v150 q0 18 -18 18 h-124 q-18 0 -18 -18 z" fill="url(#cjar)"/>
+  <ellipse cx="200" cy="150" rx="80" ry="16" fill="#f0e6d8"/>
+  <ellipse cx="200" cy="150" rx="80" ry="16" fill="none" stroke="#a98a6e" stroke-width="3"/>
+  <rect x="146" y="212" width="108" height="64" rx="6" fill="#f3ece1" opacity="0.92"/>
+  <rect x="160" y="232" width="80" height="7" rx="3" fill="#7a6248"/>
+  <rect x="172" y="248" width="56" height="6" rx="3" fill="#a98a6e"/>
+</svg>

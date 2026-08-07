@@ -1,0 +1,9 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+.tooltip, .tooltip::before { background-color: var(--t-surface,rgba(255,255,255,1)); }
+.tooltip { position: fixed; padding: 0.25rem 0.5rem; border: 0px; border-radius: 0.5rem; box-shadow: var(--t-shadow-300,0 8px 24px -8px rgba(0,0,0,.28),0 8px 16px -4px #0000000d,0 3px 6px 0 #0000000d,0 2px 4px 0 #0000000d,0 1px 2px 0 #0000000d,0 0 0 1px #0000000f); margin: 0px; z-index: 520; outline: 0px; overflow: visible; overflow-wrap: break-word; white-space: normal; }
+.tooltip::before { content: ""; position: absolute; z-index: 0; box-sizing: border-box; inline-size: 16px; block-size: 8px; background-image: none; clip-path: polygon(0px 100%, 50% 0px, 100% 100%); transform-origin: center center; pointer-events: none; }

@@ -1,0 +1,38 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+.badge { --s-icon-color: currentColor; display: flex; align-items: center; gap: 0.25rem; max-inline-size: fit-content; min-inline-size: 0px; border-radius: 0.5rem; font-weight: 550; background: var(--t-fill-transparent-secondary,rgba(0,0,0,.06)); color: var(--t-text-secondary,rgba(97,97,97,1)); }
+@media (min-width: 48rem), (pointer: fine) {
+  .badge { gap: 0.25rem; }
+}
+.content { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.size-base { block-size: 1.5rem; padding-inline: 0.5rem; padding-block: 0.125rem; font-size: 0.875rem; line-height: 1.25rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .size-base { block-size: 1.25rem; font-size: 0.75rem; line-height: 1rem; }
+}
+.size-large, .size-large-100 { block-size: 2rem; padding-block: 0.25rem; padding-inline: 0.5rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .size-large, .size-large-100 { block-size: 1.75rem; }
+}
+.with-icon.size-base { padding-inline: 0.25rem 0.5rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .with-icon.size-base { gap: 0.125rem; padding-inline-start: 0.25rem; }
+}
+.with-icon:where(.size-large, .size-large-100) { padding-inline: 0.375rem 0.5rem; }
+.color-base.tone-info { background-color: var(--t-fill-info-secondary,rgba(213,235,255,1)); color: var(--t-text-info,rgba(0,58,90,1)); }
+.color-base.tone-success { background-color: var(--t-fill-success-secondary,rgba(175,254,191,1)); color: var(--t-text-success,rgba(1,75,64,1)); }
+.color-base.tone-warning { background-color: var(--t-fill-warning-secondary,rgba(255,214,164,1)); color: var(--t-text-warning,rgba(94,66,0,1)); }
+.color-base.tone-critical { background-color: var(--t-fill-critical-secondary,rgba(254,209,215,1)); color: var(--t-text-critical,rgba(142,11,33,1)); }
+.color-base.tone-caution { background-color: var(--t-fill-caution-secondary,rgba(255,235,120,1)); color: var(--t-text-caution,rgba(79,71,0,1)); }
+.color-strong.tone-info { background-color: var(--t-fill-info,rgba(145,208,255,1)); color: var(--t-text-info-on-fill,rgba(0,33,51,1)); }
+.color-strong.tone-success { background-color: var(--t-fill-success,rgba(4,123,93,1)); color: var(--t-text-success-on-fill,rgba(250,255,251,1)); }
+.color-strong.tone-warning { background-color: var(--t-fill-warning,rgba(255,184,0,1)); color: var(--t-text-warning-on-fill,rgba(37,26,0,1)); }
+.color-strong.tone-critical { background-color: var(--t-fill-critical,rgba(199,10,36,1)); color: var(--t-text-critical-on-fill,rgba(255,250,251,1)); }
+.color-strong.tone-caution { background-color: var(--t-fill-caution,rgba(255,230,0,1)); color: var(--t-text-caution-on-fill,rgba(51,46,0,1)); }
+.color-base.tone-ai { background-color: var(--t-fill-ai-secondary,rgba(233,229,255,1)); color: var(--t-text-ai,rgba(87,0,209,1)); }
+.color-base.tone-read-only { color: var(--t-text-secondary,rgba(97,97,97,1)); background-color: rgba(0, 0, 0, 0); font-weight: 450; }
+.color-base.tone-enabled { --s-icon-color: var(--t-icon-success,rgba(4,123,93,1)); background-color: var(--t-fill-transparent-secondary,rgba(0,0,0,.06)); color: var(--t-text-secondary,rgba(97,97,97,1)); }
+.color-strong.tone-ai { background-color: var(--t-fill-ai,rgba(128,81,255,1)); color: var(--t-text-ai-on-fill,rgba(253,253,255,1)); }

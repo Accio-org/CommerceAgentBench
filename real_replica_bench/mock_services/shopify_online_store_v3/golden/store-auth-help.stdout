@@ -1,0 +1,26 @@
+Authenticate with a Shopify store.
+
+USAGE
+  $ shopify store auth --store <value> --scopes <value> [--password <value>]
+    [--switch] [--json] [--no-color] [--verbose]
+
+FLAGS
+  -s, --store=<value>     (required) The store you want to work with.
+      --scopes=<value>    (required) Comma-separated list of access scopes to
+                          request.
+      --password=<value>  Theme access token (Theme Access App) — accepted for
+                          compat, no-op in mock.
+      --switch            Make this store the active store after authenticating.
+      --json              Output the result as JSON.
+      --no-color          Disable color output.
+      --verbose           Increase the verbosity of the output.
+
+EXAMPLES
+  $ shopify store auth --store mystore.myshopify.com --scopes read_products,write_products
+
+DESCRIPTION
+  Authenticates the CLI against a Shopify store. The mock immediately succeeds
+  (no real OAuth callback). Token + scopes are persisted to
+  ~/.cache/shopify-mock-cli/auth.json for subsequent `shopify store execute`
+  calls.
+

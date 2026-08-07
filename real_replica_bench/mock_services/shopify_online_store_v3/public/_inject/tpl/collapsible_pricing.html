@@ -1,0 +1,59 @@
+<!-- Rebuilt 1:1 from the real captured #product_variant_collapsible_pricing content
+     (scratch capture /tmp/rrb_collapsiblePricing.html). Inert web components
+     (s-internal-text-field 单价, s-checkbox 征税) are rebuilt as plain Polaris so they
+     render offline. compareAtPrice + costPerItem carry name= so collect() persists them.
+     成本/利润/利润率 are compact inline _BasePill chips in a bordered strip (NOT full-width
+     fields) — this is what keeps the row from overflowing the card. -->
+<div class="Polaris-Box" style="--pc-box-padding-block-start-xs: var(--p-space-200); --pc-box-width: 100%;">
+  <div class="Polaris-Box" style="--pc-box-padding-block-end-xs: var(--p-space-400); --pc-box-padding-inline-start-xs: var(--p-space-400); --pc-box-padding-inline-end-xs: var(--p-space-400);">
+    <div class="Polaris-BlockStack" style="--pc-block-stack-order: column; --pc-block-stack-gap-xs: var(--p-space-300); display:flex; flex-direction:column; gap:var(--p-space-300, 12px);">
+      <div class="Polaris-InlineGrid" style="--pc-inline-grid-grid-template-columns-xs: repeat(2, minmax(0, 1fr)); --pc-inline-grid-gap-xs: var(--p-space-200); display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:var(--p-space-200, 8px);">
+        <!-- 原价 (compareAtPrice) -->
+        <div><div class=""><div class="Polaris-Labelled__LabelWrapper"><div class="Polaris-Label"><label id="PricingCardCompareAtPriceLabel" for="PricingCardCompareAtPrice" class="Polaris-Label__Text"><span class="Polaris-Text--root Polaris-Text--bodyMd">原价</span></label></div></div>
+          <div class="Polaris-Connected"><div class="Polaris-Connected__Item Polaris-Connected__Item--primary"><div class="Polaris-TextField">
+            <div class="Polaris-TextField__Prefix Polaris-TextField__NonFocusableAffix" id="PricingCardCompareAtPrice-Prefix">$</div>
+            <input name="compareAtPrice" id="PricingCardCompareAtPrice" placeholder="0.00" autocomplete="off" class="Polaris-TextField__Input" maxlength="24" inputmode="decimal" type="text" aria-labelledby="PricingCardCompareAtPriceLabel PricingCardCompareAtPrice-Prefix" value="">
+            <div class="Polaris-TextField__Backdrop"></div>
+          </div></div></div>
+        </div></div>
+        <!-- 单价 (real is an s-internal-text-field with a chevron; cosmetic — backend has no unit price) -->
+        <div><div class=""><div class="Polaris-Labelled__LabelWrapper"><div class="Polaris-Label"><label for="PricingCardShowUnitPrice" class="Polaris-Label__Text"><span class="Polaris-Text--root Polaris-Text--bodyMd">单价</span></label></div></div>
+          <div class="Polaris-TextField">
+            <input id="PricingCardShowUnitPrice" placeholder="未配置" autocomplete="off" class="Polaris-TextField__Input" type="text" value="">
+            <div class="Polaris-TextField__Suffix"><span class="Polaris-Icon Polaris-Icon--toneBase" style="width:1.25rem;height:1.25rem;"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true"><path d="M12.72 11.22a.75.75 0 0 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0l-3.25-3.25a.75.75 0 1 1 1.06-1.06l2.72 2.72 2.72-2.72z"></path></svg></span></div>
+            <div class="Polaris-TextField__Backdrop"></div>
+          </div>
+        </div></div>
+      </div>
+      <!-- 对此产品征收税款 (real is <s-checkbox>; rebuilt as plain Polaris-Choice, checked) -->
+      <div class="Polaris-InlineStack" style="display:flex; align-items:center; flex-wrap:wrap;">
+        <label class="Polaris-Choice" for="PricingCardTaxable">
+          <span class="Polaris-Choice__Control"><span class="Polaris-Checkbox">
+            <input id="PricingCardTaxable" type="checkbox" class="Polaris-Checkbox__Input" role="checkbox" aria-checked="true" checked value="">
+            <span class="Polaris-Checkbox__Backdrop"></span>
+            <span class="Polaris-Checkbox__Icon"><svg viewBox="0 0 16 16" class="Polaris-Icon__Svg" focusable="false" aria-hidden="true"><path d="M11.78 5.97a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0l-2.25-2.25a.75.75 0 1 1 1.06-1.06l1.72 1.72 3.72-3.72a.75.75 0 0 1 1.06 0z"></path></svg></span>
+          </span></span>
+          <span class="Polaris-Choice__Label"><span class="Polaris-Text--root Polaris-Text--bodyMd">对此产品征收税款</span></span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <!-- bordered cost / profit / margin strip — compact inline pills (1:1 with real) -->
+  <div class="Polaris-Box" style="--pc-box-border-color: var(--p-color-border); --pc-box-border-style: solid; --pc-box-border-block-start-width: var(--p-border-width-025); border-top:var(--p-border-width-025, 1px) solid var(--p-color-border, #e3e3e3);">
+    <div class="Polaris-Box" style="--pc-box-padding-block-start-xs: var(--p-space-200); --pc-box-padding-block-end-xs: var(--p-space-200); --pc-box-padding-inline-start-xs: var(--p-space-400); --pc-box-padding-inline-end-xs: var(--p-space-400); padding:var(--p-space-200, 8px) var(--p-space-400, 16px);">
+      <div class="Polaris-InlineStack" style="display:flex; flex-wrap:wrap; align-items:center; gap:var(--p-space-200, 8px);">
+        <!-- 成本 (costPerItem) -->
+        <div class="_BasePill_1nnlj_43 _BasePill--secondary_1nnlj_1" aria-label="成本">
+          <div class="_LabelWrapper_1nnlj_323"><div class="_Truncate_t3vsv_1"><p class="Polaris-Text--root Polaris-Text--block Polaris-Text--start Polaris-Text--breakAlways Polaris-Text--truncate">成本</p></div></div>
+          <div><div class="_BadgeInputWrapper_1qzc2_1"><input class="_BadgeInput_1qzc2_1" name="costPerItem" maxlength="24" id="PricingCardUnitCost" inputmode="decimal" autocomplete="off" placeholder="--" size="2" value=""></div></div>
+        </div>
+        <div class="Polaris-InlineStack" style="display:flex; flex-wrap:wrap; align-items:center; gap:var(--p-space-200, 8px);">
+          <!-- 利润 -->
+          <div class="_ProfitOutline_1q49t_1" tabindex="0"><div class="_BasePill_1nnlj_43 _BasePill--secondary_1nnlj_1" aria-label="利润"><div class="_LabelWrapper_1nnlj_323"><div class="_Truncate_t3vsv_1"><p class="Polaris-Text--root Polaris-Text--block Polaris-Text--start Polaris-Text--breakAlways Polaris-Text--truncate">利润</p></div></div><div id="rrb-profit" class="Polaris-Box" style="--pc-box-color: var(--p-color-text-secondary); --pc-box-padding-inline-start-xs: var(--p-space-200); padding-inline-start:var(--p-space-200, 8px); color:var(--p-color-text-secondary, #616161);">--</div></div></div>
+          <!-- 利润率 -->
+          <div class="_BasePill_1nnlj_43 _BasePill--secondary_1nnlj_1" aria-label="利润率"><div class="_LabelWrapper_1nnlj_323"><div class="_Truncate_t3vsv_1"><p class="Polaris-Text--root Polaris-Text--block Polaris-Text--start Polaris-Text--breakAlways Polaris-Text--truncate">利润率</p></div></div><div id="rrb-margin" class="Polaris-Box" style="--pc-box-color: var(--p-color-text-secondary); --pc-box-padding-inline-start-xs: var(--p-space-200); padding-inline-start:var(--p-space-200, 8px); color:var(--p-color-text-secondary, #616161);">--</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

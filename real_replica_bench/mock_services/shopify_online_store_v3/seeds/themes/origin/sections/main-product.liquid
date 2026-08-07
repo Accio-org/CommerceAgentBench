@@ -1,0 +1,55 @@
+<section class="main-product" data-section-id="{{ section.id }}" data-product-id="{{ product.id }}">
+  {% if product %}
+    <div class="container main-product__inner">
+      <div class="main-product__gallery">
+        {% if product.featured_image %}
+          <img class="main-product__image" src="{{ product.featured_image | image_url }}" alt="{{ product.featured_image.alt | escape | default: product.title | escape }}">
+        {% else %}
+          <div class="main-product__image main-product__image--placeholder">No image</div>
+        {% endif %}
+      </div>
+      <div class="main-product__info">
+        {% if product.vendor != blank %}<p class="main-product__vendor">{{ product.vendor }}</p>{% endif %}
+        <h1 class="main-product__title">{{ product.title }}</h1>
+        <p class="main-product__price">{% render 'price', product: product %}</p>
+        {% if product.description != blank %}
+          <div class="main-product__description">{{ product.description }}</div>
+        {% endif %}
+        {% form 'product', product %}
+          {% if product.options_with_values and product.options_with_values.size > 0 %}
+            {% for opt in product.options_with_values %}
+              <div class="product-option">
+                <label for="opt-{{ forloop.index0 }}">{{ opt.name }}</label>
+                <select id="opt-{{ forloop.index0 }}" name="options[{{ opt.name }}]">
+                  {% for v in opt.values %}<option value="{{ v | escape }}">{{ v }}</option>{% endfor %}
+                </select>
+              </div>
+            {% endfor %}
+          {% endif %}
+          <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+          <div class="product-quantity">
+            <label for="Quantity">Quantity</label>
+            <input id="Quantity" type="number" name="quantity" value="1" min="1">
+          </div>
+          <button type="submit" class="button button--primary" {% unless product.available %}disabled{% endunless %}>
+            {% if product.available %}{{ 'products.product.add_to_cart' | t }}{% else %}{{ 'products.product.sold_out' | t }}{% endif %}
+          </button>
+        {% endform %}
+        <ul class="main-product__meta">
+          <li>SKU: {{ product.sku | default: '—' }}</li>
+          <li>Type: {{ product.type | default: 'General' }}</li>
+        </ul>
+      </div>
+    </div>
+  {% else %}
+    <div class="container"><p>Product not found.</p></div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "Product information",
+  "settings": [],
+  "presets": [{ "name": "Product information" }]
+}
+{% endschema %}

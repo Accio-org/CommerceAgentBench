@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "hero": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "Handcrafted products for everyday rituals",
+        "subheading": "Curated by Atelier Goods",
+        "text": "<p>A mock storefront powered by the Liquid engine — every product, collection, and theme setting is editable through the admin or the CLI.</p>",
+        "button_label": "Shop the collection",
+        "button_link": "/collections/frontpage"
+      }
+    },
+    "featured-products": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Featured collection",
+        "collection_handle": "frontpage",
+        "products_to_show": 8
+      }
+    },
+    "rich-intro": {
+      "type": "rich-text",
+      "settings": {
+        "heading": "About this shop",
+        "text": "<p>This storefront is rendered by the Online Store v3 mock — a Shopify-compatible Liquid engine. Push theme files via <code>shopify theme push</code> and refresh.</p>"
+      }
+    }
+  },
+  "order": ["hero", "featured-products", "rich-intro"]
+}

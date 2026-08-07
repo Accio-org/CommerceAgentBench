@@ -1,0 +1,8 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size-25041, 1rem); line-height: var(--s-global-line-height-25041, 1.5rem); letter-spacing: var(--s-global-letter-spacing-25041, -0.00833em); font-family: var(--s-global-font-family-25041, 'Inter', -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif); font-weight: var(--s-global-font-weight-25041, 450); font-variant: normal; color: var(--s-global-color-25041, rgba(48, 48, 48, 1)); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size-25041, 0.8125rem); line-height: var(--s-global-line-height-25041, 1.25rem); letter-spacing: var(--s-global-letter-spacing-25041,
+      0rem
+    ); }
+}

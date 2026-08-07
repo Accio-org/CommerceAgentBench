@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="陶瓷手冲杯">
+  <defs>
+    <radialGradient id="mbg" cx="50%" cy="42%" r="72%">
+      <stop offset="0%" stop-color="#fbf7f2"/><stop offset="100%" stop-color="#ece4da"/>
+    </radialGradient>
+    <linearGradient id="mbody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c9663c"/><stop offset="48%" stop-color="#e08a5a"/><stop offset="100%" stop-color="#a94e2c"/>
+    </linearGradient>
+    <linearGradient id="mtop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c3a20"/><stop offset="100%" stop-color="#b6603a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#mbg)"/>
+  <ellipse cx="200" cy="318" rx="120" ry="20" fill="#000" opacity="0.10"/>
+  <path d="M286 150 q44 4 44 46 q0 42 -46 46 l-2 -24 q22 -2 22 -22 q0 -20 -22 -22 z" fill="none" stroke="#b35f39" stroke-width="14"/>
+  <path d="M132 138 h150 v92 q0 78 -75 78 q-75 0 -75 -78 z" fill="url(#mbody)"/>
+  <ellipse cx="207" cy="138" rx="75" ry="20" fill="url(#mtop)"/>
+  <ellipse cx="207" cy="138" rx="58" ry="13" fill="#5e2c18"/>
+  <path d="M150 150 q-6 70 24 120" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.18"/>
+  <path d="M196 60 q14 14 0 28 q-14 14 0 28" fill="none" stroke="#c9c0b4" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <path d="M226 66 q12 12 0 24 q-12 12 0 24" fill="none" stroke="#c9c0b4" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+</svg>

@@ -1,0 +1,57 @@
+:host { display: contents; }
+:host, :host *, :host ::after, :host ::before { box-sizing: border-box; }
+:host > * { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; font-size: var(--s-global-font-size,1rem); line-height: var(--s-global-line-height,1.5rem); letter-spacing: var(--s-global-letter-spacing,-.00833em); font-family: var(--s-global-font-family,'Inter',-apple-system,BlinkMacSystemFont,'San Francisco','Segoe UI',Roboto,'Helvetica Neue',sans-serif); font-weight: var(--s-global-font-weight,450); font-variant: normal; color: var(--s-global-color,var(--t-text,rgba(48,48,48,1))); text-shadow: none; text-transform: none; font-style: normal; text-align: start; text-align-last: auto; text-indent: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  :host > * { font-size: var(--s-global-font-size,.8125rem); line-height: var(--s-global-line-height,1.25rem); letter-spacing: var(--s-global-letter-spacing,0); }
+}
+a { text-decoration: none; color: inherit; }
+.clickable-chip { display: inline-flex; align-items: center; gap: 0.25rem; padding-inline: 0.5rem; padding-block: 0.125rem; border-radius: 0.5rem; font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.00833em; border: 0px; overflow: hidden; cursor: pointer; }
+@media (min-width: 48rem), (pointer: fine) {
+  .clickable-chip { gap: 0.125rem; font-size: 0.75rem; line-height: 1rem; letter-spacing: 0px; }
+}
+.clickable-chip:focus-visible { background-color: var(--s-chip-bg-hover); outline: .125rem solid var(--t-border-focus,rgba(0,91,211,1)); outline-offset: 0.0625rem; }
+.clickable-chip:focus { background-color: var(--s-chip-bg-hover); }
+.clickable-chip:hover { background-color: var(--s-chip-bg-hover); }
+.clickable-chip:active { background-color: var(--s-chip-bg-active); }
+.clickable-chip:has(.content-button:focus-visible) { background-color: var(--s-chip-bg-hover); outline: .125rem solid var(--t-border-focus,rgba(0,91,211,1)); outline-offset: 0.0625rem; }
+.clickable-chip:has(.content-button:focus) { background-color: var(--s-chip-bg-hover); }
+.clickable-chip:has(.content-button:active) { background-color: var(--s-chip-bg-active); }
+.clickable-chip:has(.remove-button:hover) { background-color: var(--s-chip-bg); }
+.clickable-chip.has-remove-button { padding-inline-end: 0.25rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .clickable-chip.has-remove-button { padding-inline-end: 0.125rem; }
+}
+.clickable-chip.has-graphic { padding-inline-start: 0.375rem; }
+@media (min-width: 48rem), (pointer: fine) {
+  .clickable-chip.has-graphic { padding-inline-start: 0.25rem; }
+}
+.clickable-chip.disabled { --s-icon-color: var(--t-icon-disabled,rgba(204,204,204,1)); cursor: default; color: var(--t-text-disabled,rgba(181,181,181,1)); font-weight: 450; pointer-events: none; box-shadow: none; }
+.clickable-chip.disabled, .clickable-chip.disabled:active, .clickable-chip.disabled:hover { background-color: var(--t-fill-disabled,rgba(0,0,0,.05)); }
+.content { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: inherit; }
+.graphic { display: inline-flex; align-items: center; }
+.hidden { display: none; }
+.content-button { flex: 1 1 0%; display: inline-flex; align-items: center; gap: 0.25rem; padding: 0px; margin: 0px; border: 0px; background-color: rgba(0, 0, 0, 0); cursor: pointer; min-inline-size: 0px; font-size: 0.875rem; line-height: 1.25rem; letter-spacing: -0.00833em; color: inherit; font-weight: inherit; font-family: inherit; }
+.content-button:focus, .content-button:focus-visible { outline: 0px; }
+@media (min-width: 48rem), (pointer: fine) {
+  .content-button { gap: 0.125rem; font-size: 0.75rem; line-height: 1rem; letter-spacing: 0px; }
+}
+.remove-button { --s-icon-color: var(--t-icon-secondary,rgba(138,138,138,1)); display: inline-flex; align-items: center; padding: 0px; margin: 0px; border: 0px; background-color: rgba(0, 0, 0, 0); border-radius: 0.375rem; cursor: pointer; }
+.remove-button:active, .remove-button:hover { --s-icon-color: var(--t-icon-hover,rgba(48,48,48,1)); }
+.remove-button:focus-visible { --s-icon-color: var(--t-icon-hover,rgba(48,48,48,1)); z-index: 1; outline: .125rem solid var(--t-border-focus,rgba(0,91,211,1)); outline-offset: -0.0625rem; }
+.remove-button.disabled { --s-icon-color: var(--t-icon-disabled,rgba(204,204,204,1)); cursor: default; }
+.remove-on-hover { --s-remove-button-reserved-space: .75rem; }
+@media (pointer: fine) {
+  .remove-on-hover { position: relative; }
+  .remove-on-hover.has-remove-button { padding-inline-end: 0.5rem; }
+  .remove-on-hover .remove-button { --s-icon-color: var(--t-text,rgba(48,48,48,1)); display: inline-flex; align-items: center; justify-content: center; padding-block: 0.0625rem; padding-inline: 0.0625rem; border-radius: 0.375rem; position: absolute; inset-block: 0.125rem; inset-inline-end: 0.125rem; z-index: 1; opacity: 0; background-color: rgba(0, 0, 0, 0); transition: opacity 100ms cubic-bezier(0, 0, 1, 1), background-color 100ms cubic-bezier(0, 0, 1, 1); }
+  :is(.remove-on-hover .remove-button):focus-visible, :is(.remove-on-hover .remove-button):hover { --s-icon-color: var(--t-text,rgba(48,48,48,1)); background-color: var(--s-remove-button-bg-hover,var(--s-chip-bg-active)); opacity: 1; }
+  .remove-on-hover:has(:where(.remove-button):focus-visible) .remove-button, .remove-on-hover:hover .remove-button { opacity: 1; }
+  .remove-on-hover .content { clip-path: inset(0px); transition: clip-path 100ms cubic-bezier(0, 0, 1, 1); }
+  .remove-on-hover:has(:where(.remove-button):focus-visible) .content, .remove-on-hover:hover .content { clip-path: inset(0 var(--s-remove-button-reserved-space)0 0); }
+}
+.color-strong { --s-icon-color: var(--t-text,rgba(48,48,48,1)); --s-chip-bg: var(--t-fill-tertiary,rgba(227,227,227,1)); --s-chip-bg-hover: var(--t-fill-tertiary-hover,rgba(212,212,212,1)); --s-chip-bg-active: var(--t-fill-tertiary-active,rgba(204,204,204,1)); color: var(--t-text,rgba(48,48,48,1)); background-color: var(--s-chip-bg); font-weight: 450; }
+.color-base, .color-subdued { color: var(--t-text-secondary,rgba(97,97,97,1)); background-color: var(--s-chip-bg); }
+.color-base { --s-icon-color: var(--t-text-secondary,rgba(97,97,97,1)); --s-chip-bg: var(--t-fill-transparent-secondary,rgba(0,0,0,.06)); --s-chip-bg-hover: var(--t-fill-transparent-secondary-hover,rgba(0,0,0,.08)); --s-chip-bg-active: var(--t-fill-transparent-secondary-active,rgba(0,0,0,.11)); font-weight: 550; }
+.color-subdued { --s-icon-color: var(--t-icon-secondary,rgba(138,138,138,1)); --s-chip-bg: var(--t-surface,rgba(255,255,255,1)); --s-chip-bg-hover: var(--t-fill-hover,rgba(250,250,250,1)); --s-chip-bg-active: var(--t-fill-active,rgba(247,247,247,1)); font-weight: 450; box-shadow: inset 0 0 0 .0625rem var(--t-border,rgba(227,227,227,1)); }
+.clickable-chip { max-inline-size: 100%; }
+.color-info { --s-icon-color: var(--t-text-info,rgba(0,58,90,1)); --s-chip-bg: var(--t-fill-info-secondary,rgba(213,235,255,1)); --s-chip-bg-hover: var(--t-surface-info-hover,rgba(224,240,255,1)); --s-chip-bg-active: var(--t-surface-info-active,rgba(202,230,255,1)); --s-remove-button-bg-hover: var(--t-fill-info,rgba(145,208,255,1)); color: var(--t-text-info,rgba(0,58,90,1)); background-color: var(--s-chip-bg); font-weight: 450; }

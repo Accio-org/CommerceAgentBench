@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="竹制砧板">
+  <defs>
+    <radialGradient id="dbg" cx="50%" cy="42%" r="72%">
+      <stop offset="0%" stop-color="#f5f2ec"/><stop offset="100%" stop-color="#e6ddcd"/>
+    </radialGradient>
+    <linearGradient id="dboard" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0%" stop-color="#d8b888"/><stop offset="50%" stop-color="#e7cda0"/><stop offset="100%" stop-color="#c9a677"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#dbg)"/>
+  <ellipse cx="206" cy="330" rx="128" ry="20" fill="#000" opacity="0.12"/>
+  <g transform="rotate(-8 200 200)">
+    <rect x="86" y="118" width="228" height="170" rx="26" fill="url(#dboard)"/>
+    <rect x="86" y="118" width="228" height="170" rx="26" fill="none" stroke="#b3905f" stroke-width="3"/>
+    <circle cx="292" cy="150" r="12" fill="none" stroke="#a9824f" stroke-width="6"/>
+    <g stroke="#c2a06e" stroke-width="3" opacity="0.7">
+      <line x1="120" y1="130" x2="120" y2="276"/>
+      <line x1="156" y1="130" x2="156" y2="276"/>
+      <line x1="192" y1="130" x2="192" y2="276"/>
+      <line x1="228" y1="130" x2="228" y2="276"/>
+      <line x1="264" y1="130" x2="264" y2="276"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+Execute an arbitrary GraphQL query against a Shopify Admin API endpoint.
+
+USAGE
+  $ shopify store execute [-q <value>] [--query-file <value>] [-s <value>]
+    [-v <value>] [--variable-file <value>] [--output-file <value>] [--version
+    <value>] [--allow-mutations] [--json] [--no-color] [--verbose]
+
+FLAGS
+  -q, --query=<value>          The GraphQL query or mutation, as a string.
+      --query-file=<value>     Path to a file containing the GraphQL query or
+                               mutation. Can't be used with --query.
+  -s, --store=<value>          The store to query (defaults to the active
+                               store).
+  -v, --variables=<value>      The values for any GraphQL variables in your
+                               query or mutation, in JSON format.
+      --variable-file=<value>  Path to a JSON file with variables (use for large
+                               payloads).
+      --output-file=<value>    The file name where results should be written,
+                               instead of STDOUT.
+      --version=<value>        The API version to use for the query or mutation.
+                               Defaults to the latest stable version.
+      --allow-mutations        Allow mutations to be executed (off by default
+                               to prevent accidental writes to a live store).
+      --json                   Compact JSON output.
+      --no-color               Disable color output.
+      --verbose                Increase the verbosity of the output.
+
+EXAMPLES
+  $ shopify store execute --query '{ shop { name } }'
+  $ shopify store execute -q '{ shop { name } }' --output-file out.json
+  $ shopify store execute --query-file query.graphql --variable-file vars.json --allow-mutations
+
+DESCRIPTION
+  Sends the query directly to /admin/api/<version>/graphql.json with the
+  current store's bearer token. Use `shopify store auth` first to authenticate.
+

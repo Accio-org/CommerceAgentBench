@@ -1,0 +1,23 @@
+<section class="main-search" data-section-id="{{ section.id }}">
+  <div class="container main-search__inner">
+    <h1 class="main-search__title">Search</h1>
+    {% form 'search' %}
+      <input type="search" name="q" value="{{ search.terms | default: '' | escape }}" placeholder="Search products" aria-label="Search">
+      <button type="submit" class="button">Go</button>
+    {% endform %}
+    {% if search and search.performed %}
+      <p class="main-search__count">{{ search.results_count | default: 0 }} results for "{{ search.terms | escape }}"</p>
+      <ul class="product-grid">
+        {% for product in search.results %}
+          <li class="product-grid__item">{% render 'product-card', product: product %}</li>
+        {% else %}
+          <li>No results.</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{"name":"Search","settings":[],"presets":[{"name":"Search"}]}
+{% endschema %}

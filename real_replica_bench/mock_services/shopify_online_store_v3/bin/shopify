@@ -1,0 +1,154 @@
+#!/usr/bin/env bun
+// Shopify CLI mock entry point — talks to the v2 events-stream backend.
+//
+// Aligned against Shopify/cli @ 0df9cd72881452e3ed00f84a05ccf36d7fcda0a2
+// (Shopify/cli, @shopify/cli 4.1.0). Flag tables, env vars, and JSON shapes
+// mirror packages/theme/src/cli/commands/theme/*.ts. See
+// scratch/docs/cli_alignment/shopify_cli.md for the alignment ledger +
+// documented divergences.
+//
+// Subcommands implemented (14 theme + 2 store):
+//   theme {list,info,open,duplicate,push,pull,publish,rename,delete,dev,
+//          init,package,share,preview}
+//   store {auth,execute}              ← real @shopify/cli 4.1.0 surface
+//
+// Phase F.6 — `store {list,link,switch}` removed (they don't exist in real
+// CLI 4.1.0). Single-store-mode convenience lives in lib/cli/auth_store.mjs
+// (`getActiveStore` returns the only entry when activeStore isn't set).
+//
+// Phase C — added init/package/share/preview to bring theme parity from 10
+// → 14. The remaining 5 upstream theme subcommands (check/console/profile/
+// language-server/metafields) are documented divergences — see README.md
+// "Shopify CLI divergences".
+
+import { readHelpFile, emitError } from '../lib/cli/output.mjs';
+import { renderError } from '../lib/cli/cliKit.mjs';
+import { RuntimeError, UsageError } from '../lib/cli/parser.mjs';
+
+const COMMANDS = {
+  theme: {
+    list: () => import('../lib/cli/commands/list.mjs'),
+    info: () => import('../lib/cli/commands/info.mjs'),
+    open: () => import('../lib/cli/commands/open.mjs'),
+    duplicate: () => import('../lib/cli/commands/duplicate.mjs'),
+    push: () => import('../lib/cli/commands/push.mjs'),
+    pull: () => import('../lib/cli/commands/pull.mjs'),
+    publish: () => import('../lib/cli/commands/publish.mjs'),
+    rename: () => import('../lib/cli/commands/rename.mjs'),
+    delete: () => import('../lib/cli/commands/delete.mjs'),
+    dev: () => import('../lib/cli/commands/dev.mjs'),
+    init: () => import('../lib/cli/commands/init.mjs'),
+    package: () => import('../lib/cli/commands/package.mjs'),
+    share: () => import('../lib/cli/commands/share.mjs'),
+    preview: () => import('../lib/cli/commands/preview.mjs'),
+  },
+  store: {
+    auth: () => import('../lib/cli/commands/store/auth.mjs'),
+    execute: () => import('../lib/cli/commands/store/execute.mjs'),
+  },
+};
+
+// Render a "Failed to prompt" error box. Matches real CLI's exact wording
+// (verified against shopify@4.1.0 for delete/duplicate/rename/push --unpublished
+// without --force/--name).
+function emitFailedPrompt(promptText) {
+  process.stderr.write(
+    renderError([
+      { title: 'Failed to prompt:' },
+      { title: promptText },
+      {
+        text:
+          'This usually happens when running a command non-interactively, for example\n' +
+          ' in a CI environment, or when piping to or from another process.',
+      },
+      {
+        text:
+          'To resolve this, specify the option in the command, or run the command in\n' +
+          'an interactive environment such as your local terminal.',
+      },
+    ]),
+  );
+}
+
+async function main(argv) {
+  if (argv.length === 0 || argv[0] === '--help' || argv[0] === '-h' || argv[0] === 'help') {
+    process.stdout.write(readHelpFile('help'));
+    return 0;
+  }
+  if (argv[0] === '--version' || argv[0] === '-V') {
+    // Long form: "@shopify/cli/4.1.0 darwin-arm64 node-v22.16.0\n"
+    process.stdout.write(readHelpFile('version'));
+    return 0;
+  }
+  if (argv[0] === 'version') {
+    // Phase F.7 — bare `shopify version` (subcommand) emits just the version
+    // number, byte-identical to real CLI 4.1.0 (6 bytes: "4.1.0\n").
+    process.stdout.write(readHelpFile('version-bare'));
+    return 0;
+  }
+
+  const [topic, ...rest] = argv;
+  const topicCommands = COMMANDS[topic];
+  if (!topicCommands) {
+    return unknownCommand(topic, 'hydrogen env push');
+  }
+  if (rest.length === 0 || rest[0] === '--help' || rest[0] === '-h') {
+    process.stdout.write(readHelpFile(`${topic}-help`));
+    return 0;
+  }
+  const sub = rest[0];
+  const loader = topicCommands[sub];
+  if (!loader) {
+    return unknownCommand(`${topic} ${sub}`, `${topic} push`);
+  }
+  const { run } = await loader();
+  return run(rest.slice(1));
+}
+
+function unknownCommand(name, suggestion) {
+  // Real CLI wraps unknown-command in the same "Failed to prompt" box used
+  // when interactive selection bails. Suggestion text is best-effort —
+  // mirrors what shopify@4.1.0 emitted for these specific cases.
+  emitFailedPrompt(`Command ${name} not found. Did you mean ${suggestion}?`);
+  return 1;
+}
+
+// Render usage-style errors (parse failures, unknown flags) as the compact
+// 2-line cli-kit error box used by oclif's UsageError on the non-TTY path.
+function emitUsageError(message) {
+  process.stderr.write(
+    renderError([
+      { text: `${message}\nSee more help with --help` },
+    ]),
+  );
+}
+
+try {
+  const code = await main(process.argv.slice(2));
+  process.exit(code);
+} catch (err) {
+  // failed-prompt errors (no --force / no --name / unknown command)
+  if (err && err.render === 'failed-prompt' && err.promptText) {
+    emitFailedPrompt(err.promptText);
+    process.exit(err.exitCode ?? 1);
+  }
+  if (err instanceof UsageError) {
+    emitUsageError(err.message);
+    process.exit(err.exitCode ?? 2);
+  }
+  if (err instanceof RuntimeError) {
+    emitError([{ title: err.message }]);
+    process.exit(err.exitCode ?? 1);
+  }
+  // Render-flagged errors (e.g. info "No themes match ID")
+  if (err && err.render === 'error') {
+    emitError([{ title: err.message }]);
+    process.exit(err.exitCode ?? 1);
+  }
+  if (err && typeof err === 'object' && 'exitCode' in err) {
+    emitError([{ title: err.message || String(err) }]);
+    process.exit(err.exitCode);
+  }
+  emitError([{ title: err?.message || String(err) }]);
+  process.exit(1);
+}

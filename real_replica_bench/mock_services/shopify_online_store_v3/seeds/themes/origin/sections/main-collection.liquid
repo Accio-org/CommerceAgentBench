@@ -1,0 +1,30 @@
+<section class="main-collection" data-section-id="{{ section.id }}">
+  <div class="container">
+    {% if collection %}
+      <header class="collection-header">
+        <h1 class="collection-header__title">{{ collection.title }}</h1>
+        {% if collection.description != blank %}<div class="collection-header__description">{{ collection.description }}</div>{% endif %}
+        <p class="collection-header__count">{{ collection.products_count }} products</p>
+      </header>
+      {% if collection.products.size > 0 %}
+        <ul class="product-grid">
+          {% for product in collection.products %}
+            <li class="product-grid__item">{% render 'product-card', product: product %}</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="collection-empty">{{ 'collections.general.no_matches' | t }}</p>
+      {% endif %}
+    {% else %}
+      <p>Collection not found.</p>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Collection grid",
+  "settings": [],
+  "presets": [{ "name": "Collection grid" }]
+}
+{% endschema %}

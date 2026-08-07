@@ -1,0 +1,41 @@
+Build Liquid themes.
+
+USAGE
+  $ shopify theme COMMAND
+
+TOPICS
+  theme metafields  Download metafields definitions from your shop into a local
+                    file.
+
+COMMANDS
+  theme check            Validate the theme.
+  theme console          Shopify Liquid REPL (read-eval-print loop) tool
+  theme delete           Delete remote themes from the connected store. This
+                         command can't be undone.
+  theme dev              Uploads the current theme as a development theme to the
+                         connected store, then prints theme editor and preview
+                         URLs to your terminal. While running, changes will push
+                         to the store in real time.
+  theme duplicate        Duplicates a theme from your theme library.
+  theme info             Displays information about your theme environment,
+                         including your current store. Can also retrieve
+                         information about a specific theme.
+  theme init             Clones a Git repository to use as a starting point for
+                         building a new theme.
+  theme language-server  Start a Language Server Protocol server.
+  theme list             Lists the themes in your store, along with their IDs
+                         and statuses.
+  theme open             Opens the preview of your remote theme.
+  theme package          Package your theme into a .zip file, ready to upload to
+                         the Online Store.
+  theme preview          Applies JSON overrides to a theme and returns a preview
+                         URL.
+  theme profile          Profile the Liquid rendering of a theme page.
+  theme publish          Set a remote theme as the live theme.
+  theme pull             Download your remote theme files locally.
+  theme push             Uploads your local theme files to the connected store,
+                         overwriting the remote version if specified.
+  theme rename           Renames an existing theme.
+  theme share            Creates a shareable, unpublished, and new theme on your
+                         theme library with a randomized name.
+

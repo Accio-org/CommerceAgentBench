@@ -1,0 +1,36 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer__inner container">
+    <div class="site-footer__col">
+      <h3 class="site-footer__heading">{{ shop.name }}</h3>
+      <p class="site-footer__text">{{ shop.description }}</p>
+    </div>
+    <div class="site-footer__col">
+      <h3 class="site-footer__heading">Menu</h3>
+      <ul class="site-footer__list">
+        {% for link in linklists.main-menu.links %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="site-footer__col">
+      <h3 class="site-footer__heading">Policies</h3>
+      <ul class="site-footer__list">
+        <li><a href="{{ shop.privacy_policy.url }}">{{ shop.privacy_policy.title }}</a></li>
+        <li><a href="{{ shop.shipping_policy.url }}">{{ shop.shipping_policy.title }}</a></li>
+        <li><a href="{{ shop.refund_policy.url }}">{{ shop.refund_policy.title }}</a></li>
+        <li><a href="{{ shop.terms_of_service.url }}">{{ shop.terms_of_service.title }}</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="site-footer__bottom container">
+    <small>© {{ 'now' | date: '%Y' }} {{ shop.name }}. {{ powered_by_link }}</small>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [],
+  "presets": [{ "name": "Footer" }]
+}
+{% endschema %}

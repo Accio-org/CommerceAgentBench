@@ -1,0 +1,11 @@
+{% comment %}Usage: {% render 'price', product: product %}{% endcomment %}
+<span class="price">
+  {% if product.price_min == product.price_max %}
+    {{ product.price | divided_by: 100.0 | round: 2 | money }}
+  {% else %}
+    {{ product.price_min | divided_by: 100.0 | round: 2 | money }} – {{ product.price_max | divided_by: 100.0 | round: 2 | money }}
+  {% endif %}
+  {% if product.compare_at_price > product.price %}
+    <span class="price--compare">{{ product.compare_at_price | divided_by: 100.0 | round: 2 | money }}</span>
+  {% endif %}
+</span>

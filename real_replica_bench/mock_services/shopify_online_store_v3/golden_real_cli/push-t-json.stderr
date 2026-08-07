@@ -1,0 +1,50 @@
+╭─ warning ────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  It doesn't seem like you're running this command in a theme directory.      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Uploading files to remote theme [0%] ...
+[2K[1A[2K[GUploading files to remote theme [25%] ...
+[2K[1A[2K[GUploading files to remote theme [50%] ...
+[2K[1A[2K[GUploading files to remote theme [75%] ...
+[2K[1A[2K[G
+Cleaning your remote theme [0%] ...
+[2K[1A[2K[GCleaning your remote theme [48%] ...
+╭─ error ──────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  Failed to delete file "templates/gift_card.liquid" from remote theme.       │
+│                                                                              │
+│  Failed to delete templates/gift_card.liquid: -无法删除                      │
+│  templates/gift_card.liquid                                                  │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+[2K[1A[2K[GCleaning your remote theme [65%] ...
+[2K[1A[2K[G
+Theme upload complete ...
+[2K[1A[2K[G
+╭─ error ──────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  config/settings_schema.json                                                 │
+│                                                                              │
+│  Section 1: theme_documentation_url 是必填项                                 │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ error ──────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  templates/product.json                                                      │
+│                                                                              │
+│  分区类型“main”不能引用现有分区文件                                          │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ error ──────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  templates/gift_card.liquid                                                  │
+│                                                                              │
+│  无法删除 templates/gift_card.liquid                                         │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

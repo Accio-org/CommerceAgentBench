@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product"
+    },
+    "recommendations": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "You may also like",
+        "collection_handle": "all",
+        "products_to_show": 4
+      }
+    }
+  },
+  "order": ["main", "recommendations"]
+}
