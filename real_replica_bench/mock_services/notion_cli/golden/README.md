@@ -40,6 +40,6 @@ ntn workers list > noauth-workers.stdout 2>noauth-workers.stderr; echo $? > noau
 The mock uses Commander.js (Node), not Rust/clap. Help format and error
 messages will differ structurally (Commander prints `Usage: ntn-mock ...`
 vs clap's `Usage: ntn ...`). The `smoke_test.sh` golden section tests
-**version output** and **exit codes** for exact match, but flags help-text
+**version output** and **exit codes** for an exact match, but flags help-text
 comparison as known divergences (format cannot be byte-identical between
 Commander.js and clap).
