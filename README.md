@@ -100,11 +100,13 @@ so agents must operate interfaces and change state.
 ## Reference results
 
 Results are aligned by `task_id` over the complete 107-task collection. The
-tables below are per harness — twelve model families on OpenClaw, thirteen on
-Accio — and the twelve present in both are the ones that compare directly.
+tables below are per harness — twelve model families on each, and the same
+twelve in both, so every row compares directly across the two.
 The published scores were produced through Accio-managed evaluation endpoints
 with `gemini-3.1-pro-preview` as the judge; the public path in this repository
-uses bring-your-own credentials.
+uses bring-your-own credentials. Every model ran with thinking enabled at its
+provider's default reasoning effort; that default differs by vendor, so the
+harness tier does too.
 
 The [live leaderboard](https://realreplicabench.site.accio.ai/) is the
 source of record; the tables below are a snapshot.
@@ -133,8 +135,8 @@ are directly comparable between the two tables.
 | 🥉 GPT-5.6 Sol | `██████████░░░░░░░░░░` 53/107 (49.5%) | 0.855 | 28.6 | 14.4 min | 2.09M |
 | GPT-5.5 | `██████████░░░░░░░░░░` 51/107 (47.7%) | 0.835 | 37.1 | 12.7 min | 2.85M |
 | Claude Opus 4.7 | `█████████░░░░░░░░░░░` 49/107 (45.8%) | 0.871 | 47.4 | 14.3 min | 4.10M |
-| Qwen 3.8 Max Preview | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.822 | 40.6 | 18.9 min | 2.13M |
 | Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.867 | 46.3 | 13.5 min | 3.28M |
+| Qwen 3.8 Max | `█████████░░░░░░░░░░░` 47/107 (43.9%) | 0.804 | 47.0 | 15.0 min | 2.22M |
 | DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 0.827 | 137.8 | 19.2 min | 11.04M |
 | GLM 5.2 | `████████░░░░░░░░░░░░` 42/107 (39.3%) | 0.814 | 56.9 | 14.8 min | 3.12M |
 | Gemini 3.5 Flash | `███████░░░░░░░░░░░░░` 39/107 (36.4%) | 0.798 | 63.9 | 17.9 min | 5.54M |
@@ -148,16 +150,21 @@ are directly comparable between the two tables.
 | 🥇 Claude Opus 5 | `████████████░░░░░░░░` 66/107 (61.7%) | 0.861 | 63.2 | 10.1 min | 3.69M |
 | 🥈 Claude Opus 4.8 | `███████████░░░░░░░░░` 59/107 (55.1%) | 0.886 | 67.4 | 11.6 min | 4.82M |
 | 🥉 Claude Opus 4.7 | `██████████░░░░░░░░░░` 56/107 (52.3%) | 0.878 | 61.5 | 6.4 min | 4.32M |
+| Qwen 3.8 Max | `██████████░░░░░░░░░░` 56/107 (52.3%) | 0.870 | 71.2 | 15.7 min | 3.39M |
 | GPT-5.6 Sol | `██████████░░░░░░░░░░` 55/107 (51.4%) | 0.873 | 53.0 | 5.5 min | 1.85M |
-| Qwen 3.8 Max | `██████████░░░░░░░░░░` 52/107 (48.6%) | 0.826 | 67.8 | 15.6 min | 2.93M |
 | Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.815 | 47.7 | 4.6 min | 2.62M |
 | GLM 5.2 | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.787 | 81.0 | 10.8 min | 3.62M |
 | DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.838 | 84.0 | 10.0 min | 5.35M |
-| Qwen 3.8 Max Preview | `█████████░░░░░░░░░░░` 49/107 (45.8%) | 0.856 | 69.8 | 12.7 min | 2.51M |
 | GPT-5.5 | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.864 | 45.3 | 4.5 min | 1.44M |
 | GPT-5.6 Luna | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.809 | 66.0 | 5.7 min | 2.49M |
 | Gemini 3.5 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 0.821 | 91.2 | 9.0 min | 4.80M |
 | Gemini 3 Flash | `██████░░░░░░░░░░░░░░` 31/107 (29.0%) | 0.769 | 46.0 | 4.5 min | 2.48M |
+
+> [!IMPORTANT]
+> **Qwen runs need thinking preserved across turns** — `reasoning_content` has
+> to be replayed on the assistant message, not dropped. Both Qwen 3.8 Max rows
+> were produced that way; without it the numbers are not comparable. See
+> [`docs/openclaw-native-qwen.md`](docs/openclaw-native-qwen.md).
 
 The raw task-level result bundles are not stored in Git and do not yet have
 public immutable URLs or checksums. Until they do, the published board is an

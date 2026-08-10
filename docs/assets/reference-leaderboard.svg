@@ -61,18 +61,18 @@
       <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">52.3% · 56/107</text>
     </g>
     <g transform="translate(0 432)">
-      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Qwen 3.8 Max Preview</text>
-      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="480" height="16" rx="8" fill="url(#openclaw)"/>
-      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">44.9% · 48/107</text>
-      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="490" height="16" rx="8" fill="url(#accio)"/>
-      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">45.8% · 49/107</text>
-    </g>
-    <g transform="translate(0 496)">
       <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Gemini 3.6 Flash</text>
       <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="480" height="16" rx="8" fill="url(#openclaw)"/>
       <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">44.9% · 48/107</text>
       <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="500" height="16" rx="8" fill="url(#accio)"/>
       <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">46.7% · 50/107</text>
+    </g>
+    <g transform="translate(0 496)">
+      <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">Qwen 3.8 Max</text>
+      <rect x="300" y="0" width="700" height="16" rx="8" fill="#EEF7FF"/><rect x="300" y="0" width="470" height="16" rx="8" fill="url(#openclaw)"/>
+      <text x="1020" y="14" fill="#0369A1" font-size="13" font-weight="750">43.9% · 47/107</text>
+      <rect x="300" y="24" width="700" height="16" rx="8" fill="#E8FAF4"/><rect x="300" y="24" width="560" height="16" rx="8" fill="url(#accio)"/>
+      <text x="1020" y="38" fill="#047857" font-size="13" font-weight="750">52.3% · 56/107</text>
     </g>
     <g transform="translate(0 560)">
       <text x="54" y="25" fill="#1F2937" font-size="15" font-weight="680">DeepSeek V4 Flash</text>

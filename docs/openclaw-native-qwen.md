@@ -156,6 +156,25 @@ time the release fork also patches the provider's `timeoutSeconds` to 600 (see
   `reasoning:false` and sends no thinking directives. `thinking: <tier>` then
   becomes a no-op on the native Qwen path.
 
+### Preserve the reasoning across turns
+
+Qwen returns its reasoning in **`reasoning_content`**, a sibling of `content` on
+the assistant message, and the next request has to send it back. A client that
+rebuilds history from `content` alone produces a valid request — no error — in
+which the model gets its own previous turn with the reasoning stripped, so
+nothing it worked out carries forward. The OpenRouter path (Scenario B) is
+covered by the bundled shim; on a native or BYO route, verify it:
+
+```bash
+real-replica-bench run <task-id> --config <your-config> --limit 1
+python3 -c "import json,sys; print(json.load(open(sys.argv[1]))['usage'])" \
+  runs/<run-id>/tasks/01-<task-id>/agent/trajectory.json
+```
+
+`reasoningTokens` must be non-zero — zero means the tier never reached the
+provider (the gotcha above), not this. Both Qwen rows in the
+[README](../README.md#reference-results) were produced with it on.
+
 ---
 
 ## How it works (under the hood)
