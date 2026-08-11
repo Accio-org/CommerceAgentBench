@@ -5,7 +5,7 @@ aligned 1:1 with the tool surface published by the
 [`gemini-cli-extensions/workspace`](https://github.com/gemini-cli-extensions/workspace)
 MCP server (referenced from [`google/mcp`](https://github.com/google/mcp)).
 
-Agent interacts through the `gws` CLI; a separate HTTP server provides
+The agent interacts through the `gws` CLI; a separate HTTP server provides
 verifier-only state inspection endpoints (protected by token).
 
 ```
