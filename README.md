@@ -44,6 +44,12 @@
   and we are open to working together on the benchmark.</sub>
 </p>
 
+<p align="center">
+  <sub>Also from the Accio team:
+  <a href="https://github.com/Accio-org/BusinessArena"><strong>Business Arena</strong></a>
+  — can an agent run a seller business over a 30-day market horizon?</sub>
+</p>
+
 ---
 
 ## Overview
