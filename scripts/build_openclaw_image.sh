@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Legacy migration helper retained for historical development. It does not
-# build the pinned RealReplicaBench v1.3.1 runtime. Use
+# build the pinned Commerce Agent Bench v1.3.1 runtime. Use
 # scripts/import_openclaw_image.sh for the release image.
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 BASE_IMAGE="${BASE_IMAGE:-commercecraftbench/openclaw:base-v1.3}"

@@ -1,4 +1,4 @@
-# RealReplicaBench — OpenClaw harness, OpenAI /v1/responses (Responses API).
+# Commerce Agent Bench — OpenClaw harness, OpenAI /v1/responses (Responses API).
 #
 # The Responses API is a distinct OpenAI wire format from /v1/chat/completions:
 # it uses `input` (not `messages`), `text.format.json_schema` (not

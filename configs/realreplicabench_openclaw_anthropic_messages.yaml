@@ -1,4 +1,4 @@
-# RealReplicaBench — OpenClaw harness, Anthropic /v1/messages (native).
+# Commerce Agent Bench — OpenClaw harness, Anthropic /v1/messages (native).
 #
 # Bring-your-own-key: runs the agent against Anthropic's Messages API using
 # OpenClaw's native anthropic-messages client. Works with the public Anthropic

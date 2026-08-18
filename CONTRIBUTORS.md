@@ -1,6 +1,6 @@
 # Contributors
 
-RealReplicaBench is built by the Accio team at Alibaba International and by the
+Commerce Agent Bench is built by the Accio team at Alibaba International and by
 people who contribute mock environments, tasks, and fixes to it.
 
 **If your pull request adds a mock environment, add yourself here in the same

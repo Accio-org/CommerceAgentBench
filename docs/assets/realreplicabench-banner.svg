@@ -1,5 +1,5 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">RealReplicaBench</title>
+  <title id="title">Commerce Agent Bench</title>
   <desc id="desc">A stateful agent benchmark for real-world commerce workflows, developed by Accio.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
@@ -34,7 +34,7 @@
     <rect x="14" y="11" width="10" height="10" rx="3" transform="rotate(45 14 11)" fill="url(#accent)"/>
     <text x="34" y="21" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="12.5" font-weight="760" letter-spacing="1">STATEFUL AGENT BENCHMARK</text>
 
-    <text x="0" y="100" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.7">RealReplicaBench</text>
+    <text x="0" y="100" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.7">Commerce Agent Bench</text>
     <text x="2" y="140" fill="#1F2937" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="560">Real workflows. Reproducible replicas. Verifiable outcomes.</text>
 
     <g transform="translate(0 172)" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="720">

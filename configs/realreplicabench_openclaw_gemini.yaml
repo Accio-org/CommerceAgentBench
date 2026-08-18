@@ -1,4 +1,4 @@
-# RealReplicaBench — OpenClaw harness, full datasets_domain_v1 (107 tasks).
+# Commerce Agent Bench — OpenClaw harness, full datasets_domain_v1 (107 tasks).
 # Direct Google Gemini path: OpenClaw speaks the public Google Gemini
 # generateContent API natively through configs/realreplicabench_native_google_direct_models.json.
 # You only need GEMINI_API_KEY; no OpenRouter config or sidecar.

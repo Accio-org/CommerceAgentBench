@@ -238,4 +238,4 @@ RUN if ! id mocksvc >/dev/null 2>&1; then \
        fi
 
 LABEL org.opencontainers.image.source="real-replica-bench" \
-      org.opencontainers.image.description="OpenClaw runtime with bundled RealReplicaBench domain_v1 mocks + daemon CLI mocks + media-root /benchmark allowlist + mocksvc isolation"
+      org.opencontainers.image.description="OpenClaw runtime with bundled Commerce Agent Bench domain_v1 mocks + daemon CLI mocks + media-root /benchmark allowlist + mocksvc isolation"

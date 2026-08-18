@@ -1,6 +1,6 @@
-# Contributing to RealReplicaBench
+# Contributing to Commerce Agent Bench
 
-Thank you for helping improve RealReplicaBench. Changes should preserve the
+Thank you for helping improve Commerce Agent Bench. Changes should preserve the
 benchmark's task integrity, reproducibility, and public/private boundary.
 
 ## Development setup
@@ -63,7 +63,7 @@ The public web pages are **not tracked in this repository**. They are
 maintained in local, gitignored site workspaces (`rrb-report/`, together with
 the legacy `docs/index.html` page it was built from) and deployed to:
 
-- <https://realreplicabench.site.accio.ai/> — RealReplicaBench live
+- <https://realreplicabench.site.accio.ai/> — Commerce Agent Bench live
   leaderboard, analysis, and benchmark anatomy
 - <https://realreplicabench-mock-showcase.site.accio.ai/> — UI mock showcase
 

@@ -1,4 +1,4 @@
-# RealReplicaBench — OpenClaw harness, PUBLIC Google Gemini API (native, sidecar-free).
+# Commerce Agent Bench — OpenClaw harness, PUBLIC Google Gemini API (native, sidecar-free).
 #
 # Bring-your-own-key: runs the agent against the standard public endpoint
 #   https://generativelanguage.googleapis.com/v1beta/models/<model>:generateContent

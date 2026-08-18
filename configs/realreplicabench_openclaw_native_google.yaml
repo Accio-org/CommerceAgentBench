@@ -1,4 +1,4 @@
-# RealReplicaBench — OpenClaw harness, native Google generateContent (sidecar-free).
+# Commerce Agent Bench — OpenClaw harness, native Google generateContent (sidecar-free).
 #
 # Use this when you want OpenClaw to speak Gemini's NATIVE generateContent API
 # directly — no OpenAI chat-completions conversion hop. By default this points

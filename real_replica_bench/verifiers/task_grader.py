@@ -21,7 +21,7 @@ This grader is invoked from each task's ``test.sh``. It:
 Scoring semantics versus the CCB main harness
 ---------------------------------------------
 
-RealReplicaBench's ``cli.py`` always rebuilds ``final_reward.json`` from
+Commerce Agent Bench's ``cli.py`` always rebuilds ``final_reward.json`` from
 ``reward.json`` via ``build_binary_final_reward`` (see ``cli.py``: every run
 re-runs this aggregation regardless of what the verifier wrote). That function:
 

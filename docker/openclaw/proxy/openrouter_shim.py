@@ -1,4 +1,4 @@
-"""OpenRouter shim sidecar for RealReplicaBench OpenClaw harness.
+"""OpenRouter shim sidecar for Commerce Agent Bench OpenClaw harness.
 
 Listens on 127.0.0.1:$OPENCLAW_OR_SHIM_PORT (default 19501). Forwards every
 incoming request to ``https://openrouter.ai/api/v1<path>`` preserving method,

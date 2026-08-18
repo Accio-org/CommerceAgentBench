@@ -1,4 +1,4 @@
-# RealReplicaBench — OpenClaw harness, PUBLIC Alibaba DashScope (native, sidecar-free).
+# Commerce Agent Bench — OpenClaw harness, PUBLIC Alibaba DashScope (native, sidecar-free).
 #
 # Bring-your-own-key: runs the agent against Alibaba Model Studio (DashScope)
 #   https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions

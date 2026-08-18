@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Repin the RealReplicaBench runtime image digest across the repository.
+"""Repin the Commerce Agent Bench runtime image digest across the repository.
 
 The runtime image is pinned by digest, not by tag, because the human-readable
 Docker Hub tag is mutable. That pin appears in ~150 places, so rebuilding the

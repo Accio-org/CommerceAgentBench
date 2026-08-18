@@ -1,1 +1,1 @@
-"""External mock-service sidecars used by RealReplicaBench tasks."""
+"""External mock-service sidecars used by Commerce Agent Bench tasks."""

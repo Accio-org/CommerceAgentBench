@@ -1,4 +1,4 @@
-# RealReplicaBench — OpenClaw harness, Qwen 3.7 Plus via OpenRouter.
+# Commerce Agent Bench — OpenClaw harness, Qwen 3.7 Plus via OpenRouter.
 #
 # Simplest route to Qwen 3.7 Plus: no models_config JSON, no DashScope key.
 # Provide OPENROUTER_API_KEY and let the release fork's OpenRouter shim handle

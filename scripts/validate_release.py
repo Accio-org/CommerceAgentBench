@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the public RealReplicaBench release without starting Docker."""
+"""Validate the public Commerce Agent Bench release without starting Docker."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-# RealReplicaBench — OpenClaw harness, OpenAI-compatible /v1/chat/completions
+# Commerce Agent Bench — OpenClaw harness, OpenAI-compatible /v1/chat/completions
 # (vendor-neutral BYO-endpoint template).
 #
 # What this preset is: a starter for pointing OpenClaw at ANY endpoint that

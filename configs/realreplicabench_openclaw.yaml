@@ -1,4 +1,4 @@
-# RealReplicaBench — OpenClaw harness, full datasets_domain_v1 (107 tasks).
+# Commerce Agent Bench — OpenClaw harness, full datasets_domain_v1 (107 tasks).
 # Public path: agent models served via OpenRouter; LLM judge via a standard
 # provider (Gemini/OpenAI). Provide keys via env or CLI; do not commit keys.
 #

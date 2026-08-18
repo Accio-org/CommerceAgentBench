@@ -1,5 +1,5 @@
 <svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">How RealReplicaBench evaluates an agent</title>
+  <title id="title">How Commerce Agent Bench evaluates an agent</title>
   <desc id="desc">A business request is executed by an agent across browser, CLI, API, and file surfaces against stateful replicas, then verified from final state and artifacts.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">

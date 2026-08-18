@@ -1,1 +1,1 @@
-"""Harness backends for RealReplicaBench."""
+"""Harness backends for Commerce Agent Bench."""

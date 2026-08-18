@@ -1,6 +1,6 @@
 # Notion CLI Mock
 
-Local Notion-style CLI mock used by RealReplicaBench tasks.
+Local Notion-style CLI mock used by Commerce Agent Bench tasks.
 
 ## Seed Profiles
 

@@ -1,6 +1,6 @@
 # Third-Party Materials Inventory
 
-RealReplicaBench's own contributions are licensed under Apache-2.0
+Commerce Agent Bench's own contributions are licensed under Apache-2.0
 ([`LICENSE`](LICENSE)) for code and CC BY 4.0 ([`LICENSE-DATA`](LICENSE-DATA))
 for the task suite. Both are permissive and irrevocable, so publishing this
 repository grants the world the right to redistribute what it contains —
@@ -22,7 +22,7 @@ we will act on it.
 
 ## OpenClaw runtime
 
-RealReplicaBench uses a project-published May 2026 runtime image. The suite is
+Commerce Agent Bench uses a project-published May 2026 runtime image. The suite is
 pinned at:
 
 ```text
@@ -31,7 +31,7 @@ acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa2440
 
 The image contains the MIT-licensed
 [OpenClaw](https://github.com/openclaw/openclaw) npm package at version
-`2026.5.22`, together with the browser environment and RealReplicaBench mock
+`2026.5.22`, together with the browser environment and Commerce Agent Bench mock
 services.
 
 See [`docs/openclaw-runtime-image.md`](docs/openclaw-runtime-image.md) for the
@@ -57,8 +57,8 @@ content-hashed filenames so the replica's stylesheets resolve unmodified.
 | `_pages/` | 70 | admin page structures |
 
 The remaining files (product SVGs, seed JSON, page templates) are
-RealReplicaBench fixtures. v3 additionally carries `seeds/themes/` — Liquid
-theme sources that are RealReplicaBench fixtures, not mirrored assets.
+Commerce Agent Bench fixtures. v3 additionally carries `seeds/themes/` — Liquid
+theme sources that are Commerce Agent Bench fixtures, not mirrored assets.
 
 These materials carry Shopify trademarks, product names, interface structure,
 and styling. Shopify Inc. retains every right it holds in them. The fonts are

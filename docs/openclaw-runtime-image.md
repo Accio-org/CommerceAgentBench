@@ -1,6 +1,6 @@
 # OpenClaw 2026.5.22 runtime image
 
-RealReplicaBench v1.3.1 runs on a project-published May 2026 OpenClaw runtime.
+Commerce Agent Bench v1.3.1 runs on a project-published May 2026 OpenClaw runtime.
 
 ## Release identity
 
@@ -13,7 +13,7 @@ RealReplicaBench v1.3.1 runs on a project-published May 2026 OpenClaw runtime.
 | OpenClaw commit reported by CLI | `a374c3a` |
 | Root filesystem layers | 23 |
 | OCI source label | `commerce-craft-bench` |
-| Bundled benchmark surface | RealReplicaBench domain mocks, browser stack, media-root patch, and `mocksvc` isolation |
+| Bundled benchmark surface | Commerce Agent Bench domain mocks, browser stack, media-root patch, and `mocksvc` isolation |
 
 The public digest was pulled afresh and compared with the managed evaluation
 image used by the supplied OpenClaw results. The complete root-filesystem layer
@@ -90,7 +90,7 @@ scripts/import_openclaw_image.sh
 This repository contains:
 
 - the OpenClaw harness and provider configuration;
-- the full RealReplicaBench mock-service source;
+- the full Commerce Agent Bench mock-service source;
 - the all-mocks overlay recipe and build-context helper;
 - optional provider sidecars; and
 - the exact immutable runtime artifact reference.

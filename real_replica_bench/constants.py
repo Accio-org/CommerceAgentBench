@@ -1,4 +1,4 @@
-"""Shared module-level constants for RealReplicaBench (release fork).
+"""Shared module-level constants for Commerce Agent Bench (release fork).
 
 Extracted from cli.py (2026-06-18 upstream refactor) so sibling modules
 (prompts, mock_runtime, harnesses) can import container-path roots without

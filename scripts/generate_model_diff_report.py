@@ -261,7 +261,7 @@ def build_report(baseline_dir: Path, candidate_dir: Path, output: Path, baseline
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RealReplicaBench Model Diff</title>
+<title>Commerce Agent Bench Model Diff</title>
 <style>
 :root {{
   --bg: #f7f8fb;
@@ -386,7 +386,7 @@ code {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 </head>
 <body>
 <header>
-  <h1>RealReplicaBench 模型对比</h1>
+  <h1>Commerce Agent Bench 模型对比</h1>
   <div class="subtitle">Baseline：{escape(baseline_label)}；Candidate：{escape(candidate_label)}。生成时间：{escape(generated)}。最终 reward 按 binary 全检查通过计算，exception 不剔除。</div>
 </header>
 <main class="wrap">
@@ -505,7 +505,7 @@ search.addEventListener('input', applyFilters);
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Generate a standalone model diff HTML report from two RealReplicaBench runs.")
+    parser = argparse.ArgumentParser(description="Generate a standalone model diff HTML report from two Commerce Agent Bench runs.")
     parser.add_argument("--baseline", required=True, type=Path)
     parser.add_argument("--candidate", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)

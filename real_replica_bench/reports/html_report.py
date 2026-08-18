@@ -22,13 +22,13 @@ LEGACY_SOURCE_NAME = "".join(chr(code) for code in (87, 105, 108, 100, 67, 108, 
 LEGACY_SOURCE_BENCH = LEGACY_SOURCE_NAME + "Bench"
 LEGACY_SOURCE_TOKEN = LEGACY_SOURCE_NAME.lower()
 LEGACY_PUBLIC_TEXT_REPLACEMENTS = (
-    (LEGACY_SOURCE_BENCH + "'s", "RealReplicaBench"),
-    (LEGACY_SOURCE_BENCH, "RealReplicaBench"),
+    (LEGACY_SOURCE_BENCH + "'s", "Commerce Agent Bench"),
+    (LEGACY_SOURCE_BENCH, "Commerce Agent Bench"),
     (LEGACY_SOURCE_NAME, "B2B"),
     (LEGACY_SOURCE_TOKEN, "b2b"),
-    # Prior brand of this same fork: OperateBench (2026-07-01) → RealReplicaBench.
+    # Prior brand of this same fork: OperateBench (2026-07-01) → Commerce Agent Bench.
     # Keeps HTML reports rendered from pre-rename summary.json on-brand.
-    ("OperateBench", "RealReplicaBench"),
+    ("OperateBench", "Commerce Agent Bench"),
 )
 
 
@@ -1195,7 +1195,7 @@ def generate_instance_report(instance_dir: Path) -> Path:
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RealReplicaBench Report: {_e(summary.get('run_id', instance_dir.name))}</title>
+<title>Commerce Agent Bench Report: {_e(summary.get('run_id', instance_dir.name))}</title>
 <style>{CSS}</style>
 </head>
 <body>
@@ -1204,7 +1204,7 @@ def generate_instance_report(instance_dir: Path) -> Path:
     <div class="status-bar {status_bar}"></div>
     <div class="hero-top">
       <div>
-        <div class="hero-eyebrow">RealReplicaBench report</div>
+        <div class="hero-eyebrow">Commerce Agent Bench report</div>
         <h1 class="hero-title">{_e(summary.get('run_id', instance_dir.name))}</h1>
       </div>
       <div class="hero-status"><span class="badge badge-{overall_status if overall_status != 'unknown' else 'exception'}">{overall_status}</span></div>

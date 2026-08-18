@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "If you use RealReplicaBench, please cite this software release together with the exact Git commit used for evaluation."
+message: "If you use Commerce Agent Bench, please cite this software release together with the exact Git commit used for evaluation."
 type: software
-title: "RealReplicaBench"
+title: "Commerce Agent Bench"
 abstract: "A stateful agent benchmark for long-horizon commerce and business workflows: 107 tasks with reproducible mock services, deterministic verifiers, and an OpenClaw runner."
 authors:
   - family-names: "Lian"

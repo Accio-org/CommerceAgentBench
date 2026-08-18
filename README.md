@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/realreplicabench-banner.svg" width="100%" alt="RealReplicaBench — a stateful agent benchmark for real-world commerce workflows">
+  <img src="docs/assets/realreplicabench-banner.svg" width="100%" alt="Commerce Agent Bench — a stateful agent benchmark for real-world commerce workflows">
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
   <a href="#task-and-run-layout"><img alt="107 tasks" src="https://img.shields.io/badge/tasks-107-10b981"></a>
   <a href="#quick-start"><img alt="Python 3.11 or newer" src="https://img.shields.io/badge/python-%E2%89%A53.11-00b2ff"></a>
   <a href="#quick-start"><img alt="OpenClaw harness" src="https://img.shields.io/badge/harness-OpenClaw-059669"></a>
-  <a href="#reference-results"><img alt="OpenClaw and Accio reference results" src="https://img.shields.io/badge/results-OpenClaw%20%2B%20Accio-047857"></a>
+  <a href="#reference-results"><img alt="Pi, OpenClaw and Accio reference results" src="https://img.shields.io/badge/results-Pi%20%2B%20OpenClaw%20%2B%20Accio-047857"></a>
 </p>
 
 <p align="center">
@@ -31,11 +31,11 @@
 
 <p align="center">
   <a href="#get-your-model-evaluated-or-work-with-us">
-    <img alt="Get your model evaluated on RealReplicaBench" src="https://img.shields.io/badge/%E2%9C%89%20Get%20your%20model%20evaluated-047857?style=for-the-badge">
+    <img alt="Get your model evaluated on Commerce Agent Bench" src="https://img.shields.io/badge/%E2%9C%89%20Get%20your%20model%20evaluated-047857?style=for-the-badge">
   </a>
   &nbsp;
   <a href="#get-your-model-evaluated-or-work-with-us">
-    <img alt="Collaborate with the Accio team on RealReplicaBench" src="https://img.shields.io/badge/%F0%9F%A4%9D%20Collaborate-059669?style=for-the-badge">
+    <img alt="Collaborate with the Accio team on Commerce Agent Bench" src="https://img.shields.io/badge/%F0%9F%A4%9D%20Collaborate-059669?style=for-the-badge">
   </a>
 </p>
 
@@ -54,7 +54,7 @@
 
 ## Overview
 
-RealReplicaBench evaluates whether an agent can complete long-horizon business
+Commerce Agent Bench evaluates whether an agent can complete long-horizon business
 workflows, not just answer questions about them. Tasks cover browser operations,
 native-style CLI tools, API/MCP workflows, document and spreadsheet production,
 public-web research, supplier analysis, product publishing, logistics, and
@@ -70,7 +70,7 @@ own deterministic or LLM-assisted verifier.
   trajectory, verifier result, artifacts, logs, and container metadata.
 
 <p align="center">
-  <img src="docs/assets/benchmark-overview.svg" width="100%" alt="RealReplicaBench evaluation pipeline from business request to verified state change">
+  <img src="docs/assets/benchmark-overview.svg" width="100%" alt="Commerce Agent Bench evaluation pipeline from business request to verified state change">
 </p>
 
 ### Real task surfaces
@@ -93,7 +93,7 @@ so agents must operate interfaces and change state.
 
 <p align="center">
   <a href="https://realreplicabench-mock-showcase.site.accio.ai/">
-    <img alt="Explore the RealReplicaBench UI Mock Showcase" src="https://img.shields.io/badge/Explore-UI%20Mock%20Showcase-059669?style=for-the-badge">
+    <img alt="Explore the Commerce Agent Bench UI Mock Showcase" src="https://img.shields.io/badge/Explore-UI%20Mock%20Showcase-059669?style=for-the-badge">
   </a>
 </p>
 
@@ -106,8 +106,8 @@ so agents must operate interfaces and change state.
 ## Reference results
 
 Results are aligned by `task_id` over the complete 107-task collection. The
-tables below are per harness — twelve model families on each, and the same
-twelve in both, so every row compares directly across the two.
+tables below are per harness — thirteen model families on each, with the same
+thirteen in all three, so every row compares directly across the Pi, OpenClaw and Accio tables.
 The published scores were produced through Accio-managed evaluation endpoints
 with `gemini-3.1-pro-preview` as the judge; the public path in this repository
 uses bring-your-own credentials. Every model ran with thinking enabled at its
@@ -118,53 +118,73 @@ The [live leaderboard](https://realreplicabench.site.accio.ai/) is the
 source of record; the tables below are a snapshot.
 
 <p align="center">
-  <img src="docs/assets/reference-leaderboard.svg" width="100%" alt="RealReplicaBench Leaderboard comparing OpenClaw and Accio">
+  <img src="docs/assets/reference-leaderboard.svg" width="100%" alt="Commerce Agent Bench Leaderboard comparing Pi, OpenClaw and Accio">
 </p>
 
 ### Detailed evaluation statistics
 
-Pass and capacity use the same verifier semantics across harnesses. Steps,
-time, and tokens are descriptive telemetry: tool granularity, runtime
-scheduling, and provider usage accounting differ, so these values are not
-normalized efficiency scores.
+Pass uses the same verifier semantics across harnesses. Steps, time, and tokens
+are descriptive telemetry: tool granularity, runtime scheduling, and provider
+usage accounting differ, so these values are not normalized efficiency scores.
 
 🥇🥈🥉 mark the top three within each harness. The bar in the Pass column is
 drawn on a fixed 0–100% scale, not normalized to the leader, so bar lengths
-are directly comparable between the two tables.
+are directly comparable between the three tables.
+
+#### Pi
+
+| Model | Pass | Avg. steps | Avg. time | Avg. tokens |
+|---|:--|---:|---:|---:|
+| 🥇 Claude Opus 5 | `████████████░░░░░░░░` 65/107 (60.7%) | 52.5 | 7.8 min | 2.05M |
+| 🥈 Claude Opus 4.8 | `██████████░░░░░░░░░░` 56/107 (52.3%) | 49.1 | 8.7 min | 1.85M |
+| 🥉 Qwen 3.8 Max | `██████████░░░░░░░░░░` 53/107 (49.5%) | 52.6 | 13.9 min | 1.79M |
+| DeepSeek V4 Pro | `██████████░░░░░░░░░░` 53/107 (49.5%) | 79.7 | 10.6 min | 3.58M |
+| GPT-5.6 Sol | `██████████░░░░░░░░░░` 52/107 (48.6%) | 45.4 | 5.4 min | 1.15M |
+| Claude Opus 4.7 | `██████████░░░░░░░░░░` 52/107 (48.6%) | 50.5 | 6.9 min | 2.14M |
+| GLM 5.2 | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 58.2 | 15.9 min | 2.16M |
+| GPT-5.5 | `█████████░░░░░░░░░░░` 47/107 (43.9%) | 47.1 | 7.0 min | 1.47M |
+| Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 47/107 (43.9%) | 48.9 | 8.9 min | 2.16M |
+| DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 79.1 | 6.3 min | 3.39M |
+| Gemini 3.5 Flash | `████████░░░░░░░░░░░░` 44/107 (41.1%) | 69.5 | 13.5 min | 3.13M |
+| GPT-5.6 Luna | `████████░░░░░░░░░░░░` 42/107 (39.3%) | 40.4 | 4.7 min | 0.80M |
+| Gemini 3 Flash | `██████░░░░░░░░░░░░░░` 31/107 (29.0%) | 56.8 | 8.3 min | 2.43M |
 
 #### OpenClaw
 
-| Model | Pass | Avg. capacity | Avg. steps | Avg. time | Avg. tokens |
-|---|:--|---:|---:|---:|---:|
-| 🥇 Claude Opus 5 | `███████████░░░░░░░░░` 60/107 (56.1%) | 0.905 | 47.7 | 12.7 min | 3.47M |
-| 🥈 Claude Opus 4.8 | `██████████░░░░░░░░░░` 55/107 (51.4%) | 0.860 | 47.6 | 16.4 min | 4.05M |
-| 🥉 GPT-5.6 Sol | `██████████░░░░░░░░░░` 53/107 (49.5%) | 0.855 | 28.6 | 14.4 min | 2.09M |
-| GPT-5.5 | `██████████░░░░░░░░░░` 51/107 (47.7%) | 0.835 | 37.1 | 12.7 min | 2.85M |
-| Claude Opus 4.7 | `█████████░░░░░░░░░░░` 49/107 (45.8%) | 0.871 | 47.4 | 14.3 min | 4.10M |
-| Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.867 | 46.3 | 13.5 min | 3.28M |
-| Qwen 3.8 Max | `█████████░░░░░░░░░░░` 47/107 (43.9%) | 0.804 | 47.0 | 15.0 min | 2.22M |
-| DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 0.827 | 137.8 | 19.2 min | 11.04M |
-| GLM 5.2 | `████████░░░░░░░░░░░░` 42/107 (39.3%) | 0.814 | 56.9 | 14.8 min | 3.12M |
-| Gemini 3.5 Flash | `███████░░░░░░░░░░░░░` 39/107 (36.4%) | 0.798 | 63.9 | 17.9 min | 5.54M |
-| GPT-5.6 Luna | `███████░░░░░░░░░░░░░` 36/107 (33.6%) | 0.797 | 27.5 | 12.2 min | 1.81M |
-| Gemini 3 Flash | `██████░░░░░░░░░░░░░░` 31/107 (29.0%) | 0.744 | 45.1 | 16.1 min | 3.09M |
+| Model | Pass | Avg. steps | Avg. time | Avg. tokens |
+|---|:--|---:|---:|---:|
+| 🥇 Claude Opus 5 | `███████████░░░░░░░░░` 60/107 (56.1%) | 47.7 | 12.7 min | 3.47M |
+| 🥈 Claude Opus 4.8 | `██████████░░░░░░░░░░` 55/107 (51.4%) | 47.6 | 16.4 min | 4.05M |
+| 🥉 GPT-5.6 Sol | `██████████░░░░░░░░░░` 53/107 (49.5%) | 28.6 | 14.4 min | 2.09M |
+| GPT-5.5 | `██████████░░░░░░░░░░` 51/107 (47.7%) | 37.1 | 12.7 min | 2.85M |
+| Claude Opus 4.7 | `█████████░░░░░░░░░░░` 49/107 (45.8%) | 47.4 | 14.3 min | 4.10M |
+| Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 46.3 | 13.5 min | 3.28M |
+| Qwen 3.8 Max | `█████████░░░░░░░░░░░` 47/107 (43.9%) | 47.0 | 15.0 min | 2.18M |
+| DeepSeek V4 Pro | `█████████░░░░░░░░░░░` 47/107 (43.9%) | 71.9 | 22.3 min | 3.22M |
+| DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 137.8 | 19.2 min | 11.04M |
+| GLM 5.2 | `████████░░░░░░░░░░░░` 42/107 (39.3%) | 56.9 | 14.8 min | 3.12M |
+| Gemini 3.5 Flash | `███████░░░░░░░░░░░░░` 39/107 (36.4%) | 63.9 | 17.9 min | 5.54M |
+| GPT-5.6 Luna | `███████░░░░░░░░░░░░░` 36/107 (33.6%) | 27.5 | 12.2 min | 1.81M |
+| Gemini 3 Flash | `██████░░░░░░░░░░░░░░` 31/107 (29.0%) | 45.1 | 16.1 min | 3.09M |
 
 #### Accio
 
-| Model | Pass | Avg. capacity | Avg. steps | Avg. time | Avg. tokens |
-|---|:--|---:|---:|---:|---:|
-| 🥇 Claude Opus 5 | `████████████░░░░░░░░` 66/107 (61.7%) | 0.861 | 63.2 | 10.1 min | 3.69M |
-| 🥈 Claude Opus 4.8 | `███████████░░░░░░░░░` 59/107 (55.1%) | 0.886 | 67.4 | 11.6 min | 4.82M |
-| 🥉 Claude Opus 4.7 | `██████████░░░░░░░░░░` 56/107 (52.3%) | 0.878 | 61.5 | 6.4 min | 4.32M |
-| Qwen 3.8 Max | `██████████░░░░░░░░░░` 56/107 (52.3%) | 0.870 | 71.2 | 15.7 min | 3.39M |
-| GPT-5.6 Sol | `██████████░░░░░░░░░░` 55/107 (51.4%) | 0.873 | 53.0 | 5.5 min | 1.85M |
-| Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.815 | 47.7 | 4.6 min | 2.62M |
-| GLM 5.2 | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.787 | 81.0 | 10.8 min | 3.62M |
-| DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 0.838 | 84.0 | 10.0 min | 5.35M |
-| GPT-5.5 | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.864 | 45.3 | 4.5 min | 1.44M |
-| GPT-5.6 Luna | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 0.809 | 66.0 | 5.7 min | 2.49M |
-| Gemini 3.5 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 0.821 | 91.2 | 9.0 min | 4.80M |
-| Gemini 3 Flash | `██████░░░░░░░░░░░░░░` 31/107 (29.0%) | 0.769 | 46.0 | 4.5 min | 2.48M |
+
+| Model | Pass | Avg. steps | Avg. time | Avg. tokens |
+|---|:--|---:|---:|---:|
+| 🥇 Claude Opus 5 | `████████████░░░░░░░░` 66/107 (61.7%) | 63.2 | 10.1 min | 3.69M |
+| 🥈 Claude Opus 4.8 | `███████████░░░░░░░░░` 59/107 (55.1%) | 67.4 | 11.6 min | 4.82M |
+| 🥉 Claude Opus 4.7 | `██████████░░░░░░░░░░` 56/107 (52.3%) | 61.5 | 6.4 min | 4.32M |
+| Qwen 3.8 Max | `██████████░░░░░░░░░░` 56/107 (52.3%) | 71.2 | 15.7 min | 3.39M |
+| GPT-5.6 Sol | `██████████░░░░░░░░░░` 55/107 (51.4%) | 53.0 | 5.5 min | 1.85M |
+| DeepSeek V4 Pro | `██████████░░░░░░░░░░` 54/107 (50.5%) | 70.2 | 14.4 min | 4.50M |
+| Gemini 3.6 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 47.7 | 4.6 min | 2.62M |
+| GLM 5.2 | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 81.0 | 10.8 min | 3.62M |
+| DeepSeek V4 Flash | `█████████░░░░░░░░░░░` 50/107 (46.7%) | 84.0 | 10.0 min | 5.35M |
+| GPT-5.5 | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 45.3 | 4.5 min | 1.44M |
+| GPT-5.6 Luna | `█████████░░░░░░░░░░░` 48/107 (44.9%) | 66.0 | 5.7 min | 2.49M |
+| Gemini 3.5 Flash | `█████████░░░░░░░░░░░` 46/107 (43.0%) | 91.2 | 9.0 min | 4.80M |
+| Gemini 3 Flash | `██████░░░░░░░░░░░░░░` 31/107 (29.0%) | 46.0 | 4.5 min | 2.48M |
 
 > [!IMPORTANT]
 > **Qwen runs need thinking preserved across turns** — `reasoning_content` has
@@ -197,7 +217,6 @@ package.
 | Metric | Definition |
 |---|---|
 | Pass | A task passes only when every required verifier check passes; the rate is passes over the 107 aligned tasks. |
-| Avg. capacity | Macro mean of each task's `checks_passed / checks_total`; this preserves partial task completion but is not a weighted official score. |
 | Avg. steps | Mean trajectory tool-call count over the displayed task attempts. |
 | Avg. time | Mean task wall-clock duration, using summary duration or audited manifest timestamps when the summary duration is zero. |
 | Avg. tokens | Mean total model tokens per task after normalizing provider-specific usage fields; cached tokens are included when reported. |
@@ -396,7 +415,7 @@ provenance is inventoried in
 ## Citation
 
 Citation metadata is available in [`CITATION.cff`](CITATION.cff). Cite
-**RealReplicaBench (Accio)** together with release `v1.3.1` and the exact Git
+**Commerce Agent Bench (Accio)** together with release `v1.3.1` and the exact Git
 commit used for evaluation. Until the accompanying paper is published, cite
 the repository directly:
 
@@ -405,7 +424,7 @@ the repository directly:
     author={Yukun Lian and Lei Wei and Sicong Xie and Guannan Zhang and Kesu
             Wang and Hongyu Li and Chenhao Jiang and Lanbo Lin and Tianyuan
             Yang and Xiaoyu Guo and Li Cai and Jialong Zhu},
-    title={RealReplicaBench: A Stateful Agent Benchmark for Long-Horizon Commerce and Business Workflows},
+    title={Commerce Agent Bench: A Stateful Agent Benchmark for Long-Horizon Commerce and Business Workflows},
     note={GitHub repository, v1.3.1},
     howpublished={\url{https://github.com/Accio-org/RealReplicaBench}},
     year={2026}
@@ -414,7 +433,7 @@ the repository directly:
 
 ## License
 
-RealReplicaBench is **open source**. It ships under two licenses, split the
+Commerce Agent Bench is **open source**. It ships under two licenses, split the
 same way as the repository itself:
 
 | Scope | License | File |
@@ -425,7 +444,7 @@ same way as the repository itself:
 Commercial use is allowed. Keep the license and attribution notices, state
 significant changes, and credit the benchmark as described under
 [Citation](#citation). Neither license grants trademark rights — "Accio" and
-"RealReplicaBench" identify this benchmark, not a fork of it.
+"Commerce Agent Bench" identify this benchmark, not a fork of it.
 
 > [!IMPORTANT]
 > These terms cover **Accio's own contributions only**. The repository also

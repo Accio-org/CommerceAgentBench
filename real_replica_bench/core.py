@@ -1,4 +1,4 @@
-"""Shared low-level infrastructure for RealReplicaBench harnesses.
+"""Shared low-level infrastructure for Commerce Agent Bench harnesses.
 
 Extracted verbatim from cli.py (2026-06-18 refactor). Subprocess/docker
 wrappers, container I/O, process management, env expansion, proxy-usage

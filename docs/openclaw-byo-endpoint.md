@@ -10,7 +10,7 @@ you control, speaking one of the four common LLM wire formats:
 
 The pinned OpenClaw runtime image
 (`acciolyk/accio_bench@sha256:c358…`) already contains native clients for
-all four formats. RealReplicaBench sends **one JSON object** into the
+all four formats. Commerce Agent Bench sends **one JSON object** into the
 container that declares your provider, and OpenClaw takes it from there —
 no proxy, no sidecar, no request-conversion hop.
 

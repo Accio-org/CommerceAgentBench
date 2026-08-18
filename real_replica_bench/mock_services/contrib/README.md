@@ -8,7 +8,7 @@ of the benchmark, not a holding pen beside it.
 Services staged here are **intended for promotion**. The plan is to migrate them
 into the shipped set progressively, building out real workflow cases against
 each one as it goes, and to publish the result as the test set of a subsequent
-RealReplicaBench release.
+Commerce Agent Bench release.
 
 That is what the staging step is *for*. A replica service on its own is
 infrastructure; what makes it a benchmark is the set of real workflows an agent

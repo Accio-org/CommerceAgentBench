@@ -2,7 +2,7 @@ ARG BASE_IMAGE=commercecraftbench/openclaw:base-v1.3
 FROM ${BASE_IMAGE}
 
 # Legacy migration recipe retained for historical development only. It is not
-# the lineage or build path of the pinned RealReplicaBench v1.3.1 runtime.
+# the lineage or build path of the pinned Commerce Agent Bench v1.3.1 runtime.
 # Clear any proxy inherited from a caller-supplied legacy base.
 ENV http_proxy="" \
     https_proxy="" \
