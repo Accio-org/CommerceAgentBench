@@ -378,19 +378,18 @@ def validate_readme_branding(check: Validation) -> None:
                 "DeepSeek V4 Flash",
             )
         ),
-        "README does not show all twelve aligned model families",
+        "README does not show all thirteen aligned model families",
     )
     check.require(
         "### Detailed evaluation statistics" in readme
-        and "Avg. capacity" in readme
         and "Avg. steps" in readme
         and "Avg. time" in readme
         and "Avg. tokens" in readme,
         "README is missing the detailed run-statistics tables",
     )
     check.require(
-        "0.860 | 47.6 | 16.4 min | 4.05M" in readme
-        and "0.873 | 53.0 | 5.5 min | 1.85M" in readme,
+        "55/107 (51.4%) | 47.6 | 16.4 min | 4.05M" in readme
+        and "55/107 (51.4%) | 53.0 | 5.5 min | 1.85M" in readme,
         "README detailed statistics do not match the published leaderboard values",
     )
     check.require(

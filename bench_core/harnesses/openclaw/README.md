@@ -12,7 +12,7 @@ in the full `datasets_domain_v1` mock-service suite. See
 `docs/openclaw-runtime-image.md` for image provenance, customization, and
 local rebuild instructions.
 
-The harness keeps RealReplicaBench's task, output, verifier, and report
+The harness keeps Commerce Agent Bench's task, output, verifier, and report
 contracts while using OpenClaw's in-container browser, shell, file, and
 media tools. Three model routes are supported, selected by the
 `--openclaw-model` prefix:
