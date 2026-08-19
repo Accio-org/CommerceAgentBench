@@ -61,13 +61,9 @@ public-web research, supplier analysis, product publishing, logistics, and
 commerce operations. Every task runs in a fresh container and is graded by its
 own deterministic or LLM-assisted verifier.
 
-> **Note on naming.** This project was formerly known as **RealReplicaBench**.
-> It was renamed to **Commerce Agent Bench** in August 2026, and the site now
-> lives at `commerce-agent-bench.site.accio.ai`. Compatibility- and
-> citation-sensitive historical identifiers intentionally retained include the
-> `real-replica-bench` package and CLI, the
-> `github.com/Accio-org/RealReplicaBench` repository URL, and the BibTeX
-> citation key.
+> **Note on naming.** This project was previously known as
+> **RealReplicaBench**. It was renamed **Commerce Agent Bench** to better reflect
+> its intended scope and support future expansion.
 
 - **107 tasks:** 53 CLI, 28 browser, 16 file, and 10 API/MCP tasks.
 - **Three capability slices:** 65 text-only, 20 browser-text-capable, and 22
