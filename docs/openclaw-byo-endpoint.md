@@ -56,7 +56,7 @@ env var, run.
 ### OpenAI `/v1/chat/completions` (vendor-neutral)
 
 ```bash
-OPENAI_API_KEY=sk-... real-replica-bench run <task> \
+OPENAI_API_KEY=sk-... commerce-agent-bench run <task> \
   --config configs/openclaw_openai_chat.yaml
 ```
 
@@ -86,7 +86,7 @@ native paths).
 ### OpenAI `/v1/responses`
 
 ```bash
-OPENAI_API_KEY=sk-... real-replica-bench run <task> \
+OPENAI_API_KEY=sk-... commerce-agent-bench run <task> \
   --config configs/openclaw_openai_responses.yaml
 ```
 
@@ -98,7 +98,7 @@ reasoning fields.
 ### Anthropic `/v1/messages`
 
 ```bash
-ANTHROPIC_API_KEY=sk-ant-... real-replica-bench run <task> \
+ANTHROPIC_API_KEY=sk-ant-... commerce-agent-bench run <task> \
   --config configs/openclaw_anthropic_messages.yaml
 ```
 
@@ -130,7 +130,7 @@ gateway requires one.
 ```bash
 export CUSTOM_GEMINI_BASE_URL="http://host.docker.internal:8080/v1beta"
 export CUSTOM_GEMINI_API_KEY="..."
-real-replica-bench run <task> \
+commerce-agent-bench run <task> \
   --config configs/openclaw_custom_gemini.yaml
 ```
 
@@ -147,7 +147,7 @@ by passing five flags. This is exactly equivalent to writing a preset
 file with one provider entry and one model.
 
 ```bash
-OPENCLAW_PROVIDER_API_KEY=sk-ant-... real-replica-bench run <task> \
+OPENCLAW_PROVIDER_API_KEY=sk-ant-... commerce-agent-bench run <task> \
   --openclaw-api anthropic-messages \
   --openclaw-provider-base-url https://api.anthropic.com/v1 \
   --openclaw-provider-header "anthropic-version:2023-06-01" \

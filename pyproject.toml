@@ -1,5 +1,5 @@
 [project]
-name = "real-replica-bench"
+name = "commerce-agent-bench"
 version = "1.3.1"
 description = "Benchmark harness and task suite for ecommerce and sourcing agent workflows (OpenClaw, 107 domain tasks)"
 readme = "README.md"
@@ -38,8 +38,8 @@ Repository = "https://github.com/Accio-org/RealReplicaBench"
 Accio = "https://www.accio.com"
 
 [project.scripts]
-real-replica-bench = "bench_core.cli:main"
-real-replica-bench-llm-judge = "bench_core.llm_judge_cli:main"
+commerce-agent-bench = "bench_core.cli:main"
+commerce-agent-bench-llm-judge = "bench_core.llm_judge_cli:main"
 
 [tool.setuptools.packages.find]
 include = ["bench_core*"]

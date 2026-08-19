@@ -310,7 +310,7 @@ def validate_readme_branding(check: Validation) -> None:
     readme = readme_path.read_text(encoding="utf-8")
     required_assets = [
         "docs/assets/accio-logo.svg",
-        "docs/assets/realreplicabench-banner.svg",
+        "docs/assets/commerce-agent-bench-banner.svg",
         "docs/assets/benchmark-overview.svg",
         "docs/assets/reference-leaderboard.svg",
         "docs/assets/screenshots/alibaba-publish-form.jpg",
@@ -325,7 +325,7 @@ def validate_readme_branding(check: Validation) -> None:
             ET.parse(path)
 
     palette_assets = [
-        "docs/assets/realreplicabench-banner.svg",
+        "docs/assets/commerce-agent-bench-banner.svg",
         "docs/assets/benchmark-overview.svg",
         "docs/assets/reference-leaderboard.svg",
     ]
@@ -461,7 +461,7 @@ def validate_public_hygiene(check: Validation) -> None:
             "LICENSE must contain the Apache License 2.0",
         )
         check.require(
-            "RealReplicaBench Non-Commercial License" not in license_text,
+            "Non-Commercial License" not in license_text,
             "LICENSE still carries the superseded non-commercial terms",
         )
     license_data = ROOT / "LICENSE-DATA"

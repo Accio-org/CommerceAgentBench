@@ -42,7 +42,7 @@ FILES = ROOT / "workspace"
 POLICIES_DIR = FILES / "policies"
 
 
-WATERMARK_TEXT = "FOR REALREPLICABENCH BENCHMARK USE ONLY — NOT A REAL POLICY / NOT AN OFFICIAL PUBLICATION"
+WATERMARK_TEXT = "FOR COMMERCE AGENT BENCH USE ONLY - NOT A REAL POLICY / NOT AN OFFICIAL PUBLICATION"
 
 
 def _watermark(canvas: Canvas, doc) -> None:
@@ -68,7 +68,7 @@ def _build_doc(path: Path, title: str) -> BaseDocTemplate:
         leftMargin=20 * mm, rightMargin=20 * mm,
         topMargin=22 * mm, bottomMargin=18 * mm,
         title=title,
-        author="RealReplicaBench Insurance Desk (synthetic)",
+        author="Commerce Agent Bench Insurance Desk (synthetic)",
     )
     frame = Frame(doc.leftMargin, doc.bottomMargin, doc.width, doc.height)
     doc.addPageTemplates([PageTemplate(id="wm", frames=frame, onPage=_watermark)])
@@ -85,7 +85,16 @@ def _styles() -> dict[str, ParagraphStyle]:
         "body": ParagraphStyle("body", parent=base["BodyText"], fontSize=9.5, leading=13, spaceAfter=5),
         "callout": ParagraphStyle("callout", parent=base["BodyText"], fontSize=9.5, leading=13, spaceAfter=5, leftIndent=8, borderLeftColor=colors.darkred, borderLeftWidth=2, borderPadding=4),
         "small": ParagraphStyle("small", parent=base["BodyText"], fontSize=8, leading=10, textColor=colors.darkgrey),
+        "table_head": ParagraphStyle("table_head", parent=base["BodyText"], fontName="Helvetica-Bold", fontSize=7.5, leading=9),
+        "table_cell": ParagraphStyle("table_cell", parent=base["BodyText"], fontSize=7.5, leading=9),
     }
+
+
+def _wrap_table(rows: list[list[str]], st: dict[str, ParagraphStyle]) -> list[list[Paragraph]]:
+    return [
+        [Paragraph(str(cell), st["table_head" if row_index == 0 else "table_cell"]) for cell in row]
+        for row_index, row in enumerate(rows)
+    ]
 
 
 def _header_table(insurer: str, addr: str, contact: str, st: dict) -> Table:
@@ -279,7 +288,7 @@ POLICY_MAHMOUD = {
 POLICY_OCEANTECH = {
     "filename": "oceantech_baoviet_policy.pdf",
     "title": "Cargo Insurance Policy — OceanTech Marine JSC",
-    "insurer": "Bảo Việt Insurance Corporation (BaoViet)",
+    "insurer": "Bao Viet Insurance Corporation (BaoViet)",
     "insurer_addr": "Vietnam — Marine Division, Ho Chi Minh City",
     "insurer_contact": "marine.claims.vn@baoviet.com.vn  •  +84 28 3823 0011",
     "info_rows": [
@@ -381,7 +390,7 @@ def build_icc_clauses_pdf() -> None:
     story: list = []
     story.append(Paragraph("Institute Cargo Clauses — Reference Card", st["title"]))
     story.append(Paragraph(
-        "Synthetic internal-edition reference card prepared for the RealReplicaBench dataset. Substance summarises "
+        "Synthetic internal-edition reference card prepared for the Commerce Agent Bench dataset. Substance summarises "
         "the London-market Institute Cargo Clauses (1/1/2009 revision). Not an official Lloyd's market or LMA "
         "publication; consult the official Joint Cargo Committee text for binding wording.",
         st["small"],
@@ -395,7 +404,7 @@ def build_icc_clauses_pdf() -> None:
         ["ICC(B)", "Named perils — wide", "Covers loss or damage attributable to a defined list of perils (see §2). Mid-tier coverage."],
         ["ICC(C)", "Named perils — narrow", "Covers loss or damage attributable to a shorter list of major maritime catastrophes (see §3). Narrowest coverage."],
     ]
-    t = Table(qr_data, colWidths=[18 * mm, 36 * mm, 116 * mm], repeatRows=1)
+    t = Table(_wrap_table(qr_data, st), colWidths=[18 * mm, 36 * mm, 116 * mm], repeatRows=1)
     t.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
         ("FONT", (0, 0), (-1, 0), "Helvetica-Bold", 9),

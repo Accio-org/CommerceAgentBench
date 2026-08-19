@@ -23,7 +23,7 @@
 #        export CUSTOM_GEMINI_API_KEY="..."
 #      (Rename to whatever names you put into the JSON's ${...} placeholders.)
 #   3. Run:
-#        real-replica-bench run <task> \
+#        commerce-agent-bench run <task> \
 #          --config configs/openclaw_custom_gemini.yaml
 #
 # HOW IT WORKS — the models_config JSON is the single source of truth:

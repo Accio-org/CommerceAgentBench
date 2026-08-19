@@ -28,7 +28,7 @@ media tools. Three model routes are supported, selected by the
 For the native Gemini path, the simplest batch setup is:
 
 ```bash
-GEMINI_API_KEY=... real-replica-bench run \
+GEMINI_API_KEY=... commerce-agent-bench run \
   --config configs/openclaw_native_google_direct.yaml \
   --limit 1
 ```

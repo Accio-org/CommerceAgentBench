@@ -36,6 +36,6 @@ jobs:
 
       - name: Exercise CLI discovery
         run: |
-          real-replica-bench --version
-          real-replica-bench --help
-          test "$(real-replica-bench list | wc -l | tr -d ' ')" = "107"
+          commerce-agent-bench --version
+          commerce-agent-bench --help
+          test "$(commerce-agent-bench list | wc -l | tr -d ' ')" = "107"

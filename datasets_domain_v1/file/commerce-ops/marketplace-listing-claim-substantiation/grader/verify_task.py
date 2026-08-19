@@ -464,7 +464,7 @@ def run_llm_checks(
     questions_block = "\n".join(f"  - id: {c['id']}\n    question: {c['description']}" for c in llm_checks)
 
     prompt = (
-        "You are a strict RealReplicaBench verifier. Return the standard JUDGE_SCHEMA "
+        "You are a strict Commerce Agent Bench verifier. Return the standard JUDGE_SCHEMA "
         "with `criteria: [{id, score, reason}]`. For every criterion below, answer as a "
         "strict YES/NO check: score must be exactly 1.0 when fully satisfied and 0.0 "
         "otherwise. Do not give partial credit.\n\n"

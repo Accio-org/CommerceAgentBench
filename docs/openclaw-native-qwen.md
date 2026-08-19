@@ -30,14 +30,14 @@ Two files: a **models_config JSON** (declares the provider) and a **run YAML**
    provider path enables DashScope-native thinking.
 
 ```bash
-DASHSCOPE_API_KEY=sk-... real-replica-bench run <task> \
+DASHSCOPE_API_KEY=sk-... commerce-agent-bench run <task> \
   --config configs/openclaw_qwen37plus_native.yaml
 ```
 
 ### Scenario B — OpenRouter
 
 ```bash
-OPENROUTER_API_KEY=sk-or-... real-replica-bench run <task> \
+OPENROUTER_API_KEY=sk-or-... commerce-agent-bench run <task> \
   --config configs/openclaw_qwen37plus_openrouter.yaml
 ```
 
@@ -114,7 +114,7 @@ openclaw:
 ```
 
 ```bash
-OPENROUTER_API_KEY=sk-or-... real-replica-bench run <task> \
+OPENROUTER_API_KEY=sk-or-... commerce-agent-bench run <task> \
   --config configs/openclaw_qwen37plus_openrouter.yaml
 ```
 
@@ -166,7 +166,7 @@ nothing it worked out carries forward. The OpenRouter path (Scenario B) is
 covered by the bundled shim; on a native or BYO route, verify it:
 
 ```bash
-real-replica-bench run <task-id> --config <your-config> --limit 1
+commerce-agent-bench run <task-id> --config <your-config> --limit 1
 python3 -c "import json,sys; print(json.load(open(sys.argv[1]))['usage'])" \
   runs/<run-id>/tasks/01-<task-id>/agent/trajectory.json
 ```

@@ -8,7 +8,7 @@ entrypoint = "task.md"
 files_dir = "workspace"
 test = "grader/run.sh"
 rubric = "rubric.json"
-keywords = ["freight", "logistics", "mock", "browser", "booking", "realreplicabench"]
+keywords = ["freight", "logistics", "mock", "browser", "booking", "commerce-agent-bench"]
 difficulty = "hard"
 
 [agent]

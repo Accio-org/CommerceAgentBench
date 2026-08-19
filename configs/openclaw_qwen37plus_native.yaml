@@ -7,7 +7,7 @@
 # and limits depend on the selected provider account.
 # No private model proxy, no OpenRouter shim, no chat-completions sidecar.
 #
-#   DASHSCOPE_API_KEY=sk-... real-replica-bench run <task> \
+#   DASHSCOPE_API_KEY=sk-... commerce-agent-bench run <task> \
 #     --config configs/openclaw_qwen37plus_native.yaml \
 #     --run-id qwen37plus-$(date +%Y%m%d-%H%M%S)
 #

@@ -2,7 +2,7 @@
 # Public path: agent models served via OpenRouter; LLM judge via a standard
 # provider (Gemini/OpenAI). Provide keys via env or CLI; do not commit keys.
 #
-#   real-replica-bench run --config configs/openclaw.yaml \
+#   commerce-agent-bench run --config configs/openclaw.yaml \
 #     --openclaw-api-key "$OPENROUTER_API_KEY"
 #
 # The benchmark image is public on Docker Hub:

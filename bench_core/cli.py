@@ -1337,11 +1337,11 @@ def start_container(
         "--name",
         name,
         "--label",
-        "real-replica-bench=true",
+        "commerce-agent-bench=true",
         "--label",
-        f"real-replica-bench.run_id={run_id}",
+        f"commerce-agent-bench.run_id={run_id}",
         "--label",
-        f"real-replica-bench.task_id={task_id}",
+        f"commerce-agent-bench.task_id={task_id}",
     ]
     if args.platform != "native":
         cmd.extend(["--platform", args.platform])
@@ -3436,7 +3436,7 @@ def run_dispatch(args: argparse.Namespace) -> int:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="real-replica-bench")
+    parser = argparse.ArgumentParser(prog="commerce-agent-bench")
     parser.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     sub = parser.add_subparsers(dest="cmd", required=True)
 

@@ -9,7 +9,7 @@ files_dir = "workspace"
 test = "grader/run.sh"
 rubric = "rubric.json"
 private_dir = "private"
-keywords = ["gmail", "browser", "mock", "inbox-triage", "stateful", "realreplicabench", "runtime-mock"]
+keywords = ["gmail", "browser", "mock", "inbox-triage", "stateful", "commerce-agent-bench", "runtime-mock"]
 difficulty = "hard"
 
 [agent]

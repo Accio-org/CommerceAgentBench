@@ -567,7 +567,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--openclaw-thinking")
     parser.add_argument("--openclaw-openrouter-shim", action="store_true")
     parser.add_argument("--openclaw-openrouter-shim-port", type=int, default=19501)
-    # BYO-endpoint shortcut: passthrough to `real-replica-bench run`. See
+    # BYO-endpoint shortcut: passthrough to `commerce-agent-bench run`. See
     # docs/openclaw-byo-endpoint.md and the CLI-level flags on cli.py.
     parser.add_argument(
         "--openclaw-api",

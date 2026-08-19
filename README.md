@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/realreplicabench-banner.svg" width="100%" alt="Commerce Agent Bench — a stateful agent benchmark for real-world commerce workflows">
+  <img src="docs/assets/commerce-agent-bench-banner.svg" width="100%" alt="Commerce Agent Bench — a stateful agent benchmark for real-world commerce workflows">
 </p>
 
 <p align="center">
@@ -240,7 +240,7 @@ package.
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
-real-replica-bench list
+commerce-agent-bench list
 ```
 
 ### Pull the pinned OpenClaw runtime
@@ -264,7 +264,7 @@ API:
 ```bash
 export GEMINI_API_KEY="..."
 
-real-replica-bench run api-amazon-margin-floor-audit \
+commerce-agent-bench run api-amazon-margin-floor-audit \
   --harness openclaw \
   --image acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859 \
   --platform linux/amd64 \
@@ -279,7 +279,7 @@ real-replica-bench run api-amazon-margin-floor-audit \
 ### Run a collection
 
 ```bash
-real-replica-bench run \
+commerce-agent-bench run \
   --config configs/openclaw_native_google_direct.yaml \
   --run-id "openclaw-$(date +%Y%m%d-%H%M%S)"
 ```
@@ -424,7 +424,7 @@ commit used for evaluation. Until the accompanying paper is published, cite
 the repository directly:
 
 ```bibtex
-@misc{Lian2026RealReplicaBench,
+@misc{Lian2026CommerceAgentBench,
     author={Yukun Lian and Lei Wei and Sicong Xie and Guannan Zhang and Kesu
             Wang and Hongyu Li and Chenhao Jiang and Lanbo Lin and Tianyuan
             Yang and Xiaoyu Guo and Li Cai and Jialong Zhu},

@@ -8,7 +8,7 @@
 #     -d '{"contents":[{"parts":[{"text":"…"}]}],"generationConfig":{"thinkingConfig":{"thinkingLevel":"HIGH"}}}'
 # No OpenRouter config or chat-completions sidecar.
 #
-#   GEMINI_API_KEY=AIza... real-replica-bench run api-amazon-margin-floor-audit \
+#   GEMINI_API_KEY=AIza... commerce-agent-bench run api-amazon-margin-floor-audit \
 #     --config configs/openclaw_native_google_direct.yaml \
 #     --run-id google-direct-$(date +%Y%m%d-%H%M%S)
 #

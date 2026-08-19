@@ -4,7 +4,7 @@
 # Provide OPENROUTER_API_KEY and let the release fork's OpenRouter shim handle
 # reasoning-effort translation.
 #
-#   OPENROUTER_API_KEY=sk-or-... real-replica-bench run <task> \
+#   OPENROUTER_API_KEY=sk-or-... commerce-agent-bench run <task> \
 #     --config configs/openclaw_qwen37plus_openrouter.yaml \
 #     --run-id qwen37plus-or-$(date +%Y%m%d-%H%M%S)
 #

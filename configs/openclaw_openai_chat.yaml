@@ -20,7 +20,7 @@
 #   2. Export OPENAI_API_KEY (or edit the JSON's apiKey placeholder to a
 #      different ${VAR} name your endpoint expects).
 #   3. Run:
-#        OPENAI_API_KEY=sk-... real-replica-bench run <task> \
+#        OPENAI_API_KEY=sk-... commerce-agent-bench run <task> \
 #          --config configs/openclaw_openai_chat.yaml
 #
 # HOW IT WORKS — the models_config JSON is the single source of truth:

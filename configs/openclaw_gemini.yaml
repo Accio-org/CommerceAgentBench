@@ -3,7 +3,7 @@
 # generateContent API natively through configs/native_google_direct_models.json.
 # You only need GEMINI_API_KEY; no OpenRouter config or sidecar.
 #
-#   GEMINI_API_KEY=... real-replica-bench run \
+#   GEMINI_API_KEY=... commerce-agent-bench run \
 #     --config configs/openclaw_gemini.yaml
 #
 # The benchmark image is public on Docker Hub:

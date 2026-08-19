@@ -25,7 +25,7 @@
 #   No separate provider flag is needed — the provider name lives only in the
 #   JSON key and the model prefix.
 #
-#   real-replica-bench run api-amazon-margin-floor-audit \
+#   commerce-agent-bench run api-amazon-margin-floor-audit \
 #     --config configs/openclaw_native_google.yaml \
 #     --run-id native-google-$(date +%Y%m%d-%H%M%S)
 #

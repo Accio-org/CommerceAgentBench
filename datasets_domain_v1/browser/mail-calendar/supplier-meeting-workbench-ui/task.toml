@@ -9,7 +9,7 @@ files_dir = "workspace"
 test = "grader/run.sh"
 rubric = "rubric.json"
 private_dir = "private"
-keywords = ["b2b", "procurement", "mock", "ui", "calendar", "realreplicabench", "v2"]
+keywords = ["b2b", "procurement", "mock", "ui", "calendar", "commerce-agent-bench", "v2"]
 difficulty = "medium"
 
 [agent]

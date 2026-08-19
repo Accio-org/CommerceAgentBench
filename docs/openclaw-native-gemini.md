@@ -25,7 +25,7 @@ YAML** (selects it). Two "keys" make it native:
    natively emits `generationConfig.thinkingConfig.thinkingLevel` (Gemini 3.x+).
 
 ```bash
-GEMINI_API_KEY=AIza... real-replica-bench run api-amazon-margin-floor-audit \
+GEMINI_API_KEY=AIza... commerce-agent-bench run api-amazon-margin-floor-audit \
   --config configs/openclaw_native_google_direct.yaml
 ```
 
@@ -66,7 +66,7 @@ openclaw:
 ```
 
 ```bash
-GEMINI_API_KEY=AIza... real-replica-bench run <task> \
+GEMINI_API_KEY=AIza... commerce-agent-bench run <task> \
   --config configs/openclaw_native_google_direct.yaml
 ```
 
@@ -113,7 +113,7 @@ them while preserving that contract. If the proxy ignores the inbound
 upstream auth itself.
 
 ```bash
-real-replica-bench run <task> \
+commerce-agent-bench run <task> \
   --config configs/openclaw_native_google.yaml \
   --openclaw-models-config configs/my_native_google_models.json
 ```

@@ -489,7 +489,7 @@ def artifact_policy_checks(output_dir: Path | None, rubric: dict[str, Any]) -> d
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="real-replica-bench-llm-judge")
+    parser = argparse.ArgumentParser(prog="commerce-agent-bench-llm-judge")
     parser.add_argument("--provider", choices=["openai", "gemini", "mock"], required=True)
     parser.add_argument("--model", required=True)
     parser.add_argument("--task-md", type=Path, required=True)

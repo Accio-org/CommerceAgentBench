@@ -12,7 +12,7 @@
 #      if your endpoint requires a different pinned version.
 #   2. Export the referenced env var.
 #   3. Run:
-#        ANTHROPIC_API_KEY=sk-ant-... real-replica-bench run <task> \
+#        ANTHROPIC_API_KEY=sk-ant-... commerce-agent-bench run <task> \
 #          --config configs/openclaw_anthropic_messages.yaml
 #
 # HOW IT WORKS — the models_config JSON is the single source of truth:
