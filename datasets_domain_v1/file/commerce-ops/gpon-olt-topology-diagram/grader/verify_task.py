@@ -223,7 +223,7 @@ def run_llm_checks(
                  "check_type": c.get("check_type", "llm_judge_boolean"), "llm_skipped": True} for c in llm_checks]
 
     try:
-        from real_replica_bench import llm_judge  # type: ignore
+        from bench_core import llm_judge  # type: ignore
     except ImportError as exc:
         return [{"id": c["id"], "passed": False, "reason": f"llm_judge import failed: {exc}",
                  "check_type": c.get("check_type", "llm_judge_boolean"), "llm_skipped": True} for c in llm_checks]

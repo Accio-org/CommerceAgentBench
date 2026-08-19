@@ -5,7 +5,7 @@
   "category": "ecommerce_publishing",
   "state_kind": "local_mock_cli",
   "difficulty": "easy",
-  "check_strategy": "private/expected_answer.json drives per-field validation; the shared verifier real_replica_bench.verifiers.alibaba_publish_v2 folds the atomic results into capability buckets per docs/check-granularity.md (R2: 4 structural checks → setup_gate; R3: image slots and each same-skill field group collapse to one check; R7: one shared verifier covers all 12 alibaba_publish tasks). Each bucket = AND of its present member fields (failures listed in the reason). Binary pass = all buckets, which is identical to all atoms (pure aggregation). Only buckets with >=1 present field are emitted for this product.",
+  "check_strategy": "private/expected_answer.json drives per-field validation; the shared verifier bench_core.verifiers.alibaba_publish_v2 folds the atomic results into capability buckets per docs/check-granularity.md (R2: 4 structural checks → setup_gate; R3: image slots and each same-skill field group collapse to one check; R7: one shared verifier covers all 12 alibaba_publish tasks). Each bucket = AND of its present member fields (failures listed in the reason). Binary pass = all buckets, which is identical to all atoms (pure aggregation). Only buckets with >=1 present field are emitted for this product.",
   "checks": [
     {
       "id": "setup_gate",

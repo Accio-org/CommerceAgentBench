@@ -7,8 +7,8 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-from real_replica_bench.verifiers.alibaba_publish_v2 import GROUP_ORDER, group_for
-from real_replica_bench.verifiers.form_value_normalize import compare_form_value
+from bench_core.verifiers.alibaba_publish_v2 import GROUP_ORDER, group_for
+from bench_core.verifiers.form_value_normalize import compare_form_value
 
 FILE_CHECK_PREFIX = 'image'
 FILE_SELECTION_KEY = 'image_selection'

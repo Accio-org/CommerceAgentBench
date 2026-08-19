@@ -11,7 +11,7 @@ MOCK_URL="${MOCK_SITE_URL:-${MOCK_URL:-http://127.0.0.1:3098}}"
 
 mkdir -p "$(dirname "$REWARD_JSON")" "$OUTPUT_DIR"
 
-PYTHONPATH="$REPO_ROOT${PYTHONPATH:+:$PYTHONPATH}" python3 -m real_replica_bench.verifiers.shopify_online_store_v2 \
+PYTHONPATH="$REPO_ROOT${PYTHONPATH:+:$PYTHONPATH}" python3 -m bench_core.verifiers.shopify_online_store_v2 \
   --task-dir "$TASK_DIR" \
   --output-dir "$OUTPUT_DIR" \
   --reward-json "$REWARD_JSON" \

@@ -26,17 +26,17 @@ YAML** (selects it). Two "keys" make it native:
 
 ```bash
 GEMINI_API_KEY=AIza... real-replica-bench run api-amazon-margin-floor-audit \
-  --config configs/realreplicabench_openclaw_native_google_direct.yaml
+  --config configs/openclaw_native_google_direct.yaml
 ```
 
 ---
 
 ## Scenario A — Direct to the public Google API (bring your own key)
 
-Ready-made: `configs/realreplicabench_openclaw_native_google_direct.yaml` +
-`configs/realreplicabench_native_google_direct_models.json`.
+Ready-made: `configs/openclaw_native_google_direct.yaml` +
+`configs/native_google_direct_models.json`.
 
-**models_config** (`configs/realreplicabench_native_google_direct_models.json`):
+**models_config** (`configs/native_google_direct_models.json`):
 
 ```json
 {
@@ -59,7 +59,7 @@ Ready-made: `configs/realreplicabench_openclaw_native_google_direct.yaml` +
 
 ```yaml
 openclaw:
-  models_config: configs/realreplicabench_native_google_direct_models.json
+  models_config: configs/native_google_direct_models.json
   model: google/gemini-3.5-flash
   image_model: google/gemini-3.5-flash
   thinking: high            # -> native thinkingLevel HIGH (needs reasoning:true on the model)
@@ -67,7 +67,7 @@ openclaw:
 
 ```bash
 GEMINI_API_KEY=AIza... real-replica-bench run <task> \
-  --config configs/realreplicabench_openclaw_native_google_direct.yaml
+  --config configs/openclaw_native_google_direct.yaml
 ```
 
 - `${GEMINI_API_KEY}` is expanded from your shell env at injection time and sent
@@ -90,7 +90,7 @@ provider `baseUrl` in the models_config JSON** — a native provider reads its
 > redirect a native Gemini provider. The single source of truth for a native
 > endpoint is the models_config `baseUrl`.
 
-Copy `configs/realreplicabench_native_google_models.json`, repoint `baseUrl`,
+Copy `configs/native_google_models.json`, repoint `baseUrl`,
 and reference the copy from the run config's `openclaw.models_config` (or via
 `--openclaw-models-config`). The proxy must be reachable from inside the
 container (`host.docker.internal` on Docker Desktop).
@@ -114,7 +114,7 @@ upstream auth itself.
 
 ```bash
 real-replica-bench run <task> \
-  --config configs/realreplicabench_openclaw_native_google.yaml \
+  --config configs/openclaw_native_google.yaml \
   --openclaw-models-config configs/my_native_google_models.json
 ```
 

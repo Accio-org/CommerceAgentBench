@@ -22,8 +22,8 @@
 
 <p align="center">
   <a href="#overview">Overview</a> ·
-  <a href="https://realreplicabench.site.accio.ai/">Live leaderboard</a> ·
-  <a href="https://realreplicabench-mock-showcase.site.accio.ai/">Mock showcase</a> ·
+  <a href="https://commerce-agent-bench.site.accio.ai/">Live leaderboard</a> ·
+  <a href="https://commerce-agent-bench-mock-showcase.site.accio.ai/">Mock showcase</a> ·
   <a href="#quick-start">Quick start</a> ·
   <a href="#reproducibility-contract">Reproducibility</a> ·
   <a href="#get-your-model-evaluated-or-work-with-us">Contact</a>
@@ -61,6 +61,14 @@ public-web research, supplier analysis, product publishing, logistics, and
 commerce operations. Every task runs in a fresh container and is graded by its
 own deterministic or LLM-assisted verifier.
 
+> **Note on naming.** This project was formerly known as **RealReplicaBench**.
+> It was renamed to **Commerce Agent Bench** in August 2026, and the site now
+> lives at `commerce-agent-bench.site.accio.ai`. Compatibility- and
+> citation-sensitive historical identifiers intentionally retained include the
+> `real-replica-bench` package and CLI, the
+> `github.com/Accio-org/RealReplicaBench` repository URL, and the BibTeX
+> citation key.
+
 - **107 tasks:** 53 CLI, 28 browser, 16 file, and 10 API/MCP tasks.
 - **Three capability slices:** 65 text-only, 20 browser-text-capable, and 22
   vision-required tasks.
@@ -92,7 +100,7 @@ so agents must operate interfaces and change state.
 </table>
 
 <p align="center">
-  <a href="https://realreplicabench-mock-showcase.site.accio.ai/">
+  <a href="https://commerce-agent-bench-mock-showcase.site.accio.ai/">
     <img alt="Explore the Commerce Agent Bench UI Mock Showcase" src="https://img.shields.io/badge/Explore-UI%20Mock%20Showcase-059669?style=for-the-badge">
   </a>
 </p>
@@ -114,7 +122,7 @@ uses bring-your-own credentials. Every model ran with thinking enabled at its
 provider's default reasoning effort; that default differs by vendor, so the
 harness tier does too.
 
-The [live leaderboard](https://realreplicabench.site.accio.ai/) is the
+The [live leaderboard](https://commerce-agent-bench.site.accio.ai/) is the
 source of record; the tables below are a snapshot.
 
 <p align="center">
@@ -266,18 +274,18 @@ real-replica-bench run api-amazon-margin-floor-audit \
   --platform linux/amd64 \
   --openclaw-model google/gemini-3.5-flash \
   --openclaw-image-model google/gemini-3.5-flash \
-  --openclaw-models-config configs/realreplicabench_native_google_direct_models.json \
+  --openclaw-models-config configs/native_google_direct_models.json \
   --llm-judge-provider gemini \
   --llm-judge-model gemini-3.1-pro-preview \
-  --run-id realreplicabench-smoke
+  --run-id smoke
 ```
 
 ### Run a collection
 
 ```bash
 real-replica-bench run \
-  --config configs/realreplicabench_openclaw_native_google_direct.yaml \
-  --run-id "realreplicabench-openclaw-$(date +%Y%m%d-%H%M%S)"
+  --config configs/openclaw_native_google_direct.yaml \
+  --run-id "openclaw-$(date +%Y%m%d-%H%M%S)"
 ```
 
 Use `--limit 1` for a batch-path smoke test. The full suite can be partitioned
@@ -287,7 +295,7 @@ files under `datasets_domain_v1/`.
 ### Provider routes
 
 Every route is one config file in `configs/`, all named
-`realreplicabench_openclaw<suffix>.yaml`. The tables list the suffix.
+`openclaw<suffix>.yaml`. The tables list the suffix.
 
 **Managed routes** — a provider's own API, billed to that provider's key.
 
@@ -349,7 +357,7 @@ Comparable runs pin these four:
 
 | Component | v1.3.1 pin |
 |---|---|
-| Task set | `realreplicabench_domain_v1_all` — 107 task IDs |
+| Task set | `domain_v1_all` — 107 task IDs |
 | Task definitions | This repository release, including task workspaces and graders |
 | Harness | OpenClaw runner in this repository |
 | Runtime | `acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859` |
@@ -365,7 +373,7 @@ outcomes.
 
 ```text
 datasets_domain_v1/
-├── realreplicabench_domain_v1_{all,text_only,browser_textcapable,vision}.collection.json
+├── domain_v1_{all,text_only,browser_textcapable,vision}.collection.json
 └── <interface>/<platform>/<task>/
     ├── task.toml   task.md   workspace/          agent-visible
     └── grader/     services/ private/ rubric.json
@@ -392,12 +400,12 @@ decays: models saturate it and its answers drift into training data. Each new
 replica service — a real service's API semantics, state transitions, and above
 all its rejections, running offline and scored deterministically — is a family
 of tasks no model has been trained on. The fourteen shipping today are
-registered in `real_replica_bench/mock_services/registry.py`.
+registered in `bench_core/mock_services/registry.py`.
 
 [`CONTRIBUTING.md`](CONTRIBUTING.md) states the bar a new mock has to clear, and
 the rules for task fixes, graders, and harness changes. Contributed services
 merge into
-[`mock_services/contrib/`](real_replica_bench/mock_services/contrib/README.md)
+[`mock_services/contrib/`](bench_core/mock_services/contrib/README.md)
 and are credited on that merge. From there they are migrated into the shipped
 set progressively, with real workflow cases built out against each one, and
 released as the test set of a subsequent version — so a contributed replica is

@@ -25,8 +25,8 @@ Two ways in:
 
 ## TL;DR — four presets
 
-Each preset is a `configs/realreplicabench_<slug>_models.json` file
-declaring one provider entry, plus a `configs/realreplicabench_openclaw_<slug>.yaml`
+Each preset is a `configs/<slug>_models.json` file
+declaring one provider entry, plus a `configs/openclaw_<slug>.yaml`
 that selects it.
 
 | Wire format | Preset slug | Default baseUrl | Env var | Auth header OpenClaw sends |
@@ -57,10 +57,10 @@ env var, run.
 
 ```bash
 OPENAI_API_KEY=sk-... real-replica-bench run <task> \
-  --config configs/realreplicabench_openclaw_openai_chat.yaml
+  --config configs/openclaw_openai_chat.yaml
 ```
 
-`configs/realreplicabench_openai_chat_models.json`:
+`configs/openai_chat_models.json`:
 
 ```json
 {
@@ -87,7 +87,7 @@ native paths).
 
 ```bash
 OPENAI_API_KEY=sk-... real-replica-bench run <task> \
-  --config configs/realreplicabench_openclaw_openai_responses.yaml
+  --config configs/openclaw_openai_responses.yaml
 ```
 
 Distinct wire format from chat/completions — uses `input`, not `messages`;
@@ -99,10 +99,10 @@ reasoning fields.
 
 ```bash
 ANTHROPIC_API_KEY=sk-ant-... real-replica-bench run <task> \
-  --config configs/realreplicabench_openclaw_anthropic_messages.yaml
+  --config configs/openclaw_anthropic_messages.yaml
 ```
 
-`configs/realreplicabench_anthropic_messages_models.json`:
+`configs/anthropic_messages_models.json`:
 
 ```json
 {
@@ -131,7 +131,7 @@ gateway requires one.
 export CUSTOM_GEMINI_BASE_URL="http://host.docker.internal:8080/v1beta"
 export CUSTOM_GEMINI_API_KEY="..."
 real-replica-bench run <task> \
-  --config configs/realreplicabench_openclaw_custom_gemini.yaml
+  --config configs/openclaw_custom_gemini.yaml
 ```
 
 Same wire format as the shipped Google presets, but the URL comes from
@@ -200,7 +200,7 @@ is the same:
 | `headers` (optional) | extra request headers, e.g. `anthropic-version` or a shared-proxy auth token |
 
 The JSON is injected into `~/.openclaw/openclaw.json['models']`. See
-`real_replica_bench/harnesses/openclaw/runner.py::inject_openclaw_models_config`.
+`bench_core/harnesses/openclaw/runner.py::inject_openclaw_models_config`.
 
 ---
 
@@ -216,7 +216,7 @@ The JSON is injected into `~/.openclaw/openclaw.json['models']`. See
   provider `openai`; a JSON keyed `oai` will not match.
 - **Vision precheck.** The primary and image models must appear in the
   vision-model whitelist at
-  `real_replica_bench/harnesses/openclaw/runner.py:70-88` — otherwise the
+  `bench_core/harnesses/openclaw/runner.py:70-88` — otherwise the
   run aborts before starting. The four preset defaults (`gpt-4o`,
   `gpt-5.5`, `claude-sonnet-4.6`, `gemini-3.5-flash`) all match. If you
   substitute a non-vision id, pass `--openclaw-image-model

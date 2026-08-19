@@ -14,11 +14,11 @@ from unittest import mock
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
-from real_replica_bench.harnesses.openclaw.runner import (
+from bench_core.harnesses.openclaw.runner import (
     _openclaw_is_relay_mode,
     inject_openclaw_models_config,
 )
-from real_replica_bench.llm_judge import JudgeConfig, gemini_judge, openai_judge
+from bench_core.llm_judge import JudgeConfig, gemini_judge, openai_judge
 
 
 _REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -30,7 +30,7 @@ def _load_by_path(module_name: str, relative_path: str):
     `python -m unittest discover -s tests` (the CI invocation) puts
     `tests/` on `sys.path`, not the repo root — and `scripts/` is a plain
     directory, not a package installed by `pip install -e .` (pyproject's
-    `packages.find` only picks up `real_replica_bench*`). A normal
+    `packages.find` only picks up `bench_core*`). A normal
     `from scripts.x import y` therefore raises ModuleNotFoundError under
     CI. Loading by path also sidesteps an unrelated `scripts` package
     that may shadow the repo one in a developer's site-packages.
@@ -47,7 +47,7 @@ def _load_by_path(module_name: str, relative_path: str):
 
 
 redact_config_secrets = _load_by_path(
-    "realreplicabench_batch_runner_test", "scripts/run_realreplicabench.py"
+    "batch_runner_test", "scripts/run_bench.py"
 ).redact_config_secrets
 
 
@@ -59,7 +59,7 @@ _SHIM_PATH = (
     / "openrouter_shim.py"
 )
 _SHIM_SPEC = importlib.util.spec_from_file_location(
-    "realreplicabench_openrouter_shim_test",
+    "openrouter_shim_test",
     _SHIM_PATH,
 )
 assert _SHIM_SPEC is not None and _SHIM_SPEC.loader is not None
@@ -201,8 +201,8 @@ class PublicHarnessContractTests(unittest.TestCase):
     def test_public_native_provider_configs_pin_api_versions(self) -> None:
         config_root = Path(__file__).resolve().parents[1] / "configs"
         for name in (
-            "realreplicabench_native_google_direct_models.json",
-            "realreplicabench_native_google_models.json",
+            "native_google_direct_models.json",
+            "native_google_models.json",
         ):
             payload = json.loads((config_root / name).read_text(encoding="utf-8"))
             self.assertEqual(
@@ -210,7 +210,7 @@ class PublicHarnessContractTests(unittest.TestCase):
                 "https://generativelanguage.googleapis.com/v1beta",
             )
         qwen = json.loads(
-            (config_root / "realreplicabench_qwen37plus_native_models.json").read_text(
+            (config_root / "qwen37plus_native_models.json").read_text(
                 encoding="utf-8"
             )
         )
@@ -228,7 +228,7 @@ class PublicHarnessContractTests(unittest.TestCase):
         config_root = Path(__file__).resolve().parents[1] / "configs"
 
         openai_chat = json.loads(
-            (config_root / "realreplicabench_openai_chat_models.json").read_text(
+            (config_root / "openai_chat_models.json").read_text(
                 encoding="utf-8"
             )
         )
@@ -239,7 +239,7 @@ class PublicHarnessContractTests(unittest.TestCase):
         )
 
         openai_responses = json.loads(
-            (config_root / "realreplicabench_openai_responses_models.json").read_text(
+            (config_root / "openai_responses_models.json").read_text(
                 encoding="utf-8"
             )
         )
@@ -253,7 +253,7 @@ class PublicHarnessContractTests(unittest.TestCase):
 
         anthropic = json.loads(
             (
-                config_root / "realreplicabench_anthropic_messages_models.json"
+                config_root / "anthropic_messages_models.json"
             ).read_text(encoding="utf-8")
         )
         self.assertEqual(
@@ -271,7 +271,7 @@ class PublicHarnessContractTests(unittest.TestCase):
         )
 
         custom_gemini = json.loads(
-            (config_root / "realreplicabench_custom_gemini_models.json").read_text(
+            (config_root / "custom_gemini_models.json").read_text(
                 encoding="utf-8"
             )
         )
@@ -505,7 +505,7 @@ class SynthesizedModelsConfigTests(unittest.TestCase):
             return SimpleNamespace(returncode=0, stdout="", stderr="")
 
         module = importlib.import_module(
-            "real_replica_bench.harnesses.openclaw.runner"
+            "bench_core.harnesses.openclaw.runner"
         )
         with mock.patch.object(module, "docker", side_effect=fake_docker):
             with mock.patch.dict(os.environ, env, clear=True):

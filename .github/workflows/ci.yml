@@ -29,7 +29,7 @@ jobs:
         run: python scripts/validate_release.py
 
       - name: Compile Python sources
-        run: python -m compileall -q real_replica_bench scripts
+        run: python -m compileall -q bench_core scripts
 
       - name: Test public API contracts
         run: python -m unittest discover -s tests -v

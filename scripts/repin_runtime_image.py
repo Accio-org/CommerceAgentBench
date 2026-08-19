@@ -48,8 +48,8 @@ LIVE_PIN_GLOBS = (
     "datasets_domain_v1/**/task.toml",                    # base_images
     "datasets_domain_v1/**/services/start_services.sh",   # expected-image check
     "configs/*.yaml",                                     # image:
-    "real_replica_bench/constants.py",                    # canonical constant
-    "real_replica_bench/mock_services/registry.py",
+    "bench_core/constants.py",                    # canonical constant
+    "bench_core/mock_services/registry.py",
     "scripts/import_openclaw_image.sh",                   # pulls the release image
     "scripts/validate_release.py",                        # asserts the current pin
     "tests/test_public_api.py",                           # asserts the current pin
@@ -57,7 +57,7 @@ LIVE_PIN_GLOBS = (
     # historical one. A reader copying from it expects what the suite runs.
     # (datasets_domain_v1/README.md used to be listed here; it is no longer
     # tracked, so repinning it would rewrite a file the release does not ship.)
-    "real_replica_bench/harnesses/openclaw/README.md",
+    "bench_core/harnesses/openclaw/README.md",
 )
 
 # Why a non-live occurrence is left alone. Longest matching prefix wins.

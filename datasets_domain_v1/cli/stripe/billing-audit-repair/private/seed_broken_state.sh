@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../../../.." && pwd)"
-cd "${PROJECT_ROOT}/real_replica_bench/mock_services/stripe_cli"
+cd "${PROJECT_ROOT}/bench_core/mock_services/stripe_cli"
 S="bun bin/stripe"
 rm -rf data
 $S login >/dev/null 2>&1

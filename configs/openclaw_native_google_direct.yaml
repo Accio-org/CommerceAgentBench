@@ -1,0 +1,72 @@
+# Commerce Agent Bench — OpenClaw harness, PUBLIC Google Gemini API (native, sidecar-free).
+#
+# Bring-your-own-key: runs the agent against the standard public endpoint
+#   https://generativelanguage.googleapis.com/v1beta/models/<model>:generateContent
+# using the native generateContent wire format — the exact contract of:
+#   curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent" \
+#     -H "x-goog-api-key: $GEMINI_API_KEY" -H 'Content-Type: application/json' -X POST \
+#     -d '{"contents":[{"parts":[{"text":"…"}]}],"generationConfig":{"thinkingConfig":{"thinkingLevel":"HIGH"}}}'
+# No OpenRouter config or chat-completions sidecar.
+#
+#   GEMINI_API_KEY=AIza... real-replica-bench run api-amazon-margin-floor-audit \
+#     --config configs/openclaw_native_google_direct.yaml \
+#     --run-id google-direct-$(date +%Y%m%d-%H%M%S)
+#
+# HOW IT WORKS — the models_config JSON is the single source of truth:
+#   configs/native_google_direct_models.json declares provider
+#   "google" with api=google-generative-ai,
+#   baseUrl=https://generativelanguage.googleapis.com/v1beta,
+#   apiKey=${GEMINI_API_KEY} (expanded from your env at run time → sent as the
+#   standard x-goog-api-key header). The `google/...` model prefix auto-selects
+#   native routing (no sidecar). Set GEMINI_API_KEY in your env before running.
+#
+# REQUIREMENTS:
+#   * GEMINI_API_KEY must be exported (the JSON reads ${GEMINI_API_KEY}).
+#   * The container must reach generativelanguage.googleapis.com — if your network
+#     needs a proxy, pass it: -e HTTPS_PROXY=http://host.docker.internal:<port>.
+#   * Pick a model your key can serve (the release default is gemini-3.5-flash).
+#
+# THINKING LEVEL (Gemini 3.x+) — native, NO proxy:
+#   Set `"reasoning": true` on the model in the models_config AND `thinking: high`
+#   below. OpenClaw then emits generationConfig.thinkingConfig.thinkingLevel=HIGH
+#   itself. A 2026-07-28 local protocol probe observed the native thinkingConfig;
+#   low|medium|high → LOW|MEDIUM|HIGH.
+#   Without `reasoning: true` OpenClaw marks the model non-reasoning and sends no
+#   thinkingConfig, so Google falls back to its own default thinking.
+#   If you need a local proxy, use the custom-base-url config and keep the same
+#   Gemini generateContent wire format.
+#
+# The benchmark image is public on Docker Hub:
+#   docker pull acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+
+run_id: domain-v1-openclaw-google-direct
+datasets_dir: datasets_domain_v1
+collection: datasets_domain_v1/domain_v1_all.collection.json
+parallelism: 2
+
+runtime:
+  os: linux
+  image: acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+  platform: linux/amd64
+
+harness: openclaw
+
+openclaw:
+  # Provider declared in the JSON (baseUrl=public Google, apiKey=${GEMINI_API_KEY}, api=google-generative-ai).
+  models_config: configs/native_google_direct_models.json
+  # google/ prefix (!= openrouter/) -> native generateContent, no sidecar.
+  model: google/gemini-3.5-flash
+  image_model: google/gemini-3.5-flash
+  gateway_port: 18789
+  gateway_ready_delay: 6
+  # With "reasoning": true on the model (in the models_config), this makes OpenClaw
+  # emit thinkingConfig.thinkingLevel=HIGH natively. low|medium|high -> LOW|MEDIUM|HIGH.
+  thinking: high
+
+judge:
+  # Judge also via the public Google API (same GEMINI_API_KEY) for a self-contained run.
+  provider: gemini
+  model: gemini-3.1-pro-preview
+  timeout: 240
+
+start_index: 1

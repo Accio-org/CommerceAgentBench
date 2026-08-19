@@ -41,7 +41,7 @@ prepare_context() {
     --exclude 'data/' \
     --exclude 'uploads/' \
     --exclude 'node_modules/' \
-    "${PROJECT_ROOT}/real_replica_bench/mock_services/shopify_admin/" \
+    "${PROJECT_ROOT}/bench_core/mock_services/shopify_admin/" \
     "${BUILD_CONTEXT}/shopify_admin/"
   cp "${DOCKERFILE}" "${BUILD_CONTEXT}/Dockerfile"
 }
@@ -66,7 +66,7 @@ rsync_openclaw_mock() {
     --exclude '.DS_Store' \
     --exclude 'node_modules/' \
     "$@" \
-    "${PROJECT_ROOT}/real_replica_bench/mock_services/${source}/" \
+    "${PROJECT_ROOT}/bench_core/mock_services/${source}/" \
     "${target}"
 }
 

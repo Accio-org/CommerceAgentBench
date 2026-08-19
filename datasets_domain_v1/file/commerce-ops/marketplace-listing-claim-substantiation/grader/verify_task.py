@@ -436,7 +436,7 @@ def run_llm_checks(
         ]
 
     try:
-        from real_replica_bench import llm_judge  # type: ignore
+        from bench_core import llm_judge  # type: ignore
     except ImportError as exc:
         return [
             check_result(

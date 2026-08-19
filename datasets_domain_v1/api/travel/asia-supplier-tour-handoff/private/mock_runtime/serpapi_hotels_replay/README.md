@@ -43,7 +43,7 @@ counts, or query patterns.
 ## Running locally
 
 ```bash
-cd real_replica_bench/mock_services/serpapi_hotels_replay
+cd bench_core/mock_services/serpapi_hotels_replay
 PORT=4501 bun server.js
 curl http://127.0.0.1:4501/api/help
 curl http://127.0.0.1:4501/api/datasets | jq '.datasets[].id'

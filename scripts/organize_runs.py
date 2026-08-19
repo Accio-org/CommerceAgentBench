@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from real_replica_bench.reports.html_report import generate_instance_report
+from bench_core.reports.html_report import generate_instance_report
 
 RUNS_DIR = ROOT / "runs"
 

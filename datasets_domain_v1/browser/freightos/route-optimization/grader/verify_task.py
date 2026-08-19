@@ -15,7 +15,7 @@ def main() -> int:
     ap.add_argument("--mock-url", default=os.environ.get("MOCK_SITE_URL", "http://127.0.0.1:3003"))
     args = ap.parse_args()
 
-    import real_replica_bench.verifiers.freightos_v2 as f_v2
+    import bench_core.verifiers.freightos_v2 as f_v2
 
     f_v2.verify(
         task_dir=Path(args.task_dir),

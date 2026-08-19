@@ -1,4 +1,4 @@
-"""Thin wrapper — actual verifier lives in real_replica_bench.verifiers.shopify_online_store_v2."""
+"""Thin wrapper — actual verifier lives in bench_core.verifiers.shopify_online_store_v2."""
 from __future__ import annotations
 
 import argparse
@@ -15,7 +15,7 @@ def main() -> int:
     ap.add_argument("--mock-url", default=os.environ.get("MOCK_SITE_URL", os.environ.get("MOCK_URL", "")))
     args = ap.parse_args()
 
-    from real_replica_bench.verifiers import shopify_online_store_v2 as v
+    from bench_core.verifiers import shopify_online_store_v2 as v
 
     v.verify(
         task_dir=Path(args.task_dir),

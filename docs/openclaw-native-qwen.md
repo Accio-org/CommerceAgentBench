@@ -31,14 +31,14 @@ Two files: a **models_config JSON** (declares the provider) and a **run YAML**
 
 ```bash
 DASHSCOPE_API_KEY=sk-... real-replica-bench run <task> \
-  --config configs/realreplicabench_openclaw_qwen37plus_native.yaml
+  --config configs/openclaw_qwen37plus_native.yaml
 ```
 
 ### Scenario B — OpenRouter
 
 ```bash
 OPENROUTER_API_KEY=sk-or-... real-replica-bench run <task> \
-  --config configs/realreplicabench_openclaw_qwen37plus_openrouter.yaml
+  --config configs/openclaw_qwen37plus_openrouter.yaml
 ```
 
 ---
@@ -46,8 +46,8 @@ OPENROUTER_API_KEY=sk-or-... real-replica-bench run <task> \
 ## Scenario A — Native Alibaba DashScope
 
 Ready-made:
-- `configs/realreplicabench_openclaw_qwen37plus_native.yaml`
-- `configs/realreplicabench_qwen37plus_native_models.json`
+- `configs/openclaw_qwen37plus_native.yaml`
+- `configs/qwen37plus_native_models.json`
 
 **models_config**:
 
@@ -72,7 +72,7 @@ Ready-made:
 
 ```yaml
 openclaw:
-  models_config: configs/realreplicabench_qwen37plus_native_models.json
+  models_config: configs/qwen37plus_native_models.json
   model: qwen/qwen3.7-plus
   image_model: qwen/qwen3.7-plus
   thinking: high        # -> native enable_thinking (needs reasoning:true)
@@ -103,7 +103,7 @@ benchmark run.
 ## Scenario B — OpenRouter route
 
 Ready-made:
-- `configs/realreplicabench_openclaw_qwen37plus_openrouter.yaml`
+- `configs/openclaw_qwen37plus_openrouter.yaml`
 
 ```yaml
 openclaw:
@@ -115,7 +115,7 @@ openclaw:
 
 ```bash
 OPENROUTER_API_KEY=sk-or-... real-replica-bench run <task> \
-  --config configs/realreplicabench_openclaw_qwen37plus_openrouter.yaml
+  --config configs/openclaw_qwen37plus_openrouter.yaml
 ```
 
 The `openrouter/` prefix is the ONLY prefix that triggers the auto-sidecar path.
@@ -185,7 +185,7 @@ provider (the gotcha above), not this. Both Qwen rows in the
   ids (`qwen`, `qwencloud`, `modelstudio`, `dashscope`) all mapped to the
   `modelstudio` family. Any of them in your models_config picks up the plugin's
   native streaming compat + thinking wrapper.
-- `real_replica_bench/harnesses/openclaw/runner.py` auto-detects native
+- `bench_core/harnesses/openclaw/runner.py` auto-detects native
   routing from the **model prefix**: a non-`openrouter/` prefix → native, so
   **no sidecar** is started and the `thinking → OpenRouter-shim` auto-enable is
   scoped to `openrouter/` models only.
@@ -253,7 +253,7 @@ curl -sS "https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completion
 - **Rate limits**: DashScope enforces per-account QPM / TPM ceilings; scale
   `parallelism` down if you see `429` bursts.
 - **Vision whitelist**: the release fork uses a substring whitelist in
-  `real_replica_bench/harnesses/openclaw/runner.py::_OPENCLAW_VISION_MODEL_SUBSTRINGS`
+  `bench_core/harnesses/openclaw/runner.py::_OPENCLAW_VISION_MODEL_SUBSTRINGS`
   to short-circuit set-image when the primary model looks non-vision. Since
   2026-07 the tuple includes `"qwen3.7-plus"` and `"qwen3.8-max"` — the latter
   deliberately bare, so one entry covers both the GA id and

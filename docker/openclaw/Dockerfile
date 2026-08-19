@@ -42,7 +42,7 @@ COPY proxy/openrouter_shim.py /opt/openclaw_proxy/openrouter_shim.py
 RUN cp -r /usr/local/lib/node_modules/openclaw/assets/chrome-extension /opt/openclaw-ext-patched \
     && cat >> /opt/openclaw-ext-patched/background.js <<'EXT_PATCH'
 
-// real_replica_bench harness patch: expose internal helpers for external
+// bench_core harness patch: expose internal helpers for external
 // CDP-driven attach. Caller: harnesses/openclaw/attach_openclaw_ext.ts.
 //
 // __openclawConnectTab(tabId) is the preferred entry point — it bypasses

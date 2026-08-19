@@ -10,7 +10,7 @@ pull request.**
 
 The Accio team at Alibaba International — the harness, the mock services, and
 the v1 task suite. Every service registered in
-[`registry.py`](real_replica_bench/mock_services/registry.py) as of v1.3.1 is
+[`registry.py`](bench_core/mock_services/registry.py) as of v1.3.1 is
 core-team work. Listed in author order, matching
 [`CITATION.cff`](CITATION.cff), which is the source of record for it.
 
@@ -22,7 +22,7 @@ core-team work. Listed in author order, matching
 
 One row per merged replica service, named by its service directory and sorted
 by that name. Credit lands when the service is merged into
-[`mock_services/contrib/`](real_replica_bench/mock_services/contrib/README.md),
+[`mock_services/contrib/`](bench_core/mock_services/contrib/README.md),
 not when it is later promoted into the shipped set — the row is written once and
 its **Status** is what changes.
 

@@ -43,8 +43,8 @@ Two replicas carry this material, with the same captured asset set in each:
 
 | Replica | Status |
 |---|---|
-| `real_replica_bench/mock_services/shopify_online_store_v2/public/` (310 files) | ships in the runtime image; backs the `browser/shopify/storefront-brand-refresh` task |
-| `real_replica_bench/mock_services/shopify_online_store_v3/public/` (310 files) | source only — not registered in `MOCK_SERVICE_REGISTRY`, not in the runtime image, no task yet |
+| `bench_core/mock_services/shopify_online_store_v2/public/` (310 files) | ships in the runtime image; backs the `browser/shopify/storefront-brand-refresh` task |
+| `bench_core/mock_services/shopify_online_store_v3/public/` (310 files) | source only — not registered in `MOCK_SERVICE_REGISTRY`, not in the runtime image, no task yet |
 
 Neither is a hand-drawn lookalike: two of the subtrees in each are **mirrored
 static assets** served from Shopify's admin CDN, kept under their original
@@ -77,10 +77,10 @@ permits redistribution provided the license accompanies the fonts:
 | Geist Mono | 4 | Vercel, in collaboration with basement.studio | `_polaris/assets/OFL.txt` |
 
 Both paths are relative to each replica's `public/` directory:
-[v2 `_polaris`](real_replica_bench/mock_services/shopify_online_store_v2/public/_polaris/assets/OFL.txt),
-[v2 `_embedded`](real_replica_bench/mock_services/shopify_online_store_v2/public/_embedded/assets/OFL.txt),
-[v3 `_polaris`](real_replica_bench/mock_services/shopify_online_store_v3/public/_polaris/assets/OFL.txt),
-[v3 `_embedded`](real_replica_bench/mock_services/shopify_online_store_v3/public/_embedded/assets/OFL.txt).
+[v2 `_polaris`](bench_core/mock_services/shopify_online_store_v2/public/_polaris/assets/OFL.txt),
+[v2 `_embedded`](bench_core/mock_services/shopify_online_store_v2/public/_embedded/assets/OFL.txt),
+[v3 `_polaris`](bench_core/mock_services/shopify_online_store_v3/public/_polaris/assets/OFL.txt),
+[v3 `_embedded`](bench_core/mock_services/shopify_online_store_v3/public/_embedded/assets/OFL.txt).
 
 Seven of the Inter files are content-hash-named and were identified from their
 internal `name` table rather than their filename. The license copies sit beside
@@ -122,7 +122,7 @@ is therefore visible in them, and the sections above apply.
 
 The repository ships one Accio brand asset, `docs/assets/accio-logo.svg`, used
 in the README header and footer. The public landing page at
-<https://realreplicabench.site.accio.ai/> is hosted separately and is no longer
+<https://commerce-agent-bench.site.accio.ai/> is hosted separately and is no longer
 part of this repository; its brand artwork and the model-vendor marks it
 displays are covered by that site, not by this inventory.
 

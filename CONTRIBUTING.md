@@ -15,7 +15,7 @@ python scripts/validate_release.py
 Before opening a pull request, also run:
 
 ```bash
-python -m compileall -q real_replica_bench scripts
+python -m compileall -q bench_core scripts
 python -m unittest discover -s tests
 for file in scripts/*.sh; do bash -n "$file"; done
 ```
@@ -27,10 +27,10 @@ model ID, judge ID, and protocol used.
 ### Test imports
 
 `scripts/` is a plain directory, not a package: `pyproject.toml`'s
-`packages.find` installs only `real_replica_bench*`, and
+`packages.find` installs only `bench_core*`, and
 `unittest discover -s tests` puts `tests/` — not the repo root — on
 `sys.path`. A plain `from scripts.x import y` in a test therefore fails
-under CI. Import repo modules outside `real_replica_bench` by file path
+under CI. Import repo modules outside `bench_core` by file path
 with the `_load_by_path` helper in `tests/test_public_api.py`.
 
 ### OpenClaw provider configs
@@ -48,7 +48,7 @@ synthesizes one in memory.
 ### The OpenClaw prompt prefix
 
 Every OpenClaw prompt is prepended with an autonomous-agent directive in
-`real_replica_bench/harnesses/openclaw/runner.py` (search
+`bench_core/harnesses/openclaw/runner.py` (search
 `openclaw_agent_directive`). It exists because OpenClaw frames the agent as a
 conversational assistant and persona-forward models answer with a
 self-introduction and a question instead of calling a tool — and
@@ -63,9 +63,9 @@ The public web pages are **not tracked in this repository**. They are
 maintained in local, gitignored site workspaces (`rrb-report/`, together with
 the legacy `docs/index.html` page it was built from) and deployed to:
 
-- <https://realreplicabench.site.accio.ai/> — Commerce Agent Bench live
+- <https://commerce-agent-bench.site.accio.ai/> — Commerce Agent Bench live
   leaderboard, analysis, and benchmark anatomy
-- <https://realreplicabench-mock-showcase.site.accio.ai/> — UI mock showcase
+- <https://commerce-agent-bench-mock-showcase.site.accio.ai/> — UI mock showcase
 
 The live leaderboard is the **source of record for results**. The repository
 carries a human-readable snapshot in the README and says the site wins; it no
@@ -85,11 +85,11 @@ runtime/provider documentation and README assets.
 New replica services are the contribution this project most wants, because the
 mock surface is what keeps the evaluation set ahead of the models it measures.
 A mock is a replica of a real service that runs offline and can be scored
-deterministically; `real_replica_bench/mock_services/registry.py` documents
+deterministically; `bench_core/mock_services/registry.py` documents
 what each of the fourteen current services declares.
 
 Contributed services land in
-[`real_replica_bench/mock_services/contrib/`](real_replica_bench/mock_services/contrib/README.md)
+[`bench_core/mock_services/contrib/`](bench_core/mock_services/contrib/README.md)
 first. That directory is intake, not a side gallery: it sits outside the runtime
 image and outside the registry, so merging into it accepts, publishes, and
 credits your work without disturbing published results — and staged services are
@@ -155,14 +155,14 @@ root:
 docker build --platform linux/amd64 \
   -f docker/openclaw/Dockerfile.all-mocks \
   -t realreplicabench/openclaw:dev \
-  real_replica_bench/mock_services
+  bench_core/mock_services
 ```
 
 `contrib/` is inside that build context, so a staged service can be built and
 run without relocating it: add a `COPY contrib/<name>/ /opt/mock_services/<name>/`
 line to the Dockerfile alongside the others and before the final `RUN` that
 chowns `/opt/mock_services`. The staging
-[`README.md`](real_replica_bench/mock_services/contrib/README.md) has the
+[`README.md`](bench_core/mock_services/contrib/README.md) has the
 details. Revert that line before you commit — it belongs to the promotion
 commit.
 
@@ -213,7 +213,7 @@ form an exact partition of the full collection.
 
 ### Shipping a mock-source change to the published image
 
-Editing `real_replica_bench/mock_services/` has no effect on a run until the
+Editing `bench_core/mock_services/` has no effect on a run until the
 image is rebuilt and the digest repinned — see
 [Test it before opening the pull request](#test-it-before-opening-the-pull-request)
 for why, and for the local build that lets you iterate without one.

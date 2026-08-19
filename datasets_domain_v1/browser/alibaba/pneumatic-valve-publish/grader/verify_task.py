@@ -16,7 +16,7 @@ def main() -> int:
     ap.add_argument("--mode", choices=["browser", "cli"], default="browser")
     args = ap.parse_args()
 
-    import real_replica_bench.verifiers.alibaba_publish_v2 as ap_v2
+    import bench_core.verifiers.alibaba_publish_v2 as ap_v2
 
     ap_v2.verify(
         task_dir=Path(args.task_dir),

@@ -21,12 +21,12 @@ PINNED_RUNTIME = (
     "sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859"
 )
 COLLECTIONS = {
-    "all": DATASETS / "realreplicabench_domain_v1_all.collection.json",
-    "text_only": DATASETS / "realreplicabench_domain_v1_text_only.collection.json",
+    "all": DATASETS / "domain_v1_all.collection.json",
+    "text_only": DATASETS / "domain_v1_text_only.collection.json",
     "browser_textcapable": (
-        DATASETS / "realreplicabench_domain_v1_browser_textcapable.collection.json"
+        DATASETS / "domain_v1_browser_textcapable.collection.json"
     ),
-    "vision": DATASETS / "realreplicabench_domain_v1_vision.collection.json",
+    "vision": DATASETS / "domain_v1_vision.collection.json",
 }
 
 SECRET_PATTERNS = {
@@ -224,10 +224,10 @@ def validate_configs(check: Validation) -> None:
                 # public-vendor-URL pinning below. See
                 # docs/openclaw-byo-endpoint.md.
                 byo_models_configs = {
-                    "realreplicabench_openai_chat_models.json",
-                    "realreplicabench_openai_responses_models.json",
-                    "realreplicabench_anthropic_messages_models.json",
-                    "realreplicabench_custom_gemini_models.json",
+                    "openai_chat_models.json",
+                    "openai_responses_models.json",
+                    "anthropic_messages_models.json",
+                    "custom_gemini_models.json",
                 }
                 is_byo_preset = models_path.name in byo_models_configs
                 models_payload = load_json(models_path)
@@ -343,13 +343,13 @@ def validate_readme_branding(check: Validation) -> None:
 
     ownership = "Developed and maintained by the Accio team at Alibaba International."
     check.require(ownership in readme, "README is missing the Accio ownership statement")
-    showcase_url = "https://realreplicabench-mock-showcase.site.accio.ai/"
+    showcase_url = "https://commerce-agent-bench-mock-showcase.site.accio.ai/"
     check.require(
         showcase_url in readme,
         "README is missing the public UI mock showcase link",
     )
     check.require(
-        "https://realreplicabench.site.accio.ai/" in readme,
+        "https://commerce-agent-bench.site.accio.ai/" in readme,
         "README is missing the live leaderboard site link",
     )
     check.require(
@@ -394,7 +394,7 @@ def validate_readme_branding(check: Validation) -> None:
         "README detailed statistics do not match the published leaderboard values",
     )
     check.require(
-        "realreplicabench.site.accio.ai" in readme and "source of record" in readme,
+        "commerce-agent-bench.site.accio.ai" in readme and "source of record" in readme,
         "README must name the live leaderboard as the source of record",
     )
     forbidden_result_terms = (
@@ -488,7 +488,7 @@ def validate_public_hygiene(check: Validation) -> None:
 
     project = tomllib.loads((ROOT / "pyproject.toml").read_text(encoding="utf-8"))
     project_version = str((project.get("project") or {}).get("version") or "")
-    init_text = (ROOT / "real_replica_bench" / "__init__.py").read_text(encoding="utf-8")
+    init_text = (ROOT / "bench_core" / "__init__.py").read_text(encoding="utf-8")
     init_match = re.search(r'__version__\s*=\s*"([^"]+)"', init_text)
     check.require(
         bool(init_match) and init_match.group(1) == project_version,
@@ -515,7 +515,7 @@ def validate_public_hygiene(check: Validation) -> None:
 def validate_mock_staging(check: Validation) -> None:
     """Keep the contributed-mock staging area separated from the shipped set.
 
-    ``real_replica_bench/mock_services/contrib/`` holds community services that
+    ``bench_core/mock_services/contrib/`` holds community services that
     are merged and credited but not yet part of the benchmark. The separation is
     load-bearing in three directions and each one fails silently:
 
@@ -528,7 +528,7 @@ def validate_mock_staging(check: Validation) -> None:
     - A task resolving its runtime mock out of ``contrib/`` would run against
       source that is in the repository but not in the image.
     """
-    mock_root = ROOT / "real_replica_bench" / "mock_services"
+    mock_root = ROOT / "bench_core" / "mock_services"
     contrib = mock_root / "contrib"
     check.require(
         (contrib / "README.md").is_file(),
@@ -538,7 +538,7 @@ def validate_mock_staging(check: Validation) -> None:
     if str(ROOT) not in sys.path:
         sys.path.insert(0, str(ROOT))
     try:
-        from real_replica_bench.mock_services.registry import MOCK_SERVICE_REGISTRY
+        from bench_core.mock_services.registry import MOCK_SERVICE_REGISTRY
     except ImportError as exc:
         check.warnings.append(f"mock registry not importable; staging checks skipped ({exc})")
         return

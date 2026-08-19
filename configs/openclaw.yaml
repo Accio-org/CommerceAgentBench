@@ -1,0 +1,40 @@
+# Commerce Agent Bench — OpenClaw harness, full datasets_domain_v1 (107 tasks).
+# Public path: agent models served via OpenRouter; LLM judge via a standard
+# provider (Gemini/OpenAI). Provide keys via env or CLI; do not commit keys.
+#
+#   real-replica-bench run --config configs/openclaw.yaml \
+#     --openclaw-api-key "$OPENROUTER_API_KEY"
+#
+# The benchmark image is public on Docker Hub:
+#   docker pull acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+
+run_id: domain-v1-openclaw
+datasets_dir: datasets_domain_v1
+collection: datasets_domain_v1/domain_v1_all.collection.json
+parallelism: 2
+
+runtime:
+  os: linux
+  image: acciolyk/accio_bench@sha256:1e9cf5c72a56794175b7d06ece036b92e296e6b7e9e9a7fa244026f6acea3859
+  platform: linux/amd64
+
+harness: openclaw
+
+openclaw:
+  model: openrouter/openai/gpt-5.5
+  base_url: https://openrouter.ai/api/v1
+  gateway_port: 18789
+  gateway_ready_delay: 6
+  # The auto-enabled shim preserves native reasoning.effort or supplies it when absent.
+  thinking: medium
+
+judge:
+  # api_key falls back to the provider env var (GEMINI_API_KEY / OPENAI_API_KEY)
+  # when omitted here.
+  provider: gemini
+  # Same public model identifier as the reference judge; the provider route
+  # still differs from the managed endpoint used for reference scores.
+  model: gemini-3.1-pro-preview
+  timeout: 240
+
+start_index: 1

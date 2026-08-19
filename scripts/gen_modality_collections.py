@@ -3,13 +3,13 @@
 `[environment].requires_vision` / `requires_browser` flags.
 
 Outputs (next to the canonical _all collection):
-  - realreplicabench_domain_v1_text_only.collection.json
+  - domain_v1_text_only.collection.json
       requires_vision == false AND requires_browser == false
       → guaranteed safe for non-multimodal models (no image to interpret AND no
         browser perception dependency).
-  - realreplicabench_domain_v1_vision.collection.json
+  - domain_v1_vision.collection.json
       requires_vision == true
-  - realreplicabench_domain_v1_browser_textcapable.collection.json
+  - domain_v1_browser_textcapable.collection.json
       requires_vision == false AND requires_browser == true
       → browser tasks whose CONTENT needs no vision; candidates to fold into
         text_only IF an empirical smoke shows the harness exposes enough non-visual
@@ -32,7 +32,7 @@ except ModuleNotFoundError:
 
 ROOT = Path(__file__).resolve().parents[1]
 DATASETS = ROOT / "datasets_domain_v1"
-ALL_COLLECTION = DATASETS / "realreplicabench_domain_v1_all.collection.json"
+ALL_COLLECTION = DATASETS / "domain_v1_all.collection.json"
 
 
 def main() -> None:
@@ -77,9 +77,9 @@ def main() -> None:
     ]
     print(f"total tasks: {total}")
     for name, ids, desc in specs:
-        out = DATASETS / f"realreplicabench_domain_v1_{name}.collection.json"
+        out = DATASETS / f"domain_v1_{name}.collection.json"
         payload = {
-            "collection_id": f"realreplicabench_domain_v1_{name}",
+            "collection_id": f"domain_v1_{name}",
             "description": desc,
             "task_ids": ids,
         }

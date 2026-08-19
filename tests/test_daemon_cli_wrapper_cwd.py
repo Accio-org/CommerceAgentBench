@@ -55,7 +55,7 @@ def _generated_wrapper_source(port: int = 7899) -> str:
     Patches `docker` inside the cli module to capture the `bash -lc` command
     instead of executing it, then unwraps the heredoc.
     """
-    cli = importlib.import_module("real_replica_bench.cli")
+    cli = importlib.import_module("bench_core.cli")
     mock_config = cli.RuntimeMockConfig(
         name="stripe_cli",
         source_dir=Path("/unused/source"),

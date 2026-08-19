@@ -7,7 +7,7 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-from real_replica_bench.verifiers.form_value_normalize import compare_form_value
+from bench_core.verifiers.form_value_normalize import compare_form_value
 
 FILE_CHECK_PREFIX = 'banner'
 FILE_SELECTION_KEY = 'banner_selection'

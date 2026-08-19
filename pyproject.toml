@@ -32,14 +32,14 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://realreplicabench.site.accio.ai"
+Homepage = "https://commerce-agent-bench.site.accio.ai"
 Repository = "https://github.com/Accio-org/RealReplicaBench"
-"Mock showcase" = "https://realreplicabench-mock-showcase.site.accio.ai"
+"Mock showcase" = "https://commerce-agent-bench-mock-showcase.site.accio.ai"
 Accio = "https://www.accio.com"
 
 [project.scripts]
-real-replica-bench = "real_replica_bench.cli:main"
-real-replica-bench-llm-judge = "real_replica_bench.llm_judge_cli:main"
+real-replica-bench = "bench_core.cli:main"
+real-replica-bench-llm-judge = "bench_core.llm_judge_cli:main"
 
 [tool.setuptools.packages.find]
-include = ["real_replica_bench*"]
+include = ["bench_core*"]

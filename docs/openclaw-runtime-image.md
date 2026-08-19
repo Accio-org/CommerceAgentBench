@@ -37,7 +37,7 @@ One mock fix lives inside the image rather than in this repository:
 `/opt/mock_services/alibaba_publish/` rejects a non-numeric
 `deliveryPeriod[].days` server-side. Because that validator is baked into the
 image, editing
-`real_replica_bench/mock_services/alibaba_publish/validation.js` in this
+`bench_core/mock_services/alibaba_publish/validation.js` in this
 checkout has no effect on a run until the image is rebuilt — see
 [Source and customization boundary](#source-and-customization-boundary).
 

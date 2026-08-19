@@ -15,7 +15,7 @@
 // the dataset catalog. No authentication, GET-only.
 //
 // Pre-loads every snapshot into memory at boot. The harness's
-// scrub_mock_runtime_materials step (real_replica_bench/cli.py:389)
+// scrub_mock_runtime_materials step (bench_core/cli.py:389)
 // deletes private/<task_id>/mock_runtime/ shortly after launch — anything
 // we need at request time must be resident before that scrub fires.
 

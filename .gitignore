@@ -34,13 +34,13 @@ htmlcov/
 /dataset_dev/
 
 # Mock service runtime artifacts (SQLite DBs, Bun lockfiles auto-generated on first run)
-real_replica_bench/mock_services/*/data/
-!real_replica_bench/mock_services/google_docs_mock/data/
-!real_replica_bench/mock_services/google_docs_mock/data/seed_state.json
+bench_core/mock_services/*/data/
+!bench_core/mock_services/google_docs_mock/data/
+!bench_core/mock_services/google_docs_mock/data/seed_state.json
 # ** so these reach staged services under contrib/<name>/ too, not just the
 # shipped services one level down.
-real_replica_bench/mock_services/**/bun.lock
-real_replica_bench/mock_services/**/node_modules/
+bench_core/mock_services/**/bun.lock
+bench_core/mock_services/**/node_modules/
 
 # Claude Code local session / hooks dir
 .claude/
@@ -53,7 +53,7 @@ real_replica_bench/mock_services/**/node_modules/
 
 # Hosted-site workspaces and the legacy in-repo web pages. The public pages are
 # deployed from local site workspaces — rrb-report/ builds the leaderboard at
-# realreplicabench.site.accio.ai — and are NOT shipped in this repository.
+# commerce-agent-bench.site.accio.ai — and are NOT shipped in this repository.
 # rrb-matrix/ builds a site this release does not link; it stays local too.
 # The legacy docs/index.html and docs/matrix.html pages (plus their page-only
 # assets and data-regeneration helper) stay local for site maintenance. Runtime
@@ -65,6 +65,12 @@ real_replica_bench/mock_services/**/node_modules/
 /rrb-report-v2/
 /rrb-matrix/
 /project/
+# Local site workspaces and material staging, including any rrb-* variant.
+# These are deployed or assembled outside the release repository.
+/rrb-*/
+/cab-report/
+/cab-mock-showcase/
+/p5176.html
 /docs/index.html
 /docs/matrix.html
 /docs/assets/model-icons/
@@ -89,7 +95,7 @@ real_replica_bench/mock_services/**/node_modules/
 /scratch/*
 !/scratch/README.md
 
-# Reference results. The live leaderboard at realreplicabench.site.accio.ai is
+# Reference results. The live leaderboard at commerce-agent-bench.site.accio.ai is
 # the source of record; a JSON snapshot in the repo only ever drifts behind it
 # and gives readers two numbers to choose between. README carries a
 # human-readable snapshot and says the site wins.
@@ -124,10 +130,10 @@ real_replica_bench/mock_services/**/node_modules/
 # Ignoring any of that would break the tasks it belongs to. Do not widen this
 # list to "every tracked file containing Chinese".
 /datasets_domain_v1/README.md
-/real_replica_bench/mock_services/gmail_mock/README.md
-/real_replica_bench/mock_services/google_docs_mock/README.md
-/real_replica_bench/mock_services/notion_cli/test/README.md
-/real_replica_bench/mock_services/shopify_online_store_v2/README.md
-/real_replica_bench/mock_services/stripe_cli/README.md
-/real_replica_bench/mock_services/stripe_cli/TUTORIAL.md
-/real_replica_bench/mock_services/stripe_cli/golden/README.md
+/bench_core/mock_services/gmail_mock/README.md
+/bench_core/mock_services/google_docs_mock/README.md
+/bench_core/mock_services/notion_cli/test/README.md
+/bench_core/mock_services/shopify_online_store_v2/README.md
+/bench_core/mock_services/stripe_cli/README.md
+/bench_core/mock_services/stripe_cli/TUTORIAL.md
+/bench_core/mock_services/stripe_cli/golden/README.md
