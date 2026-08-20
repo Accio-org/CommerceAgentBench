@@ -39,7 +39,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REF_DIR = ROOT / "workspace" / "references"
 
 
-WATERMARK_TEXT = "FOR COMMERCE AGENT BENCH USE ONLY - NOT AN OFFICIAL PUBLICATION"
+WATERMARK_TEXT = "FOR REALREPLICABENCH BENCHMARK USE ONLY — NOT AN OFFICIAL PUBLICATION"
 
 
 def _draw_watermark_and_footer(canvas: Canvas, doc) -> None:
@@ -68,7 +68,7 @@ def _build_doc(path: Path) -> tuple[BaseDocTemplate, list]:
         topMargin=20 * mm,
         bottomMargin=18 * mm,
         title=path.stem.replace("_", " ").title(),
-        author="Commerce Agent Bench Sourcing Desk (synthetic)",
+        author="RealReplicaBench Sourcing Desk (synthetic)",
         subject="Internal sourcing reference — benchmark use only",
     )
     frame = Frame(
@@ -92,17 +92,8 @@ def _styles() -> dict[str, ParagraphStyle]:
         "h3": ParagraphStyle("h3", parent=base["Heading3"], fontSize=11, leading=14, spaceBefore=6, spaceAfter=3),
         "body": ParagraphStyle("body", parent=base["BodyText"], fontSize=9.5, leading=13, spaceAfter=4),
         "note": ParagraphStyle("note", parent=base["BodyText"], fontSize=8.5, leading=11, textColor=colors.darkgrey, spaceAfter=4),
-        "table_head": ParagraphStyle("table_head", parent=base["BodyText"], fontName="Helvetica-Bold", fontSize=7.5, leading=9),
-        "table_cell": ParagraphStyle("table_cell", parent=base["BodyText"], fontSize=7.5, leading=9),
     }
     return s
-
-
-def _wrap_table(rows: list[list[str]], st: dict[str, ParagraphStyle]) -> list[list[Paragraph]]:
-    return [
-        [Paragraph(str(cell), st["table_head" if row_index == 0 else "table_cell"]) for cell in row]
-        for row_index, row in enumerate(rows)
-    ]
 
 
 def build_incoterms_pdf() -> None:
@@ -112,7 +103,7 @@ def build_incoterms_pdf() -> None:
 
     story.append(Paragraph("Incoterms 2020 Quick Reference", st["title"]))
     story.append(Paragraph(
-        "Internal sourcing-desk edition — synthetic summary prepared for the Commerce Agent Bench dataset. "
+        "Internal sourcing-desk edition — synthetic summary prepared for the RealReplicaBench dataset. "
         "Not an ICC publication. See the official ICC Incoterms 2020 rules for binding text.",
         st["note"],
     ))
@@ -140,7 +131,7 @@ def build_incoterms_pdf() -> None:
         ["DPU", "Named place, unloaded by seller", "Destination", "Seller"],
         ["DDP", "Named place of destination, duties cleared", "Destination", "Seller (incl. import duties / taxes)"],
     ]
-    tbl_any = Table(_wrap_table(table_data_any, st), colWidths=[18 * mm, 56 * mm, 32 * mm, 56 * mm], repeatRows=1)
+    tbl_any = Table(table_data_any, colWidths=[18 * mm, 56 * mm, 32 * mm, 56 * mm], repeatRows=1)
     tbl_any.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
         ("FONT", (0, 0), (-1, 0), "Helvetica-Bold", 9),
@@ -160,7 +151,7 @@ def build_incoterms_pdf() -> None:
         ["CFR", "Goods loaded on vessel", "Loading port (on board)", "Seller pays sea freight; risk on buyer from loading"],
         ["CIF", "Goods loaded on vessel", "Loading port (on board)", "Seller pays sea freight + min insurance"],
     ]
-    tbl_sea = Table(_wrap_table(table_data_sea, st), colWidths=[18 * mm, 56 * mm, 32 * mm, 56 * mm], repeatRows=1)
+    tbl_sea = Table(table_data_sea, colWidths=[18 * mm, 56 * mm, 32 * mm, 56 * mm], repeatRows=1)
     tbl_sea.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
         ("FONT", (0, 0), (-1, 0), "Helvetica-Bold", 9),
@@ -243,7 +234,7 @@ def build_transit_times_pdf() -> None:
 
     story.append(Paragraph("Ocean Freight Typical Transit Times — Selected Major Lanes", st["title"]))
     story.append(Paragraph(
-        "Internal sourcing-desk reference. Synthetic estimates prepared for the Commerce Agent Bench dataset; "
+        "Internal sourcing-desk reference. Synthetic estimates prepared for the RealReplicaBench dataset; "
         "not a carrier-published timetable. Use carrier-specific quotes for booked vessels.",
         st["note"],
     ))
@@ -281,7 +272,7 @@ def build_transit_times_pdf() -> None:
         ["Yantian (CNYTN)", "Long Beach (USLAX)", "13–17", "Slightly faster than Shanghai origin"],
         ["Ningbo (CNNGB)", "Long Beach (USLAX)", "14–18", "Same lane group as Shanghai origin"],
     ]
-    tbl_na = Table(_wrap_table(data_na, st), colWidths=[40 * mm, 56 * mm, 28 * mm, 50 * mm], repeatRows=1)
+    tbl_na = Table(data_na, colWidths=[40 * mm, 56 * mm, 28 * mm, 50 * mm], repeatRows=1)
     tbl_na.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
         ("FONT", (0, 0), (-1, 0), "Helvetica-Bold", 9),
@@ -304,7 +295,7 @@ def build_transit_times_pdf() -> None:
         ["Shanghai (CNSHA)", "Piraeus (GRPIR)", "24–30", "Mediterranean transhipment hub"],
         ["Ningbo (CNNGB)", "Hamburg (DEHAM)", "30–38", "Same lane group as Shanghai origin"],
     ]
-    tbl_eu = Table(_wrap_table(data_eu, st), colWidths=[40 * mm, 56 * mm, 28 * mm, 50 * mm], repeatRows=1)
+    tbl_eu = Table(data_eu, colWidths=[40 * mm, 56 * mm, 28 * mm, 50 * mm], repeatRows=1)
     tbl_eu.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
         ("FONT", (0, 0), (-1, 0), "Helvetica-Bold", 9),
@@ -330,7 +321,7 @@ def build_transit_times_pdf() -> None:
         ["Shanghai (CNSHA)", "Yokohama (JPYOK)", "3–5", "Intra-Asia"],
         ["Shanghai (CNSHA)", "Ho Chi Minh City (VNSGN)", "5–9", "Intra-Asia, often via Hong Kong"],
     ]
-    tbl_row = Table(_wrap_table(data_row, st), colWidths=[40 * mm, 56 * mm, 28 * mm, 50 * mm], repeatRows=1)
+    tbl_row = Table(data_row, colWidths=[40 * mm, 56 * mm, 28 * mm, 50 * mm], repeatRows=1)
     tbl_row.setStyle(TableStyle([
         ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
         ("FONT", (0, 0), (-1, 0), "Helvetica-Bold", 9),
