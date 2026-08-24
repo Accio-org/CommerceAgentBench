@@ -430,7 +430,7 @@ the repository directly:
             Yang and Xiaoyu Guo and Li Cai and Jialong Zhu},
     title={Commerce Agent Bench: A Stateful Agent Benchmark for Long-Horizon Commerce and Business Workflows},
     note={GitHub repository, v1.3.1},
-    howpublished={\url{https://github.com/Accio-org/RealReplicaBench}},
+    howpublished={\url{https://github.com/Accio-org/CommerceAgentBench}},
     year={2026}
 }
 ```
